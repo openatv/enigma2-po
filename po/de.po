@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-21 17:27+0000\n"
-"PO-Revision-Date: 2021-10-25 16:49+0000\n"
+"PO-Revision-Date: 2021-10-25 21:50+0000\n"
 "Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/"
 "enigma2-7-0-po/de/>\n"
@@ -333,7 +333,7 @@ msgid " <empty>"
 msgstr " <leer>"
 
 msgid " HI "
-msgstr " Hallo "
+msgstr " HI "
 
 msgid " and"
 msgstr " und"
@@ -2113,6 +2113,7 @@ msgstr ""
 "Der Ausschalttimer wird um 30 Minuten verlängert und schaltet Ihre %s %s\n"
 "nach dem Aufnahme- oder PowerTimer-Ereignis ab. Jetzt in den Standby gehen?"
 
+#, fuzzy
 msgid ""
 "A background update check is in progress, please wait a few minutes and try "
 "again."
@@ -2746,7 +2747,7 @@ msgstr "Nach der Aufnahme"
 
 # PowerTimer
 msgid "After event"
-msgstr "Nach der Sendung"
+msgstr "Nach dem Ereignis"
 
 msgid "After pressing OK, please wait!"
 msgstr "Nach dem Drücken von OK bitte warten!"
@@ -3049,9 +3050,9 @@ msgstr "Antigua und Barbuda"
 msgid "Any activity"
 msgstr "Jede Aktivität"
 
+#, fuzzy
 msgid "Apply any changes to the active locale/langauge and exit"
-msgstr ""
-"Änderungen anwenden, um die aktive Sprache zu aktivieren und zu beenden"
+msgstr "Änderungen anwenden, um die aktive Sprache zu aktivieren und zu beenden"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Die aktuell markierte Sprache anwenden und beenden"
@@ -3581,11 +3582,11 @@ msgstr "Rückseite, oberer USB-Anschluss"
 #
 #, python-format
 msgid "Back-up Tool for a %s\n"
-msgstr "Sicherungswerkzeug für %s\n"
+msgstr "Back-up Tool für %s\n"
 
 #, python-format
 msgid "Back-up Tool for an %s\n"
-msgstr "Sicherungswerkzeug für eine %s\n"
+msgstr "Back-up Tool für eine %s\n"
 
 msgid "Back/Recall"
 msgstr "Zurück"
@@ -4547,7 +4548,7 @@ msgid "Channel"
 msgstr "Kanal"
 
 msgid "Channel \t\t\tVolume +"
-msgstr "Kanal \t\t\tVolume +"
+msgstr "Kanal \t\t\tLautstärke +"
 
 #
 msgid "Channel +/-"
@@ -4591,7 +4592,7 @@ msgid "Channel list on mode change"
 msgstr "Senderliste bei Moduswechsel"
 
 msgid "Channel list preview"
-msgstr "Senderliste-Vorschau"
+msgstr "Sender Vorschaumodus"
 
 msgid "Channel list service mode*"
 msgstr "Servicemodus *"
@@ -5160,7 +5161,7 @@ msgid ""
 "Usage & User Interface > Settings'."
 msgstr ""
 "Konfigurationsoptionen für den HILFE-Bildschirm finden Sie unter 'MENU > "
-"Einstellungen > Bedienung & Oberflächen > Bedienoberfläche'."
+"Einstellungen > Bedienung & Oberfläche > OSD'."
 
 msgid ""
 "Configure an additional delay to improve external subtitle synchronisation."
@@ -6049,7 +6050,7 @@ msgstr "Erstelle:"
 # ImageBackup.py
 #, python-format
 msgid "Create: Recovery Fullbackup %s"
-msgstr "Erstelle: Komplettsicherung %s"
+msgstr "Erstelle: Recovery Fullbackup %s"
 
 msgid "Creating AP and SC Files"
 msgstr "Erstelle AP- und SC-Dateien"
@@ -6087,7 +6088,7 @@ msgid "Cron Manager"
 msgstr "Cronverwaltung"
 
 msgid "CronTimers"
-msgstr "Crontimer"
+msgstr "CronTimer"
 
 msgid "Cuba"
 msgstr "Kuba"
@@ -7353,7 +7354,7 @@ msgstr "Standard nicht anzeigen"
 
 #
 msgid "Don't stop current event but disable coming events"
-msgstr "Laufende Aufnahme nicht abbrechen, aber kommende deaktivieren"
+msgstr "Aktuelles Ereignis nicht beenden, aber zukünftige deaktivieren"
 
 msgid ""
 "Don't worry your device is still ok! There are several safety mechanisms in "
@@ -8296,7 +8297,7 @@ msgid "Even if TV has another input active?"
 msgstr "Auch wenn der TV einen anderen Eingang aktiviert hat?"
 
 msgid "Even if a 'wakeup' power timer starting?"
-msgstr "Auch wenn ein 'Aufwecken' Powertimer startet?"
+msgstr "Auch wenn ein 'Aufwecken' PowerTimer startet?"
 
 msgid "Even if a 'zap and record' recording timer starting?"
 msgstr "Auch wenn ein 'Umschalten und Aufnehmen' Timer startet?"
@@ -9546,13 +9547,13 @@ msgid "HDMI-IN Recording settings"
 msgstr "HDMI-IN-Aufnahmen"
 
 msgid "HDMIin"
-msgstr "HDMI-Eingang"
+msgstr "HDMI-IN"
 
 msgid "HDR10 Support"
 msgstr "HDR10 Unterstützung"
 
 msgid "HELP"
-msgstr "HELP/INFO"
+msgstr "HELP"
 
 msgid "HELP provides brief information for buttons in your current context."
 msgstr ""
@@ -10371,7 +10372,7 @@ msgid "Include remote control data"
 msgstr "Inklusive Fernbedienungsdaten"
 
 msgid "Include screen load data"
-msgstr "Inklusive Bildschirmladedaten"
+msgstr "Inklusive Screen-Daten"
 
 msgid "Incorrect type service for PiP!"
 msgstr "Falscher Diensttyp für PiP!"
@@ -10474,7 +10475,7 @@ msgid "Information"
 msgstr "Informationen"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Infopanel"
 
 #
 msgid "Infotainment"
@@ -11510,7 +11511,7 @@ msgstr "Logdateien die älter sind als diese Anzahl von Tagen werden gelöscht."
 
 #
 msgid "Logs settings"
-msgstr "Einstellungen für Logs"
+msgstr "Logs"
 
 msgid "Long << / >>"
 msgstr "Lang << / >>"
@@ -11937,7 +11938,7 @@ msgid "MiniTV"
 msgstr "MiniTV"
 
 msgid "MiniTV with OSD"
-msgstr "MiniTV mit Bedienoberfläche"
+msgstr "MiniTV mit OSD"
 
 #, python-format
 msgid "Minimum age %d years"
@@ -13283,30 +13284,30 @@ msgid "ONID"
 msgstr "ONID"
 
 msgid "OSD"
-msgstr "Bedienoberfläche"
+msgstr "OSD"
 
 msgid "OSD 3D Setup"
-msgstr "Bedienoberfläche 3D-Einstellungen"
+msgstr "OSD-3D-Konfiguration"
 
 msgid "OSD Adjustment"
-msgstr "Bedienoberfläche anpassen"
+msgstr "OSD Overscan"
 
 #
 msgid "OSD Position"
-msgstr "Bedienoberfläche ausrichten"
+msgstr "OSD Kalibrieren"
 
 # Quick Menue
 msgid "OSD Setup"
-msgstr "Bedienoberfläche anpassen"
+msgstr "Bedienoberfläche/OSD anpassen"
 
 msgid "OSD name request"
-msgstr "Bedienoberfläche-Sprache"
+msgstr "OSD-Sprache"
 
 msgid "OSD position setup"
-msgstr "Bedienoberfläche-Positionseinstellungen"
+msgstr "OSD-Positionseinstellungen"
 
 msgid "OSD settings"
-msgstr "Bedienoberfläche"
+msgstr "OSD"
 
 msgid "OScam Info"
 msgstr "OSCam-Info"
@@ -13685,7 +13686,7 @@ msgid "PIP long"
 msgstr "Bild im Bild lang"
 
 msgid "PIP with OSD"
-msgstr "Bild im Bild mit Bedienoberfläche"
+msgstr "Bild im Bild mit OSD"
 
 msgid "PLP ID"
 msgstr "PLP-ID"
@@ -14680,31 +14681,31 @@ msgstr ""
 
 #
 msgid "PowerManager entry"
-msgstr "Powertimer-Eintrag"
+msgstr "PowerTimer-Eintrag"
 
 #
 msgid "PowerManager log"
-msgstr "Powertimer-Log"
+msgstr "PowerTimer-Log"
 
 msgid "PowerTimer"
-msgstr "Powertimer"
+msgstr "PowerTimer"
 
 msgid "PowerTimer DeepStandby"
-msgstr "Powertimer-Deep-Standby"
+msgstr "PowerTimer Deep-Standby"
 
 #
 msgid "PowerTimer List"
-msgstr "Powertimer-Liste"
+msgstr "PowerTimer-Liste"
 
 #
 msgid "PowerTimer Overview"
-msgstr "Powertimer-Übersicht"
+msgstr "PowerTimer-Übersicht"
 
 msgid "PowerTimer Standby"
-msgstr "Powertimer-Standby"
+msgstr "PowerTimer-Standby"
 
 msgid "PowerTimers"
-msgstr "Powertimer"
+msgstr "PowerTimer"
 
 msgid "Predefined"
 msgstr "Vordefiniert"
@@ -15761,6 +15762,7 @@ msgid "Repeat type"
 msgstr "Wiederholungstyp"
 
 #
+#, fuzzy
 msgid "Repeating event currently recording... What do you want to do?"
 msgstr ""
 "Wiederholender Aufnahmetimer ist zurzeit aktiv!\n"
@@ -17665,7 +17667,7 @@ msgid ""
 msgstr ""
 "Die Wartezeit für die Ausführung der Standardaktion in den Meldungen "
 "Ausschalten, Standby oder Neustart einstellen (z.B. verwendet in Timer, "
-"Powertimer, Ausschalttimer, etc.)."
+"PowerTimer, Ausschalttimer, etc.)."
 
 msgid ""
 "Set the type of the progress indication in the channel selection screen."
@@ -17866,17 +17868,18 @@ msgstr "Gerätemounts einrichten (USB, Festplatte etc.)"
 
 # Quick Menue
 msgid "Setup your EPG config"
-msgstr "EPG-Einstellungen"
+msgstr "EPG Einstellungen konfigurieren."
 
 msgid "Setup your Harddisk"
 msgstr "Konfiguration der Festplatte"
 
 msgid "Setup your LCD"
-msgstr "Boxdisplay einstellen"
+msgstr "Einstellen des LCDs."
 
 # Quick Menue
 msgid "Setup your OSD"
-msgstr "Bedienoberfläche anpassen"
+msgstr ""
+"Stellen Sie die Bedienoberfläche/OSD auf Ihre persönlichen Bedürfnisse ein."
 
 msgid "Setup your Skin"
 msgstr "Skin-Einstellungen"
@@ -18586,7 +18589,7 @@ msgstr "DreamPlex-Player anzeigen..."
 
 #
 msgid "Show the Power Timer"
-msgstr "Powertimer anzeigen"
+msgstr "PowerTimer anzeigen"
 
 #
 msgid "Show the Sleep Timer"
@@ -22226,7 +22229,7 @@ msgid "Uruguay"
 msgstr "Uruguay"
 
 msgid "Usage & GUI"
-msgstr "Bedienung & Oberflächen"
+msgstr "Bedienung & Oberfläche"
 
 msgid "Usage Setup"
 msgstr "Bedienung"
@@ -22293,7 +22296,7 @@ msgid "Use a gateway"
 msgstr "Ein Gateway verwenden"
 
 msgid "Use as HDD"
-msgstr "Als Festplatte verwenden"
+msgstr "Mount HDD"
 
 msgid ""
 "Use automatic mode detection.\n"
@@ -22357,7 +22360,7 @@ msgid ""
 "Use the Left/Right buttons on your remote to adjust the size of the user "
 "interface. Left button decreases the size, Right increases the size."
 msgstr ""
-"Die Tasten Links/Rechts benutzen, um die Größe der Benutzeroberfläche "
+"Die Tasten Links/Rechts benutzen, um die Größe der Benutzeroberfläche/OSD "
 "anzupassen. Taste Links verkleinert, Taste Rechts vergrößert sie."
 
 # OSD
@@ -22365,14 +22368,14 @@ msgid ""
 "Use the Left/Right buttons on your remote to move the user interface left/"
 "right"
 msgstr ""
-"Die Tasten Links/Rechts benutzen, um die Benutzeroberfläche nach links oder "
-"rechts zu verschieben."
+"Die Tasten Links/Rechts benutzen, um die Benutzeroberfläche/OSD nach links "
+"oder rechts zu verschieben."
 
 msgid ""
 "Use the Left/Right buttons on your remote to move the user interface up/down"
 msgstr ""
-"Die Tasten Links/Rechts benutzen, um die Benutzeroberfläche nach oben oder "
-"unten zu verschieben."
+"Die Tasten Links/Rechts benutzen, um die Benutzeroberfläche/OSD nach oben "
+"oder unten zu verschieben."
 
 msgid ""
 "Use the Networkwizard to configure your Network. The wizard will help you to "
@@ -23839,10 +23842,12 @@ msgstr ""
 "Soll '%s' entfernt werden?"
 
 msgid "You can Display MiniTV with or without OSD Menu"
-msgstr "MiniTV mit oder ohne Bedienoberflächenmenü anzeigen."
+msgstr "Zeige MiniTV im Display mit oder ohne OSD-Menü"
 
 msgid "You can Display PIP with or without OSD Menu"
-msgstr "Bild im Bild mit oder ohne Bedienoberflächenmenü anzeigen."
+msgstr ""
+"Sie können sich Bild im Bild mit oder ohne OSD Menü im Front-Display "
+"anzeigen lassen."
 
 msgid "You can cancel the installation."
 msgstr "Sie können die Installation abbrechen."
