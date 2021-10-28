@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-21 17:27+0000\n"
+"POT-Creation-Date: 2021-10-28 19:26+0000\n"
 "PO-Revision-Date: 2021-10-28 03:03+0000\n"
 "Last-Translator: Grzegorz <grzegorz914@icloud.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/"
@@ -3538,7 +3538,8 @@ msgid "Backup, flash and restore settings and no plugins"
 msgstr "Kopia zapasowa, aktualizacja i przywrócenie ustawień bez wtyczek"
 
 msgid "Backup, flash and restore settings and selected plugins (ask user)"
-msgstr "Kopia zapasowa, aktualizacja, przywrócenie ustawień i wybranych wtyczek"
+msgstr ""
+"Kopia zapasowa, aktualizacja, przywrócenie ustawień i wybranych wtyczek"
 
 msgid "Bahamas"
 msgstr "Bahamy"
@@ -3729,6 +3730,15 @@ msgstr "Zwiększ niebieski"
 
 msgid "Boost green"
 msgstr "Zwiększ zielony"
+
+msgid "Boot time"
+msgstr ""
+
+msgid "Boot time and local data/time"
+msgstr ""
+
+msgid "Boot time and local time"
+msgstr ""
 
 msgid "Boot-up action"
 msgstr "Proces rozruchu"
@@ -4610,8 +4620,8 @@ msgid ""
 "zeros for single digit values.) The screen display will be based on your "
 "choice but can be influenced by the skin."
 msgstr ""
-"Wybierz styl formatowania wyświetlania na wyświetlaczu przednim dla dat. „D” "
-"/ „DD” to data, a „M” / „MM” to miesiąc cyframi. („DD” i „MM” mają zera "
+"Wybierz styl formatowania wyświetlania na wyświetlaczu przednim dla dat. "
+"„D” / „DD” to data, a „M” / „MM” to miesiąc cyframi. („DD” i „MM” mają zera "
 "wiodące dla wartości jednocyfrowych.) Obraz na ekranie będzie zależał od "
 "twojego wyboru, ale skóra może na niego wpływać."
 
@@ -6124,6 +6134,9 @@ msgstr "Dezaktywować"
 msgid "Debug Logs"
 msgstr "Logi Diagnostyczne"
 
+msgid "Debug log time format *"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Moduł i Kontrola Rodzicielska"
 
@@ -6346,14 +6359,8 @@ msgstr "Potwierdzenie Usuwania"
 msgid "Delete EPG"
 msgstr "Usuń EPG"
 
-msgid "Delete Lang"
-msgstr "Usuń Język"
-
 msgid "Delete Language"
 msgstr "Usuń Język"
-
-msgid "Delete Loc"
-msgstr "Usuń Region"
 
 msgid "Delete Plugins"
 msgstr "Usuń Wtyczki"
@@ -9965,12 +9972,6 @@ msgstr "Instalacja nieudana !!"
 msgid "Install Finished."
 msgstr "Instalacja zakończona."
 
-msgid "Install Lang"
-msgstr "Zainstaluj Język"
-
-msgid "Install Loc"
-msgstr "Zainstaluj Region"
-
 msgid "Install Plugins"
 msgstr "Instalowanie Wtyczek"
 
@@ -10209,9 +10210,6 @@ msgstr "Jawajski"
 
 msgid "Jersey"
 msgstr "Jersey"
-
-msgid "Job Manager"
-msgstr "Menadżer Pracy"
 
 msgid "Job View"
 msgstr "Widok Pracy"
@@ -10754,8 +10752,14 @@ msgstr "Wczytaj/Zapisz/Usuń"
 msgid "Local box"
 msgstr "Lokalny odbiornik"
 
+msgid "Local date/time"
+msgstr ""
+
 msgid "Local network"
 msgstr "Lokalna Sieć"
+
+msgid "Local time"
+msgstr ""
 
 msgid "Locale"
 msgstr "Miejscowy"
@@ -13580,9 +13584,6 @@ msgstr "Przeglądarka Wtyczek"
 msgid "Plugin Filter"
 msgstr "Filtr Wtyczek"
 
-msgid "Plugin browser"
-msgstr "Przeglądarka wtyczek"
-
 msgid "Plugin details"
 msgstr "Szczegóły wtyczki"
 
@@ -13709,20 +13710,20 @@ msgid "Power threshold. Consult your receiver's manual for more information."
 msgstr ""
 "Próg mocy. Więcej informacji można znaleźć w instrukcji obsługi odbiornika."
 
-msgid "PowerTimer Entry"
-msgstr "PowerMenadżer Wpis"
-
-msgid "PowerTimer Log"
-msgstr "PowerMenadżer logi"
-
 msgid "PowerTimer"
 msgstr "Timer Zasilania"
 
 msgid "PowerTimer DeepStandby"
 msgstr "Timer zasilania Głębokie Czuwanie"
 
+msgid "PowerTimer Entry"
+msgstr "PowerMenadżer Wpis"
+
 msgid "PowerTimer List"
 msgstr "Lista Timera Zasilania"
+
+msgid "PowerTimer Log"
+msgstr "PowerMenadżer logi"
 
 msgid "PowerTimer Overview"
 msgstr "Przegląd Timera Zasilania"
@@ -15337,6 +15338,9 @@ msgstr "Zrzut ekranu z LCD w /tmp"
 #, python-format
 msgid "Script '%s' must have read permission to be able to run it"
 msgstr "Skrypt '%s' musi mieć uprawnienia do odczytu, aby móc go uruchomić"
+
+msgid "Script Manager"
+msgstr ""
 
 msgid "ScriptRunner"
 msgstr "Script Runner"
@@ -19575,6 +19579,11 @@ msgstr "Wtyczka będzie zainstalowana."
 
 msgid "This plugin will be removed."
 msgstr "Wtyczka będzie usunięta."
+
+msgid ""
+"This sets the prefix for each line in the debug log. The 'Boot time' is the "
+"number of seconds since your %s %s was last booted."
+msgstr ""
 
 msgid ""
 "This setting allows the tuner configuration to be a duplication of how "
@@ -24546,6 +24555,24 @@ msgstr "przełączanie"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Delete Lang"
+#~ msgstr "Usuń Język"
+
+#~ msgid "Delete Loc"
+#~ msgstr "Usuń Region"
+
+#~ msgid "Install Lang"
+#~ msgstr "Zainstaluj Język"
+
+#~ msgid "Install Loc"
+#~ msgstr "Zainstaluj Region"
+
+#~ msgid "Job Manager"
+#~ msgstr "Menadżer Pracy"
+
+#~ msgid "Plugin browser"
+#~ msgstr "Przeglądarka wtyczek"
 
 #~ msgid "Cpu"
 #~ msgstr "Procesor"
