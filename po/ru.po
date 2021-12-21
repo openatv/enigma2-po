@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 21:27+0000\n"
+"POT-Creation-Date: 2021-12-20 21:36+0000\n"
 "PO-Revision-Date: 2021-12-03 16:50+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/"
@@ -57,14 +57,6 @@ msgid ""
 msgstr ""
 "\n"
 " Kodi нет в настоящее время. Продолжить установку?"
-
-msgid ""
-"\n"
-"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-msgstr ""
-"\n"
-"* Расположение журналов: настройки журналов, имя файла: Enigma2-hdmicec- "
-"[date].log"
 
 msgid ""
 "\n"
@@ -720,9 +712,6 @@ msgstr "%Y-%b-%d"
 
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
-
-msgid "%Y-%m-%d %H-%M"
-msgstr "%Y-%m-%d %H-%M"
 
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
@@ -1396,12 +1385,6 @@ msgstr ""
 "файлов таймшифта приоритет имеет условие, возникшее первым."
 
 msgid ""
-"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-msgstr ""
-"'Обработка режима ожидания с телевизора' имеет более высокий приоритет, чем "
-"'Обработка ввода с телевизора'"
-
-msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 "'Обрабатывать режим ожидания от телевизора' имеет более высокий приоритет, "
@@ -1435,10 +1418,6 @@ msgstr "(Показать только ридер:"
 
 msgid "(current image)"
 msgstr "(текущий имидж)"
-
-msgid "(e.g. TV wakeup, but not switched to correct input)"
-msgstr ""
-"(например, телевизор пробуждается, но не переключён на правильный вход)"
 
 msgid "(empty)"
 msgstr "(Пусто)"
@@ -1652,25 +1631,10 @@ msgstr "16:10 панорама"
 msgid "16:9"
 msgstr "16:9"
 
-msgid "16:9 Letterbox"
-msgstr "16:9 режим ящика"
-
 msgid "16:9 Always"
 msgstr "16:9 всегда"
 
-msgid "16_10_letterbox"
-msgstr "16:10 режим ящика"
-
-msgid "16_10_panscan"
-msgstr "16:10 панорама"
-
-msgid "16_9"
-msgstr "16:9"
-
-msgid "16_9_always"
-msgstr "всегда 16:9"
-
-msgid "16_9_letterbox"
+msgid "16:9 Letterbox"
 msgstr "16:9 режим ящика"
 
 msgid "18 V"
@@ -1903,12 +1867,6 @@ msgstr "4:3 панорама"
 
 msgid "4X"
 msgstr "4x"
-
-msgid "4_3_letterbox"
-msgstr "4:3 режим ящика"
-
-msgid "4_3_panscan"
-msgstr "4:3 Панорама"
 
 msgid "4s"
 msgstr "4с"
@@ -2341,9 +2299,6 @@ msgstr "О программе"
 msgid "About..."
 msgstr "О программе..."
 
-msgid "Accept the current selection"
-msgstr "Принять текущий выбор"
-
 msgid "Accessed:"
 msgstr "Доступ:"
 
@@ -2378,16 +2333,6 @@ msgstr ""
 "Активируйте способ отправки отдельных или определённых внутренних команд "
 "HDMI-CEC из командной строки."
 
-#, python-format
-msgid ""
-"Activate an way to send individual or specific internal HDMI-CEC commands "
-"from the command line. Type on command line 'echo help > %s' and then read "
-"the file '%s' for a short help."
-msgstr ""
-"Активируйте способ отправки отдельных или специфических внутренних команд "
-"HDMI-CEC из командной строки. Введите в командной строке 'echo help > %s', а "
-"затем прочитайте файл '%s' для получения краткой справки."
-
 msgid "Activate current configuration"
 msgstr "Активировать текущие настройки"
 
@@ -2414,20 +2359,6 @@ msgstr "Указать окончание таймшифта"
 
 msgid "Activate timeshift end and pause"
 msgstr "Указать окончание и паузу в таймшифте"
-
-msgid ""
-"Activation takes place immediately. If it does feature not work, then try "
-"again with a slower send interval."
-msgstr ""
-"Активация происходит немедленно. Если это не сработало, повторите попытку с "
-"более медленным интервалом отправки."
-
-msgid ""
-"Activation takes place immediately. If this feature is not supported, the "
-"volume keys has no function!"
-msgstr ""
-"Активация происходит немедленно. Если эта функция не поддерживается, кнопки "
-"регулировки громкости не работают!"
 
 msgid "Active"
 msgstr "Активный"
@@ -2851,9 +2782,6 @@ msgstr ""
 "(автономное/offline декодирование), если такая вожможность реализована в "
 "вашем ресивере. По умолчанию: ВЫКЛ."
 
-msgid "Always select OK"
-msgstr "Всегда спрашивать"
-
 msgid "Always show bouquets"
 msgstr "Всегда показывать фавориты"
 
@@ -2882,17 +2810,6 @@ msgstr ""
 "за неправильных или отсутствующих сообщений о состоянии, это может привести "
 "к неожиданному ответу получателя. С другой стороны, старается лучше "
 "реагировать на разные условия эксплуатации."
-
-msgid ""
-"An attempt is made to capture the current TV status. If this is not possible "
-"due to incorrect or missing status messages, it may cause the receiver to "
-"respond unexpectedly.\n"
-"On the other hand, tries to respond better to different operating conditions."
-msgstr ""
-"Предпринята попытка зафиксировать текущий статус ТВ. Если это невозможно из-"
-"за неправильных или отсутствующих сообщений о состоянии, это может привести "
-"к неожиданному ответу получателя.\n"
-"С другой стороны, старается лучше реагировать на разные условия эксплуатации."
 
 msgid "An empty filename is illegal."
 msgstr "Пустое имя недопустимо."
@@ -4211,9 +4128,6 @@ msgstr "Отмена выбора имиджа и выход"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Отмена выбора имиджа и выход из всех меню"
 
-msgid "Cancel the selection"
-msgstr "Отменить выбор"
-
 msgid "Cancelled upon user request"
 msgstr "Отменено по запросу пользователя"
 
@@ -4573,10 +4487,6 @@ msgstr ""
 "Выберите ярлык, который будет идентифицировать это устройство в сервисах "
 "IceTV."
 
-msgid "Choose a setting where your receiver wakes up from standby."
-msgstr ""
-"Выберите настройку, при которой Ваш ресивер выходит из режима ожидания."
-
 msgid "Choose a tag for easy finding a recording."
 msgstr "Выберите тег для облегчения поиска записи."
 
@@ -4788,6 +4698,9 @@ msgstr "Нажмите на пульте кнопку, действие для �
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Клиент ( Версия Oscam : %s )"
 
+msgid "Client is streaming from this box!"
+msgstr ""
+
 msgid "ClientIP"
 msgstr "IP клиента"
 
@@ -4811,6 +4724,9 @@ msgstr "Закрыть список фаворитов."
 
 msgid "Close dialog"
 msgstr "Закрыть окно"
+
+msgid "Close the window"
+msgstr ""
 
 msgid "Close title selection"
 msgstr "Закрыть выбор названия"
@@ -5866,6 +5782,9 @@ msgstr "Видео редактор"
 msgid "Cutlist editor..."
 msgstr "Видео редактор..."
 
+msgid "Cycle PIP(zap)"
+msgstr ""
+
 msgid "Cycling"
 msgstr "Велоспорт"
 
@@ -6245,6 +6164,10 @@ msgid "Defaults"
 msgstr "Сброс"
 
 msgid ""
+"Define additional delay in milliseconds before start of http(s) streams."
+msgstr ""
+
+msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6479,6 +6402,9 @@ msgstr ""
 "раскодировать ЕСМ и записать' хранит зашифрованные записи, которые могут "
 "быть раскодированы во время воспроизведения. 'Обычный' расшифровывает записи "
 "без записи ЕСМ."
+
+msgid "Descramble and record ecm"
+msgstr "Декодирование и запись ECM"
 
 msgid "Descramble http streams"
 msgstr "Декодировать http потоки"
@@ -6737,6 +6663,9 @@ msgstr "Не прошивать ресивер"
 msgid "Do not record"
 msgstr "Не записывать"
 
+msgid "Do nothing"
+msgstr "Ничего не делать"
+
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -6975,6 +6904,9 @@ msgstr "Не добавлять эту запись"
 
 msgid "Don't ask again!"
 msgstr "Больше не спрашивать!"
+
+msgid "Don't descramble, record ecm"
+msgstr "Не раскодировать, запись ECM"
 
 msgid "Don't restart"
 msgstr "Не перезапускать"
@@ -8816,6 +8748,9 @@ msgstr "Перейти к концу списка"
 msgid "Go to bookmarked folder"
 msgstr "Перейти к папке с закладкой"
 
+msgid "Go to deep standby"
+msgstr "Полностью выключить"
+
 msgid "Go to end of file"
 msgstr "Перейти в конец файла"
 
@@ -8827,6 +8762,9 @@ msgstr "Перейти к первому фильму или на вершину
 
 msgid "Go to parent directory"
 msgstr "Каталог вверх"
+
+msgid "Go to standby"
+msgstr "Перейти в режим ожидания"
 
 msgid "Go to start of file"
 msgstr "Перейти к началу файла"
@@ -9002,12 +8940,6 @@ msgstr "HD60/ Multibox/ Multiboxse"
 
 msgid "HDMI"
 msgstr "HDMI"
-
-msgid "HDMI CEC"
-msgstr "HDMI CEC"
-
-msgid "HDMI CEC Setup"
-msgstr "Настройки HDMI CEC"
 
 msgid "HDMI Colordepth"
 msgstr "Глубина цвета HDMI"
@@ -9324,6 +9256,9 @@ msgstr "Часы Минуты Секунды"
 msgid "How many minutes do you want to record?"
 msgstr "Сколько минут вы хотите записать?"
 
+msgid "Http(s) stream start delay"
+msgstr ""
+
 msgid "Hue"
 msgstr "Оттенки"
 
@@ -9617,15 +9552,6 @@ msgid ""
 msgstr ""
 "Если выберите 'да', во время паузы инфобар будет отображен постоянно (без "
 "таймаута)."
-
-msgid ""
-"If the 'deep standby workaround' is enabled, it waits until the system time "
-"is synchronized. Depending on the requirement, the devices wake up will "
-"continuing after a maximum of 2 minutes."
-msgstr ""
-"Если включено обходное решение 'глубокий режим ожидания', оно ждёт, пока "
-"системное время не будет синхронизировано. В зависимости от требований, "
-"пробуждение устройств будет продолжаться максимум через 2 минуты."
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -10201,9 +10127,6 @@ msgstr "Ирландия"
 
 msgid "Irish"
 msgstr "Ирландский"
-
-msgid "Is not necessary in most cases."
-msgstr "В большинстве случаев не требуется."
 
 msgid "Is this setting ok?"
 msgstr "Использовать эти настройки?"
@@ -10783,9 +10706,6 @@ msgstr "Действия быстрого меню"
 msgid "Load"
 msgstr "Загрузить"
 
-msgid "Load Default Settings"
-msgstr "Настройки по умолчанию"
-
 msgid "Load EPG"
 msgstr "Загрузить ТВ-гид"
 
@@ -11250,11 +11170,11 @@ msgstr "ТВ-гид Merlin"
 msgid "Message"
 msgstr "Сообщение"
 
-msgid "Message..."
-msgstr "Сообщение..."
-
 msgid "Message Box Actions"
 msgstr "Функции окна сообщений"
+
+msgid "Message..."
+msgstr "Сообщение..."
 
 msgid "Metadata changed:"
 msgstr "Изменены метаданные:"
@@ -11545,11 +11465,17 @@ msgstr "Переместите текстовый курсор к первому
 msgid "Move the text cursor to the last character"
 msgstr "Переместите текстовый курсор к последнему символу"
 
+msgid "Move to first line"
+msgstr ""
+
 msgid "Move to first line / screen"
 msgstr "Переход к первой строке/экрану"
 
 msgid "Move to home of list"
 msgstr "Переместиться на домашнюю страницу"
+
+msgid "Move to last line"
+msgstr ""
 
 msgid "Move to last line / screen"
 msgstr "Переход к последней строке/экрану"
@@ -12302,6 +12228,9 @@ msgstr "Ни одна из хеш-программ для хешей %s недо
 msgid "Norfolk Island"
 msgstr "Остров Норфолк"
 
+msgid "Normal"
+msgstr "Нормальная (Декодирование)"
+
 msgid "North"
 msgstr "Север"
 
@@ -12506,6 +12435,9 @@ msgstr "Общие настройки"
 
 msgid "OScam Info"
 msgstr "Информация OScam"
+
+msgid "OScam webif disabled"
+msgstr "Вэбинтерфейс OSCAM отключен"
 
 msgid "OScamInfo"
 msgstr "Информация OScam"
@@ -13757,9 +13689,6 @@ msgstr "Таймер питания в \"Глубокий сон\""
 msgid "PowerTimer Entry"
 msgstr "Менеджер таймеров питания"
 
-msgid "PowerTimer list"
-msgstr "Список таймеров питания"
-
 msgid "PowerTimer Log"
 msgstr "Журнал таймеров питания"
 
@@ -13768,6 +13697,9 @@ msgstr "Просмотр таймеров питания"
 
 msgid "PowerTimer Standby"
 msgstr "Таймер питания в \"Режим ожидания\""
+
+msgid "PowerTimer list"
+msgstr "Список таймеров питания"
 
 msgid "PowerTimers"
 msgstr "Таймеры питания"
@@ -14920,6 +14852,9 @@ msgstr "Получаем список эмуляторов. Пожалуйста
 msgid "Retrieving image slots - Please wait..."
 msgstr "Идёт распаковка имиджей, пожалуйста подождите..."
 
+msgid "Return the current selection response"
+msgstr ""
+
 msgid "Return to movie list"
 msgstr "Вернуться к списку фильмов"
 
@@ -15788,6 +15723,9 @@ msgstr "Выбор метода сортировки"
 msgid "Select target folder"
 msgstr "Выбрать папку назначения"
 
+msgid "Select the No / False response"
+msgstr ""
+
 msgid "Select the Swap File Size:"
 msgstr "Выбор размера для файла подкачки"
 
@@ -15842,6 +15780,9 @@ msgstr ""
 "Выберите частоту пользовательского диапазона, которая будет назначена этому "
 "тюнеру. Это частота, которую переключатель SCR использует для передачи "
 "запрошенного транспондера на тюнер."
+
+msgid "Select the Yes / True response"
+msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Выберите символ или действие под курсором клавиатуры"
@@ -17449,6 +17390,9 @@ msgstr "Показывается статус просмотренной зап�
 msgid "Shuffle playlist"
 msgstr "Перемешать плейлист"
 
+msgid "Shut down"
+msgstr "Выключить"
+
 msgid "Shutdown"
 msgstr "Выключить"
 
@@ -17779,18 +17723,6 @@ msgstr ""
 "режим ожидания перед переключением. (Если телевизор не включается, может "
 "потребоваться более медленный интервал передачи или повторение команд "
 "пробуждения.)"
-
-msgid ""
-"Some TV devices can't swich to correct input if a another hdmi port active. "
-"This setting set the TV to standby before.\n"
-"(If the TV does not turn back on, may require a slower transmission interval "
-"or the repetition of wake-up commands.)"
-msgstr ""
-"Некоторые телевизионные устройства не могут переключиться на правильный "
-"вход, если активен другой порт hdmi. Эта настройка переводит телевизор в "
-"режим ожидания.\n"
-"(Если телевизор не включается, может потребоваться более медленный интервал "
-"передачи или повторение команд пробуждения.)"
 
 msgid "Some plugins are not available:\n"
 msgstr "Некоторые плагины недоступны\n"
@@ -19270,15 +19202,6 @@ msgstr ""
 "режима после переключения в режим ожидания. Команды пробуждения с других "
 "устройств будут игнорироваться в течение нескольких секунд."
 
-msgid ""
-"This is a workaround for some devices there wakeup again after switching in "
-"standby. The wak up command's from other devices will ignored for few "
-"seconds."
-msgstr ""
-"Это обходной путь для некоторых устройств, которые снова просыпаются после "
-"перехода в режим ожидания. Команда пробуждения от других устройств будет "
-"игнорироваться в течение нескольких секунд."
-
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr "Это текущий выбранный язык.  [%s]"
@@ -20227,10 +20150,6 @@ msgstr ""
 "Постарайтесь предотвратить перезагрузку из-за программных ошибок и "
 "обеспечить доступность ресивера."
 
-msgid "Try to send repeated commands if not all commands are executed.\n"
-msgstr ""
-"Попробуйте отправить повторные команды, если не все команды выполнены.\n"
-
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
@@ -20238,10 +20157,6 @@ msgstr ""
 "Попробуйте отправить повторяющиеся команды, если не все команды выполняются. "
 "(например, телевизор выходит из спящего режима, но не переключен на "
 "правильный вход)"
-
-msgid "Try to slow down the send interval if not all commands are executed."
-msgstr ""
-"Попробуйте замедлить интервал отправки, если не все команды выполняются."
 
 msgid "Trying to download a new packetlist. Please wait..."
 msgstr "Пытаемся загрузить новый список пакетов. Пожалуйста подождите..."
@@ -22721,6 +22636,9 @@ msgstr "Перейти"
 msgid "Zap + Exit"
 msgstr "Переключить + Выход"
 
+msgid "Zap and record"
+msgstr "Переключить и записать"
+
 msgid "Zap back to previously tuned service?"
 msgstr "Переключить на просматриваемый канал?"
 
@@ -23192,9 +23110,6 @@ msgstr "Удалить вырезанное"
 msgid "deleted"
 msgstr "удалено"
 
-msgid "Descramble and record ecm"
-msgstr "Декодирование и запись ECM"
-
 msgid "detective/thriller"
 msgstr "Детектив/Триллер"
 
@@ -23213,9 +23128,6 @@ msgstr "Дискуссии/Интервью/Дебаты"
 msgid "display"
 msgstr "Показать"
 
-msgid "Do nothing"
-msgstr "Ничего не делать"
-
 msgid "documentary"
 msgstr "Документалистика"
 
@@ -23224,9 +23136,6 @@ msgstr "документальный фильм (общий)"
 
 msgid "dolby"
 msgstr "dolby"
-
-msgid "Don't descramble, record ecm"
-msgstr "Не раскодировать, запись ECM"
 
 msgid "done!"
 msgstr "Выполнено!"
@@ -23475,12 +23384,6 @@ msgstr "Садоводство"
 msgid "get the cards' server"
 msgstr "Шаринг сервер"
 
-msgid "Go to deep standby"
-msgstr "Полностью выключить"
-
-msgid "Go to standby"
-msgstr "Перейти в режим ожидания"
-
 msgid "goto current channel and now"
 msgstr "перейдите на текущий канал и сейчас"
 
@@ -23547,9 +23450,6 @@ msgstr "Высота"
 
 msgid "help..."
 msgstr "Помощь..."
-
-msgid "helptext"
-msgstr "текст помощи"
 
 msgid "hh:mm"
 msgstr "чч:мм"
@@ -23856,8 +23756,8 @@ msgstr "Устройства не найдены"
 msgid "none"
 msgstr "Нет"
 
-msgid "Normal"
-msgstr "Нормальная (Декодирование)"
+msgid "normal"
+msgstr ""
 
 msgid "not"
 msgstr "нет"
@@ -23924,9 +23824,6 @@ msgstr "Оригинал"
 
 msgid "original language"
 msgstr "Язык оригинала"
-
-msgid "OScam webif disabled"
-msgstr "Вэбинтерфейс OSCAM отключен"
 
 msgid "packages selected."
 msgstr "Пакетов выбрано."
@@ -24014,9 +23911,6 @@ msgstr "Реальные записи или потоковое вещание"
 
 msgid "reboot system"
 msgstr "Перезагрузка системы"
-
-msgid "record"
-msgstr "Записать"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -24269,9 +24163,6 @@ msgstr "Шоу/Игровое шоу (Общие)"
 
 msgid "shuffle"
 msgstr "Случайный порядок"
-
-msgid "Shut down"
-msgstr "Выключить"
 
 msgid "simple"
 msgstr "Простой"
@@ -24658,12 +24549,6 @@ msgstr ""
 "Ваш %s %s может стать непригодным теперь. Пожалуйста, почитайте руководство "
 "по использованию прежде, чем перезагрузить Ваш %s %s."
 
-msgid "zap"
-msgstr "Переключить"
-
-msgid "Zap and record"
-msgstr "Переключить и записать"
-
 msgid "zapped"
 msgstr "Переключено"
 
@@ -24672,6 +24557,157 @@ msgstr "Переключение"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid ""
+#~ "\n"
+#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+#~ msgstr ""
+#~ "\n"
+#~ "* Расположение журналов: настройки журналов, имя файла: Enigma2-hdmicec- "
+#~ "[date].log"
+
+#~ msgid "%Y-%m-%d %H-%M"
+#~ msgstr "%Y-%m-%d %H-%M"
+
+#~ msgid ""
+#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+#~ msgstr ""
+#~ "'Обработка режима ожидания с телевизора' имеет более высокий приоритет, "
+#~ "чем 'Обработка ввода с телевизора'"
+
+#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
+#~ msgstr ""
+#~ "(например, телевизор пробуждается, но не переключён на правильный вход)"
+
+#~ msgid "16_10_letterbox"
+#~ msgstr "16:10 режим ящика"
+
+#~ msgid "16_10_panscan"
+#~ msgstr "16:10 панорама"
+
+#~ msgid "16_9"
+#~ msgstr "16:9"
+
+#~ msgid "16_9_always"
+#~ msgstr "всегда 16:9"
+
+#~ msgid "16_9_letterbox"
+#~ msgstr "16:9 режим ящика"
+
+#~ msgid "4_3_letterbox"
+#~ msgstr "4:3 режим ящика"
+
+#~ msgid "4_3_panscan"
+#~ msgstr "4:3 Панорама"
+
+#~ msgid "Accept the current selection"
+#~ msgstr "Принять текущий выбор"
+
+#, python-format
+#~ msgid ""
+#~ "Activate an way to send individual or specific internal HDMI-CEC commands "
+#~ "from the command line. Type on command line 'echo help > %s' and then "
+#~ "read the file '%s' for a short help."
+#~ msgstr ""
+#~ "Активируйте способ отправки отдельных или специфических внутренних команд "
+#~ "HDMI-CEC из командной строки. Введите в командной строке 'echo help > "
+#~ "%s', а затем прочитайте файл '%s' для получения краткой справки."
+
+#~ msgid ""
+#~ "Activation takes place immediately. If it does feature not work, then try "
+#~ "again with a slower send interval."
+#~ msgstr ""
+#~ "Активация происходит немедленно. Если это не сработало, повторите попытку "
+#~ "с более медленным интервалом отправки."
+
+#~ msgid ""
+#~ "Activation takes place immediately. If this feature is not supported, the "
+#~ "volume keys has no function!"
+#~ msgstr ""
+#~ "Активация происходит немедленно. Если эта функция не поддерживается, "
+#~ "кнопки регулировки громкости не работают!"
+
+#~ msgid "Always select OK"
+#~ msgstr "Всегда спрашивать"
+
+#~ msgid ""
+#~ "An attempt is made to capture the current TV status. If this is not "
+#~ "possible due to incorrect or missing status messages, it may cause the "
+#~ "receiver to respond unexpectedly.\n"
+#~ "On the other hand, tries to respond better to different operating "
+#~ "conditions."
+#~ msgstr ""
+#~ "Предпринята попытка зафиксировать текущий статус ТВ. Если это невозможно "
+#~ "из-за неправильных или отсутствующих сообщений о состоянии, это может "
+#~ "привести к неожиданному ответу получателя.\n"
+#~ "С другой стороны, старается лучше реагировать на разные условия "
+#~ "эксплуатации."
+
+#~ msgid "Cancel the selection"
+#~ msgstr "Отменить выбор"
+
+#~ msgid "Choose a setting where your receiver wakes up from standby."
+#~ msgstr ""
+#~ "Выберите настройку, при которой Ваш ресивер выходит из режима ожидания."
+
+#~ msgid "HDMI CEC"
+#~ msgstr "HDMI CEC"
+
+#~ msgid "HDMI CEC Setup"
+#~ msgstr "Настройки HDMI CEC"
+
+#~ msgid ""
+#~ "If the 'deep standby workaround' is enabled, it waits until the system "
+#~ "time is synchronized. Depending on the requirement, the devices wake up "
+#~ "will continuing after a maximum of 2 minutes."
+#~ msgstr ""
+#~ "Если включено обходное решение 'глубокий режим ожидания', оно ждёт, пока "
+#~ "системное время не будет синхронизировано. В зависимости от требований, "
+#~ "пробуждение устройств будет продолжаться максимум через 2 минуты."
+
+#~ msgid "Is not necessary in most cases."
+#~ msgstr "В большинстве случаев не требуется."
+
+#~ msgid "Load Default Settings"
+#~ msgstr "Настройки по умолчанию"
+
+#~ msgid ""
+#~ "Some TV devices can't swich to correct input if a another hdmi port "
+#~ "active. This setting set the TV to standby before.\n"
+#~ "(If the TV does not turn back on, may require a slower transmission "
+#~ "interval or the repetition of wake-up commands.)"
+#~ msgstr ""
+#~ "Некоторые телевизионные устройства не могут переключиться на правильный "
+#~ "вход, если активен другой порт hdmi. Эта настройка переводит телевизор в "
+#~ "режим ожидания.\n"
+#~ "(Если телевизор не включается, может потребоваться более медленный "
+#~ "интервал передачи или повторение команд пробуждения.)"
+
+#~ msgid ""
+#~ "This is a workaround for some devices there wakeup again after switching "
+#~ "in standby. The wak up command's from other devices will ignored for few "
+#~ "seconds."
+#~ msgstr ""
+#~ "Это обходной путь для некоторых устройств, которые снова просыпаются "
+#~ "после перехода в режим ожидания. Команда пробуждения от других устройств "
+#~ "будет игнорироваться в течение нескольких секунд."
+
+#~ msgid "Try to send repeated commands if not all commands are executed.\n"
+#~ msgstr ""
+#~ "Попробуйте отправить повторные команды, если не все команды выполнены.\n"
+
+#~ msgid "Try to slow down the send interval if not all commands are executed."
+#~ msgstr ""
+#~ "Попробуйте замедлить интервал отправки, если не все команды выполняются."
+
+#~ msgid "helptext"
+#~ msgstr "текст помощи"
+
+#~ msgid "record"
+#~ msgstr "Записать"
+
+#~ msgid "zap"
+#~ msgstr "Переключить"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"

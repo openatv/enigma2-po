@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 21:27+0000\n"
+"POT-Creation-Date: 2021-12-20 21:36+0000\n"
 "PO-Revision-Date: 2021-12-13 20:09+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/"
@@ -63,13 +63,6 @@ msgid ""
 msgstr ""
 "\n"
 " Kodi nicht installiert. Mit der Installation fortfahren?"
-
-msgid ""
-"\n"
-"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-msgstr ""
-"\n"
-"* Speicherort für Logs. Dateiname dort: 'Enigma2-hdmicec-[Datum].log'"
 
 msgid ""
 "\n"
@@ -743,10 +736,6 @@ msgstr "%Y-%b-%d"
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-# Date & Time in Timer-Log ( Timer & PowerTimer )
-msgid "%Y-%m-%d %H-%M"
-msgstr "%d.%m.%Y %H:%M"
-
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
 
@@ -1416,12 +1405,6 @@ msgstr ""
 "Bedingung zum Löschen älterer Timeshift Dateien, die zuerst aufgetreten ist."
 
 msgid ""
-"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-msgstr ""
-"'TV-Standby verwalten' besitzt eine höhere Priorität als 'TV-Eingänge "
-"verwalten'"
-
-msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 "'TV-Standby verwalten' besitzt eine höhere Priorität als 'TV-Eingänge "
@@ -1455,10 +1438,6 @@ msgstr "(Nur Lesegeräte zeigen:"
 
 msgid "(current image)"
 msgstr "(aktuelles Image)"
-
-msgid "(e.g. TV wakeup, but not switched to correct input)"
-msgstr ""
-"(z.B. TV aufwecken, aber es wird nicht auf den korrekten Eingang geschaltet)"
 
 #
 msgid "(empty)"
@@ -1687,26 +1666,11 @@ msgid "16:9"
 msgstr "16:9"
 
 #
-msgid "16:9 Letterbox"
-msgstr "16:9 Letterbox"
-
-#
 msgid "16:9 Always"
 msgstr "immer 16:9"
 
-msgid "16_10_letterbox"
-msgstr "16:10 Letterbox"
-
-msgid "16_10_panscan"
-msgstr "16:10 Pan & Scan"
-
-msgid "16_9"
-msgstr "16:9"
-
-msgid "16_9_always"
-msgstr "immer 16:9"
-
-msgid "16_9_letterbox"
+#
+msgid "16:9 Letterbox"
 msgstr "16:9 Letterbox"
 
 #
@@ -1947,12 +1911,6 @@ msgstr "4:3 Pan & Scan"
 
 msgid "4X"
 msgstr "4x"
-
-msgid "4_3_letterbox"
-msgstr "4:3 Letterbox"
-
-msgid "4_3_panscan"
-msgstr "4:3 Pan & Scan"
 
 msgid "4s"
 msgstr "4 s"
@@ -2431,9 +2389,6 @@ msgstr "Über"
 msgid "About..."
 msgstr "Über..."
 
-msgid "Accept the current selection"
-msgstr "Aktuelle Auswahl akzeptieren"
-
 msgid "Accessed:"
 msgstr "Zugegriffen:"
 
@@ -2471,17 +2426,6 @@ msgstr ""
 "Aktivieren Sie die Möglichkeit, individuelle oder festgelegte interne HDMI-"
 "CEC-Befehle von der Befehlszeile zu senden."
 
-#, python-format
-msgid ""
-"Activate an way to send individual or specific internal HDMI-CEC commands "
-"from the command line. Type on command line 'echo help > %s' and then read "
-"the file '%s' for a short help."
-msgstr ""
-"Aktivieren Sie die Möglichkeit, individuelle oder festgelegte interne HDMI-"
-"CEC-Befehle von der Befehlszeile zu senden. Geben Sie in der Befehlszeile "
-"'echo help > %s' ein und lesen Sie die Datei '%s', um eine kurze Hilfe zu "
-"erhalten."
-
 msgid "Activate current configuration"
 msgstr "Aktuelle Konfiguration aktivieren"
 
@@ -2509,20 +2453,6 @@ msgstr "Timeshift beenden"
 
 msgid "Activate timeshift end and pause"
 msgstr "Timeshift beenden und Pause"
-
-msgid ""
-"Activation takes place immediately. If it does feature not work, then try "
-"again with a slower send interval."
-msgstr ""
-"Die Aktivierung erfolgt sofort. Versuchen Sie es mit einem langsameren "
-"Sendeintervall, wenn dieses Feature nicht funktioniert."
-
-msgid ""
-"Activation takes place immediately. If this feature is not supported, the "
-"volume keys has no function!"
-msgstr ""
-"Die Aktivierung erfolgt sofort. Wenn diese Funktion nicht unterstützt wird "
-"sind die Lautstärketasten ohne Funktion!"
 
 msgid "Active"
 msgstr "Aktiv"
@@ -2980,9 +2910,6 @@ msgstr ""
 "entschlüsselt, wenn die Hardware diese Funktion unterstützt. Standard ist "
 "'Nein'."
 
-msgid "Always select OK"
-msgstr "Immer OK auswählen"
-
 msgid "Always show bouquets"
 msgstr "Favoritenlisten anzeigen"
 
@@ -3011,18 +2938,6 @@ msgstr ""
 "aufgrund falscher oder fehlender Statusmeldungen nicht möglich, kann Ihr "
 "Receiver unerwartet reagieren. Andererseits wird versucht auf verschiedene "
 "Betriebszustände besser zu reagieren."
-
-msgid ""
-"An attempt is made to capture the current TV status. If this is not possible "
-"due to incorrect or missing status messages, it may cause the receiver to "
-"respond unexpectedly.\n"
-"On the other hand, tries to respond better to different operating conditions."
-msgstr ""
-"Es wird versucht den aktuellen TV-Betriebszustand zu erfassen. Ist dies "
-"aufgrund falscher oder fehlender Statusmeldungen nicht möglich, kann Ihr "
-"Receiver unerwartet reagieren.\n"
-"Andererseits wird versucht auf verschiedene Betriebszustände besser zu "
-"reagieren."
 
 #
 msgid "An empty filename is illegal."
@@ -4427,9 +4342,6 @@ msgstr "Imageauswahl abbrechen und verlassen"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Imageauswahl abbrechen und alle Menüs verlassen"
 
-msgid "Cancel the selection"
-msgstr "Auswahl abbrechen"
-
 msgid "Cancelled upon user request"
 msgstr "Aufgabe durch den Benutzer abgebrochen"
 
@@ -4821,10 +4733,6 @@ msgid "Choose a label that will identify this device within IceTV services."
 msgstr ""
 "Wählen Sie eine Beschriftung, damit IceTV-Dienste das Gerät zuordnen können."
 
-msgid "Choose a setting where your receiver wakes up from standby."
-msgstr ""
-"Wählen Sie die Einstellung, mit der der Receiver aus dem Standby aufwacht."
-
 msgid "Choose a tag for easy finding a recording."
 msgstr ""
 "Wählen Sie einen Tag aus, um die Aufnahme später leichter wieder zu finden."
@@ -5045,6 +4953,9 @@ msgstr "Drücken Sie die Taste der Fernbedienung die neu belegt werden soll."
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Client-Info (OSCam-Version: %s)"
 
+msgid "Client is streaming from this box!"
+msgstr ""
+
 msgid "ClientIP"
 msgstr "ClientIP"
 
@@ -5070,6 +4981,9 @@ msgstr "Schließe Favoritenliste."
 
 msgid "Close dialog"
 msgstr "Dialog schließen"
+
+msgid "Close the window"
+msgstr ""
 
 #
 msgid "Close title selection"
@@ -6223,6 +6137,9 @@ msgstr "Schnitteditor"
 msgid "Cutlist editor..."
 msgstr "Schnitteditor..."
 
+msgid "Cycle PIP(zap)"
+msgstr ""
+
 msgid "Cycling"
 msgstr "Radfahren"
 
@@ -6613,6 +6530,10 @@ msgid "Defaults"
 msgstr "Standards"
 
 msgid ""
+"Define additional delay in milliseconds before start of http(s) streams."
+msgstr ""
+
+msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6864,6 +6785,9 @@ msgstr ""
 "zu entschlüsseln, falls die Entschlüsselung der Aufnahme fehlschlägt. 'Nicht "
 "entschlüsseln, ECM aufnehmen' kann beim Abspielen entschlüsselt werden. "
 "'Normal' entschlüsselt die Aufnahme ohne ECM's aufzunehmen."
+
+msgid "Descramble and record ecm"
+msgstr "Entschlüsseln und ECM aufnehmen"
 
 msgid "Descramble http streams"
 msgstr "HTTP-Streams entschlüsseln"
@@ -7153,6 +7077,10 @@ msgid "Do not record"
 msgstr "Nicht aufnehmen"
 
 #
+msgid "Do nothing"
+msgstr "Keine Änderung"
+
+#
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -7414,6 +7342,9 @@ msgstr "Diese Aufnahme nicht hinzufügen"
 
 msgid "Don't ask again!"
 msgstr "Nicht mehr nachfragen!"
+
+msgid "Don't descramble, record ecm"
+msgstr "Nicht entschlüsseln, ECM aufnehmen"
 
 msgid "Don't restart"
 msgstr "Nicht neu starten"
@@ -9388,6 +9319,10 @@ msgstr "In der Liste runter gehen"
 msgid "Go to bookmarked folder"
 msgstr "Zum Ordner Lesezeichen gehen"
 
+#
+msgid "Go to deep standby"
+msgstr "In Deep-Standby herunterfahren"
+
 msgid "Go to end of file"
 msgstr "Zum Ende der Datei gehen"
 
@@ -9399,6 +9334,10 @@ msgstr "Gehe zum ersten Film oder Eintrag"
 
 msgid "Go to parent directory"
 msgstr "Zum übergeordneten Verzeichnis"
+
+#
+msgid "Go to standby"
+msgstr "In Standby gehen"
 
 msgid "Go to start of file"
 msgstr "Zum Anfang der Datei gehen"
@@ -9575,12 +9514,6 @@ msgstr "HD60/Multibox/Multiboxse"
 
 msgid "HDMI"
 msgstr "HDMI"
-
-msgid "HDMI CEC"
-msgstr "HDMI-CEC"
-
-msgid "HDMI CEC Setup"
-msgstr "HDMI-CEC"
 
 msgid "HDMI Colordepth"
 msgstr "HDMI-Farbtiefe"
@@ -9905,6 +9838,9 @@ msgstr "Stunden Minuten Sekunden"
 msgid "How many minutes do you want to record?"
 msgstr "Wie viele Minuten möchten Sie aufnehmen?"
 
+msgid "Http(s) stream start delay"
+msgstr ""
+
 #
 msgid "Hue"
 msgstr "Farbton"
@@ -10209,15 +10145,6 @@ msgid ""
 msgstr ""
 "Bei 'Ja' wird die Infoleiste im pausierten Zustand nicht ausgeblendet "
 "sondern permanent angezeigt."
-
-msgid ""
-"If the 'deep standby workaround' is enabled, it waits until the system time "
-"is synchronized. Depending on the requirement, the devices wake up will "
-"continuing after a maximum of 2 minutes."
-msgstr ""
-"Wenn der 'Deep-Standby-Workaround' aktiviert ist wird gewartet, bis die "
-"Systemzeit synchronisiert wurde. Je nach Erfordernis wird das Aufwecken der "
-"Geräte in maximal 2 Minuten fortgesetzt."
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -10838,9 +10765,6 @@ msgstr "Irland"
 
 msgid "Irish"
 msgstr "Irisch"
-
-msgid "Is not necessary in most cases."
-msgstr "Ist in den meisten Fällen nicht erforderlich."
 
 msgid "Is this setting ok?"
 msgstr "Ist diese Einstellung in Ordnung?"
@@ -11473,9 +11397,6 @@ msgstr "Live-TV-Aktionen"
 msgid "Load"
 msgstr "Laden"
 
-msgid "Load Default Settings"
-msgstr "Standardeinstellungen laden"
-
 msgid "Load EPG"
 msgstr "EPG laden"
 
@@ -11987,12 +11908,12 @@ msgid "Message"
 msgstr "Nachricht"
 
 #
-msgid "Message..."
-msgstr "Nachricht..."
-
-#
 msgid "Message Box Actions"
 msgstr "MessageBox Aktionen"
+
+#
+msgid "Message..."
+msgstr "Nachricht..."
 
 msgid "Metadata changed:"
 msgstr "Metadaten geändert:"
@@ -12313,11 +12234,17 @@ msgstr "Bewegen Sie den Text-Cursor im Textfeld zum Anfang"
 msgid "Move the text cursor to the last character"
 msgstr "Bewegen Sie den Text-Cursor im Textfeld zum Ende"
 
+msgid "Move to first line"
+msgstr ""
+
 msgid "Move to first line / screen"
 msgstr "Zur ersten Zeile / Bildschirm wechseln"
 
 msgid "Move to home of list"
 msgstr "Springe zum Anfang der Liste"
+
+msgid "Move to last line"
+msgstr ""
 
 msgid "Move to last line / screen"
 msgstr "Zur letzten Zeile / Bildschirm wechseln"
@@ -13169,6 +13096,9 @@ msgstr "Keines der Hash-Programme für die Hashes %s ist verfügbar"
 msgid "Norfolk Island"
 msgstr "Norfolkinsel"
 
+msgid "Normal"
+msgstr "Normal"
+
 #
 msgid "North"
 msgstr "Nord"
@@ -13387,6 +13317,9 @@ msgstr "OSD"
 
 msgid "OScam Info"
 msgstr "OSCam-Info"
+
+msgid "OScam webif disabled"
+msgstr "OSCam-Weboberfläche deaktiviert"
 
 msgid "OScamInfo"
 msgstr "OSCam-Info"
@@ -14764,10 +14697,6 @@ msgid "PowerTimer Entry"
 msgstr "PowerTimer-Eintrag"
 
 #
-msgid "PowerTimer list"
-msgstr "PowerTimer-Liste"
-
-#
 msgid "PowerTimer Log"
 msgstr "PowerTimer-Log"
 
@@ -14777,6 +14706,10 @@ msgstr "PowerTimer-Übersicht"
 
 msgid "PowerTimer Standby"
 msgstr "PowerTimer-Standby"
+
+#
+msgid "PowerTimer list"
+msgstr "PowerTimer-Liste"
 
 msgid "PowerTimers"
 msgstr "PowerTimer"
@@ -16048,6 +15981,9 @@ msgstr "Image-Liste abrufen. Bitte warten..."
 msgid "Retrieving image slots - Please wait..."
 msgstr "Image-Slots abrufen. Bitte warten..."
 
+msgid "Return the current selection response"
+msgstr ""
+
 #
 msgid "Return to movie list"
 msgstr "Zurück zur Filmauswahl"
@@ -16994,6 +16930,9 @@ msgstr "Sortiermethode auswählen:"
 msgid "Select target folder"
 msgstr "Wählen Sie das Zielverzeichnis"
 
+msgid "Select the No / False response"
+msgstr ""
+
 #
 msgid "Select the Swap File Size:"
 msgstr "Größe des Swap-Files:"
@@ -17049,6 +16988,9 @@ msgstr ""
 "Wählen Sie die User-Band-Frequenz aus, die diesem Tuner zugewiesen werden "
 "soll. Mit dieser Frequenz leitet der Unicable-Switch den angeforderten "
 "Transponder an den Tuner weiter."
+
+msgid "Select the Yes / True response"
+msgstr ""
 
 #
 msgid "Select the character or action under the keyboard cursor"
@@ -18793,6 +18735,10 @@ msgid "Shuffle playlist"
 msgstr "Playlist neu mischen"
 
 #
+msgid "Shut down"
+msgstr "Herunterfahren"
+
+#
 msgid "Shutdown"
 msgstr "Herunterfahren"
 
@@ -19144,18 +19090,6 @@ msgid ""
 "This setting sets the TV to standby before the switch. (If the TV does not "
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
-msgstr ""
-"Einige TV-Geräte wechseln nicht den Eingang wenn ein anderer HDMI-Port aktiv "
-"ist. Diese Einstellung schaltet den TV zuvor in den Standby.\n"
-"(Wenn sich der TV nicht wieder einschaltet, ist möglicherweise ein "
-"langsameres Sendeintervall oder die Wiederholung von Aufwachbefehlen "
-"erforderlich.)"
-
-msgid ""
-"Some TV devices can't swich to correct input if a another hdmi port active. "
-"This setting set the TV to standby before.\n"
-"(If the TV does not turn back on, may require a slower transmission interval "
-"or the repetition of wake-up commands.)"
 msgstr ""
 "Einige TV-Geräte wechseln nicht den Eingang wenn ein anderer HDMI-Port aktiv "
 "ist. Diese Einstellung schaltet den TV zuvor in den Standby.\n"
@@ -20765,15 +20699,6 @@ msgstr ""
 "Standby wieder geweckt werden. Damit wird das Aufwecken durch andere Geräte "
 "für einige Sekunden ignoriert."
 
-msgid ""
-"This is a workaround for some devices there wakeup again after switching in "
-"standby. The wak up command's from other devices will ignored for few "
-"seconds."
-msgstr ""
-"Dies ist ein Workaround für einige Geräte die nach dem Umschalten in den "
-"Standby wieder geweckt werden. Damit wird das Aufwecken durch andere Geräte "
-"für einige Sekunden ignoriert."
-
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr "Dies ist die aktuell ausgewählte Sprache.  [%s]"
@@ -21786,11 +21711,6 @@ msgstr ""
 "Bei Softwarefehlern wird versucht die Benutzeroberfläche nicht neu zu "
 "starten."
 
-msgid "Try to send repeated commands if not all commands are executed.\n"
-msgstr ""
-"Versuchen Sie wiederholte Befehle zu senden, wenn nicht alle Befehle "
-"ausgeführt werden.\n"
-
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
@@ -21798,11 +21718,6 @@ msgstr ""
 "Versuchen Sie wiederholte Befehle zu senden, wenn nicht alle Befehle "
 "ausgeführt werden (z.B. TV aufwecken, aber es wird nicht auf den korrekten "
 "Eingang geschaltet)."
-
-msgid "Try to slow down the send interval if not all commands are executed."
-msgstr ""
-"Versuchen Sie das Sendeintervall zu verlangsamen, wenn nicht alle Befehle "
-"ausgeführt werden."
 
 #
 msgid "Trying to download a new packetlist. Please wait..."
@@ -24491,6 +24406,9 @@ msgstr "Umschalten"
 msgid "Zap + Exit"
 msgstr "Umschalten + Verlassen"
 
+msgid "Zap and record"
+msgstr "Umschalten und aufnehmen"
+
 #
 msgid "Zap back to previously tuned service?"
 msgstr "Zum zuletzt laufenden Sender umschalten?"
@@ -25018,9 +24936,6 @@ msgstr "Schnitt löschen"
 msgid "deleted"
 msgstr "gelöscht"
 
-msgid "Descramble and record ecm"
-msgstr "Entschlüsseln und ECM aufnehmen"
-
 msgid "detective/thriller"
 msgstr "Krimi/Thriller"
 
@@ -25042,10 +24957,6 @@ msgstr "Diskussion/Interview/Debatte"
 msgid "display"
 msgstr "Anzeige"
 
-#
-msgid "Do nothing"
-msgstr "Keine Änderung"
-
 msgid "documentary"
 msgstr "Dokumentation"
 
@@ -25055,9 +24966,6 @@ msgstr "Dokumentarfilm (allgemein)"
 
 msgid "dolby"
 msgstr "Dolby"
-
-msgid "Don't descramble, record ecm"
-msgstr "Nicht entschlüsseln, ECM aufnehmen"
 
 #
 msgid "done!"
@@ -25330,14 +25238,6 @@ msgstr "Gartenarbeit"
 msgid "get the cards' server"
 msgstr "Einlesen der Card-Server"
 
-#
-msgid "Go to deep standby"
-msgstr "In Deep-Standby herunterfahren"
-
-#
-msgid "Go to standby"
-msgstr "In Standby gehen"
-
 msgid "goto current channel and now"
 msgstr "Gehe zum aktuellen Kanal"
 
@@ -25409,9 +25309,6 @@ msgstr "Höhe"
 #
 msgid "help..."
 msgstr "Hilfe..."
-
-msgid "helptext"
-msgstr "Hilfstext"
 
 msgid "hh:mm"
 msgstr "hh:mm"
@@ -25755,8 +25652,8 @@ msgstr "Keine Speichergeräte gefunden"
 msgid "none"
 msgstr "Keine"
 
-msgid "Normal"
-msgstr "Normal"
+msgid "normal"
+msgstr ""
 
 msgid "not"
 msgstr "nicht"
@@ -25833,9 +25730,6 @@ msgstr "Original"
 
 msgid "original language"
 msgstr "Originalsprache"
-
-msgid "OScam webif disabled"
-msgstr "OSCam-Weboberfläche deaktiviert"
 
 msgid "packages selected."
 msgstr "Pakete ausgewählt."
@@ -25931,10 +25825,6 @@ msgstr "Echte Aufnahmen / Streaming"
 
 msgid "reboot system"
 msgstr "Systemneustart"
-
-#
-msgid "record"
-msgstr "Aufnehmen"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -26217,10 +26107,6 @@ msgstr "Show/Spielshow (allgemein)"
 
 msgid "shuffle"
 msgstr "Zufällig"
-
-#
-msgid "Shut down"
-msgstr "Herunterfahren"
 
 #
 msgid "simple"
@@ -26651,13 +26537,6 @@ msgstr ""
 "Bitte im Handbuch nach Hinweisen suchen, bevor Sie Ihre %s %s neu starten."
 
 #
-msgid "zap"
-msgstr "Umschalten"
-
-msgid "Zap and record"
-msgstr "Umschalten und aufnehmen"
-
-#
 msgid "zapped"
 msgstr "Umgeschaltet"
 
@@ -26666,6 +26545,163 @@ msgstr "Umschalten"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid ""
+#~ "\n"
+#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+#~ msgstr ""
+#~ "\n"
+#~ "* Speicherort für Logs. Dateiname dort: 'Enigma2-hdmicec-[Datum].log'"
+
+# Date & Time in Timer-Log ( Timer & PowerTimer )
+#~ msgid "%Y-%m-%d %H-%M"
+#~ msgstr "%d.%m.%Y %H:%M"
+
+#~ msgid ""
+#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+#~ msgstr ""
+#~ "'TV-Standby verwalten' besitzt eine höhere Priorität als 'TV-Eingänge "
+#~ "verwalten'"
+
+#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
+#~ msgstr ""
+#~ "(z.B. TV aufwecken, aber es wird nicht auf den korrekten Eingang "
+#~ "geschaltet)"
+
+#~ msgid "16_10_letterbox"
+#~ msgstr "16:10 Letterbox"
+
+#~ msgid "16_10_panscan"
+#~ msgstr "16:10 Pan & Scan"
+
+#~ msgid "16_9"
+#~ msgstr "16:9"
+
+#~ msgid "16_9_always"
+#~ msgstr "immer 16:9"
+
+#~ msgid "16_9_letterbox"
+#~ msgstr "16:9 Letterbox"
+
+#~ msgid "4_3_letterbox"
+#~ msgstr "4:3 Letterbox"
+
+#~ msgid "4_3_panscan"
+#~ msgstr "4:3 Pan & Scan"
+
+#~ msgid "Accept the current selection"
+#~ msgstr "Aktuelle Auswahl akzeptieren"
+
+#, python-format
+#~ msgid ""
+#~ "Activate an way to send individual or specific internal HDMI-CEC commands "
+#~ "from the command line. Type on command line 'echo help > %s' and then "
+#~ "read the file '%s' for a short help."
+#~ msgstr ""
+#~ "Aktivieren Sie die Möglichkeit, individuelle oder festgelegte interne "
+#~ "HDMI-CEC-Befehle von der Befehlszeile zu senden. Geben Sie in der "
+#~ "Befehlszeile 'echo help > %s' ein und lesen Sie die Datei '%s', um eine "
+#~ "kurze Hilfe zu erhalten."
+
+#~ msgid ""
+#~ "Activation takes place immediately. If it does feature not work, then try "
+#~ "again with a slower send interval."
+#~ msgstr ""
+#~ "Die Aktivierung erfolgt sofort. Versuchen Sie es mit einem langsameren "
+#~ "Sendeintervall, wenn dieses Feature nicht funktioniert."
+
+#~ msgid ""
+#~ "Activation takes place immediately. If this feature is not supported, the "
+#~ "volume keys has no function!"
+#~ msgstr ""
+#~ "Die Aktivierung erfolgt sofort. Wenn diese Funktion nicht unterstützt "
+#~ "wird sind die Lautstärketasten ohne Funktion!"
+
+#~ msgid "Always select OK"
+#~ msgstr "Immer OK auswählen"
+
+#~ msgid ""
+#~ "An attempt is made to capture the current TV status. If this is not "
+#~ "possible due to incorrect or missing status messages, it may cause the "
+#~ "receiver to respond unexpectedly.\n"
+#~ "On the other hand, tries to respond better to different operating "
+#~ "conditions."
+#~ msgstr ""
+#~ "Es wird versucht den aktuellen TV-Betriebszustand zu erfassen. Ist dies "
+#~ "aufgrund falscher oder fehlender Statusmeldungen nicht möglich, kann Ihr "
+#~ "Receiver unerwartet reagieren.\n"
+#~ "Andererseits wird versucht auf verschiedene Betriebszustände besser zu "
+#~ "reagieren."
+
+#~ msgid "Cancel the selection"
+#~ msgstr "Auswahl abbrechen"
+
+#~ msgid "Choose a setting where your receiver wakes up from standby."
+#~ msgstr ""
+#~ "Wählen Sie die Einstellung, mit der der Receiver aus dem Standby aufwacht."
+
+#~ msgid "HDMI CEC"
+#~ msgstr "HDMI-CEC"
+
+#~ msgid "HDMI CEC Setup"
+#~ msgstr "HDMI-CEC"
+
+#~ msgid ""
+#~ "If the 'deep standby workaround' is enabled, it waits until the system "
+#~ "time is synchronized. Depending on the requirement, the devices wake up "
+#~ "will continuing after a maximum of 2 minutes."
+#~ msgstr ""
+#~ "Wenn der 'Deep-Standby-Workaround' aktiviert ist wird gewartet, bis die "
+#~ "Systemzeit synchronisiert wurde. Je nach Erfordernis wird das Aufwecken "
+#~ "der Geräte in maximal 2 Minuten fortgesetzt."
+
+#~ msgid "Is not necessary in most cases."
+#~ msgstr "Ist in den meisten Fällen nicht erforderlich."
+
+#~ msgid "Load Default Settings"
+#~ msgstr "Standardeinstellungen laden"
+
+#~ msgid ""
+#~ "Some TV devices can't swich to correct input if a another hdmi port "
+#~ "active. This setting set the TV to standby before.\n"
+#~ "(If the TV does not turn back on, may require a slower transmission "
+#~ "interval or the repetition of wake-up commands.)"
+#~ msgstr ""
+#~ "Einige TV-Geräte wechseln nicht den Eingang wenn ein anderer HDMI-Port "
+#~ "aktiv ist. Diese Einstellung schaltet den TV zuvor in den Standby.\n"
+#~ "(Wenn sich der TV nicht wieder einschaltet, ist möglicherweise ein "
+#~ "langsameres Sendeintervall oder die Wiederholung von Aufwachbefehlen "
+#~ "erforderlich.)"
+
+#~ msgid ""
+#~ "This is a workaround for some devices there wakeup again after switching "
+#~ "in standby. The wak up command's from other devices will ignored for few "
+#~ "seconds."
+#~ msgstr ""
+#~ "Dies ist ein Workaround für einige Geräte die nach dem Umschalten in den "
+#~ "Standby wieder geweckt werden. Damit wird das Aufwecken durch andere "
+#~ "Geräte für einige Sekunden ignoriert."
+
+#~ msgid "Try to send repeated commands if not all commands are executed.\n"
+#~ msgstr ""
+#~ "Versuchen Sie wiederholte Befehle zu senden, wenn nicht alle Befehle "
+#~ "ausgeführt werden.\n"
+
+#~ msgid "Try to slow down the send interval if not all commands are executed."
+#~ msgstr ""
+#~ "Versuchen Sie das Sendeintervall zu verlangsamen, wenn nicht alle Befehle "
+#~ "ausgeführt werden."
+
+#~ msgid "helptext"
+#~ msgstr "Hilfstext"
+
+#
+#~ msgid "record"
+#~ msgstr "Aufnehmen"
+
+#
+#~ msgid "zap"
+#~ msgstr "Umschalten"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"
