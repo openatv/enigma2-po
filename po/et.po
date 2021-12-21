@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 21:27+0000\n"
+"POT-Creation-Date: 2021-12-20 21:36+0000\n"
 "PO-Revision-Date: 2021-08-21 11:46+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/"
@@ -55,13 +55,6 @@ msgid ""
 msgstr ""
 "\n"
 " Kodi ei ole paigaldatud. Kas jätkata paigaldusega?"
-
-msgid ""
-"\n"
-"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-msgstr ""
-"\n"
-"* Logide asukoht: logide sätted, failinimi: Enigma2-hdmicec-[date].log"
 
 msgid ""
 "\n"
@@ -722,9 +715,6 @@ msgstr "%Y-%b-%d"
 
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
-
-msgid "%Y-%m-%d %H-%M"
-msgstr "%Y-%m-%d %H-%M"
 
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
@@ -1388,10 +1378,6 @@ msgstr ""
 "kustutamisel saab eelise esimesena täidetud tingimus."
 
 msgid ""
-"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-msgstr "'Ooteseisundisse teleri kaudu' kaalub üle 'Käivitamine teleri kaudu'"
-
-msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 
@@ -1423,9 +1409,6 @@ msgstr "(Näita ainult kaardipesa:"
 
 msgid "(current image)"
 msgstr "(praegune püsivara)"
-
-msgid "(e.g. TV wakeup, but not switched to correct input)"
-msgstr "(n.t. teler käivitub, aga ei lülitu õigele sisendile)"
 
 msgid "(empty)"
 msgstr "(tühi)"
@@ -1643,26 +1626,11 @@ msgstr "16:10 panscan"
 msgid "16:9"
 msgstr "16:9"
 
-msgid "16:9 Letterbox"
-msgstr "16:9 letterbox"
-
 msgid "16:9 Always"
 msgstr "alati 16:9"
 
-msgid "16_10_letterbox"
-msgstr "16_10_letterbox"
-
-msgid "16_10_panscan"
-msgstr "16_10_panscan"
-
-msgid "16_9"
-msgstr "16_9"
-
-msgid "16_9_always"
-msgstr "16_9_alati"
-
-msgid "16_9_letterbox"
-msgstr "16_9_letterbox"
+msgid "16:9 Letterbox"
+msgstr "16:9 letterbox"
 
 msgid "18 V"
 msgstr "18 V"
@@ -1900,12 +1868,6 @@ msgstr "4:3 panscan"
 
 msgid "4X"
 msgstr "4X"
-
-msgid "4_3_letterbox"
-msgstr "4_3_letterbox"
-
-msgid "4_3_panscan"
-msgstr "4_3_panscan"
 
 msgid "4s"
 msgstr "4s"
@@ -2341,9 +2303,6 @@ msgstr "Süsteemist"
 msgid "About..."
 msgstr "Süsteemist"
 
-msgid "Accept the current selection"
-msgstr "Jõusta praegune valik"
-
 msgid "Accessed:"
 msgstr "Pöördutud:"
 
@@ -2377,13 +2336,6 @@ msgid ""
 "from the command line."
 msgstr ""
 
-#, python-format
-msgid ""
-"Activate an way to send individual or specific internal HDMI-CEC commands "
-"from the command line. Type on command line 'echo help > %s' and then read "
-"the file '%s' for a short help."
-msgstr ""
-
 msgid "Activate current configuration"
 msgstr "Jõusta praegused seaded"
 
@@ -2410,20 +2362,6 @@ msgstr "Määra ajanihke lõpp"
 
 msgid "Activate timeshift end and pause"
 msgstr "Määra ajanihke lõpp ja paus"
-
-msgid ""
-"Activation takes place immediately. If it does feature not work, then try "
-"again with a slower send interval."
-msgstr ""
-"Aktiveerimine jõustub kohe. Kui see omadus ei tööta, proovi uuesti suurema "
-"intervalliga."
-
-msgid ""
-"Activation takes place immediately. If this feature is not supported, the "
-"volume keys has no function!"
-msgstr ""
-"Aktiveerimine jõustub kohe. Kui see omadus pole toetatud, puudub "
-"helitugevuse nupul funktsioon!"
 
 msgid "Active"
 msgstr "Töös"
@@ -2852,9 +2790,6 @@ msgstr ""
 "(võrguta dekodeerimine), kui vastuvõtja seda toetab. Vaikimisi: välja "
 "lülitatud."
 
-msgid "Always select OK"
-msgstr "Vali alati 'OK'"
-
 msgid "Always show bouquets"
 msgstr "Avamisel kuvatakse lemmiknimekirjad"
 
@@ -2879,16 +2814,6 @@ msgid ""
 "respond unexpectedly. On the other hand, tries to respond better to "
 "different operating conditions."
 msgstr ""
-
-msgid ""
-"An attempt is made to capture the current TV status. If this is not possible "
-"due to incorrect or missing status messages, it may cause the receiver to "
-"respond unexpectedly.\n"
-"On the other hand, tries to respond better to different operating conditions."
-msgstr ""
-"Üritati tuvastada teleri olekut. Kui see pole väärate või puuduvate "
-"olekuteadete tõttu võimalik, võib vastuvõtja ootamatult reageerida.\n"
-"Eesmärgiks on paremini reageerida erinevatele töötingimustele."
 
 msgid "An empty filename is illegal."
 msgstr "Tühi failinimi ei ole lubatud."
@@ -4231,10 +4156,6 @@ msgstr "Kanalivalik"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Kanalivalik"
 
-#, fuzzy
-msgid "Cancel the selection"
-msgstr "Kanalivalik"
-
 msgid "Cancelled upon user request"
 msgstr "Tühistatud kasutaja nõudmisel"
 
@@ -4601,9 +4522,6 @@ msgstr ""
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr ""
 
-msgid "Choose a setting where your receiver wakes up from standby."
-msgstr "Vali säte. millal vastuvõtja ärkab ooteseisundist."
-
 msgid "Choose a tag for easy finding a recording."
 msgstr "Vali salvestise lihtsaks leidmiseks märksõna."
 
@@ -4798,6 +4716,9 @@ msgstr "Vajuta puldi nupule, mille toimet soovid muuta"
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Kliendi info (Oscam: %s )"
 
+msgid "Client is streaming from this box!"
+msgstr ""
+
 msgid "ClientIP"
 msgstr "Kliendi IP"
 
@@ -4822,6 +4743,9 @@ msgstr "Sulge lemmiknimekirjad."
 
 msgid "Close dialog"
 msgstr "Sulge aken"
+
+msgid "Close the window"
+msgstr ""
 
 msgid "Close title selection"
 msgstr "Sulge pealkirja valik"
@@ -5869,6 +5793,9 @@ msgstr "Määra lõikekohad"
 msgid "Cutlist editor..."
 msgstr "Määra lõikekohad."
 
+msgid "Cycle PIP(zap)"
+msgstr ""
+
 msgid "Cycling"
 msgstr ""
 
@@ -6261,6 +6188,10 @@ msgid "Defaults"
 msgstr "Vaikeväärtused"
 
 msgid ""
+"Define additional delay in milliseconds before start of http(s) streams."
+msgstr ""
+
+msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6497,6 +6428,9 @@ msgstr ""
 "dekodeeri, talleta ecm' valimisel salvestatakse saade kodeerituna ja "
 "dekodeerimine toimub taasesitusel. Valikul 'tavaline' salvestatakse saade "
 "dekodeerituna ja ECM ei salvestata."
+
+msgid "Descramble and record ecm"
+msgstr "Dekodeeri ja salvesta ecm"
 
 msgid "Descramble http streams"
 msgstr "Dekodeeri http vood"
@@ -6769,6 +6703,9 @@ msgstr "Ära paigalda püsivara"
 msgid "Do not record"
 msgstr "Ära salvesta"
 
+msgid "Do nothing"
+msgstr "Ära tee midagi"
+
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -7006,6 +6943,9 @@ msgstr "Ära lisa seda salvestust"
 
 msgid "Don't ask again!"
 msgstr "Ära enam küsi!"
+
+msgid "Don't descramble, record ecm"
+msgstr "Ära dekodeeri, salvesta ecm"
 
 msgid "Don't restart"
 msgstr ""
@@ -8893,6 +8833,9 @@ msgstr "Liigu nimekirjas alla"
 msgid "Go to bookmarked folder"
 msgstr "Ava lemmikkataloog"
 
+msgid "Go to deep standby"
+msgstr "Vastuvõtja puhkeseisundisse"
+
 msgid "Go to end of file"
 msgstr "Mine faili lõppu"
 
@@ -8904,6 +8847,9 @@ msgstr "Liigu esimesele nimetusele või nimekirja tippu"
 
 msgid "Go to parent directory"
 msgstr "Mine ülemkataloogi"
+
+msgid "Go to standby"
+msgstr "Vastuvõtja ooteseisundisse"
 
 msgid "Go to start of file"
 msgstr "Mine faili algusesse"
@@ -9080,12 +9026,6 @@ msgstr ""
 
 msgid "HDMI"
 msgstr "HDMI"
-
-msgid "HDMI CEC"
-msgstr "HDMI CEC"
-
-msgid "HDMI CEC Setup"
-msgstr "HDMI CEC seaded"
 
 msgid "HDMI Colordepth"
 msgstr "HDMI värvisügavus"
@@ -9407,6 +9347,9 @@ msgstr "Tundi minutit sekundit"
 msgid "How many minutes do you want to record?"
 msgstr "Mitu minutit soovid salvestada?"
 
+msgid "Http(s) stream start delay"
+msgstr ""
+
 msgid "Hue"
 msgstr "Värvitoon"
 
@@ -9687,12 +9630,6 @@ msgid ""
 "If set to 'yes; the infobar will remain shown permanently in 'paused' state "
 "(no timeout)."
 msgstr "Kui lubatud, kuvatakse pausil olles inforiba pidevalt."
-
-msgid ""
-"If the 'deep standby workaround' is enabled, it waits until the system time "
-"is synchronized. Depending on the requirement, the devices wake up will "
-"continuing after a maximum of 2 minutes."
-msgstr ""
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -10271,9 +10208,6 @@ msgstr "Iirimaa"
 
 msgid "Irish"
 msgstr ""
-
-msgid "Is not necessary in most cases."
-msgstr "Enamasti pole see vajalik."
 
 msgid "Is this setting ok?"
 msgstr "Kas need seaded sobivad?"
@@ -10874,9 +10808,6 @@ msgstr "Kiirtegevused"
 msgid "Load"
 msgstr "Laadi"
 
-msgid "Load Default Settings"
-msgstr "Lae vaikeväärtused"
-
 msgid "Load EPG"
 msgstr "Laadi EPG"
 
@@ -11381,13 +11312,13 @@ msgid "Message"
 msgstr "Teade"
 
 #
-msgid "Message..."
-msgstr "Teade."
-
-#
 #, fuzzy
 msgid "Message Box Actions"
 msgstr "Virtuaalklahvistiku funktsioonid"
+
+#
+msgid "Message..."
+msgstr "Teade."
 
 msgid "Metadata changed:"
 msgstr "Metaandmed muutunud:"
@@ -11695,11 +11626,17 @@ msgstr "Liiguta teksti puhvri kursor esimesele tähemärgile"
 msgid "Move the text cursor to the last character"
 msgstr "Liiguta teksti puhvri kursor viimasele tähemärgile"
 
+msgid "Move to first line"
+msgstr ""
+
 msgid "Move to first line / screen"
 msgstr ""
 
 msgid "Move to home of list"
 msgstr "Liigu nimekirja kodukataloogi"
+
+msgid "Move to last line"
+msgstr ""
 
 msgid "Move to last line / screen"
 msgstr ""
@@ -12493,6 +12430,9 @@ msgstr "Räside %s jaoks pole saadaval ühtegi rakendust"
 msgid "Norfolk Island"
 msgstr "Norfolki saar"
 
+msgid "Normal"
+msgstr "Tavaline"
+
 msgid "North"
 msgstr "Põhi"
 
@@ -12702,6 +12642,9 @@ msgstr "Ekraanigraafika seaded"
 
 msgid "OScam Info"
 msgstr "OScam info"
+
+msgid "OScam webif disabled"
+msgstr "oscam veebiliides keelatud"
 
 msgid "OScamInfo"
 msgstr "Oscam info"
@@ -13986,9 +13929,6 @@ msgstr "Puhkeseisundi toitetaimer"
 msgid "PowerTimer Entry"
 msgstr "Toitetaimer"
 
-msgid "PowerTimer list"
-msgstr "Toitetaimerite nimekiri"
-
 msgid "PowerTimer Log"
 msgstr "Toitetaimeri logi"
 
@@ -13997,6 +13937,9 @@ msgstr "Toiteaimeri ülevaade"
 
 msgid "PowerTimer Standby"
 msgstr "Ooteeseisundi toitetaimer"
+
+msgid "PowerTimer list"
+msgstr "Toitetaimerite nimekiri"
 
 msgid "PowerTimers"
 msgstr "Toitetaimerid"
@@ -15184,6 +15127,9 @@ msgstr "Püsivara nimekirja hankimine. Oota."
 msgid "Retrieving image slots - Please wait..."
 msgstr "Püsivara pesade hankimine. Oota."
 
+msgid "Return the current selection response"
+msgstr ""
+
 msgid "Return to movie list"
 msgstr "Tagasi filmilisti"
 
@@ -16073,6 +16019,9 @@ msgstr "Vali järjestusviis:"
 msgid "Select target folder"
 msgstr "Vali sihtkataloog"
 
+msgid "Select the No / False response"
+msgstr ""
+
 #
 msgid "Select the Swap File Size:"
 msgstr "Määra saalefaili suurus:"
@@ -16112,6 +16061,9 @@ msgstr ""
 msgid ""
 "Select the User Band frequency to be assigned to this tuner. This is the "
 "frequency the SCR switch uses to pass the requested transponder to the tuner."
+msgstr ""
+
+msgid "Select the Yes / True response"
 msgstr ""
 
 #, fuzzy
@@ -17751,6 +17703,9 @@ msgstr "Tähista vaadatud salvestised."
 msgid "Shuffle playlist"
 msgstr "Segatud pleilist"
 
+msgid "Shut down"
+msgstr "Lülita välja"
+
 msgid "Shutdown"
 msgstr "Lülita välja"
 
@@ -18087,18 +18042,6 @@ msgid ""
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
 msgstr ""
-
-msgid ""
-"Some TV devices can't swich to correct input if a another hdmi port active. "
-"This setting set the TV to standby before.\n"
-"(If the TV does not turn back on, may require a slower transmission interval "
-"or the repetition of wake-up commands.)"
-msgstr ""
-"Mõned telerid ei vahetu õigele sisendile, kui teine hdmi port on aktiivne. "
-"See säte panel teleri esmalt ootesisundisse.\n"
-"\n"
-"(Kui teler ei lülitu uuesti sisse, võib proovida äratuskäskude vahemikku "
-"suurendada.)"
 
 msgid "Some plugins are not available:\n"
 msgstr "Mõned pluginad pole saadaval:\n"
@@ -19614,15 +19557,6 @@ msgid ""
 "seconds."
 msgstr ""
 
-msgid ""
-"This is a workaround for some devices there wakeup again after switching in "
-"standby. The wak up command's from other devices will ignored for few "
-"seconds."
-msgstr ""
-"See on erilahendus boksidele, mis pärast ooteseisundisse minekut jälle "
-"käivituvad. Muudest seadmetest tulevat äratuskäske eiratakse mõne sekundi "
-"jooksul."
-
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr ""
@@ -20567,16 +20501,10 @@ msgid ""
 "for the receiver."
 msgstr ""
 
-msgid "Try to send repeated commands if not all commands are executed.\n"
-msgstr "Ürita saata korduvaid käske, kui kõiki käske ei täideta.\n"
-
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
 msgstr ""
-
-msgid "Try to slow down the send interval if not all commands are executed."
-msgstr "Suurenda saatmise intervalli, kui kõiki käske ei täideta."
 
 msgid "Trying to download a new packetlist. Please wait..."
 msgstr "Uue tarkvaraloendi hankimine. Oota..."
@@ -23047,6 +22975,9 @@ msgstr "Kanalivahetus"
 msgid "Zap + Exit"
 msgstr "Kanalivahetus ja väljumine"
 
+msgid "Zap and record"
+msgstr "Kanalivahetus ja salvestamine"
+
 msgid "Zap back to previously tuned service?"
 msgstr "Tagasi vaadatud kanalile?"
 
@@ -23538,9 +23469,6 @@ msgstr "Kustuta lõige"
 msgid "deleted"
 msgstr "Kustuta"
 
-msgid "Descramble and record ecm"
-msgstr "Dekodeeri ja salvesta ecm"
-
 msgid "detective/thriller"
 msgstr "detektiiv/triller"
 
@@ -23559,9 +23487,6 @@ msgstr "arutelu/vestlus/debatt"
 msgid "display"
 msgstr "Esipaneeli näidik"
 
-msgid "Do nothing"
-msgstr "Ära tee midagi"
-
 msgid "documentary"
 msgstr "dokumentaal"
 
@@ -23571,9 +23496,6 @@ msgstr "dokumentaal"
 
 msgid "dolby"
 msgstr "dolby"
-
-msgid "Don't descramble, record ecm"
-msgstr "Ära dekodeeri, salvesta ecm"
 
 msgid "done!"
 msgstr "valmis!"
@@ -23827,12 +23749,6 @@ msgstr "aiandus"
 msgid "get the cards' server"
 msgstr "hangi kaardiserver"
 
-msgid "Go to deep standby"
-msgstr "Vastuvõtja puhkeseisundisse"
-
-msgid "Go to standby"
-msgstr "Vastuvõtja ooteseisundisse"
-
 msgid "goto current channel and now"
 msgstr "Mine aktiivsele kanalile ja 'nüüd'"
 
@@ -23903,9 +23819,6 @@ msgstr "Kõrgus"
 #
 msgid "help..."
 msgstr "Abi"
-
-msgid "helptext"
-msgstr "abitekst"
 
 msgid "hh:mm"
 msgstr "hh:mm"
@@ -24225,8 +24138,8 @@ msgstr "andmekandjaid ei leitud"
 msgid "none"
 msgstr "puudub"
 
-msgid "Normal"
-msgstr "Tavaline"
+msgid "normal"
+msgstr ""
 
 msgid "not"
 msgstr "mitte"
@@ -24293,9 +24206,6 @@ msgstr "Algupärane"
 
 msgid "original language"
 msgstr "algupärane keel"
-
-msgid "OScam webif disabled"
-msgstr "oscam veebiliides keelatud"
 
 msgid "packages selected."
 msgstr "paketti valitud."
@@ -24388,9 +24298,6 @@ msgstr "Ehtsad salvestused või voogesitus"
 
 msgid "reboot system"
 msgstr "Taaskäivita süsteem"
-
-msgid "record"
-msgstr "salvestus"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -24644,9 +24551,6 @@ msgstr "show/telemäng"
 
 msgid "shuffle"
 msgstr "Segatud"
-
-msgid "Shut down"
-msgstr "Lülita välja"
 
 msgid "simple"
 msgstr "Lihtne"
@@ -25034,12 +24938,6 @@ msgstr ""
 "%s %s võib olla nüüd kasutuskõlbmatu. Uuri juhendit täiendava abi leidmiseks "
 "enne %s %s taaskäivitamist."
 
-msgid "zap"
-msgstr "Kanalivahetus"
-
-msgid "Zap and record"
-msgstr "Kanalivahetus ja salvestamine"
-
 msgid "zapped"
 msgstr "vahetatud"
 
@@ -25048,6 +24946,131 @@ msgstr "Kanalivahetus"
 
 msgid "®"
 msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+#~ msgstr ""
+#~ "\n"
+#~ "* Logide asukoht: logide sätted, failinimi: Enigma2-hdmicec-[date].log"
+
+#~ msgid "%Y-%m-%d %H-%M"
+#~ msgstr "%Y-%m-%d %H-%M"
+
+#~ msgid ""
+#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+#~ msgstr ""
+#~ "'Ooteseisundisse teleri kaudu' kaalub üle 'Käivitamine teleri kaudu'"
+
+#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
+#~ msgstr "(n.t. teler käivitub, aga ei lülitu õigele sisendile)"
+
+#~ msgid "16_10_letterbox"
+#~ msgstr "16_10_letterbox"
+
+#~ msgid "16_10_panscan"
+#~ msgstr "16_10_panscan"
+
+#~ msgid "16_9"
+#~ msgstr "16_9"
+
+#~ msgid "16_9_always"
+#~ msgstr "16_9_alati"
+
+#~ msgid "16_9_letterbox"
+#~ msgstr "16_9_letterbox"
+
+#~ msgid "4_3_letterbox"
+#~ msgstr "4_3_letterbox"
+
+#~ msgid "4_3_panscan"
+#~ msgstr "4_3_panscan"
+
+#~ msgid "Accept the current selection"
+#~ msgstr "Jõusta praegune valik"
+
+#~ msgid ""
+#~ "Activation takes place immediately. If it does feature not work, then try "
+#~ "again with a slower send interval."
+#~ msgstr ""
+#~ "Aktiveerimine jõustub kohe. Kui see omadus ei tööta, proovi uuesti "
+#~ "suurema intervalliga."
+
+#~ msgid ""
+#~ "Activation takes place immediately. If this feature is not supported, the "
+#~ "volume keys has no function!"
+#~ msgstr ""
+#~ "Aktiveerimine jõustub kohe. Kui see omadus pole toetatud, puudub "
+#~ "helitugevuse nupul funktsioon!"
+
+#~ msgid "Always select OK"
+#~ msgstr "Vali alati 'OK'"
+
+#~ msgid ""
+#~ "An attempt is made to capture the current TV status. If this is not "
+#~ "possible due to incorrect or missing status messages, it may cause the "
+#~ "receiver to respond unexpectedly.\n"
+#~ "On the other hand, tries to respond better to different operating "
+#~ "conditions."
+#~ msgstr ""
+#~ "Üritati tuvastada teleri olekut. Kui see pole väärate või puuduvate "
+#~ "olekuteadete tõttu võimalik, võib vastuvõtja ootamatult reageerida.\n"
+#~ "Eesmärgiks on paremini reageerida erinevatele töötingimustele."
+
+#, fuzzy
+#~ msgid "Cancel the selection"
+#~ msgstr "Kanalivalik"
+
+#~ msgid "Choose a setting where your receiver wakes up from standby."
+#~ msgstr "Vali säte. millal vastuvõtja ärkab ooteseisundist."
+
+#~ msgid "HDMI CEC"
+#~ msgstr "HDMI CEC"
+
+#~ msgid "HDMI CEC Setup"
+#~ msgstr "HDMI CEC seaded"
+
+#~ msgid "Is not necessary in most cases."
+#~ msgstr "Enamasti pole see vajalik."
+
+#~ msgid "Load Default Settings"
+#~ msgstr "Lae vaikeväärtused"
+
+#~ msgid ""
+#~ "Some TV devices can't swich to correct input if a another hdmi port "
+#~ "active. This setting set the TV to standby before.\n"
+#~ "(If the TV does not turn back on, may require a slower transmission "
+#~ "interval or the repetition of wake-up commands.)"
+#~ msgstr ""
+#~ "Mõned telerid ei vahetu õigele sisendile, kui teine hdmi port on "
+#~ "aktiivne. See säte panel teleri esmalt ootesisundisse.\n"
+#~ "\n"
+#~ "(Kui teler ei lülitu uuesti sisse, võib proovida äratuskäskude vahemikku "
+#~ "suurendada.)"
+
+#~ msgid ""
+#~ "This is a workaround for some devices there wakeup again after switching "
+#~ "in standby. The wak up command's from other devices will ignored for few "
+#~ "seconds."
+#~ msgstr ""
+#~ "See on erilahendus boksidele, mis pärast ooteseisundisse minekut jälle "
+#~ "käivituvad. Muudest seadmetest tulevat äratuskäske eiratakse mõne sekundi "
+#~ "jooksul."
+
+#~ msgid "Try to send repeated commands if not all commands are executed.\n"
+#~ msgstr "Ürita saata korduvaid käske, kui kõiki käske ei täideta.\n"
+
+#~ msgid "Try to slow down the send interval if not all commands are executed."
+#~ msgstr "Suurenda saatmise intervalli, kui kõiki käske ei täideta."
+
+#~ msgid "helptext"
+#~ msgstr "abitekst"
+
+#~ msgid "record"
+#~ msgstr "salvestus"
+
+#~ msgid "zap"
+#~ msgstr "Kanalivahetus"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"
