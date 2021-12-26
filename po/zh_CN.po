@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV [E2+webif_V5.3_6.0]\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
+"POT-Creation-Date: 2021-11-29 21:27+0000\n"
 "PO-Revision-Date: 2021-11-02 11:36+0000\n"
 "Last-Translator: lexlong2007 <lexlong2007@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -57,6 +57,13 @@ msgid ""
 msgstr ""
 "\n"
 " Kodi不存在.是否继续安装？"
+
+msgid ""
+"\n"
+"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+msgstr ""
+"\n"
+"日志位置：日志设置，文件名：Enigma2-hdmicec-[date].log"
 
 msgid ""
 "\n"
@@ -713,6 +720,9 @@ msgstr "%Y-%b-%d"
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
+msgid "%Y-%m-%d %H-%M"
+msgstr "%Y-%m-%d %H-%M"
+
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
 
@@ -1365,6 +1375,10 @@ msgstr ""
 "种方式，哪种方式先满足就执行那种方式的删除."
 
 msgid ""
+"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr "“处理来自电视的待机”比“处理来自电视的输入”具有更高的优先级"
+
+msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 
@@ -1396,6 +1410,9 @@ msgstr "(仅显示读卡器:"
 
 msgid "(current image)"
 msgstr "(当前固件)"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr "(例如. 电视已唤醒, 但没有切换到正确的输入)"
 
 msgid "(empty)"
 msgstr "(空)"
@@ -1607,11 +1624,26 @@ msgstr "16:10 拉伸模式"
 msgid "16:9"
 msgstr "16:9"
 
+msgid "16:9 Letterbox"
+msgstr "16:9 信箱模式"
+
 msgid "16:9 Always"
 msgstr "始终16:9"
 
-msgid "16:9 Letterbox"
-msgstr "16:9 信箱模式"
+msgid "16_10_letterbox"
+msgstr "16_10_信箱模式"
+
+msgid "16_10_panscan"
+msgstr "16_10_拉伸模式"
+
+msgid "16_9"
+msgstr "16_9"
+
+msgid "16_9_always"
+msgstr "16_9_固定"
+
+msgid "16_9_letterbox"
+msgstr "16_9_拉伸模式"
 
 msgid "18 V"
 msgstr "18 V"
@@ -1843,6 +1875,12 @@ msgstr "4:3 拉伸模式"
 
 msgid "4X"
 msgstr "4X"
+
+msgid "4_3_letterbox"
+msgstr "4_3_信箱模式"
+
+msgid "4_3_panscan"
+msgstr "4_3_拉伸模式"
 
 msgid "4s"
 msgstr "4s"
@@ -2269,6 +2307,9 @@ msgstr "关于"
 msgid "About..."
 msgstr "关于..."
 
+msgid "Accept the current selection"
+msgstr "接受当前选择"
+
 msgid "Accessed:"
 msgstr "最后访问时间:"
 
@@ -2301,6 +2342,15 @@ msgid ""
 "from the command line."
 msgstr ""
 
+#, python-format
+msgid ""
+"Activate an way to send individual or specific internal HDMI-CEC commands "
+"from the command line. Type on command line 'echo help > %s' and then read "
+"the file '%s' for a short help."
+msgstr ""
+"从命令行发送单个或特定内部 HDMI-CEC 命令。 在命令行中键入“echo help > %s”，然"
+"后阅读文件“%s”以获取简短帮助。"
+
 msgid "Activate current configuration"
 msgstr "激活当前配置"
 
@@ -2327,6 +2377,16 @@ msgstr "激活时移结束"
 
 msgid "Activate timeshift end and pause"
 msgstr "激活时移结束并暂停"
+
+msgid ""
+"Activation takes place immediately. If it does feature not work, then try "
+"again with a slower send interval."
+msgstr "立刻激活。 如果它的功能不起作用，请使用较慢的发送间隔重试。"
+
+msgid ""
+"Activation takes place immediately. If this feature is not supported, the "
+"volume keys has no function!"
+msgstr "立刻激活。 如果不支持此功能，则音量键不起作用！"
 
 msgid "Active"
 msgstr "活跃"
@@ -2358,7 +2418,7 @@ msgstr "添加换台定时器"
 msgid "Add Zap+Record Timer"
 msgstr "添加一个换台+录像定时器"
 
-msgid "Add a auto timer for current event"
+msgid "Add an AutoTimer for the current event"
 msgstr "添加当前事件自动定时器"
 
 msgid "Add a mark"
@@ -2439,7 +2499,7 @@ msgstr "添加标题"
 msgid "Add/Remove Timer"
 msgstr "添加/删除 定时器"
 
-msgid "Add/Remove timer for current event"
+msgid "Add/Remove a timer for the current event"
 msgstr "添加/删除 当前事件定时器"
 
 msgid "Adding schedule..."
@@ -2736,6 +2796,9 @@ msgstr ""
 "始终在录像中包含 ECM 消息。 这将全局覆盖单个计时器设置。 如果您的接收器支持，"
 "它允许之后总是解密录制（有时称为离线解码）。 默认值：关闭。"
 
+msgid "Always select OK"
+msgstr "总是选择OK"
+
 msgid "Always show bouquets"
 msgstr "始终显示自定义组"
 
@@ -2760,6 +2823,15 @@ msgid ""
 "respond unexpectedly. On the other hand, tries to respond better to "
 "different operating conditions."
 msgstr ""
+
+msgid ""
+"An attempt is made to capture the current TV status. If this is not possible "
+"due to incorrect or missing status messages, it may cause the receiver to "
+"respond unexpectedly.\n"
+"On the other hand, tries to respond better to different operating conditions."
+msgstr ""
+"尝试捕获当前的电视状态。 如果无法正确获取状态，可能会导致接收器意外响应。\n"
+"另外，你可以尝试使用不同的操作条件。"
 
 msgid "An empty filename is illegal."
 msgstr "文件名不能为空."
@@ -4061,6 +4133,9 @@ msgstr "取消固件选择并退出"
 msgid "Cancel the image selection and exit all menus"
 msgstr "取消镜像选择并退出所有菜单"
 
+msgid "Cancel the selection"
+msgstr "取消选择"
+
 msgid "Cancelled upon user request"
 msgstr "应用户要求取消"
 
@@ -4184,7 +4259,7 @@ msgstr "更改皮肤"
 msgid "Change step size"
 msgstr "更改步进大小"
 
-msgid "Change timer"
+msgid "Change Timer"
 msgstr "更改定时器"
 
 msgid "Change to bouquet"
@@ -4417,6 +4492,9 @@ msgstr "选择用于解码 EPG 事件中的评级信息的国家/地区方案。
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr "选择可在 IceTV 服务中识别此设备的标签。"
 
+msgid "Choose a setting where your receiver wakes up from standby."
+msgstr "选择接收器从待机状态唤醒的设置。"
+
 msgid "Choose a tag for easy finding a recording."
 msgstr "选择一个容易找到录像的标签."
 
@@ -4603,9 +4681,6 @@ msgstr "请按下你想要修改的遥控键"
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "客户端信息（Oscam 版本：%s）"
 
-msgid "Client is streaming from this box!"
-msgstr ""
-
 msgid "ClientIP"
 msgstr "客户端IP"
 
@@ -4629,9 +4704,6 @@ msgstr "关闭自定义列表."
 
 msgid "Close dialog"
 msgstr "关闭对话框"
-
-msgid "Close the window"
-msgstr ""
 
 msgid "Close title selection"
 msgstr "关闭标题选择"
@@ -5611,9 +5683,6 @@ msgstr "Cutlist编辑器"
 msgid "Cutlist editor..."
 msgstr "Cutlist编辑器..."
 
-msgid "Cycle PIP(zap)"
-msgstr ""
-
 msgid "Cycling"
 msgstr "自行车"
 
@@ -5989,10 +6058,6 @@ msgid "Defaults"
 msgstr "默认值"
 
 msgid ""
-"Define additional delay in milliseconds before start of http(s) streams."
-msgstr ""
-
-msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr "定义重复跳转的时间有多快.数值低于500毫秒可能 NAS 会有问题."
@@ -6172,7 +6237,7 @@ msgstr "删除选定的文件或目录"
 msgid "Delete this tag"
 msgstr ""
 
-msgid "Delete timer"
+msgid "Delete Timer"
 msgstr "删除定时器"
 
 msgid "Delete unused tags"
@@ -6215,9 +6280,6 @@ msgid ""
 msgstr ""
 "如果录像时解扰失败，“解扰和录制ECM”将提供后续的解扰选项. “不要解扰，录制"
 "ECM”将保存原始加扰录像. “正常”表示将保存解扰后的录像，不记录ECM."
-
-msgid "Descramble and record ecm"
-msgstr "解扰并录制ECM"
 
 msgid "Descramble http streams"
 msgstr "解扰Http串流"
@@ -6475,9 +6537,6 @@ msgstr "不要刷机"
 msgid "Do not record"
 msgstr "不录制"
 
-msgid "Do nothing"
-msgstr "不执行任何操作"
-
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -6712,9 +6771,6 @@ msgstr "不添加此录像"
 
 msgid "Don't ask again!"
 msgstr "不再重复询问！"
-
-msgid "Don't descramble, record ecm"
-msgstr "不解扰，录制ECM"
 
 msgid "Don't restart"
 msgstr "不重启"
@@ -7008,7 +7064,7 @@ msgstr "编辑 %s %s 的DNS服务器配置.\n"
 msgid "Edit the network configuration of your %s %s.\n"
 msgstr "编辑您的 %s %s 的网络配置.\n"
 
-msgid "Edit timer"
+msgid "Edit Timer"
 msgstr "编辑定时器"
 
 msgid "Edit title"
@@ -7614,10 +7670,10 @@ msgstr "事件浏览菜单"
 msgid "Eventname only"
 msgstr "仅事件名称"
 
-msgid "Eventview"
+msgid "Event View"
 msgstr "事件视图"
 
-msgid "Eventview menu"
+msgid "Event View Context Menu"
 msgstr "事件视图菜单"
 
 msgid "Eventview:"
@@ -8513,9 +8569,6 @@ msgstr "下拉列表"
 msgid "Go to bookmarked folder"
 msgstr "转到书签文件夹"
 
-msgid "Go to deep standby"
-msgstr "进入深度待机"
-
 msgid "Go to end of file"
 msgstr "转到文件末尾"
 
@@ -8527,9 +8580,6 @@ msgstr "转到第一部电影或列表顶部"
 
 msgid "Go to parent directory"
 msgstr "跳转到上级目录"
-
-msgid "Go to standby"
-msgstr "进入待机"
 
 msgid "Go to start of file"
 msgstr "转到文件开头"
@@ -8705,6 +8755,12 @@ msgstr "HD60/Multibox/Multiboxse"
 
 msgid "HDMI"
 msgstr "HDMI"
+
+msgid "HDMI CEC"
+msgstr "HDMI CEC "
+
+msgid "HDMI CEC Setup"
+msgstr "HDMI CEC 设置"
 
 msgid "HDMI Colordepth"
 msgstr "HDMI 色深"
@@ -9012,9 +9068,6 @@ msgstr "小时 分钟 秒"
 msgid "How many minutes do you want to record?"
 msgstr "您想录制多少分钟？"
 
-msgid "Http(s) stream start delay"
-msgstr ""
-
 msgid "Hue"
 msgstr "色调"
 
@@ -9039,7 +9092,7 @@ msgstr "IMDB 搜索"
 msgid "IMDB search"
 msgstr "IMDB 搜索"
 
-msgid "IMDB search for current event"
+msgid "IMDb search for current event"
 msgstr "搜索 IMDB 当前事件"
 
 msgid "IMDb Details"
@@ -9273,6 +9326,14 @@ msgid ""
 "If set to 'yes; the infobar will remain shown permanently in 'paused' state "
 "(no timeout)."
 msgstr "如果设置为'是; 信息栏将永久显示为“暂停”状态（无超时）。"
+
+msgid ""
+"If the 'deep standby workaround' is enabled, it waits until the system time "
+"is synchronized. Depending on the requirement, the devices wake up will "
+"continuing after a maximum of 2 minutes."
+msgstr ""
+"如果启用了“深度待机解决方法”，它会等待系统时间同步。 根据要求，设备将在最多 "
+"2 分钟后继续唤醒。"
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -9826,6 +9887,9 @@ msgstr "爱尔兰"
 
 msgid "Irish"
 msgstr "爱尔兰语"
+
+msgid "Is not necessary in most cases."
+msgstr "大多数情况下没有必要."
 
 msgid "Is this setting ok?"
 msgstr "这个设置 OK 吗？"
@@ -10398,6 +10462,9 @@ msgstr "直播电视操作"
 msgid "Load"
 msgstr "加载"
 
+msgid "Load Default Settings"
+msgstr "加载默认设置"
+
 msgid "Load EPG"
 msgstr "加载EPG"
 
@@ -10862,11 +10929,11 @@ msgstr "Merlin EPG 中心"
 msgid "Message"
 msgstr "消息"
 
-msgid "Message Box Actions"
-msgstr "消息框功能"
-
 msgid "Message..."
 msgstr "消息..."
+
+msgid "Message Box Actions"
+msgstr "消息框功能"
 
 msgid "Metadata changed:"
 msgstr "元数据已更改:"
@@ -11154,17 +11221,11 @@ msgstr "将文本光标移动到第一个字符"
 msgid "Move the text cursor to the last character"
 msgstr "将文本光标移动到最后一个字符"
 
-msgid "Move to first line"
-msgstr ""
-
 msgid "Move to first line / screen"
 msgstr "移动到第一行/屏幕"
 
 msgid "Move to home of list"
 msgstr "移动到主列表"
-
-msgid "Move to last line"
-msgstr ""
 
 msgid "Move to last line / screen"
 msgstr "移至最后一行/屏幕"
@@ -11905,9 +11966,6 @@ msgstr "没有找到哈希值为%s的应用"
 msgid "Norfolk Island"
 msgstr "诺福克岛"
 
-msgid "Normal"
-msgstr "正常"
-
 msgid "North"
 msgstr "北"
 
@@ -12106,9 +12164,6 @@ msgstr "OSD选项"
 
 msgid "OScam Info"
 msgstr "OScam 信息"
-
-msgid "OScam webif disabled"
-msgstr "oscam webif 已禁用"
 
 msgid "OScamInfo"
 msgstr "Oscam 信息"
@@ -13336,6 +13391,9 @@ msgstr "电源定时器深度待机"
 msgid "PowerTimer Entry"
 msgstr "电源管理项"
 
+msgid "PowerTimer list"
+msgstr "电源定时器列表"
+
 msgid "PowerTimer Log"
 msgstr "电源管理器日志"
 
@@ -13344,9 +13402,6 @@ msgstr "电源定时器概述"
 
 msgid "PowerTimer Standby"
 msgstr "电源定时器待机"
-
-msgid "PowerTimer list"
-msgstr "电源定时器列表"
 
 msgid "PowerTimers"
 msgstr "电源定时器"
@@ -14479,9 +14534,6 @@ msgstr "正在获取固件列表.请稍候..."
 msgid "Retrieving image slots - Please wait..."
 msgstr "正在获取固件安装位置列表.请稍候..."
 
-msgid "Return the current selection response"
-msgstr ""
-
 msgid "Return to movie list"
 msgstr "返回到影片列表"
 
@@ -15323,9 +15375,6 @@ msgstr "选择排序方法:"
 msgid "Select target folder"
 msgstr "选择目标文件夹"
 
-msgid "Select the No / False response"
-msgstr ""
-
 msgid "Select the Swap File Size:"
 msgstr "选择交换文件大小:"
 
@@ -15374,9 +15423,6 @@ msgid ""
 msgstr ""
 "选择要分配给该调谐器的用户频段频率。 这是 SCR 开关用来将请求的转发器传递给调"
 "谐器的频率。"
-
-msgid "Select the Yes / True response"
-msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "选择键盘光标下的字符或动作"
@@ -16769,7 +16815,7 @@ msgstr "显示设置默认值"
 msgid "Show shutdown menu"
 msgstr "显示关机菜单"
 
-msgid "Show single epg for current channel"
+msgid "Show single EPG for current channel"
 msgstr "显示当前频道的单EPG"
 
 msgid "Show single epg for current channel (setup in menu)"
@@ -16910,9 +16956,6 @@ msgstr "显示影片的观看状态."
 
 msgid "Shuffle playlist"
 msgstr "随机播放列表"
-
-msgid "Shut down"
-msgstr "关机"
 
 msgid "Shutdown"
 msgstr "关机"
@@ -17237,6 +17280,16 @@ msgid ""
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
 msgstr ""
+
+msgid ""
+"Some TV devices can't swich to correct input if a another hdmi port active. "
+"This setting set the TV to standby before.\n"
+"(If the TV does not turn back on, may require a slower transmission interval "
+"or the repetition of wake-up commands.)"
+msgstr ""
+"如果另一个 hdmi 端口处于活动状态，则某些电视设备无法切换到正确的输入。 此设置"
+"之前将电视设置为待机。\n"
+"（如果电视没有重新打开，可能需要更慢的传输间隔或重复唤醒命令。）"
 
 msgid "Some plugins are not available:\n"
 msgstr "这些插件不可用:\n"
@@ -18672,6 +18725,14 @@ msgid ""
 "seconds."
 msgstr ""
 
+msgid ""
+"This is a workaround for some devices there wakeup again after switching in "
+"standby. The wak up command's from other devices will ignored for few "
+"seconds."
+msgstr ""
+"这是某些设备在切换到待机状态后再次唤醒的解决方法。 来自其他设备的唤醒命令将被"
+"忽略几秒钟。"
+
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr "这是当前选择的语言。 [%s]"
@@ -19391,7 +19452,7 @@ msgstr "切换 LCD 为直播电视"
 msgid "Toggle PIPzap"
 msgstr "切换 PIPzap"
 
-msgid "Toggle Picture In Graphics"
+msgid "Toggle Picture in Graphics"
 msgstr "在图形中切换图片"
 
 msgid "Toggle Pillarbox <> Pan&Scan"
@@ -19403,7 +19464,7 @@ msgstr "在当前位置切换剪切标记"
 msgid "Toggle aspect ratio..."
 msgstr "切换宽高比..."
 
-msgid "Toggle between bouquet/epg lists"
+msgid "Toggle between bouquet/EPG lists"
 msgstr "在 频道组/EPG列表 之间切换"
 
 msgid "Toggle display of the InfoBar"
@@ -19550,10 +19611,16 @@ msgid ""
 "for the receiver."
 msgstr "尽量避免因软件错误而重新启动并保持接收器的可用性。"
 
+msgid "Try to send repeated commands if not all commands are executed.\n"
+msgstr "如果没有执行所有命令，请尝试发送重复的命令.\n"
+
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
 msgstr ""
+
+msgid "Try to slow down the send interval if not all commands are executed."
+msgstr "如果没有执行所有命令，请尝试减慢发送间隔。"
 
 msgid "Trying to download a new packetlist. Please wait..."
 msgstr "尝试下载新的软件包列表，请稍候..."
@@ -21867,9 +21934,6 @@ msgstr "切换"
 msgid "Zap + Exit"
 msgstr "切换 + 退出"
 
-msgid "Zap and record"
-msgstr "切换并录制"
-
 msgid "Zap back to previously tuned service?"
 msgstr "切换回上次调谐的频道？"
 
@@ -22341,6 +22405,9 @@ msgstr "删除剪辑"
 msgid "deleted"
 msgstr "已删除"
 
+msgid "Descramble and record ecm"
+msgstr "解扰并录制ECM"
+
 msgid "detective/thriller"
 msgstr "侦探/悬疑"
 
@@ -22359,6 +22426,9 @@ msgstr "讨论/面谈/辩论"
 msgid "display"
 msgstr "显示"
 
+msgid "Do nothing"
+msgstr "不执行任何操作"
+
 msgid "documentary"
 msgstr "纪录片"
 
@@ -22367,6 +22437,9 @@ msgstr "纪录片（一般）"
 
 msgid "dolby"
 msgstr "杜比"
+
+msgid "Don't descramble, record ecm"
+msgstr "不解扰，录制ECM"
 
 msgid "done!"
 msgstr "完成!"
@@ -22450,7 +22523,7 @@ msgstr "结束切换"
 msgid "enigma2 and network"
 msgstr "enigma2和网络"
 
-msgid "enter number to jump to channel."
+msgid "Enter number to jump to channel"
 msgstr "输入要转到的频道编号."
 
 msgid "entertainment (10-16 year old)"
@@ -22615,6 +22688,12 @@ msgstr "园艺"
 msgid "get the cards' server"
 msgstr "获取卡的服务器"
 
+msgid "Go to deep standby"
+msgstr "进入深度待机"
+
+msgid "Go to standby"
+msgstr "进入待机"
+
 msgid "goto current channel and now"
 msgstr "转到当前频道"
 
@@ -22681,6 +22760,9 @@ msgstr "高度"
 
 msgid "help..."
 msgstr "帮助..."
+
+msgid "helptext"
+msgstr "帮助信息"
 
 msgid "hh:mm"
 msgstr "时:分"
@@ -22987,8 +23069,8 @@ msgstr "未找到的存储设备"
 msgid "none"
 msgstr "无"
 
-msgid "normal"
-msgstr ""
+msgid "Normal"
+msgstr "正常"
 
 msgid "not"
 msgstr "未"
@@ -23056,10 +23138,13 @@ msgstr "原始"
 msgid "original language"
 msgstr "原始语言"
 
+msgid "OScam webif disabled"
+msgstr "oscam webif 已禁用"
+
 msgid "packages selected."
 msgstr "已选择软件包."
 
-msgid "page left"
+msgid "Page left"
 msgstr "页面左边"
 
 msgid "pass"
@@ -23142,6 +23227,9 @@ msgstr "录像或串流"
 
 msgid "reboot system"
 msgstr "重启系统"
+
+msgid "record"
+msgstr "录像"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -23395,6 +23483,9 @@ msgstr "显示/游戏节目 （一般）"
 msgid "shuffle"
 msgstr "随机"
 
+msgid "Shut down"
+msgstr "关机"
+
 msgid "simple"
 msgstr "简单"
 
@@ -23598,7 +23689,7 @@ msgstr "未知"
 msgid "unknown error"
 msgstr "未知错误"
 
-msgid "unknown service"
+msgid "Unknown Service"
 msgstr "未知频道"
 
 msgid "unpack Rar Files"
@@ -23774,6 +23865,12 @@ msgstr ""
 "您的 %s %s 现在可能无法使用.在重新启动 %s %s 之前，请查阅手册获得进一步的帮"
 "助."
 
+msgid "zap"
+msgstr "切换"
+
+msgid "Zap and record"
+msgstr "切换并录制"
+
 msgid "zapped"
 msgstr "切换完成"
 
@@ -23782,139 +23879,6 @@ msgstr "切换中"
 
 msgid "®"
 msgstr "®"
-
-#~ msgid ""
-#~ "\n"
-#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-#~ msgstr ""
-#~ "\n"
-#~ "日志位置：日志设置，文件名：Enigma2-hdmicec-[date].log"
-
-#~ msgid "%Y-%m-%d %H-%M"
-#~ msgstr "%Y-%m-%d %H-%M"
-
-#~ msgid ""
-#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-#~ msgstr "“处理来自电视的待机”比“处理来自电视的输入”具有更高的优先级"
-
-#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
-#~ msgstr "(例如. 电视已唤醒, 但没有切换到正确的输入)"
-
-#~ msgid "16_10_letterbox"
-#~ msgstr "16_10_信箱模式"
-
-#~ msgid "16_10_panscan"
-#~ msgstr "16_10_拉伸模式"
-
-#~ msgid "16_9"
-#~ msgstr "16_9"
-
-#~ msgid "16_9_always"
-#~ msgstr "16_9_固定"
-
-#~ msgid "16_9_letterbox"
-#~ msgstr "16_9_拉伸模式"
-
-#~ msgid "4_3_letterbox"
-#~ msgstr "4_3_信箱模式"
-
-#~ msgid "4_3_panscan"
-#~ msgstr "4_3_拉伸模式"
-
-#~ msgid "Accept the current selection"
-#~ msgstr "接受当前选择"
-
-#, python-format
-#~ msgid ""
-#~ "Activate an way to send individual or specific internal HDMI-CEC commands "
-#~ "from the command line. Type on command line 'echo help > %s' and then "
-#~ "read the file '%s' for a short help."
-#~ msgstr ""
-#~ "从命令行发送单个或特定内部 HDMI-CEC 命令。 在命令行中键入“echo help > "
-#~ "%s”，然后阅读文件“%s”以获取简短帮助。"
-
-#~ msgid ""
-#~ "Activation takes place immediately. If it does feature not work, then try "
-#~ "again with a slower send interval."
-#~ msgstr "立刻激活。 如果它的功能不起作用，请使用较慢的发送间隔重试。"
-
-#~ msgid ""
-#~ "Activation takes place immediately. If this feature is not supported, the "
-#~ "volume keys has no function!"
-#~ msgstr "立刻激活。 如果不支持此功能，则音量键不起作用！"
-
-#~ msgid "Always select OK"
-#~ msgstr "总是选择OK"
-
-#~ msgid ""
-#~ "An attempt is made to capture the current TV status. If this is not "
-#~ "possible due to incorrect or missing status messages, it may cause the "
-#~ "receiver to respond unexpectedly.\n"
-#~ "On the other hand, tries to respond better to different operating "
-#~ "conditions."
-#~ msgstr ""
-#~ "尝试捕获当前的电视状态。 如果无法正确获取状态，可能会导致接收器意外响"
-#~ "应。\n"
-#~ "另外，你可以尝试使用不同的操作条件。"
-
-#~ msgid "Cancel the selection"
-#~ msgstr "取消选择"
-
-#~ msgid "Choose a setting where your receiver wakes up from standby."
-#~ msgstr "选择接收器从待机状态唤醒的设置。"
-
-#~ msgid "HDMI CEC"
-#~ msgstr "HDMI CEC "
-
-#~ msgid "HDMI CEC Setup"
-#~ msgstr "HDMI CEC 设置"
-
-#~ msgid ""
-#~ "If the 'deep standby workaround' is enabled, it waits until the system "
-#~ "time is synchronized. Depending on the requirement, the devices wake up "
-#~ "will continuing after a maximum of 2 minutes."
-#~ msgstr ""
-#~ "如果启用了“深度待机解决方法”，它会等待系统时间同步。 根据要求，设备将在最"
-#~ "多 2 分钟后继续唤醒。"
-
-#~ msgid "Is not necessary in most cases."
-#~ msgstr "大多数情况下没有必要."
-
-#~ msgid "Load Default Settings"
-#~ msgstr "加载默认设置"
-
-#~ msgid ""
-#~ "Some TV devices can't swich to correct input if a another hdmi port "
-#~ "active. This setting set the TV to standby before.\n"
-#~ "(If the TV does not turn back on, may require a slower transmission "
-#~ "interval or the repetition of wake-up commands.)"
-#~ msgstr ""
-#~ "如果另一个 hdmi 端口处于活动状态，则某些电视设备无法切换到正确的输入。 此"
-#~ "设置之前将电视设置为待机。\n"
-#~ "（如果电视没有重新打开，可能需要更慢的传输间隔或重复唤醒命令。）"
-
-#~ msgid ""
-#~ "This is a workaround for some devices there wakeup again after switching "
-#~ "in standby. The wak up command's from other devices will ignored for few "
-#~ "seconds."
-#~ msgstr ""
-#~ "这是某些设备在切换到待机状态后再次唤醒的解决方法。 来自其他设备的唤醒命令"
-#~ "将被忽略几秒钟。"
-
-#~ msgid "Try to send repeated commands if not all commands are executed.\n"
-#~ msgstr "如果没有执行所有命令，请尝试发送重复的命令.\n"
-
-#~ msgid "Try to slow down the send interval if not all commands are executed."
-#~ msgstr "如果没有执行所有命令，请尝试减慢发送间隔。"
-
-#~ msgid "helptext"
-#~ msgstr "帮助信息"
-
-#~ msgid "record"
-#~ msgstr "录像"
-
-#~ msgid "zap"
-#~ msgstr "切换"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
+"POT-Creation-Date: 2021-11-29 21:27+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Chinese (Traditional, Hong Kong) <https://hosted.weblate.org/"
@@ -42,6 +42,11 @@ msgstr " 是否恢復您的設定?"
 msgid ""
 "\n"
 " Kodi not present. Proceed with install?"
+msgstr ""
+
+msgid ""
+"\n"
+"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
 msgstr ""
 
 msgid ""
@@ -710,6 +715,9 @@ msgid "%Y-%b-%d"
 msgstr ""
 
 msgid "%Y-%m-%d"
+msgstr ""
+
+msgid "%Y-%m-%d %H-%M"
 msgstr ""
 
 msgid "%Y/%-m/%-d"
@@ -1388,6 +1396,10 @@ msgid ""
 msgstr ""
 
 msgid ""
+"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr ""
+
+msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 
@@ -1423,6 +1435,9 @@ msgstr ""
 #, fuzzy
 msgid "(current image)"
 msgstr "當前"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr ""
 
 msgid "(empty)"
 msgstr "(空的)"
@@ -1645,10 +1660,28 @@ msgstr "16:10 PanScan"
 msgid "16:9"
 msgstr "16:9"
 
+msgid "16:9 Letterbox"
+msgstr "16:9 Letterbox"
+
 msgid "16:9 Always"
 msgstr "總是 16:9"
 
-msgid "16:9 Letterbox"
+#, fuzzy
+msgid "16_10_letterbox"
+msgstr "16:10 Letterbox"
+
+msgid "16_10_panscan"
+msgstr ""
+
+msgid "16_9"
+msgstr ""
+
+#, fuzzy
+msgid "16_9_always"
+msgstr "總是 16:9"
+
+#, fuzzy
+msgid "16_9_letterbox"
 msgstr "16:9 Letterbox"
 
 msgid "18 V"
@@ -1907,6 +1940,13 @@ msgstr "4:3 PanScan"
 #, fuzzy
 msgid "4X"
 msgstr "4"
+
+#, fuzzy
+msgid "4_3_letterbox"
+msgstr "4:3 Letterbox"
+
+msgid "4_3_panscan"
+msgstr ""
 
 #, fuzzy
 msgid "4s"
@@ -2353,6 +2393,10 @@ msgid "About..."
 msgstr "關於..."
 
 #, fuzzy
+msgid "Accept the current selection"
+msgstr "刪除帳戶"
+
+#, fuzzy
 msgid "Accessed:"
 msgstr "接入點:"
 
@@ -2388,6 +2432,13 @@ msgid ""
 "from the command line."
 msgstr ""
 
+#, python-format
+msgid ""
+"Activate an way to send individual or specific internal HDMI-CEC commands "
+"from the command line. Type on command line 'echo help > %s' and then read "
+"the file '%s' for a short help."
+msgstr ""
+
 msgid "Activate current configuration"
 msgstr ""
 
@@ -2414,6 +2465,16 @@ msgid "Activate timeshift End"
 msgstr "啟動時光平移"
 
 msgid "Activate timeshift end and pause"
+msgstr ""
+
+msgid ""
+"Activation takes place immediately. If it does feature not work, then try "
+"again with a slower send interval."
+msgstr ""
+
+msgid ""
+"Activation takes place immediately. If this feature is not supported, the "
+"volume keys has no function!"
 msgstr ""
 
 msgid "Active"
@@ -2452,7 +2513,7 @@ msgid "Add Zap+Record Timer"
 msgstr ""
 
 #, fuzzy
-msgid "Add a auto timer for current event"
+msgid "Add an AutoTimer for the current event"
 msgstr "自定義當前事件時長"
 
 msgid "Add a mark"
@@ -2540,7 +2601,7 @@ msgid "Add/Remove Timer"
 msgstr "移除計時器"
 
 #, fuzzy
-msgid "Add/Remove timer for current event"
+msgid "Add/Remove a timer for the current event"
 msgstr "自定義當前事件時長"
 
 msgid "Adding schedule..."
@@ -2853,6 +2914,10 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+msgid "Always select OK"
+msgstr "請選擇一個IPK"
+
+#, fuzzy
 msgid "Always show bouquets"
 msgstr "複製到自定義組"
 
@@ -2876,6 +2941,13 @@ msgid ""
 "due to incorrect or missing status messages it may cause the receiver to "
 "respond unexpectedly. On the other hand, tries to respond better to "
 "different operating conditions."
+msgstr ""
+
+msgid ""
+"An attempt is made to capture the current TV status. If this is not possible "
+"due to incorrect or missing status messages, it may cause the receiver to "
+"respond unexpectedly.\n"
+"On the other hand, tries to respond better to different operating conditions."
 msgstr ""
 
 msgid "An empty filename is illegal."
@@ -4273,6 +4345,10 @@ msgstr "頻道選擇"
 msgid "Cancel the image selection and exit all menus"
 msgstr "頻道選擇"
 
+#, fuzzy
+msgid "Cancel the selection"
+msgstr "頻道選擇"
+
 msgid "Cancelled upon user request"
 msgstr ""
 
@@ -4412,7 +4488,7 @@ msgid "Change step size"
 msgstr "調整"
 
 #, fuzzy
-msgid "Change timer"
+msgid "Change Timer"
 msgstr "更改目錄."
 
 #, fuzzy
@@ -4671,6 +4747,9 @@ msgstr ""
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr ""
 
+msgid "Choose a setting where your receiver wakes up from standby."
+msgstr ""
+
 msgid "Choose a tag for easy finding a recording."
 msgstr ""
 
@@ -4849,9 +4928,6 @@ msgstr ""
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr ""
 
-msgid "Client is streaming from this box!"
-msgstr ""
-
 #, fuzzy
 msgid "ClientIP"
 msgstr "用戶端 IP:"
@@ -4878,9 +4954,6 @@ msgid "Close bouquet list."
 msgstr "選擇自定義組"
 
 msgid "Close dialog"
-msgstr ""
-
-msgid "Close the window"
 msgstr ""
 
 msgid "Close title selection"
@@ -5881,9 +5954,6 @@ msgstr "剪輯編輯器..."
 msgid "Cutlist editor..."
 msgstr "剪輯編輯器..."
 
-msgid "Cycle PIP(zap)"
-msgstr ""
-
 msgid "Cycling"
 msgstr ""
 
@@ -6284,10 +6354,6 @@ msgid "Defaults"
 msgstr "預設"
 
 msgid ""
-"Define additional delay in milliseconds before start of http(s) streams."
-msgstr ""
-
-msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6475,7 +6541,7 @@ msgid "Delete this tag"
 msgstr ""
 
 #, fuzzy
-msgid "Delete timer"
+msgid "Delete Timer"
 msgstr "刪除項目"
 
 msgid "Delete unused tags"
@@ -6517,9 +6583,6 @@ msgid ""
 "descrambling on recording failed. 'Don't descramble, record ECM' save a "
 "scramble recording that can be descrambled on playback. 'Normal' means "
 "descramble the recording and don't record ECM."
-msgstr ""
-
-msgid "Descramble and record ecm"
 msgstr ""
 
 msgid "Descramble http streams"
@@ -6800,9 +6863,6 @@ msgstr "不做改變"
 msgid "Do not record"
 msgstr ""
 
-msgid "Do nothing"
-msgstr "什麼都不做"
-
 #, fuzzy
 msgid ""
 "Do you really want to check the filesystem?\n"
@@ -7039,9 +7099,6 @@ msgstr "這個錄影"
 #, fuzzy
 msgid "Don't ask again!"
 msgstr "是, 以後不再詢問"
-
-msgid "Don't descramble, record ecm"
-msgstr ""
 
 msgid "Don't restart"
 msgstr ""
@@ -7354,7 +7411,7 @@ msgid "Edit the network configuration of your %s %s.\n"
 msgstr "修改Dreambox的網路配置.\n"
 
 #, fuzzy
-msgid "Edit timer"
+msgid "Edit Timer"
 msgstr "編輯自動計時器"
 
 msgid "Edit title"
@@ -7962,11 +8019,11 @@ msgstr ""
 msgid "Eventname only"
 msgstr "唯讀"
 
-msgid "Eventview"
+msgid "Event View"
 msgstr "事件檢視"
 
 #, fuzzy
-msgid "Eventview menu"
+msgid "Event View Context Menu"
 msgstr "事件檢視"
 
 #, fuzzy
@@ -8933,9 +8990,6 @@ msgstr ""
 msgid "Go to bookmarked folder"
 msgstr "選擇目標檔夾"
 
-msgid "Go to deep standby"
-msgstr "深度休眠"
-
 msgid "Go to end of file"
 msgstr ""
 
@@ -8948,9 +9002,6 @@ msgstr ""
 #, fuzzy
 msgid "Go to parent directory"
 msgstr "開始目錄"
-
-msgid "Go to standby"
-msgstr "待機"
 
 #, fuzzy
 msgid "Go to start of file"
@@ -9145,6 +9196,13 @@ msgstr ""
 
 msgid "HDMI"
 msgstr ""
+
+msgid "HDMI CEC"
+msgstr ""
+
+#, fuzzy
+msgid "HDMI CEC Setup"
+msgstr "EPG設定"
 
 msgid "HDMI Colordepth"
 msgstr ""
@@ -9480,9 +9538,6 @@ msgstr ""
 msgid "How many minutes do you want to record?"
 msgstr "您想錄製多少分鐘?"
 
-msgid "Http(s) stream start delay"
-msgstr ""
-
 msgid "Hue"
 msgstr "色調"
 
@@ -9512,7 +9567,7 @@ msgid "IMDB search"
 msgstr "搜索"
 
 #, fuzzy
-msgid "IMDB search for current event"
+msgid "IMDb search for current event"
 msgstr "自定義當前事件時長"
 
 msgid "IMDb Details"
@@ -9747,6 +9802,12 @@ msgstr ""
 msgid ""
 "If set to 'yes; the infobar will remain shown permanently in 'paused' state "
 "(no timeout)."
+msgstr ""
+
+msgid ""
+"If the 'deep standby workaround' is enabled, it waits until the system time "
+"is synchronized. Depending on the requirement, the devices wake up will "
+"continuing after a maximum of 2 minutes."
 msgstr ""
 
 msgid ""
@@ -10346,6 +10407,9 @@ msgid "Ireland"
 msgstr "愛爾蘭"
 
 msgid "Irish"
+msgstr ""
+
+msgid "Is not necessary in most cases."
 msgstr ""
 
 msgid "Is this setting ok?"
@@ -10965,6 +11029,10 @@ msgid "Load"
 msgstr "載入"
 
 #, fuzzy
+msgid "Load Default Settings"
+msgstr "預設設定"
+
+#, fuzzy
 msgid "Load EPG"
 msgstr "載入"
 
@@ -11471,12 +11539,12 @@ msgstr "LT 媒體中心"
 msgid "Message"
 msgstr "資訊"
 
+msgid "Message..."
+msgstr "資訊..."
+
 #, fuzzy
 msgid "Message Box Actions"
 msgstr "虛擬鍵盤"
-
-msgid "Message..."
-msgstr "資訊..."
 
 #, fuzzy
 msgid "Metadata changed:"
@@ -11795,18 +11863,12 @@ msgstr ""
 msgid "Move the text cursor to the last character"
 msgstr ""
 
-msgid "Move to first line"
-msgstr ""
-
 msgid "Move to first line / screen"
 msgstr ""
 
 #, fuzzy
 msgid "Move to home of list"
 msgstr "螢幕左移"
-
-msgid "Move to last line"
-msgstr ""
 
 msgid "Move to last line / screen"
 msgstr ""
@@ -12617,9 +12679,6 @@ msgstr ""
 msgid "Norfolk Island"
 msgstr ""
 
-msgid "Normal"
-msgstr ""
-
 msgid "North"
 msgstr "北"
 
@@ -12837,9 +12896,6 @@ msgstr ""
 #, fuzzy
 msgid "OScam Info"
 msgstr "CCcam資訊"
-
-msgid "OScam webif disabled"
-msgstr ""
 
 #, fuzzy
 msgid "OScamInfo"
@@ -14149,6 +14205,10 @@ msgid "PowerTimer Entry"
 msgstr "用戶管理"
 
 #, fuzzy
+msgid "PowerTimer list"
+msgstr "計時器編輯"
+
+#, fuzzy
 msgid "PowerTimer Log"
 msgstr "軟體管理器"
 
@@ -14159,10 +14219,6 @@ msgstr "自動計時器概要"
 #, fuzzy
 msgid "PowerTimer Standby"
 msgstr "深度休眠"
-
-#, fuzzy
-msgid "PowerTimer list"
-msgstr "計時器編輯"
 
 #, fuzzy
 msgid "PowerTimers"
@@ -15399,9 +15455,6 @@ msgstr "正在下載插件資訊, 請稍候..."
 msgid "Retrieving image slots - Please wait..."
 msgstr "正在安裝... 請稍候..."
 
-msgid "Return the current selection response"
-msgstr ""
-
 msgid "Return to movie list"
 msgstr "返回電影列表"
 
@@ -16307,9 +16360,6 @@ msgstr "設定視頻模式"
 msgid "Select target folder"
 msgstr ""
 
-msgid "Select the No / False response"
-msgstr ""
-
 #, fuzzy
 msgid "Select the Swap File Size:"
 msgstr "設定過濾類型"
@@ -16346,9 +16396,6 @@ msgstr ""
 msgid ""
 "Select the User Band frequency to be assigned to this tuner. This is the "
 "frequency the SCR switch uses to pass the requested transponder to the tuner."
-msgstr ""
-
-msgid "Select the Yes / True response"
 msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
@@ -17865,7 +17912,7 @@ msgid "Show shutdown menu"
 msgstr ""
 
 #, fuzzy
-msgid "Show single epg for current channel"
+msgid "Show single EPG for current channel"
 msgstr "事件更改時顯示資訊條"
 
 msgid "Show single epg for current channel (setup in menu)"
@@ -18033,9 +18080,6 @@ msgstr ""
 
 msgid "Shuffle playlist"
 msgstr ""
-
-msgid "Shut down"
-msgstr "關機"
 
 msgid "Shutdown"
 msgstr "關機"
@@ -18391,6 +18435,13 @@ msgid ""
 "This setting sets the TV to standby before the switch. (If the TV does not "
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
+msgstr ""
+
+msgid ""
+"Some TV devices can't swich to correct input if a another hdmi port active. "
+"This setting set the TV to standby before.\n"
+"(If the TV does not turn back on, may require a slower transmission interval "
+"or the repetition of wake-up commands.)"
 msgstr ""
 
 msgid "Some plugins are not available:\n"
@@ -19895,6 +19946,12 @@ msgid ""
 "seconds."
 msgstr ""
 
+msgid ""
+"This is a workaround for some devices there wakeup again after switching in "
+"standby. The wak up command's from other devices will ignored for few "
+"seconds."
+msgstr ""
+
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr ""
@@ -20601,7 +20658,7 @@ msgid "Toggle PIPzap"
 msgstr ""
 
 #, fuzzy
-msgid "Toggle Picture In Graphics"
+msgid "Toggle Picture in Graphics"
 msgstr "移動畫中畫"
 
 #, fuzzy
@@ -20614,7 +20671,7 @@ msgstr ""
 msgid "Toggle aspect ratio..."
 msgstr ""
 
-msgid "Toggle between bouquet/epg lists"
+msgid "Toggle between bouquet/EPG lists"
 msgstr ""
 
 msgid "Toggle display of the InfoBar"
@@ -20770,9 +20827,15 @@ msgid ""
 "for the receiver."
 msgstr ""
 
+msgid "Try to send repeated commands if not all commands are executed.\n"
+msgstr ""
+
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
+msgstr ""
+
+msgid "Try to slow down the send interval if not all commands are executed."
 msgstr ""
 
 msgid "Trying to download a new packetlist. Please wait..."
@@ -23146,9 +23209,6 @@ msgstr ""
 msgid "Zap + Exit"
 msgstr ""
 
-msgid "Zap and record"
-msgstr ""
-
 msgid "Zap back to previously tuned service?"
 msgstr ""
 
@@ -23645,6 +23705,9 @@ msgstr "刪除剪輯"
 msgid "deleted"
 msgstr "刪除"
 
+msgid "Descramble and record ecm"
+msgstr ""
+
 msgid "detective/thriller"
 msgstr ""
 
@@ -23664,6 +23727,9 @@ msgstr ""
 msgid "display"
 msgstr "反向顯示"
 
+msgid "Do nothing"
+msgstr "什麼都不做"
+
 msgid "documentary"
 msgstr ""
 
@@ -23671,6 +23737,9 @@ msgid "documentary (general)"
 msgstr ""
 
 msgid "dolby"
+msgstr ""
+
+msgid "Don't descramble, record ecm"
 msgstr ""
 
 msgid "done!"
@@ -23757,7 +23826,7 @@ msgstr ""
 msgid "enigma2 and network"
 msgstr "Enigma2 和 網路"
 
-msgid "enter number to jump to channel."
+msgid "Enter number to jump to channel"
 msgstr ""
 
 msgid "entertainment (10-16 year old)"
@@ -23934,6 +24003,12 @@ msgstr ""
 msgid "get the cards' server"
 msgstr ""
 
+msgid "Go to deep standby"
+msgstr "深度休眠"
+
+msgid "Go to standby"
+msgstr "待機"
+
 msgid "goto current channel and now"
 msgstr ""
 
@@ -24004,6 +24079,9 @@ msgstr ""
 
 msgid "help..."
 msgstr "説明..."
+
+msgid "helptext"
+msgstr ""
 
 msgid "hh:mm"
 msgstr ""
@@ -24329,7 +24407,7 @@ msgstr ""
 msgid "none"
 msgstr "無"
 
-msgid "normal"
+msgid "Normal"
 msgstr ""
 
 #, fuzzy
@@ -24405,12 +24483,15 @@ msgstr ""
 msgid "original language"
 msgstr ""
 
+msgid "OScam webif disabled"
+msgstr ""
+
 #, fuzzy
 msgid "packages selected."
 msgstr "節目包選擇."
 
 #, fuzzy
-msgid "page left"
+msgid "Page left"
 msgstr "左"
 
 msgid "pass"
@@ -24506,6 +24587,9 @@ msgstr "作為一個連續的流錄製"
 #, fuzzy
 msgid "reboot system"
 msgstr "選擇檔系統"
+
+msgid "record"
+msgstr "錄影"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -24770,6 +24854,9 @@ msgstr ""
 msgid "shuffle"
 msgstr ""
 
+msgid "Shut down"
+msgstr "關機"
+
 msgid "simple"
 msgstr "簡單"
 
@@ -24986,7 +25073,7 @@ msgstr "未知"
 msgid "unknown error"
 msgstr "未知頻道"
 
-msgid "unknown service"
+msgid "Unknown Service"
 msgstr "未知頻道"
 
 msgid "unpack Rar Files"
@@ -25166,6 +25253,12 @@ msgid ""
 "assistance before rebooting your %s %s."
 msgstr "您的Dreambox現在可能無法使用.請參考手冊以獲得進一步的幫助."
 
+msgid "zap"
+msgstr "切換"
+
+msgid "Zap and record"
+msgstr ""
+
 msgid "zapped"
 msgstr "轉自"
 
@@ -25175,48 +25268,6 @@ msgstr "轉自"
 
 msgid "®"
 msgstr ""
-
-#, fuzzy
-#~ msgid "16_10_letterbox"
-#~ msgstr "16:10 Letterbox"
-
-#, fuzzy
-#~ msgid "16_9_always"
-#~ msgstr "總是 16:9"
-
-#, fuzzy
-#~ msgid "16_9_letterbox"
-#~ msgstr "16:9 Letterbox"
-
-#, fuzzy
-#~ msgid "4_3_letterbox"
-#~ msgstr "4:3 Letterbox"
-
-#, fuzzy
-#~ msgid "Accept the current selection"
-#~ msgstr "刪除帳戶"
-
-#, fuzzy
-#~ msgid "Always select OK"
-#~ msgstr "請選擇一個IPK"
-
-#, fuzzy
-#~ msgid "Cancel the selection"
-#~ msgstr "頻道選擇"
-
-#, fuzzy
-#~ msgid "HDMI CEC Setup"
-#~ msgstr "EPG設定"
-
-#, fuzzy
-#~ msgid "Load Default Settings"
-#~ msgstr "預設設定"
-
-#~ msgid "record"
-#~ msgstr "錄影"
-
-#~ msgid "zap"
-#~ msgstr "切換"
 
 #, fuzzy
 #~ msgid "Add/remove change timer for current event"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
+"POT-Creation-Date: 2021-11-29 21:27+0000\n"
 "PO-Revision-Date: 2021-09-15 14:20+0000\n"
 "Last-Translator: Hamed Beyrami <h.beyrami@outlook.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openatv/"
@@ -48,6 +48,11 @@ msgstr ""
 msgid ""
 "\n"
 " Kodi not present. Proceed with install?"
+msgstr ""
+
+msgid ""
+"\n"
+"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
 msgstr ""
 
 msgid ""
@@ -737,6 +742,9 @@ msgid "%Y-%b-%d"
 msgstr ""
 
 msgid "%Y-%m-%d"
+msgstr ""
+
+msgid "%Y-%m-%d %H-%M"
 msgstr ""
 
 msgid "%Y/%-m/%-d"
@@ -1437,6 +1445,10 @@ msgid ""
 msgstr ""
 
 msgid ""
+"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr ""
+
+msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 
@@ -1473,6 +1485,9 @@ msgstr ""
 #, fuzzy
 msgid "(current image)"
 msgstr "ایمیج نصب شده فعلی"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr ""
 
 msgid "(empty)"
 msgstr "(خالی)"
@@ -1694,10 +1709,28 @@ msgstr "16:10 PanScan"
 msgid "16:9"
 msgstr "16:9"
 
+msgid "16:9 Letterbox"
+msgstr "16:9 Letterbox"
+
 msgid "16:9 Always"
 msgstr "16:9 همیشه"
 
-msgid "16:9 Letterbox"
+#, fuzzy
+msgid "16_10_letterbox"
+msgstr "16:10 Letterbox"
+
+msgid "16_10_panscan"
+msgstr ""
+
+msgid "16_9"
+msgstr ""
+
+#, fuzzy
+msgid "16_9_always"
+msgstr "16:9 همیشه"
+
+#, fuzzy
+msgid "16_9_letterbox"
 msgstr "16:9 Letterbox"
 
 msgid "18 V"
@@ -1934,6 +1967,14 @@ msgstr "4:3 PanScan"
 
 msgid "4X"
 msgstr ""
+
+#, fuzzy
+msgid "4_3_letterbox"
+msgstr "4:3 Letterbox"
+
+#, fuzzy
+msgid "4_3_panscan"
+msgstr "Pan&Scan"
 
 msgid "4s"
 msgstr ""
@@ -2354,6 +2395,10 @@ msgstr "درباره"
 msgid "About..."
 msgstr "درباره"
 
+#, fuzzy
+msgid "Accept the current selection"
+msgstr "فعال کردن پیکربندی فعلی"
+
 #
 #, fuzzy
 msgid "Accessed:"
@@ -2391,6 +2436,13 @@ msgid ""
 "from the command line."
 msgstr ""
 
+#, python-format
+msgid ""
+"Activate an way to send individual or specific internal HDMI-CEC commands "
+"from the command line. Type on command line 'echo help > %s' and then read "
+"the file '%s' for a short help."
+msgstr ""
+
 #, fuzzy
 msgid "Activate current configuration"
 msgstr "فعال کردن پیکربندی فعلی"
@@ -2417,6 +2469,16 @@ msgid "Activate timeshift End"
 msgstr ""
 
 msgid "Activate timeshift end and pause"
+msgstr ""
+
+msgid ""
+"Activation takes place immediately. If it does feature not work, then try "
+"again with a slower send interval."
+msgstr ""
+
+msgid ""
+"Activation takes place immediately. If this feature is not supported, the "
+"volume keys has no function!"
 msgstr ""
 
 msgid "Active"
@@ -2452,7 +2514,7 @@ msgstr "اضافه کردن زمان"
 msgid "Add Zap+Record Timer"
 msgstr "اضافه کردن زمان"
 
-msgid "Add a auto timer for current event"
+msgid "Add an AutoTimer for the current event"
 msgstr ""
 
 msgid "Add a mark"
@@ -2545,7 +2607,7 @@ msgstr "اضافه کردن عنوان"
 msgid "Add/Remove Timer"
 msgstr "حذف زمان"
 
-msgid "Add/Remove timer for current event"
+msgid "Add/Remove a timer for the current event"
 msgstr ""
 
 msgid "Adding schedule..."
@@ -2857,6 +2919,10 @@ msgid ""
 "receiver. Default: off."
 msgstr ""
 
+#, fuzzy
+msgid "Always select OK"
+msgstr "همیشه پرسیده شود"
+
 msgid "Always show bouquets"
 msgstr ""
 
@@ -2880,6 +2946,13 @@ msgid ""
 "due to incorrect or missing status messages it may cause the receiver to "
 "respond unexpectedly. On the other hand, tries to respond better to "
 "different operating conditions."
+msgstr ""
+
+msgid ""
+"An attempt is made to capture the current TV status. If this is not possible "
+"due to incorrect or missing status messages, it may cause the receiver to "
+"respond unexpectedly.\n"
+"On the other hand, tries to respond better to different operating conditions."
 msgstr ""
 
 msgid "An empty filename is illegal."
@@ -4207,6 +4280,10 @@ msgstr "انتخاب کانال"
 msgid "Cancel the image selection and exit all menus"
 msgstr "انتخاب کانال"
 
+#, fuzzy
+msgid "Cancel the selection"
+msgstr "انتخاب کانال"
+
 msgid "Cancelled upon user request"
 msgstr ""
 
@@ -4337,7 +4414,7 @@ msgid "Change step size"
 msgstr "تغییر اندازه step"
 
 #, fuzzy
-msgid "Change timer"
+msgid "Change Timer"
 msgstr "تغییر اندازه step"
 
 #, fuzzy
@@ -4578,6 +4655,9 @@ msgstr ""
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr ""
 
+msgid "Choose a setting where your receiver wakes up from standby."
+msgstr ""
+
 msgid "Choose a tag for easy finding a recording."
 msgstr ""
 
@@ -4755,9 +4835,6 @@ msgstr ""
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr ""
 
-msgid "Client is streaming from this box!"
-msgstr ""
-
 msgid "ClientIP"
 msgstr ""
 
@@ -4783,9 +4860,6 @@ msgid "Close bouquet list."
 msgstr "ویرایش لیست های کانال"
 
 msgid "Close dialog"
-msgstr ""
-
-msgid "Close the window"
 msgstr ""
 
 msgid "Close title selection"
@@ -5783,9 +5857,6 @@ msgstr "ویرایشگر برش لیست"
 msgid "Cutlist editor..."
 msgstr "ویرایشگر برش لیست"
 
-msgid "Cycle PIP(zap)"
-msgstr ""
-
 msgid "Cycling"
 msgstr ""
 
@@ -6181,10 +6252,6 @@ msgid "Defaults"
 msgstr ""
 
 msgid ""
-"Define additional delay in milliseconds before start of http(s) streams."
-msgstr ""
-
-msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6370,7 +6437,7 @@ msgid "Delete this tag"
 msgstr ""
 
 #, fuzzy
-msgid "Delete timer"
+msgid "Delete Timer"
 msgstr "حذف فایل"
 
 msgid "Delete unused tags"
@@ -6411,9 +6478,6 @@ msgid ""
 "descrambling on recording failed. 'Don't descramble, record ECM' save a "
 "scramble recording that can be descrambled on playback. 'Normal' means "
 "descramble the recording and don't record ECM."
-msgstr ""
-
-msgid "Descramble and record ecm"
 msgstr ""
 
 msgid "Descramble http streams"
@@ -6683,9 +6747,6 @@ msgstr ""
 msgid "Do not record"
 msgstr "ضبط"
 
-msgid "Do nothing"
-msgstr "کاری انجام نشود"
-
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -6904,9 +6965,6 @@ msgid "Don't add this recording"
 msgstr ""
 
 msgid "Don't ask again!"
-msgstr ""
-
-msgid "Don't descramble, record ecm"
 msgstr ""
 
 msgid "Don't restart"
@@ -7204,7 +7262,7 @@ msgid "Edit the network configuration of your %s %s.\n"
 msgstr "ویرایش پیکربندی شبکه دستگاه شما\n"
 
 #, fuzzy
-msgid "Edit timer"
+msgid "Edit Timer"
 msgstr "ویرایش عنوان"
 
 msgid "Edit title"
@@ -7791,10 +7849,10 @@ msgstr "منوی مشاهده رخداد"
 msgid "Eventname only"
 msgstr ""
 
-msgid "Eventview"
+msgid "Event View"
 msgstr ""
 
-msgid "Eventview menu"
+msgid "Event View Context Menu"
 msgstr ""
 
 msgid "Eventview:"
@@ -8722,9 +8780,6 @@ msgstr "برو پایین لیست"
 msgid "Go to bookmarked folder"
 msgstr ""
 
-msgid "Go to deep standby"
-msgstr "رفتن به خاموشی کامل"
-
 #, fuzzy
 msgid "Go to end of file"
 msgstr "پرش به پایان لیست"
@@ -8738,9 +8793,6 @@ msgstr "مراجعه به اولین فیلم یا بالای لیست"
 #, fuzzy
 msgid "Go to parent directory"
 msgstr "شاخه اصلی"
-
-msgid "Go to standby"
-msgstr "رفتن به خاموشی موقت"
 
 #, fuzzy
 msgid "Go to start of file"
@@ -8918,6 +8970,12 @@ msgid "HD60/Multibox/Multiboxse"
 msgstr ""
 
 msgid "HDMI"
+msgstr ""
+
+msgid "HDMI CEC"
+msgstr ""
+
+msgid "HDMI CEC Setup"
 msgstr ""
 
 msgid "HDMI Colordepth"
@@ -9240,9 +9298,6 @@ msgstr ""
 msgid "How many minutes do you want to record?"
 msgstr "چند دقیقه میخواهید ضبط کنید؟"
 
-msgid "Http(s) stream start delay"
-msgstr ""
-
 msgid "Hue"
 msgstr "رنگ"
 
@@ -9269,7 +9324,7 @@ msgstr "جستجوی شرق"
 msgid "IMDB search"
 msgstr ""
 
-msgid "IMDB search for current event"
+msgid "IMDb search for current event"
 msgstr ""
 
 msgid "IMDb Details"
@@ -9499,6 +9554,12 @@ msgstr ""
 msgid ""
 "If set to 'yes; the infobar will remain shown permanently in 'paused' state "
 "(no timeout)."
+msgstr ""
+
+msgid ""
+"If the 'deep standby workaround' is enabled, it waits until the system time "
+"is synchronized. Depending on the requirement, the devices wake up will "
+"continuing after a maximum of 2 minutes."
 msgstr ""
 
 msgid ""
@@ -10071,6 +10132,9 @@ msgid "Ireland"
 msgstr ""
 
 msgid "Irish"
+msgstr ""
+
+msgid "Is not necessary in most cases."
 msgstr ""
 
 msgid "Is this setting ok?"
@@ -10672,6 +10736,10 @@ msgstr ""
 msgid "Load"
 msgstr "آماده سازی"
 
+#, fuzzy
+msgid "Load Default Settings"
+msgstr "تنظیمات پیش فرض"
+
 msgid "Load EPG"
 msgstr ""
 
@@ -11161,11 +11229,11 @@ msgstr ""
 msgid "Message"
 msgstr "پیام"
 
-msgid "Message Box Actions"
-msgstr ""
-
 msgid "Message..."
 msgstr "پیام..."
+
+msgid "Message Box Actions"
+msgstr ""
 
 msgid "Metadata changed:"
 msgstr ""
@@ -11471,16 +11539,10 @@ msgstr ""
 msgid "Move the text cursor to the last character"
 msgstr ""
 
-msgid "Move to first line"
-msgstr ""
-
 msgid "Move to first line / screen"
 msgstr ""
 
 msgid "Move to home of list"
-msgstr ""
-
-msgid "Move to last line"
 msgstr ""
 
 msgid "Move to last line / screen"
@@ -12274,9 +12336,6 @@ msgstr ""
 msgid "Norfolk Island"
 msgstr ""
 
-msgid "Normal"
-msgstr "معمولی"
-
 msgid "North"
 msgstr "شمال"
 
@@ -12476,9 +12535,6 @@ msgid "OSD settings"
 msgstr "OSD تنظیمات"
 
 msgid "OScam Info"
-msgstr ""
-
-msgid "OScam webif disabled"
 msgstr ""
 
 #, fuzzy
@@ -13738,6 +13794,10 @@ msgstr ""
 msgid "PowerTimer Entry"
 msgstr "حذف یک مورد nameserver"
 
+#, fuzzy
+msgid "PowerTimer list"
+msgstr "ویرایش زمان"
+
 msgid "PowerTimer Log"
 msgstr ""
 
@@ -13746,10 +13806,6 @@ msgstr ""
 
 msgid "PowerTimer Standby"
 msgstr ""
-
-#, fuzzy
-msgid "PowerTimer list"
-msgstr "ویرایش زمان"
 
 msgid "PowerTimers"
 msgstr ""
@@ -14936,9 +14992,6 @@ msgstr "در حال جمع آوری اطلاعات پلاگین ها - لطفا 
 msgid "Retrieving image slots - Please wait..."
 msgstr "در حال جستجو برای به آپدیت های در فعال ، لطفا صبر کنید"
 
-msgid "Return the current selection response"
-msgstr ""
-
 msgid "Return to movie list"
 msgstr "بازگشت به لیست فیلم"
 
@@ -15811,9 +15864,6 @@ msgstr ""
 msgid "Select target folder"
 msgstr "انتخاب پوشه مقصد"
 
-msgid "Select the No / False response"
-msgstr ""
-
 msgid "Select the Swap File Size:"
 msgstr ""
 
@@ -15849,9 +15899,6 @@ msgstr ""
 msgid ""
 "Select the User Band frequency to be assigned to this tuner. This is the "
 "frequency the SCR switch uses to pass the requested transponder to the tuner."
-msgstr ""
-
-msgid "Select the Yes / True response"
 msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
@@ -17268,7 +17315,7 @@ msgstr ""
 msgid "Show shutdown menu"
 msgstr "نمایش منوی خاموش کردن"
 
-msgid "Show single epg for current channel"
+msgid "Show single EPG for current channel"
 msgstr ""
 
 msgid "Show single epg for current channel (setup in menu)"
@@ -17423,9 +17470,6 @@ msgstr ""
 #, fuzzy
 msgid "Shuffle playlist"
 msgstr "لیست پخش مخلوط"
-
-msgid "Shut down"
-msgstr "خاموش"
 
 msgid "Shutdown"
 msgstr "خاموش کردن"
@@ -17772,6 +17816,13 @@ msgid ""
 "This setting sets the TV to standby before the switch. (If the TV does not "
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
+msgstr ""
+
+msgid ""
+"Some TV devices can't swich to correct input if a another hdmi port active. "
+"This setting set the TV to standby before.\n"
+"(If the TV does not turn back on, may require a slower transmission interval "
+"or the repetition of wake-up commands.)"
 msgstr ""
 
 msgid "Some plugins are not available:\n"
@@ -19208,6 +19259,12 @@ msgid ""
 "seconds."
 msgstr ""
 
+msgid ""
+"This is a workaround for some devices there wakeup again after switching in "
+"standby. The wak up command's from other devices will ignored for few "
+"seconds."
+msgstr ""
+
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr ""
@@ -19894,7 +19951,7 @@ msgstr ""
 msgid "Toggle PIPzap"
 msgstr ""
 
-msgid "Toggle Picture In Graphics"
+msgid "Toggle Picture in Graphics"
 msgstr ""
 
 msgid "Toggle Pillarbox <> Pan&Scan"
@@ -19906,7 +19963,7 @@ msgstr ""
 msgid "Toggle aspect ratio..."
 msgstr ""
 
-msgid "Toggle between bouquet/epg lists"
+msgid "Toggle between bouquet/EPG lists"
 msgstr ""
 
 msgid "Toggle display of the InfoBar"
@@ -20059,9 +20116,15 @@ msgid ""
 "for the receiver."
 msgstr ""
 
+msgid "Try to send repeated commands if not all commands are executed.\n"
+msgstr ""
+
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
+msgstr ""
+
+msgid "Try to slow down the send interval if not all commands are executed."
 msgstr ""
 
 #
@@ -22366,10 +22429,6 @@ msgstr ""
 msgid "Zap + Exit"
 msgstr ""
 
-#, fuzzy
-msgid "Zap and record"
-msgstr "ضبط"
-
 msgid "Zap back to previously tuned service?"
 msgstr "بازگشت به کانال قبلی تنظیم شده؟"
 
@@ -22854,6 +22913,9 @@ msgstr "حذف برش"
 msgid "deleted"
 msgstr "حذف شد"
 
+msgid "Descramble and record ecm"
+msgstr ""
+
 msgid "detective/thriller"
 msgstr ""
 
@@ -22872,6 +22934,9 @@ msgstr ""
 msgid "display"
 msgstr ""
 
+msgid "Do nothing"
+msgstr "کاری انجام نشود"
+
 msgid "documentary"
 msgstr ""
 
@@ -22879,6 +22944,9 @@ msgid "documentary (general)"
 msgstr ""
 
 msgid "dolby"
+msgstr ""
+
+msgid "Don't descramble, record ecm"
 msgstr ""
 
 msgid "done!"
@@ -22963,7 +23031,7 @@ msgstr ""
 msgid "enigma2 and network"
 msgstr ""
 
-msgid "enter number to jump to channel."
+msgid "Enter number to jump to channel"
 msgstr ""
 
 msgid "entertainment (10-16 year old)"
@@ -23132,6 +23200,12 @@ msgstr ""
 msgid "get the cards' server"
 msgstr ""
 
+msgid "Go to deep standby"
+msgstr "رفتن به خاموشی کامل"
+
+msgid "Go to standby"
+msgstr "رفتن به خاموشی موقت"
+
 msgid "goto current channel and now"
 msgstr ""
 
@@ -23198,6 +23272,9 @@ msgid "height"
 msgstr "ارتفاع"
 
 msgid "help..."
+msgstr ""
+
+msgid "helptext"
 msgstr ""
 
 msgid "hh:mm"
@@ -23522,8 +23599,8 @@ msgstr ""
 msgid "none"
 msgstr "هیچ چیز"
 
-msgid "normal"
-msgstr ""
+msgid "Normal"
+msgstr "معمولی"
 
 #, fuzzy
 msgid "not"
@@ -23594,10 +23671,13 @@ msgstr "اصلی"
 msgid "original language"
 msgstr ""
 
+msgid "OScam webif disabled"
+msgstr ""
+
 msgid "packages selected."
 msgstr ""
 
-msgid "page left"
+msgid "Page left"
 msgstr ""
 
 msgid "pass"
@@ -23682,6 +23762,9 @@ msgstr ""
 #, fuzzy
 msgid "reboot system"
 msgstr "ایجاد سیستم فایل"
+
+msgid "record"
+msgstr "ضبط"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -23936,6 +24019,9 @@ msgstr ""
 msgid "shuffle"
 msgstr ""
 
+msgid "Shut down"
+msgstr "خاموش"
+
 msgid "simple"
 msgstr "ساده"
 
@@ -24142,7 +24228,7 @@ msgstr "نامشخص"
 msgid "unknown error"
 msgstr "خطای نامشخص"
 
-msgid "unknown service"
+msgid "Unknown Service"
 msgstr "کانال نامشخص"
 
 msgid "unpack Rar Files"
@@ -24317,6 +24403,13 @@ msgid ""
 "assistance before rebooting your %s %s."
 msgstr ""
 
+msgid "zap"
+msgstr "حذف"
+
+#, fuzzy
+msgid "Zap and record"
+msgstr "ضبط"
+
 msgid "zapped"
 msgstr "حذف شد"
 
@@ -24326,48 +24419,6 @@ msgstr "حذف شد"
 
 msgid "®"
 msgstr ""
-
-#, fuzzy
-#~ msgid "16_10_letterbox"
-#~ msgstr "16:10 Letterbox"
-
-#, fuzzy
-#~ msgid "16_9_always"
-#~ msgstr "16:9 همیشه"
-
-#, fuzzy
-#~ msgid "16_9_letterbox"
-#~ msgstr "16:9 Letterbox"
-
-#, fuzzy
-#~ msgid "4_3_letterbox"
-#~ msgstr "4:3 Letterbox"
-
-#, fuzzy
-#~ msgid "4_3_panscan"
-#~ msgstr "Pan&Scan"
-
-#, fuzzy
-#~ msgid "Accept the current selection"
-#~ msgstr "فعال کردن پیکربندی فعلی"
-
-#, fuzzy
-#~ msgid "Always select OK"
-#~ msgstr "همیشه پرسیده شود"
-
-#, fuzzy
-#~ msgid "Cancel the selection"
-#~ msgstr "انتخاب کانال"
-
-#, fuzzy
-#~ msgid "Load Default Settings"
-#~ msgstr "تنظیمات پیش فرض"
-
-#~ msgid "record"
-#~ msgstr "ضبط"
-
-#~ msgid "zap"
-#~ msgstr "حذف"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"

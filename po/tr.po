@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
+"POT-Creation-Date: 2021-11-29 21:27+0000\n"
 "PO-Revision-Date: 2021-11-14 06:52+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/"
@@ -61,6 +61,13 @@ msgid ""
 msgstr ""
 "\n"
 "Kodi mevcut değil. Kuruluma devam edilsin mi?"
+
+msgid ""
+"\n"
+"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+msgstr ""
+"\n"
+"* Günlük konumu: Günlükler ayarları, Dosya Adı: Enigma2-hdmicec-[date].log"
 
 msgid ""
 "\n"
@@ -754,6 +761,9 @@ msgstr "%Y-%b-%d"
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
+msgid "%Y-%m-%d %H-%M"
+msgstr "%Y-%m-%d %H-%M"
+
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
 
@@ -1444,6 +1454,12 @@ msgstr ""
 "dosyalarını silmek için, önce oluşan koşul önceliğe sahiptir."
 
 msgid ""
+"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr ""
+"'TV’den bekleme işlemini gerçekleştir', 'TV’den girişi ele al' seçeneğine "
+"göre daha yüksek önceliğe sahiptir"
+
+msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 
@@ -1480,6 +1496,9 @@ msgstr "(Sadece bu okuyucuyu göster:"
 #, fuzzy
 msgid "(current image)"
 msgstr "Geçerli zaman"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr "(örneğin, TV uyandırma, ancak doğru girişe geçirilmedi)"
 
 #
 msgid "(empty)"
@@ -1715,12 +1734,30 @@ msgid "16:9"
 msgstr "16:9"
 
 #
+msgid "16:9 Letterbox"
+msgstr "16:9 Letterbox"
+
+#
 msgid "16:9 Always"
 msgstr "16:9 daima"
 
 #
-msgid "16:9 Letterbox"
-msgstr "16:9 Letterbox"
+msgid "16_10_letterbox"
+msgstr "16_10_letterbox"
+
+msgid "16_10_panscan"
+msgstr "16_10_panscan"
+
+msgid "16_9"
+msgstr "16_9"
+
+#
+msgid "16_9_always"
+msgstr "16_9_always"
+
+#
+msgid "16_9_letterbox"
+msgstr "16_9_letterbox"
 
 #
 msgid "18 V"
@@ -1967,6 +2004,14 @@ msgstr "4:3 PanScan"
 
 msgid "4X"
 msgstr "4X"
+
+#
+msgid "4_3_letterbox"
+msgstr "4_3_letterbox"
+
+#
+msgid "4_3_panscan"
+msgstr "4_3_panscan"
 
 msgid "4s"
 msgstr "4s"
@@ -2428,6 +2473,11 @@ msgid "About..."
 msgstr "Hakkında..."
 
 #
+#, fuzzy
+msgid "Accept the current selection"
+msgstr "Geçerli yapılandırmayı etkinleştir"
+
+#
 msgid "Accessed:"
 msgstr "Erişilen:"
 
@@ -2464,6 +2514,13 @@ msgid ""
 "from the command line."
 msgstr ""
 
+#, python-format
+msgid ""
+"Activate an way to send individual or specific internal HDMI-CEC commands "
+"from the command line. Type on command line 'echo help > %s' and then read "
+"the file '%s' for a short help."
+msgstr ""
+
 #
 msgid "Activate current configuration"
 msgstr "Geçerli yapılandırmayı etkinleştir"
@@ -2492,6 +2549,20 @@ msgstr "Timeshift End'i etkinleştir"
 
 msgid "Activate timeshift end and pause"
 msgstr "Zaman kayması sonunu etkinleştir ve duraklat"
+
+msgid ""
+"Activation takes place immediately. If it does feature not work, then try "
+"again with a slower send interval."
+msgstr ""
+"Aktivasyon hemen gerçekleşir. Çalışmıyorsa, daha yavaş bir gönderme "
+"aralığıyla tekrar deneyin."
+
+msgid ""
+"Activation takes place immediately. If this feature is not supported, the "
+"volume keys has no function!"
+msgstr ""
+"Aktivasyon hemen gerçekleşir. Bu özellik desteklenmiyorsa, ses seviyesi "
+"tuşlarının işlevi yoktur!"
 
 msgid "Active"
 msgstr "Etkin"
@@ -2525,7 +2596,7 @@ msgstr "Zap Zamanlayıcı Ekle"
 msgid "Add Zap+Record Timer"
 msgstr "Zap + Kayıt Zamanlayıcısı Ekle"
 
-msgid "Add a auto timer for current event"
+msgid "Add an AutoTimer for the current event"
 msgstr "Geçerli etkinliğe oto-zamanlayıcı ekle"
 
 #
@@ -2619,7 +2690,7 @@ msgstr "Başlık ekle"
 msgid "Add/Remove Timer"
 msgstr "Zamanlayıcı Ekle / Kaldır"
 
-msgid "Add/Remove timer for current event"
+msgid "Add/Remove a timer for the current event"
 msgstr "Geçerli etkinliğe zamanlama ekle/kaldır"
 
 msgid "Adding schedule..."
@@ -2953,6 +3024,10 @@ msgstr ""
 "kayıtların daima şifresini çözmeyi sağlar (bazen çevrimdışı kod çözme olarak "
 "adlandırılır). Varsayılan: kapalı."
 
+#, fuzzy
+msgid "Always select OK"
+msgstr "Herzaman sor"
+
 msgid "Always show bouquets"
 msgstr "Buketleri hep göster"
 
@@ -2979,6 +3054,17 @@ msgid ""
 "respond unexpectedly. On the other hand, tries to respond better to "
 "different operating conditions."
 msgstr ""
+
+msgid ""
+"An attempt is made to capture the current TV status. If this is not possible "
+"due to incorrect or missing status messages, it may cause the receiver to "
+"respond unexpectedly.\n"
+"On the other hand, tries to respond better to different operating conditions."
+msgstr ""
+"Geçerli TV durumunu yakalamak için bir girişimde bulunuldu. Yanlış veya "
+"eksik durum mesajları nedeniyle bu mümkün değilse, alıcının beklenmedik "
+"şekilde yanıt vermesine neden olabilir.\n"
+"Öte yandan, farklı çalışma koşullarına daha iyi yanıt vermeye çalışır."
 
 #
 msgid "An empty filename is illegal."
@@ -4376,6 +4462,11 @@ msgstr "Kanal Seçimi"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Kanal Seçimi"
 
+#
+#, fuzzy
+msgid "Cancel the selection"
+msgstr "Kanal Seçimi"
+
 msgid "Cancelled upon user request"
 msgstr "Kullanıcı isteği üzerine iptal edildi"
 
@@ -4510,7 +4601,7 @@ msgstr "Skin değiştir"
 msgid "Change step size"
 msgstr "Ayar yapılırken atlama boyutu"
 
-msgid "Change timer"
+msgid "Change Timer"
 msgstr "Zamanlayıcı değiştir"
 
 #
@@ -4766,6 +4857,9 @@ msgstr ""
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr ""
 
+msgid "Choose a setting where your receiver wakes up from standby."
+msgstr "Alıcınızın bekleme modundan uyandığı bir ayar seçin."
+
 msgid "Choose a tag for easy finding a recording."
 msgstr "Kaydı kolay bulmak için etiket seç."
 
@@ -4983,9 +5077,6 @@ msgstr "Değiştirmek istediğiniz düğmeye uzaktan kumandayı tıklayın"
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Müşteri Bilgisi ( Oscam-Version:%s )"
 
-msgid "Client is streaming from this box!"
-msgstr ""
-
 msgid "ClientIP"
 msgstr "ClientIP"
 
@@ -5011,9 +5102,6 @@ msgstr "Buket listesini kapat."
 
 msgid "Close dialog"
 msgstr "Diyalogu kapa"
-
-msgid "Close the window"
-msgstr ""
 
 #
 msgid "Close title selection"
@@ -6147,9 +6235,6 @@ msgstr "Liste düzenleyiciyi kes"
 msgid "Cutlist editor..."
 msgstr "Film düzenleyici..."
 
-msgid "Cycle PIP(zap)"
-msgstr ""
-
 msgid "Cycling"
 msgstr ""
 
@@ -6566,10 +6651,6 @@ msgid "Defaults"
 msgstr "Varsayılanlar"
 
 msgid ""
-"Define additional delay in milliseconds before start of http(s) streams."
-msgstr ""
-
-msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6768,7 +6849,7 @@ msgstr "Seçilen dosyaları veya dizinleri silin"
 msgid "Delete this tag"
 msgstr ""
 
-msgid "Delete timer"
+msgid "Delete Timer"
 msgstr "Zamanlayıcı sil"
 
 msgid "Delete unused tags"
@@ -6816,9 +6897,6 @@ msgstr ""
 "sonradan karışıklığının açılması için seçeneği sunar. 'Karışıklığını "
 "etmeyin, kayıt ECM' oynatma döndürülecek olan bir karıştırmak kayıt "
 "kaydedin. 'Normal' anlamına gelir kayıt karışıklığını ve ECM kayıt yoktur."
-
-msgid "Descramble and record ecm"
-msgstr "ecm şifre çözerek kaydet"
 
 msgid "Descramble http streams"
 msgstr "Http akışlarını çözmek"
@@ -7110,10 +7188,6 @@ msgid "Do not record"
 msgstr "Kaydetme"
 
 #
-msgid "Do nothing"
-msgstr "birşey yapma"
-
-#
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -7370,9 +7444,6 @@ msgstr "Bu kaydı eklemeyin"
 
 msgid "Don't ask again!"
 msgstr "Bir daha sorma!"
-
-msgid "Don't descramble, record ecm"
-msgstr "ecm şifre çözmeden kaydet"
 
 msgid "Don't restart"
 msgstr ""
@@ -7696,7 +7767,7 @@ msgstr "%s %s'nun ad sunucu (DNS) yapılandırmasını düzenleyin.\n"
 msgid "Edit the network configuration of your %s %s.\n"
 msgstr "%s %s'nun ağ yapılandırmasını düzenleyin.\n"
 
-msgid "Edit timer"
+msgid "Edit Timer"
 msgstr "Zamanlayıcı düzenle"
 
 #
@@ -8354,7 +8425,7 @@ msgstr "Bir 'zap' kayıt zamanlayıcısı başlasa bile?"
 
 #, fuzzy
 msgid "Event"
-msgstr "Eventview"
+msgstr "Event View"
 
 msgid "Event Info"
 msgstr "Program bilgisi"
@@ -8371,10 +8442,10 @@ msgstr "Etkinlik görünümü menüsü"
 msgid "Eventname only"
 msgstr "Sadece olay adı"
 
-msgid "Eventview"
-msgstr "Eventview"
+msgid "Event View"
+msgstr "Event View"
 
-msgid "Eventview menu"
+msgid "Event View Context Menu"
 msgstr "Eventview menüsü"
 
 msgid "Eventview:"
@@ -9364,10 +9435,6 @@ msgstr "Listede aşağı git"
 msgid "Go to bookmarked folder"
 msgstr "İşaretlenmiş klasöre git"
 
-#
-msgid "Go to deep standby"
-msgstr "derin uykuya geç"
-
 msgid "Go to end of file"
 msgstr "Dosyanın sonuna git"
 
@@ -9380,10 +9447,6 @@ msgstr "İlk filme veya liste başına git"
 #
 msgid "Go to parent directory"
 msgstr "Üst dizine git"
-
-#
-msgid "Go to standby"
-msgstr "bekleme kipine geç"
 
 msgid "Go to start of file"
 msgstr "Dosyanın başına git"
@@ -9567,6 +9630,12 @@ msgstr ""
 
 msgid "HDMI"
 msgstr "HDMI"
+
+msgid "HDMI CEC"
+msgstr "HDMI CEC"
+
+msgid "HDMI CEC Setup"
+msgstr "HDMI CEC Kurulum"
 
 msgid "HDMI Colordepth"
 msgstr "HDMI Renk Düzeni"
@@ -9902,9 +9971,6 @@ msgstr "Saat Dakika Saniye"
 msgid "How many minutes do you want to record?"
 msgstr "Kaç dakikalık kayıt başlatmak istiyorsunuz?"
 
-msgid "Http(s) stream start delay"
-msgstr ""
-
 #
 msgid "Hue"
 msgstr "Renk tonu"
@@ -9934,7 +10000,7 @@ msgstr "IMDB araması"
 msgid "IMDB search"
 msgstr "IMDB araması"
 
-msgid "IMDB search for current event"
+msgid "IMDb search for current event"
 msgstr "Geçerli etkinliği IMDb'de ara"
 
 msgid "IMDb Details"
@@ -10201,6 +10267,15 @@ msgid ""
 msgstr ""
 "Eğer 'evet' olarak ayarlandıysa; bilgi çubuğu 'duraklatıldı' durumunda "
 "kalıcı olarak gösterilmeye devam edecek (zaman aşımı yok)."
+
+msgid ""
+"If the 'deep standby workaround' is enabled, it waits until the system time "
+"is synchronized. Depending on the requirement, the devices wake up will "
+"continuing after a maximum of 2 minutes."
+msgstr ""
+"'Derin bekleme geçici çözümü' etkinse, sistem saati eşitlenene kadar bekler. "
+"Gereksinime bağlı olarak, uyandırma aygıtları en fazla 2 dakika sonra devam "
+"eder."
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -10817,6 +10892,9 @@ msgstr "İrlanda"
 
 msgid "Irish"
 msgstr ""
+
+msgid "Is not necessary in most cases."
+msgstr "Çoğu durumda gerekli değildir."
 
 msgid "Is this setting ok?"
 msgstr "Bu ayar tamam mı?"
@@ -11464,6 +11542,10 @@ msgstr "Hızlı İşlemler"
 msgid "Load"
 msgstr "Yükle"
 
+#
+msgid "Load Default Settings"
+msgstr "Varsayılanları Yükle"
+
 msgid "Load EPG"
 msgstr "EPG yükle"
 
@@ -11980,12 +12062,12 @@ msgstr "Merlin EPG Center"
 msgid "Message"
 msgstr "Mesaj"
 
+msgid "Message..."
+msgstr "Mesaj..."
+
 #, fuzzy
 msgid "Message Box Actions"
 msgstr "Sanal KeyBoard İşlevleri"
-
-msgid "Message..."
-msgstr "Mesaj..."
 
 msgid "Metadata changed:"
 msgstr "Meta veriler değişti:"
@@ -12311,17 +12393,11 @@ msgstr "Metin arabelleği imlecini ilk karaktere taşı"
 msgid "Move the text cursor to the last character"
 msgstr "Metin tampon imlecini son karaktere taşı"
 
-msgid "Move to first line"
-msgstr ""
-
 msgid "Move to first line / screen"
 msgstr ""
 
 msgid "Move to home of list"
 msgstr "Listenin başına taşı"
-
-msgid "Move to last line"
-msgstr ""
 
 msgid "Move to last line / screen"
 msgstr ""
@@ -13179,9 +13255,6 @@ msgstr "%s hash için karma programların hiçbiri kullanılamıyor"
 msgid "Norfolk Island"
 msgstr "Norfolk Adası"
 
-msgid "Normal"
-msgstr "normal"
-
 #
 msgid "North"
 msgstr "Kuzey"
@@ -13403,9 +13476,6 @@ msgstr "OSD ayarları"
 
 msgid "OScam Info"
 msgstr "OScam Bilgisi"
-
-msgid "OScam webif disabled"
-msgstr "oscam webif devre dışı"
 
 msgid "OScamInfo"
 msgstr "OScamInfo"
@@ -14762,6 +14832,9 @@ msgstr "PowerTimer DeepStandby"
 msgid "PowerTimer Entry"
 msgstr "Zamanlayıcı girişi"
 
+msgid "PowerTimer list"
+msgstr "Zamanlayıcı Listesini göster"
+
 msgid "PowerTimer Log"
 msgstr "Zamanlayıcı günlüğü"
 
@@ -14770,9 +14843,6 @@ msgstr "Zamanlayıcı genel bakış"
 
 msgid "PowerTimer Standby"
 msgstr "PowerTimer Standby"
-
-msgid "PowerTimer list"
-msgstr "Zamanlayıcı Listesini göster"
 
 msgid "PowerTimers"
 msgstr "Güç Zamanlayıcıları"
@@ -16042,9 +16112,6 @@ msgstr "Image listesi alınıyor - Lütfen bekleyin ..."
 msgid "Retrieving image slots - Please wait..."
 msgstr "Görüntü yuvaları alınıyor - Lütfen bekleyin ..."
 
-msgid "Return the current selection response"
-msgstr ""
-
 #
 msgid "Return to movie list"
 msgstr "Film listesine geri dön"
@@ -16984,9 +17051,6 @@ msgstr "Sıralama yöntemini seç:"
 msgid "Select target folder"
 msgstr "Hedef klasörü seç"
 
-msgid "Select the No / False response"
-msgstr ""
-
 msgid "Select the Swap File Size:"
 msgstr "Dosya Boyutunu Değiştirin:"
 
@@ -17039,9 +17103,6 @@ msgid ""
 msgstr ""
 "Bu alıcıya atanacak Kullanıcı Bandı frekansını seçin. Bu, SCR anahtarının "
 "istenen transponder'i tunere iletmek için kullandığı frekanstır."
-
-msgid "Select the Yes / True response"
-msgstr ""
 
 #, fuzzy
 msgid "Select the character or action under the keyboard cursor"
@@ -18587,7 +18648,7 @@ msgstr ""
 msgid "Show shutdown menu"
 msgstr "Kapatma menüsünü göster"
 
-msgid "Show single epg for current channel"
+msgid "Show single EPG for current channel"
 msgstr "Geçerli kanal için tek EPG göster"
 
 msgid "Show single epg for current channel (setup in menu)"
@@ -18747,10 +18808,6 @@ msgstr "Filmin seyredilmiş durumunu göster."
 #
 msgid "Shuffle playlist"
 msgstr "Oynatma listesini karıştır"
-
-#
-msgid "Shut down"
-msgstr "kapat"
 
 #
 msgid "Shutdown"
@@ -19110,6 +19167,17 @@ msgid ""
 "turn back on it may require a slower transmission interval or the repetition "
 "of wake-up commands.)"
 msgstr ""
+
+msgid ""
+"Some TV devices can't swich to correct input if a another hdmi port active. "
+"This setting set the TV to standby before.\n"
+"(If the TV does not turn back on, may require a slower transmission interval "
+"or the repetition of wake-up commands.)"
+msgstr ""
+"Bazı TV aygıtları, başka bir hdmi bağlantı noktası etkinse girişi "
+"düzeltemez. Bu ayar TV'yi daha önce bekleme konumuna getirdi.\n"
+"(TV açılmazsa, daha yavaş bir aktarım aralığı veya uyandırma komutlarının "
+"tekrarlanması gerekebilir.)"
 
 #
 msgid "Some plugins are not available:\n"
@@ -20693,6 +20761,15 @@ msgid ""
 "seconds."
 msgstr ""
 
+msgid ""
+"This is a workaround for some devices there wakeup again after switching in "
+"standby. The wak up command's from other devices will ignored for few "
+"seconds."
+msgstr ""
+"Bu, bazı cihazlar için bekleme modundan çıktıktan sonra tekrar uyandıktan "
+"sonra geçici bir çözümdür. Diğer cihazlardan gelen uyandırma komutu birkaç "
+"saniye boyunca yoksayılır."
+
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr ""
@@ -21511,7 +21588,7 @@ msgstr "LCD LiveTV'yi değiştir"
 msgid "Toggle PIPzap"
 msgstr "PIP zap'ı değiştir"
 
-msgid "Toggle Picture In Graphics"
+msgid "Toggle Picture in Graphics"
 msgstr "Geçiş Resmi Grafik olarak"
 
 msgid "Toggle Pillarbox <> Pan&Scan"
@@ -21523,7 +21600,7 @@ msgstr "Şimdiki konuma kesme işareti koy"
 msgid "Toggle aspect ratio..."
 msgstr "Geçiş aspectratiodur ..."
 
-msgid "Toggle between bouquet/epg lists"
+msgid "Toggle between bouquet/EPG lists"
 msgstr "Buket / epg listeleri arasında geçiş yap"
 
 msgid "Toggle display of the InfoBar"
@@ -21688,10 +21765,18 @@ msgstr ""
 "Yazılım hataları için yeniden başlatmaları önlemeye çalışın ve alıcı için "
 "kullanılabilirliği koruyun."
 
+msgid "Try to send repeated commands if not all commands are executed.\n"
+msgstr ""
+"Tüm komutlar yerine getirilmezse tekrarlanan komutları göndermeyi deneyin.\n"
+
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
 msgstr ""
+
+msgid "Try to slow down the send interval if not all commands are executed."
+msgstr ""
+"Tüm komutlar yerine getirilmezse, gönderim aralığını yavaşlatmaya çalışın."
 
 #
 msgid "Trying to download a new packetlist. Please wait..."
@@ -24338,9 +24423,6 @@ msgstr "Zap"
 msgid "Zap + Exit"
 msgstr "Zap + Çık"
 
-msgid "Zap and record"
-msgstr "zap ve kayıt"
-
 msgid "Zap back to previously tuned service?"
 msgstr "Önceki kanala zap?"
 
@@ -24866,6 +24948,9 @@ msgstr "kesimi sil"
 msgid "deleted"
 msgstr "sil"
 
+msgid "Descramble and record ecm"
+msgstr "ecm şifre çözerek kaydet"
+
 msgid "detective/thriller"
 msgstr "polisiye/heyecan"
 
@@ -24887,6 +24972,10 @@ msgstr "tartışma/röportaj/münazara"
 msgid "display"
 msgstr "ekran"
 
+#
+msgid "Do nothing"
+msgstr "birşey yapma"
+
 msgid "documentary"
 msgstr "belgesel"
 
@@ -24896,6 +24985,9 @@ msgstr "belgesel"
 
 msgid "dolby"
 msgstr "dolby"
+
+msgid "Don't descramble, record ecm"
+msgstr "ecm şifre çözmeden kaydet"
 
 #
 msgid "done!"
@@ -24993,7 +25085,7 @@ msgstr "zaplamayı bitir"
 msgid "enigma2 and network"
 msgstr "enigma2 ve ağ"
 
-msgid "enter number to jump to channel."
+msgid "Enter number to jump to channel"
 msgstr "kanala atlamak için numara girin."
 
 msgid "entertainment (10-16 year old)"
@@ -25170,6 +25262,14 @@ msgstr "bahçecilik"
 msgid "get the cards' server"
 msgstr "kart sunucu al"
 
+#
+msgid "Go to deep standby"
+msgstr "derin uykuya geç"
+
+#
+msgid "Go to standby"
+msgstr "bekleme kipine geç"
+
 msgid "goto current channel and now"
 msgstr "şu anki kanala geç ve şimdi"
 
@@ -25238,6 +25338,9 @@ msgstr "yükseklik"
 
 msgid "help..."
 msgstr "yardım..."
+
+msgid "helptext"
+msgstr "yardım Metni"
 
 msgid "hh:mm"
 msgstr "hh:mm"
@@ -25591,8 +25694,8 @@ msgstr "depolama aygıtı bulunamadı"
 msgid "none"
 msgstr "yok"
 
-msgid "normal"
-msgstr ""
+msgid "Normal"
+msgstr "normal"
 
 #
 msgid "not"
@@ -25671,10 +25774,13 @@ msgstr "özgün"
 msgid "original language"
 msgstr "özgün dil"
 
+msgid "OScam webif disabled"
+msgstr "oscam webif devre dışı"
+
 msgid "packages selected."
 msgstr "paketler seçildi."
 
-msgid "page left"
+msgid "Page left"
 msgstr "sayfa kaldı"
 
 #
@@ -25761,6 +25867,10 @@ msgstr "gerçek kayıtlar veya akış"
 
 msgid "reboot system"
 msgstr "sistemi yeniden başlatma"
+
+#
+msgid "record"
+msgstr "kaydet"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -26046,6 +26156,10 @@ msgid "shuffle"
 msgstr "karıştır"
 
 #
+msgid "Shut down"
+msgstr "kapat"
+
+#
 msgid "simple"
 msgstr "basit"
 
@@ -26273,7 +26387,7 @@ msgid "unknown error"
 msgstr "bilinmeyen hata"
 
 #
-msgid "unknown service"
+msgid "Unknown Service"
 msgstr "bilinmeyen kanal"
 
 msgid "unpack Rar Files"
@@ -26465,6 +26579,13 @@ msgstr ""
 "fazla yardım almak için kılavuza bakın %s%s."
 
 #
+msgid "zap"
+msgstr "zap"
+
+msgid "Zap and record"
+msgstr "zap ve kayıt"
+
+#
 msgid "zapped"
 msgstr "zapped"
 
@@ -26474,156 +26595,6 @@ msgstr "zap"
 
 msgid "®"
 msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-#~ msgstr ""
-#~ "\n"
-#~ "* Günlük konumu: Günlükler ayarları, Dosya Adı: Enigma2-hdmicec-[date].log"
-
-#~ msgid "%Y-%m-%d %H-%M"
-#~ msgstr "%Y-%m-%d %H-%M"
-
-#~ msgid ""
-#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-#~ msgstr ""
-#~ "'TV’den bekleme işlemini gerçekleştir', 'TV’den girişi ele al' seçeneğine "
-#~ "göre daha yüksek önceliğe sahiptir"
-
-#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
-#~ msgstr "(örneğin, TV uyandırma, ancak doğru girişe geçirilmedi)"
-
-#
-#~ msgid "16_10_letterbox"
-#~ msgstr "16_10_letterbox"
-
-#~ msgid "16_10_panscan"
-#~ msgstr "16_10_panscan"
-
-#~ msgid "16_9"
-#~ msgstr "16_9"
-
-#
-#~ msgid "16_9_always"
-#~ msgstr "16_9_always"
-
-#
-#~ msgid "16_9_letterbox"
-#~ msgstr "16_9_letterbox"
-
-#
-#~ msgid "4_3_letterbox"
-#~ msgstr "4_3_letterbox"
-
-#
-#~ msgid "4_3_panscan"
-#~ msgstr "4_3_panscan"
-
-#
-#, fuzzy
-#~ msgid "Accept the current selection"
-#~ msgstr "Geçerli yapılandırmayı etkinleştir"
-
-#~ msgid ""
-#~ "Activation takes place immediately. If it does feature not work, then try "
-#~ "again with a slower send interval."
-#~ msgstr ""
-#~ "Aktivasyon hemen gerçekleşir. Çalışmıyorsa, daha yavaş bir gönderme "
-#~ "aralığıyla tekrar deneyin."
-
-#~ msgid ""
-#~ "Activation takes place immediately. If this feature is not supported, the "
-#~ "volume keys has no function!"
-#~ msgstr ""
-#~ "Aktivasyon hemen gerçekleşir. Bu özellik desteklenmiyorsa, ses seviyesi "
-#~ "tuşlarının işlevi yoktur!"
-
-#, fuzzy
-#~ msgid "Always select OK"
-#~ msgstr "Herzaman sor"
-
-#~ msgid ""
-#~ "An attempt is made to capture the current TV status. If this is not "
-#~ "possible due to incorrect or missing status messages, it may cause the "
-#~ "receiver to respond unexpectedly.\n"
-#~ "On the other hand, tries to respond better to different operating "
-#~ "conditions."
-#~ msgstr ""
-#~ "Geçerli TV durumunu yakalamak için bir girişimde bulunuldu. Yanlış veya "
-#~ "eksik durum mesajları nedeniyle bu mümkün değilse, alıcının beklenmedik "
-#~ "şekilde yanıt vermesine neden olabilir.\n"
-#~ "Öte yandan, farklı çalışma koşullarına daha iyi yanıt vermeye çalışır."
-
-#
-#, fuzzy
-#~ msgid "Cancel the selection"
-#~ msgstr "Kanal Seçimi"
-
-#~ msgid "Choose a setting where your receiver wakes up from standby."
-#~ msgstr "Alıcınızın bekleme modundan uyandığı bir ayar seçin."
-
-#~ msgid "HDMI CEC"
-#~ msgstr "HDMI CEC"
-
-#~ msgid "HDMI CEC Setup"
-#~ msgstr "HDMI CEC Kurulum"
-
-#~ msgid ""
-#~ "If the 'deep standby workaround' is enabled, it waits until the system "
-#~ "time is synchronized. Depending on the requirement, the devices wake up "
-#~ "will continuing after a maximum of 2 minutes."
-#~ msgstr ""
-#~ "'Derin bekleme geçici çözümü' etkinse, sistem saati eşitlenene kadar "
-#~ "bekler. Gereksinime bağlı olarak, uyandırma aygıtları en fazla 2 dakika "
-#~ "sonra devam eder."
-
-#~ msgid "Is not necessary in most cases."
-#~ msgstr "Çoğu durumda gerekli değildir."
-
-#
-#~ msgid "Load Default Settings"
-#~ msgstr "Varsayılanları Yükle"
-
-#~ msgid ""
-#~ "Some TV devices can't swich to correct input if a another hdmi port "
-#~ "active. This setting set the TV to standby before.\n"
-#~ "(If the TV does not turn back on, may require a slower transmission "
-#~ "interval or the repetition of wake-up commands.)"
-#~ msgstr ""
-#~ "Bazı TV aygıtları, başka bir hdmi bağlantı noktası etkinse girişi "
-#~ "düzeltemez. Bu ayar TV'yi daha önce bekleme konumuna getirdi.\n"
-#~ "(TV açılmazsa, daha yavaş bir aktarım aralığı veya uyandırma komutlarının "
-#~ "tekrarlanması gerekebilir.)"
-
-#~ msgid ""
-#~ "This is a workaround for some devices there wakeup again after switching "
-#~ "in standby. The wak up command's from other devices will ignored for few "
-#~ "seconds."
-#~ msgstr ""
-#~ "Bu, bazı cihazlar için bekleme modundan çıktıktan sonra tekrar uyandıktan "
-#~ "sonra geçici bir çözümdür. Diğer cihazlardan gelen uyandırma komutu "
-#~ "birkaç saniye boyunca yoksayılır."
-
-#~ msgid "Try to send repeated commands if not all commands are executed.\n"
-#~ msgstr ""
-#~ "Tüm komutlar yerine getirilmezse tekrarlanan komutları göndermeyi "
-#~ "deneyin.\n"
-
-#~ msgid "Try to slow down the send interval if not all commands are executed."
-#~ msgstr ""
-#~ "Tüm komutlar yerine getirilmezse, gönderim aralığını yavaşlatmaya çalışın."
-
-#~ msgid "helptext"
-#~ msgstr "yardım Metni"
-
-#
-#~ msgid "record"
-#~ msgstr "kaydet"
-
-#
-#~ msgid "zap"
-#~ msgstr "zap"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"

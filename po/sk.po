@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
+"POT-Creation-Date: 2021-11-29 21:27+0000\n"
 "PO-Revision-Date: 2021-12-04 23:22+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/"
@@ -55,6 +55,14 @@ msgid ""
 msgstr ""
 "\n"
 " Kodi nie je prítomné: Pokračovať inštaláciou?"
+
+msgid ""
+"\n"
+"* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
+msgstr ""
+"\n"
+"* Umiestnenie záznamov: nastavenia záznamov, názov súboru: Enigma2-hdmicec-"
+"[date].log"
 
 msgid ""
 "\n"
@@ -710,6 +718,9 @@ msgstr "%Y-%b-%d"
 
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
+
+msgid "%Y-%m-%d %H-%M"
+msgstr "%Y-%m-%d %H-%M"
 
 msgid "%Y/%-m/%-d"
 msgstr "%Y/%-m/%-d"
@@ -1384,6 +1395,12 @@ msgstr ""
 "nastala skôr."
 
 msgid ""
+"'Handle standby from TV' has a higher priority as 'Handle input from TV'"
+msgstr ""
+"'Preberať pohotovostný režim z TV' má vyššiu prioritu ako 'Preberať vstup z "
+"TV'"
+
+msgid ""
 "'Handle standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr ""
 "'Preberať pohotovostný režim z TV' má vyššiu prioritu ako 'Preberať vstup z "
@@ -1417,6 +1434,9 @@ msgstr "(Zobraziť iba čítačku:"
 
 msgid "(current image)"
 msgstr "(aktuálny image)"
+
+msgid "(e.g. TV wakeup, but not switched to correct input)"
+msgstr "(napríklad prebudenie TV, ale neprepnutie na správny vstup)"
 
 msgid "(empty)"
 msgstr "(prázdne)"
@@ -1630,11 +1650,26 @@ msgstr "16:10 PanScan"
 msgid "16:9"
 msgstr "16:9"
 
+msgid "16:9 Letterbox"
+msgstr "16:9 Letterbox"
+
 msgid "16:9 Always"
 msgstr "vždy 16:9"
 
-msgid "16:9 Letterbox"
-msgstr "16:9 Letterbox"
+msgid "16_10_letterbox"
+msgstr "16_10_letterbox"
+
+msgid "16_10_panscan"
+msgstr "16_10_panscan"
+
+msgid "16_9"
+msgstr "16_9"
+
+msgid "16_9_always"
+msgstr "vždy_16_9"
+
+msgid "16_9_letterbox"
+msgstr "16_9_letterbox"
 
 msgid "18 V"
 msgstr "18 V"
@@ -1866,6 +1901,12 @@ msgstr "4:3 PanScan"
 
 msgid "4X"
 msgstr "4X"
+
+msgid "4_3_letterbox"
+msgstr "4_3_letterbox"
+
+msgid "4_3_panscan"
+msgstr "4_3_panscan"
 
 msgid "4s"
 msgstr "4 s"
@@ -2297,6 +2338,9 @@ msgstr "O prijímači"
 msgid "About..."
 msgstr "O prijímači..."
 
+msgid "Accept the current selection"
+msgstr "Akceptovať aktuálny výber"
+
 msgid "Accessed:"
 msgstr "Pristupované:"
 
@@ -2331,6 +2375,16 @@ msgstr ""
 "Aktivovať možnosť zasielania individuálnych alebo špecifických interných "
 "príkazov HDMI-CEC z príkazového riadka."
 
+#, python-format
+msgid ""
+"Activate an way to send individual or specific internal HDMI-CEC commands "
+"from the command line. Type on command line 'echo help > %s' and then read "
+"the file '%s' for a short help."
+msgstr ""
+"Aktivujte spôsob odosielania individuálnych alebo špecifických interných "
+"príkazov HDMI-CEC z príkazového riadka. Na príkazový riadok napíšte 'echo "
+"help > %s' a potom si prečítajte súbor '%s' s krátkym pomocníkom."
+
 msgid "Activate current configuration"
 msgstr "Aktivovať aktuálnu konfiguráciu"
 
@@ -2357,6 +2411,20 @@ msgstr "Aktivovať koniec timeshiftu"
 
 msgid "Activate timeshift end and pause"
 msgstr "Aktivovať koniec timeshiftu a pozastaviť"
+
+msgid ""
+"Activation takes place immediately. If it does feature not work, then try "
+"again with a slower send interval."
+msgstr ""
+"Aktivácia sa prejaví ihneď. Ak nie je táto funkcia funkčná, tak to skúste "
+"ešte raz s menším intervalom zasielania."
+
+msgid ""
+"Activation takes place immediately. If this feature is not supported, the "
+"volume keys has no function!"
+msgstr ""
+"Aktivácia sa prejaví ihneď. Ak nie je táto funkcia podporovaná, nemajú "
+"tlačidlá pre hlasitosť žiadnu funkciu!"
 
 msgid "Active"
 msgstr "Aktívne"
@@ -2388,7 +2456,7 @@ msgstr "Pridať časovač zapnutia"
 msgid "Add Zap+Record Timer"
 msgstr "Pridať časovač zapnutia + nahrávania"
 
-msgid "Add a auto timer for current event"
+msgid "Add an AutoTimer for the current event"
 msgstr "Pridať autom. časovač pre aktuálnu udalosť"
 
 msgid "Add a mark"
@@ -2469,7 +2537,7 @@ msgstr "Pridať titul"
 msgid "Add/Remove Timer"
 msgstr "Pridať/odstrániť časovač"
 
-msgid "Add/Remove timer for current event"
+msgid "Add/Remove a timer for the current event"
 msgstr "Pridať/odstrániť časovač pre aktuálnu udalosť"
 
 msgid "Adding schedule..."
@@ -2778,6 +2846,9 @@ msgstr ""
 "nazýva aj ako offline-dekódovanie), ak to podporuje váš prijímač. "
 "Predvolene: vypnuté."
 
+msgid "Always select OK"
+msgstr "Vždy vybrať OK"
+
 msgid "Always show bouquets"
 msgstr "Vždy zobraziť prehľady"
 
@@ -2806,6 +2877,18 @@ msgstr ""
 "nesprávnym alebo chýbajúcim správam o stave, môže dôjsť k neočakávanej "
 "reakcii prijímača. Ide však o pokus dosiahnuť lepšiu reakciu na rôzne "
 "podmienky pri fungovaní prijímača."
+
+msgid ""
+"An attempt is made to capture the current TV status. If this is not possible "
+"due to incorrect or missing status messages, it may cause the receiver to "
+"respond unexpectedly.\n"
+"On the other hand, tries to respond better to different operating conditions."
+msgstr ""
+"Prebehne pokus o zaznamenanie aktuálneho stavu TV. Ak to nie je možné kvôli "
+"nesprávnym alebo chýbajúcim správam o stave, môže to zapríčiniť nečakanú "
+"reakciu prijímača.\n"
+"Na druhej strane dôjde k pokusu o lepšiu odozvu na rôzne podmienky "
+"fungovania."
 
 msgid "An empty filename is illegal."
 msgstr "Prázdny názov súboru je neplatný."
@@ -4127,6 +4210,9 @@ msgstr "Zrušiť výber image a ukončiť"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Zrušiť výber image a ukončiť všetky menu"
 
+msgid "Cancel the selection"
+msgstr "Zrušiť výber"
+
 msgid "Cancelled upon user request"
 msgstr "Zrušené na základe požiadavky používateľa"
 
@@ -4250,7 +4336,7 @@ msgstr "Zmeniť vzhľad"
 msgid "Change step size"
 msgstr "Zmeniť veľkosť kroku"
 
-msgid "Change timer"
+msgid "Change Timer"
 msgstr "Zmeniť časovač"
 
 msgid "Change to bouquet"
@@ -4488,6 +4574,10 @@ msgstr ""
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr "Vyberte pomenovanie označujúce toto zariadenie v službách IceTV."
 
+msgid "Choose a setting where your receiver wakes up from standby."
+msgstr ""
+"Vyberte nastavenie, ktorým sa prijímač prebudí z pohotovostného režimu."
+
 msgid "Choose a tag for easy finding a recording."
 msgstr "Pre ľahké vyhľadanie nahrávky vyberte tag."
 
@@ -4699,9 +4789,6 @@ msgstr "Stlačte na diaľkovom ovládači na tlačidlo, ktoré chcete zmeniť"
 msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Informácia o klientovi (verzia Oscam: %s)"
 
-msgid "Client is streaming from this box!"
-msgstr ""
-
 msgid "ClientIP"
 msgstr "IP klienta"
 
@@ -4725,9 +4812,6 @@ msgstr "Zatvoriť zoznam prehľadov."
 
 msgid "Close dialog"
 msgstr "Zatvoriť dialóg"
-
-msgid "Close the window"
-msgstr ""
 
 msgid "Close title selection"
 msgstr "Zatvoriť výber titulu"
@@ -5785,9 +5869,6 @@ msgstr "Editor strihov"
 msgid "Cutlist editor..."
 msgstr "Editor strihov..."
 
-msgid "Cycle PIP(zap)"
-msgstr ""
-
 msgid "Cycling"
 msgstr "Cyklistika"
 
@@ -6167,10 +6248,6 @@ msgid "Defaults"
 msgstr "Východzie"
 
 msgid ""
-"Define additional delay in milliseconds before start of http(s) streams."
-msgstr ""
-
-msgid ""
 "Defines how fast the time jumps are repeated. Values lower than 500ms may be "
 "problematic with NAS."
 msgstr ""
@@ -6360,7 +6437,7 @@ msgstr "Vymazať vybrané súbory alebo priečinky"
 msgid "Delete this tag"
 msgstr "Vymazať tento tag"
 
-msgid "Delete timer"
+msgid "Delete Timer"
 msgstr "Vymazať časovač"
 
 msgid "Delete unused tags"
@@ -6405,9 +6482,6 @@ msgstr ""
 "dodatočne, ak zlyhá dekódovanie pri nahrávaní. Voľba 'Nedekódovať, nahrať "
 "ECM' uloží nahrávku kódovane a dekóduje sa pri prehrávaní. Voľba 'Normálne' "
 "znamená dekódovať nahrávku a nenahrávať ECM."
-
-msgid "Descramble and record ecm"
-msgstr "dekódovať a nahrať ECM"
 
 msgid "Descramble http streams"
 msgstr "Dekódovať http streamy"
@@ -6666,9 +6740,6 @@ msgstr "Neflashovať image"
 msgid "Do not record"
 msgstr "Nenahrávať"
 
-msgid "Do nothing"
-msgstr "neurobiť nič"
-
 msgid ""
 "Do you really want to check the filesystem?\n"
 "This could take a long time!"
@@ -6908,9 +6979,6 @@ msgstr "Nepridávať túto nahrávku"
 
 msgid "Don't ask again!"
 msgstr "Už sa nepýtať!"
-
-msgid "Don't descramble, record ecm"
-msgstr "nedekódovať, nahrať ECM"
 
 msgid "Don't restart"
 msgstr "Nereštartovať"
@@ -7215,7 +7283,7 @@ msgstr "Upravuje nastavenie DNS %s %s.\n"
 msgid "Edit the network configuration of your %s %s.\n"
 msgstr "Upravuje nastavenie siete %s %s.\n"
 
-msgid "Edit timer"
+msgid "Edit Timer"
 msgstr "Upraviť časovač"
 
 msgid "Edit title"
@@ -7850,10 +7918,10 @@ msgstr "Menu prehľadu udalostí"
 msgid "Eventname only"
 msgstr "Len názov udalosti"
 
-msgid "Eventview"
+msgid "Event View"
 msgstr "Zobrazenie udalosti"
 
-msgid "Eventview menu"
+msgid "Event View Context Menu"
 msgstr "Menu pre zobrazenie udalosti"
 
 msgid "Eventview:"
@@ -8757,9 +8825,6 @@ msgstr "Prejsť nadol v zozname"
 msgid "Go to bookmarked folder"
 msgstr "Prejsť na priečinok uložený v záložkách"
 
-msgid "Go to deep standby"
-msgstr "prejsť do vypnutia"
-
 msgid "Go to end of file"
 msgstr "Prejsť na koniec súboru"
 
@@ -8771,9 +8836,6 @@ msgstr "Na prvý film alebo začiatok zoznamu"
 
 msgid "Go to parent directory"
 msgstr "Prejsť do rodičovského priečinka"
-
-msgid "Go to standby"
-msgstr "prejsť do pohotovostného režimu"
 
 msgid "Go to start of file"
 msgstr "Prejsť na začiatok súboru"
@@ -8949,6 +9011,12 @@ msgstr "HD60/Multibox/Multiboxse"
 
 msgid "HDMI"
 msgstr "HDMI"
+
+msgid "HDMI CEC"
+msgstr "Nastavenie HDMI-CEC"
+
+msgid "HDMI CEC Setup"
+msgstr "Nastavenie HDMI CEC"
 
 msgid "HDMI Colordepth"
 msgstr "Farebná hĺbka HDMI"
@@ -9262,9 +9330,6 @@ msgstr "Hodiny Minúty Sekundy"
 msgid "How many minutes do you want to record?"
 msgstr "Koľko minút chcete nahrávať?"
 
-msgid "Http(s) stream start delay"
-msgstr ""
-
 msgid "Hue"
 msgstr "Odtieň"
 
@@ -9289,7 +9354,7 @@ msgstr "Hľadať v IMDB"
 msgid "IMDB search"
 msgstr "Hľadať v IMDB"
 
-msgid "IMDB search for current event"
+msgid "IMDb search for current event"
 msgstr "Hľadať aktuálnu udalosť v IMDB"
 
 msgid "IMDb Details"
@@ -9564,6 +9629,15 @@ msgid ""
 msgstr ""
 "Ak je nastavené na 'áno', zostane info-panel zobrazený aj v stave "
 "'pozastavenia' (bez časového limitu)."
+
+msgid ""
+"If the 'deep standby workaround' is enabled, it waits until the system time "
+"is synchronized. Depending on the requirement, the devices wake up will "
+"continuing after a maximum of 2 minutes."
+msgstr ""
+"Ak je zapnutá voľba 'dočasné riešenie na prebudenie z vypnutia', čaká sa na "
+"synchronizovanie systémového času. V závislosti do požiadavky bude "
+"zobúdzanie zariadení pokračovať max. po 2 minútach."
 
 msgid ""
 "If the deep standby workaround is enabled wait until the system time is "
@@ -10142,6 +10216,9 @@ msgstr "Írsko"
 msgid "Irish"
 msgstr "Írčina"
 
+msgid "Is not necessary in most cases."
+msgstr "Vo väčšine prípadov nie je nutné."
+
 msgid "Is this setting ok?"
 msgstr "Použiť toto nastavenie?"
 
@@ -10717,6 +10794,9 @@ msgstr "Akcie Live TV"
 msgid "Load"
 msgstr "Načítať"
 
+msgid "Load Default Settings"
+msgstr "Načítať predvolené nastavenia"
+
 msgid "Load EPG"
 msgstr "Načítať EPG"
 
@@ -11181,11 +11261,11 @@ msgstr "Merlin EPG Center"
 msgid "Message"
 msgstr "Správa"
 
-msgid "Message Box Actions"
-msgstr "Funkcie boxu so správou"
-
 msgid "Message..."
 msgstr "Správa..."
+
+msgid "Message Box Actions"
+msgstr "Funkcie boxu so správou"
 
 msgid "Metadata changed:"
 msgstr "Meta-údaje zmenené:"
@@ -11476,17 +11556,11 @@ msgstr "Presunúť textový kurzor na prvý znak"
 msgid "Move the text cursor to the last character"
 msgstr "Presunúť textový kurzor na posledný znak"
 
-msgid "Move to first line"
-msgstr ""
-
 msgid "Move to first line / screen"
 msgstr "Presun na prvý riadok / obrazovku"
 
 msgid "Move to home of list"
 msgstr "Presunúť zoznam domov"
-
-msgid "Move to last line"
-msgstr ""
 
 msgid "Move to last line / screen"
 msgstr "Presun na posledný riadok / obrazovku"
@@ -12242,9 +12316,6 @@ msgstr "Nie je dostupný žiadny hash. program pre hash %s"
 msgid "Norfolk Island"
 msgstr "Norfolk"
 
-msgid "Normal"
-msgstr "normálne"
-
 msgid "North"
 msgstr "Sever"
 
@@ -12446,9 +12517,6 @@ msgstr "Nastavenia OSD"
 
 msgid "OScam Info"
 msgstr "Info o OScame"
-
-msgid "OScam webif disabled"
-msgstr "oscam webif vypnuté"
 
 msgid "OScamInfo"
 msgstr "OScamInfo"
@@ -13697,6 +13765,9 @@ msgstr "Časovač napájania - vypnutie"
 msgid "PowerTimer Entry"
 msgstr "Záznam správcu napájania"
 
+msgid "PowerTimer list"
+msgstr "Zoznam časov vypnutia"
+
 msgid "PowerTimer Log"
 msgstr "Súbor so záznamom správcu napájania"
 
@@ -13705,9 +13776,6 @@ msgstr "Prehľad časov vypnutia"
 
 msgid "PowerTimer Standby"
 msgstr "Časovač napájania - pohotov. režim"
-
-msgid "PowerTimer list"
-msgstr "Zoznam časov vypnutia"
 
 msgid "PowerTimers"
 msgstr "Časovač vypnutia"
@@ -14861,9 +14929,6 @@ msgstr "Preberá sa zoznam súborov s image - prosím čakajte..."
 msgid "Retrieving image slots - Please wait..."
 msgstr "Preberajú sa sloty image - prosím čakajte..."
 
-msgid "Return the current selection response"
-msgstr ""
-
 msgid "Return to movie list"
 msgstr "Návrat do zoznamu filmov"
 
@@ -15736,9 +15801,6 @@ msgstr "Vyberte spôsob zoraďovania:"
 msgid "Select target folder"
 msgstr "Vyberte cieľový priečinok"
 
-msgid "Select the No / False response"
-msgstr ""
-
 msgid "Select the Swap File Size:"
 msgstr "Vyberte veľkosť súboru pre swap:"
 
@@ -15793,9 +15855,6 @@ msgstr ""
 "Vyberte frekvenciu používateľského pásma, ktorá sa pridelí tomuto tuneru. "
 "Ide o frekvenciu, ktorú používa prepínač SCR na odovzdávanie požadovaného "
 "transpondéra tuneru."
-
-msgid "Select the Yes / True response"
-msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Vybrať znak alebo akciu pod kurzorom klávesnice"
@@ -17261,7 +17320,7 @@ msgstr "Zobraziť predvolenú hodnotu nastavenia"
 msgid "Show shutdown menu"
 msgstr "Zobraziť menu pre vypnutie"
 
-msgid "Show single epg for current channel"
+msgid "Show single EPG for current channel"
 msgstr "Zobraziť single EPG aktuálneho kanála"
 
 msgid "Show single epg for current channel (setup in menu)"
@@ -17408,9 +17467,6 @@ msgstr "Zobraziť stav prehrávaného videa."
 
 msgid "Shuffle playlist"
 msgstr "Premiešať playlist"
-
-msgid "Shut down"
-msgstr "vypnúť"
 
 msgid "Shutdown"
 msgstr "Vypnúť"
@@ -17741,6 +17797,18 @@ msgstr ""
 "aktívny aj iný port HDMI. Toto nastavenie uvedie TV do pohotovostného režimu "
 "predtým, než prebehne prepnutie. (Ak sa TV prijímač potom nezapne, môže byť "
 "potrebný pomalší interval prenosu alebo zopakovanie príkazov pre prebudenie.)"
+
+msgid ""
+"Some TV devices can't swich to correct input if a another hdmi port active. "
+"This setting set the TV to standby before.\n"
+"(If the TV does not turn back on, may require a slower transmission interval "
+"or the repetition of wake-up commands.)"
+msgstr ""
+"Niektoré TV prijímače nedokážu prepnúť na správny vstup v prípade, že je "
+"aktívny aj iný port HDMI. Toto nastavenie spôsobí, že sa TV najskôr prepne "
+"do pohotovostného režimu.\n"
+"(ak sa TV opäť nezapne, možno bude potrebný pomalší interval prenosu alebo "
+"zopakovanie príkazov na prebudenie.)"
 
 msgid "Some plugins are not available:\n"
 msgstr "Niektoré pluginy nie sú dostupné:\n"
@@ -19221,6 +19289,15 @@ msgstr ""
 "pohotovostného režimu znovu zapnú. Príkazy na prebudenie od iných zariadení "
 "budú niekoľko sekúnd ignorované."
 
+msgid ""
+"This is a workaround for some devices there wakeup again after switching in "
+"standby. The wak up command's from other devices will ignored for few "
+"seconds."
+msgstr ""
+"Toto je dočasné riešenie pre zariadenia, ktoré sa opäť prebudia po ich "
+"prepnutí do pohotovostného režimu. Príkazy na zobudenie z iných zariadení "
+"budú na pár sekúnd ignorované."
+
 #, python-format
 msgid "This is the currently selected language.  [%s]"
 msgstr "Toto je aktuálne vybraný jazyk:  [%s]"
@@ -20002,7 +20079,7 @@ msgstr "Prepnúť LCD LiveTV"
 msgid "Toggle PIPzap"
 msgstr "Prepnúť PIPzap"
 
-msgid "Toggle Picture In Graphics"
+msgid "Toggle Picture in Graphics"
 msgstr "Prepnúť Obraz v grafike"
 
 msgid "Toggle Pillarbox <> Pan&Scan"
@@ -20014,7 +20091,7 @@ msgstr "Prepnúť strihovú značku na tejto pozícii"
 msgid "Toggle aspect ratio..."
 msgstr "Prepnúť pomer strán..."
 
-msgid "Toggle between bouquet/epg lists"
+msgid "Toggle between bouquet/EPG lists"
 msgstr "Prepínať medzi zoznamami prehľadov/EPG"
 
 msgid "Toggle display of the InfoBar"
@@ -20168,12 +20245,21 @@ msgstr ""
 "Pokúsiť sa zabrániť reštartom kvôli chybám softvéru a udržiavať dostupnosť "
 "prijímača."
 
+msgid "Try to send repeated commands if not all commands are executed.\n"
+msgstr ""
+"Pokúsiť sa o odoslanie opakovaných príkazov, ak nebudú vyvolané všetky "
+"príkazy.\n"
+
 msgid ""
 "Try to send repeated commands if not all commands are executed. (e.g. TV "
 "wakeup, but not switched to correct input.)"
 msgstr ""
 "Pokúsiť sa odoslať opakované príkazy, ak sa nevykonajú všetky príkazy "
 "(napr.: TV sa prebudí, ale neprepne sa na správny vstup.)"
+
+msgid "Try to slow down the send interval if not all commands are executed."
+msgstr ""
+"Pokúsiť sa spomaliť interval odosielania, ak nie sú vyvolané všetky príkazy."
 
 msgid "Trying to download a new packetlist. Please wait..."
 msgstr "Pokúšam sa stiahnuť nový zoznam paketov. Čakajte..."
@@ -22651,9 +22737,6 @@ msgstr "Prepnúť"
 msgid "Zap + Exit"
 msgstr "Prepnúť + ukončiť"
 
-msgid "Zap and record"
-msgstr "prepnúť a nahrať"
-
 msgid "Zap back to previously tuned service?"
 msgstr "Prepnúť naspäť na predtým naladenú stanicu?"
 
@@ -23125,6 +23208,9 @@ msgstr "vymazať strih"
 msgid "deleted"
 msgstr "vymazané"
 
+msgid "Descramble and record ecm"
+msgstr "dekódovať a nahrať ECM"
+
 msgid "detective/thriller"
 msgstr "detektívka/thriller"
 
@@ -23143,6 +23229,9 @@ msgstr "diskusia/rozhovor/debata"
 msgid "display"
 msgstr "displej"
 
+msgid "Do nothing"
+msgstr "neurobiť nič"
+
 msgid "documentary"
 msgstr "dokumentárny"
 
@@ -23151,6 +23240,9 @@ msgstr "dokumentárne (všeobecne)"
 
 msgid "dolby"
 msgstr "dolby"
+
+msgid "Don't descramble, record ecm"
+msgstr "nedekódovať, nahrať ECM"
 
 msgid "done!"
 msgstr "hotovo!"
@@ -23234,7 +23326,7 @@ msgstr "koniec prepínania"
 msgid "enigma2 and network"
 msgstr "enigma2 a sieť"
 
-msgid "enter number to jump to channel."
+msgid "Enter number to jump to channel"
 msgstr "zadajte číslo pre preskočenie na kanál."
 
 msgid "entertainment (10-16 year old)"
@@ -23399,6 +23491,12 @@ msgstr "záhradníctvo"
 msgid "get the cards' server"
 msgstr "načítanie kartového servera"
 
+msgid "Go to deep standby"
+msgstr "prejsť do vypnutia"
+
+msgid "Go to standby"
+msgstr "prejsť do pohotovostného režimu"
+
 msgid "goto current channel and now"
 msgstr "prejsť na aktuálny kanál a teraz"
 
@@ -23465,6 +23563,9 @@ msgstr "výška"
 
 msgid "help..."
 msgstr "pomocník..."
+
+msgid "helptext"
+msgstr "text pomocníka"
 
 msgid "hh:mm"
 msgstr "hh:mm"
@@ -23774,8 +23875,8 @@ msgstr "nenašli sa žiadne úložné zariadenia"
 msgid "none"
 msgstr "žiadne"
 
-msgid "normal"
-msgstr ""
+msgid "Normal"
+msgstr "normálne"
 
 msgid "not"
 msgstr "nie"
@@ -23843,10 +23944,13 @@ msgstr "originál"
 msgid "original language"
 msgstr "pôvodný jazyk"
 
+msgid "OScam webif disabled"
+msgstr "oscam webif vypnuté"
+
 msgid "packages selected."
 msgstr "balíčky vybrané."
 
-msgid "page left"
+msgid "Page left"
 msgstr "strana doľava"
 
 msgid "pass"
@@ -23929,6 +24033,9 @@ msgstr "skutočné nahrávky alebo streamovanie"
 
 msgid "reboot system"
 msgstr "reštartovať systém"
+
+msgid "record"
+msgstr "nahrávka"
 
 #, python-format
 msgid "record time changed, start prepare is now: %s"
@@ -24182,6 +24289,9 @@ msgstr "show/game show (všeobecne)"
 msgid "shuffle"
 msgstr "náhodné usporiadanie"
 
+msgid "Shut down"
+msgstr "vypnúť"
+
 msgid "simple"
 msgstr "jednoduché"
 
@@ -24386,7 +24496,7 @@ msgstr "neznáme"
 msgid "unknown error"
 msgstr "neznáma chyba"
 
-msgid "unknown service"
+msgid "Unknown Service"
 msgstr "neznáma stanica"
 
 msgid "unpack Rar Files"
@@ -24565,6 +24675,12 @@ msgstr ""
 "%s %s môže byť práve teraz nepoužiteľný. Pred reštartovaním %s %s si "
 "prečítajte návod, prosím."
 
+msgid "zap"
+msgstr "prepnúť"
+
+msgid "Zap and record"
+msgstr "prepnúť a nahrať"
+
 msgid "zapped"
 msgstr "prepnuté"
 
@@ -24573,158 +24689,6 @@ msgstr "prepínanie"
 
 msgid "®"
 msgstr "®"
-
-#~ msgid ""
-#~ "\n"
-#~ "* Logs location: logs settings, Filename: Enigma2-hdmicec-[date].log"
-#~ msgstr ""
-#~ "\n"
-#~ "* Umiestnenie záznamov: nastavenia záznamov, názov súboru: Enigma2-"
-#~ "hdmicec-[date].log"
-
-#~ msgid "%Y-%m-%d %H-%M"
-#~ msgstr "%Y-%m-%d %H-%M"
-
-#~ msgid ""
-#~ "'Handle standby from TV' has a higher priority as 'Handle input from TV'"
-#~ msgstr ""
-#~ "'Preberať pohotovostný režim z TV' má vyššiu prioritu ako 'Preberať vstup "
-#~ "z TV'"
-
-#~ msgid "(e.g. TV wakeup, but not switched to correct input)"
-#~ msgstr "(napríklad prebudenie TV, ale neprepnutie na správny vstup)"
-
-#~ msgid "16_10_letterbox"
-#~ msgstr "16_10_letterbox"
-
-#~ msgid "16_10_panscan"
-#~ msgstr "16_10_panscan"
-
-#~ msgid "16_9"
-#~ msgstr "16_9"
-
-#~ msgid "16_9_always"
-#~ msgstr "vždy_16_9"
-
-#~ msgid "16_9_letterbox"
-#~ msgstr "16_9_letterbox"
-
-#~ msgid "4_3_letterbox"
-#~ msgstr "4_3_letterbox"
-
-#~ msgid "4_3_panscan"
-#~ msgstr "4_3_panscan"
-
-#~ msgid "Accept the current selection"
-#~ msgstr "Akceptovať aktuálny výber"
-
-#, python-format
-#~ msgid ""
-#~ "Activate an way to send individual or specific internal HDMI-CEC commands "
-#~ "from the command line. Type on command line 'echo help > %s' and then "
-#~ "read the file '%s' for a short help."
-#~ msgstr ""
-#~ "Aktivujte spôsob odosielania individuálnych alebo špecifických interných "
-#~ "príkazov HDMI-CEC z príkazového riadka. Na príkazový riadok napíšte 'echo "
-#~ "help > %s' a potom si prečítajte súbor '%s' s krátkym pomocníkom."
-
-#~ msgid ""
-#~ "Activation takes place immediately. If it does feature not work, then try "
-#~ "again with a slower send interval."
-#~ msgstr ""
-#~ "Aktivácia sa prejaví ihneď. Ak nie je táto funkcia funkčná, tak to skúste "
-#~ "ešte raz s menším intervalom zasielania."
-
-#~ msgid ""
-#~ "Activation takes place immediately. If this feature is not supported, the "
-#~ "volume keys has no function!"
-#~ msgstr ""
-#~ "Aktivácia sa prejaví ihneď. Ak nie je táto funkcia podporovaná, nemajú "
-#~ "tlačidlá pre hlasitosť žiadnu funkciu!"
-
-#~ msgid "Always select OK"
-#~ msgstr "Vždy vybrať OK"
-
-#~ msgid ""
-#~ "An attempt is made to capture the current TV status. If this is not "
-#~ "possible due to incorrect or missing status messages, it may cause the "
-#~ "receiver to respond unexpectedly.\n"
-#~ "On the other hand, tries to respond better to different operating "
-#~ "conditions."
-#~ msgstr ""
-#~ "Prebehne pokus o zaznamenanie aktuálneho stavu TV. Ak to nie je možné "
-#~ "kvôli nesprávnym alebo chýbajúcim správam o stave, môže to zapríčiniť "
-#~ "nečakanú reakciu prijímača.\n"
-#~ "Na druhej strane dôjde k pokusu o lepšiu odozvu na rôzne podmienky "
-#~ "fungovania."
-
-#~ msgid "Cancel the selection"
-#~ msgstr "Zrušiť výber"
-
-#~ msgid "Choose a setting where your receiver wakes up from standby."
-#~ msgstr ""
-#~ "Vyberte nastavenie, ktorým sa prijímač prebudí z pohotovostného režimu."
-
-#~ msgid "HDMI CEC"
-#~ msgstr "Nastavenie HDMI-CEC"
-
-#~ msgid "HDMI CEC Setup"
-#~ msgstr "Nastavenie HDMI CEC"
-
-#~ msgid ""
-#~ "If the 'deep standby workaround' is enabled, it waits until the system "
-#~ "time is synchronized. Depending on the requirement, the devices wake up "
-#~ "will continuing after a maximum of 2 minutes."
-#~ msgstr ""
-#~ "Ak je zapnutá voľba 'dočasné riešenie na prebudenie z vypnutia', čaká sa "
-#~ "na synchronizovanie systémového času. V závislosti do požiadavky bude "
-#~ "zobúdzanie zariadení pokračovať max. po 2 minútach."
-
-#~ msgid "Is not necessary in most cases."
-#~ msgstr "Vo väčšine prípadov nie je nutné."
-
-#~ msgid "Load Default Settings"
-#~ msgstr "Načítať predvolené nastavenia"
-
-#~ msgid ""
-#~ "Some TV devices can't swich to correct input if a another hdmi port "
-#~ "active. This setting set the TV to standby before.\n"
-#~ "(If the TV does not turn back on, may require a slower transmission "
-#~ "interval or the repetition of wake-up commands.)"
-#~ msgstr ""
-#~ "Niektoré TV prijímače nedokážu prepnúť na správny vstup v prípade, že je "
-#~ "aktívny aj iný port HDMI. Toto nastavenie spôsobí, že sa TV najskôr "
-#~ "prepne do pohotovostného režimu.\n"
-#~ "(ak sa TV opäť nezapne, možno bude potrebný pomalší interval prenosu "
-#~ "alebo zopakovanie príkazov na prebudenie.)"
-
-#~ msgid ""
-#~ "This is a workaround for some devices there wakeup again after switching "
-#~ "in standby. The wak up command's from other devices will ignored for few "
-#~ "seconds."
-#~ msgstr ""
-#~ "Toto je dočasné riešenie pre zariadenia, ktoré sa opäť prebudia po ich "
-#~ "prepnutí do pohotovostného režimu. Príkazy na zobudenie z iných zariadení "
-#~ "budú na pár sekúnd ignorované."
-
-#~ msgid "Try to send repeated commands if not all commands are executed.\n"
-#~ msgstr ""
-#~ "Pokúsiť sa o odoslanie opakovaných príkazov, ak nebudú vyvolané všetky "
-#~ "príkazy.\n"
-
-#~ msgid "Try to slow down the send interval if not all commands are executed."
-#~ msgstr ""
-#~ "Pokúsiť sa spomaliť interval odosielania, ak nie sú vyvolané všetky "
-#~ "príkazy."
-
-#~ msgid "helptext"
-#~ msgstr "text pomocníka"
-
-#~ msgid "record"
-#~ msgstr "nahrávka"
-
-#~ msgid "zap"
-#~ msgstr "prepnúť"
 
 #~ msgid "%d-%m"
 #~ msgstr "%d-%m"
