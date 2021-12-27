@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-20 21:36+0000\n"
-"PO-Revision-Date: 2021-12-13 20:09+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"POT-Creation-Date: 2021-12-26 20:08+0000\n"
+"PO-Revision-Date: 2021-12-27 11:05+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/"
 "enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2486,9 +2486,6 @@ msgstr "Timer 'Umschalten' hinzufügen"
 msgid "Add Zap+Record Timer"
 msgstr "Timer 'Umschalten und aufnehmen' hinzufügen"
 
-msgid "Add an AutoTimer for the current event"
-msgstr "AutoTimer für ausgewählte Sendung hinzufügen"
-
 #
 msgid "Add a mark"
 msgstr "Marker hinzufügen"
@@ -2509,11 +2506,17 @@ msgstr "Neuen Aufnahmetimer hinzufügen"
 msgid "Add a record timer for current event"
 msgstr "Aufnahmetimer für aktuelles Programm hinzufügen"
 
+msgid "Add a timer for the current event"
+msgstr "Timer für die aktuelle Sendung hinzufügen"
+
 msgid "Add a zap timer for current event"
 msgstr "Umschalttimer für aktuelles Programm hinzufügen"
 
 msgid "Add a zap timer for next event"
 msgstr "Neuen Umschalttimer für das nächste Programm hinzufügen"
+
+msgid "Add an AutoTimer for the current event"
+msgstr "AutoTimer für ausgewählte Sendung hinzufügen"
 
 # MovieSelection.py
 msgid "Add bookmark"
@@ -4438,6 +4441,10 @@ msgstr "Sprache ändern"
 msgid "Change PIN"
 msgstr "PIN ändern"
 
+# GraphMultiEpg.py
+msgid "Change Timer"
+msgstr "Timer ändern"
+
 msgid "Change Volume offset"
 msgstr "Lautstärke-Offset ändern"
 
@@ -4475,10 +4482,6 @@ msgstr "Wechsle Skin"
 #
 msgid "Change step size"
 msgstr "Schrittweite ändern"
-
-# GraphMultiEpg.py
-msgid "Change Timer"
-msgstr "Timer ändern"
 
 msgid "Change to bouquet"
 msgstr "Zum Bouquet wechseln"
@@ -4954,7 +4957,7 @@ msgid "Client Info ( Oscam-Version: %s )"
 msgstr "Client-Info (OSCam-Version: %s)"
 
 msgid "Client is streaming from this box!"
-msgstr ""
+msgstr "Ein Client streamt gerade von diesem Receiver!"
 
 msgid "ClientIP"
 msgstr "ClientIP"
@@ -4976,14 +4979,29 @@ msgstr "Schließen"
 msgid "Close PiP on exit"
 msgstr "Beende Bild im Bild mit EXIT"
 
+msgid "Close bouquet list"
+msgstr "Bouquetliste schließen"
+
 msgid "Close bouquet list."
 msgstr "Schließe Favoritenliste."
 
 msgid "Close dialog"
 msgstr "Dialog schließen"
 
+msgid "Close pop up menu"
+msgstr "PopUp Menü schließen"
+
+msgid "Close screen"
+msgstr "Screen schließen"
+
+msgid "Close the context menu"
+msgstr "Kontextmenü schließen"
+
+msgid "Close the current screen"
+msgstr "Aktuellen Screen schließen"
+
 msgid "Close the window"
-msgstr ""
+msgstr "Window schließen"
 
 #
 msgid "Close title selection"
@@ -6674,6 +6692,10 @@ msgstr "Sprache löschen"
 msgid "Delete Plugins"
 msgstr "Plugins löschen"
 
+# GraphMultiEpg.py
+msgid "Delete Timer"
+msgstr "Timer löschen"
+
 msgid "Delete all tags"
 msgstr "Alle Tags löschen"
 
@@ -6737,10 +6759,6 @@ msgstr "Ausgewählte Dateien oder Verzeichnisse löschen"
 
 msgid "Delete this tag"
 msgstr "Diesen Tag löschen"
-
-# GraphMultiEpg.py
-msgid "Delete Timer"
-msgstr "Timer löschen"
 
 msgid "Delete unused tags"
 msgstr "Nicht verwendete Tags löschen"
@@ -7531,8 +7549,26 @@ msgstr "EJECTCD lang"
 msgid "EPG"
 msgstr "EPG"
 
+msgid "EPG Actions"
+msgstr "EPG Aktionen"
+
+msgid "EPG Bouquet Actions"
+msgstr "EPG Bouquet Aktionen"
+
 msgid "EPG Cache Check"
 msgstr "Prüfe EPG-Zwischenspeicher"
+
+msgid "EPG Channel/Service Selection"
+msgstr "EPG Senderauswahl"
+
+msgid "EPG Display Actions"
+msgstr "EPG Anzeigeaktionen"
+
+msgid "EPG Navigation Actions"
+msgstr "EPG Navigationsaktionen"
+
+msgid "EPG Other Actions"
+msgstr "Weitere EPG Aktionen"
 
 msgid "EPG Search"
 msgstr "EPG-Suche"
@@ -7626,6 +7662,10 @@ msgstr "Quad Sendereintrag bearbeiten"
 msgid "Edit Tags"
 msgstr "Tags bearbeiten"
 
+# GraphMultiEpg.py
+msgid "Edit Timer"
+msgstr "Timer bearbeiten"
+
 #
 msgid "Edit Title"
 msgstr "Titel bearbeiten"
@@ -7665,10 +7705,6 @@ msgstr "Nameserver-Einstellungen der %s %s bearbeiten.\n"
 #, python-format
 msgid "Edit the network configuration of your %s %s.\n"
 msgstr "Netzwerkkonfiguration der %s %s bearbeiten.\n"
-
-# GraphMultiEpg.py
-msgid "Edit Timer"
-msgstr "Timer bearbeiten"
 
 #
 msgid "Edit title"
@@ -8042,6 +8078,9 @@ msgstr "Hauptmenü öffnen..."
 msgid "Enter multi-file selection mode"
 msgstr "Mehrfachauswahlmodus aktivieren"
 
+msgid "Enter number to jump to channel"
+msgstr "Nummer, um zum Kanal zu wechseln"
+
 msgid "Enter persistent PIN code"
 msgstr "PIN eingeben"
 
@@ -8326,6 +8365,15 @@ msgstr "Sendungsinformation"
 msgid "Event Info"
 msgstr "Sendungsinformationen"
 
+msgid "Event View"
+msgstr "Sendungsinformation"
+
+msgid "Event View Actions"
+msgstr "Aktionen der Sendungsinformationen"
+
+msgid "Event View Context Menu"
+msgstr "Sendungsinformationen"
+
 msgid "Event font size"
 msgstr "Schriftgröße für Sendungsnamen"
 
@@ -8335,14 +8383,11 @@ msgstr "Sendungsanzeige"
 msgid "Event view menu"
 msgstr "Sendungsanzeigenmenü"
 
+msgid "EventViewEPG Actions"
+msgstr "Sendungsinfo EPG Aktionen"
+
 msgid "Eventname only"
 msgstr "Nur Sendungsname"
-
-msgid "Event View"
-msgstr "Sendungsinformation"
-
-msgid "Event View Context Menu"
-msgstr "Sendungsinformationen"
 
 msgid "Eventview:"
 msgstr "Sendungsinformation:"
@@ -8876,6 +8921,9 @@ msgstr "Finanzen"
 #, python-format
 msgid "Find out more at %s"
 msgstr "Erfahren Sie mehr unter %s"
+
+msgid "Find similar events in the EPG"
+msgstr "Finde ähnliche Sendungen im EPG"
 
 msgid "Fine movement"
 msgstr "Fein-Steuerung"
@@ -9866,14 +9914,14 @@ msgstr "IMDb-Suche"
 msgid "IMDB search"
 msgstr "IMDb-Suche"
 
-msgid "IMDb search for current event"
-msgstr "IMDb-Suche für die ausgewählte Sendung"
-
 msgid "IMDb Details"
 msgstr "IMDb-Details"
 
 msgid "IMDb Search"
 msgstr "IMDb-Suche"
+
+msgid "IMDb search for current event"
+msgstr "IMDb-Suche für die ausgewählte Sendung"
 
 msgid "INFO"
 msgstr "INFO"
@@ -10021,8 +10069,8 @@ msgid ""
 "located with the other log files but named 'Enigma2-hdmicec-[date].log'."
 msgstr ""
 "Bei 'Ja' wird ein Log des CEC-Protokolls erstellt. Die Logdateien befinden "
-"sich zusammen mit den anderen Logs, haben jedoch den Namen 'Enigma2-hdmicec-"
-"[date].log'"
+"sich zusammen mit den anderen Logs, haben jedoch den Namen "
+"'Enigma2-hdmicec-[date].log'."
 
 msgid ""
 "If enabled, using a time window to detect a wakeup from deep standby by a "
@@ -10872,9 +10920,15 @@ msgstr "Sprung zum letzten Eintrag in der Liste oder zum Textende"
 msgid "Jump to next marked position"
 msgstr "Springe zur nächsten Markerposition"
 
+msgid "Jump to next page or all up (setup in menu)"
+msgstr ""
+
 #
 msgid "Jump to previous marked position"
 msgstr "Springe zur vorherigen Markerposition"
+
+msgid "Jump to previous page or all down (setup in menu)"
+msgstr ""
 
 msgid "Jump to prime time"
 msgstr "Springe zur Primetime"
@@ -12310,6 +12364,9 @@ msgstr "Steuerung"
 msgid "Movie"
 msgstr "Filme"
 
+msgid "Movie Event View Actions"
+msgstr ""
+
 msgid "Movie List"
 msgstr "Filmauswahl"
 
@@ -13344,6 +13401,9 @@ msgstr "Ojibwa"
 msgid "Ok"
 msgstr "OK"
 
+msgid "OkCancel Actions"
+msgstr "OK/Cancel Aktionen"
+
 msgid ""
 "Older files in the timeshift directory are removed on every event change."
 msgstr ""
@@ -13458,6 +13518,9 @@ msgstr "Timer anzeigen"
 msgid "Open bouquetlist"
 msgstr "Öffne Favoritenliste"
 
+msgid "Open context menu"
+msgstr "Kontextmenü öffnen"
+
 msgid "Open favourites list"
 msgstr "Öffne Favoritenliste"
 
@@ -13493,6 +13556,12 @@ msgstr "Plugin-Manager öffnen"
 #
 msgid "Open the movie list"
 msgstr "Filmauswahl öffnen"
+
+msgid "Open the multi service EPG view"
+msgstr ""
+
+msgid "Open the single service EPG view"
+msgstr ""
 
 msgid "Open with File Commander"
 msgstr "Mit File Commander öffnen"
@@ -13750,6 +13819,9 @@ msgstr "Seite zurück"
 
 msgid "Page down list"
 msgstr "Seite runter"
+
+msgid "Page left"
+msgstr "Seite nach links"
 
 msgid "Page right"
 msgstr "Seite nach rechts"
@@ -14582,6 +14654,7 @@ msgstr "Polnisch"
 msgid "Politik"
 msgstr "Politik"
 
+#, fuzzy
 msgid "Popup"
 msgstr "Aufblenden"
 
@@ -15377,6 +15450,9 @@ msgstr "Aufnahme"
 msgid "Record - same as record button"
 msgstr "Aufnahme - wie Aufnahmetaste"
 
+msgid "Record Actions"
+msgstr ""
+
 msgid "Record next"
 msgstr "Nächste Sendung aufnehmen"
 
@@ -15516,7 +15592,7 @@ msgid ""
 msgstr ""
 "Aktualisierung gestartet.\n"
 "Bitte warten Sie, bis Ihre %s %s neu gestartet wurde.\n"
-"Das kann ein paar Minuten dauern."
+"Dies kann ein paar Minuten dauern."
 
 msgid "Refresh every (in hours)"
 msgstr "Aktualisierungsintervall (in Stunden)"
@@ -16097,6 +16173,9 @@ msgstr "Skript mit einem optionalen Parameter ausführen"
 
 msgid "Run script with optional parameter in background"
 msgstr "Skript mit einem optionalen Parameter im Hintergrund ausführen"
+
+msgid "Run the selected menu option"
+msgstr ""
 
 msgid "Rundi"
 msgstr "Rundi"
@@ -18504,6 +18583,12 @@ msgstr "Multi-EPG anzeigen"
 msgid "Show network mounts ..."
 msgstr "Netzwerklaufwerke anzeigen..."
 
+msgid "Show next event"
+msgstr ""
+
+msgid "Show next page"
+msgstr ""
+
 msgid "Show next picture"
 msgstr "Nächstes Bild anzeigen"
 
@@ -18526,6 +18611,12 @@ msgstr "Rotorbewegung anzeigen"
 
 msgid "Show preview of current mode (*)."
 msgstr "Vorschau des aktuellen Modus anzeigen (*)."
+
+msgid "Show previous event"
+msgstr ""
+
+msgid "Show previous page"
+msgstr ""
 
 msgid "Show previous picture"
 msgstr "Vorheriges Bild anzeigen"
@@ -18581,8 +18672,8 @@ msgstr "Ausschaltmenü anzeigen"
 msgid "Show single EPG for current channel"
 msgstr "Einzel-EPG vom aktuellen Sender anzeigen"
 
-msgid "Show single epg for current channel (setup in menu)"
-msgstr "Einzel-EPG für den aktuellen Sender anzeigen (Einstellung im Menü)."
+msgid "Show single EPG for current channel (setup in menu)"
+msgstr "Einzel-EPG vom aktuellen Sender anzeigen (Einstellung im Menü)"
 
 msgid "Show single service EPG"
 msgstr "Einfachen EPG anzeigen"
@@ -21533,8 +21624,8 @@ msgstr "Display/Live-TV umschalten"
 msgid "Toggle PIPzap"
 msgstr "Bild im Bild umschalten"
 
-msgid "Toggle Picture In Graphics"
-msgstr "Kanal-Vorschau im grafischen EPG ein/ausblenden"
+msgid "Toggle Picture in Graphics"
+msgstr ""
 
 msgid "Toggle Pillarbox <> Pan&Scan"
 msgstr "Zwischen Pillarbox und Pan & Scan wechseln"
@@ -22055,6 +22146,10 @@ msgstr ""
 "Unbekannter Fehler beim Erstellen des Skins!\n"
 "Bitte überprüfen und übernehmen Sie Ihre Einstellungen nach einem Neustart "
 "im MyMetrixLite-Plugin."
+
+#
+msgid "Unknown Service"
+msgstr "Unbekannter Kanal"
 
 #
 msgid "Unknown error code"
@@ -23751,6 +23846,9 @@ msgstr ""
 msgid "Without popup"
 msgstr "Ohne Meldung"
 
+msgid "Wizard Actions"
+msgstr "Wizard Aktionen"
+
 msgid "Wolof"
 msgstr "Wolof"
 
@@ -25062,9 +25160,6 @@ msgstr "Umschalten beenden"
 msgid "enigma2 and network"
 msgstr "Enigma2 und Netzwerk"
 
-msgid "Enter number to jump to channel"
-msgstr "Nummer, um zum Kanal zu wechseln"
-
 msgid "entertainment (10-16 year old)"
 msgstr "Unterhaltung (10-16 Jahre)"
 
@@ -25412,12 +25507,6 @@ msgstr "Zum nächsten Titel springen"
 msgid "jump to chapter by number"
 msgstr "Nach Nummer zum Kapitel springen"
 
-msgid "jump to next page or all up (setup in menu)"
-msgstr "Zur nächsten Seite springen oder alle hoch (Einstellung im Menü)"
-
-msgid "jump to previous page or all down (setup in menu)"
-msgstr "Zur vorherigen Seite springen oder alle runter (Einstellung im Menü)"
-
 # Record neu 5.1
 msgid "just abort, no message"
 msgstr "Abbrechen, ohne Hinweis"
@@ -25733,9 +25822,6 @@ msgstr "Originalsprache"
 
 msgid "packages selected."
 msgstr "Pakete ausgewählt."
-
-msgid "Page left"
-msgstr "Seite nach links"
 
 #
 msgid "pass"
@@ -26340,10 +26426,6 @@ msgstr "Unbekannt"
 msgid "unknown error"
 msgstr "Unbekannter Fehler"
 
-#
-msgid "Unknown Service"
-msgstr "Unbekannter Kanal"
-
 msgid "unpack Rar Files"
 msgstr "'.rar' Archive entpacken"
 
@@ -26545,6 +26627,19 @@ msgstr "Umschalten"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Show single epg for current channel (setup in menu)"
+#~ msgstr "Einzel-EPG für den aktuellen Sender anzeigen (Einstellung im Menü)."
+
+#~ msgid "Toggle Picture In Graphics"
+#~ msgstr "Kanal-Vorschau im grafischen EPG ein/ausblenden"
+
+#~ msgid "jump to next page or all up (setup in menu)"
+#~ msgstr "Zur nächsten Seite springen oder alle hoch (Einstellung im Menü)"
+
+#~ msgid "jump to previous page or all down (setup in menu)"
+#~ msgstr ""
+#~ "Zur vorherigen Seite springen oder alle runter (Einstellung im Menü)"
 
 #~ msgid ""
 #~ "\n"
