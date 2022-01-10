@@ -2091,8 +2091,8 @@ msgstr ""
 
 #, python-format
 msgid ""
-"A configuration file (%s) was modified since Installation.\n"
-"Do you want to keep your version?"
+"Configuration file '%s' has been modified since it was installed, "
+"would you like to keep the modified version?"
 msgstr ""
 "Eine Konfigurationsdatei (%s) wurde seit der Installation verändert.\n"
 "Soll die geänderte Version erhalten bleiben?"
@@ -2653,7 +2653,7 @@ msgid "Advanced"
 msgstr "Erweitert"
 
 msgid "Advanced Options"
-msgstr "Erweiterte Einstellungen"
+msgstr "Erweiterte Optionen"
 
 msgid "Advanced Settings"
 msgstr "Erweiterte Einstellungen"
@@ -4364,6 +4364,7 @@ msgstr "Das heruntergeladene Image kann nicht gelöscht werden!"
 msgid "Cannot delete file"
 msgstr "Datei kann nicht gelöscht werden!"
 
+#, fuzzy
 msgid "Cannot determine"
 msgstr "Kann nicht ermittelt werden"
 
@@ -6782,7 +6783,6 @@ msgstr "Löschen von %s (%s)..."
 msgid "Deleting files"
 msgstr "Dateien löschen"
 
-#, fuzzy
 msgid "Delivery system workaround"
 msgstr "Tuner System Spezial Funktion"
 
@@ -12431,6 +12431,7 @@ msgid "Mozambique"
 msgstr "Mosambik"
 
 # InfoPanel
+#, fuzzy
 msgid "Mtd"
 msgstr "MTD"
 
@@ -14678,7 +14679,6 @@ msgstr "Polnisch"
 msgid "Politik"
 msgstr "Politik"
 
-#, fuzzy
 msgid "Popup"
 msgstr "Aufblenden"
 
@@ -16908,7 +16908,7 @@ msgid "Select additional backup files"
 msgstr "Zusätzlich zu sichernde Dateien auswählen"
 
 msgid "Select additional files to backup"
-msgstr "Dateien auswählen, die zusätzlich gesichert werden sollen"
+msgstr "Dateien auswählen, die zusätzlich gesichert werden"
 
 msgid "Select an image to be downloaded"
 msgstr "Ein Image zum Herunterladen auswählen"
@@ -17477,7 +17477,7 @@ msgstr "Server:"
 
 #
 msgid "Service"
-msgstr "Sender"
+msgstr "Kanal"
 
 msgid "Service & PIDs"
 msgstr "Service und PIDs"
@@ -17557,6 +17557,7 @@ msgstr ""
 "Kanal ist ungültig!\n"
 "(Zeitüberschreitung beim Lesen der PMT)"
 
+#, fuzzy
 msgid "Service name"
 msgstr "Sendername"
 
@@ -17589,7 +17590,7 @@ msgstr "Service-Referenz"
 
 #
 msgid "Service scan"
-msgstr "Sendersuche"
+msgstr "Kanalsuche"
 
 #
 msgid ""
@@ -17603,6 +17604,7 @@ msgstr ""
 msgid "Service width"
 msgstr "Sendernamen Breite"
 
+#, fuzzy
 msgid "ServiceName"
 msgstr "Sendername"
 
@@ -22315,7 +22317,7 @@ msgid "Update/Backup your firmware, Backup/Restore settings"
 msgstr "Sichern/Wiederherstellen des Images oder der Einstellungen."
 
 msgid "Update/Backup/Restore your box"
-msgstr "Update/Sicherung/Wiederherstellung Ihres Receivers"
+msgstr "Update/Sicherung/Wiederherstellung"
 
 #
 msgid "Updatefeed not available."
@@ -22363,7 +22365,7 @@ msgid "Upgrade with GUI"
 msgstr "Aktualisierung mit Benutzeroberfläche"
 
 #
-msgid "Upgrading"
+msgid "Updating"
 msgstr "Aktualisieren"
 
 msgid "Uphops +"
@@ -22438,7 +22440,6 @@ msgid "Use Netmed EPG information when it is available."
 msgstr "Netmed-EPG-Informationen verwenden, wenn sie verfügbar sind."
 
 # ImageBackup.py
-#, fuzzy
 msgid "Use OnlineFlash in SoftwareManager"
 msgstr "OnlineFlash in der Softwareverwaltung verwenden"
 
@@ -23541,9 +23542,7 @@ msgid ""
 "current bouquet is reached while changing channels."
 msgstr ""
 "Sender können in Favoriten gruppiert werden.\n"
-"Bei 'Ja' kann beim Quickzap (direktes Umschalten mit einer Taste) vom "
-"letzten Sender der aktuellen Favoritenliste zum ersten Sender der nächsten "
-"Favoritenliste gewechselt werden."
+"Bei 'Ja' kann beim Umschalten die Favoritenliste gewechselt werden."
 
 msgid ""
 "When enabled, deleted recordings are moved to the trash can, instead of "
@@ -24705,10 +24704,10 @@ msgstr "Aktiviere Bild im Bild"
 msgid "active"
 msgstr "Aktiv"
 
-msgid "add Current"
+msgid "Add Current"
 msgstr "Hinzufügen"
 
-msgid "add Service"
+msgid "Add Service"
 msgstr "Kanal hinzufügen"
 
 #
@@ -24939,7 +24938,7 @@ msgstr "Zentriert"
 msgid "centered, wrapped"
 msgstr "Zentriert, umgebrochen"
 
-msgid "change"
+msgid "Change"
 msgstr "Ändern"
 
 msgid "change Volume down"
@@ -25897,7 +25896,7 @@ msgstr "Beliebte Kultur/Traditionelle Kunst"
 msgid "pre-school children's program"
 msgstr "Programm für Vorschulkinder"
 
-msgid "press the menu button to set a general AC3/Dolby offset"
+msgid "Press the menu button to set a general AC3/Dolby offset."
 msgstr ""
 "Drücken Sie die Taste MENU, um einen allgemeinen AC3/Dolby-Offset zu setzen."
 
@@ -26115,7 +26114,7 @@ msgstr "Wähle"
 msgid "select CAId's"
 msgstr "CAIDs auswählen"
 
-msgid "select channels to add a offset to the Volume"
+msgid "Select channels to add an offset to the volume."
 msgstr "Kanäle auswählen, um einen Lautstärke-Offset hinzuzufügen"
 
 #
@@ -26385,7 +26384,7 @@ msgid "this bouquet is protected by a parental control pin"
 msgstr "Dieses Bouquet ist durch einen Jugendschutz-PIN-Code geschützt!"
 
 msgid ""
-"this offset will only be used if the channel has not its own volume offset"
+"This offset will only be used if the channel has not its own volume offset."
 msgstr ""
 "Dieser Offset wird nur verwendet, wenn ein Kanal selbst keine eigene "
 "Lautstärkeanpassung hat, und unter 'Ton - Grundeinstellungen' 'AC3-Downmix' "
