@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-19 18:56+0000\n"
-"PO-Revision-Date: 2022-01-04 11:48+0100\n"
+"PO-Revision-Date: 2022-01-21 20:01+0100\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/"
 "enigma2-7-0-po/nl/>\n"
@@ -1049,8 +1049,8 @@ msgstr[1] "%d dagen"
 #, python-format
 msgid "%d feed catalog package was updated."
 msgid_plural "%d feed catalog packages were updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d feed cataloguspakket is bijgewerkt."
+msgstr[1] "%d feed catalogus pakketten zijn bijgewerkt."
 
 #, python-format
 msgid "%d hour"
@@ -1083,50 +1083,52 @@ msgstr "%d ms"
 #, python-format
 msgid "%d package upgraded."
 msgid_plural "%d packages upgraded."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is bijgewerkt."
+msgstr[1] "%d pakketten zijn bijgewerkt."
 
 #, python-format
 msgid "%d package was configured."
 msgid_plural "%d packages were configured."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is geconfigureerd."
+msgstr[1] "%d pakketten zijn geconfigureerd."
 
 #, python-format
+#| msgid "packages selected."
 msgid "%d package was deselected."
 msgid_plural "%d packages were deselected."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is gedeselecteerd."
+msgstr[1] "%d pakketten zijn gedeselecteerd."
 
 #, python-format
 msgid "%d package was downloaded."
 msgid_plural "%d packages were downloaded."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is gedownload."
+msgstr[1] "%d pakketten zijn gedownload."
 
 #, python-format
 msgid "%d package was identified for upgrade."
 msgid_plural "%d packages were identified for upgrade."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is geselecteerd voor een upgrade."
+msgstr[1] "%d pakketten zijn geselecteerd voor een upgrade."
 
 #, python-format
 msgid "%d package was installed."
 msgid_plural "%d packages were installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " %d pakket is geïnstalleerd."
+msgstr[1] "%d pakketten zijn geïnstalleerd."
 
 #, python-format
+#| msgid "packages selected."
 msgid "%d package was removed."
 msgid_plural "%d packages were removed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is verwijderd."
+msgstr[1] "%d pakketten zijn verwijderd."
 
 #, python-format
 msgid "%d package was upgraded."
 msgid_plural "%d packages were upgraded."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d pakket is bijgewerkt."
+msgstr[1] "%d pakketten zijn bijgewerkt."
 
 #, python-format
 msgid "%d pixel wide"
@@ -4131,7 +4133,7 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 msgid "Cancel / Close the software update screen"
-msgstr ""
+msgstr "De software-update annuleren"
 
 msgid "Cancel any changed settings and exit"
 msgstr "Annuleer alle gewijzigde instellingen en Exit."
@@ -4890,8 +4892,8 @@ msgid ""
 "Configuration file '%s' has been modified since it was installed, would you "
 "like to keep the modified version?"
 msgstr ""
-"Een configuratiebestand (%s) is sinds de installatie gewijzigd.\n"
-"Wilt u uw versie behouden?"
+"Een configuratiebestand '%s' is sinds de installatie gewijzigd, wilt u uw "
+"gewijzigde versie behouden?"
 
 msgid "Configuration mode"
 msgstr "Configuratie modus"
@@ -5919,7 +5921,7 @@ msgid "Current value: "
 msgstr "Huidige waarde: "
 
 msgid "Current version unknown"
-msgstr ""
+msgstr "Huidige versie onbekend"
 
 msgid "Current version:"
 msgstr "Huidige versie:"
@@ -6610,6 +6612,9 @@ msgid ""
 "with existing packages.  While this is mostly harmless it is possible that "
 "your %s %s may experience issues."
 msgstr ""
+"Gedeselecteerde pakketten komen voor doordat die niet compatibel zijn met al "
+"geïnstalleerde pakketten. Hoewel dit normaal gesproken geen kwaad kan, is "
+"het mogelijk dat uw %s %s daarna problemen ondervindt."
 
 msgid "Details for plugin: "
 msgstr "Plug-in informatie: "
@@ -7648,6 +7653,7 @@ msgstr ""
 
 msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
+"Activeer deze optie om OPKG gegevens toe te voegen aan het debug log bestand."
 
 msgid "Enable this option to add remote control data to the debug log file."
 msgstr ""
@@ -10016,8 +10022,9 @@ msgstr "Inclusief action map data"
 msgid "Include keyboard data"
 msgstr "Inclusief toetsenbord data"
 
+#| msgid "Include action map data"
 msgid "Include opkg output data"
-msgstr ""
+msgstr "Inclusief OPKG Output gegevens "
 
 msgid "Include remote control data"
 msgstr "Inclusief afstandsbediening data"
@@ -10228,7 +10235,7 @@ msgid "Install plugins"
 msgstr "Installeer plug-ins"
 
 msgid "Install/Remove plugin"
-msgstr ""
+msgstr "Installeer/Verwijder plug-in"
 
 msgid "Installation finished."
 msgstr "Installatie mislukt."
@@ -11651,7 +11658,7 @@ msgid "Move down a page"
 msgstr "Ga een pagina naar beneden"
 
 msgid "Move down a page / screen"
-msgstr ""
+msgstr "Een scherm naar beneden"
 
 msgid "Move down a screen"
 msgstr "Een scherm naar beneden"
@@ -11754,7 +11761,7 @@ msgid "Move up a page"
 msgstr "Ga een pagina omhoog"
 
 msgid "Move up a page / screen"
-msgstr ""
+msgstr "Een scherm naar boven"
 
 msgid "Move up a screen"
 msgstr "Een scherm naar boven"
@@ -12420,10 +12427,10 @@ msgid "No update required!"
 msgstr "Geen update vereist!"
 
 msgid "No updates available."
-msgstr ""
+msgstr "Geen updates beschikbaar."
 
 msgid "No updates were available.  Please try again later."
-msgstr ""
+msgstr "Geen updates beschikbaar. Probeer het later nog een keer."
 
 msgid "No valid region details were found"
 msgstr "Geen geldige regio informatie gevonden"
@@ -12688,8 +12695,9 @@ msgstr "OK, mij tijdens de software update begeleiden"
 msgid "ONID"
 msgstr "ONID"
 
+#| msgid "OK button mode"
 msgid "OPKG clean mode"
-msgstr ""
+msgstr "OPKG Clean modus"
 
 msgid "OSD"
 msgstr "OSD"
@@ -14061,7 +14069,7 @@ msgid "Press OK to activate the settings."
 msgstr "Druk op OK om op te slaan."
 
 msgid "Press OK to continue."
-msgstr ""
+msgstr "Druk op OK om door te gaan."
 
 msgid "Press OK to edit the settings."
 msgstr "Druk op OK om te wijzigen."
@@ -14314,8 +14322,9 @@ msgstr "Beveilig Applicatie overzicht"
 msgid "Protect services"
 msgstr "Beveilig zenders"
 
+#| msgid "Online software update"
 msgid "Protect software update screen"
-msgstr ""
+msgstr "Protect software update scherm"
 
 msgid "Protect standby menu"
 msgstr "Beveilig stand-by menu"
@@ -14745,7 +14754,7 @@ msgstr ""
 "Dit kan een paar minuten duren."
 
 msgid "Refresh"
-msgstr ""
+msgstr "Overzicht verversen"
 
 msgid "Refresh every (in hours)"
 msgstr "Actualiseer elke X uur"
@@ -14763,7 +14772,7 @@ msgid "Refresh screen"
 msgstr "Actualiseren scherm"
 
 msgid "Refresh the update-able package list"
-msgstr ""
+msgstr "Ververs de lijst met beschikbare updates"
 
 msgid "Regard deep standby as standby"
 msgstr "Beschouw uitschakelen als normale stand-by"
@@ -14858,7 +14867,7 @@ msgid "Remove Confirmation"
 msgstr "Verwijderen bevestiging"
 
 msgid "Remove Failed !!"
-msgstr ""
+msgstr "Verwijderen mislukt!!"
 
 msgid "Remove Finished."
 msgstr "Verwijderen voltooid."
@@ -17391,8 +17400,9 @@ msgstr "Gedetailleerde EPG info weergeven"
 msgid "Show detailed event info (setup in menu)"
 msgstr "Toon gedetailleerde programma info"
 
+#| msgid "Show source packages"
 msgid "Show development packages in opkg"
-msgstr ""
+msgstr "Toon development pakketten in OPKG"
 
 msgid "Show directories first"
 msgstr "Toon eerst mappen"
@@ -18057,10 +18067,13 @@ msgstr "Online update instellingen"
 msgid "Software restore"
 msgstr "Software herstellen"
 
+#| msgid "After pressing OK, please wait!"
 msgid ""
 "Software update starting, please wait.\n"
 "\n"
 msgstr ""
+"De software update begint, een moment geduld.\n"
+"\n"
 
 msgid "Softwaremanager information"
 msgstr "Softwarebeheer informatie"
@@ -18441,7 +18454,7 @@ msgid "Stop testing plane after # successful transponders"
 msgstr "Stop testen na # succesvolle transponders"
 
 msgid "Stop the update, if running, then exit"
-msgstr ""
+msgstr "Stop een lopende update en Exit"
 
 msgid "Stop timer recording"
 msgstr "Stop timeropname"
@@ -20965,7 +20978,7 @@ msgid "Update at your own risk"
 msgstr "Update op uw eigen risico"
 
 msgid "Update completed."
-msgstr ""
+msgstr "De Update is gereed"
 
 msgid "Update delay for Events in List"
 msgstr "Update vertraging voor programma's in lijst"
@@ -21003,10 +21016,10 @@ msgid "Update/Backup/Restore your box"
 msgstr "Update/back-up/herstel uw ontvanger"
 
 msgid "Updated"
-msgstr ""
+msgstr "Bijgewerkt"
 
 msgid "Updated version unknown"
-msgstr ""
+msgstr "De bijgewerkte versie is onbekend"
 
 msgid "Updatefeed not available."
 msgstr "Updatefeed niet beschikbaar."
@@ -21049,7 +21062,7 @@ msgid "Upgrade with GUI"
 msgstr "Update met GUI"
 
 msgid "Upgrading"
-msgstr ""
+msgstr "Bijwerken"
 
 msgid "Uphops +"
 msgstr "Uphops +"
@@ -22126,6 +22139,9 @@ msgid ""
 "When enabled, before opkg update there will be opkg clean to make sure "
 "nothing ruine the update but only enable this when you can not update online."
 msgstr ""
+"Indien ingeschakeld, zal er voor een \"OPKG Update\" een \"OPKG Clean\" "
+"worden uitgevoerd om ervoor te zorgen dat dat de  update goed verloopt. "
+"Schakel dit alleen in wanneer u niet online kunt updaten."
 
 msgid "When enabled, channel numbering will start at '1' for each bouquet."
 msgstr ""
@@ -22293,6 +22309,8 @@ msgid ""
 "When enabled, you will see dev, staticdev, dbg, doc, src and po packages in "
 "opkg list."
 msgstr ""
+"Wanneer ingeschakeld, dan ziet u dev, staticdev, dbg, doc, src en po "
+"pakketten in de OPKG lijst."
 
 msgid ""
 "When enabled, your receiver will detect activity on the VCR SCART input."
@@ -23072,6 +23090,8 @@ msgid ""
 "Your receiver might be unusable now.  Please consult the manual for further "
 "assistance before rebooting your %s %s."
 msgstr ""
+"Uw ontvanger kan nu onbruikbaar zijn geworden. Raadpleeg de handleiding "
+"voordat u uw %s %s herstart."
 
 msgid ""
 "Your wireless LAN internet connection could not be started!\n"
