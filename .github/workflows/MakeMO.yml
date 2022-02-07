@@ -1,0 +1,29 @@
+name: MakeMO
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: create mo
+        run: |
+          sudo apt-get -q update
+          sudo apt-get install gettext
+          mkdir Rel
+          msgfmt -o Rel/de.mo po/de.po
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Rel
+          force_orphan: true
