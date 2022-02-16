@@ -3,13 +3,14 @@
 # pololoko111 <peciek83@gmail.com>, 2021, 2022.
 # openATV <openatv@gmail.com>, 2021.
 # Grzegorz <grzegorz914@icloud.com>, 2021, 2022.
+# drakulis <drakulis@interia.pl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-11 14:04+0000\n"
-"PO-Revision-Date: 2022-02-14 09:28+0000\n"
-"Last-Translator: Grzegorz <grzegorz914@icloud.com>\n"
+"PO-Revision-Date: 2022-02-16 19:05+0000\n"
+"Last-Translator: drakulis <drakulis@interia.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +27,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"[Bukiety użytkownika (TV)]\n"
+"[Listy ulubionych (TV)]\n"
 
 msgid ""
 "\n"
@@ -49,14 +50,14 @@ msgid ""
 " Do you want to switch Enigma2 with Android...?"
 msgstr ""
 "\n"
-" Czy chcesz przełączyć Enigmę2 na Androida...?"
+" Czy chcesz uruchomić Androida...?"
 
 msgid ""
 "\n"
 " Kodi not present. Proceed with install?"
 msgstr ""
 "\n"
-" Nie zainstalowano Kodi. Zainstalować teraz?"
+" Kodi nie zainstalowano. Czy chcesz zainstalować teraz?"
 
 msgid ""
 "\n"
@@ -2309,7 +2310,7 @@ msgid "Aborting updateprogress"
 msgstr "Przerywanie postępu aktualizacji"
 
 msgid "About"
-msgstr "Odbiornik"
+msgstr "System"
 
 msgid "About..."
 msgstr "Info o..."
@@ -2583,7 +2584,7 @@ msgid "Afrikaans"
 msgstr "Afrykański"
 
 msgid "After PowerLost"
-msgstr "Po wyłączeniu z prądu"
+msgstr "Po przywróceniu prądu"
 
 msgid "After Recording"
 msgstr "Po nagrywaniu"
@@ -3617,7 +3618,7 @@ msgid "Boot time and local time"
 msgstr "Czas uruchamiania i lokalny czas"
 
 msgid "Boot-up action"
-msgstr "Proces rozruchu"
+msgstr "Tryb uruchomienia"
 
 msgid "Bootloader update required!"
 msgstr "Wymagana aktualizacja Bootloadera!"
@@ -7237,7 +7238,7 @@ msgid "Enhanced Movie Center"
 msgstr "Ulepszone Centrum Filmu"
 
 msgid "Enigma2 (re)starts"
-msgstr "Restarty"
+msgstr "Restarty E2"
 
 msgid ""
 "Enigma2 Skinselector\n"
@@ -7255,19 +7256,19 @@ msgstr ""
 "© 2006 - Stephan Reichholf"
 
 msgid "Enigma2 debug level"
-msgstr "Poziom debugowanie"
+msgstr "Poziom debugowania E2"
 
 msgid "Enigma2 information"
 msgstr "Info o enigma2"
 
 msgid "Enigma2 revision"
-msgstr "Rewizja"
+msgstr "Rewizja E2"
 
 msgid "Enigma2 skin selector"
 msgstr "Enigma2 wybór skóry"
 
 msgid "Enigma2 version"
-msgstr "Wersja"
+msgstr "Wersja E2"
 
 msgid "Enigmalight"
 msgstr "Enigmalight"
@@ -8486,7 +8487,7 @@ msgid "Go to bookmarked folder"
 msgstr "Idź do folderu z zakładkami"
 
 msgid "Go to deep standby"
-msgstr "przejdź do głębokiego czuwania"
+msgstr "Wyłącz tuner"
 
 msgid "Go to end of file"
 msgstr "Idź na koniec pliku"
@@ -8501,7 +8502,7 @@ msgid "Go to parent directory"
 msgstr "Idź do katalogu nadrzędnego"
 
 msgid "Go to standby"
-msgstr "przejdź do trybu czuwania"
+msgstr "Przejdź do trybu czuwania"
 
 msgid "Go to start of file"
 msgstr "Idź na początek pliku"
@@ -10083,18 +10084,18 @@ msgid "Last config"
 msgstr "Ostatnie ustawienia"
 
 msgid "Last flash"
-msgstr "Flash"
+msgstr "Ostatni flash E2"
 
 msgid "Last speed"
 msgstr "Ostatnia prędkość"
 
 msgid "Last update"
-msgstr "Aktualizacja"
+msgstr "Ostatnia aktualizacja E2"
 
 # normalised
 #, python-format
 msgid "Last update:\t%s"
-msgstr "Aktualizacja:\t%s"
+msgstr "Ostatnia aktualizacja E2:\t%s"
 
 msgid "Last used share: "
 msgstr "Ostatnio używane udziały: "
@@ -15359,10 +15360,10 @@ msgid "Select video mode"
 msgstr "Wybierz tryb wideo"
 
 msgid "Select what should be done when the %s %s was boot-up, normal playing or goto standby."
-msgstr "Wybierz, co należy zrobić, gdy %s %s uruchamia się z normalnie lub idzie do trybu czuwania."
+msgstr "Wybierz, co ma się stać, gdy %s %s zostanie włączony. Czy ma się uruchomić normalnie czy przejść w trybu czuwania?"
 
 msgid "Select what should be done when the %s %s was shutdown incorrectly, or after the Power was lost."
-msgstr "Wybierz, co należy zrobić, gdy %s %s został wyłączony nieprawidłowo, lub po odłączeniu prądu."
+msgstr "Po przywróceniu zasilania twój %s %s zostanie automatycznie uruchomiony. Wybierz, co należy wtedy zrobić."
 
 msgid "Select what you want the Channel +/- button to activate:"
 msgstr "Wybierz, co chcesz aktywować przyciskiem 'Kanał +/-':"
@@ -19681,7 +19682,7 @@ msgid "Upper case"
 msgstr "Duże litery"
 
 msgid "Uptime"
-msgstr "Czas pracy enigmy"
+msgstr "Czas pracy E2"
 
 msgid "Urdu"
 msgstr "Urdu"
@@ -20569,7 +20570,7 @@ msgid "When enabled, always descramble receiving http streams. This takes up mor
 msgstr "Po włączeniu zawsze rozszyfruj odbieranie strumieni HTTP. Zajmuje to więcej zasobów (deszyfrowanie demultiplekserów), włącz tylko w razie potrzeby. Poszczególne strumienie są zawsze deszyfrowane, jeśli do typu usługi dodano 0x100, niezależnie od tego ustawienia."
 
 msgid "When enabled, authentication is required to watch http streams."
-msgstr "Gdy włączone,wymagana jest autoryzacja do oglądania strumieni http."
+msgstr "Jeśli włączone, będzie wymagana autoryzacja do oglądania strumieni http."
 
 msgid "When enabled, before opkg update there will be opkg clean to make sure nothing ruine the update but only enable this when you can not update online."
 msgstr "Gdy włączone, przed aktualizacją opkg będzie wyczyszczone. Włącz to tylko wtedy jeśli nie korzystasz z aktualizacji online."
@@ -21143,9 +21144,9 @@ msgid ""
 "\n"
 "Do you want to put it in %s?"
 msgstr ""
-"%s %s nie jest prawidłowo zamknięty.\n"
+"%s %s nie został prawidłowo wyłączony.\n"
 "\n"
-"Czy chcesz umieścić go w %s ?"
+"Czy chcesz przejść w tryb %s ?"
 
 #, python-format
 msgid "Your %s %s will Reboot..."
@@ -22029,7 +22030,7 @@ msgid "goto current channel and now"
 msgstr "Idż do bieżącego kanału"
 
 msgid "goto deep-standby"
-msgstr "przejdź do głębokiego czuwania"
+msgstr "Wyłącz tuner"
 
 msgid "goto first channel"
 msgstr "Idż do pierwszego kanału"
@@ -22188,7 +22189,7 @@ msgid "just abort, show message"
 msgstr "po prostu przerwać, pokazać wiadomość"
 
 msgid "just boot"
-msgstr "tylko rozruch"
+msgstr "Pozostaw uruchomiony"
 
 msgid "kernel modules"
 msgstr "moduły kernel"
@@ -22591,7 +22592,7 @@ msgid "rename"
 msgstr "zmień nazwę"
 
 msgid "rename entry"
-msgstr "Zmień nazwę kanału"
+msgstr "Zmień nazwę"
 
 msgid "repeat playlist"
 msgstr "powtórz listę odtwarzania"
