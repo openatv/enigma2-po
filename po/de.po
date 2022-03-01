@@ -2416,10 +2416,11 @@ msgid "Action"
 msgstr "Aktion"
 
 msgid "Action on long POWER button press"
-msgstr ""
+msgstr "Aktion bei langem Drücken der Ausschalttaste"
 
+#
 msgid "Action on short POWER button press"
-msgstr ""
+msgstr "Aktion bei kurzem Drücken der Ausschalttaste"
 
 msgid "Activate"
 msgstr "Aktiviere"
@@ -2828,7 +2829,7 @@ msgid "Allows you to show/hide CCcam in extensions (BLUE button)."
 msgstr "CCcam-Info unter Erweiterungen (Taste BLAU) anzeigen."
 
 msgid "Allows you to show/hide Log Manager in extensions (BLUE button)."
-msgstr ""
+msgstr "Die Logverwaltung unter Erweiterungen (Taste BLAU) anzeigen oder verstecken."
 
 msgid "Allows you to show/hide OScam in extensions (BLUE button)."
 msgstr "OSCam-Info unter Erweiterungen (Taste BLAU) anzeigen."
@@ -3354,7 +3355,7 @@ msgid "Automatically turn on external subtitles"
 msgstr "Externe Untertitel automatisch anschalten"
 
 msgid "Automatically update Client/Server View"
-msgstr ""
+msgstr "Client-/Server-Ansicht automatisch aktualisieren?"
 
 msgid "Automobil"
 msgstr "Automobil"
@@ -3747,13 +3748,13 @@ msgid "Blue"
 msgstr "Blau"
 
 msgid "BLUE button"
-msgstr ""
+msgstr "Taste BLAU"
 
 msgid "BLUE long"
-msgstr ""
+msgstr "BLAU lang"
 
 msgid "BLUE switch: BLUE/BLUE long"
-msgstr ""
+msgstr "Funktion der Taste BLAU kurz/lang"
 
 msgid "Bluetooth Setup"
 msgstr "Bluetooth-Einstellungen"
@@ -4454,8 +4455,9 @@ msgstr "Kanal"
 msgid "Channel \t\t\tVolume +"
 msgstr "Kanal \t\t\tLautstärke +"
 
+#
 msgid "CHANNEL +/-"
-msgstr ""
+msgstr "Kanal +/-"
 
 msgid "Channel +/- button mode"
 msgstr "Funktion der Tasten P+/CH+ und P-/CH-"
@@ -4701,7 +4703,7 @@ msgstr ""
 "Nicht jeder Skin unterstützt jede Einstellung."
 
 msgid "Choose the location for crash and debug logs."
-msgstr ""
+msgstr "Wählen Sie den Speicherort für Crash- und Debuglogs."
 
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "Wählen Sie einen Ort zur Speicherung der EPG-Daten, wenn die %s %s ausgeschaltet wird. Dieser Ort muss beim Start verfügbar sein."
@@ -5031,10 +5033,10 @@ msgid "Configuration options for the HELP screen can be found in 'MENU > Setup >
 msgstr "Konfigurationsoptionen für den HILFE-Bildschirm finden Sie unter 'MENU > Einstellungen > Bedienung & Oberfläche > OSD'."
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
-msgstr ""
+msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der externen Untertitel zu verbessern."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
-msgstr ""
+msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der Untertitel zu verbessern."
 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr ""
@@ -5159,8 +5161,12 @@ msgstr "Die Kontraststufe des Displays einstellen."
 msgid "Configure the current keymap file."
 msgstr "Konfigurieren Sie die aktuelle Keymap-Datei."
 
+# 5.1 Version
 msgid "Configure the cursor behavior in the channel selection list. When opening the channel selection list you can remain on the current service or already select up/down and you are able to revert the B+/B- buttons."
 msgstr ""
+"Position des Cursors beim Öffnen der Senderliste festlegen.\n"
+"Auf dem laufenden Sender, oder, bei 'Standard', einen Eintrag darüber oder darunter positionieren.\n"
+"Außerdem kann die Belegung der Tasten P+/CH+ und P-/CH- getauscht werden."
 
 msgid "Configure the display resolution and the font used for teletext."
 msgstr "Bestimmt die Bildschirmauflösung und den Zeichensatz für die Videotext-Darstellung."
@@ -5654,8 +5660,9 @@ msgstr "Land für EPG-Ereignisbewertungsinformationen"
 msgid "Crash Logs"
 msgstr "Crashlogs"
 
+# data/setup.xml
 msgid "Crash at skin error for debug reasons"
-msgstr ""
+msgstr "Auch bei Skin-Fehlern abstürzen?"
 
 #, python-format
 msgid "Crash log '%s' (%d/%d)"
@@ -8241,8 +8248,9 @@ msgstr "Externer Speicher %s"
 msgid "External subtitle color"
 msgstr "Farbe für externe Untertitel"
 
+# Subtitle neu 5.1  colorisation = colorization
 msgid "External subtitle dialog colorization"
-msgstr ""
+msgstr "Farbige Dialoge bei externen Untertiteln"
 
 # Subtitle neu 5.1
 msgid "External subtitle switch fonts"
@@ -9135,10 +9143,10 @@ msgid "Green"
 msgstr "Grün"
 
 msgid "GREEN button"
-msgstr ""
+msgstr "Taste GRÜN"
 
 msgid "GREEN long"
-msgstr ""
+msgstr "GRÜN lang"
 
 msgid "Greenland"
 msgstr "Grönland"
@@ -10811,7 +10819,7 @@ msgid "Limit east"
 msgstr "Ost-Limit"
 
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
-msgstr ""
+msgstr "Bei 'Ja' werden die Zeichen, die in Aufnahme-Dateinamen (7 Bit ASCII) verwendet werden können, begrenzt. Dies gewährleistet die Kompatibilität mit Betriebssystemen oder Dateisystemen mit begrenztem Zeichenvorrat."
 
 #
 msgid "Limit west"
@@ -11018,8 +11026,9 @@ msgstr "Logverwaltung"
 msgid "Log file '%s' deleted."
 msgstr "Log-Datei '%s' gelöscht."
 
+# data/setup.xml
 msgid "Log python stack trace on spinner"
-msgstr ""
+msgstr "Bei Spinner Python-Stack-Trace loggen?"
 
 #
 msgid "Log results to harddisk"
@@ -11356,13 +11365,13 @@ msgid "Maximum minutes to jump %d !"
 msgstr "Sie können nur maximal %d Minuten springen!"
 
 msgid "Maximum no of days"
-msgstr ""
+msgstr "Maximale Anzahl von Tagen:"
 
 msgid "Maximum number of days in EPG"
 msgstr "Maximale Anzahl von Tagen im EPG"
 
 msgid "Maximum space used (MB)"
-msgstr ""
+msgstr "Maximale Speicherplatznutzung (MB):"
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -13365,9 +13374,6 @@ msgstr "Passwort Aktionen"
 msgid "Password Setup"
 msgstr "Passwort einrichten"
 
-msgid "Password changed."
-msgstr "Passwort geändert."
-
 msgid "Password:"
 msgstr "Passwort:"
 
@@ -14336,7 +14342,7 @@ msgid "Press yellow to set this interface as the default interface."
 msgstr "Drücken Sie die Taste GELB, um diese Schnittstelle als Standardschnittstelle festzulegen."
 
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
-msgstr ""
+msgstr "Die Sendernummer (in Ihrer ersten Favoritenliste) einstellen, zu der beim Drücken der Taste umgeschaltet wird, die als PANIK Taste definiert ist."
 
 msgid "Prev Image"
 msgstr "Vorheriges Bild"
@@ -14718,13 +14724,13 @@ msgid "RGB"
 msgstr "RGB"
 
 msgid "RADIO"
-msgstr ""
+msgstr "RADIO"
 
 msgid "Radio Channel Selection"
 msgstr "Radio-Senderliste"
 
 msgid "RADIO long"
-msgstr ""
+msgstr "Radio lang"
 
 #
 msgid "Radsport"
@@ -14733,9 +14739,6 @@ msgstr "Radsport"
 #
 msgid "Random"
 msgstr "zufällig"
-
-msgid "Random Password"
-msgstr "Zufallspasswort"
 
 #, python-format
 msgid "Rating defined by broadcaster - %d"
@@ -14985,7 +14988,7 @@ msgid "Red"
 msgstr "Rot"
 
 msgid "RED button"
-msgstr ""
+msgstr "Taste ROT"
 
 #
 msgid "Red button..."
@@ -14995,7 +14998,7 @@ msgid "Red colored"
 msgstr "Roter Sendername"
 
 msgid "RED long"
-msgstr ""
+msgstr "ROT lang"
 
 msgid "Red/HbbTV Button Actions"
 msgstr "Tastenaktionen ROT/HbbTV"
@@ -15296,7 +15299,7 @@ msgid "Repeat the sent standby and wakeup commands"
 msgstr "Sende wiederholende Aufwach- und Standby-Befehle"
 
 msgid "Repeat the standby commands"
-msgstr ""
+msgstr "Auch die Standby-Befehle wiederholen?"
 
 #
 msgid "Repeat type"
@@ -16363,7 +16366,7 @@ msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiS
 msgstr "Wählen Sie, wie die Satellitenschüssel eingerichtet ist. Feste Schüssel, einzelner LNB, DiSEqC-Schalter, Rotor usw."
 
 msgid "Select how to activate the Quick EPG mode."
-msgstr ""
+msgstr "Wählen Sie, wie der grafische Infoleisten-EPG aufgerufen werden soll."
 
 #
 msgid "Select how your box will upgrade."
@@ -16572,22 +16575,22 @@ msgid "Select what should be done when the %s %s was shutdown incorrectly, or af
 msgstr "Wählen Sie, was geschehen soll, nachdem Ihre %s %s nicht ordnungsgemäß heruntergefahren wurde (z.B. nach einem Stromausfall)."
 
 msgid "Select what you want the Channel +/- button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Tasten P+/CH+ und P-/CH- bewirken sollen."
 
 msgid "Select what you want the EPG button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Taste EPG bewirken soll."
 
 msgid "Select what you want the INFO button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Taste INFO (HELP bei manchen Receivern) bewirken soll."
 
 msgid "Select what you want the OK button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Taste OK bewirken soll."
 
 msgid "Select what you want the TV button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Taste TV bewirken soll."
 
 msgid "Select what you want the Up/Down button to activate."
-msgstr ""
+msgstr "Wählen Sie, was die Tasten Hoch/Runter bewirken sollen."
 
 msgid "Select wireless network"
 msgstr "WLAN-Netzwerk auswählen"
@@ -17449,8 +17452,9 @@ msgstr "Live-TV im MiniTV anzeigen"
 msgid "Show Log"
 msgstr "Log anzeigen"
 
+# crashlog
 msgid "Show Log Manager in extensions list"
-msgstr ""
+msgstr "Logverwaltung in Erweiterungen anzeigen?"
 
 #
 msgid "Show Main Menu as"
@@ -17677,7 +17681,7 @@ msgid "Show in Standby"
 msgstr "Im Standby anzeigen"
 
 msgid "Show in extensions list"
-msgstr ""
+msgstr "Im Erweiterungsmenü anzeigen?"
 
 msgid "Show info"
 msgstr "Infos anzeigen"
@@ -18785,10 +18789,10 @@ msgid "Stop timeshift and save timeshift buffer as movie and start recording of 
 msgstr "Timeshift stoppen und den Timeshift-Puffer als Film speichern und die aktuelle Sendung weiter aufnehmen"
 
 msgid "Stop timeshift while recording"
-msgstr ""
+msgstr "Timeshift während Aufnahme beenden"
 
 msgid "Stops timeshift being used if a recording is in progress. (Advisable for USB sticks.)"
-msgstr ""
+msgstr "Beendet Timeshift, wenn eine Aufnahme läuft. Ratsam bei der Verwendung eines USB-Sticks."
 
 msgid "Stopped"
 msgstr "Beendet"
@@ -18862,7 +18866,7 @@ msgid "Subservice list..."
 msgstr "Liste der Unterkanäle..."
 
 msgid "Subservice mode (GREEN button)"
-msgstr ""
+msgstr "Unterkanal-Modus (Taste GRÜN)"
 
 #
 msgid "Subservices"
@@ -19018,7 +19022,7 @@ msgid "Swimming"
 msgstr "Schwimmen"
 
 msgid "Switch BLUE short (QuickMenu) with BLUE long (Extensions)"
-msgstr ""
+msgstr "BLAU kurz (Schnellstartmenü) mit BLAU lang (Erweiterungen) tauschen."
 
 msgid "Switch EPG Page Down"
 msgstr "EPG-Seite nach unten wechseln"
@@ -19852,7 +19856,7 @@ msgid "This allows you to show picons modules in downloads"
 msgstr "Senderlogos (Picons) falls vorhanden im Downloadbereich anzeigen."
 
 msgid "This allows you to show OpenPLi modules in downloads"
-msgstr ""
+msgstr "PLI-Erweiterungen im Downloadbereich anzeigen."
 
 msgid "This allows you to show security modules in downloads"
 msgstr "Sicherheitserweiterungen im Downloadbereich anzeigen."
@@ -19867,10 +19871,10 @@ msgid "This allows you to show softcams modules in downloads"
 msgstr "Softcams im Downloadbereich anzeigen."
 
 msgid "This allows you to show system plugin modules in downloads"
-msgstr ""
+msgstr "Systemplugins im Downloadbereich anzeigen."
 
 msgid "This allows you to show OpenViX modules in downloads"
-msgstr ""
+msgstr "VIX-Erweiterungen im Downloadbereich anzeigen."
 
 msgid "This allows you to show weblinks modules in downloads"
 msgstr "Weblinks im Downloadbereich anzeigen."
@@ -19930,7 +19934,7 @@ msgid "This option allows you can force the HLG Modes for UHD"
 msgstr "Die HLG-Modi für UHD erzwingen."
 
 msgid "This option allows you choose how to display elapsed time as + or -"
-msgstr ""
+msgstr "Bei 'Ja' wird die verstrichene Zeit mit '+', ansonsten mit '-' angezeigt."
 
 msgid "This option allows you choose how to display remaining time, or elapsed time, or both."
 msgstr "Die Anzeige der verbleibenden/verstrichenen Zeit bei Live-TV einstellen."
@@ -19977,8 +19981,9 @@ msgstr "Den Grünanteil des Bildes verstärken."
 msgid "This option allows you to bypass HDMI EDID check"
 msgstr "Bei 'Ja' wird die HDMI-EDID-Überprüfung übersprungen."
 
+# A/V Settings
 msgid "This option allows you to change the virtual loudspeaker position."
-msgstr ""
+msgstr "Die virtuelle Position der Lautsprecher ändern."
 
 msgid "This option allows you to choose from the two channel lists that are available."
 msgstr "Das Aussehen der verfügbaren Senderlisten einstellen."
@@ -20091,7 +20096,7 @@ msgid "This option lets you choose the 3D mode"
 msgstr "Den 3D-Modus aktivieren."
 
 msgid "This option lets you show the option in the extension screen."
-msgstr ""
+msgstr "Die Option unter Erweiterungen anzeigen."
 
 msgid "This option moves the PVR status from the separate window into the MoviePlayer infobar."
 msgstr "Bei 'Ja' wird der PVR-Status aus einem separaten Fenster in die Infoleiste des Movieplayers verschoben."
@@ -20448,13 +20453,13 @@ msgid "Timeshift"
 msgstr "Timeshift"
 
 msgid "Timeshift buffer delete after zap"
-msgstr ""
+msgstr "Timeshift-Puffer beim Umschalten löschen?"
 
 msgid "Timeshift buffer limit [in hours]"
 msgstr "Timeshift zwischenspeichern (in Stunden)"
 
 msgid "Timeshift checking for free space"
-msgstr ""
+msgstr "Timeshift-Überprüfung auf freien Speicherplatz?"
 
 msgid "Timeshift checking for older files [in minutes]"
 msgstr "Timeshift-Überprüfung auf ältere Dateien (in Minuten)"
@@ -21138,7 +21143,7 @@ msgid "Up/Down button mode"
 msgstr "Funktion der Tasten Hoch/Runter"
 
 msgid "Up/Down buttons also for 'all up/down'"
-msgstr ""
+msgstr "Tasten Hoch/Runter für 'Alle Hoch/Runter'?"
 
 #
 msgid "Update"
@@ -21465,15 +21470,16 @@ msgstr "Diese Einstellungen für die Bildoptimierung verwenden?"
 msgid "Use time jumps for fast forward/backward"
 msgstr "Zeitsprünge für schnellen Vorlauf/Rücklauf ('>>'/'<<') benutzen"
 
+# Timeshift Einstellungen
 msgid "Use timeshift seekbar while timeshifting"
-msgstr ""
+msgstr "Timeshift-Suchleiste bei Timeshift verwenden *"
 
 #
 msgid "Use trash can in movie list"
 msgstr "Papierkorb in der Filmauswahl verwenden"
 
 msgid "Use workaround for wakeup from deep-standby"
-msgstr ""
+msgstr "Workaround für das Aufwachen aus dem Deep-Standby"
 
 msgid "Used"
 msgstr "Benutzt"
@@ -21625,10 +21631,10 @@ msgid "Vertical EPG"
 msgstr "Vertikaler EPG"
 
 msgid "Vertical alignment for the event-progress."
-msgstr ""
+msgstr "Vertikale Ausrichtung des Sendungsfortschrittes."
 
 msgid "Vertical alignment for the service number."
-msgstr ""
+msgstr "Vertikale Ausrichtung der Sendernummer."
 
 # satconfig.py
 msgid "Vertical turning speed"
@@ -22221,10 +22227,11 @@ msgid "When enabled, Enigma2 will load unlinked bouquets. This means that bouque
 msgstr "Bei 'Ja' werden alle vorhandenen Favoritenlisten geladen, auch wenn sie nicht in 'bouquets.tv' oder 'bouquets.radio' enthalten sind. Dies ermöglicht Ihnen z.B. Ihre eigenen Favoritenlisten zu erhalten, während die Einstellungen aktualisiert werden."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
-msgstr ""
+msgstr "Bei 'Ja' wird eine Info angezeigt sobald ein Film beendet ist und der nächste beginnt."
 
+#
 msgid "When enabled, a pop up message will be shown when a recording starts."
-msgstr ""
+msgstr "Bei 'Ja' wird eine Info angezeigt sobald eine Aufnahme startet."
 
 msgid "When enabled, a recording is allowed to abort picture-in-picture mode, when there are no free tuners."
 msgstr "Bei 'Ja' darf eine Aufnahme das Bild im Bild unterbrechen, falls kein freier Tuner zur Verfügung steht."
@@ -22238,7 +22245,7 @@ msgid "When enabled, a recording is allowed to abort streaming, when there are n
 msgstr "Bei 'Ja' darf eine Aufnahme das Streaming unterbrechen, falls kein freier Tuner zur Verfügung steht."
 
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
-msgstr ""
+msgstr "Bei 'Ja' darf eine Aufnahme das Live-TV unterbrechen, falls kein freier Tuner zur Verfügung steht."
 
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
 msgstr "Bei 'Ja' wird eine Warnung angezeigt und Sie können Timeshift stoppen oder fortführen."
@@ -22250,7 +22257,7 @@ msgid "When enabled, authentication is required to watch http streams."
 msgstr "Bei 'Ja' ist eine Authentifizierung erforderlich, um HTTP-Streams anzusehen."
 
 msgid "When enabled, before opkg update there will be opkg clean to make sure nothing ruins the update but only enable this when you can not update online."
-msgstr ""
+msgstr "Wenn diese Option aktiviert ist, wird vor der Aktualisierung eine Bereinigung durchgeführt, um sicherzustellen, dass nichts die Aktualisierung ruiniert. Bitte nur aktivieren, wenn es Probleme beim Online-Update gibt."
 
 msgid "When enabled, channel numbering will start at '1' for each bouquet."
 msgstr "Bei 'Ja' fangen die Sendernummern in jeder Favoritenliste mit '1' an."
@@ -22450,7 +22457,7 @@ msgid "With this option set to 'yes' the channel lists will always show you the 
 msgstr "Bei 'Ja' wird bei Aufruf der Senderliste stattdessen die Favoritenliste gezeigt, bei 'Nein' die aktuelle Senderliste geöffnet."
 
 msgid "With this option you can hide Job Tasks from the extension screen (BLUE button press)."
-msgstr ""
+msgstr "Bei 'Ja' werden noch im Hintergrund laufende Aktionen (Jobs) im Erweiterungsmenü (Taste BLAU lang oder kurz, je nach Einstellung) angezeigt."
 
 msgid "With this option you can switch off the display during operation."
 msgstr "Das Display während des Betriebs ausschalten."
@@ -22540,10 +22547,10 @@ msgid "Yellow DVB subtitles"
 msgstr "DVB-Untertitel in gelb"
 
 msgid "YELLOW button"
-msgstr ""
+msgstr "Taste GELB"
 
 msgid "YELLOW long"
-msgstr ""
+msgstr "GELB lang"
 
 msgid "Yemen"
 msgstr "Jemen"
@@ -25079,195 +25086,11 @@ msgstr "Umschalten"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Action on long powerbutton press"
-#~ msgstr "Aktion bei langem Drücken der Ausschalttaste"
+msgid "Password changed."
+msgstr "Passwort geändert."
 
-#
-#~ msgid "Action on short powerbutton press"
-#~ msgstr "Aktion bei kurzem Drücken der Ausschalttaste"
-
-#~ msgid "Allows you to show/hide Log Manager in extensions (blue button)."
-#~ msgstr "Die Logverwaltung unter Erweiterungen (Taste BLAU) anzeigen oder verstecken."
-
-#~ msgid "Automatically update Client/Server View?"
-#~ msgstr "Client-/Server-Ansicht automatisch aktualisieren?"
-
-#~ msgid "Blue button"
-#~ msgstr "Taste BLAU"
-
-#~ msgid "Blue long"
-#~ msgstr "BLAU lang"
-
-#~ msgid "BlueSwitch: Blue-Short/Blue-Long"
-#~ msgstr "Funktion der Taste BLAU kurz/lang"
-
-#
-#~ msgid "Channel +/-"
-#~ msgstr "Kanal +/-"
-
-#~ msgid "Choose the location for crash and debuglogs."
-#~ msgstr "Wählen Sie den Speicherort für Crash- und Debuglogs."
-
-#~ msgid "Configure an additional delay to improve external subtitle synchronisation."
-#~ msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der externen Untertitel zu verbessern."
-
-#~ msgid "Configure an additional delay to improve subtitle synchronisation."
-#~ msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der Untertitel zu verbessern."
-
-# 5.1 Version
-#~ msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can remain on the current service or already select up/down and you are able to revert the B+/B- buttons."
-#~ msgstr ""
-#~ "Position des Cursors beim Öffnen der Senderliste festlegen.\n"
-#~ "Auf dem laufenden Sender, oder, bei 'Standard', einen Eintrag darüber oder darunter positionieren.\n"
-#~ "Außerdem kann die Belegung der Tasten P+/CH+ und P-/CH- getauscht werden."
-
-# data/setup.xml
-#~ msgid "Crash at skin error for debug reasons ?"
-#~ msgstr "Auch bei Skin-Fehlern abstürzen?"
-
-# Subtitle neu 5.1  colorisation = colorization
-#~ msgid "External subtitle dialog colorisation"
-#~ msgstr "Farbige Dialoge bei externen Untertiteln"
-
-#~ msgid "Green button"
-#~ msgstr "Taste GRÜN"
-
-#~ msgid "Green long"
-#~ msgstr "GRÜN lang"
-
-#~ msgid "Limit the characters that can be used in recording filenames to (7 bit) ascii. This ensures compatibility with operating systems or file systems with limited character sets."
-#~ msgstr "Bei 'Ja' werden die Zeichen, die in Aufnahme-Dateinamen (7 Bit ASCII) verwendet werden können, begrenzt. Dies gewährleistet die Kompatibilität mit Betriebssystemen oder Dateisystemen mit begrenztem Zeichenvorrat."
-
-# data/setup.xml
-#~ msgid "Log python stack trace on spinner ?"
-#~ msgstr "Bei Spinner Python-Stack-Trace loggen?"
-
-#~ msgid "Maximum no of days:"
-#~ msgstr "Maximale Anzahl von Tagen:"
-
-#~ msgid "Maximum space used (MB):"
-#~ msgstr "Maximale Speicherplatznutzung (MB):"
-
-#~ msgid "Pressing the panic button will zap you to this channelnumber in your first bouquet."
-#~ msgstr "Die Sendernummer (in Ihrer ersten Favoritenliste) einstellen, zu der beim Drücken der Taste umgeschaltet wird, die als PANIK Taste definiert ist."
-
-#~ msgid "Radio"
-#~ msgstr "Radio"
-
-#~ msgid "Radio long"
-#~ msgstr "Radio lang"
-
-#~ msgid "Red button"
-#~ msgstr "Taste ROT"
-
-#~ msgid "Red long"
-#~ msgstr "ROT lang"
-
-#~ msgid "Repeat the standby commands?"
-#~ msgstr "Auch die Standby-Befehle wiederholen?"
-
-#~ msgid "Select how to activate the Quick EPG mode:"
-#~ msgstr "Wählen Sie, wie der grafische Infoleisten-EPG aufgerufen werden soll."
-
-#~ msgid "Select what you want the Channel +/- button to activate:"
-#~ msgstr "Wählen Sie, was die Tasten P+/CH+ und P-/CH- bewirken sollen."
-
-#~ msgid "Select what you want the EPG button to activate:"
-#~ msgstr "Wählen Sie, was die Taste EPG bewirken soll."
-
-#~ msgid "Select what you want the INFO button to activate:"
-#~ msgstr "Wählen Sie, was die Taste INFO (HELP bei manchen Receivern) bewirken soll."
-
-#~ msgid "Select what you want the OK button to activate:"
-#~ msgstr "Wählen Sie, was die Taste OK bewirken soll."
-
-#~ msgid "Select what you want the TV button to activate:"
-#~ msgstr "Wählen Sie, was die Taste TV bewirken soll."
-
-#~ msgid "Select what you want the Up/Down button to activate:"
-#~ msgstr "Wählen Sie, was die Tasten Hoch/Runter bewirken sollen."
-
-# crashlog
-#~ msgid "Show Log Manager in extensions list ?"
-#~ msgstr "Logverwaltung in Erweiterungen anzeigen?"
-
-#~ msgid "Show in extensions list ?"
-#~ msgstr "Im Erweiterungsmenü anzeigen?"
-
-#~ msgid "Stop timeshift while recording?"
-#~ msgstr "Timeshift während Aufnahme beenden"
-
-#~ msgid "Stop's timeshift being used if a recording is in progress. (advisable for usb sticks)"
-#~ msgstr "Beendet Timeshift, wenn eine Aufnahme läuft. Ratsam bei der Verwendung eines USB-Sticks."
-
-#~ msgid "Subservice mode (green Button)"
-#~ msgstr "Unterkanal-Modus (Taste GRÜN)"
-
-#~ msgid "Switch Blue-Short (QuickMenu) with Blue-Long (Extensions)"
-#~ msgstr "BLAU kurz (Schnellstartmenü) mit BLAU lang (Erweiterungen) tauschen."
-
-#~ msgid "This allows you to show pli modules in downloads"
-#~ msgstr "PLI-Erweiterungen im Downloadbereich anzeigen."
-
-#~ msgid "This allows you to show systemplugins modules in downloads"
-#~ msgstr "Systemplugins im Downloadbereich anzeigen."
-
-#~ msgid "This allows you to show vix modules in downloads"
-#~ msgstr "VIX-Erweiterungen im Downloadbereich anzeigen."
-
-#~ msgid "This option allows you choose how to display elapsed time  as + or -"
-#~ msgstr "Bei 'Ja' wird die verstrichene Zeit mit '+', ansonsten mit '-' angezeigt."
-
-# A/V Settings
-#~ msgid "This option allows you to change the virtuell loadspeaker position."
-#~ msgstr "Die virtuelle Position der Lautsprecher ändern."
-
-#~ msgid "This option lets you show the option in the extension screen"
-#~ msgstr "Die Option unter Erweiterungen anzeigen."
-
-#~ msgid "Timeshift buffer delete after zap?"
-#~ msgstr "Timeshift-Puffer beim Umschalten löschen?"
-
-#~ msgid "Timeshift checking for free space?"
-#~ msgstr "Timeshift-Überprüfung auf freien Speicherplatz?"
-
-#~ msgid "Up/Down buttons also for 'all up/down'?"
-#~ msgstr "Tasten Hoch/Runter für 'Alle Hoch/Runter'?"
-
-# Timeshift Einstellungen
-#~ msgid "Use timeshift seekbar while timeshifting?"
-#~ msgstr "Timeshift-Suchleiste bei Timeshift verwenden *"
-
-#~ msgid "Use workaround for wakeup from deep-standby?"
-#~ msgstr "Workaround für das Aufwachen aus dem Deep-Standby"
-
-#~ msgid "Vertical alignement for the event-progress."
-#~ msgstr "Vertikale Ausrichtung des Sendungsfortschrittes."
-
-#~ msgid "Vertical alignement for the service number."
-#~ msgstr "Vertikale Ausrichtung der Sendernummer."
-
-#~ msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
-#~ msgstr "Bei 'Ja' wird eine Info angezeigt sobald ein Film beendet ist und der nächste beginnt."
-
-#
-#~ msgid "When enabled, a popup message will be shown when a recording starts."
-#~ msgstr "Bei 'Ja' wird eine Info angezeigt sobald eine Aufnahme startet."
-
-#~ msgid "When enabled, a recording is allowed to interrupt live tv, when there are no free tuners."
-#~ msgstr "Bei 'Ja' darf eine Aufnahme das Live-TV unterbrechen, falls kein freier Tuner zur Verfügung steht."
-
-#~ msgid "When enabled, before opkg update there will be opkg clean to make sure nothing ruine the update but only enable this when you can not update online."
-#~ msgstr "Wenn diese Option aktiviert ist, wird vor der Aktualisierung eine Bereinigung durchgeführt, um sicherzustellen, dass nichts die Aktualisierung ruiniert. Bitte nur aktivieren, wenn es Probleme beim Online-Update gibt."
-
-#~ msgid "With this option you can hide Job Tasks from the extension screen (short blue button press)."
-#~ msgstr "Bei 'Ja' werden noch im Hintergrund laufende Aktionen (Jobs) im Erweiterungsmenü (Taste BLAU lang oder kurz, je nach Einstellung) angezeigt."
-
-#~ msgid "Yellow button"
-#~ msgstr "Taste GELB"
-
-#~ msgid "Yellow long"
-#~ msgstr "GELB lang"
+msgid "Random Password"
+msgstr "Zufallspasswort"
 
 #~ msgid "The password can not be blank."
 #~ msgstr "Das Passwort darf nicht leer sein!"
@@ -25743,29 +25566,29 @@ msgstr "®"
 #~ msgid "RAM"
 #~ msgstr "RAM"
 
-#~ msgid "Select Red-key action"
+#~ msgid "Select RED action"
 #~ msgstr "Funktion der Taste ROT"
 
 #
-#~ msgid "Select Red-key action long"
+#~ msgid "Select RED long action"
 #~ msgstr "Funktion der Taste ROT lang"
 
-#~ msgid "Select Yellow Key Action"
+#~ msgid "Select YELLOW action"
 #~ msgstr "Funktion der Taste GELB"
 
-#~ msgid "Select Yellow Key Action long"
+#~ msgid "Select YELLOW long action"
 #~ msgstr "Funktion der Taste GELB lang"
 
-#~ msgid "Select what you want the RED button to activate:"
+#~ msgid "Select what you want the RED button to activate."
 #~ msgstr "Wählen Sie, was die Taste ROT bewirken soll."
 
-#~ msgid "Select what you want the RED-Long button to activate:"
+#~ msgid "Select what you want the RED long button to activate."
 #~ msgstr "Wählen Sie, was die Taste ROT lang bewirken soll."
 
-#~ msgid "Select what you want the YELLOW button to activate:"
+#~ msgid "Select what you want the YELLOW button to activate."
 #~ msgstr "Wählen Sie, was die Taste GELB bewirken soll."
 
-#~ msgid "Select what you want the YELLOW-Long button to activate:"
+#~ msgid "Select what you want the YELLOW long button to activate."
 #~ msgstr "Wählen Sie, was die Taste GELB lang bewirken soll."
 
 #, python-format
