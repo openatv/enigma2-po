@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-01 14:08+0000\n"
-"PO-Revision-Date: 2022-04-20 06:30+0000\n"
+"PO-Revision-Date: 2022-05-02 16:50+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
 "Language: ru\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 "X-Poedit-SourceCharset: iso-8859-5\n"
 
 msgid ""
@@ -2415,7 +2415,7 @@ msgid "Add a record timer for current event"
 msgstr "Добавить таймер записи для данной передачи"
 
 msgid "Add a service to the Volume Offsets list"
-msgstr ""
+msgstr "Добавить канал в список отключения громкости"
 
 msgid "Add a timer for the current event"
 msgstr "Добавить таймер для текущего события"
@@ -2475,7 +2475,7 @@ msgid "Add service"
 msgstr "Добавить канал"
 
 msgid "Add the current service to the Volume Offsets list"
-msgstr ""
+msgstr "Добавить текущий канал в список отключения громкости"
 
 msgid "Add timer"
 msgstr "Добавить таймер"
@@ -4084,7 +4084,7 @@ msgid "Cancel selection"
 msgstr "Отменить выбор"
 
 msgid "Cancel the service selection"
-msgstr ""
+msgstr "Отменить выбор канала"
 
 msgid "Cancel the slot selection and exit"
 msgstr "Отменить выбор слота и выйти"
@@ -5469,7 +5469,7 @@ msgid "Current version:"
 msgstr "Текущая версия"
 
 msgid "Currently Defined Volume Offsets:"
-msgstr ""
+msgstr "Текущие настройки отключения звука:"
 
 msgid "Custom"
 msgstr "Пользовательские"
@@ -5816,7 +5816,7 @@ msgid "Default CPU priority (nice) for executed scripts. This can reduce the loa
 msgstr "Приоритет ЦП по умолчанию (nice) для выполняемых скриптов. Это позволяет снизить нагрузку, чтобы скрипты не мешали работе остальной системы. (Более высокие значения = более низкий приоритет)"
 
 msgid "Default Dolby Digital / Dolby AC-3 offset"
-msgstr ""
+msgstr "По умолчанию Dolby Digital / Dolby AC-3 отключено"
 
 msgid "Default Folder"
 msgstr "Папка по умолчанию"
@@ -5867,7 +5867,7 @@ msgid "Default sorting method for files on the right side."
 msgstr "Метод сортировки по умолчанию для файлов с правой стороны."
 
 msgid "Default volume offset"
-msgstr ""
+msgstr "Громкость по умолчанию выключена"
 
 #, python-format
 msgid "Default: '%s'."
@@ -6059,7 +6059,7 @@ msgid "Delete the currently displayed log file"
 msgstr "Удалить текущий отображаемый файл журнала"
 
 msgid "Delete the currently highlighted service from the Volume Offsets list"
-msgstr ""
+msgstr "Удалить текущую выделенный канал из списка наборов выключения громкости"
 
 msgid "Delete the selected files or directories"
 msgstr "Удалить выбранные файлы или каталоги"
@@ -7014,7 +7014,7 @@ msgid "Enable CIHelper for SLOT CI1"
 msgstr "Включить CIHelper для SLOT CI1"
 
 msgid "Enable Dolby Digital / Dolby AC-3 offsets"
-msgstr ""
+msgstr "Включить отключение Dolby Digital / Dolby AC-3"
 
 msgid "Enable EIT EPG"
 msgstr "Включить ТВ-гид EIT"
@@ -15066,7 +15066,7 @@ msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select '
 msgstr "Выберите 'A' или 'B', если этого требует Ваша антенная система, в противном случае выберите 'нет'. Если Вы не уверены, выберите 'нет'."
 
 msgid "Select 'Yes' if volume adjustments should be applied to Dolby sound tracks."
-msgstr ""
+msgstr "Выберите 'ДА', если к звуковым дорожкам Dolby следует применить регулировки громкости."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Выберите 'Да', чтобы разрешить редактирование настроек этого устройства. Выбор 'Нет' сбрасывает настройки устройств до значений по умолчанию."
@@ -15346,7 +15346,7 @@ msgid "Select the currently highlighted locale/language for the user interface"
 msgstr "Выберите текущую выделенную локаль/язык для пользовательского интерфейса"
 
 msgid "Select the currently highlighted service"
-msgstr ""
+msgstr "Выберите текущий выделенный канал"
 
 msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
 msgstr "Выберите желаемую функцию и нажмите 'ОК', чтобы назначить её. Используйте 'CH +/-' для переключения между списками. Выберите назначенную функцию и нажмите 'ОК', чтобы отменить её назначение. Используйте 'Далее/Назад', чтобы изменить порядок назначенных функций."
@@ -15615,15 +15615,15 @@ msgstr "Каналы и PID"
 
 #, python-format
 msgid "Service '%s' added."
-msgstr ""
+msgstr "Добавлен канал '%s'."
 
 #, python-format
 msgid "Service '%s' deleted."
-msgstr ""
+msgstr "Канал '%s' удалён."
 
 #, python-format
 msgid "Service '%s' is already defined."
-msgstr ""
+msgstr "Канал '%s' уже определён."
 
 msgid "Service ID"
 msgstr "ID канала"
@@ -15724,7 +15724,7 @@ msgid "Service scan"
 msgstr "Поиск каналов"
 
 msgid "Service selection canceled."
-msgstr ""
+msgstr "Выбор канала отменён."
 
 msgid ""
 "Service unavailable!\n"
@@ -15880,7 +15880,7 @@ msgstr "Установите тип отображения прогресса в
 
 #, python-format
 msgid "Set the volume offset for the '%s' service."
-msgstr ""
+msgstr "Отключить громкость для канала '%s'."
 
 msgid "Set to the desired primetime (hour)."
 msgstr "Выберите нужный прайм-тайм (вчасах)."
@@ -17833,10 +17833,10 @@ msgid "Switch to radio mode"
 msgstr "Переключить на режим Радио"
 
 msgid "Switch to the available RADIO services"
-msgstr ""
+msgstr "Переключиться на доступные каналы РАДИО"
 
 msgid "Switch to the available TV services"
-msgstr ""
+msgstr "Переключиться на доступные каналы ТВ"
 
 msgid "Switchable tuner types:"
 msgstr "Переключаемые типы тюнеров"
@@ -17929,7 +17929,7 @@ msgid "TEXT"
 msgstr "ТЕКСТ"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Коррекция перевода Monja 20.04.2022"
+msgstr "Коррекция перевода Monja 02.05.2022"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл слишком большой для ISO9660 уровень 1!"
@@ -18560,7 +18560,7 @@ msgid "This is the currently selected locale.  [%s]"
 msgstr "Это текущая выбранная локаль.  [%s]"
 
 msgid "This is the initial / default volume offset applied to any services added the the volume adjust list."
-msgstr ""
+msgstr "Это начальный/по умолчанию набор отключения громкости, применяемый к любым каналам, добавленным в список регулировки громкости."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Это порядок, в котором команды DiSEqC отправляются в воздушную систему. Порядок должен точно соответствовать порядку расположения физических устройств вдоль сигнального кабеля (начиная со стороны ресивера)."
@@ -18569,7 +18569,7 @@ msgid "This line is not editable!"
 msgstr "Эта линия не редактируется!"
 
 msgid "This offset will only be used if the channel does not have its own volume offset."
-msgstr ""
+msgstr "Это смещение будет использовано только в том случае, если канал не имеет собственного набора выключения громкости."
 
 msgid "This option allows to reduce the block-noise in the picture. Obviously this is at the cost of the picture's sharpness."
 msgstr "Опция служит для снижения шумов на картинке. Это происходит за счёт резкости изображения."
@@ -20340,13 +20340,13 @@ msgid "Volume Adjust"
 msgstr "Регулировка громкости"
 
 msgid "Volume Adjust Actions"
-msgstr ""
+msgstr "Действия по регулировке громкости"
 
 msgid "Volume Adjust Service Selection"
-msgstr ""
+msgstr "Выбор канала регулировки громкости"
 
 msgid "Volume Adjust Settings"
-msgstr ""
+msgstr "Настройки регулировки громкости"
 
 msgid "Volume down"
 msgstr "Громкость ниже"
