@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-26 21:02+0000\n"
+"POT-Creation-Date: 2022-05-28 18:39+0000\n"
 "PO-Revision-Date: 2021-11-14 06:52+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -2328,6 +2328,9 @@ msgstr "AFP"
 msgid "AFP"
 msgstr "AFP"
 
+msgid "AFP Actions"
+msgstr ""
+
 msgid "AFP Settings"
 msgstr "AFP Kurulumu"
 
@@ -2434,15 +2437,15 @@ msgstr "Resim içinde resim (PIP) etkinleştir"
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
-#
-msgid "Activate current configuration"
-msgstr "Geçerli yapılandırmayı etkinleştir"
-
 msgid "Activate left-hand file list as multi-select source"
 msgstr "Sol taraftaki dosya listesini çoklu seçim kaynağı olarak etkinleştir"
 
 msgid "Activate left-hand file list as source"
 msgstr "Sol taraftaki dosya listesini kaynak olarak etkinleştir"
+
+#
+msgid "Activate network adapter configuration"
+msgstr "ağ adaptör yapılandırmasını etkinleştir"
 
 #
 msgid "Activate network settings"
@@ -2995,8 +2998,7 @@ msgstr "Bu girişi kaldırmak istediğinizden emin misiniz?"
 
 #
 msgid "Are you sure you want to activate this network configuration?"
-msgstr ""
-"Bu ağ yapılandırmasını etkinleştirmek istiyor musunuz?"
+msgstr "Bu ağ yapılandırmasını etkinleştirmek istiyor musunuz?"
 
 msgid ""
 "Are you sure you want to delete\n"
@@ -3029,8 +3031,7 @@ msgstr "EPG bilgisini buradan yeniden yüklemek istediğinizden emin misiniz:\n"
 
 #
 msgid "Are you sure you want to restart your network interfaces?"
-msgstr ""
-"Ağ arayüzlerini yeniden başlatmak istiyor musunuz?"
+msgstr "Ağ arayüzlerini yeniden başlatmak istiyor musunuz?"
 
 #, python-format
 msgid ""
@@ -8034,8 +8035,11 @@ msgid "Exit movie player?"
 msgstr "Film oynatıcıdan çıkılsın mı?"
 
 #
-msgid "Exit nameserver configuration"
-msgstr "Ad sunucu yapılandırmasından çık"
+msgid "Exit network adapter configuration"
+msgstr "ağ donanımı yapılandırmasından çık"
+
+msgid "Exit network adapter setup menu"
+msgstr ""
 
 #
 msgid "Exit network interface list"
@@ -8217,6 +8221,9 @@ msgstr "FTA"
 
 msgid "FTP"
 msgstr "FTP"
+
+msgid "FTP Actions"
+msgstr ""
 
 msgid "FTP Settings"
 msgstr "FTP Kurulum"
@@ -9793,8 +9800,14 @@ msgstr "Etkisiz"
 msgid "Inadyn"
 msgstr "Inadyn"
 
+msgid "Inadyn Actions"
+msgstr ""
+
 msgid "Inadyn Log"
 msgstr "Inadyn Günlüğü"
+
+msgid "Inadyn Setting Actions"
+msgstr ""
 
 msgid "Inadyn Settings"
 msgstr "Inadyn Kurulumu"
@@ -10976,11 +10989,14 @@ msgstr "M2k"
 msgid "MAC"
 msgstr "MAC"
 
-msgid "MAC-address"
-msgstr "MAC Adresi"
+msgid "MAC Address Actions"
+msgstr ""
 
 msgid "MAC Address Settings"
 msgstr "MAC Adresi ayarları"
+
+msgid "MAC-address"
+msgstr "MAC Adresi"
 
 msgid "MB"
 msgstr "MB"
@@ -11328,6 +11344,12 @@ msgstr "Mikronezya (Federal Devletleri)"
 msgid "Middle - Lite image"
 msgstr ""
 
+msgid "Mini DLNA Actions"
+msgstr ""
+
+msgid "Mini DLNA Setting Actions"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Mini Series"
@@ -11494,8 +11516,14 @@ msgstr "Mount etmek"
 msgid "Mount '%s' has not enough free space to record."
 msgstr "'%s' dağı kaydetmek için yeterli boş alana sahip değil."
 
+msgid "Mount Actions"
+msgstr ""
+
 msgid "Mount Manager"
 msgstr "Mount Manager"
+
+msgid "Mount Settings"
+msgstr ""
 
 msgid "Mount Setup"
 msgstr "Mount kurulum"
@@ -11863,6 +11891,9 @@ msgstr "SONRA"
 msgid "NFS"
 msgstr "NFS"
 
+msgid "NFS Actions"
+msgstr ""
+
 msgid "NFS Settings"
 msgstr "NFS Yapılandırma"
 
@@ -11963,8 +11994,17 @@ msgstr "Alt ağ maskesi"
 msgid "Network"
 msgstr "Ağ"
 
+msgid "Network Adapter Actions"
+msgstr ""
+
 msgid "Network Adapter Selection"
 msgstr "Ağ Bağdaştırıcısı Seçimi"
+
+msgid "Network Adapter Setting Actions"
+msgstr ""
+
+msgid "Network Adapter Text Actions"
+msgstr ""
 
 msgid "Network Browser"
 msgstr "Ağ Gezgini"
@@ -11980,6 +12020,9 @@ msgstr ""
 
 msgid "Network Interface"
 msgstr "Ağ Arayüzü"
+
+msgid "Network Log Actions"
+msgstr ""
 
 msgid "Network MAC settings"
 msgstr "Ağ MAC ayarları"
@@ -11999,6 +12042,9 @@ msgstr "Ağ kurulumu"
 
 msgid "Network Test"
 msgstr "Ağ Test"
+
+msgid "Network Test:"
+msgstr "Ağ testi: "
 
 msgid "Network Wizard"
 msgstr "Ağ Sihirbazı"
@@ -12031,9 +12077,6 @@ msgstr "Ağ yapılandırmasını test et"
 
 msgid "Network test..."
 msgstr "Ağ testi..."
-
-msgid "Network Test:"
-msgstr "Ağ testi: "
 
 #
 msgid "Network:"
@@ -12828,6 +12871,9 @@ msgstr ""
 
 msgid "OpenVPN"
 msgstr "OpenVPN"
+
+msgid "OpenVPN Actions"
+msgstr ""
 
 msgid "OpenVPN Settings"
 msgstr "VPN Kurulumu Aç"
@@ -15407,6 +15453,9 @@ msgstr "S-Video"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
+msgid "SABnzbd Actions"
+msgstr ""
+
 msgid "SABnzbd Settings"
 msgstr "SABnzbd Kurulumu"
 
@@ -15420,6 +15469,9 @@ msgid "SATA"
 msgstr "SATA"
 
 msgid "SATPI"
+msgstr ""
+
+msgid "SATPI Setting Actions"
 msgstr ""
 
 #, fuzzy
@@ -15506,6 +15558,9 @@ msgstr "Saint Vincent ve Grenadinler"
 
 msgid "Samba"
 msgstr "Samba"
+
+msgid "Samba Actions"
+msgstr ""
 
 msgid "Samba Log"
 msgstr "Samba Günlüğü"
@@ -15992,6 +16047,9 @@ msgstr "Enigma2 Skin'i seçin"
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
 msgstr "Anten sisteminiz destekliyorsa Hızlı DiSEqC seçeneğini seçin. Emin değilseniz 'hayır' seçeneğini seçin."
 
+msgid "Select Folders"
+msgstr "Klasörleri seçin"
+
 msgid "Select HDD"
 msgstr "HDD Seç"
 
@@ -16095,9 +16153,6 @@ msgstr "Yedeklemeden hariç tutulacak dosyaları seçin"
 msgid "Select files/folders to backup"
 msgstr "Yedeklenecek dosya/klasörleri seç"
 
-msgid "Select Folders"
-msgstr "Klasörleri seçin"
-
 msgid "Select how quickly the dish should move between satellites."
 msgstr "Çanağın uydular arasında ne kadar hızlı hareket etmesi gerektiğini seçin."
 
@@ -16128,6 +16183,9 @@ msgstr "Giriş aygıtı seçin."
 #
 msgid "Select interface"
 msgstr "Arayüz seçin"
+
+msgid "Select menu entry"
+msgstr ""
 
 #
 msgid "Select movie"
@@ -16651,9 +16709,6 @@ msgstr "Mevcut servislerin tespiti için CI atamasını ayarlayın."
 msgid "Set Framerate for MiniTV"
 msgstr "MiniTV için Framerate ayarlayın"
 
-msgid "Set system"
-msgstr "Sistemi ayarla"
-
 msgid "Set action for 'Info' key"
 msgstr "'Bilgi' tuşu için eylemi ayarla"
 
@@ -16696,6 +16751,9 @@ msgstr "Anten sisteminiz bunu gerektiriyorsa, dizi sırasını tekrarlayın. Nor
 
 msgid "Set startup service"
 msgstr "Başlangıç ​​servisini ayarla"
+
+msgid "Set system"
+msgstr "Sistemi ayarla"
 
 #
 #, python-format
@@ -19128,6 +19186,9 @@ msgstr "Teletext altyazı rengi"
 msgid "Telnet"
 msgstr "Telnet"
 
+msgid "Telnet Actions"
+msgstr ""
+
 msgid "Telnet Interface"
 msgstr "Telnet Arayüzü"
 
@@ -20006,9 +20067,6 @@ msgstr "Zaman ayarları"
 msgid "Time Setup Actions"
 msgstr ""
 
-msgid "Time update in minutes"
-msgstr "Zaman güncelle Dakika"
-
 msgid "Time Update in Minutes:"
 msgstr "Zaman güncelle Dakika:"
 
@@ -20068,6 +20126,9 @@ msgstr "Zaman tarzı"
 
 msgid "Time to execute command or script"
 msgstr "Komut veya senaryoyu uygulama zamanı"
+
+msgid "Time update in minutes"
+msgstr "Zaman güncelle Dakika"
 
 msgid "Time window for detection of the wakeup by a timer [mins]"
 msgstr "Bir zamanlayıcı tarafından uyanmanın tespiti için zaman penceresi [dak.]"
@@ -21110,9 +21171,8 @@ msgstr "Genişletilmiş Listeyi kullan"
 msgid "Use the network wizard to configure selected network adapter"
 msgstr "Seçili ağ aygıtını yapılandırmak için ağ sihirbazını kullan"
 
-#
-msgid "Use the network wizard to configure your Network"
-msgstr "Ağınızı yapılandırmak için Ağ sihirbazını kullanın\n"
+msgid "Use the network wizard to configure your Network."
+msgstr ""
 
 #
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
@@ -22513,6 +22573,18 @@ msgstr ""
 "Servisin kaldırılmasından sonra %s %s nız tekrar başlatılacaktır\n"
 "Şimdi kaldırmak istiyor musunuz ?"
 
+#, python-format
+msgid ""
+"Your %s %s will be restarted after the removal of service\n"
+"Do you want to remove now?"
+msgstr ""
+
+#, python-format
+msgid ""
+"Your %s %s will be restarted after the removal of service.\n"
+"Do you want to remove now?"
+msgstr ""
+
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr "Donanımınız ci modunu algılayabilir veya yalnızca eski modda çalışabilir."
 
@@ -22812,10 +22884,6 @@ msgstr "favori düzenlemeden vazgeç"
 
 msgid "ac3"
 msgstr ""
-
-#
-msgid "Activate network adapter configuration"
-msgstr "ağ adaptör yapılandırmasını etkinleştir"
 
 msgid "activatePiP"
 msgstr "pip'yi etkinleştir"
@@ -23290,10 +23358,6 @@ msgstr "dvd oynatıcıdan çıkın veya dosya tarayıcısına dönün"
 
 msgid "exit mounts setup menu"
 msgstr "bağlantı kurulum menüsünden çık"
-
-#
-msgid "Exit network adapter configuration"
-msgstr "ağ donanımı yapılandırmasından çık"
 
 #
 msgid "exit networkadapter setup menu"
@@ -24340,6 +24404,9 @@ msgstr "turbo"
 msgid "uShare"
 msgstr "uShare"
 
+msgid "uShare Actions"
+msgstr ""
+
 msgid "uShare Log"
 msgstr "uShare Günlüğü"
 
@@ -24348,6 +24415,12 @@ msgstr "uShare Adı"
 
 msgid "uShare Port"
 msgstr "uShare Kapısı"
+
+msgid "uShare Selection Actions"
+msgstr ""
+
+msgid "uShare Setting Actions"
+msgstr ""
 
 msgid "uShare Settings"
 msgstr "uShare Kurulumu"
@@ -24534,6 +24607,18 @@ msgstr "zap"
 
 msgid "®"
 msgstr ""
+
+#
+#~ msgid "Activate current configuration"
+#~ msgstr "Geçerli yapılandırmayı etkinleştir"
+
+#
+#~ msgid "Exit nameserver configuration"
+#~ msgstr "Ad sunucu yapılandırmasından çık"
+
+#
+#~ msgid "Use the network wizard to configure your Network"
+#~ msgstr "Ağınızı yapılandırmak için Ağ sihirbazını kullanın\n"
 
 #~ msgid ""
 #~ "\n"
