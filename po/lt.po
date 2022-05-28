@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 18:39+0000\n"
+"POT-Creation-Date: 2022-05-26 21:02+0000\n"
 "PO-Revision-Date: 2022-05-09 10:54+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -2226,9 +2226,6 @@ msgstr "AFL"
 msgid "AFP"
 msgstr "AFP"
 
-msgid "AFP Actions"
-msgstr ""
-
 msgid "AFP Settings"
 msgstr "AFP parametrai"
 
@@ -2324,14 +2321,14 @@ msgstr "Įjungti vaizdą vaizde"
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr "Suaktyvinkite būdą, kaip siųsti individualias arba specifines vidines HDMI-CEC komandas iš komandinės eilutės. Įveskite komandinę eilutę 'echo help > %s' ir tada trumpai perskaitykite failą '%s'."
 
+msgid "Activate current configuration"
+msgstr "Aktyvuokite šią konfigūraciją"
+
 msgid "Activate left-hand file list as multi-select source"
 msgstr "Aktyvuokite kairiojo rinkmenos sąrašą kaip kelių pasirinkimo šaltinį"
 
 msgid "Activate left-hand file list as source"
 msgstr "Aktyvuokite kairiojo failo sąrašą kaip šaltinį"
-
-msgid "Activate network adapter configuration"
-msgstr "aktyvuokite tinklo adapterio konfigūraciją"
 
 msgid "Activate network settings"
 msgstr "Aktyvuoti tinklo nustatymus"
@@ -2845,7 +2842,8 @@ msgid "Are you sure to remove this entry?"
 msgstr "Ar tikrai norite pašalinti šį įrašą?"
 
 msgid "Are you sure you want to activate this network configuration?"
-msgstr "Ar tikrai norite aktyvuoti šią tinklo konfigūraciją?"
+msgstr ""
+"Ar tikrai norite aktyvuoti šią tinklo konfigūraciją?"
 
 msgid ""
 "Are you sure you want to delete\n"
@@ -2876,7 +2874,8 @@ msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "Ar tikrai norite iš naujo įkelti EPG duomenis iš:\n"
 
 msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Ar tikrai norite savo tinklo sąsajas paleisti iš naujo?"
+msgstr ""
+"Ar tikrai norite savo tinklo sąsajas paleisti iš naujo?"
 
 #, python-format
 msgid ""
@@ -6830,11 +6829,11 @@ msgstr "Redaguoti nustatymus"
 
 #, python-format
 msgid "Edit the DNS configuration of your %s %s."
-msgstr "Redaguoti %s %s DNS serverių konfigūraciją.\n"
+msgstr "Redaguoti %s %s DNS serverių konfigūraciją."
 
 #, python-format
 msgid "Edit the network configuration of your %s %s."
-msgstr "Redaguoti %s %s tinklo konfigūraciją.\n"
+msgstr "Redaguoti %s %s tinklo konfigūraciją."
 
 msgid "Edit upgrade source url."
 msgstr "Redaguoti atnaujinimo šaltinio adresą."
@@ -7561,11 +7560,8 @@ msgstr "Užverti filmų sąrašą"
 msgid "Exit movie player?"
 msgstr "Užverti filmų grotuvą?"
 
-msgid "Exit network adapter configuration"
-msgstr "užverti tinklo adapterio konfigūravimą"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
+msgid "Exit nameserver configuration"
+msgstr "Užverti DNS serverio konfigūravimą"
 
 msgid "Exit network interface list"
 msgstr "Užverti tinklo sąsajų sąrašą"
@@ -7729,9 +7725,6 @@ msgstr "NEKODUOTA"
 
 msgid "FTP"
 msgstr "FTP"
-
-msgid "FTP Actions"
-msgstr ""
 
 msgid "FTP Settings"
 msgstr "FTP parametrai"
@@ -9201,14 +9194,8 @@ msgstr "Neaktyvus"
 msgid "Inadyn"
 msgstr "InaDyn klientas"
 
-msgid "Inadyn Actions"
-msgstr ""
-
 msgid "Inadyn Log"
 msgstr "Inadyn žurnalas"
-
-msgid "Inadyn Setting Actions"
-msgstr ""
 
 msgid "Inadyn Settings"
 msgstr "Inadyn parametrai"
@@ -10281,14 +10268,11 @@ msgstr "M2k"
 msgid "MAC"
 msgstr "MAC adresas"
 
-msgid "MAC Address Actions"
-msgstr ""
+msgid "MAC-address"
+msgstr "MAC adresas"
 
 msgid "MAC Address Settings"
 msgstr "MAC adreso nustatymai"
-
-msgid "MAC-address"
-msgstr "MAC adresas"
 
 msgid "MB"
 msgstr "MB"
@@ -10601,12 +10585,6 @@ msgstr "Mikronezijos Federacinės Valstijos"
 msgid "Middle - Lite image"
 msgstr "Vidutinis - Mažasis atvaizdas"
 
-msgid "Mini DLNA Actions"
-msgstr ""
-
-msgid "Mini DLNA Setting Actions"
-msgstr ""
-
 msgid "Mini Series"
 msgstr "Mini serijos"
 
@@ -10757,14 +10735,8 @@ msgstr "Pajungti"
 msgid "Mount '%s' has not enough free space to record."
 msgstr "Pajungtas '%s' neturi pakankamai vietos įrašymui."
 
-msgid "Mount Actions"
-msgstr ""
-
 msgid "Mount Manager"
 msgstr "Pajungimo tvarkyklė"
-
-msgid "Mount Settings"
-msgstr ""
 
 msgid "Mount Setup"
 msgstr "Pajungimo valdymas"
@@ -11080,9 +11052,6 @@ msgstr "KITAS"
 msgid "NFS"
 msgstr "NFS"
 
-msgid "NFS Actions"
-msgstr ""
-
 msgid "NFS Settings"
 msgstr "NFS parametrai"
 
@@ -11171,17 +11140,8 @@ msgstr "Potinklio kaukė"
 msgid "Network"
 msgstr "Tinklas"
 
-msgid "Network Adapter Actions"
-msgstr ""
-
 msgid "Network Adapter Selection"
 msgstr "Tinklo adapterio pasirinkimas"
-
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
-msgstr ""
 
 msgid "Network Browser"
 msgstr "Tinklo naršyklė"
@@ -11197,9 +11157,6 @@ msgstr "Tinklo informacijos veiksmai"
 
 msgid "Network Interface"
 msgstr "Tinklo sąsaja"
-
-msgid "Network Log Actions"
-msgstr ""
 
 msgid "Network MAC settings"
 msgstr "Tinklo MAC nustatymai"
@@ -11218,9 +11175,6 @@ msgstr "Tinklo parametrai"
 
 msgid "Network Test"
 msgstr "Tinklo testavimas"
-
-msgid "Network Test:"
-msgstr "Tinklo testavimas: "
 
 msgid "Network Wizard"
 msgstr "Tinklo vedlys"
@@ -11251,6 +11205,9 @@ msgstr "Tinklo testavimas"
 
 msgid "Network test..."
 msgstr "Tinklo testas..."
+
+msgid "Network Test:"
+msgstr "Tinklo testavimas: "
 
 msgid "Network:"
 msgstr "Tinklas:"
@@ -11965,9 +11922,6 @@ msgstr "OpenSSL versija"
 
 msgid "OpenVPN"
 msgstr "OpenVPN"
-
-msgid "OpenVPN Actions"
-msgstr ""
 
 msgid "OpenVPN Settings"
 msgstr "OpenVPN parametrai"
@@ -14121,7 +14075,7 @@ msgid "Restart test"
 msgstr "Kartoti testą"
 
 msgid "Restart your network connection and interfaces."
-msgstr "Paleiskite iš naujo savo tinklą ir sąsajas.\n"
+msgstr "Paleiskite iš naujo savo tinklą ir sąsajas."
 
 msgid "Restore"
 msgstr "Atkurti"
@@ -14321,9 +14275,6 @@ msgstr "S-Vaizdas"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
-msgid "SABnzbd Actions"
-msgstr ""
-
 msgid "SABnzbd Settings"
 msgstr "SABnzbd parametrai"
 
@@ -14338,9 +14289,6 @@ msgstr "SATA"
 
 msgid "SATPI"
 msgstr "SATPI"
-
-msgid "SATPI Setting Actions"
-msgstr ""
 
 msgid "SATPI Settings"
 msgstr "SATPI parametrai"
@@ -14420,9 +14368,6 @@ msgstr "Šv. Vincento ir Grenadinų salos"
 
 msgid "Samba"
 msgstr "Samba"
-
-msgid "Samba Actions"
-msgstr ""
 
 msgid "Samba Log"
 msgstr "Samba žurnalas"
@@ -14610,7 +14555,7 @@ msgid "Scan wireless networks"
 msgstr "Ieškoti belaidžių tinklų"
 
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Skenuokite savo tinklą belaidžių prieigos taškų ir junkitės prie jų naudodami jūsų išsirinktą belaidžio tinklo įrenginį.\n"
+msgstr "Skenuokite savo tinklą belaidžių prieigos taškų ir junkitės prie jų naudodami jūsų išsirinktą belaidžio tinklo įrenginį."
 
 #, python-format
 msgid "Scanning %s..."
@@ -14869,9 +14814,6 @@ msgstr "Pasirinkite Enigma2 temą"
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
 msgstr "Pasirinkite greitą DiSEqC, jei jūsų sistema palaiko tai. Jei jūs nežinote, pasirinkite 'ne'."
 
-msgid "Select Folders"
-msgstr "Pasirinkite katalogus"
-
 msgid "Select HDD"
 msgstr "Pasirinkite kietą diską"
 
@@ -14969,6 +14911,9 @@ msgstr "Pasirinkite failus, kurių neįtraukti į atsarginę kopiją"
 msgid "Select files/folders to backup"
 msgstr "Pasirinkite failus ir katalogus atsarginei kopijai"
 
+msgid "Select Folders"
+msgstr "Pasirinkite katalogus"
+
 msgid "Select how quickly the dish should move between satellites."
 msgstr "Pasirinkite, kaip greitai lėkštė turėtų judėti tarp palydovų."
 
@@ -14998,9 +14943,6 @@ msgstr "Pasirinkite įvesties įrenginį."
 
 msgid "Select interface"
 msgstr "Pasrinkite sąsają"
-
-msgid "Select menu entry"
-msgstr ""
 
 msgid "Select movie"
 msgstr "Pasirinkti filmą"
@@ -15480,6 +15422,9 @@ msgstr "Prieinamų kanalų aptikimui, įtraukti ir CI priskyrimą."
 msgid "Set Framerate for MiniTV"
 msgstr "Nustatykite MiniTV kadrų dažnį"
 
+msgid "Set system"
+msgstr "Nustatykite sistemą"
+
 msgid "Set action for 'Info' key"
 msgstr "Pasirinkite veiksmą 'info' mygtukui"
 
@@ -15522,12 +15467,9 @@ msgstr "Nustatyti seka pakartoja, jei jūsų antenos sistema to reikalauja. Papr
 msgid "Set startup service"
 msgstr "Nustatykite kaip paleidimo kanalą"
 
-msgid "Set system"
-msgstr "Nustatykite sistemą"
-
 #, python-format
 msgid "Set the MAC address of your %s %s."
-msgstr "Nustatykite MAC adresą savo %s %s.\n"
+msgstr "Nustatykite MAC adresą savo %s %s."
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Nustatykite kanalų logotipų proporciją."
@@ -16526,7 +16468,7 @@ msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Rodo piktogramą kai įvykis naujas/nežiūrėtas, jei nenaujas, nerodo."
 
 msgid "Shows the state of your wireless LAN connection."
-msgstr "Rodo prisijungimo prie belaidžio tinklo būklę.\n"
+msgstr "Rodo prisijungimo prie belaidžio tinklo būklę."
 
 msgid "Shows the watched status of the movie."
 msgstr "Rodo, kad filmas jau žiūrėtas."
@@ -17786,9 +17728,6 @@ msgstr "Teleteksto subtitrų spalva"
 msgid "Telnet"
 msgstr "Telnet"
 
-msgid "Telnet Actions"
-msgstr ""
-
 msgid "Telnet Interface"
 msgstr "Telnet sąsaja"
 
@@ -17818,7 +17757,7 @@ msgstr "Testuoti"
 
 #, python-format
 msgid "Test the network configuration of your %s %s."
-msgstr "Pasitikrinkite tinklo konfigūraciją jūsų %s%s.\n"
+msgstr "Pasitikrinkite tinklo konfigūraciją jūsų %s%s."
 
 msgid "Test type"
 msgstr "Testo tipas"
@@ -18629,6 +18568,9 @@ msgstr "Laiko nustatymai"
 msgid "Time Setup Actions"
 msgstr "Laiko nustatymo veiksmai"
 
+msgid "Time update in minutes"
+msgstr "Laiko atnaujinimas minutėmis"
+
 msgid "Time Update in Minutes:"
 msgstr "Laiko atnaujinimas minutėmis:"
 
@@ -18686,9 +18628,6 @@ msgstr "Laiko stilius"
 
 msgid "Time to execute command or script"
 msgstr "Laikas komandai, ar scenarijui vykdyti"
-
-msgid "Time update in minutes"
-msgstr "Laiko atnaujinimas minutėmis"
 
 msgid "Time window for detection of the wakeup by a timer [mins]"
 msgstr "Laikinas langas budinimo laikmačių aptikimui [min]"
@@ -19640,8 +19579,8 @@ msgstr "Naudoti išplėstinį sąrašą"
 msgid "Use the network wizard to configure selected network adapter"
 msgstr "Naudokite tinklo vedlį, kad konfigūruoti pasirinkto tinklo adapterį"
 
-msgid "Use the network wizard to configure your Network."
-msgstr ""
+msgid "Use the network wizard to configure your Network"
+msgstr "Naudokite tinklo vedlį, kad sukonfigūruoti tinklą"
 
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
 msgstr "Naudokitės mygtukais aukštyn/žemyn valdymo pulte, nustatymų pasirinkimui. Po to spauskite OK."
@@ -20933,18 +20872,6 @@ msgstr ""
 "\n"
 "Ar norite pašalinti dabar?"
 
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service.\n"
-"Do you want to remove now?"
-msgstr ""
-
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr "Jūsų techninė įranga gali aptikti ci režimą savarankiškai arba dirbti tik standartiniame režime."
 
@@ -21216,6 +21143,9 @@ msgstr "nutraukti mėgstamiausių redagavimą"
 
 msgid "ac3"
 msgstr "ac3"
+
+msgid "Activate network adapter configuration"
+msgstr "aktyvuokite tinklo adapterio konfigūraciją"
 
 msgid "activatePiP"
 msgstr "aktyvuoti PiP"
@@ -21639,6 +21569,9 @@ msgstr "užverti DVD grotuvą, arba sugrįžti į failų naršyklę"
 
 msgid "exit mounts setup menu"
 msgstr "užverti pajungimų nustatymų meniu"
+
+msgid "Exit network adapter configuration"
+msgstr "užverti tinklo adapterio konfigūravimą"
 
 msgid "exit networkadapter setup menu"
 msgstr "užverti tinklo adapterio nuostatų meniu"
@@ -22573,9 +22506,6 @@ msgstr "turbo"
 msgid "uShare"
 msgstr "uShare"
 
-msgid "uShare Actions"
-msgstr ""
-
 msgid "uShare Log"
 msgstr "uShare žurnalas"
 
@@ -22584,12 +22514,6 @@ msgstr "uShare pavadinimas"
 
 msgid "uShare Port"
 msgstr "uShare jugtis"
-
-msgid "uShare Selection Actions"
-msgstr ""
-
-msgid "uShare Setting Actions"
-msgstr ""
 
 msgid "uShare Settings"
 msgstr "uShare parametrai"
@@ -22764,15 +22688,6 @@ msgstr "perjungimas"
 
 msgid "®"
 msgstr "®"
-
-#~ msgid "Activate current configuration"
-#~ msgstr "Aktyvuokite šią konfigūraciją"
-
-#~ msgid "Exit nameserver configuration"
-#~ msgstr "Užverti DNS serverio konfigūravimą"
-
-#~ msgid "Use the network wizard to configure your Network"
-#~ msgstr "Naudokite tinklo vedlį, kad sukonfigūruoti tinklą\n"
 
 #~ msgid ""
 #~ "\n"

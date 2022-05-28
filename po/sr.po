@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 18:39+0000\n"
+"POT-Creation-Date: 2022-05-26 21:02+0000\n"
 "PO-Revision-Date: 2021-08-19 12:59+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
@@ -2407,9 +2407,6 @@ msgstr "PAL"
 msgid "AFP"
 msgstr ""
 
-msgid "AFP Actions"
-msgstr ""
-
 msgid "AFP Settings"
 msgstr ""
 
@@ -2521,15 +2518,16 @@ msgstr "Aktiviraj Sliku u Slici"
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Activate current configuration"
+msgstr "Aktivirajte aktuelnu konfiguraciju"
+
 msgid "Activate left-hand file list as multi-select source"
 msgstr ""
 
 msgid "Activate left-hand file list as source"
 msgstr ""
-
-#
-msgid "Activate network adapter configuration"
-msgstr "Aktivirajte konfiguraciju mrežnog adaptera"
 
 #
 msgid "Activate network settings"
@@ -3122,7 +3120,8 @@ msgstr "Da li ste sigurni da želite izaći iz ovog čarobnjaka?"
 
 #
 msgid "Are you sure you want to activate this network configuration?"
-msgstr "Da li ste sigurni da želite aktivirati ovu mrežnu konfiguraciju?"
+msgstr ""
+"Da li ste sigurni da želite aktivirati ovu mrežnu konfiguraciju?"
 
 msgid ""
 "Are you sure you want to delete\n"
@@ -3153,7 +3152,8 @@ msgstr ""
 
 #
 msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Da li ste sigurni da želite da restartujete vaše mrežne interfejse?"
+msgstr ""
+"Da li ste sigurni da želite da restartujete vaše mrežne interfejse?"
 
 #, python-format
 msgid ""
@@ -7482,12 +7482,12 @@ msgstr "Urediti postavke"
 #
 #, fuzzy, python-format
 msgid "Edit the DNS configuration of your %s %s."
-msgstr "Urediti konfiguraciju nejmservera vašeg Drimboxa.\n"
+msgstr "Urediti konfiguraciju nejmservera vašeg Drimboxa."
 
 #
 #, fuzzy, python-format
 msgid "Edit the network configuration of your %s %s."
-msgstr "Urediti mrežnu konfiguraciju vašeg Drimboxa.\n"
+msgstr "Urediti mrežnu konfiguraciju vašeg Drimboxa."
 
 #
 msgid "Edit upgrade source url."
@@ -8252,11 +8252,9 @@ msgid "Exit movie player?"
 msgstr "Izađi iz medija plejera"
 
 #
-msgid "Exit network adapter configuration"
-msgstr "Napustite konfiguraciju mrežnog adaptera"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
+#, fuzzy
+msgid "Exit nameserver configuration"
+msgstr "Napustite konfiguraciju nejmservera"
 
 #
 #, fuzzy
@@ -8438,9 +8436,6 @@ msgid "FTA"
 msgstr ""
 
 msgid "FTP"
-msgstr ""
-
-msgid "FTP Actions"
 msgstr ""
 
 msgid "FTP Settings"
@@ -10045,13 +10040,7 @@ msgstr ""
 msgid "Inadyn"
 msgstr ""
 
-msgid "Inadyn Actions"
-msgstr ""
-
 msgid "Inadyn Log"
-msgstr ""
-
-msgid "Inadyn Setting Actions"
 msgstr ""
 
 msgid "Inadyn Settings"
@@ -11303,18 +11292,15 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
-msgid "MAC Address Actions"
-msgstr ""
+#
+#, fuzzy
+msgid "MAC-address"
+msgstr "IP Adresa"
 
 #
 #, fuzzy
 msgid "MAC Address Settings"
 msgstr "Postavke adaptera"
-
-#
-#, fuzzy
-msgid "MAC-address"
-msgstr "IP Adresa"
 
 msgid "MB"
 msgstr ""
@@ -11667,12 +11653,6 @@ msgstr ""
 msgid "Middle - Lite image"
 msgstr ""
 
-msgid "Mini DLNA Actions"
-msgstr ""
-
-msgid "Mini DLNA Setting Actions"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Mini Series"
@@ -11839,13 +11819,7 @@ msgstr ""
 msgid "Mount '%s' has not enough free space to record."
 msgstr ""
 
-msgid "Mount Actions"
-msgstr ""
-
 msgid "Mount Manager"
-msgstr ""
-
-msgid "Mount Settings"
 msgstr ""
 
 msgid "Mount Setup"
@@ -12238,9 +12212,6 @@ msgstr "SLEDEĆE"
 msgid "NFS"
 msgstr ""
 
-msgid "NFS Actions"
-msgstr ""
-
 msgid "NFS Settings"
 msgstr ""
 
@@ -12339,16 +12310,7 @@ msgstr "Mrežna maska"
 msgid "Network"
 msgstr "Mreža"
 
-msgid "Network Adapter Actions"
-msgstr ""
-
 msgid "Network Adapter Selection"
-msgstr ""
-
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
 msgstr ""
 
 msgid "Network Browser"
@@ -12364,9 +12326,6 @@ msgid "Network Information Actions"
 msgstr ""
 
 msgid "Network Interface"
-msgstr ""
-
-msgid "Network Log Actions"
 msgstr ""
 
 #
@@ -12389,9 +12348,6 @@ msgstr "Mrežne postavke "
 
 msgid "Network Test"
 msgstr ""
-
-msgid "Network Test:"
-msgstr "Test mreže:"
 
 msgid "Network Wizard"
 msgstr ""
@@ -12427,6 +12383,9 @@ msgstr "Test mreže"
 
 msgid "Network test..."
 msgstr "Test mreže..."
+
+msgid "Network Test:"
+msgstr "Test mreže:"
 
 #
 msgid "Network:"
@@ -13237,9 +13196,6 @@ msgid "OpenSSL version"
 msgstr ""
 
 msgid "OpenVPN"
-msgstr ""
-
-msgid "OpenVPN Actions"
 msgstr ""
 
 msgid "OpenVPN Settings"
@@ -15671,7 +15627,7 @@ msgstr "Ponovite test"
 
 #
 msgid "Restart your network connection and interfaces."
-msgstr "Restartujte vašu mrežnu vezu i interfejse.\n"
+msgstr "Restartujte vašu mrežnu vezu i interfejse."
 
 #
 msgid "Restore"
@@ -15896,9 +15852,6 @@ msgstr "S-Video"
 msgid "SABnzbd"
 msgstr ""
 
-msgid "SABnzbd Actions"
-msgstr ""
-
 msgid "SABnzbd Settings"
 msgstr ""
 
@@ -15912,9 +15865,6 @@ msgid "SATA"
 msgstr ""
 
 msgid "SATPI"
-msgstr ""
-
-msgid "SATPI Setting Actions"
 msgstr ""
 
 #
@@ -16002,9 +15952,6 @@ msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
 msgid "Samba"
-msgstr ""
-
-msgid "Samba Actions"
 msgstr ""
 
 msgid "Samba Log"
@@ -16227,7 +16174,7 @@ msgid "Scan wireless networks"
 msgstr "Pretražite bežičnu mrežu"
 
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Pretraži svoju mrežu za bežične pristupne tačke i poveži se s njima koristeći svoj izabrani bežični uređaj.\n"
+msgstr "Pretraži svoju mrežu za bežične pristupne tačke i poveži se s njima koristeći svoj izabrani bežični uređaj."
 
 #, python-format
 msgid "Scanning %s..."
@@ -16513,9 +16460,6 @@ msgstr ""
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
 msgstr ""
 
-msgid "Select Folders"
-msgstr ""
-
 msgid "Select HDD"
 msgstr "Odaberi hard disk"
 
@@ -16631,6 +16575,9 @@ msgstr ""
 msgid "Select files/folders to backup"
 msgstr "Izaberi datoteke/fascikle za bekap"
 
+msgid "Select Folders"
+msgstr ""
+
 msgid "Select how quickly the dish should move between satellites."
 msgstr ""
 
@@ -16661,9 +16608,6 @@ msgstr "Izaberi ulazni uređaj."
 #
 msgid "Select interface"
 msgstr "Izaberite interfejs "
-
-msgid "Select menu entry"
-msgstr ""
 
 #
 #, fuzzy
@@ -17185,6 +17129,9 @@ msgstr ""
 msgid "Set Framerate for MiniTV"
 msgstr ""
 
+msgid "Set system"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Set action for 'Info' key"
@@ -17231,13 +17178,10 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
-msgid "Set system"
-msgstr ""
-
 #
 #, fuzzy, python-format
 msgid "Set the MAC address of your %s %s."
-msgstr "Urediti konfiguraciju nejmservera vašeg Drimboxa.\n"
+msgstr "Urediti konfiguraciju nejmservera vašeg Drimboxa."
 
 #, fuzzy
 msgid "Set the aspect ratio of the service picons."
@@ -18347,7 +18291,7 @@ msgstr ""
 
 #
 msgid "Shows the state of your wireless LAN connection."
-msgstr "Prikaži stanje vaše bežične LAN veze.\n"
+msgstr "Prikaži stanje vaše bežične LAN veze."
 
 msgid "Shows the watched status of the movie."
 msgstr ""
@@ -19772,9 +19716,6 @@ msgstr ""
 msgid "Telnet"
 msgstr ""
 
-msgid "Telnet Actions"
-msgstr ""
-
 msgid "Telnet Interface"
 msgstr ""
 
@@ -19810,7 +19751,7 @@ msgstr "Test način"
 #
 #, fuzzy, python-format
 msgid "Test the network configuration of your %s %s."
-msgstr "Testirajte mrežnu konfiguraciju vašeg drimboxa.\n"
+msgstr "Testirajte mrežnu konfiguraciju vašeg drimboxa."
 
 #
 #, fuzzy
@@ -20629,6 +20570,9 @@ msgstr ""
 msgid "Time Setup Actions"
 msgstr ""
 
+msgid "Time update in minutes"
+msgstr ""
+
 msgid "Time Update in Minutes:"
 msgstr ""
 
@@ -20695,9 +20639,6 @@ msgid "Time style"
 msgstr "Izbor tajmera "
 
 msgid "Time to execute command or script"
-msgstr ""
-
-msgid "Time update in minutes"
 msgstr ""
 
 msgid "Time window for detection of the wakeup by a timer [mins]"
@@ -21771,8 +21712,10 @@ msgstr ""
 msgid "Use the network wizard to configure selected network adapter"
 msgstr "Koristi mrežni čarobnjak da konfigurišeš izabrani mrežni adapter"
 
-msgid "Use the network wizard to configure your Network."
-msgstr ""
+#
+#, fuzzy
+msgid "Use the network wizard to configure your Network"
+msgstr "Koristite mrežni čarobnjak da konfigurišete vašu mrežu"
 
 #
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
@@ -23165,18 +23108,6 @@ msgid ""
 "Do you want to remove now ?"
 msgstr ""
 
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service.\n"
-"Do you want to remove now?"
-msgstr ""
-
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr ""
 
@@ -23458,6 +23389,10 @@ msgstr "odustani od uređivanja favorita"
 
 msgid "ac3"
 msgstr ""
+
+#
+msgid "Activate network adapter configuration"
+msgstr "Aktivirajte konfiguraciju mrežnog adaptera"
 
 msgid "activatePiP"
 msgstr ""
@@ -23928,6 +23863,10 @@ msgstr "Napustite DVD plejer ili se vratite na pretraživač datoteka"
 
 msgid "exit mounts setup menu"
 msgstr ""
+
+#
+msgid "Exit network adapter configuration"
+msgstr "Napustite konfiguraciju mrežnog adaptera"
 
 #
 msgid "exit networkadapter setup menu"
@@ -24990,9 +24929,6 @@ msgstr ""
 msgid "uShare"
 msgstr ""
 
-msgid "uShare Actions"
-msgstr ""
-
 msgid "uShare Log"
 msgstr ""
 
@@ -25000,12 +24936,6 @@ msgid "uShare Name"
 msgstr ""
 
 msgid "uShare Port"
-msgstr ""
-
-msgid "uShare Selection Actions"
-msgstr ""
-
-msgid "uShare Setting Actions"
 msgstr ""
 
 msgid "uShare Settings"
@@ -25201,21 +25131,6 @@ msgstr "prebačen"
 
 msgid "®"
 msgstr ""
-
-#
-#, fuzzy
-#~ msgid "Activate current configuration"
-#~ msgstr "Aktivirajte aktuelnu konfiguraciju"
-
-#
-#, fuzzy
-#~ msgid "Exit nameserver configuration"
-#~ msgstr "Napustite konfiguraciju nejmservera"
-
-#
-#, fuzzy
-#~ msgid "Use the network wizard to configure your Network"
-#~ msgstr "Koristite mrežni čarobnjak da konfigurišete vašu mrežu\n"
 
 #
 #, fuzzy

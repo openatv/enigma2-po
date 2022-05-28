@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 18:39+0000\n"
+"POT-Creation-Date: 2022-05-26 21:02+0000\n"
 "PO-Revision-Date: 2021-08-21 11:46+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -2223,9 +2223,6 @@ msgstr "AFL"
 msgid "AFP"
 msgstr "AFP"
 
-msgid "AFP Actions"
-msgstr ""
-
 msgid "AFP Settings"
 msgstr "AFP seaded"
 
@@ -2323,14 +2320,14 @@ msgstr "Ava PiP"
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
+msgid "Activate current configuration"
+msgstr "Jõusta praegused seaded"
+
 msgid "Activate left-hand file list as multi-select source"
 msgstr "Aktiveeri vasak pool hulgivaliku allikana"
 
 msgid "Activate left-hand file list as source"
 msgstr "Aktiveeri vasak pool allikana"
-
-msgid "Activate network adapter configuration"
-msgstr "aktiveeri võrgukaardi seaded"
 
 msgid "Activate network settings"
 msgstr "Aktiveeri võrguseaded"
@@ -2852,8 +2849,7 @@ msgstr "Kas eemaldada see kirje?"
 
 msgid "Are you sure you want to activate this network configuration?"
 msgstr ""
-"Kas jõustada see võrguseadistus?\n"
-"\n"
+"Kas jõustada see võrguseadistus?"
 
 msgid ""
 "Are you sure you want to delete\n"
@@ -2882,7 +2878,8 @@ msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "Kas värskendada EPG andmed asukohast:\n"
 
 msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Kas taaskäivitada võrguliidesed?"
+msgstr ""
+"Kas taaskäivitada võrguliidesed?"
 
 #, python-format
 msgid ""
@@ -6924,11 +6921,11 @@ msgstr "Muuda seadeid"
 
 #, python-format
 msgid "Edit the DNS configuration of your %s %s."
-msgstr "Muuda %s %s nimeserveri seadeid.\n"
+msgstr "Muuda %s %s nimeserveri seadeid."
 
 #, python-format
 msgid "Edit the network configuration of your %s %s."
-msgstr "Muuda %s %s võrguseadeid.\n"
+msgstr "Muuda %s %s võrguseadeid."
 
 msgid "Edit upgrade source url."
 msgstr "Muuda uuenduste allika url."
@@ -7670,11 +7667,8 @@ msgstr "Sulge filmilist"
 msgid "Exit movie player?"
 msgstr "Kas lõpetada taasesitus?"
 
-msgid "Exit network adapter configuration"
-msgstr "Lõpeta võrgukaardi seadistamine"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
+msgid "Exit nameserver configuration"
+msgstr "Välju nimeserverite seadistusest"
 
 # HelpMenu
 msgid "Exit network interface list"
@@ -7848,9 +7842,6 @@ msgstr "Vabakanal"
 
 msgid "FTP"
 msgstr "FTP"
-
-msgid "FTP Actions"
-msgstr ""
 
 msgid "FTP Settings"
 msgstr "FTP seaded"
@@ -9366,14 +9357,8 @@ msgstr "Väljas"
 msgid "Inadyn"
 msgstr "Inadyn"
 
-msgid "Inadyn Actions"
-msgstr ""
-
 msgid "Inadyn Log"
 msgstr "Inadyn logi"
-
-msgid "Inadyn Setting Actions"
-msgstr ""
 
 msgid "Inadyn Settings"
 msgstr "Inadyn seaded"
@@ -10493,16 +10478,13 @@ msgstr "M2k"
 msgid "MAC"
 msgstr "MAC"
 
-msgid "MAC Address Actions"
-msgstr ""
+# NetworkSetup.py
+msgid "MAC-address"
+msgstr "MAC-aadress"
 
 # NetworkSetup.py
 msgid "MAC Address Settings"
 msgstr "MAC-aadressi seaded"
-
-# NetworkSetup.py
-msgid "MAC-address"
-msgstr "MAC-aadress"
 
 msgid "MB"
 msgstr "MB"
@@ -10839,12 +10821,6 @@ msgstr "Mikroneesia Liiduriigid"
 msgid "Middle - Lite image"
 msgstr ""
 
-msgid "Mini DLNA Actions"
-msgstr ""
-
-msgid "Mini DLNA Setting Actions"
-msgstr ""
-
 #, fuzzy
 msgid "Mini Series"
 msgstr "Kõik kanalid"
@@ -11001,14 +10977,8 @@ msgstr "Haagi"
 msgid "Mount '%s' has not enough free space to record."
 msgstr "Haakepunktis '%s' pole salvestamiseks piisavalt ruumi."
 
-msgid "Mount Actions"
-msgstr ""
-
 msgid "Mount Manager"
 msgstr "Haakepunktid"
-
-msgid "Mount Settings"
-msgstr ""
 
 msgid "Mount Setup"
 msgstr "Haakepunktide seadistused"
@@ -11350,9 +11320,6 @@ msgstr "JÄRGMINE"
 msgid "NFS"
 msgstr "NFS"
 
-msgid "NFS Actions"
-msgstr ""
-
 msgid "NFS Settings"
 msgstr "NFS seaded"
 
@@ -11447,17 +11414,8 @@ msgstr "Võrgumask"
 msgid "Network"
 msgstr "Võrk"
 
-msgid "Network Adapter Actions"
-msgstr ""
-
 msgid "Network Adapter Selection"
 msgstr "Võrgukaardi valik"
-
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
-msgstr ""
 
 # Quick Menue
 msgid "Network Browser"
@@ -11475,9 +11433,6 @@ msgstr ""
 #
 msgid "Network Interface"
 msgstr "Võrguliides"
-
-msgid "Network Log Actions"
-msgstr ""
 
 msgid "Network MAC settings"
 msgstr "Võrgu MAC seaded"
@@ -11499,9 +11454,6 @@ msgstr "Võrgu häälestamine"
 
 msgid "Network Test"
 msgstr "Võrguühenduse test"
-
-msgid "Network Test:"
-msgstr "Võrgu test: "
 
 #
 msgid "Network Wizard"
@@ -11534,6 +11486,9 @@ msgstr "Võrgu testimine"
 #
 msgid "Network test..."
 msgstr "Võrgu testimine."
+
+msgid "Network Test:"
+msgstr "Võrgu test: "
 
 msgid "Network:"
 msgstr "Võrk:"
@@ -12285,9 +12240,6 @@ msgstr ""
 
 msgid "OpenVPN"
 msgstr "OpenVPN"
-
-msgid "OpenVPN Actions"
-msgstr ""
 
 msgid "OpenVPN Settings"
 msgstr "OpenVPN seaded"
@@ -14518,7 +14470,7 @@ msgid "Restart test"
 msgstr "Taaskäivita test"
 
 msgid "Restart your network connection and interfaces."
-msgstr "Võrguühenduse ja võrgukaartide taaskäivitus.\n"
+msgstr "Võrguühenduse ja võrgukaartide taaskäivitus."
 
 msgid "Restore"
 msgstr "Taasta"
@@ -14727,9 +14679,6 @@ msgstr "S-video (Y/C)"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
-msgid "SABnzbd Actions"
-msgstr ""
-
 msgid "SABnzbd Settings"
 msgstr "SABnzbd seaded"
 
@@ -14743,9 +14692,6 @@ msgid "SATA"
 msgstr "SATA"
 
 msgid "SATPI"
-msgstr ""
-
-msgid "SATPI Setting Actions"
 msgstr ""
 
 #, fuzzy
@@ -14831,9 +14777,6 @@ msgstr "Saint Vincent ja Grenadiinid"
 
 msgid "Samba"
 msgstr "Samba"
-
-msgid "Samba Actions"
-msgstr ""
 
 msgid "Samba Log"
 msgstr "Samba logi"
@@ -15028,7 +14971,7 @@ msgid "Scan wireless networks"
 msgstr "Traadita võrkude otsing"
 
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Otsi oma võrgus traadita pääsupunkte ja ühendu nendega, kasutades valitud traadita seadet.\n"
+msgstr "Otsi oma võrgus traadita pääsupunkte ja ühendu nendega, kasutades valitud traadita seadet."
 
 #, python-format
 msgid "Scanning %s..."
@@ -15291,9 +15234,6 @@ msgstr "Vali Enigma2 kujundus"
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
 msgstr "Vali kiire DiSEqC, kui antennisüsteem seda toetab. Kui pole kindel, vali 'ei'."
 
-msgid "Select Folders"
-msgstr "Vali kaustad"
-
 msgid "Select HDD"
 msgstr "Vali kõvaketas"
 
@@ -15395,6 +15335,9 @@ msgstr "Vali varukoopiast välja jäetavad failid"
 msgid "Select files/folders to backup"
 msgstr "Vali varundatavad failid/kaustad"
 
+msgid "Select Folders"
+msgstr "Vali kaustad"
+
 msgid "Select how quickly the dish should move between satellites."
 msgstr "Vali antenni satelliitide vahel liikumise kiirus."
 
@@ -15425,9 +15368,6 @@ msgstr "Vali sisendseade."
 
 msgid "Select interface"
 msgstr "Vali liides"
-
-msgid "Select menu entry"
-msgstr ""
 
 msgid "Select movie"
 msgstr "Vali film"
@@ -15925,6 +15865,9 @@ msgstr "Seadista saadaolevate kanalite tuvastamiseks CI määrangud."
 msgid "Set Framerate for MiniTV"
 msgstr "Määra MiniTV kaadrisagedus"
 
+msgid "Set system"
+msgstr "Määra süsteem"
+
 msgid "Set action for 'Info' key"
 msgstr "'Info' nupu vajutus"
 
@@ -15969,12 +15912,9 @@ msgstr "Määra jada kordused, kui antennisüsteem seda nõuab. Kui antennisüst
 msgid "Set startup service"
 msgstr "Määra käivituskanal"
 
-msgid "Set system"
-msgstr "Määra süsteem"
-
 #, python-format
 msgid "Set the MAC address of your %s %s."
-msgstr "Määra %s %s MAC-aadress.\n"
+msgstr "Määra %s %s MAC-aadress."
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Määra pikonite kuvasuhe."
@@ -17015,7 +16955,7 @@ msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Tähista uued/vaatamata ikooniga, muidu ikooni ei näita."
 
 msgid "Shows the state of your wireless LAN connection."
-msgstr "Näitab WiFi olekut.\n"
+msgstr "Näitab WiFi olekut."
 
 msgid "Shows the watched status of the movie."
 msgstr "Tähista vaadatud salvestised."
@@ -18325,9 +18265,6 @@ msgstr "Teletekst: subtiitrite värv"
 msgid "Telnet"
 msgstr "Telnet"
 
-msgid "Telnet Actions"
-msgstr ""
-
 msgid "Telnet Interface"
 msgstr "Telneti kasutajaliides"
 
@@ -18358,7 +18295,7 @@ msgstr "Testpilt"
 
 #, python-format
 msgid "Test the network configuration of your %s %s."
-msgstr "Testi %s %s võrguseadeid.\n"
+msgstr "Testi %s %s võrguseadeid."
 
 msgid "Test type"
 msgstr "Testi tüüp"
@@ -19188,6 +19125,9 @@ msgstr "Aja seaded"
 msgid "Time Setup Actions"
 msgstr ""
 
+msgid "Time update in minutes"
+msgstr "Kellaaja uuendamine (min)"
+
 msgid "Time Update in Minutes:"
 msgstr "Kellaaja uuendamine (min):"
 
@@ -19252,9 +19192,6 @@ msgstr "Kellaaja kuju"
 
 msgid "Time to execute command or script"
 msgstr "Skripti või käsu käivitamise aeg"
-
-msgid "Time update in minutes"
-msgstr "Kellaaja uuendamine (min)"
 
 msgid "Time window for detection of the wakeup by a timer [mins]"
 msgstr "Ajaaken taimeri poolt käivitamise tuvastamiseks (min)"
@@ -20247,8 +20184,8 @@ msgstr "Kasuta laiendatud nimekirja"
 msgid "Use the network wizard to configure selected network adapter"
 msgstr "Kasuta võrguabilist valitud võrguliidese seadistamiseks"
 
-msgid "Use the network wizard to configure your Network."
-msgstr ""
+msgid "Use the network wizard to configure your Network"
+msgstr "Kasuta võrgu seadistamiseks võrguabilist"
 
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
 msgstr "Kasuta valimiseks üles/alla nuppu puldil, siis vajuta OK."
@@ -21588,18 +21525,6 @@ msgstr ""
 "%s %s taaskäivitub pärast teenuse eemaldamist\n"
 "Kas eemaldada kohe?"
 
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service.\n"
-"Do you want to remove now?"
-msgstr ""
-
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr "Vastuvõtja tuvastab CI režiimi ise või töötab ainult pärandrežiimis."
 
@@ -21880,6 +21805,9 @@ msgstr "Tühista muudatused"
 
 msgid "ac3"
 msgstr ""
+
+msgid "Activate network adapter configuration"
+msgstr "aktiveeri võrgukaardi seaded"
 
 msgid "activatePiP"
 msgstr "PiP käivitamine"
@@ -22320,6 +22248,9 @@ msgstr "Välju DVD-mängijast või naase failisirvijasse"
 
 msgid "exit mounts setup menu"
 msgstr "Välju haakimise menüüst"
+
+msgid "Exit network adapter configuration"
+msgstr "Lõpeta võrgukaardi seadistamine"
 
 msgid "exit networkadapter setup menu"
 msgstr "Välju võrgukaardi seadistusmenüüst"
@@ -23282,9 +23213,6 @@ msgstr "Turbo"
 msgid "uShare"
 msgstr "uShare"
 
-msgid "uShare Actions"
-msgstr ""
-
 msgid "uShare Log"
 msgstr "uShare logi"
 
@@ -23293,12 +23221,6 @@ msgstr "uShare nimi"
 
 msgid "uShare Port"
 msgstr "uShare port"
-
-msgid "uShare Selection Actions"
-msgstr ""
-
-msgid "uShare Setting Actions"
-msgstr ""
 
 msgid "uShare Settings"
 msgstr "uShare seaded"
@@ -23473,15 +23395,6 @@ msgstr "Kanalivahetus"
 
 msgid "®"
 msgstr ""
-
-#~ msgid "Activate current configuration"
-#~ msgstr "Jõusta praegused seaded"
-
-#~ msgid "Exit nameserver configuration"
-#~ msgstr "Välju nimeserverite seadistusest"
-
-#~ msgid "Use the network wizard to configure your Network"
-#~ msgstr "Kasuta võrgu seadistamiseks võrguabilist\n"
 
 #
 #~ msgid ""

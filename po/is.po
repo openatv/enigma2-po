@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 18:39+0000\n"
+"POT-Creation-Date: 2022-05-26 21:02+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/is/>\n"
@@ -2360,9 +2360,6 @@ msgstr "PAL"
 msgid "AFP"
 msgstr ""
 
-msgid "AFP Actions"
-msgstr ""
-
 msgid "AFP Settings"
 msgstr ""
 
@@ -2472,14 +2469,16 @@ msgstr "Virkja Mynd í Mynd"
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Activate current configuration"
+msgstr "virkja núverandi stillingar"
+
 msgid "Activate left-hand file list as multi-select source"
 msgstr ""
 
 msgid "Activate left-hand file list as source"
 msgstr ""
-
-msgid "Activate network adapter configuration"
-msgstr "virkja stillingar netkorts"
 
 #
 msgid "Activate network settings"
@@ -3049,7 +3048,8 @@ msgid "Are you sure to remove this entry?"
 msgstr "Ertu viss um að þú viljir hætta í ráðgjafanum?"
 
 msgid "Are you sure you want to activate this network configuration?"
-msgstr "Ertu viss um að þú viljir virkja þessa net stillingu?"
+msgstr ""
+"Ertu viss um að þú viljir virkja þessa net stillingu?"
 
 msgid ""
 "Are you sure you want to delete\n"
@@ -3078,7 +3078,8 @@ msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr ""
 
 msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Ertu viss um að þú viljir endurræsa netkortið?"
+msgstr ""
+"Ertu viss um að þú viljir endurræsa netkortið?"
 
 #, python-format
 msgid ""
@@ -7238,12 +7239,12 @@ msgstr "Breyta stillingum"
 #
 #, fuzzy, python-format
 msgid "Edit the DNS configuration of your %s %s."
-msgstr "Breyta nafnaþjóns stillingum %s %sins.\n"
+msgstr "Breyta nafnaþjóns stillingum %s %sins."
 
 #
 #, fuzzy, python-format
 msgid "Edit the network configuration of your %s %s."
-msgstr "Breyta stillingum netkorts í %s %sinu.\n"
+msgstr "Breyta stillingum netkorts í %s %sinu."
 
 msgid "Edit upgrade source url."
 msgstr "Breyta uppfærslu uppruna slóð."
@@ -7992,11 +7993,9 @@ msgid "Exit movie player?"
 msgstr "hætta í spilara"
 
 #
-msgid "Exit network adapter configuration"
-msgstr "fara úr netkorts stillingum"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
+#, fuzzy
+msgid "Exit nameserver configuration"
+msgstr "fara úr nafnaþjóns stillingum"
 
 #
 #, fuzzy
@@ -8171,9 +8170,6 @@ msgid "FTA"
 msgstr ""
 
 msgid "FTP"
-msgstr ""
-
-msgid "FTP Actions"
 msgstr ""
 
 msgid "FTP Settings"
@@ -9764,13 +9760,7 @@ msgstr ""
 msgid "Inadyn"
 msgstr ""
 
-msgid "Inadyn Actions"
-msgstr ""
-
 msgid "Inadyn Log"
-msgstr ""
-
-msgid "Inadyn Setting Actions"
 msgstr ""
 
 msgid "Inadyn Settings"
@@ -11009,18 +10999,15 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
-msgid "MAC Address Actions"
-msgstr ""
+#
+#, fuzzy
+msgid "MAC-address"
+msgstr "IP Netfang"
 
 #
 #, fuzzy
 msgid "MAC Address Settings"
 msgstr "Stilling tækis"
-
-#
-#, fuzzy
-msgid "MAC-address"
-msgstr "IP Netfang"
 
 msgid "MB"
 msgstr ""
@@ -11369,12 +11356,6 @@ msgstr ""
 msgid "Middle - Lite image"
 msgstr ""
 
-msgid "Mini DLNA Actions"
-msgstr ""
-
-msgid "Mini DLNA Setting Actions"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Mini Series"
@@ -11541,13 +11522,7 @@ msgstr ""
 msgid "Mount '%s' has not enough free space to record."
 msgstr ""
 
-msgid "Mount Actions"
-msgstr ""
-
 msgid "Mount Manager"
-msgstr ""
-
-msgid "Mount Settings"
 msgstr ""
 
 msgid "Mount Setup"
@@ -11935,9 +11910,6 @@ msgstr "NÆST"
 msgid "NFS"
 msgstr ""
 
-msgid "NFS Actions"
-msgstr ""
-
 msgid "NFS Settings"
 msgstr ""
 
@@ -12036,16 +12008,7 @@ msgstr "Netmaski"
 msgid "Network"
 msgstr "Netkerfi"
 
-msgid "Network Adapter Actions"
-msgstr ""
-
 msgid "Network Adapter Selection"
-msgstr ""
-
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
 msgstr ""
 
 msgid "Network Browser"
@@ -12061,9 +12024,6 @@ msgid "Network Information Actions"
 msgstr ""
 
 msgid "Network Interface"
-msgstr ""
-
-msgid "Network Log Actions"
 msgstr ""
 
 #
@@ -12086,9 +12046,6 @@ msgstr "Stillingar netkerfis"
 
 msgid "Network Test"
 msgstr ""
-
-msgid "Network Test:"
-msgstr "Prufa nettengingu:"
 
 msgid "Network Wizard"
 msgstr ""
@@ -12124,6 +12081,9 @@ msgstr "Prufa nettengingu"
 
 msgid "Network test..."
 msgstr "Prufa nettengingu..."
+
+msgid "Network Test:"
+msgstr "Prufa nettengingu:"
 
 #
 msgid "Network:"
@@ -12927,9 +12887,6 @@ msgid "OpenSSL version"
 msgstr ""
 
 msgid "OpenVPN"
-msgstr ""
-
-msgid "OpenVPN Actions"
 msgstr ""
 
 msgid "OpenVPN Settings"
@@ -15342,7 +15299,7 @@ msgstr "Prufa aftur"
 
 #
 msgid "Restart your network connection and interfaces."
-msgstr "Endurræsa nettengingu og netkort.\n"
+msgstr "Endurræsa nettengingu og netkort."
 
 #
 msgid "Restore"
@@ -15562,9 +15519,6 @@ msgstr "S-Video"
 msgid "SABnzbd"
 msgstr ""
 
-msgid "SABnzbd Actions"
-msgstr ""
-
 msgid "SABnzbd Settings"
 msgstr ""
 
@@ -15578,9 +15532,6 @@ msgid "SATA"
 msgstr ""
 
 msgid "SATPI"
-msgstr ""
-
-msgid "SATPI Setting Actions"
 msgstr ""
 
 #
@@ -15667,9 +15618,6 @@ msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
 msgid "Samba"
-msgstr ""
-
-msgid "Samba Actions"
 msgstr ""
 
 msgid "Samba Log"
@@ -15889,7 +15837,7 @@ msgid "Scan wireless networks"
 msgstr "Leita að þráðlausu neti"
 
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Leita að þráðlausu neti og tengjast þeim með völdu netkorti.\n"
+msgstr "Leita að þráðlausu neti og tengjast þeim með völdu netkorti."
 
 #, python-format
 msgid "Scanning %s..."
@@ -16170,9 +16118,6 @@ msgstr ""
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
 msgstr ""
 
-msgid "Select Folders"
-msgstr ""
-
 msgid "Select HDD"
 msgstr "Veldu harðadisk"
 
@@ -16286,6 +16231,9 @@ msgstr ""
 msgid "Select files/folders to backup"
 msgstr "Veldu skrár/möppur til afritunar"
 
+msgid "Select Folders"
+msgstr ""
+
 msgid "Select how quickly the dish should move between satellites."
 msgstr ""
 
@@ -16316,9 +16264,6 @@ msgstr "Veldu inntaks tæki."
 #
 msgid "Select interface"
 msgstr "Veldu netkort"
-
-msgid "Select menu entry"
-msgstr ""
 
 #
 #, fuzzy
@@ -16834,6 +16779,9 @@ msgstr ""
 msgid "Set Framerate for MiniTV"
 msgstr ""
 
+msgid "Set system"
+msgstr ""
+
 #, fuzzy
 msgid "Set action for 'Info' key"
 msgstr "Veldu afrits skrár"
@@ -16878,13 +16826,10 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
-msgid "Set system"
-msgstr ""
-
 #
 #, fuzzy, python-format
 msgid "Set the MAC address of your %s %s."
-msgstr "Breyta nafnaþjóns stillingum %s %sins.\n"
+msgstr "Breyta nafnaþjóns stillingum %s %sins."
 
 #, fuzzy
 msgid "Set the aspect ratio of the service picons."
@@ -17983,7 +17928,7 @@ msgstr ""
 
 #
 msgid "Shows the state of your wireless LAN connection."
-msgstr "Sýnir stöðu þráðlausrar nettenginar.\n"
+msgstr "Sýnir stöðu þráðlausrar nettenginar."
 
 msgid "Shows the watched status of the movie."
 msgstr ""
@@ -19400,9 +19345,6 @@ msgstr ""
 msgid "Telnet"
 msgstr ""
 
-msgid "Telnet Actions"
-msgstr ""
-
 msgid "Telnet Interface"
 msgstr ""
 
@@ -19438,7 +19380,7 @@ msgstr "Prufu hamur"
 #
 #, fuzzy, python-format
 msgid "Test the network configuration of your %s %s."
-msgstr "Prófa stillingar netkorts í %s %sinu.\n"
+msgstr "Prófa stillingar netkorts í %s %sinu."
 
 #
 #, fuzzy
@@ -20246,6 +20188,9 @@ msgstr ""
 msgid "Time Setup Actions"
 msgstr ""
 
+msgid "Time update in minutes"
+msgstr ""
+
 msgid "Time Update in Minutes:"
 msgstr ""
 
@@ -20312,9 +20257,6 @@ msgid "Time style"
 msgstr "Tímastillinga val"
 
 msgid "Time to execute command or script"
-msgstr ""
-
-msgid "Time update in minutes"
 msgstr ""
 
 msgid "Time window for detection of the wakeup by a timer [mins]"
@@ -21379,8 +21321,10 @@ msgstr ""
 msgid "Use the network wizard to configure selected network adapter"
 msgstr "Nota ráðgjafa til að stilla valið netkort"
 
-msgid "Use the network wizard to configure your Network."
-msgstr ""
+#
+#, fuzzy
+msgid "Use the network wizard to configure your Network"
+msgstr "Nota netkerfis álf til að stilla inn netkerfið"
 
 #
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
@@ -22762,18 +22706,6 @@ msgid ""
 "Do you want to remove now ?"
 msgstr ""
 
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service.\n"
-"Do you want to remove now?"
-msgstr ""
-
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr ""
 
@@ -23051,6 +22983,9 @@ msgstr "hætta við að breyta eftirlætis lista"
 
 msgid "ac3"
 msgstr ""
+
+msgid "Activate network adapter configuration"
+msgstr "virkja stillingar netkorts"
 
 msgid "activatePiP"
 msgstr ""
@@ -23518,6 +23453,10 @@ msgstr "hætta í DVD spilara og fara til baka í skráarvafra"
 
 msgid "exit mounts setup menu"
 msgstr ""
+
+#
+msgid "Exit network adapter configuration"
+msgstr "fara úr netkorts stillingum"
 
 #
 msgid "exit networkadapter setup menu"
@@ -24576,9 +24515,6 @@ msgstr ""
 msgid "uShare"
 msgstr ""
 
-msgid "uShare Actions"
-msgstr ""
-
 msgid "uShare Log"
 msgstr ""
 
@@ -24586,12 +24522,6 @@ msgid "uShare Name"
 msgstr ""
 
 msgid "uShare Port"
-msgstr ""
-
-msgid "uShare Selection Actions"
-msgstr ""
-
-msgid "uShare Setting Actions"
 msgstr ""
 
 msgid "uShare Settings"
@@ -24784,21 +24714,6 @@ msgstr "stokkið"
 
 msgid "®"
 msgstr ""
-
-#
-#, fuzzy
-#~ msgid "Activate current configuration"
-#~ msgstr "virkja núverandi stillingar"
-
-#
-#, fuzzy
-#~ msgid "Exit nameserver configuration"
-#~ msgstr "fara úr nafnaþjóns stillingum"
-
-#
-#, fuzzy
-#~ msgid "Use the network wizard to configure your Network"
-#~ msgstr "Nota netkerfis álf til að stilla inn netkerfið\n"
 
 #, fuzzy
 #~ msgid ""
