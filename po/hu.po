@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 17:22+0000\n"
+"POT-Creation-Date: 2022-06-16 20:44+0000\n"
 "PO-Revision-Date: 2022-03-10 14:56+0000\n"
 "Last-Translator: H. Árkosi Róbert <robreg@zsurob.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -2704,6 +2704,9 @@ msgstr "Majdnem ott... "
 msgid "Alpha"
 msgstr "Betű"
 
+msgid "Alphabetical"
+msgstr ""
+
 msgid "Alphabetical under headings"
 msgstr "ABC-sorrendben a fejlécek alatt"
 
@@ -4362,9 +4365,6 @@ msgstr "Válaszd a DVB várakozási késleltetést a CI válaszra."
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Válassza ki, hogy milyen gyakran szeretne csatlakozni az IceTV kiszolgálóhoz a frissítések kereséséhez."
 
-msgid "Choose style of main menus"
-msgstr "Válassza ki a főmenük stílusát"
-
 msgid "Choose the CI protocol operation mode for standard ci or ciplus."
 msgstr "Válassza ki a CI protokoll üzemmódot a standard CI vagy CI+ esetén."
 
@@ -4389,7 +4389,7 @@ msgstr "Válassza ki azt a helyet, ahol az EPG adatok tárolásra kerülnek, ami
 msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
 msgstr "Válassza ki az EPG adatokat tartalmazó fájl nevét, ha a %s %s leállt. Ez hasznos lehet másik készülékre másolás esetén."
 
-msgid "Choose the order in which items are displayed in Help windows"
+msgid "Choose the style/order in which items are displayed in help windows."
 msgstr ""
 
 msgid "Choose time interval to which the graphics will be rounded off."
@@ -7245,6 +7245,18 @@ msgstr "Szórakozás"
 msgid "Entitlements"
 msgstr "Jogosultságok"
 
+msgid "Entry image and text"
+msgstr ""
+
+msgid "Entry image, number and text"
+msgstr ""
+
+msgid "Entry number and text"
+msgstr ""
+
+msgid "Entry text only"
+msgstr ""
+
 msgid "Epg/Guide"
 msgstr "Epg/Guide"
 
@@ -8691,6 +8703,9 @@ msgstr "Súgó ikonok animáció-sebessége"
 
 msgid "Help long"
 msgstr "Súgó hosszan"
+
+msgid "Help screen style"
+msgstr ""
 
 msgid "Helps setting up your signal"
 msgstr "Segít beállítani a jelet"
@@ -10643,6 +10658,12 @@ msgstr "Menü beállítás"
 
 msgid "Menu entry sort order"
 msgstr "Menü bejegyzések rendezése"
+
+msgid "Menu entry style"
+msgstr ""
+
+msgid "Menu style"
+msgstr ""
 
 msgid "Merge broadcast EPG with IceTV"
 msgstr ""
@@ -15214,6 +15235,12 @@ msgstr ""
 msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
 msgstr "Válassza ki a kívánt funkciót, és kattintson rá az \"OK\" gombra. Használja a \"CH +/-\" billentyűt a listák közötti váltáshoz. Válasszon ki egy hozzárendelt függvényt, és kattintson az \"OK\" gombra annak hozzárendeléséhez. Használja a \"Next / Previous\" gombot a hozzárendelt funkciók sorrendjének megváltoztatásához."
 
+msgid "Select the display design for menus."
+msgstr ""
+
+msgid "Select the display options for each menu entry item. If menu numbers are available then the numbers can be used to directly select specific menu entries directly."
+msgstr ""
+
 msgid "Select the function to be assigned to this button."
 msgstr "Lehetővé teszi a kiválasztott funkció hozzárendelését ehhez a gombhoz."
 
@@ -16177,9 +16204,6 @@ msgstr "Napló megjelenítése"
 msgid "Show Log Manager in extensions list"
 msgstr "Megjelenjen a Log Manager a bővítmények listában?"
 
-msgid "Show Main Menu as"
-msgstr "A főmenü megjelenítése mint"
-
 msgid "Show Media Player in Main Menu"
 msgstr "a Médialejátszó megjelenítése a fő menüben"
 
@@ -16440,9 +16464,6 @@ msgstr "Megjelölt események megjelenítése minden sorban."
 
 msgid "Show menu"
 msgstr "Menü megjelenítése"
-
-msgid "Show menu numbers"
-msgstr "Menü számok mutatása"
 
 msgid "Show message if File Commander is not running and all Task's are completed."
 msgstr "Az üzenet megjelenítése, ha a File Commander nem fut és az összes Feladat befejeződött."
@@ -17184,10 +17205,6 @@ msgid "Sort list:"
 msgstr "Lista rendezése:"
 
 #, fuzzy
-msgid "Sort order for help screen"
-msgstr "Menü bejegyzések rendezése"
-
-#, fuzzy
 msgid "Sort order for the language list."
 msgstr "Menü bejegyzések rendezése"
 
@@ -17284,9 +17301,6 @@ msgstr "Hagyományos (mindig)"
 
 msgid "Standard list"
 msgstr "Hagyományos lista"
-
-msgid "Standard menu"
-msgstr "Normál menü"
 
 msgid "Standby"
 msgstr "Készenlét"
@@ -18617,9 +18631,6 @@ msgstr "Ezzel a beállítással megadhatja, hogy megjelenjenek-e az esemény mű
 
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Ez az opció lehetővé teszi a 3D Surround hang használatát."
-
-msgid "This option allows you to show menu number quick links."
-msgstr "Beállíthatja, hogy a menü számok megjelenjenek-e a menükben."
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Ez az opció lehetővé teszi, hogy az SNR százalékos arányként jelenjen meg (ezt nem minden vevő egység támogatja)."
@@ -19999,6 +20010,9 @@ msgstr "Az esemény állapotának függőleges igazítása."
 
 msgid "Vertical alignment for the service number."
 msgstr "A csatorna számának függőleges igazítása."
+
+msgid "Vertical menu"
+msgstr ""
 
 msgid "Vertical turning speed"
 msgstr "Függőleges fordulási sebesség"
@@ -22967,6 +22981,25 @@ msgstr "ugrás folyamatban"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Choose style of main menus"
+#~ msgstr "Válassza ki a főmenük stílusát"
+
+#~ msgid "Show Main Menu as"
+#~ msgstr "A főmenü megjelenítése mint"
+
+#~ msgid "Show menu numbers"
+#~ msgstr "Menü számok mutatása"
+
+#, fuzzy
+#~ msgid "Sort order for help screen"
+#~ msgstr "Menü bejegyzések rendezése"
+
+#~ msgid "Standard menu"
+#~ msgstr "Normál menü"
+
+#~ msgid "This option allows you to show menu number quick links."
+#~ msgstr "Beállíthatja, hogy a menü számok megjelenjenek-e a menükben."
 
 #~ msgid "Delete Language"
 #~ msgstr "Nyelv törlése"
