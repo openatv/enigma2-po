@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 17:22+0000\n"
-"PO-Revision-Date: 2022-06-13 04:00+0000\n"
+"POT-Creation-Date: 2022-06-16 20:44+0000\n"
+"PO-Revision-Date: 2022-06-17 13:49+0000\n"
 "Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -2794,6 +2794,9 @@ msgstr "Fast geschafft... "
 msgid "Alpha"
 msgstr "Buchstabe"
 
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
 msgid "Alphabetical under headings"
 msgstr "Alphabetisch unter Überschriften"
 
@@ -4557,9 +4560,6 @@ msgstr "Wählen Sie die DVB-Warteverzögerung für die CI-Antwort."
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Wählen Sie das Intervall aus, wie oft eine Verbindung zum IceTV-Server hergestellt werden soll, um nach Updates zu suchen."
 
-msgid "Choose style of main menus"
-msgstr "Wählen Sie die Ansicht für das Hauptmenü."
-
 msgid "Choose the CI protocol operation mode for standard ci or ciplus."
 msgstr "Wählen Sie das CI-Protokoll, für CI-Normal- oder CI-Plus-Module."
 
@@ -4595,8 +4595,8 @@ msgstr ""
 "\n"
 "Mit der Taste TXT (Videotext) erhalten Sie eine virtuelle Tastatur."
 
-msgid "Choose the order in which items are displayed in Help windows"
-msgstr "Wählen Sie die Reihenfolge aus, in der Elemente in Hilfefenstern angezeigt werden."
+msgid "Choose the style/order in which items are displayed in help windows."
+msgstr "Wählen Sie, wie Elemente in Hilfefenstern angezeigt werden."
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Das Zeitintervall einstellen, auf welches die Grafiken gerundet werden sollen."
@@ -7622,6 +7622,18 @@ msgstr "Unterhaltung"
 msgid "Entitlements"
 msgstr "Berechtigungen"
 
+msgid "Entry image and text"
+msgstr ""
+
+msgid "Entry image, number and text"
+msgstr ""
+
+msgid "Entry number and text"
+msgstr ""
+
+msgid "Entry text only"
+msgstr ""
+
 msgid "Epg/Guide"
 msgstr "EPG/INFO"
 
@@ -9139,6 +9151,9 @@ msgstr "Animationsgeschwindigkeit der Hilfeanzeigen"
 
 msgid "Help long"
 msgstr "Hilfe lang"
+
+msgid "Help screen style"
+msgstr ""
 
 msgid "Helps setting up your signal"
 msgstr "Hilft bei der Einrichtung Ihres Signals"
@@ -11176,6 +11191,12 @@ msgstr "Menü-Einstellungen"
 
 msgid "Menu entry sort order"
 msgstr "Sortierung der Menüeinträge"
+
+msgid "Menu entry style"
+msgstr ""
+
+msgid "Menu style"
+msgstr ""
 
 #
 msgid "Merge broadcast EPG with IceTV"
@@ -16128,6 +16149,12 @@ msgstr "Wählen Sie den aktuell markierten Sender"
 msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
 msgstr "Gewünschte Funktion auswählen und OK drücken, um sie zu belegen. Mit P+/CH+ oder P-/CH- zwischen den Listen umschalten. Zugeordnete Funktion auswählen und OK drücken, um die Belegung zu entfernen. Mit '<' oder '>' die Funktionen sortieren."
 
+msgid "Select the display design for menus."
+msgstr ""
+
+msgid "Select the display options for each menu entry item. If menu numbers are available then the numbers can be used to directly select specific menu entries directly."
+msgstr ""
+
 msgid "Select the function to be assigned to this button."
 msgstr "Ausgewählte Funktion der Taste zuweisen."
 
@@ -17150,10 +17177,6 @@ msgstr "Log anzeigen"
 msgid "Show Log Manager in extensions list"
 msgstr "Logverwaltung in Erweiterungen anzeigen"
 
-#
-msgid "Show Main Menu as"
-msgstr "Hauptmenü-Ansicht"
-
 # Mediaplayer Setup
 msgid "Show Media Player in Main Menu"
 msgstr "Mediaplayer im Hauptmenü anzeigen"
@@ -17430,9 +17453,6 @@ msgstr "Bei 'Ja' werden markierte Sendungen in allen Zeilen angezeigt."
 #
 msgid "Show menu"
 msgstr "Historie anzeigen"
-
-msgid "Show menu numbers"
-msgstr "Menüeinträge nummerieren"
 
 msgid "Show message if File Commander is not running and all Task's are completed."
 msgstr "Eine Nachricht anzeigen, wenn der File Commander nicht läuft und alle Aufgaben beendet sind."
@@ -18219,9 +18239,6 @@ msgstr "Liste nach Standard sortieren und beenden?"
 msgid "Sort list:"
 msgstr "Liste sortieren:"
 
-msgid "Sort order for help screen"
-msgstr "Sortierung des Hilfebildschirms"
-
 msgid "Sort order for the language list."
 msgstr "Sortierung der Sprachregion wählen."
 
@@ -18324,9 +18341,6 @@ msgstr "Standard (immer)"
 
 msgid "Standard list"
 msgstr "Standardliste"
-
-msgid "Standard menu"
-msgstr "Standard"
 
 msgid "Standby"
 msgstr "Standby"
@@ -19739,9 +19753,6 @@ msgstr "Bei 'Ja' werden Genreinformationen für die Sendung angezeigt."
 # A/V Settings
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Die Ausgabe von 3D-Surround-Sound aktivieren."
-
-msgid "This option allows you to show menu number quick links."
-msgstr "Bei 'Ja' werden Nummern vor Menüeinträgen für die Schnellanwahl angezeigt."
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Den Signalwert SNR in 'dB' anstatt '%' anzeigen lassen (nicht alle Receiver unterstützen diese Funktion)."
@@ -21246,6 +21257,9 @@ msgstr "Vertikale Ausrichtung des Sendungsfortschrittes."
 
 msgid "Vertical alignment for the service number."
 msgstr "Vertikale Ausrichtung der Sendernummer."
+
+msgid "Vertical menu"
+msgstr ""
 
 # satconfig.py
 msgid "Vertical turning speed"
@@ -24521,6 +24535,28 @@ msgstr "Umschalten"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Choose style of main menus"
+#~ msgstr "Wählen Sie die Ansicht für das Hauptmenü."
+
+#~ msgid "Choose the order in which items are displayed in Help windows"
+#~ msgstr "Wählen Sie die Reihenfolge aus, in der Elemente in Hilfefenstern angezeigt werden."
+
+#
+#~ msgid "Show Main Menu as"
+#~ msgstr "Hauptmenü-Ansicht"
+
+#~ msgid "Show menu numbers"
+#~ msgstr "Menüeinträge nummerieren"
+
+#~ msgid "Sort order for help screen"
+#~ msgstr "Sortierung des Hilfebildschirms"
+
+#~ msgid "Standard menu"
+#~ msgstr "Standard"
+
+#~ msgid "This option allows you to show menu number quick links."
+#~ msgstr "Bei 'Ja' werden Nummern vor Menüeinträgen für die Schnellanwahl angezeigt."
 
 #~ msgid "Delete Language"
 #~ msgstr "Sprache löschen"

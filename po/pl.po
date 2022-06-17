@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 17:22+0000\n"
-"PO-Revision-Date: 2022-06-13 04:00+0000\n"
+"POT-Creation-Date: 2022-06-16 20:44+0000\n"
+"PO-Revision-Date: 2022-06-17 13:49+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -2691,6 +2691,9 @@ msgstr "Prawie gotowe... "
 msgid "Alpha"
 msgstr "Litera"
 
+msgid "Alphabetical"
+msgstr "Alfabetycznie"
+
 msgid "Alphabetical under headings"
 msgstr "Alfabetycznie pod nagłówkami"
 
@@ -4348,9 +4351,6 @@ msgstr "Wybierz opóźnienie dvb w oczekiwaniu na odpowiedź CI."
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Wybierz częstotliwość łączenia się z serwerem IceTV w celu sprawdzenia dostępności aktualizacji."
 
-msgid "Choose style of main menus"
-msgstr "Wybierz styl głównych menu"
-
 msgid "Choose the CI protocol operation mode for standard ci or ciplus."
 msgstr "Wybierz tryb pracy protokołu CI dla standardowego ci lub ciplus."
 
@@ -4375,8 +4375,8 @@ msgstr "Wybierz lokalizację, w której dane EPG zostaną zapisane gdy %s %s jes
 msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
 msgstr "Wybierz nazwę pliku, który przechowuje EPG gdy %s %s jest wyłączony. Może to być przydatne do rozróżniania kilku plików EPG."
 
-msgid "Choose the order in which items are displayed in Help windows"
-msgstr "Wybierz kolejność wyświetlania elementów w oknach Pomocy"
+msgid "Choose the style/order in which items are displayed in help windows."
+msgstr "Wybierz styl/kolejność wyświetlania elementów w oknach pomocy."
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Wybierz przedział czasowy, do którego będą zaokrąglane grafiki."
@@ -7026,16 +7026,16 @@ msgid "Enable to display all True/False, Yes/No, On/Off and Enable/Disable setup
 msgstr "Włącz wyświetlanie wszystkich prawda/fałsz, tak/nie, włączenie/wyłączanie i włączenie/wyłączanie opcji konfiguracji jako przełącznika graficznego."
 
 msgid "Enable to display setup entries alphabetically."
-msgstr ""
+msgstr "Włącz, aby wyświetlić wpisy konfiguracji alfabetycznie."
 
 msgid "Enable to display the Extension menu entries alphabetically."
-msgstr ""
+msgstr "Włącz, aby wyświetlić pozycje menu rozszerzenia w kolejności alfabetycznej."
 
 msgid "Enable to display the current value of the slider at end of the slider bar."
 msgstr "Włącz bieżącą wartość suwaka na końcu paska suwaka."
 
 msgid "Enable to show the 'Restart Network' entry in the Extensions menu."
-msgstr ""
+msgstr "Włącz, aby wyświetlić wpis \"Uruchom ponownie sieć\" w menu Rozszerzenia."
 
 msgid "Enable unlinked bouquets"
 msgstr "Włącz niepowiązane listy kanałów"
@@ -7216,6 +7216,18 @@ msgstr "Rozrywka"
 
 msgid "Entitlements"
 msgstr "Uprawnienia"
+
+msgid "Entry image and text"
+msgstr "Obraz i tekst wpisu"
+
+msgid "Entry image, number and text"
+msgstr "Obrazek wejściowy, numer i tekst"
+
+msgid "Entry number and text"
+msgstr "Numer i tekst wpisu"
+
+msgid "Entry text only"
+msgstr "Tylko tekst wejściowy"
 
 msgid "Epg/Guide"
 msgstr "EPG/Przewodnik"
@@ -8647,6 +8659,9 @@ msgstr "Szybkość animacji wskaźników pomocy"
 
 msgid "Help long"
 msgstr "Pomoc długo"
+
+msgid "Help screen style"
+msgstr "Styl ekranu pomocy"
 
 msgid "Helps setting up your signal"
 msgstr "Pomaga w ustawieniu sygnału"
@@ -10562,6 +10577,12 @@ msgstr "Ustawienia menu"
 
 msgid "Menu entry sort order"
 msgstr "Porządek sortowania dla pozycji menu"
+
+msgid "Menu entry style"
+msgstr "Styl wejścia do menu"
+
+msgid "Menu style"
+msgstr "Styl menu"
 
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Scal transmisję EPG z IceTV"
@@ -14980,7 +15001,7 @@ msgid "Select if the default value for a setup entry is shown and, if so, where 
 msgstr "Ta opcja pozwoli ci wybrać jeśli domyślna wartość ustawień elementu jest widoczna i jeśli jest wyświetlana w relacji do tego opisu."
 
 msgid "Select if the screen menu path history is displayed and, if so, how it is to be displayed."
-msgstr ""
+msgstr "Wybierz, czy historia ścieżki menu ekranu jest wyświetlana, a jeśli tak, to w jaki sposób ma być wyświetlana."
 
 msgid "Select if timeshift must continue when set to record."
 msgstr "Określ jaka akcja ma zostać wykonana w momencie gdy zmienisz kanał, a timeshift jest aktywny."
@@ -15078,6 +15099,12 @@ msgstr "Wybierz aktualnie podświetloną usługę"
 msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
 msgstr "Wybierz żądaną funkcję i kliknij 'OK ', aby go przypisać.Użyj 'CH +/-' aby przełączać między listami.Wybierz przypisaną funkcję i kliknij 'OK ' aby przypisać. Użyj 'następny/poprzedni 'aby zmienić kolejność przypisanych funkcji."
 
+msgid "Select the display design for menus."
+msgstr "Wybierz wygląd dla menu."
+
+msgid "Select the display options for each menu entry item. If menu numbers are available then the numbers can be used to directly select specific menu entries directly."
+msgstr "Wybierz opcje wyświetlania dla każdego elementu menu. Jeśli numery menu są dostępne, numery mogą być używane do bezpośredniego wybierania określonych pozycji menu."
+
 msgid "Select the function to be assigned to this button."
 msgstr "Zezwól na przypisanie wybranej funkcji do tego przycisku."
 
@@ -15136,10 +15163,10 @@ msgid "Select the shifted character set for the next character only"
 msgstr "Wybierz przesunięty zestaw znaków tylko dla następnego znaku"
 
 msgid "Select the sort order of the Plugin Browser menu entries.  User defined also allows the menu entries to be hidden."
-msgstr ""
+msgstr "Wybierz kolejność sortowania wpisów menu Przeglądarka wtyczek.  Zdefiniowane przez użytkownika pozwala również na ukrycie pozycji menu."
 
 msgid "Select the sort order of the menu entries.  User defined also allows the menu entries to be hidden."
-msgstr ""
+msgstr "Wybierz kolejność sortowania pozycji menu.  Zdefiniowane przez użytkownika pozwala również na ukrycie pozycji menu."
 
 msgid "Select the source of the default DNS settings."
 msgstr "Wybierz źródło domyślnych ustawień DNS."
@@ -16027,9 +16054,6 @@ msgstr "Pokaż Log"
 msgid "Show Log Manager in extensions list"
 msgstr "Pokaż Log Managera na liście rozszerzeń"
 
-msgid "Show Main Menu as"
-msgstr "Pokaż menu główne jako"
-
 msgid "Show Media Player in Main Menu"
 msgstr "pokaż odtwarzacz multimedialny w menu głównym"
 
@@ -16288,9 +16312,6 @@ msgstr "Pokaż zaznaczone wydarzenia we wszystkich wierszach."
 
 msgid "Show menu"
 msgstr "Pokaż menu"
-
-msgid "Show menu numbers"
-msgstr "Pokaż numery w menu"
 
 msgid "Show message if File Commander is not running and all Task's are completed."
 msgstr "Pokaż komunikat, jeśli File Commander nie działa i wszystkie zadania są zakończone."
@@ -17023,9 +17044,6 @@ msgstr "Posortować listę domyślnie i wyjść?"
 msgid "Sort list:"
 msgstr "Sortuj listę:"
 
-msgid "Sort order for help screen"
-msgstr "Kolejność sortowania ekranu pomocy"
-
 msgid "Sort order for the language list."
 msgstr "Kolejność sortowania listy języków."
 
@@ -17121,9 +17139,6 @@ msgstr "Standardowo (zawsze)"
 
 msgid "Standard list"
 msgstr "Lista standardowa"
-
-msgid "Standard menu"
-msgstr "Standardowe menu"
 
 msgid "Standby"
 msgstr "Czuwanie"
@@ -18439,9 +18454,6 @@ msgstr "Ta opcja pozwala wybrać, czy wyświetlać informacje o gatunku dla zdar
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Ta opcja umożliwia włączenie dźwięku przestrzennego 3D."
 
-msgid "This option allows you to show menu number quick links."
-msgstr "Ta opcja umożliwia wyświetlanie szybkich linków do numeru menu."
-
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Ta opcja pozwala SNR pokazać jako procentowe (nie wszystkie odbiorniki mają wsparcie )."
 
@@ -19548,7 +19560,7 @@ msgid "Use a gateway"
 msgstr "Użyj bramy"
 
 msgid "Use an alternative smaller screen."
-msgstr "Użyj alternatywnego ekranu"
+msgstr "Użyj alternatywnego mniejszego ekranu."
 
 msgid "Use as HDD"
 msgstr "Użyj jako HDD"
@@ -19804,6 +19816,9 @@ msgstr "Wyrównanie w pionie dla postępu zdarzenia."
 
 msgid "Vertical alignment for the service number."
 msgstr "Wyrównanie w pionie dla numeru kanału."
+
+msgid "Vertical menu"
+msgstr "Menu pionowe"
 
 msgid "Vertical turning speed"
 msgstr "Prędkość skrętu pionowego"
@@ -22760,6 +22775,27 @@ msgstr "przełączanie"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Choose style of main menus"
+#~ msgstr "Wybierz styl głównych menu"
+
+#~ msgid "Choose the order in which items are displayed in Help windows"
+#~ msgstr "Wybierz kolejność wyświetlania elementów w oknach Pomocy"
+
+#~ msgid "Show Main Menu as"
+#~ msgstr "Pokaż menu główne jako"
+
+#~ msgid "Show menu numbers"
+#~ msgstr "Pokaż numery w menu"
+
+#~ msgid "Sort order for help screen"
+#~ msgstr "Kolejność sortowania ekranu pomocy"
+
+#~ msgid "Standard menu"
+#~ msgstr "Standardowe menu"
+
+#~ msgid "This option allows you to show menu number quick links."
+#~ msgstr "Ta opcja umożliwia wyświetlanie szybkich linków do numeru menu."
 
 #~ msgid "Delete Language"
 #~ msgstr "Usuń Język"
