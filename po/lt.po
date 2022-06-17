@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 17:22+0000\n"
-"PO-Revision-Date: 2022-06-16 15:49+0000\n"
+"POT-Creation-Date: 2022-06-16 20:44+0000\n"
+"PO-Revision-Date: 2022-06-17 13:49+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
 "Language: lt\n"
@@ -2686,6 +2686,9 @@ msgstr "Beveik viskas!.. "
 msgid "Alpha"
 msgstr "Permatoma"
 
+msgid "Alphabetical"
+msgstr "Pagal abėcėlę"
+
 msgid "Alphabetical under headings"
 msgstr "Abėcėlės tvarka po antraštėmis"
 
@@ -4345,9 +4348,6 @@ msgstr "Pasirinkite DVB laukimo delsą CI atsakymui."
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Pasirinkite, kaip dažnai prisijungti prie IceTV serverio, kad patikrintumėte atnaujinimus."
 
-msgid "Choose style of main menus"
-msgstr "Pasirinkite pagrindinio meniu stilių"
-
 msgid "Choose the CI protocol operation mode for standard ci or ciplus."
 msgstr "Pasirinkite CI protokolo darbo režimą standartiniam CI arba CIplus."
 
@@ -4372,8 +4372,8 @@ msgstr "Pasirinkite vietą, kur bus saugomi EPG duomenys, kai %s %s išjungtas. 
 msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several boxes."
 msgstr "Pasirinkite failo, kuriame bus EPG duomenys, pavadinimą, kai %s %s išjungtas. Tai gali būti patogu atskirti, naudojant kelis imtuvus."
 
-msgid "Choose the order in which items are displayed in Help windows"
-msgstr "Pasirinkite elementų rodymo žinyno languose tvarką"
+msgid "Choose the style/order in which items are displayed in help windows."
+msgstr "Pasirinkite stilių / tvarką, kuria elementai rodomi žinyno languose."
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Pasirinkite laiko intervalą, per kurį bus apvalinama grafika."
@@ -4783,7 +4783,7 @@ msgid "Configure the display resolution and the font used for teletext."
 msgstr "Konfigūruokite ekrano rezoliuciją ir šriftą, naudojamą teletekstui."
 
 msgid "Configure the duration in minutes before the screen saver will be displayed."
-msgstr "Konfigūruokite trukmę minutėmis, po kurios įsijungs ekrano užsklanda."
+msgstr "Konfigūruokite trukmę minutėmis prieš rodydami ekrano užsklandą."
 
 msgid "Configure the duration, in minutes, before the energy saver timer activates."
 msgstr "Sukonfigūruokite trukmę minutėmis, prieš aktyvuojant energijos taupymo laikmatį."
@@ -7026,19 +7026,19 @@ msgid "Enable this setting if your aerial system needs power"
 msgstr "Įjunkite šį nustatymą, jei jūsų antenos sistemai reikia galios"
 
 msgid "Enable to display all True/False, Yes/No, On/Off and Enable/Disable setup options as a graphical switch."
-msgstr "Įgalinti rodyti visas teisinga/klaidinga, taip/ne, įjungti/išjungti nustatymo parinktis kaip grafinį jungiklį."
+msgstr "Įgalinkite rodyti visas True/False, Yes/Ne, On/Off ir Enable/Disable sąrankos parinktis kaip grafinį jungiklį."
 
 msgid "Enable to display setup entries alphabetically."
-msgstr ""
+msgstr "Įgalinti, kad nustatymo įrašai būtų rodomi abėcėlės tvarka."
 
 msgid "Enable to display the Extension menu entries alphabetically."
-msgstr ""
+msgstr "Įgalinti, kad meniu Plėtinys įrašai būtų rodomi abėcėlės tvarka."
 
 msgid "Enable to display the current value of the slider at end of the slider bar."
-msgstr "Slankiklio juostos gale įrašykite dabartinę slankiklio reikšmę."
+msgstr "Įgalinti, kad slankiklio juostos gale būtų rodoma dabartinė slankiklio reikšmė."
 
 msgid "Enable to show the 'Restart Network' entry in the Extensions menu."
-msgstr ""
+msgstr "Įgalinti, kad meniu Plėtiniai būtų rodomas įrašas 'Iš naujo paleisti tinklą'."
 
 msgid "Enable unlinked bouquets"
 msgstr "Įjungti daugiau paketų"
@@ -7219,6 +7219,18 @@ msgstr "Pramogos"
 
 msgid "Entitlements"
 msgstr "Pavadinimai"
+
+msgid "Entry image and text"
+msgstr "Įrašo vaizdas ir tekstas"
+
+msgid "Entry image, number and text"
+msgstr "Įrašo vaizdas, skaičius ir tekstas"
+
+msgid "Entry number and text"
+msgstr "Įrašo numeris ir tekstas"
+
+msgid "Entry text only"
+msgstr "Tik įrašo tekstas"
 
 msgid "Epg/Guide"
 msgstr "EPG /Vadovas"
@@ -8648,10 +8660,13 @@ msgid "Help Screen Information"
 msgstr "Žinyno ekrano informacija"
 
 msgid "Help animation speed"
-msgstr "Pagalbos indikatorių animacijos greitis"
+msgstr "Pagalbos animacijos greitis"
 
 msgid "Help long"
 msgstr "Pagalba (ilgai spausti)"
+
+msgid "Help screen style"
+msgstr "Žinyno ekrano stilius"
 
 msgid "Helps setting up your signal"
 msgstr "Padės suderinti jūsų signalą"
@@ -10564,7 +10579,13 @@ msgid "Menu config"
 msgstr "Meniu konfigūracija"
 
 msgid "Menu entry sort order"
-msgstr "Meniu rūšiavimo tvarka"
+msgstr "Meniu įrašų rūšiavimo tvarka"
+
+msgid "Menu entry style"
+msgstr "Meniu įrašo stilius"
+
+msgid "Menu style"
+msgstr "Meniu stilius"
 
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Sujungti EPG transliaciją su „IceTV“"
@@ -14979,10 +15000,10 @@ msgid "Select how your box will upgrade."
 msgstr "Pasirinkite, kaip bus atnaujinama."
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
-msgstr "Ši pasirinktis leidžia pasirinkti, ar rodoma numatytoji nustatymo prekės vertė ir, jei taip, kur ji rodoma aprašymo atžvilgiu."
+msgstr "Pasirinkite, ar rodoma numatytoji nustatymo įrašo vertė ir, jei taip, kur ji rodoma atsižvelgiant į aprašą."
 
 msgid "Select if the screen menu path history is displayed and, if so, how it is to be displayed."
-msgstr ""
+msgstr "Pasirinkite, ar rodoma ekrano meniu maršrutų retrospektyva ir, jei taip, kaip ji turi būti rodoma."
 
 msgid "Select if timeshift must continue when set to record."
 msgstr "Pasirinkite, ar laiko poslinkis bus tęsiamas, kai nustatytas įrašymas."
@@ -15063,7 +15084,7 @@ msgid "Select the Yes / True response"
 msgstr "Pasirinkite taip / Teisingą atsakymą"
 
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
-msgstr "Žinyno ekrane valdykite mygtuko indikatorių animacijos greitį. \"Išjungta\" išjungia animaciją, kad indikatoriai šokinėtų tarp mygtukų."
+msgstr "Žinyno ekranuose pasirinkite mygtukų indikatorių animacijos greitį. \"Išjungta\" išjungia animaciją, kad indikatoriai šokinėtų tarp mygtukų."
 
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Pasirinkite simbolį arba veiksmą po klaviatūros žymekliu"
@@ -15079,6 +15100,12 @@ msgstr "Pasirinkite šiuo metu pažymėtą paslaugą"
 
 msgid "Select the desired function and click on \"OK\" to assign it. Use \"CH+/-\" to toggle between the lists. Select an assigned function and click on \"OK\" to de-assign it. Use \"Next/Previous\" to change the order of the assigned functions."
 msgstr "Pasirinkite norimą funkciją ir kad ją priskirti, spauskite 'OK'. Perjungti tarp sąrašų, naudokite kanalų '+/-' mygtukus. Pasirinkite priskirtą funkciją ir jai per-priskirti spauskite 'OK'. Pakeisti priskirtų funkcijų tvarkai, naudokite \"Kitas/Ankstesnis\" ."
+
+msgid "Select the display design for menus."
+msgstr "Pasirinkite meniu rodymo dizainą."
+
+msgid "Select the display options for each menu entry item. If menu numbers are available then the numbers can be used to directly select specific menu entries directly."
+msgstr "Pasirinkite kiekvienos meniu įrašo elemento rodymo parinktis. Jei yra meniu numerių, numerius galima naudoti tiesiogiai pasirinkti konkrečius meniu įrašus."
 
 msgid "Select the function to be assigned to this button."
 msgstr "Pasirinkite funkciją, kuri bus priskirta šiam mygtukui."
@@ -15138,10 +15165,10 @@ msgid "Select the shifted character set for the next character only"
 msgstr "Pasirinkite paslinktų simbolių rinkinį tik kitam simboliui"
 
 msgid "Select the sort order of the Plugin Browser menu entries.  User defined also allows the menu entries to be hidden."
-msgstr ""
+msgstr "Pasirinkite papildinių naršyklės meniu įrašų rūšiavimo tvarką.  Vartotojo apibrėžtas taip pat leidžia paslėpti meniu įrašus."
 
 msgid "Select the sort order of the menu entries.  User defined also allows the menu entries to be hidden."
-msgstr ""
+msgstr "Pasirinkite meniu įrašų rūšiavimo tvarką.  Vartotojo apibrėžtas taip pat leidžia paslėpti meniu įrašus."
 
 msgid "Select the source of the default DNS settings."
 msgstr "Pasirinkite numatytųjų DNS parametrų šaltinį."
@@ -15672,7 +15699,7 @@ msgid "Settings"
 msgstr "Nustatymai"
 
 msgid "Settings mode"
-msgstr "Valdymo režimas"
+msgstr "Parametrų režimas"
 
 msgid "Settings..."
 msgstr "Nustatymai..."
@@ -15766,7 +15793,7 @@ msgid "Setup each tuner for your satellite system"
 msgstr "Nustatykite kiekvieną imtuvą pagal savus suderintus palydovus"
 
 msgid "Setup entry sort"
-msgstr "Rūšiuoti nustatymo ekranus pagal abėcėlę"
+msgstr "Nustatyti įrašo rūšiavimą"
 
 msgid "Setup how to control the channel changing."
 msgstr "Sukonfigūruoti kaip kontroliuoti kanalo pasikeitimą."
@@ -16029,9 +16056,6 @@ msgstr "Loginis žurnalas"
 msgid "Show Log Manager in extensions list"
 msgstr "Rodyti žurnalo tvarkyklę plėtinių sąraše"
 
-msgid "Show Main Menu as"
-msgstr "Rodyti pagrindinį meniu kaip"
-
 msgid "Show Media Player in Main Menu"
 msgstr "Medija grotuvą rodyti pagrindiniame meniu"
 
@@ -16108,7 +16132,7 @@ msgid "Show WLAN status"
 msgstr "Rodyti belaidžio tinklo būseną"
 
 msgid "Show a spinning logo when the system is busy."
-msgstr "Rodyti suktuko logotipą, kai sistema yra užimta."
+msgstr "Rodyti besisukantį logotipą, kai sistema užimta."
 
 msgid "Show additional slider value"
 msgstr "Rodyti papildomą slankiklio reikšmę"
@@ -16290,9 +16314,6 @@ msgstr "Rodyti pažymėtus įvykius visose eilutėse."
 
 msgid "Show menu"
 msgstr "Rodyti meniu"
-
-msgid "Show menu numbers"
-msgstr "Rodyti meniu numerius"
 
 msgid "Show message if File Commander is not running and all Task's are completed."
 msgstr "Rodyti pranešimą, jei Failų valdytojas neveikia ir visos užduotys yra baigtos."
@@ -17004,10 +17025,10 @@ msgid "Sort EPG List"
 msgstr "Rūšiuoti EPG sąrašą"
 
 msgid "Sort Extensions menu"
-msgstr "Rūšiuoti plėtinių sąrašą pagal abėcėlę"
+msgstr "Meniu Rūšiuoti plėtinius"
 
 msgid "Sort Plugin Browser"
-msgstr "Rūšiuoti priedus įrašų naršyklėje"
+msgstr "Rūšiuoti priedų naršyklę"
 
 msgid "Sort by"
 msgstr "Rūšiuoti pagal"
@@ -17023,9 +17044,6 @@ msgstr "Rūšiuoti sąrašą numatytąja tvarka ir užverti?"
 
 msgid "Sort list:"
 msgstr "Rūšiuoti sąrašą:"
-
-msgid "Sort order for help screen"
-msgstr "Žinyno ekrano rūšiavimo tvarka"
 
 msgid "Sort order for the language list."
 msgstr "Kalbų sąrašo rūšiavimo tvarka."
@@ -17122,9 +17140,6 @@ msgstr "Standartas (visada)"
 
 msgid "Standard list"
 msgstr "Standartinis sąrašas"
-
-msgid "Standard menu"
-msgstr "Standartinis meniu"
 
 msgid "Standby"
 msgstr "Budėjimo režimas"
@@ -17690,7 +17705,7 @@ msgid "TEXT"
 msgstr "TEKSTAS"
 
 msgid "TRANSLATOR_INFO"
-msgstr "2022-06-14 adga45@gmail.com"
+msgstr "2022-06-17 adga45@gmail.com"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS failas yra per didelis ISO9660 lygmeniui 1!"
@@ -18437,9 +18452,6 @@ msgstr "Ši pasirinktis leidžia pasirinkti, rodyti, ar ne įvykio žanro inform
 
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Ši parinktis leidžia įjungti 3D erdvinį garsą."
-
-msgid "This option allows you to show menu number quick links."
-msgstr "Ši parinktis leidžia jums parodyti greitų nuorodų meniu numerį."
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Ši parinktis leidžia jums rodyti SNR procentais (ne visi imtuvai tai palaiko)."
@@ -19803,6 +19815,9 @@ msgstr "Vertikalus įvykio eigos lygiavimas."
 
 msgid "Vertical alignment for the service number."
 msgstr "Vertikalus kanalo numerio lygiavimas."
+
+msgid "Vertical menu"
+msgstr "Vertikalus meniu"
 
 msgid "Vertical turning speed"
 msgstr "Vertikalaus sukimosi greitis"
@@ -22759,6 +22774,27 @@ msgstr "perjungimas"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Choose style of main menus"
+#~ msgstr "Pasirinkite pagrindinio meniu stilių"
+
+#~ msgid "Choose the order in which items are displayed in Help windows"
+#~ msgstr "Pasirinkite elementų rodymo žinyno languose tvarką"
+
+#~ msgid "Show Main Menu as"
+#~ msgstr "Rodyti pagrindinį meniu kaip"
+
+#~ msgid "Show menu numbers"
+#~ msgstr "Rodyti meniu numerius"
+
+#~ msgid "Sort order for help screen"
+#~ msgstr "Žinyno ekrano rūšiavimo tvarka"
+
+#~ msgid "Standard menu"
+#~ msgstr "Standartinis meniu"
+
+#~ msgid "This option allows you to show menu number quick links."
+#~ msgstr "Ši parinktis leidžia jums parodyti greitų nuorodų meniu numerį."
 
 #~ msgid "Delete Language"
 #~ msgstr "Trinti kalbą"
