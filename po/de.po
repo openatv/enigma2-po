@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-16 20:44+0000\n"
-"PO-Revision-Date: 2022-06-19 05:18+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"PO-Revision-Date: 2022-06-20 05:16+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -62,10 +62,8 @@ msgstr ""
 "\n"
 "<Dieser Tuner wird automatisch verwaltet>"
 
-msgid ""
-"Advanced options and settings."
-msgstr ""
-"Erweiterte Optionen und Einstellungen."
+msgid "Advanced options and settings."
+msgstr "Erweiterte Optionen und Einstellungen."
 
 #
 msgid ""
@@ -77,9 +75,11 @@ msgstr ""
 
 #, python-format
 msgid ""
+"\n"
 "Backup your %s %s settings."
 msgstr ""
-"Sichern der %s %s-Einstellungen."
+"\n"
+"Einstellungen Ihrer %s %s sichern."
 
 #, python-format
 msgid ""
@@ -89,10 +89,11 @@ msgstr ""
 "\n"
 "Sicherung des laufenden Images Ihrer %s %s auf Festplatte oder USB."
 
-#
 msgid ""
+"\n"
 "Edit the upgrade source address."
 msgstr ""
+"\n"
 "Adresse der Updatequelle bearbeiten."
 
 # /SoftwareManager/Flash_online.py
@@ -105,9 +106,11 @@ msgstr ""
 "Online-/Lokales flashen Ihrer %s %s."
 
 msgid ""
+"\n"
 "Maintain your multi boot device."
 msgstr ""
-"Verwalten Sie Ihr Multiboot-Gerät."
+"\n"
+"Ihr Multiboot-Gerät verwalten."
 
 #
 #, python-format
@@ -144,28 +147,30 @@ msgstr ""
 
 #, python-format
 msgid ""
+"\n"
 "Restore your %s %s settings."
 msgstr ""
-"Wiederherstellen der %s %s-Einstellungen."
+"\n"
+"Einstellungen Ihrer %s %s wiederherstellen."
 
-#
 #, python-format
 msgid ""
+"\n"
 "Restore your %s %s with a new firmware."
 msgstr ""
-"Wiederherstellen der %s %s mit einer neuen Firmware."
+"\n"
+"Ihre %s %s mit einer neuen Firmware wiederherstellen."
 
 #
-msgid ""
-"Restore your backups by date."
-msgstr ""
-"Wiederherstellen der nach Datum sortierten Sicherungen."
+msgid "Restore your backups by date."
+msgstr "Wiederherstellen der nach Datum sortierten Sicherungen."
 
-#
 msgid ""
+"\n"
 "Scan for local extensions and install them."
 msgstr ""
-"Nach lokalen Erweiterungen suchen und diese installieren."
+"\n"
+"Nach lokalen Erweiterungen suchen, die Sie installieren können."
 
 #
 msgid ""
@@ -177,11 +182,12 @@ msgstr ""
 "Wählen Sie das Sicherungsgerät.\n"
 "Aktuelles Gerät: "
 
-#
 msgid ""
+"\n"
 "View, install and remove available or installed packages."
 msgstr ""
-"Anzeigen, installieren und entfernen verfügbarer oder installierter Pakete."
+"\n"
+"Anzeigen, installieren oder entfernen verfügbarer oder installierter Pakete."
 
 msgid ""
 "\n"
@@ -4578,7 +4584,7 @@ msgstr ""
 "Mit der Taste TXT (Videotext) erhalten Sie eine virtuelle Tastatur."
 
 msgid "Choose the style/order in which items are displayed in help windows."
-msgstr "Wählen Sie, wie Elemente in Hilfefenstern angezeigt werden."
+msgstr "Wählen Sie, wie Elemente in Hilfefenstern angezeigt werden sollen."
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Das Zeitintervall einstellen, auf welches die Grafiken gerundet werden sollen."
@@ -8490,13 +8496,13 @@ msgid "Flashing image successful"
 msgstr "Flashen vom Image war erfolgreich!"
 
 msgid "Flat alphabetical"
-msgstr "Flach alphabetisch"
+msgstr "Alphabetisch"
 
 msgid "Flat by key group on remote"
-msgstr "Flach nach Anordnung auf der Fernbedienung"
+msgstr "Nach Anordnung auf der Fernbedienung"
 
 msgid "Flat by position on remote"
-msgstr "Flach nach Position auf der Fernbedienung"
+msgstr "Nach Position auf der Fernbedienung"
 
 #
 msgid "Following tasks will be done after you press OK!"
@@ -15615,7 +15621,7 @@ msgid "Scan files..."
 msgstr "Dateien durchsuchen..."
 
 msgid "Scan for local extensions and install them"
-msgstr "Lokale Erweiterungen anzeigen, die Sie installieren können"
+msgstr "Nach lokalen Erweiterungen suchen, die Sie installieren können"
 
 #
 msgid "Scan wireless networks"
@@ -24519,6 +24525,34 @@ msgstr "Umschalten"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Backup your %s %s settings."
+#~ msgstr "Sichern der %s %s-Einstellungen."
+
+#
+#~ msgid "Edit the upgrade source address."
+#~ msgstr "Adresse der Updatequelle bearbeiten."
+
+#~ msgid "Maintain your multi boot device."
+#~ msgstr "Verwalten Sie Ihr Multiboot-Gerät."
+
+#, python-format
+#~ msgid "Restore your %s %s settings."
+#~ msgstr "Wiederherstellen der %s %s-Einstellungen."
+
+#
+#, python-format
+#~ msgid "Restore your %s %s with a new firmware."
+#~ msgstr "Wiederherstellen der %s %s mit einer neuen Firmware."
+
+#
+#~ msgid "Scan for local extensions and install them."
+#~ msgstr "Nach lokalen Erweiterungen suchen und diese installieren."
+
+#
+#~ msgid "View, install and remove available or installed packages."
+#~ msgstr "Anzeigen, installieren und entfernen verfügbarer oder installierter Pakete."
 
 #~ msgid "Choose style of main menus"
 #~ msgstr "Wählen Sie die Ansicht für das Hauptmenü."
