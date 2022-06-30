@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 20:16+0000\n"
+"POT-Creation-Date: 2022-06-30 19:40+0000\n"
 "PO-Revision-Date: 2022-06-13 04:00+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -856,6 +856,14 @@ msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
 #, python-format
+msgid "%d DMIPS per core"
+msgstr ""
+
+#, python-format
+msgid "%d DMIPS with %d cores"
+msgstr ""
+
+#, python-format
 msgid "%d GB"
 msgstr "%d GB"
 
@@ -1211,6 +1219,10 @@ msgid "%s Setup"
 msgstr "%s Nastavenie"
 
 #, python-format
+msgid "%s View"
+msgstr ""
+
+#, python-format
 msgid "%s additional screens"
 msgstr "%s prídavné obrazovky"
 
@@ -1221,10 +1233,6 @@ msgstr "%s bolo aktivované."
 #, python-format
 msgid "%s has been disabled."
 msgstr "%s bolo deaktivované."
-
-#, python-format
-msgid "%s information"
-msgstr "%s informácia"
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1321,6 +1329,10 @@ msgstr "(úloh: %d)"
 
 msgid "(1 job)"
 msgstr "(1 úloha)"
+
+#, python-format
+msgid "(Access to the '%s' commit log requires an Internet connection.)"
+msgstr "Prístup do %s odovzdaných záznamov vyžaduje pripojenie na internet."
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -2151,10 +2163,6 @@ msgstr "Prístupový bod"
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Prístup ku geograf. lokalizačným informáciám vyžaduje pripojenie na internet."
 
-#, python-format
-msgid "(Access to the '%s' commit log requires an Internet connection.)"
-msgstr "Prístup do %s odovzdaných záznamov vyžaduje pripojenie na internet."
-
 msgid "Accessed:"
 msgstr "Pristupované:"
 
@@ -2217,9 +2225,6 @@ msgstr "Aktivovať koniec timeshiftu a pozastaviť"
 
 msgid "Active"
 msgstr "Aktívne"
-
-msgid "Active Streaming Clients"
-msgstr "Aktívne streamujúci klienti"
 
 msgid "Active clients"
 msgstr "Aktívni klienti"
@@ -2619,10 +2624,6 @@ msgstr "Prázdny názov súboru je neplatný."
 
 msgid "An error occurred while downloading the packetlist. Please try again."
 msgstr "Chyba pri sťahovaní zoznamu balíčkov. Prosím skúste to znova."
-
-#, python-format
-msgid "An error occurred, error code %d, please try again later."
-msgstr "Nastala chyba, ktorá má kód %d, prosím skúste znovu neskôr."
 
 msgid "An unknown error occurred!"
 msgstr "Nastala neznáma chyba!"
@@ -3296,6 +3297,13 @@ msgstr "Belgicko"
 msgid "Belize"
 msgstr "Belize"
 
+msgid "Benchmark Information"
+msgstr ""
+
+#, python-format
+msgid "Benchmark information for %s %s"
+msgstr ""
+
 msgid "Bengali"
 msgstr "Bengálsky"
 
@@ -3441,8 +3449,11 @@ msgstr "Jas (pohotovostný režim)"
 msgid "British Indian Ocean Territory"
 msgstr "Britské indickooceánske územie"
 
-msgid "Broadcast"
-msgstr "Vysielanie"
+msgid "Broadcast address"
+msgstr ""
+
+msgid "Broadcast systems"
+msgstr ""
 
 msgid "Broadcom"
 msgstr "Broadcom"
@@ -3472,8 +3483,9 @@ msgstr "Zostavenie pre model"
 msgid "Build information"
 msgstr "Informácia o zostavení"
 
-msgid "Build information for"
-msgstr "Informácia o zostavení pre"
+#, python-format
+msgid "Build information for %s %s"
+msgstr ""
 
 #, python-format
 msgid "Build: %s"
@@ -3655,14 +3667,24 @@ msgstr "Hlavné menu pre výber CI"
 msgid "CPU"
 msgstr "CPU"
 
+#, python-format
+msgid "CPU / Core %d type"
+msgstr ""
+
 msgid "CPU architecture"
 msgstr "Architektúra CPU"
+
+msgid "CPU benchmark"
+msgstr ""
 
 msgid "CPU brand"
 msgstr "Značka CPU"
 
 msgid "CPU priority for script execution"
 msgstr "Priorita CPU pre vykonávanie skriptu"
+
+msgid "CPU rating"
+msgstr ""
 
 msgid "CPU speed/cores"
 msgstr "Rýchlosť/jadrá CPU"
@@ -3696,6 +3718,12 @@ msgstr "Vypočítať a zobraziť veľkosť priečinka: Poznámka: táto voľba 
 
 msgid "Calculate file checksums"
 msgstr "Vypočítať kontrolné súčty súboru"
+
+msgid "Calculating benchmark..."
+msgstr ""
+
+msgid "Calculating rating..."
+msgstr ""
 
 msgid "Calculation complete"
 msgstr "Prepočítavanie dokončené"
@@ -4458,11 +4486,14 @@ msgstr "Príkaz na spustenie"
 msgid "Command type"
 msgstr "Typ príkazu"
 
-msgid "Commit Information"
-msgstr "Informácia o odoslaní"
-
 msgid "Commit Information Actions"
 msgstr "Akcie informácie o odoslaní"
+
+msgid "Commit Log"
+msgstr ""
+
+msgid "Commit Log Information"
+msgstr ""
 
 msgid "Commit Logs"
 msgstr "Záznamy o odoslaní"
@@ -5083,15 +5114,15 @@ msgstr "Krajina pre informáciu o žánri v EPG"
 msgid "Country for EPG event rating information"
 msgstr "Krajina pre informáciu o hodnotení v EPG"
 
+#, python-format
+msgid "Crash %d/%d"
+msgstr ""
+
 msgid "Crash Logs"
 msgstr "Záznamy o páde"
 
 msgid "Crash at skin error for debug reasons"
 msgstr "Pád pri chybe vzhľadu kvôli ladeniu"
-
-#, python-format
-msgid "Crash log '%s' (%d/%d)"
-msgstr "Záznam o páde '%s' (%d/%d)"
 
 msgid "Create"
 msgstr "Vytvoriť"
@@ -5181,6 +5212,9 @@ msgstr "Mena"
 
 msgid "Current"
 msgstr "Aktuálne"
+
+msgid "Current 1/1"
+msgstr ""
 
 msgid "Current Affairs"
 msgstr "Aktuálne aféry"
@@ -5325,6 +5359,9 @@ msgstr "DTS/DTS-HD HR/DTS-HD MA/DTS:X"
 msgid "DUAL LAYER DVD"
 msgstr "DVOJVRSTVOVÉ DVD"
 
+msgid "DVB API version"
+msgstr ""
+
 msgid "DVB CI Delay"
 msgstr "Oneskorenie DVB CI"
 
@@ -5393,6 +5430,10 @@ msgstr "Štýl dátumu"
 
 msgid "Date/time input"
 msgstr "Zadanie dátumu/času"
+
+#, python-format
+msgid "Date: %s   Author: %s"
+msgstr ""
 
 msgid "Day D Mon"
 msgstr "Deň D Mes."
@@ -5535,12 +5576,24 @@ msgstr "Názov dňa Year/MM/DD"
 msgid "Deactivate"
 msgstr "Deaktivovať"
 
+#, python-format
+msgid "Debug %d/%d"
+msgstr ""
+
+msgid "Debug Information"
+msgstr ""
+
+msgid "Debug Log"
+msgstr ""
+
+msgid "Debug Log Information"
+msgstr ""
+
+msgid "Debug Log Information Actions"
+msgstr ""
+
 msgid "Debug Logs"
 msgstr "Záznamy o ladení"
-
-#, python-format
-msgid "Debug log '%s' (%d/%d)"
-msgstr "Záznam pre ladenie '%s' (%d/%d)"
 
 msgid "Debug log time format *"
 msgstr "Formát času v zázname pre ladenie *"
@@ -5743,8 +5796,8 @@ msgstr "Vymazať časovač"
 msgid "Delete all log files"
 msgstr "Vymazať všetky súbory so záznamom"
 
-msgid "Delete all logfiles"
-msgstr "Vymazať všetky súbory so záznamom"
+msgid "Delete all logs"
+msgstr ""
 
 msgid "Delete all tags"
 msgstr "Vymazať všetky tagy"
@@ -5779,8 +5832,8 @@ msgstr "Vymazať súbor alebo priečinok (a všetok jeho obsah)"
 msgid "Delete folder"
 msgstr "Vymazať priečinok"
 
-msgid "Delete logfile"
-msgstr "Vymazať súbor so záznamom"
+msgid "Delete log"
+msgstr ""
 
 msgid "Delete or Wipe the highlighted slot"
 msgstr "Vymazať alebo vyčistiť zvýraznený slot"
@@ -5871,15 +5924,6 @@ msgstr "Odznačené balíky sa vyskytnú vtedy, keď nie sú pribalené balíky 
 
 msgid "Detail of GStreamer log"
 msgstr "Vymazať záznam súčasti GStreamer"
-
-msgid "Detected drives"
-msgstr "Zistené jednotky"
-
-msgid "Detected network servers"
-msgstr "Zistené sieťové servery"
-
-msgid "Detected tuners"
-msgstr "Zistené tunery"
 
 msgid "Device Manager"
 msgstr "Správca zariadení"
@@ -6075,20 +6119,8 @@ msgstr "Zobrazenie a používateľské rozhranie"
 msgid "Display message before playing next movie"
 msgstr "Zobrazovať správu pred prehrávaním ďalšieho filmu"
 
-msgid "Display next commit log"
-msgstr "Zobraziť ďalší záznam o odoslaní"
-
-msgid "Display next system information screen"
-msgstr "Zobraziť ďalšiu obrazovku so systémovou informáciou"
-
 msgid "Display oscam information."
 msgstr "Zobraziť informáciu OSCAM."
-
-msgid "Display previous commit log"
-msgstr "Zobraziť predchádzajúci záznam o odoslaní"
-
-msgid "Display previous system information screen"
-msgstr "Zobraziť predchádzajúcu obrazovku so systémovými informáciami"
 
 msgid "Display selection list as a selection menu"
 msgstr "Zobraziť zoznam výberu ako ponuku výberu"
@@ -6110,6 +6142,10 @@ msgstr "Typ displeja"
 
 msgid "Distribution"
 msgstr "Distribúcia"
+
+#, python-format
+msgid "Distribution '%s' information for %s %s"
+msgstr ""
 
 msgid "Distribution architecture"
 msgstr "Architektúra distribúcie"
@@ -6281,15 +6317,15 @@ msgstr "Chcete túto zostavu napáliť na DVD?"
 msgid "Do you want to continue?"
 msgstr "Chcete pokračovať?"
 
-msgid "Do you want to delete all the log files?"
-msgstr "Chcete vymazať všetky súbory so záznamom?"
-
 msgid ""
 "Do you want to delete all selected files:\n"
 "(choose 'No' to only delete the currently selected file.)"
 msgstr ""
 "Chcete vymazať všetky vybrané súbory:\n"
 "(vyberte 'Nie' pre vymazanie len aktuálne vybraných súborov.)"
+
+msgid "Do you want to delete all the log files?"
+msgstr "Chcete vymazať všetky súbory so záznamom?"
 
 msgid "Do you want to delete the old settings in /etc/enigma2 first?"
 msgstr "Chcete najskôr vymazať pôvodné nastavenia v priečinku /etc/enigma2?"
@@ -6415,6 +6451,9 @@ msgstr[2] "Dokončené - bolo nainštalovaných, aktualizovaných alebo odstrán
 msgid "Down"
 msgstr "Nadol"
 
+msgid "Down / Inactive"
+msgstr ""
+
 msgid "Download Plugins"
 msgstr "Stiahnuť pluginy"
 
@@ -6468,12 +6507,6 @@ msgstr "ovládače"
 
 msgid "Drivers version"
 msgstr "Verzia ovládača"
-
-msgid "Drives Information"
-msgstr "Informácia o jednotkách"
-
-msgid "Drives information"
-msgstr "Informácia o jednotkách"
 
 msgid "Duplex"
 msgstr "Duplex"
@@ -6880,6 +6913,9 @@ msgstr "Povolením tejto možnosti pridáte do súboru denníka ladenia názvy o
 msgid "Enable this setting if your aerial system needs power"
 msgstr "Ak váš anténny systém vyžaduje energiu, zapnite toto nastavenie"
 
+msgid "Enable to add some extra spacing to the Information screens.  This can improve readability."
+msgstr ""
+
 msgid "Enable to display all True/False, Yes/No, On/Off and Enable/Disable setup options as a graphical switch."
 msgstr "Zapnúť pre zobrazenie všetkých volieb a nastavení typu pravda/nepravda, áno/nie, zap./vyp. a zapnúť/vypnúť vo forme grafického prepínača."
 
@@ -7036,9 +7072,6 @@ msgstr "Zadať režim výberu viacerých súborov"
 msgid "Enter number to jump to channel"
 msgstr "Zadajte číslo pre preskočenie na kanál"
 
-msgid "Enter number to select screen"
-msgstr "Obrazovku vyberiete zadaním čísla"
-
 msgid "Enter persistent PIN code"
 msgstr "Zadať trvalý kód PIN"
 
@@ -7110,8 +7143,8 @@ msgid "Error %d: Log file '%s' not deleted!  (%s)"
 msgstr "Chyba %d: Súbor so záznamom '%s' nebol vymazaný! (%s)"
 
 #, python-format
-msgid "Error %d: The logfile '%s' could not be opened.  (%s)"
-msgstr "Chyba %d: súbor so záznamom '%s' sa nedal otvoriť.  (%s)"
+msgid "Error %d: System information file '%s' can't be read!  (%s)"
+msgstr ""
 
 #, python-format
 msgid "Error %d: Unable to change password!  (%s)"
@@ -7124,6 +7157,10 @@ msgstr "Chyba %d. nemožno vymazať stiahnutý image '%s'!  (%s)"
 #, python-format
 msgid "Error %d: Unable to start 'passwd' command!"
 msgstr "Chyba %d: nemožno spustiť príkaz 'passwd'!"
+
+#, python-format
+msgid "Error %s: Unable to retrieve the '%s' file!  (%s)"
+msgstr ""
 
 #, python-format
 msgid "Error '%s' encountered retrieving the '%s' commit log!"
@@ -7557,6 +7594,9 @@ msgstr "FCC aktivované"
 msgid "FEC"
 msgstr "FEC"
 
+msgid "FEC modes"
+msgstr ""
+
 msgid "FFmpeg version"
 msgstr "Verzia FFmpeg"
 
@@ -7817,6 +7857,9 @@ msgstr "Viac informácií nájdete na %s"
 msgid "Find similar events in the EPG"
 msgstr "Nájsť podobné udalosti v EPG"
 
+msgid "Finding available log files, please wait..."
+msgstr ""
+
 msgid "Fine movement"
 msgstr "Jemný pohyb"
 
@@ -8017,6 +8060,9 @@ msgstr "Frekvencia:"
 msgid "Frequency bands"
 msgstr "Frekvenčné pásma"
 
+msgid "Frequency range"
+msgstr ""
+
 msgid "Frequency scan step size(khz)"
 msgstr "Frekvenčný krok pri vyhľadávaní (kHz)"
 
@@ -8175,6 +8221,10 @@ msgstr "Zemepisná poloha bola použitá na nastavenie časovej zóny."
 
 msgid "Geolocation information cannot be retrieved, please try again later."
 msgstr "Informáciu o geograf. lokalizácii nemožno prevziať, prosím skúste to neskôr."
+
+#, python-format
+msgid "Geolocation information for %s %s"
+msgstr ""
 
 msgid "Geolocation is not available."
 msgstr "Zemepisná poloha nie je dostupná."
@@ -8761,9 +8811,6 @@ msgstr "Režim tlačidla INFO"
 msgid "INS"
 msgstr "INS"
 
-msgid "IP"
-msgstr "IP"
-
 msgid "IP address"
 msgstr "IP adresa"
 
@@ -8772,6 +8819,9 @@ msgstr "IP:"
 
 msgid "IPK Installer"
 msgstr "Inštalátor balíčkov IPK"
+
+msgid "IPv6 address"
+msgstr ""
 
 msgid "ISO file is too large for this filesystem!"
 msgstr "Súbor ISO je pre tento súborový systém príliš veľký!"
@@ -9248,6 +9298,9 @@ msgstr "Inštalovať"
 #, python-format
 msgid "Install '%s' and enable this operation"
 msgstr "Nainštalovať '%s' a povoliť tento úkon"
+
+msgid "Install 1/1"
+msgstr ""
 
 msgid "Install Failed !!"
 msgstr "Inštalácia bola neúspešná!"
@@ -10034,12 +10087,20 @@ msgstr "Zámok:"
 msgid "Log"
 msgstr "Záznam"
 
+#, python-format
+msgid "Log %d/%d"
+msgstr ""
+
 msgid "Log Manager"
 msgstr "Správca záznamov"
 
 #, python-format
 msgid "Log file '%s' deleted."
 msgstr "Súbor so záznamom '%s' bol vymazaný."
+
+#, python-format
+msgid "Log file: '%s'  (%s)"
+msgstr ""
 
 msgid "Log python stack trace on spinner"
 msgstr "Zaznamenávať pri Spinner Python Stack Trace"
@@ -10050,10 +10111,6 @@ msgstr "Zaznamenať výsledky na pevný disk"
 msgid "LogManager"
 msgstr "Správca záznamov"
 
-#, python-format
-msgid "Logfile '%s' (%d/%d)"
-msgstr "Súbor so záznamom '%s' (%d/%d)"
-
 msgid "Login"
 msgstr "Prihlásenie (prihl. meno)"
 
@@ -10062,9 +10119,6 @@ msgstr "Zlyhanie prihlasovania"
 
 msgid "Login to IceTV server"
 msgstr "Prihlásenie na server IceTV"
-
-msgid "Logs"
-msgstr "Záznamy o činnosti"
 
 msgid "Logs Settings"
 msgstr "Nastavenia záznamov"
@@ -10133,14 +10187,14 @@ msgstr "Luxemburčina"
 msgid "M2k"
 msgstr "M2k"
 
-msgid "MAC"
-msgstr "MAC"
-
 msgid "MAC Address Actions"
 msgstr "Akcie pre MAC adresu"
 
 msgid "MAC Address Settings"
 msgstr "Nastavenia adresy MAC"
+
+msgid "MAC address"
+msgstr ""
 
 msgid "MAC-address"
 msgstr "Adresa MAC"
@@ -10416,6 +10470,10 @@ msgstr "Informácia o pamäti - akcie"
 msgid "Memory index"
 msgstr "Index pamäte"
 
+#, python-format
+msgid "Memory information for %s %s"
+msgstr ""
+
 msgid "Menu"
 msgstr "Menu"
 
@@ -10569,6 +10627,9 @@ msgstr "Upravené:"
 
 msgid "Modulation"
 msgstr "Modulácia"
+
+msgid "Modulation modes"
+msgstr ""
 
 msgid "Modulator"
 msgstr "Modulátor"
@@ -11102,6 +11163,10 @@ msgstr "Nastavenie siete..."
 msgid "Network information"
 msgstr "Informácia o sieti"
 
+#, python-format
+msgid "Network information for %s %s"
+msgstr ""
+
 msgid "Network menu"
 msgstr "Menu siete"
 
@@ -11113,6 +11178,9 @@ msgstr "Názov siete (SSID)"
 
 msgid "Network scan"
 msgstr "Vyhľadať sieť"
+
+msgid "Network storage on"
+msgstr ""
 
 msgid "Network test"
 msgstr "Test siete"
@@ -11186,6 +11254,9 @@ msgstr "Ďalej"
 
 msgid "Next Image"
 msgstr "Ďalší image"
+
+msgid "Next Log"
+msgstr ""
 
 msgid "Next bouquet"
 msgstr "Nový prehľad"
@@ -11265,9 +11336,6 @@ msgstr "Nie je vložená karta!"
 msgid "No channel"
 msgstr "Žiadny kanál"
 
-msgid "No clients streaming"
-msgstr "Žiadni streamujúci klienti"
-
 msgid ""
 "No data on transponder!\n"
 "(Timeout reading PAT)"
@@ -11314,14 +11382,20 @@ msgstr "Neboli zistené žiadne pevné disky."
 msgid "No hash calculations configured"
 msgstr "Nie sú nakonfigurované žiadne výpočty pre hash"
 
+msgid "No images available"
+msgstr ""
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr ""
+
 msgid "No matching place names found"
 msgstr "Nenašlo sa žiadne zodpovedajúce umiestnenie"
 
 msgid "No network connection available."
 msgstr "Nie je dostupné žiadne sieťové pripojenie."
 
-msgid "No network servers detected."
-msgstr "Neboli zistené žiadne sieťové servery."
+msgid "No network storage detected."
+msgstr ""
 
 msgid "No networks found"
 msgstr "Nenašli sa žiadne siete"
@@ -11352,6 +11426,9 @@ msgstr "Nenašli sa žiadne image pre slot"
 
 msgid "No standby"
 msgstr "Žiadny pohotovostný režim"
+
+msgid "No storage or hard disks detected."
+msgstr ""
 
 msgid "No suitable backup locations found!"
 msgstr ""
@@ -11394,6 +11471,9 @@ msgid ""
 msgstr ""
 "Žiadny tuner nie je zapnutý!\n"
 "Prosím nastavte tuner pred spustením vyhľadávania staníc."
+
+msgid "No tuners are currently streaming."
+msgstr ""
 
 msgid "No update required!"
 msgstr "Nevyžaduje sa žiadna aktualizácia!"
@@ -12913,12 +12993,6 @@ msgstr "Predškolské"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Na prepnutie režimu PiP stlačte '0'"
 
-msgid "Press <> or menu to select the different commit logs"
-msgstr "Stlačením <> alebo menu môžete vyberať rôzne záznamy o odoslaní"
-
-msgid "Press <> or menu to select the different info screens"
-msgstr "Stlačením <> alebo menu si môžete vybrať rôzne informačné obrazovky"
-
 msgid "Press EXIT to close."
 msgstr "Stlačením tlačidla EXIT ponuku zatvoríte."
 
@@ -13005,9 +13079,6 @@ msgstr "Prosím stlačte žlté tlačidlo pre nastavenie tohto rozhrania ako pre
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "Stlačením tlačidla PANIKA dôjde k prepnutiu na toto číslo kanála v prvom prehľade."
 
-msgid "Prev Image"
-msgstr "Predchádzajúci image"
-
 msgid "Prev quad PiP channel"
 msgstr "Predchádzajúci kanál Quad PiP"
 
@@ -13019,6 +13090,12 @@ msgstr "Menu pre náhľad"
 
 msgid "Previous"
 msgstr "Predchádzajúce"
+
+msgid "Previous Image"
+msgstr ""
+
+msgid "Previous Log"
+msgstr ""
 
 msgid "Previous bouquet"
 msgstr "Predchádzajúci prehľad"
@@ -13319,6 +13396,9 @@ msgstr "RAM (podrobnosti)"
 msgid "RAM (Summary)"
 msgstr "RAM (súhrn)"
 
+msgid "RAM benchmark"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "Používateľský RC kód"
 
@@ -13479,11 +13559,18 @@ msgstr "Prijímač"
 msgid "Receiver Image Actions"
 msgstr "Akcie pre image prijímača"
 
+msgid "Receiver Images"
+msgstr ""
+
 msgid "Receiver Information"
 msgstr "Informácia o prijímači"
 
 msgid "Receiver Information Actions"
 msgstr "Akcie pre informácie o prijímači"
+
+#, python-format
+msgid "Receiver information for %s %s"
+msgstr ""
 
 msgid "Receiver name"
 msgstr "Názov prijímača"
@@ -14039,6 +14126,9 @@ msgstr "Obmedziť aktívny časový rozsah"
 msgid "Restricted 18+"
 msgstr "Obmedzenie 18+"
 
+msgid "Results of the delete all logs:"
+msgstr ""
+
 msgid "Resume from last position"
 msgstr "Pokračovať od poslednej pozície"
 
@@ -14053,6 +14143,14 @@ msgstr "Pokračovanie v prehrávaní"
 msgid "Retrieving '%s' commit log, please wait..."
 msgstr "Preberá sa záznam o odoslaní %s, prosím čakajte..."
 
+#, python-format
+msgid "Retrieving '%s' information, please wait..."
+msgstr ""
+
+#, python-format
+msgid "Retrieving '%s' log, please wait..."
+msgstr ""
+
 msgid "Retrieving boot slot information..."
 msgstr "Získavajú sa informácia o bootovacom slote..."
 
@@ -14064,9 +14162,6 @@ msgstr "Preberajú sa sloty image - prosím čakajte..."
 
 msgid "Retrieving network server information, please wait..."
 msgstr "Preberá sa informácia o sieťovom serveri, prosím čakajte..."
-
-msgid "Retrieving system information, please wait..."
-msgstr "Preberá sa systémová informácia, prosím čakajte..."
 
 msgid "Return the current selection response"
 msgstr "Vrátiť odpoveď na aktuálny výber"
@@ -14538,6 +14633,9 @@ msgstr "Veda"
 msgid "Science & Tech"
 msgstr "Veda a technika"
 
+msgid "Scope"
+msgstr ""
+
 msgid "Screenshot of LCD in /tmp"
 msgstr "Snímka obrazovky LCD v /tmp"
 
@@ -14797,6 +14895,9 @@ msgstr "Vyberte prehľad"
 msgid "Select a cardserver from the available list."
 msgstr "Vyberte kartový server zo zoznamu dostupných."
 
+msgid "Select a debug log file to view:"
+msgstr ""
+
 msgid "Select a distribution from where images are to be obtained"
 msgstr "Vyberte distribúciu, z ktorej sa majú získať image"
 
@@ -14808,6 +14909,9 @@ msgstr "Vyberte sieťový adaptér"
 
 msgid "Select a path"
 msgstr "Vyberte cestu"
+
+msgid "Select a repository commit log to view:"
+msgstr ""
 
 msgid "Select a script to run:"
 msgstr "Vyberte skript na spustenie:"
@@ -14842,9 +14946,6 @@ msgstr "Vyberte zvuk kanála"
 
 msgid "Select channel to record from"
 msgstr "Vyberte kanál na nahrávanie"
-
-msgid "Select commit log"
-msgstr "Výber záznamu o odoslaní"
 
 msgid "Select copy destination for:"
 msgstr "Vyberte cieľ. umiestnenie kópie pre:"
@@ -14885,9 +14986,6 @@ msgstr "Vyberte, či má timeshift pokračovať, ak je nastavené nahrávanie."
 msgid "Select if you want the Subservice mode to be activated."
 msgstr "Vyberte, či chcete aktivovať režim podradenej stanice."
 
-msgid "Select information screen"
-msgstr "Výber informačnej obrazovky"
-
 msgid "Select input device"
 msgstr "Výber vstupného zariadenia"
 
@@ -14926,6 +15024,9 @@ msgstr "Vybrať softcam"
 
 msgid "Select sort method:"
 msgstr "Vyberte spôsob zoraďovania:"
+
+msgid "Select system information to view:"
+msgstr ""
 
 msgid "Select target folder"
 msgstr "Vyberte cieľový priečinok"
@@ -16048,6 +16149,9 @@ msgstr "Zobraziť pozície kapitoly pre podporované súbory s videom (verzia gs
 msgid "Show columns"
 msgstr "Zobraziť stĺpce"
 
+msgid "Show commit log information"
+msgstr ""
+
 msgid "Show contents of ipk file"
 msgstr "Zobraziť obsah súboru IPK"
 
@@ -16068,6 +16172,9 @@ msgstr "Zobraziť ikony kódovania"
 
 msgid "Show crypto info in infobar"
 msgstr "Zobraziť informácie o kódovaní v info-paneli"
+
+msgid "Show debug log information"
+msgstr ""
 
 msgid "Show default after description"
 msgstr "Zobraziť predvolene po opise"
@@ -16114,14 +16221,14 @@ msgstr "Zobraziť výber rozšírenia"
 msgid "Show extensions..."
 msgstr "Zobraziť rozšírenia..."
 
+msgid "Show extra spacing in Information"
+msgstr ""
+
 msgid "Show favourites list"
 msgstr "Zobraziť zoznam obľúbených"
 
 msgid "Show files backed up by default"
 msgstr "Zobraziť predvolene zálohované súbory"
-
-msgid "Show geolocation information"
-msgstr "Zobraziť informáciu o geog. lokalite"
 
 msgid "Show graphical multi EPG"
 msgstr "Zobraziť grafické multi EPG"
@@ -16168,14 +16275,8 @@ msgstr "Zobraziť prog. ikony v info-paneli"
 msgid "Show job tasks in extensions"
 msgstr "Zobraziť úlohy v rozšíreniach"
 
-msgid "Show latest commit log information"
-msgstr "Zobraziť informáciu o poslednom zázname o odoslaní"
-
 msgid "Show live TV when movie stopped"
 msgstr "Zobraziť živé TV vysielanie pri zastavení filmu"
-
-msgid "Show logs"
-msgstr "Zobraziť záznamy"
 
 msgid "Show marked events"
 msgstr "Zobraziť označené udalosti"
@@ -16207,6 +16308,12 @@ msgstr "Zobraziť multi-kanálové EPG"
 msgid "Show network setup menu..."
 msgstr ""
 
+msgid "Show next commit log"
+msgstr ""
+
+msgid "Show next debug log file"
+msgstr ""
+
 msgid "Show next event"
 msgstr "Zobraziť ďalšiu udalosť"
 
@@ -16218,6 +16325,9 @@ msgstr "Zobraziť ďalšiu stranu"
 
 msgid "Show next picture"
 msgstr "Zobraziť nasledujúci obrázok"
+
+msgid "Show next system information screen"
+msgstr ""
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Zobraziť/skryť rozšírený popis, (závisí od vzhľadu)."
@@ -16237,6 +16347,12 @@ msgstr "Zobraziť otáčanie motora"
 msgid "Show preview of current mode (*)."
 msgstr "Zobraziť náhľad pre aktuálny režim (*)."
 
+msgid "Show previous commit log"
+msgstr ""
+
+msgid "Show previous debug log file"
+msgstr ""
+
 msgid "Show previous event"
 msgstr "Zobraziť predchádzajúcu udalosť"
 
@@ -16249,8 +16365,14 @@ msgstr "Zobraziť predchádzajúcu stranu"
 msgid "Show previous picture"
 msgstr "Zobraziť predchádzajúci obrázok"
 
+msgid "Show previous system information screen"
+msgstr ""
+
 msgid "Show quickmenu..."
 msgstr "Zobraziť rýchle menu..."
+
+msgid "Show receiver image(s)"
+msgstr ""
 
 msgid "Show record indicator"
 msgstr "Zobraziť indikátor nahrávania"
@@ -16267,11 +16389,14 @@ msgstr "Zobraziť cestu k menu na obrazovke"
 msgid "Show screensaver"
 msgstr "Zobraziť šetrič obrazovky"
 
-msgid "Show selection for commit logs"
-msgstr "Zobraziť výber pre záznamy o odoslaní"
-
 msgid "Show selection for system information screen"
 msgstr "Zobraziť výber pre obrazovku so systémovými informáciami"
+
+msgid "Show selection menu for commit logs"
+msgstr ""
+
+msgid "Show selection menu for debug log files"
+msgstr ""
 
 msgid "Show service list"
 msgstr "Zobraziť zoznam staníc"
@@ -16332,6 +16457,9 @@ msgstr "Zobraziť informačnú obrazovku pre CCcam"
 
 msgid "Show the DreamPlex player..."
 msgstr "Zobraziť prehrávač DreamPlex..."
+
+msgid "Show the Logs Settings screen"
+msgstr ""
 
 msgid "Show the OScamInfo Screen"
 msgstr "Zobraziť informačnú obrazovku pre OScam"
@@ -17027,6 +17155,9 @@ msgstr "Pohotovostný režim bez vypnutia TV"
 msgid "Start"
 msgstr "Štart"
 
+msgid "Start Auto Refresh"
+msgstr ""
+
 msgid "Start Kodi"
 msgstr "Spustiť Kodi"
 
@@ -17087,7 +17218,7 @@ msgstr "Spustenie o"
 msgid "Starts in a few seconds"
 msgstr "Spustí sa o niekoľko sekúnd"
 
-#. TRANSLATORS: "State" is Location Info
+#. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
 msgstr "Štát"
 
@@ -17130,6 +17261,9 @@ msgstr "Sti"
 msgid "Stop"
 msgstr "Zastaviť"
 
+msgid "Stop Auto Refresh"
+msgstr ""
+
 msgid "Stop PiP"
 msgstr "Ukončiť PIP"
 
@@ -17162,6 +17296,9 @@ msgstr "Zastaviť nahrávanie teraz"
 
 msgid "Stop service on return to movie list"
 msgstr "Zastaviť stanicu po návrate do zoznamu filmov"
+
+msgid "Stop streams"
+msgstr ""
 
 msgid "Stop test"
 msgstr "Zastaviť test"
@@ -17199,8 +17336,18 @@ msgstr "Zastavuje sa softcam"
 msgid "Stops timeshift being used if a recording is in progress. (Advisable for USB sticks.)"
 msgstr "Ukončí sa prebiehajúci timeshift, keď prebieha nahrávanie. (Odporúčané pre USB kľúče)"
 
+msgid "Storage / Disk Information"
+msgstr ""
+
+#, python-format
+msgid "Storage / Disk information for %s %s"
+msgstr ""
+
 msgid "Storage / Disks"
 msgstr "Úložisko/disky"
+
+msgid "Storage / Drive information"
+msgstr ""
 
 msgid "Storage Devices"
 msgstr "Úložné zariadenia"
@@ -17223,14 +17370,18 @@ msgstr "Stream-tv"
 msgid "Streaming"
 msgstr "Streaming"
 
-msgid "Streaming Clients"
-msgstr "Streamujúci klienti - info"
-
 msgid "Streaming Information Actions"
 msgstr "Informačné akcie streamovania"
 
+msgid "Streaming Tuner Information"
+msgstr ""
+
 msgid "Streaming recording ended"
 msgstr "Nahrávanie streamovania ukončené"
+
+#, python-format
+msgid "Streaming tuner information for %s %s"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, with stretching all parts of the picture with the same factor (force aspect))
 msgid "Stretch full"
@@ -17542,6 +17693,9 @@ msgstr "systémové pluginy"
 msgid "System Setup"
 msgstr "Nastavenie systému"
 
+msgid "System information"
+msgstr ""
+
 msgid "System partition free space:"
 msgstr "Systémová partícia - voľné miesto:"
 
@@ -17553,9 +17707,6 @@ msgstr "Systém: "
 
 msgid "Systeminfo"
 msgstr "Systémové informácie"
-
-msgid "Systems"
-msgstr "Systémy"
 
 msgid "T2MI PID"
 msgstr "T2MI PID"
@@ -17741,6 +17892,9 @@ msgstr "Otestuje sieťové nastavenie %s %s."
 msgid "Test type"
 msgstr "Typ testu"
 
+msgid "Testing Information"
+msgstr ""
+
 msgid "Testscreens"
 msgstr "Testovacie obrazovky"
 
@@ -17780,16 +17934,16 @@ msgid "The %s %s stores the EPG data every (hours)."
 msgstr "Váš %s %s uloží EPG údaje každých (hodín)."
 
 #, python-format
-msgid "The '%s' commit log contains no information."
-msgstr "Záznam o odoslaní %s neobsahuje žiadnu informáciu."
-
-#, python-format
 msgid "The '%s' commit log can't be retrieved, please try again later."
 msgstr "Záznamy o odoslaní %s nemožno prevziať, skúste to neskôr, prosím."
 
 #, python-format
-msgid "The '%s' log file contains no information."
-msgstr "Súbor so záznamom '%s' neobsahuje žiadnu informáciu."
+msgid "The '%s' commit log contains no information."
+msgstr "Záznam o odoslaní %s neobsahuje žiadnu informáciu."
+
+#, python-format
+msgid "The '%s' file can't be retrieved, please try again later."
+msgstr ""
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -18082,12 +18236,19 @@ msgstr "Žiadne činnosti na vykonanie."
 msgid "There are no items currently available for this screen."
 msgstr "Pre túto obrazovku nie sú momentálne k dispozícii žiadne položky."
 
+msgid "There are no repositories defined so commit logs are unavailable!"
+msgstr ""
+
 msgid "There are no updates available."
 msgstr "Nie sú dostupné žiadne aktualizácie."
 
 #, python-format
 msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
 msgstr "Existuje riziko, že po takejto veľkej on-line aktualizácii sa zariadenie %s %s nespustí alebo dôjde k poruche."
+
+#, python-format
+msgid "There is no information to show for '%s'."
+msgstr ""
 
 msgid "There is no signal to lock on !"
 msgstr "Nie je signál pre uzamknutie!"
@@ -18752,6 +18913,9 @@ msgstr "Prepnúť strihovú značku na tejto pozícii"
 msgid "Toggle aspect ratio..."
 msgstr "Prepnúť pomer strán..."
 
+msgid "Toggle auto refresh On/Off"
+msgstr ""
+
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Prepínať medzi zoznamami prehľadov/EPG"
 
@@ -18803,6 +18967,9 @@ msgstr "Hore a dole"
 msgid "Total"
 msgstr "Celkom"
 
+msgid "Total CPU benchmark"
+msgstr ""
+
 msgid "Total cards:"
 msgstr "Počet kariet:"
 
@@ -18851,6 +19018,10 @@ msgstr "Informácia o preklade"
 
 msgid "Translation information"
 msgstr "Informácie k prekladu"
+
+#, python-format
+msgid "Translation information for %s %s"
+msgstr ""
 
 msgid "Transmission mode"
 msgstr "Režim prenosu"
@@ -18960,6 +19131,10 @@ msgstr "Nastavenie tunera"
 msgid "Tuner information"
 msgstr "Informácia o tuneri"
 
+#, python-format
+msgid "Tuner information for %s %s"
+msgstr ""
+
 msgid "Tuner is not supported"
 msgstr "Tuner nie je podporovaný"
 
@@ -19065,6 +19240,9 @@ msgstr "Dva riadky"
 
 msgid "Type"
 msgstr "Typ"
+
+msgid "Type / Model"
+msgstr ""
 
 msgid "Type of scan"
 msgstr "Typ vyhľadávania"
@@ -19207,6 +19385,9 @@ msgstr "Neznáma skupina: %d"
 msgid "Unknown recording event"
 msgstr "Neznáma udalosť nahrávania"
 
+msgid "Unknown service!"
+msgstr ""
+
 #, python-format
 msgid "Unknown user: %d"
 msgstr "Neznámy používateľ: %d"
@@ -19259,6 +19440,9 @@ msgstr "Rozbaľovanie image"
 
 msgid "Up"
 msgstr "Nahor"
+
+msgid "Up / Active"
+msgstr ""
 
 msgid "Up/Down button mode"
 msgstr "Režim tlačidla Nahor/Nadol"
@@ -19471,6 +19655,9 @@ msgstr "Na načítanie použiť iba x dní v EPG"
 
 msgid "Use frequency or channel"
 msgstr "Použiť frekvenciu alebo kanál"
+
+msgid "Use geolocation to get WAN information"
+msgstr ""
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Použiť zemepisnú polohu pre nastavenie aktuálnej časovej zóny lokality"
@@ -19955,6 +20142,9 @@ msgstr "Hlasitosť nahor"
 msgid "W"
 msgstr "Z"
 
+msgid "WAN Geolocation"
+msgstr ""
+
 msgid "WAN connection information"
 msgstr "Informácia o pripojení WAN"
 
@@ -20103,6 +20293,10 @@ msgstr "Víkend"
 
 msgid "Weekly"
 msgstr "Týždenne"
+
+#, python-format
+msgid "Welcome to %s"
+msgstr ""
 
 msgid "Welcome to IceTV"
 msgstr "Vitajte v IceTV"
@@ -22658,6 +22852,133 @@ msgstr "prepínanie"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%s information"
+#~ msgstr "%s informácia"
+
+#~ msgid "Active Streaming Clients"
+#~ msgstr "Aktívne streamujúci klienti"
+
+#, python-format
+#~ msgid "An error occurred, error code %d, please try again later."
+#~ msgstr "Nastala chyba, ktorá má kód %d, prosím skúste znovu neskôr."
+
+#~ msgid "Broadcast"
+#~ msgstr "Vysielanie"
+
+#~ msgid "Build information for"
+#~ msgstr "Informácia o zostavení pre"
+
+#~ msgid "Commit Information"
+#~ msgstr "Informácia o odoslaní"
+
+#, python-format
+#~ msgid "Crash log '%s' (%d/%d)"
+#~ msgstr "Záznam o páde '%s' (%d/%d)"
+
+#, python-format
+#~ msgid "Debug log '%s' (%d/%d)"
+#~ msgstr "Záznam pre ladenie '%s' (%d/%d)"
+
+#~ msgid "Delete all logfiles"
+#~ msgstr "Vymazať všetky súbory so záznamom"
+
+#~ msgid "Delete logfile"
+#~ msgstr "Vymazať súbor so záznamom"
+
+#~ msgid "Detected drives"
+#~ msgstr "Zistené jednotky"
+
+#~ msgid "Detected network servers"
+#~ msgstr "Zistené sieťové servery"
+
+#~ msgid "Detected tuners"
+#~ msgstr "Zistené tunery"
+
+#~ msgid "Display next commit log"
+#~ msgstr "Zobraziť ďalší záznam o odoslaní"
+
+#~ msgid "Display next system information screen"
+#~ msgstr "Zobraziť ďalšiu obrazovku so systémovou informáciou"
+
+#~ msgid "Display previous commit log"
+#~ msgstr "Zobraziť predchádzajúci záznam o odoslaní"
+
+#~ msgid "Display previous system information screen"
+#~ msgstr "Zobraziť predchádzajúcu obrazovku so systémovými informáciami"
+
+#~ msgid "Drives Information"
+#~ msgstr "Informácia o jednotkách"
+
+#~ msgid "Drives information"
+#~ msgstr "Informácia o jednotkách"
+
+#~ msgid "Enter number to select screen"
+#~ msgstr "Obrazovku vyberiete zadaním čísla"
+
+#, python-format
+#~ msgid "Error %d: The logfile '%s' could not be opened.  (%s)"
+#~ msgstr "Chyba %d: súbor so záznamom '%s' sa nedal otvoriť.  (%s)"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#, python-format
+#~ msgid "Logfile '%s' (%d/%d)"
+#~ msgstr "Súbor so záznamom '%s' (%d/%d)"
+
+#~ msgid "Logs"
+#~ msgstr "Záznamy o činnosti"
+
+#~ msgid "MAC"
+#~ msgstr "MAC"
+
+#~ msgid "No clients streaming"
+#~ msgstr "Žiadni streamujúci klienti"
+
+#~ msgid "No network servers detected."
+#~ msgstr "Neboli zistené žiadne sieťové servery."
+
+#~ msgid "Press <> or menu to select the different commit logs"
+#~ msgstr "Stlačením <> alebo menu môžete vyberať rôzne záznamy o odoslaní"
+
+#~ msgid "Press <> or menu to select the different info screens"
+#~ msgstr "Stlačením <> alebo menu si môžete vybrať rôzne informačné obrazovky"
+
+#~ msgid "Prev Image"
+#~ msgstr "Predchádzajúci image"
+
+#~ msgid "Retrieving system information, please wait..."
+#~ msgstr "Preberá sa systémová informácia, prosím čakajte..."
+
+#~ msgid "Select commit log"
+#~ msgstr "Výber záznamu o odoslaní"
+
+#~ msgid "Select information screen"
+#~ msgstr "Výber informačnej obrazovky"
+
+#~ msgid "Show geolocation information"
+#~ msgstr "Zobraziť informáciu o geog. lokalite"
+
+#~ msgid "Show latest commit log information"
+#~ msgstr "Zobraziť informáciu o poslednom zázname o odoslaní"
+
+#~ msgid "Show logs"
+#~ msgstr "Zobraziť záznamy"
+
+#~ msgid "Show selection for commit logs"
+#~ msgstr "Zobraziť výber pre záznamy o odoslaní"
+
+#~ msgid "Streaming Clients"
+#~ msgstr "Streamujúci klienti - info"
+
+#~ msgid "Systems"
+#~ msgstr "Systémy"
+
+#, python-format
+#~ msgid "The '%s' log file contains no information."
+#~ msgstr "Súbor so záznamom '%s' neobsahuje žiadnu informáciu."
 
 #~ msgid "Software Manager Setup"
 #~ msgstr "Inštalácia správcu softvéru"
