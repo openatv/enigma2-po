@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-29 20:16+0000\n"
+"POT-Creation-Date: 2022-06-30 19:40+0000\n"
 "PO-Revision-Date: 2022-06-30 19:35+0000\n"
 "Last-Translator: mapi68 <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
@@ -855,6 +855,14 @@ msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
 #, python-format
+msgid "%d DMIPS per core"
+msgstr ""
+
+#, python-format
+msgid "%d DMIPS with %d cores"
+msgstr ""
+
+#, python-format
 msgid "%d GB"
 msgstr "%d GB"
 
@@ -1192,6 +1200,10 @@ msgid "%s Setup"
 msgstr "%s Setup"
 
 #, python-format
+msgid "%s View"
+msgstr ""
+
+#, python-format
 msgid "%s additional screens"
 msgstr "%s schermi aggiuntivi"
 
@@ -1202,10 +1214,6 @@ msgstr "%s è stato attivato."
 #, python-format
 msgid "%s has been disabled."
 msgstr "%s è stato disattivato."
-
-#, python-format
-msgid "%s information"
-msgstr "%s informazioni"
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1302,6 +1310,10 @@ msgstr "(%d attività)"
 
 msgid "(1 job)"
 msgstr "(1 attività)"
+
+#, python-format
+msgid "(Access to the '%s' commit log requires an Internet connection.)"
+msgstr "L'accesso ai registri di commit %s richiede una connessione a Internet."
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -2132,10 +2144,6 @@ msgstr "Punto di accesso"
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "L'accesso alla geolocalizzazione richiede una connessione a Internet."
 
-#, python-format
-msgid "(Access to the '%s' commit log requires an Internet connection.)"
-msgstr "L'accesso ai registri di commit %s richiede una connessione a Internet."
-
 msgid "Accessed:"
 msgstr "Ultimo accesso:"
 
@@ -2198,9 +2206,6 @@ msgstr "Attivare Fine TimeShift e Pausa"
 
 msgid "Active"
 msgstr "Attivo"
-
-msgid "Active Streaming Clients"
-msgstr "Client di streaming attivi"
 
 msgid "Active clients"
 msgstr "Attiva client"
@@ -2600,10 +2605,6 @@ msgstr "Un nome di file vuoto non è valido."
 
 msgid "An error occurred while downloading the packetlist. Please try again."
 msgstr "Errore durante il download della lista pacchetti. Riprova."
-
-#, python-format
-msgid "An error occurred, error code %d, please try again later."
-msgstr "Si è verificato un errore, codice di errore %d, riprovare più tardi."
 
 msgid "An unknown error occurred!"
 msgstr "Si è verificato un errore sconosciuto!"
@@ -3277,6 +3278,13 @@ msgstr "Belgio"
 msgid "Belize"
 msgstr "Belize"
 
+msgid "Benchmark Information"
+msgstr ""
+
+#, python-format
+msgid "Benchmark information for %s %s"
+msgstr ""
+
 msgid "Bengali"
 msgstr "Bengali"
 
@@ -3422,8 +3430,11 @@ msgstr "Luminosità (Standby)"
 msgid "British Indian Ocean Territory"
 msgstr "Territorio britannico dell'Oceano Indiano"
 
-msgid "Broadcast"
-msgstr "IP di broadcast"
+msgid "Broadcast address"
+msgstr ""
+
+msgid "Broadcast systems"
+msgstr ""
 
 msgid "Broadcom"
 msgstr "Broadcom"
@@ -3453,8 +3464,9 @@ msgstr "Modello"
 msgid "Build information"
 msgstr "Informazioni sulla compilazione"
 
-msgid "Build information for"
-msgstr "Informazioni sulla compilazione per"
+#, python-format
+msgid "Build information for %s %s"
+msgstr ""
 
 #, python-format
 msgid "Build: %s"
@@ -3636,14 +3648,24 @@ msgstr "Menu principale CIselect"
 msgid "CPU"
 msgstr "CPU"
 
+#, python-format
+msgid "CPU / Core %d type"
+msgstr ""
+
 msgid "CPU architecture"
 msgstr "Architettura della CPU"
+
+msgid "CPU benchmark"
+msgstr ""
 
 msgid "CPU brand"
 msgstr "Marca CPU"
 
 msgid "CPU priority for script execution"
 msgstr "Priorità CPU per l'esecuzione dello script"
+
+msgid "CPU rating"
+msgstr ""
 
 msgid "CPU speed/cores"
 msgstr "Velocità CPU e numero core"
@@ -3677,6 +3699,12 @@ msgstr "Calcola e mostra la dimensione della directory. Nota: questo può rallen
 
 msgid "Calculate file checksums"
 msgstr "Calcola i checksum dei file"
+
+msgid "Calculating benchmark..."
+msgstr ""
+
+msgid "Calculating rating..."
+msgstr ""
 
 msgid "Calculation complete"
 msgstr "Calcolo completato"
@@ -4439,11 +4467,14 @@ msgstr "Comando da eseguire"
 msgid "Command type"
 msgstr "Tipo comando"
 
-msgid "Commit Information"
-msgstr "Commit informazioni"
-
 msgid "Commit Information Actions"
 msgstr "Azioni di commit delle informazioni"
+
+msgid "Commit Log"
+msgstr ""
+
+msgid "Commit Log Information"
+msgstr ""
 
 msgid "Commit Logs"
 msgstr "Registro di commit"
@@ -5064,15 +5095,15 @@ msgstr "Paese per informazioni sul genere dell'evento EPG"
 msgid "Country for EPG event rating information"
 msgstr "Paese per le informazioni sulla classificazione degli eventi EPG"
 
+#, python-format
+msgid "Crash %d/%d"
+msgstr ""
+
 msgid "Crash Logs"
 msgstr "Crash Logs"
 
 msgid "Crash at skin error for debug reasons"
 msgstr "Arresto anomalo dell'errore skin per motivi di debug"
-
-#, python-format
-msgid "Crash log '%s' (%d/%d)"
-msgstr "Registro arresti anomali '%s' (%d/%d)"
 
 msgid "Create"
 msgstr "Creare"
@@ -5162,6 +5193,9 @@ msgstr "Valuta"
 
 msgid "Current"
 msgstr "Attuale"
+
+msgid "Current 1/1"
+msgstr ""
 
 msgid "Current Affairs"
 msgstr "Attualità"
@@ -5306,6 +5340,9 @@ msgstr "DTS/DTS-HD HR/DTS-HD MA/DTS:X"
 msgid "DUAL LAYER DVD"
 msgstr "DUAL LAYER DVD"
 
+msgid "DVB API version"
+msgstr ""
+
 msgid "DVB CI Delay"
 msgstr "Ritardo DVB CI"
 
@@ -5374,6 +5411,10 @@ msgstr "Stile data"
 
 msgid "Date/time input"
 msgstr "Inserimento data/ora"
+
+#, python-format
+msgid "Date: %s   Author: %s"
+msgstr ""
 
 msgid "Day D Mon"
 msgstr "Giorno D Mese"
@@ -5516,12 +5557,24 @@ msgstr "NomeGiorno Anno/M/DD"
 msgid "Deactivate"
 msgstr "Disabilitato"
 
+#, python-format
+msgid "Debug %d/%d"
+msgstr ""
+
+msgid "Debug Information"
+msgstr ""
+
+msgid "Debug Log"
+msgstr ""
+
+msgid "Debug Log Information"
+msgstr ""
+
+msgid "Debug Log Information Actions"
+msgstr ""
+
 msgid "Debug Logs"
 msgstr "Log di debug"
-
-#, python-format
-msgid "Debug log '%s' (%d/%d)"
-msgstr "Registro di debug '%s' (%d/%d)"
 
 msgid "Debug log time format *"
 msgstr "Formato dell'ora del registro debug *"
@@ -5724,8 +5777,8 @@ msgstr "Cancella timer"
 msgid "Delete all log files"
 msgstr "Elimina tutti i file di registro"
 
-msgid "Delete all logfiles"
-msgstr "Elimina tutti i file di registro"
+msgid "Delete all logs"
+msgstr ""
 
 msgid "Delete all tags"
 msgstr "Elimina tutti i tag"
@@ -5760,8 +5813,8 @@ msgstr "Elimina file o directory (e tutti i suoi contenuti)"
 msgid "Delete folder"
 msgstr "Cancella cartella"
 
-msgid "Delete logfile"
-msgstr "Elimina file di registro"
+msgid "Delete log"
+msgstr ""
 
 msgid "Delete or Wipe the highlighted slot"
 msgstr "Elimina o cancella lo slot evidenziato"
@@ -5852,15 +5905,6 @@ msgstr "I pacchetti deselezionati di solito si verificano perché quelli impacch
 
 msgid "Detail of GStreamer log"
 msgstr "Dettaglio del registro di GStreamer"
-
-msgid "Detected drives"
-msgstr "Unità rilevate"
-
-msgid "Detected network servers"
-msgstr "Server di rete rilevati"
-
-msgid "Detected tuners"
-msgstr "Sintonizzatori rilevati"
 
 msgid "Device Manager"
 msgstr "Gestione dispositivi"
@@ -6056,20 +6100,8 @@ msgstr "Display ed interfaccia grafica"
 msgid "Display message before playing next movie"
 msgstr "Notifica prima di riprodurre il prossimo video"
 
-msgid "Display next commit log"
-msgstr "Visualizza il registro di commit successivo"
-
-msgid "Display next system information screen"
-msgstr "Visualizza la schermata delle informazioni di sistema successiva"
-
 msgid "Display oscam information."
 msgstr "Visualizza le informazioni oscam."
-
-msgid "Display previous commit log"
-msgstr "Visualizza il registro di commit precedente"
-
-msgid "Display previous system information screen"
-msgstr "Visualizza la schermata delle informazioni di sistema precedente"
 
 msgid "Display selection list as a selection menu"
 msgstr "Visualizza l'elenco di selezione come menu di selezione"
@@ -6091,6 +6123,10 @@ msgstr "Tipo di visualizzazione"
 
 msgid "Distribution"
 msgstr "Distribuzione"
+
+#, python-format
+msgid "Distribution '%s' information for %s %s"
+msgstr ""
 
 msgid "Distribution architecture"
 msgstr "Architettura di distribuzione"
@@ -6262,15 +6298,15 @@ msgstr "Si desidera masterizzare la raccolta su DVD?"
 msgid "Do you want to continue?"
 msgstr "Si desidera continuare?"
 
-msgid "Do you want to delete all the log files?"
-msgstr "Vuoi eliminare tutti i file di registro?"
-
 msgid ""
 "Do you want to delete all selected files:\n"
 "(choose 'No' to only delete the currently selected file.)"
 msgstr ""
 "Si desidera cancellare i file selezionati:\n"
 "(scegliere 'No' per eliminare solo il file selezionato.)"
+
+msgid "Do you want to delete all the log files?"
+msgstr "Vuoi eliminare tutti i file di registro?"
 
 msgid "Do you want to delete the old settings in /etc/enigma2 first?"
 msgstr "Si desidera cancellare le vecchie impostazioni in /etc/enigma2?"
@@ -6395,6 +6431,9 @@ msgstr[1] "Fatto! Installati, aggiornati o rimossi %d pacchetti (%s)"
 msgid "Down"
 msgstr "Giù"
 
+msgid "Down / Inactive"
+msgstr ""
+
 msgid "Download Plugins"
 msgstr "Scarica plugin"
 
@@ -6448,12 +6487,6 @@ msgstr "driver"
 
 msgid "Drivers version"
 msgstr "Versione driver"
-
-msgid "Drives Information"
-msgstr "Informazioni sulle unità"
-
-msgid "Drives information"
-msgstr "Informazioni sulle unità"
 
 msgid "Duplex"
 msgstr "Duplex"
@@ -6860,6 +6893,9 @@ msgstr "Abilita questa opzione per aggiungere nomi di schermate e dati di risolu
 msgid "Enable this setting if your aerial system needs power"
 msgstr "Abilita questa impostazione se il tuo sistema richiede alimentazione"
 
+msgid "Enable to add some extra spacing to the Information screens.  This can improve readability."
+msgstr ""
+
 msgid "Enable to display all True/False, Yes/No, On/Off and Enable/Disable setup options as a graphical switch."
 msgstr "Abilita la visualizzazione di tutte le opzioni del tipo vero/falso, sì/no, abilita/disabilita come interruttore grafico."
 
@@ -7014,9 +7050,6 @@ msgstr "Entra nella modalità di selezione multipla file"
 msgid "Enter number to jump to channel"
 msgstr "inserisci il numero di canale da vedere"
 
-msgid "Enter number to select screen"
-msgstr "Immettere il numero per selezionare lo schermo"
-
 msgid "Enter persistent PIN code"
 msgstr "Inserisci un codice PIN definitivo"
 
@@ -7088,8 +7121,8 @@ msgid "Error %d: Log file '%s' not deleted!  (%s)"
 msgstr "Errore %d: il file di registro '%s' non è stato eliminato! (%s)"
 
 #, python-format
-msgid "Error %d: The logfile '%s' could not be opened.  (%s)"
-msgstr "Errore %d: Impossibile aprire il file di registro '%s'. (%s)"
+msgid "Error %d: System information file '%s' can't be read!  (%s)"
+msgstr ""
 
 #, python-format
 msgid "Error %d: Unable to change password!  (%s)"
@@ -7102,6 +7135,10 @@ msgstr "Errore %d: Impossibile eliminare l'immagine scaricata '%s'! (%s)"
 #, python-format
 msgid "Error %d: Unable to start 'passwd' command!"
 msgstr "Errore %d: impossibile avviare il comando 'passwd'!"
+
+#, python-format
+msgid "Error %s: Unable to retrieve the '%s' file!  (%s)"
+msgstr ""
 
 #, python-format
 msgid "Error '%s' encountered retrieving the '%s' commit log!"
@@ -7535,6 +7572,9 @@ msgstr "FCC abilitato"
 msgid "FEC"
 msgstr "FEC"
 
+msgid "FEC modes"
+msgstr ""
+
 msgid "FFmpeg version"
 msgstr "Versione FFmpeg"
 
@@ -7795,6 +7835,9 @@ msgstr "Scopri di più su %s"
 msgid "Find similar events in the EPG"
 msgstr "Trova eventi simili nell'EPG"
 
+msgid "Finding available log files, please wait..."
+msgstr ""
+
 msgid "Fine movement"
 msgstr "Micro movimento"
 
@@ -7995,6 +8038,9 @@ msgstr "Frequenza Norm:"
 msgid "Frequency bands"
 msgstr "Bande di frequenza"
 
+msgid "Frequency range"
+msgstr ""
+
 msgid "Frequency scan step size(khz)"
 msgstr "Passo di frequenza ricerca (kHz)"
 
@@ -8153,6 +8199,10 @@ msgstr "La geolocalizzazione è stata utilizzata per impostare il fuso orario."
 
 msgid "Geolocation information cannot be retrieved, please try again later."
 msgstr "Impossibile recuperare le informazioni sulla geolocalizzazione."
+
+#, python-format
+msgid "Geolocation information for %s %s"
+msgstr ""
 
 msgid "Geolocation is not available."
 msgstr "La geolocalizzazione non è disponibile."
@@ -8739,9 +8789,6 @@ msgstr "Modalità tasto INFO"
 msgid "INS"
 msgstr "INS"
 
-msgid "IP"
-msgstr "IP"
-
 msgid "IP address"
 msgstr "Indirizzo IP"
 
@@ -8750,6 +8797,9 @@ msgstr "IP:"
 
 msgid "IPK Installer"
 msgstr "Installazione IPK"
+
+msgid "IPv6 address"
+msgstr ""
 
 msgid "ISO file is too large for this filesystem!"
 msgstr "File ISO troppo grande per questo file system!"
@@ -9226,6 +9276,9 @@ msgstr "Installare"
 #, python-format
 msgid "Install '%s' and enable this operation"
 msgstr "Installa '%s' e abilita questa operazione"
+
+msgid "Install 1/1"
+msgstr ""
 
 msgid "Install Failed !!"
 msgstr "Installazione fallita !!"
@@ -10011,12 +10064,20 @@ msgstr "Blocco:"
 msgid "Log"
 msgstr "Log"
 
+#, python-format
+msgid "Log %d/%d"
+msgstr ""
+
 msgid "Log Manager"
 msgstr "Gestione file registro"
 
 #, python-format
 msgid "Log file '%s' deleted."
 msgstr "File di registro '%s' eliminato."
+
+#, python-format
+msgid "Log file: '%s'  (%s)"
+msgstr ""
 
 msgid "Log python stack trace on spinner"
 msgstr "Registra la traccia dello stack python sullo spinner"
@@ -10027,10 +10088,6 @@ msgstr "Salvare log su harddisk"
 msgid "LogManager"
 msgstr "LogManager"
 
-#, python-format
-msgid "Logfile '%s' (%d/%d)"
-msgstr "File di registro '%s' (%d/%d)"
-
 msgid "Login"
 msgstr "Login"
 
@@ -10039,9 +10096,6 @@ msgstr "Login fallito"
 
 msgid "Login to IceTV server"
 msgstr "Accedi al server IceTV"
-
-msgid "Logs"
-msgstr "Registri"
 
 msgid "Logs Settings"
 msgstr "Configurazioni log"
@@ -10110,14 +10164,14 @@ msgstr "Lussemburghese / Letzburghese"
 msgid "M2k"
 msgstr "M2k"
 
-msgid "MAC"
-msgstr "MAC"
-
 msgid "MAC Address Actions"
 msgstr "Azioni sull'indirizzo MAC"
 
 msgid "MAC Address Settings"
 msgstr "Configurazioni MAC address"
+
+msgid "MAC address"
+msgstr ""
 
 msgid "MAC-address"
 msgstr "MAC-address"
@@ -10393,6 +10447,10 @@ msgstr "Azioni di informazioni sulla memoria"
 msgid "Memory index"
 msgstr "Indice memoria"
 
+#, python-format
+msgid "Memory information for %s %s"
+msgstr ""
+
 msgid "Menu"
 msgstr "Menu"
 
@@ -10546,6 +10604,9 @@ msgstr "Modificato:"
 
 msgid "Modulation"
 msgstr "Modulazione"
+
+msgid "Modulation modes"
+msgstr ""
 
 msgid "Modulator"
 msgstr "Modulatore"
@@ -11079,6 +11140,10 @@ msgstr "Configurazione di rete..."
 msgid "Network information"
 msgstr "Informazioni sulla rete"
 
+#, python-format
+msgid "Network information for %s %s"
+msgstr ""
+
 msgid "Network menu"
 msgstr "Menu della rete"
 
@@ -11090,6 +11155,9 @@ msgstr "Nome della rete (SSID)"
 
 msgid "Network scan"
 msgstr "Scansione rete"
+
+msgid "Network storage on"
+msgstr ""
 
 msgid "Network test"
 msgstr "Test della rete"
@@ -11163,6 +11231,9 @@ msgstr "Successivo"
 
 msgid "Next Image"
 msgstr "Immagine successiva"
+
+msgid "Next Log"
+msgstr ""
 
 msgid "Next bouquet"
 msgstr "Il prossimo bouquet"
@@ -11242,9 +11313,6 @@ msgstr "Scheda non inserita!"
 msgid "No channel"
 msgstr "Nessun canale"
 
-msgid "No clients streaming"
-msgstr "Nessun client in streaming"
-
 msgid ""
 "No data on transponder!\n"
 "(Timeout reading PAT)"
@@ -11291,14 +11359,20 @@ msgstr "Nessun disco rigido rilevato."
 msgid "No hash calculations configured"
 msgstr "Nessun calcolo hash configurato"
 
+msgid "No images available"
+msgstr ""
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr ""
+
 msgid "No matching place names found"
 msgstr "Non è stato trovato nessun nome di luogo"
 
 msgid "No network connection available."
 msgstr "Connessione di rete non disponibile."
 
-msgid "No network servers detected."
-msgstr "Nessun server di rete rilevato."
+msgid "No network storage detected."
+msgstr ""
 
 msgid "No networks found"
 msgstr "Nessuna rete trovata"
@@ -11329,6 +11403,9 @@ msgstr "Nessuna immagine di slot trovata"
 
 msgid "No standby"
 msgstr "Sempre attivo"
+
+msgid "No storage or hard disks detected."
+msgstr ""
 
 msgid "No suitable backup locations found!"
 msgstr "Nessuna posizione di backup adatta trovata!"
@@ -11371,6 +11448,9 @@ msgid ""
 msgstr ""
 "Nessun sintonizzatore è abilitato!\n"
 "Si prega di configurare le impostazioni del sintonizzatore prima di avviare una scansione dei servizi."
+
+msgid "No tuners are currently streaming."
+msgstr ""
 
 msgid "No update required!"
 msgstr "Nessun aggiornamento richiesto!"
@@ -12890,12 +12970,6 @@ msgstr "Scuola materna"
 msgid "Press '0' to toggle PiP mode"
 msgstr "0 -> per cambiare le modalità PiP"
 
-msgid "Press <> or menu to select the different commit logs"
-msgstr "Premere <> o menu per selezionare i diversi registri di commit"
-
-msgid "Press <> or menu to select the different info screens"
-msgstr "Premere <> o menu per selezionare le diverse schermate informative"
-
 msgid "Press EXIT to close."
 msgstr "Premere ESCI per chiudere."
 
@@ -12982,9 +13056,6 @@ msgstr "GIALLO -> per impostare l'interfaccia come predefinita."
 msgid "Pressing the panic button will zap you to this channel number in your first bouquet."
 msgstr "Premendo il tasto anti panico si esegue lo zapping su questo numero di canale del primo bouquet."
 
-msgid "Prev Image"
-msgstr "Immagine precedente"
-
 msgid "Prev quad PiP channel"
 msgstr "Canale PiP quadruplo precedente"
 
@@ -12996,6 +13067,12 @@ msgstr "Menu anteprima"
 
 msgid "Previous"
 msgstr "Precedente"
+
+msgid "Previous Image"
+msgstr ""
+
+msgid "Previous Log"
+msgstr ""
 
 msgid "Previous bouquet"
 msgstr "Bouquet precedente"
@@ -13296,6 +13373,9 @@ msgstr "RAM (Dettagli)"
 msgid "RAM (Summary)"
 msgstr "RAM (Riepilogo)"
 
+msgid "RAM benchmark"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "Codice personalizzato RC"
 
@@ -13456,11 +13536,18 @@ msgstr "Ricevitore"
 msgid "Receiver Image Actions"
 msgstr "Azioni dell'immagine del ricevitore"
 
+msgid "Receiver Images"
+msgstr ""
+
 msgid "Receiver Information"
 msgstr "Informazioni sul ricevitore"
 
 msgid "Receiver Information Actions"
 msgstr "Azioni di informazioni sul ricevitore"
+
+#, python-format
+msgid "Receiver information for %s %s"
+msgstr ""
 
 msgid "Receiver name"
 msgstr "Nome del ricevitore"
@@ -14016,6 +14103,9 @@ msgstr "Riduci l'intervallo corrente di tempo"
 msgid "Restricted 18+"
 msgstr "Limitato 18+"
 
+msgid "Results of the delete all logs:"
+msgstr ""
+
 msgid "Resume from last position"
 msgstr "Riprendere dall'ultima posizione"
 
@@ -14030,6 +14120,14 @@ msgstr "Ripresa della riproduzione"
 msgid "Retrieving '%s' commit log, please wait..."
 msgstr "Recupero del registro dei commit %s, attendere..."
 
+#, python-format
+msgid "Retrieving '%s' information, please wait..."
+msgstr ""
+
+#, python-format
+msgid "Retrieving '%s' log, please wait..."
+msgstr ""
+
 msgid "Retrieving boot slot information..."
 msgstr "Recupero delle informazioni sullo slot di avvio in corso..."
 
@@ -14041,9 +14139,6 @@ msgstr "Recupero posizione immagine - Attendere..."
 
 msgid "Retrieving network server information, please wait..."
 msgstr "Recupero delle informazioni sul server di rete, attendere..."
-
-msgid "Retrieving system information, please wait..."
-msgstr "Recupero delle informazioni di sistema, attendere..."
 
 msgid "Return the current selection response"
 msgstr "Restituisce la risposta alla selezione corrente"
@@ -14513,6 +14608,9 @@ msgstr "Scienza"
 msgid "Science & Tech"
 msgstr "Scienza e tecnologia"
 
+msgid "Scope"
+msgstr ""
+
 msgid "Screenshot of LCD in /tmp"
 msgstr "Schermata di LCD in / tmp"
 
@@ -14772,6 +14870,9 @@ msgstr "Seleziona un bouquet"
 msgid "Select a cardserver from the available list."
 msgstr "Seleziona un cardserver tra quelli disponibili nella lista."
 
+msgid "Select a debug log file to view:"
+msgstr ""
+
 msgid "Select a distribution from where images are to be obtained"
 msgstr "Selezionare una distribuzione da cui ottenere le immagini"
 
@@ -14783,6 +14884,9 @@ msgstr "Seleziona un adattatore di rete"
 
 msgid "Select a path"
 msgstr "Seleziona un percorso"
+
+msgid "Select a repository commit log to view:"
+msgstr ""
 
 msgid "Select a script to run:"
 msgstr "Seleziona lo script da avviare:"
@@ -14817,9 +14921,6 @@ msgstr "Seleziona canale audio"
 
 msgid "Select channel to record from"
 msgstr "Seleziona il canale di registrazione"
-
-msgid "Select commit log"
-msgstr "Seleziona registro commit"
 
 msgid "Select copy destination for:"
 msgstr "Seleziona destinazione di copia per:"
@@ -14860,9 +14961,6 @@ msgstr "Selezionare se timeshift deve continuare quando è impostato per registr
 msgid "Select if you want the Subservice mode to be activated."
 msgstr "Selezionare se si desidera attivare la modalità Sotto servizio."
 
-msgid "Select information screen"
-msgstr "Seleziona la schermata delle informazioni"
-
 msgid "Select input device"
 msgstr "Seleziona il dispositivo di input"
 
@@ -14901,6 +14999,9 @@ msgstr "Seleziona softcam"
 
 msgid "Select sort method:"
 msgstr "Ordina per:"
+
+msgid "Select system information to view:"
+msgstr ""
 
 msgid "Select target folder"
 msgstr "Selezionare la cartella destinazione"
@@ -16023,6 +16124,9 @@ msgstr "Mostra la posizione dei capitoli per tipi video supportati (versione GSt
 msgid "Show columns"
 msgstr "Mostra colonne"
 
+msgid "Show commit log information"
+msgstr ""
+
 msgid "Show contents of ipk file"
 msgstr "Mostra i contenuti del file ipk"
 
@@ -16043,6 +16147,9 @@ msgstr "Mostra le icone di codifica"
 
 msgid "Show crypto info in infobar"
 msgstr "Mostra le info di codifica nella infobar"
+
+msgid "Show debug log information"
+msgstr ""
 
 msgid "Show default after description"
 msgstr "Mostra l'impostazione predefinita dopo la descrizione"
@@ -16089,14 +16196,14 @@ msgstr "Mostra la selezione dell'estensione"
 msgid "Show extensions..."
 msgstr "Mostra estensioni...."
 
+msgid "Show extra spacing in Information"
+msgstr ""
+
 msgid "Show favourites list"
 msgstr "Mostra l'elenco dei preferiti"
 
 msgid "Show files backed up by default"
 msgstr "Mostra i file di backup predefiniti"
-
-msgid "Show geolocation information"
-msgstr "Mostra le informazioni sulla geolocalizzazione"
 
 msgid "Show graphical multi EPG"
 msgstr "Mostra multi EPG grafico"
@@ -16143,14 +16250,8 @@ msgstr "Mostra le icone sulla barra delle informazioni"
 msgid "Show job tasks in extensions"
 msgstr "Mostra i task di lavoro nelle estensioni"
 
-msgid "Show latest commit log information"
-msgstr "Mostra le ultime informazioni sul registro dei commit"
-
 msgid "Show live TV when movie stopped"
 msgstr "Mostra diretta TV su arresto riproduzione"
-
-msgid "Show logs"
-msgstr "Mostra registri"
 
 msgid "Show marked events"
 msgstr "Mostra programmi contrassegnati"
@@ -16182,6 +16283,12 @@ msgstr "Mostra multi canale EPG"
 msgid "Show network setup menu..."
 msgstr "Mostra il menu di configurazione della rete..."
 
+msgid "Show next commit log"
+msgstr ""
+
+msgid "Show next debug log file"
+msgstr ""
+
 msgid "Show next event"
 msgstr "Mostra il prossimo evento"
 
@@ -16193,6 +16300,9 @@ msgstr "Mostra la pagina successiva"
 
 msgid "Show next picture"
 msgstr "Mostra immagine successiva"
+
+msgid "Show next system information screen"
+msgstr ""
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Mostra o nascondi la descrizione estesa, (dipende dalla skin)."
@@ -16212,6 +16322,12 @@ msgstr "Mostra il movimento motore"
 msgid "Show preview of current mode (*)."
 msgstr "Mostra anteprima della modalità corrente (*)."
 
+msgid "Show previous commit log"
+msgstr ""
+
+msgid "Show previous debug log file"
+msgstr ""
+
 msgid "Show previous event"
 msgstr "Mostra evento precedente"
 
@@ -16224,8 +16340,14 @@ msgstr "Mostra la pagina precedente"
 msgid "Show previous picture"
 msgstr "Mostra immagine precedente"
 
+msgid "Show previous system information screen"
+msgstr ""
+
 msgid "Show quickmenu..."
 msgstr "Mostra menu rapido..."
+
+msgid "Show receiver image(s)"
+msgstr ""
 
 msgid "Show record indicator"
 msgstr "Mostra indicatore di registrazione"
@@ -16242,11 +16364,14 @@ msgstr "Mostra il percorso del menu dello schermo"
 msgid "Show screensaver"
 msgstr "Mostra salvaschermo"
 
-msgid "Show selection for commit logs"
-msgstr "Mostra la selezione per i log di commit"
-
 msgid "Show selection for system information screen"
 msgstr "Mostra la selezione per la schermata delle informazioni di sistema"
+
+msgid "Show selection menu for commit logs"
+msgstr ""
+
+msgid "Show selection menu for debug log files"
+msgstr ""
 
 msgid "Show service list"
 msgstr "Mostra elenco servizi"
@@ -16307,6 +16432,9 @@ msgstr "Mostra la schermata delle informazioni di CCcam"
 
 msgid "Show the DreamPlex player..."
 msgstr "Mostra il lettore DreamPlex..."
+
+msgid "Show the Logs Settings screen"
+msgstr ""
 
 msgid "Show the OScamInfo Screen"
 msgstr "Mostra la schermata OScamInfo"
@@ -17000,6 +17128,9 @@ msgstr "Standby senza spegnimento della TV"
 msgid "Start"
 msgstr "Avvio"
 
+msgid "Start Auto Refresh"
+msgstr ""
+
 msgid "Start Kodi"
 msgstr "Avvia Kodi"
 
@@ -17060,7 +17191,7 @@ msgstr "Avviare il"
 msgid "Starts in a few seconds"
 msgstr "Inizia in pochi secondi"
 
-#. TRANSLATORS: "State" is Location Info
+#. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
 msgstr "Regione"
 
@@ -17103,6 +17234,9 @@ msgstr "Sti"
 msgid "Stop"
 msgstr "Stop"
 
+msgid "Stop Auto Refresh"
+msgstr ""
+
 msgid "Stop PiP"
 msgstr "Chiudere PiP"
 
@@ -17135,6 +17269,9 @@ msgstr "Ferma la registrazione adesso"
 
 msgid "Stop service on return to movie list"
 msgstr "Interrompi il servizio al ritorno all'elenco dei film"
+
+msgid "Stop streams"
+msgstr ""
 
 msgid "Stop test"
 msgstr "Arrestare il test"
@@ -17172,8 +17309,18 @@ msgstr "Ferna Softcam"
 msgid "Stops timeshift being used if a recording is in progress. (Advisable for USB sticks.)"
 msgstr "Ferma il timeshift se vi è una registrazione in corso ( importante per usb sticks)"
 
+msgid "Storage / Disk Information"
+msgstr ""
+
+#, python-format
+msgid "Storage / Disk information for %s %s"
+msgstr ""
+
 msgid "Storage / Disks"
 msgstr "Archiviazione e dischi"
+
+msgid "Storage / Drive information"
+msgstr ""
 
 msgid "Storage Devices"
 msgstr "Dispositivi di archiviazione"
@@ -17196,14 +17343,18 @@ msgstr "Stream-tv"
 msgid "Streaming"
 msgstr "Streaming"
 
-msgid "Streaming Clients"
-msgstr "Clienti in streaming"
-
 msgid "Streaming Information Actions"
 msgstr "Azioni di informazioni in streaming"
 
+msgid "Streaming Tuner Information"
+msgstr ""
+
 msgid "Streaming recording ended"
 msgstr "La registrazione in streaming è terminata"
+
+#, python-format
+msgid "Streaming tuner information for %s %s"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, with stretching all parts of the picture with the same factor (force aspect))
 msgid "Stretch full"
@@ -17515,6 +17666,9 @@ msgstr "plugin di sistema"
 msgid "System Setup"
 msgstr "Configurazione del sistema"
 
+msgid "System information"
+msgstr ""
+
 msgid "System partition free space:"
 msgstr "Spazio libero partizione di sistema:"
 
@@ -17526,9 +17680,6 @@ msgstr "Sistema: "
 
 msgid "Systeminfo"
 msgstr "Info sistema"
-
-msgid "Systems"
-msgstr "Sistemi"
 
 msgid "T2MI PID"
 msgstr "T2MI PID"
@@ -17711,6 +17862,9 @@ msgstr "Test della configurazione di rete del %s %s."
 msgid "Test type"
 msgstr "Tipo di test"
 
+msgid "Testing Information"
+msgstr ""
+
 msgid "Testscreens"
 msgstr "Schermi di prova"
 
@@ -17750,16 +17904,16 @@ msgid "The %s %s stores the EPG data every (hours)."
 msgstr "Il %s %s salva i dati dell'EPG ogni (ore)."
 
 #, python-format
-msgid "The '%s' commit log contains no information."
-msgstr "Il registro di commit %s non contiene informazioni."
-
-#, python-format
 msgid "The '%s' commit log can't be retrieved, please try again later."
 msgstr "Impossibile recuperare i log di commit %s, riprovare più tardi."
 
 #, python-format
-msgid "The '%s' log file contains no information."
-msgstr "Il file di registro '%s' non contiene informazioni."
+msgid "The '%s' commit log contains no information."
+msgstr "Il registro di commit %s non contiene informazioni."
+
+#, python-format
+msgid "The '%s' file can't be retrieved, please try again later."
+msgstr ""
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -18052,12 +18206,19 @@ msgstr "Nessuna azione in sospeso al momento."
 msgid "There are no items currently available for this screen."
 msgstr "Non ci sono elementi attualmente disponibili per questa schermata."
 
+msgid "There are no repositories defined so commit logs are unavailable!"
+msgstr ""
+
 msgid "There are no updates available."
 msgstr "Nessun aggiornamento disponibile."
 
 #, python-format
 msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
 msgstr "C'è il rischio che il tuo %s %s non si avvii o possa funzionare male dopo un così grande aggiornamento in linea."
+
+#, python-format
+msgid "There is no information to show for '%s'."
+msgstr ""
 
 msgid "There is no signal to lock on !"
 msgstr "Non vi è alcun segnale da agganciare!"
@@ -18722,6 +18883,9 @@ msgstr "Inserire un segno di taglio nella posizione attuale"
 msgid "Toggle aspect ratio..."
 msgstr "Commuta proporzioni..."
 
+msgid "Toggle auto refresh On/Off"
+msgstr ""
+
 msgid "Toggle between bouquet/EPG lists"
 msgstr "Commuta tra elenchi bouquet/liste EPG"
 
@@ -18773,6 +18937,9 @@ msgstr "Sopra e Sotto"
 msgid "Total"
 msgstr "Totale"
 
+msgid "Total CPU benchmark"
+msgstr ""
+
 msgid "Total cards:"
 msgstr "Totale schede:"
 
@@ -18821,6 +18988,10 @@ msgstr "Informazioni traduzione"
 
 msgid "Translation information"
 msgstr "Informazioni sulla traduzione"
+
+#, python-format
+msgid "Translation information for %s %s"
+msgstr ""
 
 msgid "Transmission mode"
 msgstr "Modalità trasmissione"
@@ -18930,6 +19101,10 @@ msgstr "Configurazione del sintonizzatore"
 msgid "Tuner information"
 msgstr "Informazioni sul sintonizzatore"
 
+#, python-format
+msgid "Tuner information for %s %s"
+msgstr ""
+
 msgid "Tuner is not supported"
 msgstr "Il sintonizzatore non è supportato"
 
@@ -19035,6 +19210,9 @@ msgstr "Due linee"
 
 msgid "Type"
 msgstr "Tipo"
+
+msgid "Type / Model"
+msgstr ""
 
 msgid "Type of scan"
 msgstr "Tipo ricerca"
@@ -19177,6 +19355,9 @@ msgstr "Gruppo sconosciuto: %d"
 msgid "Unknown recording event"
 msgstr "Evento di registrazione sconosciuto"
 
+msgid "Unknown service!"
+msgstr ""
+
 #, python-format
 msgid "Unknown user: %d"
 msgstr "Utente sconosciuto: %d"
@@ -19229,6 +19410,9 @@ msgstr "Decompressione immagine"
 
 msgid "Up"
 msgstr "Su"
+
+msgid "Up / Active"
+msgstr ""
 
 msgid "Up/Down button mode"
 msgstr "Modalità tasto Su/Giù"
@@ -19441,6 +19625,9 @@ msgstr "Usa per caricare solo (n.) giorni nell'EPG"
 
 msgid "Use frequency or channel"
 msgstr "Usa frequenza o canale"
+
+msgid "Use geolocation to get WAN information"
+msgstr ""
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Usa la geolocalizzazione per impostare la posizione del fuso orario corrente"
@@ -19925,6 +20112,9 @@ msgstr "Volume su"
 msgid "W"
 msgstr "O"
 
+msgid "WAN Geolocation"
+msgstr ""
+
 msgid "WAN connection information"
 msgstr "Informazioni sulla connessione WAN"
 
@@ -20073,6 +20263,10 @@ msgstr "Fine settimana"
 
 msgid "Weekly"
 msgstr "Settimanali"
+
+#, python-format
+msgid "Welcome to %s"
+msgstr ""
 
 msgid "Welcome to IceTV"
 msgstr "Benvenuto su IceTV"
@@ -22627,6 +22821,133 @@ msgstr "zapping"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%s information"
+#~ msgstr "%s informazioni"
+
+#~ msgid "Active Streaming Clients"
+#~ msgstr "Client di streaming attivi"
+
+#, python-format
+#~ msgid "An error occurred, error code %d, please try again later."
+#~ msgstr "Si è verificato un errore, codice di errore %d, riprovare più tardi."
+
+#~ msgid "Broadcast"
+#~ msgstr "IP di broadcast"
+
+#~ msgid "Build information for"
+#~ msgstr "Informazioni sulla compilazione per"
+
+#~ msgid "Commit Information"
+#~ msgstr "Commit informazioni"
+
+#, python-format
+#~ msgid "Crash log '%s' (%d/%d)"
+#~ msgstr "Registro arresti anomali '%s' (%d/%d)"
+
+#, python-format
+#~ msgid "Debug log '%s' (%d/%d)"
+#~ msgstr "Registro di debug '%s' (%d/%d)"
+
+#~ msgid "Delete all logfiles"
+#~ msgstr "Elimina tutti i file di registro"
+
+#~ msgid "Delete logfile"
+#~ msgstr "Elimina file di registro"
+
+#~ msgid "Detected drives"
+#~ msgstr "Unità rilevate"
+
+#~ msgid "Detected network servers"
+#~ msgstr "Server di rete rilevati"
+
+#~ msgid "Detected tuners"
+#~ msgstr "Sintonizzatori rilevati"
+
+#~ msgid "Display next commit log"
+#~ msgstr "Visualizza il registro di commit successivo"
+
+#~ msgid "Display next system information screen"
+#~ msgstr "Visualizza la schermata delle informazioni di sistema successiva"
+
+#~ msgid "Display previous commit log"
+#~ msgstr "Visualizza il registro di commit precedente"
+
+#~ msgid "Display previous system information screen"
+#~ msgstr "Visualizza la schermata delle informazioni di sistema precedente"
+
+#~ msgid "Drives Information"
+#~ msgstr "Informazioni sulle unità"
+
+#~ msgid "Drives information"
+#~ msgstr "Informazioni sulle unità"
+
+#~ msgid "Enter number to select screen"
+#~ msgstr "Immettere il numero per selezionare lo schermo"
+
+#, python-format
+#~ msgid "Error %d: The logfile '%s' could not be opened.  (%s)"
+#~ msgstr "Errore %d: Impossibile aprire il file di registro '%s'. (%s)"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#, python-format
+#~ msgid "Logfile '%s' (%d/%d)"
+#~ msgstr "File di registro '%s' (%d/%d)"
+
+#~ msgid "Logs"
+#~ msgstr "Registri"
+
+#~ msgid "MAC"
+#~ msgstr "MAC"
+
+#~ msgid "No clients streaming"
+#~ msgstr "Nessun client in streaming"
+
+#~ msgid "No network servers detected."
+#~ msgstr "Nessun server di rete rilevato."
+
+#~ msgid "Press <> or menu to select the different commit logs"
+#~ msgstr "Premere <> o menu per selezionare i diversi registri di commit"
+
+#~ msgid "Press <> or menu to select the different info screens"
+#~ msgstr "Premere <> o menu per selezionare le diverse schermate informative"
+
+#~ msgid "Prev Image"
+#~ msgstr "Immagine precedente"
+
+#~ msgid "Retrieving system information, please wait..."
+#~ msgstr "Recupero delle informazioni di sistema, attendere..."
+
+#~ msgid "Select commit log"
+#~ msgstr "Seleziona registro commit"
+
+#~ msgid "Select information screen"
+#~ msgstr "Seleziona la schermata delle informazioni"
+
+#~ msgid "Show geolocation information"
+#~ msgstr "Mostra le informazioni sulla geolocalizzazione"
+
+#~ msgid "Show latest commit log information"
+#~ msgstr "Mostra le ultime informazioni sul registro dei commit"
+
+#~ msgid "Show logs"
+#~ msgstr "Mostra registri"
+
+#~ msgid "Show selection for commit logs"
+#~ msgstr "Mostra la selezione per i log di commit"
+
+#~ msgid "Streaming Clients"
+#~ msgstr "Clienti in streaming"
+
+#~ msgid "Systems"
+#~ msgstr "Sistemi"
+
+#, python-format
+#~ msgid "The '%s' log file contains no information."
+#~ msgstr "Il file di registro '%s' non contiene informazioni."
 
 #~ msgid "Include PID in http streams"
 #~ msgstr "Includi PID nei flussi http"
