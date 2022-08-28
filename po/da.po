@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2021-11-04 23:53+0000\n"
 "Last-Translator: T. Rylle <dk-translation@pm.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/da/>\n"
@@ -4259,6 +4259,9 @@ msgstr "Vælg et mærkat som kan identificere denne enhed i IceTV tjenesterne."
 msgid "Choose dvb wait delay for ci response."
 msgstr "Vælg DVB ventetid for CI-svar."
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Vælg hvor ofte der forbindes til IceTV serveren for at se efter opdateringer."
 
@@ -4596,9 +4599,6 @@ msgstr "Konfigurer en ekstra forsinkelse for at forbedre undertekstsynkroniserin
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Konfigurer standardindstillinger for nye Timere. Kræver genstart efter ændring."
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Konfigurer i hvor mange minutter gennemførte begivenheder skal forblive synlig i EPG'en. Nyttig når du har behov for information om en begivenhed der netop er gennemført eller som er blevet forsinket."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr "Konfigurer for hvilke typer af optagelser der vises en advarsler om aktive optagelser, når boks eller GUI forsøges genstartet."
 
@@ -4766,9 +4766,6 @@ msgstr "Konfigurer harddisken til at gå i Standby efter den angivne inaktivitet
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr "Konfigurer højden af den TrueType skrifttype der bruges til Tekst-TV."
-
-msgid "Configure the history of time that will be presented."
-msgstr "Konfigurer historikken af den tid som præsenteres."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Konfigurer den vandrette justering af underteksterne."
@@ -6976,6 +6973,12 @@ msgstr ""
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr "Aktiver denne mulighed for at tilføje tastatur tastekort data til fejlsøgningslog filen."
 
@@ -7063,13 +7066,13 @@ msgstr[1] ""
 msgid "Energy Timer: Inactive."
 msgstr ""
 
+msgid "Energy timer"
+msgstr ""
+
 msgid "EnergySaver action"
 msgstr ""
 
 msgid "EnergySaver activation delay"
-msgstr ""
-
-msgid "Energy timer"
 msgstr ""
 
 msgid "EnergyTimer Actions"
@@ -9211,11 +9214,17 @@ msgstr "Inkluder AIT i optagelser"
 msgid "Include CI assignment"
 msgstr "Inkluder CI-tildeling"
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "Inkluder ECM i http stream"
 
 msgid "Include EIT in http streams"
 msgstr "Inkluder EIT i http stream"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr ""
@@ -9718,6 +9727,9 @@ msgstr "Kasakhstan"
 
 msgid "Kazakhstan"
 msgstr "Kasakhstan"
+
+msgid "Keep EPG history (in minutes)"
+msgstr ""
 
 msgid "Keep service"
 msgstr "Behold kanal"
@@ -10359,9 +10371,6 @@ msgstr "Magisk lang"
 
 msgid "Main Menu"
 msgstr "Hovedmenu"
-
-msgid "Maintain old EPG data for"
-msgstr "Bevar EPG data i (minutter)"
 
 msgid "Maintain your multi boot device."
 msgstr "Vedligehold din multiboot enhed."
@@ -15437,6 +15446,9 @@ msgstr ""
 msgid "Select the highlighted slot and reboot"
 msgstr ""
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 #, fuzzy
 msgid "Select the locale from a menu"
 msgstr "Vælg sproget fra en menu"
@@ -19146,9 +19158,6 @@ msgstr "Tid for diasshow"
 msgid "Time for next LCD scrolling"
 msgstr "Tid for næste LCD rulning"
 
-msgid "Timeline marker"
-msgstr "Tidshistorik"
-
 msgid "Time jump avoid zero step size"
 msgstr "Tidshop undgå 0 trinsstørrelse"
 
@@ -19170,9 +19179,6 @@ msgstr "Tid lang"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr "Tid nødvendig for denne proces: %s"
-
-msgid "Timeline scale"
-msgstr "Tidsskala"
 
 msgid "Time style"
 msgstr "Tidsstil"
@@ -19197,6 +19203,12 @@ msgstr "Tidslinje 24 Timer"
 
 msgid "Timeline font size"
 msgstr "Tidslinje skriftstørrelse"
+
+msgid "Timeline marker"
+msgstr "Tidshistorik"
+
+msgid "Timeline scale"
+msgstr "Tidsskala"
 
 msgid "Timer Actions"
 msgstr "Timer handlinger"
@@ -23335,6 +23347,15 @@ msgstr "Zapper"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "Konfigurer i hvor mange minutter gennemførte begivenheder skal forblive synlig i EPG'en. Nyttig når du har behov for information om en begivenhed der netop er gennemført eller som er blevet forsinket."
+
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "Konfigurer historikken af den tid som præsenteres."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "Bevar EPG data i (minutter)"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<ukendt>"
