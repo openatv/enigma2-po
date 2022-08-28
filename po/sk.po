@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2022-08-27 16:02+0000\n"
 "Last-Translator: NickerSK <nickersk@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -4276,6 +4276,9 @@ msgstr "Vyberte pomenovanie označujúce toto zariadenie v službách IceTV."
 msgid "Choose dvb wait delay for ci response."
 msgstr "Vyberte čakanie DVB na rozpoznanie CI."
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Vyberte ako často sa má vykonať kontrola aktualizácií a pripojenie na server IceTV."
 
@@ -4610,9 +4613,6 @@ msgstr "Nastavte prídavné oneskorenie pre zlepšenie synchronizácie titulkov.
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Nakonfigurujte predvolené nastavenie pre nové časovače. Po zmene sa vyžaduje reštartovanie."
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Nastavte, koľko minút má zostať skončená udalosť viditeľná v EPG. Užitočné vtedy, keď potrebujete informácie o udalosti, ktorá práve skončila alebo sa oneskorila."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr "Nastavte, pre ktoré typy nahrávok sa zobrazí výstraha o aktívnom nahrávaní, keď sa pokúsite o reštartovanie prijímača alebo GUI."
 
@@ -4780,9 +4780,6 @@ msgstr "Nastavte pevný disk na prechod do pohotovostného režimu po uplynutí 
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr "Nastavte výšku písmen fontu TrueType, ktoré sa používajú pre teletext."
-
-msgid "Configure the history of time that will be presented."
-msgstr "Nastavte históriu času, ktorý sa bude prezentovať."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Nastavte horizontálne zarovnanie titulkov."
@@ -6994,6 +6991,12 @@ msgstr "Aktivovať pokročilé možnosti nastavenia HDMI-CEC."
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Povolením tejto možnosti pridáte do súboru denníka ladenia údaje o mape akcií / mapovaní diaľkového ovládača."
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr "Povoľte túto možnosť, ak chcete do súboru denníka ladenia pridať údaje mapy klávesnice."
 
@@ -7083,14 +7086,14 @@ msgstr[2] "Časovač pre energiu: zostáva %d sekúnd."
 msgid "Energy Timer: Inactive."
 msgstr "Časovač pre energiu: neaktívny."
 
+msgid "Energy timer"
+msgstr "Časovač pre energiu"
+
 msgid "EnergySaver action"
 msgstr "Akcia šetriča energie"
 
 msgid "EnergySaver activation delay"
 msgstr "Oneskorenie aktivácie šetriča energie"
-
-msgid "Energy timer"
-msgstr "Časovač pre energiu"
 
 msgid "EnergyTimer Actions"
 msgstr ""
@@ -9218,11 +9221,17 @@ msgstr "Zahrnúť AIT do nahrávok"
 msgid "Include CI assignment"
 msgstr "Zahrnúť priradenie CI"
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "Zahrnúť ECM do http streamov"
 
 msgid "Include EIT in http streams"
 msgstr "Zahrnúť EIT do http streamov"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr "Zahrnúť SDT, BAT do http streamov"
@@ -9713,6 +9722,9 @@ msgstr "Kazaština"
 
 msgid "Kazakhstan"
 msgstr "Kazachstan"
+
+msgid "Keep EPG history (in minutes)"
+msgstr ""
 
 msgid "Keep service"
 msgstr "Udržiavať stanicu"
@@ -10340,9 +10352,6 @@ msgstr "Magic - dlho"
 
 msgid "Main Menu"
 msgstr "Hlavné menu"
-
-msgid "Maintain old EPG data for"
-msgstr "Zachovať staré EPG na"
 
 msgid "Maintain your multi boot device."
 msgstr "Vykonávajte správu a údržbu zariadenia multiboot."
@@ -15343,6 +15352,9 @@ msgstr "Výber zvýrazneného image a pokračovanie na výber slotu"
 msgid "Select the highlighted slot and reboot"
 msgstr "Vybrať zvýraznený slot a reštartovať"
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 msgid "Select the locale from a menu"
 msgstr "Vybrať lokalizáciu z menu"
 
@@ -19013,9 +19025,6 @@ msgstr "Čas pre Slideshow"
 msgid "Time for next LCD scrolling"
 msgstr "Čas pre ďalšie rolovanie LCD"
 
-msgid "Timeline marker"
-msgstr "Čas. história"
-
 msgid "Time jump avoid zero step size"
 msgstr "Časový skok - zabrániť nulovému skoku"
 
@@ -19037,9 +19046,6 @@ msgstr "Čas - dlho"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr "Čas vyžadovaný pre tento proces: %s"
-
-msgid "Timeline scale"
-msgstr "Časové rozpätie"
 
 msgid "Time style"
 msgstr "Štýl pre čas"
@@ -19064,6 +19070,12 @@ msgstr "Časová os - 24 hodín"
 
 msgid "Timeline font size"
 msgstr "Veľkosť písma na časovej osi"
+
+msgid "Timeline marker"
+msgstr "Čas. história"
+
+msgid "Timeline scale"
+msgstr "Časové rozpätie"
 
 msgid "Timer Actions"
 msgstr "Akcie časovača"
@@ -23170,6 +23182,15 @@ msgstr "prepínanie"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "Nastavte, koľko minút má zostať skončená udalosť viditeľná v EPG. Užitočné vtedy, keď potrebujete informácie o udalosti, ktorá práve skončila alebo sa oneskorila."
+
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "Nastavte históriu času, ktorý sa bude prezentovať."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "Zachovať staré EPG na"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<neznámy>"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2022-03-01 14:41+0000\n"
 "Last-Translator: lexlong2007 <lexlong2007@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -4254,6 +4254,9 @@ msgstr "选择将在IceTV服务中识别此设备的标签."
 msgid "Choose dvb wait delay for ci response."
 msgstr "为ci响应选择dvb等待延迟."
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "选择连接到ICETV服务器以检查更新的频率."
 
@@ -4590,9 +4593,6 @@ msgstr "配置额外的延迟以改善字幕同步."
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "配置新定时器的默认设置.更改后需要重新启动."
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "配置EPG中已结束事件仍保持可见的分钟数.当您需要有关即时完成或已延迟事件的信息时,此选项非常有用."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr "配置在尝试重新启动设备或GUI时,针对哪些类型的录制显示有关活动录制的警告."
 
@@ -4760,9 +4760,6 @@ msgstr "配置硬盘驱动器在指定的空闲时间后进入待机状态."
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr "配置用于图文TrueType字体字母的高度."
-
-msgid "Configure the history of time that will be presented."
-msgstr "配置将显示的时间历史记录."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "配置字幕水平对齐方式."
@@ -6973,6 +6970,12 @@ msgstr "启用高级HDMI-CEC设置选项."
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "启用此选项可将操作映射/远程控制映射数据添加到调试日志文件."
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr "启用此选项可将键盘键映射数据添加到调试日志文件."
 
@@ -7060,13 +7063,13 @@ msgstr[1] ""
 msgid "Energy Timer: Inactive."
 msgstr ""
 
+msgid "Energy timer"
+msgstr ""
+
 msgid "EnergySaver action"
 msgstr ""
 
 msgid "EnergySaver activation delay"
-msgstr ""
-
-msgid "Energy timer"
 msgstr ""
 
 msgid "EnergyTimer Actions"
@@ -9193,11 +9196,17 @@ msgstr "录制中包括AIT"
 msgid "Include CI assignment"
 msgstr "包括CI的分配"
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "在Http串流中包含ECM信息"
 
 msgid "Include EIT in http streams"
 msgstr "在Http串流中包含EIT信息"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr ""
@@ -9688,6 +9697,9 @@ msgstr "哈萨克语"
 
 msgid "Kazakhstan"
 msgstr "哈萨克斯坦"
+
+msgid "Keep EPG history (in minutes)"
+msgstr ""
 
 msgid "Keep service"
 msgstr "保持频道"
@@ -10314,9 +10326,6 @@ msgstr "Magic键 长按"
 
 msgid "Main Menu"
 msgstr "主菜单"
-
-msgid "Maintain old EPG data for"
-msgstr "保留过期的EPG数据"
 
 msgid "Maintain your multi boot device."
 msgstr "管理和维护你的多重启动设备."
@@ -15315,6 +15324,9 @@ msgstr ""
 msgid "Select the highlighted slot and reboot"
 msgstr ""
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 msgid "Select the locale from a menu"
 msgstr "从菜单中选择区域设置"
 
@@ -18972,9 +18984,6 @@ msgstr "幻灯片放映时间"
 msgid "Time for next LCD scrolling"
 msgstr "下一次LCD滚动的时间"
 
-msgid "Timeline marker"
-msgstr "时间历史"
-
 msgid "Time jump avoid zero step size"
 msgstr "时间跳转避免零步长"
 
@@ -18996,9 +19005,6 @@ msgstr "Time键 长按"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr "此过程所需的时间：%s"
-
-msgid "Timeline scale"
-msgstr "时间刻度"
 
 msgid "Time style"
 msgstr "时间格式"
@@ -19023,6 +19029,12 @@ msgstr "时间线24小时"
 
 msgid "Timeline font size"
 msgstr "时间线字体大小"
+
+msgid "Timeline marker"
+msgstr "时间历史"
+
+msgid "Timeline scale"
+msgstr "时间刻度"
 
 msgid "Timer Actions"
 msgstr "定时器操作"
@@ -23124,6 +23136,15 @@ msgstr "切换中"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "配置EPG中已结束事件仍保持可见的分钟数.当您需要有关即时完成或已延迟事件的信息时,此选项非常有用."
+
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "配置将显示的时间历史记录."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "保留过期的EPG数据"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<未知>"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2022-08-24 05:50+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
@@ -4286,6 +4286,9 @@ msgstr "Wybierz etykietę, która będzie identyfikować to urządzenie w ramach
 msgid "Choose dvb wait delay for ci response."
 msgstr "Wybierz opóźnienie dvb w oczekiwaniu na odpowiedź CI."
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Wybierz częstotliwość łączenia się z serwerem IceTV w celu sprawdzenia dostępności aktualizacji."
 
@@ -4621,9 +4624,6 @@ msgstr "Skonfiguruj dodatkowe opóźnienie do poprawy synchronizacji napisów."
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Skonfiguruj domyślne ustawienie dla nowych timerów. Po zmianie wymagany restart."
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Skonfiguruj przez jaki czas audycje pozostaną widoczne w EPG. Przydatne, gdy potrzebujesz informacji o programie, który właśnie się zakończył‚ lub się opróźnił."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr "Skonfiguruj dla jakich typów nagrań pojawia się ostrzeżenie o aktywnych nagraniach podczas próby ponownego uruchomienia tunera lub interfejsu."
 
@@ -4791,9 +4791,6 @@ msgstr "Skonfiguruj czas po jakim dysk twardy ma przechodzić w tryb uśpienia."
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr "Skonfiguruj wysokość liter czcionki TrueType używanych do telegazety."
-
-msgid "Configure the history of time that will be presented."
-msgstr "Skonfiguruj historię czasu, który będzie prezentowany."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Skonfiguruj poziome wyrównanie napisów."
@@ -7005,6 +7002,12 @@ msgstr "Włącz zaawansowane opcje HDMI-CEC."
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Włącz tę opcję, aby dodać dane map akcji / mapowania zdalnego sterowania do pliku dziennika debugowania."
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr "Włącz tę opcję, aby dodać dane mapy klawiatury do pliku dziennika debugowania."
 
@@ -7094,14 +7097,14 @@ msgstr[2] "Licznik energii: pozostało %d sekund."
 msgid "Energy Timer: Inactive."
 msgstr "Zegar zasilania: nieaktywny."
 
+msgid "Energy timer"
+msgstr "Timer zasilania"
+
 msgid "EnergySaver action"
 msgstr "Akcja oszczędzania energii"
 
 msgid "EnergySaver activation delay"
 msgstr "Opóźnienie aktywacji oszczędzania energii"
-
-msgid "Energy timer"
-msgstr "Timer zasilania"
 
 msgid "EnergyTimer Actions"
 msgstr "Akcje EnergyTimer"
@@ -9229,11 +9232,17 @@ msgstr "Dołącz AIT w nagraniach"
 msgid "Include CI assignment"
 msgstr "Dołącz przydział CI"
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "Dołącz ECMy w strumieniach http"
 
 msgid "Include EIT in http streams"
 msgstr "Dołącz EIT w strumieniach http"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr "Uwzględnij SDT, BAT w strumieniach http"
@@ -9724,6 +9733,9 @@ msgstr "Kazachski"
 
 msgid "Kazakhstan"
 msgstr "Kazachstan"
+
+msgid "Keep EPG history (in minutes)"
+msgstr ""
 
 msgid "Keep service"
 msgstr "Utrzymaj kanał"
@@ -10352,9 +10364,6 @@ msgstr "Magiczny (długo)"
 
 msgid "Main Menu"
 msgstr "Menu główne"
-
-msgid "Maintain old EPG data for"
-msgstr "Trzymaj stare dane EPG przez (w min.)"
 
 msgid "Maintain your multi boot device."
 msgstr "Utrzymuj swoje urządzenie multiboot."
@@ -15356,6 +15365,9 @@ msgstr "Wybierz podświetlony obraz i kontynuuj z wyborem slotu"
 msgid "Select the highlighted slot and reboot"
 msgstr "Wybierz podświetlony slot i uruchom ponownie"
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 msgid "Select the locale from a menu"
 msgstr "Wybierz ustawienia regionalne z menu"
 
@@ -19024,9 +19036,6 @@ msgstr "Czas na pokaz slajdów"
 msgid "Time for next LCD scrolling"
 msgstr "Czas następnego przewijania przedniego wyświetlacza"
 
-msgid "Timeline marker"
-msgstr "Historia czasu"
-
 msgid "Time jump avoid zero step size"
 msgstr "Unikaj zakłóceń obrazu podczas skoków"
 
@@ -19048,9 +19057,6 @@ msgstr "Czas (długo)"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr "Czas wymagany dla tego procesu: %s"
-
-msgid "Timeline scale"
-msgstr "Skala czasu"
 
 msgid "Time style"
 msgstr "Styl czasu"
@@ -19075,6 +19081,12 @@ msgstr "Oś czasu 24 godziny"
 
 msgid "Timeline font size"
 msgstr "Rozmiar czcionki osi czasu"
+
+msgid "Timeline marker"
+msgstr "Historia czasu"
+
+msgid "Timeline scale"
+msgstr "Skala czasu"
 
 msgid "Timer Actions"
 msgstr "Akcje timera"
@@ -23181,6 +23193,15 @@ msgstr "przełączanie"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "Skonfiguruj przez jaki czas audycje pozostaną widoczne w EPG. Przydatne, gdy potrzebujesz informacji o programie, który właśnie się zakończył‚ lub się opróźnił."
+
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "Skonfiguruj historię czasu, który będzie prezentowany."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "Trzymaj stare dane EPG przez (w min.)"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<nieznany>"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pt_BR/>\n"
@@ -4506,6 +4506,9 @@ msgstr ""
 msgid "Choose dvb wait delay for ci response."
 msgstr ""
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr ""
 
@@ -4862,9 +4865,6 @@ msgstr "Configurar um atraso adicional para melhorar a sincronização das legen
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr ""
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Configurar por quantos minutos os eventos passados devem permanecer visíveis no EPG. Útil quando você precisar de informações sobre um evento recém finalizado ou atrasado."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr ""
 
@@ -5043,10 +5043,6 @@ msgstr "Configurar a unidade de disco rígido para ir ao modo de espera após o 
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr ""
-
-#, fuzzy
-msgid "Configure the history of time that will be presented."
-msgstr "Configurar o tamanho da fonte das legendas."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Configurar o alinhamento horizontal das legendas."
@@ -7349,6 +7345,12 @@ msgstr ""
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr ""
 
@@ -7437,13 +7439,13 @@ msgstr[1] ""
 msgid "Energy Timer: Inactive."
 msgstr ""
 
+msgid "Energy timer"
+msgstr ""
+
 msgid "EnergySaver action"
 msgstr ""
 
 msgid "EnergySaver activation delay"
-msgstr ""
-
-msgid "Energy timer"
 msgstr ""
 
 msgid "EnergyTimer Actions"
@@ -9633,11 +9635,17 @@ msgstr ""
 msgid "Include CI assignment"
 msgstr ""
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "Incluir ECM nos streams HTTP"
 
 msgid "Include EIT in http streams"
 msgstr "Incluir EIT nos streams HTTP"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr ""
@@ -10163,6 +10171,9 @@ msgid "Kazakh"
 msgstr ""
 
 msgid "Kazakhstan"
+msgstr ""
+
+msgid "Keep EPG history (in minutes)"
 msgstr ""
 
 #, fuzzy
@@ -10831,9 +10842,6 @@ msgstr "Registo da gravação"
 
 msgid "Main Menu"
 msgstr "Menu principal"
-
-msgid "Maintain old EPG data for"
-msgstr "Manter EPG antigo (minutos)"
 
 msgid "Maintain your multi boot device."
 msgstr ""
@@ -16052,6 +16060,9 @@ msgstr ""
 msgid "Select the highlighted slot and reboot"
 msgstr ""
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 #, fuzzy
 msgid "Select the locale from a menu"
 msgstr "Selecione a pasta de gravações"
@@ -19870,10 +19881,6 @@ msgstr "Gravações agendadas"
 msgid "Time for next LCD scrolling"
 msgstr ""
 
-#, fuzzy
-msgid "Timeline marker"
-msgstr "Editar o temporizador"
-
 msgid "Time jump avoid zero step size"
 msgstr ""
 
@@ -19896,9 +19903,6 @@ msgstr "Registo da gravação"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr ""
-
-msgid "Timeline scale"
-msgstr "Escala de tempo"
 
 #, fuzzy
 msgid "Time style"
@@ -19927,6 +19931,13 @@ msgstr ""
 #, fuzzy
 msgid "Timeline font size"
 msgstr "Tamanho de letra"
+
+#, fuzzy
+msgid "Timeline marker"
+msgstr "Editar o temporizador"
+
+msgid "Timeline scale"
+msgstr "Escala de tempo"
 
 #, fuzzy
 msgid "Timer Actions"
@@ -24168,6 +24179,16 @@ msgstr "Zapped"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "Configurar por quantos minutos os eventos passados devem permanecer visíveis no EPG. Útil quando você precisar de informações sobre um evento recém finalizado ou atrasado."
+
+#, fuzzy
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "Configurar o tamanho da fonte das legendas."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "Manter EPG antigo (minutos)"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<Desconhecido>"
