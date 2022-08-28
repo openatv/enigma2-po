@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:37+0000\n"
+"POT-Creation-Date: 2022-08-27 17:27+0000\n"
 "PO-Revision-Date: 2022-04-01 20:50+0300\n"
 "Last-Translator: Satelitas\n"
 "Language-Team: TEAM <EMAIL@ADDRESS>\n"
@@ -4248,6 +4248,9 @@ msgstr "Изберете етикет, който ще идентифицира 
 msgid "Choose dvb wait delay for ci response."
 msgstr "Избиране на DVB изчакване закъснение за CI отговор."
 
+msgid "Choose how much EPG history, if any, to keep in the EPG cache. This historic data can be browsed in any of the EPG views. This can be useful when you need information about an event which has recently finished."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Изберете колко често да се свързвате със сървъра на IceTV, за да проверявате за актуализации."
 
@@ -4584,9 +4587,6 @@ msgstr "Конфигурирайте допълнително забавяне, 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Конфигурирайте настройката по подразбиране за нови таймери. Нуждаете се от рестартиране след смяна."
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Конфигурирайте за колко минути завършените събития трябва да останат видими в EPG. Полезно е, когато имате нужда от информация за събитие, което току-що е завършило или е било забавено."
-
 msgid "Configure for which types of recordings a warning about active recordings is shown when attempting to restart the box or the GUI."
 msgstr "Конфигурирайте за кои типове записи, предупреждение за активни записи се показва, когато се опитва да рестартира приемника или графичния интерфейс."
 
@@ -4754,9 +4754,6 @@ msgstr "Конфигуриране на устройството с твърд �
 
 msgid "Configure the height of the TrueType font letters used for teletext."
 msgstr "Конфигуриране на височината на TrueType шрифт букви използвани за телетекст."
-
-msgid "Configure the history of time that will be presented."
-msgstr "Конфигуриране на хронологията на времето, която ще се представя."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Конфигуриране на хоризонталното подравняване на субтитри."
@@ -6967,6 +6964,12 @@ msgstr "Разрешаване на разширените опции за на�
 msgid "Enable this option to add action map / remote control mapping data to the debug log file."
 msgstr "Разрешаване на тази опция, за да добавите карта за действие/картографиране на данни от дистанционното управление към регистрационния файл за отстраняване на грешки."
 
+msgid "Enable this option to add extra DVB scan data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add extra EPG data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr "Разрешете тази опция, за да добавите данни за клавиатурата към регистрационния файл за отстраняване на грешки."
 
@@ -7054,13 +7057,13 @@ msgstr[1] ""
 msgid "Energy Timer: Inactive."
 msgstr ""
 
+msgid "Energy timer"
+msgstr ""
+
 msgid "EnergySaver action"
 msgstr ""
 
 msgid "EnergySaver activation delay"
-msgstr ""
-
-msgid "Energy timer"
 msgstr ""
 
 msgid "EnergyTimer Actions"
@@ -9184,11 +9187,17 @@ msgstr "Включете AIT в записи"
 msgid "Include CI assignment"
 msgstr "Включете CI възлагане"
 
+msgid "Include DVB scan data"
+msgstr ""
+
 msgid "Include ECM in http streams"
 msgstr "Включете ECM в HTTP потоци"
 
 msgid "Include EIT in http streams"
 msgstr "Включете EIT в HTTP потоци"
+
+msgid "Include EPG data"
+msgstr ""
 
 msgid "Include SDT, BAT in http streams"
 msgstr ""
@@ -9678,6 +9687,9 @@ msgid "Kazakh"
 msgstr ""
 
 msgid "Kazakhstan"
+msgstr ""
+
+msgid "Keep EPG history (in minutes)"
 msgstr ""
 
 msgid "Keep service"
@@ -10305,9 +10317,6 @@ msgstr ""
 
 msgid "Main Menu"
 msgstr "Основно меню"
-
-msgid "Maintain old EPG data for"
-msgstr "Поддържане на стари EPG данни за"
 
 msgid "Maintain your multi boot device."
 msgstr "Поддържайте вашето устройство за многократно зареждане."
@@ -15307,6 +15316,9 @@ msgstr ""
 msgid "Select the highlighted slot and reboot"
 msgstr ""
 
+msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
+msgstr ""
+
 msgid "Select the locale from a menu"
 msgstr "Изберете локала от меню"
 
@@ -18966,9 +18978,6 @@ msgstr "Време е за слайдшоу"
 msgid "Time for next LCD scrolling"
 msgstr "Време за следващо LCD превъртане"
 
-msgid "Timeline marker"
-msgstr "История на времето"
-
 msgid "Time jump avoid zero step size"
 msgstr "Времеви скок за избягване на нулев размер на стъпката"
 
@@ -18990,9 +18999,6 @@ msgstr "Дълго време"
 #, python-format
 msgid "Time required for this process: %s"
 msgstr "Време, необходимо за този процес: %s"
-
-msgid "Timeline scale"
-msgstr "Времева скала"
 
 msgid "Time style"
 msgstr "Стил на времето"
@@ -19017,6 +19023,12 @@ msgstr "Времева линия 24 часа"
 
 msgid "Timeline font size"
 msgstr "Размер на шрифта на времевата линия"
+
+msgid "Timeline marker"
+msgstr "История на времето"
+
+msgid "Timeline scale"
+msgstr "Времева скала"
 
 msgid "Timer Actions"
 msgstr "Действия на таймера"
@@ -23118,6 +23130,15 @@ msgstr "превключено на"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+#~ msgstr "Конфигурирайте за колко минути завършените събития трябва да останат видими в EPG. Полезно е, когато имате нужда от информация за събитие, което току-що е завършило или е било забавено."
+
+#~ msgid "Configure the history of time that will be presented."
+#~ msgstr "Конфигуриране на хронологията на времето, която ще се представя."
+
+#~ msgid "Maintain old EPG data for"
+#~ msgstr "Поддържане на стари EPG данни за"
 
 #~ msgid "<Unknown>"
 #~ msgstr "<неизвестен>"
