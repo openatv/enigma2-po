@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2021-08-21 11:46+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -2240,6 +2240,9 @@ msgstr "Lisa"
 msgid "Add AutoTimer"
 msgstr "Lisa autotaimer"
 
+msgid "Add Bookmark"
+msgstr "Lisa järjehoidja"
+
 msgid "Add Current"
 msgstr "Lisa aktiivne"
 
@@ -2293,9 +2296,6 @@ msgstr ""
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Lisa käesolevale saatele autotaimer"
-
-msgid "Add Bookmark"
-msgstr "Lisa järjehoidja"
 
 msgid "Add current folder to bookmarks"
 msgstr "Lisa kataloog järjehoidjatesse"
@@ -3370,9 +3370,6 @@ msgid "Biography"
 msgstr ""
 
 msgid "Bislama"
-msgstr ""
-
-msgid "Bit rate"
 msgstr ""
 
 msgid "Bitrate"
@@ -6169,10 +6166,6 @@ msgstr ""
 msgid "Directory '%s' not writable!"
 msgstr ""
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr ""
-
 msgid "Directory browser"
 msgstr "Kataloogilehitseja"
 
@@ -7385,6 +7378,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr ""
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr ""
 
@@ -7957,9 +7954,6 @@ msgstr "Favorites"
 
 msgid "Favorites long"
 msgstr "Favorites - pikk"
-
-msgid "Favourites"
-msgstr "Lemmikud"
 
 msgid "Feed URL"
 msgstr ""
@@ -13316,9 +13310,6 @@ msgstr "Pluginad"
 msgid "Poland"
 msgstr "Poola"
 
-msgid "Polarisation"
-msgstr "Polarisatsioon"
-
 msgid "Polarization"
 msgstr "Polarisatsioon"
 
@@ -13866,11 +13857,6 @@ msgstr "Kiirmenüü"
 msgid "Quick Menu..."
 msgstr "Kiirmenüü"
 
-# UsageConfig.py:295
-#, fuzzy
-msgid "Quick Select Actions"
-msgstr "Kiirtegevused"
-
 msgid "Quick zap"
 msgstr "Kiirkanalivalik"
 
@@ -13887,6 +13873,9 @@ msgstr "Kiirtegevused"
 
 msgid "QuickMenu/Extensions"
 msgstr "Kiirmenüü/laiendused"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "Raadio"
@@ -14359,6 +14348,9 @@ msgstr "Puldi tüüp"
 msgid "Remove"
 msgstr "Eemalda"
 
+msgid "Remove Bookmark"
+msgstr "Eemalda järjehoidja"
+
 msgid "Remove Confirmation"
 msgstr "Eemaldamise kinnitamine"
 
@@ -14413,9 +14405,6 @@ msgstr ""
 
 msgid "Remove all user interface data"
 msgstr ""
-
-msgid "Remove Bookmark"
-msgstr "Eemalda järjehoidja"
 
 msgid "Remove completed timers after (days)"
 msgstr "Aegunud taimerite eemaldamine pärast (päeva)"
@@ -17477,12 +17466,6 @@ msgstr "Suurus"
 
 msgid "Size reverse"
 msgstr "Väiksemad ees"
-
-msgid "Size:"
-msgstr "Suurus:"
-
-msgid "Size: "
-msgstr "Maht: "
 
 #
 msgid "Skin"
@@ -21249,6 +21232,9 @@ msgstr "Hoiatus"
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr ""
@@ -23892,6 +23878,23 @@ msgstr "Kanalivahetus"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Favourites"
+#~ msgstr "Lemmikud"
+
+#~ msgid "Polarisation"
+#~ msgstr "Polarisatsioon"
+
+# UsageConfig.py:295
+#, fuzzy
+#~ msgid "Quick Select Actions"
+#~ msgstr "Kiirtegevused"
+
+#~ msgid "Size:"
+#~ msgstr "Suurus:"
+
+#~ msgid "Size: "
+#~ msgstr "Maht: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Määra, mitu minutit lõppenud saateid veel saatekavas näidatakse. Kasulik, kui soovid midagi teada saatest, mis on just lõppenud või mille algus hilineb."
