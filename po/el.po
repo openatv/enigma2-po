@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2021-08-19 12:59+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -2255,6 +2255,9 @@ msgstr "Προσθήκη"
 msgid "Add AutoTimer"
 msgstr "Προσθήκη αυτόματου χρονοδιακόπτη"
 
+msgid "Add Bookmark"
+msgstr "Προσθήκη σελιδοδείκτη"
+
 msgid "Add Current"
 msgstr "προσθήκη τρέχοντος"
 
@@ -2308,9 +2311,6 @@ msgstr ""
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Προσθήκη ενός αυτόματου χρονοδιακόπτη για το τρέχον πρόγραμμα"
-
-msgid "Add Bookmark"
-msgstr "Προσθήκη σελιδοδείκτη"
 
 msgid "Add current folder to bookmarks"
 msgstr "Προσθήκη τρέχοντος φακέλου στους σελιδοδείκτες"
@@ -3365,9 +3365,6 @@ msgid "Biography"
 msgstr "Βιογραφία"
 
 msgid "Bislama"
-msgstr ""
-
-msgid "Bit rate"
 msgstr ""
 
 msgid "Bitrate"
@@ -6123,10 +6120,6 @@ msgstr ""
 msgid "Directory '%s' not writable!"
 msgstr ""
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr ""
-
 msgid "Directory browser"
 msgstr "Πλοηγός φακέλων"
 
@@ -7311,6 +7304,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr ""
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr ""
 
@@ -7872,9 +7869,6 @@ msgstr "Favorites"
 
 msgid "Favorites long"
 msgstr "Favorites παρατεταμένο"
-
-msgid "Favourites"
-msgstr "Αγαπημένα"
 
 msgid "Feed URL"
 msgstr ""
@@ -13092,9 +13086,6 @@ msgstr "Πρόσθετα"
 msgid "Poland"
 msgstr "Πολωνία"
 
-msgid "Polarisation"
-msgstr "Πόλωση"
-
 msgid "Polarization"
 msgstr "Πόλωση"
 
@@ -13631,10 +13622,6 @@ msgstr "Μενού γρήγορης εκκίνησης"
 msgid "Quick Menu..."
 msgstr "Γρήγορο μενού..."
 
-#, fuzzy
-msgid "Quick Select Actions"
-msgstr "Γρήγορες ενέργειες"
-
 msgid "Quick zap"
 msgstr "Γρήγορο ζάπινγκ"
 
@@ -13650,6 +13637,9 @@ msgstr "Γρήγορες ενέργειες"
 
 msgid "QuickMenu/Extensions"
 msgstr "Γρήγορο μενού/Επεκτάσεις"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "Ραδιόφωνο"
@@ -14107,6 +14097,9 @@ msgstr "Τύπος τηλεχειριστηρίου"
 msgid "Remove"
 msgstr "Διαγραφή"
 
+msgid "Remove Bookmark"
+msgstr "Διαγραφή σελιδοδείκτη"
+
 msgid "Remove Confirmation"
 msgstr "Επιβεβαίωση αφαίρεσης"
 
@@ -14160,9 +14153,6 @@ msgstr ""
 
 msgid "Remove all user interface data"
 msgstr ""
-
-msgid "Remove Bookmark"
-msgstr "Διαγραφή σελιδοδείκτη"
 
 msgid "Remove completed timers after (days)"
 msgstr "Διαγραφή ολοκληρωμένων χρονοδιακοπτών μετά από (ημέρες)"
@@ -17172,12 +17162,6 @@ msgstr "Μέγεθος"
 
 msgid "Size reverse"
 msgstr "Αντιστροφή μεγέθους"
-
-msgid "Size:"
-msgstr "Μέγεθος:"
-
-msgid "Size: "
-msgstr "Μέγεθος: "
 
 msgid "Skin"
 msgstr "Θέμα"
@@ -20852,6 +20836,9 @@ msgstr "Προειδοποίηση"
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr ""
@@ -23426,6 +23413,22 @@ msgstr "ζάπινγκ"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Favourites"
+#~ msgstr "Αγαπημένα"
+
+#~ msgid "Polarisation"
+#~ msgstr "Πόλωση"
+
+#, fuzzy
+#~ msgid "Quick Select Actions"
+#~ msgstr "Γρήγορες ενέργειες"
+
+#~ msgid "Size:"
+#~ msgstr "Μέγεθος:"
+
+#~ msgid "Size: "
+#~ msgstr "Μέγεθος: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Ρυθμίστε για πόσα λεπτά τα προγράμματα που έχουν ολοκληρωθεί θα παραμένουν ορατά στο EPG. Χρήσιμο όταν χρειάζεστε πληροφορίες για ένα πρόγραμμα που τελείωσε ή καθυστέρησε."
