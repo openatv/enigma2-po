@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-08-30 15:39+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -2239,6 +2239,9 @@ msgstr "Добавить"
 msgid "Add AutoTimer"
 msgstr "Добавить автотаймер"
 
+msgid "Add Bookmark"
+msgstr "Добавить закладку"
+
 msgid "Add Current"
 msgstr "Добавить текущий"
 
@@ -2292,9 +2295,6 @@ msgstr "Добавить таймер для текущего события"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Добавить автотаймер для текущей передачи"
-
-msgid "Add Bookmark"
-msgstr "Добавить закладку"
 
 msgid "Add current folder to bookmarks"
 msgstr "Добавить текущую папку в закладки"
@@ -3341,9 +3341,6 @@ msgstr "Биография"
 
 msgid "Bislama"
 msgstr "Бислама"
-
-msgid "Bit rate"
-msgstr "Битрейт"
 
 msgid "Bitrate"
 msgstr "Битрейт"
@@ -6079,10 +6076,6 @@ msgstr "Каталог '%s' не существует!"
 msgid "Directory '%s' not writable!"
 msgstr "Каталог '%s' недоступен для записи!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Каталог '%s' недоступен для записи!"
-
 msgid "Directory browser"
 msgstr "Обозреватель каталогов"
 
@@ -7266,6 +7259,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Ошибка %d: Невозможно изменить пароль! (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Ошибка %d: невозможно удалить загруженный имидж '%s'!  (%s)"
 
@@ -7827,9 +7824,6 @@ msgstr "Избранное"
 
 msgid "Favorites long"
 msgstr "Избранное, долгая"
-
-msgid "Favourites"
-msgstr "Фавориты"
 
 msgid "Feed URL"
 msgstr "URL фида"
@@ -12949,9 +12943,6 @@ msgstr "Плагины"
 msgid "Poland"
 msgstr "Польша"
 
-msgid "Polarisation"
-msgstr "Поляризация"
-
 msgid "Polarization"
 msgstr "Поляризация"
 
@@ -13484,9 +13475,6 @@ msgstr "Быстрое меню"
 msgid "Quick Menu..."
 msgstr "Быстрое меню..."
 
-msgid "Quick Select Actions"
-msgstr "Действия быстрого меню"
-
 msgid "Quick zap"
 msgstr "Быстрое переключение"
 
@@ -13501,6 +13489,9 @@ msgstr "Действия быстрого меню"
 
 msgid "QuickMenu/Extensions"
 msgstr "Быстрое меню/Дополнения"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "Радио"
@@ -13957,6 +13948,9 @@ msgstr "Тип пульта управления"
 msgid "Remove"
 msgstr "Удалить"
 
+msgid "Remove Bookmark"
+msgstr "Удалить закладку"
+
 msgid "Remove Confirmation"
 msgstr "Удаление с подтверждением"
 
@@ -14010,9 +14004,6 @@ msgstr "Удалить все данные таймера"
 
 msgid "Remove all user interface data"
 msgstr "Удалить все данные пользовательского интерфейса"
-
-msgid "Remove Bookmark"
-msgstr "Удалить закладку"
 
 msgid "Remove completed timers after (days)"
 msgstr "Удаление завершённых таймеров через (в днях)"
@@ -16983,12 +16974,6 @@ msgstr "Размер"
 
 msgid "Size reverse"
 msgstr "Реверс размера"
-
-msgid "Size:"
-msgstr "Размер:"
-
-msgid "Size: "
-msgstr "Размер "
 
 msgid "Skin"
 msgstr "Сменить скин"
@@ -20659,6 +20644,9 @@ msgstr "Предупреждение"
 msgid "Warning: Overrides are currently active!"
 msgstr "Внимание: переопределения в настоящее время активны!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Внимание: имеется %d пакетов обновлений!"
@@ -23227,6 +23215,28 @@ msgstr "Переключение"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Битрейт"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Каталог '%s' недоступен для записи!"
+
+#~ msgid "Favourites"
+#~ msgstr "Фавориты"
+
+#~ msgid "Polarisation"
+#~ msgstr "Поляризация"
+
+#~ msgid "Quick Select Actions"
+#~ msgstr "Действия быстрого меню"
+
+#~ msgid "Size:"
+#~ msgstr "Размер:"
+
+#~ msgid "Size: "
+#~ msgstr "Размер "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Позволяет показать данные ТВ-гида о прошедших событиях. Удобно когда хотите знать что-то о передаче, которая вот-вот закончится либо только что закончилась (в минутах)."
