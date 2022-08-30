@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-08-27 16:02+0000\n"
 "Last-Translator: Yon Esmit <yonesmit@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/es/>\n"
@@ -2322,6 +2322,10 @@ msgstr "Añadir"
 msgid "Add AutoTimer"
 msgstr "Añadir autotemporizador"
 
+# MovieSelection.py
+msgid "Add Bookmark"
+msgstr "Añadir marcador"
+
 msgid "Add Current"
 msgstr "Añadir actual"
 
@@ -2377,10 +2381,6 @@ msgstr "Añadir un temporizador para el evento actual"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Añadir autotemporizador para el programa actual"
-
-# MovieSelection.py
-msgid "Add Bookmark"
-msgstr "Añadir marcador"
 
 msgid "Add current folder to bookmarks"
 msgstr "Añadir carpeta actual a los marcadores"
@@ -3500,9 +3500,6 @@ msgstr "Biografía"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Tasa de bits"
 
 #
 msgid "Bitrate"
@@ -6380,10 +6377,6 @@ msgstr "¡El directorio '%s' no existe!"
 msgid "Directory '%s' not writable!"
 msgstr "¡No se puede escribir en el directorio '%s'!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "¡No se puede escribir en el directorio '%s'!"
-
 #
 msgid "Directory browser"
 msgstr "Examinar directorios"
@@ -7654,6 +7647,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Error %d: ¡No se puede cambiar la contraseña!  (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Error %d: ¡No se pudo eliminar la imagen descargada '%s'!  (%s)"
 
@@ -8256,10 +8253,6 @@ msgstr "Favoritos"
 
 msgid "Favorites long"
 msgstr "Favoritos duraderos"
-
-#
-msgid "Favourites"
-msgstr "Favoritos"
 
 msgid "Feed URL"
 msgstr ""
@@ -14005,10 +13998,6 @@ msgid "Poland"
 msgstr ""
 
 #
-msgid "Polarisation"
-msgstr "Polarización"
-
-#
 msgid "Polarization"
 msgstr "Polarización"
 
@@ -14602,10 +14591,6 @@ msgstr "Menú de inicio rápido"
 msgid "Quick Menu..."
 msgstr "Menú rápido..."
 
-#, fuzzy
-msgid "Quick Select Actions"
-msgstr "Acciones rápidas"
-
 msgid "Quick zap"
 msgstr "Menú de zapeo"
 
@@ -14621,6 +14606,9 @@ msgstr "Acciones rápidas"
 
 msgid "QuickMenu/Extensions"
 msgstr "Menú Rápido / Extensiones"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 #
 msgid "RADIO"
@@ -15135,6 +15123,10 @@ msgstr "Tipo de mando"
 msgid "Remove"
 msgstr "Borrar"
 
+#
+msgid "Remove Bookmark"
+msgstr "Borrar marcador"
+
 msgid "Remove Confirmation"
 msgstr "Confirmación de eliminación"
 
@@ -15194,10 +15186,6 @@ msgstr ""
 
 msgid "Remove all user interface data"
 msgstr ""
-
-#
-msgid "Remove Bookmark"
-msgstr "Borrar marcador"
 
 #
 msgid "Remove completed timers after (days)"
@@ -18481,13 +18469,6 @@ msgstr "Tamaño: "
 #, fuzzy
 msgid "Size reverse"
 msgstr "Servidores"
-
-#, fuzzy
-msgid "Size:"
-msgstr "Tamaño: "
-
-msgid "Size: "
-msgstr "Tamaño: "
 
 #
 msgid "Skin"
@@ -22546,6 +22527,9 @@ msgstr "Aviso"
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr ""
@@ -25424,6 +25408,32 @@ msgstr "zapping"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Tasa de bits"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "¡No se puede escribir en el directorio '%s'!"
+
+#
+#~ msgid "Favourites"
+#~ msgstr "Favoritos"
+
+#
+#~ msgid "Polarisation"
+#~ msgstr "Polarización"
+
+#, fuzzy
+#~ msgid "Quick Select Actions"
+#~ msgstr "Acciones rápidas"
+
+#, fuzzy
+#~ msgid "Size:"
+#~ msgstr "Tamaño: "
+
+#~ msgid "Size: "
+#~ msgstr "Tamaño: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Configura durante cuántos minutos siguen visibles los programas terminados en el EPG. Es útil cuando necesitas información de un programa que acaba de terminar o se ha retrasado."

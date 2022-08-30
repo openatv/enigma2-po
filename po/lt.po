@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-06-30 16:10+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -2243,6 +2243,9 @@ msgstr "Pridėti"
 msgid "Add AutoTimer"
 msgstr "Pridėti auto laikmatį"
 
+msgid "Add Bookmark"
+msgstr "Pridėti žymę"
+
 msgid "Add Current"
 msgstr "Įtraukti dabartinį"
 
@@ -2296,9 +2299,6 @@ msgstr "Įtraukti dabartinio įvykio laikmatį"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Pridėkite dabartinio įvykio automatinį laikmatį"
-
-msgid "Add Bookmark"
-msgstr "Pridėti žymę"
 
 msgid "Add current folder to bookmarks"
 msgstr "Įtraukite dabartinį aplanką į žymes"
@@ -3347,9 +3347,6 @@ msgstr "Biografija"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Bitų dažnis"
 
 msgid "Bitrate"
 msgstr "Sparta bitais"
@@ -6092,10 +6089,6 @@ msgstr "Katalogo %s nėra!"
 msgid "Directory '%s' not writable!"
 msgstr "Katalogas \"%s\" neįrašomas!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Katalogas \"%s\" nerašomas!"
-
 msgid "Directory browser"
 msgstr "Katalogų naršyklė"
 
@@ -7279,6 +7272,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Klaida %d: slaptažodžio keisti neįmanoma!  (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Klaida %d: neįmanoma ištrinti atsisiųsto atvaizdo \"%s\"!  (%s)"
 
@@ -7842,9 +7839,6 @@ msgstr "Mėgstamiausi"
 
 msgid "Favorites long"
 msgstr "Mėgstamiausi (ilgai spausti)"
-
-msgid "Favourites"
-msgstr "Mėgstamiausi"
 
 msgid "Feed URL"
 msgstr "Šaltinių internetinis adresas"
@@ -12965,9 +12959,6 @@ msgstr "Priedai"
 msgid "Poland"
 msgstr "Lenkija"
 
-msgid "Polarisation"
-msgstr "Poliarizacija"
-
 msgid "Polarization"
 msgstr "Poliarizacija"
 
@@ -13500,9 +13491,6 @@ msgstr "Greitosios paleisties meniu"
 msgid "Quick Menu..."
 msgstr "Greitasis meniu..."
 
-msgid "Quick Select Actions"
-msgstr "Sparčiosios atrankos veiksmai"
-
 msgid "Quick zap"
 msgstr "Greitasis perjungimas"
 
@@ -13517,6 +13505,9 @@ msgstr "Greito menlu veiksmai"
 
 msgid "QuickMenu/Extensions"
 msgstr "Greitasis meniu/plėtiniai"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "RADIJAS"
@@ -13973,6 +13964,9 @@ msgstr "Nuotolinio valdymo tipas"
 msgid "Remove"
 msgstr "Pašalinti"
 
+msgid "Remove Bookmark"
+msgstr "Pašalinti žymę"
+
 msgid "Remove Confirmation"
 msgstr "Pašalinimo patvirtinimas"
 
@@ -14026,9 +14020,6 @@ msgstr "Šalinti visus laikmačio duomenis"
 
 msgid "Remove all user interface data"
 msgstr "Pašalinti visus vartotojo sąsajos duomenis"
-
-msgid "Remove Bookmark"
-msgstr "Pašalinti žymę"
 
 msgid "Remove completed timers after (days)"
 msgstr "Pašalinti užbaigtus laikmačius po (dienų)"
@@ -16999,12 +16990,6 @@ msgstr "Dydis"
 
 msgid "Size reverse"
 msgstr "Atvirkštinis dydis"
-
-msgid "Size:"
-msgstr "Dydis:"
-
-msgid "Size: "
-msgstr "Dydis: "
 
 msgid "Skin"
 msgstr "Tema"
@@ -20673,6 +20658,9 @@ msgstr "Įspėjimas"
 msgid "Warning: Overrides are currently active!"
 msgstr "Įspėjimas: nepaisymas šiuo metu aktyvus!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Įspėjimas: yra %d atnaujinimo paketų!"
@@ -23241,6 +23229,28 @@ msgstr "perjungimas"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Bitų dažnis"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Katalogas \"%s\" nerašomas!"
+
+#~ msgid "Favourites"
+#~ msgstr "Mėgstamiausi"
+
+#~ msgid "Polarisation"
+#~ msgstr "Poliarizacija"
+
+#~ msgid "Quick Select Actions"
+#~ msgstr "Sparčiosios atrankos veiksmai"
+
+#~ msgid "Size:"
+#~ msgstr "Dydis:"
+
+#~ msgid "Size: "
+#~ msgstr "Dydis: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Konfigūruokite, kiek minučių pasibaigę įvykiai išliks matomi EPG sąraše. Naudinga, kai prireikia informacijos apie ką tik pasibaigusį, ar ilgiau užtrukusį įvykį."

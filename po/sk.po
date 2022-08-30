@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-08-27 16:02+0000\n"
 "Last-Translator: NickerSK <nickersk@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -2238,6 +2238,9 @@ msgstr "Pridať"
 msgid "Add AutoTimer"
 msgstr "Pridať autom. časovač"
 
+msgid "Add Bookmark"
+msgstr "Pridať záložku"
+
 msgid "Add Current"
 msgstr "pridať Aktuálne"
 
@@ -2291,9 +2294,6 @@ msgstr "Pridať časovač pre aktuálnu udalosť"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Pridať autom. časovač pre aktuálnu udalosť"
-
-msgid "Add Bookmark"
-msgstr "Pridať záložku"
 
 msgid "Add current folder to bookmarks"
 msgstr "Pridať aktuálny priečinok do záložiek"
@@ -3340,9 +3340,6 @@ msgstr "Biografia"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Bitová rýchlosť"
 
 msgid "Bitrate"
 msgstr "Dátový tok"
@@ -6078,10 +6075,6 @@ msgstr "Priečinok '%s' neexistuje!"
 msgid "Directory '%s' not writable!"
 msgstr "Do priečinka '%s' nemožno zapisovať!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Do priečinka '%s' nemožno zapisovať!"
-
 msgid "Directory browser"
 msgstr "Prehliadač priečinkov"
 
@@ -7265,6 +7258,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Chyba %d: nemožno zmeniť heslo)  (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Chyba %d. nemožno vymazať stiahnutý image '%s'!  (%s)"
 
@@ -7826,9 +7823,6 @@ msgstr "Obľúbené"
 
 msgid "Favorites long"
 msgstr "Obľúbené - dlho"
-
-msgid "Favourites"
-msgstr "Obľúbené"
 
 msgid "Feed URL"
 msgstr "URL adresa feedu"
@@ -12948,9 +12942,6 @@ msgstr "Pluginy"
 msgid "Poland"
 msgstr "Poľsko"
 
-msgid "Polarisation"
-msgstr "Polarizácia"
-
 msgid "Polarization"
 msgstr "Polarizácia"
 
@@ -13483,9 +13474,6 @@ msgstr "Rýchle menu spustenia"
 msgid "Quick Menu..."
 msgstr "Rýchle menu..."
 
-msgid "Quick Select Actions"
-msgstr "Akcie rýchleho výberu"
-
 msgid "Quick zap"
 msgstr "Prepnúť na"
 
@@ -13500,6 +13488,9 @@ msgstr "Akcie rýchleho menu"
 
 msgid "QuickMenu/Extensions"
 msgstr "Rýchle menu/rozšírenia"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "Rádio"
@@ -13956,6 +13947,9 @@ msgstr "Typ diaľkového ovládania"
 msgid "Remove"
 msgstr "Odstrániť"
 
+msgid "Remove Bookmark"
+msgstr "Odstrániť záložku"
+
 msgid "Remove Confirmation"
 msgstr "Odstrániť potvrdenie"
 
@@ -14009,9 +14003,6 @@ msgstr "Odstrániť všetky údaje časovača"
 
 msgid "Remove all user interface data"
 msgstr "Odstrániť všetky údaje použ. rozhrania"
-
-msgid "Remove Bookmark"
-msgstr "Odstrániť záložku"
 
 msgid "Remove completed timers after (days)"
 msgstr "Dokončené časovače odstraňovať po (dňoch)"
@@ -16982,12 +16973,6 @@ msgstr "Veľkosť"
 
 msgid "Size reverse"
 msgstr "Veľkosť - obrátene"
-
-msgid "Size:"
-msgstr "Veľkosť:"
-
-msgid "Size: "
-msgstr "Veľkosť: "
 
 msgid "Skin"
 msgstr "Vzhľad"
@@ -20629,6 +20614,9 @@ msgstr "Výstraha"
 msgid "Warning: Overrides are currently active!"
 msgstr "Výstraha: momentálne je aktívne prepisovanie!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Výstraha: je dostupných %d aktualizačných balíkov!"
@@ -23197,6 +23185,28 @@ msgstr "prepínanie"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Bitová rýchlosť"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Do priečinka '%s' nemožno zapisovať!"
+
+#~ msgid "Favourites"
+#~ msgstr "Obľúbené"
+
+#~ msgid "Polarisation"
+#~ msgstr "Polarizácia"
+
+#~ msgid "Quick Select Actions"
+#~ msgstr "Akcie rýchleho výberu"
+
+#~ msgid "Size:"
+#~ msgstr "Veľkosť:"
+
+#~ msgid "Size: "
+#~ msgstr "Veľkosť: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Nastavte, koľko minút má zostať skončená udalosť viditeľná v EPG. Užitočné vtedy, keď potrebujete informácie o udalosti, ktorá práve skončila alebo sa oneskorila."

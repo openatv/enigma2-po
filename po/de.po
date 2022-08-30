@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-08-29 22:04+0000\n"
 "Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
@@ -2318,6 +2318,10 @@ msgstr "Hinzufügen"
 msgid "Add AutoTimer"
 msgstr "AutoTimer hinzufügen"
 
+# MovieSelection.py
+msgid "Add Bookmark"
+msgstr "Lesezeichen hinzufügen"
+
 msgid "Add Current"
 msgstr "Hinzufügen"
 
@@ -2373,10 +2377,6 @@ msgstr "Timer für die aktuelle Sendung hinzufügen"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "AutoTimer für ausgewählte Sendung hinzufügen"
-
-# MovieSelection.py
-msgid "Add Bookmark"
-msgstr "Lesezeichen hinzufügen"
 
 msgid "Add current folder to bookmarks"
 msgstr "Aktuellen Ordner zu Lesezeichen hinzufügen"
@@ -3496,9 +3496,6 @@ msgstr "Biografie"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Bitrate"
 
 msgid "Bitrate"
 msgstr "Bitrate"
@@ -6403,10 +6400,6 @@ msgstr "Verzeichnis '%s' existiert nicht!"
 msgid "Directory '%s' not writable!"
 msgstr "Verzeichnis '%s' ist nicht beschreibbar!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Verzeichnis '%s' ist nicht beschreibbar!"
-
 #
 msgid "Directory browser"
 msgstr "Dateimanager"
@@ -7673,6 +7666,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Fehler %d: Kennwort kann nicht geändert werden! (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Fehler %d: Heruntergeladenes Image '%s' kann nicht gelöscht werden! (%s)"
 
@@ -8269,10 +8266,6 @@ msgstr "Favoriten"
 
 msgid "Favorites long"
 msgstr "Favoriten lang"
-
-#
-msgid "Favourites"
-msgstr "Favoriten"
 
 msgid "Feed URL"
 msgstr "Feed-URL"
@@ -13813,9 +13806,6 @@ msgstr "Erweiterungen"
 msgid "Poland"
 msgstr "Polen"
 
-msgid "Polarisation"
-msgstr "Polarisation"
-
 #
 msgid "Polarization"
 msgstr "Polarisation"
@@ -14400,10 +14390,6 @@ msgstr "Schnellstartmenü"
 msgid "Quick Menu..."
 msgstr "Schnellstartmenü..."
 
-# UsageConfig.py:295
-msgid "Quick Select Actions"
-msgstr "Schnellauswahl-Aktionen"
-
 msgid "Quick zap"
 msgstr "Quickzap"
 
@@ -14419,6 +14405,9 @@ msgstr "Schnellstartmenü-Aktionen"
 
 msgid "QuickMenu/Extensions"
 msgstr "Schnellstartmenü/Erweiterungen"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "RADIO"
@@ -14900,6 +14889,10 @@ msgstr "Fernbedienungstyp"
 msgid "Remove"
 msgstr "Entfernen"
 
+#
+msgid "Remove Bookmark"
+msgstr "Lesezeichen entfernen"
+
 msgid "Remove Confirmation"
 msgstr "Löschen bestätigen"
 
@@ -14956,10 +14949,6 @@ msgstr "Lösche alle Timer"
 
 msgid "Remove all user interface data"
 msgstr "Lösche alle GUI Daten"
-
-#
-msgid "Remove Bookmark"
-msgstr "Lesezeichen entfernen"
 
 #
 msgid "Remove completed timers after (days)"
@@ -18147,12 +18136,6 @@ msgstr "Größe"
 
 msgid "Size reverse"
 msgstr "Größe absteigend"
-
-msgid "Size:"
-msgstr "Größe:"
-
-msgid "Size: "
-msgstr "Größe: "
 
 #
 msgid "Skin"
@@ -22133,6 +22116,9 @@ msgstr "Warnung"
 msgid "Warning: Overrides are currently active!"
 msgstr "Warnung: Überschreibungen sind derzeit aktiv!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Warnung! Es gibt %d Update-Pakete!"
@@ -24967,6 +24953,30 @@ msgstr "Umschalten"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Bitrate"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Verzeichnis '%s' ist nicht beschreibbar!"
+
+#
+#~ msgid "Favourites"
+#~ msgstr "Favoriten"
+
+#~ msgid "Polarisation"
+#~ msgstr "Polarisation"
+
+# UsageConfig.py:295
+#~ msgid "Quick Select Actions"
+#~ msgstr "Schnellauswahl-Aktionen"
+
+#~ msgid "Size:"
+#~ msgstr "Größe:"
+
+#~ msgid "Size: "
+#~ msgstr "Größe: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Bestimmt, wie lange EPG-Daten aus der Vergangenheit erhalten bleiben. Nützlich, wenn Sie Informationen über eine gerade beendete oder verspätete Sendung brauchen."

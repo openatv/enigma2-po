@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-07-04 20:11+0000\n"
 "Last-Translator: BliNeR-KeY <blinerg@gmail.com>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sq/>\n"
@@ -2222,6 +2222,9 @@ msgstr "Shto"
 msgid "Add AutoTimer"
 msgstr "Shto AutoTimer"
 
+msgid "Add Bookmark"
+msgstr "Shto libërshënues"
+
 msgid "Add Current"
 msgstr "Shto Rrymë"
 
@@ -2275,9 +2278,6 @@ msgstr "Shto një kohëmues për ngjarjen aktuale"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Shto një AutoTimer për ngjarjen aktuale"
-
-msgid "Add Bookmark"
-msgstr "Shto libërshënues"
 
 msgid "Add current folder to bookmarks"
 msgstr "Shto kartelën aktuale tek libërshënuesit"
@@ -3324,9 +3324,6 @@ msgstr "Biografia"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Shpejtësia e bitit"
 
 msgid "Bitrate"
 msgstr "Bitrate"
@@ -6062,10 +6059,6 @@ msgstr "Directory '%s' nuk ekziston!"
 msgid "Directory '%s' not writable!"
 msgstr "Drejtoria '%s' nuk mund të shkruhet!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Drejtoria '%s' nuk mund të shkruhet!"
-
 msgid "Directory browser"
 msgstr "Shfletuesi i drejtorisë"
 
@@ -7246,6 +7239,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Gabim %d: Fjalëkalimi nuk mund të ndryshohet! (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Gabim %d: Imazhi i shkarkuar \"%s\" nuk mund të fshihet! (%s)"
 
@@ -7807,9 +7804,6 @@ msgstr "Të preferuarat"
 
 msgid "Favorites long"
 msgstr "Të preferuarat e gjata"
-
-msgid "Favourites"
-msgstr "Të preferuarat"
 
 msgid "Feed URL"
 msgstr "URL-ja e furnizimit"
@@ -12856,9 +12850,6 @@ msgstr ""
 msgid "Poland"
 msgstr ""
 
-msgid "Polarisation"
-msgstr ""
-
 msgid "Polarization"
 msgstr ""
 
@@ -13383,9 +13374,6 @@ msgstr ""
 msgid "Quick Menu..."
 msgstr ""
 
-msgid "Quick Select Actions"
-msgstr ""
-
 msgid "Quick zap"
 msgstr ""
 
@@ -13399,6 +13387,9 @@ msgid "QuickMenu Actions"
 msgstr ""
 
 msgid "QuickMenu/Extensions"
+msgstr ""
+
+msgid "QuickSelect Actions"
 msgstr ""
 
 msgid "RADIO"
@@ -13856,6 +13847,9 @@ msgstr "Lloji i telekomandës"
 msgid "Remove"
 msgstr "Hiq"
 
+msgid "Remove Bookmark"
+msgstr "Hiq faqerojtësin"
+
 msgid "Remove Confirmation"
 msgstr "Hiq konfirmimin"
 
@@ -13909,9 +13903,6 @@ msgstr "Hiq të gjitha të dhënat e kohëmatësit"
 
 msgid "Remove all user interface data"
 msgstr "Hiq të gjitha të dhënat e ndërfaqes së përdoruesit"
-
-msgid "Remove Bookmark"
-msgstr "Hiq faqerojtësin"
 
 msgid "Remove completed timers after (days)"
 msgstr "Hiq kohëmatësit e përfunduar pas (ditësh)"
@@ -16853,12 +16844,6 @@ msgstr "Madhësia"
 
 msgid "Size reverse"
 msgstr "Madhësia e kundërt"
-
-msgid "Size:"
-msgstr "Përmasat"
-
-msgid "Size: "
-msgstr "Madhësia:"
 
 msgid "Skin"
 msgstr "Lëkura"
@@ -20451,6 +20436,9 @@ msgstr "Paralajmërim"
 msgid "Warning: Overrides are currently active!"
 msgstr "Kujdes: Kasaperat janë aktive tani!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Paralajmërim: Ka paketa përditësimi %d!"
@@ -23010,6 +22998,22 @@ msgstr "zapping"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Shpejtësia e bitit"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Drejtoria '%s' nuk mund të shkruhet!"
+
+#~ msgid "Favourites"
+#~ msgstr "Të preferuarat"
+
+#~ msgid "Size:"
+#~ msgstr "Përmasat"
+
+#~ msgid "Size: "
+#~ msgstr "Madhësia:"
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Konfiguro për sa minuta ngjarjet e përfunduara duhet të mbeten të dukshme në EPG. E dobishme kur keni nevojë për informacion në lidhje me një ngjarje që sapo ka përfunduar ose është vonuar."

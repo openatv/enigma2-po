@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-05-29 17:02+0200\n"
 "Last-Translator: Apachi70 (Openatv),(Teamblue) <teamblue@online.de,openatv@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -2294,6 +2294,10 @@ msgstr "Ekle"
 msgid "Add AutoTimer"
 msgstr "Oto-zamanlayıcı ekle"
 
+#
+msgid "Add Bookmark"
+msgstr "Imi eklemek"
+
 msgid "Add Current"
 msgstr "Geçerli ekle"
 
@@ -2349,10 +2353,6 @@ msgstr "Mevcut etkinlik için bir zamanlayıcı ekleyin"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Geçerli etkinliğe oto-zamanlayıcı ekle"
-
-#
-msgid "Add Bookmark"
-msgstr "Imi eklemek"
 
 msgid "Add current folder to bookmarks"
 msgstr "Yer işaretlerine geçerli klasör ekle"
@@ -3467,9 +3467,6 @@ msgstr "Biyografi"
 
 msgid "Bislama"
 msgstr "Bislamaca"
-
-msgid "Bit rate"
-msgstr "Bit hızı"
 
 #
 msgid "Bitrate"
@@ -6355,10 +6352,6 @@ msgstr "klasörü '%s' yok!"
 msgid "Directory '%s' not writable!"
 msgstr "Dizini '%s' yazılabilir değil!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Dizini '%s' yazılabilir değil!"
-
 #
 msgid "Directory browser"
 msgstr "Klasör görüntüleyici"
@@ -7602,6 +7595,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Hata %d: Şifre değiştirilemiyor! (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr ""
 
@@ -8201,10 +8198,6 @@ msgstr "Favoriler"
 
 msgid "Favorites long"
 msgstr "Sık Kullanılanlar"
-
-#
-msgid "Favourites"
-msgstr "Favoriler"
 
 msgid "Feed URL"
 msgstr "Feed URL"
@@ -13679,10 +13672,6 @@ msgid "Poland"
 msgstr "Polonya"
 
 #
-msgid "Polarisation"
-msgstr "Polarizasyon"
-
-#
 msgid "Polarization"
 msgstr "Polarizasyon"
 
@@ -14252,9 +14241,6 @@ msgstr "Hızlı Başlat Menüsü"
 msgid "Quick Menu..."
 msgstr "Hızlı Menü..."
 
-msgid "Quick Select Actions"
-msgstr "Hızlı Seçim Eylemleri"
-
 #
 msgid "Quick zap"
 msgstr "Hızlızap"
@@ -14270,6 +14256,9 @@ msgstr "Hızlı Menü Eylemleri"
 
 msgid "QuickMenu/Extensions"
 msgstr "QuickMenu / Uzantıları"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "Radyo"
@@ -14754,6 +14743,10 @@ msgstr "Uzaktan kumanda tipi"
 msgid "Remove"
 msgstr "Kaldır"
 
+#
+msgid "Remove Bookmark"
+msgstr "Yer işaretini kaldır"
+
 msgid "Remove Confirmation"
 msgstr "Silme Onayı"
 
@@ -14811,10 +14804,6 @@ msgstr "Tüm zamanlayıcı verilerini kaldır"
 
 msgid "Remove all user interface data"
 msgstr "Tüm kullanıcı arayüzü verilerini kaldır"
-
-#
-msgid "Remove Bookmark"
-msgstr "Yer işaretini kaldır"
 
 msgid "Remove completed timers after (days)"
 msgstr "Biten zamanlayıcıları (gün) sonra kaldır"
@@ -17948,12 +17937,6 @@ msgstr "Boyut"
 
 msgid "Size reverse"
 msgstr "Boyut ters"
-
-msgid "Size:"
-msgstr "Boyut:"
-
-msgid "Size: "
-msgstr "Boyut: "
 
 msgid "Skin"
 msgstr "Arayüz"
@@ -21812,6 +21795,9 @@ msgstr "Uyarı"
 msgid "Warning: Overrides are currently active!"
 msgstr "Uyarı: Geçersiz kılmalar şu anda etkin!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Uyarı: %d güncelleme paketi var!"
@@ -24581,6 +24567,30 @@ msgstr "zaplama"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Bit rate"
+#~ msgstr "Bit hızı"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Dizini '%s' yazılabilir değil!"
+
+#
+#~ msgid "Favourites"
+#~ msgstr "Favoriler"
+
+#
+#~ msgid "Polarisation"
+#~ msgstr "Polarizasyon"
+
+#~ msgid "Quick Select Actions"
+#~ msgstr "Hızlı Seçim Eylemleri"
+
+#~ msgid "Size:"
+#~ msgstr "Boyut:"
+
+#~ msgid "Size: "
+#~ msgstr "Boyut: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Biten olayların EPGde kaç dakika görünmesi gerektiğini yapılandır. Henüz bitmiş veya geciktirilmiş olay hakkında bilgi gerekince yararlıdır."
