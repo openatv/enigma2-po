@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-28 18:18+0000\n"
+"POT-Creation-Date: 2022-08-30 15:56+0000\n"
 "PO-Revision-Date: 2022-08-30 15:39+0000\n"
 "Last-Translator: tomppaa <tomzza89@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -2221,6 +2221,9 @@ msgstr "Lisää"
 msgid "Add AutoTimer"
 msgstr "Lisää aut. ajastus"
 
+msgid "Add Bookmark"
+msgstr "Lisää kirjanmerkki"
+
 msgid "Add Current"
 msgstr "Lisää nykyinen"
 
@@ -2274,9 +2277,6 @@ msgstr "Lisää ajastin nykyiselle ohjelmalle"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Lisää automaattiajastus tähän ohjelmaan"
-
-msgid "Add Bookmark"
-msgstr "Lisää kirjanmerkki"
 
 msgid "Add current folder to bookmarks"
 msgstr "Lisää nykyisen kansion kirjanmerkkeihin"
@@ -3327,9 +3327,6 @@ msgstr "Elämäkerta"
 
 msgid "Bislama"
 msgstr "Bislama"
-
-msgid "Bit rate"
-msgstr "Bittinopeus"
 
 msgid "Bitrate"
 msgstr "Bittinopeus"
@@ -6066,10 +6063,6 @@ msgstr "Hakemistoa %s ei löydy!"
 msgid "Directory '%s' not writable!"
 msgstr "Hakemisto '%s' ei ole kirjoitettavissa!"
 
-#, python-format
-msgid "Directory '%s' not writeable!"
-msgstr "Hakemisto '%s' ei ole kirjoitettavissa!"
-
 msgid "Directory browser"
 msgstr "Hakemistoselain"
 
@@ -7250,6 +7243,10 @@ msgid "Error %d: Unable to change password!  (%s)"
 msgstr "Virhe %d: Salasanan vaihtaminen ei onnistu!  (%s)"
 
 #, python-format
+msgid "Error %d: Unable to check space!  (%s)"
+msgstr ""
+
+#, python-format
 msgid "Error %d: Unable to delete downloaded image '%s'!  (%s)"
 msgstr "Virhe %d: Ladattua ohjelmistoa ei voida poistaa '%s'!  (%s)"
 
@@ -7811,9 +7808,6 @@ msgstr "Suosikit"
 
 msgid "Favorites long"
 msgstr "Suosikit pitkä"
-
-msgid "Favourites"
-msgstr "Suosikit"
 
 msgid "Feed URL"
 msgstr "Päivitys nettisivu"
@@ -12945,9 +12939,6 @@ msgstr "Plugin lisäosat"
 msgid "Poland"
 msgstr "Puola"
 
-msgid "Polarisation"
-msgstr "Polarisaatio"
-
 msgid "Polarization"
 msgstr "Polarisaatio"
 
@@ -13480,9 +13471,6 @@ msgstr "Pikavalikko"
 msgid "Quick Menu..."
 msgstr "Pikavalikko..."
 
-msgid "Quick Select Actions"
-msgstr "Pikavalinta toiminnot"
-
 msgid "Quick zap"
 msgstr "Pikainen kanavanvaihto"
 
@@ -13497,6 +13485,9 @@ msgstr "Pikavalikko toiminnot"
 
 msgid "QuickMenu/Extensions"
 msgstr "Pikavalikko/laajennukset"
+
+msgid "QuickSelect Actions"
+msgstr ""
 
 msgid "RADIO"
 msgstr "RADIO"
@@ -13953,6 +13944,9 @@ msgstr "Kaukosäätimen tyyppi"
 msgid "Remove"
 msgstr "Poista"
 
+msgid "Remove Bookmark"
+msgstr "Poista kirjanmerkki"
+
 msgid "Remove Confirmation"
 msgstr "Poista vahvistuskysely"
 
@@ -14006,9 +14000,6 @@ msgstr "Poista kaikki ajastukset"
 
 msgid "Remove all user interface data"
 msgstr "Poista kaikki käyttöliittymän tiedot"
-
-msgid "Remove Bookmark"
-msgstr "Poista kirjanmerkki"
 
 msgid "Remove completed timers after (days)"
 msgstr "Poista tallennetut ajastukset päivän jälkeen"
@@ -16991,12 +16982,6 @@ msgstr "Koko"
 
 msgid "Size reverse"
 msgstr "Laskeva koko"
-
-msgid "Size:"
-msgstr "Koko:"
-
-msgid "Size: "
-msgstr "Koko: "
 
 msgid "Skin"
 msgstr "Teema"
@@ -20672,6 +20657,9 @@ msgstr "Varoitus"
 msgid "Warning: Overrides are currently active!"
 msgstr "Varoitus: Ohitukset ovat tällä hetkellä aktiivisia!"
 
+msgid "Warning: Recordings should not be stored on the Flash disk!"
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Varoitus: Päivityspaketteja on %d!"
@@ -23245,6 +23233,28 @@ msgstr "vaihtaa"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Bit rate"
+#~ msgstr "Bittinopeus"
+
+#, python-format
+#~ msgid "Directory '%s' not writeable!"
+#~ msgstr "Hakemisto '%s' ei ole kirjoitettavissa!"
+
+#~ msgid "Favourites"
+#~ msgstr "Suosikit"
+
+#~ msgid "Polarisation"
+#~ msgstr "Polarisaatio"
+
+#~ msgid "Quick Select Actions"
+#~ msgstr "Pikavalinta toiminnot"
+
+#~ msgid "Size:"
+#~ msgstr "Koko:"
+
+#~ msgid "Size: "
+#~ msgstr "Koko: "
 
 #~ msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 #~ msgstr "Määrittää, kuinka monta minuuttia päättyneiden ohjelmien ohjelmatietoja pidetään näkyvillä ohjelmaoppaassa. Käytännöllinen, kun haluat tietoja ohjelmasta joka on juuri päättynyt tai kun ohjelma on viivästynyt."
