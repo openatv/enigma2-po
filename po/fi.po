@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 15:56+0000\n"
+"POT-Creation-Date: 2022-08-31 16:48+0000\n"
 "PO-Revision-Date: 2022-08-30 15:39+0000\n"
 "Last-Translator: tomppaa <tomzza89@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -2143,13 +2143,13 @@ msgstr "Tietoja..."
 msgid "Access point"
 msgstr "Tukiasema"
 
+msgid "Access point:"
+msgstr "Tukiasema:"
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Paikannustietojen käyttö edellyttää internet yhteyttä."
 
 msgid "Accessed:"
-msgstr "Tukiasema:"
-
-msgid "Access point:"
 msgstr "Tukiasema:"
 
 msgid "Action"
@@ -2928,6 +2928,9 @@ msgstr "Automaattinen kielivalinta"
 msgid "Auto Modes Selected."
 msgstr "Automaatti tila valittu."
 
+msgid "Auto SCART switching"
+msgstr "Autom. SCARTin kytkentä"
+
 msgid "Auto Timer"
 msgstr "Automaattinen Ajastin"
 
@@ -2954,9 +2957,6 @@ msgstr "Automaattinen hienosäätö käynnistyy..."
 
 msgid "Auto install log"
 msgstr "Automaattinen asennusloki"
-
-msgid "Auto SCART switching"
-msgstr "Autom. SCARTin kytkentä"
 
 msgid "Auto shut down"
 msgstr "Automaattinen sammutus"
@@ -3135,11 +3135,11 @@ msgstr "Taustalla poistaminen"
 msgid "Background delete speed"
 msgstr "Taustalla poistamisen nopeus"
 
-msgid "Background:"
-msgstr "Tausta:"
-
 msgid "Background selected:"
 msgstr "Tausta valittu:"
+
+msgid "Background:"
+msgstr "Tausta:"
 
 msgid "Backup"
 msgstr "Varmuuskopio"
@@ -3382,6 +3382,9 @@ msgstr "Boot ID"
 msgid "Boot information"
 msgstr "Käynnistystiedot"
 
+msgid "Boot loader update required!"
+msgstr "Bootloader päivitys suositeltavaa!"
+
 #, python-format
 msgid "Boot slot information for %s %s"
 msgstr "Käynnistyspaikan tiedot %s %s"
@@ -3397,9 +3400,6 @@ msgstr "Käynnistysaika ja paikallinen aika"
 
 msgid "Boot-up action"
 msgstr "Käynnistystila"
-
-msgid "Boot loader update required!"
-msgstr "Bootloader päivitys suositeltavaa!"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia and Herzegovina"
@@ -4077,6 +4077,9 @@ msgstr "Kanavatiedot"
 msgid "Channel List"
 msgstr "Kanavalista"
 
+msgid "Channel List Menu"
+msgstr "Kanavalistan tyyppi"
+
 msgid "Channel Selection Settings"
 msgstr "Kanavalistan asetukset"
 
@@ -4116,6 +4119,9 @@ msgstr "Kanavalista näyttää MiniTV*"
 msgid "Channel list type"
 msgstr "Kanavalistan tyyppi"
 
+msgid "Channel name"
+msgstr "Kanavan nimi"
+
 msgid "Channel preview mode"
 msgstr "Kanavien esikatselutila"
 
@@ -4124,6 +4130,9 @@ msgstr "Kanavan valinta"
 
 msgid "Channel selection configuration"
 msgstr "Määritä Kanavalistan asetukset"
+
+msgid "Channel selection:"
+msgstr "Kanavan valinta:"
 
 msgid "Channel up"
 msgstr "Kanava ylös"
@@ -4142,15 +4151,6 @@ msgstr "Kanava:"
 
 msgid "ChannelEPG Settings"
 msgstr "Kanava EPG asetukset"
-
-msgid "Channel List Menu"
-msgstr "Kanavalistan tyyppi"
-
-msgid "Channel name"
-msgstr "Kanavan nimi"
-
-msgid "Channel selection:"
-msgstr "Kanavan valinta:"
 
 msgid "Chap."
 msgstr "Osa."
@@ -4217,10 +4217,10 @@ msgstr "Chichewa / Chewa / Nyanja"
 msgid "Children"
 msgstr "Lapset/nuoret"
 
-msgid "Children/Youth"
+msgid "Children's"
 msgstr "Lapset/nuoret"
 
-msgid "Children's"
+msgid "Children/Youth"
 msgstr "Lapset/nuoret"
 
 msgid "Chile"
@@ -4568,12 +4568,12 @@ msgstr "Tallenteiden tiedostonimien rakenne"
 msgid "Config"
 msgstr "Asetus"
 
-msgid "Config file name (ok to change):"
-msgstr "Määritä tiedoston nimi (vaihda ok):"
-
 #, python-format
 msgid "Config file %s saved."
 msgstr "Asetustiedosto %s tallennettu."
+
+msgid "Config file name (ok to change):"
+msgstr "Määritä tiedoston nimi (vaihda ok):"
 
 msgctxt "Abbreviation of 'Configurable'"
 msgid "Configurable"
@@ -5726,17 +5726,17 @@ msgstr "Määrittää aikahypyn pituuden eteenpäinkelauksessa. Tämä arvo kerr
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Määrittää, mitkä kelausnopeudet eteenpäin käyttävät normaalia kelausta. Kaikki muut kelausnopeudet eteenpäin sekä kaikki kelausnopeudet taaksepäin käyttävät aikahyppyjä."
 
-msgid "Delay after change voltage before switch command"
-msgstr "Viive polarisaation vaihdon jälkeen ennen vaihtokomentoa"
-
-msgid "Delay after continuous tone disable before DiSEqC"
-msgstr "Viive taajuusaluevaihdon jälkeen ennen diseqc-komentoa"
-
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "Viive diseqc-komennon jälkeen ennen virta päälle komentoa"
 
 msgid "Delay after DiSEqC reset command"
 msgstr "Viive diseqc-resetoinnin jälkeen"
+
+msgid "Delay after change voltage before switch command"
+msgstr "Viive polarisaation vaihdon jälkeen ennen vaihtokomentoa"
+
+msgid "Delay after continuous tone disable before DiSEqC"
+msgstr "Viive taajuusaluevaihdon jälkeen ennen diseqc-komentoa"
 
 msgid "Delay after enable voltage before motor command"
 msgstr "Viive jännitteen kytkemisen jälkeen ennen moottorikomentoa"
@@ -5975,11 +5975,11 @@ msgstr "Laite id"
 msgid "Device mounts"
 msgstr "Laiteliitokset"
 
-msgid "Device: "
-msgstr "Laite: "
-
 msgid "Device name:"
 msgstr "Laitenimi:"
+
+msgid "Device: "
+msgstr "Laite: "
 
 msgid "Devices"
 msgstr "Laitteet"
@@ -7415,9 +7415,6 @@ msgstr "Virhe: Tarvittavia kansioita ei voi luoda kohdelaitteeseen (esim. USB-ti
 msgid "Error: Unable to process the command!  Please try again later."
 msgstr "Virhe: Komento voidaan suorittaa!  Yritä myöhemmin uudelleen."
 
-msgid "Es folgt:"
-msgstr "Se seuraa:"
-
 msgid "Esperanto"
 msgstr "Esperanto"
 
@@ -7463,17 +7460,17 @@ msgstr "Lähetystiedot valikko"
 msgid "Event font size"
 msgstr "Ohjelmatiedon tekstikoko"
 
-msgid "Event view menu"
-msgstr "Lähetyksen näyttövalikko"
-
-msgid "EventViewEPG Actions"
-msgstr "Ohjelman tiedot EPG Toiminnot"
-
 msgid "Event name only"
 msgstr "Ohjelma nimi ainoastaan"
 
+msgid "Event view menu"
+msgstr "Lähetyksen näyttövalikko"
+
 msgid "Event view:"
 msgstr "Lähetystiedot:"
+
+msgid "EventViewEPG Actions"
+msgstr "Ohjelman tiedot EPG Toiminnot"
 
 msgid "Everyday"
 msgstr "Joka päivä"
@@ -7797,10 +7794,10 @@ msgstr "Nopea haku"
 msgid "Fast epoch"
 msgstr "Nopea päivällä"
 
-msgid "Fast forward speeds"
+msgid "Fast forward"
 msgstr "Kelausnopeudet eteenpäin"
 
-msgid "Fast forward"
+msgid "Fast forward speeds"
 msgstr "Kelausnopeudet eteenpäin"
 
 msgid "Favorites"
@@ -8209,6 +8206,9 @@ msgstr "Täysi backup %s"
 msgid "Full factory reset"
 msgstr "Täydellinen tehdasasetusten palautus"
 
+msgid "Full screen"
+msgstr "Kokoruutu"
+
 msgid "Full transparency"
 msgstr "Täysi läpinäkyvyys"
 
@@ -8217,9 +8217,6 @@ msgstr "Kokoruudun resoluutio"
 
 msgid "FullHD Test"
 msgstr "FullHD Testi"
-
-msgid "Full screen"
-msgstr "Kokoruutu"
 
 msgid "G"
 msgstr "G"
@@ -8542,13 +8539,7 @@ msgstr "HD lista"
 msgid "HDMI"
 msgstr "HDMI"
 
-msgid "HDMI color depth"
-msgstr "HDMI Värisyvyys"
-
 msgid "HDMI Colorimetry"
-msgstr "HDMI Väriavaruus"
-
-msgid "HDMI color space"
 msgstr "HDMI Väriavaruus"
 
 msgid "HDMI HDR Type"
@@ -8556,6 +8547,12 @@ msgstr "HDMI HDR Tyyppi"
 
 msgid "HDMI Recording Settings"
 msgstr "HDMI tallennus"
+
+msgid "HDMI color depth"
+msgstr "HDMI Värisyvyys"
+
+msgid "HDMI color space"
+msgstr "HDMI Väriavaruus"
 
 msgid "HDMI-CEC Settings"
 msgstr "HDMI CEC Asetukset"
@@ -15870,11 +15867,11 @@ msgstr "Määrittää oletushakemisto pikatallennuksien. Paina 'OK' lisätäkses
 msgid "Set the default location for your recordings. Press 'OK' to add new locations, select left/right to select an existing location."
 msgstr "Määrittää oletushakemisto nauhoituksiin. Paina 'OK' lisätäksesi uusia hakemistoja, vasen/oikea näppäimillä voit valita olemassa olevista vaihtoehdoista."
 
-msgid "Set the default location for your timers. Press 'OK' to add new locations, select left/right to select an existing location."
-msgstr "Määrittää oletushakemisto ajastuksiin. Paina 'OK' lisätäksesi uusia hakemistoja, vasen/oikea näppäimillä voit valita olemassa olevista vaihtoehdoista."
-
 msgid "Set the default location for your time shift files. Press 'OK' to add new locations, select left/right to select an existing location."
 msgstr "Määrittää oletushakemisto ajansiirto tiedostoiin. Paina 'OK' lisätäksesi uusia hakemistoja, vasen/oikea näppäimillä voit valita olemassa olevista vaihtoehdoista."
+
+msgid "Set the default location for your timers. Press 'OK' to add new locations, select left/right to select an existing location."
+msgstr "Määrittää oletushakemisto ajastuksiin. Paina 'OK' lisätäksesi uusia hakemistoja, vasen/oikea näppäimillä voit valita olemassa olevista vaihtoehdoista."
 
 msgid "Set the default sorting method."
 msgstr "Aseta oletus lajittelujärjestys."
@@ -17007,6 +17004,9 @@ msgstr "Teeman valinta"
 msgid "Skins"
 msgstr "Teemat"
 
+msgid "Skip Internet connection check (disables automatic package installation)"
+msgstr "Ohita internet yhteyden tarkistus (poistaa automaattisen pakettien asennuksen käytöstä)"
+
 msgid "Skip back"
 msgstr "Siirry taaksepäin"
 
@@ -17015,9 +17015,6 @@ msgstr "Ohita tyhjät kanavat"
 
 msgid "Skip forward"
 msgstr "Siirry eteenpäin"
-
-msgid "Skip Internet connection check (disables automatic package installation)"
-msgstr "Ohita internet yhteyden tarkistus (poistaa automaattisen pakettien asennuksen käytöstä)"
 
 msgid "Skip selection"
 msgstr "Teeman valinta"
@@ -17620,9 +17617,6 @@ msgstr "Monenko toimivan lähettimen jälkeen testaus lopetetaan"
 msgid "Stop the update, if running, then exit"
 msgstr "Pysäytä päivitys, jos se on käynnissä, sitten poistu"
 
-msgid "Stop timer recording"
-msgstr "Pysäytä ajastettu tallennus"
-
 msgid "Stop time shift"
 msgstr "Pysäytä ajansiirto"
 
@@ -17634,6 +17628,9 @@ msgstr "Pysäytä ajansiirto ja muunna ajansiirtoa tallenteeksi ja aloita tallen
 
 msgid "Stop time shift while recording"
 msgstr "Pysäytä ajansiirto tallennuksen ajaksi"
+
+msgid "Stop timer recording"
+msgstr "Pysäytä ajastettu tallennus"
 
 msgid "Stopped"
 msgstr "Pysäytetty"
@@ -19213,9 +19210,6 @@ msgstr "Imagen palauttaminen:"
 msgid "Today"
 msgstr "Tänään"
 
-msgid "Toggles between tv and radio"
-msgstr "Vaihda TV-/radiotilan välillä"
-
 msgid "Toggle Digital downmix..."
 msgstr "Vaihda muunto stereoksi"
 
@@ -19270,6 +19264,9 @@ msgstr "Nykyisen tagin valinnan vaihtaminen"
 msgid "Toggle service name display"
 msgstr "Näytä palvelu nimi näytöllä"
 
+msgid "Toggles between tv and radio"
+msgstr "Vaihda TV-/radiotilan välillä"
+
 msgid "Togo"
 msgstr "Togo"
 
@@ -19279,14 +19276,14 @@ msgstr "Tokelau"
 msgid "Tone amplitude"
 msgstr "22 kHz amplitudi"
 
-msgid "Tone mode"
-msgstr "22 kHz-ääni"
-
 msgid "Tone burst"
 msgstr "Äänipurske"
 
 msgid "Tone burst A/B"
 msgstr "Äänipurske A/B"
+
+msgid "Tone mode"
+msgstr "22 kHz-ääni"
 
 msgid "Tonga"
 msgstr "Tonga"
@@ -19804,6 +19801,9 @@ msgstr "Päivitä luettelossa olevien tapahtumien viive. Vieritys käyttäytyy n
 msgid "Update failed!"
 msgstr "Päivitys epäonnistui!"
 
+msgid "Update feed not available."
+msgstr "Päivityslähde ei ole saatavilla."
+
 msgid "Update finished!"
 msgstr "Päivitys suoritettu!"
 
@@ -19815,10 +19815,8 @@ msgstr "Päivityksen ilmoitetaan olevan viallinen !!"
 
 msgid ""
 "Update succeeded!\n"
-"Your boot loader is now up-to-date!"
+"Your Bootloader is now up-to-date!"
 msgstr ""
-"Päivitys onnistui!\n"
-"Bootloaderi on nyt ajan tasalla!"
 
 msgid "Update/Backup your firmware, Backup/Restore settings"
 msgstr "Päivitä/varmuuskopioi ohjelmisto, varmuuskopioi/palauta asetukset"
@@ -19831,9 +19829,6 @@ msgstr "Päivitetty"
 
 msgid "Updated version unknown"
 msgstr "Päivitetty versio tuntematon"
-
-msgid "Update feed not available."
-msgstr "Päivityslähde ei ole saatavilla."
 
 msgid "Updates available:"
 msgstr "Päivitykset saatavilla:"
@@ -20624,12 +20619,6 @@ msgstr "Odotetaan osiointia"
 msgid "Wake up"
 msgstr "Käynnistys"
 
-msgid "Wake up to standby"
-msgstr "Käynnisty valmiustilaan"
-
-msgid "Wakeup"
-msgstr "Käynnisty"
-
 msgid "Wake up TV from standby"
 msgstr "Käynnistä TV valmiustilasta"
 
@@ -20638,6 +20627,9 @@ msgstr "Herätys valmiustilasta on sallittu"
 
 msgid "Wake up time before a timer begins [mins]"
 msgstr "Herätysaika ennen ajastimen alkamista [minuutteina]"
+
+msgid "Wake up to standby"
+msgstr "Käynnisty valmiustilaan"
 
 msgid "Wake up your AV Receiver from standby"
 msgstr "Käynnistä kotiteatteri valmiustilasta"
@@ -21346,12 +21338,12 @@ msgstr "Vastaanottimesi %s %s ei tue PiP HD:ta"
 msgid "Your %s %s goes to WOL"
 msgstr "%s %s menee WOL:lle"
 
+msgid "Your %s %s is not connected to the Internet"
+msgstr "Laitetta %s %s ei ole yhdistetty Internettiin"
+
 #, python-format
 msgid "Your %s %s is not connected to the Internet, please check your network settings and try again."
 msgstr "%s %s ei ole yhteyttä Internettiin. Tarkista verkkoasetukset ja yritä uudelleen."
-
-msgid "Your %s %s is not connected to the Internet"
-msgstr "Laitetta %s %s ei ole yhdistetty Internettiin"
 
 #, python-format
 msgid ""
@@ -21460,6 +21452,13 @@ msgstr ""
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr "Salauksen purku Laitteesi voi tunnistaa CI-tilan itse tai toimia vain vanhassa tilassa."
 
+msgid ""
+"Your Internet connection is not working!\n"
+"Please choose what you want to do next."
+msgstr ""
+"Lähiverkkoyhteys ei toimi!\n"
+"Valitse mitä haluat tehdä seuraavaksi."
+
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
 msgstr "Vastaanottimessasi on havaittu ohjelmisto virhe. Viimeisen uudelleen käynnistyksen jälkeen se on tapahtunut %d kertaa.\n"
@@ -21491,13 +21490,6 @@ msgid "Your existing IceTV password."
 msgstr "Nykyinen IceTV-salasanasi."
 
 msgid ""
-"Your front panel will be upgraded\n"
-"This may take a few minutes"
-msgstr ""
-"Etupaneeli näytön ohjelmisto päivitetään\n"
-"Tämä saattaa kestää muutaman minuutin"
-
-msgid ""
 "Your front panel processor firmware must be upgraded.\n"
 "Press OK to start upgrade."
 msgstr ""
@@ -21512,6 +21504,13 @@ msgid ""
 msgstr ""
 "Etuprosessorin ohjelmisto päivitetään\n"
 "Odota kunnes %s %s käynnistyy uudelleen\n"
+"Tämä saattaa kestää muutaman minuutin"
+
+msgid ""
+"Your front panel will be upgraded\n"
+"This may take a few minutes"
+msgstr ""
+"Etupaneeli näytön ohjelmisto päivitetään\n"
 "Tämä saattaa kestää muutaman minuutin"
 
 #, python-format
@@ -21539,13 +21538,6 @@ msgstr ""
 "\n"
 "\n"
 "Haluatko silti päivittää?"
-
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"Lähiverkkoyhteys ei toimi!\n"
-"Valitse mitä haluat tehdä seuraavaksi."
 
 msgid "Your network configuration has been activated."
 msgstr "Verkkoasetukset on aktivoitu."
@@ -21582,9 +21574,6 @@ msgstr "Youtube TV"
 
 msgid "ZAP"
 msgstr "Vaihda"
-
-msgid "ZAP as PiP"
-msgstr "ZAP kuin PiP"
 
 msgid "ZOOM"
 msgstr "Suurenna"
@@ -21695,6 +21684,9 @@ msgstr "Zulu"
 msgid "[Enigma2 Settings]\n"
 msgstr "Järjestelmä Asetukset\n"
 
+msgid "[Favorite Edit]"
+msgstr "[Suosikkien lisäys ja poisto]"
+
 msgid "[Image Info]\n"
 msgstr "Tietoja ohjelmistosta\n"
 
@@ -21709,9 +21701,6 @@ msgstr "[Vaihtoehtojen lisäys ja poisto]"
 
 msgid "[bouquet edit]"
 msgstr "[Kanavalistojen lisäys ja poisto]"
-
-msgid "[Favorite Edit]"
-msgstr "[Suosikkien lisäys ja poisto]"
 
 msgid "[move mode]"
 msgstr "[Suosikkien järjestely]"
@@ -21943,10 +21932,10 @@ msgstr "Lisää äänenvoimakkuutta"
 msgid "chapters"
 msgstr "kappaleet"
 
-msgid "children's/youth program (general)"
+msgid "children's (general)"
 msgstr "lasten/nuortenohjelma (yleinen)"
 
-msgid "children's (general)"
+msgid "children's/youth program (general)"
 msgstr "lasten/nuortenohjelma (yleinen)"
 
 msgid "clip overscan / letterbox borders"
@@ -23229,6 +23218,22 @@ msgstr "vaihtaa"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Es folgt:"
+#~ msgstr "Se seuraa:"
+
+#~ msgid ""
+#~ "Update succeeded!\n"
+#~ "Your boot loader is now up-to-date!"
+#~ msgstr ""
+#~ "Päivitys onnistui!\n"
+#~ "Bootloaderi on nyt ajan tasalla!"
+
+#~ msgid "Wakeup"
+#~ msgstr "Käynnisty"
+
+#~ msgid "ZAP as PiP"
+#~ msgstr "ZAP kuin PiP"
 
 #~ msgid "Bit rate"
 #~ msgstr "Bittinopeus"
