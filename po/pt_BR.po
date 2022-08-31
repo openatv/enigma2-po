@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 15:56+0000\n"
+"POT-Creation-Date: 2022-08-31 16:48+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pt_BR/>\n"
@@ -2273,14 +2273,14 @@ msgstr "Sobre..."
 msgid "Access point"
 msgstr ""
 
+msgid "Access point:"
+msgstr "Ponto de acesso:"
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr ""
 
 #, fuzzy
 msgid "Accessed:"
-msgstr "Ponto de acesso:"
-
-msgid "Access point:"
 msgstr "Ponto de acesso:"
 
 #, fuzzy
@@ -3115,6 +3115,9 @@ msgstr "Seleção de idioma automático"
 msgid "Auto Modes Selected."
 msgstr "CAID não selecionado"
 
+msgid "Auto SCART switching"
+msgstr "Usar auto-scart"
+
 #, fuzzy
 msgid "Auto Timer"
 msgstr "Adicionar tempo"
@@ -3144,9 +3147,6 @@ msgstr "Iniciando auto-foco..."
 
 msgid "Auto install log"
 msgstr ""
-
-msgid "Auto SCART switching"
-msgstr "Usar auto-scart"
 
 msgid "Auto shut down"
 msgstr ""
@@ -3338,12 +3338,12 @@ msgid "Background delete speed"
 msgstr "Velocidade ao remover em segundo plano"
 
 #, fuzzy
-msgid "Background:"
-msgstr "Background"
-
-#, fuzzy
 msgid "Background selected:"
 msgstr "Velocidade ao apagar em segundo plano"
+
+#, fuzzy
+msgid "Background:"
+msgstr "Background"
 
 msgid "Backup"
 msgstr ""
@@ -3593,6 +3593,9 @@ msgstr ""
 msgid "Boot information"
 msgstr ""
 
+msgid "Boot loader update required!"
+msgstr ""
+
 #, python-format
 msgid "Boot slot information for %s %s"
 msgstr ""
@@ -3607,9 +3610,6 @@ msgid "Boot time and local time"
 msgstr ""
 
 msgid "Boot-up action"
-msgstr ""
-
-msgid "Boot loader update required!"
 msgstr ""
 
 msgid "Bosnia and Herzegovina"
@@ -4298,6 +4298,9 @@ msgstr "Informação do canal"
 msgid "Channel List"
 msgstr "Menu da lista de canais"
 
+msgid "Channel List Menu"
+msgstr "Menu da lista de canais"
+
 #, fuzzy
 msgid "Channel Selection Settings"
 msgstr "Definições da coleção"
@@ -4348,6 +4351,9 @@ msgstr "Menu da lista de canais"
 msgid "Channel list type"
 msgstr "Menu da lista de canais"
 
+msgid "Channel name"
+msgstr ""
+
 #, fuzzy
 msgid "Channel preview mode"
 msgstr "Dividir modo de pré-visualização"
@@ -4357,6 +4363,10 @@ msgstr "Canais"
 
 msgid "Channel selection configuration"
 msgstr ""
+
+#, fuzzy
+msgid "Channel selection:"
+msgstr "Seleção de canal"
 
 msgid "Channel up"
 msgstr ""
@@ -4376,16 +4386,6 @@ msgstr "Canal:"
 #, fuzzy
 msgid "ChannelEPG Settings"
 msgstr "Editar definições"
-
-msgid "Channel List Menu"
-msgstr "Menu da lista de canais"
-
-msgid "Channel name"
-msgstr ""
-
-#, fuzzy
-msgid "Channel selection:"
-msgstr "Seleção de canal"
 
 msgid "Chap."
 msgstr "Cap."
@@ -4457,11 +4457,11 @@ msgstr ""
 msgid "Children"
 msgstr "Crianças/Jovens"
 
-msgid "Children/Youth"
-msgstr "Crianças/Jovens"
-
 #, fuzzy
 msgid "Children's"
+msgstr "Crianças/Jovens"
+
+msgid "Children/Youth"
 msgstr "Crianças/Jovens"
 
 msgid "Chile"
@@ -4829,11 +4829,11 @@ msgstr "Composição do nome das gravações"
 msgid "Config"
 msgstr "Configurando"
 
-msgid "Config file name (ok to change):"
-msgstr ""
-
 #, python-format
 msgid "Config file %s saved."
+msgstr ""
+
+msgid "Config file name (ok to change):"
 msgstr ""
 
 #, fuzzy
@@ -6058,16 +6058,16 @@ msgstr ""
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr ""
 
-msgid "Delay after change voltage before switch command"
-msgstr ""
-
-msgid "Delay after continuous tone disable before DiSEqC"
-msgstr ""
-
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr ""
 
 msgid "Delay after DiSEqC reset command"
+msgstr ""
+
+msgid "Delay after change voltage before switch command"
+msgstr ""
+
+msgid "Delay after continuous tone disable before DiSEqC"
 msgstr ""
 
 msgid "Delay after enable voltage before motor command"
@@ -6316,11 +6316,11 @@ msgstr ""
 msgid "Device mounts"
 msgstr ""
 
-msgid "Device: "
-msgstr ""
-
 msgid "Device name:"
 msgstr "Dispositivo:"
+
+msgid "Device: "
+msgstr ""
 
 #, fuzzy
 msgid "Devices"
@@ -7766,9 +7766,6 @@ msgstr ""
 msgid "Error: Unable to process the command!  Please try again later."
 msgstr "Sem atualizações disponíveis. Por favor tente mais tarde."
 
-msgid "Es folgt:"
-msgstr ""
-
 msgid "Esperanto"
 msgstr ""
 
@@ -7818,18 +7815,18 @@ msgstr ""
 msgid "Event font size"
 msgstr "Tamanho de letra"
 
-msgid "Event view menu"
-msgstr "Menu de eventos"
-
-msgid "EventViewEPG Actions"
-msgstr ""
-
 msgid "Event name only"
 msgstr ""
+
+msgid "Event view menu"
+msgstr "Menu de eventos"
 
 #, fuzzy
 msgid "Event view:"
 msgstr "Tamanho de letra"
+
+msgid "EventViewEPG Actions"
+msgstr ""
 
 msgid "Everyday"
 msgstr ""
@@ -8159,11 +8156,11 @@ msgstr "Busca rápida"
 msgid "Fast epoch"
 msgstr "Epoch rápido"
 
-msgid "Fast forward speeds"
-msgstr "Velocidades de avanço rápido"
-
 msgid "Fast forward"
 msgstr ""
+
+msgid "Fast forward speeds"
+msgstr "Velocidades de avanço rápido"
 
 msgid "Favorites"
 msgstr ""
@@ -8595,6 +8592,9 @@ msgstr ""
 msgid "Full factory reset"
 msgstr ""
 
+msgid "Full screen"
+msgstr ""
+
 msgid "Full transparency"
 msgstr "Transparência total"
 
@@ -8602,9 +8602,6 @@ msgid "Full view resolution"
 msgstr ""
 
 msgid "FullHD Test"
-msgstr ""
-
-msgid "Full screen"
 msgstr ""
 
 #, fuzzy
@@ -8949,13 +8946,7 @@ msgstr "Lista HD"
 msgid "HDMI"
 msgstr ""
 
-msgid "HDMI color depth"
-msgstr ""
-
 msgid "HDMI Colorimetry"
-msgstr ""
-
-msgid "HDMI color space"
 msgstr ""
 
 msgid "HDMI HDR Type"
@@ -8964,6 +8955,12 @@ msgstr ""
 #, fuzzy
 msgid "HDMI Recording Settings"
 msgstr "Gravando..."
+
+msgid "HDMI color depth"
+msgstr ""
+
+msgid "HDMI color space"
+msgstr ""
 
 msgid "HDMI-CEC Settings"
 msgstr ""
@@ -16592,10 +16589,10 @@ msgstr ""
 msgid "Set the default location for your recordings. Press 'OK' to add new locations, select left/right to select an existing location."
 msgstr ""
 
-msgid "Set the default location for your timers. Press 'OK' to add new locations, select left/right to select an existing location."
+msgid "Set the default location for your time shift files. Press 'OK' to add new locations, select left/right to select an existing location."
 msgstr ""
 
-msgid "Set the default location for your time shift files. Press 'OK' to add new locations, select left/right to select an existing location."
+msgid "Set the default location for your timers. Press 'OK' to add new locations, select left/right to select an existing location."
 msgstr ""
 
 msgid "Set the default sorting method."
@@ -17806,6 +17803,9 @@ msgstr ""
 msgid "Skins"
 msgstr "Temas"
 
+msgid "Skip Internet connection check (disables automatic package installation)"
+msgstr "Não testar (desativa instalação automática de pacotes)"
+
 msgid "Skip back"
 msgstr ""
 
@@ -17814,9 +17814,6 @@ msgstr "Saltar canais vazios"
 
 msgid "Skip forward"
 msgstr ""
-
-msgid "Skip Internet connection check (disables automatic package installation)"
-msgstr "Não testar (desativa instalação automática de pacotes)"
 
 #, fuzzy
 msgid "Skip selection"
@@ -18437,9 +18434,6 @@ msgstr "Parar teste após a confirmação de # TPs"
 msgid "Stop the update, if running, then exit"
 msgstr ""
 
-msgid "Stop timer recording"
-msgstr "Parar gravação agendada"
-
 msgid "Stop time shift"
 msgstr "Parar timeshift"
 
@@ -18452,6 +18446,9 @@ msgstr ""
 #, fuzzy
 msgid "Stop time shift while recording"
 msgstr "Parar o timeshift?"
+
+msgid "Stop timer recording"
+msgstr "Parar gravação agendada"
 
 msgid "Stopped"
 msgstr "Parado"
@@ -20072,9 +20069,6 @@ msgstr "Sim, restaurar as configurações agora"
 msgid "Today"
 msgstr "Hoje"
 
-msgid "Toggles between tv and radio"
-msgstr ""
-
 msgid "Toggle Digital downmix..."
 msgstr ""
 
@@ -20133,6 +20127,9 @@ msgstr ""
 msgid "Toggle service name display"
 msgstr "Picon e nome do serviço"
 
+msgid "Toggles between tv and radio"
+msgstr ""
+
 msgid "Togo"
 msgstr ""
 
@@ -20142,14 +20139,14 @@ msgstr ""
 msgid "Tone amplitude"
 msgstr "Amplitude do sinal"
 
-msgid "Tone mode"
-msgstr "Sinal 22KHz"
-
 msgid "Tone burst"
 msgstr "Tone burst"
 
 msgid "Tone burst A/B"
 msgstr "Tone burst A/B"
+
+msgid "Tone mode"
+msgstr "Sinal 22KHz"
 
 msgid "Tonga"
 msgstr ""
@@ -20694,6 +20691,9 @@ msgstr ""
 msgid "Update failed!"
 msgstr "A gravação falhou!"
 
+msgid "Update feed not available."
+msgstr "Servidor de atualizações não disponível."
+
 #, fuzzy
 msgid "Update finished!"
 msgstr "A atualização terminou."
@@ -20707,7 +20707,7 @@ msgstr ""
 
 msgid ""
 "Update succeeded!\n"
-"Your boot loader is now up-to-date!"
+"Your Bootloader is now up-to-date!"
 msgstr ""
 
 msgid "Update/Backup your firmware, Backup/Restore settings"
@@ -20721,9 +20721,6 @@ msgstr ""
 
 msgid "Updated version unknown"
 msgstr ""
-
-msgid "Update feed not available."
-msgstr "Servidor de atualizações não disponível."
 
 msgid "Updates available:"
 msgstr ""
@@ -21517,13 +21514,6 @@ msgstr "Aguardando partição"
 msgid "Wake up"
 msgstr "Acordar"
 
-#, fuzzy
-msgid "Wake up to standby"
-msgstr "Acordar 'TV' do standby"
-
-msgid "Wakeup"
-msgstr "Acordar"
-
 msgid "Wake up TV from standby"
 msgstr "Ligar a TV do StandBy"
 
@@ -21532,6 +21522,10 @@ msgstr ""
 
 msgid "Wake up time before a timer begins [mins]"
 msgstr ""
+
+#, fuzzy
+msgid "Wake up to standby"
+msgstr "Acordar 'TV' do standby"
 
 #, fuzzy
 msgid "Wake up your AV Receiver from standby"
@@ -22345,6 +22339,13 @@ msgstr ""
 msgid "Your Hardware can detect ci mode self or work only in legacy mode."
 msgstr ""
 
+msgid ""
+"Your Internet connection is not working!\n"
+"Please choose what you want to do next."
+msgstr ""
+"A conexão de internet não está funcionando!\n"
+"Escolha o que fazer a seguir."
+
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
 msgstr ""
@@ -22375,11 +22376,6 @@ msgid "Your existing IceTV password."
 msgstr ""
 
 msgid ""
-"Your front panel will be upgraded\n"
-"This may take a few minutes"
-msgstr ""
-
-msgid ""
 "Your front panel processor firmware must be upgraded.\n"
 "Press OK to start upgrade."
 msgstr ""
@@ -22396,6 +22392,11 @@ msgstr ""
 "Por favor espere até o receptor reiniciar.\n"
 "Isto poderá demorar alguns minutos..."
 
+msgid ""
+"Your front panel will be upgraded\n"
+"This may take a few minutes"
+msgstr ""
+
 #, python-format
 msgid ""
 "Your image is out of date!\n"
@@ -22410,13 +22411,6 @@ msgid ""
 "\n"
 "Do you still want to update?"
 msgstr ""
-
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"A conexão de internet não está funcionando!\n"
-"Escolha o que fazer a seguir."
 
 msgid "Your network configuration has been activated."
 msgstr "A configuração de rede foi ativada."
@@ -22453,9 +22447,6 @@ msgid "Youtube TV"
 msgstr ""
 
 msgid "ZAP"
-msgstr ""
-
-msgid "ZAP as PiP"
 msgstr ""
 
 msgid "ZOOM"
@@ -22569,6 +22560,9 @@ msgstr ""
 msgid "[Enigma2 Settings]\n"
 msgstr ""
 
+msgid "[Favorite Edit]"
+msgstr "[edição de favoritos]"
+
 msgid "[Image Info]\n"
 msgstr ""
 
@@ -22584,9 +22578,6 @@ msgstr "[editar alternativas]"
 
 msgid "[bouquet edit]"
 msgstr "[editar grupo de favoritos]"
-
-msgid "[Favorite Edit]"
-msgstr "[edição de favoritos]"
 
 msgid "[move mode]"
 msgstr "[modo mover]"
@@ -22827,11 +22818,11 @@ msgstr ""
 msgid "chapters"
 msgstr "Capítulos"
 
-msgid "children's/youth program (general)"
-msgstr "programa/jovens crianças (general)"
-
 #, fuzzy
 msgid "children's (general)"
+msgstr "programa/jovens crianças (general)"
+
+msgid "children's/youth program (general)"
 msgstr "programa/jovens crianças (general)"
 
 msgid "clip overscan / letterbox borders"
@@ -24177,3 +24168,6 @@ msgstr "Zapped"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Wakeup"
+#~ msgstr "Acordar"
