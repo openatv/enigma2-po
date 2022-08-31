@@ -2635,7 +2635,7 @@ msgstr ""
 "Bandoma užfiksuoti dabartinę TV būseną. Jei tai neįmanoma dėl neteisingo arba trūkstamų būsenos pranešimų, imtuvas gali netikėtai atsakyti.\n"
 "Kita vertus, bando geriau reaguoti į skirtingas eksploatavimo sąlygas."
 
-msgid "An empty filename is illegal."
+msgid "Error: An empty filename is illegal!"
 msgstr "Tuščias failo pavadinimas negalimas."
 
 msgid "An error occurred while downloading the packet list. Please try again."
@@ -3063,10 +3063,10 @@ msgstr "B"
 msgid "BC%d"
 msgstr "BC%d"
 
-msgid "BDMV Blue-ray disk (HDTV titles only)"
+msgid "BDMV Blu-ray disk (HDTV titles only)"
 msgstr "BDMV Blu-ray diskas (HDTV tik pavadinimai)"
 
-msgid "BDMV Compatible Blue-ray disk (HDTV only)"
+msgid "BDMV Compatible Blu-ray disk (HDTV only)"
 msgstr "BDMV suderinamas Blu-ray diskas (tik HDTV)"
 
 msgid "BER:"
@@ -5225,7 +5225,7 @@ msgid "Creating Hardlink to Timeshift file failed!"
 msgstr "Sukurti kieto disko nuorodos į laiko poslinkio failą nepavyko!"
 
 #, python-format
-msgid "Creating directory %s failed."
+msgid "Error: Creating directory '%s' failed!"
 msgstr "Katalogo sukurti %s nepavyko."
 
 msgid "Creating file system"
@@ -6323,7 +6323,7 @@ msgid "Do you really want to permanently remove from trash can ?"
 msgstr "Ar tikrai norite negrįžtamai pašalinti iš šiukšliadėžės?"
 
 #, python-format
-msgid "Do you really want to remove directory %s from the disk?"
+msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "Ar tikrai norite pašalinti %s katalogą iš disko?"
 
 #, python-format
@@ -6335,7 +6335,7 @@ msgid "Do you really want to remove the timer for %s?"
 msgstr "Ar tikrai norite pašalinti laikmatį %s?"
 
 #, python-format
-msgid "Do you really want to remove your bookmark of %s?"
+msgid "Do you really want to remove your bookmark for '%s'?"
 msgstr "Ar tikrai norite pašalinti savo %s žymę?"
 
 #, python-format
@@ -9556,7 +9556,7 @@ msgid "Invalid"
 msgstr "Neteisingas"
 
 #, python-format
-msgid "Invalid directory selected: %s"
+msgid "Error: Invalid directory '%s' selected!"
 msgstr "Pasirinktas negaliojantis katalogas: %s"
 
 msgid "Invalid location"
@@ -12609,7 +12609,7 @@ msgstr "Įrašykite naujo failo pavadinimą"
 msgid "Please enter filename (empty = use current date)"
 msgstr "Įrašykite failo pavadinimą (tuščias = šios dienos data)"
 
-msgid "Please enter name of the new directory"
+msgid "Please enter a name for the new directory:"
 msgstr "Įrašykite naujojo katalogo pavadinimą"
 
 msgid "Please enter name of the new symlink"
@@ -14052,7 +14052,7 @@ msgid "Removing Service"
 msgstr "Pašalinama paslauga"
 
 #, python-format
-msgid "Removing directory %s failed. (Maybe not empty.)"
+msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Katalogo pašalinimas %s klaidingas. (Galbūt ne tuščia.)"
 
 msgid "Removing partition table"
@@ -18461,7 +18461,7 @@ msgstr ""
 "Prašome įdiegti."
 
 #, python-format
-msgid "The path %s already exists."
+msgid "Error: The path '%s' already exists!"
 msgstr "Kelias %s jau egzistuoja."
 
 msgid "The pin code you entered is wrong."
@@ -18584,9 +18584,7 @@ msgstr ""
 msgid "There is no signal to lock on !"
 msgstr "Nėra signalo fiksavimui !"
 
-msgid ""
-"There might not be enough space on the selected partition..\n"
-"Do you really want to continue?"
+msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr ""
 "Pasirinktame skaidinyje gali pritrūkti laisvos vietos..\n"
 "Ar tikrai norite tęsti?"
@@ -20982,7 +20980,7 @@ msgstr "Jeigu \"Taip\" ir kanalas palaiko VPS, VPS bus įjungtas neplaniniams į
 msgid "Where do you want to backup your settings?"
 msgstr "Kur išsaugoti nustatymų atsarginę kopiją?"
 
-msgid "Where to save temporary time shift recordings?"
+msgid "Where do you want to save temporary time shift recordings?"
 msgstr "Kur norite išsaugoti laikinus laiko poslinkio įrašus?"
 
 msgid "Which event do you want to save permanently?"
@@ -22717,7 +22715,7 @@ msgstr "pašalinti paketą iš tėvų apsaugos"
 msgid "remove cable services"
 msgstr "pašalinti kabelinius kanalus"
 
-msgid "remove directory"
+msgid "Remove directory"
 msgstr "pašalinti katalogą"
 
 msgid "remove entry"
@@ -22971,7 +22969,7 @@ msgstr "perjunkite rodymo režimą nuo 12 iki 8 simbolių"
 msgid "switch Nand and SDcard"
 msgstr "jungti Nand ir SDcard"
 
-msgid "switch to bookmarks"
+msgid "Switch to bookmarks"
 msgstr "perjungti į pažymėtus"
 
 msgid "switch to the next angle"

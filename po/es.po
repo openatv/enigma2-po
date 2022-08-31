@@ -2737,7 +2737,7 @@ msgid "An attempt is made to capture the current TV status. If this is not possi
 msgstr "Se intenta capturar el estado actual del televisor. Si no fuese posible debido a mensajes de estado incorrectos o ausentes, el receptor podría responder de forma inesperada. Por el contrario, intenta responder mejor a las diferentes condiciones de funcionamiento."
 
 #
-msgid "An empty filename is illegal."
+msgid "Error: An empty filename is illegal!"
 msgstr "El nombre del fichero no puede estar vacío."
 
 msgid "An error occurred while downloading the packet list. Please try again."
@@ -3197,10 +3197,10 @@ msgstr "B"
 msgid "BC%d"
 msgstr "BC%d"
 
-msgid "BDMV Blue-ray disk (HDTV titles only)"
+msgid "BDMV Blu-ray disk (HDTV titles only)"
 msgstr "BDMV Bludisc (títulos HDTV solo)"
 
-msgid "BDMV Compatible Blue-ray disk (HDTV only)"
+msgid "BDMV Compatible Blu-ray disk (HDTV only)"
 msgstr "BDMV Bludisc compatible (HDTV solo)"
 
 #
@@ -5466,7 +5466,7 @@ msgstr "¡Falló la creación de un enlace físico al archivo Timeshift!"
 
 #
 #, python-format
-msgid "Creating directory %s failed."
+msgid "Error: Creating directory '%s' failed!"
 msgstr "Ha fallado la creación del directorio %s."
 
 msgid "Creating file system"
@@ -6634,7 +6634,7 @@ msgstr "¿Realmente deseas eliminar permanentemente del bote de basura?"
 
 #
 #, python-format
-msgid "Do you really want to remove directory %s from the disk?"
+msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "¿Seguro que quiere borrar el directorio %s del disco?"
 
 #
@@ -6648,7 +6648,7 @@ msgstr "¿Seguro que quiere borrar el temporizador de %s?"
 
 #
 #, python-format
-msgid "Do you really want to remove your bookmark of %s?"
+msgid "Do you really want to remove your bookmark for '%s'?"
 msgstr "¿Seguro que quiere borrar tu marcador %s?"
 
 #, python-format
@@ -10168,7 +10168,7 @@ msgstr "tipo incorrecto"
 
 #
 #, python-format
-msgid "Invalid directory selected: %s"
+msgid "Error: Invalid directory '%s' selected!"
 msgstr "Directorio seleccionado inválido: %s"
 
 msgid "Invalid location"
@@ -13621,7 +13621,7 @@ msgid "Please enter filename (empty = use current date)"
 msgstr "Introduce un nombre de archivo (vacío = usar fecha actual)"
 
 #
-msgid "Please enter name of the new directory"
+msgid "Please enter a name for the new directory:"
 msgstr "Introduce el nombre del directorio nuevo"
 
 #
@@ -15224,7 +15224,7 @@ msgstr "Desinstalando servicio"
 
 #
 #, python-format
-msgid "Removing directory %s failed. (Maybe not empty.)"
+msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Error al eliminar el directorio %s. (Tal vez no vacío.)"
 
 msgid "Removing partition table"
@@ -20084,7 +20084,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "The path %s already exists."
+msgid "Error: The path '%s' already exists!"
 msgstr "El ruta %s ya existe."
 
 #
@@ -20213,9 +20213,7 @@ msgstr ""
 msgid "There is no signal to lock on !"
 msgstr "No hay señal para bloquear!"
 
-msgid ""
-"There might not be enough space on the selected partition..\n"
-"Do you really want to continue?"
+msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr ""
 "Es posible que no haya suficiente espacio en la partición seleccionada.\n"
 "¿De verdad quieres continuar?"
@@ -22874,7 +22872,7 @@ msgid "Where do you want to backup your settings?"
 msgstr "¿Dónde quiere hacer el copiado de seguridad de sus ajustes?"
 
 #
-msgid "Where to save temporary time shift recordings?"
+msgid "Where do you want to save temporary time shift recordings?"
 msgstr "¿Dónde quieres guardar las grabaciones temporales de Timeshift?"
 
 msgid "Which event do you want to save permanently?"
@@ -24832,7 +24830,7 @@ msgid "remove cable services"
 msgstr "eliminar canales de cable"
 
 #
-msgid "remove directory"
+msgid "Remove directory"
 msgstr "Borrar directorio"
 
 # /lib/python/Screens/ChannelSelection.py
@@ -25120,7 +25118,7 @@ msgid "switch Nand and SDcard"
 msgstr ""
 
 #
-msgid "switch to bookmarks"
+msgid "Switch to bookmarks"
 msgstr "Cambiar a marcadores"
 
 #

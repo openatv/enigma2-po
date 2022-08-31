@@ -2732,7 +2732,7 @@ msgid "An attempt is made to capture the current TV status. If this is not possi
 msgstr "Es wird versucht, den aktuellen TV-Betriebszustand zu erfassen. Ist dies aufgrund falscher oder fehlender Statusmeldungen nicht möglich, kann Ihr Receiver unerwartet reagieren. Andererseits wird versucht, auf verschiedene Betriebszustände besser zu reagieren."
 
 #
-msgid "An empty filename is illegal."
+msgid "Error: An empty filename is illegal!"
 msgstr "Leere Dateinamen sind unzulässig!"
 
 msgid "An error occurred while downloading the packet list. Please try again."
@@ -3193,10 +3193,10 @@ msgstr "B"
 msgid "BC%d"
 msgstr "BC%d"
 
-msgid "BDMV Blue-ray disk (HDTV titles only)"
+msgid "BDMV Blu-ray disk (HDTV titles only)"
 msgstr "BDMV Blu-ray (Nur HDTV-Titel)"
 
-msgid "BDMV Compatible Blue-ray disk (HDTV only)"
+msgid "BDMV Compatible Blu-ray disk (HDTV only)"
 msgstr "BDMV kompatible Blu-ray (nur HDTV)"
 
 #
@@ -5493,7 +5493,7 @@ msgstr "Hardlink-Verbindung zur Timeshift-Datei fehlgeschlagen!"
 
 #
 #, python-format
-msgid "Creating directory %s failed."
+msgid "Error: Creating directory '%s' failed!"
 msgstr "Das Erstellen des Verzeichnisses %s ist fehlgeschlagen!"
 
 msgid "Creating file system"
@@ -6656,7 +6656,7 @@ msgstr "Möchten Sie dies wirklich dauerhaft aus dem Papierkorb entfernen?"
 
 #
 #, python-format
-msgid "Do you really want to remove directory %s from the disk?"
+msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "Das Verzeichnis %s wirklich von der Festplatte löschen?"
 
 #
@@ -6670,7 +6670,7 @@ msgstr "Möchten Sie den Timer für '%s' wirklich entfernen?"
 
 #
 #, python-format
-msgid "Do you really want to remove your bookmark of %s?"
+msgid "Do you really want to remove your bookmark for '%s'?"
 msgstr "Das Lesezeichen %s wirklich löschen?"
 
 #, python-format
@@ -10077,7 +10077,7 @@ msgstr "Ungültig"
 
 #
 #, python-format
-msgid "Invalid directory selected: %s"
+msgid "Error: Invalid directory '%s' selected!"
 msgstr "Unzulässiges Verzeichnis ausgewählt: %s"
 
 #
@@ -13415,7 +13415,7 @@ msgstr "Bitte neuen Dateinamen eingeben"
 msgid "Please enter filename (empty = use current date)"
 msgstr "Bitte den Dateinamen eingeben (leer = Dateiname ist aktuelles Datum)"
 
-msgid "Please enter name of the new directory"
+msgid "Please enter a name for the new directory:"
 msgstr "Bitte den Namen des neuen Verzeichnisses eingeben"
 
 msgid "Please enter name of the new symlink"
@@ -14987,7 +14987,7 @@ msgstr "Dienst wird entfernt"
 
 #
 #, python-format
-msgid "Removing directory %s failed. (Maybe not empty.)"
+msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Entfernen des Verzeichnisses %s fehlgeschlagen! (Nicht leer?)"
 
 msgid "Removing partition table"
@@ -19712,7 +19712,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "The path %s already exists."
+msgid "Error: The path '%s' already exists!"
 msgstr "Der Pfad %s existiert bereits."
 
 #
@@ -19844,9 +19844,7 @@ msgstr "Es gibt keine Informationen für '%s'!"
 msgid "There is no signal to lock on !"
 msgstr "Es gibt kein Signal zum Einrasten!"
 
-msgid ""
-"There might not be enough space on the selected partition..\n"
-"Do you really want to continue?"
+msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr ""
 "Möglicherweise ist auf der ausgewählten Partition nicht genügend Speicherplatz vorhanden!\n"
 "Möchten Sie wirklich fortfahren?"
@@ -22472,7 +22470,7 @@ msgid "Where do you want to backup your settings?"
 msgstr "Wohin möchten Sie die Einstellungen sichern?"
 
 #
-msgid "Where to save temporary time shift recordings?"
+msgid "Where do you want to save temporary time shift recordings?"
 msgstr "Wo möchten Sie temporäre Timeshift-Aufnahmen speichern?"
 
 msgid "Which event do you want to save permanently?"
@@ -24389,7 +24387,7 @@ msgid "remove cable services"
 msgstr "Kabel-Dienste entfernen"
 
 #
-msgid "remove directory"
+msgid "Remove directory"
 msgstr "Verzeichnis entfernen"
 
 # /lib/python/Screens/ChannelSelection.py
@@ -24671,7 +24669,7 @@ msgid "switch Nand and SDcard"
 msgstr "Flash mit SD-Karte tauschen"
 
 #
-msgid "switch to bookmarks"
+msgid "Switch to bookmarks"
 msgstr "Gehe zu Lesezeichen"
 
 #

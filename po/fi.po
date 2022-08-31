@@ -2615,7 +2615,7 @@ msgstr "Amlogic kaukosäädin"
 msgid "An attempt is made to capture the current TV status. If this is not possible due to incorrect or missing status messages it may cause the receiver to respond unexpectedly. On the other hand, tries to respond better to different operating conditions."
 msgstr "TV:n nykyinen tila yritetään tallentaa. Jos tämä ei ole mahdollista virheellisten tai puuttuvien tilaviestien vuoksi, vastaanotin voi vastata odottamattomasti. Toisaalta yritetään reagoida paremmin erilaisiin käyttöolosuhteisiin."
 
-msgid "An empty filename is illegal."
+msgid "Error: An empty filename is illegal!"
 msgstr "Tyhjä nimi ei ole sallittu."
 
 msgid "An error occurred while downloading the packet list. Please try again."
@@ -3043,10 +3043,10 @@ msgstr "B"
 msgid "BC%d"
 msgstr "BC%d"
 
-msgid "BDMV Blue-ray disk (HDTV titles only)"
+msgid "BDMV Blu-ray disk (HDTV titles only)"
 msgstr "BDMV Bludisc (vain HDTV-otsikko)"
 
-msgid "BDMV Compatible Blue-ray disk (HDTV only)"
+msgid "BDMV Compatible Blu-ray disk (HDTV only)"
 msgstr "BDMV yhteensopiva Bludisc (vain HDTV)"
 
 msgid "BER:"
@@ -5199,7 +5199,7 @@ msgid "Creating Hardlink to Timeshift file failed!"
 msgstr "Linkin (hardlink) luominen ajansiirron tiedostoon epäonnistui!"
 
 #, python-format
-msgid "Creating directory %s failed."
+msgid "Error: Creating directory '%s' failed!"
 msgstr "Hakemiston %s luominen epäonnistui."
 
 msgid "Creating file system"
@@ -6297,7 +6297,7 @@ msgid "Do you really want to permanently remove from trash can ?"
 msgstr "Haluatko varmasti poistaa pysyvästi roskakorista?"
 
 #, python-format
-msgid "Do you really want to remove directory %s from the disk?"
+msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "Haluatko poistaa levyltä hakemiston %s?"
 
 #, python-format
@@ -6309,7 +6309,7 @@ msgid "Do you really want to remove the timer for %s?"
 msgstr "Haluatko poistaa ajastuksen %s?"
 
 #, python-format
-msgid "Do you really want to remove your bookmark of %s?"
+msgid "Do you really want to remove your bookmark for '%s'?"
 msgstr "Haluatko poistaa kirjanmerkin %s?"
 
 #, python-format
@@ -9529,7 +9529,7 @@ msgid "Invalid"
 msgstr "Virheellinen"
 
 #, python-format
-msgid "Invalid directory selected: %s"
+msgid "Error: Invalid directory '%s' selected!"
 msgstr "Virheellinen hakemisto valittu: %s"
 
 msgid "Invalid location"
@@ -12589,7 +12589,7 @@ msgstr "Syötä uusi nimi"
 msgid "Please enter filename (empty = use current date)"
 msgstr "Syötä tiedoston nimi (tyhjä = nykyinen päiväys)"
 
-msgid "Please enter name of the new directory"
+msgid "Please enter a name for the new directory:"
 msgstr "Syötä uuden hakemiston nimi"
 
 msgid "Please enter name of the new symlink"
@@ -14032,7 +14032,7 @@ msgid "Removing Service"
 msgstr "Poistetaan kanavia"
 
 #, python-format
-msgid "Removing directory %s failed. (Maybe not empty.)"
+msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Hakemiston %s poisto epäonnistui. (Ei ehkä ole tyhjä.)"
 
 msgid "Removing partition table"
@@ -18455,7 +18455,7 @@ msgstr ""
 "Asenna se."
 
 #, python-format
-msgid "The path %s already exists."
+msgid "Error: The path '%s' already exists!"
 msgstr "Hakemisto %s on jo olemassa."
 
 msgid "The pin code you entered is wrong."
@@ -18578,9 +18578,7 @@ msgstr "Ei ole mitään näytettävää tietoa \"%s\"."
 msgid "There is no signal to lock on !"
 msgstr "Ei signaalia johon voisi lukittua!"
 
-msgid ""
-"There might not be enough space on the selected partition..\n"
-"Do you really want to continue?"
+msgid "There might not be enough space on the selected partition. Do you really want to continue?"
 msgstr ""
 "Kiintolevyn osiolla ei välttämättä ole riittävästi tilaa.\n"
 "Haluatko varmasti jatkaa?"
@@ -20981,7 +20979,7 @@ msgstr "Kun kyllä, VPS otetaan käyttöön pikatallenteissa (pysäytetään nyk
 msgid "Where do you want to backup your settings?"
 msgstr "Minne haluat varmuuskopioida asetukset?"
 
-msgid "Where to save temporary time shift recordings?"
+msgid "Where do you want to save temporary time shift recordings?"
 msgstr "Minne ajansiirron väliaikainen tiedosto tallennetaan?"
 
 msgid "Which event do you want to save permanently?"
@@ -22723,7 +22721,7 @@ msgstr "poista kanavan lapsilukkosuojaus"
 msgid "remove cable services"
 msgstr "poista kaapelikanavat"
 
-msgid "remove directory"
+msgid "Remove directory"
 msgstr "poista hakemisto"
 
 msgid "remove entry"
@@ -22977,7 +22975,7 @@ msgstr "vaihtaminen 12 merkistä 8 merkkiin näyttötila"
 msgid "switch Nand and SDcard"
 msgstr "vaihto NAND ja SD-kortti"
 
-msgid "switch to bookmarks"
+msgid "Switch to bookmarks"
 msgstr "vaihda kirjanmerkkeihin"
 
 msgid "switch to the next angle"
