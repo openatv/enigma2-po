@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-06 16:19+0000\n"
-"PO-Revision-Date: 2022-09-04 12:20+0000\n"
+"PO-Revision-Date: 2022-09-08 19:39+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
 "Language: nl\n"
@@ -860,8 +860,8 @@ msgstr "%d %b %Y"
 #, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d + %d + %d Minuut"
+msgstr[1] "%d + %d + %d Minuten"
 
 #, python-format
 msgid "%d DMIPS per core"
@@ -874,8 +874,8 @@ msgstr "%d DMIPS met %d cores"
 #, python-format
 msgid "%d Day"
 msgid_plural "%d Days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Dag"
+msgstr[1] "%d Dagen"
 
 #, python-format
 msgid "%d GB"
@@ -919,16 +919,16 @@ msgstr[1] "%d Min"
 #, python-format
 msgid "%d Minute"
 msgid_plural "%d Minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Minuut"
+msgstr[1] "%d Minuten"
 
 #, python-format
 msgid "%d Minutes"
-msgstr ""
+msgstr "%d Minuten"
 
 #, python-format
 msgid "%d Seconds"
-msgstr ""
+msgstr "%d Seconden"
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -1944,8 +1944,8 @@ msgstr "Een mediabestand is in gebruik!"
 #, python-format
 msgid "A finished PowerTimer wants to reboot your %s %s. Do that now?"
 msgstr ""
-"Een voltooide timer wil uw %s %s\n"
-"herstarten. Dat nu doen?"
+"Een PowerTimer wil uw %s %s herstarten.\n"
+"Wilt u dat nu doen?"
 
 msgid "A finished PowerTimer wants to restart the user interface. Do that now?"
 msgstr ""
@@ -1955,14 +1955,14 @@ msgstr ""
 #, python-format
 msgid "A finished PowerTimer wants to set your %s %s to standby. Do that now?"
 msgstr ""
-"Een voltooide timer wil uw %s %s\n"
-"in stand-by zetten. Dat nu doen?"
+"Een PowerTimer wil uw %s %s in stand-by zetten. \n"
+"Wilt u dat nu doen?"
 
 #, python-format
 msgid "A finished PowerTimer wants to shut down your %s %s. Do that now?"
 msgstr ""
-"Een voltooide timer wil uw\n"
-"%s %s uitschakelen. Wilt u dat nu doen?"
+"Een PowerTimer wil uw %s %s uitschakelen. \n"
+"Wilt u dat nu doen?"
 
 #, python-format
 msgid ""
@@ -2259,7 +2259,7 @@ msgid "Add Zap+RecordTimer"
 msgstr "Timer voor 'Zappen + Opnemen' toevoegen"
 
 msgid "Add ZapTimer"
-msgstr "Zap timer toevoegen"
+msgstr "ZapTimer toevoegen"
 
 msgid "Add a DNS entry"
 msgstr "Voeg een DNS naam toe"
@@ -2271,10 +2271,10 @@ msgid "Add a RecordTimer for current event"
 msgstr "Opname Timer toevoegen voor huidig programma"
 
 msgid "Add a ZapTimer for current event"
-msgstr "Zaptimer toevoegen voor huidig programma"
+msgstr "ZapTimer toevoegen voor huidig programma"
 
 msgid "Add a ZapTimer for next event"
-msgstr "Zaptimer toevoegen voor het volgende programma"
+msgstr "ZapTimer toevoegen voor het volgende programma"
 
 msgid "Add a mark"
 msgstr "Plaats een markering"
@@ -2292,7 +2292,7 @@ msgid "Add a service to the Volume Offsets list"
 msgstr "Voeg een zender toe aan de Volume Offset lijst"
 
 msgid "Add a timer for the current event"
-msgstr "Zaptimer toevoegen voor het huidige programma"
+msgstr "Timer toevoegen voor het huidige programma"
 
 msgid "Add an AutoTimer for the current event"
 msgstr "Een AutoTimer toevoegen voor het huidige programma"
@@ -2436,7 +2436,7 @@ msgid "After recording"
 msgstr "Na opname"
 
 msgid "After zap"
-msgstr ""
+msgstr "Na het zappen"
 
 msgid "Akan"
 msgstr "Akan"
@@ -5439,7 +5439,7 @@ msgid "Cutlist editor..."
 msgstr "Cutlist editor..."
 
 msgid "Cycle PiP(zap)"
-msgstr "Wissel PiPzap"
+msgstr "Wissel PiP(zap)"
 
 msgid "Cycling"
 msgstr "Fietsen"
@@ -7582,7 +7582,7 @@ msgid "Even if a 'Wakeup' PowerTimer starting?"
 msgstr "Zelfs als een 'ontwaak' power timer start?"
 
 msgid "Even if a 'Zap and Record' recording timer starting?"
-msgstr "Zelfs als een 'zap en opname' timer start?"
+msgstr "Zelfs als een 'Zap en Opname' timer start?"
 
 msgid "Even if a 'Zap' recording timer starting?"
 msgstr "Zelfs als een 'zap' opname timer start?"
@@ -15640,7 +15640,7 @@ msgid "Select what do do after the timer recording has completed."
 msgstr "Selecteer wat er na het uitvoeren van de Opname Timer moet gebeuren."
 
 msgid "Select what do do after the timer zap has completed."
-msgstr ""
+msgstr "Selecteer wat er moet gebeuren na een ZapTimer."
 
 msgid "Select what should be done when the %s %s was boot-up, normal playing or goto standby."
 msgstr ""
@@ -18675,7 +18675,7 @@ msgstr "De tijd wordt gemultipliceerd met de huidige repeat counter."
 
 #, python-format
 msgid "The timer file '%s' is corrupt and could not be loaded."
-msgstr ""
+msgstr "Het Timer bestand '%s' is beschadigd en kan niet worden geladen."
 
 msgid ""
 "The unicable connection setting is wrong.\n"
@@ -19312,10 +19312,12 @@ msgid ""
 "Timer overlap in '%s' detected!\n"
 "Please recheck it!"
 msgstr ""
+"Overlappende timers in '%s' gevonden!\n"
+"A.u.b. controleren!"
 
 #, python-format
 msgid "Timer overlap in '%s' detected! Please check all the timers."
-msgstr ""
+msgstr "Overlappende timers in '%s' gevonden! A.u.b. alle timers controleren."
 
 msgid "Timer recording location"
 msgstr "Timer opnamelocatie"
