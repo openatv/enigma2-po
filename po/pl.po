@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-02 11:21+0000\n"
-"PO-Revision-Date: 2022-11-15 22:48+0000\n"
-"Last-Translator: Tomasz X <wladyslaw.lam@gmail.com>\n"
+"PO-Revision-Date: 2022-11-20 19:50+0000\n"
+"Last-Translator: drakulis <drakulis@interia.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -1973,9 +1973,9 @@ msgid ""
 "\n"
 "Go to Deep Standby now?"
 msgstr ""
-"Nagrywania lub licznik czasu zasilania jest uruchomiony lub rozpocznie się w ciągu 15 minut. %s wydłużono do 30 minut. Twój %s %s przejdzie w tryb głębokiego czuwania po zadaniu nagrywania lub zadania zasilania.\n"
+"Nagrywanie, zaplanowane zadanie nagrywania lub zasilania jest uruchomione lub rozpocznie się w ciągu 15 minut. %s wydłużono do 30 minut. Twój %s %s zostanie wyłączony po zadaniu nagrywania lub zasilania.\n"
 "\n"
-"Przejść teraz do trybu głębokiego czuwania?"
+"Czy chcesz wyłączyć urządzenie teraz?"
 
 #, python-format
 msgid "A required tool (%s) was not found."
@@ -2471,7 +2471,7 @@ msgid "Allow 10bit"
 msgstr "Zezwól 10bit"
 
 msgid "Allow 12bit"
-msgstr "Zezwól 12bit"
+msgstr "Zezwól na 12bit"
 
 msgid "Allow quit movie player with exit"
 msgstr "Zezwalaj na wyjście z odtwarzacza filmów"
@@ -2922,7 +2922,7 @@ msgid "Auto chapter split every ? minutes (0=never)"
 msgstr "Automatyczny podział rozdziałów co ? minuty (0=nigdy)"
 
 msgid "Auto deep standby"
-msgstr "Automatyczne głębokie czuwanie"
+msgstr "Automatyczne wyłączenie"
 
 msgid "Auto flesh"
 msgstr "Auto odświeżanie"
@@ -2973,7 +2973,7 @@ msgid "Automatic scan for services"
 msgstr "Automatyczne skanowanie serwisów"
 
 msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
-msgstr "Automatycznie ustaw TV w tryb czuwania zawsze, gdy odbiornik przechodzi w tryb czuwania lub głębokiego czuwania."
+msgstr "Automatycznie wyłącz TV, gdy odbiornik przejdzie w tryb czuwania lub zostanie wyłączony."
 
 msgid "Automatically start time shift after"
 msgstr "Automatycznie rozpocznij przesunięcie czasu po"
@@ -5305,7 +5305,7 @@ msgid "Customize"
 msgstr "Dostosuj"
 
 msgid "Customize System Settings"
-msgstr "Dostosuj ustawienia systemu"
+msgstr "Ustawienia zaawansowane"
 
 msgid "Customize enigma2 personal settings"
 msgstr "Dostosuj ustawienia osobiste enigma2"
@@ -5626,10 +5626,10 @@ msgid "Decryption & Parental Control"
 msgstr "Dekrypcja i kontrola rodzicielska"
 
 msgid "Deep Standby"
-msgstr "Głębokie Czuwanie"
+msgstr "Wyłącz"
 
 msgid "Deep standby"
-msgstr "Głębokie czuwanie"
+msgstr "Wyłącz"
 
 msgid "Default"
 msgstr "Domyślnie"
@@ -6674,10 +6674,10 @@ msgid "Edit"
 msgstr "Edytuj"
 
 msgid "Edit Mode Off"
-msgstr "Tryb edycji wyłączony"
+msgstr "Zakończ edycję"
 
 msgid "Edit Mode On"
-msgstr "Tryb edycji włączony"
+msgstr "Edytuj"
 
 msgid "Edit Quad Channel Entry"
 msgstr "Edytuj wpisy Quad PiP"
@@ -8393,7 +8393,7 @@ msgid "Goto X"
 msgstr "Przejdź do X"
 
 msgid "Goto deep standby"
-msgstr "Przejdź do głębokiego czuwania"
+msgstr "Wyłącz tuner"
 
 msgid "Goto next bouquet"
 msgstr "Przejdź do następnej pozycji ulubionych"
@@ -9010,7 +9010,7 @@ msgid "If enabled, a log will be kept of CEC protocol traffic. The log files are
 msgstr "Jeśli włączone, będzie prowadzony dziennik ruchu protokołu CEC. Pliki dziennika znajdują się wraz z innymi plikami dziennika ale mają nazwę 'Enigma2-hdmicec-[data].log'."
 
 msgid "If enabled, using a time window to detect a wake up from deep standby by a timer. Default setting ist disabled and used a special signal from the receiver. But some devices set a wrong or none signal and the wake up detection can fails."
-msgstr "Jeśli włączone, używa okna czasowego do wykrywania wybudzenia z głębokiego czuwania przez zegar. Ustawienie domyślne jest wyłączone i wykorzystuje specjalny sygnał z odbiornika. Ale niektóre urządzenia ustawiają zły lub żaden sygnał i wykrywanie budzenia może się nie powieść."
+msgstr "Jeśli jest włączona, używanie okna czasowego do wykrywania wybudzenia z głębokiego czuwania przez zegar. Domyślne ustawienie jest wyłączone i używane jest specjalny sygnał z odbiornika. Jednak niektóre urządzenia ustawiają zły sygnał lub go nie mają, a wykrywanie wybudzenia może się nie powieść."
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Jeśli dla logów jest używana przestrzeń maksymalna najstarsze zostaną usunięte."
@@ -9786,7 +9786,7 @@ msgid "LCN rules:"
 msgstr "Zasady LCN:"
 
 msgid "LED Deep Standby"
-msgstr "LED Głębokie czuwanie"
+msgstr "LED wyłączenia"
 
 msgid "LED Normal"
 msgstr "LED Normalna"
@@ -9795,7 +9795,7 @@ msgid "LED Standby"
 msgstr "LED trybie gotowości"
 
 msgid "LED brightness during deep standby."
-msgstr "LED jasność podczas głębokiego czuwania."
+msgstr "Jasność LED podczas wyłączenia."
 
 msgid "LED brightness during normal operations."
 msgstr "LED jasność podczas normalnych operacji."
@@ -12933,7 +12933,7 @@ msgid "Power"
 msgstr "Zasilanie"
 
 msgid "Power LED State in Deep-Standby"
-msgstr "Stan diody LED zasilania w trybie Głębokiego Czuwania"
+msgstr "Stan diody LED zasilania podczas wyłączenia"
 
 msgid "Power LED State in Standby"
 msgstr "Stan diody LED zasilania w trybie Czuwania"
@@ -12942,7 +12942,7 @@ msgid "Power LED can be turned on or off here."
 msgstr "Tutaj można włączyć lub wyłączyć diodę zasilania."
 
 msgid "Power LED state during deep-standby."
-msgstr "Stan diody LED zasilania podczas głębokiego czuwania."
+msgstr "Stan diody zasilania podczas wyłączenia."
 
 msgid "Power LED state during standby."
 msgstr "Stan diody LED zasilania w trybie gotowości."
@@ -17454,7 +17454,7 @@ msgid "Status of the display during operation"
 msgstr "Stan wyświetlacza podczas pracy"
 
 msgid "Status of the display in deep standby"
-msgstr "Stan wyświetlacza w trybie głębokiego czuwania"
+msgstr "Status wyświetlacza po wyłączeniu tunera"
 
 msgid "Status of the display in standby mode"
 msgstr "Stan wyświetlacza w trybie czuwania"
@@ -18312,7 +18312,7 @@ msgstr ""
 "Użyj opcji 'dodatkowe' i 'wykluczone' z kopii zapasowej."
 
 msgid "The default settings are 5 minutes earlier to wake up from deep standby. It possibly may be necessary to change this. (e.g.: the actual wake-up time is inaccurate or to late, waiting to a network-drive, etc.)"
-msgstr "Domyślne ustawienia to 5 minut wcześniej, aby wybudzić się z głębokiego czuwania. Ewentualnie może być konieczna zmiana tego. (np.: rzeczywisty czas budzenia jest niedokładny lub za późno, czeka na dysk sieciowy itp.)"
+msgstr "Domyślne ustawienie to 5 minut wcześniej, aby mieć pewność że tuner zostanie uruchomiony. Być może konieczna będzie zmiana tego wstawienia np.: gdy rzeczywisty czas wybudzenia jest niedokładny lub z różnych powodów opóźniony, tuner oczekuje na podłączenie dysku sieciowego itp."
 
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Domyślne ustawienia to czas budzenia - 5 minut i czas rozpoczęcia zadania + 5 minut. To ustawienie zmieniło okno czasowe przed czasem budzenia. Dzięki temu można wykryć wybudzenie przez zadanie nawet przy bardzo wczesnym uruchomieniu odbiorników."
@@ -18928,7 +18928,7 @@ msgid "Time delay of the shutdown messages"
 msgstr "Opóźnienie czasowe komunikatów wyłączania"
 
 msgid "Time delay until standby or deep standby"
-msgstr "Opóźnienie czasowe do stanu czuwania lub głębokiego czuwania"
+msgstr "Opóźnienie trybu czuwania lub wyłączenia tunera"
 
 msgid "Time for Slideshow"
 msgstr "Czas na pokaz slajdów"
@@ -19807,7 +19807,7 @@ msgid "Uruguay"
 msgstr "Urugwaj"
 
 msgid "Usage & GUI"
-msgstr "Użycie & GUI"
+msgstr "Obsługa i Iinterfejs"
 
 msgid "Usage Setup"
 msgstr "Ustawienia Użycia"
@@ -20883,7 +20883,7 @@ msgid "When the input cursor reaches this point (percentage of the width, from e
 msgstr "Kiedy kursor wejściowy osiągnie ten punkt (procent szerokości, z każdej strony), przewiń tekst do kursora."
 
 msgid "When the receiver wakes from standby or deep standby it will send a command to the TV to bring it out of standby."
-msgstr "Gdy odbiornik budzi się ze stanu czuwania lub głębokiego czuwania, wyśle polecenie do TV, aby wyprowadzić go ze stanu czuwania."
+msgstr "Po uruchomieniu odbiornika, wyśle on komendę wybudzenia do telewizora."
 
 msgid "When tuned to a service the system will normally scan the transponder for any changes and save them. Only set to 'yes' if you're absolutely sure what you're doing."
 msgstr "Gdy nastawiony na usługi system będzie normalnie skanować zmiany na transponderze i zapisze je. Tylko ustawiony na 'tak', jeśli jesteś absolutnie pewien, co robisz."
