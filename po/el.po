@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-27 17:29+0000\n"
+"POT-Creation-Date: 2022-12-01 15:13+0000\n"
 "PO-Revision-Date: 2022-11-30 23:34+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -915,6 +915,18 @@ msgid "%d Minutes"
 msgstr "%d λεπτά"
 
 #, python-format
+msgid "%d Month"
+msgid_plural "%d Months"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d Pixel"
+msgid_plural "%d Pixels"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d Pixel wide"
 msgid_plural "%d Pixels wide"
 msgstr[0] "%d πίξελ σε πλάτος"
@@ -933,6 +945,18 @@ msgstr[1] "%d δευτερόλεπτα"
 #, python-format
 msgid "%d Seconds"
 msgstr "%d δευτερόλεπτα"
+
+#, python-format
+msgid "%d Week"
+msgid_plural "%d Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d Year"
+msgid_plural "%d Years"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: Intermediate scanning result, '%d' channel(s) have been found so far
 #, python-format
@@ -7966,14 +7990,17 @@ msgstr "File Commander Ενέργειες πληροφοριών πολυμέσ�
 msgid "File Commander Move"
 msgstr "File Commander Μετακίνηση"
 
-msgid "File Commander settings"
-msgstr "File Commander Ρυθμίσεις"
+msgid "File Commander Settings"
+msgstr ""
 
 msgid "File Commander Text Editor"
 msgstr "File Commander Επεξεργαστής κειμένου"
 
 msgid "File Commander Text Editor Actions"
 msgstr "File Commander Ενέργειες επεξεργαστή κειμένου"
+
+msgid "File Commander settings"
+msgstr "File Commander Ρυθμίσεις"
 
 msgid "File System Check"
 msgstr "Έλεγχος συστήματος αρχείων"
@@ -10480,8 +10507,14 @@ msgstr "Μαράτι"
 msgid "Margin after recording"
 msgstr "Περιθώριο μετά την εγγραφή"
 
+msgid "Margin after zap"
+msgstr ""
+
 msgid "Margin before recording"
 msgstr "Περιθώριο πριν την εγγραφή"
+
+msgid "Margin before zap"
+msgstr ""
 
 msgid "Mark service as dedicated 3D service"
 msgstr "Μαρκάρισμα υπηρεσίας ως σταθερή υπηρεσία 3D"
@@ -16534,9 +16567,6 @@ msgstr "Εμφάνιση SD ως"
 msgid "Show Single EPG"
 msgstr "Εμφάνιση μονού EPG"
 
-msgid "Show task list"
-msgstr "Εμφάνιση λίστας εργασιών"
-
 msgid "Show Timer List"
 msgstr "Εμφάνιση λίστας χρονοδιακοπτών"
 
@@ -16876,6 +16906,9 @@ msgstr "Εμφάνιση επιλογής υποτίτλων"
 
 msgid "Show system information"
 msgstr "Εμφάνιση πληροφοριών συστήματος"
+
+msgid "Show task list"
+msgstr "Εμφάνιση λίστας εργασιών"
 
 msgid "Show task messages"
 msgstr "Εμφάνιση μηνυμάτων εργασιών"
@@ -20162,6 +20195,9 @@ msgstr "Χρήση πληροφοριών ViaSat EPG όταν είναι δια�
 msgid "Use Virgin EPG information when it is available."
 msgstr "Χρήση πληροφοριών Virgin EPG όταν είναι διαθέσιμες."
 
+msgid "Use Zap timer end time"
+msgstr ""
+
 msgid "Use a gateway"
 msgstr "Χρήση πύλης"
 
@@ -21064,6 +21100,9 @@ msgstr "Όταν είναι ενεργό, το Enigma2 θα φορτώσει τ�
 msgid "When enabled, SDT, BAT data will be included in http streams."
 msgstr "Όταν είναι ενεργό, τα δεδομένα SDT, BAT θα συμπεριλαμβάνονται στις ροές http."
 
+msgid "When enabled, a new Zap timer will be created with the option to set an end time enabled."
+msgstr ""
+
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
 msgstr "Όταν είναι ενεργό, ένα αναδυόμενο μήνυμα θα εμφανίζεται όταν μια ταινία έχει τελειώσει και αρχίζει η επόμενη."
 
@@ -21189,6 +21228,12 @@ msgstr "Όταν δεν είναι μηδέν, μία εγγραφή θα ξεκ
 
 msgid "When nonzero, a recording will stop the nominated period after the ending time indicated in the EPG."
 msgstr "Όταν δεν είναι μηδέν, μία εγγραφή θα σταματά την καθορισμένη περίοδο μετά την ώρα που αναγράφεται στο EPG."
+
+msgid "When nonzero, a zap timer will start the nominated period before the starting time indicated in the EPG."
+msgstr ""
+
+msgid "When nonzero, a zap timer will stop the nominated period after the ending time indicated in the EPG."
+msgstr ""
 
 msgid "When receiver wakes from standby it will command the TV to switch to the HDMI input to which the receiver is connected."
 msgstr "Όταν ο δέκτης επανέρχεται από την αναμονή, θα σταλεί εντολή στην TV να γυρίσει στην είσοδο HDMI στην οποία είναι συνδεδεμένος."
