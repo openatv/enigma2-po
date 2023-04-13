@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 09:08+0000\n"
+"POT-Creation-Date: 2023-04-07 09:20+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1047,6 +1047,10 @@ msgid_plural "%d packages were upgraded."
 msgstr[0] ""
 
 #, python-format
+msgid "%d packages found, %d packages installed and %d packages has updates."
+msgstr ""
+
+#, python-format
 msgid "%d sec"
 msgstr "%d giây"
 
@@ -1176,10 +1180,6 @@ msgid "%s %s remote control (native)"
 msgstr "%s%s điều khiển từ xa (tự nhiên)"
 
 #, python-format
-msgid "%s %s software because updates are available."
-msgstr "% s% sphần mềm vì có bản cập nhật."
-
-#, python-format
 msgid "%s ( %s Cards )"
 msgstr "%s (%s Thẻ)"
 
@@ -1222,6 +1222,10 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%s MHz"
 msgstr "   (%s MHz)"
+
+#, python-format
+msgid "%s Packages found"
+msgstr ""
 
 #, python-format
 msgid "%s Setup"
@@ -1948,9 +1952,6 @@ msgstr ""
 "\n"
 "Bạn có muốn tắt giao diện mạng thứ hai không?"
 
-msgid "A small overview of the available icon states and actions."
-msgstr "Một tổng quan nhỏ về các trạng thái và hành động biểu tượng có sẵn."
-
 msgid ""
 "A timer failed to record!\n"
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
@@ -2046,9 +2047,6 @@ msgstr "Đã hủy bỏ một bản ghi giả.\n"
 
 msgid "Aborted a streaming service.\n"
 msgstr "Đã hủy bỏ một dịch vụ phát trực tuyến.\n"
-
-msgid "Aborting update progress"
-msgstr "Hủy bỏ cập nhật"
 
 msgid "About"
 msgstr "Thông tin phần mền"
@@ -2842,9 +2840,6 @@ msgstr "Người Úc"
 
 msgid "Austria"
 msgstr "Áo"
-
-msgid "Author: "
-msgstr "Tác giả: "
 
 msgid "Authoring mode"
 msgstr "Chế độ ủy quyền"
@@ -3813,6 +3808,9 @@ msgstr "Canada"
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
+msgid "Cancel / Close the screen"
+msgstr ""
+
 msgid "Cancel / Close the software update screen"
 msgstr ""
 
@@ -3942,9 +3940,6 @@ msgstr "Cascade PiP"
 
 msgid "Catalan / Valencian"
 msgstr ""
-
-msgid "Caution update not yet tested !!"
-msgstr "Cập nhật thận trọng chưa được thử nghiệm !!"
 
 msgid "Cayman Islands"
 msgstr "Quần đảo Cayman"
@@ -4537,9 +4532,6 @@ msgstr "Giao diện chung"
 msgid "Common Setup Actions"
 msgstr "Hành động khởi động"
 
-msgid "Communication"
-msgstr "Giao tiếp"
-
 msgid "Comoros"
 msgstr "Comoros"
 
@@ -5015,9 +5007,6 @@ msgstr "Bối cảnh"
 
 msgid "Continent"
 msgstr ""
-
-msgid "Continue"
-msgstr "Tiếp tục"
 
 msgid "Continue in background"
 msgstr "Tiếp tục trong nền"
@@ -5739,9 +5728,6 @@ msgstr "Kiểu ghi mặc định"
 msgid "Default right column directory"
 msgstr ""
 
-msgid "Default settings"
-msgstr "Thiết lập mặc định"
-
 msgid "Default sort order for directories in the left column"
 msgstr ""
 
@@ -6247,9 +6233,6 @@ msgstr "Hiển thị hình ảnh chuẩn> 16: 9"
 msgid "Display Settings"
 msgstr "Thiết lập hiển thị"
 
-msgid "Display and user interface"
-msgstr "Giao diện hiển thị và người dùng"
-
 msgid "Display context menu"
 msgstr ""
 
@@ -6527,9 +6510,6 @@ msgstr "Bạn có muốn khôi phục cài đặt của bạn?"
 msgid "Do you want to resume this playback?"
 msgstr "Bạn có muốn tiếp tục phát lại này?"
 
-msgid "Do you want to update your box?"
-msgstr "Bạn có muốn cập nhật đầu thu của bạn?"
-
 msgid "Do you want to upgrade the package:\n"
 msgstr "Bạn có muốn nâng cấp gói:\n"
 
@@ -6580,10 +6560,6 @@ msgstr ""
 
 msgid "Done"
 msgstr "Làm xong"
-
-#, python-format
-msgid "Done - Installed or upgraded %d packages"
-msgstr "Xong - Đã cài đặt hoặc nâng cấp gói%d"
 
 #, python-format
 msgid "Done - Installed, upgraded or removed %d package (%s)"
@@ -7832,9 +7808,6 @@ msgstr "Tiện ích mở rộng"
 msgid "Extensions"
 msgstr "Tiện ích mở rộng"
 
-msgid "Extensions Management"
-msgstr "Quản lý tiện ích mở rộng"
-
 msgid "Extensions/QuickMenu"
 msgstr "Tiện ích mở rộng / QuickMothy"
 
@@ -8287,9 +8260,6 @@ msgstr ""
 msgid "Flat by position on remote"
 msgstr "Vị trí cuối cùng tại"
 
-msgid "Following tasks will be done after you press OK!"
-msgstr "Các tác vụ sau sẽ được thực hiện sau khi bạn nhấn OK!"
-
 msgid "Font size"
 msgstr "Cỡ chữ"
 
@@ -8302,9 +8272,6 @@ msgstr ""
 #, fuzzy
 msgid "Football"
 msgstr "bóng đá"
-
-msgid "For more information see https://www.opena.tv"
-msgstr "Để biết thêm thông tin, xem https://www.opena.tv"
 
 msgid "Force LNB Power"
 msgstr "Lực lượng LNB"
@@ -9675,9 +9642,6 @@ msgstr "Cài đặt tiện ích mở rộng."
 msgid "Install lcd picons on"
 msgstr "Cài đặt màn hình LCD trên"
 
-msgid "Install or remove finished."
-msgstr "Cài đặt hoặc gỡ bỏ hoàn thành."
-
 msgid "Install picons on"
 msgstr "Cài đặt picons trên"
 
@@ -10648,6 +10612,9 @@ msgstr "Quản lý tiện ích mở rộng"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Cài đặt chọn kênh"
 
+msgid "Manage Plugins"
+msgstr ""
+
 msgid "Manage and explore directories and files."
 msgstr ""
 
@@ -11390,9 +11357,6 @@ msgstr ""
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Hình ảnh đa khởi động được tạo trên:% s /% s-% s-% s-backup-% s_usb.zip"
 
-msgid "Multimedia"
-msgstr "Đa phương tiện"
-
 msgid "Multiple service support"
 msgstr "Hỗ trợ nhiều dịch vụ"
 
@@ -11811,9 +11775,6 @@ msgstr "Không chậm trễ"
 msgid "No demux available"
 msgstr "Không có chỉ số miễn phí có sẵn"
 
-msgid "No description available."
-msgstr "Không có mô tả."
-
 msgid "No displayable files on this medium found!"
 msgstr "Không tìm thấy tập tin nào trên phương tiện này!"
 
@@ -11845,9 +11806,6 @@ msgstr ""
 msgid "No matching place names found"
 msgstr "Không tìm thấy tên địa điểm phù hợp"
 
-msgid "No network connection available."
-msgstr "Không có kết nối mạng có sẵn."
-
 msgid "No network storage detected."
 msgstr ""
 
@@ -11857,8 +11815,8 @@ msgstr "Không tìm thấy kết nối mạng"
 msgid "No of items switch (increase or reduced)"
 msgstr "Không có mục chuyển đổi (tăng hoặc giảm)"
 
-msgid "No packages were upgraded yet. So you can check your network and try again."
-msgstr "Chưa có gói nào được nâng cấp. Vì vậy, bạn có thể kiểm tra mạng của bạn và thử lại."
+msgid "No packages found."
+msgstr ""
 
 msgid "No pictures available"
 msgstr ""
@@ -12264,9 +12222,6 @@ msgstr "Cập nhật trực tuyến phần mềm %s %s nhận của bạn."
 
 msgid "Only Flash Backup Image"
 msgstr ""
-
-msgid "Only extensions."
-msgstr "Chỉ phần mở rộng."
 
 msgid "Only free scan"
 msgstr "Chỉ quét miễn phí"
@@ -12749,6 +12704,9 @@ msgid "Percentage/Progress bar right"
 msgstr "Thanh tiến độ ngay"
 
 msgid "Perform an on-line flash instead"
+msgstr ""
+
+msgid "Perform install/remove of the selected item"
 msgstr ""
 
 msgid "Permanently delete all recordings in the trash can?"
@@ -13284,21 +13242,11 @@ msgstr "Trình duyệt Plugin"
 msgid "Plugin Browser Settings"
 msgstr "Cài đặt trình cắm"
 
-msgid "Plugin Details"
-msgstr "Chi tiết về plugin"
-
-#, python-format
-msgid "Plugin Details: %s"
-msgstr ""
-
 msgid "Plugin Filter Settings"
 msgstr "Bộ lọc Plugin"
 
-msgid "Plugin Manager Activity Information"
-msgstr "Thông tin hoạt động của trình quản lý plugin"
-
-msgid "Plugin Manager Help"
-msgstr "Trình quản lý plugin giúp"
+msgid "Plugin Manager Actions"
+msgstr ""
 
 msgid "Plugins"
 msgstr "Ứng dụng tiện ích"
@@ -13608,9 +13556,6 @@ msgstr ""
 
 msgid "Proceed with the update"
 msgstr ""
-
-msgid "Process"
-msgstr "Quá trình"
 
 msgid "Processor information"
 msgstr ""
@@ -14966,9 +14911,6 @@ msgstr "Thiết lập đĩa vệ tinh"
 msgid "Satellite configuration mode"
 msgstr "Chế độ cấu hình vệ tinh"
 
-msgid "Satellite equipment"
-msgstr "Thiết bị vệ tinh"
-
 msgid "Satellite equipment setup"
 msgstr "Thiết lập thiết bị vệ tinh"
 
@@ -15117,6 +15059,9 @@ msgstr "Quét mạng không dây"
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
 msgstr "Quét mạng của bạn để biết các điểm truy cập không dây và kết nối với chúng bằng thiết bị không dây đã chọn của bạn."
 
+msgid "Scanning"
+msgstr ""
+
 #, python-format
 msgid "Scanning %s..."
 msgstr "Quét%s ..."
@@ -15212,12 +15157,6 @@ msgstr "Đang tìm kiếm"
 
 msgid "Searching east ..."
 msgstr "Tìm kiếm phía đông ..."
-
-msgid "Searching for available updates. Please wait..."
-msgstr "Tìm kiếm các bản cập nhật có sẵn. Xin vui lòng chờ ..."
-
-msgid "Searching for new installed or removed packages. Please wait..."
-msgstr "Tìm kiếm các gói mới được cài đặt hoặc gỡ bỏ. Xin vui lòng chờ ..."
 
 msgid "Searching west ..."
 msgstr "Tìm kiếm về phía tây ..."
@@ -17497,9 +17436,6 @@ msgstr "Thiết lập da"
 msgid "SkinSelector"
 msgstr "Chọn da"
 
-msgid "Skins"
-msgstr "Da"
-
 msgid "Skip Internet connection check (disables automatic package installation)"
 msgstr "Bỏ qua kiểm tra kết nối internet (vô hiệu hóa cài đặt gói tự động)"
 
@@ -17702,9 +17638,6 @@ msgstr ""
 msgid "Softcams"
 msgstr "Softcams"
 
-msgid "Software"
-msgstr "Phần mềm"
-
 msgid "Software Management"
 msgstr "Quản lý phần mềm"
 
@@ -17802,9 +17735,6 @@ msgstr "Xin lỗi,%s chưa được cài đặt!"
 
 msgid "Sorry, no backups found!"
 msgstr "Xin lỗi, không tìm thấy bản sao lưu!"
-
-msgid "Sorry, no details available!"
-msgstr "Xin lỗi, không có chi tiết có sẵn!"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
 msgstr "Xin lỗi, không có thiết bị vật lý nào hỗ trợ SWAP kèm theo. Không thể tạo Swapfile trên hệ thống tệp hoặc mạng fat32"
@@ -19050,16 +18980,6 @@ msgid ""
 "Do that now or extend the timer?"
 msgstr ""
 
-msgid ""
-"The software management extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Phần mở rộng quản lý phần mềm không được cài đặt!\n"
-"Vui lòng cài đặt nó."
-
-msgid "The status of the current update could not be checked because https://www.opena.tv could not be reached for some reason"
-msgstr "Không thể kiểm tra trạng thái của bản cập nhật hiện tại vì không thể truy cập https://www.opena.tv"
-
 msgid "The time is multiplied by the current repeat counter."
 msgstr "Thời gian được nhân với bộ đếm lặp lại hiện tại."
 
@@ -19108,12 +19028,6 @@ msgstr "Trình hướng dẫn có thể sao lưu các cài đặt hiện tại c
 
 msgid "The wizard is finished now."
 msgstr "Đã kết thúc."
-
-msgid "There are at least "
-msgstr "Có ít nhất "
-
-msgid "There are currently no outstanding actions."
-msgstr "Hiện tại không có hành động nổi bật."
 
 #, python-format
 msgid "There are no actions available to process '%s'!"
@@ -19195,9 +19109,6 @@ msgstr "Điều này cho phép bạn hiển thị các mô-đun mở rộng tron
 
 msgid "This allows you to show kernel modules in downloads"
 msgstr "Điều này cho phép bạn hiển thị các mô-đun hạt nhân trong các bản tải xuống"
-
-msgid "This allows you to show languages in downloads"
-msgstr "Điều này cho phép bạn hiển thị ngôn ngữ trong các bản tải xuống"
 
 msgid "This allows you to show lcd skins in downloads"
 msgstr "Điều này cho phép bạn hiển thị giao diện LCD trong các bản tải xuống"
@@ -19452,18 +19363,6 @@ msgstr "Tùy chọn này thiết lập độ sắc nét của hình ảnh, đư�
 
 msgid "This plugin can determine whether a programme begins earlier or lasts longer. The channel has to provide reliable data."
 msgstr ""
-
-msgid "This plugin is installed."
-msgstr "Plugin này được cài đặt."
-
-msgid "This plugin is not installed."
-msgstr "Plugin này chưa được cài đặt."
-
-msgid "This plugin will be installed."
-msgstr "Plugin này sẽ được cài đặt."
-
-msgid "This plugin will be removed."
-msgstr "Plugin này sẽ bị xóa."
 
 msgid "This sets the prefix for each line in the debug log. The 'Boot time' is the number of seconds since your %s %s was last booted."
 msgstr ""
@@ -20244,12 +20143,6 @@ msgstr "Đã xác định người dùng"
 msgid "Undetermined"
 msgstr "Không xác định"
 
-msgid "Undo install"
-msgstr "Hoàn tác cài đặt"
-
-msgid "Undo uninstall"
-msgstr "Hoàn tác gỡ cài đặt"
-
 msgid "Unencrypted"
 msgstr "Không được mã hóa"
 
@@ -20270,9 +20163,6 @@ msgstr "Uni cápLNB"
 
 msgid "Unicable Matrix"
 msgstr "Uni cáp Matrix"
-
-msgid "Uninstall"
-msgstr "Gỡ cài đặt"
 
 msgid "United Arab Emirates"
 msgstr "Các Tiểu Vương Quốc Ả Rập Thống Nhất"
@@ -20393,9 +20283,6 @@ msgstr "Nút lên / xuống cũng cho 'tất cả lên / xuống'?"
 msgid "Update"
 msgstr "Cập nhật"
 
-msgid "Update at your own risk"
-msgstr "Cập nhật rủi ro của riêng bạn"
-
 msgid "Update completed."
 msgstr ""
 
@@ -20408,17 +20295,11 @@ msgstr "Cập nhật độ trễ cho các sự kiện trong danh sách. Cuộn t
 msgid "Update failed!"
 msgstr "Cập nhật thất bại!"
 
-msgid "Update feed not available."
-msgstr "Cập nhật nguồn cấp dữ liệu không có sẵn."
-
 msgid "Update finished!"
 msgstr "Cập nhật xong!"
 
 msgid "Update interval (in seconds)"
 msgstr "Cập nhật khoảng thời gian (tính bằng giây)"
-
-msgid "Update is reported as faulty !!"
-msgstr "Cập nhật được báo cáo là bị lỗi !!"
 
 msgid ""
 "Update succeeded!\n"
@@ -20448,9 +20329,6 @@ msgstr "Nâng cấp"
 msgid "Updating mount locations."
 msgstr "Cập nhật vị trí gắn kết."
 
-msgid "Updating software catalog"
-msgstr "Cập nhật danh mục phần mềm"
-
 msgid "Upgrade (Flash & restore all)"
 msgstr ""
 
@@ -20469,9 +20347,6 @@ msgstr ""
 
 msgid "Upgrade with GUI"
 msgstr "Nâng cấp với GUI"
-
-msgid "Upgrading"
-msgstr ""
 
 msgid "Uphops +"
 msgstr "Uphop +"
@@ -21041,48 +20916,6 @@ msgstr ""
 
 msgid "View Rass interactive..."
 msgstr "Xem Rass tương tác ..."
-
-msgid "View details"
-msgstr "Xem chi tiết"
-
-msgid "View list of available "
-msgstr "Xem danh sách có sẵn "
-
-msgid "View list of available CommonInterface extensions"
-msgstr "Xem danh sách các tiện ích mở rộng CommonInterface có sẵn"
-
-msgid "View list of available EPG extensions."
-msgstr "Xem danh sách các phần mở rộng EPG có sẵn."
-
-msgid "View list of available Satellite equipment extensions."
-msgstr "Xem danh sách các phần mở rộng thiết bị vệ tinh có sẵn."
-
-msgid "View list of available communication extensions."
-msgstr "Xem danh sách các phần mở rộng giao tiếp có sẵn."
-
-msgid "View list of available default settings"
-msgstr "Xem danh sách các cài đặt mặc định khả dụng"
-
-msgid "View list of available display and user interface extensions."
-msgstr "Xem danh sách các phần mở rộng hiển thị và giao diện người dùng."
-
-msgid "View list of available multimedia extensions."
-msgstr "Xem danh sách các phần mở rộng đa phương tiện có sẵn."
-
-msgid "View list of available networking extensions"
-msgstr "Xem danh sách các phần mở rộng mạng có sẵn"
-
-msgid "View list of available recording extensions"
-msgstr "Xem danh sách các phần mở rộng ghi âm có sẵn"
-
-msgid "View list of available skins"
-msgstr "Xem danh sách các giao diện có sẵn"
-
-msgid "View list of available software extensions"
-msgstr "Xem danh sách các phần mềm mở rộng có sẵn"
-
-msgid "View list of available system extensions"
-msgstr "Xem danh sách các phần mở rộng hệ thống có sẵn"
 
 msgid "View mode"
 msgstr "Chế độ xem sự kiện"
@@ -21887,26 +21720,14 @@ msgstr "Bạn có thể hiển thị MiniTV có hoặc không có Menu OSD"
 msgid "You can Display PiP with or without OSD Menu"
 msgstr "Bạn có thể hiển thị PIP có hoặc không có Menu OSD"
 
-msgid "You can cancel the installation."
-msgstr "Bạn có thể hủy cài đặt."
-
-msgid "You can cancel the removal."
-msgstr "Bạn có thể hủy bỏ loại bỏ."
-
 msgid "You can continue watching TV etc. while this is running."
 msgstr "Bạn có thể tiếp tục xem TV, vv trong khi điều này đang chạy."
 
 msgid "You can have the list sorted by time or alphanumerical."
 msgstr "Bạn có thể sắp xếp danh sách theo thời gian hoặc chữ số."
 
-msgid "You can install this plugin."
-msgstr "Bạn có thể cài đặt plugin này."
-
 msgid "You can only burn Dreambox recordings!"
 msgstr "Bạn chỉ có thể ghi các bản ghi Dreambox!"
-
-msgid "You can remove this plugin."
-msgstr "Bạn có thể loại bỏ plugin này."
 
 msgid "You can skip this function and turn off the TV when you wake the receiver from standby and immediately switch back to standby."
 msgstr "Bạn có thể bỏ qua chức năng này và tắt TV khi bạn đánh thức máy thu từ chế độ chờ và ngay lập tức chuyển về chế độ chờ."
@@ -22030,10 +21851,6 @@ msgid "Your %s %s is shutting down. Please wait..."
 msgstr "% s% s của bạn đang tắt. Xin vui lòng chờ ..."
 
 #, python-format
-msgid "Your %s %s isn't connected to the Internet properly. Please check it and try again."
-msgstr "Của bạn % s% s không được kết nối với internet đúng cách. Vui lòng kiểm tra và thử lại."
-
-#, python-format
 msgid ""
 "Your %s %s was not shutdown properly.\n"
 "\n"
@@ -22150,32 +21967,6 @@ msgid ""
 msgstr ""
 "Bảng điều khiển phía trước của bạn sẽ được nâng cấp\n"
 "Có thể sẽ mất vài phút"
-
-#, python-format
-msgid ""
-"Your image is out of date!\n"
-"\n"
-"After such a long time, there is a risk that your %s %s will not\n"
-"boot after online-update, or will show disfunction in running Image.\n"
-"\n"
-"A new flash will increase the stability\n"
-"\n"
-"An online update is done at your own risk !!\n"
-"\n"
-"\n"
-"Do you still want to update?"
-msgstr ""
-"Hình ảnh của bạn đã lỗi thời!\n"
-"\n"
-"Sau một thời gian dài như vậy, có một rủi ro là % s% s của bạn sẽ không\n"
-"khởi động sau khi cập nhật trực tuyến hoặc sẽ hiển thị lỗi khi chạy Image.\n"
-"\n"
-"Một đèn flash mới sẽ tăng sự ổn định\n"
-"\n"
-"Một bản cập nhật trực tuyến được thực hiện có nguy cơ của riêng bạn !!\n"
-"\n"
-"\n"
-"Bạn vẫn muốn cập nhật?"
 
 msgid "Your network configuration has been activated."
 msgstr "Cấu hình mạng của bạn đã được kích hoạt."
@@ -22755,9 +22546,6 @@ msgstr "thoát khỏi menu cài đặt bộ điều hợp mạng"
 msgid "experimental film/video"
 msgstr "phim / video thử nghiệm"
 
-msgid "extensions."
-msgstr "phần mở rộng."
-
 msgid "externally loopthrough to"
 msgstr "vòng lặp bên ngoài thông qua"
 
@@ -23170,9 +22958,6 @@ msgstr "chỉ HD"
 
 msgid "original language"
 msgstr "ngôn ngữ gốc"
-
-msgid "packages selected."
-msgstr "các gói được chọn."
 
 msgid "pass"
 msgstr "vượt qua"
@@ -23590,9 +23375,6 @@ msgstr "cho đến khi chờ / khởi động lại"
 msgid "update"
 msgstr "cập nhật"
 
-msgid "updates available."
-msgstr "cập nhật có sẵn."
-
 msgid "use best / controlled by HDMI"
 msgstr "sử dụng tốt nhất / được kiểm soát bởi HDMI"
 
@@ -23661,12 +23443,249 @@ msgstr "màu vàng"
 msgid "yes (keep feeds)"
 msgstr "có (giữ thức ăn)"
 
-#, python-format
-msgid "your %s %s might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
-msgstr "bây giờ % s% s của bạn có thể không sử dụng được. Vui lòng tham khảo hướng dẫn để được hỗ trợ thêm trước khi khởi động lại% s% s của bạn."
-
 msgid "®"
 msgstr ""
+
+#, python-format
+#~ msgid "%s %s software because updates are available."
+#~ msgstr "% s% sphần mềm vì có bản cập nhật."
+
+#~ msgid "A small overview of the available icon states and actions."
+#~ msgstr "Một tổng quan nhỏ về các trạng thái và hành động biểu tượng có sẵn."
+
+#~ msgid "Aborting update progress"
+#~ msgstr "Hủy bỏ cập nhật"
+
+#~ msgid "Author: "
+#~ msgstr "Tác giả: "
+
+#~ msgid "Caution update not yet tested !!"
+#~ msgstr "Cập nhật thận trọng chưa được thử nghiệm !!"
+
+#~ msgid "Communication"
+#~ msgstr "Giao tiếp"
+
+#~ msgid "Continue"
+#~ msgstr "Tiếp tục"
+
+#~ msgid "Default settings"
+#~ msgstr "Thiết lập mặc định"
+
+#~ msgid "Display and user interface"
+#~ msgstr "Giao diện hiển thị và người dùng"
+
+#~ msgid "Do you want to update your box?"
+#~ msgstr "Bạn có muốn cập nhật đầu thu của bạn?"
+
+#, python-format
+#~ msgid "Done - Installed or upgraded %d packages"
+#~ msgstr "Xong - Đã cài đặt hoặc nâng cấp gói%d"
+
+#~ msgid "Extensions Management"
+#~ msgstr "Quản lý tiện ích mở rộng"
+
+#~ msgid "Following tasks will be done after you press OK!"
+#~ msgstr "Các tác vụ sau sẽ được thực hiện sau khi bạn nhấn OK!"
+
+#~ msgid "For more information see https://www.opena.tv"
+#~ msgstr "Để biết thêm thông tin, xem https://www.opena.tv"
+
+#~ msgid "Install or remove finished."
+#~ msgstr "Cài đặt hoặc gỡ bỏ hoàn thành."
+
+#~ msgid "Multimedia"
+#~ msgstr "Đa phương tiện"
+
+#~ msgid "No description available."
+#~ msgstr "Không có mô tả."
+
+#~ msgid "No network connection available."
+#~ msgstr "Không có kết nối mạng có sẵn."
+
+#~ msgid "No packages were upgraded yet. So you can check your network and try again."
+#~ msgstr "Chưa có gói nào được nâng cấp. Vì vậy, bạn có thể kiểm tra mạng của bạn và thử lại."
+
+#~ msgid "Only extensions."
+#~ msgstr "Chỉ phần mở rộng."
+
+#~ msgid "Plugin Details"
+#~ msgstr "Chi tiết về plugin"
+
+#~ msgid "Plugin Manager Activity Information"
+#~ msgstr "Thông tin hoạt động của trình quản lý plugin"
+
+#~ msgid "Plugin Manager Help"
+#~ msgstr "Trình quản lý plugin giúp"
+
+#~ msgid "Process"
+#~ msgstr "Quá trình"
+
+#~ msgid "Satellite equipment"
+#~ msgstr "Thiết bị vệ tinh"
+
+#~ msgid "Searching for available updates. Please wait..."
+#~ msgstr "Tìm kiếm các bản cập nhật có sẵn. Xin vui lòng chờ ..."
+
+#~ msgid "Searching for new installed or removed packages. Please wait..."
+#~ msgstr "Tìm kiếm các gói mới được cài đặt hoặc gỡ bỏ. Xin vui lòng chờ ..."
+
+#~ msgid "Skins"
+#~ msgstr "Da"
+
+#~ msgid "Software"
+#~ msgstr "Phần mềm"
+
+#~ msgid "Sorry, no details available!"
+#~ msgstr "Xin lỗi, không có chi tiết có sẵn!"
+
+#~ msgid ""
+#~ "The software management extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Phần mở rộng quản lý phần mềm không được cài đặt!\n"
+#~ "Vui lòng cài đặt nó."
+
+#~ msgid "The status of the current update could not be checked because https://www.opena.tv could not be reached for some reason"
+#~ msgstr "Không thể kiểm tra trạng thái của bản cập nhật hiện tại vì không thể truy cập https://www.opena.tv"
+
+#~ msgid "There are at least "
+#~ msgstr "Có ít nhất "
+
+#~ msgid "There are currently no outstanding actions."
+#~ msgstr "Hiện tại không có hành động nổi bật."
+
+#~ msgid "This allows you to show languages in downloads"
+#~ msgstr "Điều này cho phép bạn hiển thị ngôn ngữ trong các bản tải xuống"
+
+#~ msgid "This plugin is installed."
+#~ msgstr "Plugin này được cài đặt."
+
+#~ msgid "This plugin is not installed."
+#~ msgstr "Plugin này chưa được cài đặt."
+
+#~ msgid "This plugin will be installed."
+#~ msgstr "Plugin này sẽ được cài đặt."
+
+#~ msgid "This plugin will be removed."
+#~ msgstr "Plugin này sẽ bị xóa."
+
+#~ msgid "Undo install"
+#~ msgstr "Hoàn tác cài đặt"
+
+#~ msgid "Undo uninstall"
+#~ msgstr "Hoàn tác gỡ cài đặt"
+
+#~ msgid "Uninstall"
+#~ msgstr "Gỡ cài đặt"
+
+#~ msgid "Update at your own risk"
+#~ msgstr "Cập nhật rủi ro của riêng bạn"
+
+#~ msgid "Update feed not available."
+#~ msgstr "Cập nhật nguồn cấp dữ liệu không có sẵn."
+
+#~ msgid "Update is reported as faulty !!"
+#~ msgstr "Cập nhật được báo cáo là bị lỗi !!"
+
+#~ msgid "Updating software catalog"
+#~ msgstr "Cập nhật danh mục phần mềm"
+
+#~ msgid "View details"
+#~ msgstr "Xem chi tiết"
+
+#~ msgid "View list of available "
+#~ msgstr "Xem danh sách có sẵn "
+
+#~ msgid "View list of available CommonInterface extensions"
+#~ msgstr "Xem danh sách các tiện ích mở rộng CommonInterface có sẵn"
+
+#~ msgid "View list of available EPG extensions."
+#~ msgstr "Xem danh sách các phần mở rộng EPG có sẵn."
+
+#~ msgid "View list of available Satellite equipment extensions."
+#~ msgstr "Xem danh sách các phần mở rộng thiết bị vệ tinh có sẵn."
+
+#~ msgid "View list of available communication extensions."
+#~ msgstr "Xem danh sách các phần mở rộng giao tiếp có sẵn."
+
+#~ msgid "View list of available default settings"
+#~ msgstr "Xem danh sách các cài đặt mặc định khả dụng"
+
+#~ msgid "View list of available display and user interface extensions."
+#~ msgstr "Xem danh sách các phần mở rộng hiển thị và giao diện người dùng."
+
+#~ msgid "View list of available multimedia extensions."
+#~ msgstr "Xem danh sách các phần mở rộng đa phương tiện có sẵn."
+
+#~ msgid "View list of available networking extensions"
+#~ msgstr "Xem danh sách các phần mở rộng mạng có sẵn"
+
+#~ msgid "View list of available recording extensions"
+#~ msgstr "Xem danh sách các phần mở rộng ghi âm có sẵn"
+
+#~ msgid "View list of available skins"
+#~ msgstr "Xem danh sách các giao diện có sẵn"
+
+#~ msgid "View list of available software extensions"
+#~ msgstr "Xem danh sách các phần mềm mở rộng có sẵn"
+
+#~ msgid "View list of available system extensions"
+#~ msgstr "Xem danh sách các phần mở rộng hệ thống có sẵn"
+
+#~ msgid "You can cancel the installation."
+#~ msgstr "Bạn có thể hủy cài đặt."
+
+#~ msgid "You can cancel the removal."
+#~ msgstr "Bạn có thể hủy bỏ loại bỏ."
+
+#~ msgid "You can install this plugin."
+#~ msgstr "Bạn có thể cài đặt plugin này."
+
+#~ msgid "You can remove this plugin."
+#~ msgstr "Bạn có thể loại bỏ plugin này."
+
+#, python-format
+#~ msgid "Your %s %s isn't connected to the Internet properly. Please check it and try again."
+#~ msgstr "Của bạn % s% s không được kết nối với internet đúng cách. Vui lòng kiểm tra và thử lại."
+
+#, python-format
+#~ msgid ""
+#~ "Your image is out of date!\n"
+#~ "\n"
+#~ "After such a long time, there is a risk that your %s %s will not\n"
+#~ "boot after online-update, or will show disfunction in running Image.\n"
+#~ "\n"
+#~ "A new flash will increase the stability\n"
+#~ "\n"
+#~ "An online update is done at your own risk !!\n"
+#~ "\n"
+#~ "\n"
+#~ "Do you still want to update?"
+#~ msgstr ""
+#~ "Hình ảnh của bạn đã lỗi thời!\n"
+#~ "\n"
+#~ "Sau một thời gian dài như vậy, có một rủi ro là % s% s của bạn sẽ không\n"
+#~ "khởi động sau khi cập nhật trực tuyến hoặc sẽ hiển thị lỗi khi chạy Image.\n"
+#~ "\n"
+#~ "Một đèn flash mới sẽ tăng sự ổn định\n"
+#~ "\n"
+#~ "Một bản cập nhật trực tuyến được thực hiện có nguy cơ của riêng bạn !!\n"
+#~ "\n"
+#~ "\n"
+#~ "Bạn vẫn muốn cập nhật?"
+
+#~ msgid "extensions."
+#~ msgstr "phần mở rộng."
+
+#~ msgid "packages selected."
+#~ msgstr "các gói được chọn."
+
+#~ msgid "updates available."
+#~ msgstr "cập nhật có sẵn."
+
+#, python-format
+#~ msgid "your %s %s might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+#~ msgstr "bây giờ % s% s của bạn có thể không sử dụng được. Vui lòng tham khảo hướng dẫn để được hỗ trợ thêm trước khi khởi động lại% s% s của bạn."
 
 #~ msgid "Additional Info"
 #~ msgstr "Thông tin bổ sung"

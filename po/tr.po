@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 09:08+0000\n"
+"POT-Creation-Date: 2023-04-07 09:20+0000\n"
 "PO-Revision-Date: 2022-05-29 17:02+0200\n"
 "Last-Translator: Apachi70 (Openatv),(Teamblue) <teamblue@online.de,openatv@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -1032,6 +1032,10 @@ msgid_plural "%d packages were upgraded."
 msgstr[0] "%d paketi yükseltildi."
 
 #, python-format
+msgid "%d packages found, %d packages installed and %d packages has updates."
+msgstr ""
+
+#, python-format
 msgid "%d sec"
 msgstr "%d sec"
 
@@ -1162,11 +1166,6 @@ msgstr "%s %s uzaktan kumanda (yerel)"
 
 #
 #, python-format
-msgid "%s %s software because updates are available."
-msgstr "%s %s yazılım güncellemeleri var."
-
-#
-#, python-format
 msgid "%s ( %s Cards )"
 msgstr "%s ( %s kartları )"
 
@@ -1212,6 +1211,10 @@ msgstr "%s KSymb/s"
 #, python-format
 msgid "%s MHz"
 msgstr "%s MHz"
+
+#, python-format
+msgid "%s Packages found"
+msgstr ""
 
 #
 #, python-format
@@ -1972,9 +1975,6 @@ msgstr ""
 "\n"
 "İkinci ağ arayüzünü devre dışı bırakmak istiyor musunuz?"
 
-msgid "A small overview of the available icon states and actions."
-msgstr "İkonların durumları ve eylemleri hakkında küçük bir açıklama."
-
 msgid ""
 "A timer failed to record!\n"
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
@@ -2073,9 +2073,6 @@ msgstr "Sözde bir kaydı iptal ettim.\n"
 
 msgid "Aborted a streaming service.\n"
 msgstr "Bir akış hizmeti iptal edildi.\n"
-
-msgid "Aborting update progress"
-msgstr "Güncelleme işleminin iptal edilmesi"
 
 #
 msgid "About"
@@ -2904,10 +2901,6 @@ msgstr "Avustralya"
 
 msgid "Austria"
 msgstr "Avusturya"
-
-#
-msgid "Author: "
-msgstr "Gönderen: "
 
 #
 msgid "Authoring mode"
@@ -3923,6 +3916,9 @@ msgstr "Kanada"
 msgid "Cancel"
 msgstr "İptal"
 
+msgid "Cancel / Close the screen"
+msgstr ""
+
 msgid "Cancel / Close the software update screen"
 msgstr "Yazılım güncelleme ekranını iptal edin / kapatın"
 
@@ -4054,9 +4050,6 @@ msgstr "Cascade PiP"
 
 msgid "Catalan / Valencian"
 msgstr "Katalan / Valensiya"
-
-msgid "Caution update not yet tested !!"
-msgstr "Dikkat güncellemesi henüz test edilmemiştir!"
 
 msgid "Cayman Islands"
 msgstr "Cayman Adaları"
@@ -4678,10 +4671,6 @@ msgstr "Ortak Arayüz Ataması"
 msgid "Common Setup Actions"
 msgstr "CI (Ortak Arayüz) Kurulumu"
 
-#
-msgid "Communication"
-msgstr "İletişim"
-
 msgid "Comoros"
 msgstr "Komorlar"
 
@@ -5174,10 +5163,6 @@ msgstr "Bağlam"
 
 msgid "Continent"
 msgstr "Kıta"
-
-#
-msgid "Continue"
-msgstr "Devam"
 
 msgid "Continue in background"
 msgstr "Arkaplanda devam et"
@@ -5919,10 +5904,6 @@ msgstr "Varsayılan Kayıt tipi"
 msgid "Default right column directory"
 msgstr ""
 
-#
-msgid "Default settings"
-msgstr "Varsayılan ayarlar"
-
 msgid "Default sort order for directories in the left column"
 msgstr ""
 
@@ -6449,10 +6430,6 @@ msgstr ">16:9 içeriği şu şekilde göster"
 msgid "Display Settings"
 msgstr "Görünüm Ayarları"
 
-#
-msgid "Display and user interface"
-msgstr "Görünüm ve kullanıcı arayüzü"
-
 msgid "Display context menu"
 msgstr ""
 
@@ -6746,9 +6723,6 @@ msgstr "Ayarlarınızı geri yüklemek istiyor musunuz?"
 msgid "Do you want to resume this playback?"
 msgstr "Oynatmaya kaldığınız yerden devam etmek istiyor musunuz?"
 
-msgid "Do you want to update your box?"
-msgstr "Alıcıyı güncellemek istiyor musunuz?"
-
 #
 msgid "Do you want to upgrade the package:\n"
 msgstr "Seçilen paketi yükseltmek istiyor musunuz?:\n"
@@ -6799,10 +6773,6 @@ msgstr ""
 
 msgid "Done"
 msgstr "Tamam"
-
-#, python-format
-msgid "Done - Installed or upgraded %d packages"
-msgstr "Tamam - %d paket yükseltildi veya kuruldu"
 
 #
 #, python-format
@@ -8097,10 +8067,6 @@ msgstr "Uzantı Eylemleri"
 msgid "Extensions"
 msgstr "Eklentiler"
 
-#
-msgid "Extensions Management"
-msgstr "Genişletme yönetimi"
-
 msgid "Extensions/QuickMenu"
 msgstr "Uzantılar / Hızlı Menü"
 
@@ -8561,10 +8527,6 @@ msgstr "Uzaktan kumandadaki tuş grubuna göre düz"
 msgid "Flat by position on remote"
 msgstr "Uzaktan kumandadaki konuma göre düz"
 
-#
-msgid "Following tasks will be done after you press OK!"
-msgstr "Belirtilen görevler OK tuşuna basmanızın ardından işleme alınacak!"
-
 msgid "Font size"
 msgstr "Yazı tipi boyutu"
 
@@ -8576,9 +8538,6 @@ msgstr "Yiyecek/Şarap"
 
 msgid "Football"
 msgstr "Futbol"
-
-msgid "For more information see https://www.opena.tv"
-msgstr "Daha fazla bilgi için bkz. https://www.opena.tv"
 
 msgid "Force LNB Power"
 msgstr "LNB Gücünü Zorlamak"
@@ -9992,10 +9951,6 @@ msgstr "Eklentileri yükle."
 msgid "Install lcd picons on"
 msgstr "Lcd pikonlarını yükle"
 
-#
-msgid "Install or remove finished."
-msgstr "Yükleme veya kaldırma bitti."
-
 msgid "Install picons on"
 msgstr "Pikonları yükle"
 
@@ -11004,6 +10959,9 @@ msgstr "Eklentileri yönet"
 msgid "Manage Locale/Language Selection settings"
 msgstr "Yerel/Dil Seçimi ayarlarını yönetin"
 
+msgid "Manage Plugins"
+msgstr ""
+
 msgid "Manage and explore directories and files."
 msgstr ""
 
@@ -11762,10 +11720,6 @@ msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Oluşturulan Multiboot Görüntüsü: %s /%s-%s-%s-backup-%s_usb.zip"
 
 #
-msgid "Multimedia"
-msgstr "Çoklu ortam"
-
-#
 msgid "Multiple service support"
 msgstr "Çoklu kanal desteği"
 
@@ -12195,10 +12149,6 @@ msgid "No demux available"
 msgstr "Demux yok"
 
 #
-msgid "No description available."
-msgstr "Açıklayıcı bilgi yok."
-
-#
 msgid "No displayable files on this medium found!"
 msgstr "Bu ortamda gösterilecek dosya bulunamadı!"
 
@@ -12235,10 +12185,6 @@ msgstr ""
 msgid "No matching place names found"
 msgstr "Eşleşen yer adı bulunamadı"
 
-#
-msgid "No network connection available."
-msgstr "Uygun ağ bağlantısı yok."
-
 msgid "No network storage detected."
 msgstr ""
 
@@ -12249,8 +12195,8 @@ msgstr "Ağ bulunamadı"
 msgid "No of items switch (increase or reduced)"
 msgstr "Değişen öğeler (artan veya azalan)"
 
-msgid "No packages were upgraded yet. So you can check your network and try again."
-msgstr "Hiç bir paket henüz yükseltilmedi. Ağınızı kontrol ederek ve yeniden deneyin."
+msgid "No packages found."
+msgstr ""
 
 msgid "No pictures available"
 msgstr ""
@@ -12684,10 +12630,6 @@ msgstr "%s %s yazılımını çevrimiçi güncelleyin."
 
 msgid "Only Flash Backup Image"
 msgstr ""
-
-#
-msgid "Only extensions."
-msgstr "Yalnızca eklentiler."
 
 #
 msgid "Only free scan"
@@ -13171,6 +13113,9 @@ msgstr "Sağ ilerleme çubuğu"
 
 msgid "Perform an on-line flash instead"
 msgstr "Bunun yerine bir çevrimiçi flaş gerçekleştirin"
+
+msgid "Perform install/remove of the selected item"
+msgstr ""
 
 msgid "Permanently delete all recordings in the trash can?"
 msgstr "Çöp sepetindeki tüm kayıtlar kalıcı olarak silinsin mi?"
@@ -13760,23 +13705,11 @@ msgstr "Eklentiler Listesi"
 msgid "Plugin Browser Settings"
 msgstr "Pluginbrowser Ayarları"
 
-msgid "Plugin Details"
-msgstr "Eklenti ayrıntıları"
-
-#, python-format
-msgid "Plugin Details: %s"
-msgstr ""
-
 msgid "Plugin Filter Settings"
 msgstr "Eklenti Filtresi"
 
-#
-msgid "Plugin Manager Activity Information"
-msgstr "Eklenti yöneticisi etkinlik bilgisi"
-
-#
-msgid "Plugin Manager Help"
-msgstr "Eklenti yönetici yardımı"
+msgid "Plugin Manager Actions"
+msgstr ""
 
 #
 msgid "Plugins"
@@ -14113,10 +14046,6 @@ msgstr "Işlem modeli"
 
 msgid "Proceed with the update"
 msgstr "Güncellemeye devam et"
-
-#
-msgid "Process"
-msgstr "İşlemler"
 
 msgid "Processor information"
 msgstr "Işlemci bilgisi"
@@ -15530,9 +15459,6 @@ msgstr "Uydu Çanak Kurulumu"
 msgid "Satellite configuration mode"
 msgstr "Uydu yapılandırma modu"
 
-msgid "Satellite equipment"
-msgstr "Uydu ekipmanı"
-
 #
 msgid "Satellite equipment setup"
 msgstr "Uydu Ekipmanı Kurulumu"
@@ -15699,6 +15625,9 @@ msgstr "Kablosuz Ağları Tara"
 msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
 msgstr ""
 
+msgid "Scanning"
+msgstr ""
+
 #, python-format
 msgid "Scanning %s..."
 msgstr "Tarıyor %s..."
@@ -15799,14 +15728,6 @@ msgstr "Arama"
 #
 msgid "Searching east ..."
 msgstr "Doğu aranıyor ..."
-
-#
-msgid "Searching for available updates. Please wait..."
-msgstr "Güncellemeler kontrol ediliyor. Lütfen bekleyin..."
-
-#
-msgid "Searching for new installed or removed packages. Please wait..."
-msgstr "Yeni yüklenen veya kaldırılan paketler aranıyor. Lütfen bekleyin..."
 
 #
 msgid "Searching west ..."
@@ -18139,10 +18060,6 @@ msgstr "Görsel arayüz kurulumu"
 msgid "SkinSelector"
 msgstr "SkinSelector"
 
-#
-msgid "Skins"
-msgstr "Görsel-arayüzler"
-
 msgid "Skip Internet connection check (disables automatic package installation)"
 msgstr "İnternet bağlantısını atla (otomatik paket yüklemeyi engeller)"
 
@@ -18356,10 +18273,6 @@ msgid "Softcams"
 msgstr "Softcams"
 
 #
-msgid "Software"
-msgstr "Yazılım"
-
-#
 msgid "Software Management"
 msgstr "Yazılım yönetimi"
 
@@ -18460,9 +18373,6 @@ msgstr "Üzgünüz, %s yüklenmedi!"
 
 msgid "Sorry, no backups found!"
 msgstr "Üzgünüz, hiç yedek bulunamadı!"
-
-msgid "Sorry, no details available!"
-msgstr "Üzgünüz, hiçbir ayrıntı yok!"
 
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create Swapfile on network or fat32 filesystems"
 msgstr "Üzgünüm, SWAP ekli destekleyen hiçbir fiziksel cihaz yok. Ağda veya fat32 dosya sistemlerinde Swapfile oluşturulamıyor"
@@ -19759,16 +19669,6 @@ msgstr ""
 "\n"
 "Bunu şimdi mi yap yoksa zamanlayıcıyı uzat mı?"
 
-msgid ""
-"The software management extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Yazılım yöneticisi eklentisi yüklü değil!\n"
-"Lütfen yükleyin."
-
-msgid "The status of the current update could not be checked because https://www.opena.tv could not be reached for some reason"
-msgstr "Mevcut güncellemenin durumu kontrol edilemedi çünkü https://www.opena.tv nedenine ulaşılamadı"
-
 msgid "The time is multiplied by the current repeat counter."
 msgstr "Zaman, geçerli tekrar sayıcı ile çarpılır."
 
@@ -19821,14 +19721,6 @@ msgstr "Bu sihirbaz geçerli ayarlarınızın yedeğini alacaktır. Yedeği şim
 #
 msgid "The wizard is finished now."
 msgstr "Sihirbaz tamamlandı."
-
-#
-msgid "There are at least "
-msgstr "En az "
-
-#
-msgid "There are currently no outstanding actions."
-msgstr "Göze çarpan bir görev yok."
 
 #, python-format
 msgid "There are no actions available to process '%s'!"
@@ -19911,9 +19803,6 @@ msgstr "Bu, indirmelerdeki uzantı modüllerini göstermenizi sağlar"
 
 msgid "This allows you to show kernel modules in downloads"
 msgstr "Bu, indirmelerde çekirdek modüllerini göstermenizi sağlar"
-
-msgid "This allows you to show languages in downloads"
-msgstr "Bu, indirilen dilleri göstermenizi sağlar"
 
 msgid "This allows you to show lcd skins in downloads"
 msgstr "Bu indirmelerde lcd skini göstermenizi sağlar"
@@ -20166,20 +20055,6 @@ msgstr "Bu seçenek resim keskinliğini ayarlar, resim çözünürlüğü arttı
 
 msgid "This plugin can determine whether a programme begins earlier or lasts longer. The channel has to provide reliable data."
 msgstr ""
-
-#
-msgid "This plugin is installed."
-msgstr "Bu eklenti yüklü."
-
-#
-msgid "This plugin is not installed."
-msgstr "Bu eklenti yüklü değil."
-
-msgid "This plugin will be installed."
-msgstr "Bu eklenti yüklenecek."
-
-msgid "This plugin will be removed."
-msgstr "Bu eklenti kaldırılacak."
 
 msgid "This sets the prefix for each line in the debug log. The 'Boot time' is the number of seconds since your %s %s was last booted."
 msgstr "Bu, hata ayıklama günlüğündeki her satırın önekini ayarlar. 'Önyükleme süresi', %s %s cihazınızın en son başlatılmasından bu yana geçen saniye sayısıdır."
@@ -20995,14 +20870,6 @@ msgstr "Tanımsız"
 msgid "Undetermined"
 msgstr "Belirsiz"
 
-#
-msgid "Undo install"
-msgstr "Yükle(me)"
-
-#
-msgid "Undo uninstall"
-msgstr "Kaldır(ma)"
-
 msgid "Unencrypted"
 msgstr "Şifrelenmemiş"
 
@@ -21025,10 +20892,6 @@ msgstr "Unicable LNB"
 
 msgid "Unicable Matrix"
 msgstr "Unicable Matrix"
-
-#
-msgid "Uninstall"
-msgstr "Kaldır"
 
 msgid "United Arab Emirates"
 msgstr "Birleşik Arap Emirlikleri"
@@ -21153,9 +21016,6 @@ msgstr "Yukarı / Aşağı düğmeleri de 'tümü yukarı / aşağı' için mi?"
 msgid "Update"
 msgstr "Güncelle"
 
-msgid "Update at your own risk"
-msgstr "Kendi riskinizde güncelleme yapın"
-
 msgid "Update completed."
 msgstr "Güncelleme tamamlandı, %d paket yüklendi."
 
@@ -21169,18 +21029,12 @@ msgstr "Listedeki Etkinlikler için gecikmeyi güncelle. Listede ilerlemek, büy
 msgid "Update failed!"
 msgstr "Güncelleme başarısız oldu!"
 
-msgid "Update feed not available."
-msgstr "Güncelleme beslemesi yok."
-
 #
 msgid "Update finished!"
 msgstr "Güncelleme bitti!"
 
 msgid "Update interval (in seconds)"
 msgstr "Güncelleme periyodu (saniye)"
-
-msgid "Update is reported as faulty !!"
-msgstr "Güncelleme hatalı olarak bildirildi!"
 
 msgid ""
 "Update succeeded!\n"
@@ -21211,10 +21065,6 @@ msgstr "Yükseltiliyor"
 msgid "Updating mount locations."
 msgstr "Montaj yerleri güncelleniyor."
 
-#
-msgid "Updating software catalog"
-msgstr "Yazılım kataloğu güncelleniyor"
-
 msgid "Upgrade (Flash & restore all)"
 msgstr ""
 
@@ -21234,9 +21084,6 @@ msgstr ""
 
 msgid "Upgrade with GUI"
 msgstr "Grafiksel arayüz ile yükseltme"
-
-msgid "Upgrading"
-msgstr "Güncelleme"
 
 msgid "Uphops +"
 msgstr "Uphops +"
@@ -21823,61 +21670,6 @@ msgstr ""
 #
 msgid "View Rass interactive..."
 msgstr "Etkileşimli Rass'ı (Radio acoustic sounding system) izle..."
-
-#
-msgid "View details"
-msgstr "Detayları izle"
-
-#
-msgid "View list of available "
-msgstr "Kullanılabilirlerin listesini görüntüleyin "
-
-#
-msgid "View list of available CommonInterface extensions"
-msgstr "Kullanılabilir OrtakArayüz genişletmeleri listesi"
-
-#
-msgid "View list of available EPG extensions."
-msgstr "Kullanılabilir EPG uzantılarının listesini görüntüleyin."
-
-msgid "View list of available Satellite equipment extensions."
-msgstr "Kullanılabilir Uydu ekipmanı uzantılarının listesini görüntüleyin."
-
-#
-msgid "View list of available communication extensions."
-msgstr "Kullanılabilir iletişim uzantılarının listesini görüntüleyin."
-
-#
-msgid "View list of available default settings"
-msgstr "Kullanılabilir varsayılan ayarlar listesi"
-
-#
-msgid "View list of available display and user interface extensions."
-msgstr "Kullanılabilir ekranların ve kullanıcı arayüzü uzantılarının listesini görüntüleyin."
-
-#
-msgid "View list of available multimedia extensions."
-msgstr "Kullanılabilir multimedya uzantılarının listesini görüntüleyin."
-
-#
-msgid "View list of available networking extensions"
-msgstr "Kullanılabilir ağ eklentileri listesi"
-
-#
-msgid "View list of available recording extensions"
-msgstr "Kullanılabilir kayıt eklentileri listesi"
-
-#
-msgid "View list of available skins"
-msgstr "Kullanılabilir görsel-arayüzler listesi"
-
-#
-msgid "View list of available software extensions"
-msgstr "Kullanılabilir yazılım eklentileri listesi"
-
-#
-msgid "View list of available system extensions"
-msgstr "Kullanılabilir sistem eklentileri listesi"
 
 msgid "View mode"
 msgstr "İzleme modu"
@@ -22716,30 +22508,14 @@ msgstr "OSD Menüsü olan veya olmayan MiniTV'yi görüntüleyebilirsiniz"
 msgid "You can Display PiP with or without OSD Menu"
 msgstr "OSD Menüsü olan veya olmayan PIP Görüntüleyebilirsiniz"
 
-#
-msgid "You can cancel the installation."
-msgstr "Yüklemeyi iptal edebilirsiniz."
-
-#
-msgid "You can cancel the removal."
-msgstr "Kaldırmayı iptal edebilirsiniz."
-
 msgid "You can continue watching TV etc. while this is running."
 msgstr "Bu çalışırken TV izlemeye devam edebilirsiniz."
 
 msgid "You can have the list sorted by time or alphanumerical."
 msgstr "Lisyeyi zamana göre veya alfabetik sıralayabilirsiniz."
 
-#
-msgid "You can install this plugin."
-msgstr "Bu eklentiyi yükleyebilirsiniz."
-
 msgid "You can only burn Dreambox recordings!"
 msgstr "Sadece Dreambox kayıtlarını yazabilirsiniz!"
-
-#
-msgid "You can remove this plugin."
-msgstr "Bu eklentiyi kaldırabilirsiniz."
 
 msgid "You can skip this function and turn off the TV when you wake the receiver from standby and immediately switch back to standby."
 msgstr "Alıcıyı bekleme modundan çıkardıktan sonra hemen bekleme moduna geçtiğinizde bu işlevi atlayabilir ve TV'yi kapatabilirsiniz."
@@ -22871,10 +22647,6 @@ msgid "Your %s %s is shutting down. Please wait..."
 msgstr "%s %s kapatılıyor. Lütfen bekleyin..."
 
 #, python-format
-msgid "Your %s %s isn't connected to the Internet properly. Please check it and try again."
-msgstr "Internet’e uygun şekilde bağlı değil. Lütfen kontrol edip tekrar deneyin %s%s."
-
-#, python-format
 msgid ""
 "Your %s %s was not shutdown properly.\n"
 "\n"
@@ -22996,32 +22768,6 @@ msgid ""
 msgstr ""
 "Ön paneliniz yükseltilecek\n"
 "Bu bir kaç dakika alabilir"
-
-#, python-format
-msgid ""
-"Your image is out of date!\n"
-"\n"
-"After such a long time, there is a risk that your %s %s will not\n"
-"boot after online-update, or will show disfunction in running Image.\n"
-"\n"
-"A new flash will increase the stability\n"
-"\n"
-"An online update is done at your own risk !!\n"
-"\n"
-"\n"
-"Do you still want to update?"
-msgstr ""
-"Görüntünüz güncel değil!\n"
-"\n"
-"Çok uzun bir süre sonra,%s %s 'inizin olmayacağı yönünde bir risk var.\n"
-"çevrimiçi güncellemeden sonra önyükleme veya görüntüyü çalıştırmadaki disfonksiyonu gösterecektir.\n"
-"\n"
-"Yeni bir flaş istikrarı artıracak\n"
-"\n"
-"Bir çevrimiçi güncelleme kendi sorumluluğunuzda yapılır!\n"
-"\n"
-"\n"
-"Hala güncellemek istiyor musun?"
 
 #
 msgid "Your network configuration has been activated."
@@ -23636,9 +23382,6 @@ msgstr "ağ donanımı kurulum menüsünden çık"
 msgid "experimental film/video"
 msgstr "deneysel film/video"
 
-msgid "extensions."
-msgstr "uzantılar."
-
 msgid "externally loopthrough to"
 msgstr "dışarıdan ilmek"
 
@@ -24088,9 +23831,6 @@ msgstr "sadece HD"
 
 msgid "original language"
 msgstr "özgün dil"
-
-msgid "packages selected."
-msgstr "paketler seçildi."
 
 #
 msgid "pass"
@@ -24550,9 +24290,6 @@ msgstr "h.bekle/y.başlatana kadar"
 msgid "update"
 msgstr "güncelleştirme"
 
-msgid "updates available."
-msgstr "güncellemeler mevcut."
-
 msgid "use best / controlled by HDMI"
 msgstr "en iyi kullanım / HDMI tarafından kontrol edilen"
 
@@ -24628,12 +24365,297 @@ msgstr "sarı"
 msgid "yes (keep feeds)"
 msgstr "evet (beslemeleri tut)"
 
-#, python-format
-msgid "your %s %s might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
-msgstr "artık kullanılamaz olabilir. Lütfen% s% s’nizi yeniden başlatmadan önce daha fazla yardım almak için kılavuza bakın %s%s."
-
 msgid "®"
 msgstr ""
+
+#
+#, python-format
+#~ msgid "%s %s software because updates are available."
+#~ msgstr "%s %s yazılım güncellemeleri var."
+
+#~ msgid "A small overview of the available icon states and actions."
+#~ msgstr "İkonların durumları ve eylemleri hakkında küçük bir açıklama."
+
+#~ msgid "Aborting update progress"
+#~ msgstr "Güncelleme işleminin iptal edilmesi"
+
+#
+#~ msgid "Author: "
+#~ msgstr "Gönderen: "
+
+#~ msgid "Caution update not yet tested !!"
+#~ msgstr "Dikkat güncellemesi henüz test edilmemiştir!"
+
+#
+#~ msgid "Communication"
+#~ msgstr "İletişim"
+
+#
+#~ msgid "Continue"
+#~ msgstr "Devam"
+
+#
+#~ msgid "Default settings"
+#~ msgstr "Varsayılan ayarlar"
+
+#
+#~ msgid "Display and user interface"
+#~ msgstr "Görünüm ve kullanıcı arayüzü"
+
+#~ msgid "Do you want to update your box?"
+#~ msgstr "Alıcıyı güncellemek istiyor musunuz?"
+
+#, python-format
+#~ msgid "Done - Installed or upgraded %d packages"
+#~ msgstr "Tamam - %d paket yükseltildi veya kuruldu"
+
+#
+#~ msgid "Extensions Management"
+#~ msgstr "Genişletme yönetimi"
+
+#
+#~ msgid "Following tasks will be done after you press OK!"
+#~ msgstr "Belirtilen görevler OK tuşuna basmanızın ardından işleme alınacak!"
+
+#~ msgid "For more information see https://www.opena.tv"
+#~ msgstr "Daha fazla bilgi için bkz. https://www.opena.tv"
+
+#
+#~ msgid "Install or remove finished."
+#~ msgstr "Yükleme veya kaldırma bitti."
+
+#
+#~ msgid "Multimedia"
+#~ msgstr "Çoklu ortam"
+
+#
+#~ msgid "No description available."
+#~ msgstr "Açıklayıcı bilgi yok."
+
+#
+#~ msgid "No network connection available."
+#~ msgstr "Uygun ağ bağlantısı yok."
+
+#~ msgid "No packages were upgraded yet. So you can check your network and try again."
+#~ msgstr "Hiç bir paket henüz yükseltilmedi. Ağınızı kontrol ederek ve yeniden deneyin."
+
+#
+#~ msgid "Only extensions."
+#~ msgstr "Yalnızca eklentiler."
+
+#~ msgid "Plugin Details"
+#~ msgstr "Eklenti ayrıntıları"
+
+#
+#~ msgid "Plugin Manager Activity Information"
+#~ msgstr "Eklenti yöneticisi etkinlik bilgisi"
+
+#
+#~ msgid "Plugin Manager Help"
+#~ msgstr "Eklenti yönetici yardımı"
+
+#
+#~ msgid "Process"
+#~ msgstr "İşlemler"
+
+#~ msgid "Satellite equipment"
+#~ msgstr "Uydu ekipmanı"
+
+#
+#~ msgid "Searching for available updates. Please wait..."
+#~ msgstr "Güncellemeler kontrol ediliyor. Lütfen bekleyin..."
+
+#
+#~ msgid "Searching for new installed or removed packages. Please wait..."
+#~ msgstr "Yeni yüklenen veya kaldırılan paketler aranıyor. Lütfen bekleyin..."
+
+#
+#~ msgid "Skins"
+#~ msgstr "Görsel-arayüzler"
+
+#
+#~ msgid "Software"
+#~ msgstr "Yazılım"
+
+#~ msgid "Sorry, no details available!"
+#~ msgstr "Üzgünüz, hiçbir ayrıntı yok!"
+
+#~ msgid ""
+#~ "The software management extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Yazılım yöneticisi eklentisi yüklü değil!\n"
+#~ "Lütfen yükleyin."
+
+#~ msgid "The status of the current update could not be checked because https://www.opena.tv could not be reached for some reason"
+#~ msgstr "Mevcut güncellemenin durumu kontrol edilemedi çünkü https://www.opena.tv nedenine ulaşılamadı"
+
+#
+#~ msgid "There are at least "
+#~ msgstr "En az "
+
+#
+#~ msgid "There are currently no outstanding actions."
+#~ msgstr "Göze çarpan bir görev yok."
+
+#~ msgid "This allows you to show languages in downloads"
+#~ msgstr "Bu, indirilen dilleri göstermenizi sağlar"
+
+#
+#~ msgid "This plugin is installed."
+#~ msgstr "Bu eklenti yüklü."
+
+#
+#~ msgid "This plugin is not installed."
+#~ msgstr "Bu eklenti yüklü değil."
+
+#~ msgid "This plugin will be installed."
+#~ msgstr "Bu eklenti yüklenecek."
+
+#~ msgid "This plugin will be removed."
+#~ msgstr "Bu eklenti kaldırılacak."
+
+#
+#~ msgid "Undo install"
+#~ msgstr "Yükle(me)"
+
+#
+#~ msgid "Undo uninstall"
+#~ msgstr "Kaldır(ma)"
+
+#
+#~ msgid "Uninstall"
+#~ msgstr "Kaldır"
+
+#~ msgid "Update at your own risk"
+#~ msgstr "Kendi riskinizde güncelleme yapın"
+
+#~ msgid "Update feed not available."
+#~ msgstr "Güncelleme beslemesi yok."
+
+#~ msgid "Update is reported as faulty !!"
+#~ msgstr "Güncelleme hatalı olarak bildirildi!"
+
+#
+#~ msgid "Updating software catalog"
+#~ msgstr "Yazılım kataloğu güncelleniyor"
+
+#~ msgid "Upgrading"
+#~ msgstr "Güncelleme"
+
+#
+#~ msgid "View details"
+#~ msgstr "Detayları izle"
+
+#
+#~ msgid "View list of available "
+#~ msgstr "Kullanılabilirlerin listesini görüntüleyin "
+
+#
+#~ msgid "View list of available CommonInterface extensions"
+#~ msgstr "Kullanılabilir OrtakArayüz genişletmeleri listesi"
+
+#
+#~ msgid "View list of available EPG extensions."
+#~ msgstr "Kullanılabilir EPG uzantılarının listesini görüntüleyin."
+
+#~ msgid "View list of available Satellite equipment extensions."
+#~ msgstr "Kullanılabilir Uydu ekipmanı uzantılarının listesini görüntüleyin."
+
+#
+#~ msgid "View list of available communication extensions."
+#~ msgstr "Kullanılabilir iletişim uzantılarının listesini görüntüleyin."
+
+#
+#~ msgid "View list of available default settings"
+#~ msgstr "Kullanılabilir varsayılan ayarlar listesi"
+
+#
+#~ msgid "View list of available display and user interface extensions."
+#~ msgstr "Kullanılabilir ekranların ve kullanıcı arayüzü uzantılarının listesini görüntüleyin."
+
+#
+#~ msgid "View list of available multimedia extensions."
+#~ msgstr "Kullanılabilir multimedya uzantılarının listesini görüntüleyin."
+
+#
+#~ msgid "View list of available networking extensions"
+#~ msgstr "Kullanılabilir ağ eklentileri listesi"
+
+#
+#~ msgid "View list of available recording extensions"
+#~ msgstr "Kullanılabilir kayıt eklentileri listesi"
+
+#
+#~ msgid "View list of available skins"
+#~ msgstr "Kullanılabilir görsel-arayüzler listesi"
+
+#
+#~ msgid "View list of available software extensions"
+#~ msgstr "Kullanılabilir yazılım eklentileri listesi"
+
+#
+#~ msgid "View list of available system extensions"
+#~ msgstr "Kullanılabilir sistem eklentileri listesi"
+
+#
+#~ msgid "You can cancel the installation."
+#~ msgstr "Yüklemeyi iptal edebilirsiniz."
+
+#
+#~ msgid "You can cancel the removal."
+#~ msgstr "Kaldırmayı iptal edebilirsiniz."
+
+#
+#~ msgid "You can install this plugin."
+#~ msgstr "Bu eklentiyi yükleyebilirsiniz."
+
+#
+#~ msgid "You can remove this plugin."
+#~ msgstr "Bu eklentiyi kaldırabilirsiniz."
+
+#, python-format
+#~ msgid "Your %s %s isn't connected to the Internet properly. Please check it and try again."
+#~ msgstr "Internet’e uygun şekilde bağlı değil. Lütfen kontrol edip tekrar deneyin %s%s."
+
+#, python-format
+#~ msgid ""
+#~ "Your image is out of date!\n"
+#~ "\n"
+#~ "After such a long time, there is a risk that your %s %s will not\n"
+#~ "boot after online-update, or will show disfunction in running Image.\n"
+#~ "\n"
+#~ "A new flash will increase the stability\n"
+#~ "\n"
+#~ "An online update is done at your own risk !!\n"
+#~ "\n"
+#~ "\n"
+#~ "Do you still want to update?"
+#~ msgstr ""
+#~ "Görüntünüz güncel değil!\n"
+#~ "\n"
+#~ "Çok uzun bir süre sonra,%s %s 'inizin olmayacağı yönünde bir risk var.\n"
+#~ "çevrimiçi güncellemeden sonra önyükleme veya görüntüyü çalıştırmadaki disfonksiyonu gösterecektir.\n"
+#~ "\n"
+#~ "Yeni bir flaş istikrarı artıracak\n"
+#~ "\n"
+#~ "Bir çevrimiçi güncelleme kendi sorumluluğunuzda yapılır!\n"
+#~ "\n"
+#~ "\n"
+#~ "Hala güncellemek istiyor musun?"
+
+#~ msgid "extensions."
+#~ msgstr "uzantılar."
+
+#~ msgid "packages selected."
+#~ msgstr "paketler seçildi."
+
+#~ msgid "updates available."
+#~ msgstr "güncellemeler mevcut."
+
+#, python-format
+#~ msgid "your %s %s might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+#~ msgstr "artık kullanılamaz olabilir. Lütfen% s% s’nizi yeniden başlatmadan önce daha fazla yardım almak için kılavuza bakın %s%s."
 
 #~ msgid "Additional Info"
 #~ msgstr "Ek Bilgi"
