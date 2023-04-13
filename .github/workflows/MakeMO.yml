@@ -20,7 +20,7 @@ jobs:
           sudo apt-get -q update
           sudo apt-get install gettext
           mkdir Rel
-          msgfmt -o Rel/de.mo po/de.po
+          for f in $(ls -1 po/*.po | sed -e 's/\.po$//' | sed 's/.*\///');do msgfmt -o Rel/$f.mo po/$f.po; done;
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
