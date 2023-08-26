@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 20:55+0000\n"
-"PO-Revision-Date: 2023-08-24 21:40+0000\n"
+"POT-Creation-Date: 2023-08-25 20:02+0200\n"
+"PO-Revision-Date: 2023-08-26 15:57+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid ""
@@ -2383,6 +2383,9 @@ msgstr "Modalità radio alternativa"
 
 msgid "Alternative services tuner priority"
 msgstr "Priorità del tuner per servizi alternativi"
+
+msgid "Always"
+msgstr "Sempre"
 
 msgid "Always ask"
 msgstr "Chiedi sempre"
@@ -6154,15 +6157,6 @@ msgstr "Parabola"
 msgid "Disk full"
 msgstr "Disco pieno"
 
-msgid "Storage device full!"
-msgstr "Dispositivo di archiviazione pieno!"
-
-msgid "Storage device not writable!"
-msgstr "Il disco non è scrivibile!"
-
-msgid "Storage device not found!"
-msgstr "Il disco non è stato trovato!"
-
 msgid "Display 16:9 content as"
 msgstr "Mostra contenuti in 16:9 come"
 
@@ -6176,7 +6170,7 @@ msgid "Display Settings"
 msgstr "Impostazioni visualizzazione"
 
 msgid "Display Skin Packages"
-msgstr "Visualizza pacchetti skin"
+msgstr "Pacchetti skin"
 
 msgid "Display context menu"
 msgstr "Visualizza menu contestuale"
@@ -6534,6 +6528,9 @@ msgstr "Giù"
 msgid "Down / Inactive"
 msgstr "Giù / Inattivo"
 
+msgid "Download Image"
+msgstr "Scarica immagine"
+
 msgid "Download Plugin"
 msgstr "Scarica plugin"
 
@@ -6554,6 +6551,9 @@ msgstr "Scarica ed installa cam"
 
 msgid "Download error"
 msgstr "Errore di download"
+
+msgid "Download the selected image"
+msgstr "Scarica immagine selezionata"
 
 msgid "Download the selected list of plugins"
 msgstr "Scarica l'elenco selezionato di plugin"
@@ -8700,7 +8700,7 @@ msgid "Graphical EPG"
 msgstr "EPG grafico"
 
 msgid "Graphical InfoBar EPG Settings"
-msgstr "Impostazioni EPG della barra grafica informazioni"
+msgstr "Impostazioni grafiche barra info EPG"
 
 msgid "GraphicalEPG Settings"
 msgstr "Impostazioni EPG grafico"
@@ -9291,6 +9291,9 @@ msgstr "Se \"mai\", sarà comunque forzato il riavvio dopo 100 crash."
 
 msgid "If 'never', will write crash log despite that for the first crash."
 msgstr "Se \"mai\", sarà comunque scritto il registro dei crash per il primo crash."
+
+msgid "If EPG available"
+msgstr "Se disponibile EPG"
 
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Se un programma viene interrotto o diviso in eventi separati, il plugin cercherà di ricostruire gli eventi collegati."
@@ -13049,9 +13052,6 @@ msgid "Please select a resolution..."
 msgstr "Seleziona una risoluzione..."
 
 msgid "Please select a sub service..."
-msgstr "Seleziona un sotto servizio..."
-
-msgid "Please select a subservice..."
 msgstr "Seleziona un sotto servizio..."
 
 msgid "Please select an aspect ratio..."
@@ -17430,6 +17430,9 @@ msgstr "Mostra messaggi quando si passa alla TV in diretta"
 msgid "Show subservice selection"
 msgstr "Mostra selezione del sotto servizio"
 
+msgid "Show subservices *"
+msgstr "Mostra sottoservizi *"
+
 msgid "Show subtitle quick menu"
 msgstr "Mostra menu rapido sottotitoli"
 
@@ -18410,6 +18413,15 @@ msgstr "Informazioni sull'archiviazione e sulle unità"
 msgid "Storage Devices"
 msgstr "Dispositivi di archiviazione"
 
+msgid "Storage device full!"
+msgstr "Dispositivo di archiviazione pieno!"
+
+msgid "Storage device not found!"
+msgstr "Il disco non è stato trovato!"
+
+msgid "Storage device not writable!"
+msgstr "Il disco non è scrivibile!"
+
 msgid "Store position"
 msgstr "Memorizza posizione"
 
@@ -18617,10 +18629,10 @@ msgid "Switch EPG Page Up"
 msgstr "Cambia pagina EPG su"
 
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
-msgstr "Cambia le modalità per abilitare l'HDR oppure le funzioni PIP"
+msgstr "Cambia per abilitare le modalità HDR o le funzioni PiP"
 
 msgid "Switch TV to correct input"
-msgstr "Cambia ingresso corretto alla TV"
+msgstr "Imposta la TV sull'ingresso corretto"
 
 msgid "Switch To Bookmarks Panel"
 msgstr "Passa al pannello dei segnalibri"
@@ -18629,10 +18641,10 @@ msgid "Switch To File List Panel"
 msgstr "Passa al pannello elenco file"
 
 msgid "Switch between Audio-, Subtitlepage"
-msgstr "Passa tra audio e sottotitoli"
+msgstr "Passa tra la pagina audio e sottotitoli"
 
 msgid "Switch between file list/play list"
-msgstr "Scambiare tra filelist / playlist"
+msgstr "Passa dall'elenco dei file alla playlist"
 
 msgid "Switch config"
 msgstr "Cambia configurazione"
@@ -18643,8 +18655,11 @@ msgstr "Passa al prossimo canale"
 msgid "Switch off the TV to correct input"
 msgstr "Spegni la TV per correggere l'ingresso"
 
+msgid "Switch to 720p video"
+msgstr "Passa a video 720p"
+
 msgid "Switch to HDMI in mode"
-msgstr "Passa modalità HDMI"
+msgstr "Passa a modalità HDMI in"
 
 msgid "Switch to Radio"
 msgstr "Passa modalità Radio"
@@ -19546,6 +19561,9 @@ msgstr "Questa opzione consente di scegliere come visualizzare il tempo rimanent
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Questa opzione ti consente di scegliere il colore di sfondo delle icone trasparenti."
+
+msgid "This option allows you choose the option for subservice indicator or selection."
+msgstr "Questa opzione consente di scegliere l'opzione per l'indicatore o la selezione del sottoservizio."
 
 msgid "This option allows you enable smoothing filter to control the dithering process."
 msgstr "Questa opzione consente di abilitare il filtro smoothing per controllare il processo di dithering."
@@ -21343,7 +21361,7 @@ msgid "View video CD..."
 msgstr "Riproduci CD video..."
 
 msgid "View, install and remove available or installed packages."
-msgstr "Visualizza, installa e rimuovi i pacchetti disponibili o installati."
+msgstr "Visualizza, installa e rimuovi i pacchetti disponibili o quelli installati."
 
 msgid "Violence"
 msgstr "Violenza"
@@ -23563,6 +23581,9 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Please select a subservice..."
+#~ msgstr "Seleziona un sotto servizio..."
 
 #~ msgid "All slots"
 #~ msgstr "Tutti gli slot"
