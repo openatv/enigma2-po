@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 20:55+0000\n"
-"PO-Revision-Date: 2023-08-20 00:05+0000\n"
+"POT-Creation-Date: 2023-08-25 20:02+0200\n"
+"PO-Revision-Date: 2023-08-25 23:18+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 msgid ""
 "\n"
@@ -2392,6 +2392,9 @@ msgstr "TV tyylinen radiokanavien selaus"
 
 msgid "Alternative services tuner priority"
 msgstr "Virittimien prioriteetti"
+
+msgid "Always"
+msgstr "Aina"
 
 msgid "Always ask"
 msgstr "Kysy aina"
@@ -6164,15 +6167,6 @@ msgstr "Lautasantenni"
 msgid "Disk full"
 msgstr "Levy täysi"
 
-msgid "Storage device full!"
-msgstr "Kiintolevy täynnä?"
-
-msgid "Storage device not writable!"
-msgstr "Levyä ei voi kirjoittaa!"
-
-msgid "Storage device not found!"
-msgstr "Levyä ei löytynyt!"
-
 msgid "Display 16:9 content as"
 msgstr "Näytä 16:9 sisältö näin"
 
@@ -6544,6 +6538,9 @@ msgstr "Alas"
 msgid "Down / Inactive"
 msgstr "Alas / Ei aktiivinen"
 
+msgid "Download Image"
+msgstr "Lataa Ohjelmisto"
+
 msgid "Download Plugin"
 msgstr "Lataa lisäosia"
 
@@ -6564,6 +6561,9 @@ msgstr "Lataa ja asenna softcameja"
 
 msgid "Download error"
 msgstr "Lataus virhe"
+
+msgid "Download the selected image"
+msgstr "Lataa valittu ohjelmisto"
 
 msgid "Download the selected list of plugins"
 msgstr "Lataa valittu lisäosa plugin listalta"
@@ -9303,6 +9303,9 @@ msgstr "Jos 'ei koskaan' , pakottaa uudelleenkäynnistyksen siitä huolimatta 10
 
 msgid "If 'never', will write crash log despite that for the first crash."
 msgstr "Jos `ei koskaan` kirjoita kaatumislokin ensimmäisestä kaatumisesta huolimatta."
+
+msgid "If EPG available"
+msgstr "Jos EPG on saatavilla"
 
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Jos ohjelma keskeytetään ja jaetaan erillisiin tapahtumiin, laajennus etsii yhdistettyjä tapahtumia."
@@ -13074,9 +13077,6 @@ msgid "Please select a resolution..."
 msgstr "Valitse kuvaruudun tarkkuus"
 
 msgid "Please select a sub service..."
-msgstr "Valitse alipalvelu."
-
-msgid "Please select a subservice..."
 msgstr "Valitse alipalvelu."
 
 msgid "Please select an aspect ratio..."
@@ -17469,6 +17469,9 @@ msgstr "Näytä viesti kun siirrytään suoraan katseluun"
 msgid "Show subservice selection"
 msgstr "Näytä kanavatyypin kuvakkeet"
 
+msgid "Show subservices *"
+msgstr "Näytä tekstitys palvelu *"
+
 msgid "Show subtitle quick menu"
 msgstr "Näytä tekstityksen pikavalikko"
 
@@ -18449,6 +18452,15 @@ msgstr "Tallennustilan / Aseman tiedot"
 msgid "Storage Devices"
 msgstr "Tallennusvälineet"
 
+msgid "Storage device full!"
+msgstr "Kiintolevy täynnä?"
+
+msgid "Storage device not found!"
+msgstr "Levyä ei löytynyt!"
+
+msgid "Storage device not writable!"
+msgstr "Levyä ei voi kirjoittaa!"
+
 msgid "Store position"
 msgstr "Tallenna sijainti"
 
@@ -18682,6 +18694,9 @@ msgstr "Vaihda seuraavalle kanavalle"
 msgid "Switch off the TV to correct input"
 msgstr "Vaihda TV oikealle sisäänmenolle"
 
+msgid "Switch to 720p video"
+msgstr "Vaihda 720p"
+
 msgid "Switch to HDMI in mode"
 msgstr "Vaihda HDMI sisääntuloon"
 
@@ -18837,7 +18852,7 @@ msgstr "TMDB Haku"
 
 msgid "TRANSLATOR_INFO"
 msgstr ""
-"Suomenkielinen käännös: 6.8.2023\n"
+"Suomenkielinen käännös: 28.8.2023\n"
 "tomppaa"
 
 msgid "TS file is too large for ISO9660 level 1!"
@@ -19589,6 +19604,9 @@ msgstr "Määrittää, kuinka jäljellä oleva/kulunut aika näytetään tallenn
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Määrittää, minkävärinen taustaväri läpinäkyville kanavalogoille asetetaan."
+
+msgid "This option allows you choose the option for subservice indicator or selection."
+msgstr "Tämän vaihtoehdon avulla voit valita miten kanavatyyppi näytettään."
 
 msgid "This option allows you enable smoothing filter to control the dithering process."
 msgstr "Tämä asetus ottaa käyttöön pehmennyssuodattimen sävyjen sekoituksessa."
@@ -23617,6 +23635,9 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Please select a subservice..."
+#~ msgstr "Valitse alipalvelu."
 
 #~ msgid "All slots"
 #~ msgstr "Kaikki paikat"

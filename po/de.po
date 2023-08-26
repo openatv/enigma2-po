@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 20:55+0000\n"
-"PO-Revision-Date: 2023-08-24 21:40+0000\n"
+"POT-Creation-Date: 2023-08-25 20:02+0200\n"
+"PO-Revision-Date: 2023-08-26 15:57+0000\n"
 "Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2520,6 +2520,9 @@ msgstr "Alternativer Radiomodus"
 #
 msgid "Alternative services tuner priority"
 msgstr "Tuner-Priorität bei alternativen Services"
+
+msgid "Always"
+msgstr "Immer"
 
 msgid "Always ask"
 msgstr "Immer nachfragen"
@@ -6513,15 +6516,6 @@ msgstr "Spiegel"
 msgid "Disk full"
 msgstr "Festplatte voll!"
 
-msgid "Storage device full!"
-msgstr "Festplatte voll?"
-
-msgid "Storage device not writable!"
-msgstr "Festplatte ist nicht beschreibbar!"
-
-msgid "Storage device not found!"
-msgstr "Festplatte wurde nicht gefunden!"
-
 #
 msgid "Display 16:9 content as"
 msgstr "16:9-Inhalt anzeigen als"
@@ -6921,6 +6915,9 @@ msgstr "Runter"
 msgid "Down / Inactive"
 msgstr "Inaktiv"
 
+msgid "Download Image"
+msgstr "Image herunterladen"
+
 msgid "Download Plugin"
 msgstr "Plugin herunterladen"
 
@@ -6941,7 +6938,10 @@ msgid "Download and install cam"
 msgstr "Softcams herunterladen und installieren"
 
 msgid "Download error"
-msgstr "Download Fehler"
+msgstr "Fehler beim Herunterladen!"
+
+msgid "Download the selected image"
+msgstr "Gewähltes Image herunterladen"
 
 msgid "Download the selected list of plugins"
 msgstr "Plugins anhand der Auswahl herunterladen"
@@ -6965,9 +6965,7 @@ msgstr "Herunterladen der Updates. Bitte warten..."
 
 #
 msgid "Downloading plugin information. Please wait..."
-msgstr ""
-"Lade Plugin-Informationen herunter.\n"
-"Bitte warten..."
+msgstr "Herunterladen der Plugin-Informationen. Bitte warten..."
 
 msgid "Downmix"
 msgstr "Downmix"
@@ -7825,7 +7823,7 @@ msgid "Error '%s' encountered retrieving the '%s' commit log!"
 msgstr "Fehler '%s' beim Abrufen der %s Commit-Logs!"
 
 msgid "Error Download Setting"
-msgstr "Fehler beim Download!"
+msgstr "Fehler beim Herunterladen!"
 
 msgid "Error code"
 msgstr "Fehlercode"
@@ -7841,7 +7839,7 @@ msgid ""
 "Error creating EHD-Skin. Icon package download not available.\n"
 "Using HD-Skin!"
 msgstr ""
-"Fehler beim Erstellen des EHD-Skins! Der Download des Icon-Pakets ist nicht verfügbar.\n"
+"Fehler beim Erstellen des EHD-Skins: Der Download des Icon-Paketes ist nicht verfügbar!\n"
 "Es wird der HD-Skin verwendet."
 
 msgid ""
@@ -7870,7 +7868,7 @@ msgstr ""
 
 #, python-format
 msgid "Error downloading image '%s'!"
-msgstr "Fehler beim Herunterladen des Image '%s'!"
+msgstr "Fehler beim Herunterladen des Images '%s'!"
 
 #
 msgid "Error executing plugin"
@@ -7901,7 +7899,7 @@ msgstr "Fehlertext:"
 
 #, python-format
 msgid "Error unzipping image '%s'!"
-msgstr "Fehler beim Entpacken des Image '%s'!"
+msgstr "Fehler beim Entpacken des Images '%s'!"
 
 msgid "Error, unknown Result!"
 msgstr "Fehler, unbekanntes Ergebnis!"
@@ -9117,9 +9115,7 @@ msgstr "Lade Liste der Softcams. Bitte warten..."
 
 #
 msgid "Getting plugin information. Please wait..."
-msgstr ""
-"Lade Plugin-Informationen.\n"
-"Bitte warten..."
+msgstr "Lade Plugin-Informationen. Bitte warten..."
 
 msgid "Ghana"
 msgstr "Ghana"
@@ -9837,6 +9833,9 @@ msgstr "Auch bei 'niemals' wird trotzdem nach 100 Abstürzen ein Neustart der Be
 
 msgid "If 'never', will write crash log despite that for the first crash."
 msgstr "Auch bei 'niemals' wird trotzdem beim ersten Absturz ein Crash-Log geschrieben."
+
+msgid "If EPG available"
+msgstr "Wenn EPG verfügbar"
 
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Im EPG wird nach weiteren Einträgen gesucht, die zur aufzunehmenden Sendung gehören. Wenn eine Sendung z.B. durch Nachrichten unterbrochen wird, versucht das Plugin trotzdem die komplette Sendung aufzunehmen."
@@ -11765,7 +11764,7 @@ msgstr "Links/Rechts"
 
 #
 msgid "Move Mode"
-msgstr "[Verschiebemodus]"
+msgstr "Verschiebemodus"
 
 msgid "Move Mode Off"
 msgstr "Verschiebemodus aus"
@@ -13910,10 +13909,6 @@ msgstr "Bitte eine Auflösung auswählen..."
 msgid "Please select a sub service..."
 msgstr "Einen Unterkanal auswählen..."
 
-#
-msgid "Please select a subservice..."
-msgstr "Einen Unterkanal auswählen..."
-
 # ******************************************************************************
 msgid "Please select an aspect ratio..."
 msgstr "Bitte ein Bild-Seitenverhältnis auswählen..."
@@ -14016,23 +14011,19 @@ msgid "Please wait while the data is extracted..."
 msgstr "Daten werden entpackt. Bitte warten..."
 
 msgid "Please wait while the list downloads..."
-msgstr ""
-"Die Liste wird heruntergeladen.\n"
-"Bitte warten..."
+msgstr "Die Liste wird heruntergeladen. Bitte warten..."
 
 msgid "Please wait while the plugin is downloaded."
-msgstr ""
-"Plugin wird heruntergeladen.\n"
-"Bitte warten..."
+msgstr "Das Plugin wird heruntergeladen. Bitte warten..."
 
 msgid "Please wait while the plugin is removed."
-msgstr "Plugin wird entfernt. Bitte warten..."
+msgstr "Das Plugin wird entfernt. Bitte warten..."
 
 msgid "Please wait while the plugin is replaced."
-msgstr "Plugin wird ersetzt. Bitte warten..."
+msgstr "Das Plugin wird ersetzt. Bitte warten..."
 
 msgid "Please wait while the plugin is updated."
-msgstr "Plugin wird aktualisiert. Bitte warten..."
+msgstr "Das Plugin wird aktualisiert. Bitte warten..."
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Die installierten Plugins werden geprüft. Bitte warten..."
@@ -14046,7 +14037,7 @@ msgstr "Die Netzwerkschnittstellen werden vorbereitet. Bitte warten..."
 
 #
 msgid "Please wait while we test your network..."
-msgstr "Überprüfung des Netzwerks. Bitte warten..."
+msgstr "Das Netzwerk wird überprüft. Bitte warten..."
 
 #
 msgid "Please wait while your network is restarting..."
@@ -14065,7 +14056,7 @@ msgid "Please wait, flash memory is being copied to this flash expander. This co
 msgstr "Bitte warten Sie, der Flash-Speicher wird auf diesen Flash-Expander kopiert. Dies kann einige Minuten dauern."
 
 msgid "Please wait, loading image..."
-msgstr "Image wird geladen. Bitte warten..."
+msgstr "Das Image wird geladen. Bitte warten..."
 
 #, python-format
 msgid "Please wait, restarting %s."
@@ -14083,7 +14074,7 @@ msgstr "Bitte warten..."
 
 #
 msgid "Please wait... Loading list..."
-msgstr "Liste wird geladen. Bitte warten..."
+msgstr "Die Liste wird geladen. Bitte warten..."
 
 # ImageBackup.py
 msgid "Please wait...almost ready! "
@@ -15706,10 +15697,10 @@ msgid "Retrieving boot slot information..."
 msgstr "Abrufen von Boot-Slot-Informationen..."
 
 msgid "Retrieving image list, please wait..."
-msgstr "Imageliste abrufen. Bitte warten..."
+msgstr "Imageliste wird abgerufen. Bitte warten..."
 
 msgid "Retrieving image slots - Please wait..."
-msgstr "Image-Slots abrufen. Bitte warten..."
+msgstr "Image-Slots werden abgerufen. Bitte warten..."
 
 msgid "Retrieving network server information, please wait..."
 msgstr "Netzwerkserver-Informationen werden abgerufen. Bitte warten..."
@@ -18611,6 +18602,9 @@ msgstr "Statusmeldungen beim Umschalten auf Live-TV anzeigen"
 msgid "Show subservice selection"
 msgstr "Unterkanalmenü"
 
+msgid "Show subservices *"
+msgstr "Unterkanäle anzeigen *"
+
 msgid "Show subtitle quick menu"
 msgstr "Untertitel-Schnellstartmenü"
 
@@ -19651,6 +19645,15 @@ msgstr "Laufwerksinformationen"
 msgid "Storage Devices"
 msgstr "Speichergeräte"
 
+msgid "Storage device full!"
+msgstr "Speichergerät voll!"
+
+msgid "Storage device not found!"
+msgstr "Speichergerät wurde nicht gefunden!"
+
+msgid "Storage device not writable!"
+msgstr "Speichergerät ist nicht beschreibbar!"
+
 #
 msgid "Store position"
 msgstr "Position speichern"
@@ -19901,8 +19904,11 @@ msgstr "Zum nächsten Sender wechseln"
 msgid "Switch off the TV to correct input"
 msgstr "TV ausschalten, um den Eingang zu korrigieren"
 
+msgid "Switch to 720p video"
+msgstr "Umschalten auf 720p"
+
 msgid "Switch to HDMI in mode"
-msgstr "In den HDMI-IN-Modus umschalten"
+msgstr "Umschalten in den HDMI-IN-Modus"
 
 msgid "Switch to Radio"
 msgstr "Auf Radio umschalten"
@@ -20846,6 +20852,9 @@ msgstr "Anzeige der verbleibenden und verstrichenen Zeit bei Medienwiedergabe ei
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Die Hintergrundfarbe von transparenten Senderlogos (Picons) einstellen."
+
+msgid "This option allows you choose the option for subservice indicator or selection."
+msgstr "Anzeige oder Auswahl für Unterkanäle."
 
 # VideoEnhancement
 msgid "This option allows you enable smoothing filter to control the dithering process."
@@ -22065,7 +22074,7 @@ msgid "Update interval (in seconds)"
 msgstr "Updateintervall (in Sekunden)"
 
 msgid "Update package list please wait..."
-msgstr "Aktualisiere Paketliste. Bitte warten..."
+msgstr "Aktualisiere die Paketliste. Bitte warten..."
 
 msgid ""
 "Update succeeded!\n"
@@ -23598,10 +23607,14 @@ msgid "You cannot delete this!"
 msgstr "Löschen nicht möglich!"
 
 msgid "You have chosen to backup your settings. Press OK to start the backup now."
-msgstr "Ihre Einstellungen sollen gespeichert werden. Drücken Sie OK, um die Sicherung jetzt zu starten."
+msgstr ""
+"Ihre Einstellungen sollen gespeichert werden.\n"
+"Drücken Sie OK, um die Sicherung jetzt zu starten."
 
 msgid "You have chosen to restore the settings. Enigma2 will restart after restore. Press OK to start the restore now."
-msgstr "Ihre Einstellungen sollen wiederhergestellt werden. Drücken Sie OK, um die Wiederherstellung jetzt zu starten."
+msgstr ""
+"Ihre Einstellungen sollen wiederhergestellt werden.\n"
+"Drücken Sie OK, um die Wiederherstellung jetzt zu starten."
 
 msgid "You have chosen to save the current time shift"
 msgstr "Sie haben ausgewählt, dass die aktuelle Timeshift-Datei gespeichert werden soll"
@@ -25199,6 +25212,10 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#
+#~ msgid "Please select a subservice..."
+#~ msgstr "Einen Unterkanal auswählen..."
 
 #~ msgid "All slots"
 #~ msgstr "Alle Slots"
