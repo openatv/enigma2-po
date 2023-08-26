@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 20:55+0000\n"
-"PO-Revision-Date: 2023-08-14 12:37+0000\n"
+"POT-Creation-Date: 2023-08-25 20:02+0200\n"
+"PO-Revision-Date: 2023-08-25 20:57+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2418,6 +2418,9 @@ msgstr "Альтернативний радіо режим"
 
 msgid "Alternative services tuner priority"
 msgstr "Пріоритет використання тюнерів"
+
+msgid "Always"
+msgstr "Завжди"
 
 msgid "Always ask"
 msgstr "Завжди запитувати"
@@ -6189,15 +6192,6 @@ msgstr "Антена"
 msgid "Disk full"
 msgstr "Диск заповнений"
 
-msgid "Storage device full!"
-msgstr "Диск заповнений!"
-
-msgid "Storage device not writable!"
-msgstr "Диск не доступний для запису!"
-
-msgid "Storage device not found!"
-msgstr "Диск не знайдений!"
-
 msgid "Display 16:9 content as"
 msgstr "Показувати 16:9 контент як"
 
@@ -6570,6 +6564,9 @@ msgstr "Вниз"
 msgid "Down / Inactive"
 msgstr "Вниз / Неактивний"
 
+msgid "Download Image"
+msgstr "Завантажити Імідж"
+
 msgid "Download Plugin"
 msgstr "Завантажити Плагін"
 
@@ -6590,6 +6587,9 @@ msgstr "Завантажити і встановити емулятори"
 
 msgid "Download error"
 msgstr "Помилка завантаження"
+
+msgid "Download the selected image"
+msgstr "Завантажити вибраний імідж"
 
 msgid "Download the selected list of plugins"
 msgstr "Завантажити вибраний список плагінів"
@@ -9329,6 +9329,9 @@ msgstr "Якщо встановлено 'ніколи', перезапуск в�
 
 msgid "If 'never', will write crash log despite that for the first crash."
 msgstr "Якщо встановлено 'ніколи', буде написано журнал аварії, незважаючи на те, що це перший раз."
+
+msgid "If EPG available"
+msgstr "Якщо ЕПГ доступний"
 
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Якщо програма переривається та розділяється на окремі передачі, плагін шукатиме пов’язані передачі."
@@ -13088,9 +13091,6 @@ msgid "Please select a resolution..."
 msgstr "Будь ласка, виберіть роздільчу здатність зображення..."
 
 msgid "Please select a sub service..."
-msgstr "Будь ласка, виберіть підканал..."
-
-msgid "Please select a subservice..."
 msgstr "Будь ласка, виберіть підканал..."
 
 msgid "Please select an aspect ratio..."
@@ -17471,6 +17471,9 @@ msgstr "Показати повідомлення при переключені 
 msgid "Show subservice selection"
 msgstr "Показати вибір підканалів"
 
+msgid "Show subservices *"
+msgstr "Показати підканали *"
+
 msgid "Show subtitle quick menu"
 msgstr "Показати субтитри швидкого меню"
 
@@ -18453,6 +18456,15 @@ msgstr "Інформація про сховище/диск"
 msgid "Storage Devices"
 msgstr "Пристрої зберігання"
 
+msgid "Storage device full!"
+msgstr "Диск заповнений!"
+
+msgid "Storage device not found!"
+msgstr "Диск не знайдений!"
+
+msgid "Storage device not writable!"
+msgstr "Диск не доступний для запису!"
+
 msgid "Store position"
 msgstr "Зберегти позицію"
 
@@ -18686,6 +18698,9 @@ msgstr "Переключити на наступний канал"
 msgid "Switch off the TV to correct input"
 msgstr "Виключити ТВ для виправлення входу"
 
+msgid "Switch to 720p video"
+msgstr "Переключитися на відео 720p"
+
 msgid "Switch to HDMI in mode"
 msgstr "Переключити на HDMI режим"
 
@@ -18840,7 +18855,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 13.08.2023"
+msgstr "Переклад: kvinto - 25.08.2023"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -19589,6 +19604,9 @@ msgstr "Цей параметр дозволяє Вам вибрати спос�
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Цей параметр дозволяє Вам вибрати колір фону для прозорих піконів."
+
+msgid "This option allows you choose the option for subservice indicator or selection."
+msgstr "Ця опція дозволяє вибрати опцію для показу, або вибору субканалу."
 
 msgid "This option allows you enable smoothing filter to control the dithering process."
 msgstr "Цей параметр дозволяє Вам активувати згладжує фільтр, щоб контролювати процес відбору."
@@ -23607,6 +23625,9 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Please select a subservice..."
+#~ msgstr "Будь ласка, виберіть підканал..."
 
 #~ msgid "All slots"
 #~ msgstr "Всі слоти"
