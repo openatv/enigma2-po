@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-21 18:26+0200\n"
-"PO-Revision-Date: 2023-10-22 07:52+0000\n"
+"POT-Creation-Date: 2023-10-22 08:09+0000\n"
+"PO-Revision-Date: 2023-10-23 22:24+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.1.1-dev\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid ""
@@ -20095,8 +20095,12 @@ msgstr "Transponder"
 msgid "Transponder Time"
 msgstr "Orario transponder"
 
-msgid "Transponder/Tuning information"
-msgstr "Informazioni transponder/tuner"
+msgid "Transponder information"
+msgstr "Informazioni transponder"
+
+#, python-format
+msgid "Transponder information for '%s'"
+msgstr "Informazioni transponder per '%s'"
 
 msgid "Transport Stream ID (TSID)"
 msgstr "ID flusso di trasporto (TSID)"
@@ -20237,10 +20241,6 @@ msgstr "Tuner"
 
 msgid "Tuning algorithm"
 msgstr "Algoritmo di sintonizzazione"
-
-#, python-format
-msgid "Tuning information for '%s'"
-msgstr "Informazioni di sintonizzazione per '%s'"
 
 msgid "Tunisia"
 msgstr "Tunisia"
@@ -23453,6 +23453,13 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Transponder/Tuning information"
+#~ msgstr "Informazioni transponder/tuner"
+
+#, python-format
+#~ msgid "Tuning information for '%s'"
+#~ msgstr "Informazioni di sintonizzazione per '%s'"
 
 #, python-format
 #~ msgid "%.3f MHz"
