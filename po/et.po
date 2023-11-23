@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 11:41+0000\n"
+"POT-Creation-Date: 2023-11-20 13:20+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -950,12 +950,6 @@ msgid "%d ms"
 msgstr "%d ms"
 
 #, python-format
-msgid "%d package found."
-msgid_plural "%d packages found."
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] ""
@@ -982,6 +976,12 @@ msgstr[1] ""
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package marked for update."
+msgid_plural "%d packages marked for update."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1182,6 +1182,10 @@ msgstr "%s (%s)"
 #, python-format
 msgid "%s - Setup"
 msgstr "%s - Seaded"
+
+#, python-format
+msgid "%s Browser Manage Actions"
+msgstr ""
 
 #, python-format
 msgid "%s GHz"
@@ -2059,7 +2063,7 @@ msgstr "Lisa/eemalda taimer"
 msgid "Add/Remove a timer for the current event"
 msgstr "Lisa/eemalda taimer käesolevale saatele"
 
-msgid "Add/Remove highlighted plugin to/from download list"
+msgid "Add/Remove highlighted plugin to/from install list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from remove list"
@@ -2722,6 +2726,12 @@ msgstr ""
 msgid "Auto(not available)"
 msgstr "Autom. (pole saadaval)"
 
+msgid "AutoCam Settings"
+msgstr ""
+
+msgid "AutoCam Setup Actions"
+msgstr ""
+
 #
 msgid "AutoMountManager"
 msgstr "Automaatne haakimine"
@@ -2731,12 +2741,6 @@ msgstr ""
 
 msgid "AutoUpdate"
 msgstr "Automaatne uuendamine"
-
-msgid "AutoCam Settings"
-msgstr ""
-
-msgid "AutoCam Setup Actions"
-msgstr ""
 
 msgid "Automatic"
 msgstr "Automaatne"
@@ -2984,6 +2988,15 @@ msgstr "Bangladesh"
 
 msgid "Barbados"
 msgstr "Barbados"
+
+msgid "Base Packages"
+msgstr ""
+
+msgid "Base Shell Packages"
+msgstr ""
+
+msgid "Base Utility Packages"
+msgstr ""
 
 msgid "Base time"
 msgstr "Alusaeg"
@@ -3665,6 +3678,9 @@ msgid "Cancel selection"
 msgstr "Kanalivalik"
 
 msgid "Cancel selection and exit"
+msgstr ""
+
+msgid "Cancel the Reset Feeds command currently being processed"
 msgstr ""
 
 msgid "Cancel the bouquet selection"
@@ -4851,6 +4867,27 @@ msgstr ""
 msgid "Console"
 msgstr ""
 
+msgid "Console Administrative Packages"
+msgstr ""
+
+msgid "Console Multimedia Packages"
+msgstr ""
+
+msgid "Console Network Packages"
+msgstr ""
+
+msgid "Console Packages"
+msgstr ""
+
+msgid "Console Test Packages"
+msgstr ""
+
+msgid "Console Tool Packages"
+msgstr ""
+
+msgid "Console Utility Packages"
+msgstr ""
+
 msgid "Constellation"
 msgstr ""
 
@@ -6003,6 +6040,12 @@ msgstr ""
 msgid "Development Packages"
 msgstr ""
 
+msgid "Development Python Packages"
+msgstr ""
+
+msgid "Development TCL Toolkit Packages"
+msgstr ""
+
 #
 msgid "Device Manager"
 msgstr "Seadmehaldur"
@@ -6430,10 +6473,6 @@ msgid "Do you want to do another manual service scan?"
 msgstr "Kas teha uus käsiotsing?"
 
 #, python-format
-msgid "Do you want to download '%s'?"
-msgstr ""
-
-#, python-format
 msgid "Do you want to flash the image '%s'?"
 msgstr ""
 
@@ -6442,6 +6481,9 @@ msgstr "Kas paigaldada kanalinimekiri?"
 
 msgid "Do you want to install the package:\n"
 msgstr "Kas paigaldada pakett:\n"
+
+msgid "Do you want to install:"
+msgstr ""
 
 msgid "Do you want to play DVD in drive?"
 msgstr "Kas panna DVD mängima?"
@@ -6464,15 +6506,10 @@ msgstr "Kas taaskäivitada %s %s?"
 msgid "Do you want to reboot your receiver?"
 msgstr "Kas taaskäivitada vastuvõtja?"
 
-#, python-format
-msgid "Do you want to remove '%s'?"
-msgstr ""
-
 msgid "Do you want to remove the package:\n"
 msgstr "Kas eemaldada pakett:\n"
 
-#, python-format
-msgid "Do you want to replace '%s' with '%s?"
+msgid "Do you want to remove:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -6487,8 +6524,7 @@ msgstr ""
 msgid "Do you want to start a backup now?"
 msgstr ""
 
-#, python-format
-msgid "Do you want to update '%s'?"
+msgid "Do you want to update:"
 msgstr ""
 
 msgid "Do you want to upgrade the package:\n"
@@ -6497,6 +6533,9 @@ msgstr "Kas uuendada pakett:\n"
 #, fuzzy
 msgid "Documentary"
 msgstr "dokumentaal"
+
+msgid "Documentation Packages"
+msgstr ""
 
 msgid "Dolby Digital downmix is now"
 msgstr "DD / DTS > stereo on"
@@ -6557,9 +6596,6 @@ msgstr ""
 msgid "Download Image"
 msgstr ""
 
-msgid "Download Plugin"
-msgstr ""
-
 #
 msgid "Download Plugins"
 msgstr "Paigalda pluginaid"
@@ -6580,9 +6616,6 @@ msgid "Download error"
 msgstr ""
 
 msgid "Download the selected image"
-msgstr ""
-
-msgid "Download the selected plugin / list of plugins"
 msgstr ""
 
 #
@@ -7230,6 +7263,9 @@ msgstr "EMC filmilist"
 msgid "Enigma2 (re)starts"
 msgstr ""
 
+msgid "Enigma2 Packages"
+msgstr ""
+
 #
 msgid ""
 "Enigma2 Skinselector\n"
@@ -7528,10 +7564,6 @@ msgstr ""
 "Viga: %s\n"
 "Uus katse?"
 
-#, fuzzy, python-format
-msgid "Error: %s %s not %s!  Please try again later."
-msgstr "Uuendusi ei ole. Proovi hiljem uuesti."
-
 msgid "Error: An empty filename is illegal!"
 msgstr "Tühi failinimi ei ole lubatud."
 
@@ -7619,12 +7651,12 @@ msgstr ""
 msgid "Error: There was a problem writing '%s'!"
 msgstr ""
 
+#, python-format
+msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
+msgstr ""
+
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Nõutud kataloogide loomine andmekandjal (USB pulk või kõvaketas) nurjus. Kontrolli andmekandjaid ja proovi uuesti!"
-
-#, fuzzy
-msgid "Error: Unable to process the command!  Please try again later."
-msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti."
 
 #, python-format
 msgid "Error: Unable to rename directory '%s' to '%s'!"
@@ -7889,6 +7921,9 @@ msgid "External subtitle switch fonts"
 msgstr "Väliste subtiitrite kirjatüübi vahetamine"
 
 msgid "Extra High"
+msgstr ""
+
+msgid "Extra Packages"
 msgstr ""
 
 # satconfig.py
@@ -8168,6 +8203,12 @@ msgstr "Failihalduri seaded"
 msgid "File System Check"
 msgstr "Failisüsteemi kontroll"
 
+msgid "File System Packages"
+msgstr ""
+
+msgid "File System Support Packages"
+msgstr ""
+
 msgid "File appears to be busy.\n"
 msgstr "Fail on hõivatud.\n"
 
@@ -8355,6 +8396,9 @@ msgstr "Lõplik asukoht"
 msgid "Follow instructions on TV"
 msgstr ""
 
+msgid "Font Packages"
+msgstr ""
+
 msgid "Font size"
 msgstr "Tähesuurus"
 
@@ -8382,9 +8426,6 @@ msgstr "Sunnitud LNB toonimpulsi seaded."
 
 msgid "Force Legacy Signal stats"
 msgstr "Kasuta aegunud signaalistatistikat"
-
-msgid "Force OPKG clean mode"
-msgstr ""
 
 msgid "Force ToneBurst"
 msgstr "Sunnitud toonimpulss"
@@ -9773,6 +9814,10 @@ msgid "Install"
 msgstr "Paigalda"
 
 #, python-format
+msgid "Install %s"
+msgstr ""
+
+#, python-format
 msgid "Install '%s' command"
 msgstr ""
 
@@ -9787,6 +9832,9 @@ msgstr "Paigaldamine tehtud."
 
 msgid "Install Local Extension"
 msgstr "IPK paigaldamine"
+
+msgid "Install Plugin"
+msgstr ""
 
 msgid "Install Plugins"
 msgstr "Paigalda pluginaid"
@@ -9807,6 +9855,9 @@ msgid "Install extensions."
 msgstr "Paigalda laiendusi."
 
 msgid "Install the package"
+msgstr ""
+
+msgid "Install the selected plugin / list of plugins"
 msgstr ""
 
 msgid "Install/Remove plugin"
@@ -10102,6 +10153,9 @@ msgstr "Filmilist hoitakse helifailide esitusel avatud."
 msgid "Kenya"
 msgstr "Keenia"
 
+msgid "Kernel Module Packages"
+msgstr ""
+
 msgid "Kernel Packages"
 msgstr ""
 
@@ -10282,10 +10336,6 @@ msgid "Language selection"
 msgstr "Keele valik"
 
 #, fuzzy
-msgid "Languages"
-msgstr "Keel"
-
-#, fuzzy
 msgid "Lao"
 msgstr "Logi"
 
@@ -10375,6 +10425,15 @@ msgstr "Muuda kuvasuhet"
 
 msgid "Liberia"
 msgstr "Libeeria"
+
+msgid "Library Multimedia Packages"
+msgstr ""
+
+msgid "Library Network Packages"
+msgstr ""
+
+msgid "Library Packages"
+msgstr ""
 
 msgid "Libs"
 msgstr ""
@@ -10574,10 +10633,6 @@ msgstr "Automaatsed keelevalikud"
 #, fuzzy
 msgid "Locale/Language Selection Actions"
 msgstr "Automaatsed keelevalikud"
-
-#, fuzzy
-msgid "Locales"
-msgstr "Keel"
 
 msgid "Locales to be displayed"
 msgstr ""
@@ -10819,6 +10874,10 @@ msgstr "Malta"
 msgid "Maltese"
 msgstr "Malta"
 
+#, python-format
+msgid "Manage %s"
+msgstr ""
+
 #, fuzzy
 msgid "Manage Locale/Language Selection settings"
 msgstr "Kanalivaliku seaded"
@@ -10835,7 +10894,12 @@ msgstr ""
 msgid "Manage network mounts"
 msgstr "Halda võrgu haakepunkte"
 
-msgid "Manage the highlighted plugin"
+#, python-format
+msgid "Manage the highlighted %s"
+msgstr ""
+
+#, python-format
+msgid "Manage the highlighted %s / list of %s"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -11137,6 +11201,9 @@ msgstr ""
 #, fuzzy
 msgid "Miscellaneous"
 msgstr "Erinevad keeled"
+
+msgid "Miscellaneous Packages"
+msgstr ""
 
 msgid "Misconfiguration in channel allocation"
 msgstr ""
@@ -11604,6 +11671,9 @@ msgstr ""
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Multibuut püsivara loodi: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multimedia Packages"
+msgstr ""
+
 msgid "Multiple service support"
 msgstr "Mitme programmi tugi"
 
@@ -11764,6 +11834,12 @@ msgstr "Võrgumask"
 msgid "Network"
 msgstr "Võrk"
 
+msgid "Network (net) Packages"
+msgstr ""
+
+msgid "Network (network) Packages"
+msgstr ""
+
 msgid "Network Adapter Actions"
 msgstr ""
 
@@ -11871,6 +11947,9 @@ msgstr "Võrk:"
 #
 msgid "NetworkWizard"
 msgstr "Võrguabiline"
+
+msgid "Networking Packages"
+msgstr ""
 
 #
 msgid "Neutrino  (keymap.ntr)"
@@ -12676,6 +12755,9 @@ msgstr "Võid keelata pikonite kuvamise inforibal"
 msgid "Option to enable the Hardware Standby Timer"
 msgstr "Võimalus kasutada kõvaketta raudvaralist ootetaimerit"
 
+msgid "Optional Packages"
+msgstr ""
+
 msgid "Optional parameter"
 msgstr ""
 
@@ -12722,6 +12804,9 @@ msgstr "Miski muu"
 #, fuzzy
 msgid "Other Actions"
 msgstr "täiendõpe"
+
+msgid "Other Packages"
+msgstr ""
 
 #, fuzzy
 msgid "Other Subtitles & Language"
@@ -12850,6 +12935,9 @@ msgstr "TIPPAEG"
 msgid "PVR"
 msgstr "PVR"
 
+msgid "Package"
+msgstr ""
+
 msgid "Package Manager"
 msgstr "Pakihaldus"
 
@@ -12871,6 +12959,9 @@ msgstr "Tarkvaraloendi uuendamine"
 #, fuzzy
 msgid "Packaged locales only"
 msgstr "Halda kohalikke faile"
+
+msgid "Packages"
+msgstr ""
 
 msgid "Packages and associated locales"
 msgstr ""
@@ -13412,6 +13503,15 @@ msgstr ""
 msgid "Please wait while gathering data..."
 msgstr "Oota, kuni kogutakse andmeid."
 
+msgid "Please wait while locale/language is deleted..."
+msgstr ""
+
+msgid "Please wait while locale/language is installed..."
+msgstr ""
+
+msgid "Please wait while locales/languages are purged..."
+msgstr ""
+
 msgid "Please wait while scanning is in progress..."
 msgstr "Oota otsingu lõppemist."
 
@@ -13423,11 +13523,15 @@ msgstr ""
 msgid "Please wait while the list downloads..."
 msgstr "Oota, kuni kogutakse andmeid."
 
-msgid "Please wait while the plugin is downloaded."
-msgstr ""
+msgid "Please wait while the plugin is installed."
+msgid_plural "Please wait while the plugins are installed."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Please wait while the plugin is removed."
-msgstr ""
+msgid_plural "Please wait while the plugins are removed."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Please wait while the plugin is replaced."
 msgstr ""
@@ -13486,6 +13590,9 @@ msgstr ""
 msgid "Plug in a USB device that can be used as a swap device. Note that this device must not be removed while the %s %s is running!"
 msgstr ""
 
+msgid "Plugin"
+msgstr ""
+
 msgid "Plugin Action Log"
 msgstr ""
 
@@ -13498,13 +13605,10 @@ msgstr "Pluginad"
 msgid "Plugin Browser Actions"
 msgstr ""
 
-msgid "Plugin Browser Download Actions"
-msgstr ""
-
 msgid "Plugin Browser Edit Actions"
 msgstr ""
 
-msgid "Plugin Browser Manage Actions"
+msgid "Plugin Browser Install Actions"
 msgstr ""
 
 msgid "Plugin Browser Navigation Actions"
@@ -13523,6 +13627,9 @@ msgid "Plugin Browser Update Actions"
 msgstr ""
 
 msgid "Plugin Browser layout"
+msgstr ""
+
+msgid "Plugin Packages"
 msgstr ""
 
 msgid "Plugin Skin Packages"
@@ -14038,6 +14145,9 @@ msgid "Put your AV Receiver in standby"
 msgstr "AV ressiiver ooteseisundisse"
 
 msgid "Python"
+msgstr ""
+
+msgid "Python Development Packages"
 msgstr ""
 
 msgid "Python frontend for /tmp/mmi.socket"
@@ -14582,6 +14692,10 @@ msgstr "Puldi tüüp"
 msgid "Remove"
 msgstr "Eemalda"
 
+#, python-format
+msgid "Remove %s"
+msgstr ""
+
 msgid "Remove All Alternatives"
 msgstr "Eemalda kõik asenduskanalid"
 
@@ -14826,6 +14940,12 @@ msgstr ""
 msgid "Reset"
 msgstr "Lähtesta"
 
+msgid "Reset (clear and reload) the feeds"
+msgstr ""
+
+msgid "Reset Feeds"
+msgstr ""
+
 msgid "Reset HDMI-CEC settings to default"
 msgstr ""
 
@@ -14881,6 +15001,9 @@ msgstr "Enigma2 taaskäivitus"
 msgid "Restart GUI after x crashes"
 msgstr "Taaskäivita E2 pärast x krahhi"
 
+msgid "Restart GUI now to start using the new locale/language?"
+msgstr ""
+
 msgid "Restart GUI now?"
 msgstr "Kas taaskäivitada kasutajaliides?"
 
@@ -14893,6 +15016,9 @@ msgstr "Taaskäivita võrgukaart"
 
 msgid "Restart enigma"
 msgstr "Enigma2 taaskäivitus"
+
+msgid "Restart finished"
+msgstr ""
 
 msgid "Restart necessary, restart GUI now?"
 msgstr "Vajalik on taaskäivitus. Kas teha seda kohe?"
@@ -15634,9 +15760,6 @@ msgstr "Vali 'A' või 'B*, kui antennisüsteem seda nõuab, muudel juhtudel vali
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Universaalse LNB puhul vali 'sagedusala', muudel juhtudel vaata LNB käsiraamatust."
 
-msgid "Select 'Enable' to force a package clean before a package update. This is helpful to make sure the package list is up-to-date and can avoid/solve issues during the update. Only enable this when you can not update on-line."
-msgstr ""
-
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -15784,6 +15907,9 @@ msgstr ""
 msgid "Select 'Yes' to show OpenViX packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show directories at the top/start of the list, or select 'No' to show files first."
 msgstr ""
 
@@ -15815,9 +15941,6 @@ msgid "Select 'Yes' to show skin component packages in the Download Plugins scre
 msgstr ""
 
 msgid "Select 'Yes' to show skin packages in the Download Plugins screen."
-msgstr ""
-
-msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
 msgstr ""
 
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
@@ -15852,6 +15975,9 @@ msgstr "Kui lubatud, kuvatakse edasi/tagasi kerimisel inforiba."
 
 msgid "Select Additional Backup Files"
 msgstr "Lisafailid varundamiseks"
+
+msgid "Select AutoCam default Softcam"
+msgstr ""
 
 msgid "Select Backup Location"
 msgstr "Varukoopia asukoht"
@@ -15903,6 +16029,9 @@ msgstr "Vali Quad PiP kanalid"
 msgid "Select Satellites"
 msgstr "Vali satelliidid"
 
+msgid "Select Softcam"
+msgstr ""
+
 #
 msgid "Select Software Update"
 msgstr "Vali tarkvara uuendus"
@@ -15918,6 +16047,12 @@ msgstr "Vali muudetav uuenduste allikas."
 
 msgid "Select Your Skin"
 msgstr "Kujunduse valik"
+
+msgid "Select a Softcam from the available list as the default for AutoCam."
+msgstr ""
+
+msgid "Select a Softcam from the available list."
+msgstr ""
 
 msgid "Select a bouquet"
 msgstr "Vali lemmiknimekiri"
@@ -15961,12 +16096,6 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Vali käivitatav skript:"
 
-msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
-
-msgid "Select a Softcam from the available list."
-msgstr ""
-
 msgid "Select a tuner"
 msgstr "Vali tuuner"
 
@@ -15991,9 +16120,6 @@ msgstr ""
 
 msgid "Select audio track"
 msgstr "Vali heliriba"
-
-msgid "Select AutoCam default Softcam"
-msgstr ""
 
 msgid "Select cardserver"
 msgstr ""
@@ -16125,9 +16251,6 @@ msgstr ""
 msgid "Select service to add..."
 msgstr "Vali lisatav kanal"
 
-msgid "Select Softcam"
-msgstr ""
-
 msgid "Select sort method:"
 msgstr "Vali järjestusviis:"
 
@@ -16145,6 +16268,9 @@ msgstr ""
 
 #, python-format
 msgid "Select the Softcam for '%s'"
+msgstr ""
+
+msgid "Select the Softcam protocol."
 msgstr ""
 
 #
@@ -16347,9 +16473,6 @@ msgstr "Vali unetaimeri tegevus."
 #, fuzzy
 msgid "Select the shifted character set for the next character only"
 msgstr "Kustuta teksti puhvri kursori alla jääv tähemärk"
-
-msgid "Select the Softcam protocol."
-msgstr ""
 
 msgid "Select the sort order for the file lines:"
 msgstr ""
@@ -17611,11 +17734,11 @@ msgstr ""
 msgid "Show image and save as '%s'"
 msgstr ""
 
-msgid "Show in Standby"
-msgstr "Kuva ooteseisundis"
-
 msgid "Show in Extension Menu"
 msgstr "Kas kuvada laienduste menüüs?"
+
+msgid "Show in Standby"
+msgstr "Kuva ooteseisundis"
 
 msgid "Show info"
 msgstr "Näita andmeid"
@@ -18332,6 +18455,9 @@ msgid "Softcam Settings"
 msgstr "EMU seadistamine"
 
 msgid "Softcam Setup"
+msgstr ""
+
+msgid "Softcams"
 msgstr ""
 
 msgid "Software Management"
@@ -21013,6 +21139,9 @@ msgstr ""
 "Tundmatu viga MetrixHD loomisel.\n"
 "Ava pärast taaskäivitust laiendus MyMetrixLite ja jõusta oma sätted."
 
+msgid "Unknown Packages"
+msgstr ""
+
 msgid "Unknown Service"
 msgstr "tundmatu kanal"
 
@@ -21231,6 +21360,9 @@ msgstr "Kasuta"
 msgid "Use 'Trash' in movie list"
 msgstr "Prügikasti kasutamine filmilistis"
 
+msgid "Use AutoCam"
+msgstr ""
+
 msgid "Use DHCP"
 msgstr "Luba DHCP"
 
@@ -21294,9 +21426,6 @@ msgstr "Kasuta alternatiivset vaadet"
 
 msgid "Use as HDD"
 msgstr "Kasuta kõvakettana"
-
-msgid "Use AutoCam"
-msgstr ""
 
 msgid "Use automatic mode detection"
 msgstr ""
@@ -21509,6 +21638,9 @@ msgstr "Kasutuses vana profiil: "
 
 msgid "Usually when the subtitle language is the same as the audio language, the subtitles will not be used. Enable this option to allow these subtitles to be used."
 msgstr "Tavaliselt subtiitreid ei näidata, kui nende keel kattub heli keelega. Siin valikus saab selle lubada."
+
+msgid "Utility Packages"
+msgstr ""
 
 #, fuzzy
 msgid "Uzbek"
@@ -21969,6 +22101,10 @@ msgstr "Hoiatus"
 
 msgid "Warning"
 msgstr "Hoiatus"
+
+#, python-format
+msgid "Warning: %d feeds were unable to be reloaded!"
+msgstr ""
 
 msgid "Warning: Overrides are currently active!"
 msgstr ""
@@ -22451,6 +22587,27 @@ msgid "Www"
 msgstr "Www"
 
 msgid "X-Resolution"
+msgstr ""
+
+msgid "X11 Base Packages"
+msgstr ""
+
+msgid "X11 Font Packages"
+msgstr ""
+
+msgid "X11 Gnome Library Packages"
+msgstr ""
+
+msgid "X11 Gnome Packages"
+msgstr ""
+
+msgid "X11 Library Packages"
+msgstr ""
+
+msgid "X11 Packages"
+msgstr ""
+
+msgid "X11 Utility Packages"
 msgstr ""
 
 msgid "XBox 360 support"
@@ -23148,10 +23305,6 @@ msgstr "Kustuta"
 msgid "delete cut"
 msgstr "Kustuta lõige"
 
-#, fuzzy
-msgid "deleted"
-msgstr "Kustuta"
-
 msgid "detective/thriller"
 msgstr "detektiiv/triller"
 
@@ -23420,10 +23573,6 @@ msgid "insert mark here"
 msgstr "Pane märk siia"
 
 #, fuzzy
-msgid "installed"
-msgstr "Eemalda"
-
-#, fuzzy
 msgid "instant record"
 msgstr "Kohese salvestuse valikud"
 
@@ -23649,6 +23798,12 @@ msgstr ""
 msgid "original language"
 msgstr "algupärane keel"
 
+msgid "package"
+msgstr ""
+
+msgid "packages"
+msgstr ""
+
 msgid "pass"
 msgstr "lubatud"
 
@@ -23663,6 +23818,12 @@ msgstr ""
 
 msgid "please wait, loading picture..."
 msgstr "pilti laaditakse. oota..."
+
+msgid "plugin"
+msgstr ""
+
+msgid "plugins"
+msgstr ""
 
 msgid "pm"
 msgstr "õhtul"
@@ -23857,6 +24018,12 @@ msgstr "sotsiaalteemad/poliitika/majandus"
 
 msgid "social/spiritual science"
 msgstr "sotsiaalteemad/hingeteadus"
+
+msgid "softcam"
+msgstr ""
+
+msgid "softcams"
+msgstr ""
 
 #, fuzzy
 msgid "special (general)"
@@ -24061,6 +24228,30 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#, fuzzy, python-format
+#~ msgid "Error: %s %s not %s!  Please try again later."
+#~ msgstr "Uuendusi ei ole. Proovi hiljem uuesti."
+
+#, fuzzy
+#~ msgid "Error: Unable to process the command!  Please try again later."
+#~ msgstr "Toimuvad serverite hooldetööd. Proovi hiljem uuesti."
+
+#, fuzzy
+#~ msgid "Languages"
+#~ msgstr "Keel"
+
+#, fuzzy
+#~ msgid "Locales"
+#~ msgstr "Keel"
+
+#, fuzzy
+#~ msgid "deleted"
+#~ msgstr "Kustuta"
+
+#, fuzzy
+#~ msgid "installed"
+#~ msgstr "Eemalda"
 
 #~ msgid "Allows you to show/hide CCcam in extensions (BLUE button)."
 #~ msgstr "Võimaldab CCcam näitamise laienduste menüüs (sinine nupp)."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 11:41+0000\n"
+"POT-Creation-Date: 2023-11-20 13:20+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -967,11 +967,6 @@ msgid "%d ms"
 msgstr "%d ms"
 
 #, python-format
-msgid "%d package found."
-msgid_plural "%d packages found."
-msgstr[0] ""
-
-#, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] ""
@@ -994,6 +989,11 @@ msgstr[0] ""
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
+msgstr[0] ""
+
+#, python-format
+msgid "%d package marked for update."
+msgid_plural "%d packages marked for update."
 msgstr[0] ""
 
 #, python-format
@@ -1189,6 +1189,10 @@ msgstr "%s (%s)"
 #, python-format
 msgid "%s - Setup"
 msgstr "%s - Cài đặt"
+
+#, python-format
+msgid "%s Browser Manage Actions"
+msgstr ""
 
 #, python-format
 msgid "%s GHz"
@@ -2052,7 +2056,7 @@ msgstr "Thêm / xóa bộ đếm thời gian"
 msgid "Add/Remove a timer for the current event"
 msgstr "Thêm / xóa bộ đếm thời gian thay đổi cho sự kiện hiện tại"
 
-msgid "Add/Remove highlighted plugin to/from download list"
+msgid "Add/Remove highlighted plugin to/from install list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from remove list"
@@ -2710,6 +2714,12 @@ msgstr ""
 msgid "Auto(not available)"
 msgstr "Tự động (không khả dụng)"
 
+msgid "AutoCam Settings"
+msgstr ""
+
+msgid "AutoCam Setup Actions"
+msgstr ""
+
 msgid "AutoMountManager"
 msgstr "Trình quản lý tự động"
 
@@ -2718,12 +2728,6 @@ msgstr ""
 
 msgid "AutoUpdate"
 msgstr "Cập nhật tự động"
-
-msgid "AutoCam Settings"
-msgstr ""
-
-msgid "AutoCam Setup Actions"
-msgstr ""
 
 msgid "Automatic"
 msgstr "Tự động"
@@ -2967,6 +2971,15 @@ msgstr "Bangladesh"
 
 msgid "Barbados"
 msgstr "Barbados"
+
+msgid "Base Packages"
+msgstr ""
+
+msgid "Base Shell Packages"
+msgstr ""
+
+msgid "Base Utility Packages"
+msgstr ""
 
 msgid "Base time"
 msgstr "Giờ cơ sở"
@@ -3642,6 +3655,9 @@ msgid "Cancel selection"
 msgstr "Chọn kênh"
 
 msgid "Cancel selection and exit"
+msgstr ""
+
+msgid "Cancel the Reset Feeds command currently being processed"
 msgstr ""
 
 msgid "Cancel the bouquet selection"
@@ -4817,6 +4833,27 @@ msgstr ""
 msgid "Console"
 msgstr "Bảng điều khiển"
 
+msgid "Console Administrative Packages"
+msgstr ""
+
+msgid "Console Multimedia Packages"
+msgstr ""
+
+msgid "Console Network Packages"
+msgstr ""
+
+msgid "Console Packages"
+msgstr ""
+
+msgid "Console Test Packages"
+msgstr ""
+
+msgid "Console Tool Packages"
+msgstr ""
+
+msgid "Console Utility Packages"
+msgstr ""
+
 msgid "Constellation"
 msgstr ""
 
@@ -5961,6 +5998,12 @@ msgstr ""
 msgid "Development Packages"
 msgstr ""
 
+msgid "Development Python Packages"
+msgstr ""
+
+msgid "Development TCL Toolkit Packages"
+msgstr ""
+
 msgid "Device Manager"
 msgstr "Quản lý thiết bị"
 
@@ -6383,10 +6426,6 @@ msgid "Do you want to do another manual service scan?"
 msgstr "Bạn có muốn thực hiện quét dịch vụ thủ công khác không?"
 
 #, python-format
-msgid "Do you want to download '%s'?"
-msgstr ""
-
-#, python-format
 msgid "Do you want to flash the image '%s'?"
 msgstr ""
 
@@ -6395,6 +6434,9 @@ msgstr "Bạn có muốn cài đặt một danh sách kênh?"
 
 msgid "Do you want to install the package:\n"
 msgstr "Bạn có muốn cài đặt gói:\n"
+
+msgid "Do you want to install:"
+msgstr ""
 
 msgid "Do you want to play DVD in drive?"
 msgstr "Bạn có muốn chơi DVD trong ổ đĩa?"
@@ -6416,15 +6458,10 @@ msgstr "Bạn có muốn khởi động lại đầu thu % s% s của mình khô
 msgid "Do you want to reboot your receiver?"
 msgstr "Bạn có muốn khởi động lại máy thu của mình?"
 
-#, python-format
-msgid "Do you want to remove '%s'?"
-msgstr ""
-
 msgid "Do you want to remove the package:\n"
 msgstr "Bạn có muốn xóa gói:\n"
 
-#, python-format
-msgid "Do you want to replace '%s' with '%s?"
+msgid "Do you want to remove:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -6439,8 +6476,7 @@ msgstr ""
 msgid "Do you want to start a backup now?"
 msgstr ""
 
-#, python-format
-msgid "Do you want to update '%s'?"
+msgid "Do you want to update:"
 msgstr ""
 
 msgid "Do you want to upgrade the package:\n"
@@ -6449,6 +6485,9 @@ msgstr "Bạn có muốn nâng cấp gói:\n"
 #, fuzzy
 msgid "Documentary"
 msgstr "phim tài liệu"
+
+msgid "Documentation Packages"
+msgstr ""
 
 msgid "Dolby Digital downmix is now"
 msgstr "Cộng với kỹ thuật số downmix hiện tại"
@@ -6508,9 +6547,6 @@ msgstr ""
 msgid "Download Image"
 msgstr ""
 
-msgid "Download Plugin"
-msgstr ""
-
 msgid "Download Plugins"
 msgstr "Tải xuống plugin"
 
@@ -6530,9 +6566,6 @@ msgid "Download error"
 msgstr ""
 
 msgid "Download the selected image"
-msgstr ""
-
-msgid "Download the selected plugin / list of plugins"
 msgstr ""
 
 msgid "Downloadable plugins"
@@ -7172,6 +7205,9 @@ msgstr "Trung tâm chiếu phim nâng cao"
 msgid "Enigma2 (re)starts"
 msgstr ""
 
+msgid "Enigma2 Packages"
+msgstr ""
+
 msgid ""
 "Enigma2 Skinselector\n"
 "\n"
@@ -7468,10 +7504,6 @@ msgstr ""
 "Lỗi:%s\n"
 "Thử lại?"
 
-#, fuzzy, python-format
-msgid "Error: %s %s not %s!  Please try again later."
-msgstr "Không có bảng cập nhật có sẵn. Vui lòng thử lại sau."
-
 msgid "Error: An empty filename is illegal!"
 msgstr "Một tên tệp trống là bất hợp pháp."
 
@@ -7559,12 +7591,12 @@ msgstr ""
 msgid "Error: There was a problem writing '%s'!"
 msgstr ""
 
+#, python-format
+msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
+msgstr ""
+
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Không thể tạo các thư mục cần thiết trên phương tiện (ví dụ: thẻ nhớ USB hoặc Ổ cứng) - Vui lòng xác minh phương tiện và thử lại!"
-
-#, fuzzy
-msgid "Error: Unable to process the command!  Please try again later."
-msgstr "Xin lỗi, nguồn cấp dữ liệu bị ngừng bảo trì, vui lòng thử lại sau."
 
 #, python-format
 msgid "Error: Unable to rename directory '%s' to '%s'!"
@@ -7824,6 +7856,9 @@ msgid "External subtitle switch fonts"
 msgstr "Phông chữ chuyển đổi phụ đề bên ngoài"
 
 msgid "Extra High"
+msgstr ""
+
+msgid "Extra Packages"
 msgstr ""
 
 msgid "Extra motor options"
@@ -8102,6 +8137,12 @@ msgstr "Cài đặt chỉ huy tập tin"
 msgid "File System Check"
 msgstr "Kiểm tra hệ thống tập tin"
 
+msgid "File System Packages"
+msgstr ""
+
+msgid "File System Support Packages"
+msgstr ""
+
 msgid "File appears to be busy.\n"
 msgstr "Tập tin có vẻ bận rộn.\n"
 
@@ -8287,6 +8328,9 @@ msgstr "Vị trí cuối cùng tại"
 msgid "Follow instructions on TV"
 msgstr ""
 
+msgid "Font Packages"
+msgstr ""
+
 msgid "Font size"
 msgstr "Cỡ chữ"
 
@@ -8314,9 +8358,6 @@ msgstr "Buộc cài đặt LNB Tuner ToneBurst."
 
 msgid "Force Legacy Signal stats"
 msgstr "Lực lượng thống kê tín hiệu kế thừa"
-
-msgid "Force OPKG clean mode"
-msgstr ""
 
 msgid "Force ToneBurst"
 msgstr "Buộc ToneBurst"
@@ -9688,6 +9729,10 @@ msgid "Install"
 msgstr "Ráp vào"
 
 #, python-format
+msgid "Install %s"
+msgstr ""
+
+#, python-format
 msgid "Install '%s' command"
 msgstr ""
 
@@ -9702,6 +9747,9 @@ msgstr "Cài đặt xong."
 
 msgid "Install Local Extension"
 msgstr "Cài đặt tiện ích mở rộng cục bộ"
+
+msgid "Install Plugin"
+msgstr ""
 
 msgid "Install Plugins"
 msgstr "Cài đặt plugin"
@@ -9722,6 +9770,9 @@ msgid "Install extensions."
 msgstr "Cài đặt tiện ích mở rộng."
 
 msgid "Install the package"
+msgstr ""
+
+msgid "Install the selected plugin / list of plugins"
 msgstr ""
 
 msgid "Install/Remove plugin"
@@ -10007,6 +10058,9 @@ msgstr "Giữ MovieList mở trong khi phát tệp âm thanh."
 msgid "Kenya"
 msgstr "Nước Kenya"
 
+msgid "Kernel Module Packages"
+msgstr ""
+
 msgid "Kernel Packages"
 msgstr ""
 
@@ -10187,10 +10241,6 @@ msgid "Language selection"
 msgstr "Lựa chọn ngôn ngữ"
 
 #, fuzzy
-msgid "Languages"
-msgstr "Ngôn ngữ"
-
-#, fuzzy
 msgid "Lao"
 msgstr "Đăng nhập"
 
@@ -10280,6 +10330,15 @@ msgstr "Thu phóng hộp thư"
 
 msgid "Liberia"
 msgstr "Liberia"
+
+msgid "Library Multimedia Packages"
+msgstr ""
+
+msgid "Library Network Packages"
+msgstr ""
+
+msgid "Library Packages"
+msgstr ""
 
 msgid "Libs"
 msgstr ""
@@ -10474,10 +10533,6 @@ msgstr "Chọn ngôn ngữ tự động"
 #, fuzzy
 msgid "Locale/Language Selection Actions"
 msgstr "Chọn ngôn ngữ tự động"
-
-#, fuzzy
-msgid "Locales"
-msgstr "Địa phương"
 
 msgid "Locales to be displayed"
 msgstr ""
@@ -10711,6 +10766,10 @@ msgstr "Malta"
 msgid "Maltese"
 msgstr "Malta"
 
+#, python-format
+msgid "Manage %s"
+msgstr ""
+
 #, fuzzy
 msgid "Manage Locale/Language Selection settings"
 msgstr "Cài đặt chọn kênh"
@@ -10727,7 +10786,12 @@ msgstr ""
 msgid "Manage network mounts"
 msgstr "Quản lý kết nối mạng"
 
-msgid "Manage the highlighted plugin"
+#, python-format
+msgid "Manage the highlighted %s"
+msgstr ""
+
+#, python-format
+msgid "Manage the highlighted %s / list of %s"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -11019,6 +11083,9 @@ msgid "Mipsel"
 msgstr ""
 
 msgid "Miscellaneous"
+msgstr ""
+
+msgid "Miscellaneous Packages"
 msgstr ""
 
 msgid "Misconfiguration in channel allocation"
@@ -11486,6 +11553,9 @@ msgstr ""
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Hình ảnh đa khởi động được tạo trên:% s /% s-% s-% s-backup-% s_usb.zip"
 
+msgid "Multimedia Packages"
+msgstr ""
+
 msgid "Multiple service support"
 msgstr "Hỗ trợ nhiều dịch vụ"
 
@@ -11642,6 +11712,12 @@ msgstr "Netmask"
 msgid "Network"
 msgstr "Mạng"
 
+msgid "Network (net) Packages"
+msgstr ""
+
+msgid "Network (network) Packages"
+msgstr ""
+
 msgid "Network Adapter Actions"
 msgstr ""
 
@@ -11741,6 +11817,9 @@ msgstr "Mạng:"
 
 msgid "NetworkWizard"
 msgstr "Thuật sĩ mạng"
+
+msgid "Networking Packages"
+msgstr ""
 
 msgid "Neutrino  (keymap.ntr)"
 msgstr "Neutrino (keymap.ntr)"
@@ -12529,6 +12608,9 @@ msgstr "Tùy chọn tắt picons trên Infobar"
 msgid "Option to enable the Hardware Standby Timer"
 msgstr "Tùy chọn để bật Hẹn giờ chờ phần cứng"
 
+msgid "Optional Packages"
+msgstr ""
+
 msgid "Optional parameter"
 msgstr ""
 
@@ -12575,6 +12657,9 @@ msgstr "Khác"
 #, fuzzy
 msgid "Other Actions"
 msgstr "giáo dục nâng cao"
+
+msgid "Other Packages"
+msgstr ""
 
 #, fuzzy
 msgid "Other Subtitles & Language"
@@ -12692,6 +12777,9 @@ msgstr "TIẾNG VIỆT"
 msgid "PVR"
 msgstr "PVR"
 
+msgid "Package"
+msgstr ""
+
 msgid "Package Manager"
 msgstr "Quản lý gói"
 
@@ -12713,6 +12801,9 @@ msgstr "Cập nhật danh sách gói"
 #, fuzzy
 msgid "Packaged locales only"
 msgstr "quản lý tập tin cục bộ"
+
+msgid "Packages"
+msgstr ""
 
 msgid "Packages and associated locales"
 msgstr ""
@@ -13239,6 +13330,15 @@ msgstr ""
 msgid "Please wait while gathering data..."
 msgstr "Vui lòng đợi trong khi thu thập dữ liệu ..."
 
+msgid "Please wait while locale/language is deleted..."
+msgstr ""
+
+msgid "Please wait while locale/language is installed..."
+msgstr ""
+
+msgid "Please wait while locales/languages are purged..."
+msgstr ""
+
 msgid "Please wait while scanning is in progress..."
 msgstr "Vui lòng đợi trong khi quá trình quét đang diễn ra ..."
 
@@ -13249,11 +13349,13 @@ msgstr ""
 msgid "Please wait while the list downloads..."
 msgstr "Vui lòng đợi trong khi thu thập dữ liệu ..."
 
-msgid "Please wait while the plugin is downloaded."
-msgstr ""
+msgid "Please wait while the plugin is installed."
+msgid_plural "Please wait while the plugins are installed."
+msgstr[0] ""
 
 msgid "Please wait while the plugin is removed."
-msgstr ""
+msgid_plural "Please wait while the plugins are removed."
+msgstr[0] ""
 
 msgid "Please wait while the plugin is replaced."
 msgstr ""
@@ -13312,6 +13414,9 @@ msgstr ""
 msgid "Plug in a USB device that can be used as a swap device. Note that this device must not be removed while the %s %s is running!"
 msgstr ""
 
+msgid "Plugin"
+msgstr ""
+
 msgid "Plugin Action Log"
 msgstr ""
 
@@ -13324,13 +13429,10 @@ msgstr "Trình duyệt Plugin"
 msgid "Plugin Browser Actions"
 msgstr ""
 
-msgid "Plugin Browser Download Actions"
-msgstr ""
-
 msgid "Plugin Browser Edit Actions"
 msgstr ""
 
-msgid "Plugin Browser Manage Actions"
+msgid "Plugin Browser Install Actions"
 msgstr ""
 
 msgid "Plugin Browser Navigation Actions"
@@ -13349,6 +13451,9 @@ msgid "Plugin Browser Update Actions"
 msgstr ""
 
 msgid "Plugin Browser layout"
+msgstr ""
+
+msgid "Plugin Packages"
 msgstr ""
 
 msgid "Plugin Skin Packages"
@@ -13859,6 +13964,9 @@ msgid "Put your AV Receiver in standby"
 msgstr "Đặt Bộ thu AV của bạn ở chế độ chờ"
 
 msgid "Python"
+msgstr ""
+
+msgid "Python Development Packages"
 msgstr ""
 
 msgid "Python frontend for /tmp/mmi.socket"
@@ -14393,6 +14501,10 @@ msgstr "Loại điều khiển từ xa"
 msgid "Remove"
 msgstr "Tẩy"
 
+#, python-format
+msgid "Remove %s"
+msgstr ""
+
 msgid "Remove All Alternatives"
 msgstr "loại bỏ tất cả các lựa chọn thay thế"
 
@@ -14635,6 +14747,12 @@ msgstr ""
 msgid "Reset"
 msgstr "Cài lại"
 
+msgid "Reset (clear and reload) the feeds"
+msgstr ""
+
+msgid "Reset Feeds"
+msgstr ""
+
 msgid "Reset HDMI-CEC settings to default"
 msgstr ""
 
@@ -14690,6 +14808,9 @@ msgstr "Khởi động lại GUI"
 msgid "Restart GUI after x crashes"
 msgstr "Khởi động lại GUI sau khi x gặp sự cố"
 
+msgid "Restart GUI now to start using the new locale/language?"
+msgstr ""
+
 msgid "Restart GUI now?"
 msgstr "Khởi động lại GUI bây giờ?"
 
@@ -14701,6 +14822,9 @@ msgstr "Khởi động lại bộ điều hợp mạng"
 
 msgid "Restart enigma"
 msgstr "Khởi động lại E2"
+
+msgid "Restart finished"
+msgstr ""
 
 msgid "Restart necessary, restart GUI now?"
 msgstr "Khởi động lại cần thiết, khởi động lại GUI bây giờ?"
@@ -15427,9 +15551,6 @@ msgstr "Chọn 'A' hoặc 'B' nếu hệ thống trên không của bạn yêu c
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Chọn 'băng tần' nếu sử dụng LNB 'phổ quát', nếu không hãy tham khảo bảng thông số LNB của bạn."
 
-msgid "Select 'Enable' to force a package clean before a package update. This is helpful to make sure the package list is up-to-date and can avoid/solve issues during the update. Only enable this when you can not update on-line."
-msgstr ""
-
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -15577,6 +15698,9 @@ msgstr ""
 msgid "Select 'Yes' to show OpenViX packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show directories at the top/start of the list, or select 'No' to show files first."
 msgstr ""
 
@@ -15608,9 +15732,6 @@ msgid "Select 'Yes' to show skin component packages in the Download Plugins scre
 msgstr ""
 
 msgid "Select 'Yes' to show skin packages in the Download Plugins screen."
-msgstr ""
-
-msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
 msgstr ""
 
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
@@ -15645,6 +15766,9 @@ msgstr "Nếu được đặt thành 'có; infobar sẽ được hiển thị kh
 
 msgid "Select Additional Backup Files"
 msgstr "Chọn tập tin sao lưu bổ sung"
+
+msgid "Select AutoCam default Softcam"
+msgstr ""
 
 msgid "Select Backup Location"
 msgstr "Chọn vị trí dự phòng"
@@ -15694,6 +15818,9 @@ msgstr "Chọn kênh Quad"
 msgid "Select Satellites"
 msgstr "Chọn vệ tinh"
 
+msgid "Select Softcam"
+msgstr ""
+
 msgid "Select Software Update"
 msgstr "Chọn Cập nhật phần mềm"
 
@@ -15708,6 +15835,12 @@ msgstr "Chọn nguồn nâng cấp để chỉnh sửa."
 
 msgid "Select Your Skin"
 msgstr "Chọn làn da của bạn"
+
+msgid "Select a Softcam from the available list as the default for AutoCam."
+msgstr ""
+
+msgid "Select a Softcam from the available list."
+msgstr ""
 
 msgid "Select a bouquet"
 msgstr "Chọn một gói kênh"
@@ -15749,12 +15882,6 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Chọn một tập lệnh để chạy:"
 
-msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
-
-msgid "Select a Softcam from the available list."
-msgstr ""
-
 msgid "Select a tuner"
 msgstr "Chọn bộ chỉnh"
 
@@ -15779,9 +15906,6 @@ msgstr ""
 
 msgid "Select audio track"
 msgstr "Chọn audio"
-
-msgid "Select AutoCam default Softcam"
-msgstr ""
 
 msgid "Select cardserver"
 msgstr ""
@@ -15912,9 +16036,6 @@ msgstr ""
 msgid "Select service to add..."
 msgstr "Chọn dịch vụ để thêm ..."
 
-msgid "Select Softcam"
-msgstr ""
-
 msgid "Select sort method:"
 msgstr "Chọn phương pháp sắp xếp:"
 
@@ -15932,6 +16053,9 @@ msgstr ""
 
 #, python-format
 msgid "Select the Softcam for '%s'"
+msgstr ""
+
+msgid "Select the Softcam protocol."
 msgstr ""
 
 msgid "Select the Swap File Size:"
@@ -16133,9 +16257,6 @@ msgstr "Chọn bộ ký tự dịch chuyển bàn phím ảo"
 #, fuzzy
 msgid "Select the shifted character set for the next character only"
 msgstr "Chọn bộ ký tự dịch chuyển bàn phím ảo cho chỉ ký tự tiếp theo"
-
-msgid "Select the Softcam protocol."
-msgstr ""
 
 msgid "Select the sort order for the file lines:"
 msgstr ""
@@ -17377,11 +17498,11 @@ msgstr ""
 msgid "Show image and save as '%s'"
 msgstr ""
 
-msgid "Show in Standby"
-msgstr "Hiển thị trong chế độ chờ"
-
 msgid "Show in Extension Menu"
 msgstr "Hiển thị trong danh sách mở rộng?"
+
+msgid "Show in Standby"
+msgstr "Hiển thị trong chế độ chờ"
 
 msgid "Show info"
 msgstr "Hiển thị thông tin"
@@ -18086,6 +18207,9 @@ msgid "Softcam Settings"
 msgstr "Softcam cài đặt"
 
 msgid "Softcam Setup"
+msgstr ""
+
+msgid "Softcams"
 msgstr ""
 
 msgid "Software Management"
@@ -20719,6 +20843,9 @@ msgstr ""
 "Lỗi không xác định khi tạo Skin.\n"
 "Vui lòng kiểm tra sau khi khởi động lại MyMetrixLite-Plugin và áp dụng cài đặt của bạn."
 
+msgid "Unknown Packages"
+msgstr ""
+
 msgid "Unknown Service"
 msgstr "dịch vụ chưa biết"
 
@@ -20933,6 +21060,9 @@ msgstr "Sử dụng"
 msgid "Use 'Trash' in movie list"
 msgstr "Sử dụng thùng rác trong Movielist"
 
+msgid "Use AutoCam"
+msgstr ""
+
 msgid "Use DHCP"
 msgstr "Sử dụng DHCP"
 
@@ -20995,9 +21125,6 @@ msgstr "Sử dụng màn hình thay thế"
 
 msgid "Use as HDD"
 msgstr "Sử dụng như ổ cứng"
-
-msgid "Use AutoCam"
-msgstr ""
 
 msgid "Use automatic mode detection"
 msgstr ""
@@ -21206,6 +21333,9 @@ msgstr "Sử dụng hồ sơ cũ: "
 
 msgid "Usually when the subtitle language is the same as the audio language, the subtitles will not be used. Enable this option to allow these subtitles to be used."
 msgstr "Thông thường khi ngôn ngữ phụ đề giống với ngôn ngữ âm thanh, phụ đề sẽ không được sử dụng. Cho phép tùy chọn này để cho phép các phụ đề này được sử dụng."
+
+msgid "Utility Packages"
+msgstr ""
 
 #, fuzzy
 msgid "Uzbek"
@@ -21658,6 +21788,10 @@ msgstr "Cảnh báo"
 
 msgid "Warning"
 msgstr "Cảnh báo"
+
+#, python-format
+msgid "Warning: %d feeds were unable to be reloaded!"
+msgstr ""
 
 msgid "Warning: Overrides are currently active!"
 msgstr ""
@@ -22129,6 +22263,27 @@ msgid "Www"
 msgstr "Www"
 
 msgid "X-Resolution"
+msgstr ""
+
+msgid "X11 Base Packages"
+msgstr ""
+
+msgid "X11 Font Packages"
+msgstr ""
+
+msgid "X11 Gnome Library Packages"
+msgstr ""
+
+msgid "X11 Gnome Packages"
+msgstr ""
+
+msgid "X11 Library Packages"
+msgstr ""
+
+msgid "X11 Packages"
+msgstr ""
+
+msgid "X11 Utility Packages"
 msgstr ""
 
 msgid "XBox 360 support"
@@ -22812,10 +22967,6 @@ msgstr "xóa bỏ"
 msgid "delete cut"
 msgstr "xóa cắt"
 
-#, fuzzy
-msgid "deleted"
-msgstr "xóa bỏ"
-
 msgid "detective/thriller"
 msgstr "thám tử / phim kinh dị"
 
@@ -23081,10 +23232,6 @@ msgid "insert mark here"
 msgstr "chèn dấu ở đây"
 
 #, fuzzy
-msgid "installed"
-msgstr "Gỡ cài đặt"
-
-#, fuzzy
 msgid "instant record"
 msgstr "Ghi lại ngay lập tức"
 
@@ -23309,6 +23456,12 @@ msgstr ""
 msgid "original language"
 msgstr "ngôn ngữ gốc"
 
+msgid "package"
+msgstr ""
+
+msgid "packages"
+msgstr ""
+
 msgid "pass"
 msgstr "vượt qua"
 
@@ -23323,6 +23476,12 @@ msgstr ""
 
 msgid "please wait, loading picture..."
 msgstr "vui lòng đợi, tải hình ảnh ..."
+
+msgid "plugin"
+msgstr ""
+
+msgid "plugins"
+msgstr ""
 
 msgid "pm"
 msgstr "pm"
@@ -23517,6 +23676,12 @@ msgstr "các vấn đề xã hội / chính trị / kinh tế (nói chung)"
 
 msgid "social/spiritual science"
 msgstr "khoa học xã hội / tâm linh"
+
+msgid "softcam"
+msgstr ""
+
+msgid "softcams"
+msgstr ""
 
 #, fuzzy
 msgid "special (general)"
@@ -23720,6 +23885,30 @@ msgstr "có (giữ thức ăn)"
 
 msgid "®"
 msgstr ""
+
+#, fuzzy, python-format
+#~ msgid "Error: %s %s not %s!  Please try again later."
+#~ msgstr "Không có bảng cập nhật có sẵn. Vui lòng thử lại sau."
+
+#, fuzzy
+#~ msgid "Error: Unable to process the command!  Please try again later."
+#~ msgstr "Xin lỗi, nguồn cấp dữ liệu bị ngừng bảo trì, vui lòng thử lại sau."
+
+#, fuzzy
+#~ msgid "Languages"
+#~ msgstr "Ngôn ngữ"
+
+#, fuzzy
+#~ msgid "Locales"
+#~ msgstr "Địa phương"
+
+#, fuzzy
+#~ msgid "deleted"
+#~ msgstr "xóa bỏ"
+
+#, fuzzy
+#~ msgid "installed"
+#~ msgstr "Gỡ cài đặt"
 
 #~ msgid "Allows you to show/hide CCcam in extensions (BLUE button)."
 #~ msgstr "Cho phép bạn hiển thị / ẩn CCcam trong tiện ích mở rộng (nút màu xanh)."

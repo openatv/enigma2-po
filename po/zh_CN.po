@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 11:41+0000\n"
+"POT-Creation-Date: 2023-11-20 13:20+0000\n"
 "PO-Revision-Date: 2023-08-11 04:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -953,12 +953,6 @@ msgid "%d ms"
 msgstr "%d 毫秒"
 
 #, python-format
-msgid "%d package found."
-msgid_plural "%d packages found."
-msgstr[0] "找到 %d 个软件包。"
-msgstr[1] "找到 %d 个软件包。"
-
-#, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] "有 %d 个软件包可更新"
@@ -985,6 +979,12 @@ msgstr[1] ""
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package marked for update."
+msgid_plural "%d packages marked for update."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1185,6 +1185,10 @@ msgstr "%s (%s)"
 #, python-format
 msgid "%s - Setup"
 msgstr "%s - 设置"
+
+#, python-format
+msgid "%s Browser Manage Actions"
+msgstr ""
 
 #, python-format
 msgid "%s GHz"
@@ -2044,7 +2048,7 @@ msgstr "添加/删除 定时器"
 msgid "Add/Remove a timer for the current event"
 msgstr "添加/删除 当前事件定时器"
 
-msgid "Add/Remove highlighted plugin to/from download list"
+msgid "Add/Remove highlighted plugin to/from install list"
 msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from remove list"
@@ -2690,6 +2694,12 @@ msgstr ""
 msgid "Auto(not available)"
 msgstr "自动(不可用)"
 
+msgid "AutoCam Settings"
+msgstr ""
+
+msgid "AutoCam Setup Actions"
+msgstr ""
+
 msgid "AutoMountManager"
 msgstr "自动挂载管理器"
 
@@ -2698,12 +2708,6 @@ msgstr ""
 
 msgid "AutoUpdate"
 msgstr "自动更新"
-
-msgid "AutoCam Settings"
-msgstr ""
-
-msgid "AutoCam Setup Actions"
-msgstr ""
 
 msgid "Automatic"
 msgstr "自动"
@@ -2944,6 +2948,15 @@ msgstr "孟加拉国"
 
 msgid "Barbados"
 msgstr "巴巴多斯"
+
+msgid "Base Packages"
+msgstr ""
+
+msgid "Base Shell Packages"
+msgstr ""
+
+msgid "Base Utility Packages"
+msgstr ""
 
 msgid "Base time"
 msgstr "基准时间"
@@ -3621,6 +3634,9 @@ msgid "Cancel selection"
 msgstr "取消选择"
 
 msgid "Cancel selection and exit"
+msgstr ""
+
+msgid "Cancel the Reset Feeds command currently being processed"
 msgstr ""
 
 msgid "Cancel the bouquet selection"
@@ -4784,6 +4800,27 @@ msgstr "连接信息"
 msgid "Console"
 msgstr "控制台"
 
+msgid "Console Administrative Packages"
+msgstr ""
+
+msgid "Console Multimedia Packages"
+msgstr ""
+
+msgid "Console Network Packages"
+msgstr ""
+
+msgid "Console Packages"
+msgstr ""
+
+msgid "Console Test Packages"
+msgstr ""
+
+msgid "Console Tool Packages"
+msgstr ""
+
+msgid "Console Utility Packages"
+msgstr ""
+
 msgid "Constellation"
 msgstr ""
 
@@ -5907,6 +5944,12 @@ msgstr ""
 msgid "Development Packages"
 msgstr ""
 
+msgid "Development Python Packages"
+msgstr ""
+
+msgid "Development TCL Toolkit Packages"
+msgstr ""
+
 msgid "Device Manager"
 msgstr "设备管理器"
 
@@ -6328,10 +6371,6 @@ msgid "Do you want to do another manual service scan?"
 msgstr "是否进行其他手动频道扫描?"
 
 #, python-format
-msgid "Do you want to download '%s'?"
-msgstr ""
-
-#, python-format
 msgid "Do you want to flash the image '%s'?"
 msgstr ""
 
@@ -6340,6 +6379,9 @@ msgstr "是否安装频道列表?"
 
 msgid "Do you want to install the package:\n"
 msgstr "是否安装软件包:\n"
+
+msgid "Do you want to install:"
+msgstr ""
 
 msgid "Do you want to play DVD in drive?"
 msgstr "是否要播放驱动器中的DVD?"
@@ -6361,15 +6403,10 @@ msgstr "是否要重启%s %s？"
 msgid "Do you want to reboot your receiver?"
 msgstr "是否要重启接收机？"
 
-#, python-format
-msgid "Do you want to remove '%s'?"
-msgstr ""
-
 msgid "Do you want to remove the package:\n"
 msgstr "是否要删除该软件包:\n"
 
-#, python-format
-msgid "Do you want to replace '%s' with '%s?"
+msgid "Do you want to remove:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -6384,8 +6421,7 @@ msgstr ""
 msgid "Do you want to start a backup now?"
 msgstr ""
 
-#, python-format
-msgid "Do you want to update '%s'?"
+msgid "Do you want to update:"
 msgstr ""
 
 msgid "Do you want to upgrade the package:\n"
@@ -6393,6 +6429,9 @@ msgstr "是否升级软件包:\n"
 
 msgid "Documentary"
 msgstr "纪录片"
+
+msgid "Documentation Packages"
+msgstr ""
 
 msgid "Dolby Digital downmix is now"
 msgstr "杜比数字缩混现已推出"
@@ -6452,9 +6491,6 @@ msgstr ""
 msgid "Download Image"
 msgstr ""
 
-msgid "Download Plugin"
-msgstr ""
-
 msgid "Download Plugins"
 msgstr "下载插件"
 
@@ -6474,9 +6510,6 @@ msgid "Download error"
 msgstr "下载错误"
 
 msgid "Download the selected image"
-msgstr ""
-
-msgid "Download the selected plugin / list of plugins"
 msgstr ""
 
 msgid "Downloadable plugins"
@@ -7104,6 +7137,9 @@ msgstr "增强电影中心"
 msgid "Enigma2 (re)starts"
 msgstr "Enigma2重启次数"
 
+msgid "Enigma2 Packages"
+msgstr ""
+
 msgid ""
 "Enigma2 Skinselector\n"
 "\n"
@@ -7394,10 +7430,6 @@ msgstr ""
 "错误: %s\n"
 "是否重试?"
 
-#, python-format
-msgid "Error: %s %s not %s!  Please try again later."
-msgstr "错误: %s %s 不是 %s!  请稍后再试."
-
 msgid "Error: An empty filename is illegal!"
 msgstr "文件名不能为空."
 
@@ -7485,11 +7517,12 @@ msgstr ""
 msgid "Error: There was a problem writing '%s'!"
 msgstr ""
 
+#, python-format
+msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
+msgstr ""
+
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "无法在媒体(如U盘或硬盘)上创建所需的目录-请验证媒体并重试!"
-
-msgid "Error: Unable to process the command!  Please try again later."
-msgstr "错误:无法处理命令.请稍后再试."
 
 #, python-format
 msgid "Error: Unable to rename directory '%s' to '%s'!"
@@ -7753,6 +7786,9 @@ msgid "External subtitle switch fonts"
 msgstr "外挂字幕切换字体"
 
 msgid "Extra High"
+msgstr ""
+
+msgid "Extra Packages"
 msgstr ""
 
 msgid "Extra motor options"
@@ -8027,6 +8063,12 @@ msgstr "文件管理器设置"
 msgid "File System Check"
 msgstr "检查文件系统"
 
+msgid "File System Packages"
+msgstr ""
+
+msgid "File System Support Packages"
+msgstr ""
+
 msgid "File appears to be busy.\n"
 msgstr "文件占用中.\n"
 
@@ -8207,6 +8249,9 @@ msgstr "按遥控器上的位置排列"
 msgid "Follow instructions on TV"
 msgstr ""
 
+msgid "Font Packages"
+msgstr ""
+
 msgid "Font size"
 msgstr "字体大小"
 
@@ -8233,9 +8278,6 @@ msgstr "设置高频头22K切换开关."
 
 msgid "Force Legacy Signal stats"
 msgstr "强制传统的信号强度数据"
-
-msgid "Force OPKG clean mode"
-msgstr ""
 
 msgid "Force ToneBurst"
 msgstr "22K切换开关"
@@ -9581,6 +9623,10 @@ msgid "Install"
 msgstr "安裝"
 
 #, python-format
+msgid "Install %s"
+msgstr ""
+
+#, python-format
 msgid "Install '%s' command"
 msgstr ""
 
@@ -9595,6 +9641,9 @@ msgstr "安装完成."
 
 msgid "Install Local Extension"
 msgstr "安装本地扩展"
+
+msgid "Install Plugin"
+msgstr ""
 
 msgid "Install Plugins"
 msgstr "安装插件"
@@ -9615,6 +9664,9 @@ msgid "Install extensions."
 msgstr "安装扩展."
 
 msgid "Install the package"
+msgstr ""
+
+msgid "Install the selected plugin / list of plugins"
 msgstr ""
 
 msgid "Install/Remove plugin"
@@ -9896,6 +9948,9 @@ msgstr "播放音频文件时保持电影列表的显示."
 msgid "Kenya"
 msgstr "肯尼亚"
 
+msgid "Kernel Module Packages"
+msgstr ""
+
 msgid "Kernel Packages"
 msgstr ""
 
@@ -10072,9 +10127,6 @@ msgstr "已选择语言."
 msgid "Language selection"
 msgstr "语言选择"
 
-msgid "Languages"
-msgstr "语言"
-
 msgid "Lao"
 msgstr "老挝语"
 
@@ -10163,6 +10215,15 @@ msgstr "信箱模式缩放"
 
 msgid "Liberia"
 msgstr "利比里亚"
+
+msgid "Library Multimedia Packages"
+msgstr ""
+
+msgid "Library Network Packages"
+msgstr ""
+
+msgid "Library Packages"
+msgstr ""
 
 msgid "Libs"
 msgstr "库文件"
@@ -10352,9 +10413,6 @@ msgstr "本地/语言选择"
 
 msgid "Locale/Language Selection Actions"
 msgstr "本地/语言选择操作"
-
-msgid "Locales"
-msgstr "本地"
 
 msgid "Locales to be displayed"
 msgstr "需要显示的本地项"
@@ -10580,6 +10638,10 @@ msgstr "马耳他"
 msgid "Maltese"
 msgstr "马耳他语"
 
+#, python-format
+msgid "Manage %s"
+msgstr ""
+
 msgid "Manage Locale/Language Selection settings"
 msgstr "管理本地/语言选择设置"
 
@@ -10595,7 +10657,12 @@ msgstr ""
 msgid "Manage network mounts"
 msgstr "管理网络挂载"
 
-msgid "Manage the highlighted plugin"
+#, python-format
+msgid "Manage the highlighted %s"
+msgstr ""
+
+#, python-format
+msgid "Manage the highlighted %s / list of %s"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -10879,6 +10946,9 @@ msgstr "Mipsel架构"
 
 msgid "Miscellaneous"
 msgstr "其他"
+
+msgid "Miscellaneous Packages"
+msgstr ""
 
 msgid "Misconfiguration in channel allocation"
 msgstr "频道分配中的错误配置"
@@ -11322,6 +11392,9 @@ msgstr "多重转码"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "多启动镜像创建于: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multimedia Packages"
+msgstr ""
+
 msgid "Multiple service support"
 msgstr "多频道支持"
 
@@ -11472,6 +11545,12 @@ msgstr "子网掩码"
 msgid "Network"
 msgstr "网络"
 
+msgid "Network (net) Packages"
+msgstr ""
+
+msgid "Network (network) Packages"
+msgstr ""
+
 msgid "Network Adapter Actions"
 msgstr ""
 
@@ -11571,6 +11650,9 @@ msgstr "网络:"
 
 msgid "NetworkWizard"
 msgstr "网络向导"
+
+msgid "Networking Packages"
+msgstr ""
 
 msgid "Neutrino  (keymap.ntr)"
 msgstr "Neutrino  (keymap.ntr)"
@@ -12339,6 +12421,9 @@ msgstr "在信息栏选项中禁用picons"
 msgid "Option to enable the Hardware Standby Timer"
 msgstr "启用硬件待机定时器的选项"
 
+msgid "Optional Packages"
+msgstr ""
+
 msgid "Optional parameter"
 msgstr ""
 
@@ -12384,6 +12469,9 @@ msgstr "其它"
 
 msgid "Other Actions"
 msgstr "其他操作"
+
+msgid "Other Packages"
+msgstr ""
 
 msgid "Other Subtitles & Language"
 msgstr "其他字幕和语言"
@@ -12498,6 +12586,9 @@ msgstr "黄金时段"
 msgid "PVR"
 msgstr "PVR"
 
+msgid "Package"
+msgstr ""
+
 msgid "Package Manager"
 msgstr "软件包管理"
 
@@ -12518,6 +12609,9 @@ msgstr "更新软件包列表"
 
 msgid "Packaged locales only"
 msgstr "仅适用于打包的地区"
+
+msgid "Packages"
+msgstr ""
 
 msgid "Packages and associated locales"
 msgstr "软件包和相关区域设置"
@@ -13041,6 +13135,15 @@ msgstr ""
 msgid "Please wait while gathering data..."
 msgstr "正在收集数据,请稍候..."
 
+msgid "Please wait while locale/language is deleted..."
+msgstr ""
+
+msgid "Please wait while locale/language is installed..."
+msgstr ""
+
+msgid "Please wait while locales/languages are purged..."
+msgstr ""
+
 msgid "Please wait while scanning is in progress..."
 msgstr "正在进行扫描,请稍候..."
 
@@ -13050,11 +13153,15 @@ msgstr ""
 msgid "Please wait while the list downloads..."
 msgstr "正在收集数据,请稍候..."
 
-msgid "Please wait while the plugin is downloaded."
-msgstr ""
+msgid "Please wait while the plugin is installed."
+msgid_plural "Please wait while the plugins are installed."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Please wait while the plugin is removed."
-msgstr ""
+msgid_plural "Please wait while the plugins are removed."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Please wait while the plugin is replaced."
 msgstr ""
@@ -13113,6 +13220,9 @@ msgstr ""
 msgid "Plug in a USB device that can be used as a swap device. Note that this device must not be removed while the %s %s is running!"
 msgstr ""
 
+msgid "Plugin"
+msgstr ""
+
 msgid "Plugin Action Log"
 msgstr ""
 
@@ -13125,13 +13235,10 @@ msgstr "插件浏览器"
 msgid "Plugin Browser Actions"
 msgstr ""
 
-msgid "Plugin Browser Download Actions"
-msgstr ""
-
 msgid "Plugin Browser Edit Actions"
 msgstr ""
 
-msgid "Plugin Browser Manage Actions"
+msgid "Plugin Browser Install Actions"
 msgstr ""
 
 msgid "Plugin Browser Navigation Actions"
@@ -13150,6 +13257,9 @@ msgid "Plugin Browser Update Actions"
 msgstr ""
 
 msgid "Plugin Browser layout"
+msgstr ""
+
+msgid "Plugin Packages"
 msgstr ""
 
 msgid "Plugin Skin Packages"
@@ -13651,6 +13761,9 @@ msgid "Put your AV Receiver in standby"
 msgstr "把你的AV接收机在待机状态"
 
 msgid "Python"
+msgstr ""
+
+msgid "Python Development Packages"
 msgstr ""
 
 msgid "Python frontend for /tmp/mmi.socket"
@@ -14171,6 +14284,10 @@ msgstr "遥控器类型"
 msgid "Remove"
 msgstr "移除"
 
+#, python-format
+msgid "Remove %s"
+msgstr ""
+
 msgid "Remove All Alternatives"
 msgstr "移除所有备选"
 
@@ -14414,6 +14531,12 @@ msgstr "保留以备将来使用"
 msgid "Reset"
 msgstr "重置"
 
+msgid "Reset (clear and reload) the feeds"
+msgstr ""
+
+msgid "Reset Feeds"
+msgstr ""
+
 msgid "Reset HDMI-CEC settings to default"
 msgstr "将HDMI-CEC设置重置为默认值"
 
@@ -14469,6 +14592,9 @@ msgstr "重启GUI"
 msgid "Restart GUI after x crashes"
 msgstr "在X次崩溃后重新启动GUI"
 
+msgid "Restart GUI now to start using the new locale/language?"
+msgstr ""
+
 msgid "Restart GUI now?"
 msgstr "立即重启GUI?"
 
@@ -14480,6 +14606,9 @@ msgstr "重启网络适配器"
 
 msgid "Restart enigma"
 msgstr "重启Enigma"
+
+msgid "Restart finished"
+msgstr ""
 
 msgid "Restart necessary, restart GUI now?"
 msgstr "需要重新启动,是否现在重新启动GUI?"
@@ -15194,9 +15323,6 @@ msgstr "如果天线系统需要,请选择'A'或'B',否则请选择’无'.如�
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "如果使用'通用”高频头,请选择'波段',否则请查阅高频头规格表."
 
-msgid "Select 'Enable' to force a package clean before a package update. This is helpful to make sure the package list is up-to-date and can avoid/solve issues during the update. Only enable this when you can not update on-line."
-msgstr ""
-
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr ""
 
@@ -15344,6 +15470,9 @@ msgstr ""
 msgid "Select 'Yes' to show OpenViX packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show directories at the top/start of the list, or select 'No' to show files first."
 msgstr ""
 
@@ -15375,9 +15504,6 @@ msgid "Select 'Yes' to show skin component packages in the Download Plugins scre
 msgstr ""
 
 msgid "Select 'Yes' to show skin packages in the Download Plugins screen."
-msgstr ""
-
-msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
 msgstr ""
 
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
@@ -15412,6 +15538,9 @@ msgstr "如果设置为'是'在媒体播放中快进或快退将会显示信息�
 
 msgid "Select Additional Backup Files"
 msgstr "选择额外的备份文件"
+
+msgid "Select AutoCam default Softcam"
+msgstr ""
 
 msgid "Select Backup Location"
 msgstr "选择备份位置"
@@ -15461,6 +15590,9 @@ msgstr "选择四画面频道"
 msgid "Select Satellites"
 msgstr "选择卫星"
 
+msgid "Select Softcam"
+msgstr "选择softcam"
+
 msgid "Select Software Update"
 msgstr "选择软件更新"
 
@@ -15475,6 +15607,12 @@ msgstr "选择升级源来编辑."
 
 msgid "Select Your Skin"
 msgstr "选择你的皮肤"
+
+msgid "Select a Softcam from the available list as the default for AutoCam."
+msgstr ""
+
+msgid "Select a Softcam from the available list."
+msgstr "从可用列表中选择一个softcam."
 
 msgid "Select a bouquet"
 msgstr "选择自定义组"
@@ -15516,12 +15654,6 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "选择要运行的脚本:"
 
-msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
-
-msgid "Select a Softcam from the available list."
-msgstr "从可用列表中选择一个softcam."
-
 msgid "Select a tuner"
 msgstr "选择调谐器"
 
@@ -15546,9 +15678,6 @@ msgstr ""
 
 msgid "Select audio track"
 msgstr "选择音轨"
-
-msgid "Select AutoCam default Softcam"
-msgstr ""
 
 msgid "Select cardserver"
 msgstr "选择卡服务器"
@@ -15679,9 +15808,6 @@ msgstr ""
 msgid "Select service to add..."
 msgstr "选择要添加的频道..."
 
-msgid "Select Softcam"
-msgstr "选择softcam"
-
 msgid "Select sort method:"
 msgstr "选择排序方法:"
 
@@ -15699,6 +15825,9 @@ msgstr "选择否/错误响应"
 
 #, python-format
 msgid "Select the Softcam for '%s'"
+msgstr ""
+
+msgid "Select the Softcam protocol."
 msgstr ""
 
 msgid "Select the Swap File Size:"
@@ -15896,9 +16025,6 @@ msgstr "选择转换后的字符集"
 
 msgid "Select the shifted character set for the next character only"
 msgstr "仅为下一个字符选择移位字符集"
-
-msgid "Select the Softcam protocol."
-msgstr ""
 
 msgid "Select the sort order for the file lines:"
 msgstr ""
@@ -17122,11 +17248,11 @@ msgstr ""
 msgid "Show image and save as '%s'"
 msgstr ""
 
-msgid "Show in Standby"
-msgstr "在待机状态下显示"
-
 msgid "Show in Extension Menu"
 msgstr "显示在扩展列表中？"
+
+msgid "Show in Standby"
+msgstr "在待机状态下显示"
 
 msgid "Show info"
 msgstr "显示信息"
@@ -17820,6 +17946,9 @@ msgid "Softcam Settings"
 msgstr "Softcam设置"
 
 msgid "Softcam Setup"
+msgstr ""
+
+msgid "Softcams"
 msgstr ""
 
 msgid "Software Management"
@@ -20411,6 +20540,9 @@ msgstr ""
 "创建皮肤时未知错误.\n"
 "请重启 MyMetrixLite 插件后检查并应用设置."
 
+msgid "Unknown Packages"
+msgstr ""
+
 msgid "Unknown Service"
 msgstr "未知频道"
 
@@ -20622,6 +20754,9 @@ msgstr "启用"
 msgid "Use 'Trash' in movie list"
 msgstr "在电影列表中使用垃圾桶"
 
+msgid "Use AutoCam"
+msgstr ""
+
 msgid "Use DHCP"
 msgstr "使用DHCP"
 
@@ -20684,9 +20819,6 @@ msgstr "使用备选屏幕"
 
 msgid "Use as HDD"
 msgstr "当作硬盘使用"
-
-msgid "Use AutoCam"
-msgstr ""
 
 msgid "Use automatic mode detection"
 msgstr ""
@@ -20895,6 +21027,9 @@ msgstr "使用旧的配置文件: "
 
 msgid "Usually when the subtitle language is the same as the audio language, the subtitles will not be used. Enable this option to allow these subtitles to be used."
 msgstr "通常在音频语言与字幕语言相同时,字幕将不会被使用.启用此选项可使用这些字幕."
+
+msgid "Utility Packages"
+msgstr ""
 
 msgid "Uzbek"
 msgstr "乌兹别克语"
@@ -21336,6 +21471,10 @@ msgstr "战争"
 
 msgid "Warning"
 msgstr "警告"
+
+#, python-format
+msgid "Warning: %d feeds were unable to be reloaded!"
+msgstr ""
 
 msgid "Warning: Overrides are currently active!"
 msgstr "警告:覆盖当前处于活动状态!"
@@ -21801,6 +21940,27 @@ msgid "Www"
 msgstr "Www"
 
 msgid "X-Resolution"
+msgstr ""
+
+msgid "X11 Base Packages"
+msgstr ""
+
+msgid "X11 Font Packages"
+msgstr ""
+
+msgid "X11 Gnome Library Packages"
+msgstr ""
+
+msgid "X11 Gnome Packages"
+msgstr ""
+
+msgid "X11 Library Packages"
+msgstr ""
+
+msgid "X11 Packages"
+msgstr ""
+
+msgid "X11 Utility Packages"
 msgstr ""
 
 msgid "XBox 360 support"
@@ -22475,9 +22635,6 @@ msgstr "删除"
 msgid "delete cut"
 msgstr "删除剪辑"
 
-msgid "deleted"
-msgstr "删除"
-
 msgid "detective/thriller"
 msgstr "侦探/悬疑"
 
@@ -22737,9 +22894,6 @@ msgstr "初始化模块"
 msgid "insert mark here"
 msgstr "在此处插入标记"
 
-msgid "installed"
-msgstr "已安装"
-
 msgid "instant record"
 msgstr "即时录制"
 
@@ -22959,6 +23113,12 @@ msgstr ""
 msgid "original language"
 msgstr "原始语言"
 
+msgid "package"
+msgstr ""
+
+msgid "packages"
+msgstr ""
+
 msgid "pass"
 msgstr "通过"
 
@@ -22973,6 +23133,12 @@ msgstr ""
 
 msgid "please wait, loading picture..."
 msgstr "请稍候,正在加载图片..."
+
+msgid "plugin"
+msgstr ""
+
+msgid "plugins"
+msgstr ""
 
 msgid "pm"
 msgstr "下午"
@@ -23167,6 +23333,12 @@ msgstr "社会/政治/经济问题(一般)"
 
 msgid "social/spiritual science"
 msgstr "社会/精神科学"
+
+msgid "softcam"
+msgstr "softcam设置"
+
+msgid "softcams"
+msgstr ""
 
 msgid "special (general)"
 msgstr "特殊(一般)"
@@ -23369,6 +23541,31 @@ msgstr "是(保持订阅源)"
 msgid "®"
 msgstr "®"
 
+#, python-format
+#~ msgid "%d package found."
+#~ msgid_plural "%d packages found."
+#~ msgstr[0] "找到 %d 个软件包。"
+#~ msgstr[1] "找到 %d 个软件包。"
+
+#, python-format
+#~ msgid "Error: %s %s not %s!  Please try again later."
+#~ msgstr "错误: %s %s 不是 %s!  请稍后再试."
+
+#~ msgid "Error: Unable to process the command!  Please try again later."
+#~ msgstr "错误:无法处理命令.请稍后再试."
+
+#~ msgid "Languages"
+#~ msgstr "语言"
+
+#~ msgid "Locales"
+#~ msgstr "本地"
+
+#~ msgid "deleted"
+#~ msgstr "删除"
+
+#~ msgid "installed"
+#~ msgstr "已安装"
+
 #~ msgid "Allows you to show/hide CCcam in extensions (BLUE button)."
 #~ msgstr "允许您在扩展中显示/隐藏CCcam（蓝色按钮）."
 
@@ -23402,9 +23599,6 @@ msgstr "®"
 
 #~ msgid "cardserver"
 #~ msgstr "卡片服务器"
-
-#~ msgid "softcam"
-#~ msgstr "softcam设置"
 
 #~ msgid "CI Helper Settings"
 #~ msgstr "CI 助手设置"
