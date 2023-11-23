@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-19 11:41+0000\n"
+"POT-Creation-Date: 2023-11-20 13:20+0000\n"
 "PO-Revision-Date: 2023-11-15 19:07+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -971,13 +971,6 @@ msgid "%d ms"
 msgstr "%d мс"
 
 #, python-format
-msgid "%d package found."
-msgid_plural "%d packages found."
-msgstr[0] "Найдено %d пакет."
-msgstr[1] "Найдено %d пакета."
-msgstr[2] "Найдено %d пакетов."
-
-#, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
 msgstr[0] "%d пакет имеет обновление"
@@ -1011,6 +1004,13 @@ msgid_plural "%d packages marked for remove."
 msgstr[0] "%d пакет помечен для удаления."
 msgstr[1] "%d пакета, помеченных для удаления."
 msgstr[2] "%d пакетов, помеченных для удаления."
+
+#, python-format
+msgid "%d package marked for update."
+msgid_plural "%d packages marked for update."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #, python-format
 msgid "%d package upgraded."
@@ -1219,6 +1219,10 @@ msgstr "%s (%s)"
 #, python-format
 msgid "%s - Setup"
 msgstr "%s - Настройка"
+
+#, python-format
+msgid "%s Browser Manage Actions"
+msgstr ""
 
 #, python-format
 msgid "%s GHz"
@@ -2073,8 +2077,8 @@ msgstr "Добавить/Удалить таймер"
 msgid "Add/Remove a timer for the current event"
 msgstr "Добавить/удалить таймер для идущей передачи"
 
-msgid "Add/Remove highlighted plugin to/from download list"
-msgstr "Добавить/удалить выделенный плагин в/из списка загрузки"
+msgid "Add/Remove highlighted plugin to/from install list"
+msgstr ""
 
 msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr "Добавить/удалить выделенный плагин в/из списка удаления"
@@ -2719,6 +2723,12 @@ msgstr "Для телевизора выбран автоматический в
 msgid "Auto(not available)"
 msgstr "Авто (Не доступен)"
 
+msgid "AutoCam Settings"
+msgstr ""
+
+msgid "AutoCam Setup Actions"
+msgstr ""
+
 msgid "AutoMountManager"
 msgstr "Установки автомонтирования"
 
@@ -2727,12 +2737,6 @@ msgstr "Автотаймер"
 
 msgid "AutoUpdate"
 msgstr "Автоматическое обновление"
-
-msgid "AutoCam Settings"
-msgstr ""
-
-msgid "AutoCam Setup Actions"
-msgstr ""
 
 msgid "Automatic"
 msgstr "Автоматически"
@@ -2973,6 +2977,15 @@ msgstr "Бангладеш"
 
 msgid "Barbados"
 msgstr "Барбадос"
+
+msgid "Base Packages"
+msgstr ""
+
+msgid "Base Shell Packages"
+msgstr ""
+
+msgid "Base Utility Packages"
+msgstr ""
 
 msgid "Base time"
 msgstr "Базовое время"
@@ -3651,6 +3664,9 @@ msgstr "Отменить выбор"
 
 msgid "Cancel selection and exit"
 msgstr "Отменить выбор и выйти"
+
+msgid "Cancel the Reset Feeds command currently being processed"
+msgstr ""
 
 msgid "Cancel the bouquet selection"
 msgstr "Отменить выбор букета"
@@ -4818,6 +4834,27 @@ msgstr "Информация о подключении"
 msgid "Console"
 msgstr "Консоль"
 
+msgid "Console Administrative Packages"
+msgstr ""
+
+msgid "Console Multimedia Packages"
+msgstr ""
+
+msgid "Console Network Packages"
+msgstr ""
+
+msgid "Console Packages"
+msgstr ""
+
+msgid "Console Test Packages"
+msgstr ""
+
+msgid "Console Tool Packages"
+msgstr ""
+
+msgid "Console Utility Packages"
+msgstr ""
+
 msgid "Constellation"
 msgstr "Созвездие"
 
@@ -5943,6 +5980,12 @@ msgstr "Подробности"
 msgid "Development Packages"
 msgstr "Пакеты для разработчиков"
 
+msgid "Development Python Packages"
+msgstr ""
+
+msgid "Development TCL Toolkit Packages"
+msgstr ""
+
 msgid "Device Manager"
 msgstr "Диспетчер устройств"
 
@@ -6366,10 +6409,6 @@ msgid "Do you want to do another manual service scan?"
 msgstr "Продолжить ручной поиск?"
 
 #, python-format
-msgid "Do you want to download '%s'?"
-msgstr "Вы хотите скачать '%s'?"
-
-#, python-format
 msgid "Do you want to flash the image '%s'?"
 msgstr "Вы хотите прошить имидж '%s'?"
 
@@ -6378,6 +6417,9 @@ msgstr "Вы хотите установить список каналов?"
 
 msgid "Do you want to install the package:\n"
 msgstr "Хотите установить пакет\n"
+
+msgid "Do you want to install:"
+msgstr ""
 
 msgid "Do you want to play DVD in drive?"
 msgstr "Хотите воспроизвести DVD в приводе?"
@@ -6399,16 +6441,11 @@ msgstr "Хотите перезагрузить Ваш %s %s?"
 msgid "Do you want to reboot your receiver?"
 msgstr "Хотите перезагрузить Ваш ресивер?"
 
-#, python-format
-msgid "Do you want to remove '%s'?"
-msgstr "Вы хотите удалить '%s'?"
-
 msgid "Do you want to remove the package:\n"
 msgstr "Хотите удалить пакет\n"
 
-#, python-format
-msgid "Do you want to replace '%s' with '%s?"
-msgstr "Вы хотите заменить '%s' на '%s'?"
+msgid "Do you want to remove:"
+msgstr ""
 
 msgid "Do you want to restore your settings?"
 msgstr "Хотите восстановить Ваши настройки?"
@@ -6422,15 +6459,17 @@ msgstr "Хотите выбрать другой сервис?"
 msgid "Do you want to start a backup now?"
 msgstr "Вы хотите начать резервное копирование сейчас?"
 
-#, python-format
-msgid "Do you want to update '%s'?"
-msgstr "Вы хотите обновить '%s'?"
+msgid "Do you want to update:"
+msgstr ""
 
 msgid "Do you want to upgrade the package:\n"
 msgstr "Хотите обновить пакет\n"
 
 msgid "Documentary"
 msgstr "Документалистика"
+
+msgid "Documentation Packages"
+msgstr ""
 
 msgid "Dolby Digital downmix is now"
 msgstr "Теперь в формате Dolby Digital"
@@ -6491,9 +6530,6 @@ msgstr "Вниз / неактивен"
 msgid "Download Image"
 msgstr "Загрузить изображение"
 
-msgid "Download Plugin"
-msgstr "Скачать плагин"
-
 msgid "Download Plugins"
 msgstr "Установка плагинов"
 
@@ -6514,9 +6550,6 @@ msgstr "Ошибка загрузки"
 
 msgid "Download the selected image"
 msgstr "Загрузите выбранный имидж"
-
-msgid "Download the selected plugin / list of plugins"
-msgstr "Загрузите выбранный плагин/список плагинов"
 
 msgid "Downloadable plugins"
 msgstr "Доступные плагины"
@@ -7145,6 +7178,9 @@ msgstr "Конфигурация центра фильмов"
 msgid "Enigma2 (re)starts"
 msgstr "Enigma2 (пере)запусков"
 
+msgid "Enigma2 Packages"
+msgstr ""
+
 msgid ""
 "Enigma2 Skinselector\n"
 "\n"
@@ -7437,10 +7473,6 @@ msgstr ""
 "Ошибка %s\n"
 "Повторить?"
 
-#, python-format
-msgid "Error: %s %s not %s!  Please try again later."
-msgstr "Ошибка: %s %s, а не %s! Пожалуйста, попробуйте позже."
-
 msgid "Error: An empty filename is illegal!"
 msgstr "Ошибка: пустое имя файла является недопустимым!"
 
@@ -7528,11 +7560,12 @@ msgstr "Ошибка: Невозможно записать выбранный �
 msgid "Error: There was a problem writing '%s'!"
 msgstr "Ошибка: возникла проблема при записи '%s'!"
 
+#, python-format
+msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
+msgstr ""
+
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Невозможно создать необходимые каталоги на носителе (например, USB-накопителе или жёстком диске) - Пожалуйста, проверьте носитель и повторите попытку."
-
-msgid "Error: Unable to process the command!  Please try again later."
-msgstr "Фид не доступен в связи с проведением профилактики, пожалуйста, попробуйте позже."
 
 #, python-format
 msgid "Error: Unable to rename directory '%s' to '%s'!"
@@ -7797,6 +7830,9 @@ msgstr "Переключение шрифтов для внешних субти
 
 msgid "Extra High"
 msgstr "Очень высокий"
+
+msgid "Extra Packages"
+msgstr ""
 
 msgid "Extra motor options"
 msgstr "Продвинутые настройки мотора"
@@ -8070,6 +8106,12 @@ msgstr "Настройки File Commander"
 msgid "File System Check"
 msgstr "Проверка файловой системы"
 
+msgid "File System Packages"
+msgstr ""
+
+msgid "File System Support Packages"
+msgstr ""
+
 msgid "File appears to be busy.\n"
 msgstr "Файл занят\n"
 
@@ -8250,6 +8292,9 @@ msgstr "По положению на пульте"
 msgid "Follow instructions on TV"
 msgstr "Следуйте инструкциям на экране телевизора"
 
+msgid "Font Packages"
+msgstr ""
+
 msgid "Font size"
 msgstr "Размер шрифта"
 
@@ -8276,9 +8321,6 @@ msgstr "Настройки принудительного тонового си�
 
 msgid "Force Legacy Signal stats"
 msgstr "Принудительная статистика устаревших сигналов"
-
-msgid "Force OPKG clean mode"
-msgstr "Принудительный режим очистки OPKG"
 
 msgid "Force ToneBurst"
 msgstr "Тоновый сигнал принудительно"
@@ -9624,6 +9666,10 @@ msgid "Install"
 msgstr "Установить"
 
 #, python-format
+msgid "Install %s"
+msgstr ""
+
+#, python-format
 msgid "Install '%s' command"
 msgstr "Установить команду '%s'"
 
@@ -9638,6 +9684,9 @@ msgstr "Установка завершена."
 
 msgid "Install Local Extension"
 msgstr "Установка локальных пакетов"
+
+msgid "Install Plugin"
+msgstr ""
 
 msgid "Install Plugins"
 msgstr "Установка плагинов"
@@ -9659,6 +9708,9 @@ msgstr "Установить дополнения."
 
 msgid "Install the package"
 msgstr "Установить пакет"
+
+msgid "Install the selected plugin / list of plugins"
+msgstr ""
 
 msgid "Install/Remove plugin"
 msgstr "Установить/удалить плагин"
@@ -9940,6 +9992,9 @@ msgstr "Сохраняет список фильмов открытым при �
 msgid "Kenya"
 msgstr "Кения"
 
+msgid "Kernel Module Packages"
+msgstr ""
+
 msgid "Kernel Packages"
 msgstr "Пакеты ядра"
 
@@ -10116,9 +10171,6 @@ msgstr "Язык уже выбран."
 msgid "Language selection"
 msgstr "Выбор языка"
 
-msgid "Languages"
-msgstr "Языки"
-
 msgid "Lao"
 msgstr "Лаосский"
 
@@ -10207,6 +10259,15 @@ msgstr "Зум в режиме ящика"
 
 msgid "Liberia"
 msgstr "Либерия"
+
+msgid "Library Multimedia Packages"
+msgstr ""
+
+msgid "Library Network Packages"
+msgstr ""
+
+msgid "Library Packages"
+msgstr ""
 
 msgid "Libs"
 msgstr "Libs"
@@ -10397,9 +10458,6 @@ msgstr "Выбор локали/языка"
 
 msgid "Locale/Language Selection Actions"
 msgstr "Действия по выбору локали / языка"
-
-msgid "Locales"
-msgstr "Локаль"
 
 msgid "Locales to be displayed"
 msgstr "Отображаемые локали"
@@ -10625,6 +10683,10 @@ msgstr "Мальта"
 msgid "Maltese"
 msgstr "Мальта"
 
+#, python-format
+msgid "Manage %s"
+msgstr ""
+
 msgid "Manage Locale/Language Selection settings"
 msgstr "Управление настройками выбора локали / языка"
 
@@ -10640,8 +10702,13 @@ msgstr "Управляйте каталогами и файлами и иссл�
 msgid "Manage network mounts"
 msgstr "Управление монтированием сети"
 
-msgid "Manage the highlighted plugin"
-msgstr "Управление выделенным плагином"
+#, python-format
+msgid "Manage the highlighted %s"
+msgstr ""
+
+#, python-format
+msgid "Manage the highlighted %s / list of %s"
+msgstr ""
 
 msgid "Manage your online update files"
 msgstr "Управление файлами онлайн обновления"
@@ -10924,6 +10991,9 @@ msgstr "Mipsel"
 
 msgid "Miscellaneous"
 msgstr "Смешанный"
+
+msgid "Miscellaneous Packages"
+msgstr ""
 
 msgid "Misconfiguration in channel allocation"
 msgstr "Неверная конфигурация в распределении каналов"
@@ -11367,6 +11437,9 @@ msgstr "Мультитранскодирование"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Мультизагрузочный образ создан на: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multimedia Packages"
+msgstr ""
+
 msgid "Multiple service support"
 msgstr "Поддержка нескольких каналов"
 
@@ -11517,6 +11590,12 @@ msgstr "Маска подсети"
 msgid "Network"
 msgstr "Сеть"
 
+msgid "Network (net) Packages"
+msgstr ""
+
+msgid "Network (network) Packages"
+msgstr ""
+
 msgid "Network Adapter Actions"
 msgstr "Действия с сетевым адаптером"
 
@@ -11619,6 +11698,9 @@ msgstr "Сеть"
 
 msgid "NetworkWizard"
 msgstr "Мастер настройки сети"
+
+msgid "Networking Packages"
+msgstr ""
 
 msgid "Neutrino  (keymap.ntr)"
 msgstr "Нейтрино (keymap.ntr)"
@@ -12387,6 +12469,9 @@ msgstr "Отключить показ пиконов в инфобаре"
 msgid "Option to enable the Hardware Standby Timer"
 msgstr "Включить таймер режима ожидания HDD"
 
+msgid "Optional Packages"
+msgstr ""
+
 msgid "Optional parameter"
 msgstr "Необязательный параметр"
 
@@ -12432,6 +12517,9 @@ msgstr "Другая"
 
 msgid "Other Actions"
 msgstr "Другие действия"
+
+msgid "Other Packages"
+msgstr ""
 
 msgid "Other Subtitles & Language"
 msgstr "Другие субтитры и язык"
@@ -12546,6 +12634,9 @@ msgstr "Прайм-тайм"
 msgid "PVR"
 msgstr "PVR"
 
+msgid "Package"
+msgstr ""
+
 msgid "Package Manager"
 msgstr "Управление пакетами"
 
@@ -12566,6 +12657,9 @@ msgstr "Обновление списка пакетов"
 
 msgid "Packaged locales only"
 msgstr "Только упакованные локали"
+
+msgid "Packages"
+msgstr ""
 
 msgid "Packages and associated locales"
 msgstr "Пакеты и связанные с ними локали"
@@ -13092,6 +13186,15 @@ msgstr "Подождите, пока фиды обновятся..."
 msgid "Please wait while gathering data..."
 msgstr "Пожалуйста, подождите, пока собираются данные..."
 
+msgid "Please wait while locale/language is deleted..."
+msgstr ""
+
+msgid "Please wait while locale/language is installed..."
+msgstr ""
+
+msgid "Please wait while locales/languages are purged..."
+msgstr ""
+
 msgid "Please wait while scanning is in progress..."
 msgstr "Пожалуйста, подождите, пока идёт сканирование..."
 
@@ -13101,11 +13204,18 @@ msgstr "Пожалуйста, подождите, пока данные буду
 msgid "Please wait while the list downloads..."
 msgstr "Пожалуйста, подождите, пока список загрузится..."
 
-msgid "Please wait while the plugin is downloaded."
-msgstr "Подождите, пока плагин загрузится."
+msgid "Please wait while the plugin is installed."
+msgid_plural "Please wait while the plugins are installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
+#, fuzzy
 msgid "Please wait while the plugin is removed."
-msgstr "Подождите, пока плагин будет удалён."
+msgid_plural "Please wait while the plugins are removed."
+msgstr[0] "Подождите, пока плагин будет удалён."
+msgstr[1] "Подождите, пока плагин будет удалён."
+msgstr[2] "Подождите, пока плагин будет удалён."
 
 msgid "Please wait while the plugin is replaced."
 msgstr "Пожалуйста, подождите, пока плагин будет заменён."
@@ -13164,6 +13274,9 @@ msgstr "Подключите USB-устройство"
 msgid "Plug in a USB device that can be used as a swap device. Note that this device must not be removed while the %s %s is running!"
 msgstr "Подключите USB-устройство, которое можно использовать в качестве устройства swap. Обратите внимание, что это устройство нельзя удалять во время работы %s %s!"
 
+msgid "Plugin"
+msgstr ""
+
 msgid "Plugin Action Log"
 msgstr "Лог действий плагина"
 
@@ -13176,14 +13289,11 @@ msgstr "Браузер плагинов"
 msgid "Plugin Browser Actions"
 msgstr "Действия в браузере плагинов"
 
-msgid "Plugin Browser Download Actions"
-msgstr "Действия по загрузке браузера плагинов"
-
 msgid "Plugin Browser Edit Actions"
 msgstr "Действия по редактированию браузера плагинов"
 
-msgid "Plugin Browser Manage Actions"
-msgstr "Браузер плагинов Управление действиями"
+msgid "Plugin Browser Install Actions"
+msgstr ""
 
 msgid "Plugin Browser Navigation Actions"
 msgstr "Действия навигации в браузере плагинов"
@@ -13202,6 +13312,9 @@ msgstr "Действия по обновлению браузера плагин
 
 msgid "Plugin Browser layout"
 msgstr "Макет браузера плагинов"
+
+msgid "Plugin Packages"
+msgstr ""
 
 msgid "Plugin Skin Packages"
 msgstr "Пакеты скинов плагинов"
@@ -13703,6 +13816,9 @@ msgstr "Перевести ресивер в режим ожидания"
 
 msgid "Python"
 msgstr "Python"
+
+msgid "Python Development Packages"
+msgstr ""
 
 msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Питоновский интерфейс для /tmp/mmi.socket"
@@ -14222,6 +14338,10 @@ msgstr "Тип пульта управления"
 msgid "Remove"
 msgstr "Удалить"
 
+#, python-format
+msgid "Remove %s"
+msgstr ""
+
 msgid "Remove All Alternatives"
 msgstr "Удалить все альтернативы"
 
@@ -14465,6 +14585,12 @@ msgstr "Зарезервировано для будущего использо�
 msgid "Reset"
 msgstr "Сброс"
 
+msgid "Reset (clear and reload) the feeds"
+msgstr ""
+
+msgid "Reset Feeds"
+msgstr ""
+
 msgid "Reset HDMI-CEC settings to default"
 msgstr "Сбросить настройки HDMI-CEC по умолчанию"
 
@@ -14520,6 +14646,9 @@ msgstr "Перезапуск интерфейса"
 msgid "Restart GUI after x crashes"
 msgstr "Перезапуск графического интерфейса после х сбоя"
 
+msgid "Restart GUI now to start using the new locale/language?"
+msgstr ""
+
 msgid "Restart GUI now?"
 msgstr "Перезагрузить графический интерфейс сейчас?"
 
@@ -14531,6 +14660,9 @@ msgstr "Перезапуск сетевого адаптера"
 
 msgid "Restart enigma"
 msgstr "Перезагрузить Enigma"
+
+msgid "Restart finished"
+msgstr ""
 
 msgid "Restart necessary, restart GUI now?"
 msgstr "Требуется перезагрузка, перезапустить графический интерфейс сейчас?"
@@ -15247,9 +15379,6 @@ msgstr "Выберите 'A' или 'B', если этого требует Ва
 msgid "Select 'Band' if using a 'Universal' LNB, otherwise consult your LNB specifications."
 msgstr "Выберите 'диапазон', если используете 'универсальный' LNB, в противном случае обратитесь к спецификациям LNB."
 
-msgid "Select 'Enable' to force a package clean before a package update. This is helpful to make sure the package list is up-to-date and can avoid/solve issues during the update. Only enable this when you can not update on-line."
-msgstr "Выберите 'Включить', чтобы принудительно очистить пакет перед обновлением пакета. Это полезно, чтобы убедиться, что список пакетов актуален и может избежать/решить проблемы во время обновления. Включайте это только тогда, когда Вы не можете обновляться онлайн."
-
 msgid "Select 'Enable' to start the CI+ helper."
 msgstr "Выберите 'Включить', чтобы запустить помощник CI+."
 
@@ -15397,6 +15526,9 @@ msgstr "Выберите 'Да', чтобы отобразить пакеты Op
 msgid "Select 'Yes' to show OpenViX packages in the Download Plugins screen."
 msgstr "Выберите 'Да', чтобы отобразить пакеты OpenViX на экране загрузки подключаемых модулей."
 
+msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
+msgstr "Выберите 'Да, чтобы отобразить пакеты softcam на экране загрузки подключаемых модулей."
+
 msgid "Select 'Yes' to show directories at the top/start of the list, or select 'No' to show files first."
 msgstr "Выберите 'Да', чтобы показать каталоги вверху/в начале списка, или выберите 'Нет', чтобы сначала отображались файлы."
 
@@ -15430,9 +15562,6 @@ msgstr "Выберите 'Да', чтобы отобразить пакеты к
 msgid "Select 'Yes' to show skin packages in the Download Plugins screen."
 msgstr "Выберите 'Да', чтобы отобразить пакеты скинов на экране загрузки плагинов."
 
-msgid "Select 'Yes' to show Softcam packages in the Download Plugins screen."
-msgstr "Выберите 'Да, чтобы отобразить пакеты softcam на экране загрузки подключаемых модулей."
-
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Выберите 'Да', чтобы отобразить исходные пакеты 'src' на экране загрузки подключаемых модулей."
 
@@ -15465,6 +15594,9 @@ msgstr "Если выберете 'Да', при перемотке записе
 
 msgid "Select Additional Backup Files"
 msgstr "Добавить файлы в резервную копию"
+
+msgid "Select AutoCam default Softcam"
+msgstr ""
 
 msgid "Select Backup Location"
 msgstr "Выбор расположения копии"
@@ -15514,6 +15646,9 @@ msgstr "Выберите 4X каналы"
 msgid "Select Satellites"
 msgstr "Выбор спутников"
 
+msgid "Select Softcam"
+msgstr "Выберите ЭМУ"
+
 msgid "Select Software Update"
 msgstr "Выбор обновления ПО"
 
@@ -15528,6 +15663,12 @@ msgstr "Выбор источника для редактирования"
 
 msgid "Select Your Skin"
 msgstr "Выберите свой скин"
+
+msgid "Select a Softcam from the available list as the default for AutoCam."
+msgstr ""
+
+msgid "Select a Softcam from the available list."
+msgstr "Выберите эмулятор из доступного списка."
 
 msgid "Select a bouquet"
 msgstr "Выберите фаворит"
@@ -15569,12 +15710,6 @@ msgstr "Выберите журнал записей репозитория дл
 msgid "Select a script to run:"
 msgstr "Выбор скрипта для запуска"
 
-msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
-
-msgid "Select a Softcam from the available list."
-msgstr "Выберите эмулятор из доступного списка."
-
 msgid "Select a tuner"
 msgstr "Выберите тюнер"
 
@@ -15599,9 +15734,6 @@ msgstr "Выберите действие, которое необходимо �
 
 msgid "Select audio track"
 msgstr "Выбрать звуковую дорожку"
-
-msgid "Select AutoCam default Softcam"
-msgstr ""
 
 msgid "Select cardserver"
 msgstr "Выберите кардсервер"
@@ -15732,9 +15864,6 @@ msgstr "Выберите информацию о канале для просм�
 msgid "Select service to add..."
 msgstr "Выберите канал для добавления..."
 
-msgid "Select Softcam"
-msgstr "Выберите ЭМУ"
-
 msgid "Select sort method:"
 msgstr "Выбор метода сортировки"
 
@@ -15753,6 +15882,9 @@ msgstr "Выберите Нет / Ложный ответ"
 #, python-format
 msgid "Select the Softcam for '%s'"
 msgstr ""
+
+msgid "Select the Softcam protocol."
+msgstr "Выберать протокол softcam."
 
 msgid "Select the Swap File Size:"
 msgstr "Выбор размера для файла подкачки"
@@ -15952,9 +16084,6 @@ msgstr "Выберите действие таймера сна"
 
 msgid "Select the shifted character set for the next character only"
 msgstr "Выберите смещённый набор символов только для следующего символа"
-
-msgid "Select the Softcam protocol."
-msgstr "Выберать протокол softcam."
 
 msgid "Select the sort order for the file lines:"
 msgstr "Выберите порядок сортировки строк файла:"
@@ -17190,11 +17319,11 @@ msgstr "Показать имидж"
 msgid "Show image and save as '%s'"
 msgstr "Показать имидж и сохранить как '%s'"
 
-msgid "Show in Standby"
-msgstr "Показать в режиме ожидания"
-
 msgid "Show in Extension Menu"
 msgstr "Показать в меню дополнений"
+
+msgid "Show in Standby"
+msgstr "Показать в режиме ожидания"
 
 msgid "Show info"
 msgstr "Показать инфо"
@@ -17891,6 +18020,9 @@ msgstr "Настройки ЭМУ"
 
 msgid "Softcam Setup"
 msgstr "Настройка Softcam"
+
+msgid "Softcams"
+msgstr ""
 
 msgid "Software Management"
 msgstr "Управление ПО"
@@ -20515,6 +20647,9 @@ msgstr ""
 "Неизвестная ошибка при создании скина.\n"
 "После перезагрузки проверьте и примените настройки в плагине MyMetrixLite."
 
+msgid "Unknown Packages"
+msgstr ""
+
 msgid "Unknown Service"
 msgstr "Неизвестный канал"
 
@@ -20726,6 +20861,9 @@ msgstr "Использовать"
 msgid "Use 'Trash' in movie list"
 msgstr "Использование корзины в списке фильмов"
 
+msgid "Use AutoCam"
+msgstr ""
+
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
@@ -20788,9 +20926,6 @@ msgstr "Использовать альтернативное окно."
 
 msgid "Use as HDD"
 msgstr "Как HDD"
-
-msgid "Use AutoCam"
-msgstr ""
 
 msgid "Use automatic mode detection"
 msgstr "Использовать автоматическое определение режима"
@@ -21002,6 +21137,9 @@ msgstr "Использовать старый профиль "
 
 msgid "Usually when the subtitle language is the same as the audio language, the subtitles will not be used. Enable this option to allow these subtitles to be used."
 msgstr "Обычно когда язык субтитров совпадает с языком аудио, субтитры не показываются. Этот выбор позволяет показывать субтитры, даже если они совпадают с языком аудио."
+
+msgid "Utility Packages"
+msgstr ""
 
 msgid "Uzbek"
 msgstr "Узбекистан"
@@ -21475,6 +21613,10 @@ msgstr "Война"
 msgid "Warning"
 msgstr "Предупреждение"
 
+#, python-format
+msgid "Warning: %d feeds were unable to be reloaded!"
+msgstr ""
+
 msgid "Warning: Overrides are currently active!"
 msgstr "Внимание: переопределения в настоящее время активны!"
 
@@ -21946,6 +22088,27 @@ msgstr "www"
 
 msgid "X-Resolution"
 msgstr "X-разрешение"
+
+msgid "X11 Base Packages"
+msgstr ""
+
+msgid "X11 Font Packages"
+msgstr ""
+
+msgid "X11 Gnome Library Packages"
+msgstr ""
+
+msgid "X11 Gnome Packages"
+msgstr ""
+
+msgid "X11 Library Packages"
+msgstr ""
+
+msgid "X11 Packages"
+msgstr ""
+
+msgid "X11 Utility Packages"
+msgstr ""
 
 msgid "XBox 360 support"
 msgstr "Поддержка XBox360"
@@ -22625,9 +22788,6 @@ msgstr "Удалить"
 msgid "delete cut"
 msgstr "Удалить вырезанное"
 
-msgid "deleted"
-msgstr "удалено"
-
 msgid "detective/thriller"
 msgstr "Детектив/Триллер"
 
@@ -22887,9 +23047,6 @@ msgstr "Инициализация модулей"
 msgid "insert mark here"
 msgstr "Вставить метку"
 
-msgid "installed"
-msgstr "установлен"
-
 msgid "instant record"
 msgstr "Мгновенная запись"
 
@@ -23109,6 +23266,12 @@ msgstr "цвет оранжевый"
 msgid "original language"
 msgstr "Язык оригинала"
 
+msgid "package"
+msgstr ""
+
+msgid "packages"
+msgstr ""
+
 msgid "pass"
 msgstr "Передать"
 
@@ -23123,6 +23286,12 @@ msgstr "цвет розовый"
 
 msgid "please wait, loading picture..."
 msgstr "Ждите. Загрузка изображения..."
+
+msgid "plugin"
+msgstr ""
+
+msgid "plugins"
+msgstr ""
 
 msgid "pm"
 msgstr "После полудня"
@@ -23317,6 +23486,12 @@ msgstr "Социальные/Политика/Экономика (Общие)"
 
 msgid "social/spiritual science"
 msgstr "Социальная/Духовная наука"
+
+msgid "softcam"
+msgstr "ЭМУ"
+
+msgid "softcams"
+msgstr ""
 
 msgid "special (general)"
 msgstr "специальный (общий)"
@@ -23520,6 +23695,75 @@ msgstr "Да (оставить фиды)"
 msgid "®"
 msgstr "®"
 
+#, python-format
+#~ msgid "%d package found."
+#~ msgid_plural "%d packages found."
+#~ msgstr[0] "Найдено %d пакет."
+#~ msgstr[1] "Найдено %d пакета."
+#~ msgstr[2] "Найдено %d пакетов."
+
+#~ msgid "Add/Remove highlighted plugin to/from download list"
+#~ msgstr "Добавить/удалить выделенный плагин в/из списка загрузки"
+
+#, python-format
+#~ msgid "Do you want to download '%s'?"
+#~ msgstr "Вы хотите скачать '%s'?"
+
+#, python-format
+#~ msgid "Do you want to remove '%s'?"
+#~ msgstr "Вы хотите удалить '%s'?"
+
+#, python-format
+#~ msgid "Do you want to replace '%s' with '%s?"
+#~ msgstr "Вы хотите заменить '%s' на '%s'?"
+
+#, python-format
+#~ msgid "Do you want to update '%s'?"
+#~ msgstr "Вы хотите обновить '%s'?"
+
+#~ msgid "Download Plugin"
+#~ msgstr "Скачать плагин"
+
+#~ msgid "Download the selected plugin / list of plugins"
+#~ msgstr "Загрузите выбранный плагин/список плагинов"
+
+#, python-format
+#~ msgid "Error: %s %s not %s!  Please try again later."
+#~ msgstr "Ошибка: %s %s, а не %s! Пожалуйста, попробуйте позже."
+
+#~ msgid "Error: Unable to process the command!  Please try again later."
+#~ msgstr "Фид не доступен в связи с проведением профилактики, пожалуйста, попробуйте позже."
+
+#~ msgid "Force OPKG clean mode"
+#~ msgstr "Принудительный режим очистки OPKG"
+
+#~ msgid "Languages"
+#~ msgstr "Языки"
+
+#~ msgid "Locales"
+#~ msgstr "Локаль"
+
+#~ msgid "Manage the highlighted plugin"
+#~ msgstr "Управление выделенным плагином"
+
+#~ msgid "Please wait while the plugin is downloaded."
+#~ msgstr "Подождите, пока плагин загрузится."
+
+#~ msgid "Plugin Browser Download Actions"
+#~ msgstr "Действия по загрузке браузера плагинов"
+
+#~ msgid "Plugin Browser Manage Actions"
+#~ msgstr "Браузер плагинов Управление действиями"
+
+#~ msgid "Select 'Enable' to force a package clean before a package update. This is helpful to make sure the package list is up-to-date and can avoid/solve issues during the update. Only enable this when you can not update on-line."
+#~ msgstr "Выберите 'Включить', чтобы принудительно очистить пакет перед обновлением пакета. Это полезно, чтобы убедиться, что список пакетов актуален и может избежать/решить проблемы во время обновления. Включайте это только тогда, когда Вы не можете обновляться онлайн."
+
+#~ msgid "deleted"
+#~ msgstr "удалено"
+
+#~ msgid "installed"
+#~ msgstr "установлен"
+
 #~ msgid "Allows you to show/hide CCcam in extensions (BLUE button)."
 #~ msgstr "Позволяет показать/скрыть CCcam в дополнениях (СИНЯЯ кнопка)."
 
@@ -23559,9 +23803,6 @@ msgstr "®"
 
 #~ msgid "cardserver"
 #~ msgstr "кардсервер"
-
-#~ msgid "softcam"
-#~ msgstr "ЭМУ"
 
 #~ msgid "CI Helper Settings"
 #~ msgstr "Настройки CIHelper"
