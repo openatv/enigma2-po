@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 10:18+0000\n"
-"PO-Revision-Date: 2023-11-15 19:07+0000\n"
+"POT-Creation-Date: 2023-11-23 11:43+0000\n"
+"PO-Revision-Date: 2023-11-26 19:27+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 "X-Poedit-SourceCharset: iso-8859-5\n"
 
 msgid ""
@@ -1008,9 +1008,9 @@ msgstr[2] "%d пакетов, помеченных для удаления."
 #, python-format
 msgid "%d package marked for update."
 msgid_plural "%d packages marked for update."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d пакет помечен для обновления."
+msgstr[1] "%d пакета помечены для обновления."
+msgstr[2] "%d пакетов помечены для обновления."
 
 #, python-format
 msgid "%d package upgraded."
@@ -1222,7 +1222,7 @@ msgstr "%s - Настройка"
 
 #, python-format
 msgid "%s Browser Manage Actions"
-msgstr ""
+msgstr "%s Действия по управлению браузером"
 
 #, python-format
 msgid "%s GHz"
@@ -2057,7 +2057,7 @@ msgid "Add service"
 msgstr "Добавить канал"
 
 msgid "Add service to AutoCam"
-msgstr ""
+msgstr "Добавить сервис в AutoCam"
 
 msgid "Add services to this bouquet?"
 msgstr "Добавить каналы в этот букет?"
@@ -2078,7 +2078,7 @@ msgid "Add/Remove a timer for the current event"
 msgstr "Добавить/удалить таймер для идущей передачи"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr ""
+msgstr "Добавить/удалить выделенный плагин в/из списка установки"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr "Добавить/удалить выделенный плагин в/из списка удаления"
@@ -2288,7 +2288,7 @@ msgid "Allows you to show/hide Log Manager in the Extension Menu screen (BLUE bu
 msgstr "Позволяет показать/скрыть менеджер логов в дополнениях (СИНЯЯ кнопка)."
 
 msgid "Allows you to show/hide OScam/CCcam in the Extension Menu screen (BLUE button)."
-msgstr ""
+msgstr "Позволяет отображать/скрывать OScam/CCcam на экране меню расширений (СИНЯЯ кнопка)."
 
 msgid "Almost there... "
 msgstr "Почти готово... "
@@ -2718,10 +2718,10 @@ msgid "Auto(not available)"
 msgstr "Авто (Не доступен)"
 
 msgid "AutoCam Settings"
-msgstr ""
+msgstr "Настройки AutoCam"
 
 msgid "AutoCam Setup Actions"
-msgstr ""
+msgstr "Действия по настройке AutoCam"
 
 msgid "AutoMountManager"
 msgstr "Установки автомонтирования"
@@ -2973,10 +2973,10 @@ msgid "Barbados"
 msgstr "Барбадос"
 
 msgid "Base Packages"
-msgstr ""
+msgstr "Основные пакеты"
 
 msgid "Base Shell Packages"
-msgstr ""
+msgstr "Основные пакеты оболочки"
 
 msgid "Base time"
 msgstr "Базовое время"
@@ -3657,7 +3657,7 @@ msgid "Cancel selection and exit"
 msgstr "Отменить выбор и выйти"
 
 msgid "Cancel the Reset Feeds command currently being processed"
-msgstr ""
+msgstr "Отменить команду 'Сбросить каналы', которая в данный момент обрабатывается"
 
 msgid "Cancel the bouquet selection"
 msgstr "Отменить выбор букета"
@@ -3734,7 +3734,7 @@ msgid "Cardserial"
 msgstr "Серийный номер карты"
 
 msgid "Cardserver Settings"
-msgstr ""
+msgstr "Настройки картсервера"
 
 msgid "Cartoon"
 msgstr "Мультфильм"
@@ -4826,13 +4826,13 @@ msgid "Console"
 msgstr "Консоль"
 
 msgid "Console Network Packages"
-msgstr ""
+msgstr "Консольные сетевые пакеты"
 
 msgid "Console Packages"
-msgstr ""
+msgstr "Консольные пакеты"
 
 msgid "Console Utility Packages"
-msgstr ""
+msgstr "Console Utility Packages"
 
 msgid "Constellation"
 msgstr "Созвездие"
@@ -5599,6 +5599,9 @@ msgstr "Значение по умолчанию для 'После событи
 msgid "Default 'Timer type' *"
 msgstr "Значение по умолчанию для 'Тип таймера' *"
 
+msgid "Default Astra (13e-19e)"
+msgstr "по умолчанию Astra (13Е-19Е)"
+
 msgid "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. (higher values = lower priority)"
 msgstr "Приоритет процессора по умолчанию (рекомендуемый) для исполняемых скриптов. Это может снизить нагрузку на систему, чтобы скрипты не мешали работе остальной системы. (более высокие значения = более низкий приоритет)"
 
@@ -5659,10 +5662,10 @@ msgid "Defaults"
 msgstr "Сброс"
 
 msgid "Define Softcam For This Provider"
-msgstr ""
+msgstr "Определить Softcam для этого провайдера"
 
 msgid "Define Softcam For This Service"
-msgstr ""
+msgstr "Определить Softcam для этого канала"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Определите дополнительную задержку в миллисекундах перед запуском потоков http (s)."
@@ -6389,7 +6392,7 @@ msgid "Do you want to install a channel list?"
 msgstr "Вы хотите установить список каналов?"
 
 msgid "Do you want to install:"
-msgstr ""
+msgstr "Вы хотите установить:"
 
 msgid "Do you want to play DVD in drive?"
 msgstr "Хотите воспроизвести DVD в приводе?"
@@ -6409,7 +6412,7 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "Хотите перезагрузить Ваш %s %s?"
 
 msgid "Do you want to remove:"
-msgstr ""
+msgstr "Вы хотите удалить:"
 
 msgid "Do you want to restore your settings?"
 msgstr "Хотите восстановить Ваши настройки?"
@@ -6424,7 +6427,7 @@ msgid "Do you want to start a backup now?"
 msgstr "Вы хотите начать резервное копирование сейчас?"
 
 msgid "Do you want to update:"
-msgstr ""
+msgstr "Вы хотите обновить:"
 
 msgid "Documentary"
 msgstr "Документалистика"
@@ -7517,7 +7520,7 @@ msgstr "Ошибка: возникла проблема при записи '%s'
 
 #, python-format
 msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
-msgstr ""
+msgstr "Ошибка: возникла проблема со сбросом каналов! Пожалуйста, перезагрузите %s %s и проверьте файловую систему на наличие ошибок, прежде чем повторить эту команду."
 
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Невозможно создать необходимые каталоги на носителе (например, USB-накопителе или жёстком диске) - Пожалуйста, проверьте носитель и повторите попытку."
@@ -8059,7 +8062,7 @@ msgid "File System Check"
 msgstr "Проверка файловой системы"
 
 msgid "File System Packages"
-msgstr ""
+msgstr "Пакеты файловой системы"
 
 msgid "File appears to be busy.\n"
 msgstr "Файл занят\n"
@@ -9610,7 +9613,7 @@ msgstr "Установить"
 
 #, python-format
 msgid "Install %s"
-msgstr ""
+msgstr "Установить %s"
 
 #, python-format
 msgid "Install '%s' command"
@@ -9623,7 +9626,7 @@ msgid "Install Local Extension"
 msgstr "Установка локальных пакетов"
 
 msgid "Install Plugin"
-msgstr ""
+msgstr "Установить плагин"
 
 msgid "Install Plugins"
 msgstr "Установка плагинов"
@@ -9644,7 +9647,7 @@ msgid "Install the package"
 msgstr "Установить пакет"
 
 msgid "Install the selected plugin / list of plugins"
-msgstr ""
+msgstr "Установить выбранный плагин/список плагинов"
 
 msgid "Installation finished."
 msgstr "Установка завершена."
@@ -9655,9 +9658,6 @@ msgstr "Установка"
 #, python-format
 msgid "Installing %s (%s)..."
 msgstr "Установка %s (%s)..."
-
-msgid "Installing Please wait..."
-msgstr "Установка, пожалуйста, подождите..."
 
 msgid "Installing Service"
 msgstr "Установка сервиса"
@@ -9670,6 +9670,9 @@ msgstr "Установка фидов из IPK ..."
 
 msgid "Installing feeds from feed ..."
 msgstr "Установка фидов из фида ..."
+
+msgid "Installing package."
+msgstr "Установка пакета."
 
 msgid "Installing plugins from IPK ..."
 msgstr "Установка плагинов из IPK ..."
@@ -10189,7 +10192,7 @@ msgid "Liberia"
 msgstr "Либерия"
 
 msgid "Library Packages"
-msgstr ""
+msgstr "Библиотечные пакеты"
 
 msgid "Libs"
 msgstr "Libs"
@@ -10607,7 +10610,7 @@ msgstr "Мальта"
 
 #, python-format
 msgid "Manage %s"
-msgstr ""
+msgstr "Управление %s"
 
 msgid "Manage Locale/Language Selection settings"
 msgstr "Управление настройками выбора локали / языка"
@@ -10626,11 +10629,11 @@ msgstr "Управление монтированием сети"
 
 #, python-format
 msgid "Manage the highlighted %s"
-msgstr ""
+msgstr "Управлять выделенным %s"
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
-msgstr ""
+msgstr "Управление выделенным %s / списком %s"
 
 msgid "Manage your online update files"
 msgstr "Управление файлами онлайн обновления"
@@ -11357,7 +11360,7 @@ msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Мультизагрузочный образ создан на: %s/%s-%s-%s-backup-%s_usb.zip"
 
 msgid "Multimedia Packages"
-msgstr ""
+msgstr "Мультимедийные пакеты"
 
 msgid "Multiple service support"
 msgstr "Поддержка нескольких каналов"
@@ -11546,7 +11549,7 @@ msgid "Network Neighbourhood"
 msgstr "Сетевые ресурсы"
 
 msgid "Network Packages"
-msgstr ""
+msgstr "Сетевые пакеты"
 
 msgid "Network Restart"
 msgstr "Перезапуск сети"
@@ -12429,7 +12432,7 @@ msgid "Other Actions"
 msgstr "Другие действия"
 
 msgid "Other Packages"
-msgstr ""
+msgstr "Другие пакеты"
 
 msgid "Other Subtitles & Language"
 msgstr "Другие субтитры и язык"
@@ -12545,7 +12548,7 @@ msgid "PVR"
 msgstr "PVR"
 
 msgid "Package"
-msgstr ""
+msgstr "Пакет"
 
 msgid "Package Manager"
 msgstr "Управление пакетами"
@@ -12557,7 +12560,7 @@ msgid "Package information currently not available!"
 msgstr "Информация о пакете в настоящее время недоступна!"
 
 msgid "Package installation failed."
-msgstr "Установка пакета не удалась"
+msgstr "Установка пакета не удалась."
 
 msgid "Package list update"
 msgstr "Обновление списка пакетов"
@@ -12566,7 +12569,7 @@ msgid "Packaged locales only"
 msgstr "Только упакованные локали"
 
 msgid "Packages"
-msgstr ""
+msgstr "Пакеты"
 
 msgid "Packages and associated locales"
 msgstr "Пакеты и связанные с ними локали"
@@ -13091,13 +13094,13 @@ msgid "Please wait while gathering data..."
 msgstr "Пожалуйста, подождите, пока собираются данные..."
 
 msgid "Please wait while locale/language is deleted..."
-msgstr ""
+msgstr "Пожалуйста, подождите, пока локаль/язык будут удалены..."
 
 msgid "Please wait while locale/language is installed..."
-msgstr ""
+msgstr "Пожалуйста, подождите, пока будет установлена локаль/язык..."
 
 msgid "Please wait while locales/languages are purged..."
-msgstr ""
+msgstr "Пожалуйста, подождите, пока будут удалены локали/языки..."
 
 msgid "Please wait while scanning is in progress..."
 msgstr "Пожалуйста, подождите, пока идёт сканирование..."
@@ -13110,16 +13113,15 @@ msgstr "Пожалуйста, подождите, пока список загр
 
 msgid "Please wait while the plugin is installed."
 msgid_plural "Please wait while the plugins are installed."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пожалуйста, подождите, пока плагин будет установлен."
+msgstr[1] "Пожалуйста, подождите, пока плагина установятся."
+msgstr[2] "Пожалуйста, подождите, пока плагины установятся."
 
-#, fuzzy
 msgid "Please wait while the plugin is removed."
 msgid_plural "Please wait while the plugins are removed."
 msgstr[0] "Подождите, пока плагин будет удалён."
-msgstr[1] "Подождите, пока плагин будет удалён."
-msgstr[2] "Подождите, пока плагин будет удалён."
+msgstr[1] "Подождите, пока плагины будут удалены."
+msgstr[2] "Подождите, пока плагины будут удалены."
 
 msgid "Please wait while the plugin is replaced."
 msgstr "Пожалуйста, подождите, пока плагин будет заменён."
@@ -13179,7 +13181,7 @@ msgid "Plug in a USB device that can be used as a swap device. Note that this de
 msgstr "Подключите USB-устройство, которое можно использовать в качестве устройства swap. Обратите внимание, что это устройство нельзя удалять во время работы %s %s!"
 
 msgid "Plugin"
-msgstr ""
+msgstr "Плагин"
 
 msgid "Plugin Action Log"
 msgstr "Лог действий плагина"
@@ -13197,7 +13199,7 @@ msgid "Plugin Browser Edit Actions"
 msgstr "Действия по редактированию браузера плагинов"
 
 msgid "Plugin Browser Install Actions"
-msgstr ""
+msgstr "Действия по установке плагина в браузере"
 
 msgid "Plugin Browser Navigation Actions"
 msgstr "Действия навигации в браузере плагинов"
@@ -13218,7 +13220,7 @@ msgid "Plugin Browser layout"
 msgstr "Макет браузера плагинов"
 
 msgid "Plugin Packages"
-msgstr ""
+msgstr "Пакеты плагинов"
 
 msgid "Plugin Skin Packages"
 msgstr "Пакеты скинов плагинов"
@@ -13722,7 +13724,7 @@ msgid "Python"
 msgstr "Python"
 
 msgid "Python Development Packages"
-msgstr ""
+msgstr "Пакеты разработки Python"
 
 msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Питоновский интерфейс для /tmp/mmi.socket"
@@ -14241,7 +14243,7 @@ msgstr "Удалить"
 
 #, python-format
 msgid "Remove %s"
-msgstr ""
+msgstr "Удалить %s"
 
 msgid "Remove All Alternatives"
 msgstr "Удалить все альтернативы"
@@ -14346,7 +14348,7 @@ msgid "Remove selected service"
 msgstr "Удалить выбранный канал"
 
 msgid "Remove service from AutoCam"
-msgstr ""
+msgstr "Удалить канал из AutoCam"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr "Удалить тексты для слабослышащих из внешних субтитров (инструментальная музыка или звуки окружающей среды, например, когда раздаётся звонок в дверь или выстрел)."
@@ -14481,10 +14483,10 @@ msgid "Reset"
 msgstr "Сброс"
 
 msgid "Reset (clear and reload) the feeds"
-msgstr ""
+msgstr "Сбросьте (очистите и перезагрузите) каналы"
 
 msgid "Reset Feeds"
-msgstr ""
+msgstr "Сбросить каналы"
 
 msgid "Reset HDMI-CEC settings to default"
 msgstr "Сбросить настройки HDMI-CEC по умолчанию"
@@ -14542,7 +14544,7 @@ msgid "Restart GUI after x crashes"
 msgstr "Перезапуск графического интерфейса после х сбоя"
 
 msgid "Restart GUI now to start using the new locale/language?"
-msgstr ""
+msgstr "Перезапустить графический интерфейс сейчас, чтобы начать использовать новую локаль/язык?"
 
 msgid "Restart GUI now?"
 msgstr "Перезагрузить графический интерфейс сейчас?"
@@ -14575,7 +14577,7 @@ msgid "Restart your network connection and interfaces."
 msgstr "Перезапуск сетевых подключений и интерфейсов."
 
 msgid "Restarting..."
-msgstr ""
+msgstr "Перезапуск..."
 
 msgid "Restore"
 msgstr "Восстановить"
@@ -15491,7 +15493,7 @@ msgid "Select Additional Backup Files"
 msgstr "Добавить файлы в резервную копию"
 
 msgid "Select AutoCam default Softcam"
-msgstr ""
+msgstr "Выберите Softcam по умолчанию для AutoCam"
 
 msgid "Select Backup Location"
 msgstr "Выбор расположения копии"
@@ -15560,7 +15562,7 @@ msgid "Select Your Skin"
 msgstr "Выберите свой скин"
 
 msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
+msgstr "Выберите Softcam из доступного списка, который будет использоваться по умолчанию для AutoCam."
 
 msgid "Select a Softcam from the available list."
 msgstr "Выберите эмулятор из доступного списка."
@@ -15776,7 +15778,7 @@ msgstr "Выберите Нет / Ложный ответ"
 
 #, python-format
 msgid "Select the Softcam for '%s'"
-msgstr ""
+msgstr "Выберите Softcam для '%s'"
 
 msgid "Select the Softcam protocol."
 msgstr "Выберать протокол softcam."
@@ -15812,7 +15814,7 @@ msgid "Select the animation speed of the button indicators in the help screens. 
 msgstr "Управляйте скоростью анимации индикаторов кнопок на экране справки. 'Отключено' отключает анимацию, чтобы индикаторы переходили между кнопками."
 
 msgid "Select the cardserver to be used from the list of available cardservers."
-msgstr ""
+msgstr "Выберите картсервер, который будет использоваться, из списка доступных картсерверов."
 
 msgid "Select the channel from which to record:"
 msgstr "Выберите канал для записи:"
@@ -16995,7 +16997,7 @@ msgid "Show OScam Info"
 msgstr "Показать информацию OScam"
 
 msgid "Show OScam/CCcam in Extension Menu"
-msgstr ""
+msgstr "Показать OScam/CCcam в меню расширений"
 
 msgid "Show OpenPLi packages"
 msgstr "Показать пакеты OpenPLi"
@@ -17871,6 +17873,9 @@ msgstr "Лёгкий имидж"
 msgid "Small Box Preparation"
 msgstr "Подготовка маленького бокса"
 
+msgid "Small Box Preparation Actions"
+msgstr "Действия по подготовке небольшой коробки"
+
 msgid "Small Test"
 msgstr "Небольшой тест"
 
@@ -17917,7 +17922,7 @@ msgid "Softcam Setup"
 msgstr "Настройка Softcam"
 
 msgid "Softcams"
-msgstr ""
+msgstr "Softcams"
 
 msgid "Software Management"
 msgstr "Управление ПО"
@@ -18790,7 +18795,7 @@ msgid "TMDB Search"
 msgstr "Поиск по TMDB"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Коррекция перевода Monja 14.11.2023"
+msgstr "Коррекция перевода Monja 26.11.2023"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл слишком большой для ISO9660 уровень 1!"
@@ -20540,7 +20545,7 @@ msgstr ""
 "После перезагрузки проверьте и примените настройки в плагине MyMetrixLite."
 
 msgid "Unknown Packages"
-msgstr ""
+msgstr "Неизвестные пакеты"
 
 msgid "Unknown Service"
 msgstr "Неизвестный канал"
@@ -20661,9 +20666,6 @@ msgstr "Обновление завершено!"
 msgid "Update interval (in seconds)"
 msgstr "Интервал обновления (в секундах)"
 
-msgid "Update package list please wait..."
-msgstr "Обновление списка пакетов, пожалуйста, подождите..."
-
 msgid ""
 "Update succeeded!\n"
 "Your Bootloader is now up-to-date!"
@@ -20694,6 +20696,9 @@ msgstr "Обновление"
 
 msgid "Updating mount locations."
 msgstr "Обновление параметров монтирования."
+
+msgid "Updating package list."
+msgstr "Обновление списка пакетов."
 
 msgid "Upgrade (Flash & restore all)"
 msgstr "Обновление (прошить и восстановить всё)"
@@ -20754,7 +20759,7 @@ msgid "Use 'Trash' in movie list"
 msgstr "Использование корзины в списке фильмов"
 
 msgid "Use AutoCam"
-msgstr ""
+msgstr "Используйте AutoCam"
 
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
@@ -21031,7 +21036,7 @@ msgid "Usually when the subtitle language is the same as the audio language, the
 msgstr "Обычно когда язык субтитров совпадает с языком аудио, субтитры не показываются. Этот выбор позволяет показывать субтитры, даже если они совпадают с языком аудио."
 
 msgid "Utility Packages"
-msgstr ""
+msgstr "Пакеты утилит"
 
 msgid "Uzbek"
 msgstr "Узбекистан"
@@ -21507,7 +21512,7 @@ msgstr "Предупреждение"
 
 #, python-format
 msgid "Warning: %d feeds were unable to be reloaded!"
-msgstr ""
+msgstr "Внимание: %d каналов не удалось перезагрузить!"
 
 msgid "Warning: Overrides are currently active!"
 msgstr "Внимание: переопределения в настоящее время активны!"
@@ -21828,7 +21833,7 @@ msgid "When set the PIG will return to live after a movie has stopped playing."
 msgstr "Если выбрано PiG-окно, после окончания записи будет включен ранее просматриваемый канал."
 
 msgid "When set to 'Yes' a specific Softcam can be assigned to each encrypted service."
-msgstr ""
+msgstr "Если установлено значение 'Да', для каждого зашифрованного канала можно назначить конкретный Softcam."
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
 msgstr "Когда изображение на канале имеет соотношение сторон 16:9, выберите, следует ли масштабировать/растянуть картинку."
@@ -21982,7 +21987,7 @@ msgid "X-Resolution"
 msgstr "X-разрешение"
 
 msgid "X11 Packages"
-msgstr ""
+msgstr "Пакеты X11"
 
 msgid "XBox 360 support"
 msgstr "Поддержка XBox360"
@@ -22653,9 +22658,6 @@ msgstr "Понизить uphop de 1"
 msgid "default"
 msgstr "По умолчанию"
 
-msgid "Default Astra (13e-19e)"
-msgstr "по умолчанию Astra (13Е-19Е)"
-
 msgid "delete"
 msgstr "Удалить"
 
@@ -23083,9 +23085,6 @@ msgstr "Менеджер ресурсов отсутствует"
 msgid "no storage devices found"
 msgstr "Устройства не найдены"
 
-msgid "none"
-msgstr "Нет"
-
 msgid "normal"
 msgstr "нормальный"
 
@@ -23141,10 +23140,10 @@ msgid "original language"
 msgstr "Язык оригинала"
 
 msgid "package"
-msgstr ""
+msgstr "пакет"
 
 msgid "packages"
-msgstr ""
+msgstr "пакеты"
 
 msgid "pass"
 msgstr "Передать"
@@ -23162,10 +23161,10 @@ msgid "please wait, loading picture..."
 msgstr "Ждите. Загрузка изображения..."
 
 msgid "plugin"
-msgstr ""
+msgstr "плагин"
 
 msgid "plugins"
-msgstr ""
+msgstr "плагины"
 
 msgid "pm"
 msgstr "После полудня"
@@ -23365,7 +23364,7 @@ msgid "softcam"
 msgstr "ЭМУ"
 
 msgid "softcams"
-msgstr ""
+msgstr "плагин"
 
 msgid "special (general)"
 msgstr "специальный (общий)"
@@ -23568,6 +23567,15 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Installing Please wait..."
+#~ msgstr "Установка, пожалуйста, подождите..."
+
+#~ msgid "Update package list please wait..."
+#~ msgstr "Обновление списка пакетов, пожалуйста, подождите..."
+
+#~ msgid "none"
+#~ msgstr "Нет"
 
 #~ msgid "After pressing OK, please wait!"
 #~ msgstr "После нажатия ОК пожалуйста, подождите!"
