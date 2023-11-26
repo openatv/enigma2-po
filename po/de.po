@@ -16,16 +16,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 10:18+0000\n"
-"PO-Revision-Date: 2023-11-22 04:28+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2023-11-23 11:43+0000\n"
+"PO-Revision-Date: 2023-11-24 08:29+0000\n"
+"Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -4846,7 +4846,7 @@ msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Horizontale Ausrichtung von Untertiteln einstellen."
 
 msgid "Configure the initial fast forward speed. When you press the fast forward button, winding will start at this speed."
-msgstr "Den Anfangswert der Vorlaufgeschwindigkeit einstellen. Wenn Sie die Taste für den schnellen Vorlauf drücken, wird mit diesem Wert begonnen."
+msgstr "Den Anfangswert der Vorlaufgeschwindigkeit einstellen. Mit diesm Wert wird begonnen, wenn die Taste für den schnellen Vorlauf gedrückt wird."
 
 msgid "Configure the initial rewind speed. When you press the rewind button, winding will start at this speed."
 msgstr "Den Anfangswert der Rücklaufgeschwindigkeit einstellen. Wenn Sie die Taste für den schnellen Rücklauf drücken, wird mit diesem Wert begonnen."
@@ -5889,6 +5889,9 @@ msgstr "Voreinstellung für 'Nach der Aufnahme' *"
 
 msgid "Default 'Timer type' *"
 msgstr "Voreinstellung für 'Timerart' *"
+
+msgid "Default Astra (13e-19e)"
+msgstr "Standard Astra (19,2° Ost)"
 
 msgid "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. (higher values = lower priority)"
 msgstr "Standard CPU-Priorität (nice) für ausgeführte Skripts. Dies kann die Last reduzieren, so dass Skripts den Rest des Systems nicht beeinträchtigen (höhere Werte = niedrigere Priorität)."
@@ -8484,10 +8487,10 @@ msgid "File Commander Settings"
 msgstr "File Commander Einstellungen"
 
 msgid "File Commander Text Editor"
-msgstr "File Commander Text Editor"
+msgstr "File Commander Texteditor"
 
 msgid "File Commander Text Editor Actions"
-msgstr "File Commander Text Editor-Optionen"
+msgstr "File Commander Texteditor-Optionen"
 
 msgid "File Commander settings"
 msgstr "File Commander Einstellungen"
@@ -10180,9 +10183,6 @@ msgstr "Installiere"
 msgid "Installing %s (%s)..."
 msgstr "Installation %s (%s)..."
 
-msgid "Installing Please wait..."
-msgstr "Installiere. Bitte warten..."
-
 msgid "Installing Service"
 msgstr "Dienst wird installiert"
 
@@ -10194,6 +10194,9 @@ msgstr "Installiere Feeds aus IPK..."
 
 msgid "Installing feeds from feed ..."
 msgstr "Installiere Feeds vom Feed..."
+
+msgid "Installing package."
+msgstr "Installiere Paket."
 
 msgid "Installing plugins from IPK ..."
 msgstr "Installiere Plugins aus IPK..."
@@ -12210,7 +12213,7 @@ msgid "Network Neighbourhood"
 msgstr "Heimnetzgruppe"
 
 msgid "Network Packages"
-msgstr ""
+msgstr "Netzwerk Pakete"
 
 #
 msgid "Network Restart"
@@ -14015,25 +14018,25 @@ msgid "Plugin Browser Actions"
 msgstr "Plugin-Manager Aktionen"
 
 msgid "Plugin Browser Edit Actions"
-msgstr "Plugin-Manager Bearbeitungs-Aktionen"
+msgstr "Plugin-Manager Bearbeitungsaktionen"
 
 msgid "Plugin Browser Install Actions"
-msgstr ""
+msgstr "Plugin-Manager Installationsaktionen"
 
 msgid "Plugin Browser Navigation Actions"
-msgstr "Plugin-Manager Steuerungs-Aktionen"
+msgstr "Plugin-Manager Steuerungsaktionen"
 
 msgid "Plugin Browser Remove Actions"
-msgstr "Plugin-Manager Lösch-Aktionen"
+msgstr "Plugin-Manager Löschaktionen"
 
 msgid "Plugin Browser Select Actions"
-msgstr "Plugin-Manager Auswahl-Aktionen"
+msgstr "Plugin-Manager Auswahlaktionen"
 
 msgid "Plugin Browser Settings"
 msgstr "Plugin-Manager Einstellungen"
 
 msgid "Plugin Browser Update Actions"
-msgstr "Plugin-Manager Aktualisierungs-Aktionen"
+msgstr "Plugin-Manager Aktualisierungsaktionen"
 
 msgid "Plugin Browser layout"
 msgstr "Plugin-Manager Darstellung"
@@ -15510,7 +15513,7 @@ msgid "Restart your network connection and interfaces."
 msgstr "Neustart der Netzwerkverbindung und Schnittstellen."
 
 msgid "Restarting..."
-msgstr ""
+msgstr "Neustart..."
 
 #
 msgid "Restore"
@@ -19007,6 +19010,9 @@ msgstr "Klein - Images max. 128 MB"
 msgid "Small Box Preparation"
 msgstr "Small Box Vorbereitung"
 
+msgid "Small Box Preparation Actions"
+msgstr "Small Box Vorbereitung"
+
 msgid "Small Test"
 msgstr "Kleiner Test"
 
@@ -20487,7 +20493,7 @@ msgid ""
 "Make sure it is formatted in EXT2, EXT3 or EXT4!"
 msgstr ""
 "Das Dateisystem auf dem Timeshift-Aufnahmegerät unterstützt keine Hardlinks!\n"
-"Stellen Sie sicher, dass es in EXT2, EXT3 oder EXT4 formatiert ist."
+"Sicherstellen, dass es in EXT2, EXT3 oder EXT4 formatiert ist."
 
 #, python-format
 msgid "The following files are related to '%s':"
@@ -20674,7 +20680,7 @@ msgid "This allows you change the number of rows shown."
 msgstr "Die Anzahl der angezeigten Zeilen einstellen."
 
 msgid "This allows you to set the number of digits to 5, if you have more than 9999 channels."
-msgstr "Stellen Sie die Anzahl der Stellen auf 5, wenn Sie mehr als 9999 Sender haben."
+msgstr "Wenn es mehr als 9999 Sender gibt, die Anzahl der Stellen auf 5 setzen."
 
 #
 msgid "This bouquet is protected by a parental control PIN!"
@@ -20855,27 +20861,27 @@ msgid "This option allows you to view the old and new settings side by side."
 msgstr "Einstellen, ob und wie das Bild mit den alten und neuen Werten nebeneinander angezeigt werden soll."
 
 msgid "This option configures the general audio delay for BT Speakers."
-msgstr "Stellen Sie die allgemeine Audio-Verzögerung für Ihre Bluetooth-Lautsprecher ein."
+msgstr "Die allgemeine Audio-Verzögerung für Bluetooth-Lautsprecher einstellen."
 
 msgid "This option configures the general audio delay of Dolby Digital sound tracks."
-msgstr "Stellen Sie die allgemeine Audio-Verzögerung von Dolby-Digital-Tonspuren ein."
+msgstr "Die allgemeine Audio-Verzögerung von Dolby-Digital-Tonspuren einstellen."
 
 msgid "This option configures the general audio delay of stereo sound tracks."
-msgstr "Stellen Sie die allgemeine Audio-Verzögerung von MPEG2-Tonspuren ein."
+msgstr "Die allgemeine Audio-Verzögerung von MPEG2-Tonspuren einstellen."
 
 #
 msgid "This option configures the picture sharpness."
-msgstr "Stellen Sie die Bildschärfe ein."
+msgstr "Die Bildschärfe einstellen."
 
 msgid "This option configures the screen resolution in PC output mode."
-msgstr "Stellen Sie die Bildauflösung im PC-Modus ein."
+msgstr "Die Bildauflösung im PC-Modus einstellen."
 
 msgid "This option configures the video output mode (or resolution)."
-msgstr "Stellen Sie die Bildauflösung ein."
+msgstr "Die Bildauflösung einstellen."
 
 # A/V Settings
 msgid "This option configures you can set Auto Volume Level."
-msgstr "Stellen Sie die automatische Lautstärkeanpassung ein."
+msgstr "Die automatische Lautstärkeanpassung einstellen."
 
 msgid "This option lets you adjust the 3D depth"
 msgstr "Die 3D-Tiefe anpassen."
@@ -21988,9 +21994,6 @@ msgstr "Update fertig!"
 msgid "Update interval (in seconds)"
 msgstr "Updateintervall (in Sekunden)"
 
-msgid "Update package list please wait..."
-msgstr "Aktualisiere die Paketliste. Bitte warten..."
-
 msgid ""
 "Update succeeded!\n"
 "Your Bootloader is now up-to-date!"
@@ -22023,6 +22026,9 @@ msgstr "Aktualisiere"
 
 msgid "Updating mount locations."
 msgstr "Mount-Einstellungen werden aktualisiert."
+
+msgid "Updating package list."
+msgstr "Paketliste aktualisieren."
 
 msgid "Upgrade (Flash & restore all)"
 msgstr "Aktualisierung (Flashen und alles wiederherstellen)"
@@ -22633,8 +22639,8 @@ msgid ""
 "The next output port will be automatically tried in 10 seconds."
 msgstr ""
 "Videoausgang wählen.\n"
-"Stellen Sie sicher, dass am TV der richtige Eingang gewählt ist.\n"
-"Drücken Sie OK, wenn Sie dieses Bild auf dem TV sehen können, ansonsten wird in 10 Sekunden der nächste Port versucht."
+"Sicherstellen, dass am TV der richtige Eingang gewählt ist.\n"
+"OK drücken, wenn dieses Bild auf dem TV zu sehen ist, ansonsten wird in 10 Sekunden der nächste Port versucht."
 
 msgid "Video: "
 msgstr "Video: "
@@ -23710,7 +23716,7 @@ msgstr ""
 
 #, python-format
 msgid "Your Internet connection is working (IP: %s)"
-msgstr "Die Internetverbindung funktioniert. (IP: %s)"
+msgstr "Die Internetverbindung funktioniert. IP: %s"
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
@@ -24124,9 +24130,6 @@ msgstr "Uphop um 1 reduzieren"
 
 msgid "default"
 msgstr "Standard"
-
-msgid "Default Astra (13e-19e)"
-msgstr "Standard Astra (19,2° Ost)"
 
 #
 msgid "delete"
@@ -24601,9 +24604,6 @@ msgstr "Kein Resourcen-Manager"
 
 msgid "no storage devices found"
 msgstr "Keine Speichergeräte gefunden!"
-
-msgid "none"
-msgstr "Keine"
 
 msgid "normal"
 msgstr "Normal"
@@ -25131,6 +25131,15 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Installing Please wait..."
+#~ msgstr "Installiere. Bitte warten..."
+
+#~ msgid "Update package list please wait..."
+#~ msgstr "Aktualisiere die Paketliste. Bitte warten..."
+
+#~ msgid "none"
+#~ msgstr "Keine"
 
 #~ msgid "After pressing OK, please wait!"
 #~ msgstr "Nach dem Drücken von OK bitte warten!"
