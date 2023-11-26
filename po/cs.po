@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 10:18+0000\n"
-"PO-Revision-Date: 2023-11-21 12:25+0000\n"
+"POT-Creation-Date: 2023-11-23 11:43+0000\n"
+"PO-Revision-Date: 2023-11-24 17:28+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 msgid ""
 "\n"
@@ -5596,6 +5596,9 @@ msgstr "Výchozí 'Po události' *"
 msgid "Default 'Timer type' *"
 msgstr "Výchozí „Typ časovače“ *"
 
+msgid "Default Astra (13e-19e)"
+msgstr "výchozí Astra (13e-19e)"
+
 msgid "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. (higher values = lower priority)"
 msgstr "Výchozí priorita procesoru (hezká) pro spouštěné skripty. To může snížit zatížení systému tak, aby skripty nezasahovaly do zbytku systému. (vyšší hodnoty = nižší priorita)"
 
@@ -9653,9 +9656,6 @@ msgstr "Instaluji"
 msgid "Installing %s (%s)..."
 msgstr "Instalace %s (%s)..."
 
-msgid "Installing Please wait..."
-msgstr "Instaluji Prosím čekejte..."
-
 msgid "Installing Service"
 msgstr "Instalace služby"
 
@@ -9667,6 +9667,9 @@ msgstr "Instalace zdrojů z IPK..."
 
 msgid "Installing feeds from feed ..."
 msgstr "Instalace zdrojů z kanálu..."
+
+msgid "Installing package."
+msgstr "Instalace balíčku."
 
 msgid "Installing plugins from IPK ..."
 msgstr "Instalace pluginů z IPK..."
@@ -11543,7 +11546,7 @@ msgid "Network Neighbourhood"
 msgstr "Síťě v okolí"
 
 msgid "Network Packages"
-msgstr ""
+msgstr "Síťové balíčky"
 
 msgid "Network Restart"
 msgstr "Restart síťě"
@@ -12554,7 +12557,7 @@ msgid "Package information currently not available!"
 msgstr "Informace o balíčku nejsou v současné době k dispozici!"
 
 msgid "Package installation failed."
-msgstr "Instalace balíčku se nezdařila"
+msgstr "Instalace balíčku se nezdařila."
 
 msgid "Package list update"
 msgstr "Aktualizace seznamu doplňků"
@@ -14571,7 +14574,7 @@ msgid "Restart your network connection and interfaces."
 msgstr "Restartuje síťová připojení a rozhraní."
 
 msgid "Restarting..."
-msgstr ""
+msgstr "Restartování..."
 
 msgid "Restore"
 msgstr "Obnovit"
@@ -17867,6 +17870,9 @@ msgstr "Malý - Malý obrázek"
 msgid "Small Box Preparation"
 msgstr "Příprava malého boxu"
 
+msgid "Small Box Preparation Actions"
+msgstr "Akce na přípravu malého boxu"
+
 msgid "Small Test"
 msgstr "Malý test"
 
@@ -20657,9 +20663,6 @@ msgstr "Aktualizace dokončena!"
 msgid "Update interval (in seconds)"
 msgstr "Interval aktualizace (v sek)"
 
-msgid "Update package list please wait..."
-msgstr "Aktualizuji seznam balíčků, prosím čekejte..."
-
 msgid ""
 "Update succeeded!\n"
 "Your Bootloader is now up-to-date!"
@@ -20690,6 +20693,9 @@ msgstr "Aktualizace"
 
 msgid "Updating mount locations."
 msgstr "Aktualizace umístění připojení."
+
+msgid "Updating package list."
+msgstr "Aktualizace seznamu balíčků."
 
 msgid "Upgrade (Flash & restore all)"
 msgstr "Upgradovat (Flashnout a obnovit vše)"
@@ -22649,9 +22655,6 @@ msgstr "snížit vzestup o 1"
 msgid "default"
 msgstr "výchozí"
 
-msgid "Default Astra (13e-19e)"
-msgstr "výchozí Astra (13e-19e)"
-
 msgid "delete"
 msgstr "smazat"
 
@@ -23078,9 +23081,6 @@ msgstr "žádný správce zdrojů"
 
 msgid "no storage devices found"
 msgstr "nebyla nalezena žádná úložná zařízení"
-
-msgid "none"
-msgstr "žádný"
 
 msgid "normal"
 msgstr "normální"
@@ -23564,6 +23564,15 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Installing Please wait..."
+#~ msgstr "Instaluji Prosím čekejte..."
+
+#~ msgid "Update package list please wait..."
+#~ msgstr "Aktualizuji seznam balíčků, prosím čekejte..."
+
+#~ msgid "none"
+#~ msgstr "žádný"
 
 #~ msgid "After pressing OK, please wait!"
 #~ msgstr "Po stisknutí OK čekejte, prosím!"
