@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 10:18+0000\n"
-"PO-Revision-Date: 2023-11-21 05:10+0000\n"
+"POT-Creation-Date: 2023-11-23 11:43+0000\n"
+"PO-Revision-Date: 2023-11-24 08:29+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 msgid ""
 "\n"
@@ -1305,7 +1305,7 @@ msgstr "( Kaikki lukijat)"
 
 #, python-format
 msgid "(Access to the '%s' commit log requires an Internet connection.)"
-msgstr "Pääsy %s lokitiedostoihin edellyttää internet yhteyttä."
+msgstr "(Pääsy %s lokitiedostoihin edellyttää internet yhteyttä.)"
 
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
@@ -2028,7 +2028,7 @@ msgid "Add service"
 msgstr "Lisää kanava"
 
 msgid "Add service to AutoCam"
-msgstr ""
+msgstr "Lisää kanava CI+"
 
 msgid "Add services to this bouquet?"
 msgstr "Lisää kanava tähän kanavalistaan?"
@@ -2049,7 +2049,7 @@ msgid "Add/Remove a timer for the current event"
 msgstr "Lisää/poista ajastus tähän ohjelmaan"
 
 msgid "Add/Remove highlighted plugin to/from install list"
-msgstr ""
+msgstr "Lisää / Poista korostettu lisäosa päivitys listalle"
 
 msgid "Add/Remove highlighted plugin to/from remove list"
 msgstr "Lisää / Poista korostettu lisäosa lataus listalta"
@@ -2693,10 +2693,10 @@ msgid "Auto(not available)"
 msgstr "Auto (ei käytettävissä)"
 
 msgid "AutoCam Settings"
-msgstr ""
+msgstr "Softcam Asetukset"
 
 msgid "AutoCam Setup Actions"
-msgstr ""
+msgstr "Softcam Toiminnot"
 
 msgid "AutoMountManager"
 msgstr "Laitehallinta"
@@ -3633,7 +3633,7 @@ msgid "Cancel selection and exit"
 msgstr "Peruuta valinta ja poistu"
 
 msgid "Cancel the Reset Feeds command currently being processed"
-msgstr ""
+msgstr "Syötteet komennon peruuttaminen tällä hetkellä"
 
 msgid "Cancel the bouquet selection"
 msgstr "Peruuta suosikkilistan valinta"
@@ -4801,13 +4801,13 @@ msgid "Console"
 msgstr "Konsoli"
 
 msgid "Console Network Packages"
-msgstr ""
+msgstr "Konsoli verkko paketit"
 
 msgid "Console Packages"
-msgstr ""
+msgstr "Konsoli paketit"
 
 msgid "Console Utility Packages"
-msgstr ""
+msgstr "Konsoli työkalut"
 
 msgid "Constellation"
 msgstr "Merkistö"
@@ -5573,6 +5573,9 @@ msgstr "Oletus: Ohjelman jälkeen *"
 
 msgid "Default 'Timer type' *"
 msgstr "Oletus: Ajastuksen tyyppi *"
+
+msgid "Default Astra (13e-19e)"
+msgstr "oletus Astra (13e-19e)"
 
 msgid "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. (higher values = lower priority)"
 msgstr "Oletus suorittimen prioriteetti suoritetuille komento sarjoille. Tämä voi vähentää kuormaa, jotta skriptit eivät vaikuta muuhun järjestelmään. (korkeammat arvot = matalampi prioriteetti)"
@@ -7489,7 +7492,7 @@ msgstr "Virhe: '%s kirjoittamisessa oli ongelma!"
 
 #, python-format
 msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
-msgstr ""
+msgstr "Virhe: Syötteen resetoinnissa oli ongelmia! Käynnistä %s %s ja tarkista tiedostojärjestelmä virheistä, ennen kuin kokeilet tätä komentoa uudelleen."
 
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Virhe: Tarvittavia kansioita ei voi luoda kohdelaitteeseen (esim. USB-tikku tai kiintolevy)! Tarkista laite ja yritä uudelleen."
@@ -9633,9 +9636,6 @@ msgstr "Asennetaan"
 msgid "Installing %s (%s)..."
 msgstr "Asennetaan %s (%s)..."
 
-msgid "Installing Please wait..."
-msgstr "Asennetaan Odota..."
-
 msgid "Installing Service"
 msgstr "Asennetaan palvelua"
 
@@ -9647,6 +9647,9 @@ msgstr "Asenna syötteet IPK …"
 
 msgid "Installing feeds from feed ..."
 msgstr "Syötteiden asentaminen syötteistä ..."
+
+msgid "Installing package."
+msgstr "Asenna lisäosa."
 
 msgid "Installing plugins from IPK ..."
 msgstr "Asenna lisäosa IPK: sta …"
@@ -10165,7 +10168,7 @@ msgid "Liberia"
 msgstr "Liberia"
 
 msgid "Library Packages"
-msgstr ""
+msgstr "Kirjasto lisäosista"
 
 msgid "Libs"
 msgstr "Libs"
@@ -11523,7 +11526,7 @@ msgid "Network Neighbourhood"
 msgstr "Verkkoympäristö"
 
 msgid "Network Packages"
-msgstr ""
+msgstr "Verkko paketit"
 
 msgid "Network Restart"
 msgstr "Verkkoyhteyksien uudelleenkäynnistys"
@@ -12528,7 +12531,7 @@ msgid "PVR"
 msgstr "PVR"
 
 msgid "Package"
-msgstr ""
+msgstr "Paketti"
 
 msgid "Package Manager"
 msgstr "Ohjelmapakettien hallinta"
@@ -12540,7 +12543,7 @@ msgid "Package information currently not available!"
 msgstr "Pakettitietoja ei ole tällä hetkellä saatavilla!"
 
 msgid "Package installation failed."
-msgstr "Paketin asennus epäonnistui"
+msgstr "Paketin asennus epäonnistui."
 
 msgid "Package list update"
 msgstr "Haetaan ohjelmisto päivityksiä"
@@ -12549,7 +12552,7 @@ msgid "Packaged locales only"
 msgstr "Halitse paikallisia tiedostoja"
 
 msgid "Packages"
-msgstr ""
+msgstr "Paketit"
 
 msgid "Packages and associated locales"
 msgstr "Paketit ja niihin liittyvät alueet"
@@ -13093,8 +13096,8 @@ msgstr "Odota, kunnes luettelo ladataan..."
 
 msgid "Please wait while the plugin is installed."
 msgid_plural "Please wait while the plugins are installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Odota, kunnes lisäosa on asennettu."
+msgstr[1] "Odota, kunnes lisäosat on asennettu."
 
 msgid "Please wait while the plugin is removed."
 msgid_plural "Please wait while the plugins are removed."
@@ -13159,7 +13162,7 @@ msgid "Plug in a USB device that can be used as a swap device. Note that this de
 msgstr "Liitä USB tikku, jota voidaan käyttää virtuaali muistina. Huomaa, että tätä laitetta ei saa poistaa, kun %s %s on käynnissä!"
 
 msgid "Plugin"
-msgstr ""
+msgstr "Lisäosat"
 
 msgid "Plugin Action Log"
 msgstr "Plugin Lisäosat Loki"
@@ -13177,7 +13180,7 @@ msgid "Plugin Browser Edit Actions"
 msgstr "Lisäoset selaimen muokkaus toiminnot"
 
 msgid "Plugin Browser Install Actions"
-msgstr ""
+msgstr "Plugin selaimen asetukset"
 
 msgid "Plugin Browser Navigation Actions"
 msgstr "Laajennuksen selaimen navigointi toiminnot"
@@ -13198,7 +13201,7 @@ msgid "Plugin Browser layout"
 msgstr "Lisäosat selaimen asettelu"
 
 msgid "Plugin Packages"
-msgstr ""
+msgstr "Lisäosat"
 
 msgid "Plugin Skin Packages"
 msgstr "Järjestelmä teemat"
@@ -13702,7 +13705,7 @@ msgid "Python"
 msgstr "python"
 
 msgid "Python Development Packages"
-msgstr ""
+msgstr "Pythonin kehityspakettit"
 
 msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Python-liittymä /tmp/mmi.socket"
@@ -14221,7 +14224,7 @@ msgstr "Poista"
 
 #, python-format
 msgid "Remove %s"
-msgstr ""
+msgstr "Poista %s"
 
 msgid "Remove All Alternatives"
 msgstr "poista vaihtoehtoiset kanavat"
@@ -14326,7 +14329,7 @@ msgid "Remove selected service"
 msgstr "Poista valittu kanava"
 
 msgid "Remove service from AutoCam"
-msgstr ""
+msgstr "Poista kanava CI+"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr "Kyllä poistaa kuulovammaisille tarkoitetut tekstit ulkoisista tekstityksistä (Esimerkkisi. Äänien kuvaukset)."
@@ -14461,10 +14464,10 @@ msgid "Reset"
 msgstr "Käynnistä CA-moduuli uudelleen"
 
 msgid "Reset (clear and reload) the feeds"
-msgstr ""
+msgstr "Resetoi (puhdista ja uudelleen lataa) syötteet"
 
 msgid "Reset Feeds"
-msgstr ""
+msgstr "Resetoi Syötteet"
 
 msgid "Reset HDMI-CEC settings to default"
 msgstr "Palauta HDMI-CEC asetukset oletusarvoksi"
@@ -14522,7 +14525,7 @@ msgid "Restart GUI after x crashes"
 msgstr "Käynnistä käyttöjärjestelmä uudelleen kaatumisen jälkeen"
 
 msgid "Restart GUI now to start using the new locale/language?"
-msgstr ""
+msgstr "Käynnistetäänkö järjestelmä käyttäksi uutta kieltä?"
 
 msgid "Restart GUI now?"
 msgstr "Käynnistetäänkö järjestelmä uudelleen?"
@@ -14555,7 +14558,7 @@ msgid "Restart your network connection and interfaces."
 msgstr "Käynnistä verkkoyhteydet uudelleen."
 
 msgid "Restarting..."
-msgstr ""
+msgstr "Uudelleenkäynnistys..."
 
 msgid "Restore"
 msgstr "Palauta"
@@ -15477,7 +15480,7 @@ msgid "Select Additional Backup Files"
 msgstr "Lisää varmuuskopioitavat tiedostot"
 
 msgid "Select AutoCam default Softcam"
-msgstr ""
+msgstr "Valitse AutoCam oletus Softcamiksi"
 
 msgid "Select Backup Location"
 msgstr "Varmuuskopion sijainti"
@@ -15548,7 +15551,7 @@ msgid "Select Your Skin"
 msgstr "Valitse teemasi"
 
 msgid "Select a Softcam from the available list as the default for AutoCam."
-msgstr ""
+msgstr "Valitse Softcam käytettävissä olevasta listassa oletusarvona CI+."
 
 msgid "Select a Softcam from the available list."
 msgstr "Valitse softcam käytettävissä olevasta listasta."
@@ -15766,7 +15769,7 @@ msgstr "Valitse Ei / Väärä vastaus"
 
 #, python-format
 msgid "Select the Softcam for '%s'"
-msgstr ""
+msgstr "Valitse Softcam '%s'"
 
 msgid "Select the Softcam protocol."
 msgstr "Valitse softcam protokolla."
@@ -15802,7 +15805,7 @@ msgid "Select the animation speed of the button indicators in the help screens. 
 msgstr "Ohjaa Ohje näytön painikkeiden animaatioiden nopeutta. 'Pois käytöstä' poistaa animaation käytöstä niin, että ilmaisimet hyppäävät painikkeiden välillä."
 
 msgid "Select the cardserver to be used from the list of available cardservers."
-msgstr ""
+msgstr "Valitse korttipalvelin saatavilla olevasta kortinpalvelin listasta."
 
 msgid "Select the channel from which to record:"
 msgstr "Valitse kanava, jolta tallennetaan:"
@@ -16987,7 +16990,7 @@ msgid "Show OScam Info"
 msgstr "Näytä OScam tiedot"
 
 msgid "Show OScam/CCcam in Extension Menu"
-msgstr ""
+msgstr "Näytä OScam lisäosa valikossa"
 
 msgid "Show OpenPLi packages"
 msgstr "Näytä OpenPLi ohjelmat"
@@ -17861,6 +17864,9 @@ msgstr "Pieni - Pieni kuva"
 msgid "Small Box Preparation"
 msgstr "Pienen muistin valmistelu"
 
+msgid "Small Box Preparation Actions"
+msgstr "Boksin valmistelu toiminnot"
+
 msgid "Small Test"
 msgstr "Pieni Testi"
 
@@ -17907,7 +17913,7 @@ msgid "Softcam Setup"
 msgstr "Softcam Asetukset"
 
 msgid "Softcams"
-msgstr ""
+msgstr "softcammit"
 
 msgid "Software Management"
 msgstr "Ohjelmiston hallinta"
@@ -20539,7 +20545,7 @@ msgstr ""
 "Tarkista uudelleen käynnistyksen jälkeen asetukset MyMetrixLite lisäosan ja ota käyttöön."
 
 msgid "Unknown Packages"
-msgstr ""
+msgstr "Tuntemattomat paketit"
 
 msgid "Unknown Service"
 msgstr "tuntematon kanava"
@@ -20660,9 +20666,6 @@ msgstr "Päivitys suoritettu!"
 msgid "Update interval (in seconds)"
 msgstr "Päivitysväli (sekuntia)"
 
-msgid "Update package list please wait..."
-msgstr "Päivitetään paketti listaa, odota..."
-
 msgid ""
 "Update succeeded!\n"
 "Your Bootloader is now up-to-date!"
@@ -20693,6 +20696,9 @@ msgstr "Päivitetään"
 
 msgid "Updating mount locations."
 msgstr "Päivitetään Liitosten paikkaa."
+
+msgid "Updating package list."
+msgstr "Päivitetään lisäosa listaa."
 
 msgid "Upgrade (Flash & restore all)"
 msgstr "Päivitä Ohjelmisto & palauta kaikki"
@@ -20753,7 +20759,7 @@ msgid "Use 'Trash' in movie list"
 msgstr "Käytä roskakoria tallennuslistassa"
 
 msgid "Use AutoCam"
-msgstr ""
+msgstr "Käytä CI+"
 
 msgid "Use DHCP"
 msgstr "Käytä DHCP:tä"
@@ -21030,7 +21036,7 @@ msgid "Usually when the subtitle language is the same as the audio language, the
 msgstr "Yleensä kun tekstityksen kieli on sama kuin äänen kieli, tekstitystä ei käytetä. Tällä asetuksella voit ottaa tekstityksen käyttöön."
 
 msgid "Utility Packages"
-msgstr ""
+msgstr "Hyödyllisit paketit"
 
 msgid "Uzbek"
 msgstr "Uzbek"
@@ -21506,7 +21512,7 @@ msgstr "Varoitus"
 
 #, python-format
 msgid "Warning: %d feeds were unable to be reloaded!"
-msgstr ""
+msgstr "VAROITUS: %d ei voi ladata!"
 
 msgid "Warning: Overrides are currently active!"
 msgstr "Varoitus: Ohitukset ovat tällä hetkellä aktiivisia!"
@@ -21827,7 +21833,7 @@ msgid "When set the PIG will return to live after a movie has stopped playing."
 msgstr "Kun päällä, pikkukuva jatkaa tv-kanavan toistoa, kun tallenteen katselu päättyy."
 
 msgid "When set to 'Yes' a specific Softcam can be assigned to each encrypted service."
-msgstr ""
+msgstr "Kun määrität \"kyllä\" Softcam voidaan määrittää jokaiseen salatullle kanavalle erikseen."
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
 msgstr "Kun ohjelman kuvasuhde on 16:9, valitse skaalataanko/venytetäänkö kuvaa."
@@ -21981,7 +21987,7 @@ msgid "X-Resolution"
 msgstr "X-Resolutio"
 
 msgid "X11 Packages"
-msgstr ""
+msgstr "X11 Paketit"
 
 msgid "XBox 360 support"
 msgstr "XBox 360 -tuki"
@@ -22658,9 +22664,6 @@ msgstr "vähennä ylöshyppyä yhdellä"
 msgid "default"
 msgstr "Oletus"
 
-msgid "Default Astra (13e-19e)"
-msgstr "oletus Astra (13e-19e)"
-
 msgid "delete"
 msgstr "Poista"
 
@@ -23088,9 +23091,6 @@ msgstr "Ei tiedostovalikkoa"
 msgid "no storage devices found"
 msgstr "tallennuslaitteita ei löytynyt"
 
-msgid "none"
-msgstr "ei mitään"
-
 msgid "normal"
 msgstr "normaali"
 
@@ -23146,10 +23146,10 @@ msgid "original language"
 msgstr "alkuperäinen kieli"
 
 msgid "package"
-msgstr ""
+msgstr "Paketti"
 
 msgid "packages"
-msgstr ""
+msgstr "paketit"
 
 msgid "pass"
 msgstr "hyväksytty"
@@ -23167,10 +23167,10 @@ msgid "please wait, loading picture..."
 msgstr "odota, kuvaa ladataan..."
 
 msgid "plugin"
-msgstr ""
+msgstr "Lisäosa"
 
 msgid "plugins"
-msgstr ""
+msgstr "Lisäosat"
 
 msgid "pm"
 msgstr "ilta"
@@ -23572,6 +23572,15 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Installing Please wait..."
+#~ msgstr "Asennetaan Odota..."
+
+#~ msgid "Update package list please wait..."
+#~ msgstr "Päivitetään paketti listaa, odota..."
+
+#~ msgid "none"
+#~ msgstr "ei mitään"
 
 #~ msgid "After pressing OK, please wait!"
 #~ msgstr "Paina OK näppäintä ja odota!"
