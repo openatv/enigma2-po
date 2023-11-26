@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 10:18+0000\n"
-"PO-Revision-Date: 2023-11-20 16:11+0000\n"
+"POT-Creation-Date: 2023-11-23 11:43+0000\n"
+"PO-Revision-Date: 2023-11-24 17:28+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -5601,6 +5601,9 @@ msgstr "За замовчуванням 'Після запису' *"
 msgid "Default 'Timer type' *"
 msgstr "За замовчуванням 'Тип таймера' *"
 
+msgid "Default Astra (13e-19e)"
+msgstr "за замовчуванням Astra (13e-19e)"
+
 msgid "Default CPU priority (nice) for executed scripts. This can reduce the system load so that scripts do not interfere with the rest of the system. (higher values = lower priority)"
 msgstr "Пріоритет ЦПУ за замовчуванням (рекомендовано) для виконуваних сценаріїв. Це може зменшити навантаження на систему, щоб сценарії не заважали роботі системи. (вищі значення = нижчий пріоритет)"
 
@@ -9658,9 +9661,6 @@ msgstr "Встановлення"
 msgid "Installing %s (%s)..."
 msgstr "Встановлення %s (%s)..."
 
-msgid "Installing Please wait..."
-msgstr "Встановлення. Будь ласка, зачекайте..."
-
 msgid "Installing Service"
 msgstr "Встановлення каналів"
 
@@ -9672,6 +9672,9 @@ msgstr "Встановлення IPK з фідів..."
 
 msgid "Installing feeds from feed ..."
 msgstr "Встановлення фідів з фіду..."
+
+msgid "Installing package."
+msgstr "Встановлення пакета."
 
 msgid "Installing plugins from IPK ..."
 msgstr "Встановлення плагінів з IPK..."
@@ -11548,7 +11551,7 @@ msgid "Network Neighbourhood"
 msgstr "Мережеве оточення"
 
 msgid "Network Packages"
-msgstr ""
+msgstr "Мережеві пакети"
 
 msgid "Network Restart"
 msgstr "Перезапуск мережі"
@@ -12559,7 +12562,7 @@ msgid "Package information currently not available!"
 msgstr "Інформація про пакет на даний момент недоступна!"
 
 msgid "Package installation failed."
-msgstr "Не вдалося встановити пакет"
+msgstr "Не вдалося встановити пакет."
 
 msgid "Package list update"
 msgstr "Оновлення списку пакетів"
@@ -14576,7 +14579,7 @@ msgid "Restart your network connection and interfaces."
 msgstr "Перезавантаження мережевого з'єднання."
 
 msgid "Restarting..."
-msgstr ""
+msgstr "Перезавантаження..."
 
 msgid "Restore"
 msgstr "Відновлення"
@@ -17872,6 +17875,9 @@ msgstr "Маленьке - Крихітне зображення"
 msgid "Small Box Preparation"
 msgstr "Підготовка Small Box"
 
+msgid "Small Box Preparation Actions"
+msgstr "Дії з підготовки маленького декодера"
+
 msgid "Small Test"
 msgstr "Малий Тест"
 
@@ -18791,7 +18797,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 20.11.2023"
+msgstr "Переклад: kvinto - 24.11.2023"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -20662,9 +20668,6 @@ msgstr "Оновлення завершено!"
 msgid "Update interval (in seconds)"
 msgstr "Інтервал оновлення (в секундах)"
 
-msgid "Update package list please wait..."
-msgstr "Оновлення списку пакетів, будь ласка, зачекайте..."
-
 msgid ""
 "Update succeeded!\n"
 "Your Bootloader is now up-to-date!"
@@ -20695,6 +20698,9 @@ msgstr "Оновлення"
 
 msgid "Updating mount locations."
 msgstr "Оновлення параметрів підключення."
+
+msgid "Updating package list."
+msgstr "Оновлення списку пакетів."
 
 msgid "Upgrade (Flash & restore all)"
 msgstr "Оновити (перепрошити та відновити все)"
@@ -22654,9 +22660,6 @@ msgstr "понизити uphop до 1"
 msgid "default"
 msgstr "за замовчуванням"
 
-msgid "Default Astra (13e-19e)"
-msgstr "за замовчуванням Astra (13e-19e)"
-
 msgid "delete"
 msgstr "видалити"
 
@@ -23083,9 +23086,6 @@ msgstr "немає менеджера ресурсів"
 
 msgid "no storage devices found"
 msgstr "пристрої не знайдені"
-
-msgid "none"
-msgstr "жодного"
 
 msgid "normal"
 msgstr "типовий"
@@ -23569,6 +23569,15 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Installing Please wait..."
+#~ msgstr "Встановлення. Будь ласка, зачекайте..."
+
+#~ msgid "Update package list please wait..."
+#~ msgstr "Оновлення списку пакетів, будь ласка, зачекайте..."
+
+#~ msgid "none"
+#~ msgstr "жодного"
 
 #~ msgid "After pressing OK, please wait!"
 #~ msgstr "Після натиснення OK, зачекайте!"
