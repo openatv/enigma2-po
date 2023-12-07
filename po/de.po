@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 13:06+0000\n"
-"PO-Revision-Date: 2023-12-05 06:28+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"POT-Creation-Date: 2023-12-05 21:44+0000\n"
+"PO-Revision-Date: 2023-12-06 03:26+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1638,7 +1638,7 @@ msgstr "A"
 msgid "A background update check is in progress, please wait a few minutes and try again."
 msgstr ""
 "Eine Updateüberprüfung findet im Hintergrund statt!\n"
-"Bitte einige Minuten warten und dann erneut versuchen."
+"Bitte einige Minuten warten und es dann erneut versuchen."
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Eine durch Kommata getrennte Liste von Erweiterungen, die für die Einstellung 'Meine Erweiterung' von 'Erweiterung filtern' verwendet werden sollen. Geben Sie die Namen der Erweiterungen ohne einen führenden Punkt (.) ein."
@@ -5009,7 +5009,7 @@ msgstr "Den bevorzugten Tuner einstellen, wenn mehr als ein Tuner verfügbar ist
 
 #
 msgid "Configure your NTP server."
-msgstr "Wählen Sie den NTP-Server zur Zeitsynchronisierung."
+msgstr "Den NTP-Server zur Zeitsynchronisierung wählen."
 
 msgid "Configure your Network"
 msgstr "Das Netzwerk konfigurieren"
@@ -7331,7 +7331,7 @@ msgid "Enable digital downmix"
 msgstr "Dolby Digital Downmix aktivieren"
 
 msgid "Enable fallback remote receiver"
-msgstr "Aktiviere Reservereceiver"
+msgstr "Remote-Receiver aktivieren"
 
 msgid "Enable freesat EPG"
 msgstr "Freesat-EPG aktivieren"
@@ -7359,7 +7359,7 @@ msgid "Enable preview"
 msgstr "Vorschau aktivieren"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
-msgstr "Mit 'Ja' Reserve-Enigma2-Box aktivieren, die versucht wird, wenn ein Sender lokal nicht empfangen werden kann (z.B. wenn der Tuner belegt oder der Sender lokal nicht verfügbar ist). Geben Sie die komplette URL inklusive 'http://' und Portnummer (normalerweise '8001') an, also z.B. 'http://zweite_box:8001'."
+msgstr "Mit 'Ja' Remote-Enigma2-Receiver aktivieren, der versucht wird, wenn ein Sender lokal nicht empfangen werden kann (z.B. wenn der Tuner belegt oder der Sender lokal nicht verfügbar ist). Die komplette URL inklusive 'http://' und Portnummer (normalerweise '8001') angeben, also z.B. 'http://zweite_box:8001'."
 
 msgid "Enable teletext caching"
 msgstr "Videotext-Zwischenspeicher aktivieren"
@@ -7561,13 +7561,13 @@ msgid "Enter PIN"
 msgstr "PIN eingeben"
 
 msgid "Enter a description for this timer."
-msgstr "Geben Sie eine Beschreibung für diesen Timer ein."
+msgstr "Eine Beschreibung für diesen Timer eingeben."
 
 msgid "Enter a directory or process a file (play/view/edit/install/extract/run)"
 msgstr "Datei abspielen/anzeigen/bearbeiten/installieren/extrahieren/ausführen oder ein Verzeichnis eingeben."
 
 msgid "Enter a name for this timer."
-msgstr "Geben Sie einen Namen für diesen Timer ein."
+msgstr "Einen Namen für diesen Timer eingeben."
 
 msgid "Enter a new name for this device."
 msgstr "Geben Sie einen neuen Namen für dieses Gerät ein."
@@ -7830,7 +7830,7 @@ msgstr "Fehler: Prüfsumme ist ungültig!"
 msgid "Error: Could not find a suitable device! Please remove some downloaded images or attach another device (e.g. USB stick) with sufficient free space and try again."
 msgstr ""
 "Es konnte kein geeignetes Medium gefunden werden!\n"
-"Bitte entfernen Sie einige heruntergeladene Images oder legen Sie ein Medium (z.B. USB-Stick) mit ausreichend freiem Speicherplatz ein und versuchen es dann erneut."
+"Einige heruntergeladene Images entfernen, oder ein Medium (z.B. USB-Stick) mit ausreichend freiem Speicherplatz einlegen und es dann erneut versuchen."
 
 #
 #, python-format
@@ -7920,7 +7920,7 @@ msgstr ""
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr ""
 "Die erforderlichen Verzeichnisse auf dem Medium (z.B. USB-Stick oder Festplatte) können nicht erstellt werden!\n"
-"Bitte überprüfen Sie das Medium und versuchen es dann erneut."
+"Bitte das Medium überprüfen und es dann erneut versuchen."
 
 #, python-format
 msgid "Error: Unable to rename directory '%s' to '%s'!"
@@ -8312,7 +8312,7 @@ msgid "Falkland Islands (Malvinas)"
 msgstr "Falklandinseln (Malvinen)"
 
 msgid "Fallback remote receiver URL"
-msgstr "Reservereceiver-URL"
+msgstr "Remote-Receiver-URL"
 
 msgid "False"
 msgstr "Falsch"
@@ -8980,7 +8980,7 @@ msgid "Geolocation data is not available."
 msgstr "Die Standortbestimmung ist nicht verfügbar!"
 
 msgid "Geolocation information cannot be retrieved, please try again later."
-msgstr "Standortinformationen können nicht abgerufen werden! Bitte versuchen Sie es später erneut."
+msgstr "Standortinformationen können nicht abgerufen werden! Bitte später erneut versuchen."
 
 #, python-format
 msgid "Geolocation information for %s %s"
@@ -9063,9 +9063,6 @@ msgstr "Gehe zu:"
 
 msgid "Goto Date/Time"
 msgstr "Datum/Zeit"
-
-msgid "Goto Date/Timer"
-msgstr "Gehe zu Datum/Zeit"
 
 msgid "Goto Prime time"
 msgstr "Gehe zur Primetime"
@@ -12588,7 +12585,7 @@ msgid "No updates available."
 msgstr "Keine Updates vorhanden!"
 
 msgid "No updates were available.  Please try again later."
-msgstr "Keine Updates vorhanden! Bitte versuchen Sie es später erneut."
+msgstr "Keine Updates vorhanden! Bitte später erneut versuchen."
 
 msgid "No valid device detected - Press OK"
 msgstr "Kein gültiges Gerät erkannt - OK drücken"
@@ -12751,7 +12748,7 @@ msgstr "Derzeit nicht gemountet."
 msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
 msgstr ""
 "Nicht genug Speicherplatz: %d MB benötigt, %d MB verfügbar!\n"
-"Bitte machen Sie etwas Speicher frei und versuchen es dann erneut."
+"Bitte etwas Speicher frei machen und es dann erneut versuchen."
 
 #, python-format
 msgid ""
@@ -17501,7 +17498,7 @@ msgid "Set pin code persistent"
 msgstr "PIN dauerhaft speichern"
 
 msgid "Set sequence repeats if your aerial system requires this. Normally if the aerial system has been configured correctly sequence repeats will not be necessary. If yours does, recheck you have command order set correctly."
-msgstr "Die Sequenzeinstellung wird wiederholt, wenn Ihr Antennensystem dies erfordert. Normalerweise, wenn das Antennensystem korrekt konfiguriert wurde, sind Sequenzwiederholungen nicht notwendig. Wenn dies der Fall ist, überprüfen Sie erneut, ob die Befehlsreihenfolge richtig eingestellt ist."
+msgstr "Die Sequenzeinstellung wird wiederholt, wenn das Antennensystem dies erfordert. Normalerweise (bei korrekter Konfiguration) sind Sequenzwiederholungen nicht notwendig. Wenn dies jedoch der Fall ist, erneut überprüfen, ob die Befehlsreihenfolge richtig eingestellt ist."
 
 # ChannelSelection.py
 msgid "Set startup service"
@@ -18950,16 +18947,8 @@ msgid "Slot '%s'"
 msgstr "Slot '%s'"
 
 #, python-format
-msgid "Slot '%s':  %s"
-msgstr "Slot %s - %s"
-
-#, python-format
-msgid "Slot '%s':  %s  -  Current"
-msgstr "Slot %s - %s (aktuelles Image)"
-
-#, python-format
-msgid "Slot '%s': %s%s"
-msgstr "Slot '%s': %s%s"
+msgid "Slot '%s' %s: %s%s"
+msgstr "Slot '%s' %s: %s%s"
 
 msgid "Slot Manager"
 msgstr "Slot-Verwaltung"
@@ -19126,8 +19115,8 @@ msgstr "Die MiniDLNA-Konfiguration fehlt!"
 msgid "Sorry feeds are down for maintenance, please try again later."
 msgstr ""
 "Feeds sind wegen Wartungsarbeiten im Moment nicht verfügbar!\n"
-"Bitte versuchen Sie es später erneut.\n"
-"Für weitere Fragen besuchen Sie 'https://www.opena.tv'."
+"Bitte später erneut versuchen.\n"
+"Für weitere Fragen 'https://www.opena.tv' besuchen."
 
 #
 msgid "Sorry no backups found!"
@@ -20264,7 +20253,7 @@ msgstr "Die %s %s startet innerhalb von 10 Sekunden neu, es sei denn, es sind eM
 
 #, python-format
 msgid "The '%s' commit log can't be retrieved, please try again later."
-msgstr "Die %s Commit-Logs können nicht abgerufen werden! Bitte versuchen Sie es später erneut."
+msgstr "Die %s Commit-Logs können nicht abgerufen werden! Bitte später erneut versuchen."
 
 #, python-format
 msgid "The '%s' commit log contains no information."
@@ -20272,7 +20261,7 @@ msgstr "Das %s Commit-Log enthält keine Informationen!"
 
 #, python-format
 msgid "The '%s' file can't be retrieved, please try again later."
-msgstr "Die Datei '%s' kann nicht abgerufen werden! Bitte versuchen Sie es später erneut."
+msgstr "Die Datei '%s' kann nicht abgerufen werden! Bitte später erneut versuchen."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -20657,7 +20646,7 @@ msgstr "Beim Herunterladen der Regionsliste ist ein Fehler aufgetreten!"
 msgid "There was an error downloading the update list.  Please try again."
 msgstr ""
 "Beim Herunterladen der Softwareliste ist ein Fehler aufgetreten!\n"
-"Bitte versuchen Sie es erneut."
+"Bitte erneut versuchen."
 
 msgid "There was an error while trying to login."
 msgstr "Beim Versuch, sich anzumelden, ist ein Fehler aufgetreten!"
@@ -21290,7 +21279,7 @@ msgstr "Titel-Einstellungs-Modus"
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr ""
 "Um die Einrichtung abzuschließen, muss die %s %s mit dem Internet verbunden werden.\n"
-"Verbinden Sie die %s %s jetzt mit dem Internet."
+"Deshalb die %s %s jetzt mit dem Internet verbinden."
 
 # ImageBackup.py
 msgid "To restore the image:"
@@ -21759,7 +21748,7 @@ msgid "URL"
 msgstr "URL"
 
 msgid "URL of fallback remote receiver."
-msgstr "URL der Reservebox."
+msgstr "URL des Remote-Receivers."
 
 #
 msgid "USALS"
@@ -22790,6 +22779,9 @@ msgstr ""
 msgid "Volume up"
 msgstr "Lautstärke +"
 
+msgid "Vu+ MultiBoot"
+msgstr "Vu+ MultiBoot"
+
 #
 msgid "W"
 msgstr "W"
@@ -23613,7 +23605,7 @@ msgstr "Die %s %s geht in den WOL-Modus"
 msgid "Your %s %s is not connected to the Internet, please check your network settings and try again."
 msgstr ""
 "Die %s %s ist nicht mit dem Internet verbunden!\n"
-"Bitte überprüfen Sie Ihre Netzwerkeinstellungen und versuchen es dann erneut."
+"Bitte die Netzwerkeinstellungen überprüfen und es dann erneut versuchen."
 
 #
 #, python-format
@@ -25123,6 +25115,21 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Goto Date/Timer"
+#~ msgstr "Gehe zu Datum/Zeit"
+
+#, python-format
+#~ msgid "Slot '%s':  %s"
+#~ msgstr "Slot %s - %s"
+
+#, python-format
+#~ msgid "Slot '%s':  %s  -  Current"
+#~ msgstr "Slot %s - %s (aktuelles Image)"
+
+#, python-format
+#~ msgid "Slot '%s': %s%s"
+#~ msgstr "Slot '%s': %s%s"
 
 # channelselection 5.1
 #~ msgid "Enable unlinked bouquets"
