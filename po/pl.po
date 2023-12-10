@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 21:44+0000\n"
-"PO-Revision-Date: 2023-12-07 05:27+0000\n"
+"POT-Creation-Date: 2023-12-08 17:05+0000\n"
+"PO-Revision-Date: 2023-12-10 10:10+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -4354,7 +4354,7 @@ msgid "Common Interface Assignment"
 msgstr "Zadania modułu CI"
 
 msgid "Common Interface Settings"
-msgstr "Wspólne ustawienia CI"
+msgstr "Ustawienia CI"
 
 msgid "Common Settings"
 msgstr "Ustawienia wspólne"
@@ -5026,11 +5026,11 @@ msgstr "Nie można otworzyć pliku %s!"
 
 #, python-format
 msgid "Could not record due to conflicting timer: %s"
-msgstr "Nie można nagrywać z powodu konfliktu zaprogramowanych nagrań %s"
+msgstr "Nie można nagrać z powodu konfliktu timera: %s"
 
 #, python-format
 msgid "Could not record due to invalid service: %s"
-msgstr "Nie można nagrywać z powodu nieprawidłowego %s kanału"
+msgstr "Nie można nagrać z powodu nieprawidłowego %s kanału"
 
 #, python-format
 msgid "Could not save configuration file %s!"
@@ -11796,7 +11796,7 @@ msgid "No error"
 msgstr "Brak błędów"
 
 msgid "No event info found, recording default is infinite."
-msgstr "Nie znaleziono informacji o wydarzeniu, nagrywanie na czas nieokreślony."
+msgstr "Nie znaleziono informacji o wydarzeniu, domyślne nagrywanie jest nieskończone."
 
 msgid "No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"
 msgstr "'Przewijanie' nie dostępne (jeszcze)... można użyć przycisków numerycznych aby przeskoczyć w przód/tył!"
@@ -14016,7 +14016,7 @@ msgstr "Nagrywanie rozpoczęte! Zatrzymywanie timeshift'u..."
 
 #, python-format
 msgid "Record time limited due to conflicting timer: %s"
-msgstr "Czas nagrywania ograniczony z powodu konfliktu timera %s"
+msgstr "Czas nagrywania ograniczony z powodu konfliktu timera: %s"
 
 msgid "Record write error (no space on disk?)"
 msgstr "Błąd zapisu nagrywania (brak miejsca na dysku?)"
@@ -17057,6 +17057,9 @@ msgstr "Pokaż SD jako"
 msgid "Show Security packages"
 msgstr "Pokaż pakiety bezpieczeństwa"
 
+msgid "Show Service Information"
+msgstr "Pokaż informacje serwisowe"
+
 msgid "Show Setting packages"
 msgstr "Pokaż pakiety ustawień"
 
@@ -17832,8 +17835,8 @@ msgid "Slot %s: %s as USB Recovery"
 msgstr "Slot %s: %s jako USB Recovery"
 
 #, python-format
-msgid "Slot '%s'"
-msgstr "Slot '%s'"
+msgid "Slot '%s' %s"
+msgstr "Slot '%s' %s"
 
 #, python-format
 msgid "Slot '%s' %s: %s%s"
@@ -20479,6 +20482,10 @@ msgstr "USB 3.0 (Z tyłu, zewnętrzny)"
 
 msgid "USB Stick"
 msgstr "Pamięć USB"
+
+#, python-format
+msgid "USB slot %s%s"
+msgstr "USB slot %s%s"
 
 msgid "USB switch ERROR! - already on USB"
 msgstr "Przełącznik USB BŁĄD! - już na USB"
@@ -23582,6 +23589,10 @@ msgstr "tak (zachować kanały)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Slot '%s'"
+#~ msgstr "Slot '%s'"
 
 #~ msgid "Goto Date/Timer"
 #~ msgstr "Idź do Data/Czas"
