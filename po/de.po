@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-02 17:36+0000\n"
+"POT-Creation-Date: 2024-01-11 11:23+0100\n"
 "PO-Revision-Date: 2024-01-10 20:45+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
@@ -1329,9 +1329,6 @@ msgstr "Der Zugriff auf das %s Commit-Log benötigt eine Internetverbindung!"
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(ACHTUNG: Nach %d Abstürzen wird neu gestartet!)"
 
-msgid "(PiP)"
-msgstr "(Bild-im-Bild)"
-
 msgid "(Radio)"
 msgstr "(Radio)"
 
@@ -1696,6 +1693,14 @@ msgid ""
 msgstr ""
 "Eine Aufnahme wurde gestartet:\n"
 "%s"
+
+#
+msgid ""
+"A recording is currently running.\n"
+"What do you want to do?"
+msgstr ""
+"Zurzeit läuft eine Aufnahme!\n"
+"Was möchten Sie tun?"
 
 #
 msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
@@ -3814,6 +3819,9 @@ msgstr "Imageauswahl abbrechen und verlassen"
 msgid "Cancel the image selection and exit all menus"
 msgstr "Imageauswahl abbrechen und alle Menüs verlassen"
 
+msgid "Cancel the selection and exit"
+msgstr ""
+
 msgid "Cancel the service selection"
 msgstr "Senderauswahl abbrechen"
 
@@ -4166,6 +4174,18 @@ msgstr "Chipsatz: BCM%s"
 msgid "Choice Box"
 msgstr "Bitte treffen Sie eine Auswahl"
 
+msgid "Choice List Actions"
+msgstr ""
+
+msgid "Choice List Navigation Actions"
+msgstr ""
+
+msgid "Choice List Order Actions"
+msgstr ""
+
+msgid "Choice List Selection Actions"
+msgstr ""
+
 #, python-format
 msgid "Choice where to put \"%s\""
 msgstr "Positionsauswahl für '%s'"
@@ -4187,6 +4207,12 @@ msgstr "Wählen Sie, ob und wie viele historische EPG-Daten gespeichert werden s
 
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Wählen Sie das Intervall, wie oft eine Verbindung zum IceTV-Server hergestellt werden soll, um nach Updates zu suchen."
+
+msgid "Choose the Display Skin and press GREEN to activate the skin."
+msgstr ""
+
+msgid "Choose the OSD Skin and press GREEN to activate the skin."
+msgstr ""
 
 msgid "Choose the amount of additional slots."
 msgstr "Anzahl der zusätzlichen Slots auswählen."
@@ -4527,6 +4553,9 @@ msgstr "Allgemeine Einstellungen"
 # boot-up action
 msgid "Common Setup Actions"
 msgstr "Allgemeine Setup-Aktionen"
+
+msgid "Comodo Secure DNS"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Komoren"
@@ -5540,6 +5569,12 @@ msgstr "DNS-Einstellungen"
 msgid "DNS data source"
 msgstr "DNS-Datenquelle"
 
+msgid "DNS mode"
+msgstr ""
+
+msgid "DNS suffix"
+msgstr ""
+
 msgid ""
 "DO NOT POWER OFF YOUR DEVICE WHILE UPDATING!\n"
 "Update now?"
@@ -5915,6 +5950,9 @@ msgstr "Definiere Softcam für diesen Sender"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Legt die zusätzliche Verzögerung in Millisekunden vor dem Start von http(s)-Streams fest."
+
+msgid "Define the DNS suffix."
+msgstr ""
 
 msgid "Defined / Active"
 msgstr "Definiert / Aktiv"
@@ -9572,8 +9610,14 @@ msgstr "IP-Adresse des Stream Relay-Servers, um Dienste zu entschlüsseln, die n
 msgid "IPK Installer"
 msgstr "IPK-Installer"
 
+msgid "IPv4 only"
+msgstr ""
+
 msgid "IPv6 address"
 msgstr "IPv6-Adresse"
+
+msgid "IPv6 only"
+msgstr ""
 
 #
 msgid "ISO file is too large for this file system!"
@@ -11431,9 +11475,6 @@ msgstr "Mindestalter %d Jahre"
 msgid "Minimum send interval"
 msgstr "Minimaler Sendeintervall"
 
-msgid "Mins"
-msgstr "Minuten"
-
 #
 msgid "Minutes"
 msgstr "Minuten"
@@ -11555,12 +11596,12 @@ msgstr "Zeitüberschreitung beim Motorlauf"
 msgid "Mount"
 msgstr "Mount"
 
-msgid "Mount Actions"
-msgstr "Mount-Aktionen"
-
 #
 msgid "Mount Manager"
 msgstr "Mount-Verwaltung"
+
+msgid "Mount Menu Actions"
+msgstr ""
 
 msgid "Mount Settings"
 msgstr "Mount-Einstellungen"
@@ -11687,6 +11728,12 @@ msgstr "Das aktuelle Lesezeichen nach unten verschieben"
 
 msgid "Move the current bookmark up"
 msgstr "Das aktuelle Lesezeichen nach oben verschieben"
+
+msgid "Move the current entry down"
+msgstr ""
+
+msgid "Move the current entry up"
+msgstr ""
 
 msgid "Move the current line down"
 msgstr "Aktuelle Zeile nach unten bewegen"
@@ -12118,6 +12165,9 @@ msgstr "Netzwerk-Informationen Aktionen"
 #
 msgid "Network Interface"
 msgstr "Netzwerkschnittstelle"
+
+msgid "Network Log"
+msgstr ""
 
 msgid "Network Log Actions"
 msgstr "Netzwerk Log-Aktionen"
@@ -12614,8 +12664,11 @@ msgstr "Nicht-Linear"
 msgid "None"
 msgstr "Keine"
 
-msgid "NordVPN DNS"
-msgstr "NordVPN DNS"
+msgid "NordVPN Secure DNS"
+msgstr ""
+
+msgid "NordVPN Smart DNS"
+msgstr ""
 
 msgid "Norfolk Island"
 msgstr "Norfolkinsel"
@@ -14104,6 +14157,12 @@ msgstr "AC3 bevorzugen"
 msgid "Prefer AC3+ track"
 msgstr "AC3+ bevorzugen"
 
+msgid "Prefer IPv4"
+msgstr ""
+
+msgid "Prefer IPv6"
+msgstr ""
+
 msgid "Prefer audio track stored by service"
 msgstr "Standard-Audiostream des Programms bevorzugen"
 
@@ -14538,6 +14597,12 @@ msgstr "Quad Bild-im-Bild ist nicht verfügbar!"
 
 msgid "Quad9 DNS"
 msgstr "Quad9 DNS"
+
+msgid "Quad9 ECS DNS"
+msgstr ""
+
+msgid "Quad9 Unsecured DNS"
+msgstr ""
 
 msgid "Quechua"
 msgstr "Quechua"
@@ -15332,6 +15397,9 @@ msgstr "Titelnamen zurücksetzen und neu nummerieren"
 msgid "Reset executable mode (644)"
 msgstr "Ausführbaren Modus zurücksetzen (644)"
 
+msgid "Reset list order to the default list order?"
+msgstr ""
+
 msgid "Reset network configuration"
 msgstr "Netzwerkkonfiguration zurücksetzen"
 
@@ -15343,6 +15411,9 @@ msgstr "Wiedergabeposition zurücksetzen"
 
 msgid "Reset sort order"
 msgstr "Sortierung zurücksetzen"
+
+msgid "Reset the order of the entries"
+msgstr ""
 
 #
 msgid "Reset video enhancement settings to system defaults?"
@@ -16404,6 +16475,9 @@ msgstr "CAID auswählen"
 msgid "Select Device"
 msgstr "Gerät auswählen"
 
+msgid "Select Display Skin"
+msgstr ""
+
 msgid "Select Enigma2 Skin"
 msgstr "Enigma2-Skin auswählen"
 
@@ -16443,6 +16517,9 @@ msgstr "Satelliten auswählen"
 
 msgid "Select Shares"
 msgstr "Freigaben auswählen"
+
+msgid "Select Skin"
+msgstr ""
 
 msgid "Select Softcam"
 msgstr "Softcam auswählen"
@@ -16686,6 +16763,10 @@ msgstr "Sortierreihenfolge des temporären Verzeichnisses für die aktuelle Spal
 msgid "Select temporary file sort order for the current column"
 msgstr "Sortierreihenfolge der Dateien für die aktuelle Spalte auswählen"
 
+#, python-format
+msgid "Select the %s entry"
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Wähle Nein / Negative Antwort"
 
@@ -16748,6 +16829,9 @@ msgstr "Das Zeichen oder die Aktion beim Cursor der Tastatur auswählen"
 
 msgid "Select the current bookmarked location and exit"
 msgstr "Den aktuellen Speicherort vom Lesezeichen auswählen und beenden"
+
+msgid "Select the current entry"
+msgstr ""
 
 msgid "Select the current menu item"
 msgstr "Wählen Sie den aktuellen Menüpunkt aus"
@@ -16853,6 +16937,9 @@ msgstr "Wählen Sie den Hersteller Ihres Unicable/SCR-Geräts aus. Wenn der Hers
 
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Bestimmt die Methode, wie die Bildschirmauflösung und der Bildspeicher beim Verlassen des Videotexts zurückgesetzt werden."
+
+msgid "Select the mode of the DNS."
+msgstr ""
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Wählen Sie das Modell Ihres Unicable/SCR-Geräts aus. Wenn der Hersteller nicht aufgeführt ist, setzen Sie 'SCR' auf 'Benutzerdefiniert' und geben Sie die Geräteparameter gemäß dem zugehörigen Datenblatt manuell ein."
@@ -19068,9 +19155,6 @@ msgstr "Sortieren nach Standard"
 
 msgid "Sort list by"
 msgstr "Liste sortieren nach"
-
-msgid "Sort list to default and exit?"
-msgstr "Liste nach Standard sortieren und beenden?"
 
 msgid "Sort list:"
 msgstr "Liste sortieren:"
@@ -24063,13 +24147,6 @@ msgstr "Filmschnitt ausführen (erfordert das MovieCut-Plugin)"
 msgid "exit DVD player or return to file browser"
 msgstr "DVD-Player verlassen oder zurück zum Dateimanager"
 
-msgid "exit mounts setup menu"
-msgstr "Mount-Einstellungen verlassen"
-
-#
-msgid "exit networkadapter setup menu"
-msgstr "Netzwerkadaptermenü verlassen"
-
 msgid "experimental film/video"
 msgstr "experimenteller Film/Video"
 
@@ -24323,22 +24400,6 @@ msgstr "Motorsport"
 
 msgid "move"
 msgstr "Verschieben"
-
-#
-msgid "move down to last entry"
-msgstr "Zum letzten Eintrag gehen"
-
-#
-msgid "move down to next entry"
-msgstr "Zum nächsten Eintrag gehen"
-
-#
-msgid "move up to first entry"
-msgstr "Zum ersten Eintrag gehen"
-
-#
-msgid "move up to previous entry"
-msgstr "Zum vorherigen Eintrag gehen"
 
 #
 msgid "movie (general)"
@@ -24595,10 +24656,6 @@ msgstr "Durchsuche EPG..."
 #
 msgid "select CAId's"
 msgstr "CAIDs auswählen"
-
-#
-msgid "select menu entry"
-msgstr "Menüeintrag auswählen"
 
 msgid "serious music/classic music"
 msgstr "Ernsthafte Musik/klassische Musik"
@@ -24927,6 +24984,48 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "(PiP)"
+#~ msgstr "(Bild-im-Bild)"
+
+#~ msgid "Mins"
+#~ msgstr "Minuten"
+
+#~ msgid "Mount Actions"
+#~ msgstr "Mount-Aktionen"
+
+#~ msgid "NordVPN DNS"
+#~ msgstr "NordVPN DNS"
+
+#~ msgid "Sort list to default and exit?"
+#~ msgstr "Liste nach Standard sortieren und beenden?"
+
+#~ msgid "exit mounts setup menu"
+#~ msgstr "Mount-Einstellungen verlassen"
+
+#
+#~ msgid "exit networkadapter setup menu"
+#~ msgstr "Netzwerkadaptermenü verlassen"
+
+#
+#~ msgid "move down to last entry"
+#~ msgstr "Zum letzten Eintrag gehen"
+
+#
+#~ msgid "move down to next entry"
+#~ msgstr "Zum nächsten Eintrag gehen"
+
+#
+#~ msgid "move up to first entry"
+#~ msgstr "Zum ersten Eintrag gehen"
+
+#
+#~ msgid "move up to previous entry"
+#~ msgstr "Zum vorherigen Eintrag gehen"
+
+#
+#~ msgid "select menu entry"
+#~ msgstr "Menüeintrag auswählen"
 
 #~ msgid "A background update check is in progress, please wait a few minutes and try again."
 #~ msgstr ""
@@ -25269,14 +25368,6 @@ msgstr "®"
 
 #~ msgid "-24"
 #~ msgstr "-24"
-
-#
-msgid ""
-"A recording is currently running.\n"
-"What do you want to do?"
-msgstr ""
-"Zurzeit läuft eine Aufnahme!\n"
-"Was möchten Sie tun?"
 
 #~ msgid "BouquetList"
 #~ msgstr "Bouquetliste"
