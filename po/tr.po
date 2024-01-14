@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
 "PO-Revision-Date: 2023-10-29 13:12+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -1300,6 +1300,9 @@ msgstr "%s kaydetme günlüklerine erişim için internet bağlantısı gerekir"
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Dikkat:%d çöküşten sonra yeniden başlatılacak.)"
+
+msgid "(PiP)"
+msgstr "(RiR)"
 
 msgid "(Radio)"
 msgstr "(Radyo)"
@@ -3367,6 +3370,9 @@ msgstr "Tuş Kurulumu"
 msgid "Button error timeout"
 msgstr "Düğme hatası zaman aşımı"
 
+msgid "ButtonSetup"
+msgstr "Tuş Kurulumu"
+
 msgid "By disk UUID"
 msgstr "Disk UUID'sine göre"
 
@@ -4305,8 +4311,14 @@ msgstr[0] "Açık uyarı"
 msgid "Click the button on your remote you want to change."
 msgstr "Uzaktan kumandanızda değiştirmek istediğiniz düğmeye tıklayın."
 
+msgid "Client"
+msgstr "Müşteri"
+
 msgid "Client is streaming from this box!"
 msgstr "Alici bu kutudan yayın yapıyor!"
+
+msgid "ClientIP"
+msgstr "ClientIP"
 
 msgid "Clients"
 msgstr "İstemciler"
@@ -6642,6 +6654,9 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "%s %s alıcınızı yeniden başlatmak istiyor musunuz?"
 
 msgid "Do you want to remove:"
+msgstr ""
+
+msgid "Do you want to replace:"
 msgstr ""
 
 #
@@ -9418,6 +9433,9 @@ msgstr "Host adı: "
 msgid "Hotbird 13.0e"
 msgstr "Hotbird 13.0e"
 
+msgid "Hotkey"
+msgstr "Kısayol"
+
 msgid "Hotkey Settings"
 msgstr "Kısayol Kurulum"
 
@@ -11356,6 +11374,9 @@ msgstr "Alt yaş sınırı %d"
 msgid "Minimum send interval"
 msgstr "Asgari gönderme aralığı"
 
+msgid "Mins"
+msgstr "Dk"
+
 #
 msgid "Minutes"
 msgstr "Dakikalar"
@@ -12100,6 +12121,9 @@ msgstr "Ağ adı (SSID)"
 msgid "Network scan"
 msgstr "Ağ Tarama"
 
+msgid "Network storage on"
+msgstr "Ağ depolama alanı"
+
 #
 msgid "Network test"
 msgstr "Ağ yapılandırmasını test et"
@@ -12330,6 +12354,9 @@ msgstr "Boş tuner yok!"
 
 msgid "No hard disks detected."
 msgstr "Sabit disk algılanmadı."
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr "Hiçbir günlük dosyası bulunamadı, bu nedenle hata ayıklama günlükleri kullanılamıyor!"
 
 #
 msgid "No matching place names found"
@@ -13111,6 +13138,9 @@ msgstr "PLS Modu"
 msgid "PMT PID"
 msgstr "PMT PID"
 
+msgid "PPanel"
+msgstr "PPanel"
+
 msgid "PRIMETIME"
 msgstr "PRIMETIME"
 
@@ -13187,6 +13217,9 @@ msgstr "Panama"
 
 msgid "Panic channel"
 msgstr "Panik kanalı"
+
+msgid "Panic to"
+msgstr "Panik"
 
 msgid "Panjabi / Punjabi"
 msgstr "Panjabi / Pencapça"
@@ -13717,6 +13750,9 @@ msgstr "Lütfen tarama yapılırken bekleyin..."
 
 msgid "Please wait while the data is extracted..."
 msgstr "Veriler ayıklanırken lütfen bekleyin..."
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
+msgstr ""
 
 msgid "Please wait while the list downloads..."
 msgstr "Liste indirilirken lütfen bekleyin..."
@@ -17593,6 +17629,9 @@ msgstr "Keskinlik"
 msgid "ShellInABox"
 msgstr ""
 
+msgid "Shellscript"
+msgstr "Shell Komut"
+
 msgid "Shift"
 msgstr "Değiştirme"
 
@@ -21097,6 +21136,10 @@ msgstr "İz"
 msgid "Traditional Chinese"
 msgstr "Geleneksel çince"
 
+#
+msgid "Transcode"
+msgstr "Kod dönüştürme"
+
 msgid "Transcoding"
 msgstr "Transcoding"
 
@@ -23410,6 +23453,9 @@ msgstr "Kanal değişim kipi"
 msgid "Zap next"
 msgstr "Sonraki"
 
+msgid "Zap to"
+msgstr "Zap için"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "Kanala zap (menüde ayar)"
 
@@ -24614,12 +24660,6 @@ msgstr "evet (beslemeleri tut)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "(PiP)"
-#~ msgstr "(RiR)"
-
-#~ msgid "Mins"
-#~ msgstr "Dk"
-
 #~ msgid "Mount Actions"
 #~ msgstr "Dağ Eylemleri"
 
@@ -25181,16 +25221,9 @@ msgstr "®"
 #~ msgid "CI Helper Settings"
 #~ msgstr "CI Yardımcısı Kurulumu"
 
-#~ msgid "ClientIP"
-#~ msgstr "ClientIP"
-
 #
 #~ msgid "Minute"
 #~ msgstr "Dakika"
-
-#
-#~ msgid "Transcode"
-#~ msgstr "Kod dönüştürme"
 
 #, python-format
 #~ msgid "%.3f MHz"
@@ -25214,12 +25247,6 @@ msgstr "®"
 #~ msgid "Basic PID info"
 #~ msgstr "Temel PID bilgisi"
 
-#~ msgid "ButtonSetup"
-#~ msgstr "Tuş Kurulumu"
-
-#~ msgid "Client"
-#~ msgstr "Müşteri"
-
 #~ msgid "Code R. LP-HP & Guard Int."
 #~ msgstr "Kod R. LP-HP ve Guard Int."
 
@@ -25240,9 +25267,6 @@ msgstr "®"
 #~ msgid "Frequency & Polarization"
 #~ msgstr "Frekans & Polarizasyon"
 
-#~ msgid "Hotkey"
-#~ msgstr "Kısayol"
-
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "Inversiyon ve Bant Genişliği"
 
@@ -25252,26 +25276,14 @@ msgstr "®"
 #~ msgid "NIM & Type"
 #~ msgstr "NIM ve Türü"
 
-#~ msgid "Network storage on"
-#~ msgstr "Ağ depolama alanı"
-
 #~ msgid "Next Log"
 #~ msgstr "Sonraki Günlük"
 
 #~ msgid "Next Picture"
 #~ msgstr "Sonraki resmi göster"
 
-#~ msgid "No log files found so debug logs are unavailable!"
-#~ msgstr "Hiçbir günlük dosyası bulunamadı, bu nedenle hata ayıklama günlükleri kullanılamıyor!"
-
 #~ msgid "ONID"
 #~ msgstr "ONID"
-
-#~ msgid "PPanel"
-#~ msgstr "PPanel"
-
-#~ msgid "Panic to"
-#~ msgstr "Panik"
 
 #~ msgid "Previous Log"
 #~ msgstr "Önceki Günlük"
@@ -25301,9 +25313,6 @@ msgstr "®"
 #~ msgid "Service info - tuner setting values"
 #~ msgstr "Kanal bilgisi - tuner ayar değerleri"
 
-#~ msgid "Shellscript"
-#~ msgstr "Shell Komut"
-
 #~ msgid "Symbol rate & FEC"
 #~ msgstr "Sembol oranı & FEC"
 
@@ -25320,9 +25329,6 @@ msgstr "®"
 
 #~ msgid "Tuner setting values"
 #~ msgstr "Tuner ayar değerleri"
-
-#~ msgid "Zap to"
-#~ msgstr "Zap için"
 
 #~ msgid "active"
 #~ msgstr "aktif"
