@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
 "PO-Revision-Date: 2021-11-04 23:53+0000\n"
 "Last-Translator: T. Rylle <dk-translation@pm.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/da/>\n"
@@ -1303,6 +1303,9 @@ msgstr ""
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Bemærk: Det vil ske en genstart efter %d nedbrud.)"
+
+msgid "(PiP)"
+msgstr " (BiB)"
 
 msgid "(Radio)"
 msgstr "(Radio)"
@@ -3244,6 +3247,9 @@ msgstr "Knapopsætning"
 msgid "Button error timeout"
 msgstr ""
 
+msgid "ButtonSetup"
+msgstr "KnapOpsætning"
+
 msgid "By disk UUID"
 msgstr ""
 
@@ -4147,8 +4153,14 @@ msgstr[1] ""
 msgid "Click the button on your remote you want to change."
 msgstr "Klik på den kanp på din fjernbetjening du ønsker at ændre"
 
+msgid "Client"
+msgstr ""
+
 msgid "Client is streaming from this box!"
 msgstr ""
+
+msgid "ClientIP"
+msgstr "KlientIP"
 
 msgid "Clients"
 msgstr "Klienter"
@@ -6367,6 +6379,9 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "Vil du virkelig genstarte din %s %s ?"
 
 msgid "Do you want to remove:"
+msgstr ""
+
+msgid "Do you want to replace:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -9015,6 +9030,9 @@ msgstr "Værtsnavn: "
 msgid "Hotbird 13.0e"
 msgstr "Hotbird 13.0e"
 
+msgid "Hotkey"
+msgstr "Hurtigtast"
+
 msgid "Hotkey Settings"
 msgstr "Hurtigtast opsætning"
 
@@ -10896,6 +10914,9 @@ msgstr "Minimum alder %d år"
 msgid "Minimum send interval"
 msgstr "Minimum sendeinterval"
 
+msgid "Mins"
+msgstr "Min."
+
 msgid "Minutes"
 msgstr "minutter"
 
@@ -11608,6 +11629,9 @@ msgstr "Netværksnavn (SSID)"
 msgid "Network scan"
 msgstr "Netværkssøgning"
 
+msgid "Network storage on"
+msgstr ""
+
 msgid "Network test"
 msgstr "Netværkstest"
 
@@ -11814,6 +11838,9 @@ msgid "No free tuner!"
 msgstr "Ingen fri Tuner!"
 
 msgid "No hard disks detected."
+msgstr ""
+
+msgid "No log files found so debug logs are unavailable!"
 msgstr ""
 
 msgid "No matching place names found"
@@ -12569,6 +12596,9 @@ msgstr "PLS Tilstand"
 msgid "PMT PID"
 msgstr "PMT PID"
 
+msgid "PPanel"
+msgstr "PPanel"
+
 msgid "PRIMETIME"
 msgstr "PRIMETIME"
 
@@ -12643,6 +12673,9 @@ msgstr "Panama"
 
 msgid "Panic channel"
 msgstr "Panikkanal"
+
+msgid "Panic to"
+msgstr "Panik til"
 
 msgid "Panjabi / Punjabi"
 msgstr ""
@@ -13131,6 +13164,9 @@ msgid "Please wait while scanning is in progress..."
 msgstr "Vent venligst mens søgeningen er i gang..."
 
 msgid "Please wait while the data is extracted..."
+msgstr ""
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
 msgstr ""
 
 msgid "Please wait while the list downloads..."
@@ -16828,6 +16864,9 @@ msgstr "Skarphed"
 msgid "ShellInABox"
 msgstr ""
 
+msgid "Shellscript"
+msgstr "SkalSkript"
+
 msgid "Shift"
 msgstr "Skift"
 
@@ -20186,6 +20225,9 @@ msgstr "Spor"
 msgid "Traditional Chinese"
 msgstr "Traditionelt kinesisk"
 
+msgid "Transcode"
+msgstr "Omkod"
+
 msgid "Transcoding"
 msgstr ""
 
@@ -22357,6 +22399,9 @@ msgstr "Zap-tilstand"
 msgid "Zap next"
 msgstr "Zap næste"
 
+msgid "Zap to"
+msgstr "Zap til"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "Zap til kanal (sæt op i menu)"
 
@@ -23485,12 +23530,6 @@ msgstr "ja (behold feeds)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "(PiP)"
-#~ msgstr " (BiB)"
-
-#~ msgid "Mins"
-#~ msgstr "Min."
-
 #~ msgid "Sort list to default and exit?"
 #~ msgstr "Sorter liste til standard og afslut ?"
 
@@ -23892,14 +23931,8 @@ msgstr "®"
 #~ msgid "CI Helper Settings"
 #~ msgstr "CIHelper Opsætning"
 
-#~ msgid "ClientIP"
-#~ msgstr "KlientIP"
-
 #~ msgid "Minute"
 #~ msgstr "minut"
-
-#~ msgid "Transcode"
-#~ msgstr "Omkod"
 
 #, python-format
 #~ msgid "%.3f MHz"
@@ -23924,9 +23957,6 @@ msgstr "®"
 #~ msgid "Basic PID info"
 #~ msgstr "Grundlæggende PID info"
 
-#~ msgid "ButtonSetup"
-#~ msgstr "KnapOpsætning"
-
 #~ msgid "Constellation & FFT mode"
 #~ msgstr "Konstellation & FET tilstand"
 
@@ -23942,9 +23972,6 @@ msgstr "®"
 #~ msgid "Frequency & Polarization"
 #~ msgstr "Frekvens & Polarisation"
 
-#~ msgid "Hotkey"
-#~ msgstr "Hurtigtast"
-
 #, fuzzy
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "Info ikonbredde"
@@ -23955,12 +23982,6 @@ msgstr "®"
 
 #~ msgid "ONID"
 #~ msgstr "ONID"
-
-#~ msgid "PPanel"
-#~ msgstr "PPanel"
-
-#~ msgid "Panic to"
-#~ msgstr "Panik til"
 
 #, fuzzy
 #~ msgid "Service ID"
@@ -23982,9 +24003,6 @@ msgstr "®"
 #~ msgid "Service info - tuner setting values"
 #~ msgstr "Kanalinfo skriftstørrelse"
 
-#~ msgid "Shellscript"
-#~ msgstr "SkalSkript"
-
 #~ msgid "Symbol rate & FEC"
 #~ msgstr "Symbol hastighed & FEC"
 
@@ -24001,9 +24019,6 @@ msgstr "®"
 #, fuzzy
 #~ msgid "Tuner setting values"
 #~ msgstr "Tuner-indstillinger værdier"
-
-#~ msgid "Zap to"
-#~ msgstr "Zap til"
 
 #~ msgid "active"
 #~ msgstr "aktiv"
