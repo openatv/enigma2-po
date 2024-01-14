@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
-"PO-Revision-Date: 2024-01-11 12:05+0000\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
+"PO-Revision-Date: 2024-01-11 14:45+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -1347,6 +1347,9 @@ msgstr "(Dostęp do '%s' commit log wymaga połączenia z Internetem.)"
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Uwaga: po %d awariach nastąpi automatyczne zrestartowanie.)"
+
+msgid "(PiP)"
+msgstr "(PiP)"
 
 msgid "(Radio)"
 msgstr "(Radio)"
@@ -3281,6 +3284,9 @@ msgstr "Ustawienia przycisków"
 msgid "Button error timeout"
 msgstr "Limit czasu błędu przycisku"
 
+msgid "ButtonSetup"
+msgstr "Ustawienia przycisków"
+
 msgid "By disk UUID"
 msgstr "Wg UUID dysku"
 
@@ -4184,8 +4190,14 @@ msgstr[2] "Wyczyść ostrzeżenia"
 msgid "Click the button on your remote you want to change."
 msgstr "Kliknij na pilocie przycisk, który chcesz zmienić."
 
+msgid "Client"
+msgstr "Klient"
+
 msgid "Client is streaming from this box!"
 msgstr "Klient aktualnie strumieniuje z tego urządzenia!"
+
+msgid "ClientIP"
+msgstr "IP Klienta"
 
 msgid "Clients"
 msgstr "Klienci"
@@ -6416,6 +6428,9 @@ msgstr "Czy chcesz zrestartować %s %s?"
 
 msgid "Do you want to remove:"
 msgstr "Czy chcesz usunąć:"
+
+msgid "Do you want to replace:"
+msgstr "Czy chcesz zastąpić:"
 
 msgid "Do you want to restore your settings?"
 msgstr "Chcesz przywrócić ustawienia?"
@@ -9058,6 +9073,9 @@ msgstr "Nazwa hosta: "
 msgid "Hotbird 13.0e"
 msgstr "Hotbird 13.0e"
 
+msgid "Hotkey"
+msgstr "Klawisz skrótu"
+
 msgid "Hotkey Settings"
 msgstr "Ustawienia skrótów klawiszowych"
 
@@ -10900,6 +10918,9 @@ msgstr "Wiek minimalny %d lat"
 msgid "Minimum send interval"
 msgstr "Minimalny odstęp wysyłania"
 
+msgid "Mins"
+msgstr "Minut"
+
 msgid "Minutes"
 msgstr "minuty"
 
@@ -11598,6 +11619,9 @@ msgstr "Nazwa sieci (SSID)"
 msgid "Network scan"
 msgstr "Skanowanie sieci"
 
+msgid "Network storage on"
+msgstr "Pamięć sieciowa na"
+
 msgid "Network test"
 msgstr "Test sieci"
 
@@ -11806,6 +11830,9 @@ msgstr "Brak wolnego tunera!"
 
 msgid "No hard disks detected."
 msgstr "Nie wykryto twardych dysków."
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr "Nie znaleziono plików logów, więc logi debugowania są niedostępne!"
 
 msgid "No matching place names found"
 msgstr "Nie znaleziono pasujących nazw miejsc"
@@ -12547,6 +12574,9 @@ msgstr "Tryb PLS"
 msgid "PMT PID"
 msgstr "PMT PID"
 
+msgid "PPanel"
+msgstr "PPanel"
+
 msgid "PRIMETIME"
 msgstr "GODZINY NAJWIĘKSZEJ OGLĄDALNOŚCI"
 
@@ -12620,6 +12650,9 @@ msgstr "Panama"
 
 msgid "Panic channel"
 msgstr "Kanał przycisku Paniki"
+
+msgid "Panic to"
+msgstr "Panika do"
 
 msgid "Panjabi / Punjabi"
 msgstr "Panjabi / Punjabi"
@@ -13108,6 +13141,9 @@ msgstr "Czekaj, trwa skanowanie..."
 
 msgid "Please wait while the data is extracted..."
 msgstr "Proszę poczekać, aż dane zostaną wyodrębnione..."
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
+msgstr "Poczekaj, aż feedy zostaną zresetowane (wyczyszczone i ponownie załadowane)..."
 
 msgid "Please wait while the list downloads..."
 msgstr "Poczekaj, aż lista się pobierze..."
@@ -16797,6 +16833,9 @@ msgstr "Ostrość"
 msgid "ShellInABox"
 msgstr "ShellInABox"
 
+msgid "Shellscript"
+msgstr "Shellscript"
+
 msgid "Shift"
 msgstr "Przesunięcie"
 
@@ -20154,6 +20193,9 @@ msgstr "Ścieżka"
 msgid "Traditional Chinese"
 msgstr "Chiński tradycyjny"
 
+msgid "Transcode"
+msgstr "Transkoduj"
+
 msgid "Transcoding"
 msgstr "Transkodowanie"
 
@@ -22354,6 +22396,9 @@ msgstr "Tryb przełączania"
 msgid "Zap next"
 msgstr "Przełącz następny"
 
+msgid "Zap to"
+msgstr "Przełącz na"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "Przełącz na kanał (ustawienia w menu)"
 
@@ -23464,12 +23509,6 @@ msgstr "tak (zachować kanały)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "(PiP)"
-#~ msgstr "(PiP)"
-
-#~ msgid "Mins"
-#~ msgstr "Minut"
-
 #~ msgid "Mount Actions"
 #~ msgstr "Akcje montowania"
 
@@ -24113,14 +24152,8 @@ msgstr "®"
 #~ msgid "CI Helper Settings"
 #~ msgstr "Ustawienia CI helper"
 
-#~ msgid "ClientIP"
-#~ msgstr "IP Klienta"
-
 #~ msgid "Minute"
 #~ msgstr "minuta"
-
-#~ msgid "Transcode"
-#~ msgstr "Transkoduj"
 
 #, python-format
 #~ msgid "%.3f MHz"
@@ -24144,12 +24177,6 @@ msgstr "®"
 #~ msgid "Basic PID info"
 #~ msgstr "Podstawowe info o PID"
 
-#~ msgid "ButtonSetup"
-#~ msgstr "Ustawienia przycisków"
-
-#~ msgid "Client"
-#~ msgstr "Klient"
-
 #~ msgid "Code R. LP-HP & Guard Int."
 #~ msgstr "Kod R. LP-HP & Guard Int."
 
@@ -24168,9 +24195,6 @@ msgstr "®"
 #~ msgid "Frequency & Polarization"
 #~ msgstr "Częstotliwość i polaryzacja"
 
-#~ msgid "Hotkey"
-#~ msgstr "Klawisz skrótu"
-
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "Inwersja & Przepustowość"
 
@@ -24180,26 +24204,14 @@ msgstr "®"
 #~ msgid "NIM & Type"
 #~ msgstr "NIM & Typ"
 
-#~ msgid "Network storage on"
-#~ msgstr "Sieciowa pamięć masowa na"
-
 #~ msgid "Next Log"
 #~ msgstr "Następny Log"
 
 #~ msgid "Next Picture"
 #~ msgstr "Następny obraz"
 
-#~ msgid "No log files found so debug logs are unavailable!"
-#~ msgstr "Nie znaleziono plików logów, więc logi debugowania są niedostępne!"
-
 #~ msgid "ONID"
 #~ msgstr "ONID"
-
-#~ msgid "PPanel"
-#~ msgstr "PPanel"
-
-#~ msgid "Panic to"
-#~ msgstr "Panika do"
 
 #~ msgid "Previous Log"
 #~ msgstr "Poprzedni Log"
@@ -24228,9 +24240,6 @@ msgstr "®"
 #~ msgid "Service info - tuner setting values"
 #~ msgstr "Info o kanale - wartości ustawień tunera"
 
-#~ msgid "Shellscript"
-#~ msgstr "Shellscript"
-
 #~ msgid "Symbol rate & FEC"
 #~ msgstr "Szybkość transmisji i FEC"
 
@@ -24245,9 +24254,6 @@ msgstr "®"
 
 #~ msgid "Tuner setting values"
 #~ msgstr "Wartości ustawień tunera"
-
-#~ msgid "Zap to"
-#~ msgstr "Przełącz na"
 
 #~ msgid "active"
 #~ msgstr "aktywny"

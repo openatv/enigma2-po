@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
 "PO-Revision-Date: 2023-08-11 04:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -1306,6 +1306,9 @@ msgstr "访问 %s 提交日志需要互联网连接."
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(注意: 将在 %d 次崩溃后重新启动.)"
+
+msgid "(PiP)"
+msgstr " (画中画)"
 
 msgid "(Radio)"
 msgstr " (广播)"
@@ -3244,6 +3247,9 @@ msgstr "按键设置"
 msgid "Button error timeout"
 msgstr ""
 
+msgid "ButtonSetup"
+msgstr "按键设置"
+
 msgid "By disk UUID"
 msgstr ""
 
@@ -4146,8 +4152,14 @@ msgstr[1] ""
 msgid "Click the button on your remote you want to change."
 msgstr "请单击你想要修改的遥控键"
 
+msgid "Client"
+msgstr "客户"
+
 msgid "Client is streaming from this box!"
 msgstr "客户端正在从这个机顶盒中进行流式传输!"
+
+msgid "ClientIP"
+msgstr "客户端IP"
 
 msgid "Clients"
 msgstr "客户端"
@@ -6368,6 +6380,9 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "是否要重启%s %s？"
 
 msgid "Do you want to remove:"
+msgstr ""
+
+msgid "Do you want to replace:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -9006,6 +9021,9 @@ msgstr "主机名: "
 msgid "Hotbird 13.0e"
 msgstr "热鸟 13.0e"
 
+msgid "Hotkey"
+msgstr "快捷键"
+
 msgid "Hotkey Settings"
 msgstr "快捷键设置"
 
@@ -10845,6 +10863,9 @@ msgstr "最低年龄 %d 岁"
 msgid "Minimum send interval"
 msgstr "最小发送间隔"
 
+msgid "Mins"
+msgstr "分钟"
+
 msgid "Minutes"
 msgstr "分钟"
 
@@ -11543,6 +11564,9 @@ msgstr "网络名称(SSID)"
 msgid "Network scan"
 msgstr "网络扫描"
 
+msgid "Network storage on"
+msgstr ""
+
 msgid "Network test"
 msgstr "网络测试"
 
@@ -11748,6 +11772,9 @@ msgstr "没有空闲的调谐器！"
 
 msgid "No hard disks detected."
 msgstr "未检测到硬盘."
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr ""
 
 msgid "No matching place names found"
 msgstr "未找到匹配的地名"
@@ -12489,6 +12516,9 @@ msgstr "PLS模式"
 msgid "PMT PID"
 msgstr "节目映射(PMT PID)"
 
+msgid "PPanel"
+msgstr "PPanel面板"
+
 msgid "PRIMETIME"
 msgstr "黄金时段"
 
@@ -12562,6 +12592,9 @@ msgstr "巴拿马"
 
 msgid "Panic channel"
 msgstr "应急频道"
+
+msgid "Panic to"
+msgstr "应急到"
 
 msgid "Panjabi / Punjabi"
 msgstr "旁遮普语"
@@ -13046,6 +13079,9 @@ msgid "Please wait while scanning is in progress..."
 msgstr "正在进行扫描,请稍候..."
 
 msgid "Please wait while the data is extracted..."
+msgstr ""
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
 msgstr ""
 
 msgid "Please wait while the list downloads..."
@@ -16717,6 +16753,9 @@ msgstr "清晰度"
 msgid "ShellInABox"
 msgstr ""
 
+msgid "Shellscript"
+msgstr "shell脚本语言"
+
 msgid "Shift"
 msgstr "移动"
 
@@ -20037,6 +20076,9 @@ msgstr "轨道"
 msgid "Traditional Chinese"
 msgstr "繁体中文"
 
+msgid "Transcode"
+msgstr "转码"
+
 msgid "Transcoding"
 msgstr "转码"
 
@@ -22195,6 +22237,9 @@ msgstr "换台模式"
 msgid "Zap next"
 msgstr "切换到下一个"
 
+msgid "Zap to"
+msgstr "切换到"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "切换频道(设置菜单)"
 
@@ -23304,12 +23349,6 @@ msgstr "是(保持订阅源)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "(PiP)"
-#~ msgstr " (画中画)"
-
-#~ msgid "Mins"
-#~ msgstr "分钟"
-
 #~ msgid "Sort list to default and exit?"
 #~ msgstr "是否将列表排序为默认值并退出？"
 
@@ -23725,14 +23764,8 @@ msgstr "®"
 #~ msgid "CI Helper Settings"
 #~ msgstr "CI 助手设置"
 
-#~ msgid "ClientIP"
-#~ msgstr "客户端IP"
-
 #~ msgid "Minute"
 #~ msgstr "分钟"
-
-#~ msgid "Transcode"
-#~ msgstr "转码"
 
 #, python-format
 #~ msgid "%.3f MHz"
@@ -23755,12 +23788,6 @@ msgstr "®"
 #~ msgid "Basic PID info"
 #~ msgstr "基本PID信息"
 
-#~ msgid "ButtonSetup"
-#~ msgstr "按键设置"
-
-#~ msgid "Client"
-#~ msgstr "客户"
-
 #~ msgid "Code R. LP-HP & Guard Int."
 #~ msgstr "代码R.LP-HP和Guard Int."
 
@@ -23779,9 +23806,6 @@ msgstr "®"
 #~ msgid "Frequency & Polarization"
 #~ msgstr "频率和极化"
 
-#~ msgid "Hotkey"
-#~ msgstr "快捷键"
-
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "反演与带宽"
 
@@ -23793,12 +23817,6 @@ msgstr "®"
 
 #~ msgid "ONID"
 #~ msgstr "客户端(ONID)"
-
-#~ msgid "PPanel"
-#~ msgstr "PPanel面板"
-
-#~ msgid "Panic to"
-#~ msgstr "应急到"
 
 #~ msgid "Service ID"
 #~ msgstr "频道ID"
@@ -23821,9 +23839,6 @@ msgstr "®"
 #~ msgid "Service info - tuner setting values"
 #~ msgstr "频道信息-调谐器设置值"
 
-#~ msgid "Shellscript"
-#~ msgstr "shell脚本语言"
-
 #~ msgid "Symbol rate & FEC"
 #~ msgstr "符号率和前向纠错"
 
@@ -23838,9 +23853,6 @@ msgstr "®"
 
 #~ msgid "Tuner setting values"
 #~ msgstr "调谐器设置值"
-
-#~ msgid "Zap to"
-#~ msgstr "切换到"
 
 #~ msgid "active"
 #~ msgstr "激活"

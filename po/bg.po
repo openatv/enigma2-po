@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
 "PO-Revision-Date: 2023-08-06 06:22+0000\n"
 "Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/bg/>\n"
@@ -1303,6 +1303,9 @@ msgstr "Достъпът до регистрационните файлове н
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Внимание: Ще има рестартиране след %d сривове.)"
+
+msgid "(PiP)"
+msgstr ""
 
 msgid "(Radio)"
 msgstr " (Радио)"
@@ -3241,6 +3244,9 @@ msgstr "Настройка на бутон"
 msgid "Button error timeout"
 msgstr ""
 
+msgid "ButtonSetup"
+msgstr "Настройка на дистанционен бутон"
+
 msgid "By disk UUID"
 msgstr ""
 
@@ -4139,8 +4145,14 @@ msgstr[1] ""
 msgid "Click the button on your remote you want to change."
 msgstr "Кликнете върху бутона на дистанционното, който искате да промените"
 
+msgid "Client"
+msgstr "Клиент"
+
 msgid "Client is streaming from this box!"
 msgstr "Клиентът предава поточно предаване от тази кутия!"
+
+msgid "ClientIP"
+msgstr "IP адрес на клиента"
 
 msgid "Clients"
 msgstr "Клиенти"
@@ -6361,6 +6373,9 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "Искате ли да рестартирате вашия %s %s?"
 
 msgid "Do you want to remove:"
+msgstr ""
+
+msgid "Do you want to replace:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -8999,6 +9014,9 @@ msgstr "Име на хост: "
 msgid "Hotbird 13.0e"
 msgstr ""
 
+msgid "Hotkey"
+msgstr "Горещ бутон"
+
 msgid "Hotkey Settings"
 msgstr "Настройка на гореш бутон"
 
@@ -10835,6 +10853,9 @@ msgstr "Минимална възраст %d години"
 msgid "Minimum send interval"
 msgstr "Минимален интервал за изпращане"
 
+msgid "Mins"
+msgstr "Минути"
+
 msgid "Minutes"
 msgstr "минути"
 
@@ -11533,6 +11554,9 @@ msgstr "Име на мрежата (SSID)"
 msgid "Network scan"
 msgstr "Мрежово сканиране"
 
+msgid "Network storage on"
+msgstr ""
+
 msgid "Network test"
 msgstr "Тест мрежа"
 
@@ -11738,6 +11762,9 @@ msgstr "Няма свободен тунер!"
 
 msgid "No hard disks detected."
 msgstr "Не са открити твърди дискове."
+
+msgid "No log files found so debug logs are unavailable!"
+msgstr ""
 
 msgid "No matching place names found"
 msgstr "Няма намерени съответстващи имена на места"
@@ -12479,6 +12506,9 @@ msgstr ""
 msgid "PMT PID"
 msgstr ""
 
+msgid "PPanel"
+msgstr ""
+
 msgid "PRIMETIME"
 msgstr ""
 
@@ -12552,6 +12582,9 @@ msgstr ""
 
 msgid "Panic channel"
 msgstr "Паник канал"
+
+msgid "Panic to"
+msgstr "Паника за"
 
 msgid "Panjabi / Punjabi"
 msgstr ""
@@ -13036,6 +13069,9 @@ msgid "Please wait while scanning is in progress..."
 msgstr "Моля, изчакайте докато сканирането е в ход ..."
 
 msgid "Please wait while the data is extracted..."
+msgstr ""
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
 msgstr ""
 
 msgid "Please wait while the list downloads..."
@@ -16711,6 +16747,9 @@ msgstr "Острота"
 msgid "ShellInABox"
 msgstr ""
 
+msgid "Shellscript"
+msgstr ""
+
 msgid "Shift"
 msgstr ""
 
@@ -20030,6 +20069,9 @@ msgstr ""
 msgid "Traditional Chinese"
 msgstr ""
 
+msgid "Transcode"
+msgstr "Транскодиране"
+
 msgid "Transcoding"
 msgstr "Транскодиране"
 
@@ -22188,6 +22230,9 @@ msgstr "Превключване режим"
 msgid "Zap next"
 msgstr "Превключване следващ"
 
+msgid "Zap to"
+msgstr "Превключване на"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "Превключване на канал (настройка в менюто)"
 
@@ -23299,9 +23344,6 @@ msgstr "да (запази фийдове)"
 msgid "®"
 msgstr ""
 
-#~ msgid "Mins"
-#~ msgstr "Минути"
-
 #~ msgid "Sort list to default and exit?"
 #~ msgstr "Сортиране на списъка по подразбиране и излизане?"
 
@@ -23666,26 +23708,14 @@ msgstr ""
 #~ msgid "CI Helper Settings"
 #~ msgstr "Настройка на CIHelper"
 
-#~ msgid "ClientIP"
-#~ msgstr "IP адрес на клиента"
-
 #~ msgid "Minute"
 #~ msgstr "минута"
-
-#~ msgid "Transcode"
-#~ msgstr "Транскодиране"
 
 #~ msgid "Audio PID, codec & lang"
 #~ msgstr "Аудио PID, кодек и език"
 
 #~ msgid "Basic PID info"
 #~ msgstr "Основна информация за PID"
-
-#~ msgid "ButtonSetup"
-#~ msgstr "Настройка на дистанционен бутон"
-
-#~ msgid "Client"
-#~ msgstr "Клиент"
 
 #~ msgid "ECM Info"
 #~ msgstr "Информация за ECM"
@@ -23699,17 +23729,11 @@ msgstr ""
 #~ msgid "Frequency & Polarization"
 #~ msgstr "Честота и поляризация"
 
-#~ msgid "Hotkey"
-#~ msgstr "Горещ бутон"
-
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "Инверсия и честотна лента"
 
 #~ msgid "Inversion, Pilot & Roll-off"
 #~ msgstr "Обръщане, пилотиране и преобръщане"
-
-#~ msgid "Panic to"
-#~ msgstr "Паника за"
 
 #~ msgid "Service ID"
 #~ msgstr "Идентификатор на Сервиза"
@@ -23743,9 +23767,6 @@ msgstr ""
 
 #~ msgid "Tuner setting values"
 #~ msgstr "Стойности за настройка на тунера"
-
-#~ msgid "Zap to"
-#~ msgstr "Превключване на"
 
 #~ msgid "active"
 #~ msgstr "активен"
