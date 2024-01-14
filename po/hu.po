@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 11:23+0100\n"
+"POT-Creation-Date: 2024-01-11 12:06+0000\n"
 "PO-Revision-Date: 2022-03-10 14:56+0000\n"
 "Last-Translator: H. Árkosi Róbert <robreg@zsurob.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -1338,6 +1338,9 @@ msgstr "A %s véglegesítési naplóihoz internetkapcsolat szükséges."
 #, python-format
 msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(Figyelem: A(z) %d összeomlás után újraindul.)"
+
+msgid "(PiP)"
+msgstr " (Kép-a-Képben)"
 
 msgid "(Radio)"
 msgstr " (Rádió)"
@@ -3291,6 +3294,9 @@ msgstr "Távirányító gomb beállítása"
 msgid "Button error timeout"
 msgstr ""
 
+msgid "ButtonSetup"
+msgstr "Távirányító gomb beállítás"
+
 msgid "By disk UUID"
 msgstr ""
 
@@ -4186,8 +4192,14 @@ msgstr[1] ""
 msgid "Click the button on your remote you want to change."
 msgstr "Kattintson a távirányító gombjára, ha érvényesíteni szeretné a változásokat"
 
+msgid "Client"
+msgstr ""
+
 msgid "Client is streaming from this box!"
 msgstr ""
+
+msgid "ClientIP"
+msgstr "Kliens IP"
 
 msgid "Clients"
 msgstr "Kliensek"
@@ -6420,6 +6432,9 @@ msgid "Do you want to reboot your %s %s?"
 msgstr "Szeretné újraindítani a(z) %s %s készüléket?"
 
 msgid "Do you want to remove:"
+msgstr ""
+
+msgid "Do you want to replace:"
 msgstr ""
 
 msgid "Do you want to restore your settings?"
@@ -9074,6 +9089,9 @@ msgstr "Gépnév: "
 msgid "Hotbird 13.0e"
 msgstr "Hotbird 13.0e"
 
+msgid "Hotkey"
+msgstr "Hotkey"
+
 msgid "Hotkey Settings"
 msgstr "Hotkey beállítása"
 
@@ -10947,6 +10965,9 @@ msgstr "Minimális korhatár %d év"
 msgid "Minimum send interval"
 msgstr "Minimális ismétlési időköz"
 
+msgid "Mins"
+msgstr "Perc"
+
 msgid "Minutes"
 msgstr "perc"
 
@@ -11668,6 +11689,9 @@ msgstr "Hálózatnév (SSID)"
 msgid "Network scan"
 msgstr "Hálózat keresése"
 
+msgid "Network storage on"
+msgstr ""
+
 msgid "Network test"
 msgstr "Hálózat ellenőrzése"
 
@@ -11874,6 +11898,9 @@ msgid "No free tuner!"
 msgstr "Nincs szabad tuner!"
 
 msgid "No hard disks detected."
+msgstr ""
+
+msgid "No log files found so debug logs are unavailable!"
 msgstr ""
 
 msgid "No matching place names found"
@@ -12628,6 +12655,9 @@ msgstr "PLS Mód"
 msgid "PMT PID"
 msgstr "PMT PID"
 
+msgid "PPanel"
+msgstr "PPanel"
+
 msgid "PRIMETIME"
 msgstr "FŐMŰSORIDŐ"
 
@@ -12702,6 +12732,9 @@ msgstr "Panama"
 
 msgid "Panic channel"
 msgstr "Pánik csatorna"
+
+msgid "Panic to"
+msgstr "Panic to"
 
 msgid "Panjabi / Punjabi"
 msgstr ""
@@ -13188,6 +13221,9 @@ msgid "Please wait while scanning is in progress..."
 msgstr "Kérem várjon, ameddig a keresés folyamatban van..."
 
 msgid "Please wait while the data is extracted..."
+msgstr ""
+
+msgid "Please wait while the feeds are reset (cleared and reloaded)..."
 msgstr ""
 
 msgid "Please wait while the list downloads..."
@@ -16881,6 +16917,9 @@ msgstr "Élesség"
 msgid "ShellInABox"
 msgstr ""
 
+msgid "Shellscript"
+msgstr "Shell script"
+
 msgid "Shift"
 msgstr "Shift"
 
@@ -20243,6 +20282,9 @@ msgstr "Sáv"
 msgid "Traditional Chinese"
 msgstr "Tradicionális kínai"
 
+msgid "Transcode"
+msgstr "Transcode"
+
 msgid "Transcoding"
 msgstr ""
 
@@ -22417,6 +22459,9 @@ msgstr "Csatornaváltás mód"
 msgid "Zap next"
 msgstr "Ugrás a következőre"
 
+msgid "Zap to"
+msgstr "Ugrás ide"
+
 msgid "Zap to channel (setup in menu)"
 msgstr "Ugrás a csatornára (beállítás a menüben)"
 
@@ -23532,12 +23577,6 @@ msgstr "igen (állapotok megtartása)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "(PiP)"
-#~ msgstr " (Kép-a-Képben)"
-
-#~ msgid "Mins"
-#~ msgstr "Perc"
-
 #~ msgid "Sort list to default and exit?"
 #~ msgstr "Rendezési lista alapértelmezett és kilépés?"
 
@@ -23927,14 +23966,8 @@ msgstr "®"
 #~ msgid "CI Helper Settings"
 #~ msgstr "CIHelper beállítása"
 
-#~ msgid "ClientIP"
-#~ msgstr "Kliens IP"
-
 #~ msgid "Minute"
 #~ msgstr "perc"
-
-#~ msgid "Transcode"
-#~ msgstr "Transcode"
 
 #, fuzzy, python-format
 #~ msgid "%.3f MHz"
@@ -23955,9 +23988,6 @@ msgstr "®"
 #~ msgid "Audio PID, codec & lang"
 #~ msgstr "Audió PID, kódolás és nyelv"
 
-#~ msgid "ButtonSetup"
-#~ msgstr "Távirányító gomb beállítás"
-
 #, fuzzy
 #~ msgid "Constellation & FFT mode"
 #~ msgstr "Együttállás"
@@ -23977,9 +24007,6 @@ msgstr "®"
 #~ msgid "Frequency & Polarization"
 #~ msgstr "Polarizáció"
 
-#~ msgid "Hotkey"
-#~ msgstr "Hotkey"
-
 #, fuzzy
 #~ msgid "Inversion & Bandwidth"
 #~ msgstr "Info ikon szélesség"
@@ -23990,12 +24017,6 @@ msgstr "®"
 
 #~ msgid "ONID"
 #~ msgstr "ONID"
-
-#~ msgid "PPanel"
-#~ msgstr "PPanel"
-
-#~ msgid "Panic to"
-#~ msgstr "Panic to"
 
 #, fuzzy
 #~ msgid "Service ID"
@@ -24017,9 +24038,6 @@ msgstr "®"
 #~ msgid "Service info - tuner setting values"
 #~ msgstr "Csatorna információ betű mérete"
 
-#~ msgid "Shellscript"
-#~ msgstr "Shell script"
-
 #, fuzzy
 #~ msgid "Symbol rate & FEC"
 #~ msgstr "Sebesség"
@@ -24038,9 +24056,6 @@ msgstr "®"
 #, fuzzy
 #~ msgid "Tuner setting values"
 #~ msgstr "Tuner beállításai"
-
-#~ msgid "Zap to"
-#~ msgstr "Ugrás ide"
 
 #, fuzzy
 #~ msgid "active"
