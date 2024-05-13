@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 12:54+0000\n"
-"PO-Revision-Date: 2024-05-01 06:33+0000\n"
+"POT-Creation-Date: 2024-05-08 12:32+0000\n"
+"PO-Revision-Date: 2024-05-09 13:55+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.5.4-rc\n"
 "X-Poedit-SourceCharset: iso-8859-5\n"
 
 msgid ""
@@ -2680,7 +2680,7 @@ msgid "Auto install log"
 msgstr "Лог автоматической установки"
 
 msgid "Auto multi-selection"
-msgstr ""
+msgstr "Авто мульти-выбор"
 
 msgid "Auto shut down"
 msgstr "Автоматическое выключение"
@@ -4066,6 +4066,12 @@ msgstr "Выберите имя файла для данных ТВ-гида, к
 
 msgid "Choose the option to correct invalid EPG data."
 msgstr "Выберите параметр для исправления неверных данных EPG."
+
+msgid "Choose the skin to be used for the GUI interface. Press 'GREEN' to activate the skin."
+msgstr "Выберите скин, который будет использоваться для графического интерфейса. Нажмите ЗЕЛЁНУЮ кнопку, для активации скина."
+
+msgid "Choose the skin to be used for the LCD/front panel interface. Press 'GREEN' to activate the skin."
+msgstr "Выберите оформление, которое будет использоваться для интерфейса ЖК-дисплея/передней панели. Нажмите ЗЕЛЁНУЮ кнопку для активации скина."
 
 msgid "Choose the style/order in which items are displayed in help windows."
 msgstr "Выберите стиль/порядок, в котором элементы отображаются в окнах справки."
@@ -5974,10 +5980,10 @@ msgid "Deselect"
 msgstr "Снять выбор"
 
 msgid "Deselect all"
-msgstr ""
+msgstr "Убрать выделение со всего"
 
 msgid "Deselect all lines"
-msgstr ""
+msgstr "Отменить выбор всех строк"
 
 msgid "Deselect all related files"
 msgstr "Отменить выбор всех связанных файлов"
@@ -7189,9 +7195,6 @@ msgstr "Информация об Enigma2"
 msgid "Enigma2 revision"
 msgstr "Ревизия Enigma2"
 
-msgid "Enigma2 skin selector"
-msgstr "Селектор скинов Enigma2"
-
 msgid "Enigma2 version"
 msgstr "Версия Enigma2"
 
@@ -8079,10 +8082,10 @@ msgid "File Commander Move"
 msgstr "Перемещение файлового менеджера"
 
 msgid "File Commander Navigation Actions"
-msgstr ""
+msgstr "Действия навигации в File Commander"
 
 msgid "File Commander Selection Actions"
-msgstr ""
+msgstr "Действия по выбору файлового менеджера"
 
 msgid "File Commander Settings"
 msgstr "Настройки файлового менеджера"
@@ -8487,16 +8490,12 @@ msgstr "Уровень лога отладки GStreamer *"
 msgid "GStreamer version"
 msgstr "Версия GStreamer"
 
-msgid ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to Restart the GUI now?"
-msgstr ""
-"Для применения нового скина требуется перезагрузка графического интерфейса \n"
-"Вы хотите перезапустить графический интерфейс сейчас?"
+msgid "GUI Skin *"
+msgstr "Скин графического интерфейса *"
 
 msgid ""
 "GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
+"Do you want to Restart the GUI now?"
 msgstr ""
 "Для применения нового скина требуется перезагрузка графического интерфейса \n"
 "Вы хотите перезапустить графический интерфейс сейчас?"
@@ -10087,11 +10086,11 @@ msgstr "LAN соединение"
 msgid "LCD Skin Settings"
 msgstr "Настройки скина LCD"
 
-msgid "LCD SkinSelector"
-msgstr "Скины LCD"
-
 msgid "LCD scroll speed"
 msgstr "Скорость прокрутки на LCD"
+
+msgid "LCD/Front panel *"
+msgstr "ЖК-дисплей/Передняя панель *"
 
 msgid "LCN plugin for DVB-T/T2 services"
 msgstr "LCN-плагин для каналов DVB-T/T2"
@@ -10244,7 +10243,7 @@ msgid "Left, wrapped"
 msgstr "Cлева, свёрнуто"
 
 msgid "Legacy mode"
-msgstr ""
+msgstr "Устаревший режим"
 
 msgid "Leisure hobbies"
 msgstr "Отдых, хобби"
@@ -14632,7 +14631,7 @@ msgid "Reset and renumerate title names"
 msgstr "Сбросить и перенумеровать заголовки"
 
 msgid "Reset entries to their default values"
-msgstr ""
+msgstr "Сбросить записи к значениям по умолчанию"
 
 msgid "Reset executable mode (644)"
 msgstr "Сбросить исполняемый режим (644)"
@@ -15456,7 +15455,7 @@ msgid "Select 'Yes' to continuously display all images in a loop, or select 'No'
 msgstr "Выберите 'Да', чтобы непрерывно отображать все изображения в цикле, или выберите 'Нет', чтобы отображать все изображения один раз, а затем останавливать."
 
 msgid "Select 'Yes' to disable multi-selection mode after each operation. Select 'No' to leave multi-selection mode active and the selections unchanged."
-msgstr ""
+msgstr "Выберите 'Да', чтобы отключить режим множественного выбора после каждой операции. Выберите 'Нет', чтобы оставить активным режим множественного выбора и выборы без изменений."
 
 msgid "Select 'Yes' to display a small TV image (PiG - Picture in Graphic) within the EPG screen."
 msgstr "Если выберите 'Да', в ТВ-гиде будет показываться PiG-окно."
@@ -15624,7 +15623,7 @@ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpf
 msgstr "Выберите 'Да', чтобы использовать альтернативные IP-адреса канала GitHub. Это может быть полезно, если Вы используете VPN и к обычным каналам невозможно получить доступ через опубликованные DNS-имена."
 
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
-msgstr ""
+msgstr "Выберите 'Да', чтобы использовать устаревшую навигацию, при которой CH+/- меняет местами активный столбец. Выберите 'Нет', чтобы использовать новую опцию унифицированной навигации для согласованной навигации с другими экранами, где ВЛЕВО/ВПРАВО меняет местами активный столбец и страницы CH+/- вверх и вниз по списку."
 
 msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older API V3. This API version has now been superseded."
 msgstr "Если задано значение 'да', значения сигнала (SNR и т.д.) будут вычисляться из API V3. Это старая версия API, которая теперь заменена."
@@ -15779,10 +15778,10 @@ msgid "Select additional files to backup"
 msgstr "Выбор дополнительных файлов резервных копий"
 
 msgid "Select all"
-msgstr ""
+msgstr "Выбрать всё"
 
 msgid "Select all lines"
-msgstr ""
+msgstr "Выбрать все строки"
 
 msgid "Select all related files"
 msgstr "Выбрать все связанные файлы"
@@ -16676,7 +16675,7 @@ msgid "Set the scrolling speed of text on the front display."
 msgstr "Укажите скорость прокрутки текста на дисплее."
 
 msgid "Set the style of the channel list."
-msgstr ""
+msgstr "Установите стиль списка каналов."
 
 msgid "Set the time before checking video source for resolution information."
 msgstr "Установите время, прежде чем проверять источник видео для получения информации о разрешении."
@@ -16731,7 +16730,7 @@ msgid "Set to 'Disabled' to replace underscore characters, '_', in file and dire
 msgstr "Если отключено, символы подчеркивания в именах файлов и каталогов не отображаются и заменяются пробелами."
 
 msgid "Set to 'Yes', to enable automatic recording of the background timeshift buffer."
-msgstr "Если выберите 'Да', будет включена автоматическая запись таймшифта в фоновом режиме"
+msgstr "Если выберите 'Да', будет включена автоматическая запись таймшифта в фоновом режиме."
 
 msgid "Set to the desired primetime (hour)."
 msgstr "Выберите нужный прайм-тайм (вчасах)."
@@ -17858,16 +17857,13 @@ msgstr "Пакеты компонентов скина"
 msgid "Skin Packages"
 msgstr "Пакеты скинов"
 
-msgid "Skin Selector"
-msgstr "Выбор графической оболочки"
-
 msgid "Skin Setting"
 msgstr "Настройки скина"
 
 msgid "Skin Settings"
 msgstr "Выбор скина"
 
-msgid "Skin setup"
+msgid "SkinSelection"
 msgstr "Выбор скина"
 
 msgid "SkinSelector"
@@ -18602,7 +18598,7 @@ msgid "Stream Relay URL"
 msgstr "URL-адрес ретрансляции потока"
 
 msgid "Stream Relay is active, please switch to a none Stream Relay channel."
-msgstr ""
+msgstr "Ретрансляция потока активна, переключитесь на канал без ретрансляции потока."
 
 msgid "Stream Relay port"
 msgstr "Релейный порт потока"
@@ -18652,7 +18648,7 @@ msgid "Stripes"
 msgstr "Полосы"
 
 msgid "Style"
-msgstr ""
+msgstr "Стиль"
 
 msgid "Style:"
 msgstr "Стиль:"
@@ -18979,7 +18975,7 @@ msgid "TMDB Search"
 msgstr "Поиск по TMDB"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Коррекция перевода Monja 30.04.2024"
+msgstr "Коррекция перевода Monja 09.05.2024"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл слишком большой для ISO9660 уровень 1!"
@@ -20273,7 +20269,7 @@ msgid "Toggle selection of the current tag"
 msgstr "Переключить выделение текущего тега"
 
 msgid "Toggle selections"
-msgstr ""
+msgstr "Переключить выбор"
 
 msgid "Toggle service name display"
 msgstr "Переключить отображение названия канала"
@@ -21062,7 +21058,7 @@ msgid "Use key map *"
 msgstr "Использовать раскладку *"
 
 msgid "Use legacy navigation"
-msgstr ""
+msgstr "Используйте устаревшую навигацию"
 
 msgid "Use logarithmic steps"
 msgstr "Используйте логарифмические шаги"
@@ -23666,6 +23662,25 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enigma2 skin selector"
+#~ msgstr "Селектор скинов Enigma2"
+
+#~ msgid ""
+#~ "GUI needs a restart to apply a new skin\n"
+#~ "Do you want to restart the GUI now?"
+#~ msgstr ""
+#~ "Для применения нового скина требуется перезагрузка графического интерфейса \n"
+#~ "Вы хотите перезапустить графический интерфейс сейчас?"
+
+#~ msgid "LCD SkinSelector"
+#~ msgstr "Скины LCD"
+
+#~ msgid "Skin Selector"
+#~ msgstr "Выбор графической оболочки"
+
+#~ msgid "Skin setup"
+#~ msgstr "Выбор скина"
 
 #~ msgid "Settings..."
 #~ msgstr "Настройки..."
