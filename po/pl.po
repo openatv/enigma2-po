@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 19:32+0000\n"
-"PO-Revision-Date: 2024-05-19 10:46+0000\n"
+"POT-Creation-Date: 2024-05-18 15:15+0000\n"
+"PO-Revision-Date: 2024-05-24 20:22+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -2911,7 +2911,7 @@ msgid "Backup failed."
 msgstr "Tworzenie kopii nie udane."
 
 msgid "Backup images"
-msgstr "Kopia zapasowa systemu"
+msgstr "Kopie zapasowe systemów"
 
 msgid "Backup is running..."
 msgstr "Tworzenie kopii zapasowej..."
@@ -2976,10 +2976,10 @@ msgid "Base time"
 msgstr "Czas bazowy"
 
 msgid "Base transparency for OpenOpera web browser."
-msgstr "Podstawa przejrzystości dla przeglądarki OpenOpera"
+msgstr "Podstawowa przezroczystość dla przeglądarki internetowej OpenOpera."
 
 msgid "Base transparency for teletext, more options are available within teletext screen."
-msgstr "Podstawa przejrzystości dla teletekstu, więcej opcji dostępnych na ekranie teletekstu."
+msgstr "Podstawowa przezroczystość teletekstu, więcej opcji jest dostępnych na ekranie teletekstu."
 
 msgid "Baseball"
 msgstr "Baseball"
@@ -2992,6 +2992,9 @@ msgstr "Koszykówka"
 
 msgid "Basque"
 msgstr "Baskijski"
+
+msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
+msgstr "Przed zmianą tych ustawień spróbuj wyłączyć wszelkie ustawienia overscan na ekranie telewizora/wyświetlacza. Aby skalibrować menu ekranowe (OSD), dostosuj wartości położenia i rozmiaru, aż czerwone pole będzie *tylko* widoczne i dotknie krawędzi ekranu."
 
 msgid "Begin time"
 msgstr "Czas rozpoczęcia"
@@ -5693,9 +5696,6 @@ msgstr "Domyślne przesunięcie głośności"
 #, python-format
 msgid "Default: '%s'."
 msgstr "Domyślnie: '%s'."
-
-msgid "Defaults"
-msgstr "Domyślne"
 
 msgid "Define Softcam For This Provider"
 msgstr "Zdefiniuj Softcam dla tego dostawcy"
@@ -9401,7 +9401,7 @@ msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Ignoruj nieoczekiwane budzenie i pozostań w trybie czuwania"
 
 msgid "Image Backup"
-msgstr "Kopia systemu"
+msgstr "Kopia zapasowa systemu"
 
 msgid "Image Flash Actions"
 msgstr "Operacje Image Flash"
@@ -11402,6 +11402,9 @@ msgstr "Ruch na zachód..."
 msgid "Mozambique"
 msgstr "Mozambik"
 
+msgid "Multi"
+msgstr "Multi"
+
 msgid "Multi EPG"
 msgstr "EPG wielu kanałów"
 
@@ -11434,7 +11437,7 @@ msgstr "MultiTranskodowanie"
 
 #, python-format
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
-msgstr "System Multiboot utworzony w: %s/%s-%s-%s-backup-%s_usb.zip"
+msgstr "System Multiboot utworzony w dniu: %s/%s-%s-%s-backup-%s_usb.zip"
 
 msgid "Multimedia Packages"
 msgstr "Pakiety multimedialne"
@@ -12269,9 +12272,6 @@ msgstr "OSD"
 msgid "OSD 3D Settings"
 msgstr "Ustawienia 3D"
 
-msgid "OSD Adjustment"
-msgstr "Regulacja OSD"
-
 msgid "OSD Calibration"
 msgstr "Kalibracja OSD"
 
@@ -12283,6 +12283,9 @@ msgstr "Ustawienia OSD"
 
 msgid "OSD name request"
 msgstr "Żądanie nazwy OSD"
+
+msgid "OSD visibility"
+msgstr "Widoczność OSD"
 
 msgid "OTT Model"
 msgstr "Model OTT"
@@ -13168,13 +13171,6 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "Wybierz, co zrobić po flashowaniu następującego obrazu:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
-msgstr ""
-"Ustaw pozycję interfejsu użytkownika. Krawędzie w czerwonej strefie powinny dotykać krawędzi ekranu telewizora.\n"
-"Następnie naciśnij zielony przycisk."
-
-msgid ""
 "Please use direction keys to move the PiP window.\n"
 "Press Bouquet +/- to resize the window.\n"
 "Press OK to go back to the TV mode or EXIT to cancel the moving."
@@ -13371,9 +13367,6 @@ msgstr "Portugalia"
 
 msgid "Portuguese"
 msgstr "Portugalski"
-
-msgid "Position Setup"
-msgstr "Ustawienia pozycji"
 
 msgid "Position of finished Timers in Timerlist"
 msgstr "Lista pozycji do wykonania w liście timera"
@@ -15997,7 +15990,7 @@ msgid "Select the currently highlighted bouquet"
 msgstr "Wybierz aktualnie podświetloną listę kanałów"
 
 msgid "Select the currently highlighted locale/language for the user interface"
-msgstr "Wybierz aktualny region/język"
+msgstr "Wybierz aktualnie podświetlone ustawienia regionalne/język interfejsu użytkownika"
 
 msgid "Select the currently highlighted service"
 msgstr "Wybierz aktualnie podświetloną usługę"
@@ -19511,14 +19504,14 @@ msgstr ""
 
 #, python-format
 msgid "The user interface of your %s %s is restarting"
-msgstr "Interfejs użytkownika %s %s jest uruchamiany ponownie"
+msgstr "Interfejs użytkownika Twojego %s %s uruchamia się ponownie"
 
 #, python-format
 msgid ""
 "The user interface of your %s %s is restarting\n"
 "due to an error in StartEnigma.py"
 msgstr ""
-"Interfejs %s %s jest restartowany\n"
+"Interfejs użytkownika Twojego %s %s uruchamia się ponownie\n"
 "z powodu błędu w StartEnigma.py"
 
 msgid "The width of the picture. The input will be scaled to match this value."
@@ -19808,7 +19801,7 @@ msgid "This option lets you adjust the 3D depth of the OSD."
 msgstr "Ta opcja umożliwia dostosowanie głębi 3D menu OSD."
 
 msgid "This option lets you adjust the transparency of the OSD."
-msgstr "Ta opcja pozwala ustawić przezroczystość interfejsu użytkownika"
+msgstr "Ta opcja pozwala dostosować przezroczystość OSD."
 
 msgid "This option lets you choose the 3D mode of the OSD."
 msgstr "Ta opcja umożliwia wybranie trybu 3D menu OSD."
@@ -20863,7 +20856,7 @@ msgid "Updating package list."
 msgstr "Aktualizowanie listy pakietów."
 
 msgid "Upgrade (Flash & restore all)"
-msgstr "Uaktualnij (Flashuj i przywróć wszystko)"
+msgstr "Aktualizuj (Flashuj i przywróć wszystko)"
 
 msgid "Upgrade finished."
 msgstr "Aktualizacja zakończona."
@@ -21067,26 +21060,29 @@ msgstr "Użyj pomiaru mocy"
 msgid "Use small screen"
 msgstr "Użyj wąskiego ekranu"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
-msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby dostosować rozmiar interfejsu użytkownika. Lewy przycisk zmniejsza rozmiar, prawy zwiększa rozmiar."
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby wyregulować wysokość OSD. Przycisk LEWY zmniejsza wysokość, PRAWY zwiększa wysokość."
+
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the width of the OSD. LEFT button decreases the width, RIGHT increases the width."
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby dostosować szerokość OSD. Przycisk LEWY zmniejsza szerokość, PRAWY zwiększa szerokość."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD bottom."
-msgstr "Użyj przycisków w lewo/w prawo na pilocie, aby przesunąć w dół interfejs użytkownika"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesunąć dół menu OSD."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD left."
-msgstr "Użyj przycisków w lewo/w prawo na pilocie, aby przesunąć w lewo interfejs użytkownika"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesunąć menu OSD w lewo."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD left/right."
-msgstr "Użyj klawiszy w lewo/prawo, aby przesunąć pozycję menu OSD w lewo/prawo"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesuwać menu OSD w lewo/prawo."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD right."
-msgstr "Użyj przycisków w lewo/w prawo na pilocie, aby przesunąć w prawo interfejs użytkownika"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesunąć menu OSD w prawo."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD top."
-msgstr "Użyj przycisków w lewo/w prawo na pilocie, aby przesunąć w górę interfejs użytkownika"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesunąć górną część menu OSD."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
-msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przenieść interfejs użytkownika w górę/dół"
+msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby przesuwać menu OSD w górę/w dół."
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
 msgstr "Użyj kreatora sieci, aby skonfigurować swoją sieć. Kreator pomoże ci w jej konfiguracji"
@@ -21178,9 +21174,6 @@ msgstr "Zdefiniowany transponder przez użytkownika"
 
 msgid "User interface settings"
 msgstr "Ustawienia interfejsu użytkownika"
-
-msgid "User interface visibility"
-msgstr "Widoczność interfejs użytkownika"
 
 msgid "User logo:"
 msgstr "Logo użytkownika:"
@@ -21767,7 +21760,7 @@ msgstr ""
 "Przejdź do miejsca, które ma być nowym końcem pliku. Naciśnij 'OK', wybierz 'koniec cięcia'. To wszystko."
 
 msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of the %s %s by providing a backup facility for the current settings and a short explanation of how to upgrade the firmware."
-msgstr "Witaj w kreatorze ulepszania obrazu. Kreator będzie asystować w ulepszaniu oprogramowania %s %s zapewniając możliwość wykonania kopii zapasowej aktualnych ustawień, a także wyjaśni jak przeprowadzić aktualizację."
+msgstr "Witamy w kreatorze aktualizacji obrazu. Kreator pomoże Ci w aktualizacji oprogramowania sprzętowego %s %s, udostępniając kopię zapasową bieżących ustawień i krótkie wyjaśnienie, jak zaktualizować oprogramowanie sprzętowe."
 
 msgid "Welcome..."
 msgstr "Witaj..."
@@ -22002,6 +21995,9 @@ msgstr "Gdy kursor wejściowy osiągnie ten punkt (procent szerokości, z obu st
 
 msgid "When the receiver wakes from standby or deep standby it will send a command to the TV to bring it out of standby."
 msgstr "Po uruchomieniu tunera, tuner wyśle komendę wybudzenia do telewizora."
+
+msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
+msgstr "Gdy czerwone pole będzie już prawidłowo widoczne, naciśnij ZIELONY przycisk, aby zapisać ustawienia i wyjść."
 
 msgid "When tuned to a service the system will normally scan the transponder for any changes and save them. Only set to 'yes' if you're absolutely sure what you're doing."
 msgstr "Gdy nastawiony na kanał będzie normalnie skanować zmiany na transponderze i zapisze je. Tylko ustawiony na 'tak', jeśli jesteś absolutnie pewien, co robisz."
@@ -23121,9 +23117,6 @@ msgstr "film/dramat"
 msgid "multi"
 msgstr "multi"
 
-msgid "multinorm"
-msgstr "wielonormowy"
-
 msgid "music (general)"
 msgstr "muzyka (ogólnie)"
 
@@ -23645,6 +23638,31 @@ msgstr "tak (zachować kanały)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Defaults"
+#~ msgstr "Domyślne"
+
+#~ msgid "OSD Adjustment"
+#~ msgstr "Regulacja OSD"
+
+#~ msgid ""
+#~ "Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
+#~ "When you are ready press green to continue."
+#~ msgstr ""
+#~ "Ustaw pozycję interfejsu użytkownika. Krawędzie w czerwonej strefie powinny dotykać krawędzi ekranu telewizora.\n"
+#~ "Następnie naciśnij zielony przycisk."
+
+#~ msgid "Position Setup"
+#~ msgstr "Ustawienia pozycji"
+
+#~ msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+#~ msgstr "Użyj przycisków LEWO/PRAWO na pilocie, aby dostosować rozmiar interfejsu użytkownika. Lewy przycisk zmniejsza rozmiar, prawy zwiększa rozmiar."
+
+#~ msgid "User interface visibility"
+#~ msgstr "Widoczność interfejs użytkownika"
+
+#~ msgid "multinorm"
+#~ msgstr "wielonormowy"
 
 #~ msgid "Choose the Display Skin and press GREEN to activate the skin."
 #~ msgstr "Wybierz skórkę wyświetlacza i naciśnij ZIELONY, aby aktywować skórkę."

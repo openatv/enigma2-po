@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 19:32+0000\n"
-"PO-Revision-Date: 2024-05-16 08:01+0000\n"
+"POT-Creation-Date: 2024-05-18 15:15+0000\n"
+"PO-Revision-Date: 2024-05-19 21:38+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -2933,7 +2933,7 @@ msgid "Base time"
 msgstr "Ora base"
 
 msgid "Base transparency for OpenOpera web browser."
-msgstr "Trasparenza di base per il browser web OpenOpera"
+msgstr "Trasparenza di base per il browser web OpenOpera."
 
 msgid "Base transparency for teletext, more options are available within teletext screen."
 msgstr "Trasparenza di base per il televideo, più opzioni disponibili all'interno della schermata del televideo."
@@ -2949,6 +2949,9 @@ msgstr "Pallacanestro"
 
 msgid "Basque"
 msgstr "Basco"
+
+msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
+msgstr "Prima di modificare queste impostazioni, prova a disabilitare le impostazioni di overscan sullo schermo della TV o del monitor. Per calibrare l'On-Screen-Display (OSD), regola i valori di posizione e dimensione fino a quando il riquadro rosso è *appena* visibile e tocca i bordi dello schermo."
 
 msgid "Begin time"
 msgstr "Ora inizio"
@@ -5648,9 +5651,6 @@ msgstr "Offset predefinito volume"
 #, python-format
 msgid "Default: '%s'."
 msgstr "Predefinito: '%s'."
-
-msgid "Defaults"
-msgstr "Predefiniti"
 
 msgid "Define Softcam For This Provider"
 msgstr "Definisci softcam per questo fornitore"
@@ -11351,6 +11351,9 @@ msgstr "Spostamento a ovest..."
 msgid "Mozambique"
 msgstr "Mozambico"
 
+msgid "Multi"
+msgstr "Multi"
+
 msgid "Multi EPG"
 msgstr "EPG multiplo"
 
@@ -12218,9 +12221,6 @@ msgstr "OSD"
 msgid "OSD 3D Settings"
 msgstr "Impostazioni OSD 3D"
 
-msgid "OSD Adjustment"
-msgstr "Regolazione OSD"
-
 msgid "OSD Calibration"
 msgstr "Impostazioni posizione OSD"
 
@@ -12232,6 +12232,9 @@ msgstr "Configurazione OSD"
 
 msgid "OSD name request"
 msgstr "Richiesta nome OSD"
+
+msgid "OSD visibility"
+msgstr "Visibilità OSD"
 
 msgid "OTT Model"
 msgstr "Modello OTT"
@@ -13117,13 +13120,6 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "Seleziona cosa fare dopo il flash della seguente immagine:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
-msgstr ""
-"Imposta l'interfaccia utente regolando i valori finché i bordi del rettangolo rosso coincidono con i bordi della TV.\n"
-"Quando sei pronto, premi VERDE per continuare."
-
-msgid ""
 "Please use direction keys to move the PiP window.\n"
 "Press Bouquet +/- to resize the window.\n"
 "Press OK to go back to the TV mode or EXIT to cancel the moving."
@@ -13318,9 +13314,6 @@ msgstr "Portogallo"
 
 msgid "Portuguese"
 msgstr "Portoghese"
-
-msgid "Position Setup"
-msgstr "Impostazioni posizione"
 
 msgid "Position of finished Timers in Timerlist"
 msgstr "Posizione dei timer finiti nell'elenco dei timer"
@@ -19705,7 +19698,7 @@ msgid "This option allows you to choose how to display standard definition video
 msgstr "Questa opzione consente di scegliere come visualizzare i video a definizione standard sulla TV."
 
 msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed. "
-msgstr "Questa opzione consente di scegliere quale salto avere nell'elenco canali alla prima pressione di un tasto (cioè premendo '2' si passa prima ad 'A' oppure a '2')"
+msgstr "Questa opzione consente di scegliere quale salto avere nell'elenco canali alla prima pressione di un tasto (cioè premendo '2' si passa prima ad 'A' oppure a '2'). "
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Questa opzione consente di scegliere se visualizzare o meno le informazioni sul genere per l'evento."
@@ -19747,13 +19740,13 @@ msgid "This option configures you can set Auto Volume Level."
 msgstr "Questa opzione configura le impostazioni del volume automatico."
 
 msgid "This option lets you adjust the 3D depth of the OSD."
-msgstr "Questa opzione consente di regolare la profondità 3D"
+msgstr "Questa opzione consente di regolare la profondità 3D."
 
 msgid "This option lets you adjust the transparency of the OSD."
-msgstr "Questa opzione consente di regolare la trasparenza dell'interfaccia utente"
+msgstr "Questa opzione consente di regolare la trasparenza dell'interfaccia utente."
 
 msgid "This option lets you choose the 3D mode of the OSD."
-msgstr "Questa opzione consente di scegliere la modalità 3D"
+msgstr "Questa opzione consente di scegliere la modalità 3D."
 
 msgid "This option lets you show the 3D OSD menu option in the Extension Menu screen."
 msgstr "Questa opzione consente di mostrare l'opzione nella schermata dell'estensione."
@@ -21009,26 +21002,29 @@ msgstr "Usa misurazione di potenza"
 msgid "Use small screen"
 msgstr "Usa schermo piatto"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per regolare le dimensioni dell'interfaccia utente. Il tasto sinistro riduce le dimensioni, il tasto destro aumenta le dimensioni."
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per regolare l'altezza dell'interfaccia utente. Il pulsante Sinistra diminuisce l'altezza, il pulsante Destra aumenta l'altezza."
+
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the width of the OSD. LEFT button decreases the width, RIGHT increases the width."
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per regolare la larghezza dell'interfaccia utente. Il pulsante Sinistra diminuisce la larghezza, il pulsante Destra aumenta la larghezza."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD bottom."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente in basso"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente in basso."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD left."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a sinistra"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a sinistra."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD left/right."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a sinistra/destra"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a sinistra o destra."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD right."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a destra"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente a destra."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD top."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente in alto"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente in alto."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
-msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente su/giù"
+msgstr "Usa i tasti Sinistra/Destra sul telecomando per spostare l'interfaccia utente su/giù."
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
 msgstr "Usa la procedura guidata di rete per configurare la rete. La procedura guidata ti aiuterà a configurare la rete"
@@ -21120,9 +21116,6 @@ msgstr "Transponder predefinito utente"
 
 msgid "User interface settings"
 msgstr "Configurazione Interfaccia Utente"
-
-msgid "User interface visibility"
-msgstr "Visibilità dell'interfaccia utente"
 
 msgid "User logo:"
 msgstr "Registroo utente:"
@@ -21944,6 +21937,9 @@ msgstr "Se il cursore di input raggiunge questo punto (percentuale della larghez
 
 msgid "When the receiver wakes from standby or deep standby it will send a command to the TV to bring it out of standby."
 msgstr "Se il ricevitore si riattiva dallo standby o dallo spegnimento, invierà un comando alla TV per portarla fuori dallo standby."
+
+msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
+msgstr "Quando il riquadro rosso è visibile correttamente premi il tasto VERDE per salvare le impostazioni ed uscire."
 
 msgid "When tuned to a service the system will normally scan the transponder for any changes and save them. Only set to 'yes' if you're absolutely sure what you're doing."
 msgstr "Se è sintonizzato su un servizio, il sistema normalmente eseguirà la scansione del transponder per eventuali modifiche e le salverà. Imposta su 'sì' solo se sei assolutamente sicuro di quello che stai facendo."
@@ -23063,9 +23059,6 @@ msgstr "film/dramma (generale)"
 msgid "multi"
 msgstr "multi"
 
-msgid "multinorm"
-msgstr "multinorma"
-
 msgid "music (general)"
 msgstr "musica (generale)"
 
@@ -23586,6 +23579,31 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Defaults"
+#~ msgstr "Predefiniti"
+
+#~ msgid "OSD Adjustment"
+#~ msgstr "Regolazione OSD"
+
+#~ msgid ""
+#~ "Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
+#~ "When you are ready press green to continue."
+#~ msgstr ""
+#~ "Imposta l'interfaccia utente regolando i valori finché i bordi del rettangolo rosso coincidono con i bordi della TV.\n"
+#~ "Quando sei pronto, premi VERDE per continuare."
+
+#~ msgid "Position Setup"
+#~ msgstr "Impostazioni posizione"
+
+#~ msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+#~ msgstr "Usa i tasti Sinistra/Destra sul telecomando per regolare le dimensioni dell'interfaccia utente. Il tasto sinistro riduce le dimensioni, il tasto destro aumenta le dimensioni."
+
+#~ msgid "User interface visibility"
+#~ msgstr "Visibilità dell'interfaccia utente"
+
+#~ msgid "multinorm"
+#~ msgstr "multinorma"
 
 #~ msgid "Choose the Display Skin and press GREEN to activate the skin."
 #~ msgstr "Scegli la skin del display e premi VERDE per attivarla."
