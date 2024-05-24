@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 19:32+0000\n"
-"PO-Revision-Date: 2024-05-11 04:00+0000\n"
+"POT-Creation-Date: 2024-05-18 15:15+0000\n"
+"PO-Revision-Date: 2024-05-19 21:38+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 msgid ""
 "\n"
@@ -2982,6 +2982,9 @@ msgstr "Basketball"
 msgid "Basque"
 msgstr "Baskicky"
 
+msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
+msgstr "Před změnou těchto nastavení se pokuste deaktivovat všechna nastavení přeskenování na obrazovce televizoru/obrazovky. Chcete-li kalibrovat OSD (On-Screen-Display), upravte hodnoty polohy a velikosti, dokud nebude červený rámeček *jen* vidět a nebude se dotýkat okrajů obrazovky."
+
 msgid "Begin time"
 msgstr "Čas začátku"
 
@@ -5681,9 +5684,6 @@ msgstr "Výchozí posun hlasitosti"
 #, python-format
 msgid "Default: '%s'."
 msgstr "Výchozí: '%s'."
-
-msgid "Defaults"
-msgstr "Výchozí"
 
 msgid "Define Softcam For This Provider"
 msgstr "Definovat Softcam pro tohoto poskytovatele"
@@ -11389,6 +11389,9 @@ msgstr "Natáčení na západ ..."
 msgid "Mozambique"
 msgstr "Mosambik"
 
+msgid "Multi"
+msgstr "Vícenásobné"
+
 msgid "Multi EPG"
 msgstr "Multi EPG"
 
@@ -12256,9 +12259,6 @@ msgstr "OSD"
 msgid "OSD 3D Settings"
 msgstr "Nastavení 3D OSD"
 
-msgid "OSD Adjustment"
-msgstr "Nastavení OSD"
-
 msgid "OSD Calibration"
 msgstr "Pozice OSD"
 
@@ -12270,6 +12270,9 @@ msgstr "Nastavení OSD"
 
 msgid "OSD name request"
 msgstr "Požadovaný název OSD"
+
+msgid "OSD visibility"
+msgstr "Viditelnost OSD"
 
 msgid "OTT Model"
 msgstr "OTT Model"
@@ -13155,13 +13158,6 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "Vyberte, co se má udělat po flashnutí následujícího obrazu:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
-msgstr ""
-"Prosím nastavte okraje rámečku tak aby se červené pole dotýkalo okrajů vašeho televizoru. \n"
-"Po nastavení, uložte a ukončete 'Zeleným' tlačítkem."
-
-msgid ""
 "Please use direction keys to move the PiP window.\n"
 "Press Bouquet +/- to resize the window.\n"
 "Press OK to go back to the TV mode or EXIT to cancel the moving."
@@ -13358,9 +13354,6 @@ msgstr "Portugalsko"
 
 msgid "Portuguese"
 msgstr "Portugalsky"
-
-msgid "Position Setup"
-msgstr "Nastavení pozice"
 
 msgid "Position of finished Timers in Timerlist"
 msgstr "Dokončené časovače umísťovat v seznamu"
@@ -21053,8 +21046,11 @@ msgstr "Použít sílu měření"
 msgid "Use small screen"
 msgstr "Použít malou obrazovku"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
-msgstr "Pomocí levého/pravého tlačítka na dálkovém ovládání nastavte velikost uživatelského rozhraní OSD. (šipky -L/+P na DO)."
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
+msgstr "Pomocí tlačítek VLEVO/VPRAVO na dálkovém ovládání upravte výšku nabídky OSD. Tlačítko VLEVO snižuje výšku, VPRAVO zvyšuje výšku."
+
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the width of the OSD. LEFT button decreases the width, RIGHT increases the width."
+msgstr "Pomocí tlačítek VLEVO/VPRAVO na dálkovém ovládání upravte šířku nabídky OSD. Tlačítko VLEVO zmenšuje šířku, VPRAVO zvyšuje šířku."
 
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD bottom."
 msgstr "Pomocí tlačítek Vlevo/Vpravo na dálkovém ovládání přesuňte uživatelské rozhraní dolů"
@@ -21164,9 +21160,6 @@ msgstr "Uživatem definovaný transpondér"
 
 msgid "User interface settings"
 msgstr "Uživatelské rozhraní"
-
-msgid "User interface visibility"
-msgstr "Průhlednost rozhraní"
 
 msgid "User logo:"
 msgstr "Uživatelské logo:"
@@ -21988,6 +21981,9 @@ msgstr "Když vstupní kurzor dosáhne tohoto bodu (procento šířky z obou str
 
 msgid "When the receiver wakes from standby or deep standby it will send a command to the TV to bring it out of standby."
 msgstr "Když se přijímač probudí z pohotovostního režimu nebo hlubokého spánku, odešle do televizoru příkaz, aby jej z pohotovostního režimu probudil."
+
+msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
+msgstr "Když je červený rámeček správně zobrazen, stiskněte ZELENÉ tlačítko pro uložení nastavení a ukončení."
 
 msgid "When tuned to a service the system will normally scan the transponder for any changes and save them. Only set to 'yes' if you're absolutely sure what you're doing."
 msgstr "Při ladění programů bude systém normálně hledat transpondéry a a uloží je. Nastavte na 'ano' jen pokud jste si absolutně jisti, co děláte."
@@ -23107,9 +23103,6 @@ msgstr "film/drama (obecně)"
 msgid "multi"
 msgstr "vícenásobné"
 
-msgid "multinorm"
-msgstr "multinorma"
-
 msgid "music (general)"
 msgstr "hudba (obecně)"
 
@@ -23631,6 +23624,31 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Defaults"
+#~ msgstr "Výchozí"
+
+#~ msgid "OSD Adjustment"
+#~ msgstr "Nastavení OSD"
+
+#~ msgid ""
+#~ "Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
+#~ "When you are ready press green to continue."
+#~ msgstr ""
+#~ "Prosím nastavte okraje rámečku tak aby se červené pole dotýkalo okrajů vašeho televizoru. \n"
+#~ "Po nastavení, uložte a ukončete 'Zeleným' tlačítkem."
+
+#~ msgid "Position Setup"
+#~ msgstr "Nastavení pozice"
+
+#~ msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+#~ msgstr "Pomocí levého/pravého tlačítka na dálkovém ovládání nastavte velikost uživatelského rozhraní OSD. (šipky -L/+P na DO)."
+
+#~ msgid "User interface visibility"
+#~ msgstr "Průhlednost rozhraní"
+
+#~ msgid "multinorm"
+#~ msgstr "multinorma"
 
 #~ msgid "Choose the Display Skin and press GREEN to activate the skin."
 #~ msgstr "Zvolte Display Skin a stiskněte ZELENÉ tlačítko pro aktivaci vzhledu."
