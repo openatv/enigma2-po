@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2023-08-11 04:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -1342,6 +1342,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr ""
 
@@ -1566,6 +1575,9 @@ msgstr ""
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr ""
@@ -2512,6 +2524,9 @@ msgstr ""
 msgid "Assamese"
 msgstr "阿萨姆语"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "指定CAIds:"
 
@@ -2839,8 +2854,14 @@ msgstr "备份日志"
 msgid "Backup Mode"
 msgstr "备份模式"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "备份方式: 在线刷机\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "备份模式: 使用U盘恢复\n"
@@ -2851,17 +2872,11 @@ msgstr "备份设置"
 msgid "Backup System Settings"
 msgstr "备份系统设置"
 
-msgid "Backup completed."
-msgstr "备份已完成."
-
 msgid "Backup done."
 msgstr "备份完成."
 
 msgid "Backup failed!"
 msgstr ""
-
-msgid "Backup failed."
-msgstr "备份失败."
 
 msgid "Backup images"
 msgstr ""
@@ -2879,6 +2894,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "备份到:%s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 msgid "Backup your %s %s settings."
 msgstr "备份 %s %s 设置."
@@ -3525,6 +3544,9 @@ msgstr "无法上传定时器"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "无法分配程序源(例如调谐器)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5056,6 +5078,10 @@ msgstr ""
 msgid "Create a symbolic link"
 msgstr ""
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "创建单独的广播用户自定义组"
 
@@ -6226,6 +6252,9 @@ msgid "Djibouti"
 msgstr "吉布提"
 
 msgid "Do another manual service scan?"
+msgstr ""
+
+msgid "Do not backup the image"
 msgstr ""
 
 msgid "Do not change"
@@ -7629,6 +7658,9 @@ msgstr "退出四画面频道选择"
 msgid "Exit all menus"
 msgstr "退出所有菜单"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 msgid "Exit editor"
 msgstr "退出编辑器"
 
@@ -7678,6 +7710,9 @@ msgid "Exit the wizard"
 msgstr "退出此向导"
 
 msgid "Exit viewer"
+msgstr ""
+
+msgid "Exit without performing a backup"
 msgstr ""
 
 msgid "Expand"
@@ -9322,6 +9357,13 @@ msgstr "忽略意外唤醒并保持待机状态"
 msgid "Image Backup"
 msgstr "镜像备份"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr ""
 
@@ -9329,8 +9371,14 @@ msgstr ""
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr ""
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "镜像创建失败 - "
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "镜像向导"
@@ -11349,6 +11397,9 @@ msgstr "多重转码"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "多启动镜像创建于: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr ""
 
@@ -11894,9 +11945,6 @@ msgstr "无需更新！"
 
 msgid "No updates available."
 msgstr "没有可用的更新."
-
-msgid "No updates were available.  Please try again later."
-msgstr "没有可用的更新.请稍后再试."
 
 msgid "No valid device detected - Press OK"
 msgstr ""
@@ -13074,6 +13122,9 @@ msgstr "请选择与您的实际位置最匹配的区域.我们需要该地区�
 msgid "Please select the sub-service to record:"
 msgstr "请选择要录制的子频道..."
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
@@ -13296,6 +13347,9 @@ msgstr "极轴设置日志"
 
 msgid "Positioner setup"
 msgstr "极轴设置"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "电源"
@@ -15485,6 +15539,9 @@ msgstr ""
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr ""
 
@@ -16564,6 +16621,9 @@ msgstr "设置隐藏第二个信息栏的时间.该栏也会在按下'OK'时消�
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "设置在关机,待机或重新启动消息中等待执行默认操作的时间.(例如,用于定时器、电源定时器,睡眠定时器等,...)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "在频道选择界面中设置进度条的类型."
 
@@ -17066,6 +17126,9 @@ msgid "Show Softcam packages"
 msgstr ""
 
 msgid "Show Source packages"
+msgstr ""
+
+msgid "Show Subscription packages"
 msgstr ""
 
 msgid "Show Subservices Of Active Service"
@@ -18154,6 +18217,9 @@ msgstr ""
 msgid "Speed"
 msgstr "宽带速率"
 
+msgid "Spinner Position"
+msgstr ""
+
 msgid "Split preview mode"
 msgstr "分割预览模式"
 
@@ -18245,6 +18311,9 @@ msgid "Start test"
 msgstr "开始测试"
 
 msgid "Start the Kexec initialization"
+msgstr ""
+
+msgid "Start the backup of the selected image"
 msgstr ""
 
 msgid "Start the highlighted plugin"
@@ -18505,6 +18574,9 @@ msgstr ""
 
 msgid "Style:"
 msgstr "样式:"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr ""
@@ -19904,6 +19976,9 @@ msgstr "时移将在事件结束时保存！"
 msgid "Time style"
 msgstr "时间格式"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "执行命令或脚本的时间"
 
@@ -20002,6 +20077,12 @@ msgid "Titleset mode"
 msgstr "标题设置模式"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
+msgstr ""
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
 msgstr ""
 
 msgid "To restore the image:"
@@ -20928,6 +21009,9 @@ msgstr "使用Softcam面板来控制你的CAM.这让你开始/停止/选择CAM"
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "使用向上和向下键选择您的区域设置/语言,然后按OK键继续."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "使用备选或传统广播模式."
@@ -23312,8 +23396,14 @@ msgstr "网球/壁球"
 msgid "text"
 msgstr ""
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 msgid "this recording"
 msgstr "这段录像"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "切换 时间.章节.音频.字幕 信息"
@@ -23434,6 +23524,15 @@ msgstr "是(保持订阅源)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "备份已完成."
+
+#~ msgid "Backup failed."
+#~ msgstr "备份失败."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "没有可用的更新.请稍后再试."
 
 #~ msgid "About..."
 #~ msgstr "关于..."
