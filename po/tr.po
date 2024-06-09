@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2024-06-02 12:02+0000\n"
 "Last-Translator: Apachi70 <ahiles77@t-online.de>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -1337,6 +1337,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr "24+ Saatler"
 
@@ -1583,6 +1592,9 @@ msgstr "<log bulunamadı>"
 #
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "'Uzantıyı filtrele'nin 'Uzantım' ayarı için kullanılacak uzantıların virgülle ayrılmış bir listesi. Uzantı adlarını başlarında nokta (.) olmadan girin."
@@ -2589,6 +2601,9 @@ msgstr "Aspect anahtarı"
 msgid "Assamese"
 msgstr "Assamca"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 #
 msgid "Assigned CAIds:"
 msgstr "Atanmış CAIdler:"
@@ -2937,8 +2952,14 @@ msgstr "Yedekleme Günlüğü"
 msgid "Backup Mode"
 msgstr "Yedekleme Kipi"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Yedekleme Modu: Çevrimiçi Flash\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Yedekleme Modu: USB Kurtarma\n"
@@ -2950,18 +2971,11 @@ msgstr "Yedekleme Ayarları"
 msgid "Backup System Settings"
 msgstr "Sistem ayarlarını yedekle"
 
-msgid "Backup completed."
-msgstr "Yedekleme tamamlandı."
-
 msgid "Backup done."
 msgstr "Yedekleme bitti."
 
 msgid "Backup failed!"
 msgstr "Yedekleme başarısız!"
-
-#
-msgid "Backup failed."
-msgstr "Yedekleme başarısız."
 
 msgid "Backup images"
 msgstr "Yedek görüntüler"
@@ -2980,6 +2994,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Hedefe yedekleme: %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 #
 msgid "Backup your %s %s settings."
@@ -3651,6 +3669,9 @@ msgstr "Zamanlayıcı yüklenemiyor"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Program kaynağı tahsis edilemiyor (ör. tuner)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5265,6 +5286,10 @@ msgstr "Rastgele oluşturulmuş bir şifre oluşturun"
 msgid "Create a symbolic link"
 msgstr "Sembolik bağlantı oluşturma"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "Ayrı bir radyo kullanıcısı"
 
@@ -6497,6 +6522,9 @@ msgstr "Cibuti"
 
 msgid "Do another manual service scan?"
 msgstr "Başka kanal araması yapacak mısınız?"
+
+msgid "Do not backup the image"
+msgstr ""
 
 #
 msgid "Do not change"
@@ -7974,6 +8002,9 @@ msgstr "Quad Kanal Seçiminden Çık"
 msgid "Exit all menus"
 msgstr "Görüntü seçimini iptal edin ve tüm menülerden çıkın"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 #
 msgid "Exit editor"
 msgstr "Editörden çık"
@@ -8032,6 +8063,9 @@ msgstr "Sihirbazdan çık"
 
 msgid "Exit viewer"
 msgstr "Çıkış görüntüleyici"
+
+msgid "Exit without performing a backup"
+msgstr ""
 
 msgid "Expand"
 msgstr "Genişletmek"
@@ -9754,6 +9788,13 @@ msgstr "Beklenmedik şekilde uyanmayı ihmal et ve beklemede kal"
 msgid "Image Backup"
 msgstr "Image yedekleme"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr "Görüntü Flaş Eylemleri"
 
@@ -9761,8 +9802,14 @@ msgstr "Görüntü Flaş Eylemleri"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Görüntü üzerinde oluşturuldu: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "Image yaratılamadı - "
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "Image Sihirbazı"
@@ -11910,6 +11957,9 @@ msgstr "Çoklu Dönüştürme"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Oluşturulan Multiboot Görüntüsü: %s /%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr "Multimedya Paketleri"
 
@@ -12504,9 +12554,6 @@ msgstr "Güncelleme gerekmez!"
 
 msgid "No updates available."
 msgstr "Güncelleme yok."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Hiçbir güncelleme mevcut değildi. Lütfen daha sonra tekrar deneyiniz."
 
 msgid "No valid device detected - Press OK"
 msgstr "Geçerli cihaz algılanmadı - Tamam'a basın"
@@ -13764,6 +13811,9 @@ msgstr "Lütfen fiziksel konumunuza en yakın olan bölgeyi seçin. Bölge, alab
 msgid "Please select the sub-service to record:"
 msgstr "Lütfen kaydedilecek alt hizmeti seçin:"
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "Lütfen aşağıdaki görüntünün flaşından sonra ne yapılacağını seçin:"
 
@@ -14005,6 +14055,9 @@ msgstr "Konumlandırıcı Kurulum Günlüğü"
 #
 msgid "Positioner setup"
 msgstr "Konumlayıcı kurulumu"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "Power"
@@ -16324,6 +16377,9 @@ msgstr "Eklentileri İndir ekranında dış görünüm paketlerini göstermek i�
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Eklentileri İndir ekranında kaynak 'src' paketlerini göstermek için 'Evet'i seçin."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Eklentileri İndir ekranında sistem eklenti paketlerini göstermek için 'Evet'i seçin."
 
@@ -17448,6 +17504,9 @@ msgstr "İkinci bilgi çubuğunu gizlemek için zamanı ayarlayın. Çubuk ayrı
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Kapatma, bekleme veya yeniden başlatma mesajlarında varsayılan eylemi yürütmek için bekleme süresini ayarlayın. (ör. Zamanlayıcı, PowerTimer, Sleeptimer, ...'da kullanılır)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Kanal seçim ekranındaki ilerleme işaretinin tipini belirleyin."
 
@@ -17967,6 +18026,9 @@ msgstr "Softcam paketlerini göster"
 
 msgid "Show Source packages"
 msgstr "Kaynak paketleri göster"
+
+msgid "Show Subscription packages"
+msgstr ""
 
 msgid "Show Subservices Of Active Service"
 msgstr "Etkin servisin alt servislerini göster"
@@ -19106,6 +19168,9 @@ msgstr "Media Player'ı başlatırken kullanılacak dizini belirtin."
 msgid "Speed"
 msgstr "Hiz"
 
+msgid "Spinner Position"
+msgstr ""
+
 #
 msgid "Split preview mode"
 msgstr "Bölünmüş önizleme kipi"
@@ -19203,6 +19268,9 @@ msgstr "Test'i başlat"
 
 msgid "Start the Kexec initialization"
 msgstr "Kexec başlatma işlemini başlatın"
+
+msgid "Start the backup of the selected image"
+msgstr ""
 
 msgid "Start the highlighted plugin"
 msgstr "Vurgulanan eklentiyi başlatın"
@@ -19483,6 +19551,9 @@ msgstr "Stil"
 
 msgid "Style:"
 msgstr "Stil:"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr "Alt servis eylemleri"
@@ -20960,6 +21031,9 @@ msgstr "Zaman-kaydırma, etkinlik sonunda saklanacak!"
 msgid "Time style"
 msgstr "Zaman tarzı"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Komut veya senaryoyu uygulama zamanı"
 
@@ -21071,6 +21145,12 @@ msgstr "Başlıkseti kipi"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Kurulumu tamamlamak için %s %s cihazının İnternet'e bağlanması gerekir. %s %s cihazını şimdi İnternet'e bağlayın."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr ""
 
 msgid "To restore the image:"
 msgstr "Görüntüyü geri yüklemek için:"
@@ -22052,6 +22132,9 @@ msgstr "Camınızı kontrol etmek için Softcam Panelini kullanın. Bu bir kam b
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "YUKARI ve AŞAĞI düğmelerini kullanarak yerel ayarınızı/dilinizi seçin ve devam etmek için OK düğmesine basın."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Alternatif veya klasik radyo kipi kullan."
@@ -24621,9 +24704,15 @@ msgstr "tenis/squash"
 msgid "text"
 msgstr "yazı"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 #
 msgid "this recording"
 msgstr "bu kaydın"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 #
 msgid "toggle time, chapter, audio, subtitle info"
@@ -24756,6 +24845,16 @@ msgstr "evet (beslemeleri tut)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Yedekleme tamamlandı."
+
+#
+#~ msgid "Backup failed."
+#~ msgstr "Yedekleme başarısız."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Hiçbir güncelleme mevcut değildi. Lütfen daha sonra tekrar deneyiniz."
 
 #
 #~ msgid "About..."
