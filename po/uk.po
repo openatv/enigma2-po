@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
-"PO-Revision-Date: 2024-05-29 10:09+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
+"PO-Revision-Date: 2024-06-09 15:46+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -1379,6 +1379,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr "- На пристрої не залишилося місця."
+
+msgid "- No write permission on backup device."
+msgstr "- Немає дозволу для запису на пристрій."
+
+msgid "- Wrong backup destination."
+msgstr "- Неправильне місце призначення."
+
 msgid "-24 Hours"
 msgstr "-24 години"
 
@@ -1603,6 +1612,9 @@ msgstr "<лог не знайдено"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr "Зараз створюється резервна копія. Будь ласка, почекайте, тому що"
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Відокремлений комами список розширень, які будуть використовуватися для параметра 'Мої розширення' параметра 'Розширення Фільтр розширень'. Введіть назви розширень без крапки на початку (.)."
@@ -2544,6 +2556,9 @@ msgstr "Перемикач формату"
 msgid "Assamese"
 msgstr "Ассамська"
 
+msgid "Assembling the image backup files."
+msgstr "Список файлів резервної копії образів."
+
 msgid "Assigned CAIds:"
 msgstr "Призначені CAId'и:"
 
@@ -2871,8 +2886,14 @@ msgstr "Лог бекапу"
 msgid "Backup Mode"
 msgstr "Режим збереження"
 
+msgid "Backup Mode: Flash Online"
+msgstr "Режим резервного копіювання: Flash Online"
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Режим резервного копіювання: Повна копія\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr "Режим резервного копіювання: відновлення з USB"
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Режим збереження: USB відновлення\n"
@@ -2883,17 +2904,11 @@ msgstr "Збереження Налаштувань"
 msgid "Backup System Settings"
 msgstr "Резервна копія системних налаштувань"
 
-msgid "Backup completed."
-msgstr "Бекап успішно створений."
-
 msgid "Backup done."
 msgstr "Збереження завершено."
 
 msgid "Backup failed!"
 msgstr "Помилка резервного копіювання!"
-
-msgid "Backup failed."
-msgstr "Збереження невдале."
 
 msgid "Backup images"
 msgstr "Бекап іміджей"
@@ -2911,6 +2926,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Місце збереження Резервної копії: %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr "Резервне копіювання для %s %s"
 
 msgid "Backup your %s %s settings."
 msgstr "Резервне копіювання налаштувань %s %s."
@@ -3557,6 +3576,9 @@ msgstr "Неможливо завантажити таймер"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Неможливо визначити джерело програми (наприклад, тюнер)"
+
+msgid "Can't create backup directory!"
+msgstr "Не вдається створити каталог резервних копій!"
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5093,6 +5115,10 @@ msgstr "Створити випадково згенерований парол�
 msgid "Create a symbolic link"
 msgstr "Створити символічне посилання"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr "Створити копію іміджа для відновлення '%s'."
+
 msgid "Create separate radio user bouquet"
 msgstr "Створити окремий фаворитний радіо-список"
 
@@ -6266,6 +6292,9 @@ msgstr "Джібутті"
 
 msgid "Do another manual service scan?"
 msgstr "Зробити ще одне ручне сканування каналів?"
+
+msgid "Do not backup the image"
+msgstr "Не створювати копію іміджа"
 
 msgid "Do not change"
 msgstr "Не змінювати"
@@ -7675,6 +7704,9 @@ msgstr "Вихід з вибору Чотири-екранного Вікна"
 msgid "Exit all menus"
 msgstr "Вийти з усіх меню"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr "Вийти і закрити всі вікна, не створюючи резервну копію"
+
 msgid "Exit editor"
 msgstr "Вийти з редактора"
 
@@ -7725,6 +7757,9 @@ msgstr "Вийти з помічник"
 
 msgid "Exit viewer"
 msgstr "Вийти з програми перегляду"
+
+msgid "Exit without performing a backup"
+msgstr "Вийти і не робити резервної копії"
 
 msgid "Expand"
 msgstr "Розгорнути"
@@ -9368,6 +9403,13 @@ msgstr "Ігнорувати несподіване включення і зал
 msgid "Image Backup"
 msgstr "Бекап Іміджу"
 
+msgid "Image Backup Actions"
+msgstr "Дії резервного копіювання"
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr "Резервна Копія %s"
+
 msgid "Image Flash Actions"
 msgstr "Дії з прошивкою іміджу"
 
@@ -9375,8 +9417,14 @@ msgstr "Дії з прошивкою іміджу"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Імідж створено: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr "Імідж створено:"
+
 msgid "Image creation failed - "
 msgstr "Помилка створення іміджу - "
+
+msgid "Image creation failed!"
+msgstr "Помилка створення Іміджу!"
 
 msgid "ImageWizard"
 msgstr "Майстер іміджу"
@@ -11397,6 +11445,9 @@ msgstr "Мульти-транскодування"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Імідж Multiboot створено: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr "Створено Multiboot:"
+
 msgid "Multimedia Packages"
 msgstr "Мультимедійні пакети"
 
@@ -11945,9 +11996,6 @@ msgstr "Немає необхідного оновлення!"
 
 msgid "No updates available."
 msgstr "Немає доступних оновлень."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Немає доступних оновлень. Будь-ласка, спробуйте пізніше."
 
 msgid "No valid device detected - Press OK"
 msgstr "Не виявлено жодного дійсного пристрою - натисніть OK"
@@ -13128,6 +13176,9 @@ msgstr "Виберіть регіон, який найбільш відпові�
 msgid "Please select the sub-service to record:"
 msgstr "Будь ласка, виберіть підканал для запису:"
 
+msgid "Please select the target location to save the backup:"
+msgstr "Будь ласка, виберіть місце для резервної копії:"
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "Будь ласка, виберіть, що робити після прошивки наступного іміджу:"
 
@@ -13352,6 +13403,9 @@ msgstr "Налаштування Логу позиціонера"
 
 msgid "Positioner setup"
 msgstr "Налаштування позиціонера"
+
+msgid "Possible causes could be:"
+msgstr "Можливі причини:"
 
 msgid "Power"
 msgstr "Живлення"
@@ -15543,6 +15597,9 @@ msgstr "Виберіть 'Так', щоб відобразити пакети о
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Виберіть 'Так', щоб відобразити вихідні пакунки 'src' на екрані завантаження плагінів."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr "Виберіть 'Так', щоб показати пакети підписки на екрані Завантаження Плагінів."
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Виберіть 'Так', щоб відобразити пакети плагінів системи на екрані завантаження плагінів."
 
@@ -16634,6 +16691,9 @@ msgstr "Встановіть час показу другого інфобара
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Встановіть час очікування виконання стандартних дій у повідомленнях про завершення роботи, очікування, або перезапуск. (наприклад, використовується в різних таймерах ...)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr "Встановіть верхнє ліве розташування спінера. Координати масштабуються таким чином, що верхній лівий кут знаходився на (0,0), а нижній правий — на (1260,700). Зауважте, що позиція знаходиться у верхньому лівому куті спінера, а не в його центрі."
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Встановіть тип відображення прогресу в меню вибору каналів."
 
@@ -17140,6 +17200,9 @@ msgstr "Показати пакети Softcam"
 
 msgid "Show Source packages"
 msgstr "Показати пакети вихідного коду"
+
+msgid "Show Subscription packages"
+msgstr "Показати пакети підписки"
 
 msgid "Show Subservices Of Active Service"
 msgstr "Показати підканали активного каналу"
@@ -18228,6 +18291,9 @@ msgstr "Вкажіть каталог, який використовуватим
 msgid "Speed"
 msgstr "Швидкість"
 
+msgid "Spinner Position"
+msgstr "Положення Спінера"
+
 msgid "Split preview mode"
 msgstr "Розділений режим попереднього перегляду"
 
@@ -18320,6 +18386,9 @@ msgstr "Почати тест"
 
 msgid "Start the Kexec initialization"
 msgstr "Запустити ініціалізацію Kexec"
+
+msgid "Start the backup of the selected image"
+msgstr "Запустити копіювання вибраного іміджу"
 
 msgid "Start the highlighted plugin"
 msgstr "Запустити виділений плагін"
@@ -18579,6 +18648,9 @@ msgstr "Стиль"
 
 msgid "Style:"
 msgstr "Стиль:"
+
+msgid "Subscription Packages"
+msgstr "Пакети Плагінів"
 
 msgid "Subservice Actions"
 msgstr "Дії субканалів"
@@ -18902,7 +18974,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 29.05.2024"
+msgstr "Переклад: kvinto - 08.06.2024"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -20011,6 +20083,9 @@ msgstr "Файл таймшифта буде збережений в кінці 
 msgid "Time style"
 msgstr "Формат часу"
 
+msgid "Time taken for the backup:"
+msgstr "Тривалість резервного копіювання:"
+
 msgid "Time to execute command or script"
 msgstr "Час на виконання команди чи скрипта"
 
@@ -20112,6 +20187,12 @@ msgstr "Режим встановлення заголовку"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Щоб завершити налаштування, %s %s має підключитися до Інтернету. Підключіть %s %s до Інтернету зараз."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr "Щоб відновити імідж, перегляньте посібник, або документацію до приймача."
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr "Щоб відновити імідж, скористайтеся опцією 'OnlineFlash' у меню 'SoftwareManager'."
 
 msgid "To restore the image:"
 msgstr "Щоб відновити імідж:"
@@ -21040,6 +21121,9 @@ msgstr "Використовуйте Панель емуляторів для у
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "За допомогою кнопок ВВЕРХ і ВНИЗ виберіть свій регіон/мову, потім натисніть кнопку OK для продовження."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr "Використовуйте кнопки ВГОРУ/ВНИЗ, щоб вибрати необхідний імідж для копіювання. Натисніть кнопку 'Пуск' (ЗЕЛЕНУ) для запуску копіювання."
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Можете вибрати альтернативний або нормальний режим Радіо."
@@ -23463,8 +23547,14 @@ msgstr "теніс/сквош"
 msgid "text"
 msgstr "текст"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr "кількість файлів для обробки, які ввійдуть у копію"
+
 msgid "this recording"
 msgstr "цей запис"
+
+msgid "to about 15 minutes to complete."
+msgstr "приблизно до 15 хвилин."
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "основна інформація"
@@ -23586,6 +23676,15 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Бекап успішно створений."
+
+#~ msgid "Backup failed."
+#~ msgstr "Збереження невдале."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Немає доступних оновлень. Будь-ласка, спробуйте пізніше."
 
 #~ msgid "About..."
 #~ msgstr "Інформація приймача..."
