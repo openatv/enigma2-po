@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2024-05-26 14:09+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -1377,6 +1377,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr "-24 часа"
 
@@ -1601,6 +1610,9 @@ msgstr "<лог не найден"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Разделённый запятыми список расширений, которые будут использоваться для настройки 'Моё расширение' 'Фильтровать расширение'. Введите имена расширений без ведущей точки (.)."
@@ -2542,6 +2554,9 @@ msgstr "Переключатель соотношения сторон"
 msgid "Assamese"
 msgstr "Ассамский"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "Назначены CAID"
 
@@ -2869,8 +2884,14 @@ msgstr "Лог рез.копирования"
 msgid "Backup Mode"
 msgstr "Режим копирования"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Прошивка онлайн\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Режим резервного копирования: USB-восстановление\n"
@@ -2881,17 +2902,11 @@ msgstr "Сохранить настройки"
 msgid "Backup System Settings"
 msgstr "Сохранение настроек системы"
 
-msgid "Backup completed."
-msgstr "Копия создана."
-
 msgid "Backup done."
 msgstr "Копирование завершено."
 
 msgid "Backup failed!"
 msgstr "Резервное копирование не удалось!"
-
-msgid "Backup failed."
-msgstr "Копирование не удалось."
 
 msgid "Backup images"
 msgstr "Бекап имиджей"
@@ -2909,6 +2924,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Резервное копирование в : %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 msgid "Backup your %s %s settings."
 msgstr "Сделать резервную копию настроек %s %s."
@@ -3555,6 +3574,9 @@ msgstr "Не удаётся загрузить таймер"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Невозможно выделить источник программы (например, тюнер)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5091,6 +5113,10 @@ msgstr "Создайте случайно сгенерированный пар�
 msgid "Create a symbolic link"
 msgstr "Создать символическую ссылку"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "Создание отдельного радио букета"
 
@@ -6264,6 +6290,9 @@ msgstr "Джибути"
 
 msgid "Do another manual service scan?"
 msgstr "Выполнить еще одно сканирование вручную?"
+
+msgid "Do not backup the image"
+msgstr ""
 
 msgid "Do not change"
 msgstr "Не изменять"
@@ -7673,6 +7702,9 @@ msgstr "Выйти из списка каналов 4X"
 msgid "Exit all menus"
 msgstr "Выйти из всех меню"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 msgid "Exit editor"
 msgstr "Выйти из редактора"
 
@@ -7723,6 +7755,9 @@ msgstr "Выйти из мастера настроек"
 
 msgid "Exit viewer"
 msgstr "Выйти из просмотра"
+
+msgid "Exit without performing a backup"
+msgstr ""
 
 msgid "Expand"
 msgstr "Развернуть"
@@ -9366,6 +9401,13 @@ msgstr "Игнорировать неожиданное пробуждение �
 msgid "Image Backup"
 msgstr "Рез.копирование имиджа"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr "Действия с прошивкой имиджа"
 
@@ -9373,8 +9415,14 @@ msgstr "Действия с прошивкой имиджа"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Имидж создан: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "Не удалось создать имидж -"
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "Мастер имиджа"
@@ -11395,6 +11443,9 @@ msgstr "Мультитранскодирование"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Мультизагрузочный образ создан на: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr "Мультимедийные пакеты"
 
@@ -11943,9 +11994,6 @@ msgstr "Обновлений не требуется!"
 
 msgid "No updates available."
 msgstr "Нет доступных обновлений."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Обновлений не было. Пожалуйста, повторите попытку позже."
 
 msgid "No valid device detected - Press OK"
 msgstr "Действительное устройство не обнаружено - нажмите OK"
@@ -13126,6 +13174,9 @@ msgstr "Пожалуйста, выберите регион, наиболее т
 msgid "Please select the sub-service to record:"
 msgstr "Пожалуйста, выберите подсервис для записи:"
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "Пожалуйста, выберите, что делать после пршивки следующего имиджа:"
 
@@ -13350,6 +13401,9 @@ msgstr "Лог настройки позиционера"
 
 msgid "Positioner setup"
 msgstr "Настройка позиционера"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "Питание"
@@ -15541,6 +15595,9 @@ msgstr "Выберите 'Да', чтобы отобразить пакеты с
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Выберите 'Да', чтобы отобразить исходные пакеты 'src' на экране загрузки подключаемых модулей."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Выберите 'Да', чтобы отобразить пакеты системных подключаемых модулей на экране загрузки подключаемых модулей."
 
@@ -16632,6 +16689,9 @@ msgstr "Время показа второго инфобара."
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Установите время ожидания выполнения действия по умолчанию в сообщениях о выключении, режиме ожидания или перезапуске. (например, используется в Timer, PowerTimer, Sleeptimer, ...)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Установите тип отображения прогресса в меню выбора каналов."
 
@@ -17138,6 +17198,9 @@ msgstr "Показать пакеты softcam"
 
 msgid "Show Source packages"
 msgstr "Показать исходные пакеты"
+
+msgid "Show Subscription packages"
+msgstr ""
 
 msgid "Show Subservices Of Active Service"
 msgstr "Показать подслужбы активной службы"
@@ -18226,6 +18289,9 @@ msgstr "Укажите каталог, который будет использ�
 msgid "Speed"
 msgstr "Скорость"
 
+msgid "Spinner Position"
+msgstr ""
+
 msgid "Split preview mode"
 msgstr "Режим предпросмотра"
 
@@ -18318,6 +18384,9 @@ msgstr "Начать тест"
 
 msgid "Start the Kexec initialization"
 msgstr "Запустите инициализацию Kexec"
+
+msgid "Start the backup of the selected image"
+msgstr ""
 
 msgid "Start the highlighted plugin"
 msgstr "Запустите выделенный плагин"
@@ -18577,6 +18646,9 @@ msgstr "Стиль"
 
 msgid "Style:"
 msgstr "Стиль:"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr "Действия подслужбы"
@@ -20009,6 +20081,9 @@ msgstr "Файл таймшифта будет сохранён в конце с
 msgid "Time style"
 msgstr "Стиль времени"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Время выполнения команды, скрипта"
 
@@ -20110,6 +20185,12 @@ msgstr "Режим установки заголовка"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Для завершения настройки %s %s должен подключиться к Интернету. Подключите %s %s к Интернету сейчас."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr ""
 
 msgid "To restore the image:"
 msgstr "Чтобы восстановить имидж:"
@@ -21038,6 +21119,9 @@ msgstr "Используйте панель эмуляторов для упра
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "Используйте кнопки ВВЕРХ и ВНИЗ, чтобы выбрать регион / язык, затем нажмите кнопку ОК, чтобы продолжить."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Используйте альтернативный или обычный режим радио."
@@ -23461,8 +23545,14 @@ msgstr "Теннис/Сквош"
 msgid "text"
 msgstr "текст"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 msgid "this recording"
 msgstr "Данная запись"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Время переключения, разделы, аудио, информация субтитров"
@@ -23584,6 +23674,15 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Копия создана."
+
+#~ msgid "Backup failed."
+#~ msgstr "Копирование не удалось."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Обновлений не было. Пожалуйста, повторите попытку позже."
 
 #~ msgid "About..."
 #~ msgstr "О программе..."
