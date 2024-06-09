@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2024-04-20 20:07+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -1344,6 +1344,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr "-24 uren"
 
@@ -1568,6 +1577,9 @@ msgstr "<geen log gevonden"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Een door komma's gescheiden lijst van extensies, die voor de instelling van \"Mijn extensies\" in \"Extensies filteren\" gebruikt gaan worden. Geef de naam van de extensie op zonder leidende punt (.)."
@@ -2516,6 +2528,9 @@ msgstr "Aspect ratio wijzigen"
 msgid "Assamese"
 msgstr "Assamees"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "Toegewezen CAIds:"
 
@@ -2843,8 +2858,14 @@ msgstr "Back-up log"
 msgid "Backup Mode"
 msgstr "Back-up modus"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Back-up modus: flash online\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Back-up modus: herstel via USB\n"
@@ -2855,17 +2876,11 @@ msgstr "Back-up instellingen"
 msgid "Backup System Settings"
 msgstr "Back-up uw instellingen"
 
-msgid "Backup completed."
-msgstr "Back-up voltooid."
-
 msgid "Backup done."
 msgstr "Back-up is gereed."
 
 msgid "Backup failed!"
 msgstr "De back-up is mislukt!"
-
-msgid "Backup failed."
-msgstr "De back-up is mislukt."
 
 msgid "Backup images"
 msgstr "Back-up images"
@@ -2883,6 +2898,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Back-up naar locatie : %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 msgid "Backup your %s %s settings."
 msgstr "Back-up uw %s %s instellingen."
@@ -3529,6 +3548,9 @@ msgstr "Kan deze timer niet verzenden"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Kan geen programma bron vinden (bijvoorbeeld een tuner)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5169,6 +5191,10 @@ msgstr "Maak een willekeurig wachtwoord aan"
 msgid "Create a symbolic link"
 msgstr "Een snelkoppeling maken"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "Maak een extra favorietenlijst voor radio"
 
@@ -6350,6 +6376,9 @@ msgstr "Djibouti"
 
 msgid "Do another manual service scan?"
 msgstr "Nog een handmatige zender-scan uitvoeren?"
+
+msgid "Do not backup the image"
+msgstr ""
 
 msgid "Do not change"
 msgstr "Niet wijzigen"
@@ -7775,6 +7804,9 @@ msgstr "Verlaat Quad zender selectie"
 msgid "Exit all menus"
 msgstr "Exit uit alle menu's"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 msgid "Exit editor"
 msgstr "Editor afsluiten"
 
@@ -7825,6 +7857,9 @@ msgstr "Wizard afsluiten"
 
 msgid "Exit viewer"
 msgstr "Viewer afsluiten"
+
+msgid "Exit without performing a backup"
+msgstr ""
 
 msgid "Expand"
 msgstr "Lijst openen"
@@ -9475,6 +9510,13 @@ msgstr "Negeer onvoorzien ontwaken en blijf in stand-by"
 msgid "Image Backup"
 msgstr "Image back-up"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr "Image Flash Acties"
 
@@ -9482,8 +9524,14 @@ msgstr "Image Flash Acties"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Image gemaakt: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "Maken Image mislukt - "
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "Image wizard"
@@ -11502,6 +11550,9 @@ msgstr "MultiTranscoding"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Multiboot Image gecreëerd: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr "Multimedia pakketten"
 
@@ -12050,9 +12101,6 @@ msgstr "Geen update vereist!"
 
 msgid "No updates available."
 msgstr "Geen updates beschikbaar."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Geen updates beschikbaar. Probeer het later nog een keer."
 
 msgid "No valid device detected - Press OK"
 msgstr "Geen geschikt apparaat gevonden - Druk op OK"
@@ -13237,6 +13285,9 @@ msgstr "Geeft u a.u.b. de regio op die het dichtst bij uw feitelijke locatie lig
 msgid "Please select the sub-service to record:"
 msgstr "Selecteer de sub-zender die u wil opnemen:"
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "A.u.b. kiezen wat er moet gebeuren na het flashen van dit image:"
 
@@ -13459,6 +13510,9 @@ msgstr "Rotor instellingen log"
 
 msgid "Positioner setup"
 msgstr "Rotor instellingen"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "Power"
@@ -15660,6 +15714,9 @@ msgstr "Kies 'Ja' om Skins in het plugin download-scherm weer te geven."
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Kies 'Ja' om 'src' pakketten in het plugin download-scherm weer te geven."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Kies 'Ja' om Systeem plugins in het plugin download-scherm weer te geven."
 
@@ -16763,6 +16820,9 @@ msgstr "Stel de tijd in waarna de tweede informatiebalk verdwijnt. Door op OK te
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Stel de tijdsduur in voor het uitschakelen, inschakelen van Stand-by, of het herstarten van uw ontvanger. (Deze tijdsduur wordt o.a. gebruikt voor een Timer, PowerTimer, SlaapTimer enz.)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr ""
 "Met deze optie bepaalt u de weergave van de programmavoortgang in de zenderlijst.\n"
@@ -17281,6 +17341,9 @@ msgstr "Softcams"
 
 msgid "Show Source packages"
 msgstr "Broncode"
+
+msgid "Show Subscription packages"
+msgstr ""
 
 msgid "Show Subservices Of Active Service"
 msgstr "Sub-zenders van de actuele zender tonen"
@@ -18374,6 +18437,9 @@ msgstr "Selecteer de map die bij het starten van de Mediaspeler geopend moet wor
 msgid "Speed"
 msgstr "Snelheid"
 
+msgid "Spinner Position"
+msgstr ""
+
 msgid "Split preview mode"
 msgstr "Split screen voor de preview"
 
@@ -18466,6 +18532,9 @@ msgstr "Start test"
 
 msgid "Start the Kexec initialization"
 msgstr "De Kexec-initialisatie starten"
+
+msgid "Start the backup of the selected image"
+msgstr ""
 
 msgid "Start the highlighted plugin"
 msgstr "Start de geselecteerde plugin"
@@ -18725,6 +18794,9 @@ msgstr ""
 
 msgid "Style:"
 msgstr "Stijl:"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr "Sub-zender Acties"
@@ -20203,6 +20275,9 @@ msgstr "Timeshift zal na afloop van het programma worden opgeslagen!"
 msgid "Time style"
 msgstr "Tijdstijl"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Tijdstip van uitvoeren opdracht of script"
 
@@ -20304,6 +20379,12 @@ msgstr "Titelset modus"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Om de installatie te voltooien moet uw %s %s verbinding maken met internet.  Verbind nu de %s %s met het internet."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr ""
 
 msgid "To restore the image:"
 msgstr "Voor het herstellen van een image:"
@@ -21234,6 +21315,9 @@ msgstr ""
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "Gebruik de OMHOOG/OMLAAG knoppen om uw taal te kiezen en druk op OK om door te gaan."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Gebruik de alternatieve of de conventionele radio modus."
@@ -23677,8 +23761,14 @@ msgstr "tennis/squash"
 msgid "text"
 msgstr "Tekst"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 msgid "this recording"
 msgstr "Deze opname"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Tijd, hoofdstuk, audio en ondertitels instellen"
@@ -23801,6 +23891,15 @@ msgstr "ja (bewaar feeds)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Back-up voltooid."
+
+#~ msgid "Backup failed."
+#~ msgstr "De back-up is mislukt."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Geen updates beschikbaar. Probeer het later nog een keer."
 
 #~ msgid "About..."
 #~ msgstr "Over..."
