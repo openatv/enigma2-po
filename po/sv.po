@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -1474,6 +1474,15 @@ msgstr ""
 msgid "-"
 msgstr ""
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr ""
 
@@ -1723,6 +1732,9 @@ msgstr ""
 #
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr ""
@@ -2771,6 +2783,9 @@ msgstr ""
 msgid "Assamese"
 msgstr ""
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "Tilldelade CAid :"
 
@@ -3135,7 +3150,13 @@ msgstr ""
 msgid "Backup Mode"
 msgstr ""
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
+msgstr ""
+
+msgid "Backup Mode: USB Recovery"
 msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
@@ -3148,18 +3169,11 @@ msgstr ""
 msgid "Backup System Settings"
 msgstr "Säkerhetskopiera systeminställningar"
 
-msgid "Backup completed."
-msgstr "Säkerhetskopia klar."
-
 msgid "Backup done."
 msgstr ""
 
 msgid "Backup failed!"
 msgstr ""
-
-#
-msgid "Backup failed."
-msgstr "Säkerhetskopia misslyckades."
 
 msgid "Backup images"
 msgstr ""
@@ -3177,6 +3191,10 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Backup to destination: %s"
 msgstr "Backup av systeminställningar"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 #
 msgid "Backup your %s %s settings."
@@ -3842,6 +3860,9 @@ msgid "Can not upload timer"
 msgstr "Ändra nästa timer"
 
 msgid "Can't allocate program source (e.g. tuner)"
+msgstr ""
+
+msgid "Can't create backup directory!"
 msgstr ""
 
 msgid ""
@@ -5501,6 +5522,10 @@ msgstr ""
 msgid "Create a symbolic link"
 msgstr ""
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr ""
 
@@ -6759,6 +6784,9 @@ msgid "Djibouti"
 msgstr "Om"
 
 msgid "Do another manual service scan?"
+msgstr ""
+
+msgid "Do not backup the image"
 msgstr ""
 
 #
@@ -8255,6 +8283,9 @@ msgstr "Kanalval"
 msgid "Exit all menus"
 msgstr ""
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 #
 msgid "Exit editor"
 msgstr "Avsluta editor"
@@ -8314,6 +8345,9 @@ msgid "Exit the wizard"
 msgstr "Avsluta guiden"
 
 msgid "Exit viewer"
+msgstr ""
+
+msgid "Exit without performing a backup"
 msgstr ""
 
 msgid "Expand"
@@ -10117,6 +10151,13 @@ msgstr ""
 msgid "Image Backup"
 msgstr "Flytta upp en sida"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr ""
 
@@ -10124,7 +10165,13 @@ msgstr ""
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr ""
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
+msgstr ""
+
+msgid "Image creation failed!"
 msgstr ""
 
 msgid "ImageWizard"
@@ -12357,6 +12404,9 @@ msgstr ""
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr ""
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr ""
 
@@ -12965,9 +13015,6 @@ msgid "No update required!"
 msgstr ""
 
 msgid "No updates available."
-msgstr ""
-
-msgid "No updates were available.  Please try again later."
 msgstr ""
 
 msgid "No valid device detected - Press OK"
@@ -14270,6 +14317,9 @@ msgstr ""
 msgid "Please select the sub-service to record:"
 msgstr "Vänligen välj en tjänst för inspelning..."
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
@@ -14522,6 +14572,9 @@ msgstr "Motorinställning"
 #
 msgid "Positioner setup"
 msgstr "Motorinstallation"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 #, fuzzy
 msgid "Power"
@@ -16934,6 +16987,9 @@ msgstr ""
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr ""
 
@@ -18071,6 +18127,9 @@ msgstr ""
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr ""
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Ange vilken typ av förloppsindikator som ska användas i kanallistan."
 
@@ -18607,6 +18666,9 @@ msgid "Show Softcam packages"
 msgstr ""
 
 msgid "Show Source packages"
+msgstr ""
+
+msgid "Show Subscription packages"
 msgstr ""
 
 msgid "Show Subservices Of Active Service"
@@ -19807,6 +19869,9 @@ msgstr ""
 msgid "Speed"
 msgstr ""
 
+msgid "Spinner Position"
+msgstr ""
+
 #
 msgid "Split preview mode"
 msgstr "Delat förvisningsläge"
@@ -19912,6 +19977,9 @@ msgid "Start test"
 msgstr "Starta test"
 
 msgid "Start the Kexec initialization"
+msgstr ""
+
+msgid "Start the backup of the selected image"
 msgstr ""
 
 msgid "Start the highlighted plugin"
@@ -20201,6 +20269,9 @@ msgid "Style"
 msgstr ""
 
 msgid "Style:"
+msgstr ""
+
+msgid "Subscription Packages"
 msgstr ""
 
 msgid "Subservice Actions"
@@ -21688,6 +21759,9 @@ msgstr "Timeshift kommer att sparas vid händelsens slut!"
 msgid "Time style"
 msgstr "Tidskala"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Tid för att exekvera kommando eller skript"
 
@@ -21807,6 +21881,12 @@ msgid "Titleset mode"
 msgstr "Titelset läge"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
+msgstr ""
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
 msgstr ""
 
 #
@@ -22810,6 +22890,9 @@ msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select
 msgstr ""
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
+msgstr ""
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
 msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
@@ -25410,9 +25493,15 @@ msgstr "tennis / squash"
 msgid "text"
 msgstr ""
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 #
 msgid "this recording"
 msgstr "denna inspelning"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 #
 msgid "toggle time, chapter, audio, subtitle info"
@@ -25549,6 +25638,13 @@ msgstr "ja (behåll feeds)"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Backup completed."
+#~ msgstr "Säkerhetskopia klar."
+
+#
+#~ msgid "Backup failed."
+#~ msgstr "Säkerhetskopia misslyckades."
 
 #
 #~ msgid "About..."

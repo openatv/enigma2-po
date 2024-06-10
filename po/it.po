@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
-"PO-Revision-Date: 2024-05-25 01:17+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
+"PO-Revision-Date: 2024-06-09 15:46+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -1342,6 +1342,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr "- Spazio insufficiente sul dispositivo di backup."
+
+msgid "- No write permission on backup device."
+msgstr "- Autorizzazione di scrittura mancante sul dispositivo di backup."
+
+msgid "- Wrong backup destination."
+msgstr "- Destinazione di backup errata."
+
 msgid "-24 Hours"
 msgstr "-24 ore"
 
@@ -1566,6 +1575,9 @@ msgstr "<nessun registro trovato"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr "È in corso la creazione di un backup. Per favore sii paziente perché, a causa di"
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Un elenco di estensioni separato da virgole da usare per impostare 'Mie estensioni' di 'Filtra estensioni'. Immetti i nomi delle estensioni senza punto iniziale (.)."
@@ -2507,6 +2519,9 @@ msgstr "Cambia aspetto"
 msgid "Assamese"
 msgstr "Assamese"
 
+msgid "Assembling the image backup files."
+msgstr "Assemblaggio dei file di backup dell'immagine."
+
 msgid "Assigned CAIds:"
 msgstr "CAIds assegnati:"
 
@@ -2834,11 +2849,17 @@ msgstr "Registro backup"
 msgid "Backup Mode"
 msgstr "Modalità backup"
 
+msgid "Backup Mode: Flash Online"
+msgstr "Modalità di backup: Flash in linea"
+
 msgid "Backup Mode: Flash Online\n"
-msgstr "Modalità backup: flash in linea\n"
+msgstr "Modalità di backup: Flash in linea\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr "Modalità di backup: Ripristino USB"
 
 msgid "Backup Mode: USB Recovery\n"
-msgstr "Modalità backup: ripristino USB\n"
+msgstr "Modalità di backup: Ripristino USB\n"
 
 msgid "Backup Settings"
 msgstr "Backup impostazioni"
@@ -2846,17 +2867,11 @@ msgstr "Backup impostazioni"
 msgid "Backup System Settings"
 msgstr "Backup impostazioni di sistema"
 
-msgid "Backup completed."
-msgstr "Backup completato."
-
 msgid "Backup done."
 msgstr "Backup effettuato."
 
 msgid "Backup failed!"
 msgstr "Backup non riuscito!"
-
-msgid "Backup failed."
-msgstr "Backup non riuscito."
 
 msgid "Backup images"
 msgstr "Immagini di backup"
@@ -2874,6 +2889,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Backup nella destinazione: %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr "Strumento di backup per %s %s"
 
 msgid "Backup your %s %s settings."
 msgstr "Backup configurazioni del %s %s."
@@ -3520,6 +3539,9 @@ msgstr "Impossibile caricare il timer"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Impossibile allocare la sorgente del programma (ad es. tuner)"
+
+msgid "Can't create backup directory!"
+msgstr "Impossibile creare la cartella di backup!"
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5055,6 +5077,10 @@ msgstr "Crea una password generata casualmente"
 msgid "Create a symbolic link"
 msgstr "Crea un collegamento simbolico"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr "Crea backup dell'immagine di ripristino '%s'."
+
 msgid "Create separate radio user bouquet"
 msgstr "Crea bouquet separato per le radio"
 
@@ -6228,6 +6254,9 @@ msgstr "Gibuti"
 
 msgid "Do another manual service scan?"
 msgstr "Eseguire un'altra scansione manuale dei servizi?"
+
+msgid "Do not backup the image"
+msgstr "Non eseguire il backup dell'immagine"
 
 msgid "Do not change"
 msgstr "Non cambiare"
@@ -7634,6 +7663,9 @@ msgstr "Esci dalla selezione di Quad Channel"
 msgid "Exit all menus"
 msgstr "Esci da tutti i menu"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr "Esci e chiudi tutte le schermate senza eseguire un backup"
+
 msgid "Exit editor"
 msgstr "Esci dall'editor"
 
@@ -7684,6 +7716,9 @@ msgstr "Esci dalla configurazione guidata"
 
 msgid "Exit viewer"
 msgstr "Esci dal visualizzatore"
+
+msgid "Exit without performing a backup"
+msgstr "Esci senza eseguire un backup"
 
 msgid "Expand"
 msgstr "Espandi"
@@ -9327,6 +9362,13 @@ msgstr "Ignora risveglio non programmato e rimani in standby"
 msgid "Image Backup"
 msgstr "Backup immagine"
 
+msgid "Image Backup Actions"
+msgstr "Azioni di backup immagine"
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr "Backup immagine su %s"
+
 msgid "Image Flash Actions"
 msgstr "Azioni flash immagine"
 
@@ -9334,8 +9376,14 @@ msgstr "Azioni flash immagine"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Immagine creata su: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr "Immagine creata:"
+
 msgid "Image creation failed - "
 msgstr "Creazione immagine fallita - "
+
+msgid "Image creation failed!"
+msgstr "Creazione immagine fallita!"
 
 msgid "ImageWizard"
 msgstr "Creazione guidata immagine"
@@ -11354,6 +11402,9 @@ msgstr "Transcodifica multipla"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Immagine MultiBoot creata in: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr "Immagine Multiboot creata:"
+
 msgid "Multimedia Packages"
 msgstr "Pacchetti multimediali"
 
@@ -11902,9 +11953,6 @@ msgstr "Nessun aggiornamento richiesto!"
 
 msgid "No updates available."
 msgstr "Nessun aggiornamento disponibile."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Nessun aggiornamento disponibile.  Per favore riprova più tardi."
 
 msgid "No valid device detected - Press OK"
 msgstr "Nessun dispositivo valido rilevato - Premi OK"
@@ -13085,6 +13133,9 @@ msgstr "Seleziona la regione che più si avvicina alla tua posizione fisica. La 
 msgid "Please select the sub-service to record:"
 msgstr "Seleziona sottoservizio da registrare:"
 
+msgid "Please select the target location to save the backup:"
+msgstr "Seleziona posizione di destinazione in cui salvare il backup:"
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "Seleziona cosa fare dopo il flash della seguente immagine:"
 
@@ -13307,6 +13358,9 @@ msgstr "Registro di configurazione del motore"
 
 msgid "Positioner setup"
 msgstr "Configurazione motore"
+
+msgid "Possible causes could be:"
+msgstr "Le possibili cause potrebbero essere:"
 
 msgid "Power"
 msgstr "Accensione"
@@ -15496,6 +15550,9 @@ msgstr "Seleziona 'Sì' per mostrare i pacchetti delle skin nella schermata Scar
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Seleziona 'Sì' per mostrare i pacchetti sorgenti 'src' nella schermata Scarica plugin."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr "Seleziona 'Sì' per mostrare i pacchetti di sottoscrizione nella schermata Scarica plugin."
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Seleziona 'Sì' per mostrare i pacchetti dei plugin di sistema nella schermata Scarica plugin."
 
@@ -16587,6 +16644,9 @@ msgstr "Imposta l'orario per nascondere la seconda barra informazioni. La barra 
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Imposta il tempo di attesa per l'esecuzione dell'azione predefinita nei messaggi di spegnimento, standby o riavvio (ad es. usato in timer di registrazione, timer di avvio, timer di spegnimento, ...)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr "Imposta la posizione in alto a sinistra dello spinner di occupato. Le coordinate vengono ridimensionate in modo tale che in alto a sinistra sia su (0,0) e in basso a destra su (1260,700). Tieni presente che la posizione è in alto a sinistra dello spinner e non al centro dello spinner."
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Imposta il tipo di progressione evento nella schermata dell'elenco canali."
 
@@ -17093,6 +17153,9 @@ msgstr "Mostra pacchetti softcam"
 
 msgid "Show Source packages"
 msgstr "Mostra pacchetti sorgenti"
+
+msgid "Show Subscription packages"
+msgstr "Mostra pacchetti di sottoscrizione"
 
 msgid "Show Subservices Of Active Service"
 msgstr "Mostra sottoservizi del servizio attivo"
@@ -18179,6 +18242,9 @@ msgstr "Specifica la cartella da usare all'avvio di Media Player."
 msgid "Speed"
 msgstr "Velocità"
 
+msgid "Spinner Position"
+msgstr "Posizione spinner"
+
 msgid "Split preview mode"
 msgstr "Modalità anteprima separata"
 
@@ -18271,6 +18337,9 @@ msgstr "Avvio il test"
 
 msgid "Start the Kexec initialization"
 msgstr "Avvia l'inizializzazione di Kexec"
+
+msgid "Start the backup of the selected image"
+msgstr "Avvia backup dell'immagine selezionata"
 
 msgid "Start the highlighted plugin"
 msgstr "Avvia plugin evidenziato"
@@ -18530,6 +18599,9 @@ msgstr "Stile"
 
 msgid "Style:"
 msgstr "Stile:"
+
+msgid "Subscription Packages"
+msgstr "Pacchetti di sottoscrizione"
 
 msgid "Subservice Actions"
 msgstr "Azioni sottoservizio"
@@ -19962,6 +20034,9 @@ msgstr "Il timeshift verrà salvato alla fine dell'evento."
 msgid "Time style"
 msgstr "Stile dell’orario"
 
+msgid "Time taken for the backup:"
+msgstr "Tempo impiegato per il backup:"
+
 msgid "Time to execute command or script"
 msgstr "Tempo di esecuzione del comando o dello script"
 
@@ -20063,6 +20138,12 @@ msgstr "Modalità set titoli"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Per completare la configurazione, %s %s deve connettersi a Internet. Collega ora %s %s a Internet."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr "Per ripristinare l'immagine consulta il manuale o la documentazione del ricevitore."
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr "Per ripristinare l'immagine usa l'opzione 'Flash in linea' nel menu 'Gestore software'."
 
 msgid "To restore the image:"
 msgstr "Per ripristinare l'immagine:"
@@ -20991,6 +21072,9 @@ msgstr "Usa il pannello softcam per controllare la cam. Questo ti consente di av
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "Usa i tasti SU e GIÙ per selezionare le impostazioni locali e la lingua, quindi premi il tasto OK per continuare."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr "Usa i tasti SU/GIÙ per selezionare l'immagine installata di cui eseguire il backup. Premi il tasto 'Avvia' (VERDE) per avviare il backup."
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Usa la modalità radio alternativa o convenzionale."
@@ -23414,8 +23498,14 @@ msgstr "tennis/squash"
 msgid "text"
 msgstr "testo"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr "il numero di file da elaborare, il backup occuperà"
+
 msgid "this recording"
 msgstr "questa registrazione"
+
+msgid "to about 15 minutes to complete."
+msgstr "a circa 15 minuti per il completamento."
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "attiva/disattiva informazioni su orario, capitolo, audio e sottotitoli"
@@ -23536,6 +23626,15 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Backup completato."
+
+#~ msgid "Backup failed."
+#~ msgstr "Backup non riuscito."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Nessun aggiornamento disponibile.  Per favore riprova più tardi."
 
 #~ msgid "About..."
 #~ msgstr "Informazioni su..."

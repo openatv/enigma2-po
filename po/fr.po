@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2024-02-19 11:02+0000\n"
 "Last-Translator: \"Mr.Servo\" <mrservo@gmx.de>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fr/>\n"
@@ -1343,6 +1343,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr "- 24 heures"
 
@@ -1567,6 +1576,9 @@ msgstr "<­no log trouvés>"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Une liste séparée des extensions à utiliser pour 'Mon extension' de 'Filter extension'. Entrez les noms de l'extension sans point principal (.)."
@@ -2516,6 +2528,9 @@ msgstr ""
 msgid "Assamese"
 msgstr "Assamais"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "CAIds attribués :"
 
@@ -2843,8 +2858,14 @@ msgstr "Log sauvegarde"
 msgid "Backup Mode"
 msgstr "Mode de sauvegarde"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Mode de sauvegarde : Flash Online\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Mode de sauvegarde : récupération USB\n"
@@ -2855,17 +2876,11 @@ msgstr "Sauvegarder les paramètres"
 msgid "Backup System Settings"
 msgstr "Sauvegarde des paramètres système"
 
-msgid "Backup completed."
-msgstr "Sauvegarde terminée."
-
 msgid "Backup done."
 msgstr "Sauvegarde terminée."
 
 msgid "Backup failed!"
 msgstr ""
-
-msgid "Backup failed."
-msgstr "Échec de la sauvegarde."
 
 msgid "Backup images"
 msgstr "Sauvegarde des images"
@@ -2883,6 +2898,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Sauvegarde vers la destination : %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 msgid "Backup your %s %s settings."
 msgstr "Sauvegarder vos %s %s paramètres."
@@ -3529,6 +3548,9 @@ msgstr "Impossible de télécharger la minuterie"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Impossible d'allouer la source du programme (par exemple, tuner)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5063,6 +5085,10 @@ msgstr ""
 msgid "Create a symbolic link"
 msgstr ""
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "Créer des bouquets radio séparés"
 
@@ -6235,6 +6261,9 @@ msgid "Djibouti"
 msgstr "Djibouti"
 
 msgid "Do another manual service scan?"
+msgstr ""
+
+msgid "Do not backup the image"
 msgstr ""
 
 msgid "Do not change"
@@ -7640,6 +7669,9 @@ msgstr "Quitter la sélection de quatre canaux"
 msgid "Exit all menus"
 msgstr "Quitter tous les menus"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 msgid "Exit editor"
 msgstr "Quitter éditeur"
 
@@ -7689,6 +7721,9 @@ msgid "Exit the wizard"
 msgstr "Quitter l'assistant"
 
 msgid "Exit viewer"
+msgstr ""
+
+msgid "Exit without performing a backup"
 msgstr ""
 
 msgid "Expand"
@@ -9334,6 +9369,13 @@ msgstr "Ignorer les réveils inopinés et rester en veille"
 msgid "Image Backup"
 msgstr "Sauvegarde d'image"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr ""
 
@@ -9341,8 +9383,14 @@ msgstr ""
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr ""
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "La création de l'image a échoué - "
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "Assistant image"
@@ -11364,6 +11412,9 @@ msgstr ""
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Image multiboot créée sur : %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr ""
 
@@ -11908,9 +11959,6 @@ msgid "No update required!"
 msgstr "Aucune mise à jour requise !"
 
 msgid "No updates available."
-msgstr ""
-
-msgid "No updates were available.  Please try again later."
 msgstr ""
 
 msgid "No valid device detected - Press OK"
@@ -13092,6 +13140,9 @@ msgstr "Veuillez sélectionner la région qui correspond le mieux à votre empla
 msgid "Please select the sub-service to record:"
 msgstr "Veuillez choisir un sous-service à enregistrer..."
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
@@ -13314,6 +13365,9 @@ msgstr "Journal configuration positionneur"
 
 msgid "Positioner setup"
 msgstr "Paramètres positionneur"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "Alimentation"
@@ -15506,6 +15560,9 @@ msgstr ""
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr ""
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr ""
 
@@ -16586,6 +16643,9 @@ msgstr "Définir la durée pour masquer la 2ème barre d'info. La barre dispara�
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Définissez le temps d'attente pour exécuter l'action par défaut dans les messages d'arrêt, de veille ou de redémarrage. (par exemple utilisé dans Timer, PowerTimer, Sleeptimer, ...)"
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Défini le type et la localisation de l'indicateur de progression des événements dans la sélection des chaînes. Soit barre graphe, soit en pourcentage à gauche ou à droite du nom du service."
 
@@ -17088,6 +17148,9 @@ msgid "Show Softcam packages"
 msgstr ""
 
 msgid "Show Source packages"
+msgstr ""
+
+msgid "Show Subscription packages"
 msgstr ""
 
 msgid "Show Subservices Of Active Service"
@@ -18178,6 +18241,9 @@ msgstr ""
 msgid "Speed"
 msgstr ""
 
+msgid "Spinner Position"
+msgstr ""
+
 msgid "Split preview mode"
 msgstr "Mode aperçu séparé"
 
@@ -18269,6 +18335,9 @@ msgid "Start test"
 msgstr "Lancer le test"
 
 msgid "Start the Kexec initialization"
+msgstr ""
+
+msgid "Start the backup of the selected image"
 msgstr ""
 
 msgid "Start the highlighted plugin"
@@ -18533,6 +18602,9 @@ msgstr ""
 
 msgid "Style:"
 msgstr "Le style :"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr ""
@@ -19942,6 +20014,9 @@ msgstr "PauseDirect sera sauvegardé à la fin de l'événement !"
 msgid "Time style"
 msgstr "Style de temps"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Heure démarrage des commandes ou des scripts"
 
@@ -20044,6 +20119,12 @@ msgid "Titleset mode"
 msgstr "Mode jeu titre"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
+msgstr ""
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
 msgstr ""
 
 msgid "To restore the image:"
@@ -20974,6 +21055,9 @@ msgstr "Utilisez le panneau SoftCam pour contrôler votre CAM. Cela vous permet 
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "Utilisez les boutons HAUT et BAS pour sélectionner votre région/langue, puis appuyez sur le bouton OK pour continuer."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Utiliser le mode radio alternatif ou conventionnel."
@@ -23363,8 +23447,14 @@ msgstr "Tennis/Squash"
 msgid "text"
 msgstr ""
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 msgid "this recording"
 msgstr "Cet enregistrement"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Commuter temps, chapitre, audio, info sous-titres"
@@ -23485,6 +23575,12 @@ msgstr "Oui (garder feeds)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Sauvegarde terminée."
+
+#~ msgid "Backup failed."
+#~ msgstr "Échec de la sauvegarde."
 
 #~ msgid "About..."
 #~ msgstr "À propos..."

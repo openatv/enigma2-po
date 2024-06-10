@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 20:26+0000\n"
+"POT-Creation-Date: 2024-06-08 09:54+0000\n"
 "PO-Revision-Date: 2024-05-28 07:13+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
@@ -1374,6 +1374,15 @@ msgstr ", "
 msgid "-"
 msgstr "-"
 
+msgid "- No space left on backup device."
+msgstr ""
+
+msgid "- No write permission on backup device."
+msgstr ""
+
+msgid "- Wrong backup destination."
+msgstr ""
+
 msgid "-24 Hours"
 msgstr "-24 Hodin"
 
@@ -1598,6 +1607,9 @@ msgstr "<žádný protokol nebyl nalezen>"
 
 msgid "A"
 msgstr "A"
+
+msgid "A backup is now being created. Please be patient as, due to"
+msgstr ""
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Čárkami oddělený seznam přípon, které mají být použity pro nastavení 'Moje rozšíření' v části 'Filtrovat příponu'. Názvy přípon zadejte bez úvodní tečky (.)."
@@ -2539,6 +2551,9 @@ msgstr "Přepínač poměru stran"
 msgid "Assamese"
 msgstr "Asámština"
 
+msgid "Assembling the image backup files."
+msgstr ""
+
 msgid "Assigned CAIds:"
 msgstr "Přiřazení CAId:"
 
@@ -2866,8 +2881,14 @@ msgstr "Zálohovací protokol"
 msgid "Backup Mode"
 msgstr "Režim zálohování"
 
+msgid "Backup Mode: Flash Online"
+msgstr ""
+
 msgid "Backup Mode: Flash Online\n"
 msgstr "Režim zálohování: Flash online\n"
+
+msgid "Backup Mode: USB Recovery"
+msgstr ""
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Režim zálohování: USB Recovery\n"
@@ -2878,17 +2899,11 @@ msgstr "Záloha nastavení"
 msgid "Backup System Settings"
 msgstr "Záloha nastavení"
 
-msgid "Backup completed."
-msgstr "Záloha kompletní."
-
 msgid "Backup done."
 msgstr "Záloha je hotová."
 
 msgid "Backup failed!"
 msgstr "Zálohování se nezdařilo!"
-
-msgid "Backup failed."
-msgstr "Záloha selhala."
 
 msgid "Backup images"
 msgstr "Stažené image"
@@ -2906,6 +2921,10 @@ msgstr ""
 #, python-format
 msgid "Backup to destination: %s"
 msgstr "Záloha do cíle: %s"
+
+#, python-format
+msgid "Backup tool for %s %s"
+msgstr ""
 
 msgid "Backup your %s %s settings."
 msgstr "Záloha nastavení vašeho %s %s."
@@ -3552,6 +3571,9 @@ msgstr "Nelze nahrát časovač"
 
 msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Nelze přidělit zdroj programu (např. tuner)"
+
+msgid "Can't create backup directory!"
+msgstr ""
 
 msgid ""
 "Can't going to live TV!\n"
@@ -5088,6 +5110,10 @@ msgstr "Vytvořit náhodně vygenerované heslo"
 msgid "Create a symbolic link"
 msgstr "Vytvořte symbolický odkaz"
 
+#, python-format
+msgid "Create recovery image backup '%s'."
+msgstr ""
+
 msgid "Create separate radio user bouquet"
 msgstr "Vytvořit samostatný uživatelský přehled rádií"
 
@@ -6261,6 +6287,9 @@ msgstr "Džibutsko"
 
 msgid "Do another manual service scan?"
 msgstr "Provést další ruční servisní sken?"
+
+msgid "Do not backup the image"
+msgstr ""
 
 msgid "Do not change"
 msgstr "Neměnit"
@@ -7670,6 +7699,9 @@ msgstr "Ukončit výběr čtyř kanálů"
 msgid "Exit all menus"
 msgstr "Ukončit všechny nabídky"
 
+msgid "Exit and close all screens without performing a backup"
+msgstr ""
+
 msgid "Exit editor"
 msgstr "Zavřít editor"
 
@@ -7720,6 +7752,9 @@ msgstr "Zavřít průvodce"
 
 msgid "Exit viewer"
 msgstr "Ukončit prohlížeč"
+
+msgid "Exit without performing a backup"
+msgstr ""
 
 msgid "Expand"
 msgstr "Rozbalit"
@@ -9363,6 +9398,13 @@ msgstr "Ignorovat neočekávané probuzení a zůstat v pohotovostním režimu"
 msgid "Image Backup"
 msgstr "Zálohování Image"
 
+msgid "Image Backup Actions"
+msgstr ""
+
+#, python-format
+msgid "Image Backup To %s"
+msgstr ""
+
 msgid "Image Flash Actions"
 msgstr "Akce flashování obrazu"
 
@@ -9370,8 +9412,14 @@ msgstr "Akce flashování obrazu"
 msgid "Image created on: %s/%s-%s-%s-backup-%s_%s.zip"
 msgstr "Obraz byl vytvořen do: %s/%s-%s-%s-backup-%s_%s.zip"
 
+msgid "Image created:"
+msgstr ""
+
 msgid "Image creation failed - "
 msgstr "Vytvoření obrazu (image) selhalo - "
+
+msgid "Image creation failed!"
+msgstr ""
 
 msgid "ImageWizard"
 msgstr "Průvodce obnovením"
@@ -11392,6 +11440,9 @@ msgstr "MultiTranscoding"
 msgid "Multiboot Image created on: %s/%s-%s-%s-backup-%s_usb.zip"
 msgstr "Multiboot Image vytvořen v: %s/%s-%s-%s-backup-%s_usb.zip"
 
+msgid "Multiboot Image created:"
+msgstr ""
+
 msgid "Multimedia Packages"
 msgstr "Multimediální balíčky"
 
@@ -11940,9 +11991,6 @@ msgstr "Aktualizace není nutná!"
 
 msgid "No updates available."
 msgstr "Nejsou k dispozici žádné aktualizace."
-
-msgid "No updates were available.  Please try again later."
-msgstr "Nebyly k dispozici žádné aktualizace. Prosím zkuste to znovu později."
 
 msgid "No valid device detected - Press OK"
 msgstr "Nebylo zjištěno žádné platné zařízení – Stiskněte tlačítko OK"
@@ -13123,6 +13171,9 @@ msgstr "Vyberte oblast, která nejvíce odpovídá vaší fyzické poloze. Regio
 msgid "Please select the sub-service to record:"
 msgstr "Prosím vyberte podprogram pro nahrávání:"
 
+msgid "Please select the target location to save the backup:"
+msgstr ""
+
 msgid "Please select what to do after flash of the following image:"
 msgstr "Vyberte, co se má udělat po flashnutí následujícího obrazu:"
 
@@ -13347,6 +13398,9 @@ msgstr "Nastavení motoru - info"
 
 msgid "Positioner setup"
 msgstr "Nastavení motoru"
+
+msgid "Possible causes could be:"
+msgstr ""
 
 msgid "Power"
 msgstr "Vypnout (použít menu)"
@@ -15538,6 +15592,9 @@ msgstr "Vyberte 'Ano' pro zobrazení balíčků vzhledů na obrazovce Stáhnout 
 msgid "Select 'Yes' to show source 'src' packages in the Download Plugins screen."
 msgstr "Vyberte 'Ano' pro zobrazení zdrojových balíčků 'src' na obrazovce Stáhnout pluginy."
 
+msgid "Select 'Yes' to show subscription packages in the Download Plugins screen."
+msgstr ""
+
 msgid "Select 'Yes' to show system plugin packages in the Download Plugins screen."
 msgstr "Vyberte 'Ano', chcete-li zobrazit balíčky systémových pluginů na obrazovce Stáhnout pluginy."
 
@@ -16629,6 +16686,9 @@ msgstr "Nastavte čas skrytí druhého informačního panelu. Infobar také zmiz
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, PowerTimer, SleepTimer etc."
 msgstr "Nastavte dobu čekání na provedení výchozí akce ve zprávách pro vypnutí, pohotovostní režim nebo restart. (např. používané v RecordTimer, PowerTimer, SleepTimer, ...)."
 
+msgid "Set the top left location of the busy spinner. The coordinates are scaled such that the top left is at (0,0) and the bottom right is at (1260,700). Note that the position is the top left of the spinner and not the centre of the spinner."
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Nastavuje typ průběhů pořadů ve výběru programů."
 
@@ -17135,6 +17195,9 @@ msgstr "Zobrazit balíčky Softcam"
 
 msgid "Show Source packages"
 msgstr "Zobrazit zdrojové balíčky"
+
+msgid "Show Subscription packages"
+msgstr ""
 
 msgid "Show Subservices Of Active Service"
 msgstr "Zobrazit podslužby aktivní služby"
@@ -18223,6 +18286,9 @@ msgstr "Zadejte adresář, který se má použít při spuštění přehrávače
 msgid "Speed"
 msgstr "Rychlost"
 
+msgid "Spinner Position"
+msgstr ""
+
 msgid "Split preview mode"
 msgstr "Režim rozděleného náhledu"
 
@@ -18315,6 +18381,9 @@ msgstr "Otestovat"
 
 msgid "Start the Kexec initialization"
 msgstr "Spustit inicializaci Kexec"
+
+msgid "Start the backup of the selected image"
+msgstr ""
 
 msgid "Start the highlighted plugin"
 msgstr "Spustit označený plugin"
@@ -18574,6 +18643,9 @@ msgstr "Styl"
 
 msgid "Style:"
 msgstr "Styl:"
+
+msgid "Subscription Packages"
+msgstr ""
 
 msgid "Subservice Actions"
 msgstr "Akce podslužby"
@@ -20006,6 +20078,9 @@ msgstr "Časový posun se uloží na konci události."
 msgid "Time style"
 msgstr "Styl času"
 
+msgid "Time taken for the backup:"
+msgstr ""
+
 msgid "Time to execute command or script"
 msgstr "Čas spuštění příkazu nebo skriptu"
 
@@ -20107,6 +20182,12 @@ msgstr "Nastavování titulu"
 
 msgid "To complete the setup the %s %s must connect to the Internet.  Connect the %s %s to the Internet now."
 msgstr "Chcete-li dokončit nastavení, %s %s se musí připojit k internetu. Nyní připojte %s %s k internetu."
+
+msgid "To restore the image check the manual or documentation for the receiver."
+msgstr ""
+
+msgid "To restore the image use 'OnlineFlash' option in the 'SoftwareManager' menu."
+msgstr ""
 
 msgid "To restore the image:"
 msgstr "Chcete-li obnovit obraz (image):"
@@ -21035,6 +21116,9 @@ msgstr "Zde můžete Vybírat / Ovládat / Spuštět / Stopnout vaše camy"
 
 msgid "Use the UP and DOWN buttons to select your locale/language then press the OK button to continue."
 msgstr "Pomocí tlačítek NAHORU a DOLŮ vyberte své národní prostředí/jazyk a poté pokračujte stisknutím tlačítka OK."
+
+msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
+msgstr ""
 
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Použít alternativní nebo konvenční režim Rádia."
@@ -23458,8 +23542,14 @@ msgstr "tenis/skvoš"
 msgid "text"
 msgstr "text"
 
+msgid "the number of files to be processed, the backup will take up"
+msgstr ""
+
 msgid "this recording"
 msgstr "tento záznam"
+
+msgid "to about 15 minutes to complete."
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "přepnout informace mezi časem, kapitolou, audiostopou, titulky"
@@ -23581,6 +23671,15 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Backup completed."
+#~ msgstr "Záloha kompletní."
+
+#~ msgid "Backup failed."
+#~ msgstr "Záloha selhala."
+
+#~ msgid "No updates were available.  Please try again later."
+#~ msgstr "Nebyly k dispozici žádné aktualizace. Prosím zkuste to znovu později."
 
 #~ msgid "About..."
 #~ msgstr "Info o..."
