@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2023-06-04 19:16+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -2286,6 +2286,15 @@ msgstr "Abėcėlės tvarka po antraštėmis"
 msgid "Alphanumeric"
 msgstr "Raidinis ir skaitmeninis"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importuoti kanalus perkraunant arba paleidžiant grafinę aplinką iš naujo"
+
+msgid "Also import from the extension menu"
+msgstr "Taip pat importuoti iš išplėstinio meniu"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importuoti kanalus, kai imtuvas išeina iš budėjimo režimo"
+
 msgid "Also on standby"
 msgstr "Ir budėjimo režimą"
 
@@ -2300,6 +2309,9 @@ msgstr "2 alternatyva"
 
 msgid "Alternative Edit"
 msgstr "[alternatyvus redagavimas]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alternatyvūs DVB-T/C arba ATSC URL"
 
 msgid "Alternative numbering mode"
 msgstr "Alternatyvus numeracijos režimas"
@@ -2898,12 +2910,6 @@ msgstr "Atsarginės kopijos nustatymai"
 
 msgid "Backup System Settings"
 msgstr "Atsarginė sistemos nustatymų kopija"
-
-msgid "Backup done."
-msgstr "Atsarginė kopija padaryta."
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr "Atsarginių kopijų kūrimo atvaizdai"
@@ -5290,6 +5296,9 @@ msgstr "Pasirinktinai praleisti laiką '7'/'9' mygtukams"
 msgid "Customize"
 msgstr "Asmeniniai pasirinkimai"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Pritaikykite OpenWebIF nustatymus atsarginiam imtuvui"
+
 msgid "Customize System Settings"
 msgstr "Tinkinkite sistemos nustatymus"
 
@@ -6009,6 +6018,18 @@ msgstr "Panaikinkite tik paryškinto failo pasirinkimą"
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Panaikintos pakuotės paprastai atsiranda dėl to, kad supakuotos yra nesuderinamos su esamomis pakuotėmis.  Nors tai dažniausiai nekenksminga, gali būti, kad jūsų %s %s gali susidurti su problemomis."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Atsarginio nuotolinio imtuvo paskirtis"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "ATSC nuotolinio atsarginio imtuvo paskirties vieta"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "DVB-C nuotolinio atsarginio imtuvo paskirties vieta"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "DVB-T nuotolinio atsarginio imtuvo paskirties vieta"
 
 msgid "Detail of GStreamer log."
 msgstr "Išsami GStreamer žurnalo informacija"
@@ -7026,6 +7047,9 @@ msgstr "Įjungti atsarginį nuotolinį imtuvą"
 msgid "Enable freesat EPG"
 msgstr "Įjungti freesat EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Įjungti importo laikmatį iš atsarginio imtuvo"
+
 msgid "Enable intro screen"
 msgstr "Įjungti įvadinį vaizdą"
 
@@ -7217,6 +7241,9 @@ msgstr "Įrašykite"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "Įveskite DNS (dinaminis vardų serveris) %d IP adresą."
+
+msgid "Enter IP address"
+msgstr "Įrašykite IP adresą"
 
 msgid "Enter PIN"
 msgstr "Įrašykite PIN kodą"
@@ -7470,6 +7497,12 @@ msgstr "Klaidos tekstas:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Išarchyvuojamo atvaizdo klaida '%s'!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Klaida, nežinomas rezultatas!"
@@ -7947,11 +7980,35 @@ msgstr "Nepavyko:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Folklando (Malvinų) Salos"
 
+msgid "Fallback API did not return a valid result."
+msgstr "Atsarginė API nepateikė galiojančio rezultato."
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Atsarginis nuotolinis imtuvas"
+
+msgid "Fallback remote receiver IP"
+msgstr "Atsarginio nuotolinio imtuvo IP"
+
+msgid "Fallback remote receiver Port"
+msgstr "Atsarginio nuotolinio imtuvo jungtis"
+
 msgid "Fallback remote receiver URL"
 msgstr "Atsarginio nuotolinio imtuvo internetinis adresas"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "ATSC nuotolinis atsarginis imtuvas"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "DVB-C nuotolinis atsarginis imtuvas"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "DVB-T nuotolinis atsarginis imtuvas"
+
+msgid "Fallback tuner setup"
+msgstr "Atsarginio imtuvo nustatymas"
 
 msgid "False"
 msgstr "Klaidingas"
@@ -9214,6 +9271,9 @@ msgstr "IP adresas"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "Atsarginio nuotolinio imtuvo IP"
+
 msgid "IPK Installer"
 msgstr "IPK įdiegėjas"
 
@@ -9451,6 +9511,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr "Nedelsdami iš naujo paleiskite pasirinktus įrenginius."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL taip pat, kai imtuvas išeina iš budėjimo režimo"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL, kai imtuvas yra paleistas"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL, kai imtuvas arba enigma2 yra paleidžiami iš naujo"
+
+msgid "Import from remote receiver URL"
+msgstr "Importuoti epg iš nuotolinio imtuvo URL"
+
+msgid "Import remote receiver URL"
+msgstr "Importuoti nuotolinio imtuvo URL"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Be to, šalia tikrinimo įvykio pradžioje, gali būti naudojamas pakartotinis patikrinimas, kad sąlygų \"kaupimo riba valandomis\", arba \"tikrinti laisvą vietą\" neatitikimas būtų aptiktas anksčiau."
@@ -10669,6 +10744,9 @@ msgstr "Tvarkykite savo daugialypės terpės įkrovos įrenginį"
 msgid "Make"
 msgstr "Kurti"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Padaryti galimybę rankiniu būdu inicijuoti kanalų importavimą ir/arba EPG per išplėstinį meniu"
+
 msgid "Make this mark an 'in' point"
 msgstr "Padaryti šią žymą 'įėjimo' tašku"
 
@@ -11830,9 +11908,6 @@ msgstr "Palaikomo DVD ROM nerasta!"
 msgid "No Connection"
 msgstr "Nėra prisijungimo"
 
-msgid "No Devices Found !!"
-msgstr "Įrenginių nerasta !!"
-
 msgid "No ECM PIDs available"
 msgstr "ECMPids nėra"
 
@@ -12457,10 +12532,16 @@ msgstr "Atverti kanalų sąrašą ir pasirinkti ankstesnį PiP kanalą"
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Atverti priedų tvarkyklę"
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -13388,6 +13469,9 @@ msgstr "Jungtis D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "Atsarginio nuotolinio imtuvo jungtis"
+
 msgid "Portugal"
 msgstr "Portugalija"
 
@@ -13930,6 +14014,9 @@ msgstr "Greitas EPG"
 
 msgid "Quick Launch Menu"
 msgstr "Greitosios paleisties meniu"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Greitasis meniu..."
@@ -15057,6 +15144,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr "Kaip ir aktyvus"
+
+msgid "Same as stream"
+msgstr "Tas pats kaip srautas"
 
 msgid "Same behavior as current animation"
 msgstr "Tokia pati elgsena kaip ir dabartinė animacija"
@@ -16226,6 +16316,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr "Pasirinkite laiko juostą, toje teritorijoje arba regione."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Pasirinkite imtuvą, kuris kontroliuoja motorizuotą anteną."
 
@@ -16602,6 +16695,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "Pasirinkite veiksmą 'info' mygtukui"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Nustatykite alternatyvius DVB-T/C arba ATSC atsarginius imtuvus"
+
 msgid "Set current CEC address as fixed address"
 msgstr "Nustatyti dabartinį CEC adresą kaip fiksuotą adresą"
 
@@ -16639,6 +16735,9 @@ msgstr "Nustatyti sistemą"
 msgid "Set the MAC address of your %s %s."
 msgstr "Nustatykite savo %s %s MAC adresą."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Nustatykite OpenWebif naudotojo ID iš atsarginio imtuvo"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Nustatykite kanalų logotipų proporciją."
 
@@ -16665,6 +16764,12 @@ msgstr "Nustatykite šuolio dydį paieškos juostoje."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Nustatykite OpenWebif slaptažodį iš atsarginio derintuvo"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Nustatykite OpenWebif jungtį iš savo atsarginio imtuvo"
 
 msgid "Set the position of the recording icons."
 msgstr "Nustatyti įrašymo piktogramos poziciją"
@@ -17458,6 +17563,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Rodyti pranešimą, kai kanalų ir/arba EPG importas iš nuotolinio imtuvo yra nebaigtas"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Rodyti pranešimą, kai kanalų ir/arba EPG importas iš nuotolinio imtuvo yra baigtas"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Rodyti pranešimą, kai kanalų importas nepavyko"
+
+msgid "Show notification when import channels was successful"
+msgstr "Rodyti pranešimą, kai kanalų importas pavyko"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Rodyti arba slėpti išplėstą aprašymą, (priklauso nuo temos)."
@@ -20609,6 +20726,9 @@ msgstr "UP80 (keymap.u80)"
 msgid "URL"
 msgstr "Internetinis adresas"
 
+msgid "URL of fallback remote receiver"
+msgstr "Atsarginio nuotolinio imtuvo internetinis adresas"
+
 msgid "URL of fallback remote receiver."
 msgstr "Nuotolinio imtuvo internetinis adresas"
 
@@ -20670,6 +20790,9 @@ msgstr "Nekoduotas"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Netikėta klaida gaunant atsarginio imtuvo laikmačio informaciją"
 
 msgid "UnhandledKey"
 msgstr "Nepalaikomas mygtukas"
@@ -21167,6 +21290,9 @@ msgstr "Vartotojas - paketai"
 
 msgid "User Feed URL"
 msgstr "Vartotojo šaltinių URL"
+
+msgid "User ID"
+msgstr "Vartotojo ID"
 
 msgid "User comments"
 msgstr ""
@@ -21837,6 +21963,15 @@ msgstr "Kai įjungta, imtuvas automatiškai grįš į budėjimo režimą, kai te
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Kai įjungta, imtuvas automatiškai pažadins budėjimo režimą, kai televizorius bus įjungtas."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Kai įjungta, galite pritaikyti OpenWebIf nustatymus atsarginiam imtuvui"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Kai čia įjungta, http sraute bus įtraukti ir AIT duomenys. Tai leis kliento imtuvui naudotis HbbTV."
@@ -23643,139 +23778,11 @@ msgstr "taip (išsaugoti šaltinius)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Netikėta klaida gaunant atsarginio imtuvo laikmačio informaciją"
+#~ msgid "Backup done."
+#~ msgstr "Atsarginė kopija padaryta."
 
-msgid "Fallback API did not return a valid result."
-msgstr "Atsarginė API nepateikė galiojančio rezultato."
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Atsarginio imtuvo nustatymas"
-
-msgid "Same as stream"
-msgstr "Tas pats kaip srautas"
-
-msgid "Enter IP address"
-msgstr "Įrašykite IP adresą"
-
-msgid "Import from remote receiver URL"
-msgstr "Importuoti epg iš nuotolinio imtuvo URL"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL, kai imtuvas yra paleistas"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Įjungti importo laikmatį iš atsarginio imtuvo"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Kai įjungta, atsarginio imtuvo laikmatis yra importuojamas"
-
-msgid "Fallback remote receiver"
-msgstr "Atsarginis nuotolinis imtuvas"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Atsarginio nuotolinio imtuvo paskirtis"
-
-msgid "Fallback remote receiver IP"
-msgstr "Atsarginio nuotolinio imtuvo IP"
-
-msgid "IP of fallback remote receiver"
-msgstr "Atsarginio nuotolinio imtuvo IP"
-
-msgid "Fallback remote receiver Port"
-msgstr "Atsarginio nuotolinio imtuvo jungtis"
-
-msgid "Port of fallback remote receiver"
-msgstr "Atsarginio nuotolinio imtuvo jungtis"
-
-msgid "URL of fallback remote receiver"
-msgstr "Atsarginio nuotolinio imtuvo internetinis adresas"
-
-msgid "Import remote receiver URL"
-msgstr "Importuoti nuotolinio imtuvo URL"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importuoti kanalus perkraunant arba paleidžiant grafinę aplinką iš naujo"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL, kai imtuvas arba enigma2 yra paleidžiami iš naujo"
-
-msgid "Also import when box is leaving standby"
-msgstr "Importuoti kanalus, kai imtuvas išeina iš budėjimo režimo"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Importuoti kanalus ir/arba EPG iš nuotolinio imtuvo URL taip pat, kai imtuvas išeina iš budėjimo režimo"
-
-msgid "Also import from the extension menu"
-msgstr "Taip pat importuoti iš išplėstinio meniu"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Padaryti galimybę rankiniu būdu inicijuoti kanalų importavimą ir/arba EPG per išplėstinį meniu"
-
-msgid "Show notification when import channels was successful"
-msgstr "Rodyti pranešimą, kai kanalų importas pavyko"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Rodyti pranešimą, kai kanalų ir/arba EPG importas iš nuotolinio imtuvo yra baigtas"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Rodyti pranešimą, kai kanalų importas nepavyko"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Rodyti pranešimą, kai kanalų ir/arba EPG importas iš nuotolinio imtuvo yra nebaigtas"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Pritaikykite OpenWebIF nustatymus atsarginiam imtuvui"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Kai įjungta, galite pritaikyti OpenWebIf nustatymus atsarginiam imtuvui"
-
-msgid "User ID"
-msgstr "Vartotojo ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Nustatykite OpenWebif naudotojo ID iš atsarginio imtuvo"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Nustatykite OpenWebif slaptažodį iš atsarginio derintuvo"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Nustatykite OpenWebif jungtį iš savo atsarginio imtuvo"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alternatyvūs DVB-T/C arba ATSC URL"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Nustatykite alternatyvius DVB-T/C arba ATSC atsarginius imtuvus"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "DVB-T nuotolinis atsarginis imtuvas"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "DVB-T nuotolinio atsarginio imtuvo paskirties vieta"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "DVB-C nuotolinis atsarginis imtuvas"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "DVB-C nuotolinio atsarginio imtuvo paskirties vieta"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "ATSC nuotolinis atsarginis imtuvas"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "ATSC nuotolinio atsarginio imtuvo paskirties vieta"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Įrenginių nerasta !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-06-05 21:09+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -2250,6 +2250,15 @@ msgstr "Aakkosjärjestyksessä otsikoiden alla"
 msgid "Alphanumeric"
 msgstr "Aakkosjärjestys"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Tuo uudelleenkäynnistyksessä"
+
+msgid "Also import from the extension menu"
+msgstr "Lisää valinta laajennusvalikkoon"
+
+msgid "Also import when box is leaving standby"
+msgstr "Tuo valmiustilasta poistuttaessa"
+
 msgid "Also on standby"
 msgstr "Myös valmiustilassa"
 
@@ -2264,6 +2273,9 @@ msgstr "Vaihtoehtoinen"
 
 msgid "Alternative Edit"
 msgstr "[Vaihtoehtojen lisäys ja poisto]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr ""
 
 msgid "Alternative numbering mode"
 msgstr "Vaihtoehtoinen numerointitapa"
@@ -2860,12 +2872,6 @@ msgstr "Varmuuskopioi asetukset"
 
 msgid "Backup System Settings"
 msgstr "Varmuuskopioi järjestelmäasetukset"
-
-msgid "Backup done."
-msgstr "Varmuuskopiointi suoritettu."
-
-msgid "Backup failed!"
-msgstr "Varmuuskopiointi epäonnistui!"
 
 msgid "Backup images"
 msgstr "Varmuuskopioit ohjelmistosta"
@@ -5251,6 +5257,9 @@ msgstr "'7'/'9'-näppäimien hypyn pituus (sek)"
 msgid "Customize"
 msgstr "Toimintojen muokkaus"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Etävastaanottimen OpenWebIf asetukset"
+
 msgid "Customize System Settings"
 msgstr "Järjestelmä asetukset"
 
@@ -5970,6 +5979,18 @@ msgstr "Poista vain korostetun tiedoston valinta"
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Valitsematta jätetyt paketit eivät ole yhteensopivia olemassa olevien pakettien kanssa.  Vaikka tämä on enimmäkseen vaaratonta, on mahdollista, että %s %s voi esiintyä ongelmia."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Etävastaanottimen kohde"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Etävastaanottimen kohde"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Etävastaanottimen kohde"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Etävastaanottimen kohde"
 
 msgid "Detail of GStreamer log."
 msgstr "Yksityiskohtaiset tiedot GStreameri lokista"
@@ -6988,6 +7009,9 @@ msgstr "Ota käyttöön etävastaanotin"
 msgid "Enable freesat EPG"
 msgstr "Ota käyttöön freesat EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Tuo ajastimet etävastaaottimelta"
+
 msgid "Enable intro screen"
 msgstr "Aktivoi aloitusnäyttö"
 
@@ -7177,6 +7201,9 @@ msgstr "Hyväksy"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "Kirjoita DNS (Dynaaminen Nimi Palvelin) %d:n IP osoite."
+
+msgid "Enter IP address"
+msgstr "Syötä IP-osoite"
 
 msgid "Enter PIN"
 msgstr "Syötä PIN"
@@ -7430,6 +7457,12 @@ msgstr "Virheteksti:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Virhe purettaessa ohjelmisto image %s!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Virhe, tuntematon tulos!"
@@ -7905,11 +7938,35 @@ msgstr "Epäonnistui:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falklandinsaaret"
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Etävastaanottimen osoite"
+
+msgid "Fallback remote receiver IP"
+msgstr "Etävastaanottimen IP-osoite"
+
+msgid "Fallback remote receiver Port"
+msgstr "Etävastaanottimen portti"
+
 msgid "Fallback remote receiver URL"
 msgstr "Etävastaanottimen osoite"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Etävastaanottimen portti"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Etävastaanottimen portti"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Etävastaanottimen portti"
+
+msgid "Fallback tuner setup"
+msgstr "Etävastaanotin"
 
 msgid "False"
 msgstr "Epätosi"
@@ -9172,6 +9229,9 @@ msgstr "IP osoite"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Striimin välitys -palvelimen IP-osoite, jota käytetään sellaisten palvelujen salauksen purkamiseen, joiden salaus voidaan purkaa vain striimin välityksen kautta."
 
+msgid "IP of fallback remote receiver"
+msgstr "Etävastaanottimen IP-osoite"
+
 msgid "IPK Installer"
 msgstr "IPK Asennus"
 
@@ -9414,6 +9474,21 @@ msgstr "Poistu välittömästi asennustoiminnosta (vain vianmääritystila)"
 
 msgid "Immediately restart selected devices."
 msgstr "Käynnistä valitut laitteet välittömästi uudelleen."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta valmiustilasta poistuttaessa"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
+
+msgid "Import from remote receiver URL"
+msgstr "Tuo etävastaanottimelta"
+
+msgid "Import remote receiver URL"
+msgstr "Syötä etävastaanottimen URL-osoite"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Ohjelman alkaessa tarkistuksen lisäksi voidaan käyttää toistuvaa tarkistusta, jotta olosuhteet 'puskuriraja tunteina' tai 'tarkista vapaa tila' havaitaan aikaisemmin."
@@ -10630,6 +10705,9 @@ msgstr "Ylläpidä multiboot image paikkoja."
 msgid "Make"
 msgstr "Tee"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Lisää valinta kanavien ja/tai ohjelmaopas -tiedon tuonnille laajennusvalikkoon"
+
 msgid "Make this mark an 'in' point"
 msgstr "Tee tästä merkistä aloituspiste"
 
@@ -11796,9 +11874,6 @@ msgstr "DVDROM-asemaa ei löytynyt!"
 msgid "No Connection"
 msgstr "Ei yhteyttä"
 
-msgid "No Devices Found !!"
-msgstr "Laitteita ei löydy !!"
-
 msgid "No ECM PIDs available"
 msgstr "Ei ECMPids saatavilla"
 
@@ -12429,11 +12504,17 @@ msgstr "Avaa kanavalista ja valitse edellinen kanava PiP-kuvalle"
 msgid "Open the Channel Selection Settings screen"
 msgstr "Avaa Kanavanvalinta asetukset näyttö"
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Avaa lisäosien selaus"
 
 msgid "Open the Plugin Browser settings screen"
 msgstr "Avaa lisäsosat asetukset näytölle"
+
+msgid "Open the Storage Device information"
+msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Avaa Virtuaalinen näppäimistö tekstin syöttämistä varten"
@@ -13358,6 +13439,9 @@ msgstr "Portti D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Striimin välitys palvelimen portti, jota käytetään sellaisten palvelujen salauksen purkamiseen, joiden salaus voidaan purkaa vain striimin välityksen kautta."
 
+msgid "Port of fallback remote receiver"
+msgstr "Etävastaanottimen portti"
+
 msgid "Portugal"
 msgstr "Portugali"
 
@@ -13900,6 +13984,9 @@ msgstr "Avaa graafinen tietopalkki EPG\""
 
 msgid "Quick Launch Menu"
 msgstr "Pikavalikko"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Pikavalikko..."
@@ -15027,6 +15114,9 @@ msgstr "Samba Serveri"
 
 msgid "Same as in active"
 msgstr "Sama kuin aktiivinen"
+
+msgid "Same as stream"
+msgstr "Sama kuin striimi"
 
 msgid "Same behavior as current animation"
 msgstr "Sama käyttäytyminen kuin nykyinen animaatio"
@@ -16209,6 +16299,9 @@ msgstr "Valitse aika, jolloin ajastus käynnistyy."
 msgid "Select the time zone within the area or region."
 msgstr "Valitse aikavyöhyke."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Valitse viritin, joka ohjaa moottoroitua lautasta."
 
@@ -16590,6 +16683,9 @@ msgstr "Aseta aika"
 msgid "Set action for 'Info' key"
 msgstr "Valitse toiminto ajastimelle"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr ""
+
 msgid "Set current CEC address as fixed address"
 msgstr "Nykyisen CEC osoitteen asettaminen kiinteäksi osoitteeksi"
 
@@ -16627,6 +16723,9 @@ msgstr "Aseta järjestelmä"
 msgid "Set the MAC address of your %s %s."
 msgstr "Määritä %s %s:n MAC-osoite."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Aseta etävastaanottimen OpenWebIf käyttäjätunnus"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Määritä kanavatyypin kuvakkeiden kuvasuhde."
 
@@ -16653,6 +16752,12 @@ msgstr "Aseta hakupalkin hypyn pituus."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Asettaa skriptien 'stout'- ja 'sterr' tallennettavien rivien määrän."
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Aseta etävastaanottimen OpenWebIf salasana"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Aseta etävastaanottimen OpenWebIf portti"
 
 msgid "Set the position of the recording icons."
 msgstr "Aseta tallennuskuvakkeiden sijainti."
@@ -17452,6 +17557,18 @@ msgstr "Näytä seuraavat kanavan tiedot ruudulla"
 
 msgid "Show next system information screen"
 msgstr "Näytä seuraava järjestelmätietonäyttö"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Näytä ilmoitus kun kanavien ja/tai ohjelmaoppaan tuonti etävastaanottimelta ei onnistunut"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Näytä ilmoitus kun kanavien ja/tai ohjelmaoppaan tuonti etävastaanottimelta onnistui"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Näytä ilmoitus kun tuonti epäonnistui"
+
+msgid "Show notification when import channels was successful"
+msgstr "Näytä ilmoitus kun tuonti onnistui"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Näytä tai piilota laajennettu kuvaus, (teemasta riippuva)."
@@ -20633,6 +20750,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr "Osoite"
 
+msgid "URL of fallback remote receiver"
+msgstr "Etävastaanottimen URL-osoite"
+
 msgid "URL of fallback remote receiver."
 msgstr ""
 "Etävastaanottimen IP osoite tai\n"
@@ -20696,6 +20816,9 @@ msgstr "Salaamaton"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Odottamaton virhe Internetissä WebIF: %s"
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr ""
 
 msgid "UnhandledKey"
 msgstr "Käsittelemätön avain"
@@ -21196,6 +21319,9 @@ msgstr "Käyttäjä - Suosikit"
 
 msgid "User Feed URL"
 msgstr "käyttäjän määrittämä syöteosoite"
+
+msgid "User ID"
+msgstr "Käyttäjä"
 
 msgid "User comments"
 msgstr "Käyttäjän kommentit"
@@ -21874,6 +22000,15 @@ msgstr "Kun tämä on käytössä, vastaanotin palaa automaattisesti valmiustila
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Kun tämä on käytössä, vastaanotin herää automaattisesti valmiustilasta, kun televisio kytketään päälle."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Käy käytössä, voit määritellä etävastaanottimen OpenWebIf asetuksia"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Kun päällä, AIT-tiedot lähetetään http striimeissä. Tämä mahdollistaa HbbTV:n käyttämisen asiakasvastaanottimessa."
@@ -23688,139 +23823,14 @@ msgstr "kyllä (pidä syötteet)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr ""
+#~ msgid "Backup done."
+#~ msgstr "Varmuuskopiointi suoritettu."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
+#~ msgid "Backup failed!"
+#~ msgstr "Varmuuskopiointi epäonnistui!"
 
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Etävastaanotin"
-
-msgid "Same as stream"
-msgstr "Sama kuin striimi"
-
-msgid "Enter IP address"
-msgstr "Syötä IP-osoite"
-
-msgid "Import from remote receiver URL"
-msgstr "Tuo etävastaanottimelta"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Tuo ajastimet etävastaaottimelta"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Kun käytössä, ajastukset tuodaan etävastaanottimelta"
-
-msgid "Fallback remote receiver"
-msgstr "Etävastaanottimen osoite"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Etävastaanottimen kohde"
-
-msgid "Fallback remote receiver IP"
-msgstr "Etävastaanottimen IP-osoite"
-
-msgid "IP of fallback remote receiver"
-msgstr "Etävastaanottimen IP-osoite"
-
-msgid "Fallback remote receiver Port"
-msgstr "Etävastaanottimen portti"
-
-msgid "Port of fallback remote receiver"
-msgstr "Etävastaanottimen portti"
-
-msgid "URL of fallback remote receiver"
-msgstr "Etävastaanottimen URL-osoite"
-
-msgid "Import remote receiver URL"
-msgstr "Syötä etävastaanottimen URL-osoite"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Tuo uudelleenkäynnistyksessä"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
-
-msgid "Also import when box is leaving standby"
-msgstr "Tuo valmiustilasta poistuttaessa"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta valmiustilasta poistuttaessa"
-
-msgid "Also import from the extension menu"
-msgstr "Lisää valinta laajennusvalikkoon"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Lisää valinta kanavien ja/tai ohjelmaopas -tiedon tuonnille laajennusvalikkoon"
-
-msgid "Show notification when import channels was successful"
-msgstr "Näytä ilmoitus kun tuonti onnistui"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Näytä ilmoitus kun kanavien ja/tai ohjelmaoppaan tuonti etävastaanottimelta onnistui"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Näytä ilmoitus kun tuonti epäonnistui"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Näytä ilmoitus kun kanavien ja/tai ohjelmaoppaan tuonti etävastaanottimelta ei onnistunut"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Etävastaanottimen OpenWebIf asetukset"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Käy käytössä, voit määritellä etävastaanottimen OpenWebIf asetuksia"
-
-msgid "User ID"
-msgstr "Käyttäjä"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Aseta etävastaanottimen OpenWebIf käyttäjätunnus"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Aseta etävastaanottimen OpenWebIf salasana"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Aseta etävastaanottimen OpenWebIf portti"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Etävastaanottimen portti"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Etävastaanottimen kohde"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Etävastaanottimen portti"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Etävastaanottimen kohde"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Etävastaanottimen portti"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Etävastaanottimen kohde"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Laitteita ei löydy !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"

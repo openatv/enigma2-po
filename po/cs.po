@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-06-13 09:29+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
@@ -2273,6 +2273,15 @@ msgstr "Abecedně pod nadpisy"
 msgid "Alphanumeric"
 msgstr "Alfanumerická"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importovat též při restartu přijímače/enigma2"
+
+msgid "Also import from the extension menu"
+msgstr "Import z menu rozšíření"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importovat též při přechodu ze standby"
+
 msgid "Also on standby"
 msgstr "Zahrnout také start z pohotovosti"
 
@@ -2287,6 +2296,9 @@ msgstr "Alternativní 2"
 
 msgid "Alternative Edit"
 msgstr "[ÚPRAVA ALTERNATIV]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alternativní záložní přijímače pro DVB-T/C nebo ATSC"
 
 msgid "Alternative numbering mode"
 msgstr "Alternativní způsob číslování"
@@ -2883,12 +2895,6 @@ msgstr "Záloha nastavení"
 
 msgid "Backup System Settings"
 msgstr "Záloha nastavení"
-
-msgid "Backup done."
-msgstr "Záloha je hotová."
-
-msgid "Backup failed!"
-msgstr "Zálohování se nezdařilo!"
 
 msgid "Backup images"
 msgstr "Stažené image"
@@ -5274,6 +5280,9 @@ msgstr "Vlastní časový posun pro tlačítka '7'/'9'"
 msgid "Customize"
 msgstr "Přizpůsobení"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Úprava nastavení OpenWebIf pro záložní tuner"
+
 msgid "Customize System Settings"
 msgstr "Upravit nastavení systému"
 
@@ -5993,6 +6002,18 @@ msgstr "Zrušit výběr pouze zvýrazněného souboru"
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Zrušené balíčky se obvykle vyskytují, protože tyto balíčky nejsou kompatibilní s existujícími balíčky. I když je to většinou neškodné, je možné, že vaše %s %s může mít problémy."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Umístění vzdáleného záložního přijímače"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Umístění záložního tuneru pro ATSC"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Umístění záložního přijímače pro DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Umístění záložního přijímače pro DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr "Detail protokolu GStreamer."
@@ -7012,6 +7033,9 @@ msgstr "Povolit záložní vzdálený přijímač"
 msgid "Enable freesat EPG"
 msgstr "Povolit freesat EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Importovat časovače ze záložního tuneru"
+
 msgid "Enable intro screen"
 msgstr "Povolit úvodní obrazovku"
 
@@ -7203,6 +7227,9 @@ msgstr "Enter"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "Zadejte IP adresu DNS (dynamického jmenného serveru) %d."
+
+msgid "Enter IP address"
+msgstr "Zadejte IP adresu"
 
 msgid "Enter PIN"
 msgstr "Zadejte PIN"
@@ -7456,6 +7483,12 @@ msgstr "Text chyby:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Chyba při rozbalování obrazu '%s'!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Chyba, neznámý výsledek!"
@@ -7931,11 +7964,35 @@ msgstr "Selhalo:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falklandské ostrovy (Malvíny)"
 
+msgid "Fallback API did not return a valid result."
+msgstr "Záložní API nevrátilo platný výsledek."
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Záložní přijímač"
+
+msgid "Fallback remote receiver IP"
+msgstr "IP adresa záložního přijímače"
+
+msgid "Fallback remote receiver Port"
+msgstr "Port záložního přijímače"
+
 msgid "Fallback remote receiver URL"
 msgstr "URL záložního vzdáleného přijímače"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Záložní přijímač pro ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Záložní přijímač pro DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Záložní přijímač pro DVB-T"
+
+msgid "Fallback tuner setup"
+msgstr "Nastavení záložního tuneru"
 
 msgid "False"
 msgstr "Ne"
@@ -9198,6 +9255,9 @@ msgstr "IP adresa"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "IP adresa serveru Stream Relay používaného k dekódování služeb, které lze dešifrovat pouze prostřednictvím Stream Relay."
 
+msgid "IP of fallback remote receiver"
+msgstr "IP adresa vzdáleného záložního přijímače"
+
 msgid "IPK Installer"
 msgstr "IPK instalátor"
 
@@ -9435,6 +9495,21 @@ msgstr "Okamžitě ukončit průvodce (pouze režim ladění)"
 
 msgid "Immediately restart selected devices."
 msgstr "Okamžitě restartujte vybraná zařízení."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Ze záložního přijímače se importují programy a/nebo EPG také v případě probuzení z pohotovostního režimu"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Ze záložního přijímače se importují programy a/nebo EPG po spuštění přijímače"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Ze záložního přijímače se importují programy a/nebo EPG také v případě, že jsou přijímač nebo enigma2 zrestartovány"
+
+msgid "Import from remote receiver URL"
+msgstr "Importovat ze záložního přijímače"
+
+msgid "Import remote receiver URL"
+msgstr "Adresa vzdáleného přijímače pro import"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Opakovaně kontroluje omezení. Opakující se kontrola může být použita, ke kontrole 'Vyrovnávací paměťi [v hodinách]' nebo 'Volného místa' podle toho co je detekováno dříve."
@@ -10653,6 +10728,9 @@ msgstr "Udržujte své multibootovací zařízení."
 msgid "Make"
 msgstr "Provést"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Umožňuje ruční spuštění importu programů a/nebo EPG z nabídky rozšíření"
+
 msgid "Make this mark an 'in' point"
 msgstr "Udělat z této značky 'in' bod"
 
@@ -11817,9 +11895,6 @@ msgstr "Nenalezena žádná (podporovaná) DVDROM!"
 msgid "No Connection"
 msgstr "Žádné připojení"
 
-msgid "No Devices Found !!"
-msgstr "Nebyla nalezena žádná zařízení!!"
-
 msgid "No ECM PIDs available"
 msgstr "Žádné ECMPid nejsou k dispozici"
 
@@ -12444,11 +12519,17 @@ msgstr "Otevřít seznam programů a vybrat předchozí kanál pro PiP"
 msgid "Open the Channel Selection Settings screen"
 msgstr "Otevřít obrazovku Nastavení výběru kanálu"
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Prohlížeč pluginů"
 
 msgid "Open the Plugin Browser settings screen"
 msgstr "Otevřít obrazovku nastavení prohlížeče pluginů"
+
+msgid "Open the Storage Device information"
+msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Otevřete VirtualKeyBoard a zadejte text"
@@ -13375,6 +13456,9 @@ msgstr "Port D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Číslo portu pro server Stream Relay používané k dekódování služeb, které lze dešifrovat pouze prostřednictvím Stream Relay."
 
+msgid "Port of fallback remote receiver"
+msgstr "Port vzdáleného záložního přijímače"
+
 msgid "Portugal"
 msgstr "Portugalsko"
 
@@ -13917,6 +14001,9 @@ msgstr "Rychlé EPG"
 
 msgid "Quick Launch Menu"
 msgstr "Rychlé Menu"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Rychlé Menu..."
@@ -15044,6 +15131,9 @@ msgstr "Server Samba"
 
 msgid "Same as in active"
 msgstr "Stejně jako při zapnutém přijímači"
+
+msgid "Same as stream"
+msgstr "Stejná jako stream"
 
 msgid "Same behavior as current animation"
 msgstr "Stejné chování jako aktuální animace"
@@ -16216,6 +16306,9 @@ msgstr "Vyberte čas, kdy se tento časovač spustí."
 msgid "Select the time zone within the area or region."
 msgstr "Vybrat časové pásmo v oblasti nebo regionu."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Vybrat časovač ze záložního tuneru jako výchozí"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Vyberte tuner, který ovládá motorizovanou parabolu."
 
@@ -16595,6 +16688,9 @@ msgstr "Nastavení času"
 msgid "Set action for 'Info' key"
 msgstr "Nastavit akci pro klávesu „Info“"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Nastavení záložních tunerů pro DVB-T/C nebo ATSC"
+
 msgid "Set current CEC address as fixed address"
 msgstr "Nastavit aktuální CEC adresu jako pevnou adresu"
 
@@ -16632,6 +16728,9 @@ msgstr "Nastavit systém"
 msgid "Set the MAC address of your %s %s."
 msgstr "Nastavení MAC-Adresy pro Váš %s %s."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Nastavte uživatelské jméno pro OpenWebIf z Vašeho záložního tuneru."
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Nastavit poměr stran pikon programů."
 
@@ -16658,6 +16757,12 @@ msgstr "Nastavte velikost skoku lišty."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Nastavte počet řádků, které se mají uložit pro výstup 'stout' a 'stderr' ve skriptech."
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Nastavte heslo pro OpenWebIf z Vašeho záložního tuneru."
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Nastavte port pro OpenWebIf z Vašeho záložního tuneru."
 
 msgid "Set the position of the recording icons."
 msgstr "Nastavit polohu ikon nahrávání."
@@ -17457,6 +17562,18 @@ msgstr "Zobrazit další obrazovku servisních informací"
 
 msgid "Show next system information screen"
 msgstr "Zobrazit další obrazovku s informacemi o systému"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Zobrazí zprávu, jestliže import ze vzdáleného přijímače byl neúspěšný"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Zobrazí zprávu po úspěšném importu programů a/nebo EPG ze vzdáleného přijímače"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Zobrazit zprávu při neúspěšném importu"
+
+msgid "Show notification when import channels was successful"
+msgstr "Zobrazit zprávu při úspěšném importu"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Zobrazit/skrýt rozšířený popis, (závisí na vzhledu)."
@@ -20633,6 +20750,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr "URL"
 
+msgid "URL of fallback remote receiver"
+msgstr "URL pro záložní vzdálený přijímač"
+
 msgid "URL of fallback remote receiver."
 msgstr "URL adresa vzdáleného přijímače."
 
@@ -20694,6 +20814,9 @@ msgstr "Nešifrováno"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Neočekávaná chyba při přístupu k WebIF: %s"
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Neočekávaná chyba při načítání informací o časovači záložního tuneru."
 
 msgid "UnhandledKey"
 msgstr "Neošetřené tlačítko"
@@ -21194,6 +21317,9 @@ msgstr "Uživatelské přehledy"
 
 msgid "User Feed URL"
 msgstr "Adresa URL kanálu uživatele"
+
+msgid "User ID"
+msgstr "Uživatel"
 
 msgid "User comments"
 msgstr "Uživatelské komentáře"
@@ -21872,6 +21998,15 @@ msgstr "Pokud je tato funkce povolena, přijímač se po vypnutí televizoru aut
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Pokud je tato funkce povolena, přijímač se automaticky probudí z pohotovostního režimu při zapnutí televizoru."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Do přehledu časovačů jsou importovány časovače ze záložního tuneru"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Pokud je povoleno, časovač ze záložního tuneru je výchozí časovač."
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Můžete přizpůsobit nastavení OpenWebIf pro záložní tuner"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Při povolení budou přidávána AIT data do streamu. To umožní klientskému přijímači používat HbbTV."
@@ -23681,139 +23816,14 @@ msgstr "ano (uchovat zdroje)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Neočekávaná chyba při načítání informací o časovači záložního tuneru."
+#~ msgid "Backup done."
+#~ msgstr "Záloha je hotová."
 
-msgid "Fallback API did not return a valid result."
-msgstr "Záložní API nevrátilo platný výsledek."
+#~ msgid "Backup failed!"
+#~ msgstr "Zálohování se nezdařilo!"
 
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Nastavení záložního tuneru"
-
-msgid "Same as stream"
-msgstr "Stejná jako stream"
-
-msgid "Enter IP address"
-msgstr "Zadejte IP adresu"
-
-msgid "Import from remote receiver URL"
-msgstr "Importovat ze záložního přijímače"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Ze záložního přijímače se importují programy a/nebo EPG po spuštění přijímače"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Importovat časovače ze záložního tuneru"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Do přehledu časovačů jsou importovány časovače ze záložního tuneru"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Vybrat časovač ze záložního tuneru jako výchozí"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Pokud je povoleno, časovač ze záložního tuneru je výchozí časovač."
-
-msgid "Fallback remote receiver"
-msgstr "Záložní přijímač"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Umístění vzdáleného záložního přijímače"
-
-msgid "Fallback remote receiver IP"
-msgstr "IP adresa záložního přijímače"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP adresa vzdáleného záložního přijímače"
-
-msgid "Fallback remote receiver Port"
-msgstr "Port záložního přijímače"
-
-msgid "Port of fallback remote receiver"
-msgstr "Port vzdáleného záložního přijímače"
-
-msgid "URL of fallback remote receiver"
-msgstr "URL pro záložní vzdálený přijímač"
-
-msgid "Import remote receiver URL"
-msgstr "Adresa vzdáleného přijímače pro import"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importovat též při restartu přijímače/enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Ze záložního přijímače se importují programy a/nebo EPG také v případě, že jsou přijímač nebo enigma2 zrestartovány"
-
-msgid "Also import when box is leaving standby"
-msgstr "Importovat též při přechodu ze standby"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Ze záložního přijímače se importují programy a/nebo EPG také v případě probuzení z pohotovostního režimu"
-
-msgid "Also import from the extension menu"
-msgstr "Import z menu rozšíření"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Umožňuje ruční spuštění importu programů a/nebo EPG z nabídky rozšíření"
-
-msgid "Show notification when import channels was successful"
-msgstr "Zobrazit zprávu při úspěšném importu"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Zobrazí zprávu po úspěšném importu programů a/nebo EPG ze vzdáleného přijímače"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Zobrazit zprávu při neúspěšném importu"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Zobrazí zprávu, jestliže import ze vzdáleného přijímače byl neúspěšný"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Úprava nastavení OpenWebIf pro záložní tuner"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Můžete přizpůsobit nastavení OpenWebIf pro záložní tuner"
-
-msgid "User ID"
-msgstr "Uživatel"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Nastavte uživatelské jméno pro OpenWebIf z Vašeho záložního tuneru."
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Nastavte heslo pro OpenWebIf z Vašeho záložního tuneru."
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Nastavte port pro OpenWebIf z Vašeho záložního tuneru."
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alternativní záložní přijímače pro DVB-T/C nebo ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Nastavení záložních tunerů pro DVB-T/C nebo ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Záložní přijímač pro DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Umístění záložního přijímače pro DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Záložní přijímač pro DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Umístění záložního přijímače pro DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Záložní přijímač pro ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Umístění záložního tuneru pro ATSC"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Nebyla nalezena žádná zařízení!!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"

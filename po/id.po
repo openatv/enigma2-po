@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-01-13 10:34+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/id/>\n"
@@ -2403,6 +2403,15 @@ msgstr ""
 msgid "Alphanumeric"
 msgstr "Alphanumeric"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Impor juga saat reboot/restart enigma2"
+
+msgid "Also import from the extension menu"
+msgstr "Impor juga dari menu ekstensi"
+
+msgid "Also import when box is leaving standby"
+msgstr "Impor juga ketika Rx menuju standby"
+
 msgid "Also on standby"
 msgstr "Juga saat standby"
 
@@ -2419,6 +2428,9 @@ msgstr "Alternatif"
 
 msgid "Alternative Edit"
 msgstr "Alternative Edit"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alamat URL alternatif untuk DVB-T/C atau ATSC"
 
 msgid "Alternative numbering mode"
 msgstr "Mode penomoran alternatif"
@@ -3031,12 +3043,6 @@ msgstr "Backup Settings"
 
 msgid "Backup System Settings"
 msgstr "Backup System Settings"
-
-msgid "Backup done."
-msgstr "Backup done."
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr ""
@@ -5451,6 +5457,9 @@ msgstr "Custom skip time for '7'/'9' buttons"
 msgid "Customize"
 msgstr "Customize"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Sesuaikan pengaturan OpenWebIF untuk penala mundur"
+
 msgid "Customize System Settings"
 msgstr ""
 
@@ -6181,6 +6190,18 @@ msgstr ""
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr ""
+
+msgid "Destination of fallback remote receiver"
+msgstr "Alamat URL penggunaan rx dari jauh"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Alamat URL penggunaan rx dari jauh"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Alamat URL penggunaan rx dari jauh"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Alamat URL penggunaan rx dari jauh"
 
 msgid "Detail of GStreamer log."
 msgstr ""
@@ -7214,6 +7235,9 @@ msgstr "Enable fallback remote receiver"
 msgid "Enable freesat EPG"
 msgstr "Enable freesat EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr ""
+
 msgid "Enable intro screen"
 msgstr "Enable intro screen"
 
@@ -7405,6 +7429,9 @@ msgstr "center"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr ""
+
+msgid "Enter IP address"
+msgstr "IP address"
 
 msgid "Enter PIN"
 msgstr "Enter PIN"
@@ -7663,6 +7690,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -8139,11 +8172,35 @@ msgstr "Failed:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland Islands (Malvinas)"
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "URL penggunaan rx dari jauh"
+
+msgid "Fallback remote receiver IP"
+msgstr "URL penggunaan rx dari jauh"
+
+msgid "Fallback remote receiver Port"
+msgstr "URL penggunaan rx dari jauh"
+
 msgid "Fallback remote receiver URL"
 msgstr "Fallback remote receiver URL"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "URL penggunaan rx dari jauh"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "URL penggunaan rx dari jauh"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "URL penggunaan rx dari jauh"
+
+msgid "Fallback tuner setup"
+msgstr "URL penggunaan rx dari jauh"
 
 #, fuzzy
 msgid "False"
@@ -9459,6 +9516,9 @@ msgstr "IP address"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "IP Rx jauh terpakai"
+
 msgid "IPK Installer"
 msgstr "IPK Installer"
 
@@ -9701,6 +9761,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Impor kanal dan/atau EPG dari URL Rx jauh juga ketika Rx itu keluar dari posisi standby"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Impor kanal dan/atau EPG dari URL Rx jauh ketika Rx dihidupkan."
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Impor kanal dan/atau EPG dari URL Rx jauh ketika Rx atau enigma2 dimulai ulang"
+
+msgid "Import from remote receiver URL"
+msgstr "Impor dari URL Rx jauh"
+
+msgid "Import remote receiver URL"
+msgstr "Impor URL Rx jauh"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
@@ -10954,6 +11029,9 @@ msgstr ""
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Memungkinkan untuk secara manual mengawali impor kanal dan/atau EPG lewat menu ekstensi"
+
 msgid "Make this mark an 'in' point"
 msgstr "Make this mark an 'in' point"
 
@@ -12160,9 +12238,6 @@ msgstr "No (supported) DVDROM found!"
 msgid "No Connection"
 msgstr "No Connection"
 
-msgid "No Devices Found !!"
-msgstr "No Devices Found !!"
-
 #, fuzzy
 msgid "No ECM PIDs available"
 msgstr "No free index available"
@@ -12808,10 +12883,16 @@ msgstr "Open service list and select previous channel for PiP"
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Open the Plugin Browser"
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -13758,6 +13839,9 @@ msgstr "Port D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "Port receiver jauh yg digunakan"
+
 msgid "Portugal"
 msgstr "Portugal"
 
@@ -14318,6 +14402,9 @@ msgstr "QuickEPG mode"
 
 msgid "Quick Launch Menu"
 msgstr "Quick Launch Menu"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Quick Menu..."
@@ -15473,6 +15560,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr "Same as in active"
+
+msgid "Same as stream"
+msgstr "Hentikan pengecekan"
 
 #, fuzzy
 msgid "Same behavior as current animation"
@@ -16651,6 +16741,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr "Set the time to hide the infobar."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr ""
 
@@ -17038,6 +17131,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "Select action for timer %s:"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr ""
+
 msgid "Set current CEC address as fixed address"
 msgstr ""
 
@@ -17075,6 +17171,9 @@ msgstr "Set system"
 msgid "Set the MAC address of your %s %s."
 msgstr ""
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Atur ID Pengguna OpenWebif dari penala terpakai anda"
+
 #, fuzzy
 msgid "Set the aspect ratio of the service picons."
 msgstr "Configure the aspect ratio of the screen."
@@ -17102,6 +17201,12 @@ msgstr "Set the jump-size of the seekbar."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Atur katakunci OpenWebif dari penala terpakai anda"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Atur port OpenWebif dari penala terpakai anda"
 
 msgid "Set the position of the recording icons."
 msgstr "Set the position of the recording icons."
@@ -17915,6 +18020,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Tampilkan pemberitahuan saat impor kanal dan/atau EPG dari URL Rx jauh tidak selesai"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Tampilkan pemberitahuan saat impor kanal dan/atau EPG dari URL Rx jauh telah selesai"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Tampilkan pemberitahuan saat impor kanal tidak berhasil"
+
+msgid "Show notification when import channels was successful"
+msgstr "Tampilkan pemberitahuan saat impor kanal berhasil"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Show or hide the extended description, (skin dependent)."
@@ -21138,6 +21255,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr ""
 
+msgid "URL of fallback remote receiver"
+msgstr "Alamat URL rx jauh digunakan"
+
 msgid "URL of fallback remote receiver."
 msgstr "URL of fallback remote receiver."
 
@@ -21200,6 +21320,9 @@ msgstr "Unencrypted"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Kesalahan tak terduga saat mengambil informasi pewaktu penala digunakan"
 
 msgid "UnhandledKey"
 msgstr "UnhandledKey"
@@ -21701,6 +21824,9 @@ msgstr "User - Bouquets"
 
 msgid "User Feed URL"
 msgstr "User Feed URL"
+
+msgid "User ID"
+msgstr "ID Pengguna"
 
 msgid "User comments"
 msgstr ""
@@ -22368,6 +22494,15 @@ msgstr ""
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Ketika diaktifkan, anda bisa menyesuaikan setelan OpenWebif pada penala digunakan"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
@@ -24216,139 +24351,11 @@ msgstr "yes (keep feeds)"
 msgid "®"
 msgstr ""
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Kesalahan tak terduga saat mengambil informasi pewaktu penala digunakan"
+#~ msgid "Backup done."
+#~ msgstr "Backup done."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Same as stream"
-msgstr "Hentikan pengecekan"
-
-msgid "Enter IP address"
-msgstr "IP address"
-
-msgid "Import from remote receiver URL"
-msgstr "Impor dari URL Rx jauh"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Impor kanal dan/atau EPG dari URL Rx jauh ketika Rx dihidupkan."
-
-msgid "Enable import timer from fallback tuner"
-msgstr ""
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Ketika diaktifkan, pewaktu dari penala digunakan diimpor"
-
-msgid "Fallback remote receiver"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Alamat URL penggunaan rx dari jauh"
-
-msgid "Fallback remote receiver IP"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP Rx jauh terpakai"
-
-msgid "Fallback remote receiver Port"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Port of fallback remote receiver"
-msgstr "Port receiver jauh yg digunakan"
-
-msgid "URL of fallback remote receiver"
-msgstr "Alamat URL rx jauh digunakan"
-
-msgid "Import remote receiver URL"
-msgstr "Impor URL Rx jauh"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Impor juga saat reboot/restart enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Impor kanal dan/atau EPG dari URL Rx jauh ketika Rx atau enigma2 dimulai ulang"
-
-msgid "Also import when box is leaving standby"
-msgstr "Impor juga ketika Rx menuju standby"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Impor kanal dan/atau EPG dari URL Rx jauh juga ketika Rx itu keluar dari posisi standby"
-
-msgid "Also import from the extension menu"
-msgstr "Impor juga dari menu ekstensi"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Memungkinkan untuk secara manual mengawali impor kanal dan/atau EPG lewat menu ekstensi"
-
-msgid "Show notification when import channels was successful"
-msgstr "Tampilkan pemberitahuan saat impor kanal berhasil"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Tampilkan pemberitahuan saat impor kanal dan/atau EPG dari URL Rx jauh telah selesai"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Tampilkan pemberitahuan saat impor kanal tidak berhasil"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Tampilkan pemberitahuan saat impor kanal dan/atau EPG dari URL Rx jauh tidak selesai"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Sesuaikan pengaturan OpenWebIF untuk penala mundur"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Ketika diaktifkan, anda bisa menyesuaikan setelan OpenWebif pada penala digunakan"
-
-msgid "User ID"
-msgstr "ID Pengguna"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Atur ID Pengguna OpenWebif dari penala terpakai anda"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Atur katakunci OpenWebif dari penala terpakai anda"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Atur port OpenWebif dari penala terpakai anda"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alamat URL alternatif untuk DVB-T/C atau ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Alamat URL penggunaan rx dari jauh"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Alamat URL penggunaan rx dari jauh"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "URL penggunaan rx dari jauh"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Alamat URL penggunaan rx dari jauh"
+#~ msgid "No Devices Found !!"
+#~ msgstr "No Devices Found !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
