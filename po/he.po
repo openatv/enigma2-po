@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/he/>\n"
@@ -2378,6 +2378,15 @@ msgstr ""
 msgid "Alphanumeric"
 msgstr ""
 
+msgid "Also import at reboot/restart enigma2"
+msgstr ""
+
+msgid "Also import from the extension menu"
+msgstr ""
+
+msgid "Also import when box is leaving standby"
+msgstr ""
+
 msgid "Also on standby"
 msgstr ""
 
@@ -2395,6 +2404,9 @@ msgstr "Add Alternatives"
 
 msgid "Alternative Edit"
 msgstr "Alternative Edit"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr ""
 
 msgid "Alternative numbering mode"
 msgstr ""
@@ -3015,12 +3027,6 @@ msgstr ""
 
 msgid "Backup System Settings"
 msgstr "גיבוי הגדרות מערכת"
-
-msgid "Backup done."
-msgstr ""
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr ""
@@ -5487,6 +5493,9 @@ msgstr ""
 msgid "Customize"
 msgstr "התאמה אישית"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
+
 msgid "Customize System Settings"
 msgstr ""
 
@@ -6235,6 +6244,18 @@ msgstr ""
 
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
+
+msgid "Destination of fallback remote receiver"
+msgstr ""
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr ""
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr ""
+
+msgid "Destination of fallback remote receiver for DVB-T"
 msgstr ""
 
 msgid "Detail of GStreamer log."
@@ -7285,6 +7306,9 @@ msgstr ""
 msgid "Enable freesat EPG"
 msgstr ""
 
+msgid "Enable import timer from fallback tuner"
+msgstr ""
+
 msgid "Enable intro screen"
 msgstr ""
 
@@ -7488,6 +7512,9 @@ msgstr " פנימי Flash"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr ""
+
+msgid "Enter IP address"
+msgstr "IP כתובת"
 
 msgid "Enter PIN"
 msgstr ""
@@ -7731,6 +7758,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -8219,10 +8252,34 @@ msgstr "נכשל"
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr ""
+
+msgid "Fallback remote receiver IP"
+msgstr ""
+
+msgid "Fallback remote receiver Port"
+msgstr ""
+
 msgid "Fallback remote receiver URL"
+msgstr ""
+
+msgid "Fallback remote receiver for ATSC"
+msgstr ""
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr ""
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr ""
+
+msgid "Fallback tuner setup"
 msgstr ""
 
 msgid "False"
@@ -9561,6 +9618,9 @@ msgstr "IP כתובת"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr ""
+
 msgid "IPK Installer"
 msgstr ""
 
@@ -9804,6 +9864,21 @@ msgid "Immediately exit the wizard (Debug mode only)"
 msgstr ""
 
 msgid "Immediately restart selected devices."
+msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr ""
+
+msgid "Import from remote receiver URL"
+msgstr ""
+
+msgid "Import remote receiver URL"
 msgstr ""
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
@@ -11122,6 +11197,9 @@ msgstr ""
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr ""
+
 #
 msgid "Make this mark an 'in' point"
 msgstr ""
@@ -12373,9 +12451,6 @@ msgstr ""
 msgid "No Connection"
 msgstr "אין חיבור"
 
-msgid "No Devices Found !!"
-msgstr ""
-
 #
 #, fuzzy
 msgid "No ECM PIDs available"
@@ -13048,10 +13123,16 @@ msgstr ""
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr ""
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -14027,6 +14108,9 @@ msgstr "Port D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Portugal"
@@ -14606,6 +14690,9 @@ msgid "Quick EPG"
 msgstr "מהיר"
 
 msgid "Quick Launch Menu"
+msgstr ""
+
+msgid "Quick Menu Actions"
 msgstr ""
 
 msgid "Quick Menu..."
@@ -15796,6 +15883,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr ""
+
+msgid "Same as stream"
+msgstr "עצור בדיקה"
 
 msgid "Same behavior as current animation"
 msgstr ""
@@ -17005,6 +17095,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr ""
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "select the movie path"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr ""
 
@@ -17387,6 +17480,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "בחר קבצי גיבוי"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr ""
+
 msgid "Set current CEC address as fixed address"
 msgstr ""
 
@@ -17428,6 +17524,9 @@ msgstr ""
 msgid "Set the MAC address of your %s %s."
 msgstr "של הדרימבוקס Nameserver ערוך את הגדרות "
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the aspect ratio of the service picons."
 msgstr ""
 
@@ -17453,6 +17552,12 @@ msgid "Set the jump-size of the seekbar."
 msgstr ""
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr ""
 
 msgid "Set the position of the recording icons."
@@ -18286,6 +18391,18 @@ msgid "Show next service information screen"
 msgstr ""
 
 msgid "Show next system information screen"
+msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr ""
+
+msgid "Show notification when import channels was not successful"
+msgstr ""
+
+msgid "Show notification when import channels was successful"
 msgstr ""
 
 msgid "Show or hide the extended description, (skin dependent)."
@@ -21618,6 +21735,9 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+msgid "URL of fallback remote receiver"
+msgstr ""
+
 msgid "URL of fallback remote receiver."
 msgstr ""
 
@@ -21681,6 +21801,9 @@ msgstr ""
 
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
+msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
 msgstr ""
 
 msgid "UnhandledKey"
@@ -22192,6 +22315,9 @@ msgstr ""
 
 msgid "User Feed URL"
 msgstr ""
+
+msgid "User ID"
+msgstr "User defined"
 
 msgid "User comments"
 msgstr ""
@@ -22882,6 +23008,15 @@ msgid "When enabled the receiver will automatically return to standby when the T
 msgstr ""
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
+msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr ""
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
 msgstr ""
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
@@ -24731,140 +24866,6 @@ msgid "yes (keep feeds)"
 msgstr "כן (שמור פידים)"
 
 msgid "®"
-msgstr ""
-
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr ""
-
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr ""
-
-msgid "Same as stream"
-msgstr "עצור בדיקה"
-
-msgid "Enter IP address"
-msgstr "IP כתובת"
-
-msgid "Import from remote receiver URL"
-msgstr ""
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr ""
-
-msgid "Enable import timer from fallback tuner"
-msgstr ""
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr ""
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "select the movie path"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr ""
-
-msgid "Fallback remote receiver"
-msgstr ""
-
-msgid "Destination of fallback remote receiver"
-msgstr ""
-
-msgid "Fallback remote receiver IP"
-msgstr ""
-
-msgid "IP of fallback remote receiver"
-msgstr ""
-
-msgid "Fallback remote receiver Port"
-msgstr ""
-
-msgid "Port of fallback remote receiver"
-msgstr ""
-
-msgid "URL of fallback remote receiver"
-msgstr ""
-
-msgid "Import remote receiver URL"
-msgstr ""
-
-msgid "Also import at reboot/restart enigma2"
-msgstr ""
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr ""
-
-msgid "Also import when box is leaving standby"
-msgstr ""
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr ""
-
-msgid "Also import from the extension menu"
-msgstr ""
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr ""
-
-msgid "Show notification when import channels was successful"
-msgstr ""
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr ""
-
-msgid "Show notification when import channels was not successful"
-msgstr ""
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr ""
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr ""
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr ""
-
-msgid "User ID"
-msgstr "User defined"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr ""
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr ""
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr ""
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr ""
-
-msgid "Fallback remote receiver for ATSC"
-msgstr ""
-
-msgid "Destination of fallback remote receiver for ATSC"
 msgstr ""
 
 #, fuzzy
