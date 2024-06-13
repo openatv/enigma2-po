@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2023-08-06 06:22+0000\n"
 "Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/bg/>\n"
@@ -2243,6 +2243,15 @@ msgstr "По азбучен ред под заглавията"
 msgid "Alphanumeric"
 msgstr "Буквено-цифров"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Импортиране при рестарт на приемника/enigma2"
+
+msgid "Also import from the extension menu"
+msgstr "Добави импортиране в менюто с разширенията"
+
+msgid "Also import when box is leaving standby"
+msgstr "Импортиране при изход от режим готовност"
+
 msgid "Also on standby"
 msgstr "Също в режим на готовност"
 
@@ -2257,6 +2266,9 @@ msgstr "Алтернативен 2"
 
 msgid "Alternative Edit"
 msgstr "[алтернативно редактиране]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Алтернативен URL за DVB-T/C или ATSC"
 
 msgid "Alternative numbering mode"
 msgstr "Алтернативен режим на номериране"
@@ -2853,12 +2865,6 @@ msgstr "Архивиране насройки"
 
 msgid "Backup System Settings"
 msgstr "Архивиране на системни настройки"
-
-msgid "Backup done."
-msgstr "Архивиране направено."
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr ""
@@ -5233,6 +5239,9 @@ msgstr "Персонализирано време за прескачане на
 msgid "Customize"
 msgstr "Персонализиране"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Настройка на OpenWebIF за резервния тунер"
+
 msgid "Customize System Settings"
 msgstr "Персонализирайте системните настройки"
 
@@ -5952,6 +5961,18 @@ msgstr ""
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Премахнатите от избора пакети обикновено се появяват, защото тези пакетирани са несъвместими със съществуващите пакети. Въпреки че това е почти безвредно, възможно е вашият %s %s да има проблеми."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Въведете URL на резервния приемник"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Въведете URL на резервния приемник за ARSC"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Въведете URL на резервния приемник за DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Въведете URL на резервния приемник за DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr "Подробности от дневника на GStreamer"
@@ -6968,6 +6989,9 @@ msgstr "Разрешаване на резервния дистанционен 
 msgid "Enable freesat EPG"
 msgstr "Разрешаване на freesat EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Активиране импорт на таймери от резервен тунер"
+
 msgid "Enable intro screen"
 msgstr "Разрешаване на интро екран"
 
@@ -7157,6 +7181,9 @@ msgstr "Въведете"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "Въведете IP адреса на DNS (сървър за динамични имена) %d."
+
+msgid "Enter IP address"
+msgstr "Въведете IP адрес"
 
 msgid "Enter PIN"
 msgstr "Въведете PIN"
@@ -7407,6 +7434,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -7883,11 +7916,35 @@ msgstr "Неуспешно:"
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Резервен отдалечен приемник"
+
+msgid "Fallback remote receiver IP"
+msgstr "IP на резервния приемник"
+
+msgid "Fallback remote receiver Port"
+msgstr "Порт на резервен отдалечен приемник"
+
 msgid "Fallback remote receiver URL"
 msgstr "URL адреса на отдалечения приемник"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Резервен отдалечен приемник за ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Резервен отдалечен приемник за DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Резервен отдалечен приемник за DVB-T"
+
+msgid "Fallback tuner setup"
+msgstr "Настройки на резервен тунер"
 
 msgid "False"
 msgstr "Невярно"
@@ -9150,6 +9207,9 @@ msgstr "IP адрес"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "IP на резервния отдалечен приемник"
+
 msgid "IPK Installer"
 msgstr "IPK инсталатор"
 
@@ -9384,6 +9444,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr "Незабавно рестартирайте избраните устройства."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Импортиране на канали/EPG от резервния приемник при изход от режим готовност"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Импортиране на канали и/или EPG от резервния приемник при старт на приемника"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Импортиране на канали и/или EPG от резервния приемник при рестарт на приемника или enigma2"
+
+msgid "Import from remote receiver URL"
+msgstr "Импортиране от URL на резервния приемник"
+
+msgid "Import remote receiver URL"
+msgstr "Импорт от URL на резервния приемник"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "В допълнение към проверката при стартиране на събитие може да се използва повтаряща се проверка, за да се открият по-рано условията за \"ограничаване на буфера в часове\" или \"проверка на свободното място\"."
@@ -10600,6 +10675,9 @@ msgstr "Поддържайте вашето устройство за много
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Добави импортиране в менюто с разширенията"
+
 msgid "Make this mark an 'in' point"
 msgstr "Направи тази маркировка за 'в' точка"
 
@@ -11761,9 +11839,6 @@ msgstr "Не (поддържа) намерен DVDROM!"
 msgid "No Connection"
 msgstr "Няма връзка"
 
-msgid "No Devices Found !!"
-msgstr "Не са намерени устройства !!"
-
 msgid "No ECM PIDs available"
 msgstr "Няма налични ECMPids"
 
@@ -12388,10 +12463,16 @@ msgstr "Отворете сервизния списък и изберете п�
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Отворете браузъра на плъгини"
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -13314,6 +13395,9 @@ msgstr "Порт D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "Порт на резервния отдалечен приемник"
+
 msgid "Portugal"
 msgstr ""
 
@@ -13856,6 +13940,9 @@ msgstr "Бързо EPG"
 
 msgid "Quick Launch Menu"
 msgstr "Бързо стартиращо меню"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Бързо меню..."
@@ -14983,6 +15070,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr "Също като в активна"
+
+msgid "Same as stream"
+msgstr "Също като стрий"
 
 msgid "Same behavior as current animation"
 msgstr "Същото поведение като текущата анимация"
@@ -16151,6 +16241,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr "Изберете часовата зона в областта или региона."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Изберете таймера от резервния тунер по подразбиране"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Изберете тунера, който управлява моторизираната чиния."
 
@@ -16527,6 +16620,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "Задайте действие за клавиша „Информация“"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Задаване на допълнителни резервни тунери за DVB-T/C или ATSC"
+
 msgid "Set current CEC address as fixed address"
 msgstr "Задайте текущия CEC адрес като фиксиран адрес"
 
@@ -16564,6 +16660,9 @@ msgstr "Задайте система"
 msgid "Set the MAC address of your %s %s."
 msgstr "Задайте MAC-адреса на вашия %s %s."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Задайте потребителското име на OpenWebif от своя резервен тунер"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Задайте съотношението на иконите за услуги."
 
@@ -16590,6 +16689,12 @@ msgstr "Задайте размера на скока на seekbar."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Задайте паролата на OpenWebif от вашия резервен тунер"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Задайте порта на OpenWebif от вашия резервен тунер"
 
 msgid "Set the position of the recording icons."
 msgstr "Задайте позицията на иконите за запис"
@@ -17383,6 +17488,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Покажи известие когато импортирането на канали/EPG от URL на резервния приемник не завърши"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Покажи известие когато импортирането на канали/EPG от URL на резервния приемник завърши"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Покажи известие когато импортирането на канали не е успешно"
+
+msgid "Show notification when import channels was successful"
+msgstr "Покажи известие когато импортирането на канали завърши успешно"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Показване или скриване на удължено описание, (зависимо от кожата)."
@@ -20522,6 +20639,9 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+msgid "URL of fallback remote receiver"
+msgstr "Въведете URL на резервния приемник"
+
 msgid "URL of fallback remote receiver."
 msgstr "URL на резервния отдалечен приемник"
 
@@ -20582,6 +20702,9 @@ msgstr "Нешифрован"
 
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
+msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
 msgstr ""
 
 msgid "UnhandledKey"
@@ -21080,6 +21203,9 @@ msgstr "Потребителски - букети"
 
 msgid "User Feed URL"
 msgstr ""
+
+msgid "User ID"
+msgstr "Потребителско Име"
 
 msgid "User comments"
 msgstr ""
@@ -21724,6 +21850,15 @@ msgstr "Когато е активиран, приемникът автомат�
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Когато е активиран, приемникът автоматично ще се събужда от режим на готовност, когато телевизорът е включен."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Ако е включено, таймерът от резервния тунер се импортира"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Ако е включено, таймерът от резервния тунер е по подразбиране"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Ако е включено, можете да персонализирате настройките на OpenWebIf за резервния тунер"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Когато е разрешено, данните за AIT ще бъдат включени в http потоци. Това позволява на клиентския приемник да използва HbbTV."
@@ -23529,139 +23664,11 @@ msgstr "да (запази фийдове)"
 msgid "®"
 msgstr ""
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr ""
+#~ msgid "Backup done."
+#~ msgstr "Архивиране направено."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Настройки на резервен тунер"
-
-msgid "Same as stream"
-msgstr "Също като стрий"
-
-msgid "Enter IP address"
-msgstr "Въведете IP адрес"
-
-msgid "Import from remote receiver URL"
-msgstr "Импортиране от URL на резервния приемник"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Импортиране на канали и/или EPG от резервния приемник при старт на приемника"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Активиране импорт на таймери от резервен тунер"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Ако е включено, таймерът от резервния тунер се импортира"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Изберете таймера от резервния тунер по подразбиране"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Ако е включено, таймерът от резервния тунер е по подразбиране"
-
-msgid "Fallback remote receiver"
-msgstr "Резервен отдалечен приемник"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Въведете URL на резервния приемник"
-
-msgid "Fallback remote receiver IP"
-msgstr "IP на резервния приемник"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP на резервния отдалечен приемник"
-
-msgid "Fallback remote receiver Port"
-msgstr "Порт на резервен отдалечен приемник"
-
-msgid "Port of fallback remote receiver"
-msgstr "Порт на резервния отдалечен приемник"
-
-msgid "URL of fallback remote receiver"
-msgstr "Въведете URL на резервния приемник"
-
-msgid "Import remote receiver URL"
-msgstr "Импорт от URL на резервния приемник"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Импортиране при рестарт на приемника/enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Импортиране на канали и/или EPG от резервния приемник при рестарт на приемника или enigma2"
-
-msgid "Also import when box is leaving standby"
-msgstr "Импортиране при изход от режим готовност"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Импортиране на канали/EPG от резервния приемник при изход от режим готовност"
-
-msgid "Also import from the extension menu"
-msgstr "Добави импортиране в менюто с разширенията"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Добави импортиране в менюто с разширенията"
-
-msgid "Show notification when import channels was successful"
-msgstr "Покажи известие когато импортирането на канали завърши успешно"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Покажи известие когато импортирането на канали/EPG от URL на резервния приемник завърши"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Покажи известие когато импортирането на канали не е успешно"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Покажи известие когато импортирането на канали/EPG от URL на резервния приемник не завърши"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Настройка на OpenWebIF за резервния тунер"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Ако е включено, можете да персонализирате настройките на OpenWebIf за резервния тунер"
-
-msgid "User ID"
-msgstr "Потребителско Име"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Задайте потребителското име на OpenWebif от своя резервен тунер"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Задайте паролата на OpenWebif от вашия резервен тунер"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Задайте порта на OpenWebif от вашия резервен тунер"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Алтернативен URL за DVB-T/C или ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Задаване на допълнителни резервни тунери за DVB-T/C или ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Резервен отдалечен приемник за DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Въведете URL на резервния приемник за DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Резервен отдалечен приемник за DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Въведете URL на резервния приемник за DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Резервен отдалечен приемник за ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Въведете URL на резервния приемник за ARSC"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Не са намерени устройства !!"
 
 #~ msgid "Backup completed."
 #~ msgstr "Архивирането завърши."
