@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-05-26 14:09+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -2276,6 +2276,15 @@ msgstr "В алфавитном порядке по рубрикам"
 msgid "Alphanumeric"
 msgstr "По алфавиту"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Импорт при перезагрузке ресивера/рестарт enigma2"
+
+msgid "Also import from the extension menu"
+msgstr "Добавить импорт в меню дополнений"
+
+msgid "Also import when box is leaving standby"
+msgstr "Импорт при выходе из режима ожидания"
+
 msgid "Also on standby"
 msgstr "Также и в режиме ожидания"
 
@@ -2290,6 +2299,9 @@ msgstr "Альтернатива 2"
 
 msgid "Alternative Edit"
 msgstr "[Альтернативное редактирование]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Альтернативные URL для DVB-T/C или ATSC"
 
 msgid "Alternative numbering mode"
 msgstr "Альтернативный режим нумерации"
@@ -2886,12 +2898,6 @@ msgstr "Сохранить настройки"
 
 msgid "Backup System Settings"
 msgstr "Сохранение настроек системы"
-
-msgid "Backup done."
-msgstr "Копирование завершено."
-
-msgid "Backup failed!"
-msgstr "Резервное копирование не удалось!"
 
 msgid "Backup images"
 msgstr "Бекап имиджей"
@@ -5277,6 +5283,9 @@ msgstr "Время пропуска для кнопок '7'/'9'"
 msgid "Customize"
 msgstr "Доп. настройки"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Настройте параметры OpenWebIF для резервного тюнера"
+
 msgid "Customize System Settings"
 msgstr "Настройки параметров системы"
 
@@ -5996,6 +6005,18 @@ msgstr "Отменить выбор только выделенного файл
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Невыбранные пакеты обычно возникают из-за того, что эти пакеты несовместимы с существующими пакетами. Хотя это в основном безвредно, возможно, что у Вашего %s %s могут возникнуть проблемы."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Назначение запасного удаленного ресивера"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Назначение запасного удаленного ресивера для ATSC"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Назначение запасного удаленного ресивера для DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Назначение запасного удаленного ресивера для DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr "Деталь лога GStreamer"
@@ -7015,6 +7036,9 @@ msgstr "Включить резервный удалённый ресивер"
 msgid "Enable freesat EPG"
 msgstr "Включить ТВ-гид FreeSat"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Включить импорт таймеров из резервного ресивера"
+
 msgid "Enable intro screen"
 msgstr "Включить экран приветствия"
 
@@ -7206,6 +7230,9 @@ msgstr "Ввод"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "Введите IP-адрес DNS (сервер динамических имён) %d's."
+
+msgid "Enter IP address"
+msgstr "Ввод IP-адреса"
 
 msgid "Enter PIN"
 msgstr "Введите PIN-код"
@@ -7459,6 +7486,12 @@ msgstr "Текст ошибки:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Ошибка при распаковке имиджа '%s'!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Ошибка, неизвестный результат!"
@@ -7934,11 +7967,35 @@ msgstr "Не удалось:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Фолклендские (Мальвинские) острова"
 
+msgid "Fallback API did not return a valid result."
+msgstr "Резервный API не вернул допустимый результат."
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Резервный удаленный ресивер"
+
+msgid "Fallback remote receiver IP"
+msgstr "IP резервного удаленного ресивера"
+
+msgid "Fallback remote receiver Port"
+msgstr "Порт резервного удаленного ресивера"
+
 msgid "Fallback remote receiver URL"
 msgstr "URL резервного удалённого ресивера"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Резервный удаленный ресивер для ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Резервный удаленный ресивер для DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Резервный удаленный ресивер для DVB-T"
+
+msgid "Fallback tuner setup"
+msgstr "Настройки удаленного резервного ресивера"
 
 msgid "False"
 msgstr "Нет"
@@ -9201,6 +9258,9 @@ msgstr "IP-адрес"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "IP-адрес сервера Stream Relay, используемый для дешифрования служб, которые можно расшифровать только через Stream Relay."
 
+msgid "IP of fallback remote receiver"
+msgstr "IP запасного удаленного ресивера"
+
 msgid "IPK Installer"
 msgstr "Установщик IPK"
 
@@ -9438,6 +9498,21 @@ msgstr "Немедленно выйти из мастера (только в р�
 
 msgid "Immediately restart selected devices."
 msgstr "Немедленно перезапустите выбранные устройства."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Импортировать каналы/EPG при выходе из режима ожидания"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Импортировать каналы и/или EPG из удаленного ресивера при загрузке ресивера"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Импортировать каналы/EPG после рестарта enigma2"
+
+msgid "Import from remote receiver URL"
+msgstr "Импорт из URL удаленного ресивера"
+
+msgid "Import remote receiver URL"
+msgstr "Импорт с удаленного ресивера URL"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Кроме проверки при начале передач, будет использована дополнительная проверка по вышеприведённым условиям."
@@ -10656,6 +10731,9 @@ msgstr "Поддерживать мультизагрузочное устрой
 msgid "Make"
 msgstr "Модель"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Добавить импорт в меню дополнений"
+
 msgid "Make this mark an 'in' point"
 msgstr "Отметить эту точку как 'Начало'"
 
@@ -11820,9 +11898,6 @@ msgstr "Не найден (Поддерживаемый) DVDROM!"
 msgid "No Connection"
 msgstr "Нет подключения"
 
-msgid "No Devices Found !!"
-msgstr "Устройств не найдено!"
-
 msgid "No ECM PIDs available"
 msgstr "Нет доступных ECMPid"
 
@@ -12447,11 +12522,17 @@ msgstr "Открыть в списке каналов предыдущий ка�
 msgid "Open the Channel Selection Settings screen"
 msgstr "Открыть экран настроек выбора каналов"
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Открыть меню плагинов"
 
 msgid "Open the Plugin Browser settings screen"
 msgstr "Откройте экран настроек браузера плагинов"
+
+msgid "Open the Storage Device information"
+msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Откройте виртуальную клавиатуру для ввода текста"
@@ -13378,6 +13459,9 @@ msgstr "Порт D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Номер порта сервера Stream Relay, используемый для дешифрования служб, которые можно расшифровать только через Stream Relay."
 
+msgid "Port of fallback remote receiver"
+msgstr "Порт запасного удаленного ресивера"
+
 msgid "Portugal"
 msgstr "Португалия"
 
@@ -13920,6 +14004,9 @@ msgstr "Режим быстрый ТВ-гид"
 
 msgid "Quick Launch Menu"
 msgstr "Быстрое меню"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Быстрое меню..."
@@ -15047,6 +15134,9 @@ msgstr "Самба-сервер"
 
 msgid "Same as in active"
 msgstr "То же, что при активности"
+
+msgid "Same as stream"
+msgstr "Так же как стрим"
 
 msgid "Same behavior as current animation"
 msgstr "То же поведение, что и у текущей анимации"
@@ -16219,6 +16309,9 @@ msgstr "Выберите время запуска этого таймера."
 msgid "Select the time zone within the area or region."
 msgstr "Выберите часовой пояс в пределах области или региона."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Выбор таймера из резервного ресивера по умолчанию"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Выберите тюнер, управляющий моторизованной антенной."
 
@@ -16598,6 +16691,9 @@ msgstr "Установить время"
 msgid "Set action for 'Info' key"
 msgstr "Установить действие для кнопки 'ИНФО'"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Установите резервный удаленный ресивер для DVB-T/C или ATSC"
+
 msgid "Set current CEC address as fixed address"
 msgstr "Выберите время задержки между каждым повторением кнопки"
 
@@ -16635,6 +16731,9 @@ msgstr "Настройка системы"
 msgid "Set the MAC address of your %s %s."
 msgstr "Назначение MAC-адреса для Вашего %s %s."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Установить ID пользователя OpenWebif из вашего резервного ресивера"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Настройка соотношения сторон пиконов каналов."
 
@@ -16661,6 +16760,12 @@ msgstr "Установите размер перехода полосы поис
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Установите количество строк, которые будут сохранены для вывода 'stout' и 'stderr' в скриптах."
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Установить пароль OpenWebif из вашего резервного ресивера"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Установить порт OpenWebif из вашего резервного ресивера"
 
 msgid "Set the position of the recording icons."
 msgstr "Задайте расположение иконок записи."
@@ -17460,6 +17565,18 @@ msgstr "Показать экран информации о следующем �
 
 msgid "Show next system information screen"
 msgstr "Показать следующий экран информации о системе"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL не завершен"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL завершен"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Показывать уведомление, когда импорт каналов не удался"
+
+msgid "Show notification when import channels was successful"
+msgstr "Показывать уведомление, когда импорт каналов удался"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Показать или скрыть расширенное описание, если скин поддерживает."
@@ -20636,6 +20753,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr "URL-адрес"
 
+msgid "URL of fallback remote receiver"
+msgstr "Впишите URL запасного удаленного ресивера"
+
 msgid "URL of fallback remote receiver."
 msgstr "URL-адрес удалённого резервного ресивера"
 
@@ -20697,6 +20817,9 @@ msgstr "Декодирован"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Непредвиденная ошибка доступа к WebIF: %s"
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Непредвиденная ошибка при получении информации таймеров зпасного ресивера"
 
 msgid "UnhandledKey"
 msgstr "Неиспользуемая кнопка"
@@ -21197,6 +21320,9 @@ msgstr "Фавориты"
 
 msgid "User Feed URL"
 msgstr "Адрес фида пользователя"
+
+msgid "User ID"
+msgstr "Пользовательский ID"
 
 msgid "User comments"
 msgstr "Комментарии пользователей"
@@ -21875,6 +22001,15 @@ msgstr "При включении ресивер автоматически ве
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "При включении ресивер автоматически выходит из режима ожидания при включении телевизора."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "При включении, таймеры из резервного ресивера будут импортированы"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Если этот параметр включен, таймер резервного ресивера является дефолтным таймером."
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Если включено, то Вы можете настроить параметры OpenWebIf из резервного ресивера"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Если задействовано, AIT данные будут включены в HTTP-потоки. Это позволит ресиверу клиента использовать HbbTV."
@@ -23684,139 +23819,14 @@ msgstr "Да (оставить фиды)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Непредвиденная ошибка при получении информации таймеров зпасного ресивера"
+#~ msgid "Backup done."
+#~ msgstr "Копирование завершено."
 
-msgid "Fallback API did not return a valid result."
-msgstr "Резервный API не вернул допустимый результат."
+#~ msgid "Backup failed!"
+#~ msgstr "Резервное копирование не удалось!"
 
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Настройки удаленного резервного ресивера"
-
-msgid "Same as stream"
-msgstr "Так же как стрим"
-
-msgid "Enter IP address"
-msgstr "Ввод IP-адреса"
-
-msgid "Import from remote receiver URL"
-msgstr "Импорт из URL удаленного ресивера"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Импортировать каналы и/или EPG из удаленного ресивера при загрузке ресивера"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Включить импорт таймеров из резервного ресивера"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "При включении, таймеры из резервного ресивера будут импортированы"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Выбор таймера из резервного ресивера по умолчанию"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Если этот параметр включен, таймер резервного ресивера является дефолтным таймером."
-
-msgid "Fallback remote receiver"
-msgstr "Резервный удаленный ресивер"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Назначение запасного удаленного ресивера"
-
-msgid "Fallback remote receiver IP"
-msgstr "IP резервного удаленного ресивера"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP запасного удаленного ресивера"
-
-msgid "Fallback remote receiver Port"
-msgstr "Порт резервного удаленного ресивера"
-
-msgid "Port of fallback remote receiver"
-msgstr "Порт запасного удаленного ресивера"
-
-msgid "URL of fallback remote receiver"
-msgstr "Впишите URL запасного удаленного ресивера"
-
-msgid "Import remote receiver URL"
-msgstr "Импорт с удаленного ресивера URL"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Импорт при перезагрузке ресивера/рестарт enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Импортировать каналы/EPG после рестарта enigma2"
-
-msgid "Also import when box is leaving standby"
-msgstr "Импорт при выходе из режима ожидания"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Импортировать каналы/EPG при выходе из режима ожидания"
-
-msgid "Also import from the extension menu"
-msgstr "Добавить импорт в меню дополнений"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Добавить импорт в меню дополнений"
-
-msgid "Show notification when import channels was successful"
-msgstr "Показывать уведомление, когда импорт каналов удался"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL завершен"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Показывать уведомление, когда импорт каналов не удался"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL не завершен"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Настройте параметры OpenWebIF для резервного тюнера"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Если включено, то Вы можете настроить параметры OpenWebIf из резервного ресивера"
-
-msgid "User ID"
-msgstr "Пользовательский ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Установить ID пользователя OpenWebif из вашего резервного ресивера"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Установить пароль OpenWebif из вашего резервного ресивера"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Установить порт OpenWebif из вашего резервного ресивера"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Альтернативные URL для DVB-T/C или ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Установите резервный удаленный ресивер для DVB-T/C или ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Резервный удаленный ресивер для DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Назначение запасного удаленного ресивера для DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Резервный удаленный ресивер для DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Назначение запасного удаленного ресивера для DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Резервный удаленный ресивер для ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Назначение запасного удаленного ресивера для ATSC"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Устройств не найдено!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
