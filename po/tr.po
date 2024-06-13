@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-06-12 07:25+0000\n"
 "Last-Translator: DreamOSat Forum <info@dreamosat-forum.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -2310,6 +2310,15 @@ msgstr "Başlık altında alfabetik sıralı"
 msgid "Alphanumeric"
 msgstr "Alfanümerik"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr ""
+
+msgid "Also import from the extension menu"
+msgstr "Eklenti menüsünde göster"
+
+msgid "Also import when box is leaving standby"
+msgstr ""
+
 msgid "Also on standby"
 msgstr "Ayrıca beklemede"
 
@@ -2328,6 +2337,9 @@ msgstr "Alternatif 2"
 #
 msgid "Alternative Edit"
 msgstr "[alternatif düzenle]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr ""
 
 msgid "Alternative numbering mode"
 msgstr "Alternatif numaralama kipi"
@@ -2953,12 +2965,6 @@ msgstr "Yedekleme Ayarları"
 #
 msgid "Backup System Settings"
 msgstr "Sistem ayarlarını yedekle"
-
-msgid "Backup done."
-msgstr "Yedekleme bitti."
-
-msgid "Backup failed!"
-msgstr "Yedekleme başarısız!"
 
 msgid "Backup images"
 msgstr "Yedek görüntüler"
@@ -5443,6 +5449,9 @@ msgstr "'7'/'9' tuşlarında atlanılacak süre"
 msgid "Customize"
 msgstr "Özelleştir"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
+
 msgid "Customize System Settings"
 msgstr "Sistem Ayarlarını Özelleştirin"
 
@@ -6191,6 +6200,18 @@ msgstr "Yalnızca vurgulanan dosyanın seçimini kaldır"
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Seçimi kaldırılan paketler genellikle, paketlenenler mevcut paketlerle uyumlu olmadığı için oluşur. Bu çoğunlukla zararsız olsa da, %s %s cihazınızda sorunlar olabilir."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Yedek cihaz URL"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Yedek cihaz URL"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Yedek cihaz URL"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Yedek cihaz URL"
 
 msgid "Detail of GStreamer log."
 msgstr "GStreamer günlüğünün ayrıntısı"
@@ -7266,6 +7287,9 @@ msgstr "Yedek uzaktan alıcıyı etkinleştir"
 msgid "Enable freesat EPG"
 msgstr "Freesat EPG etkinleştir"
 
+msgid "Enable import timer from fallback tuner"
+msgstr ""
+
 msgid "Enable intro screen"
 msgstr "Giriş ekranını etkinleştir"
 
@@ -7466,6 +7490,9 @@ msgstr "Girmek"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "DNS (Dinamik Ad Sunucusu) %d'nin IP adresini girin."
+
+msgid "Enter IP address"
+msgstr "IP adresi"
 
 msgid "Enter PIN"
 msgstr "PIN kodunu girin"
@@ -7725,6 +7752,12 @@ msgstr "Hata metni:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "'%s' görüntüsü açılırken hata oluştu!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Hata, bilinmeyen Sonuç!"
@@ -8233,11 +8266,35 @@ msgstr "Başarısız oldu:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland Adaları (Malvinas)"
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Yedek cihaz URL"
+
+msgid "Fallback remote receiver IP"
+msgstr "Yedek cihaz URL"
+
+msgid "Fallback remote receiver Port"
+msgstr "Yedek cihaz URL"
+
 msgid "Fallback remote receiver URL"
 msgstr "Geri dönüş uzak alıcı URL'si"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Yedek cihaz URL"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Yedek cihaz URL"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Yedek cihaz URL"
+
+msgid "Fallback tuner setup"
+msgstr "Yedek cihaz URL"
 
 msgid "False"
 msgstr "Yanlış"
@@ -9563,6 +9620,9 @@ msgstr "IP Adresi"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Yalnızca Stream Relay aracılığıyla şifresi çözülebilen hizmetlerin şifresini çözmek için kullanılan Stream Relay sunucusunun IP adresi."
 
+msgid "IP of fallback remote receiver"
+msgstr "Yedek cihaz URL"
+
 msgid "IPK Installer"
 msgstr "IPK Yükleyici"
 
@@ -9807,6 +9867,21 @@ msgstr "Sihirbazdan hemen çıkın (yalnızca Hata Ayıklama modu)"
 
 msgid "Immediately restart selected devices."
 msgstr "Seçilen cihazları hemen yeniden başlatın."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Yedek cihaz URL"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr ""
+
+msgid "Import from remote receiver URL"
+msgstr "Yedek cihaz URL"
+
+msgid "Import remote receiver URL"
+msgstr "Yedek cihaz URL"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Bir olay başlangıcındaki kontrole ek olarak, koşulların 'saat cinsinden tampon limiti' veya 'boş alanı kontrol et' daha önce algılanması için tekrarlı bir kontrol kullanılabilir."
@@ -11094,6 +11169,9 @@ msgstr "Çoklu önyükleme cihazınızı koruyun."
 msgid "Make"
 msgstr "Marka"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr ""
+
 #
 msgid "Make this mark an 'in' point"
 msgstr "'içinde' noktası olarak işaretle"
@@ -12331,9 +12409,6 @@ msgstr "Desteklenen DVDROM bulunamadı!"
 msgid "No Connection"
 msgstr "Bağlantı yok"
 
-msgid "No Devices Found !!"
-msgstr "Aygıt Bulunamadı !!"
-
 #
 msgid "No ECM PIDs available"
 msgstr "Kullanılabilir ECMPid yok"
@@ -13006,11 +13081,17 @@ msgstr "Servis listesini aç ve PiP için önceki kanalı seç"
 msgid "Open the Channel Selection Settings screen"
 msgstr "Kanal Seçim Ayarları ekranını açın"
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Eklenti Tarayıcısını Aç"
 
 msgid "Open the Plugin Browser settings screen"
 msgstr "Eklenti Tarayıcı ayarları ekranını açın"
+
+msgid "Open the Storage Device information"
+msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Metin girişi için VirtualKeyBoard'u açın"
@@ -13995,6 +14076,9 @@ msgstr "Kapı D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Yalnızca Stream Relay aracılığıyla şifresi çözülebilen hizmetlerin şifresini çözmek için kullanılan Stream Relay sunucusunun bağlantı noktası numarası."
 
+msgid "Port of fallback remote receiver"
+msgstr "Yedek cihaz URL"
+
 #
 msgid "Portugal"
 msgstr "Portekiz"
@@ -14567,6 +14651,9 @@ msgstr "Hızlı EPG"
 
 msgid "Quick Launch Menu"
 msgstr "Hızlı Başlat Menüsü"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Hızlı Menü..."
@@ -15767,6 +15854,9 @@ msgstr "Samba Server"
 
 msgid "Same as in active"
 msgstr "Aktif ile aynı"
+
+msgid "Same as stream"
+msgstr "Testi durdur"
 
 msgid "Same behavior as current animation"
 msgstr "Mevcut animasyonla aynı davranış"
@@ -16982,6 +17072,9 @@ msgstr "Bu zamanlayıcının başlayacağı zamanı seçin."
 msgid "Select the time zone within the area or region."
 msgstr "Alan veya bölge içindeki saat dilimini seçin."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Yedek cihaz URL"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Motorlu tabağı kontrol eden tuneri seçin."
 
@@ -17379,6 +17472,9 @@ msgstr "Zaman ayarı"
 msgid "Set action for 'Info' key"
 msgstr "'Bilgi' tuşu için eylemi ayarla"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr ""
+
 msgid "Set current CEC address as fixed address"
 msgstr "Mevcut CEC adresini sabit adres olarak ayarla"
 
@@ -17417,6 +17513,9 @@ msgstr "Sistemi Ayarla"
 msgid "Set the MAC address of your %s %s."
 msgstr "MAC adresinizi ayarlayın %s %s."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Servis pikonlarının en boy oranını ayarlayın."
 
@@ -17443,6 +17542,12 @@ msgstr "Arama çubuğunun atlama boyunu belirleyin."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Komut dosyalarında 'stout' ve 'sterr' çıktısı için kaydedilecek satır sayısını ayarlayın."
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
 
 msgid "Set the position of the recording icons."
 msgstr "Kayıt simgelerinin konumunu ayarla"
@@ -18264,6 +18369,18 @@ msgstr "Sonraki servis bilgileri ekranını göster"
 
 msgid "Show next system information screen"
 msgstr "Sonraki sistem bilgi ekranını göster"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr ""
+
+msgid "Show notification when import channels was not successful"
+msgstr ""
+
+msgid "Show notification when import channels was successful"
+msgstr ""
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Geniş açıklamayı göster ya da gizle, (arayüze bağımlı)."
@@ -21597,6 +21714,9 @@ msgstr "Değişen keymap ( s) başarısız oldu"
 msgid "URL"
 msgstr "URL"
 
+msgid "URL of fallback remote receiver"
+msgstr "Yedek cihaz URL"
+
 msgid "URL of fallback remote receiver."
 msgstr "Yedek uzaktan kumandanın URL'si"
 
@@ -21660,6 +21780,9 @@ msgstr "Şifrelenmemiş"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "%s :WebIF'e erişirken beklenmeyen hata"
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr ""
 
 msgid "UnhandledKey"
 msgstr "İşlenmemiş Key"
@@ -22179,6 +22302,9 @@ msgstr "Kullanıcı - buketler"
 
 msgid "User Feed URL"
 msgstr "Kullanıcı Akışı URL'si"
+
+msgid "User ID"
+msgstr "Kullanıcı tanımlı"
 
 msgid "User comments"
 msgstr "Kullanıcı Yorumları"
@@ -22892,6 +23018,15 @@ msgstr "Etkinleştirildiğinde, TV kapatıldığında alıcı otomatik olarak be
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Etkinleştirildiğinde, TV açıldığında alıcı otomatik olarak bekleme modundan çıkar."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr ""
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Etkinleşince, AIT verileri http akışına eklenir. Bu, istemci alıcısının HbbTV yi kullanmasını sağlar."
@@ -24822,139 +24957,14 @@ msgstr "evet (beslemeleri tut)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr ""
+#~ msgid "Backup done."
+#~ msgstr "Yedekleme bitti."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
+#~ msgid "Backup failed!"
+#~ msgstr "Yedekleme başarısız!"
 
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Yedek cihaz URL"
-
-msgid "Same as stream"
-msgstr "Testi durdur"
-
-msgid "Enter IP address"
-msgstr "IP adresi"
-
-msgid "Import from remote receiver URL"
-msgstr "Yedek cihaz URL"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Yedek cihaz URL"
-
-msgid "Enable import timer from fallback tuner"
-msgstr ""
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr ""
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Yedek cihaz URL"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr ""
-
-msgid "Fallback remote receiver"
-msgstr "Yedek cihaz URL"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Yedek cihaz URL"
-
-msgid "Fallback remote receiver IP"
-msgstr "Yedek cihaz URL"
-
-msgid "IP of fallback remote receiver"
-msgstr "Yedek cihaz URL"
-
-msgid "Fallback remote receiver Port"
-msgstr "Yedek cihaz URL"
-
-msgid "Port of fallback remote receiver"
-msgstr "Yedek cihaz URL"
-
-msgid "URL of fallback remote receiver"
-msgstr "Yedek cihaz URL"
-
-msgid "Import remote receiver URL"
-msgstr "Yedek cihaz URL"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr ""
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr ""
-
-msgid "Also import when box is leaving standby"
-msgstr ""
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr ""
-
-msgid "Also import from the extension menu"
-msgstr "Eklenti menüsünde göster"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr ""
-
-msgid "Show notification when import channels was successful"
-msgstr ""
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr ""
-
-msgid "Show notification when import channels was not successful"
-msgstr ""
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr ""
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr ""
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr ""
-
-msgid "User ID"
-msgstr "Kullanıcı tanımlı"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr ""
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr ""
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Yedek cihaz URL"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Yedek cihaz URL"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Yedek cihaz URL"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Yedek cihaz URL"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Yedek cihaz URL"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Yedek cihaz URL"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Aygıt Bulunamadı !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
