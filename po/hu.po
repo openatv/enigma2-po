@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2022-03-10 14:56+0000\n"
 "Last-Translator: H. Árkosi Róbert <robreg@zsurob.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -2285,6 +2285,15 @@ msgstr "ABC-sorrendben a fejlécek alatt"
 msgid "Alphanumeric"
 msgstr "Alfanumerikus"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importáljon a készülék/kezelőfelület újraindításakor"
+
+msgid "Also import from the extension menu"
+msgstr "Importálás a bővítmények menüjéből is"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importáljon akkor is, ha a készülék készenlétben van"
+
 msgid "Also on standby"
 msgstr "Készenlét alatt is"
 
@@ -2299,6 +2308,9 @@ msgstr "2. alternatíva"
 
 msgid "Alternative Edit"
 msgstr "[alternatív módosítás]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alternatív URL DVB-T/C vagy ATSC vételhez"
 
 msgid "Alternative numbering mode"
 msgstr "Alternatív számozás"
@@ -2899,12 +2911,6 @@ msgstr "Beállítások mentése"
 
 msgid "Backup System Settings"
 msgstr "Rendszerbeállítások mentése"
-
-msgid "Backup done."
-msgstr "Mentés kész."
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr ""
@@ -5283,6 +5289,9 @@ msgstr "Ugrás a '7'/'9' gombokkal (másodperc)"
 msgid "Customize"
 msgstr "Testreszabás"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "OpenWebIf beállítások testreszabása a tartalék tunerhez"
+
 msgid "Customize System Settings"
 msgstr ""
 
@@ -6014,6 +6023,18 @@ msgstr ""
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr ""
+
+msgid "Destination of fallback remote receiver"
+msgstr "Tartalék távoli vevő cél"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Tartalék távoli vevő célja ATSC vételhez"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Tartalék távoli vevő célja DVB-C vételhez"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Tartalék távoli vevő célja DVB-T vételhez"
 
 msgid "Detail of GStreamer log."
 msgstr ""
@@ -7029,6 +7050,9 @@ msgstr "Engedélyezi a tartalék háttér vevőegységet"
 msgid "Enable freesat EPG"
 msgstr "Freesat EPG engedélyezése"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Csatornák importálása a tartalék tunerből"
+
 msgid "Enable intro screen"
 msgstr "Engedélyezi az intro-t a képernyőn"
 
@@ -7219,6 +7243,9 @@ msgstr "Enter"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr ""
+
+msgid "Enter IP address"
+msgstr "Adja meg az IP címet"
 
 msgid "Enter PIN"
 msgstr "Adja meg a PIN kódot"
@@ -7469,6 +7496,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -7943,11 +7976,35 @@ msgstr "Sikertelen:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland-szigetek"
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Tartalék távoli vevő"
+
+msgid "Fallback remote receiver IP"
+msgstr "Tartalék távoli vevő IP címe"
+
+msgid "Fallback remote receiver Port"
+msgstr "Tartalék távoli vevő portja"
+
 msgid "Fallback remote receiver URL"
 msgstr "Távoli vevőegység URL címe"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Tartalék távoli vevő ATSC vételhez"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Tartalék távoli vevő DVB-C vételhez"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Tartalék távoli vevő DVB-T vételhez"
+
+msgid "Fallback tuner setup"
+msgstr "Tartalék távoli vevő beállítása"
 
 msgid "False"
 msgstr "Hamis"
@@ -9225,6 +9282,9 @@ msgstr "IP cím"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "Tartalék távoli vevő IP címe"
+
 msgid "IPK Installer"
 msgstr "IPK Telepítő"
 
@@ -9463,6 +9523,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a készülék felébredésekor"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a készülék bekapcsolásakor"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a kezelőfelület újraindításakor"
+
+msgid "Import from remote receiver URL"
+msgstr "Importálás a távoli vevő URL címéből"
+
+msgid "Import remote receiver URL"
+msgstr "Távoli vevő URL címének importálása"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Ha meg van határozva az érték, akkor a Timeshift az értéknek megfelelően ellenőrzi a régebbi fájlokat (puffer határ, esemény határ, szabad hely beállítást figyelembe véve)."
@@ -10702,6 +10777,9 @@ msgstr "Tartsd karban a multiboot eszközt."
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Lehetővé teszik a csatornák és/vagy EPG kézi importálását a kiterjesztések menüből"
+
 msgid "Make this mark an 'in' point"
 msgstr "Legyen ez a kezdési pont"
 
@@ -11897,9 +11975,6 @@ msgstr "Nincs (támogatott) DVD ROM!"
 msgid "No Connection"
 msgstr "Nincs kapcsolat"
 
-msgid "No Devices Found !!"
-msgstr "Nem található eszköz !!"
-
 #, fuzzy
 msgid "No ECM PIDs available"
 msgstr "Nem áll rendelkezésre demux"
@@ -12533,10 +12608,16 @@ msgstr "Nyissa meg a csatornalistát, és válassza ki az előző csatornát a K
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Bővítménykezelő megnyitása"
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -13466,6 +13547,9 @@ msgstr "D port"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "Tartalék távoli vevő portja"
+
 msgid "Portugal"
 msgstr "Portugália"
 
@@ -14011,6 +14095,9 @@ msgstr "Gyors EPG mód"
 
 msgid "Quick Launch Menu"
 msgstr "Gyorsindító Menü"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Gyors menü..."
@@ -15141,6 +15228,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr "Ugyanaz, mint az aktív"
+
+msgid "Same as stream"
+msgstr "Ugyanaz, mint a stream"
 
 msgid "Same behavior as current animation"
 msgstr "Ugyanaz a viselkedés, mint az aktuális animációban"
@@ -16319,6 +16409,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr "Válassza ki az időzónát a területen vagy a régióban."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Válassza ki a motorizált disht vezérlő tunert."
 
@@ -16697,6 +16790,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "Művelet beállítása ' Info ' kulcshoz"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Alternatív tartalék tuner beállítása DVB-T/C vagy ATSC vételhez"
+
 msgid "Set current CEC address as fixed address"
 msgstr ""
 
@@ -16734,6 +16830,9 @@ msgstr "Rendszer beállítása"
 msgid "Set the MAC address of your %s %s."
 msgstr "Állítsa be a MAC-címét a(z) %s %s eszköznek."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Állítsa be az OpenWebIf felhasználói azonosítót a tartalék tunerből"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Állítsa be a csatorna képek képarányát."
 
@@ -16760,6 +16859,12 @@ msgstr "Állítsa be a keresősáv ugrási méretét."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Állítsa be az OpenWebIf jelszót a tartalék tunerből"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Állítsa be az OpenWebIf portot a tartalék tunerből"
 
 msgid "Set the position of the recording icons."
 msgstr "Állítsa be a felvételt jelző ikon pozícióját"
@@ -17558,6 +17663,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Figyelmeztetés mutatása, ha a csatornák és/vagy az EPG importálása a távoli vevő URL-ből nem fejeződött be"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Figyelmeztetés mutatása, ha a csatornák és/vagy az EPG importálása a távoli vevő URL-ből befejeződött"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Figyelmeztetés mutatása, ha a csatornák importálása sikertelen volt"
+
+msgid "Show notification when import channels was successful"
+msgstr "Figyelmeztetés mutatása, ha a csatornák importálása sikeres volt"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Mutassa be vagy rejtse el a kiterjesztett leírást (kinézet függő)."
@@ -20739,6 +20856,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr "URL"
 
+msgid "URL of fallback remote receiver"
+msgstr "Tartalék távoli vevő URL címe"
+
 msgid "URL of fallback remote receiver."
 msgstr "A távoli tartalék háttér vevőegység elérhetőségének URL címe"
 
@@ -20800,6 +20920,9 @@ msgstr "Kódolatlan"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Váratlan hiba történt a tartalék tuner időzítők letöltésekor"
 
 msgid "UnhandledKey"
 msgstr "UnhandledKey"
@@ -21297,6 +21420,9 @@ msgstr "Felhasználói csatornacsomagok"
 
 msgid "User Feed URL"
 msgstr "felhasználó feed url-je"
+
+msgid "User ID"
+msgstr "Felhasználói azonosító"
 
 msgid "User comments"
 msgstr ""
@@ -21951,6 +22077,15 @@ msgstr ""
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Ha engedélyezi, testreszabhatja az OpenWebIf beállításait a tartalék tunerhez."
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "A HTTP jelfolyamba kerüljön bele a DVB-ből származó AID adatcsomag is. Ezáltal a fogadó készülék képes lesz HbbTV-t is kezelni."
@@ -23761,139 +23896,11 @@ msgstr "igen (állapotok megtartása)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Váratlan hiba történt a tartalék tuner időzítők letöltésekor"
+#~ msgid "Backup done."
+#~ msgstr "Mentés kész."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Tartalék távoli vevő beállítása"
-
-msgid "Same as stream"
-msgstr "Ugyanaz, mint a stream"
-
-msgid "Enter IP address"
-msgstr "Adja meg az IP címet"
-
-msgid "Import from remote receiver URL"
-msgstr "Importálás a távoli vevő URL címéből"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a készülék bekapcsolásakor"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Csatornák importálása a tartalék tunerből"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Ezzel engedélyezheti az időzítők importálását a tartalék tunerből"
-
-msgid "Fallback remote receiver"
-msgstr "Tartalék távoli vevő"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Tartalék távoli vevő cél"
-
-msgid "Fallback remote receiver IP"
-msgstr "Tartalék távoli vevő IP címe"
-
-msgid "IP of fallback remote receiver"
-msgstr "Tartalék távoli vevő IP címe"
-
-msgid "Fallback remote receiver Port"
-msgstr "Tartalék távoli vevő portja"
-
-msgid "Port of fallback remote receiver"
-msgstr "Tartalék távoli vevő portja"
-
-msgid "URL of fallback remote receiver"
-msgstr "Tartalék távoli vevő URL címe"
-
-msgid "Import remote receiver URL"
-msgstr "Távoli vevő URL címének importálása"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importáljon a készülék/kezelőfelület újraindításakor"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a kezelőfelület újraindításakor"
-
-msgid "Also import when box is leaving standby"
-msgstr "Importáljon akkor is, ha a készülék készenlétben van"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "A csatornák és/vagy az EPG importálása a távoli vevő URL címéből a készülék felébredésekor"
-
-msgid "Also import from the extension menu"
-msgstr "Importálás a bővítmények menüjéből is"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Lehetővé teszik a csatornák és/vagy EPG kézi importálását a kiterjesztések menüből"
-
-msgid "Show notification when import channels was successful"
-msgstr "Figyelmeztetés mutatása, ha a csatornák importálása sikeres volt"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Figyelmeztetés mutatása, ha a csatornák és/vagy az EPG importálása a távoli vevő URL-ből befejeződött"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Figyelmeztetés mutatása, ha a csatornák importálása sikertelen volt"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Figyelmeztetés mutatása, ha a csatornák és/vagy az EPG importálása a távoli vevő URL-ből nem fejeződött be"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "OpenWebIf beállítások testreszabása a tartalék tunerhez"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Ha engedélyezi, testreszabhatja az OpenWebIf beállításait a tartalék tunerhez."
-
-msgid "User ID"
-msgstr "Felhasználói azonosító"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Állítsa be az OpenWebIf felhasználói azonosítót a tartalék tunerből"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Állítsa be az OpenWebIf jelszót a tartalék tunerből"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Állítsa be az OpenWebIf portot a tartalék tunerből"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alternatív URL DVB-T/C vagy ATSC vételhez"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Alternatív tartalék tuner beállítása DVB-T/C vagy ATSC vételhez"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Tartalék távoli vevő DVB-T vételhez"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Tartalék távoli vevő célja DVB-T vételhez"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Tartalék távoli vevő DVB-C vételhez"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Tartalék távoli vevő célja DVB-C vételhez"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Tartalék távoli vevő ATSC vételhez"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Tartalék távoli vevő célja ATSC vételhez"
+#~ msgid "No Devices Found !!"
+#~ msgstr "Nem található eszköz !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
