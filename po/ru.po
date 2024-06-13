@@ -23684,6 +23684,140 @@ msgstr "Да (оставить фиды)"
 msgid "®"
 msgstr "®"
 
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Непредвиденная ошибка при получении информации таймеров зпасного ресивера"
+
+msgid "Fallback API did not return a valid result."
+msgstr "Резервный API не вернул допустимый результат."
+
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
+
+msgid "Fallback tuner setup"
+msgstr "Настройки удаленного резервного ресивера"
+
+msgid "Same as stream"
+msgstr "Так же как стрим"
+
+msgid "Enter IP address"
+msgstr "Ввод IP-адреса"
+
+msgid "Import from remote receiver URL"
+msgstr "Импорт из URL удаленного ресивера"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Импортировать каналы и/или EPG из удаленного ресивера при загрузке ресивера"
+
+msgid "Enable import timer from fallback tuner"
+msgstr "Включить импорт таймеров из резервного ресивера"
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "При включении, таймеры из резервного ресивера будут импортированы"
+
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Выбор таймера из резервного ресивера по умолчанию"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Если этот параметр включен, таймер резервного ресивера является дефолтным таймером."
+
+msgid "Fallback remote receiver"
+msgstr "Резервный удаленный ресивер"
+
+msgid "Destination of fallback remote receiver"
+msgstr "Назначение запасного удаленного ресивера"
+
+msgid "Fallback remote receiver IP"
+msgstr "IP резервного удаленного ресивера"
+
+msgid "IP of fallback remote receiver"
+msgstr "IP запасного удаленного ресивера"
+
+msgid "Fallback remote receiver Port"
+msgstr "Порт резервного удаленного ресивера"
+
+msgid "Port of fallback remote receiver"
+msgstr "Порт запасного удаленного ресивера"
+
+msgid "URL of fallback remote receiver"
+msgstr "Впишите URL запасного удаленного ресивера"
+
+msgid "Import remote receiver URL"
+msgstr "Импорт с удаленного ресивера URL"
+
+msgid "Also import at reboot/restart enigma2"
+msgstr "Импорт при перезагрузке ресивера/рестарт enigma2"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Импортировать каналы/EPG после рестарта enigma2"
+
+msgid "Also import when box is leaving standby"
+msgstr "Импорт при выходе из режима ожидания"
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Импортировать каналы/EPG при выходе из режима ожидания"
+
+msgid "Also import from the extension menu"
+msgstr "Добавить импорт в меню дополнений"
+
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Добавить импорт в меню дополнений"
+
+msgid "Show notification when import channels was successful"
+msgstr "Показывать уведомление, когда импорт каналов удался"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL завершен"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Показывать уведомление, когда импорт каналов не удался"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL не завершен"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Настройте параметры OpenWebIF для резервного тюнера"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Если включено, то Вы можете настроить параметры OpenWebIf из резервного ресивера"
+
+msgid "User ID"
+msgstr "Пользовательский ID"
+
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Установить ID пользователя OpenWebif из вашего резервного ресивера"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Установить пароль OpenWebif из вашего резервного ресивера"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Установить порт OpenWebif из вашего резервного ресивера"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Альтернативные URL для DVB-T/C или ATSC"
+
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Установите резервный удаленный ресивер для DVB-T/C или ATSC"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Резервный удаленный ресивер для DVB-T"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Назначение запасного удаленного ресивера для DVB-T"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Резервный удаленный ресивер для DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Назначение запасного удаленного ресивера для DVB-C"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Резервный удаленный ресивер для ATSC"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Назначение запасного удаленного ресивера для ATSC"
+
 #~ msgid "23.976"
 #~ msgstr "23.976"
 
@@ -24984,132 +25118,3 @@ msgstr "®"
 
 #~ msgid "yes"
 #~ msgstr "да"
-
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Непредвиденная ошибка при получении информации таймеров зпасного ресивера"
-
-msgid "Fallback API did not return a valid result."
-msgstr "Резервный API не вернул допустимый результат."
-
-msgid "Fallback tuner setup"
-msgstr "Настройки удаленного резервного ресивера"
-
-msgid "Same as stream"
-msgstr "Так же как стрим"
-
-msgid "Enter IP address"
-msgstr "Ввод IP-адреса"
-
-msgid "Import from remote receiver URL"
-msgstr "Импорт из URL удаленного ресивера"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Импортировать каналы и/или EPG из удаленного ресивера при загрузке ресивера"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Включить импорт таймеров из резервного ресивера"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "При включении, таймеры из резервного ресивера будут импортированы"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Выбор таймера из резервного ресивера по умолчанию"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Если этот параметр включен, таймер резервного ресивера является дефолтным таймером."
-
-msgid "Fallback remote receiver"
-msgstr "Резервный удаленный ресивер"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Назначение запасного удаленного ресивера"
-
-msgid "Fallback remote receiver IP"
-msgstr "IP резервного удаленного ресивера"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP запасного удаленного ресивера"
-
-msgid "Fallback remote receiver Port"
-msgstr "Порт резервного удаленного ресивера"
-
-msgid "Port of fallback remote receiver"
-msgstr "Порт запасного удаленного ресивера"
-
-msgid "URL of fallback remote receiver"
-msgstr "Впишите URL запасного удаленного ресивера"
-
-msgid "Import remote receiver URL"
-msgstr "Импорт с удаленного ресивера URL"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Импорт при перезагрузке ресивера/рестарт enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Импортировать каналы/EPG после рестарта enigma2"
-
-msgid "Also import when box is leaving standby"
-msgstr "Импорт при выходе из режима ожидания"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Импортировать каналы/EPG при выходе из режима ожидания"
-
-msgid "Also import from the extension menu"
-msgstr "Добавить импорт в меню дополнений"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Добавить импорт в меню дополнений"
-
-msgid "Show notification when import channels was successful"
-msgstr "Показывать уведомление, когда импорт каналов удался"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL завершен"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Показывать уведомление, когда импорт каналов не удался"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Показывать уведомление, когда импорт каналов/EPG из удаленного ресивера URL не завершен"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Настройте параметры OpenWebIF для резервного тюнера"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Если включено, то Вы можете настроить параметры OpenWebIf из резервного ресивера"
-
-msgid "User ID"
-msgstr "Пользовательский ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Установить ID пользователя OpenWebif из вашего резервного ресивера"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Установить пароль OpenWebif из вашего резервного ресивера"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Установить порт OpenWebif из вашего резервного ресивера"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Альтернативные URL для DVB-T/C или ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Установите резервный удаленный ресивер для DVB-T/C или ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Резервный удаленный ресивер для DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Назначение запасного удаленного ресивера для DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Резервный удаленный ресивер для DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Назначение запасного удаленного ресивера для DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Резервный удаленный ресивер для ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Назначение запасного удаленного ресивера для ATSC"
