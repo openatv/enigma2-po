@@ -23585,6 +23585,140 @@ msgstr "Oui (garder feeds)"
 msgid "®"
 msgstr "®"
 
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Erreur inattendue lors de la récupération des informations de programmation du récepteur de repli"
+
+msgid "Fallback API did not return a valid result."
+msgstr "L'API de repli n'a pas renvoyé de résultat valide."
+
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
+
+msgid "Fallback tuner setup"
+msgstr "Configuration du tuner de repli"
+
+msgid "Same as stream"
+msgstr "Sauvegarder en tant que flux (stream)"
+
+msgid "Enter IP address"
+msgstr "Entrer l’adresse IP"
+
+msgid "Import from remote receiver URL"
+msgstr "Importer depuis l’URL du récepteur distant"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant lorsque le récepteur est démarré"
+
+msgid "Enable import timer from fallback tuner"
+msgstr "Importer les programmations du récepteur distant de repli"
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Lorsque c’est activé les programmations du récepteur de repli sont importées"
+
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Sélectionner par défaut la minuterie du tuner de repli"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Lorsqu'elle est activée, la minuterie du syntoniseur de repli est la minuterie par défaut"
+
+msgid "Fallback remote receiver"
+msgstr "Récepteur distant de repli"
+
+msgid "Destination of fallback remote receiver"
+msgstr "Destination du récepteur distant de repli."
+
+msgid "Fallback remote receiver IP"
+msgstr "Configuration de l’IP du récepteur distant de repli"
+
+msgid "IP of fallback remote receiver"
+msgstr "IP du récepteur de repli distant"
+
+msgid "Fallback remote receiver Port"
+msgstr "Configuration du port du récepteur distant de repli"
+
+msgid "Port of fallback remote receiver"
+msgstr "Port du récepteur distant de repli"
+
+msgid "URL of fallback remote receiver"
+msgstr "URL du récepteur distant de repli. Spécifier l'URL complète: http:// et le numéro du port (normalement: 8001), p.e. http://second_demo:8001"
+
+msgid "Import remote receiver URL"
+msgstr "Importer l’URL du récepteur distant"
+
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importer aussi au redémarrage d’Enigma2"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant lorsque le récepteur ou Enigma2 est redémarré"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importer aussi lorsque le récepteur est laissé en veille"
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant également lorsque le récepteur sort de veille"
+
+msgid "Also import from the extension menu"
+msgstr "Importer également depuis le menu des extensions"
+
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Rend possible d’initier manuellement l’importation des chaînes et/ou l’EPG via le menu des extensions"
+
+msgid "Show notification when import channels was successful"
+msgstr "Afficher une notification lorsque l’import des chaînes a réussi"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Afficher une notification lorsque l’import des chaînes et/ou EPG du récepteur distant est réussi"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Afficher une notification lorsque l’import des chaînes n’a pas réussi"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Afficher une notification lorsque l’import des chaînes et/ou EPG du récepteur distant n’a pas réussi"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Personnaliser les paramètres OpenWebIF pour le tuner de secours"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Lorsque cette option est activée, vous pouvez personnaliser les paramètres OpenWebIf pour le tuner de secours"
+
+msgid "User ID"
+msgstr "ID de l’utilisateur"
+
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Définir l'ID utilisateur d’OpenWebif de votre tuner de secours"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Définir le mot de passe d’OpenWebif de votre tuner de secours"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Définir le port d’OpenWebif de votre tuner de secours"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "URL alternatives pour DVB-T/C ou ATSC"
+
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Définir d'autres tuners de repli pour DVB-T/C ou ATSC"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Récepteur à distance de repli pour DVB-T"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Destination du récepteur à distance de repli pour DVB-T"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Récepteur à distance de repli pour DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Destination du récepteur à distance de repli pour DVB-C"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Récepteur à distance de repli pour ATSC"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Destination du récepteur à distance de repli pour ATSC"
+
 #~ msgid "23.976"
 #~ msgstr "23.976"
 
@@ -24633,132 +24767,3 @@ msgstr "®"
 
 #~ msgid "Black screen"
 #~ msgstr "Ecran noir"
-
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Erreur inattendue lors de la récupération des informations de programmation du récepteur de repli"
-
-msgid "Fallback API did not return a valid result."
-msgstr "L'API de repli n'a pas renvoyé de résultat valide."
-
-msgid "Fallback tuner setup"
-msgstr "Configuration du tuner de repli"
-
-msgid "Same as stream"
-msgstr "Sauvegarder en tant que flux (stream)"
-
-msgid "Enter IP address"
-msgstr "Entrer l’adresse IP"
-
-msgid "Import from remote receiver URL"
-msgstr "Importer depuis l’URL du récepteur distant"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant lorsque le récepteur est démarré"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Importer les programmations du récepteur distant de repli"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Lorsque c’est activé les programmations du récepteur de repli sont importées"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Sélectionner par défaut la minuterie du tuner de repli"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Lorsqu'elle est activée, la minuterie du syntoniseur de repli est la minuterie par défaut"
-
-msgid "Fallback remote receiver"
-msgstr "Récepteur distant de repli"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Destination du récepteur distant de repli."
-
-msgid "Fallback remote receiver IP"
-msgstr "Configuration de l’IP du récepteur distant de repli"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP du récepteur de repli distant"
-
-msgid "Fallback remote receiver Port"
-msgstr "Configuration du port du récepteur distant de repli"
-
-msgid "Port of fallback remote receiver"
-msgstr "Port du récepteur distant de repli"
-
-msgid "URL of fallback remote receiver"
-msgstr "URL du récepteur distant de repli. Spécifier l'URL complète: http:// et le numéro du port (normalement: 8001), p.e. http://second_demo:8001"
-
-msgid "Import remote receiver URL"
-msgstr "Importer l’URL du récepteur distant"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importer aussi au redémarrage d’Enigma2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant lorsque le récepteur ou Enigma2 est redémarré"
-
-msgid "Also import when box is leaving standby"
-msgstr "Importer aussi lorsque le récepteur est laissé en veille"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Importer les chaînes et/ou l’EPG depuis l’URL du récepteur distant également lorsque le récepteur sort de veille"
-
-msgid "Also import from the extension menu"
-msgstr "Importer également depuis le menu des extensions"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Rend possible d’initier manuellement l’importation des chaînes et/ou l’EPG via le menu des extensions"
-
-msgid "Show notification when import channels was successful"
-msgstr "Afficher une notification lorsque l’import des chaînes a réussi"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Afficher une notification lorsque l’import des chaînes et/ou EPG du récepteur distant est réussi"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Afficher une notification lorsque l’import des chaînes n’a pas réussi"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Afficher une notification lorsque l’import des chaînes et/ou EPG du récepteur distant n’a pas réussi"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Personnaliser les paramètres OpenWebIF pour le tuner de secours"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Lorsque cette option est activée, vous pouvez personnaliser les paramètres OpenWebIf pour le tuner de secours"
-
-msgid "User ID"
-msgstr "ID de l’utilisateur"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Définir l'ID utilisateur d’OpenWebif de votre tuner de secours"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Définir le mot de passe d’OpenWebif de votre tuner de secours"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Définir le port d’OpenWebif de votre tuner de secours"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "URL alternatives pour DVB-T/C ou ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Définir d'autres tuners de repli pour DVB-T/C ou ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Récepteur à distance de repli pour DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Destination du récepteur à distance de repli pour DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Récepteur à distance de repli pour DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Destination du récepteur à distance de repli pour DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Récepteur à distance de repli pour ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Destination du récepteur à distance de repli pour ATSC"
