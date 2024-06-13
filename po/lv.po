@@ -25580,6 +25580,140 @@ msgstr "jā (paturēt barotnes)"
 msgid "®"
 msgstr ""
 
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Kļūda iegūstot taimeru informāciju no attālinātā uztvērēja"
+
+msgid "Fallback API did not return a valid result."
+msgstr "Informācija nav pieejama."
+
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
+
+msgid "Fallback tuner setup"
+msgstr "Attālinātā uztvērēja iestatījumi"
+
+msgid "Same as stream"
+msgstr "Tāds pats kā pārraidēm"
+
+msgid "Enter IP address"
+msgstr "IP adrese"
+
+msgid "Import from remote receiver URL"
+msgstr "Importēt no attālinātā uztvērēja"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja kad uztvērējs tiek islēgts"
+
+msgid "Enable import timer from fallback tuner"
+msgstr "Importēt taimerus no attālinātā uztvērēja"
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
+
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
+
+msgid "Fallback remote receiver"
+msgstr "Attālinātais rezerves uztvērējs"
+
+msgid "Destination of fallback remote receiver"
+msgstr "Attālinātā rezerves uztvērēja adrese"
+
+msgid "Fallback remote receiver IP"
+msgstr "Rezerves uztvērēja IP adrese"
+
+msgid "IP of fallback remote receiver"
+msgstr "Attālinātā rezerves uztvērēja IP adrese"
+
+msgid "Fallback remote receiver Port"
+msgstr "Rezerves uztvērēja ports"
+
+msgid "Port of fallback remote receiver"
+msgstr "Rezerves uztvērēja ports"
+
+msgid "URL of fallback remote receiver"
+msgstr "Rezerves uztvērēja adrese (URL)"
+
+msgid "Import remote receiver URL"
+msgstr "Attālinātais uztvērējs importam"
+
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importēt pārstartējot enigmu"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja kad enigma tiek pārstartēta"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importēt pēc gaidstāves"
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja arī ieslēdzoties no gaidstāves"
+
+msgid "Also import from the extension menu"
+msgstr "Rādīt importēšanu paplašinājumu izvēlnē"
+
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Atļaut kanālu un/vai EPG importu izmantojot paplašinājumu izvēlni"
+
+msgid "Show notification when import channels was successful"
+msgstr "Parādīt brīdinājumu kad imports ir izdevies"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Parādīt brīdinājumu kad kanālu un/vai EPG imports no attālinātā uztvērēja ir izdevies"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Parādīt brīdinājumu kad imports nav izdevies"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Parādīt brīdinājumu kad kanālu un/vai EPG imports no attālinātā uztvērēja nav izdevies"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Pielāgot OpenWebIF iestatījumus attālinātam uztvērējam"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Ja ieslēgts, jūs varat pielāgot OpenWebIf iestatījumus attālinātam uztvērējam"
+
+msgid "User ID"
+msgstr "Lietotāja ID"
+
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "OpenWebif lietotāja ID attālinātā uztvērējā"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "OpenWebif parole attālinātā uztvērējā"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "OpenWebif ports attālinātā uztvērējā"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Adrese DVB-T/C vai ATSC avotam"
+
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Iestatīt attālinātā uztvērēju lai to izmantotu DVB-T/C vai ATSC avotam"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "DVB-T rezerves uztvērējs"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "DVB-T attālinātā rezerves uztvērēja adrese"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "DVB-C rezerves uztvērējs"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "DVB-C attālinātā rezerves uztvērēja adrese"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "ATSC rezerves uztvērējs"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "ATSC attālinātā rezerves uztvērēja adrese"
+
 #
 #, fuzzy
 #~ msgid "24"
@@ -25985,132 +26119,3 @@ msgstr ""
 
 #~ msgid "Black screen"
 #~ msgstr "Melns ekrāns"
-
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Kļūda iegūstot taimeru informāciju no attālinātā uztvērēja"
-
-msgid "Fallback API did not return a valid result."
-msgstr "Informācija nav pieejama."
-
-msgid "Fallback tuner setup"
-msgstr "Attālinātā uztvērēja iestatījumi"
-
-msgid "Same as stream"
-msgstr "Tāds pats kā pārraidēm"
-
-msgid "Enter IP address"
-msgstr "IP adrese"
-
-msgid "Import from remote receiver URL"
-msgstr "Importēt no attālinātā uztvērēja"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja kad uztvērējs tiek islēgts"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Importēt taimerus no attālinātā uztvērēja"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Ja ieslēgts, tad tiks importēti taimeri no attālinātā uztvērēja"
-
-msgid "Fallback remote receiver"
-msgstr "Attālinātais rezerves uztvērējs"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Attālinātā rezerves uztvērēja adrese"
-
-msgid "Fallback remote receiver IP"
-msgstr "Rezerves uztvērēja IP adrese"
-
-msgid "IP of fallback remote receiver"
-msgstr "Attālinātā rezerves uztvērēja IP adrese"
-
-msgid "Fallback remote receiver Port"
-msgstr "Rezerves uztvērēja ports"
-
-msgid "Port of fallback remote receiver"
-msgstr "Rezerves uztvērēja ports"
-
-msgid "URL of fallback remote receiver"
-msgstr "Rezerves uztvērēja adrese (URL)"
-
-msgid "Import remote receiver URL"
-msgstr "Attālinātais uztvērējs importam"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importēt pārstartējot enigmu"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja kad enigma tiek pārstartēta"
-
-msgid "Also import when box is leaving standby"
-msgstr "Importēt pēc gaidstāves"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Importēt kanālus un/vai EPG no attālinātā uztvērēja arī ieslēdzoties no gaidstāves"
-
-msgid "Also import from the extension menu"
-msgstr "Rādīt importēšanu paplašinājumu izvēlnē"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Atļaut kanālu un/vai EPG importu izmantojot paplašinājumu izvēlni"
-
-msgid "Show notification when import channels was successful"
-msgstr "Parādīt brīdinājumu kad imports ir izdevies"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Parādīt brīdinājumu kad kanālu un/vai EPG imports no attālinātā uztvērēja ir izdevies"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Parādīt brīdinājumu kad imports nav izdevies"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Parādīt brīdinājumu kad kanālu un/vai EPG imports no attālinātā uztvērēja nav izdevies"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Pielāgot OpenWebIF iestatījumus attālinātam uztvērējam"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Ja ieslēgts, jūs varat pielāgot OpenWebIf iestatījumus attālinātam uztvērējam"
-
-msgid "User ID"
-msgstr "Lietotāja ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "OpenWebif lietotāja ID attālinātā uztvērējā"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "OpenWebif parole attālinātā uztvērējā"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "OpenWebif ports attālinātā uztvērējā"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Adrese DVB-T/C vai ATSC avotam"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Iestatīt attālinātā uztvērēju lai to izmantotu DVB-T/C vai ATSC avotam"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "DVB-T rezerves uztvērējs"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "DVB-T attālinātā rezerves uztvērēja adrese"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "DVB-C rezerves uztvērējs"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "DVB-C attālinātā rezerves uztvērēja adrese"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "ATSC rezerves uztvērējs"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "ATSC attālinātā rezerves uztvērēja adrese"
