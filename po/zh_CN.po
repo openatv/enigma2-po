@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2023-08-11 04:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -2246,6 +2246,15 @@ msgstr "标题下按字母顺序排列"
 msgid "Alphanumeric"
 msgstr "字母数字"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "在重新启动enigma2时导入"
+
+msgid "Also import from the extension menu"
+msgstr "同时从扩展菜单导入"
+
+msgid "Also import when box is leaving standby"
+msgstr "当接收机离开待机状态时也导入"
+
 msgid "Also on standby"
 msgstr "同时待机"
 
@@ -2260,6 +2269,9 @@ msgstr "备选方案 2"
 
 msgid "Alternative Edit"
 msgstr "[编辑替代项目]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "DVB-T/C或ATSC替代URL地址"
 
 msgid "Alternative numbering mode"
 msgstr "可选编号模式"
@@ -2856,12 +2868,6 @@ msgstr "备份设置"
 
 msgid "Backup System Settings"
 msgstr "备份系统设置"
-
-msgid "Backup done."
-msgstr "备份完成."
-
-msgid "Backup failed!"
-msgstr ""
 
 msgid "Backup images"
 msgstr ""
@@ -5240,6 +5246,9 @@ msgstr "自定义跳转时间7/9'键"
 msgid "Customize"
 msgstr "自定设置"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "自定义备份调谐器的OpenWebIF设置"
+
 msgid "Customize System Settings"
 msgstr ""
 
@@ -5959,6 +5968,18 @@ msgstr ""
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "取消选择的包通常发生,因为打包的包与现有包不兼容. 虽然这基本上是无害的,但您的 %s %s 可能会遇到问题."
+
+msgid "Destination of fallback remote receiver"
+msgstr "备用的遥控接收器目标"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "ATSC远程备用接收器的目的地"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "DVB-C远程备份接收器的目的地"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "DVB-T远程备份接收器的目的地"
 
 msgid "Detail of GStreamer log."
 msgstr "GStreamer日志的详细信息"
@@ -6975,6 +6996,9 @@ msgstr "启用备用遥控接收器"
 msgid "Enable freesat EPG"
 msgstr "启用免费EPG"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "从备用调谐器启用导入定时器"
+
 msgid "Enable intro screen"
 msgstr "启用简介界面"
 
@@ -7164,6 +7188,9 @@ msgstr "输入"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr ""
+
+msgid "Enter IP address"
+msgstr "输入IP地址"
 
 msgid "Enter PIN"
 msgstr "输入PIN"
@@ -7414,6 +7441,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -7890,11 +7923,35 @@ msgstr "失败:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "福克兰群岛(马尔维纳斯)"
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "备用的远程接收器"
+
+msgid "Fallback remote receiver IP"
+msgstr "备用远程接收器IP"
+
+msgid "Fallback remote receiver Port"
+msgstr "备用远程接收器端口"
+
 msgid "Fallback remote receiver URL"
 msgstr "备用远程接收器网址"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "ATSC备用远程接收器"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "DVB-CATSC备用远程接收器"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "DVB-TATSC备用远程接收器"
+
+msgid "Fallback tuner setup"
+msgstr "设置备用调谐器"
 
 msgid "False"
 msgstr "错误"
@@ -9157,6 +9214,9 @@ msgstr "IP地址"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "备用接收器IP地址"
+
 msgid "IPK Installer"
 msgstr "IPK安装器"
 
@@ -9394,6 +9454,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr "立即重新启动选定的设备."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "从远程接收器URL导入频道或EPG,当接收器正在退出待机状态"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "启动接收器时从远程接收器URL导入频道或EPG"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "重新启动接收器时,从远程接收器URL导入频道或EPG"
+
+msgid "Import from remote receiver URL"
+msgstr "从远程接收器URL导入"
+
+msgid "Import remote receiver URL"
+msgstr "导入远程接收器URL"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "除了在一个事件开始的检查,一个重复的检查可以使用,使条件'缓冲限制在小时'或'检查自由空间'之前检测到."
@@ -10610,6 +10685,9 @@ msgstr "管理和维护你的多重启动设备."
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "可以通过以下方式手动启动通道导入EPG扩展菜单"
+
 msgid "Make this mark an 'in' point"
 msgstr "这个标记作为'入'节点"
 
@@ -11771,9 +11849,6 @@ msgstr "没有发现(支持)DVDROM!"
 msgid "No Connection"
 msgstr "未连接"
 
-msgid "No Devices Found !!"
-msgstr "没有找到设备!!"
-
 msgid "No ECM PIDs available"
 msgstr "没有可用的ECM PID"
 
@@ -12398,10 +12473,16 @@ msgstr "打开频道列表并选择上一频道为画中画"
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "打开插件浏览器"
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -13324,6 +13405,9 @@ msgstr "端口 D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "备用接收器端口"
+
 msgid "Portugal"
 msgstr "葡萄牙"
 
@@ -13866,6 +13950,9 @@ msgstr "快速EPG"
 
 msgid "Quick Launch Menu"
 msgstr "快捷启动菜单"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "快速导航菜单..."
@@ -14993,6 +15080,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr "与活动中的相同"
+
+msgid "Same as stream"
+msgstr "与流相同"
 
 msgid "Same behavior as current animation"
 msgstr "与当前动画的行为相同"
@@ -16160,6 +16250,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr "选择区域或区域内的时区."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "启用后,从备用调谐器导入定时器"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "选择控制电动极轴的调谐器."
 
@@ -16533,6 +16626,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "为'Info'键设置动作"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "DVB-T/C或ATSC备用调谐器的识别"
+
 msgid "Set current CEC address as fixed address"
 msgstr "将当前CEC地址设置为固定地址"
 
@@ -16570,6 +16666,9 @@ msgstr "系统设置"
 msgid "Set the MAC address of your %s %s."
 msgstr "设置%s %s的MAC地址."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "从备用调谐器设置OpenWebif的用户ID"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "设置频道picon的宽高比."
 
@@ -16596,6 +16695,12 @@ msgstr "设置搜索栏的跳跃大小."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "从备用调谐器设置OpenWebif的密码"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "从备用调谐器设置OpenWebif的端口"
 
 msgid "Set the position of the recording icons."
 msgstr "设置录像图标的位置"
@@ -17389,6 +17494,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "从远程接收器URL导入频道和EPG时显示通知未完成"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "从远程接收器URL导入频道和EPG时显示通知已完成"
+
+msgid "Show notification when import channels was not successful"
+msgstr "导入频道未成功时显示通知"
+
+msgid "Show notification when import channels was successful"
+msgstr "导入频道成功时显示通知"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "显示或隐藏附件的描述,(依皮肤而定)."
@@ -20529,6 +20646,9 @@ msgstr "UP80(键映射.u80)"
 msgid "URL"
 msgstr "网络地址"
 
+msgid "URL of fallback remote receiver"
+msgstr "备用远程接收器URL"
+
 msgid "URL of fallback remote receiver."
 msgstr "备用远程接收机地址"
 
@@ -20590,6 +20710,9 @@ msgstr "未加密"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "检索备用调谐器的定时器信息时出现意外错误"
 
 msgid "UnhandledKey"
 msgstr "未处理的密钥"
@@ -21087,6 +21210,9 @@ msgstr "用户 - 自定义分组"
 
 msgid "User Feed URL"
 msgstr "用户订阅地址"
+
+msgid "User ID"
+msgstr "用户ID"
 
 msgid "User comments"
 msgstr ""
@@ -21731,6 +21857,15 @@ msgstr "启用后,接收器将在电视关闭时自动返回待机状态."
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "启用后,接收器将在电视打开时自动从待机中唤醒."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "启用后,从备用调谐器导入定时器"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "启用后,从备用调谐器导入定时器"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "启用后,您可以自定义回退调谐器的OpenWebIf设置"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "启用后,AIT数据将包含在HTTP流.这允许一个客户端接收利用HbbTV."
@@ -23534,139 +23669,11 @@ msgstr "是(保持订阅源)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "检索备用调谐器的定时器信息时出现意外错误"
+#~ msgid "Backup done."
+#~ msgstr "备份完成."
 
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "设置备用调谐器"
-
-msgid "Same as stream"
-msgstr "与流相同"
-
-msgid "Enter IP address"
-msgstr "输入IP地址"
-
-msgid "Import from remote receiver URL"
-msgstr "从远程接收器URL导入"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "启动接收器时从远程接收器URL导入频道或EPG"
-
-msgid "Enable import timer from fallback tuner"
-msgstr "从备用调谐器启用导入定时器"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "启用后,从备用调谐器导入定时器"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "启用后,从备用调谐器导入定时器"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "启用后,从备用调谐器导入定时器"
-
-msgid "Fallback remote receiver"
-msgstr "备用的远程接收器"
-
-msgid "Destination of fallback remote receiver"
-msgstr "备用的遥控接收器目标"
-
-msgid "Fallback remote receiver IP"
-msgstr "备用远程接收器IP"
-
-msgid "IP of fallback remote receiver"
-msgstr "备用接收器IP地址"
-
-msgid "Fallback remote receiver Port"
-msgstr "备用远程接收器端口"
-
-msgid "Port of fallback remote receiver"
-msgstr "备用接收器端口"
-
-msgid "URL of fallback remote receiver"
-msgstr "备用远程接收器URL"
-
-msgid "Import remote receiver URL"
-msgstr "导入远程接收器URL"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "在重新启动enigma2时导入"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "重新启动接收器时,从远程接收器URL导入频道或EPG"
-
-msgid "Also import when box is leaving standby"
-msgstr "当接收机离开待机状态时也导入"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "从远程接收器URL导入频道或EPG,当接收器正在退出待机状态"
-
-msgid "Also import from the extension menu"
-msgstr "同时从扩展菜单导入"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "可以通过以下方式手动启动通道导入EPG扩展菜单"
-
-msgid "Show notification when import channels was successful"
-msgstr "导入频道成功时显示通知"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "从远程接收器URL导入频道和EPG时显示通知已完成"
-
-msgid "Show notification when import channels was not successful"
-msgstr "导入频道未成功时显示通知"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "从远程接收器URL导入频道和EPG时显示通知未完成"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "自定义备份调谐器的OpenWebIF设置"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "启用后,您可以自定义回退调谐器的OpenWebIf设置"
-
-msgid "User ID"
-msgstr "用户ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "从备用调谐器设置OpenWebif的用户ID"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "从备用调谐器设置OpenWebif的密码"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "从备用调谐器设置OpenWebif的端口"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "DVB-T/C或ATSC替代URL地址"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "DVB-T/C或ATSC备用调谐器的识别"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "DVB-TATSC备用远程接收器"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "DVB-T远程备份接收器的目的地"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "DVB-CATSC备用远程接收器"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "DVB-C远程备份接收器的目的地"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "ATSC备用远程接收器"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "ATSC远程备用接收器的目的地"
+#~ msgid "No Devices Found !!"
+#~ msgstr "没有找到设备!!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
