@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2016-04-02 23:16+0200\n"
 "Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
 "Language-Team: jurica@dream-multimedia.eu\n"
@@ -2448,6 +2448,15 @@ msgstr ""
 msgid "Alphanumeric"
 msgstr ""
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Uvezite nakon ponovnog pokretanja enigme2"
+
+msgid "Also import from the extension menu"
+msgstr "Također uvezite iz izbornika proširenja"
+
+msgid "Also import when box is leaving standby"
+msgstr "Uvezite pri izlasku iz stanja čekanja"
+
 msgid "Also on standby"
 msgstr ""
 
@@ -2469,6 +2478,9 @@ msgstr "dodaj alternative"
 #
 msgid "Alternative Edit"
 msgstr "[editiranje alternative]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alternativni URL-ovi za DVB-T/C ili ATSC"
 
 msgid "Alternative numbering mode"
 msgstr ""
@@ -3103,12 +3115,6 @@ msgstr ""
 
 #
 msgid "Backup System Settings"
-msgstr ""
-
-msgid "Backup done."
-msgstr ""
-
-msgid "Backup failed!"
 msgstr ""
 
 msgid "Backup images"
@@ -5627,6 +5633,9 @@ msgstr "Podesivo vrijeme preskoka za '1'/'3'-ključa"
 msgid "Customize"
 msgstr "Prilagodi"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Prilagoditi OpenWebIF postavke za rezervni tjuner"
+
 msgid "Customize System Settings"
 msgstr ""
 
@@ -6400,6 +6409,18 @@ msgstr ""
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr ""
+
+msgid "Destination of fallback remote receiver"
+msgstr "Odredište rezervnog daljinskog prijemnika"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Odredište rezervnog daljinskog prijemnika za ATSC"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Odredište rezervnog daljinskog prijemnika za DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Odredište rezervnog daljinskog prijemnika za DVB-T"
 
 msgid "Detail of GStreamer log."
 msgstr ""
@@ -7485,6 +7506,9 @@ msgstr ""
 msgid "Enable freesat EPG"
 msgstr ""
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Omogućite uvoz tajmera iz rezervnog tjunera"
+
 msgid "Enable intro screen"
 msgstr ""
 
@@ -7688,6 +7712,9 @@ msgstr "Unutarnji Flash"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr ""
+
+msgid "Enter IP address"
+msgstr "Unesite IP adresu"
 
 msgid "Enter PIN"
 msgstr ""
@@ -7937,6 +7964,12 @@ msgstr ""
 
 #, python-format
 msgid "Error unzipping image '%s'!"
+msgstr ""
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
 msgstr ""
 
 msgid "Error, unknown Result!"
@@ -8449,11 +8482,35 @@ msgstr ""
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
+msgid "Fallback API did not return a valid result."
+msgstr ""
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Rezervni daljinski prijemnik"
+
+msgid "Fallback remote receiver IP"
+msgstr "IP rezervnog daljinskog prijemnika"
+
+msgid "Fallback remote receiver Port"
+msgstr "Port rezervnog daljinskog prijemnika"
+
 msgid "Fallback remote receiver URL"
 msgstr ""
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Rezervni daljinski prijemnik za ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Rezervni daljinski prijemnik za DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Rezervni daljinski prijemnik za DVB-T"
+
+msgid "Fallback tuner setup"
+msgstr "Postavljanje rezervnog tjunera"
 
 msgid "False"
 msgstr ""
@@ -9826,6 +9883,9 @@ msgstr "IP Adresa"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "IP of fallback remote receiver"
+msgstr "IP rezervnog daljinskog prijemnika"
+
 msgid "IPK Installer"
 msgstr ""
 
@@ -10074,6 +10134,21 @@ msgstr ""
 
 msgid "Immediately restart selected devices."
 msgstr ""
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Uvezite kanale i/ili EPG iz URL-a udaljenog primatelja i kada prijemnik izlazi iz stanja čekanja"
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Uvoz kanala iz udaljenog URL-a primatelja kada je pokrenut."
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Uvoz kanala i/ili EPG iz URL-a udaljenog primatelja kada se prijemnik ili enigma2 ponovno pokrene"
+
+msgid "Import from remote receiver URL"
+msgstr "Uvoz s URL-a daljinskog prijemnika"
+
+msgid "Import remote receiver URL"
+msgstr "Uvoz URL-a daljinskog prijemnika"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr ""
@@ -11419,6 +11494,9 @@ msgstr ""
 msgid "Make"
 msgstr ""
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Omogućite ručno pokretanje uvoza kanala i/ili EPG putem izbornika proširenja"
+
 #
 msgid "Make this mark an 'in' point"
 msgstr "Napravi ovu oznaku kao 'ulaznu' točku"
@@ -12713,9 +12791,6 @@ msgstr ""
 msgid "No Connection"
 msgstr ""
 
-msgid "No Devices Found !!"
-msgstr ""
-
 #
 #, fuzzy
 msgid "No ECM PIDs available"
@@ -13393,10 +13468,16 @@ msgstr ""
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr ""
 
 msgid "Open the Plugin Browser settings screen"
+msgstr ""
+
+msgid "Open the Storage Device information"
 msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
@@ -14411,6 +14492,9 @@ msgstr "Port D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
+msgid "Port of fallback remote receiver"
+msgstr "Priključak rezervnog daljinskog prijemnika"
+
 #
 #, fuzzy
 msgid "Portugal"
@@ -15008,6 +15092,9 @@ msgid "Quick EPG"
 msgstr "Brzo"
 
 msgid "Quick Launch Menu"
+msgstr ""
+
+msgid "Quick Menu Actions"
 msgstr ""
 
 msgid "Quick Menu..."
@@ -16246,6 +16333,9 @@ msgstr ""
 
 msgid "Same as in active"
 msgstr ""
+
+msgid "Same as stream"
+msgstr "Isto kao i web prijenos"
 
 msgid "Same behavior as current animation"
 msgstr ""
@@ -17486,6 +17576,9 @@ msgstr ""
 msgid "Select the time zone within the area or region."
 msgstr ""
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr ""
 
@@ -17879,6 +17972,9 @@ msgstr ""
 msgid "Set action for 'Info' key"
 msgstr "Odaberi film"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Postavite alternativne rezervne prijamnike za DVB-T/C ili ATSC"
+
 msgid "Set current CEC address as fixed address"
 msgstr ""
 
@@ -17919,6 +18015,9 @@ msgstr ""
 msgid "Set the MAC address of your %s %s."
 msgstr "Konfiguracija Tunera"
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Postavite korisnički ID OpenWebif sučelja iz rezervnog tjunera"
+
 msgid "Set the aspect ratio of the service picons."
 msgstr ""
 
@@ -17945,6 +18044,12 @@ msgstr ""
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Postavite lozinku OpenWebif sučelja iz rezervnog tjunera"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Postavite port OpenWebif sučelja iz rezervnog tjunera"
 
 msgid "Set the position of the recording icons."
 msgstr ""
@@ -18787,6 +18892,18 @@ msgstr ""
 
 msgid "Show next system information screen"
 msgstr ""
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Prikažite obavijest prilikom uvoza kanala i/ili EPG s URL-a udaljenog primatelja kada nije kompletan"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Prikažite obavijest prilikom uvoza kanala i/ili EPG s URL-a udaljenog primatelja kada je kompletan"
+
+msgid "Show notification when import channels was not successful"
+msgstr "Prikažite obavijest kada uvoz kanala nije uspio"
+
+msgid "Show notification when import channels was successful"
+msgstr "Prikažite obavijest kada je uvoz kanala uspio"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr ""
@@ -22125,6 +22242,9 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+msgid "URL of fallback remote receiver"
+msgstr "URL rezervnog daljinskog prijemnika"
+
 msgid "URL of fallback remote receiver."
 msgstr ""
 
@@ -22189,6 +22309,9 @@ msgstr ""
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Neočekivana pogreška pri dohvaćanju podataka o rezervnom tajmeru"
 
 msgid "UnhandledKey"
 msgstr ""
@@ -22706,6 +22829,9 @@ msgstr ""
 
 msgid "User Feed URL"
 msgstr ""
+
+msgid "User ID"
+msgstr "Korisnički ID"
 
 msgid "User comments"
 msgstr ""
@@ -23404,6 +23530,15 @@ msgstr ""
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr ""
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Kada je omogućeno, možete prilagoditi OpenWebIf postavke za rezervni tjuner"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr ""
@@ -25326,140 +25461,6 @@ msgstr "Da ( zadrži feedove)"
 
 msgid "®"
 msgstr ""
-
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Neočekivana pogreška pri dohvaćanju podataka o rezervnom tajmeru"
-
-msgid "Fallback API did not return a valid result."
-msgstr ""
-
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Postavljanje rezervnog tjunera"
-
-msgid "Same as stream"
-msgstr "Isto kao i web prijenos"
-
-msgid "Enter IP address"
-msgstr "Unesite IP adresu"
-
-msgid "Import from remote receiver URL"
-msgstr "Uvoz s URL-a daljinskog prijemnika"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Uvoz kanala iz udaljenog URL-a primatelja kada je pokrenut."
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Omogućite uvoz tajmera iz rezervnog tjunera"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Kada je omogućeno, uvozi se tajmer iz rezervnog tjunera"
-
-msgid "Fallback remote receiver"
-msgstr "Rezervni daljinski prijemnik"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Odredište rezervnog daljinskog prijemnika"
-
-msgid "Fallback remote receiver IP"
-msgstr "IP rezervnog daljinskog prijemnika"
-
-msgid "IP of fallback remote receiver"
-msgstr "IP rezervnog daljinskog prijemnika"
-
-msgid "Fallback remote receiver Port"
-msgstr "Port rezervnog daljinskog prijemnika"
-
-msgid "Port of fallback remote receiver"
-msgstr "Priključak rezervnog daljinskog prijemnika"
-
-msgid "URL of fallback remote receiver"
-msgstr "URL rezervnog daljinskog prijemnika"
-
-msgid "Import remote receiver URL"
-msgstr "Uvoz URL-a daljinskog prijemnika"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Uvezite nakon ponovnog pokretanja enigme2"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Uvoz kanala i/ili EPG iz URL-a udaljenog primatelja kada se prijemnik ili enigma2 ponovno pokrene"
-
-msgid "Also import when box is leaving standby"
-msgstr "Uvezite pri izlasku iz stanja čekanja"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Uvezite kanale i/ili EPG iz URL-a udaljenog primatelja i kada prijemnik izlazi iz stanja čekanja"
-
-msgid "Also import from the extension menu"
-msgstr "Također uvezite iz izbornika proširenja"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Omogućite ručno pokretanje uvoza kanala i/ili EPG putem izbornika proširenja"
-
-msgid "Show notification when import channels was successful"
-msgstr "Prikažite obavijest kada je uvoz kanala uspio"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Prikažite obavijest prilikom uvoza kanala i/ili EPG s URL-a udaljenog primatelja kada je kompletan"
-
-msgid "Show notification when import channels was not successful"
-msgstr "Prikažite obavijest kada uvoz kanala nije uspio"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Prikažite obavijest prilikom uvoza kanala i/ili EPG s URL-a udaljenog primatelja kada nije kompletan"
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Prilagoditi OpenWebIF postavke za rezervni tjuner"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Kada je omogućeno, možete prilagoditi OpenWebIf postavke za rezervni tjuner"
-
-msgid "User ID"
-msgstr "Korisnički ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Postavite korisnički ID OpenWebif sučelja iz rezervnog tjunera"
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Postavite lozinku OpenWebif sučelja iz rezervnog tjunera"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Postavite port OpenWebif sučelja iz rezervnog tjunera"
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alternativni URL-ovi za DVB-T/C ili ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Postavite alternativne rezervne prijamnike za DVB-T/C ili ATSC"
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Rezervni daljinski prijemnik za DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Odredište rezervnog daljinskog prijemnika za DVB-T"
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Rezervni daljinski prijemnik za DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Odredište rezervnog daljinskog prijemnika za DVB-C"
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Rezervni daljinski prijemnik za ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Odredište rezervnog daljinskog prijemnika za ATSC"
 
 #
 #, fuzzy
