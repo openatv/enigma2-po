@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 09:36+0000\n"
+"POT-Creation-Date: 2024-06-13 14:37+0000\n"
 "PO-Revision-Date: 2024-04-20 20:07+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -2251,6 +2251,15 @@ msgstr "Alfabetisch gesorteerd in rubrieken "
 msgid "Alphanumeric"
 msgstr "Alfanumeriek"
 
+msgid "Also import at reboot/restart enigma2"
+msgstr "Importeer ook bij een herstart van de ontvanger of Enigma"
+
+msgid "Also import from the extension menu"
+msgstr "Maak de import ook mogelijk via het applicatie-menu"
+
+msgid "Also import when box is leaving standby"
+msgstr "Importeer ook indien de ontvanger vanuit stand-by opstart"
+
 msgid "Also on standby"
 msgstr "Tevens bij stand-by"
 
@@ -2265,6 +2274,9 @@ msgstr "Alternatief 2"
 
 msgid "Alternative Edit"
 msgstr "[alternatieven bewerken]"
+
+msgid "Alternative URLs for DVB-T/C or ATSC"
+msgstr "Alternatieve URL's t.b.v. DVB-T/C of ATSC"
 
 msgid "Alternative numbering mode"
 msgstr "Alternatieve nummering"
@@ -2860,12 +2872,6 @@ msgstr "Back-up instellingen"
 
 msgid "Backup System Settings"
 msgstr "Back-up uw instellingen"
-
-msgid "Backup done."
-msgstr "Back-up is gereed."
-
-msgid "Backup failed!"
-msgstr "De back-up is mislukt!"
 
 msgid "Backup images"
 msgstr "Back-up images"
@@ -5355,6 +5361,9 @@ msgstr "Aangepaste skiptijd voor de '7'/'9'-knoppen"
 msgid "Customize"
 msgstr "Diverse instellingen"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Pas de instellingen van de Fallback tuner aan in de OpenWebif"
+
 msgid "Customize System Settings"
 msgstr "Systeem instellingen"
 
@@ -6082,6 +6091,18 @@ msgstr "Selectie van het gemarkeerde bestand ongedaan maken"
 #, python-format
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr "Gedeselecteerde pakketten komen voor doordat die niet compatibel zijn met al geïnstalleerde pakketten. Hoewel dit normaal gesproken geen kwaad kan, is het mogelijk dat uw %s %s daarna problemen ondervindt."
+
+msgid "Destination of fallback remote receiver"
+msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. ATSC ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. DVB-C ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. DVB-T ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
 
 msgid "Detail of GStreamer log."
 msgstr "Detailniveau van het GStreamer log"
@@ -7106,6 +7127,9 @@ msgstr "Activeer de 'Fallback remote receiver' functie"
 msgid "Enable freesat EPG"
 msgstr "Freesat EPG inschakelen"
 
+msgid "Enable import timer from fallback tuner"
+msgstr "Activeer de import van timers van de Fallback tuner"
+
 msgid "Enable intro screen"
 msgstr "Activeer intro scherm"
 
@@ -7299,6 +7323,9 @@ msgstr "Enter"
 #, python-format
 msgid "Enter DNS (Dynamic Name Server) %d's IP address."
 msgstr "%de DNS (Dynamic Name Server) IP-adres invoeren."
+
+msgid "Enter IP address"
+msgstr "Voer een IPadres in"
 
 msgid "Enter PIN"
 msgstr "Voer pincode in"
@@ -7558,6 +7585,12 @@ msgstr "Fouttekst:"
 #, python-format
 msgid "Error unzipping image '%s'!"
 msgstr "Fout bij het uitpakken van het image '%s'!"
+
+#, python-format
+msgid ""
+"Error while retrieving fallback timer information\n"
+"%s"
+msgstr ""
 
 msgid "Error, unknown Result!"
 msgstr "Fout, onbekende uitkomst!"
@@ -8036,11 +8069,35 @@ msgstr "Mislukt:"
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland Eilanden (Malvinas)"
 
+msgid "Fallback API did not return a valid result."
+msgstr "De Fallback API gaf geen geldig resultaat."
+
 msgid "Fallback Font *"
 msgstr ""
 
+msgid "Fallback remote receiver"
+msgstr "Fallback externe tuner"
+
+msgid "Fallback remote receiver IP"
+msgstr "IPadres van de Fallback tuner"
+
+msgid "Fallback remote receiver Port"
+msgstr "Ingave van de poort van de Fallback tuner"
+
 msgid "Fallback remote receiver URL"
 msgstr "URL van de 'Fallback remote receiver'"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Fallback tuner t.b.v. ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Fallback tuner t.b.v. DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Fallback tuner t.b.v. DVB-T"
+
+msgid "Fallback tuner setup"
+msgstr "Instellen van de Fallback (externe) tuner"
 
 msgid "False"
 msgstr "Niet correct"
@@ -9306,6 +9363,9 @@ msgstr "IP-adres"
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "IP-adres van de Stream Relay server wordt gebruikt om zenders te decoderen die alleen via Stream Relay gedecodeerd kunnen worden."
 
+msgid "IP of fallback remote receiver"
+msgstr "Indien u bij de voorgaande optie heeft gekozen voor 'IPadres', dan kunt u nu een specifiek IPadres ingeven waarop de Fallback tuner in het netwerk te vinden is."
+
 msgid "IPK Installer"
 msgstr "IPK installeren"
 
@@ -9547,6 +9607,21 @@ msgstr "De wizard nu afsluiten (alleen in de Debug-modus)"
 
 msgid "Immediately restart selected devices."
 msgstr "Nu de geselecteerde apparaten herstarten."
+
+msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
+msgstr "Indien geactiveerd, dan importeert u ook de zenders en/of de EPG vanaf de externe ontvanger als deze uit stand-by komt."
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgstr "Indien geactiveerd, dan importeert u zenders van een externe ontvanger indien uw ontvanger opstart. Na activatie van deze functie kunt u nadere details instellen."
+
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgstr "Indien geactiveerd, dan importeert u ook de zenders en/of de EPG vanaf de externe ontvanger als de ontvanger of enigma2 is herstart."
+
+msgid "Import from remote receiver URL"
+msgstr "Importeer data vanaf een externe ontvanger"
+
+msgid "Import remote receiver URL"
+msgstr "Locatie van de externe ontvanger"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
 msgstr "Naast de controle bij een start van Timeshift, kan een herhaalde controle worden uitgevoerd, waardoor de ingestelde waarden bij 'limiet in uren' of 'vrije ruimte controleren' eerder worden gecontroleerd."
@@ -10763,6 +10838,9 @@ msgstr "Uw multi-boot device handhaven."
 msgid "Make"
 msgstr "Maak"
 
+msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
+msgstr "Indien geactiveerd, dan krijgt u de mogelijkheid om handmatig de import van zenders en/of EPG via het applicatie-menu (blauwe toets) uit te voeren."
+
 msgid "Make this mark an 'in' point"
 msgstr "Markeer dit als 'in' punt"
 
@@ -11927,9 +12005,6 @@ msgstr "Geen (ondersteunde) DVD-ROM gevonden!"
 msgid "No Connection"
 msgstr "Geen verbinding"
 
-msgid "No Devices Found !!"
-msgstr "!! Geen apparaten gevonden !!"
-
 msgid "No ECM PIDs available"
 msgstr "Geen ECMPids beschikbaar"
 
@@ -12557,11 +12632,17 @@ msgstr "Open zenderlijst en selecteer vorige zender voor PiP"
 msgid "Open the Channel Selection Settings screen"
 msgstr "Open de Zenderlijst instellingen"
 
+msgid "Open the Image information"
+msgstr ""
+
 msgid "Open the Plugin Browser"
 msgstr "Open de Plugin Browser"
 
 msgid "Open the Plugin Browser settings screen"
 msgstr "Plugin Browser instellingen"
+
+msgid "Open the Storage Device information"
+msgstr ""
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Open het Virtuele toetsenbord voor tekstinvoer"
@@ -13487,6 +13568,9 @@ msgstr "Poort D"
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Poortnummer van de Stream Relay server die wordt gebruikt om zenders te decoderen die alleen via Stream Relay gedecodeerd kunnen worden."
 
+msgid "Port of fallback remote receiver"
+msgstr "Indien bij 'Fallback tuner' (optie 3) gekozen is voor een separaat IPadres, dan kunt u hier de gebruikte poort van de Fallback tuner ingeven."
+
 msgid "Portugal"
 msgstr "Portugal"
 
@@ -14033,6 +14117,9 @@ msgstr "Quick EPG"
 
 msgid "Quick Launch Menu"
 msgstr "Snelstartmenu"
+
+msgid "Quick Menu Actions"
+msgstr ""
 
 msgid "Quick Menu..."
 msgstr "Quick Menu…"
@@ -15160,6 +15247,9 @@ msgstr "Samba server"
 
 msgid "Same as in active"
 msgstr "Hetzelfde als in de actieve"
+
+msgid "Same as stream"
+msgstr "Identiek aan de stream"
 
 msgid "Same behavior as current animation"
 msgstr "Identiek gedrag als huidige animatie"
@@ -16346,6 +16436,9 @@ msgstr "Kies de tijd wanneer deze Timer moet starten."
 msgid "Select the time zone within the area or region."
 msgstr "Selecteer de tijdzone binnen uw gebied of regio."
 
+msgid "Select the timer from the fallback tuner by default"
+msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Selecteer de tuner die de gemotoriseerde schotel aanstuurt."
 
@@ -16727,6 +16820,9 @@ msgstr "Tijd instellen"
 msgid "Set action for 'Info' key"
 msgstr "Selecteer actie voor INFO-knop"
 
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Indien geactiveerd, dan kunt u alternatieve Fallback tuners ingeven t.b.v. DVB-T/C or ATSC ontvangst."
+
 msgid "Set current CEC address as fixed address"
 msgstr "Stel het huidige CEC adres in als vast adres"
 
@@ -16766,6 +16862,9 @@ msgstr ""
 "Stel het MAC-adres in\n"
 "van uw %s %s."
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Voer het gebruikers ID van de OpenWebif in vanaf uw Fallback tuner."
+
 msgid "Set the aspect ratio of the service picons."
 msgstr "Selecteer de aspect ratio van de zender picons."
 
@@ -16792,6 +16891,12 @@ msgstr "Stel hier de grootte in van de tijdsprong van de 'seekbar' in."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Stel het aantal regels in dat moet worden opgeslagen voor 'stout'- en 'sterr'-uitvoer in scripts."
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Stel het wachtwoord van de OpenWebif in vanaf je Fallback tuner"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Stel de poort van de OpenWebif in vanaf de Fallback tuner."
 
 msgid "Set the position of the recording icons."
 msgstr "Stel de positie van opname-iconen in."
@@ -17607,6 +17712,18 @@ msgstr "Het volgende zenderinformatie scherm laten zien"
 
 msgid "Show next system information screen"
 msgstr "Toon het volgende systeeminformatie scherm"
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
+msgstr "Indien geactiveerd, dan wordt er een melding weergegeven indien de import van zenders en/of EPG vanaf de externe ontvanger niet (compleet) gelukt is."
+
+msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
+msgstr "Indien geactiveerd, dan wordt er een melding weergegeven indien de import van zenders en/of EPG vanaf de externe ontvanger geslaagd is."
+
+msgid "Show notification when import channels was not successful"
+msgstr "Toon een melding indien de import niet geslaagd is"
+
+msgid "Show notification when import channels was successful"
+msgstr "Toon een melding indien de import geslaagd is"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Toon of verberg de uitgebreide beschrijving (skin afhankelijk)."
@@ -20830,6 +20947,9 @@ msgstr "UP80  (keymap.u80)"
 msgid "URL"
 msgstr "URL"
 
+msgid "URL of fallback remote receiver"
+msgstr "Indien u hier kiest voor IPadres, dan voert u in de regels hieronder de URL in zoals in het onderstaande voorbeeld aangegeven wordt. Het volstaat om enkel het IPadres in te voeren zonder http:// of poortnummer. Deze worden standaard toegevoegd zodat het eindresultaat er bijvoorbeeld zo uit zal zien. http://192.168.100.202:8001"
+
 msgid "URL of fallback remote receiver."
 msgstr "Voer de complete URL in zoals hier een voorbeeld van bijgevoegd is. http:// IPadres en poortnummer (normaal ...:8001), en http://IP_tweede_box:8001"
 
@@ -20891,6 +21011,9 @@ msgstr "Ongecodeerd"
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Onverwachte fout bij openen van WebIF:%s"
+
+msgid "Unexpected error while retrieving fallback tuner's timer information"
+msgstr "Onverwachte fout bij het ophalen van de timer-informatie vanaf de FallBack-tuner"
 
 msgid "UnhandledKey"
 msgstr "Ongeldige knop"
@@ -21393,6 +21516,9 @@ msgstr "Gebruiker - favorietenlijst"
 
 msgid "User Feed URL"
 msgstr "Eigen Feed URL"
+
+msgid "User ID"
+msgstr "Gebruikers ID"
 
 msgid "User comments"
 msgstr "Opmerkingen van gebruikers"
@@ -22071,6 +22197,15 @@ msgstr "Wanneer geactiveerd zal de ontvanger automatisch naar Stand-by gaan wann
 
 msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
 msgstr "Wanneer geactiveerd zal de ontvanger automatisch ontwaken uit Stand-by wanneer de TV ingeschakeld wordt."
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
+
+msgid "When enabled the timer from the fallback tuner is the default timer"
+msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
+
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Indien geactiveerd, dan kunt u de instellingen van de Fallback tuner aanpassen in de Webinterface."
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Indien geactiveerd, zal de AIT data worden toegevoegd aan de http-streams. Hiermee kan een cliënt-ontvanger HbbTV gebruiken."
@@ -23901,139 +24036,14 @@ msgstr "ja (bewaar feeds)"
 msgid "®"
 msgstr "®"
 
-msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Onverwachte fout bij het ophalen van de timer-informatie vanaf de FallBack-tuner"
+#~ msgid "Backup done."
+#~ msgstr "Back-up is gereed."
 
-msgid "Fallback API did not return a valid result."
-msgstr "De Fallback API gaf geen geldig resultaat."
+#~ msgid "Backup failed!"
+#~ msgstr "De back-up is mislukt!"
 
-msgid ""
-"Error while retrieving fallback timer information\n"
-"%s"
-msgstr ""
-
-msgid "Fallback tuner setup"
-msgstr "Instellen van de Fallback (externe) tuner"
-
-msgid "Same as stream"
-msgstr "Identiek aan de stream"
-
-msgid "Enter IP address"
-msgstr "Voer een IPadres in"
-
-msgid "Import from remote receiver URL"
-msgstr "Importeer data vanaf een externe ontvanger"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Indien geactiveerd, dan importeert u zenders van een externe ontvanger indien uw ontvanger opstart. Na activatie van deze functie kunt u nadere details instellen."
-
-msgid "Enable import timer from fallback tuner"
-msgstr "Activeer de import van timers van de Fallback tuner"
-
-msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
-
-msgid "Select the timer from the fallback tuner by default"
-msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
-
-msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Indien geactiveerd, dan worden ook de timers van de externe tuner geïmporteerd."
-
-msgid "Fallback remote receiver"
-msgstr "Fallback externe tuner"
-
-msgid "Destination of fallback remote receiver"
-msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
-
-msgid "Fallback remote receiver IP"
-msgstr "IPadres van de Fallback tuner"
-
-msgid "IP of fallback remote receiver"
-msgstr "Indien u bij de voorgaande optie heeft gekozen voor 'IPadres', dan kunt u nu een specifiek IPadres ingeven waarop de Fallback tuner in het netwerk te vinden is."
-
-msgid "Fallback remote receiver Port"
-msgstr "Ingave van de poort van de Fallback tuner"
-
-msgid "Port of fallback remote receiver"
-msgstr "Indien bij 'Fallback tuner' (optie 3) gekozen is voor een separaat IPadres, dan kunt u hier de gebruikte poort van de Fallback tuner ingeven."
-
-msgid "URL of fallback remote receiver"
-msgstr "Indien u hier kiest voor IPadres, dan voert u in de regels hieronder de URL in zoals in het onderstaande voorbeeld aangegeven wordt. Het volstaat om enkel het IPadres in te voeren zonder http:// of poortnummer. Deze worden standaard toegevoegd zodat het eindresultaat er bijvoorbeeld zo uit zal zien. http://192.168.100.202:8001"
-
-msgid "Import remote receiver URL"
-msgstr "Locatie van de externe ontvanger"
-
-msgid "Also import at reboot/restart enigma2"
-msgstr "Importeer ook bij een herstart van de ontvanger of Enigma"
-
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Indien geactiveerd, dan importeert u ook de zenders en/of de EPG vanaf de externe ontvanger als de ontvanger of enigma2 is herstart."
-
-msgid "Also import when box is leaving standby"
-msgstr "Importeer ook indien de ontvanger vanuit stand-by opstart"
-
-msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Indien geactiveerd, dan importeert u ook de zenders en/of de EPG vanaf de externe ontvanger als deze uit stand-by komt."
-
-msgid "Also import from the extension menu"
-msgstr "Maak de import ook mogelijk via het applicatie-menu"
-
-msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Indien geactiveerd, dan krijgt u de mogelijkheid om handmatig de import van zenders en/of EPG via het applicatie-menu (blauwe toets) uit te voeren."
-
-msgid "Show notification when import channels was successful"
-msgstr "Toon een melding indien de import geslaagd is"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Indien geactiveerd, dan wordt er een melding weergegeven indien de import van zenders en/of EPG vanaf de externe ontvanger geslaagd is."
-
-msgid "Show notification when import channels was not successful"
-msgstr "Toon een melding indien de import niet geslaagd is"
-
-msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Indien geactiveerd, dan wordt er een melding weergegeven indien de import van zenders en/of EPG vanaf de externe ontvanger niet (compleet) gelukt is."
-
-msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Pas de instellingen van de Fallback tuner aan in de OpenWebif"
-
-msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Indien geactiveerd, dan kunt u de instellingen van de Fallback tuner aanpassen in de Webinterface."
-
-msgid "User ID"
-msgstr "Gebruikers ID"
-
-msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Voer het gebruikers ID van de OpenWebif in vanaf uw Fallback tuner."
-
-msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Stel het wachtwoord van de OpenWebif in vanaf je Fallback tuner"
-
-msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Stel de poort van de OpenWebif in vanaf de Fallback tuner."
-
-msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr "Alternatieve URL's t.b.v. DVB-T/C of ATSC"
-
-msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Indien geactiveerd, dan kunt u alternatieve Fallback tuners ingeven t.b.v. DVB-T/C or ATSC ontvangst."
-
-msgid "Fallback remote receiver for DVB-T"
-msgstr "Fallback tuner t.b.v. DVB-T"
-
-msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. DVB-T ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
-
-msgid "Fallback remote receiver for DVB-C"
-msgstr "Fallback tuner t.b.v. DVB-C"
-
-msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. DVB-C ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
-
-msgid "Fallback remote receiver for ATSC"
-msgstr "Fallback tuner t.b.v. ATSC"
-
-msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Hier geeft u de locatie van de Fallback (externe) tuner aan t.b.v. ATSC ontvangst. U kunt kiezen uit een voorgedefinieerde in het netwerk aanwezige receiver of een zelf in te voeren IPadres of URL. In twee gevallen dient u een poortnummer in te geven. Dit wordt duidelijk aangegeven."
+#~ msgid "No Devices Found !!"
+#~ msgstr "!! Geen apparaten gevonden !!"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"
