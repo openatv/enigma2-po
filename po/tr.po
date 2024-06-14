@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-06-12 07:25+0000\n"
+"PO-Revision-Date: 2024-06-14 06:41+0000\n"
 "Last-Translator: DreamOSat Forum <info@dreamosat-forum.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -2311,13 +2311,13 @@ msgid "Alphanumeric"
 msgstr "Alfanümerik"
 
 msgid "Also import at reboot/restart enigma2"
-msgstr ""
+msgstr "Enigma2'yi yeniden başlatırken de içe aktarın"
 
 msgid "Also import from the extension menu"
 msgstr "Eklenti menüsünde göster"
 
 msgid "Also import when box is leaving standby"
-msgstr ""
+msgstr "Kutu bekleme modundan çıkarken de içe aktar"
 
 msgid "Also on standby"
 msgstr "Ayrıca beklemede"
@@ -2339,7 +2339,7 @@ msgid "Alternative Edit"
 msgstr "[alternatif düzenle]"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
-msgstr ""
+msgstr "DVB-T/C veya ATSC için alternatif URL'ler"
 
 msgid "Alternative numbering mode"
 msgstr "Alternatif numaralama kipi"
@@ -4166,7 +4166,7 @@ msgid "Choose the display formatting style for times. 'H' / 'HH' is the hour for
 msgstr "Zamanlar için ekran formatlama stilini seçin. 'H' / 'HH' 24 saatlik bir saattir, 'h' / 'hh' 12 saatlik bir saattir, 'mm' dakikadır ve 'ss saniyedir. ('HH' ve 'hh', tek basamaklı değerler için önde gelen sıfırlara sahiptir.) Ekran görüntüsü seçiminize göre olacaktır ancak ciltten etkilenebilir."
 
 msgid "Choose the fallback font."
-msgstr ""
+msgstr "Yedek yazı tipini seçin."
 
 msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Tarihler için ön panel ekran formatlama stilini seçin. 'D' / 'DD' tarih ve 'M' / 'MM' rakamlarla aydır. ('DD' ve 'MM', tek basamaklı değerler için önde gelen sıfırlara sahiptir.) Ekran görüntüsü seçiminize göre olacaktır ancak ciltten etkilenebilir."
@@ -5450,7 +5450,7 @@ msgid "Customize"
 msgstr "Özelleştir"
 
 msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr ""
+msgstr "Geri dönüş ayarlayıcı için OpenWebIF ayarlarını özelleştirin"
 
 msgid "Customize System Settings"
 msgstr "Sistem Ayarlarını Özelleştirin"
@@ -6615,12 +6615,18 @@ msgid ""
 "\n"
 "HINT: This will take about 5 seconds!"
 msgstr ""
+"OSCam'i gerçekten yeniden başlatmak istiyor musunuz?\n"
+"\n"
+"İPUCU: Bu işlem yaklaşık 5 saniye sürecektir!"
 
 msgid ""
 "Do you really want to shut down OSCam?\n"
 "\n"
 "ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
 msgstr ""
+"OSCam'i gerçekten kapatmak istiyor musunuz?\n"
+"\n"
+"DİKKAT: OSCam'i yeniden etkinleştirmek için alıcının tamamen yeniden başlatılması gerekir!"
 
 #, python-format
 msgid "Do you really want to stop and delete the timer '%s'?"
@@ -7288,7 +7294,7 @@ msgid "Enable freesat EPG"
 msgstr "Freesat EPG etkinleştir"
 
 msgid "Enable import timer from fallback tuner"
-msgstr ""
+msgstr "Yedek ayarlayıcıdan içe aktarma zamanlayıcısını etkinleştir"
 
 msgid "Enable intro screen"
 msgstr "Giriş ekranını etkinleştir"
@@ -7758,6 +7764,8 @@ msgid ""
 "Error while retrieving fallback timer information\n"
 "%s"
 msgstr ""
+"Geri dönüş zamanlayıcı bilgileri alınırken hata oluştu\n"
+"%s"
 
 msgid "Error, unknown Result!"
 msgstr "Hata, bilinmeyen Sonuç!"
@@ -8267,10 +8275,10 @@ msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland Adaları (Malvinas)"
 
 msgid "Fallback API did not return a valid result."
-msgstr ""
+msgstr "Geri dönüş API'si geçerli bir sonuç döndürmedi."
 
 msgid "Fallback Font *"
-msgstr ""
+msgstr "Yedek Yazı Tipi *"
 
 msgid "Fallback remote receiver"
 msgstr "Yedek cihaz URL"
@@ -9869,13 +9877,13 @@ msgid "Immediately restart selected devices."
 msgstr "Seçilen cihazları hemen yeniden başlatın."
 
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr ""
+msgstr "Alıcı bekleme modundan çıkarken de uzak alıcı URL'sinden kanalları ve/veya EPG'yi içe aktarın"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
 msgstr "Yedek cihaz URL"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr ""
+msgstr "Alıcı veya enigma2 yeniden başlatıldığında, uzak alıcı URL'sinden kanalları ve/veya EPG'yi içe aktarın"
 
 msgid "Import from remote receiver URL"
 msgstr "Yedek cihaz URL"
@@ -11170,7 +11178,7 @@ msgid "Make"
 msgstr "Marka"
 
 msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr ""
+msgstr "Uzantı menüsü aracılığıyla kanalların içe aktarımını ve/veya EPG'yi manuel olarak başlatmayı mümkün kılın"
 
 #
 msgid "Make this mark an 'in' point"
@@ -13082,7 +13090,7 @@ msgid "Open the Channel Selection Settings screen"
 msgstr "Kanal Seçim Ayarları ekranını açın"
 
 msgid "Open the Image information"
-msgstr ""
+msgstr "Image bilgilerini aç"
 
 msgid "Open the Plugin Browser"
 msgstr "Eklenti Tarayıcısını Aç"
@@ -13091,7 +13099,7 @@ msgid "Open the Plugin Browser settings screen"
 msgstr "Eklenti Tarayıcı ayarları ekranını açın"
 
 msgid "Open the Storage Device information"
-msgstr ""
+msgstr "Depolama Cihazı bilgilerini açın"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Metin girişi için VirtualKeyBoard'u açın"
@@ -14653,7 +14661,7 @@ msgid "Quick Launch Menu"
 msgstr "Hızlı Başlat Menüsü"
 
 msgid "Quick Menu Actions"
-msgstr ""
+msgstr "Hızlı Menü Eylemleri"
 
 msgid "Quick Menu..."
 msgstr "Hızlı Menü..."
@@ -15486,7 +15494,7 @@ msgid "Restart Network Adapter"
 msgstr "Ağ Bağdaştırıcısını Yeniden Başlat"
 
 msgid "Restart OSCam"
-msgstr ""
+msgstr "OSCam'i yeniden başlatın"
 
 msgid "Restart enigma"
 msgstr "Enigma'yı yeniden başlat"
@@ -17473,7 +17481,7 @@ msgid "Set action for 'Info' key"
 msgstr "'Bilgi' tuşu için eylemi ayarla"
 
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr ""
+msgstr "DVB-T/C veya ATSC için alternatif geri dönüş ayarlayıcıları ayarlayın"
 
 msgid "Set current CEC address as fixed address"
 msgstr "Mevcut CEC adresini sabit adres olarak ayarla"
@@ -17514,7 +17522,7 @@ msgid "Set the MAC address of your %s %s."
 msgstr "MAC adresinizi ayarlayın %s %s."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr ""
+msgstr "edek ayarlayıcınızdan OpenWebif'in Kullanıcı Kimliğini ayarlayın"
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Servis pikonlarının en boy oranını ayarlayın."
@@ -17544,10 +17552,10 @@ msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scr
 msgstr "Komut dosyalarında 'stout' ve 'sterr' çıktısı için kaydedilecek satır sayısını ayarlayın."
 
 msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr ""
+msgstr "Yedek ayarlayıcınızdan OpenWebif'in şifresini ayarlayın"
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr ""
+msgstr "OpenWebif'in bağlantı noktasını yedek ayarlayıcınızdan ayarlayın"
 
 msgid "Set the position of the recording icons."
 msgstr "Kayıt simgelerinin konumunu ayarla"
@@ -18371,16 +18379,16 @@ msgid "Show next system information screen"
 msgstr "Sonraki sistem bilgi ekranını göster"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr ""
+msgstr "Uzak alıcı URL'sinden kanalları ve/veya EPG'yi içe aktarma işlemi tamamlanmadığında bildirim göster"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr ""
+msgstr "Uzak alıcı URL'sinden kanalları ve/veya EPG'yi içe aktarma tamamlandığında bildirim göster"
 
 msgid "Show notification when import channels was not successful"
-msgstr ""
+msgstr "Kanalları içe aktarma başarılı olmadığında bildirim göster"
 
 msgid "Show notification when import channels was successful"
-msgstr ""
+msgstr "Kanalları içe aktarma başarılı olduğunda bildirim göster"
 
 msgid "Show or hide the extended description, (skin dependent)."
 msgstr "Geniş açıklamayı göster ya da gizle, (arayüze bağımlı)."
@@ -18685,7 +18693,7 @@ msgid "Shutdown"
 msgstr "Kapat"
 
 msgid "Shutdown OSCam"
-msgstr ""
+msgstr "OSCam'i Kapat"
 
 msgid "Shutting down. Please wait..."
 msgstr "Kapatılıyor. Lütfen bekleyin..."
@@ -21782,7 +21790,7 @@ msgid "Unexpected error accessing WebIF: %s"
 msgstr "%s :WebIF'e erişirken beklenmeyen hata"
 
 msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr ""
+msgstr "Geri dönüş ayarlayıcının zamanlayıcı bilgileri alınırken beklenmeyen hata oluştu"
 
 msgid "UnhandledKey"
 msgstr "İşlenmemiş Key"
@@ -23020,13 +23028,13 @@ msgid "When enabled the receiver will automatically wake from standby when the T
 msgstr "Etkinleştirildiğinde, TV açıldığında alıcı otomatik olarak bekleme modundan çıkar."
 
 msgid "When enabled the timer from the fallback tuner is imported"
-msgstr ""
+msgstr "Etkinleştirildiğinde, geri dönüş tunerindeki zamanlayıcı içe aktarılır"
 
 msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr ""
+msgstr "Etkinleştirildiğinde, geri dönüş ayarlayıcıdan gelen zamanlayıcı varsayılan zamanlayıcıdır"
 
 msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr ""
+msgstr "Etkinleştirildiğinde, geri dönüş ayarlayıcı için OpenWebIf ayarlarını özelleştirebilirsiniz"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Etkinleşince, AIT verileri http akışına eklenir. Bu, istemci alıcısının HbbTV yi kullanmasını sağlar."
