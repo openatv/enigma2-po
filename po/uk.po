@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-06-11 22:09+0000\n"
+"PO-Revision-Date: 2024-06-14 16:32+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -3902,7 +3902,7 @@ msgid "Channel name"
 msgstr "Назва каналу"
 
 msgid "Channel preview mode"
-msgstr "Режим прев'ю канала"
+msgstr "Режим прев'ю каналу"
 
 msgid "Channel selection configuration"
 msgstr "Налаштування списку каналів"
@@ -4053,7 +4053,7 @@ msgid "Choose the display formatting style for times. 'H' / 'HH' is the hour for
 msgstr "Виберіть стиль відображення часу. 'H'/'HH' - час для 24-годинного годинника, 'h'/'hh' - час для 12-годинного годинника, 'mm' - хвилини, а ss - секунди. ('HH' і 'hh' мають на початку нулі для однозначних значень.) Екран буде заснований на вашому виборі, але може впливати скін."
 
 msgid "Choose the fallback font."
-msgstr ""
+msgstr "Вибрати резервний шрифт."
 
 msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Виберіть стиль відображення на передній панелі для дат. 'D'/'DD' - це дата, а 'M'/'MM' - місяць у цифрах. ('DD' і 'MM' мають на початку нулі для однозначних значень.) Екран буде заснований на вашому виборі, але на нього може вплинути скін."
@@ -4729,7 +4729,7 @@ msgid "Configure the transparency of the black background of subtitles."
 msgstr "Налаштування прозорості для чорного фону субтитрів."
 
 msgid "Configure the tuner mode."
-msgstr "Налаштвання режиму тюнера."
+msgstr "Налаштування режиму тюнера."
 
 msgid "Configure the type of status indication icons shown in the movie list."
 msgstr "Налаштування типів значків індикації стану, при показі в списку фільмів."
@@ -4841,7 +4841,7 @@ msgid "Connected satellites"
 msgstr "Підключені супутники"
 
 msgid "Connected through another tuner"
-msgstr "Підключино через інший тюнер"
+msgstr "Підключено через інший тюнер"
 
 msgid "Connected to"
 msgstr "Під'єднано до"
@@ -6397,12 +6397,18 @@ msgid ""
 "\n"
 "HINT: This will take about 5 seconds!"
 msgstr ""
+"Ви дійсно хочете перезапустити OSCam?\n"
+"\n"
+"УВАГА: це займе приблизно 5 секунд!"
 
 msgid ""
 "Do you really want to shut down OSCam?\n"
 "\n"
 "ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
 msgstr ""
+"Ви дійсно хочете вимкнути OSCam?\n"
+"\n"
+"УВАГА: Щоб повторно активувати OSCam, необхідно виконати повний перезапуск приймача!"
 
 #, python-format
 msgid "Do you really want to stop and delete the timer '%s'?"
@@ -7803,7 +7809,7 @@ msgid "Experimental mode"
 msgstr "Експериментальний режим"
 
 msgid "Experimental: strict limitation to preferred tuners for recordings"
-msgstr "Експериментальний: суворе обмеження пріорітетних тюнерів для записів"
+msgstr "Експериментальний: суворе обмеження пріоритетних тюнерів для записів"
 
 msgid "Expert"
 msgstr "Експерт"
@@ -7975,7 +7981,7 @@ msgid "Fallback API did not return a valid result."
 msgstr "Резервний API не завантажив дійсний результат."
 
 msgid "Fallback Font *"
-msgstr ""
+msgstr "Резервний шрифт *"
 
 msgid "Fallback remote receiver"
 msgstr "Запасний віддалений приймач"
@@ -8493,7 +8499,7 @@ msgid "From :"
 msgstr "Від :"
 
 msgid "Front"
-msgstr "Спереду"
+msgstr "Вид Тюнера"
 
 msgid "Front USB"
 msgstr "Передня USB"
@@ -12027,7 +12033,7 @@ msgid "No suitable backup locations found!"
 msgstr "Не знайдено відповідних резервних місць!"
 
 msgid "No suitable sat tuner found!"
-msgstr "Немає відповідного сат тюнера!"
+msgstr "Немає відповідного сат-тюнера!"
 
 msgid "No tags are set on these movies."
 msgstr "Теги не встановлені на цих фільмах."
@@ -12527,7 +12533,7 @@ msgid "Open the Channel Selection Settings screen"
 msgstr "Відкрити екран налаштувань Списку каналів"
 
 msgid "Open the Image information"
-msgstr ""
+msgstr "Відкрити інформацію про Імідж"
 
 msgid "Open the Plugin Browser"
 msgstr "Відкрити Провідник додатків"
@@ -12536,7 +12542,7 @@ msgid "Open the Plugin Browser settings screen"
 msgstr "Відкрити вікно налаштувань браузера Плагінів"
 
 msgid "Open the Storage Device information"
-msgstr ""
+msgstr "Відкрити інформацію про пристрій зберігання даних"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Відкрийте віртуальну клавіатуру для введення тексту"
@@ -13581,28 +13587,28 @@ msgid "Preferred tuner"
 msgstr "Пріоритетний тюнер"
 
 msgid "Preferred tuner ATSC"
-msgstr "Приорітетний тюнер ATSC"
+msgstr "Пріоритетний тюнер ATSC"
 
 msgid "Preferred tuner ATSC for recordings"
 msgstr "Віддається перевага тюнеру ATSC для запису"
 
 msgid "Preferred tuner DVB-C"
-msgstr "Приоритетний тюнер DVB-C"
+msgstr "Пріоритетний тюнер DVB-C"
 
 msgid "Preferred tuner DVB-C for recordings"
-msgstr "Приорітетний тюнер DVB-C для записів"
+msgstr "Пріоритетний тюнер DVB-C для записів"
 
 msgid "Preferred tuner DVB-S"
-msgstr "Приорітетний тюнер DVB-S"
+msgstr "Пріоритетний тюнер DVB-S"
 
 msgid "Preferred tuner DVB-S for recordings"
-msgstr "Приорітетний тюнер DVB-S для записів"
+msgstr "Пріоритетний тюнер DVB-S для записів"
 
 msgid "Preferred tuner DVB-T"
-msgstr "Приорітетний тюнер DVB-T"
+msgstr "Пріоритетний тюнер DVB-T"
 
 msgid "Preferred tuner DVB-T for recordings"
-msgstr "Приорітетний тюнер DVB-T для записів"
+msgstr "Пріоритетний тюнер DVB-T для записів"
 
 msgid "Preferred tuner for recordings"
 msgstr "Пріоритетний тюнер для запису"
@@ -14010,7 +14016,7 @@ msgid "Quick Launch Menu"
 msgstr "Швидкий запуск меню"
 
 msgid "Quick Menu Actions"
-msgstr ""
+msgstr "Дії Quick Menu"
 
 msgid "Quick Menu..."
 msgstr "Швидке меню..."
@@ -14198,7 +14204,7 @@ msgid "Receiver Information Actions"
 msgstr "Інформаційні дії приймача"
 
 msgid "Receiver does not support Quad PiP."
-msgstr "Тюнер, або драйвер не підтримують чотирьохекранний PiP."
+msgstr "Тюнер, або драйвер не підтримують чотирьох екранний PiP."
 
 #, python-format
 msgid "Receiver information for %s %s"
@@ -14789,7 +14795,7 @@ msgid "Restart Network Adapter"
 msgstr "Перезапуск мережевого адаптера"
 
 msgid "Restart OSCam"
-msgstr ""
+msgstr "Перезапустити OSCam"
 
 msgid "Restart enigma"
 msgstr "Перезавантаження Enigma"
@@ -15579,7 +15585,7 @@ msgid "Select 'Yes' to enable new Zap timers to have an end time turned on and d
 msgstr "Виберіть 'Так', щоб у нових таймерах Zap увімкнути та визначити час завершення за замовчуванням."
 
 msgid "Select 'Yes' to enable preview of channels while in the EPG list."
-msgstr "Якщо вибрано 'так', в телегід буде включений перегляд каналів."
+msgstr "Якщо вибрано 'так', в телегіді буде включений перегляд каналів."
 
 msgid "Select 'Yes' to enable preview of channels while in the EPG list. Press 'OK' to preview the currently selected channel. Press 'OK' again to exit the EPG and zap to the selected channel. Press 'EXIT' to exit the EPG and return to the previously selected channel."
 msgstr "Якщо вибрано 'так', у списку каналів буде включений перегляд каналів. Натискання ОК відкриє канал в PiG-вікні, друге натиснення ОК закриє селектор каналів і перемкне на даний канал, натискання кнопки 'EXIT' закриє селектор каналів з поверненням на старий канал."
@@ -16051,7 +16057,7 @@ msgid "Select the User Band channel to be assigned to this tuner. This is an ind
 msgstr "Виберіть Канал Користувача, який буде призначено цьому тюнеру. Це значення в таблиці частот, який використовує LNB SCR для передачі вибраного транспондера в тюнер."
 
 msgid "Select the User Band channel to be assigned to this tuner. This is an index into the table of frequencies the SCR switch uses to pass the requested transponder to the tuner."
-msgstr "Виберіть Канал Користувачаа, який буде призначено цьому тюнеру. Це значення в таблиці частот, який використовує перемикач SCR для передачі вибраного транспондера в тюнер."
+msgstr "Виберіть Канал Користувача, який буде призначено цьому тюнеру. Це значення в таблиці частот, який використовує перемикач SCR для передачі вибраного транспондера в тюнер."
 
 msgid "Select the User Band frequency to be assigned to this tuner. This is the frequency the SCR LNB uses to pass the requested transponder to the tuner."
 msgstr "Виберіть частоту Користувацької Смуги, яку буде призначено цьому тюнеру. Це частота, яку використовує LNB SCR для передачі вибраного транспондера до тюнера."
@@ -17871,7 +17877,7 @@ msgid "Shutdown"
 msgstr "Вимкнути"
 
 msgid "Shutdown OSCam"
-msgstr ""
+msgstr "Зупинити OSCam"
 
 msgid "Shutting down. Please wait..."
 msgstr "Вимкнення. Будь ласка, зачекайте..."
@@ -19105,7 +19111,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 11.06.2024"
+msgstr "Переклад: kvinto - 14.06.2024"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -19656,8 +19662,8 @@ msgid ""
 "The unicable connection setting is wrong.\n"
 "Maybe recursive connection of tuners."
 msgstr ""
-"Налаштування з’єднання unicable неправельне.\n"
-" Може бути рекурсивне підключення тюнерів."
+"Налаштування з’єднання unicable неправильне.\n"
+"Може бути рекурсивне підключення тюнерів."
 
 #, python-format
 msgid "The user interface of your %s %s is restarting"
