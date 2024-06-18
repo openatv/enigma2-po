@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2023-06-04 19:16+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -4351,6 +4351,12 @@ msgstr "Komanda '%s' nežinoma"
 msgid "Command execution..."
 msgstr "Vykdoma komanda..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
 msgid "Command order"
 msgstr "Komandų seka"
 
@@ -7618,6 +7624,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Klaida: nepavyko pervardyti katalogo \"%s\" į \"%s\"!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Failo rašymo klaida: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Klaida: negalite paleisti \"%s\" naudodami \"%s\"!"
 
@@ -7719,12 +7729,6 @@ msgstr "Viršija dvejų sluoksnių laikmeną!"
 
 msgid "Execution condition"
 msgstr "Vykdymo sąlyga"
-
-msgid "Execution finished!!"
-msgstr "Vykdymas baigtas!!"
-
-msgid "Execution progress:"
-msgstr "Vykdymo eiga:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8200,10 +8204,6 @@ msgstr "Failų perkėlimą atšaukė vartotojas!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Failo perkėlimas atšauktas vartotojo"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Failo rašymo klaida: '%s'"
 
 msgid "Filename"
 msgstr "Failo pavadinimas"
@@ -9069,11 +9069,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "Nustatykite laiką, kad paslėpti info juostą."
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Paslėpti perjungimo klaidas"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Informacijos lygis"
@@ -11604,6 +11604,9 @@ msgstr "PASTABA: Katalogas / failas \"%s\" egzistuoja ir bus perrašytas!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "PASTABA: Šie %d katalogai / failai egzistuoja ir bus perrašyti!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "DABAR"
 
@@ -12889,9 +12892,6 @@ msgstr "Slaptažodis pakeistas."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Nėra kelio išsaugojimui: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pauzė"
@@ -15035,6 +15035,10 @@ msgstr "Veikiantis"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Palaukite, vykdomas Mano atkūrimo scenarijus ..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Rusų"
 
@@ -15228,6 +15232,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "Išsaugoti EPG duomenis"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "Įrašyti visus pakeistus parametrus ir išeiti"
 
@@ -15278,6 +15285,9 @@ msgstr "Išsaugokite kairiojo stulpelio katalogo vietą išeidami."
 
 msgid "Save the log changes and exit"
 msgstr "Išsaugokite žurnalo pakeitimus ir išeikite"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "Išsaugokite dešiniojo stulpelio katalogo vietą išeidami."
@@ -23782,6 +23792,15 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Atsarginis laikmatis"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Vykdymas baigtas!!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Vykdymo eiga:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Nėra kelio išsaugojimui: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Atsarginė kopija padaryta."
