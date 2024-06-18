@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2023-04-10 14:44+0000\n"
 "Last-Translator: Abel Cheung <abelcheung@gmail.com>\n"
 "Language-Team: Chinese (Traditional, Hong Kong) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hant_HK/>\n"
@@ -4493,6 +4493,10 @@ msgstr ""
 msgid "Command execution..."
 msgstr "執行命令..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+
 msgid "Command order"
 msgstr "命令順序"
 
@@ -7841,6 +7845,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -7944,12 +7952,6 @@ msgstr "超過雙層介質！"
 #, fuzzy
 msgid "Execution condition"
 msgstr "執行完畢！"
-
-msgid "Execution finished!!"
-msgstr "執行完畢！"
-
-msgid "Execution progress:"
-msgstr ""
 
 msgid "Exif"
 msgstr "Exif"
@@ -8449,10 +8451,6 @@ msgid "File transfer was canceled by user!"
 msgstr ""
 
 msgid "File transfer was cancelled by user"
-msgstr ""
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
 msgstr ""
 
 msgid "Filename"
@@ -9392,10 +9390,10 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "資訊條"
 
-msgid "Hide this screen"
+msgid "Hide zap errors"
 msgstr ""
 
-msgid "Hide zap errors"
+msgid "Hide/Show the console screen"
 msgstr ""
 
 msgid "Hierarchy info"
@@ -12089,6 +12087,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "現在"
 
@@ -13462,9 +13463,6 @@ msgstr ""
 
 #, python-format
 msgid "Path '%s' missing!"
-msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
 msgstr ""
 
 msgid "Pause"
@@ -15764,6 +15762,10 @@ msgstr "正在運行"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "搜尋您的網路. 請稍候..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "俄語"
 
@@ -15967,6 +15969,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "保存播放列表"
 
+msgid "Save Log"
+msgstr ""
+
 #, fuzzy
 msgid "Save all changed settings and exit"
 msgstr "退出時保存目錄"
@@ -16018,6 +16023,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -24875,6 +24883,9 @@ msgstr ""
 
 msgid "Fallback Timer"
 msgstr ""
+
+#~ msgid "Execution finished!!"
+#~ msgstr "執行完畢！"
 
 #~ msgid "Backup done."
 #~ msgstr "備份已完成."
