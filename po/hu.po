@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2022-03-10 14:56+0000\n"
 "Last-Translator: H. Árkosi Róbert <robreg@zsurob.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -4348,6 +4348,11 @@ msgstr ""
 msgid "Command execution..."
 msgstr "Parancs végrehajtása..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+
 msgid "Command order"
 msgstr "Parancs sorrend"
 
@@ -7616,6 +7621,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Fájlírási hiba: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -7711,12 +7720,6 @@ msgstr "Meghaladja a kétrétegű hordozó kapacitását!"
 
 msgid "Execution condition"
 msgstr "Végrehajtási állapot"
-
-msgid "Execution finished!!"
-msgstr "Végrehajtás befejezve!"
-
-msgid "Execution progress:"
-msgstr "Végrehajtási állapot:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8199,10 +8202,6 @@ msgstr ""
 
 msgid "File transfer was cancelled by user"
 msgstr "A felhasználó megszakította a fájlátvitelt"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Fájlírási hiba: '%s'"
 
 #, fuzzy
 msgid "Filename"
@@ -9080,11 +9079,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "Az információs sáv elhalványodása az eltünésekor engedélyezett-e vagy nem"
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Csatornaváltási hibák elrejtése"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Hierarchikus mód"
@@ -11668,6 +11667,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "MOST"
 
@@ -12970,9 +12972,6 @@ msgstr "Jelszó módosítva."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "A mentéshez nem létező elérési út: '/tmp/'"
 
 msgid "Pause"
 msgstr "Szünet"
@@ -15117,6 +15116,10 @@ msgstr "Folyamatban"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Myrestore script fut - Kérem várjon..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Orosz"
 
@@ -15314,6 +15317,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "EPG adat mentése"
 
+msgid "Save Log"
+msgstr ""
+
 #, fuzzy
 msgid "Save all changed settings and exit"
 msgstr "Szöveg mentése / szöveg beírása és kilépés"
@@ -15364,6 +15370,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -23900,6 +23909,15 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Tartalék távoli időzítő"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Végrehajtás befejezve!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Végrehajtási állapot:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "A mentéshez nem létező elérési út: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Mentés kész."
