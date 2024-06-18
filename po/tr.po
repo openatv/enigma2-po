@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2024-06-14 06:41+0000\n"
 "Last-Translator: DreamOSat Forum <info@dreamosat-forum.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -4466,6 +4466,10 @@ msgstr "'%s' komutu bilinmiyor"
 msgid "Command execution..."
 msgstr "Komut çalıştırılıyor..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+
 #
 msgid "Command order"
 msgstr "Komut sıralaması"
@@ -7883,6 +7887,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Hata oluştu: '%s' dizini '%s' olarak yeniden adlandırılamıyor!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Dosya yazma hatası: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Hata: '%s'ı '%s' üzerinde çalıştıramazsınız!"
 
@@ -7988,14 +7996,6 @@ msgstr "Çift katman (dual layer) ortam kapasitesini aşıyor!"
 
 msgid "Execution condition"
 msgstr "Yürütme koşulu"
-
-#
-msgid "Execution finished!!"
-msgstr "Uygulama bitti!!"
-
-#
-msgid "Execution progress:"
-msgstr "İşleyiş Durumu:"
 
 #
 msgid "Exif"
@@ -8498,10 +8498,6 @@ msgstr "Dosya aktarımı kullanıcı tarafından iptal edildi!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Dosya aktarımı kullanıcı tarafından iptal edildi"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Dosya yazma hatası: '%s'"
 
 #
 msgid "Filename"
@@ -9413,11 +9409,11 @@ msgstr "Softcam sunucu adını gizle"
 msgid "Hide the InfoBar"
 msgstr "Bilgi çubuğunu daima gizle"
 
-msgid "Hide this screen"
-msgstr "Bu ekranı gizle"
-
 msgid "Hide zap errors"
 msgstr "Zap hatalarını gizle"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Hiyerarşi bilgisi"
@@ -12090,6 +12086,9 @@ msgstr "NOT: '%s' dizini/dosyası mevcuttur ve üzerine yazılacaktır!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "NOT: Bu %d dizinler/dosyalar mevcuttur ve üzerine yazılacaktır!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "ŞİMDİ"
 
@@ -13455,9 +13454,6 @@ msgstr "Sifre değişti."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "'%s' yolu kayıp!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Kaydedilecek yol mevcut değil: '/tmp/'"
 
 #
 msgid "Pause"
@@ -15747,6 +15743,10 @@ msgstr "Çalışıyor"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Myrestore komut dosyası çalıştırılıyor, lütfen bekleyin ..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 #
 msgid "Russian"
 msgstr "Rusça"
@@ -15955,6 +15955,9 @@ msgstr "EPG Önbelleğini Kaydet"
 msgid "Save EPG data"
 msgstr "EPG verisini kaydet"
 
+msgid "Save Log"
+msgstr ""
+
 #
 msgid "Save all changed settings and exit"
 msgstr "Değiştirilen tüm ayarları kaydedin ve çıkın"
@@ -16009,6 +16012,9 @@ msgstr "Çıkışta sol sütun dizin konumunu kaydedin."
 
 msgid "Save the log changes and exit"
 msgstr "Günlük değişikliklerini kaydedin ve çıkın"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "Çıkışta sağ sütun dizin konumunu kaydedin."
@@ -24967,6 +24973,20 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr ""
+
+#
+#~ msgid "Execution finished!!"
+#~ msgstr "Uygulama bitti!!"
+
+#
+#~ msgid "Execution progress:"
+#~ msgstr "İşleyiş Durumu:"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Bu ekranı gizle"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Kaydedilecek yol mevcut değil: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Yedekleme bitti."
