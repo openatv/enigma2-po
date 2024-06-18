@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-04-20 20:07+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
+"PO-Revision-Date: 2024-06-16 17:34+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -1345,13 +1345,13 @@ msgid "-"
 msgstr "-"
 
 msgid "- No space left on backup device."
-msgstr ""
+msgstr "- Niet genoeg ruimte op het back-up apparaat."
 
 msgid "- No write permission on backup device."
-msgstr ""
+msgstr "- Geen schrijfrechten op het back-up apparaat."
 
 msgid "- Wrong backup destination."
-msgstr ""
+msgstr "- Verkeerde back-up bestemming."
 
 msgid "-24 Hours"
 msgstr "-24 uren"
@@ -1564,7 +1564,7 @@ msgid "A"
 msgstr "A"
 
 msgid "A backup is now being created."
-msgstr ""
+msgstr "Er wordt nu een back-up gemaakt."
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Een door komma's gescheiden lijst van extensies, die voor de instelling van \"Mijn extensies\" in \"Extensies filteren\" gebruikt gaan worden. Geef de naam van de extensie op zonder leidende punt (.)."
@@ -2526,7 +2526,7 @@ msgid "Assamese"
 msgstr "Assamees"
 
 msgid "Assembling the image backup files."
-msgstr ""
+msgstr "De image back-up bestanden wordt nu samengesteld."
 
 msgid "Assigned CAIds:"
 msgstr "Toegewezen CAIds:"
@@ -2660,7 +2660,7 @@ msgid "Auto install log"
 msgstr "Auto install log"
 
 msgid "Auto multi-selection"
-msgstr ""
+msgstr "Auto multi-selectie"
 
 msgid "Auto shut down"
 msgstr "Automatisch afsluiten"
@@ -2856,13 +2856,13 @@ msgid "Backup Mode"
 msgstr "Back-up modus"
 
 msgid "Backup Mode: Flash Online"
-msgstr ""
+msgstr "Back-up modus: Flash Online"
 
 msgid "Backup Mode: Flash Online\n"
 msgstr "Back-up modus: flash online\n"
 
 msgid "Backup Mode: USB Recovery"
-msgstr ""
+msgstr "Back-up modus: USB Recovery"
 
 msgid "Backup Mode: USB Recovery\n"
 msgstr "Back-up modus: herstel via USB\n"
@@ -2892,7 +2892,7 @@ msgstr "Back-up naar locatie : %s"
 
 #, python-format
 msgid "Backup tool for %s %s"
-msgstr ""
+msgstr "Back-up tool voor %s %s"
 
 msgid "Backup your %s %s settings."
 msgstr "Back-up uw %s %s instellingen."
@@ -2962,6 +2962,8 @@ msgstr "Baskisch"
 
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr ""
+"Voor deze wijzigingen a.u.b. eerst de Overscan functie van uw TV uitschakelen. \n"
+"Daarna de GUI/OSD zo instellen dat de randen van de rode rechthoek nog net zichtbaar zijn en de hoeken van het TV-scherm raken."
 
 msgid "Begin time"
 msgstr "Starttijd"
@@ -3541,7 +3543,7 @@ msgid "Can't allocate program source (e.g. tuner)"
 msgstr "Kan geen programma bron vinden (bijvoorbeeld een tuner)"
 
 msgid "Can't create backup directory!"
-msgstr ""
+msgstr "Er kan geen map voor de back-up gemaakt worden!"
 
 msgid ""
 "Can't going to live TV!\n"
@@ -4025,7 +4027,7 @@ msgid "Choose the display formatting style for times. 'H' / 'HH' is the hour for
 msgstr "Selecteer de stijl voor de tijdsweergave. 'H' / 'HH' is het uur voor een 24-uurs klok, 'h' / 'hh' is het uur voor de 12-uurs klok, 'mm' staat voor minuten en 'ss' voor seconden. ('HH' en 'hh' hebben een voorloop-nul bij een enkel getal) Uw keuze kan ook beïnvloed worden door de skin."
 
 msgid "Choose the fallback font."
-msgstr ""
+msgstr "Een reserve lettertype kiezen."
 
 msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Selecteer hoe datums moeten worden weergegeven op het Display. 'D' / 'DD' is de datum en 'M' / 'MM' is de maand in cijfers. ('DD' en 'MM' hebben een voorloop nul indien die bestaat uit een enkel getal). Het resultaat zal gebaseerd zijn op uw keuze, maar kan beïnvloed worden door de gebruikte skin."
@@ -4316,6 +4318,11 @@ msgstr "Het commando '%s' bestaat niet"
 
 msgid "Command execution..."
 msgstr "Commando uitvoeren..."
+
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Command order"
 msgstr "Commando volgorde"
@@ -7707,6 +7714,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Fout: Kan directory '%s' niet hernoemen naar '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Schrijffout in bestand: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Fout: U kunt '%s' niet uitvoeren op '%s'!"
 
@@ -7808,12 +7819,6 @@ msgstr "Overschrijdt een dual layer schijf!"
 
 msgid "Execution condition"
 msgstr "Uitvoering voorwaarde"
-
-msgid "Execution finished!!"
-msgstr "!! De volledige back-up is gereed !!"
-
-msgid "Execution progress:"
-msgstr "Voortgang extern commando:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8289,10 +8294,6 @@ msgstr "Bestandsoverdracht is geannuleerd door gebruiker!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Bestandsoverdracht beëindigd door gebruiker"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Schrijffout in bestand: '%s'"
 
 msgid "Filename"
 msgstr "bestandnaam"
@@ -9161,11 +9162,11 @@ msgstr "Softcam servernaam verbergen"
 msgid "Hide the InfoBar"
 msgstr "Informatiebalk langzaam vervagen na een time-out."
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Verberg zap fouten"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Hiërarchie info"
@@ -11698,6 +11699,9 @@ msgstr "LET OP: De map/het bestand '%s' bestaat al en wordt overschreven!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "LET OP: Deze %d mappen/bestanden bestaan al en worden overschreven!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "NU"
 
@@ -12989,9 +12993,6 @@ msgstr "Wachtwoord gewijzigd."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Pad '%s' niet beschikbaar!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Pad voor opslaan bestaat niet: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pauze"
@@ -15138,6 +15139,10 @@ msgstr "Actief"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Myrestore script wordt uitgevoerd, een ogenblik geduld..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Russisch"
 
@@ -15331,6 +15336,9 @@ msgstr "De EPG-cache opslaan"
 msgid "Save EPG data"
 msgstr "EPG-gegevens opslaan"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "Alle gewijzigde instellingen opslaan en Exit"
 
@@ -15381,6 +15389,9 @@ msgstr "De maplocatie in de linkerkolom opslaan bij het afsluiten."
 
 msgid "Save the log changes and exit"
 msgstr "Log wijzigingen opslaan en exit"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "De maplocatie in de rechterkolom opslaan bij het afsluiten."
@@ -24040,6 +24051,15 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Fallback timer"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "!! De volledige back-up is gereed !!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Voortgang extern commando:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Pad voor opslaan bestaat niet: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Back-up is gereed."
