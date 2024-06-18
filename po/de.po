@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-06-13 16:40+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
+"PO-Revision-Date: 2024-06-18 21:12+0000\n"
+"Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2374,7 +2374,7 @@ msgid "Alphanumeric"
 msgstr "Alphanumerisch"
 
 msgid "Also import at reboot/restart enigma2"
-msgstr "Auch bei Neustarten / Neustart enigma2 importieren"
+msgstr "Auch bei Neustart von enigma2 importieren"
 
 msgid "Also import from the extension menu"
 msgstr "Auch aus dem Erweiterungsmenü importieren"
@@ -4250,7 +4250,7 @@ msgstr ""
 "Nicht jeder Skin unterstützt jede Einstellung."
 
 msgid "Choose the fallback font."
-msgstr "Die Ersatz Schriftart wählen."
+msgstr "Die Ersatz-Schriftart auswählen."
 
 msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr ""
@@ -4550,6 +4550,11 @@ msgstr "Der Befehl '%s' ist unbekannt!"
 
 msgid "Command execution..."
 msgstr "Befehl wird ausgeführt..."
+
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] "Befehl ausgeführt."
+msgstr[1] "Befehle ausgeführt."
 
 #
 msgid "Command order"
@@ -5554,7 +5559,7 @@ msgid "Customize"
 msgstr "Extras"
 
 msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Reserve-Tuner in den OpenWebIF Einstellungen anpassen"
+msgstr "Reserve-Tuner in den OpenWebIf-Einstellungen konfigurieren"
 
 msgid "Customize System Settings"
 msgstr "Systemeinstellungen"
@@ -8002,6 +8007,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Fehler: Das Verzeichnis '%s' kann nicht in '%s' umbenannt werden!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Fehler beim Schreiben der Datei '%s'!"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Fehler: '%s' auf '%s' anwenden ist nicht erlaubt!"
 
@@ -8103,14 +8112,6 @@ msgstr "Übersteigt die Größe eines Dual-Layer-Mediums!"
 
 msgid "Execution condition"
 msgstr "Ausführungsbedingung"
-
-#
-msgid "Execution finished!!"
-msgstr "Ausführung beendet!"
-
-#
-msgid "Execution progress:"
-msgstr "Fortschritt der Ausführung:"
 
 #
 msgid "Exif"
@@ -8390,7 +8391,7 @@ msgid "Fallback API did not return a valid result."
 msgstr "Reserve-API lieferte fehlerhafte Ergebnisse!"
 
 msgid "Fallback Font *"
-msgstr "Ersatz Schriftart *"
+msgstr "Ersatz-Schriftart *"
 
 msgid "Fallback remote receiver"
 msgstr "Reserve-Receiver"
@@ -8609,10 +8610,6 @@ msgstr "Dateiübertragung durch den Benutzer abgebrochen!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Dateiübertragung durch den Benutzer abgebrochen"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Fehler beim Schreiben der Datei '%s'!"
 
 #
 msgid "Filename"
@@ -9523,11 +9520,11 @@ msgstr "Softcam-Servernamen verbergen"
 msgid "Hide the InfoBar"
 msgstr "Die Infoleiste ausblenden"
 
-msgid "Hide this screen"
-msgstr "Diesen Bildschirm ausblenden"
-
 msgid "Hide zap errors"
 msgstr "Fehler beim Umschalten unterdrücken"
+
+msgid "Hide/Show the console screen"
+msgstr "Konsolen-Bildschirm verstecken/zeigen"
 
 msgid "Hierarchy info"
 msgstr "Hierarchie-Info"
@@ -12222,6 +12219,9 @@ msgstr "ACHTUNG: Das Verzeichnis/die Datei '%s' existiert bereits und würde üb
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "ACHTUNG: Diese %d Verzeichnisse/Dateien existieren bereits und würden überschrieben!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr "HINWEIS: Auch wenn der Konsolen-Bildschirm nicht sichtbar ist, sind die Tasten weiterhin aktiv. Bei Betätigung einer dieser Tasten wird der Bildschirm sichtbar, aber die Taste noch nicht aktiviert."
+
 #
 msgid "NOW"
 msgstr "JETZT"
@@ -13629,9 +13629,6 @@ msgstr "Passwort geändert."
 msgid "Path '%s' missing!"
 msgstr "Pfad '%s' nicht vorhanden!"
 
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Pfad zum Speichern nicht vorhanden: '/tmp/'"
-
 msgid "Pause"
 msgstr "Pause"
 
@@ -14860,7 +14857,7 @@ msgid "Quick Launch Menu"
 msgstr "Schnellstartmenü"
 
 msgid "Quick Menu Actions"
-msgstr "Quick Menu Aktionen"
+msgstr "Schnellstartmenü Aktionen"
 
 #
 msgid "Quick Menu..."
@@ -15960,6 +15957,10 @@ msgstr "Läuft"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Myrestore-Skript wird ausgeführt..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr "Befehl %d: '%s' läuft."
+
 msgid "Russian"
 msgstr "Russisch"
 
@@ -16165,6 +16166,9 @@ msgstr "EPG-Cache speichern"
 msgid "Save EPG data"
 msgstr "EPG-Daten speichern"
 
+msgid "Save Log"
+msgstr "Log speichern"
+
 #
 msgid "Save all changed settings and exit"
 msgstr "Text speichern und beenden"
@@ -16219,6 +16223,9 @@ msgstr "Verzeichnis der linken Spalte beim Beenden speichern."
 
 msgid "Save the log changes and exit"
 msgstr "Log-Änderungen speichern und beenden"
+
+msgid "Save the log of the console messages to a file"
+msgstr "Meldungen des Konsole-Logs speichern"
 
 msgid "Save the right column directory location on exit."
 msgstr "Verzeichnis der rechten Spalte beim Beenden speichern."
@@ -17768,7 +17775,7 @@ msgid "Set the MAC address of your %s %s."
 msgstr "Die MAC-Adresse der %s %s einstellen."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Die User ID des OpenWebIf vom Reserve-Tuner einfügen"
+msgstr "Die Benutzer-ID vom OpenWebIf des Reserve-Tuners einfügen"
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Einstellung des Seitenverhältnisses der Senderlogos (Picons)."
@@ -22115,7 +22122,7 @@ msgid "Unexpected error accessing WebIF: %s"
 msgstr "Unerwarteter Fehler beim Zugriff auf WebIF: %s"
 
 msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Unerwarteter Fehler beim Abrufen der Timer-Informationen des Fallback-Tuners!"
+msgstr "Unerwarteter Fehler beim Abrufen der Timer-Informationen des Reserve-Tuners!"
 
 #
 msgid "UnhandledKey"
@@ -22585,7 +22592,7 @@ msgstr ""
 "Dann die Taste GRÜN oder OK drücken, um fortzufahren."
 
 msgid "Use the UP/DOWN buttons to select the installed image to be backed up. Press the 'Start' (GREEN) button to start the backup."
-msgstr "Mit den Tasten Hoch/Runter das zu sichernde installierte Image wählen. Dann 'Start' (GRÜN) drücken, um die Sicherung zu starten."
+msgstr "Mit den Tasten Hoch/Runter das zu sichernde installierte Image auswählen. Dann 'Start' (GRÜN) drücken, um die Sicherung zu starten."
 
 # Menue Anpassungen OSD
 msgid "Use the alternative or the conventional radio mode."
@@ -25353,6 +25360,20 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Reserve-Timer"
+
+#
+#~ msgid "Execution finished!!"
+#~ msgstr "Ausführung beendet!"
+
+#
+#~ msgid "Execution progress:"
+#~ msgstr "Fortschritt der Ausführung:"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Diesen Bildschirm ausblenden"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Pfad zum Speichern nicht vorhanden: '/tmp/'"
 
 #
 #~ msgid "Backup done."
