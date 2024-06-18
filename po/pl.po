@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2024-05-29 10:09+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
@@ -4348,6 +4348,12 @@ msgstr "Polecenie '%s' jest nieznane"
 msgid "Command execution..."
 msgstr "Wykonywanie polecenia..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
 msgid "Command order"
 msgstr "Kolejność poleceń"
 
@@ -7614,6 +7620,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Błąd: Nie można zmienić nazwy katalogu \"%s\" na \"%s\"!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Błąd zapisu pliku: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Błąd: Nie można uruchomić '%s' na '%s'!"
 
@@ -7715,12 +7725,6 @@ msgstr "Przekroczona pojemność dwuwarstwowego nośnika!"
 
 msgid "Execution condition"
 msgstr "Warunek wykonania"
-
-msgid "Execution finished!!"
-msgstr "Wykonanie zakończone!!"
-
-msgid "Execution progress:"
-msgstr "Postęp wykonywania:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8196,10 +8200,6 @@ msgstr "Przesyłanie pliku zostało anulowane przez użytkownika!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Przesyłanie pliku zostało anulowane przez użytkownika"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Błąd zapisu pliku: '%s'"
 
 msgid "Filename"
 msgstr "Nazwa pliku"
@@ -9065,11 +9065,11 @@ msgstr "Ukryj nazwę serwera Softcam"
 msgid "Hide the InfoBar"
 msgstr "Ukryj pasek informacyjny"
 
-msgid "Hide this screen"
-msgstr "Ukryj ten ekran"
-
 msgid "Hide zap errors"
 msgstr "Ukryj komunikaty błędów przy przełączaniu"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Info hierarchii"
@@ -11601,6 +11601,9 @@ msgstr "INFORMACJA: Katalog/plik '%s' istnieje i zostanie nadpisany!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "INFORMACJA: Te %d katalogi/pliki istnieją i zostaną nadpisane!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "Teraz"
 
@@ -12889,9 +12892,6 @@ msgstr "Hasło zostało zmienione."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Brak ścieżki '%s'!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Ścieżka do zapisu nie istnieje: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pauza"
@@ -15035,6 +15035,10 @@ msgstr "Uruchomiony"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Skrypt przywracania jest wykonywany, Proszę czekać..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Rosyjski"
 
@@ -15228,6 +15232,9 @@ msgstr "Zapisz pamięć podręczną EPG"
 msgid "Save EPG data"
 msgstr "Zapisz dane EPG"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "Zapisz wszystkie zmienione ustawienia i wyjdź"
 
@@ -15278,6 +15285,9 @@ msgstr "Zapisz lokalizację katalogu w lewej kolumnie przy wyjściu."
 
 msgid "Save the log changes and exit"
 msgstr "Zapisz zmiany w logu i wyjdź"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "Zapisz lokalizację katalogu w prawej kolumnie przy wyjściu."
@@ -23834,6 +23844,18 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Timer rezerwowy"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Wykonanie zakończone!!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Postęp wykonywania:"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Ukryj ten ekran"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Ścieżka do zapisu nie istnieje: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Kopia wykonana."
