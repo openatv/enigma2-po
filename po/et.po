@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -4363,6 +4363,11 @@ msgstr ""
 msgid "Command execution..."
 msgstr "Käskude täitmine."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+
 msgid "Command order"
 msgstr "Käskude järjekord"
 
@@ -7690,6 +7695,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Faili kirjutamise viga: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -7786,12 +7795,6 @@ msgstr "Liiga suur kahekihilise ketta jaoks!"
 
 msgid "Execution condition"
 msgstr "Täitmise tingimused"
-
-msgid "Execution finished!!"
-msgstr "Ülesanne täidetud!!"
-
-msgid "Execution progress:"
-msgstr "Töö edenemine:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8278,10 +8281,6 @@ msgstr ""
 
 msgid "File transfer was cancelled by user"
 msgstr "Kasutaja katkestas faili ülekande"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Faili kirjutamise viga: '%s'"
 
 #, fuzzy
 msgid "Filename"
@@ -9176,11 +9175,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "Luba inforiba hajumine"
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Peida kanalivahetuse veateated"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Hierarhia teave"
@@ -11825,6 +11824,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 #
 msgid "NOW"
 msgstr "PRAEGU"
@@ -13177,9 +13179,6 @@ msgstr "Parool muudetud."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Salvestamise asukohta pole olemas: '/tmp/'"
 
 msgid "Pause"
 msgstr "Paus"
@@ -15383,6 +15382,10 @@ msgstr "Kasutusel"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Taastamise skript töötab. Oota ..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Vene"
 
@@ -15584,6 +15587,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "Talleta EPG andmed"
 
+msgid "Save Log"
+msgstr ""
+
 #, fuzzy
 msgid "Save all changed settings and exit"
 msgstr "Salvesta/sisesta tekst ja välju"
@@ -15634,6 +15640,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -24346,6 +24355,15 @@ msgstr ""
 
 msgid "Fallback Timer"
 msgstr ""
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Ülesanne täidetud!!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Töö edenemine:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Salvestamise asukohta pole olemas: '/tmp/'"
 
 #
 #~ msgid "Backup done."
