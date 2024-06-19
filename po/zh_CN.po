@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2023-08-11 04:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -4308,6 +4308,11 @@ msgstr ""
 msgid "Command execution..."
 msgstr "执行命令..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+
 msgid "Command order"
 msgstr "命令顺序"
 
@@ -7561,6 +7566,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "文件写入错误:'%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -7662,12 +7671,6 @@ msgstr "超过双层介质!"
 
 msgid "Execution condition"
 msgstr "执行条件"
-
-msgid "Execution finished!!"
-msgstr "执行完毕!!"
-
-msgid "Execution progress:"
-msgstr "执行进度:"
 
 msgid "Exif"
 msgstr "镜像信息"
@@ -8143,10 +8146,6 @@ msgstr ""
 
 msgid "File transfer was cancelled by user"
 msgstr "文件传输已被用户取消"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "文件写入错误:'%s'"
 
 msgid "Filename"
 msgstr "文件名"
@@ -9012,11 +9011,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "隐藏信息栏"
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "隐藏换台错误"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "层次结构信息"
@@ -11545,6 +11544,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "正在播放"
 
@@ -12830,9 +12832,6 @@ msgstr "密码已更改"
 #, python-format
 msgid "Path '%s' missing!"
 msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "要保存的路径不存在:'/tmp/'"
 
 msgid "Pause"
 msgstr "暂停"
@@ -14971,6 +14970,10 @@ msgstr "运行"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "正在运行Myrestore脚本,请稍等..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "俄语"
 
@@ -15164,6 +15167,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "保存EPG数据"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "保存所有更改的设置并退出"
 
@@ -15213,6 +15219,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -23673,6 +23682,15 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "备用定时器"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "执行完毕!!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "执行进度:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "要保存的路径不存在:'/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "备份完成."

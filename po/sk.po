@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2024-04-22 09:31+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -4338,6 +4338,12 @@ msgstr "Príkaz '%s' nie je známy"
 msgid "Command execution..."
 msgstr "Vykonávanie príkazu..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
 msgid "Command order"
 msgstr "Poradie príkazov"
 
@@ -7604,6 +7610,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Chyba: Nie je možné premenovať priečinok '%s' na '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Chyba pri zápise súboru: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Chyba: Nie je možné spustiť '%s' na '%s'!"
 
@@ -7705,12 +7715,6 @@ msgstr "Presahuje kapacitu dvojvrstvového DVD!"
 
 msgid "Execution condition"
 msgstr "Podmienka spustenia"
-
-msgid "Execution finished!!"
-msgstr "Dokončené!"
-
-msgid "Execution progress:"
-msgstr "Priebeh:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8186,10 +8190,6 @@ msgstr "Prenos súboru bol zrušený používateľom!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Prenos súboru bol zrušený používateľom"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Chyba pri zápise súboru: '%s'"
 
 msgid "Filename"
 msgstr "Názov súboru"
@@ -9055,11 +9055,11 @@ msgstr "Skryť názov servera softcamu"
 msgid "Hide the InfoBar"
 msgstr "Nezobrazovať infolištu"
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Nezobrazovať chyby pri prepínaní"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Hierarchy info"
@@ -11590,6 +11590,9 @@ msgstr "POZNÁMKA: Priečinok/súbor '%s' už existuje a bude prepísaný!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "POZNÁMKA: Priečinky/súbory (počet: %d) existujú a budú prepísané!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "TERAZ"
 
@@ -12878,9 +12881,6 @@ msgstr "Heslo zmenené."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Cesta '%s' nie je dostupná!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Neexistuje cesta na uloženie: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pozastavenie"
@@ -15024,6 +15024,10 @@ msgstr "Prebieha"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Spúšťanie skriptu Myrestore. Čakajte, prosím…"
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "ruština"
 
@@ -15217,6 +15221,9 @@ msgstr "Uložiť vyrovnávaciu pamäť EPG"
 msgid "Save EPG data"
 msgstr "Uložiť dáta EPG"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "Uložiť všetky zmenené nastavenia a ukončiť"
 
@@ -15267,6 +15274,9 @@ msgstr "Pri ukončení uložiť umiestnenie priečinka vľavo."
 
 msgid "Save the log changes and exit"
 msgstr "Uložiť zmeny v denníku a ukončiť"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "Pri ukončení uložiť umiestnenie priečinka v pravom stĺpci."
@@ -23822,6 +23832,15 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Záložný časovač"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Dokončené!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Priebeh:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Neexistuje cesta na uloženie: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Zálohovanie hotové."

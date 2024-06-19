@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2024-05-26 14:09+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -4339,6 +4339,12 @@ msgstr "Команда '%s' неизвестна"
 msgid "Command execution..."
 msgstr "Выполнение команды..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
 msgid "Command order"
 msgstr "Очерёдность команд"
 
@@ -7605,6 +7611,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Ошибка: невозможно переименовать каталог '%s' в '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Ошибка записи файла: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Ошибка: Вы не можете запустить '%s' на '%s'!"
 
@@ -7706,12 +7716,6 @@ msgstr "Превосходит двухслойную среду!"
 
 msgid "Execution condition"
 msgstr "Состояние выполнения"
-
-msgid "Execution finished!!"
-msgstr "Выполнение закончено!"
-
-msgid "Execution progress:"
-msgstr "Процесс выполнения"
 
 msgid "Exif"
 msgstr "Медиа инфо"
@@ -8187,10 +8191,6 @@ msgstr "Передача файла была отменена пользоват
 
 msgid "File transfer was cancelled by user"
 msgstr "Передача файла была отменена пользователем"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Ошибка записи файла: '%s'"
 
 msgid "Filename"
 msgstr "Название файла"
@@ -9056,11 +9056,11 @@ msgstr "Скрыть имя сервера softcam"
 msgid "Hide the InfoBar"
 msgstr "Затухание инфобара при исчезании"
 
-msgid "Hide this screen"
-msgstr "Скрыть этот экран"
-
 msgid "Hide zap errors"
 msgstr "Скрыть ошибки переключения каналов"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Информация иерархии"
@@ -11591,6 +11591,9 @@ msgstr "ПРИМЕЧАНИЕ. Каталог/файл '%s' существует 
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "ПРИМЕЧАНИЕ. Эти %d каталогов/файлов существуют и будут перезаписаны!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "Сейчас"
 
@@ -12879,9 +12882,6 @@ msgstr "Пароль изменён."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Путь '%s' отсутствует!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Путь для сохранения не существует: '/tmp/'"
 
 msgid "Pause"
 msgstr "Пауза"
@@ -15025,6 +15025,10 @@ msgstr "Запущен"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Запущен скрипт восстановления, ждите..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "Русский"
 
@@ -15218,6 +15222,9 @@ msgstr "Сохранить кэш EPG"
 msgid "Save EPG data"
 msgstr "Сохранить данные ТВ-гида"
 
+msgid "Save Log"
+msgstr ""
+
 msgid "Save all changed settings and exit"
 msgstr "Сохраните все измененные настройки и выйдите"
 
@@ -15268,6 +15275,9 @@ msgstr "Сохраните местоположение каталога лев�
 
 msgid "Save the log changes and exit"
 msgstr "Сохраните изменения лога и выйдите"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "Сохраните расположение каталога правого столбца при выходе."
@@ -23823,6 +23833,18 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Резервный удаленный таймер"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Выполнение закончено!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Процесс выполнения"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Скрыть этот экран"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Путь для сохранения не существует: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Копирование завершено."

@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-06-15 20:12+0000\n"
-"Last-Translator: Jiří Engelthaler <engycz@gmail.com>\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
+"PO-Revision-Date: 2024-06-18 06:09+0000\n"
+"Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -4336,6 +4336,12 @@ msgstr "Příkaz „%s“ není znám"
 msgid "Command execution..."
 msgstr "Výkonání příkazu..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] "Příkaz dokončen."
+msgstr[1] "Příkazy dokončeny."
+msgstr[2] "Příkazů dokončeno."
+
 msgid "Command order"
 msgstr "Pořadí příkazů"
 
@@ -7608,6 +7614,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Chyba: Nelze přejmenovat adresář '%s' na '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Chyba zápisu do souboru: '%s'!"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Chyba: Nelze spustit '%s' na '%s'!"
 
@@ -7709,12 +7719,6 @@ msgstr "Překračuje kapacitu dvouvrstvého média!"
 
 msgid "Execution condition"
 msgstr "Podmínky provedení akce"
-
-msgid "Execution finished!!"
-msgstr "Dokončeno!"
-
-msgid "Execution progress:"
-msgstr "Provádí se:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8190,10 +8194,6 @@ msgstr "Přenos souboru byl uživatelem zrušen!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Přenos souboru byl zrušen uživatelem"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Chyba zápisu do souboru: '%s'"
 
 msgid "Filename"
 msgstr "Název souboru"
@@ -9059,11 +9059,11 @@ msgstr "Skrýt název serveru softcam"
 msgid "Hide the InfoBar"
 msgstr "Skrýt informační panel"
 
-msgid "Hide this screen"
-msgstr "Skrýt tuto obrazovku"
-
 msgid "Hide zap errors"
 msgstr "Skrýt chyby při přepínání"
+
+msgid "Hide/Show the console screen"
+msgstr "Skrýt/zobrazit obrazovku konzole"
 
 msgid "Hierarchy info"
 msgstr "Hierarchické info"
@@ -11594,6 +11594,9 @@ msgstr "POZNÁMKA: Adresář/soubor '%s' existuje a bude přepsán!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "POZNÁMKA: Tyto %d adresáře/soubory existují a budou přepsány!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr "POZNÁMKA: I když je obrazovka konzole skrytá, tlačítka jsou stále aktivní. Stisknutí libovolného aktivního tlačítka způsobí, že se obrazovka znovu objeví, ale tlačítko nebude funkční."
+
 msgid "NOW"
 msgstr "NYNÍ"
 
@@ -12882,9 +12885,6 @@ msgstr "Heslo bylo změněno."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Cesta '%s' chybí!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Cesta pro uložení neexistuje: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pauza"
@@ -15028,6 +15028,10 @@ msgstr "Aktivní"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Provádím skript Myrestore, čekejte prosím ..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr "Spuštění příkazu %d: '%s'."
+
 msgid "Russian"
 msgstr "Rusky"
 
@@ -15221,6 +15225,9 @@ msgstr "Uložit vyrovnávací paměť EPG"
 msgid "Save EPG data"
 msgstr "Uložit data EPG"
 
+msgid "Save Log"
+msgstr "Uložit log"
+
 msgid "Save all changed settings and exit"
 msgstr "Uložit všechna změněná nastavení a ukončit"
 
@@ -15271,6 +15278,9 @@ msgstr "Při ukončení uložit umístění adresáře levého sloupce."
 
 msgid "Save the log changes and exit"
 msgstr "Uložit změny protokolu a ukončit"
+
+msgid "Save the log of the console messages to a file"
+msgstr "Uložit protokol konzolových zpráv do souboru"
 
 msgid "Save the right column directory location on exit."
 msgstr "Při ukončení uložit umístění adresáře pravého sloupce."
@@ -16737,7 +16747,7 @@ msgid "Set the MAC address of your %s %s."
 msgstr "Nastavení MAC-Adresy pro Váš %s %s."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Nastavte uživatelské jméno pro OpenWebIf z Vašeho záložního tuneru."
+msgstr "Nastavte uživatelské jméno pro OpenWebIf z Vašeho záložního tuneru"
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Nastavit poměr stran pikon programů."
@@ -16767,10 +16777,10 @@ msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scr
 msgstr "Nastavte počet řádků, které se mají uložit pro výstup 'stout' a 'stderr' ve skriptech."
 
 msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Nastavte heslo pro OpenWebIf z Vašeho záložního tuneru."
+msgstr "Nastavte heslo pro OpenWebIf z Vašeho záložního tuneru"
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Nastavte port pro OpenWebIf z Vašeho záložního tuneru."
+msgstr "Nastavte port pro OpenWebIf z Vašeho záložního tuneru"
 
 msgid "Set the position of the recording icons."
 msgstr "Nastavit polohu ikon nahrávání."
@@ -20824,7 +20834,7 @@ msgid "Unexpected error accessing WebIF: %s"
 msgstr "Neočekávaná chyba při přístupu k WebIF: %s"
 
 msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Neočekávaná chyba při načítání informací o časovači záložního tuneru."
+msgstr "Neočekávaná chyba při načítání informací o časovači záložního tuneru"
 
 msgid "UnhandledKey"
 msgstr "Neošetřené tlačítko"
@@ -22011,7 +22021,7 @@ msgid "When enabled the timer from the fallback tuner is imported"
 msgstr "Do přehledu časovačů jsou importovány časovače ze záložního tuneru"
 
 msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Pokud je povoleno, časovač ze záložního tuneru je výchozí časovač."
+msgstr "Pokud je povoleno, časovač ze záložního tuneru je výchozí časovač"
 
 msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
 msgstr "Můžete přizpůsobit nastavení OpenWebIf pro záložní tuner"
@@ -23826,6 +23836,18 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Záložní časovač"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Dokončeno!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Provádí se:"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Skrýt tuto obrazovku"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Cesta pro uložení neexistuje: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Záloha je hotová."

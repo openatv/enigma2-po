@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
-"PO-Revision-Date: 2024-06-14 06:41+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
+"PO-Revision-Date: 2024-06-16 17:34+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -4303,6 +4303,11 @@ msgstr "Il comando '%s' è sconosciuto"
 msgid "Command execution..."
 msgstr "Esecuzione comando..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] "Comando terminato."
+msgstr[1] "Comandi terminati."
+
 msgid "Command order"
 msgstr "Ordine comandi"
 
@@ -7572,6 +7577,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Errore: impossibile rinominare la cartella '%s' in '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Errore: impossibile scrivere il file di registro '%s'!"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Errore: non puoi eseguire \"%s\" su \"%s\"!"
 
@@ -7673,12 +7682,6 @@ msgstr "Supera capacità del supporto a doppio strato!"
 
 msgid "Execution condition"
 msgstr "Condizione di esecuzione"
-
-msgid "Execution finished!!"
-msgstr "Esecuzione terminata!"
-
-msgid "Execution progress:"
-msgstr "Avanzamento esecuzione:"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8154,10 +8157,6 @@ msgstr "Il trasferimento file è stato annullato dall'utente!"
 
 msgid "File transfer was cancelled by user"
 msgstr "Il trasferimento file è stato annullato dall'utente"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Errore di scrittura file: '%s'"
 
 msgid "Filename"
 msgstr "Nome del file"
@@ -9023,11 +9022,11 @@ msgstr "Nascondi nome del server softcam"
 msgid "Hide the InfoBar"
 msgstr "Nascondi barra informazioni"
 
-msgid "Hide this screen"
-msgstr "Nascondi questa schermata"
-
 msgid "Hide zap errors"
 msgstr "Nascondi errori di zapping"
+
+msgid "Hide/Show the console screen"
+msgstr "Nascondi/mostra schermata della console"
 
 msgid "Hierarchy info"
 msgstr "Info gerarchia"
@@ -11556,6 +11555,9 @@ msgstr "NOTA: la cartella/file '%s' esiste già e verrà sovrascritta!"
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr "NOTA: queste cartelle/file %d esistono già e verranno sovrascritte!"
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr "NOTA: mentre lo schermo della console è nascosto alla vista, i tasti sono ancora attivi. Premendo qualsiasi tasto abilitato, la schermata riapparirà ma il tasto non verrà utilizzato."
+
 msgid "NOW"
 msgstr "ORA"
 
@@ -12844,9 +12846,6 @@ msgstr "Password cambiata."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr "Percorso '%s' mancante!"
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "Il percorso salvataggio non esiste: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pausa"
@@ -14988,6 +14987,10 @@ msgstr "Attivo"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Script MyRestore in esecuzione, attendi..."
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr "Comando in esecuzione %d: '%s'."
+
 msgid "Russian"
 msgstr "Russo"
 
@@ -15181,6 +15184,9 @@ msgstr "Salva cache EPG"
 msgid "Save EPG data"
 msgstr "Salva dati EPG"
 
+msgid "Save Log"
+msgstr "Salva registro"
+
 msgid "Save all changed settings and exit"
 msgstr "Salva tutte le impostazioni modificate ed esci"
 
@@ -15231,6 +15237,9 @@ msgstr "Salva posizione della cartella della colonna di sinistra all'uscita."
 
 msgid "Save the log changes and exit"
 msgstr "Salva modifiche del registro ed esci"
+
+msgid "Save the log of the console messages to a file"
+msgstr "Salva registro dei messaggi della console in un file"
 
 msgid "Save the right column directory location on exit."
 msgstr "Salva posizione della cartella della colonna di destra all'uscita."
@@ -23781,6 +23790,18 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Timer del ricevitore remoto di fallback"
+
+#~ msgid "Execution finished!!"
+#~ msgstr "Esecuzione terminata!"
+
+#~ msgid "Execution progress:"
+#~ msgstr "Avanzamento esecuzione:"
+
+#~ msgid "Hide this screen"
+#~ msgstr "Nascondi questa schermata"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "Il percorso salvataggio non esiste: '/tmp/'"
 
 #~ msgid "Backup done."
 #~ msgstr "Backup effettuato."

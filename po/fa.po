@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2021-09-15 14:20+0000\n"
 "Last-Translator: Hamed Beyrami <h.beyrami@outlook.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fa/>\n"
@@ -4446,6 +4446,10 @@ msgstr ""
 msgid "Command execution..."
 msgstr "اجرای فرمان..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+
 msgid "Command order"
 msgstr "ترتیب فرمان"
 
@@ -7745,6 +7749,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -7842,13 +7850,6 @@ msgstr "بیش از رسانه دو لایه"
 
 msgid "Execution condition"
 msgstr ""
-
-msgid "Execution finished!!"
-msgstr "عملیات اجرایی پایان یافت"
-
-#, fuzzy
-msgid "Execution progress:"
-msgstr "پیشرفت اجرا کردن :"
 
 msgid "Exif"
 msgstr "Exif"
@@ -8338,10 +8339,6 @@ msgid "File transfer was canceled by user!"
 msgstr ""
 
 msgid "File transfer was cancelled by user"
-msgstr ""
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
 msgstr ""
 
 #, fuzzy
@@ -9240,11 +9237,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr ""
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "مخفی کردن خطا های جابجایی"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "اطلاعات سلسله مراتبی"
@@ -11871,6 +11868,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "اکنون"
 
@@ -13199,9 +13199,6 @@ msgstr ""
 
 #, python-format
 msgid "Path '%s' missing!"
-msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
 msgstr ""
 
 #, fuzzy
@@ -15430,6 +15427,10 @@ msgstr ""
 msgid "Running Myrestore script, Please wait ..."
 msgstr ""
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 msgid "Russian"
 msgstr "روسی"
 
@@ -15632,6 +15633,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr ""
 
+msgid "Save Log"
+msgstr ""
+
 #, fuzzy
 msgid "Save all changed settings and exit"
 msgstr "ذخیره آخرین شاخه هنگام خروج"
@@ -15681,6 +15685,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -24277,6 +24284,13 @@ msgstr ""
 
 msgid "Fallback Timer"
 msgstr ""
+
+#~ msgid "Execution finished!!"
+#~ msgstr "عملیات اجرایی پایان یافت"
+
+#, fuzzy
+#~ msgid "Execution progress:"
+#~ msgstr "پیشرفت اجرا کردن :"
 
 #~ msgid "23.976"
 #~ msgstr "23.976"

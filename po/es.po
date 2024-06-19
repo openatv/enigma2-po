@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2024-04-18 22:45+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/es/>\n"
@@ -4516,6 +4516,11 @@ msgstr ""
 msgid "Command execution..."
 msgstr "Ejecución de comando..."
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+
 #
 msgid "Command order"
 msgstr "Orden de comando"
@@ -7944,6 +7949,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr "Error: No se ha podido renombrar el directorio '%s' a '%s'!"
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr "Error de escritura del archivo: '%s'"
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -8050,14 +8059,6 @@ msgstr "¡Excede el recurso de doble capa!"
 
 msgid "Execution condition"
 msgstr "Condición de ejecución"
-
-#
-msgid "Execution finished!!"
-msgstr "¡La ejecución ha terminado!"
-
-#
-msgid "Execution progress:"
-msgstr "Progreso de ejecución:"
 
 #
 msgid "Exif"
@@ -8556,10 +8557,6 @@ msgstr ""
 
 msgid "File transfer was cancelled by user"
 msgstr "La transferencia de archivos fue cancelada por el usuario"
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
-msgstr "Error de escritura del archivo: '%s'"
 
 #
 msgid "Filename"
@@ -9485,11 +9482,11 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr "Ocultar la barra de información"
 
-msgid "Hide this screen"
-msgstr ""
-
 msgid "Hide zap errors"
 msgstr "Ocultar errores de zapeo"
+
+msgid "Hide/Show the console screen"
+msgstr ""
 
 msgid "Hierarchy info"
 msgstr "Información jerárquica"
@@ -12181,6 +12178,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 #
 msgid "NOW"
 msgstr "AHORA"
@@ -13574,9 +13574,6 @@ msgstr "Se ha cambiado la contraseña."
 #, python-format
 msgid "Path '%s' missing!"
 msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
-msgstr "La ruta para guardar no existe: '/tmp/'"
 
 msgid "Pause"
 msgstr "Pausa"
@@ -15899,6 +15896,10 @@ msgstr "En curso"
 msgid "Running Myrestore script, Please wait ..."
 msgstr "Ejecutando script MyRestore. Espera…"
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 # Language
 msgid "Russian"
 msgstr "Ruso"
@@ -16108,6 +16109,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr "Guardar datos de EPG"
 
+msgid "Save Log"
+msgstr ""
+
 #
 msgid "Save all changed settings and exit"
 msgstr "Guardar todos los ajustes modificados y salir"
@@ -16162,6 +16166,9 @@ msgstr ""
 
 msgid "Save the log changes and exit"
 msgstr "Guarde los cambios del registro y salga"
+
+msgid "Save the log of the console messages to a file"
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr ""
@@ -25343,6 +25350,17 @@ msgstr "®"
 
 msgid "Fallback Timer"
 msgstr "Temporizador de retroceso"
+
+#
+#~ msgid "Execution finished!!"
+#~ msgstr "¡La ejecución ha terminado!"
+
+#
+#~ msgid "Execution progress:"
+#~ msgstr "Progreso de ejecución:"
+
+#~ msgid "Path to save not exist: '/tmp/'"
+#~ msgstr "La ruta para guardar no existe: '/tmp/'"
 
 #
 #~ msgid "Backup done."

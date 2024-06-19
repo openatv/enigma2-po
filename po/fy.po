@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-13 14:37+0000\n"
+"POT-Creation-Date: 2024-06-15 20:15+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Frisian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fy/>\n"
@@ -4675,6 +4675,11 @@ msgstr ""
 msgid "Command execution..."
 msgstr "Kommando útfiere"
 
+msgid "Command finished."
+msgid_plural "Commands finished."
+msgstr[0] ""
+msgstr[1] ""
+
 #
 msgid "Command order"
 msgstr "Kommando folgoarde"
@@ -8138,6 +8143,10 @@ msgid "Error: Unable to rename directory '%s' to '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unable to write log file '%s'!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -8237,15 +8246,6 @@ msgstr "te grut foar 2 laags medium!"
 
 msgid "Execution condition"
 msgstr ""
-
-#
-msgid "Execution finished!!"
-msgstr "Utfiering klear.."
-
-#
-#, fuzzy
-msgid "Execution progress:"
-msgstr "Utfieren foarutgong:"
 
 #
 msgid "Exif"
@@ -8760,10 +8760,6 @@ msgid "File transfer was canceled by user!"
 msgstr ""
 
 msgid "File transfer was cancelled by user"
-msgstr ""
-
-#, python-format
-msgid "Error: Unable to write log file '%s'!"
 msgstr ""
 
 #
@@ -9722,10 +9718,10 @@ msgstr ""
 msgid "Hide the InfoBar"
 msgstr ""
 
-msgid "Hide this screen"
+msgid "Hide zap errors"
 msgstr ""
 
-msgid "Hide zap errors"
+msgid "Hide/Show the console screen"
 msgstr ""
 
 msgid "Hierarchy info"
@@ -12533,6 +12529,9 @@ msgstr ""
 msgid "NOTE: These %d directories/files exist and will be overwritten!"
 msgstr ""
 
+msgid "NOTE: While the console screen is hidden from view the buttons are still active. Pressing any enabled button will cause the screen to reappear but the button will not be actioned."
+msgstr ""
+
 msgid "NOW"
 msgstr "No"
 
@@ -13938,9 +13937,6 @@ msgstr ""
 
 #, python-format
 msgid "Path '%s' missing!"
-msgstr ""
-
-msgid "Path to save not exist: '/tmp/'"
 msgstr ""
 
 #
@@ -16334,6 +16330,10 @@ msgstr ""
 msgid "Running Myrestore script, Please wait ..."
 msgstr ""
 
+#, python-format
+msgid "Running command %d: '%s'."
+msgstr ""
+
 #
 msgid "Russian"
 msgstr "Russysk"
@@ -16550,6 +16550,9 @@ msgstr ""
 msgid "Save EPG data"
 msgstr ""
 
+msgid "Save Log"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Save all changed settings and exit"
@@ -16603,6 +16606,9 @@ msgid "Save the left column directory location on exit."
 msgstr ""
 
 msgid "Save the log changes and exit"
+msgstr ""
+
+msgid "Save the log of the console messages to a file"
 msgstr ""
 
 msgid "Save the right column directory location on exit."
@@ -25658,6 +25664,15 @@ msgstr ""
 
 msgid "Fallback Timer"
 msgstr ""
+
+#
+#~ msgid "Execution finished!!"
+#~ msgstr "Utfiering klear.."
+
+#
+#, fuzzy
+#~ msgid "Execution progress:"
+#~ msgstr "Utfieren foarutgong:"
 
 #
 #, fuzzy
