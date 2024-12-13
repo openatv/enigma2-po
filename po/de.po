@@ -6,7 +6,7 @@
 # Holger <mrservo@gmx.de>, 2021.
 # Makumbo <tokioplo@web.de>, 2021, 2022, 2023, 2024.
 # Mr.Servo <mrservo@gmx.de>, 2021, 2022.
-# VfBFan <drop0815@posteo.de>, 2021, 2022, 2023.
+# VfBFan <drop0815@posteo.de>, 2021, 2022, 2023, 2024.
 # Gunnar Koser <info@e2world.de>, 2022.
 # Mike <mike99@gmx.net>, 2022.
 # tomppaa <tomzza89@gmail.com>, 2022.
@@ -16,16 +16,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 16:11+0000\n"
-"PO-Revision-Date: 2024-11-27 14:41+0000\n"
-"Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
+"POT-Creation-Date: 2024-12-13 17:19+0000\n"
+"PO-Revision-Date: 2024-12-13 20:33+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2946,22 +2946,46 @@ msgid "Back"
 msgstr "Zurück"
 
 msgid "Back USB"
-msgstr "Rückseite USB"
+msgstr "USB (Rückseite)"
+
+msgid "Back USB 2.0"
+msgstr "USB 2.0 (Rückseite)"
 
 msgid "Back USB 3.0"
 msgstr "USB-3.0 (Rückseite)"
 
+msgid "Back USB-C"
+msgstr "USB-C (Rückseite)"
+
 msgid "Back, inner USB"
-msgstr "Rückseite, innen USB"
+msgstr "Rückseite, USB innen"
+
+msgid "Back, left USB 3.0"
+msgstr "Rückseite, USB 3.0 links"
 
 msgid "Back, lower USB"
-msgstr "Rückseite, unterer USB-Anschluss"
+msgstr "Rückseite, USB unten"
+
+msgid "Back, lower USB 2.0"
+msgstr "Rückseite, USB 2.0 unten"
+
+msgid "Back, lower USB 3.0"
+msgstr "Rückseite, USB 3.0 unten"
 
 msgid "Back, outer USB"
-msgstr "Rückseite, außen USB"
+msgstr "Rückseite, USB außen"
+
+msgid "Back, right USB 3.0"
+msgstr "Rückseite, USB 3.0 rechts"
 
 msgid "Back, upper USB"
-msgstr "Rückseite, oberer USB-Anschluss"
+msgstr "Rückseite, USB oben"
+
+msgid "Back, upper USB 2.0"
+msgstr "Rückseite, USB 2.0 oben"
+
+msgid "Back, upper USB 3.0"
+msgstr "Rückseite, USB 3.0 oben"
 
 msgid "Back/Recall"
 msgstr "Zurück"
@@ -9005,10 +9029,13 @@ msgid "Front"
 msgstr "Vorderseite"
 
 msgid "Front USB"
-msgstr "Vorderseite USB"
+msgstr "USB (Vorderseite)"
+
+msgid "Front USB 2.0"
+msgstr "USB 2.0 (Vorderseite)"
 
 msgid "Front USB 3.0"
-msgstr "Vorderseite USB 3.0"
+msgstr "USB 3.0 (Vorderseite)"
 
 msgid "Front processor version"
 msgstr "Frontprozessor-Version"
@@ -10916,6 +10943,12 @@ msgstr "Dateisortierung linke Spalte"
 #
 msgid "Left from service name"
 msgstr "Links vom Sendernamen"
+
+msgid "Left, back USB"
+msgstr "USB hinten links"
+
+msgid "Left, front USB"
+msgstr "USB vorne links"
 
 msgid "Left, wrapped"
 msgstr "Links, umgebrochen"
@@ -15092,6 +15125,9 @@ msgstr "Wirklich neu starten?"
 #
 msgid "Really shutdown now?"
 msgstr "Wirklich herunterfahren?"
+
+msgid "Really start Kodi and stop user interface now?"
+msgstr "Kodi wirklich starten und die Benutzeroberfläche jetzt beenden?"
 
 msgid "Really upgrade the front panel and reboot now?"
 msgstr "Das Display wirklich aktualisieren und jetzt neu starten?"
@@ -20327,6 +20363,9 @@ msgstr "Wechsel zu den verfügbaren TV-Sendern"
 msgid "Switch to the left column"
 msgstr "Zur linken Spalte wechseln"
 
+msgid "Switch to the other column"
+msgstr "Zur anderen Spalte wechseln"
+
 msgid "Switch to the right column"
 msgstr "Zur rechten Spalte wechseln"
 
@@ -21004,6 +21043,10 @@ msgid ""
 "The user interface of your %s %s is restarting\n"
 "due to an error in StartEnigma.py"
 msgstr "Die Benutzeroberfläche der %s %s wird aufgrund eines Fehlers in 'StartEnigma.py' neu gestartet."
+
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run Kodi"
+msgstr "Die Benutzeroberfläche der %s %s wird beendet, um Kodi auszuführen."
 
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr "Die Breite des Bildes. Die Eingabe wird skaliert, um mit diesem Wert übereinzustimmen."
