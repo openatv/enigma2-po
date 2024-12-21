@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 21:02+0000\n"
-"PO-Revision-Date: 2024-12-14 21:03+0000\n"
+"POT-Creation-Date: 2024-12-19 19:02+0000\n"
+"PO-Revision-Date: 2024-12-20 03:54+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid ""
@@ -2786,9 +2786,6 @@ msgstr "Indietro"
 msgid "Back USB"
 msgstr "USB posteriore"
 
-msgid "Back USB 2.0"
-msgstr "USB 2.0 posteriore"
-
 msgid "Back USB 3.0"
 msgstr "USB 3.0 posteriore"
 
@@ -2798,32 +2795,20 @@ msgstr "USB-C posteriore"
 msgid "Back, inner USB"
 msgstr "USB posteriore interna"
 
-msgid "Back, left USB 3.0"
-msgstr "USB 3.0 posteriore sinistra"
+msgid "Back, left USB"
+msgstr "USB posteriore sinistra"
 
 msgid "Back, lower USB"
 msgstr "USB posteriore inferiore"
 
-msgid "Back, lower USB 2.0"
-msgstr "USB 2.0 posteriore inferiore"
-
-msgid "Back, lower USB 3.0"
-msgstr "USB 3.0 posteriore inferiore"
-
 msgid "Back, outer USB"
 msgstr "USB posteriore esterna"
 
-msgid "Back, right USB 3.0"
-msgstr "USB 3.0 posteriore destra"
+msgid "Back, right USB"
+msgstr "USB posteriore destra"
 
 msgid "Back, upper USB"
 msgstr "USB posteriore superiore"
-
-msgid "Back, upper USB 2.0"
-msgstr "USB 2.0 posteriore superiore"
-
-msgid "Back, upper USB 3.0"
-msgstr "USB 3.0 posteriore superiore"
 
 msgid "Back/Recall"
 msgstr "Indietro/Richiama"
@@ -8575,9 +8560,6 @@ msgstr "Anteriore"
 msgid "Front USB"
 msgstr "USB anteriore"
 
-msgid "Front USB 2.0"
-msgstr "USB 2.0 anteriore"
-
 msgid "Front USB 3.0"
 msgstr "USB 3.0 anteriore"
 
@@ -9248,6 +9230,12 @@ msgstr "Host"
 msgid "Hostname"
 msgstr "Nome host"
 
+msgid "Hostname cannot be resolved to IP address!"
+msgstr "Il nome host non può essere risolto in indirizzo IP!"
+
+msgid "Hostname or IP address"
+msgstr "Nome host o indirizzo IP"
+
 msgid "Hostname: "
 msgstr "Nome host: "
 
@@ -9337,6 +9325,9 @@ msgstr "Indirizzo IP da verificare all'attivazione del timer."
 
 msgid "IP address"
 msgstr "Indirizzo IP"
+
+msgid "IP address is invalid!"
+msgstr "L'indirizzo IP non è valido!"
 
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Indirizzo IP del server Stream Relay usato per decodificare i servizi che possono essere decrittografati solo tramite Stream Relay."
@@ -10397,6 +10388,9 @@ msgstr "Libano"
 msgid "Left"
 msgstr "Sinistra"
 
+msgid "Left USB"
+msgstr "USB sinistra"
+
 msgid "Left column"
 msgstr "Colonna sinistra"
 
@@ -11109,6 +11103,9 @@ msgstr "Modalità misurazione"
 
 msgid "Mexico"
 msgstr "Messico"
+
+msgid "Micro SD"
+msgstr "Micro SD"
 
 msgid "Micronesia, Federated States of"
 msgstr "Micronesia, Stati Federati di"
@@ -12136,6 +12133,9 @@ msgstr "Nessuna posizione trovata adatta al backup!"
 
 msgid "No suitable sat tuner found!"
 msgstr "Nessun tuner satellitare adatto trovato!"
+
+msgid "No system softcam configured!"
+msgstr "Nessuna softcam di sistema configurata!"
 
 msgid "No tags are set on these movies."
 msgstr "Nessuna etichetta configurata su queste registrazioni."
@@ -15039,6 +15039,9 @@ msgstr "Riavvolgere sottotitoli"
 msgid "Right"
 msgstr "Destra"
 
+msgid "Right USB"
+msgstr "USB destra"
+
 msgid "Right column"
 msgstr "Colonna destra"
 
@@ -15050,6 +15053,12 @@ msgstr "Ordinamento per file colonna destra"
 
 msgid "Right from service name"
 msgstr "A destra del nome del servizio"
+
+msgid "Right, back USB"
+msgstr "USB posteriore destra"
+
+msgid "Right, front USB"
+msgstr "USB anteriore destra"
 
 msgid "Right, wrapped"
 msgstr "Destra, avvolto"
@@ -15160,6 +15169,12 @@ msgstr "SAT"
 
 msgid "SATA"
 msgstr "SATA"
+
+msgid "SATA BACK"
+msgstr "SATA POSTERIORE"
+
+msgid "SATA FRONT"
+msgstr "SATA ANTERIORE"
 
 msgid "SATPI"
 msgstr "SATPI"
@@ -23978,6 +23993,30 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Back USB 2.0"
+#~ msgstr "USB 2.0 posteriore"
+
+#~ msgid "Back, left USB 3.0"
+#~ msgstr "USB 3.0 posteriore sinistra"
+
+#~ msgid "Back, lower USB 2.0"
+#~ msgstr "USB 2.0 posteriore inferiore"
+
+#~ msgid "Back, lower USB 3.0"
+#~ msgstr "USB 3.0 posteriore inferiore"
+
+#~ msgid "Back, right USB 3.0"
+#~ msgstr "USB 3.0 posteriore destra"
+
+#~ msgid "Back, upper USB 2.0"
+#~ msgstr "USB 2.0 posteriore superiore"
+
+#~ msgid "Back, upper USB 3.0"
+#~ msgstr "USB 3.0 posteriore superiore"
+
+#~ msgid "Front USB 2.0"
+#~ msgstr "USB 2.0 anteriore"
 
 #~ msgid "MediaStream"
 #~ msgstr "MediaStream"
