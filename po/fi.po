@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 21:02+0000\n"
-"PO-Revision-Date: 2024-12-16 01:27+0000\n"
+"POT-Creation-Date: 2024-12-19 19:02+0000\n"
+"PO-Revision-Date: 2024-12-24 18:34+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 msgid ""
 "\n"
@@ -2795,9 +2795,6 @@ msgstr "Takaisin"
 msgid "Back USB"
 msgstr "Taka usb"
 
-msgid "Back USB 2.0"
-msgstr "Taka USB 2.0"
-
 msgid "Back USB 3.0"
 msgstr "Taka USB 3.0"
 
@@ -2807,32 +2804,20 @@ msgstr "Taka USB-C"
 msgid "Back, inner USB"
 msgstr "Taka, ylempi USB"
 
-msgid "Back, left USB 3.0"
-msgstr "Taka, Vasen USB 3.0"
+msgid "Back, left USB"
+msgstr "Taka, Vasen USB"
 
 msgid "Back, lower USB"
 msgstr "Taka, alempi USB"
 
-msgid "Back, lower USB 2.0"
-msgstr "Taka, alempi USB 2.0"
-
-msgid "Back, lower USB 3.0"
-msgstr "Taka, alempi USB 3.0"
-
 msgid "Back, outer USB"
 msgstr "Taka, ulompi USB"
 
-msgid "Back, right USB 3.0"
-msgstr "Taka, oikea USB 3.0"
+msgid "Back, right USB"
+msgstr "Taka, Oikea USB"
 
 msgid "Back, upper USB"
 msgstr "Ylempi USB"
-
-msgid "Back, upper USB 2.0"
-msgstr "Taka, ylempi USB 2.0"
-
-msgid "Back, upper USB 3.0"
-msgstr "Taka, ylempi USB 3.0"
 
 msgid "Back/Recall"
 msgstr "Peruuta/Uudelleen"
@@ -8585,9 +8570,6 @@ msgstr "Edessä"
 msgid "Front USB"
 msgstr "Etupaneelin USB"
 
-msgid "Front USB 2.0"
-msgstr "Etu USB 2.0"
-
 msgid "Front USB 3.0"
 msgstr "Etupaneelin USB 3.0"
 
@@ -9258,6 +9240,12 @@ msgstr "Isäntä"
 msgid "Hostname"
 msgstr "Isäntänimi"
 
+msgid "Hostname cannot be resolved to IP address!"
+msgstr "Isäntänimi ei voi ratkaista IP osoitetta!"
+
+msgid "Hostname or IP address"
+msgstr "Isäntä tai IP-osoite"
+
 msgid "Hostname: "
 msgstr "Isäntänimi: "
 
@@ -9347,6 +9335,9 @@ msgstr "IP Osoite, joka tarkistetaan ajastimen aktivoinnin yhteydessä."
 
 msgid "IP address"
 msgstr "IP osoite"
+
+msgid "IP address is invalid!"
+msgstr "IP-osoite on mitätön!"
 
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "Striimin välitys -palvelimen IP-osoite, jota käytetään sellaisten palvelujen salauksen purkamiseen, joiden salaus voidaan purkaa vain striimin välityksen kautta."
@@ -10412,6 +10403,9 @@ msgstr "Libanoni"
 msgid "Left"
 msgstr "Vasen"
 
+msgid "Left USB"
+msgstr "Vasen USB"
+
 msgid "Left column"
 msgstr "Vasen sarake"
 
@@ -11124,6 +11118,9 @@ msgstr "Mittaustila"
 
 msgid "Mexico"
 msgstr "Meksiko"
+
+msgid "Micro SD"
+msgstr "Micro Sd"
 
 msgid "Micronesia, Federated States of"
 msgstr "Micronesia"
@@ -12157,6 +12154,9 @@ msgstr "Yhteensopivia varmuuskopiointi sijainteja ei löytynyt!"
 
 msgid "No suitable sat tuner found!"
 msgstr "Sopivaa satelliittiviritintä ei löytynyt!"
+
+msgid "No system softcam configured!"
+msgstr "softcamia ei määritetty!"
 
 msgid "No tags are set on these movies."
 msgstr "Näissä tallenteissa ei ole avainsanoja."
@@ -15062,6 +15062,9 @@ msgstr "Uudelleenrivitä tekstitys"
 msgid "Right"
 msgstr "Oikea"
 
+msgid "Right USB"
+msgstr "Oikea USB"
+
 msgid "Right column"
 msgstr "Oikea sarake"
 
@@ -15073,6 +15076,12 @@ msgstr "Oikean sarakkeen tiedosto lajittelu"
 
 msgid "Right from service name"
 msgstr "Kanavanimestä oikealle"
+
+msgid "Right, back USB"
+msgstr "Oikea, taka USB"
+
+msgid "Right, front USB"
+msgstr "Oikea, etu USB"
 
 msgid "Right, wrapped"
 msgstr "oikealla, rivitä teksti"
@@ -15158,7 +15167,7 @@ msgstr "Suoritetaan Myrestore scripttiä, Odata hetki ..."
 
 #, python-format
 msgid "Running command %d: '%s'."
-msgstr "Suoritettaan komentoa %d: '%s'."
+msgstr "Suoritetaan komentoa %d: '%s'."
 
 msgid "Russian"
 msgstr "Venäjä"
@@ -15183,6 +15192,12 @@ msgstr "SAT"
 
 msgid "SATA"
 msgstr "SATA"
+
+msgid "SATA BACK"
+msgstr "SATA TAKA"
+
+msgid "SATA FRONT"
+msgstr "SATA ETU"
 
 msgid "SATPI"
 msgstr "SATPI"
@@ -24028,6 +24043,30 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Back USB 2.0"
+#~ msgstr "Taka USB 2.0"
+
+#~ msgid "Back, left USB 3.0"
+#~ msgstr "Taka, Vasen USB 3.0"
+
+#~ msgid "Back, lower USB 2.0"
+#~ msgstr "Taka, alempi USB 2.0"
+
+#~ msgid "Back, lower USB 3.0"
+#~ msgstr "Taka, alempi USB 3.0"
+
+#~ msgid "Back, right USB 3.0"
+#~ msgstr "Taka, oikea USB 3.0"
+
+#~ msgid "Back, upper USB 2.0"
+#~ msgstr "Taka, ylempi USB 2.0"
+
+#~ msgid "Back, upper USB 3.0"
+#~ msgstr "Taka, ylempi USB 3.0"
+
+#~ msgid "Front USB 2.0"
+#~ msgstr "Etu USB 2.0"
 
 #~ msgid "MediaStream"
 #~ msgstr "Media Toisto"
