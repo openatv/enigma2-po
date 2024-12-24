@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 21:02+0000\n"
-"PO-Revision-Date: 2024-12-17 12:22+0000\n"
+"POT-Creation-Date: 2024-12-19 19:02+0000\n"
+"PO-Revision-Date: 2024-12-21 11:00+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 msgid ""
 "\n"
@@ -2819,9 +2819,6 @@ msgstr "Zpět"
 msgid "Back USB"
 msgstr "Zadní USB port"
 
-msgid "Back USB 2.0"
-msgstr "Zadní USB 2.0"
-
 msgid "Back USB 3.0"
 msgstr "Zadní USB 3.0 port"
 
@@ -2831,32 +2828,20 @@ msgstr "Zadní USB-C"
 msgid "Back, inner USB"
 msgstr "Zadní strana, vnitřní USB port"
 
-msgid "Back, left USB 3.0"
-msgstr "Zadní, levé USB 3.0"
+msgid "Back, left USB"
+msgstr "Zadní, levé USB"
 
 msgid "Back, lower USB"
 msgstr "Vzadu, spodní USB port"
 
-msgid "Back, lower USB 2.0"
-msgstr "Zadní, spodní USB 2.0"
-
-msgid "Back, lower USB 3.0"
-msgstr "Zadní, spodní USB 3.0"
-
 msgid "Back, outer USB"
 msgstr "Zadní strana, vnější USB port"
 
-msgid "Back, right USB 3.0"
-msgstr "Zadní, pravé USB 3.0"
+msgid "Back, right USB"
+msgstr "Zadní, pravé USB"
 
 msgid "Back, upper USB"
 msgstr "Zadní, horní USB port"
-
-msgid "Back, upper USB 2.0"
-msgstr "Zadní, horní USB 2.0"
-
-msgid "Back, upper USB 3.0"
-msgstr "Zadní, horní USB 3.0"
 
 msgid "Back/Recall"
 msgstr "Zpět/Odvolání"
@@ -8613,9 +8598,6 @@ msgstr "Přední"
 msgid "Front USB"
 msgstr "Přední USB"
 
-msgid "Front USB 2.0"
-msgstr "Přední USB 2.0"
-
 msgid "Front USB 3.0"
 msgstr "Přední USB 3.0"
 
@@ -9286,6 +9268,12 @@ msgstr "Host"
 msgid "Hostname"
 msgstr "Název hostitele"
 
+msgid "Hostname cannot be resolved to IP address!"
+msgstr "Název hostitele nelze přeložit na IP adresu!"
+
+msgid "Hostname or IP address"
+msgstr "Název hostitele nebo IP adresa"
+
 msgid "Hostname: "
 msgstr "Název hostitele: "
 
@@ -9375,6 +9363,9 @@ msgstr "Při aktivaci časovače se má zkontrolovat IP adresa."
 
 msgid "IP address"
 msgstr "IP adresa"
+
+msgid "IP address is invalid!"
+msgstr "IP adresa je neplatná!"
 
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "IP adresa serveru Stream Relay používaného k dekódování služeb, které lze dešifrovat pouze prostřednictvím Stream Relay."
@@ -10436,6 +10427,9 @@ msgstr "Libanon"
 msgid "Left"
 msgstr "Vlevo"
 
+msgid "Left USB"
+msgstr "Levé USB"
+
 msgid "Left column"
 msgstr "Levý sloupec"
 
@@ -11149,6 +11143,9 @@ msgstr "Režim měření"
 
 msgid "Mexico"
 msgstr "Mexiko"
+
+msgid "Micro SD"
+msgstr "Micro SD"
 
 msgid "Micronesia, Federated States of"
 msgstr "Mikronésie, Federativní státy"
@@ -12176,6 +12173,9 @@ msgstr "Nebylo nalezen žádné vhodné umístění záloh!"
 
 msgid "No suitable sat tuner found!"
 msgstr "Nenalezen žádný vhodný tuner!"
+
+msgid "No system softcam configured!"
+msgstr "Není nakonfigurován žádný systémový softcam!"
 
 msgid "No tags are set on these movies."
 msgstr "Tyto soubory nemají nastavené žádné tagy."
@@ -15081,6 +15081,9 @@ msgstr "Zalamovat titulky"
 msgid "Right"
 msgstr "Vpravo"
 
+msgid "Right USB"
+msgstr "Pravé USB"
+
 msgid "Right column"
 msgstr "Pravý sloupec"
 
@@ -15092,6 +15095,12 @@ msgstr "Řazení souborů v pravém sloupci"
 
 msgid "Right from service name"
 msgstr "Napravo od názvu kanálu"
+
+msgid "Right, back USB"
+msgstr "Pravé, zadní USB"
+
+msgid "Right, front USB"
+msgstr "Pravé, přední USB"
 
 msgid "Right, wrapped"
 msgstr "vpravo, zalomený"
@@ -15202,6 +15211,12 @@ msgstr "SAT"
 
 msgid "SATA"
 msgstr "SATA"
+
+msgid "SATA BACK"
+msgstr "ZADNÍ SATA"
+
+msgid "SATA FRONT"
+msgstr "PŘEDNÍ SATA"
 
 msgid "SATPI"
 msgstr "SATPI"
@@ -24026,6 +24041,30 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Back USB 2.0"
+#~ msgstr "Zadní USB 2.0"
+
+#~ msgid "Back, left USB 3.0"
+#~ msgstr "Zadní, levé USB 3.0"
+
+#~ msgid "Back, lower USB 2.0"
+#~ msgstr "Zadní, spodní USB 2.0"
+
+#~ msgid "Back, lower USB 3.0"
+#~ msgstr "Zadní, spodní USB 3.0"
+
+#~ msgid "Back, right USB 3.0"
+#~ msgstr "Zadní, pravé USB 3.0"
+
+#~ msgid "Back, upper USB 2.0"
+#~ msgstr "Zadní, horní USB 2.0"
+
+#~ msgid "Back, upper USB 3.0"
+#~ msgstr "Zadní, horní USB 3.0"
+
+#~ msgid "Front USB 2.0"
+#~ msgstr "Přední USB 2.0"
 
 #~ msgid "MediaStream"
 #~ msgstr "Stream médií"

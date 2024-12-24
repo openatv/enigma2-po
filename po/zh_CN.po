@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 21:02+0000\n"
-"PO-Revision-Date: 2024-12-19 18:43+0000\n"
+"POT-Creation-Date: 2024-12-19 19:02+0000\n"
+"PO-Revision-Date: 2024-12-23 21:00+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.9.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-SourceCharset: UTF-8\n"
 "X-Generated: TM2TURK by thawtes\n"
 
@@ -31,7 +31,7 @@ msgid ""
 "Recording in progress."
 msgstr ""
 "\n"
-"正在进行录像。"
+"正在录制。"
 
 msgid " "
 msgstr " "
@@ -1295,7 +1295,7 @@ msgid "* = Restart Required"
 msgstr "* = 需要重启"
 
 msgid "* Only available if more than one interface is active."
-msgstr "* 仅在超过一个网卡处于活动状态时可用。"
+msgstr "* 仅当有多个网卡处于活动状态时可用。"
 
 msgid "* current animation"
 msgstr "*当前动画"
@@ -1314,7 +1314,7 @@ msgid "- No space left on backup device."
 msgstr "- 备份设备上没有剩余空间。"
 
 msgid "- No write permission on backup device."
-msgstr "- 备份设备上没有写权限。"
+msgstr "- 备份设备上没有写入权限。"
 
 msgid "- Wrong backup destination."
 msgstr "-备份目标错误。"
@@ -1359,7 +1359,7 @@ msgid "12 character"
 msgstr "12个字符"
 
 msgid "12, show Latin-1 characters except for greek and cyrillic, switch to 8 if needed."
-msgstr "12，显示除希腊语和西里尔字母外的Latin-1字符，如果需要切换到8。"
+msgstr "12，显示除希腊语和西里尔字母外的Latin-1字符， 必要时切换到8。"
 
 msgid "12V output"
 msgstr "12V 输出"
@@ -2787,9 +2787,6 @@ msgstr "返回"
 msgid "Back USB"
 msgstr "背面 USB"
 
-msgid "Back USB 2.0"
-msgstr "背面 USB 2.0"
-
 msgid "Back USB 3.0"
 msgstr "背面 USB 3.0"
 
@@ -2799,32 +2796,20 @@ msgstr "背面 USB-C"
 msgid "Back, inner USB"
 msgstr "背面，内置 USB"
 
-msgid "Back, left USB 3.0"
-msgstr "背面，左侧 USB 3.0"
+msgid "Back, left USB"
+msgstr "背面，左侧 USB"
 
 msgid "Back, lower USB"
 msgstr "背面，下方 USB"
 
-msgid "Back, lower USB 2.0"
-msgstr "背面，下方 USB 2.0"
-
-msgid "Back, lower USB 3.0"
-msgstr "背面，下方 USB 3.0"
-
 msgid "Back, outer USB"
 msgstr "背面，外部 USB"
 
-msgid "Back, right USB 3.0"
-msgstr "背面，右侧 USB 3.0"
+msgid "Back, right USB"
+msgstr "背面，右侧 USB"
 
 msgid "Back, upper USB"
 msgstr "背面，上方 USB"
-
-msgid "Back, upper USB 2.0"
-msgstr "背面，上方 USB 2.0"
-
-msgid "Back, upper USB 3.0"
-msgstr "背面，上方 USB 3.0"
 
 msgid "Back/Recall"
 msgstr "返回/唤回"
@@ -8576,9 +8561,6 @@ msgstr "前端"
 msgid "Front USB"
 msgstr "前 USB"
 
-msgid "Front USB 2.0"
-msgstr "前置 USB 2.0"
-
 msgid "Front USB 3.0"
 msgstr "前 USB 3.0"
 
@@ -9244,10 +9226,16 @@ msgid "Horse Racing"
 msgstr "赛马"
 
 msgid "Host"
-msgstr "Host"
+msgstr "主机"
 
 msgid "Hostname"
 msgstr "主机名"
+
+msgid "Hostname cannot be resolved to IP address!"
+msgstr "主机名无法解析为 IP 地址！"
+
+msgid "Hostname or IP address"
+msgstr "主机名或 IP 地址"
 
 msgid "Hostname: "
 msgstr "主机名： "
@@ -9338,6 +9326,9 @@ msgstr "定时器激活时要检查的 IP 地址。"
 
 msgid "IP address"
 msgstr "IP 地址"
+
+msgid "IP address is invalid!"
+msgstr "IP地址无效！"
 
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "串流中继服务器的 IP 地址，用于对只能通过串流中继解密的频道进行解扰。"
@@ -10398,6 +10389,9 @@ msgstr "黎巴嫩"
 msgid "Left"
 msgstr "左 箭头"
 
+msgid "Left USB"
+msgstr "左侧 USB"
+
 msgid "Left column"
 msgstr "左列"
 
@@ -11110,6 +11104,9 @@ msgstr "测光模式"
 
 msgid "Mexico"
 msgstr "墨西哥"
+
+msgid "Micro SD"
+msgstr "Micro SD"
 
 msgid "Micronesia, Federated States of"
 msgstr "密克罗尼西亚联邦"
@@ -12137,6 +12134,9 @@ msgstr "找不到合适的备份位置！"
 
 msgid "No suitable sat tuner found!"
 msgstr "没有找到合适的卫星调谐器！"
+
+msgid "No system softcam configured!"
+msgstr "未配置系统 softcam！"
 
 msgid "No tags are set on these movies."
 msgstr "这些电影没有设置标签。"
@@ -15040,6 +15040,9 @@ msgstr "重新封装字幕"
 msgid "Right"
 msgstr "右"
 
+msgid "Right USB"
+msgstr "右侧 USB"
+
 msgid "Right column"
 msgstr "右栏"
 
@@ -15051,6 +15054,12 @@ msgstr "右列文件排序"
 
 msgid "Right from service name"
 msgstr "频道名称右起"
+
+msgid "Right, back USB"
+msgstr "右侧，背面 USB"
+
+msgid "Right, front USB"
+msgstr "右侧，前置 USB"
 
 msgid "Right, wrapped"
 msgstr "右，覆盖"
@@ -15161,6 +15170,12 @@ msgstr "卫星"
 
 msgid "SATA"
 msgstr "SATA"
+
+msgid "SATA BACK"
+msgstr "背面 SATA"
+
+msgid "SATA FRONT"
+msgstr "前置 SATA"
 
 msgid "SATPI"
 msgstr "SATPI"
@@ -23979,6 +23994,30 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Back USB 2.0"
+#~ msgstr "背面 USB 2.0"
+
+#~ msgid "Back, left USB 3.0"
+#~ msgstr "背面，左侧 USB 3.0"
+
+#~ msgid "Back, lower USB 2.0"
+#~ msgstr "背面，下方 USB 2.0"
+
+#~ msgid "Back, lower USB 3.0"
+#~ msgstr "背面，下方 USB 3.0"
+
+#~ msgid "Back, right USB 3.0"
+#~ msgstr "背面，右侧 USB 3.0"
+
+#~ msgid "Back, upper USB 2.0"
+#~ msgstr "背面，上方 USB 2.0"
+
+#~ msgid "Back, upper USB 3.0"
+#~ msgstr "背面，上方 USB 3.0"
+
+#~ msgid "Front USB 2.0"
+#~ msgstr "前置 USB 2.0"
 
 #~ msgid "E "
 #~ msgstr "E "

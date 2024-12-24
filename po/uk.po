@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-13 21:02+0000\n"
-"PO-Revision-Date: 2024-12-14 21:03+0000\n"
+"POT-Creation-Date: 2024-12-19 19:02+0000\n"
+"PO-Revision-Date: 2024-12-20 03:54+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2824,9 +2824,6 @@ msgstr "Назад"
 msgid "Back USB"
 msgstr "USB Видалити"
 
-msgid "Back USB 2.0"
-msgstr "Задній USB 2.0"
-
 msgid "Back USB 3.0"
 msgstr "Видалити USB 3.0"
 
@@ -2836,32 +2833,20 @@ msgstr "Задній USB-C"
 msgid "Back, inner USB"
 msgstr "Видалити, внутрішня USB"
 
-msgid "Back, left USB 3.0"
-msgstr "Ззаду, зліва USB 3.0"
+msgid "Back, left USB"
+msgstr "USB ззаду, ліворуч"
 
 msgid "Back, lower USB"
 msgstr "Видалити, нижня USB"
 
-msgid "Back, lower USB 2.0"
-msgstr "Ззаду, нижній USB 2.0"
-
-msgid "Back, lower USB 3.0"
-msgstr "Ззаду, нижній USB 3.0"
-
 msgid "Back, outer USB"
 msgstr "Видалити, зовнішня USB"
 
-msgid "Back, right USB 3.0"
-msgstr "Ззаду, праворуч USB 3.0"
+msgid "Back, right USB"
+msgstr "USB ззаду, праворуч"
 
 msgid "Back, upper USB"
 msgstr "Видалити, верхня USB"
-
-msgid "Back, upper USB 2.0"
-msgstr "Задня частина, верхня частина USB 2.0"
-
-msgid "Back, upper USB 3.0"
-msgstr "Задня частина, верхня частина USB 3.0"
 
 msgid "Back/Recall"
 msgstr "Назад/Повторити"
@@ -8618,9 +8603,6 @@ msgstr "Вид Тюнера"
 msgid "Front USB"
 msgstr "Передня USB"
 
-msgid "Front USB 2.0"
-msgstr "USB 2.0 на передній панелі"
-
 msgid "Front USB 3.0"
 msgstr "Передня USB 3.0"
 
@@ -9291,6 +9273,12 @@ msgstr "Хост"
 msgid "Hostname"
 msgstr "Ім’я хосту"
 
+msgid "Hostname cannot be resolved to IP address!"
+msgstr "Ім'я хосту не може бути розкрито в IP-адресу!"
+
+msgid "Hostname or IP address"
+msgstr "Ім’я хосту, або IP-адреса"
+
 msgid "Hostname: "
 msgstr "Мережеве ім'я: "
 
@@ -9380,6 +9368,9 @@ msgstr "IP-адреса для перевірки під час активаці
 
 msgid "IP address"
 msgstr "АП адреса"
+
+msgid "IP address is invalid!"
+msgstr "IP-адреса недійсна!"
 
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr "IP-адреса сервера Stream Relay, який використовується для розкодування каналів, які можна розшифрувати лише за допомогою Stream Relay."
@@ -10441,6 +10432,9 @@ msgstr "Ліван"
 msgid "Left"
 msgstr "Вліво"
 
+msgid "Left USB"
+msgstr "USB зліва"
+
 msgid "Left column"
 msgstr "Ліва колонка"
 
@@ -11154,6 +11148,9 @@ msgstr "Режим вимірювання"
 
 msgid "Mexico"
 msgstr "Мексика"
+
+msgid "Micro SD"
+msgstr "Мікро-SD"
 
 msgid "Micronesia, Federated States of"
 msgstr "Мікронезія, Федеративні Штати"
@@ -12181,6 +12178,9 @@ msgstr "Не знайдено відповідних резервних місц
 
 msgid "No suitable sat tuner found!"
 msgstr "Немає відповідного сат-тюнера!"
+
+msgid "No system softcam configured!"
+msgstr "Системну програмну камеру не налаштовано!"
 
 msgid "No tags are set on these movies."
 msgstr "Теги не встановлені на цих фільмах."
@@ -15086,6 +15086,9 @@ msgstr "Перезапускати субтитри"
 msgid "Right"
 msgstr "Вправо"
 
+msgid "Right USB"
+msgstr "USB справа"
+
 msgid "Right column"
 msgstr "Права колонка"
 
@@ -15097,6 +15100,12 @@ msgstr "Сортування файлів у правому стовпці"
 
 msgid "Right from service name"
 msgstr "Після назви каналу"
+
+msgid "Right, back USB"
+msgstr "USB справа ззаду"
+
+msgid "Right, front USB"
+msgstr "USB справа спереду"
 
 msgid "Right, wrapped"
 msgstr "справа, прихований"
@@ -15207,6 +15216,12 @@ msgstr "САТ"
 
 msgid "SATA"
 msgstr "SATA"
+
+msgid "SATA BACK"
+msgstr "SATA ззаду"
+
+msgid "SATA FRONT"
+msgstr "SATA спереду"
 
 msgid "SATPI"
 msgstr "SATPI"
@@ -19339,7 +19354,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 14.122024"
+msgstr "Переклад: kvinto - 19.12.2024"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -24031,6 +24046,30 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Back USB 2.0"
+#~ msgstr "Задній USB 2.0"
+
+#~ msgid "Back, left USB 3.0"
+#~ msgstr "Ззаду, зліва USB 3.0"
+
+#~ msgid "Back, lower USB 2.0"
+#~ msgstr "Ззаду, нижній USB 2.0"
+
+#~ msgid "Back, lower USB 3.0"
+#~ msgstr "Ззаду, нижній USB 3.0"
+
+#~ msgid "Back, right USB 3.0"
+#~ msgstr "Ззаду, праворуч USB 3.0"
+
+#~ msgid "Back, upper USB 2.0"
+#~ msgstr "Задня частина, верхня частина USB 2.0"
+
+#~ msgid "Back, upper USB 3.0"
+#~ msgstr "Задня частина, верхня частина USB 3.0"
+
+#~ msgid "Front USB 2.0"
+#~ msgstr "USB 2.0 на передній панелі"
 
 #~ msgid "MediaStream"
 #~ msgstr "Медіа-потік"
