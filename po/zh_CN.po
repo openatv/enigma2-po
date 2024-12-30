@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-24 18:40+0000\n"
-"PO-Revision-Date: 2024-12-27 21:39+0000\n"
+"PO-Revision-Date: 2024-12-30 11:00+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -947,8 +947,8 @@ msgstr[1] "%d 个标记为需要安装。"
 #, python-format
 msgid "%d package marked for remove."
 msgid_plural "%d packages marked for remove."
-msgstr[0] "已标记 %d 个要删除的软件包。"
-msgstr[1] "已标记 %d 个要删除的软件包。"
+msgstr[0] "%d 个标记为需要删除。"
+msgstr[1] "%d 个标记为需要删除。"
 
 #, python-format
 msgid "%d package marked for update."
@@ -5926,7 +5926,7 @@ msgid "Delete only highlighted file"
 msgstr "仅删除突出显示的文件"
 
 msgid "Delete or Wipe the highlighted slot"
-msgstr "删除或擦除突出显示的位置"
+msgstr "删除或擦除突出显示的槽位"
 
 msgid "Delete play list entry"
 msgstr "删除播放列表条目"
@@ -8130,10 +8130,10 @@ msgid "Favorites"
 msgstr "收藏夹"
 
 msgid "Feed URL"
-msgstr "Feed 地址"
+msgstr "订阅源地址"
 
 msgid "Feed disabled!"
-msgstr "已禁用 Feed！"
+msgstr "已禁用订阅源！"
 
 msgid "Feed server DNS error!"
 msgstr "订阅源服务器DNS错误！"
@@ -8142,10 +8142,10 @@ msgid "Feed server access error!"
 msgstr "订阅源服务器访问错误！"
 
 msgid "Feed stable."
-msgstr "Feed 稳定。"
+msgstr "订阅源稳定。"
 
 msgid "Feed unstable!"
-msgstr "Feed 不稳定！"
+msgstr "订阅源不稳定！"
 
 msgid "Fetch EPG and update timers now"
 msgstr "立即获取 EPG 并更新定时器"
@@ -10581,7 +10581,7 @@ msgid "Loading information, please wait..."
 msgstr "正在加载信息，请稍候..."
 
 msgid "Loading slot information, please wait..."
-msgstr "正在加载位置信息，请稍候..."
+msgstr "正在加载插槽信息，请稍候..."
 
 msgid "Local box"
 msgstr "本地机顶盒"
@@ -12133,7 +12133,7 @@ msgid "No services/providers selected"
 msgstr "没有选择 频道/供应商"
 
 msgid "No slot images found"
-msgstr "未找到镜像位置"
+msgstr "未找到任何镜像插槽"
 
 msgid "No standby"
 msgstr "不待机"
@@ -13432,7 +13432,7 @@ msgid "Please wait while the data is extracted..."
 msgstr "正在提取数据，请稍候..."
 
 msgid "Please wait while the feeds are reset (cleared and reloaded)..."
-msgstr "正在重置（清除并重新加载）feed，请稍候..."
+msgstr "正在重置（清除并重新加载）订阅源，请稍候..."
 
 msgid "Please wait while the file is read and processed..."
 msgstr "正在读取和处理文件，请稍候..."
@@ -13837,7 +13837,7 @@ msgid "Press OK to use this locale.  [%s]"
 msgstr "按“确定”使用此区域设置。[%s]"
 
 msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that image. If available, YELLOW will either delete or wipe the image. A deleted image can be restored with the BLUE button. A wiped image is completely removed and cannot be restored!"
-msgstr "按向上/向下按钮选择一个位置，然后按 OK 或 绿键 重新启动到该镜像。 如果可用，黄键将删除或擦除镜像。 可以使用蓝键恢复已删除的镜像。 擦除的镜像被完全删除，无法恢复！"
+msgstr "按向上/向下按钮选择一个槽位，然后按 OK 或 绿键 重新启动到该镜像。 如果可用，黄键将删除或擦除镜像。 可以使用蓝键恢复已删除的镜像。 擦除的镜像被完全删除，无法恢复！"
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "按此按键可模拟长按之后按下的按键（这也会覆盖分配给仿真按键的任何其他操作）。"
@@ -14962,7 +14962,7 @@ msgid "Restore settings now"
 msgstr "立即恢复设置"
 
 msgid "Restore the highlighted slot"
-msgstr "恢复突出显示的位置"
+msgstr "还原突出显示的槽位"
 
 msgid "Restore your %s %s settings."
 msgstr "恢复 %s %s 的设置。"
@@ -15890,7 +15890,7 @@ msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "选择“是”将任务拆分为单独的操作。"
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "选择“是”以使用备用 GitHub feed 源 IP 地址。如果您使用 VPN 并且无法通过发布的 DNS 名称访问正常的 feed 源，这会很有帮助。"
+msgstr "选择“是”以使用备用 GitHub 订阅源 IP 地址。如果您使用 VPN 并且无法通过发布的 DNS 名称访问正常的订阅源，这会很有帮助。"
 
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "选择“是”以使用传统导航，其中CH+/-交换活动列。选择“否”可使用较新的统一导航选项，以与其他屏幕保持一致的导航，其中左/右在列表中上下交换活动列和CH+/-页面。"
@@ -16340,10 +16340,10 @@ msgid "Select the function to be assigned to this button."
 msgstr "选择要分配给此按钮的功能。"
 
 msgid "Select the highlighted image and proceed to the slot selection"
-msgstr "选择突出显示的镜像并继续进行位置选择"
+msgstr "选择突出显示的镜像并继续进行槽位选择"
 
 msgid "Select the highlighted slot and reboot"
-msgstr "选择突出显示的位置并重新启动"
+msgstr "选择突出显示的插槽并重新启动"
 
 msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
 msgstr "选择时间线标记的初始位置。 标记是在 EPG 上绘制的显示当前时间的垂直线。值越大，标记越向右移动，显示的历史记录越多，即将发生的事件越少。"
@@ -21546,7 +21546,7 @@ msgid "User - Bouquets"
 msgstr "用户 － 频道群"
 
 msgid "User Feed URL"
-msgstr "用户 Feed 地址"
+msgstr "用户订阅源地址"
 
 msgid "User ID"
 msgstr "用户名"
@@ -22072,7 +22072,7 @@ msgid "Warning: %d feeds were unable to be reloaded!"
 msgstr "警告：无法重新加载 %d 订阅源！"
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
-msgstr "警告：取消此过程将使 feed 处于不完整且无法使用的状态！"
+msgstr "警告：取消此过程将使订阅源处于不完整且无法使用的状态！"
 
 msgid "Warning: Overrides are currently active!"
 msgstr "警告：覆盖当前处于活动状态！"
@@ -23202,7 +23202,7 @@ msgstr "eMMC"
 
 #, python-format
 msgid "eMMC slot %s%s"
-msgstr "eMMC 位置 %s%s"
+msgstr "eMMC 槽位 %s%s"
 
 msgid "eSATA"
 msgstr "eSATA"
