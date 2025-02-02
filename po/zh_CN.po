@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 07:25+0000\n"
+"POT-Creation-Date: 2025-01-30 15:09+0000\n"
 "PO-Revision-Date: 2025-01-16 10:00+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -3534,6 +3534,9 @@ msgstr ""
 "无法打开电视直播！\n"
 "是否切换到电视直播并重启时移？"
 
+msgid "Can't move to trashcan!"
+msgstr "无法移动到回收站"
+
 msgid ""
 "Can't play the next time shift file!\n"
 "Switch to live TV and restart time shift ?"
@@ -3659,9 +3662,6 @@ msgstr "无法确定 %s 限制...，正在中止！"
 
 msgid "Cannot find any signal ..., aborting !"
 msgstr "无法找到任何信号...，正在中止！"
-
-msgid "Can't move to trashcan!"
-msgstr "无法移动到回收站"
 
 msgid "Cape Verde"
 msgstr "佛得角"
@@ -6145,10 +6145,6 @@ msgid "Directory"
 msgstr "目录"
 
 #, python-format
-msgid "Error: Directory '%s' does not exist!"
-msgstr "不存在 %s 目录 。"
-
-#, python-format
 msgid "Directory '%s' can't be linked to recordings!"
 msgstr "目录“%s”无法链接到录像！"
 
@@ -6360,15 +6356,8 @@ msgstr ""
 "将无法恢复 ！"
 
 #, python-format
-msgid "Do you really want to delete %s ?"
-msgstr "真的要删除 %s ？"
-
-#, python-format
 msgid "Do you really want to delete '%s'?"
 msgstr "真的要删除“%s”吗？"
-
-msgid "Do you really want to delete?"
-msgstr "真的要删除？"
 
 #, python-format
 msgid ""
@@ -6388,6 +6377,9 @@ msgstr ""
 msgid "Do you really want to delete this timer?"
 msgstr "真的要删除这个定时器吗？"
 
+msgid "Do you really want to delete?"
+msgstr "真的要删除？"
+
 msgid "Do you really want to exit?"
 msgstr "真的要退出？"
 
@@ -6398,27 +6390,25 @@ msgstr ""
 "您确实要在 Linux 文件系统中格式化设备吗？\n"
 "设备上的所有数据都将丢失！"
 
-msgid "Do you really want to move to trashcan ?"
-msgstr "真的要移动到回收站？"
+#, python-format
+msgid "Do you really want to move '%s' to the trashcan?"
+msgstr ""
 
 #, python-format
 msgid "Do you really want to permanently remove '%s' from the trashcan?"
 msgstr "真的要从垃圾桶中永久删除“%s”吗？"
-
-msgid "Do you really want to permanently remove from trash can ?"
-msgstr "真的要从回收站永久删除 ？"
 
 #, python-format
 msgid "Do you really want to remove directory '%s' from the disk?"
 msgstr "真的要从磁盘中删除目录“%s”吗？"
 
 #, python-format
-msgid "Do you really want to remove the timer for %s?"
-msgstr "真的要删除 %s 的定时器?"
-
-#, python-format
 msgid "Do you really want to remove the bookmark for '%s'?"
 msgstr "真的要删除“%s”的书签吗？"
+
+#, python-format
+msgid "Do you really want to remove the timer for %s?"
+msgstr "真的要删除 %s 的定时器?"
 
 msgid ""
 "Do you really want to restart OSCam?\n"
@@ -7599,6 +7589,10 @@ msgstr "错误：创建目录“%s”失败！"
 #, python-format
 msgid "Error: Creating picon target directory: (%s)"
 msgstr "错误：正在创建频道图标目标目录：（%s）"
+
+#, python-format
+msgid "Error: Directory '%s' does not exist!"
+msgstr "不存在 %s 目录 。"
 
 #, python-format
 msgid "Error: Failed to run service scan!  (%s)"
@@ -24054,6 +24048,16 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Do you really want to delete %s ?"
+#~ msgstr "真的要删除 %s ？"
+
+#~ msgid "Do you really want to move to trashcan ?"
+#~ msgstr "真的要移动到回收站？"
+
+#~ msgid "Do you really want to permanently remove from trash can ?"
+#~ msgstr "真的要从回收站永久删除 ？"
 
 #~ msgid "Bus: "
 #~ msgstr "总线："
