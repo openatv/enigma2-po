@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-30 15:09+0000\n"
-"PO-Revision-Date: 2025-02-08 19:21+0000\n"
+"POT-Creation-Date: 2025-02-09 15:18+0000\n"
+"PO-Revision-Date: 2025-02-11 10:59+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -1736,19 +1736,22 @@ msgid "AFL"
 msgstr "AFL"
 
 msgid "AI Translation color"
-msgstr "Kolor napisów oparty na sztucznej inteligencji"
+msgstr "Kolor tłumaczenia AI"
 
 msgid "AI Translation enabled"
-msgstr "Włącz tłumaczenie oparte na sztucznej inteligencji"
+msgstr "Włącz tłumaczenie AI"
 
 msgid "AI Translation language"
-msgstr "Język tłumaczenia oparty na sztucznej inteligencji"
+msgstr "Język tłumaczenia AI"
+
+msgid "AI Translation mode"
+msgstr "Tryb tłumaczenia AI"
 
 msgid "AI Translation optimization"
-msgstr "Optymalizacja tłumaczeń oparta na sztucznej inteligencji"
+msgstr "Optymalizacja tłumaczenia AI"
 
 msgid "AI Translation subscription code"
-msgstr "Kod subskrypcji tłumaczenia obsługiwanego przez sztuczną inteligencję"
+msgstr "Kod subskrypcji tłumaczenia AI"
 
 msgid "ARM"
 msgstr "ARM"
@@ -2418,6 +2421,9 @@ msgstr "Arabski"
 
 msgid "Arabic (Egyptian)"
 msgstr "Arabski (Egipski)"
+
+msgid "Arabic (Iraq)"
+msgstr "Arabski (Irak)"
 
 msgid "Arabic (Moroccan)"
 msgstr "Arabski (Marokański)"
@@ -4873,7 +4879,7 @@ msgid "Connected: "
 msgstr "Podłączony: "
 
 msgid "Connection information"
-msgstr "Info o połączeniu"
+msgstr "Informacje o połączeniu"
 
 msgid "Console"
 msgstr "Konsola"
@@ -6422,9 +6428,6 @@ msgstr ""
 msgid "Do you really want to delete this timer?"
 msgstr "Czy na pewno usunąć timer?"
 
-msgid "Do you really want to delete?"
-msgstr "Czy na pewno chcesz usunąć?"
-
 msgid "Do you really want to exit?"
 msgstr "Czy chcesz wyjść?"
 
@@ -6696,7 +6699,7 @@ msgid "Driver Packages"
 msgstr "Pakiety sterowników"
 
 msgid "Driver and kernel information"
-msgstr "Info o sterowniku i jądrze"
+msgstr "Informacje o sterowniku i kernel"
 
 msgid "Drivers version"
 msgstr "Wersja sterownika"
@@ -7386,7 +7389,7 @@ msgid "Enter the service pin"
 msgstr "Wpisz PIN kanału"
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
-msgstr "Wprowadź kod subskrypcji, aby w pełni włączyć wtyczkę AI-Powered Translation. Ujednolicony kod na wersję próbną to 15."
+msgstr "Wprowadź kod subskrypcji, aby w pełni włączyć wtyczkę AI Translation. Ujednolicony kod dla wersji próbnej to 15."
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Wprowadź aktualną szerokość geograficzną. Jest to liczba stopni z równika jako dziesiętna."
@@ -7395,10 +7398,10 @@ msgid "Enter your current longitude. This is the number of degrees you are from 
 msgstr "Wprowadź aktualną długość geograficzną. Jest to liczba stopni od południka zerowego jako dziesiętna."
 
 msgid "Enter your high band local oscillator frequency. For more information consult the specifications of your LNB."
-msgstr "Wprowadź częstotliwość pasma lokalnego oscylatora lokalnego. Aby uzyskać więcej informacji, zapoznaj się z arkuszem specyfikacji swojego LNB."
+msgstr "Wprowadź częstotliwość lokalnego oscylatora pasma wysokiego. Aby uzyskać więcej informacji, zapoznaj się ze specyfikacjami swojego LNB."
 
 msgid "Enter your low band local oscillator frequency. For more information consult the specifications of your LNB."
-msgstr "Wprowadź częstotliwość lokalnego oscylatora dolnego pasma. Aby uzyskać więcej informacji, zapoznaj się z arkuszem specyfikacji swojego LNB."
+msgstr "Wprowadź częstotliwość lokalnego oscylatora pasma niskiego. Aby uzyskać więcej informacji, zapoznaj się ze specyfikacjami swojego LNB."
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
 msgstr "Wprowadź adres URL swojego osobistego kanału, aby móc wybierać pakiety z tego kanału."
@@ -8716,7 +8719,7 @@ msgid "Geolocation"
 msgstr "Geolokalizacja"
 
 msgid "Geolocation Information"
-msgstr "Info o geolokalizacji"
+msgstr "Informacje o geolokalizacji"
 
 msgid "Geolocation data does not contain time zone information."
 msgstr "Dane geolokalizacyjne nie zawierają informacji o strefie czasowej."
@@ -9050,7 +9053,7 @@ msgid "Hardware MultiBoot device"
 msgstr "Slot MultiBoot"
 
 msgid "Hardware information"
-msgstr "Info o sprzęcie"
+msgstr "Informacje o sprzęcie"
 
 msgid "Hardware serial"
 msgstr "Numer seryjny"
@@ -9119,7 +9122,7 @@ msgid "HiSilicon"
 msgstr "HiSilicon"
 
 msgid "HiSilicon specific information"
-msgstr "Informacje szczegółowe dotyczące HiSilicon"
+msgstr "Informacje specyficzne dla HiSilicon"
 
 msgid "HiSilicon specific information not found."
 msgstr "Nie znaleziono szczegółowych informacji dotyczących HiSilicon."
@@ -9984,7 +9987,7 @@ msgstr "Wewnętrzny flash:  %s %s "
 
 #, python-format
 msgid "Internal flash: %s %s as USB Recovery"
-msgstr "Wewnętrzna pamięć flash: %s %s jako USB Recovery"
+msgstr "Wewnętrzna pamięć flash: %s %s USB Recovery"
 
 msgid "Internal hdd only"
 msgstr "Tylko wewnętrzny hdd"
@@ -10639,7 +10642,7 @@ msgid "Local date/time"
 msgstr "Lokalna data/czas"
 
 msgid "Local information"
-msgstr "Info lokalne"
+msgstr "Informacje lokalne"
 
 msgid "Local network"
 msgstr "Lokalna Sieć"
@@ -10692,7 +10695,7 @@ msgid "Location Selection Actions"
 msgstr "Akcje wyboru lokalizacji"
 
 msgid "Location information"
-msgstr "Info o lokalizacji"
+msgstr "Informacje o lokalizacji"
 
 msgid "Location list"
 msgstr "Lista lokalizacji"
@@ -11855,7 +11858,7 @@ msgid "Network ID"
 msgstr "ID sieci"
 
 msgid "Network Information"
-msgstr "Info o sieci"
+msgstr "Informacje o sieci"
 
 msgid "Network Information Actions"
 msgstr "Działania dotyczące informacji o sieci"
@@ -11909,7 +11912,7 @@ msgid "Network configuration..."
 msgstr "Ustawienia sieci..."
 
 msgid "Network information"
-msgstr "Info o sieci"
+msgstr "Informacje o sieci"
 
 #, python-format
 msgid "Network information for %s %s"
@@ -13973,7 +13976,7 @@ msgid "Processing"
 msgstr "Przetwarzanie"
 
 msgid "Processor information"
-msgstr "Info o procesorze"
+msgstr "Informacje o procesorze"
 
 msgid "Profile"
 msgstr "Profil"
@@ -15822,7 +15825,7 @@ msgid "Select 'Yes' to display unknown files in the File Commander file viewer, 
 msgstr "Wybierz \"Tak\", aby wyświetlić nieznane pliki w podglądzie plików File Commander, wybierz \"Nie\", aby nie przetwarzać nieznanych plików."
 
 msgid "Select 'Yes' to enable AI-Powered Translation for all teletext and DVB subtitles."
-msgstr "Wybierz opcję „Tak”, aby włączyć tłumaczenie wspomagane sztuczną inteligencją dla wszystkich napisów teletekstu i DVB."
+msgstr "Wybierz 'Tak', aby włączyć tłumaczenie AI dla wszystkich napisów teletekstowych i DVB."
 
 msgid "Select 'Yes' to enable editing of this device's settings. Selecting 'No' resets the devices settings to their default values."
 msgstr "Wybierz \"Tak\", aby włączyć edycję ustawień urządzenia. Wybierz \"Nie\" aby przywrócić domyślne ustawienia urządzenia."
@@ -16293,7 +16296,7 @@ msgid "Select the %s entry"
 msgstr "Wybierz wpis %s"
 
 msgid "Select the AI-Powered Translation target language."
-msgstr "Wybierz język docelowy tłumaczenia wspomaganego przez sztuczną inteligencję."
+msgstr "Wybierz język docelowy tłumaczenia AI."
 
 msgid "Select the No / False response"
 msgstr "Wybierz odpowiedź jako Nie/Fałsz"
@@ -16355,7 +16358,7 @@ msgid "Select the character or action under the keyboard cursor"
 msgstr "Wybierz znak lub akcję pod kursorem klawiatury"
 
 msgid "Select the color to be used for the AI-Powered Translation text."
-msgstr "Wybierz kolor, który będzie używany w tekście tłumaczenia wspomaganego przez sztuczną inteligencję."
+msgstr "Wybierz kolor, który będzie używany dla tekstu tłumaczenia AI."
 
 msgid "Select the current bookmarked location and exit"
 msgstr "Wybierz bieżącą lokalizację zakładki i wyjdź"
@@ -18432,7 +18435,7 @@ msgstr "Slot %s: %s (Bieżący system)"
 
 #, python-format
 msgid "Slot %s: %s as USB Recovery"
-msgstr "Slot %s: %s jako USB Recovery"
+msgstr "Slot %s: %s USB Recovery"
 
 #, python-format
 msgid "Slot '%s' %s"
@@ -18561,7 +18564,7 @@ msgid "Software Update Actions"
 msgstr "Akcje aktualizacji oprogramowania"
 
 msgid "Software information"
-msgstr "Info o oprogramowaniu"
+msgstr "Informacje o oprogramowaniu"
 
 msgid ""
 "Software update starting, please wait.\n"
@@ -19686,8 +19689,11 @@ msgstr "Log %s nie zawiera żadnych informacji."
 msgid "The '%s' file can't be retrieved, please try again later."
 msgstr "Nie można odzyskać pliku \"%s\", spróbuj ponownie później."
 
+msgid "The AI mode used for translating languages. You can choose the one that gives the most accurate translation for your target language."
+msgstr "Tryb AI używany do tłumaczenia języków. Możesz wybrać ten, który daje najdokładniejsze tłumaczenie dla Twojego języka docelowego."
+
 msgid "The AI-Powered Translation service will be optimized to provide the best performance based on the the Internet connection upload speed selected."
-msgstr "Usługa tłumaczenia wspomaganego sztuczną inteligencją zostanie zoptymalizowana w celu zapewnienia najlepszej wydajności w oparciu o wybraną prędkość wysyłania połączenia internetowego."
+msgstr "Usługa tłumaczenia AI zostanie zoptymalizowana w celu zapewnienia najlepszej wydajności na podstawie wybranej prędkości przesyłania danych połączenia internetowego."
 
 msgid ""
 "The AutoTimer plugin is not installed!\n"
@@ -21408,7 +21414,7 @@ msgid "Usage & GUI"
 msgstr "Obsługa i interfejs"
 
 msgid "Usage Setup"
-msgstr "Ustawienia użycia"
+msgstr "Ustawienia zaawansowane"
 
 msgid "Use"
 msgstr "Użyj"
@@ -22091,7 +22097,7 @@ msgid "WAN Geolocation"
 msgstr "Geolokalizacja sieci WAN"
 
 msgid "WAN connection information"
-msgstr "Info o połączeniu WAN"
+msgstr "Informacje o połączeniu WAN"
 
 msgid "WARNING:"
 msgstr "OSTRZEŻENIE:"
@@ -22260,7 +22266,7 @@ msgstr ""
 "Przejdź do miejsca, które ma być nowym końcem pliku. Naciśnij 'OK', wybierz 'koniec cięcia'. To wszystko."
 
 msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of the %s %s by providing a backup facility for the current settings and a short explanation of how to upgrade the firmware."
-msgstr "Witamy w kreatorze aktualizacji systemu. Kreator pomoże Ci w aktualizacji oprogramowania sprzętowego %s %s, udostępniając kopię zapasową bieżących ustawień i krótkie wyjaśnienie, jak zaktualizować oprogramowanie sprzętowe."
+msgstr "Witamy w kreatorze aktualizacji obrazu. Kreator pomoże Ci w aktualizacji oprogramowania %s %s, zapewniając funkcję kopii zapasowej bieżących ustawień i krótkie wyjaśnienie, jak uaktualnić oprogramowanie."
 
 msgid "Welcome..."
 msgstr "Witaj..."
@@ -24108,6 +24114,9 @@ msgstr "tak (zachować kanały)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Do you really want to delete?"
+#~ msgstr "Czy na pewno chcesz usunąć?"
 
 #, python-format
 #~ msgid "Do you really want to delete %s ?"
