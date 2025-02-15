@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 15:18+0000\n"
-"PO-Revision-Date: 2025-02-11 10:59+0000\n"
+"POT-Creation-Date: 2025-02-11 08:26+0000\n"
+"PO-Revision-Date: 2025-02-15 07:38+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1563,7 +1563,7 @@ msgid "<Default movie location>"
 msgstr "<Domyślna lokalizacja filmu>"
 
 msgid "<Flash expander inactive>"
-msgstr "<Rozszerzacz flash nieaktywny>"
+msgstr "<Ekspander flash nieaktywny>"
 
 msgid "<Last timer location>"
 msgstr "<Ostatnia lokalizacja timera>"
@@ -3653,7 +3653,7 @@ msgid "Cancel service selection and exit"
 msgstr "Anuluj wybór usługi i wyjdź"
 
 msgid "Cancel the Reset Feeds command currently being processed"
-msgstr "Anuluj aktualnie przetwarzane polecenie Resetuj kanały"
+msgstr "Anuluj polecenie Reset Feeds, które jest obecnie przetwarzane"
 
 msgid "Cancel the bouquet selection"
 msgstr "Anuluj wybór listy kanałów"
@@ -3842,9 +3842,6 @@ msgstr "Info Kanału"
 
 msgid "Channel List"
 msgstr "Lista Kanałów"
-
-msgid "Channel List Menu"
-msgstr "Menu listy kanałów"
 
 msgid "Channel Selection"
 msgstr "Wybór kanału"
@@ -5441,7 +5438,7 @@ msgid "DVB Subtitles PID & Language"
 msgstr "Napisy DVB, PID i język"
 
 msgid "DVB subtitle black transparency"
-msgstr "Przezroczystość czarnych napisów DVB"
+msgstr "Przezroczystość czarnego tła napisów DVB"
 
 msgid "DVB subtitles color"
 msgstr "Kolor napisów DVB"
@@ -7718,7 +7715,7 @@ msgstr "Błąd: Wystąpił problem z zapisem '%s'!"
 
 #, python-format
 msgid "Error: There was an issue in the reset of the feeds! Please reboot the %s %s and check the file system for any errors before trying this command again."
-msgstr "Błąd: Wystąpił problem podczas resetowania kanałów! Proszę zrestartować %s %s i sprawdzić system plików pod kątem błędów przed ponowną próbą wykonania tego polecenia."
+msgstr "Błąd: Wystąpił problem podczas resetowania feed'ów! Proszę zrestartować %s %s i sprawdzić system plików pod kątem błędów przed ponowną próbą wykonania tego polecenia."
 
 msgid "Error: Unable to create the required directories on the target device (e.g. USB stick or hard disk)! Please verify device and try again."
 msgstr "Błąd: Nie udało się utworzyć wymaganych katalogów na dysku (np. USB lub dysk twardy)! Sprawdź dysk i spróbuj ponownie."
@@ -8182,7 +8179,7 @@ msgid "Feed URL"
 msgstr "Adres URL kanału"
 
 msgid "Feed disabled!"
-msgstr "Źródło wyłączone!"
+msgstr "Serwer-wyłączony!"
 
 msgid "Feed server DNS error!"
 msgstr "Błąd DNS serwera feed!"
@@ -8191,10 +8188,10 @@ msgid "Feed server access error!"
 msgstr "Błąd dostępu do serwera feed!"
 
 msgid "Feed stable."
-msgstr "Źródło stabilne."
+msgstr "Serwer-stabilny."
 
 msgid "Feed unstable!"
-msgstr "Źródło niestabilne!"
+msgstr "Serwer-niestabilny!"
 
 msgid "Fetch EPG and update timers now"
 msgstr "Pobierz EPG i zaktualizuj timery teraz"
@@ -9973,7 +9970,10 @@ msgid "Internal"
 msgstr "Wewnętrzny"
 
 msgid "Internal Flash"
-msgstr "Wewnętrzna pamięć flash"
+msgstr "Wewnętrzny flash"
+
+msgid "Internal SSD"
+msgstr "Wewnętrzny NVMe"
 
 msgid "Internal USB"
 msgstr "Wewnętrzny USB"
@@ -9987,7 +9987,7 @@ msgstr "Wewnętrzny flash:  %s %s "
 
 #, python-format
 msgid "Internal flash: %s %s as USB Recovery"
-msgstr "Wewnętrzna pamięć flash: %s %s USB Recovery"
+msgstr "Wewnętrzny flash: %s %s USB Recovery"
 
 msgid "Internal hdd only"
 msgstr "Tylko wewnętrzny hdd"
@@ -13309,6 +13309,9 @@ msgstr "Odtwarzaj wybraną usługę"
 msgid "Playback Settings"
 msgstr "Ustawienia odtwarzania"
 
+msgid "Playback Time:"
+msgstr "Czas odtwarzania:"
+
 msgid "Playback, Recording & Time Shift"
 msgstr "Nagrywanie i timeshift"
 
@@ -13506,7 +13509,7 @@ msgid "Please wait while the data is extracted..."
 msgstr "Proszę poczekać, aż dane zostaną wyodrębnione..."
 
 msgid "Please wait while the feeds are reset (cleared and reloaded)..."
-msgstr "Poczekaj, aż feedy zostaną zresetowane (wyczyszczone i ponownie załadowane)..."
+msgstr "Poczekaj, aż feed'y zostaną zresetowane (wyczyszczone i ponownie załadowane)..."
 
 msgid "Please wait while the file is read and processed..."
 msgstr "Proszę czekać, aż plik zostanie odczytany i przetworzony..."
@@ -13551,7 +13554,7 @@ msgid "Please wait while your skin setting is restoring..."
 msgstr "Proszę czekać, przywracanie ustawień skórki..."
 
 msgid "Please wait whilst feeds state is checked."
-msgstr "Proszę czekać, 'feeds' jest sprawdzany."
+msgstr "Proszę czekać, feed jest sprawdzany."
 
 msgid "Please wait, copy of flash memory is being deleted. This could take a few minutes to complete."
 msgstr "Proszę czekać, kopia pamięci flash jest kasowana. Może to potrwać kilka minut."
@@ -14666,7 +14669,7 @@ msgid "Remove Bookmark"
 msgstr "Usuń zakładkę"
 
 msgid "Remove Bouquet From Parental Protection"
-msgstr "usuń listę kanałów z ochrony rodzicielskiej"
+msgstr "Usuń listę kanałów z kontroli rodzicielskiej"
 
 msgid "Remove Cable Services"
 msgstr "Usuń kanały telewizji kablowej"
@@ -14675,7 +14678,7 @@ msgid "Remove Confirmation"
 msgstr "Potwierdź usunięcie"
 
 msgid "Remove Entry"
-msgstr "Usuń kanał"
+msgstr "Usuń wpis"
 
 msgid "Remove Files"
 msgstr "Usuń pliki"
@@ -14699,7 +14702,7 @@ msgid "Remove Satellite Services"
 msgstr "Usuń wybranego satelitę"
 
 msgid "Remove Service"
-msgstr "Usuń kanał"
+msgstr "Usuń usługę"
 
 msgid "Remove Terrestrial Services"
 msgstr "Usuń kanały naziemne"
@@ -15981,7 +15984,7 @@ msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Wybierz 'Tak', aby podzielić zadania na osobne działania."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Wybierz \"Tak\", aby użyć alternatywnego adresu IP źródła GitHub. Może to być pomocne, gdy używasz VPN, a nie można uzyskać dostępu do normalnych źródeł za pomocą opublikowanych nazw DNS."
+msgstr "Wybierz \"Tak\", aby użyć alternatywnego adresu IP feed'a GitHub. Może to być pomocne, gdy używasz VPN, a nie można uzyskać dostępu do normalnych feed'ów za pomocą opublikowanych nazw DNS."
 
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Wybierz „Tak”, aby użyć starszej nawigacji, w której CH+/- zamienia aktywną kolumnę. Wybierz opcję „Nie”, aby użyć nowszej, ujednoliconej opcji nawigacji w celu spójnej nawigacji z innymi ekranami, gdzie LEWO/PRAWO zamienia aktywną kolumnę i strony CH+/- w górę i w dół listy."
@@ -19960,7 +19963,7 @@ msgstr ""
 " Czy na pewno chcesz włączyć VPS?"
 
 msgid "The service list is reloaded."
-msgstr "Listy kanałów została przeładowana."
+msgstr "Lista kanałów została przeładowana."
 
 msgid "The setting 'Without query' is the same as 'Standard' without additional confirmation query. All other dependencies (e.g. recordings, time range) persist."
 msgstr "Ustawienie „bez warunku” jest takie samo jak „standardowe” bez dodatkowego zapytania potwierdzającego. Wszystkie inne zależności (np. nagrania, zakres czasowy) pozostają bez zmian."
@@ -21347,7 +21350,7 @@ msgid "Update/Backup your firmware, Backup/Restore settings"
 msgstr "Aktualizuj, wykonaj kopię zapasową systemu i przywróć ustawienia"
 
 msgid "Update/Backup/Restore your box"
-msgstr "Instalacja, aktualizacja, i zarządzanie oprogramowaniem"
+msgstr "Aktualizuj-Utwórz kopię zapasową-Przywróć ustawienia"
 
 msgid "Updated"
 msgstr "Zaktualizowano"
@@ -22176,10 +22179,10 @@ msgstr "Ostrzeżenie"
 
 #, python-format
 msgid "Warning: %d feeds were unable to be reloaded!"
-msgstr "Ostrzeżenie: nie można ponownie załadować %d feeds!"
+msgstr "Ostrzeżenie: Nie udało się przeładować %d feed'ów!"
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
-msgstr "Ostrzeżenie: Anulowanie tego procesu spowoduje, że kanały staną się niekompletne i nienadające się do użytku!"
+msgstr "Ostrzeżenie: Anulowanie tego procesu spowoduje, że feed'y będą niekompletne i bezużyteczne!"
 
 msgid "Warning: Overrides are currently active!"
 msgstr "Uwaga: Nadpisywanie jest aktualnie aktywne!"
@@ -24110,10 +24113,13 @@ msgid "yellow"
 msgstr "Żółty"
 
 msgid "yes (keep feeds)"
-msgstr "tak (zachować kanały)"
+msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Channel List Menu"
+#~ msgstr "Menu listy kanałów"
 
 #~ msgid "Do you really want to delete?"
 #~ msgstr "Czy na pewno chcesz usunąć?"
