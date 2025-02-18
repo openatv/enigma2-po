@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-11 08:26+0000\n"
-"PO-Revision-Date: 2025-02-15 07:38+0000\n"
+"POT-Creation-Date: 2025-02-17 13:33+0000\n"
+"PO-Revision-Date: 2025-02-18 18:15+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1182,10 +1182,6 @@ msgstr "%s %s pilot zdalnego sterowania (podstawowy)"
 #, python-format
 msgid "%s %sB"
 msgstr "%s %sB"
-
-#, python-format
-msgid "%s (%04o)"
-msgstr "%s (%04o)"
 
 #, python-format
 msgid "%s - Setup"
@@ -3842,6 +3838,9 @@ msgstr "Info Kanału"
 
 msgid "Channel List"
 msgstr "Lista Kanałów"
+
+msgid "Channel Number"
+msgstr "Numer kanału"
 
 msgid "Channel Selection"
 msgstr "Wybór kanału"
@@ -17750,6 +17749,9 @@ msgstr "Pokaż szczegóły podświetlonego zadania"
 msgid "Show directories first"
 msgstr "Pokaż najpierw katalogi"
 
+msgid "Show during operation"
+msgstr "Pokaż podczas działania"
+
 msgid "Show encryption information in the InfoBar (when supported by the skin)."
 msgstr "Pokaż informacje o kodowaniu na pasku informacyjnym (jeśli posiada wsparcie w skórce)."
 
@@ -20179,6 +20181,9 @@ msgstr "Ta opcja pozwala wybrać sposób wyświetlania czasu pozostałego/upływ
 
 msgid "This option allows you choose if the display shows the time or nothing in Standby."
 msgstr "Ta opcja pozwala wybrać, czy w trybie gotowości wyświetlacz ma pokazywać godzinę, czy też nic."
+
+msgid "This option allows you choose if the display shows the time, channel number or nothing during operation."
+msgstr "Opcja ta pozwala wybrać, czy podczas pracy wyświetlacz ma pokazywać godzinę, numer kanału czy nic."
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Ta opcja pozwala wybrać kolor tła dla przezroczystych pikon."
@@ -24117,6 +24122,10 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%s (%04o)"
+#~ msgstr "%s (%04o)"
 
 #~ msgid "Channel List Menu"
 #~ msgstr "Menu listy kanałów"
