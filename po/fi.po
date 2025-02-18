@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-11 08:26+0000\n"
-"PO-Revision-Date: 2025-02-13 08:03+0000\n"
+"POT-Creation-Date: 2025-02-17 13:33+0000\n"
+"PO-Revision-Date: 2025-02-18 18:15+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 msgid ""
 "\n"
@@ -1138,10 +1138,6 @@ msgstr "%s %s kaukosäädin (natiivi)"
 #, python-format
 msgid "%s %sB"
 msgstr "%s %sB"
-
-#, python-format
-msgid "%s (%04o)"
-msgstr "%s (%04o)"
 
 #, python-format
 msgid "%s - Setup"
@@ -3809,6 +3805,9 @@ msgstr "Kanavatiedot"
 
 msgid "Channel List"
 msgstr "Kanavalista"
+
+msgid "Channel Number"
+msgstr "Kanava numero"
 
 msgid "Channel Selection"
 msgstr "Kanavan valinta"
@@ -17730,6 +17729,9 @@ msgstr "Näytä yksityiskohdat korostuneesta tehtävästä"
 msgid "Show directories first"
 msgstr "Näytä hakemistotiedot ensin"
 
+msgid "Show during operation"
+msgstr "Näytä käytön aikana"
+
 msgid "Show encryption information in the InfoBar (when supported by the skin)."
 msgstr "Kun päällä, salaustieto näytetään tietopalkissa (mikäli teema tukee tätä)."
 
@@ -20160,6 +20162,9 @@ msgstr "Määrittää, kuinka jäljellä oleva/kulunut aika näytetään tallenn
 
 msgid "This option allows you choose if the display shows the time or nothing in Standby."
 msgstr "Tämä asetus määrittää kuinka aika näytetään valmiustilassa, tai ei näytetä \"ollenkaan\""
+
+msgid "This option allows you choose if the display shows the time, channel number or nothing during operation."
+msgstr "Tämän asetuksen avulla voit valita, näyttääkö näyttö ajan, kanavanumeron vai ei mitään käytön aikana."
 
 msgid "This option allows you choose the background color of transparent picons."
 msgstr "Määrittää, minkävärinen taustaväri läpinäkyville kanavalogoille asetetaan."
@@ -24106,6 +24111,10 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%s (%04o)"
+#~ msgstr "%s (%04o)"
 
 #~ msgid "Channel List Menu"
 #~ msgstr "Kanavalistan tyyppi"
