@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-10 18:45+0000\n"
+"POT-Creation-Date: 2025-04-20 18:15+0000\n"
 "PO-Revision-Date: 2025-04-11 17:59+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -918,6 +918,10 @@ msgid_plural "%d feed catalog packages were updated."
 msgstr[0] "Aktualizovaný bol %d balík s katalógovým zdrojom."
 msgstr[1] "Aktualizované boli %d balíky s katalógovým zdrojom."
 msgstr[2] "Aktualizovaných bolo %d balíkov s katalógovým zdrojom."
+
+#, python-format
+msgid "%d jobs are running in the background!"
+msgstr ""
 
 #, python-format
 msgid "%d kB"
@@ -2349,6 +2353,10 @@ msgstr "Amlogic"
 msgid "Amlogic remote"
 msgstr "Diaľkové ovládanie Amlogic"
 
+#, python-format
+msgid "Amount %d / Success %d / Failed %d"
+msgstr ""
+
 msgid "An attempt is made to capture the current TV status. If this is not possible due to incorrect or missing status messages it may cause the receiver to respond unexpectedly. On the other hand, tries to respond better to different operating conditions."
 msgstr "Prebehne pokus o zaznamenanie aktuálneho stavu TV. Ak to nie je možné kvôli nesprávnym alebo chýbajúcim správam o stave, môže dôjsť k neočakávanej reakcii prijímača. Ide však o pokus dosiahnuť lepšiu reakciu na rôzne podmienky pri fungovaní prijímača."
 
@@ -3724,6 +3732,9 @@ msgstr "Kaskádový PiP"
 
 msgid "Catalan / Valencian"
 msgstr "katalánčina/valencijčina"
+
+msgid "Catchup player commands"
+msgstr ""
 
 msgid "Cayman Islands"
 msgstr "Kajmanské ostrovy"
@@ -6050,6 +6061,21 @@ msgstr "Hĺbka"
 
 msgid "Descending"
 msgstr "Zostupne"
+
+msgid "Descramble end time"
+msgstr ""
+
+msgid "Descramble in Standby"
+msgstr ""
+
+msgid "Descramble in Standby finished"
+msgstr ""
+
+msgid "Descramble recordings before Shutdown"
+msgstr ""
+
+msgid "Descramble start time"
+msgstr ""
 
 msgid "Descrambling options"
 msgstr "Možnosti dekódovania"
@@ -13255,6 +13281,9 @@ msgstr "Prehrať službu/stanicu bez prenosu streamu"
 msgid "Play all audio files in the directory"
 msgstr "Prehrať všetky zvukové súbory v priečinku"
 
+msgid "Play archive"
+msgstr ""
+
 msgid "Play audio in background"
 msgstr "Prehrávať zvuk na pozadí"
 
@@ -15992,6 +16021,9 @@ msgstr "Ak sa má tento plugin zobrazovať v prehliadači pluginov, vyberte 'Án
 msgid "Select 'Yes' to show web link packages in the Download Plugins screen."
 msgstr "Ak sa majú na obrazovke Stiahnuť pluginy zobrazovať aj balíčky webových odkazov, vyberte možnosť 'Áno'."
 
+msgid "Select 'Yes' to shut down immediately instead of starting the descramble."
+msgstr ""
+
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Pre rozdelenie úloh na osobitné akcie, vyberte možnosť 'Áno'."
 
@@ -16124,6 +16156,12 @@ msgstr "Vyberte denník o odovzdaní do repozitára, ktorý sa má zobraziť:"
 
 msgid "Select a script to run:"
 msgstr "Vyberte skript na spustenie:"
+
+msgid "Select a time, when in Standby mode, after which the descramble can proceed."
+msgstr ""
+
+msgid "Select a time, when in Standby, before which descramble can proceed."
+msgstr ""
 
 msgid "Select a tuner"
 msgstr "Vyberte tuner"
@@ -17171,6 +17209,12 @@ msgstr "Nastaviť možnosti pre čas"
 
 msgid "Set to 'Disabled' to replace underscore characters, '_', in file and directory names with spaces."
 msgstr "Ak sa majú v názvoch priečinkov súborov nahradiť znaky popdčiarknutia '_' medzerami, nastavte túto voľbu na 'Zakázané'."
+
+msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby mode before shutting down."
+msgstr ""
+
+msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby."
+msgstr ""
 
 msgid "Set to 'Yes', to enable automatic recording of the background timeshift buffer."
 msgstr "Nastavte na 'Áno', pre zapnutie automatického nahrávania timeshiftu na pozadí."
@@ -19969,6 +20013,10 @@ msgid "The picon directory already exists and must be removed. Do you want to pr
 msgstr "Priečiok pre picony už existuje a musí sa odstrániť. Má sa pokračovať?"
 
 #, python-format
+msgid "The process will take approximately %d minutes to complete."
+msgstr ""
+
+#, python-format
 msgid "The results have been written to %s."
 msgstr "Výsledky boli zapísané do súboru %s."
 
@@ -20076,6 +20124,13 @@ msgstr "Nie sú dostupné žiadne aktualizácie."
 
 msgid "There are pending tasks:"
 msgstr "Existujú čakajúce úlohy:"
+
+#, python-format
+msgid "There is %d scrambled recording, which will be unscrambled during Standby."
+msgid_plural "There are %d scrambled recordings, which will be unscrambled during Standby."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #, python-format
 msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
