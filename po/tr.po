@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 16:24+0000\n"
+"POT-Creation-Date: 2025-06-27 12:52+0000\n"
 "PO-Revision-Date: 2025-04-14 12:33+0000\n"
 "Last-Translator: tanerkaderli <taner.kaderli@live.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -1013,6 +1013,10 @@ msgstr "%d sec"
 msgid "%d service found."
 msgid_plural "%d services found."
 msgstr[0] "%d servis bulundu."
+
+#, python-format
+msgid "%d slots have been created on the device.\n"
+msgstr ""
 
 #
 #, python-format
@@ -5323,6 +5327,9 @@ msgstr ""
 msgid "Create separate radio user bouquet"
 msgstr "Ayrı bir radyo kullanıcısı"
 
+msgid "Create slots for the selected device"
+msgstr ""
+
 msgid "Create swap"
 msgstr "Takas oluşturun"
 
@@ -5982,6 +5989,9 @@ msgid "Define the DNS suffix."
 msgstr "DNS son ekini tanımlayın."
 
 msgid "Define the custom mountpoint for the device."
+msgstr ""
+
+msgid "Define the default settings backup target location. Select 'Ask user' to prompt the user for the target location when the backup is run."
 msgstr ""
 
 msgid "Define the file system mount options."
@@ -13230,9 +13240,6 @@ msgstr "Ses seçenekleri..."
 msgid "Open AutoTimer"
 msgstr "AutoTimer'i aç"
 
-msgid "Open AutoTimer OverView"
-msgstr ""
-
 msgid "Open AutoTimer Overview"
 msgstr "AutoTimerlist'i aç"
 
@@ -13241,9 +13248,6 @@ msgstr "Buket listesini aç"
 
 msgid "Open Box Portal"
 msgstr "Kutu Portalını Göster"
-
-msgid "Open DreamPlex"
-msgstr "DreamPlex oynatıcısını göster ..."
 
 msgid "Open EPG"
 msgstr "epg'yi göster ..."
@@ -14951,9 +14955,6 @@ msgstr "QuickEPG modu"
 msgid "QuickMenu"
 msgstr "Hızlı Menü"
 
-msgid "QuickMenu Actions"
-msgstr "Hızlı Menü Eylemleri"
-
 msgid "QuickMenu/Extensions"
 msgstr "QuickMenu / Uzantıları"
 
@@ -16487,12 +16488,6 @@ msgstr "Kaydırma hızı (yazılım oluşturucu)"
 msgid "Search"
 msgstr "Ara"
 
-msgid "Search EPG for current event"
-msgstr "ÖMevcut program için epg arayın."
-
-msgid "Search IMDb for information about current event"
-msgstr "Güncel olaylar hakkında bilgi almak için IMDb arayın."
-
 msgid "Search Sats"
 msgstr "Search Sats"
 
@@ -16944,6 +16939,9 @@ msgstr "Bir buket seçin"
 msgid "Select a debug log file to view:"
 msgstr "Görüntülemek için bir hata ayıklama günlük dosyası seçin:"
 
+msgid "Select a device to create multiboot slots"
+msgstr ""
+
 msgid "Select a device to use as the flash expander"
 msgstr "Flaş genişletici olarak kullanmak için bir cihaz seçin"
 
@@ -17179,6 +17177,9 @@ msgstr "Sıralama yöntemini seç:"
 
 msgid "Select system information to view:"
 msgstr "Görüntülemek için sistem bilgilerini seçin:"
+
+msgid "Select target device for slot creation"
+msgstr ""
 
 msgid "Select temporary directory sort order for the current column"
 msgstr "Geçerli sütun için geçici dizin sıralama düzenini seçin"
@@ -18157,6 +18158,9 @@ msgstr "STB'niz internete açıksa bir şifre belirlemeniz şiddetle tavsiye edi
 #
 msgid "Settings"
 msgstr "Ayarlar"
+
+msgid "Settings Backup Target"
+msgstr ""
 
 msgid "Settings mode"
 msgstr "Kurulum tipi"
@@ -20719,13 +20723,6 @@ msgid "The DVD standard doesn't support H.264 (HDTV) video streams."
 msgstr "DVD standardı H.264 (HDTV) video akışlarını desteklemez."
 
 msgid ""
-"The DreamPlex plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"DreamPlex eklentisi yüklü değil!\n"
-"Lütfen kurun."
-
-msgid ""
 "The EPGSearch plugin is not installed!\n"
 "Please install it."
 msgstr ""
@@ -21623,9 +21620,6 @@ msgstr "Zaman geçmişi"
 
 msgid "Timeline scale"
 msgstr "Zaman Ölçeği"
-
-msgid "Timer Actions"
-msgstr "Zamanlayıcı Eylemleri"
 
 msgid "Timer Log Actions"
 msgstr "Zamanlayıcı Günlüğü Eylemleri"
@@ -25291,6 +25285,28 @@ msgstr "evet (beslemeleri tut)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Open DreamPlex"
+#~ msgstr "DreamPlex oynatıcısını göster ..."
+
+#~ msgid "QuickMenu Actions"
+#~ msgstr "Hızlı Menü Eylemleri"
+
+#~ msgid "Search EPG for current event"
+#~ msgstr "ÖMevcut program için epg arayın."
+
+#~ msgid "Search IMDb for information about current event"
+#~ msgstr "Güncel olaylar hakkında bilgi almak için IMDb arayın."
+
+#~ msgid ""
+#~ "The DreamPlex plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "DreamPlex eklentisi yüklü değil!\n"
+#~ "Lütfen kurun."
+
+#~ msgid "Timer Actions"
+#~ msgstr "Zamanlayıcı Eylemleri"
 
 #
 #~ msgid "InfoBar EPG Actions"
