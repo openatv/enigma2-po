@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 16:24+0000\n"
+"POT-Creation-Date: 2025-06-27 12:52+0000\n"
 "PO-Revision-Date: 2025-06-16 09:06+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -1028,6 +1028,10 @@ msgid "%d service found."
 msgid_plural "%d services found."
 msgstr[0] "%d kanava löyty."
 msgstr[1] "%d kanavia löydetty."
+
+#, python-format
+msgid "%d slots have been created on the device.\n"
+msgstr ""
 
 #, python-format
 msgid "%d times"
@@ -5152,6 +5156,9 @@ msgstr "Luo pääasiallinen tiedostojärjestelmä."
 msgid "Create separate radio user bouquet"
 msgstr "Luo erillinen radio suosikkilista"
 
+msgid "Create slots for the selected device"
+msgstr ""
+
 msgid "Create swap"
 msgstr "Luo vaihto"
 
@@ -5783,6 +5790,9 @@ msgstr "Aseta DNS osoite."
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Määritä laitteen mukautettu liitos."
+
+msgid "Define the default settings backup target location. Select 'Ask user' to prompt the user for the target location when the backup is run."
+msgstr ""
 
 msgid "Define the file system mount options."
 msgstr "Määrittele tiedosto järjestelmäasetukset."
@@ -12672,9 +12682,6 @@ msgstr "Ääni asetukset"
 msgid "Open AutoTimer"
 msgstr "Automaattiajastus"
 
-msgid "Open AutoTimer OverView"
-msgstr "Avaa Automaattiset ajastukset"
-
 msgid "Open AutoTimer Overview"
 msgstr "Avaa Automaattiset ajastukset"
 
@@ -12683,9 +12690,6 @@ msgstr "Näytä Suosikkilista"
 
 msgid "Open Box Portal"
 msgstr "Näytä Tallennukset"
-
-msgid "Open DreamPlex"
-msgstr "Näytä DreamPlex soitin"
 
 msgid "Open EPG"
 msgstr "Näytä EPG"
@@ -14301,9 +14305,6 @@ msgstr "QuickEPG:n aktivointitapa"
 msgid "QuickMenu"
 msgstr "Pikavalikko"
 
-msgid "QuickMenu Actions"
-msgstr "Pikavalikko toiminnot"
-
 msgid "QuickMenu/Extensions"
 msgstr "Pikavalikko/laajennukset"
 
@@ -15744,12 +15745,6 @@ msgstr "Vieritysnopeus (ohjelmistopohjainen renderöinti)"
 msgid "Search"
 msgstr "Haku"
 
-msgid "Search EPG for current event"
-msgstr "Hae ohjelmaoppaasta nykyistä ohjelmaa"
-
-msgid "Search IMDb for information about current event"
-msgstr "Hae IMDb:stä tietoja katseltavasta ohjelmasta"
-
 msgid "Search Sats"
 msgstr "Etsi satelliitteja"
 
@@ -16198,6 +16193,9 @@ msgstr "Valitse suosikkilista"
 msgid "Select a debug log file to view:"
 msgstr "Valitse tarkasteltava vianmäärityslokitiedosto:"
 
+msgid "Select a device to create multiboot slots"
+msgstr ""
+
 msgid "Select a device to use as the flash expander"
 msgstr "Valitse laite, jota käytetään muistin laajentimena"
 
@@ -16426,6 +16424,9 @@ msgstr "Valitse lajittelutapa:"
 
 msgid "Select system information to view:"
 msgstr "Valitse tarkasteltavat järjestelmätiedot:"
+
+msgid "Select target device for slot creation"
+msgstr ""
 
 msgid "Select temporary directory sort order for the current column"
 msgstr "Valitse väliaikaisen hakemiston lajittelujärjestys nykyiselle sarakkeelle"
@@ -17385,6 +17386,9 @@ msgstr "Salasanan asettaminen on erittäin suositeltavaa, jos Vastaanotin on avo
 
 msgid "Settings"
 msgstr "Asetukset"
+
+msgid "Settings Backup Target"
+msgstr ""
 
 msgid "Settings mode"
 msgstr "Asetustila"
@@ -19834,13 +19838,6 @@ msgid "The DVD standard doesn't support H.264 (HDTV) video streams."
 msgstr "DVD-standardi ei tue H.264 (HDTV) videostriimejä."
 
 msgid ""
-"The DreamPlex plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"DreamPlex-lisäosaa ei ole asennettu!\n"
-"Asenna se."
-
-msgid ""
 "The EPGSearch plugin is not installed!\n"
 "Please install it."
 msgstr ""
@@ -20725,9 +20722,6 @@ msgstr "Aikahistoria"
 
 msgid "Timeline scale"
 msgstr "Näytettävä aikaväli"
-
-msgid "Timer Actions"
-msgstr "Ajastin Toiminnot"
 
 msgid "Timer Log Actions"
 msgstr "Ajastimen loki toiminnot"
@@ -24188,6 +24182,31 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Open AutoTimer OverView"
+#~ msgstr "Avaa Automaattiset ajastukset"
+
+#~ msgid "Open DreamPlex"
+#~ msgstr "Näytä DreamPlex soitin"
+
+#~ msgid "QuickMenu Actions"
+#~ msgstr "Pikavalikko toiminnot"
+
+#~ msgid "Search EPG for current event"
+#~ msgstr "Hae ohjelmaoppaasta nykyistä ohjelmaa"
+
+#~ msgid "Search IMDb for information about current event"
+#~ msgstr "Hae IMDb:stä tietoja katseltavasta ohjelmasta"
+
+#~ msgid ""
+#~ "The DreamPlex plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "DreamPlex-lisäosaa ei ole asennettu!\n"
+#~ "Asenna se."
+
+#~ msgid "Timer Actions"
+#~ msgstr "Ajastin Toiminnot"
 
 #~ msgid "InfoBar EPG Actions"
 #~ msgstr "Tietopalkki EPG: toiminnot"
