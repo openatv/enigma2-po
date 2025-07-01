@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 16:24+0000\n"
+"POT-Creation-Date: 2025-06-27 12:52+0000\n"
 "PO-Revision-Date: 2025-05-09 04:42+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
@@ -1032,6 +1032,10 @@ msgid "%d service found."
 msgid_plural "%d services found."
 msgstr[0] "%d servizio trovato."
 msgstr[1] "%d servizi trovati."
+
+#, python-format
+msgid "%d slots have been created on the device.\n"
+msgstr ""
 
 #, python-format
 msgid "%d times"
@@ -5143,6 +5147,9 @@ msgstr "Crea file system flash di root con journaling."
 msgid "Create separate radio user bouquet"
 msgstr "Crea bouquet separato per le radio"
 
+msgid "Create slots for the selected device"
+msgstr ""
+
 msgid "Create swap"
 msgstr "Crea swap"
 
@@ -5774,6 +5781,9 @@ msgstr "Definisci suffisso DNS."
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Definisci punto di montaggio personalizzato per il dispositivo."
+
+msgid "Define the default settings backup target location. Select 'Ask user' to prompt the user for the target location when the backup is run."
+msgstr ""
 
 msgid "Define the file system mount options."
 msgstr "Definisci opzioni di montaggio del file system."
@@ -12650,9 +12660,6 @@ msgstr "Apri opzioni audio"
 msgid "Open AutoTimer"
 msgstr "Apri timer automatico"
 
-msgid "Open AutoTimer OverView"
-msgstr "Apri panoramica AutoTimer"
-
 msgid "Open AutoTimer Overview"
 msgstr "Apri panoramica AutoTimer"
 
@@ -12661,9 +12668,6 @@ msgstr "Apri elenco dei bouquet"
 
 msgid "Open Box Portal"
 msgstr "Apri Box Portal"
-
-msgid "Open DreamPlex"
-msgstr "Apri DreamPlex"
 
 msgid "Open EPG"
 msgstr "Apri EPG"
@@ -14279,9 +14283,6 @@ msgstr "Modalità QuickEPG"
 msgid "QuickMenu"
 msgstr "Menu rapido"
 
-msgid "QuickMenu Actions"
-msgstr "Azioni del menu rapido"
-
 msgid "QuickMenu/Extensions"
 msgstr "Menu rapido / Estensioni"
 
@@ -15722,12 +15723,6 @@ msgstr "Velocità di scorrimento (software di rendering)"
 msgid "Search"
 msgstr "Ricerca"
 
-msgid "Search EPG for current event"
-msgstr "Cerca EPG per l'evento attuale"
-
-msgid "Search IMDb for information about current event"
-msgstr "Cerca su IMDb informazioni sull'evento attuale"
-
 msgid "Search Sats"
 msgstr "Ricerca transponder"
 
@@ -16166,6 +16161,9 @@ msgstr "Seleziona un bouquet"
 msgid "Select a debug log file to view:"
 msgstr "Seleziona un file di registro di debug da visualizzare:"
 
+msgid "Select a device to create multiboot slots"
+msgstr ""
+
 msgid "Select a device to use as the flash expander"
 msgstr "Seleziona un dispositivo da usare come espansore flash"
 
@@ -16392,6 +16390,9 @@ msgstr "Seleziona metodo di ordinamento:"
 
 msgid "Select system information to view:"
 msgstr "Seleziona informazioni di sistema da visualizzare:"
+
+msgid "Select target device for slot creation"
+msgstr ""
 
 msgid "Select temporary directory sort order for the current column"
 msgstr "Seleziona ordinamento della cartella per la colonna attuale"
@@ -17349,6 +17350,9 @@ msgstr "L'impostazione di una password è fortemente consigliata soprattutto se 
 
 msgid "Settings"
 msgstr "Impostazioni"
+
+msgid "Settings Backup Target"
+msgstr ""
 
 msgid "Settings mode"
 msgstr "Modalità impostazioni"
@@ -19796,13 +19800,6 @@ msgid "The DVD standard doesn't support H.264 (HDTV) video streams."
 msgstr "Lo standard DVD non supporta gli stream video H.264 (HDTV)."
 
 msgid ""
-"The DreamPlex plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"Il plugin DreamPlex Center non è installato!\n"
-"Per favore, installalo."
-
-msgid ""
 "The EPGSearch plugin is not installed!\n"
 "Please install it."
 msgstr ""
@@ -20683,9 +20680,6 @@ msgstr "Cronistoria"
 
 msgid "Timeline scale"
 msgstr "Scala oraria"
-
-msgid "Timer Actions"
-msgstr "Azioni timer"
 
 msgid "Timer Log Actions"
 msgstr "Azioni registro timer"
@@ -24139,6 +24133,31 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Open AutoTimer OverView"
+#~ msgstr "Apri panoramica AutoTimer"
+
+#~ msgid "Open DreamPlex"
+#~ msgstr "Apri DreamPlex"
+
+#~ msgid "QuickMenu Actions"
+#~ msgstr "Azioni del menu rapido"
+
+#~ msgid "Search EPG for current event"
+#~ msgstr "Cerca EPG per l'evento attuale"
+
+#~ msgid "Search IMDb for information about current event"
+#~ msgstr "Cerca su IMDb informazioni sull'evento attuale"
+
+#~ msgid ""
+#~ "The DreamPlex plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Il plugin DreamPlex Center non è installato!\n"
+#~ "Per favore, installalo."
+
+#~ msgid "Timer Actions"
+#~ msgstr "Azioni timer"
 
 #~ msgid "InfoBar EPG Actions"
 #~ msgstr "Azioni barra info EPG"

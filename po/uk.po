@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-07 16:24+0000\n"
+"POT-Creation-Date: 2025-06-27 12:52+0000\n"
 "PO-Revision-Date: 2025-05-08 05:07+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
@@ -1069,6 +1069,10 @@ msgid_plural "%d services found."
 msgstr[0] "%d канал знайдено."
 msgstr[1] "%d канали знайдено."
 msgstr[2] "%d каналів знайдено."
+
+#, python-format
+msgid "%d slots have been created on the device.\n"
+msgstr ""
 
 #, python-format
 msgid "%d times"
@@ -5183,6 +5187,9 @@ msgstr "Створення кореневої файлової системи в
 msgid "Create separate radio user bouquet"
 msgstr "Створити окремий фаворитний радіо-список"
 
+msgid "Create slots for the selected device"
+msgstr ""
+
 msgid "Create swap"
 msgstr "Створити swap"
 
@@ -5814,6 +5821,9 @@ msgstr "Визначити DNS-суфікс."
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Визначте настроювану точку підключення для пристрою."
+
+msgid "Define the default settings backup target location. Select 'Ask user' to prompt the user for the target location when the backup is run."
+msgstr ""
 
 msgid "Define the file system mount options."
 msgstr "Визначте параметри монтування файлової системи."
@@ -12695,9 +12705,6 @@ msgstr "Відкрити параметри аудіо"
 msgid "Open AutoTimer"
 msgstr "Відкрити автотаймер"
 
-msgid "Open AutoTimer OverView"
-msgstr "Відкрити огляд автотаймера"
-
 msgid "Open AutoTimer Overview"
 msgstr "Відкрити список автотаймера"
 
@@ -12706,9 +12713,6 @@ msgstr "Відкрити фаворитний список"
 
 msgid "Open Box Portal"
 msgstr "Показати портали тюнера"
-
-msgid "Open DreamPlex"
-msgstr "Відкрити DreamPlex"
 
 msgid "Open EPG"
 msgstr "Відкрити EPG"
@@ -14326,9 +14330,6 @@ msgstr "Режим швидкого ЕПГ"
 msgid "QuickMenu"
 msgstr "Швидке меню"
 
-msgid "QuickMenu Actions"
-msgstr "Дії для QuickMenu"
-
 msgid "QuickMenu/Extensions"
 msgstr "Швидке меню/Розширення"
 
@@ -15772,12 +15773,6 @@ msgstr "Швидкість прокрутки (програмний рендер
 msgid "Search"
 msgstr "Пошук"
 
-msgid "Search EPG for current event"
-msgstr "Пошук EPG для поточної передачі"
-
-msgid "Search IMDb for information about current event"
-msgstr "Пошук інформації про поточну передачу на IMDb"
-
 msgid "Search Sats"
 msgstr "Пошук супутників"
 
@@ -16216,6 +16211,9 @@ msgstr "Вибрати фаворит"
 msgid "Select a debug log file to view:"
 msgstr "Виберіть файл журналу налагодження для перегляду:"
 
+msgid "Select a device to create multiboot slots"
+msgstr ""
+
 msgid "Select a device to use as the flash expander"
 msgstr "Виберіть пристрій, який буду використовувати, як розширювач флеш-пам’яті"
 
@@ -16442,6 +16440,9 @@ msgstr "Виберіть метод сортування:"
 
 msgid "Select system information to view:"
 msgstr "Виберіть системну інформацію для перегляду:"
+
+msgid "Select target device for slot creation"
+msgstr ""
 
 msgid "Select temporary directory sort order for the current column"
 msgstr "Виберіть тимчасовий порядок сортування каталогу для поточного стовпця"
@@ -17399,6 +17400,9 @@ msgstr "Настійно рекомендується встановити па�
 
 msgid "Settings"
 msgstr "Налаштування"
+
+msgid "Settings Backup Target"
+msgstr ""
 
 msgid "Settings mode"
 msgstr "Режим Налаштування"
@@ -19848,13 +19852,6 @@ msgid "The DVD standard doesn't support H.264 (HDTV) video streams."
 msgstr "Стандарт DVD не підтримує відеопотоки H.264 (HDTV)."
 
 msgid ""
-"The DreamPlex plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"DreamPlex плагін не встановлено!\n"
-"Будь ласка, спочатку встановіть його."
-
-msgid ""
 "The EPGSearch plugin is not installed!\n"
 "Please install it."
 msgstr ""
@@ -20736,9 +20733,6 @@ msgstr "Часова історія"
 
 msgid "Timeline scale"
 msgstr "Шкала часу"
-
-msgid "Timer Actions"
-msgstr "Дія для Таймера"
 
 msgid "Timer Log Actions"
 msgstr "Дії логу таймера"
@@ -24193,6 +24187,31 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Open AutoTimer OverView"
+#~ msgstr "Відкрити огляд автотаймера"
+
+#~ msgid "Open DreamPlex"
+#~ msgstr "Відкрити DreamPlex"
+
+#~ msgid "QuickMenu Actions"
+#~ msgstr "Дії для QuickMenu"
+
+#~ msgid "Search EPG for current event"
+#~ msgstr "Пошук EPG для поточної передачі"
+
+#~ msgid "Search IMDb for information about current event"
+#~ msgstr "Пошук інформації про поточну передачу на IMDb"
+
+#~ msgid ""
+#~ "The DreamPlex plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "DreamPlex плагін не встановлено!\n"
+#~ "Будь ласка, спочатку встановіть його."
+
+#~ msgid "Timer Actions"
+#~ msgstr "Дія для Таймера"
 
 #~ msgid "InfoBar EPG Actions"
 #~ msgstr "Дії для інфобару EPG"
