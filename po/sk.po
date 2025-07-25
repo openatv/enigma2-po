@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
-"PO-Revision-Date: 2025-07-18 21:03+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"PO-Revision-Date: 2025-07-24 10:40+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -4291,6 +4291,9 @@ msgstr "Zatvoriť správcu MultiBoot Kexec"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Zatvoriť obrazovku prehliadača pluginov"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr "Po návrate na počiatočný bod zavrieť vyhľadávací panel"
 
 msgid "Close the choice box"
 msgstr "Zatvoriť box s výberom"
@@ -15808,8 +15811,8 @@ msgstr "Posun"
 msgid "Seek Actions"
 msgstr "Akcie posunu"
 
-msgid "Seek back short"
-msgstr "Krátky posun dozadu"
+msgid "Seek Bar"
+msgstr "Vyhľadávací panel"
 
 msgid "Seek backward"
 msgstr "Posun dozadu"
@@ -15820,20 +15823,17 @@ msgstr "Posun dozadu (zadať čas)"
 msgid "Seek forward"
 msgstr "Posun dopredu"
 
-msgid "Seek forward  short"
-msgstr "Krátky posun dopredu"
-
 msgid "Seek forward (enter time)"
 msgstr "Posun dopredu (zadať čas)"
 
-msgid "Seek forward long"
-msgstr "Dlhý posun dopredu"
+msgid "SeekBar"
+msgstr "Vyhľadávací panel"
+
+msgid "SeekBar Actions"
+msgstr "Akcie vyhľadávacieho panela"
 
 msgid "SeekBar activation"
 msgstr "Aktivácia vyhľadávacieho panela"
-
-msgid "SeekBar"
-msgstr "Vyhľadávací panel"
 
 msgid "SeekBar sensibility"
 msgstr "Citlivosť vyhľadávacieho panela"
@@ -16163,7 +16163,7 @@ msgid "Select Satellites"
 msgstr "Vyberte družice"
 
 msgid "Select SeekBar to be activated by arrow L/R (long) or << >> (long)."
-msgstr "Vyberte, ktorými tlačidlami sa má aktivovať panel pre posun: šípky L/R (dlhé stlačenie) alebo << >> (dlhé stlačenie)."
+msgstr "Vyberte, ktorými tlačidlami sa má aktivovať vyhľadávací panel: Ľ/P šípkou (dlhým stlačením) alebo << >> (dlhým stlačením)."
 
 msgid "Select Shares"
 msgstr "Výber zdieľaní"
@@ -17209,14 +17209,14 @@ msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Nastavte časový interval preskočenia pre tlačidlá '%s'/'%s' v editore zoznamu strihov."
 
 msgid "Set the LEFT/RIGHT button skip percentage for the SeekBar."
-msgstr "Nastavte percento preskočenia tlačidlami DOĽAVA/DOPRAVA pre panel vyhľadávania."
+msgstr "Nastavte percento preskočenia tlačidlami DOĽAVA/DOPRAVA pre vyhľadávací panel."
 
 #, python-format
 msgid "Set the MAC address of your %s %s."
 msgstr "Nastavte MAC adresu pre %s %s."
 
 msgid "Set the UP/DOWN button skip percentage for the SeekBar."
-msgstr "Nastavte percento preskočenia tlačidlami NAHOR/NADOL pre panel vyhľadávania."
+msgstr "Nastavte percento preskočenia tlačidlami NAHOR/NADOL pre vyhľadávací panel."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr "Nastavenie ID používateľa OpenWebif zo záložného tunera"
@@ -17246,7 +17246,7 @@ msgid "Set the delay time between repeated loops, this is used by software rende
 msgstr "Nastavenie času oneskorenia medzi opakovanými slučkami, ktoré v niektorých vzhľadoch používa softvérový renderer."
 
 msgid "Set the jump-size of the SeekBar."
-msgstr "Nastavenie veľkosti skoku v paneli posunu."
+msgstr "Nastavenie veľkosti skoku vo vyhľadávacom paneli."
 
 msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scripts."
 msgstr "Nastavenie počtu riadkov, ktoré sa majú uložiť pre výstup 'stout' a 'sterr' v skriptoch."
@@ -18439,17 +18439,43 @@ msgstr "Preskočiť dozadu"
 msgid "Skip backward"
 msgstr "Preskočiť dozadu"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] "Preskočiť dozadu o %d sekundu"
+msgstr[1] "Preskočiť dozadu o %d sekundy"
+msgstr[2] "Preskočiť dozadu o %d sekúnd"
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr "Preskočiť dozadu %s%%"
+
 msgid "Skip backward (enter time)"
-msgstr "skok dozadu (zadať čas)"
+msgstr "Preskočiť dozadu (zadajte čas)"
 
 msgid "Skip empty services"
 msgstr "Preskočiť prázdne stanice"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr "Preskočenie pre '%s' je deaktivované"
+
 msgid "Skip forward"
 msgstr "Preskočiť dopredu"
 
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] "Preskočiť dopredu o %d sekundu"
+msgstr[1] "Preskočiť dopredu o %d sekundy"
+msgstr[2] "Preskočiť dopredu o %d sekúnd"
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr "Preskočiť dopredu %s%%"
+
 msgid "Skip forward (enter time)"
-msgstr "skok dopredu (zadať čas)"
+msgstr "Preskočiť dopredu (zadajte čas)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Nepreskočiť na živé vysielanie pri timeshifte so zásuvnými modulmi"
@@ -18468,6 +18494,13 @@ msgstr "Čas preskočenia pre tlačidlo '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Čas preskočenia pre tlačidlá '%s'/'%s'"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr "Preskočiť na %s0%% pozíciu (druhým stlačením pridáte %s%%)"
+
+msgid "Skip to 0% (start) position"
+msgstr "Preskočiť na (počiatočnú) pozíciu 0%"
 
 msgid "Sleep"
 msgstr "Uspať"
@@ -21751,7 +21784,7 @@ msgid "Use time jumps for fast forward/backward"
 msgstr "Použiť časové skoky pretáčania dopredu/dozadu"
 
 msgid "Use time shift SeekBar while time shifting"
-msgstr "Používať vyhľadávací panel s funkciou timeshift"
+msgstr "Používať vyhľadávací panel počas funkcie timeshift"
 
 msgid "Use viewer for unknown files"
 msgstr "Používať prehliadač aj pre neznáme súbory"
@@ -24178,6 +24211,15 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Krátky posun dozadu"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Krátky posun dopredu"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Dlhý posun dopredu"
 
 #~ msgid "DVB API version"
 #~ msgstr "Verzia DVB API"
