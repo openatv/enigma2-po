@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2025-05-05 05:50+0000\n"
 "Last-Translator: Balázs Sólyom <balazs@solyom.online>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -4296,6 +4296,9 @@ msgid "Close the Kexec MultiBoot Manager"
 msgstr ""
 
 msgid "Close the Plugin Browser screen"
+msgstr ""
+
+msgid "Close the SeekBar after returning to the starting point"
 msgstr ""
 
 msgid "Close the choice box"
@@ -15899,9 +15902,8 @@ msgstr "Ugrás"
 msgid "Seek Actions"
 msgstr "Gyors műveletek"
 
-#, fuzzy
-msgid "Seek back short"
-msgstr "Vissza kihagyása"
+msgid "Seek Bar"
+msgstr ""
 
 msgid "Seek backward"
 msgstr "Vissza kihagyása"
@@ -15912,22 +15914,17 @@ msgstr "Ugrás visszafelé (adja meg az időt)"
 msgid "Seek forward"
 msgstr "Előre kihagyása"
 
-#, fuzzy
-msgid "Seek forward  short"
-msgstr "Előre kihagyása"
-
 msgid "Seek forward (enter time)"
 msgstr "Ugrás előre (adja meg az időt)"
 
-#, fuzzy
-msgid "Seek forward long"
-msgstr "Előre kihagyása"
+msgid "SeekBar"
+msgstr "Keresősáv"
+
+msgid "SeekBar Actions"
+msgstr ""
 
 msgid "SeekBar activation"
 msgstr "Keresősáv aktiválása"
-
-msgid "SeekBar"
-msgstr "Keresősáv"
 
 msgid "SeekBar sensibility"
 msgstr "Keresősáv érzékenysége"
@@ -18529,14 +18526,38 @@ msgstr "Vissza kihagyása"
 msgid "Skip backward"
 msgstr ""
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr "visszafelé kihagyása (adja meg az időt)"
 
 msgid "Skip empty services"
 msgstr "Üres csatornák átugrása"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
 msgstr "Előre kihagyása"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "előre kihagyása (adja meg az időt)"
@@ -18557,6 +18578,13 @@ msgid "Skip time for '%s' button"
 msgstr ""
 
 msgid "Skip time for '%s'/'%s' buttons"
+msgstr ""
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
 msgstr ""
 
 msgid "Sleep"
@@ -24233,6 +24261,18 @@ msgstr "igen (állapotok megtartása)"
 
 msgid "®"
 msgstr "®"
+
+#, fuzzy
+#~ msgid "Seek back short"
+#~ msgstr "Vissza kihagyása"
+
+#, fuzzy
+#~ msgid "Seek forward  short"
+#~ msgstr "Előre kihagyása"
+
+#, fuzzy
+#~ msgid "Seek forward long"
+#~ msgstr "Előre kihagyása"
 
 #~ msgid "Open DreamPlex"
 #~ msgstr "DreamPlex Player mutatása..."
