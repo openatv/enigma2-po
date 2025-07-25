@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2025-07-22 17:05+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -4290,6 +4290,9 @@ msgstr "Закройте диспетчер Kexec MultiBoot"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Закройте экран браузера плагинов"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr ""
 
 msgid "Close the choice box"
 msgstr "Закройте окно выбора"
@@ -15807,8 +15810,8 @@ msgstr "Искать"
 msgid "Seek Actions"
 msgstr "Поиск действий"
 
-msgid "Seek back short"
-msgstr "Перемотка назад"
+msgid "Seek Bar"
+msgstr ""
 
 msgid "Seek backward"
 msgstr "Перемотка назад"
@@ -15819,20 +15822,17 @@ msgstr "Перемотать назад (Введите время)"
 msgid "Seek forward"
 msgstr "Перемотка вперёд"
 
-msgid "Seek forward  short"
-msgstr "Перемотка вперёд  короткая"
-
 msgid "Seek forward (enter time)"
 msgstr "Перемотать вперёд (Введите время)"
 
-msgid "Seek forward long"
-msgstr "Перемотка вперёд длинная"
+msgid "SeekBar"
+msgstr "Панель перемотки"
+
+msgid "SeekBar Actions"
+msgstr ""
 
 msgid "SeekBar activation"
 msgstr "Вызов панели перемотки"
-
-msgid "SeekBar"
-msgstr "Панель перемотки"
 
 msgid "SeekBar sensibility"
 msgstr "Точность перемотки"
@@ -18438,14 +18438,40 @@ msgstr "Перейти назад"
 msgid "Skip backward"
 msgstr "Перейти назад"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr "Перейти назад (Введите время)"
 
 msgid "Skip empty services"
 msgstr "Пропускать пустые каналы"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
 msgstr "Перейти вперёд"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "Перейти вперёд (Введите время)"
@@ -18467,6 +18493,13 @@ msgstr "Пропустить время для кнопки '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Пропустить время для кнопок '%s'/'%s'"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
+msgstr ""
 
 msgid "Sleep"
 msgstr "Сон"
@@ -24177,6 +24210,15 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Перемотка назад"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Перемотка вперёд  короткая"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Перемотка вперёд длинная"
 
 #~ msgid "DVB API version"
 #~ msgstr "Версия API DVB"
