@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
-"PO-Revision-Date: 2025-07-18 21:03+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"PO-Revision-Date: 2025-07-24 10:40+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -4252,6 +4252,9 @@ msgstr "关闭 Kexec 多系统启动管理器"
 
 msgid "Close the Plugin Browser screen"
 msgstr "关闭插件浏览器屏幕"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr "返回起点后关闭进度条"
 
 msgid "Close the choice box"
 msgstr "关闭选择框"
@@ -15758,8 +15761,8 @@ msgstr "搜索"
 msgid "Seek Actions"
 msgstr "搜索动作"
 
-msgid "Seek back short"
-msgstr "向后搜索 短按"
+msgid "Seek Bar"
+msgstr "进度条"
 
 msgid "Seek backward"
 msgstr "向后搜索"
@@ -15770,20 +15773,17 @@ msgstr "向后搜索（输入时间）"
 msgid "Seek forward"
 msgstr "向前搜索"
 
-msgid "Seek forward  short"
-msgstr "向前搜索 短按"
-
 msgid "Seek forward (enter time)"
 msgstr "向前搜索（输入时间）"
 
-msgid "Seek forward long"
-msgstr "长按向前搜索"
+msgid "SeekBar"
+msgstr "进度条"
+
+msgid "SeekBar Actions"
+msgstr "进度条操作"
 
 msgid "SeekBar activation"
 msgstr "进度条激活"
-
-msgid "SeekBar"
-msgstr "进度条"
 
 msgid "SeekBar sensibility"
 msgstr "进度条灵敏度"
@@ -18389,14 +18389,38 @@ msgstr "往后跳"
 msgid "Skip backward"
 msgstr "后退"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] "向后跳过 %d 秒"
+msgstr[1] "向后跳过 %d 秒"
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr "向后跳过 %s%%"
+
 msgid "Skip backward (enter time)"
 msgstr "快退（输入时间）"
 
 msgid "Skip empty services"
 msgstr "跳过空频道"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr "跳过“%s”功能已禁用"
+
 msgid "Skip forward"
 msgstr "向前跳"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] "向前跳过 %d 秒"
+msgstr[1] "向前跳过 %d 秒"
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr "向前跳过 %s%%"
 
 msgid "Skip forward (enter time)"
 msgstr "快进（输入时间）"
@@ -18418,6 +18442,13 @@ msgstr "'%s'按钮跳过时间"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "%s'/'%s'按钮跳过时间"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr "跳至 %s0%% 位置（再次按下增加 %s%%）"
+
+msgid "Skip to 0% (start) position"
+msgstr "跳至 0%（起始）位置"
 
 msgid "Sleep"
 msgstr "睡眠"
@@ -24124,6 +24155,15 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "向后搜索 短按"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "向前搜索 短按"
+
+#~ msgid "Seek forward long"
+#~ msgstr "长按向前搜索"
 
 #~ msgid "DVB API version"
 #~ msgstr "DVB API 版本"
