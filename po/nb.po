@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2021-08-19 14:13+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nb_NO/>\n"
@@ -4219,6 +4219,9 @@ msgid "Close the Kexec MultiBoot Manager"
 msgstr ""
 
 msgid "Close the Plugin Browser screen"
+msgstr ""
+
+msgid "Close the SeekBar after returning to the starting point"
 msgstr ""
 
 msgid "Close the choice box"
@@ -15628,7 +15631,7 @@ msgstr "Spol"
 msgid "Seek Actions"
 msgstr ""
 
-msgid "Seek back short"
+msgid "Seek Bar"
 msgstr ""
 
 msgid "Seek backward"
@@ -15640,19 +15643,16 @@ msgstr "Spol bakover (skriv inn tid)"
 msgid "Seek forward"
 msgstr "Spol framover"
 
-msgid "Seek forward  short"
-msgstr ""
-
 msgid "Seek forward (enter time)"
 msgstr "Spol framover (skriv inn tid)"
 
-msgid "Seek forward long"
+msgid "SeekBar"
+msgstr ""
+
+msgid "SeekBar Actions"
 msgstr ""
 
 msgid "SeekBar activation"
-msgstr ""
-
-msgid "SeekBar"
 msgstr ""
 
 msgid "SeekBar sensibility"
@@ -18232,13 +18232,37 @@ msgstr ""
 msgid "Skip backward"
 msgstr ""
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr ""
 
 msgid "Skip empty services"
 msgstr "Hopp over ubrukte kanaler"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
+msgstr ""
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip forward %s%%"
 msgstr ""
 
 msgid "Skip forward (enter time)"
@@ -18260,6 +18284,13 @@ msgid "Skip time for '%s' button"
 msgstr ""
 
 msgid "Skip time for '%s'/'%s' buttons"
+msgstr ""
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
 msgstr ""
 
 msgid "Sleep"
