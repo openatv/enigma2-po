@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
-"PO-Revision-Date: 2025-07-17 20:17+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"PO-Revision-Date: 2025-07-24 10:40+0000\n"
+"Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4479,6 +4479,9 @@ msgstr "Kexec-MultiBoot-Verwaltung beenden"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Plugin-Manager beenden"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr "Suchleiste nach Rückkehr zum Startpunkt schließen"
 
 msgid "Close the choice box"
 msgstr "Auswahlbox schließen"
@@ -10716,20 +10719,20 @@ msgid "Kenya"
 msgstr "Kenia"
 
 msgid "Kernel Packages"
-msgstr "Kernelmodule"
+msgstr "Kernel-Module"
 
 msgid "Kernel file"
-msgstr "Kerneldatei"
+msgstr "Kernel-Datei"
 
 msgid "Kernel partition"
-msgstr "Kernel Partition"
+msgstr "Kernel-Partition"
 
 msgid "Kernel version"
-msgstr "Kernel Version"
+msgstr "Kernel-Version"
 
 #, python-format
 msgid "Kernel%s partition"
-msgstr "Kernel%s Partition"
+msgstr "Kernel%s-Partition"
 
 msgid "Kexec MultiBoot Actions"
 msgstr "Kexec MultiBoot-Aktionen"
@@ -16731,9 +16734,8 @@ msgstr "Ermitteln"
 msgid "Seek Actions"
 msgstr "Suche Aktionen"
 
-#
-msgid "Seek back short"
-msgstr "Suche rückwärts kurz"
+msgid "Seek Bar"
+msgstr "Suchleiste"
 
 #
 msgid "Seek backward"
@@ -16748,22 +16750,17 @@ msgid "Seek forward"
 msgstr "Vorwärts suchen"
 
 #
-msgid "Seek forward  short"
-msgstr "Suche vorwärts kurz"
-
-#
 msgid "Seek forward (enter time)"
 msgstr "Vorwärts suchen (Zeit eingeben)"
 
-#
-msgid "Seek forward long"
-msgstr "Suche vorwärts lang"
+msgid "SeekBar"
+msgstr "Suchleiste"
+
+msgid "SeekBar Actions"
+msgstr "Suchleiste Aktionen"
 
 msgid "SeekBar activation"
 msgstr "Aktivierung der Suchleiste"
-
-msgid "SeekBar"
-msgstr "Suchleiste"
 
 msgid "SeekBar sensibility"
 msgstr "Sprungweite der Suchleiste"
@@ -16973,7 +16970,7 @@ msgid "Select 'Yes' to show extensions packages in the Download Plugins screen."
 msgstr "Bei 'Ja' werden Erweiterungspakete in der Downloadliste angezeigt."
 
 msgid "Select 'Yes' to show kernel packages in the Download Plugins screen."
-msgstr "Bei 'Ja' werden Kernelmodule in der Downloadliste angezeigt."
+msgstr "Bei 'Ja' werden Kernel-Module in der Downloadliste angezeigt."
 
 msgid "Select 'Yes' to show m2k packages in the Download Plugins screen."
 msgstr "Bei 'Ja' werden M2k-Pakete in der Downloadliste angezeigt."
@@ -18730,7 +18727,7 @@ msgid "Show InfoBar picons"
 msgstr "Senderlogo (Picon) in der Infoleiste anzeigen"
 
 msgid "Show Kernel packages"
-msgstr "Kernelmodule anzeigen"
+msgstr "Kernel-Module anzeigen"
 
 msgid "Show Live in MiniTV"
 msgstr "Live-TV im MiniTV anzeigen"
@@ -19510,6 +19507,16 @@ msgstr "Rückwärts spulen"
 msgid "Skip backward"
 msgstr "Rückwärts springen"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] "%d Sekunde zurück springen"
+msgstr[1] "%d Sekunden zurück springen"
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr "%s%% zurück springen"
+
 #
 msgid "Skip backward (enter time)"
 msgstr "Rückwärts springen (Zeit eingeben)"
@@ -19518,8 +19525,22 @@ msgstr "Rückwärts springen (Zeit eingeben)"
 msgid "Skip empty services"
 msgstr "Überspringen leerer Dienste"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr "Sprung für '%s' ist deaktiviert"
+
 msgid "Skip forward"
 msgstr "Vorwärts spulen"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] "%d Sekunde vorwärts springen"
+msgstr[1] "%d Sekunden vorwärts springen"
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr "%s%% vorwärts springen"
 
 #
 msgid "Skip forward (enter time)"
@@ -19543,8 +19564,15 @@ msgstr "Sprungzeit für die Taste '%s'"
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Sprungzeit für die Tasten '%s'/'%s'"
 
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr "Zur %s0%%-Position springen (plus %s%% beim zweiten Druck)"
+
+msgid "Skip to 0% (start) position"
+msgstr "Nach 0% (Startposition) springen"
+
 msgid "Sleep"
-msgstr "Sleeptimer"
+msgstr "SleepTimer"
 
 #
 msgid "Sleep Timer"
@@ -22453,7 +22481,7 @@ msgstr "Art des Suchlaufs"
 
 #, python-format
 msgid "UBI slot %s%s"
-msgstr "UBI Slot %s%s"
+msgstr "UBI-Slot %s%s"
 
 msgid "UBINIZE"
 msgstr "UBINIZE"
@@ -25645,6 +25673,18 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#
+#~ msgid "Seek back short"
+#~ msgstr "Suche rückwärts kurz"
+
+#
+#~ msgid "Seek forward  short"
+#~ msgstr "Suche vorwärts kurz"
+
+#
+#~ msgid "Seek forward long"
+#~ msgstr "Suche vorwärts lang"
 
 #~ msgid "DVB API version"
 #~ msgstr "DVB-API-Version"
