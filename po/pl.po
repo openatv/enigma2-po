@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
-"PO-Revision-Date: 2025-07-23 13:56+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"PO-Revision-Date: 2025-07-25 21:07+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -2913,7 +2913,7 @@ msgid "Background delete option"
 msgstr "Opcja usuwania tła"
 
 msgid "Background delete speed"
-msgstr "Szybkość usuwania tła"
+msgstr "Prędkość usuwania tła"
 
 msgid "Background selected:"
 msgstr "Wybrane w tle:"
@@ -4298,6 +4298,9 @@ msgstr "Zamknij Menadżera Kexec MultiBoot"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Zamknij ekran przeglądarki wtyczek"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr "Zamknij pasek wyszukiwania po powrocie do punktu początkowego"
 
 msgid "Close the choice box"
 msgstr "Zamknij pole wyboru"
@@ -15816,8 +15819,8 @@ msgstr "Przewiń"
 msgid "Seek Actions"
 msgstr "Akcje Wyszukiwania"
 
-msgid "Seek back short"
-msgstr "Szukaj krótko"
+msgid "Seek Bar"
+msgstr "Pasek wyszukiwania"
 
 msgid "Seek backward"
 msgstr "Przewiń do tyłu"
@@ -15828,23 +15831,20 @@ msgstr "Przewiń do tyłu (wprowadź czas)"
 msgid "Seek forward"
 msgstr "Przewiń do przodu"
 
-msgid "Seek forward  short"
-msgstr "Szukaj krótko do przodu"
-
 msgid "Seek forward (enter time)"
 msgstr "Przewiń do przodu (wprowadź czas)"
 
-msgid "Seek forward long"
-msgstr "Szukaj do przodu długo"
+msgid "SeekBar"
+msgstr "Pasek wyszukiwania"
+
+msgid "SeekBar Actions"
+msgstr "Akcje paska wyszukiwania"
 
 msgid "SeekBar activation"
-msgstr "Aktywacja paska stanu"
-
-msgid "SeekBar"
-msgstr "Pasek stanu"
+msgstr "Aktywacja paska wyszukiwania"
 
 msgid "SeekBar sensibility"
-msgstr "Czułość paska stanu"
+msgstr "Czułość paska wyszukiwania"
 
 msgid "Seeking connected events"
 msgstr "Wyszukiwanie powiązanych wydarzeń"
@@ -15916,7 +15916,7 @@ msgid "Select 'Yes' to allow each storage device detected to be automatically ex
 msgstr "Wybierz „Tak”, aby zezwolić na automatyczny eksport każdego wykrytego urządzenia pamięci masowej jako udziału Samba."
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
-msgstr "Jeśli ustawione na 'tak', pozwala wykorzystać pasek wyszukiwania do przewijania timeshift'u."
+msgstr "Wybierz „Tak”, aby zezwolić na użycie paska wyszukiwania w celu przejścia do wybranego punktu w ramach zdarzenia."
 
 msgid "Select 'Yes' to always show the bouquet screen first when opening the channel list. Select 'No' to open the channel list using the current bouquet."
 msgstr "Ustawienie tej opcji na 'tak' spowoduje, że zostanie wyświetlona najpierw lista kanałów. Jeśli ustawione na 'nie' zostaną wyświetlone kanały obecnej listy."
@@ -16171,7 +16171,7 @@ msgid "Select Satellites"
 msgstr "Wybierz satelity"
 
 msgid "Select SeekBar to be activated by arrow L/R (long) or << >> (long)."
-msgstr "Wybierz czy pasek stanu ma być aktywowany przez strzałkę L/R (długio) lub << >> (długio)."
+msgstr "Wybierz opcję paska wyszukiwania, która ma być aktywowana za pomocą strzałki L/R (długo) lub << >> (długo)."
 
 msgid "Select Shares"
 msgstr "Wybierz Udostępnienia"
@@ -17217,14 +17217,14 @@ msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Ustaw odstęp czasu pomijania edytora CutList dla przycisków '%s'/'%s'."
 
 msgid "Set the LEFT/RIGHT button skip percentage for the SeekBar."
-msgstr "Ustaw procent pomijania przycisków LEWO/PRAWO dla paska SeekBar."
+msgstr "Ustaw procent pomijania przycisków LEWO/PRAWO dla paska wyszukiwania."
 
 #, python-format
 msgid "Set the MAC address of your %s %s."
 msgstr "Ustaw adres MAC dla %s %s."
 
 msgid "Set the UP/DOWN button skip percentage for the SeekBar."
-msgstr "Ustaw procent pomijania przycisków GÓRA/DÓŁ dla paska SeekBar."
+msgstr "Ustaw procent pomijania przycisków GÓRA/DÓŁ dla paska wyszukiwania."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr "Wpisz nazwę użytkownika do zalogowania do OpenWebif tunera rezerwowego"
@@ -18447,14 +18447,40 @@ msgstr "Przewijanie do tyłu"
 msgid "Skip backward"
 msgstr "Przewiń do tyłu"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] "Przewiń do tyłu o %d sekundę"
+msgstr[1] "Przewiń do tyłu o %d sekundy"
+msgstr[2] "Przewiń do tyłu o %d sekund"
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr "Przejdź wstecz %s%%"
+
 msgid "Skip backward (enter time)"
 msgstr "Przeskocz do tyłu (wprowadź czas)"
 
 msgid "Skip empty services"
 msgstr "Pomiń puste kanały"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr "Pomijanie dla '%s' jest wyłączone"
+
 msgid "Skip forward"
 msgstr "Przeskocz do przodu"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] "Przewiń do przodu o %d sekundę"
+msgstr[1] "Przewiń do przodu o %d sekundy"
+msgstr[2] "Przewiń do przodu o %d sekund"
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr "Przejdź do przodu %s%%"
 
 msgid "Skip forward (enter time)"
 msgstr "Przeskocz do przodu (wprowadź czas)"
@@ -18476,6 +18502,13 @@ msgstr "Czas pomijania dla przycisku '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Czas pomijania dla przycisków '%s'/'%s'"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr "Przejdź do pozycji %s0%% (Dodaj %s%% po drugim naciśnięciu)"
+
+msgid "Skip to 0% (start) position"
+msgstr "Przejdź do pozycji 0% (początkowej)"
 
 msgid "Sleep"
 msgstr "Uśpienie"
@@ -21760,7 +21793,7 @@ msgid "Use time jumps for fast forward/backward"
 msgstr "Użyj czasu przeskoku na szybkie przewijanie do przodu/do tyłu"
 
 msgid "Use time shift SeekBar while time shifting"
-msgstr "Użyj paska postępu w trakcie timeshiftu"
+msgstr "Użyj paska wyszukiwania z funkcją podczas timeshiftu"
 
 msgid "Use viewer for unknown files"
 msgstr "Użyj podglądu dla nieznanych plików"
@@ -24187,6 +24220,15 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Szukaj krótko"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Szukaj krótko do przodu"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Szukaj do przodu długo"
 
 #~ msgid "DVB API version"
 #~ msgstr "Wersja DVB API"

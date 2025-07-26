@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2025-07-18 21:03+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
@@ -4288,6 +4288,9 @@ msgstr "Zavřít Správce multibootů Kexec"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Zavřít obrazovku prohlížeče pluginů"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr ""
 
 msgid "Close the choice box"
 msgstr "Zavřít políčko s výběrem"
@@ -15805,8 +15808,8 @@ msgstr "Posun"
 msgid "Seek Actions"
 msgstr "Akce vyhledávání"
 
-msgid "Seek back short"
-msgstr "Procházení dozadu - krátký stisk"
+msgid "Seek Bar"
+msgstr ""
 
 msgid "Seek backward"
 msgstr "Přeskočit dozadu"
@@ -15817,20 +15820,17 @@ msgstr "Přeskočit dozadu (zadat čas)"
 msgid "Seek forward"
 msgstr "Přeskočit dopředu"
 
-msgid "Seek forward  short"
-msgstr "Procházení dopředu - krátký stisk"
-
 msgid "Seek forward (enter time)"
 msgstr "Přeskočit dopředu (zadat čas)"
 
-msgid "Seek forward long"
-msgstr "Procházení dopředu - dlouhý stisk"
+msgid "SeekBar"
+msgstr "Panel vyhledávání"
+
+msgid "SeekBar Actions"
+msgstr ""
 
 msgid "SeekBar activation"
 msgstr "Aktivace hledání"
-
-msgid "SeekBar"
-msgstr "Panel vyhledávání"
 
 msgid "SeekBar sensibility"
 msgstr "Citlivost hledání"
@@ -18436,14 +18436,40 @@ msgstr "Přeskočit zpět"
 msgid "Skip backward"
 msgstr "Přeskočit zpět"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr "přeskočit zpět (zadat čas)"
 
 msgid "Skip empty services"
 msgstr "Přeskakovat prázdné programy"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
 msgstr "Přeskočit vpřed"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "přeskočit dopředu (zadat čas)"
@@ -18465,6 +18491,13 @@ msgstr "Čas přeskočení pro tlačítko '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Čas přeskočení pro tlačítka '%s'/'%s'vvvvvv"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
+msgstr ""
 
 msgid "Sleep"
 msgstr "Spánek"
@@ -24175,6 +24208,15 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Procházení dozadu - krátký stisk"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Procházení dopředu - krátký stisk"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Procházení dopředu - dlouhý stisk"
 
 #~ msgid "DVB API version"
 #~ msgstr "Verze DVB API"

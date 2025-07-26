@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
-"PO-Revision-Date: 2025-07-20 15:03+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"PO-Revision-Date: 2025-07-24 05:02+0000\n"
 "Last-Translator: kvinto <badsystem@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -4291,6 +4291,9 @@ msgstr "Закрийте Kexec MultiBoot Менеджер"
 
 msgid "Close the Plugin Browser screen"
 msgstr "Закрийте екран браузера плагінів"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr "Закрити SeekBar після повернення до початкової точки"
 
 msgid "Close the choice box"
 msgstr "Закрити вікно вибору"
@@ -15808,8 +15811,8 @@ msgstr "Шукати"
 msgid "Seek Actions"
 msgstr "Дії для Пошуку"
 
-msgid "Seek back short"
-msgstr "Швидкий пошук"
+msgid "Seek Bar"
+msgstr "SeekBar"
 
 msgid "Seek backward"
 msgstr "Перемотка назад"
@@ -15820,20 +15823,17 @@ msgstr "Перемотати назад (введіть час)"
 msgid "Seek forward"
 msgstr "Перемотка вперед"
 
-msgid "Seek forward  short"
-msgstr "Швидкий пошук вперед"
-
 msgid "Seek forward (enter time)"
 msgstr "Перемотка вперед (введіть час)"
 
-msgid "Seek forward long"
-msgstr "Пошук вперед довго"
+msgid "SeekBar"
+msgstr "Панель пошуку"
+
+msgid "SeekBar Actions"
+msgstr "Дії кнопок в SeekBar"
 
 msgid "SeekBar activation"
 msgstr "Активація Seekbar"
-
-msgid "SeekBar"
-msgstr "Панель пошуку"
 
 msgid "SeekBar sensibility"
 msgstr "Крок Seekbar"
@@ -18439,14 +18439,40 @@ msgstr "Перейти назад"
 msgid "Skip backward"
 msgstr "Перейти назад"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] "Перейти назад на %d секунду"
+msgstr[1] "Перейти назад на %d секунди"
+msgstr[2] "Перейти назад на %d секунд"
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr "Перейти назад %s%%"
+
 msgid "Skip backward (enter time)"
 msgstr "перемотати назад (введіть час)"
 
 msgid "Skip empty services"
 msgstr "Пропускати порожні канали"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr "Пропуск для '%s' вимкнено"
+
 msgid "Skip forward"
 msgstr "Перейти вперед"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] "Перейти вперед на %d секунду"
+msgstr[1] "Перейти вперед на %d секунди"
+msgstr[2] "Перейти вперед на %d секунд"
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr "Перейти вперед %s%%"
 
 msgid "Skip forward (enter time)"
 msgstr "перемотати вперед (введіть час)"
@@ -18468,6 +18494,13 @@ msgstr "Пропустити час для кнопки '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Пропустити час для кнопок '%s'/'%s'"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr "Перейти до позиції %s0%% (Додати %s%% при другому натисканні)"
+
+msgid "Skip to 0% (start) position"
+msgstr "Перейти до позиції 0% (початкова)"
 
 msgid "Sleep"
 msgstr "Очікування"
@@ -19557,7 +19590,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - 19.07.2025"
+msgstr "Переклад: kvinto - 23.07.2025"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -24178,6 +24211,15 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Швидкий пошук"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Швидкий пошук вперед"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Пошук вперед довго"
 
 #~ msgid "DVB API version"
 #~ msgstr "Версія DVB API"

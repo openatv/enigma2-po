@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2025-05-12 13:02+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -4253,6 +4253,9 @@ msgstr "Κλείσιμο της διαχείρισης πολλαπλής εκκ
 
 msgid "Close the Plugin Browser screen"
 msgstr "Κλείσιμο της περιήγησης προσθέτων"
+
+msgid "Close the SeekBar after returning to the starting point"
+msgstr ""
 
 msgid "Close the choice box"
 msgstr "Κλείσιμο του παραθύρου επιλογών"
@@ -15759,8 +15762,8 @@ msgstr "Αναζήτηση"
 msgid "Seek Actions"
 msgstr "Ενέργειες αναζήτησης"
 
-msgid "Seek back short"
-msgstr "Αναζήτηση προς τα πίσω στιγμιαίο"
+msgid "Seek Bar"
+msgstr ""
 
 msgid "Seek backward"
 msgstr "Μεταπήδηση προς τα πίσω"
@@ -15771,20 +15774,17 @@ msgstr "Μεταπήδηση πίσω (σε χρόνο)"
 msgid "Seek forward"
 msgstr "Μεταπήδηση εμπρός"
 
-msgid "Seek forward  short"
-msgstr "Αναζήτηση εμπρός  στιγμιαίο"
-
 msgid "Seek forward (enter time)"
 msgstr "Μεταπήδηση εμπρός (σε χρόνο)"
 
-msgid "Seek forward long"
-msgstr "Αναζήτηση εμπρός παρατεταμένο"
+msgid "SeekBar"
+msgstr "Μπάρα αναζήτησης"
+
+msgid "SeekBar Actions"
+msgstr ""
 
 msgid "SeekBar activation"
 msgstr "Ενεργοποίηση μπάρας αναζήτησης"
-
-msgid "SeekBar"
-msgstr "Μπάρα αναζήτησης"
 
 msgid "SeekBar sensibility"
 msgstr "Ακρίβεια μπάρας αναζήτησης"
@@ -18390,14 +18390,38 @@ msgstr "Υπερπήδηση προς τα πίσω"
 msgid "Skip backward"
 msgstr "Παράκαμψη προς τα πίσω"
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr "υπερπήδηση προς τα εμπρός (εισαγωγή χρόνου)"
 
 msgid "Skip empty services"
 msgstr "Παράλειψη άδειων υπηρεσιών"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
 msgstr "Υπερπήδηση προς τα εμπρός"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "υπερπήδηση προς τα πίσω (εισαγωγή χρόνου)"
@@ -18419,6 +18443,13 @@ msgstr "Χρόνος παράκαμψης για το πλήκτρο '%s'"
 
 msgid "Skip time for '%s'/'%s' buttons"
 msgstr "Χρόνος παράκαμψης για τα πλήκτρα '%s'/'%s'"
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
+msgstr ""
 
 msgid "Sleep"
 msgstr "Ύπνος"
@@ -24125,6 +24156,15 @@ msgstr "ναι (διατήρηση των feeds)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Seek back short"
+#~ msgstr "Αναζήτηση προς τα πίσω στιγμιαίο"
+
+#~ msgid "Seek forward  short"
+#~ msgstr "Αναζήτηση εμπρός  στιγμιαίο"
+
+#~ msgid "Seek forward long"
+#~ msgstr "Αναζήτηση εμπρός παρατεταμένο"
 
 #~ msgid "DVB API version"
 #~ msgstr "Έκδοση DVB API"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-17 17:20+0000\n"
+"POT-Creation-Date: 2025-07-23 14:10+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -4306,6 +4306,9 @@ msgid "Close the Kexec MultiBoot Manager"
 msgstr ""
 
 msgid "Close the Plugin Browser screen"
+msgstr ""
+
+msgid "Close the SeekBar after returning to the starting point"
 msgstr ""
 
 msgid "Close the choice box"
@@ -16160,9 +16163,8 @@ msgstr "Otsi"
 msgid "Seek Actions"
 msgstr "Kiirtegevused"
 
-#, fuzzy
-msgid "Seek back short"
-msgstr "Keri tagasi"
+msgid "Seek Bar"
+msgstr ""
 
 msgid "Seek backward"
 msgstr "Keri tagasi"
@@ -16173,22 +16175,17 @@ msgstr "Keri tagasi (sisesta aeg)"
 msgid "Seek forward"
 msgstr "Keri edasi"
 
-#, fuzzy
-msgid "Seek forward  short"
-msgstr "Keri edasi"
-
 msgid "Seek forward (enter time)"
 msgstr "Keri edasi (sisesta aeg)"
 
-#, fuzzy
-msgid "Seek forward long"
-msgstr "Keri edasi"
+msgid "SeekBar"
+msgstr "Otsiriba"
+
+msgid "SeekBar Actions"
+msgstr ""
 
 msgid "SeekBar activation"
 msgstr "Otsiriba käivitamine"
-
-msgid "SeekBar"
-msgstr "Otsiriba"
 
 msgid "SeekBar sensibility"
 msgstr "Otsiriba tundlikkus"
@@ -18829,14 +18826,38 @@ msgstr "Tagasihüpe"
 msgid "Skip backward"
 msgstr ""
 
+#, python-format
+msgid "Skip backward %d second"
+msgid_plural "Skip backward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip backward %s%%"
+msgstr ""
+
 msgid "Skip backward (enter time)"
 msgstr "Hüppa tagasi (sisesta aeg)"
 
 msgid "Skip empty services"
 msgstr "Tühje kanaleid ei kuvata"
 
+#, python-format
+msgid "Skip for '%s' is disabled"
+msgstr ""
+
 msgid "Skip forward"
 msgstr "Edasihüpe"
+
+#, python-format
+msgid "Skip forward %d second"
+msgid_plural "Skip forward %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "Skip forward %s%%"
+msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "Hüppa edasi (sisesta aeg)"
@@ -18857,6 +18878,13 @@ msgid "Skip time for '%s' button"
 msgstr ""
 
 msgid "Skip time for '%s'/'%s' buttons"
+msgstr ""
+
+#, python-format
+msgid "Skip to %s0%% position (Add %s%% on second press)"
+msgstr ""
+
+msgid "Skip to 0% (start) position"
 msgstr ""
 
 msgid "Sleep"
@@ -24664,6 +24692,18 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Seek back short"
+#~ msgstr "Keri tagasi"
+
+#, fuzzy
+#~ msgid "Seek forward  short"
+#~ msgstr "Keri edasi"
+
+#, fuzzy
+#~ msgid "Seek forward long"
+#~ msgstr "Keri edasi"
 
 #~ msgid "Open DreamPlex"
 #~ msgstr "DreamPlex mängija"
