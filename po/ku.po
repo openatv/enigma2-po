@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-27 12:33+0000\n"
+"POT-Creation-Date: 2025-07-17 17:20+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Kurdish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ku/>\n"
@@ -2354,9 +2354,6 @@ msgstr "Assigned services/provider:"
 msgid "All supported"
 msgstr "not supported"
 
-msgid "All up/down"
-msgstr ""
-
 msgid "Allocate"
 msgstr "Biqetinin"
 
@@ -2647,9 +2644,6 @@ msgstr ""
 msgid "Are you sure you want to delete this?"
 msgstr ""
 
-msgid "Are you sure you want to disable Chkroot Multiboot?"
-msgstr ""
-
 msgid "Are you sure you want to exit this wizard?"
 msgstr "Are you sure you want to exit this wizard?"
 
@@ -2843,6 +2837,10 @@ msgstr "modé Nivisi"
 msgid "Auto"
 msgstr "Auto"
 
+#, fuzzy
+msgid "Auto detect"
+msgstr "Deep standby"
+
 msgid "Auto Language"
 msgstr ""
 
@@ -2867,10 +2865,6 @@ msgstr "Auto chapter split every ? minutes (0=never)"
 
 #, fuzzy
 msgid "Auto deep standby"
-msgstr "Deep standby"
-
-#, fuzzy
-msgid "Auto detect"
 msgstr "Deep standby"
 
 msgid "Auto flesh"
@@ -3267,8 +3261,8 @@ msgstr "Zu leziya Bit:"
 msgid "Black"
 msgstr "black"
 
-msgid "Black screen"
-msgstr "Ekrana Reş"
+msgid "Black Screen"
+msgstr ""
 
 msgid "Black screen till locked"
 msgstr "Ekrana reş kilitke"
@@ -4052,6 +4046,9 @@ msgstr "Qanal"
 msgid "Channel List"
 msgstr "Qanal Liste "
 
+msgid "Channel number"
+msgstr ""
+
 msgid "Channel Selection"
 msgstr "Channel Selection"
 
@@ -4120,9 +4117,6 @@ msgid "Channel list type"
 msgstr "Qanal Liste "
 
 msgid "Channel name"
-msgstr ""
-
-msgid "Channel number"
 msgstr ""
 
 #, fuzzy
@@ -4508,9 +4502,6 @@ msgid "Close the Kexec MultiBoot Manager"
 msgstr ""
 
 msgid "Close the Plugin Browser screen"
-msgstr ""
-
-msgid "Close the SeekBar after returning to the starting point"
 msgstr ""
 
 msgid "Close the choice box"
@@ -6618,9 +6609,6 @@ msgid "Disabled PiP.\n"
 msgstr ""
 
 msgid "Disabled or WPA/WPA2"
-msgstr ""
-
-msgid "Disabling Chkroot failed!"
 msgstr ""
 
 msgid "Dish"
@@ -10382,9 +10370,6 @@ msgstr ""
 msgid "Internal USB"
 msgstr ""
 
-msgid "Internal disk only"
-msgstr "Internal disk only"
-
 msgid "Internal flash"
 msgstr "Internal flash"
 
@@ -10395,6 +10380,9 @@ msgstr ""
 #, python-format
 msgid "Internal flash: %s %s as USB Recovery"
 msgstr ""
+
+msgid "Internal disk only"
+msgstr "Internal disk only"
 
 msgid "Internet"
 msgstr ""
@@ -12830,10 +12818,6 @@ msgstr ""
 msgid "Non-Linear"
 msgstr ""
 
-#, fuzzy
-msgid "Non-flashing"
-msgstr "NFI image flashing"
-
 msgid "None"
 msgstr "None"
 
@@ -12894,6 +12878,10 @@ msgstr "Not associated"
 
 msgid "Not Defined"
 msgstr ""
+
+#, fuzzy
+msgid "Non-flashing"
+msgstr "NFI image flashing"
 
 #, fuzzy
 msgid "Not Installed"
@@ -14558,9 +14546,6 @@ msgstr ""
 msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that image. If available, YELLOW will either delete or wipe the image. A deleted image can be restored with the BLUE button. A wiped image is completely removed and cannot be restored!"
 msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that image. If available, YELLOW will disable Multiboot, delete, or wipe the selected image. Press BLUE to add more slots."
-msgstr ""
-
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr ""
 
@@ -14922,13 +14907,13 @@ msgstr "FEC"
 msgid "REC "
 msgstr ""
 
+msgid "REC symbol"
+msgstr ""
+
 msgid "REC Symbol in Standby"
 msgstr ""
 
 msgid "REC Symbol in use"
-msgstr ""
-
-msgid "REC symbol"
 msgstr ""
 
 #, fuzzy
@@ -16323,13 +16308,13 @@ msgstr "Timer Overview"
 msgid "Scheduler Settings"
 msgstr ""
 
+msgid "Scheduler standby"
+msgstr ""
+
 msgid "Scheduler deep standby"
 msgstr ""
 
 msgid "Scheduler log"
-msgstr ""
-
-msgid "Scheduler standby"
 msgstr ""
 
 msgid "Sci-Fi"
@@ -16419,8 +16404,9 @@ msgstr "Seek"
 msgid "Seek Actions"
 msgstr "Select location"
 
-msgid "Seek Bar"
-msgstr ""
+#, fuzzy
+msgid "Seek back short"
+msgstr "Seek backward"
 
 msgid "Seek backward"
 msgstr "Seek backward"
@@ -16431,19 +16417,24 @@ msgstr "Seek backward (enter time)"
 msgid "Seek forward"
 msgstr "Seek forward"
 
+#, fuzzy
+msgid "Seek forward  short"
+msgstr "Seek forward"
+
 msgid "Seek forward (enter time)"
 msgstr "Seek forward (enter time)"
 
 #, fuzzy
-msgid "SeekBar"
-msgstr "Seek"
-
-msgid "SeekBar Actions"
-msgstr ""
+msgid "Seek forward long"
+msgstr "Seek forward"
 
 #, fuzzy
 msgid "SeekBar activation"
 msgstr "Select location"
+
+#, fuzzy
+msgid "SeekBar"
+msgstr "Seek"
 
 msgid "SeekBar sensibility"
 msgstr ""
@@ -17618,6 +17609,18 @@ msgstr ""
 msgid "Service Information Actions"
 msgstr ""
 
+#, fuzzy
+msgid "Service Name"
+msgstr "Service name"
+
+#, fuzzy
+msgid "Service number and service name"
+msgstr "Picon and service name"
+
+#, fuzzy
+msgid "Service number, picon and service name"
+msgstr "Picon and service name"
+
 msgid "Service Scan"
 msgstr ""
 
@@ -17672,16 +17675,8 @@ msgstr ""
 "(SID not found in PAT)"
 
 #, fuzzy
-msgid "Service number and service name"
-msgstr "Picon and service name"
-
-#, fuzzy
 msgid "Service number font size"
 msgstr "Subtitle font size"
-
-#, fuzzy
-msgid "Service number, picon and service name"
-msgstr "Picon and service name"
 
 #, fuzzy
 msgid "Service off-air"
@@ -19095,12 +19090,12 @@ msgstr ""
 msgid "Skin Packages"
 msgstr ""
 
-msgid "Skin Settings"
-msgstr ""
-
 #, fuzzy
 msgid "Skin setting"
 msgstr "Settings"
+
+msgid "Skin Settings"
+msgstr ""
 
 msgid "SkinSelection"
 msgstr ""
@@ -19111,16 +19106,6 @@ msgstr ""
 msgid "Skip backward"
 msgstr ""
 
-#, python-format
-msgid "Skip backward %d second"
-msgid_plural "Skip backward %d seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Skip backward %s%%"
-msgstr ""
-
 #, fuzzy
 msgid "Skip backward (enter time)"
 msgstr "Seek backward (enter time)"
@@ -19128,21 +19113,7 @@ msgstr "Seek backward (enter time)"
 msgid "Skip empty services"
 msgstr "Skip empty services"
 
-#, python-format
-msgid "Skip for '%s' is disabled"
-msgstr ""
-
 msgid "Skip forward"
-msgstr ""
-
-#, python-format
-msgid "Skip forward %d second"
-msgid_plural "Skip forward %d seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Skip forward %s%%"
 msgstr ""
 
 #, fuzzy
@@ -19165,13 +19136,6 @@ msgid "Skip time for '%s' button"
 msgstr ""
 
 msgid "Skip time for '%s'/'%s' buttons"
-msgstr ""
-
-#, python-format
-msgid "Skip to %s0%% position (Add %s%% on second press)"
-msgstr ""
-
-msgid "Skip to 0% (start) position"
 msgstr ""
 
 msgid "Sleep"
@@ -19300,10 +19264,6 @@ msgid "Slot R: Root Slot Image Backup (Current image)"
 msgstr ""
 
 msgid "Slot count"
-msgstr ""
-
-#, python-format
-msgid "Slots have been extended by %d..\n"
 msgstr ""
 
 msgid "Slovak"
@@ -19747,9 +19707,6 @@ msgstr ""
 #, fuzzy
 msgid "Starts in a few seconds"
 msgstr "Start offline decode"
-
-msgid "Startup device not found!"
-msgstr ""
 
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
@@ -21892,9 +21849,6 @@ msgstr ""
 msgid "Tunisia"
 msgstr ""
 
-msgid "Turbo"
-msgstr ""
-
 msgid "Turbo: One reboot after flash; Fast: One reboot after flash, one reboot after restore; Slow: One reboot after flash, one reboot after restore in GUI."
 msgstr ""
 
@@ -24006,6 +23960,9 @@ msgstr "adventure/western/war"
 msgid "advertisement/shopping"
 msgstr "advertisement/shopping"
 
+msgid "All up/down"
+msgstr ""
+
 msgid "alpha then oldest"
 msgstr ""
 
@@ -24555,6 +24512,9 @@ msgstr ""
 msgid "no storage devices found"
 msgstr "no storage devices found"
 
+msgid "normal"
+msgstr ""
+
 #, fuzzy
 msgid "not"
 msgstr "no"
@@ -24751,6 +24711,9 @@ msgstr "skip backward"
 msgid "skip forward"
 msgstr "skip forward"
 
+msgid "slow"
+msgstr ""
+
 msgid "soap/melodrama/folkloric"
 msgstr "soap/melodrama/folkloric"
 
@@ -24858,6 +24821,9 @@ msgstr ""
 msgid "tree delete"
 msgstr ""
 
+msgid "Turbo"
+msgstr ""
+
 msgid "uShare"
 msgstr ""
 
@@ -24951,22 +24917,6 @@ msgstr "yes (keep feeds)"
 
 msgid "®"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Seek back short"
-#~ msgstr "Seek backward"
-
-#, fuzzy
-#~ msgid "Seek forward  short"
-#~ msgstr "Seek forward"
-
-#, fuzzy
-#~ msgid "Seek forward long"
-#~ msgstr "Seek forward"
-
-#, fuzzy
-#~ msgid "Service Name"
-#~ msgstr "Service name"
 
 #, fuzzy
 #~ msgid "Search EPG for current event"
@@ -25785,3 +25735,6 @@ msgstr ""
 
 #~ msgid "show event details"
 #~ msgstr "show event details"
+
+#~ msgid "Black screen"
+#~ msgstr "Ekrana Reş"
