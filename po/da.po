@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-23 14:10+0000\n"
+"POT-Creation-Date: 2025-07-17 17:20+0000\n"
 "PO-Revision-Date: 2021-11-04 23:53+0000\n"
 "Last-Translator: T. Rylle <dk-translation@pm.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/da/>\n"
@@ -2538,10 +2538,10 @@ msgstr ""
 msgid "Ask user"
 msgstr "Spørg bruger"
 
-msgid "Ask user (with default as 'No')"
+msgid "Ask user (with default of 'No')"
 msgstr "Spørg bruger (med 'Nej' som standard)"
 
-msgid "Ask user (with default as 'Yes')"
+msgid "Ask user (with default of 'Yes')"
 msgstr "Spørg bruger (med 'Ja' som standard)"
 
 msgid "Aspect"
@@ -2653,7 +2653,7 @@ msgstr "Oprettelsestilstand"
 msgid "Auto"
 msgstr "Auto"
 
-msgid "Auto Detect"
+msgid "Auto detect"
 msgstr "Auto-opdag"
 
 msgid "Auto Language"
@@ -3070,7 +3070,7 @@ msgstr ""
 msgid "Blinking REC"
 msgstr "Blinkende REC"
 
-msgid "Blinking REC Symbol"
+msgid "Blinking REC symbol"
 msgstr "Blinkende REC Symbol"
 
 msgid "Block device"
@@ -3820,7 +3820,7 @@ msgstr ""
 msgid "Channel 1"
 msgstr "Kanal 1"
 
-msgid "Channel 1 with Prime time"
+msgid "Channel 1 with prime time"
 msgstr "Kanal 1 med Primtime"
 
 msgid "Channel Info"
@@ -3829,7 +3829,7 @@ msgstr "Kanalinfo"
 msgid "Channel List"
 msgstr "Kanalliste"
 
-msgid "Channel Number"
+msgid "Channel number"
 msgstr ""
 
 msgid "Channel Selection"
@@ -4258,9 +4258,6 @@ msgstr ""
 msgid "Close the Plugin Browser screen"
 msgstr ""
 
-msgid "Close the SeekBar after returning to the starting point"
-msgstr ""
-
 msgid "Close the choice box"
 msgstr ""
 
@@ -4324,7 +4321,7 @@ msgstr "Farveformat"
 msgid "Color space"
 msgstr "Farverum"
 
-msgid "Colored Text"
+msgid "Colored text"
 msgstr ""
 
 msgid "Combined"
@@ -9982,7 +9979,7 @@ msgstr ""
 msgid "Internal flash: %s %s as USB Recovery"
 msgstr ""
 
-msgid "Internal hdd only"
+msgid "Internal disk only"
 msgstr "Kun intern harddisk"
 
 msgid "Internet"
@@ -10475,7 +10472,7 @@ msgstr ""
 msgid "Left column file sort"
 msgstr ""
 
-msgid "Left from service name"
+msgid "Left of service name"
 msgstr "Til venstre for kanalnavn"
 
 msgid "Left, back USB"
@@ -10766,10 +10763,10 @@ msgstr "Logge placering"
 msgid "Logs older then the set no of days will be deleted."
 msgstr "Logge ældre end det fastsatte antal dage slettes."
 
-msgid "Long << / >>"
+msgid "Long <</>>"
 msgstr "Lang << / >>"
 
-msgid "Long Left/Right"
+msgid "Long LEFT/RIGHT"
 msgstr "Lang Venstre/Højre"
 
 msgid "Long filenames"
@@ -12349,10 +12346,10 @@ msgstr "Nej, aldrig"
 msgid "No, scan later manually"
 msgstr "Nej, søg manuelt senere"
 
-msgid "No, show the Plugin Browser"
+msgid "No, show Plugin Browser"
 msgstr "Nej, vis altid Plugin browseren"
 
-msgid "No, show the RecordTimer Overview"
+msgid "No, show RecordTimer Overview"
 msgstr "Nej, vis altid Timerliste"
 
 msgid "NodeID"
@@ -12424,7 +12421,7 @@ msgstr "Uklassificeret"
 msgid "Not Defined"
 msgstr "Ikke defineret"
 
-msgid "Not Flashing"
+msgid "Non-flashing"
 msgstr "Blinker ikke"
 
 #, fuzzy
@@ -13337,7 +13334,7 @@ msgstr "Pikon"
 msgid "Picon Packages"
 msgstr ""
 
-msgid "Picon and Service Name"
+msgid "Picon and service name"
 msgstr "Pikon og Kanalnavn"
 
 msgid "Picon install location"
@@ -14399,8 +14396,8 @@ msgstr "REC"
 msgid "REC "
 msgstr "REC "
 
-msgid "REC Symbol"
-msgstr "REC Symbol"
+msgid "REC symbol"
+msgstr "REC symbol"
 
 msgid "REC Symbol in Standby"
 msgstr "REC Symbol i Standby"
@@ -14562,7 +14559,7 @@ msgstr "Optag - svare til optageknap"
 msgid "Record Actions"
 msgstr ""
 
-msgid "Record Icon"
+msgid "Record icon"
 msgstr ""
 
 msgid "Record next"
@@ -15277,7 +15274,7 @@ msgstr ""
 msgid "Right column file sort"
 msgstr ""
 
-msgid "Right from service name"
+msgid "Right of service name"
 msgstr "Til højre for kanalnavn"
 
 msgid "Right, back USB"
@@ -15752,7 +15749,7 @@ msgstr "StrømTimer overblik"
 msgid "Scheduler Settings"
 msgstr ""
 
-msgid "Scheduler Standby"
+msgid "Scheduler standby"
 msgstr "StrømTimer Standby"
 
 msgid "Scheduler deep standby"
@@ -15847,8 +15844,9 @@ msgstr "Søg"
 msgid "Seek Actions"
 msgstr "Kvik handlinger"
 
-msgid "Seek Bar"
-msgstr ""
+#, fuzzy
+msgid "Seek back short"
+msgstr "Søg baglæns"
 
 msgid "Seek backward"
 msgstr "Søg baglæns"
@@ -15859,17 +15857,22 @@ msgstr "Søg baglæns (indtast tid)"
 msgid "Seek forward"
 msgstr "Søg fremad"
 
+#, fuzzy
+msgid "Seek forward  short"
+msgstr "Søg fremad"
+
 msgid "Seek forward (enter time)"
 msgstr "Søg fremad (indtast tid)"
 
-msgid "SeekBar"
-msgstr "Søgebjælke"
-
-msgid "SeekBar Actions"
-msgstr ""
+#, fuzzy
+msgid "Seek forward long"
+msgstr "Søg fremad"
 
 msgid "SeekBar activation"
 msgstr "Søgebjælke aktivering"
+
+msgid "SeekBar"
+msgstr "Søgebjælke"
 
 msgid "SeekBar sensibility"
 msgstr "Søgebjælke følsomhed"
@@ -17047,10 +17050,10 @@ msgstr ""
 msgid "Service Name"
 msgstr "Kanalnavn"
 
-msgid "Service Number and Service Name"
+msgid "Service number and service name"
 msgstr "Kanal nr. og Kanalnavn"
 
-msgid "Service Number, Picon and Service Name"
+msgid "Service number, picon and service name"
 msgstr "Kanal Nummer, Pikon og Kanalnavn"
 
 msgid "Service Scan"
@@ -18460,7 +18463,7 @@ msgstr ""
 msgid "Skin Packages"
 msgstr ""
 
-msgid "Skin Setting"
+msgid "Skin setting"
 msgstr "Tema indstillinger"
 
 msgid "Skin Settings"
@@ -18475,38 +18478,14 @@ msgstr "Hop baglæns"
 msgid "Skip backward"
 msgstr ""
 
-#, python-format
-msgid "Skip backward %d second"
-msgid_plural "Skip backward %d seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Skip backward %s%%"
-msgstr ""
-
 msgid "Skip backward (enter time)"
 msgstr "Hop baglæns (angiv tid)"
 
 msgid "Skip empty services"
 msgstr "Hop over tomme kanaler"
 
-#, python-format
-msgid "Skip for '%s' is disabled"
-msgstr ""
-
 msgid "Skip forward"
 msgstr "Hop fremad"
-
-#, python-format
-msgid "Skip forward %d second"
-msgid_plural "Skip forward %d seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Skip forward %s%%"
-msgstr ""
 
 msgid "Skip forward (enter time)"
 msgstr "Hop fremad (angiv tid)"
@@ -18527,13 +18506,6 @@ msgid "Skip time for '%s' button"
 msgstr ""
 
 msgid "Skip time for '%s'/'%s' buttons"
-msgstr ""
-
-#, python-format
-msgid "Skip to %s0%% position (Add %s%% on second press)"
-msgstr ""
-
-msgid "Skip to 0% (start) position"
 msgstr ""
 
 msgid "Sleep"
@@ -23269,7 +23241,7 @@ msgstr "Eventyr/Western/Krig"
 msgid "advertisement/shopping"
 msgstr "Reklamer/Indkøb"
 
-msgid "all up/down"
+msgid "All up/down"
 msgstr "alle op/ned"
 
 msgid "alpha then oldest"
@@ -23532,9 +23504,6 @@ msgstr "mislykkedes"
 
 msgid "fashion"
 msgstr "Mode"
-
-msgid "fast"
-msgstr "Hurtig"
 
 msgid "file can not displayed - file not found"
 msgstr "Fil kan ikke vises - fil ikke fundet"
@@ -24114,7 +24083,7 @@ msgstr "traditionel (hurtig), gentune"
 msgid "tree delete"
 msgstr ""
 
-msgid "turbo"
+msgid "Turbo"
 msgstr "Turbo"
 
 msgid "uShare"
@@ -24206,18 +24175,6 @@ msgstr "ja (behold feeds)"
 
 msgid "®"
 msgstr "®"
-
-#, fuzzy
-#~ msgid "Seek back short"
-#~ msgstr "Søg baglæns"
-
-#, fuzzy
-#~ msgid "Seek forward  short"
-#~ msgstr "Søg fremad"
-
-#, fuzzy
-#~ msgid "Seek forward long"
-#~ msgstr "Søg fremad"
 
 #~ msgid "Open DreamPlex"
 #~ msgstr "Vis DreamPlex afspilleren..."
