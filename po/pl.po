@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-27 15:35+0000\n"
-"PO-Revision-Date: 2025-09-12 18:02+0000\n"
+"PO-Revision-Date: 2025-09-19 09:33+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -5385,7 +5385,7 @@ msgid "Customize"
 msgstr "Ustawienia zaawansowane"
 
 msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Dostosuj ustawienia OpenWebIF dla tunera zapasowego"
+msgstr "Dostosuj ustawienia OpenWebIF dla odbiornika zdalnego"
 
 msgid "Customize System Settings"
 msgstr "Ustawienia zaawansowane"
@@ -7199,7 +7199,7 @@ msgid "Enable freesat EPG"
 msgstr "Włącz freesat EPG"
 
 msgid "Enable import timer from fallback tuner"
-msgstr "Włącz import timerów z tunera rezerwowego"
+msgstr "Włącz import timerów z odbiornika zdalnego"
 
 msgid "Enable intro screen"
 msgstr "Włącz ekran intro"
@@ -8189,7 +8189,7 @@ msgid "Fallback remote receiver for DVB-T"
 msgstr "Zdalny odbiornik zastępczy dla DVB-T"
 
 msgid "Fallback tuner setup"
-msgstr "Ustawienia tunera rezerwowego"
+msgstr "Ustawienia odbiornika zdalnego"
 
 msgid "False"
 msgstr "Fałszywe"
@@ -10377,40 +10377,40 @@ msgid "LCN style QuickSelect entry selection"
 msgstr "Wybór wpisu w stylu LCN w trybie QuickSelect"
 
 msgid "LED Brightness"
-msgstr "Jasność LED"
+msgstr "Jasność diody LED"
 
 msgid "LED Color"
-msgstr "Kolor LED"
+msgstr "Kolor diody LED"
 
 msgid "LED Deep Standby"
-msgstr "LED Wyłączenia"
+msgstr "Dioda LED po wyłączeniu dekodera"
 
 msgid "LED Idle Brightness"
-msgstr "Jasność LED w bezczynności"
+msgstr "Jasność diody LED w bezczynności"
 
 msgid "LED Idle Color"
-msgstr "Kolor LED w bezczynności"
+msgstr "Kolor diody LED w stanie bezczynności"
 
 msgid "LED Normal"
-msgstr "LED Normalne"
+msgstr "Dioda LED normalna"
 
 msgid "LED Settings"
 msgstr "Ustawienia LED"
 
 msgid "LED Shutdown Color"
-msgstr "Kolor LED wygaszania"
+msgstr "Kolor diody LED po wyłączeniu dekodera"
 
 msgid "LED Standby"
-msgstr "LED tryb czuwania"
+msgstr "Dioda LED tryb czuwania"
 
 msgid "LED brightness during deep standby."
-msgstr "Jasność LED podczas wyłączenia."
+msgstr "Jasność diody LED po wyłączeniu dekodera."
 
 msgid "LED brightness during normal operations."
-msgstr "LED jasność podczas normalnych operacji."
+msgstr "Jasność diody LED podczas normalnej pracy."
 
 msgid "LED brightness during standby."
-msgstr "Jasność LED w trybie czuwania."
+msgstr "Jasność diody LED w trybie czuwania."
 
 msgid "LIRC remote"
 msgstr "Pilot LIRC"
@@ -12899,7 +12899,7 @@ msgid "OpenViX Packages"
 msgstr "Pakiety OpenViX"
 
 msgid "Operating LED status in deep standby mode"
-msgstr "Stan diody LED po wyłączeniu tunera"
+msgstr "Stan diody LED po wyłączeniu dekodera"
 
 msgid "Operating LED status in standby mode"
 msgstr "Stan diody LED w trybie czuwania"
@@ -13852,19 +13852,19 @@ msgid "Power"
 msgstr "Zasilanie"
 
 msgid "Power LED State in Deep-Standby"
-msgstr "Stan diody LED zasilania po wyłączeniu tunera"
+msgstr "Stan diody LED zasilania po wyłączeniu dekodera"
 
 msgid "Power LED State in Standby"
-msgstr "Stan LED zasilania podczas czuwania"
+msgstr "Stan diody LED zasilania podczas czuwania"
 
 msgid "Power LED can be turned on or off here."
-msgstr "Tutaj można włączyć lub wyłączyć diodę zasilania."
+msgstr "Tutaj można włączyć lub wyłączyć diodę LED zasilania."
 
 msgid "Power LED state during deep-standby."
-msgstr "Stan diody LED zasilania po wyłączeniu tunera."
+msgstr "Stan diody LED zasilania po wyłączeniu dekodera."
 
 msgid "Power LED state during standby."
-msgstr "Stan LED zasilania podczas czuwania."
+msgstr "Stan diody LED zasilania podczas czuwania."
 
 msgid "Power On Display"
 msgstr "Włącz wyświetlacz"
@@ -16805,7 +16805,7 @@ msgid "Select the time zone within the area or region."
 msgstr "Wybierz strefę czasową w obszarze lub regionie."
 
 msgid "Select the timer from the fallback tuner by default"
-msgstr "Gdy włączone, timer ze zdalnego odbiornika jest importowany"
+msgstr "Wybierz domyślnie timer z odbiornika zdalnego"
 
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Wybierz tuner sterujący zmotoryzowaną anteną."
@@ -21233,10 +21233,10 @@ msgid "Turn on HDMI-IN PiP mode"
 msgstr "Włącz HDMI-IN w trybie PiP"
 
 msgid "Turn on the control LED"
-msgstr "Włącz kontrolkę LED"
+msgstr "Włącz diodę kontrolną LED"
 
 msgid "Turn on the power LED"
-msgstr "Włącz kontrolkę zasilania LED"
+msgstr "Włącz diodę LED zasilania"
 
 msgid "Turning step size"
 msgstr "Kąt obrotu pojedynczego kroku"
@@ -21353,7 +21353,7 @@ msgid "Unexpected error accessing WebIF: %s"
 msgstr "Nieoczekiwany błąd podczas dostępu do WebIF: %s"
 
 msgid "Unexpected error while retrieving fallback tuner's timer information"
-msgstr "Nieoczekiwany błąd podczas pobierania informacji o zegarze tunera rezerwowego"
+msgstr "Nieoczekiwany błąd podczas pobierania informacji o timerze odbiornika zadalnego"
 
 msgid "UnhandledKey"
 msgstr "Klawisz nieobsługiwany"
@@ -22511,16 +22511,16 @@ msgid "When enabled the receiver will automatically wake from standby when the T
 msgstr "Po włączeniu tej opcji odbiornik będzie automatycznie wybudzał się z trybu czuwania po włączeniu telewizora."
 
 msgid "When enabled the timer from the fallback tuner is imported"
-msgstr "Gdy włączone, timer ze zdalnego odbiornika jest importowany"
+msgstr "Po włączeniu importowany jest timer z odbiornika zdalnego"
 
 msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Gdy włączone, timer ze zdalnego odbiornika jest importowany"
+msgstr "Po włączeniu timer z odbiornika zdalnego staje się domyślnym timerem"
 
 msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
-msgstr "Gdy włączone, możesz dostosować ustawienia OpenWebIf dla tunera zapasowego"
+msgstr "Po włączeniu możesz dostosować ustawienia OpenWebIf dla odbiornika zdalnego"
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
-msgstr "Gdy włączone, dane AIT będą zawarte w strumieniu http. To pozwala używać HbbTV na odbiorniku 'kliencie'."
+msgstr "Po włączeniu dane AIT będą uwzględniane w strumieniach HTTP. Dzięki temu odbiornik kliencki będzie mógł korzystać z HbbTV."
 
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Jeśli opcja jest włączona, dane EIT zostaną dołączone do strumieni HTTP. Umożliwi to wyświetlanie EPG klientowi."
@@ -22529,10 +22529,10 @@ msgid "When enabled, SDT, BAT data will be included in http streams."
 msgstr "Po włączeniu tej funkcji dane SDT i BAT będą uwzględniane w strumieniach http."
 
 msgid "When enabled, a pop up message will be shown when a movie has finished and the next one will start."
-msgstr "Gdy włączone, po zakończeniu filmu i rozpoczęciu kolejnego pojawi się komunikat."
+msgstr "Po włączeniu tej opcji po zakończeniu jednego filmu i rozpoczęciu kolejnego pojawi się komunikat."
 
 msgid "When enabled, a pop up message will be shown when a recording starts."
-msgstr "Gdy włączone, po rozpoczęciu nagrywania pojawi się komunikat."
+msgstr "Po włączeniu tej opcji, gdy rozpocznie się nagrywanie, pojawi się komunikat."
 
 msgid "When enabled, a recording is allowed to abort picture-in-picture mode, when there are no free tuners."
 msgstr "Po włączeniu, dozwolone jest przerwanie nagrania w trybie PiP, gdy nie ma wolnych tunerów."
@@ -22544,7 +22544,7 @@ msgid "When enabled, a recording is allowed to abort streaming, when there are n
 msgstr "Po włączeniu nagrywanie może zostać przerwane strumieniowanie, gdy nie ma wolnych tunerów."
 
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
-msgstr "Gdy włączone, nagranie może przerwać oglądanie TV, gdy nie ma wolnych tunerów."
+msgstr "Po włączeniu tej opcji nagrywanie może przerywać transmisję telewizyjną, jeśli nie ma wolnych tunerów."
 
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the time shift."
 msgstr "Po włączeniu, zostanie wyświetlone ostrzeżenie, a użytkownik otrzyma możliwość zatrzymania lub kontynuowania timeshiftu."
@@ -22556,28 +22556,28 @@ msgid "When enabled, authentication is required to watch http streams."
 msgstr "Jeśli włączone, będzie wymagana autoryzacja do oglądania strumieni http."
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
-msgstr "Gdy włączone, zawartość proporcji obrazu 4:3 będzie rozciągana aby dopasować do ekranu."
+msgstr "Po włączeniu tej opcji zawartość o proporcjach 4:3 zostanie rozciągnięta, aby dopasować się do ekranu."
 
 msgid "When enabled, continue to the next bouquet when the last channel of the current bouquet is reached while changing channels."
-msgstr "Gdy włączone, przełącz na kolejną listę kanałów po dojściu do ostatniego kanału w aktualnej liście."
+msgstr "Po włączeniu tej opcji nastąpi przejście do następnej listy kanałów po osiągnięciu ostatniego kanału bieżącej listy podczas zmiany kanału."
 
 msgid "When enabled, deleted recordings are moved to the trashcan, instead of being deleted immediately."
-msgstr "Gdy włączone, usunięte nagrania zostaną przeniesione do 'kosza', zamiast natychmiastowego usunięcia."
+msgstr "Po włączeniu tej opcji usunięte nagrania zostaną przeniesione do kosza, zamiast zostać natychmiast usunięte."
 
 msgid "When enabled, external subtitles will be always turned on for playback movie."
-msgstr "Gdy włączone, napisy zewnętrzne będą zawsze włączone do odtwarzania filmu."
+msgstr "Po włączeniu tej opcji zewnętrzne napisy będą zawsze włączone podczas odtwarzania filmu."
 
 msgid "When enabled, graphical DVB subtitles are preferred over teletext subtitles, when both types are available."
-msgstr "Gdy włączone, graficzne napisy DVB będą preferowane przed napisami telegazety, gdy oba typy są dostępne."
+msgstr "Po włączeniu tej opcji preferowane są graficzne napisy DVB zamiast napisów teletekstowych, o ile dostępne są oba typy napisów."
 
 msgid "When enabled, graphical DVB subtitles will be displayed at their original position."
-msgstr "Gdy włączone, graficzne napisy DVB będą wyświetlane w ich oryginalnym położeniu."
+msgstr "Po włączeniu tej opcji graficzne napisy DVB będą wyświetlane w ich oryginalnej pozycji."
 
 msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "Po włączeniu tej opcji możliwe jest wyjście z odtwarzacza filmów za pomocą przycisku wyjścia."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
-msgstr "Gdy włączone, pomiar zużycia energii w celu wykrycia, kiedy rotor zatrzymuje obrót (jeśli jest obsługa w tunerze)."
+msgstr "Po włączeniu dokonuje pomiaru zużycia energii w celu wykrycia momentu zatrzymania się wirnika (jeśli jest to obsługiwane przez tuner)."
 
 msgid "When enabled, network trashcans are probed for cleaning."
 msgstr "Po włączeniu tej opcji, kosze na śmieci w sieci są sprawdzane pod kątem czyszczenia."
@@ -22592,40 +22592,40 @@ msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Po włączeniu sformatuj napisy w celu dopasowania do szerokości ekranu."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
-msgstr "Gdy włączone, wyświetla numery w liście wyboru kanałów."
+msgstr "Po włączeniu wyświetla numery kanałów na ekranie wyboru kanałów."
 
 msgid "When enabled, show status or error messages."
 msgstr "Po włączeniu pokaż komunikaty o stanie lub komunikaty o błędach."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
-msgstr "Gdy włączone, można używać napisów dla niesłyszących."
+msgstr "Po włączeniu tej opcji możliwe będzie korzystanie z napisów dla osób niedosłyszących."
 
 msgid "When enabled, subtitles for the hearing impaired will be preferred over normal subtitles, when both types are available."
-msgstr "Gdy włączone, napisy dla niesłyszących będą preferowane przed normalnymi napisami, jeżeli oba rodzaje są dostępne."
+msgstr "Po włączeniu tej opcji napisy dla osób niedosłyszących będą preferowane w stosunku do napisów normalnych, o ile dostępne są oba typy napisów."
 
 msgid "When enabled, teletext pages will be cached, allowing faster access."
 msgstr "Po włączeniu, strony telegazety będą buforowane, co spowoduje ich szybsze ładowanie."
 
 msgid "When enabled, teletext subtitles will be displayed at their original position."
-msgstr "Gdy włączone, napisy telegazety będą wyświetlane w oryginalnym położeniu."
+msgstr "Po włączeniu tej opcji napisy teletekstowe będą wyświetlane w ich oryginalnej pozycji."
 
 msgid "When enabled, the VCR SCART option will be shown on the main menu."
 msgstr "Po włączeniu opcja VCR SCART zostanie wyświetlona w menu głównym."
 
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
-msgstr "Gdy włączone, długość nagrania będzie widoczna na liście filmów (może to nieznacznie wydłużyć czas ładowania)."
+msgstr "Po włączeniu tej opcji długość każdego nagrania będzie wyświetlana na liście filmów (może to wydłużyć czas ładowania)."
 
 msgid "When enabled, the receiver will automatically use the audio track which you selected before."
-msgstr "Gdy włączone, automatycznie zostanie włączona ścieżka audio ostatnio wybrana na danym kanale."
+msgstr "Po włączeniu tej opcji odbiornik automatycznie użyje wybranej wcześniej ścieżki audio."
 
 msgid "When enabled, the receiver will automatically use the subtitles which you selected before."
-msgstr "Gdy włączone, automatycznie zostaną włączone napisy ostatnio wybrane na danym kanale."
+msgstr "Po włączeniu tej opcji odbiornik automatycznie użyje napisów, które wybrałeś wcześniej."
 
 msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr "Po włączeniu tej opcji odbiornik wybierze ścieżkę AC3 (jeśli jest dostępna)."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
-msgstr "Gdy włączone, zostanie wybrana ścieżka AC3 + (jeśli jest dostępna)."
+msgstr "Po włączeniu tej opcji odbiornik wybierze utwór AC3+ (jeśli jest dostępny)."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Po włączeniu to ustawienie ma większą wagę niż „Preferowany tuner do nagrań”."
@@ -22637,10 +22637,10 @@ msgid "When enabled, time shift starts automatically in background after specifi
 msgstr "Określ czas, po którym ma zostać włączony timeshift."
 
 msgid "When enabled, use DHCP for the IP configuration."
-msgstr "Gdy włączone, zostanie użyty będzie serwer DHCP do konfiguracji IP."
+msgstr "Po włączeniu użyj DHCP do konfiguracji IP."
 
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
-msgstr "Gdy włączone, odbiornik wykryje aktywność na wejściu SCART."
+msgstr "Po włączeniu odbiornik będzie wykrywał aktywność na wejściu VCR SCART."
 
 msgid "When nonzero, a recording will start the nominated period before the starting time indicated in the EPG."
 msgstr "Gdy różne od '0', nagrywanie rozpocznie się wcześniej niż w chwili startu określonym w EPG."
@@ -22778,7 +22778,7 @@ msgid "With this option you can switch off the display in Standby Mode."
 msgstr "Dzięki tej opcji możesz wyłączyć wyświetlacz w trybie czuwania."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
-msgstr "Dzięki tej opcji możesz zmienić kolor diody LED lub dezaktywować diodę LED."
+msgstr "Za pomocą tej opcji można zmienić kolor diody LED lub ją wyłączyć."
 
 msgid "With this setting, you can probably improve the signal quality or eliminate problems that can occur with longer HDMI cables."
 msgstr "Przy tym ustawieniu prawdopodobnie można poprawić jakość sygnału lub wyeliminować problemy, które mogą wystąpić przy dłuższych kablach HDMI."
