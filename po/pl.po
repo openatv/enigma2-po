@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 18:55+0000\n"
-"PO-Revision-Date: 2025-11-02 12:25+0000\n"
+"POT-Creation-Date: 2025-11-06 08:27+0000\n"
+"PO-Revision-Date: 2025-11-06 12:15+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1587,6 +1587,9 @@ msgstr "<Ostatnia lokalizacja timera>"
 
 msgid "<Select a device>"
 msgstr "<Wybierz urządzenie>"
+
+msgid "<no capabilities found>"
+msgstr "<nie znaleziono możliwości>"
 
 msgid "<no log found>"
 msgstr "<nie znaleziono logów>"
@@ -7609,6 +7612,12 @@ msgstr "Wystąpił błąd '%s' podczas pobierania dzienników zatwierdzenia %s!"
 msgid "Error Download Setting"
 msgstr "Ustawienie Pobierania Błędu"
 
+msgid "Error Retry count"
+msgstr "Błąd Liczba ponownych prób"
+
+msgid "Error Retry delay"
+msgstr "Błąd Opóźnienie ponownej próby"
+
 msgid "Error code"
 msgstr "Kod błędu"
 
@@ -9657,6 +9666,9 @@ msgstr "Ignoruj przestrzeń nazw podsieci DVB-S"
 
 msgid "Ignore DVB-T namespace sub network"
 msgstr "Ignoruj przestrzeń nazw podsieci DVB-T"
+
+msgid "Ignore Standby"
+msgstr "Ignoruj tryb czuwania"
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Ignoruj nieoczekiwane budzenie i pozostań w trybie czuwania"
@@ -12050,6 +12062,9 @@ msgstr "Nigdy nie odszyfrowuj zawartości podczas nagrywania. To zastępuje indy
 msgid "Never decrypt while recording"
 msgstr "Nigdy nie deszyfruj podczas nagrywania"
 
+msgid "Never in Standby"
+msgstr "Nigdy w trybie czuwania"
+
 msgid "New"
 msgstr "Nowy"
 
@@ -12601,12 +12616,18 @@ msgstr "OSCam webif wyłączony"
 msgid "OSCamInfo Actions"
 msgstr "Działania OSCam Info"
 
+msgid "OSCamInfo Capability Actions"
+msgstr "Akcje możliwości OSCamInfo"
+
 msgid "OSCamInfo Log Actions"
 msgstr "Akcje logów OSCam Info"
 
 #, python-format
 msgid "OSCamInfo: %s Entitlements for '%s'"
 msgstr "OSCam Info: %s uprawnienia dla '%s'"
+
+msgid "OSCamInfo: Capabilities"
+msgstr "OSCamInfo: Możliwości"
 
 #, python-format
 msgid "OSCamInfo: Entitlements for '%s'"
@@ -12749,6 +12770,9 @@ msgstr "Otwórz listę kanałów"
 
 msgid "Open Box Portal"
 msgstr "Otwórz Box Portal"
+
+msgid "Open Capability"
+msgstr "Otwórz zdolność"
 
 msgid "Open EPG"
 msgstr "Otwórz EPG"
@@ -16058,6 +16082,9 @@ msgstr "Wybierz 'Tak' aby usunąć wszystkie dostosowania danych skórki przez u
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
 msgstr "Wybierz 'Tak' aby usunąć wszystkie dane interfejsu użytkownika. Wybranie tej opcji spowoduje usunięcie wszystkich danych dotyczących map klawiszy, menu i zastępowania ustawień oraz przywrócenie domyślnych definicji."
 
+msgid "Select 'Yes' to reschedule the task to when the receiver goes in to/out of Standby mode. The state change must happen within the task schedule window or else the task will not be run."
+msgstr "Wybierz 'Tak', aby przeplanować zadanie na moment, gdy odbiornik przejdzie w tryb czuwania lub z niego wyjdzie. Zmiana stanu musi nastąpić w oknie harmonogramu zadań, w przeciwnym razie zadanie nie zostanie uruchomione."
+
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Wybierz 'Tak', aby zresetować konfigurację sieci do wartości domyślnej. To włączy port Ethernet, jeśli istnieje i ustawi odbiornik na używanie DHCP. Wszystkie inne interfejsy sieciowe zostaną usunięte."
 
@@ -16387,6 +16414,9 @@ msgstr "Wybierz sposób działania przycisków numerycznych podczas akcji wyszuk
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Wybierz sposób konfiguracji anteny satelitarnej. tj. stała antena, pojedynczy LNB, przełącznik DiSEqC, pozycjoner itp."
 
+msgid "Select how the schedule is handled with respect to Standby mode."
+msgstr "Wybierz sposób obsługi harmonogramu w odniesieniu do trybu czuwania."
+
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Wybierz sposób aktywacji trybu szybkiego EPG."
 
@@ -16537,6 +16567,9 @@ msgstr "Wybierz akcję dla '%s'"
 msgid "Select the action to perform when the timer ends."
 msgstr "Wybierz działanie, które ma być wykonane po zakończeniu timera."
 
+msgid "Select the amount of time to wait, after a task error, before trying to run the task again."
+msgstr "Wybierz czas oczekiwania po wystąpieniu błędu zadania, zanim spróbujesz ponownie uruchomić zadanie."
+
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
 msgstr "Steruj szybkością animacji wskaźników przycisków na ekranie Pomocy. \"Wyłączone\" wyłącza animację, aby wskaźniki przeskakiwały między przyciskami."
 
@@ -16633,6 +16666,9 @@ msgstr "Wybierz kolejność wyświetlania wcześniej odwiedzonych kanałów."
 msgid "Select the duration of inactivity before the screen saver will be displayed."
 msgstr "Wybierz czas bezczynności, po którym zostanie wyświetlony wygaszacz ekranu."
 
+msgid "Select the end time before which this timer can be activated.  After this time the timer won't be activated even if other conditions are met."
+msgstr "Wybierz godzinę zakończenia, przed którą ten timer może zostać aktywowany.  Po tym czasie timer nie zostanie aktywowany, nawet jeśli zostaną spełnione inne warunki."
+
 #, python-format
 msgid "Select the file sort order for the %s column:"
 msgstr "Wybierz kolejność sortowania plików dla kolumny %s:"
@@ -16728,6 +16764,9 @@ msgstr "Wybierz następną pozycję na liście lub przesuń kursor w prawo"
 msgid "Select the next item in the list"
 msgstr "Wybierz następną pozycję na liście"
 
+msgid "Select the number of times to retry a task if an error occurs when running the task."
+msgstr "Wybierz liczbę ponownych prób wykonania zadania, jeśli podczas jego wykonywania wystąpi błąd."
+
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr "Wybierz preferowane informacje o kanałach, które będą wyświetlane na ekranie wyboru kanałów, oprócz numeru kanału."
 
@@ -16802,6 +16841,9 @@ msgstr "Wybierz lokalizację źródłową, z której chcesz pobrać pliki aktual
 
 msgid "Select the source of the default DNS settings."
 msgstr "Wybierz źródło domyślnych ustawień DNS."
+
+msgid "Select the start time after which this timer can be activated.  Before this time the timer won't be activated even if other conditions are met."
+msgstr "Wybierz godzinę rozpoczęcia, po której timer może zostać aktywowany.  Przed upływem tej godziny timer nie zostanie aktywowany, nawet jeśli zostaną spełnione inne warunki."
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Wybierz kolumnę początkową/inicjacyjną, która ma być aktywowana przy uruchamianiu File Commandera."
@@ -17690,6 +17732,9 @@ msgstr "Pokaż CCcam Info"
 
 msgid "Show CI messages"
 msgstr "Pokaż wiadomości CI"
+
+msgid "Show Capabilities"
+msgstr "Pokaż możliwości"
 
 msgid "Show Default Backup Files"
 msgstr "Domyślne pliki kopii zapasowej"
@@ -19015,6 +19060,9 @@ msgstr "Czuwanie"
 msgid "Standby / Restart"
 msgstr "Czuwanie / Restart"
 
+msgid "Standby execution"
+msgstr "Wykonywanie w trybie czuwania"
+
 msgid "Standby without TV shut down"
 msgstr "Tryb czuwania bez wyłączania TV"
 
@@ -19065,6 +19113,9 @@ msgstr "Uruchom lub zatrzymaj usługę"
 
 msgid "Start recording current event"
 msgstr "Rozpocznij nagrywanie aktualnego wydarzenia"
+
+msgid "Start retry"
+msgstr "Rozpocznij ponowną próbę"
 
 msgid "Start teletext"
 msgstr "Uruchom telegazete"
@@ -20844,6 +20895,9 @@ msgstr "Edycja timera"
 msgid "Timer editor"
 msgstr "Edytor timera"
 
+msgid "Timer end window"
+msgstr "Okno końcowe timera"
+
 msgid "Timer entry"
 msgstr "Wpis timera"
 
@@ -20867,6 +20921,9 @@ msgstr "Lokalizacja nagrań z timera"
 
 msgid "Timer selection"
 msgstr "Wybór timera"
+
+msgid "Timer start window"
+msgstr "Okno startowe timera"
 
 msgid "Timer type"
 msgstr "Typ timera"

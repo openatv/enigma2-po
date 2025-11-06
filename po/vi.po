@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 18:55+0000\n"
+"POT-Creation-Date: 2025-11-06 08:27+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1543,6 +1543,9 @@ msgid "<Last timer location>"
 msgstr "<Vị trí hẹn giờ cuối>"
 
 msgid "<Select a device>"
+msgstr ""
+
+msgid "<no capabilities found>"
 msgstr ""
 
 msgid "<no log found>"
@@ -7610,6 +7613,12 @@ msgstr ""
 msgid "Error Download Setting"
 msgstr "Lỗi cài đặt tải xuống"
 
+msgid "Error Retry count"
+msgstr ""
+
+msgid "Error Retry delay"
+msgstr ""
+
 msgid "Error code"
 msgstr "Mã lỗi"
 
@@ -9691,6 +9700,9 @@ msgstr "Bỏ qua mạng con không gian tên DVB-S"
 
 msgid "Ignore DVB-T namespace sub network"
 msgstr "Bỏ qua mạng con không gian tên DVB-T"
+
+msgid "Ignore Standby"
+msgstr ""
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Bỏ qua bất ngờ thức dậy và ở trong chế độ chờ"
@@ -12138,6 +12150,9 @@ msgstr "Không bao giờ giải mã nội dung trong khi ghi. Điều này ghi �
 msgid "Never decrypt while recording"
 msgstr "Không bao giờ giải mã trong khi ghi"
 
+msgid "Never in Standby"
+msgstr ""
+
 msgid "New"
 msgstr "Mới"
 
@@ -12703,11 +12718,17 @@ msgstr "oscam webif bị vô hiệu hóa"
 msgid "OSCamInfo Actions"
 msgstr ""
 
+msgid "OSCamInfo Capability Actions"
+msgstr ""
+
 msgid "OSCamInfo Log Actions"
 msgstr ""
 
 #, python-format
 msgid "OSCamInfo: %s Entitlements for '%s'"
+msgstr ""
+
+msgid "OSCamInfo: Capabilities"
 msgstr ""
 
 #, python-format
@@ -12854,6 +12875,9 @@ msgstr "Mở danh sách gói kênh ..."
 #, fuzzy
 msgid "Open Box Portal"
 msgstr "Hiển thị Cổng thông tin ..."
+
+msgid "Open Capability"
+msgstr ""
 
 msgid "Open EPG"
 msgstr "hiển thị EPG ..."
@@ -16203,6 +16227,9 @@ msgstr ""
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
 msgstr ""
 
+msgid "Select 'Yes' to reschedule the task to when the receiver goes in to/out of Standby mode. The state change must happen within the task schedule window or else the task will not be run."
+msgstr ""
+
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr ""
 
@@ -16532,6 +16559,9 @@ msgstr ""
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Chọn cách thiết lập đĩa vệ tinh. tức là đĩa cố định, LNB đơn, công tắc DiSEqC, bộ định vị, v.v."
 
+msgid "Select how the schedule is handled with respect to Standby mode."
+msgstr ""
+
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Chọn cách kích hoạt chế độ EPG nhanh:"
 
@@ -16682,6 +16712,9 @@ msgstr ""
 msgid "Select the action to perform when the timer ends."
 msgstr ""
 
+msgid "Select the amount of time to wait, after a task error, before trying to run the task again."
+msgstr ""
+
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
 msgstr ""
 
@@ -16779,6 +16812,9 @@ msgstr ""
 msgid "Select the duration of inactivity before the screen saver will be displayed."
 msgstr "Định cấu hình thời lượng tính bằng phút cho trình bảo vệ màn hình."
 
+msgid "Select the end time before which this timer can be activated.  After this time the timer won't be activated even if other conditions are met."
+msgstr ""
+
 #, python-format
 msgid "Select the file sort order for the %s column:"
 msgstr ""
@@ -16872,6 +16908,9 @@ msgstr ""
 msgid "Select the next item in the list"
 msgstr ""
 
+msgid "Select the number of times to retry a task if an error occurs when running the task."
+msgstr ""
+
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr ""
 
@@ -16947,6 +16986,9 @@ msgid "Select the source location from where to obtain the upgrade files."
 msgstr ""
 
 msgid "Select the source of the default DNS settings."
+msgstr ""
+
+msgid "Select the start time after which this timer can be activated.  Before this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
@@ -17833,6 +17875,9 @@ msgstr ""
 
 msgid "Show CI messages"
 msgstr "Hiển thị tin nhắn CI"
+
+msgid "Show Capabilities"
+msgstr ""
 
 msgid "Show Default Backup Files"
 msgstr "Hiển thị tập tin sao lưu mặc định"
@@ -19161,6 +19206,9 @@ msgstr "Tắt ở chế độ chờ"
 msgid "Standby / Restart"
 msgstr "Chờ / Khởi động lại"
 
+msgid "Standby execution"
+msgstr ""
+
 msgid "Standby without TV shut down"
 msgstr "Chờ mà không tắt TV"
 
@@ -19211,6 +19259,9 @@ msgid "Start or Stop service"
 msgstr ""
 
 msgid "Start recording current event"
+msgstr ""
+
+msgid "Start retry"
 msgstr ""
 
 msgid "Start teletext"
@@ -20980,6 +21031,9 @@ msgstr "Chỉnh sửa hẹn giờ"
 msgid "Timer editor"
 msgstr "Trình chỉnh sửa hẹn giờ"
 
+msgid "Timer end window"
+msgstr ""
+
 msgid "Timer entry"
 msgstr "Nhập giờ"
 
@@ -21001,6 +21055,9 @@ msgstr "Vị trí ghi thời gian"
 
 msgid "Timer selection"
 msgstr "Lựa chọn hẹn giờ"
+
+msgid "Timer start window"
+msgstr ""
 
 msgid "Timer type"
 msgstr "Loại hẹn giờ"
