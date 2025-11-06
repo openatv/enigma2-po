@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 18:55+0000\n"
+"POT-Creation-Date: 2025-11-06 08:27+0000\n"
 "PO-Revision-Date: 2025-08-18 16:27+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -1579,6 +1579,9 @@ msgstr "< Расположение последнего таймера >"
 
 msgid "<Select a device>"
 msgstr "< Выберите устройство >"
+
+msgid "<no capabilities found>"
+msgstr ""
 
 msgid "<no log found>"
 msgstr "< Журнал не найден >"
@@ -7600,6 +7603,12 @@ msgstr "Ошибка '%s' при получении %s логов!"
 msgid "Error Download Setting"
 msgstr "Ошибка загрузки"
 
+msgid "Error Retry count"
+msgstr ""
+
+msgid "Error Retry delay"
+msgstr ""
+
 msgid "Error code"
 msgstr "Ошибочный код"
 
@@ -9648,6 +9657,9 @@ msgstr "Игнорировать пространство имён подсет�
 
 msgid "Ignore DVB-T namespace sub network"
 msgstr "Игнорировать пространство имён подсетей DVB-T"
+
+msgid "Ignore Standby"
+msgstr ""
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Игнорировать неожиданное пробуждение и оставаться в режиме ожидания"
@@ -12040,6 +12052,9 @@ msgstr "Не декодировать передачу во время запи�
 msgid "Never decrypt while recording"
 msgstr "Никогда не дешифровывать во время записи"
 
+msgid "Never in Standby"
+msgstr ""
+
 msgid "New"
 msgstr "Новые"
 
@@ -12591,12 +12606,18 @@ msgstr "Веб-интерфейс OSCAM отключен"
 msgid "OSCamInfo Actions"
 msgstr "Действия OSCamInfo"
 
+msgid "OSCamInfo Capability Actions"
+msgstr ""
+
 msgid "OSCamInfo Log Actions"
 msgstr "Действия лога OSCamInfo"
 
 #, python-format
 msgid "OSCamInfo: %s Entitlements for '%s'"
 msgstr "OSCamInfo: права %s для '%s'"
+
+msgid "OSCamInfo: Capabilities"
+msgstr ""
 
 #, python-format
 msgid "OSCamInfo: Entitlements for '%s'"
@@ -12739,6 +12760,9 @@ msgstr "Открыть список букетов"
 
 msgid "Open Box Portal"
 msgstr "Показать Box Portal"
+
+msgid "Open Capability"
+msgstr ""
 
 msgid "Open EPG"
 msgstr "Открыть ЭПГ"
@@ -16048,6 +16072,9 @@ msgstr "Выберите 'Да', чтобы удалить все пользов
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
 msgstr "Выберите 'Да', чтобы удалить все данные пользовательского интерфейса. При выборе этой опции будут удалены все данные раскладки клавиатуры, меню и настроек, а также восстановлены определения по умолчанию."
 
+msgid "Select 'Yes' to reschedule the task to when the receiver goes in to/out of Standby mode. The state change must happen within the task schedule window or else the task will not be run."
+msgstr ""
+
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Выберите 'Да', чтобы восстановить настройки сети по умолчанию. Это активирует порт Ethernet, если он существует, и настроит ресивер на использование DHCP. Все остальные сетевые интерфейсы будут удалены."
 
@@ -16377,6 +16404,9 @@ msgstr "Выберите, как будут действовать цифров�
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Выберите конфигурацию спутниковой антенны. т.е. фиксированная тарелка, одиночный LNB, переключатель DiSEqC, позиционер и т.д."
 
+msgid "Select how the schedule is handled with respect to Standby mode."
+msgstr ""
+
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Выбор активации режима быстрого ТВ-гида."
 
@@ -16527,6 +16557,9 @@ msgstr "Выберите действие для '%s'"
 msgid "Select the action to perform when the timer ends."
 msgstr "Выберите действие, которое будет выполняться по окончании таймера."
 
+msgid "Select the amount of time to wait, after a task error, before trying to run the task again."
+msgstr ""
+
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
 msgstr "Управляйте скоростью анимации индикаторов кнопок на экране справки. 'Отключено' отключает анимацию, чтобы индикаторы переходили между кнопками."
 
@@ -16623,6 +16656,9 @@ msgstr "Выберите последовательность отображен
 msgid "Select the duration of inactivity before the screen saver will be displayed."
 msgstr "Настройте продолжительность заставки в минутах."
 
+msgid "Select the end time before which this timer can be activated.  After this time the timer won't be activated even if other conditions are met."
+msgstr ""
+
 #, python-format
 msgid "Select the file sort order for the %s column:"
 msgstr "Выберите порядок сортировки файлов для столбца %s:"
@@ -16718,6 +16754,9 @@ msgstr "Выберите следующий элемент в списке ил�
 msgid "Select the next item in the list"
 msgstr "Выбрать следующий элемент в списке"
 
+msgid "Select the number of times to retry a task if an error occurs when running the task."
+msgstr ""
+
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr "Выберите предпочтительную информацию об услуге, которая будет отображаться в дополнение к номеру услуги на всплывающем экране выбора услуги."
 
@@ -16792,6 +16831,9 @@ msgstr "Выберите исходное расположение, откуда
 
 msgid "Select the source of the default DNS settings."
 msgstr "Выберите источник настроек DNS по умолчанию."
+
+msgid "Select the start time after which this timer can be activated.  Before this time the timer won't be activated even if other conditions are met."
+msgstr ""
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Выберите стартовый/начальный столбец, который будет активирован при запуске File Commander."
@@ -17680,6 +17722,9 @@ msgstr "Показать инфо о CCcam"
 
 msgid "Show CI messages"
 msgstr "Показывать сообщения CI"
+
+msgid "Show Capabilities"
+msgstr ""
 
 msgid "Show Default Backup Files"
 msgstr "Файлы для копирования"
@@ -19004,6 +19049,9 @@ msgstr "Режим ожидания"
 msgid "Standby / Restart"
 msgstr "Выключение"
 
+msgid "Standby execution"
+msgstr ""
+
 msgid "Standby without TV shut down"
 msgstr "Режим ожидания без выключения ТВ"
 
@@ -19054,6 +19102,9 @@ msgstr "Запустить или остановить службу"
 
 msgid "Start recording current event"
 msgstr "Начать запись текущего события"
+
+msgid "Start retry"
+msgstr ""
 
 msgid "Start teletext"
 msgstr "Запуск телетекста"
@@ -20833,6 +20884,9 @@ msgstr "Редактирование таймеров"
 msgid "Timer editor"
 msgstr "Редактор таймеров"
 
+msgid "Timer end window"
+msgstr ""
+
 msgid "Timer entry"
 msgstr "Таймер"
 
@@ -20856,6 +20910,9 @@ msgstr "Расположение записей по таймеру"
 
 msgid "Timer selection"
 msgstr "Список таймеров"
+
+msgid "Timer start window"
+msgstr ""
 
 msgid "Timer type"
 msgstr "Тип таймера"
