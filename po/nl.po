@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 18:55+0000\n"
+"POT-Creation-Date: 2025-11-06 08:27+0000\n"
 "PO-Revision-Date: 2025-05-09 04:42+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -1543,6 +1543,9 @@ msgstr "<Laatste timer locatie>"
 
 msgid "<Select a device>"
 msgstr "<Selecteer een apparaat>"
+
+msgid "<no capabilities found>"
+msgstr ""
 
 msgid "<no log found>"
 msgstr "<geen log gevonden"
@@ -7696,6 +7699,12 @@ msgstr "Fout '%s' bij het ophalen van het %s commit log overzicht!"
 msgid "Error Download Setting"
 msgstr "Foute download instelling"
 
+msgid "Error Retry count"
+msgstr ""
+
+msgid "Error Retry delay"
+msgstr ""
+
 msgid "Error code"
 msgstr "Foutcode"
 
@@ -9754,6 +9763,9 @@ msgstr "Negeer DVB-S subnetwerk"
 
 msgid "Ignore DVB-T namespace sub network"
 msgstr "Negeer DVB-T subnetwerk"
+
+msgid "Ignore Standby"
+msgstr ""
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "Negeer onvoorzien ontwaken en blijf in stand-by"
@@ -12144,6 +12156,9 @@ msgstr "Nooit inhoud decoderen tijdens het opnemen. Dit overschrijft alle indivi
 msgid "Never decrypt while recording"
 msgstr "Nooit decoderen tijdens opnames"
 
+msgid "Never in Standby"
+msgstr ""
+
 msgid "New"
 msgstr "Nieuw"
 
@@ -12698,12 +12713,18 @@ msgstr "OSCam webif uitgeschakeld"
 msgid "OSCamInfo Actions"
 msgstr "OSCamInfo Acties"
 
+msgid "OSCamInfo Capability Actions"
+msgstr ""
+
 msgid "OSCamInfo Log Actions"
 msgstr "OSCamInfo Log Acties"
 
 #, python-format
 msgid "OSCamInfo: %s Entitlements for '%s'"
 msgstr "OSCamInfo: %s Entitlements voor '%s'"
+
+msgid "OSCamInfo: Capabilities"
+msgstr ""
 
 #, python-format
 msgid "OSCamInfo: Entitlements for '%s'"
@@ -12846,6 +12867,9 @@ msgstr "Open favorietenlijst"
 
 msgid "Open Box Portal"
 msgstr "Toon Box Portal"
+
+msgid "Open Capability"
+msgstr ""
 
 msgid "Open EPG"
 msgstr "Toon EPG..."
@@ -16161,6 +16185,9 @@ msgstr "Kies 'Ja' om alle skin wijzigingen te verwijderen. Hierdoor worden alle 
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
 msgstr "Kies 'Ja' om alle gebruikers interface data te verwijderen. Hierdoor worden alle keymap, menu en door de gebruiker gemaakte wijzigingen hersteld naar default."
 
+msgid "Select 'Yes' to reschedule the task to when the receiver goes in to/out of Standby mode. The state change must happen within the task schedule window or else the task will not be run."
+msgstr ""
+
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Kies 'Ja' om de netwerkconfiguratie te herstellen naar default. Hierdoor zal de Ethernet poort worden geactiveerd (wanneer beschikbaar) en zal de ontvanger DHCP gebruiken. Alle andere netwerk interfaces worden verwijderd."
 
@@ -16494,6 +16521,9 @@ msgstr "Selecteer de functie van de nummer-knoppen tijdens Zoek Acties."
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Stel in hoe uw schotel is opgesteld.. keuzes zijn vaste schotel, DiSEqC switch, motor etc."
 
+msgid "Select how the schedule is handled with respect to Standby mode."
+msgstr ""
+
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Kies hier met welke knop u Quick-EPG wilt starten, of schakel deze functie UIT."
 
@@ -16644,6 +16674,9 @@ msgstr "Actie voor '%s' selecteren"
 msgid "Select the action to perform when the timer ends."
 msgstr "Opgeven wat er moet gebeuren wanneer de Timer is uitgevoerd."
 
+msgid "Select the amount of time to wait, after a task error, before trying to run the task again."
+msgstr ""
+
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
 msgstr "Stel de animatiesnelheid in van de knop pictogrammen in het Help scherm. 'Uitgeschakeld' voorkomt een animatie."
 
@@ -16741,6 +16774,9 @@ msgstr "De volgorde van de bekeken zenders opgeven."
 
 msgid "Select the duration of inactivity before the screen saver will be displayed."
 msgstr "Hier kunt u een screensaver activeren en instellen na hoeveel minuten deze moet starten."
+
+msgid "Select the end time before which this timer can be activated.  After this time the timer won't be activated even if other conditions are met."
+msgstr ""
 
 #, python-format
 msgid "Select the file sort order for the %s column:"
@@ -16841,6 +16877,9 @@ msgstr "Selecteer het volgende item in de lijst of ga met de cursor naar rechts"
 msgid "Select the next item in the list"
 msgstr "Selecteer het volgende item in de lijst"
 
+msgid "Select the number of times to retry a task if an error occurs when running the task."
+msgstr ""
+
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr "Selecteer de zenderinformatie, die als naast het zendernummer op het Pop-up scherm voor de zenderkeuze moeten worden getoond."
 
@@ -16915,6 +16954,9 @@ msgstr "Selecteer de locatie waar u de upgradebestanden wilt ophalen."
 
 msgid "Select the source of the default DNS settings."
 msgstr "De gegevensbron van de default DNS instellingen selecteren."
+
+msgid "Select the start time after which this timer can be activated.  Before this time the timer won't be activated even if other conditions are met."
+msgstr ""
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "Selecteer de start-/beginkolom die moet worden geactiveerd bij het opstarten van File Commander."
@@ -17822,6 +17864,9 @@ msgstr "Toon CCcam Info"
 
 msgid "Show CI messages"
 msgstr "Toon CI berichten"
+
+msgid "Show Capabilities"
+msgstr ""
 
 msgid "Show Default Backup Files"
 msgstr "Standaard back-up bestanden"
@@ -19149,6 +19194,9 @@ msgstr "Stand-by"
 msgid "Standby / Restart"
 msgstr "Afsluiten"
 
+msgid "Standby execution"
+msgstr ""
+
 msgid "Standby without TV shut down"
 msgstr "Stand-by zonder uitschakelen TV"
 
@@ -19199,6 +19247,9 @@ msgstr "Service starten of stoppen"
 
 msgid "Start recording current event"
 msgstr "Het huidige programma nu opnemen"
+
+msgid "Start retry"
+msgstr ""
 
 msgid "Start teletext"
 msgstr "Start Teletekst"
@@ -21023,6 +21074,9 @@ msgstr "Timer bewerken"
 msgid "Timer editor"
 msgstr "Timer bewerken"
 
+msgid "Timer end window"
+msgstr ""
+
 msgid "Timer entry"
 msgstr "Timer invoer"
 
@@ -21046,6 +21100,9 @@ msgstr "Timer opnamelocatie"
 
 msgid "Timer selection"
 msgstr "Timerselectie"
+
+msgid "Timer start window"
+msgstr ""
 
 msgid "Timer type"
 msgstr "Timer soort"

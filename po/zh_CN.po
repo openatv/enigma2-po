@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-23 18:55+0000\n"
+"POT-Creation-Date: 2025-11-06 08:27+0000\n"
 "PO-Revision-Date: 2025-10-25 18:22+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -1542,6 +1542,9 @@ msgstr "<最后一个定时器位置>"
 
 msgid "<Select a device>"
 msgstr "<选择设备>"
+
+msgid "<no capabilities found>"
+msgstr ""
 
 msgid "<no log found>"
 msgstr "<未找到日志>"
@@ -7558,6 +7561,12 @@ msgstr "错误 “%s” 在检索 “%s” 提交日志时遇到！"
 msgid "Error Download Setting"
 msgstr "下载设置错误"
 
+msgid "Error Retry count"
+msgstr ""
+
+msgid "Error Retry delay"
+msgstr ""
+
 msgid "Error code"
 msgstr "错误代码"
 
@@ -9606,6 +9615,9 @@ msgstr "忽略 DVB-S 名称空间子网络"
 
 msgid "Ignore DVB-T namespace sub network"
 msgstr "忽略 DVB-T 名称空间子网络"
+
+msgid "Ignore Standby"
+msgstr ""
 
 msgid "Ignore unexpectedly wake up and stay in standby"
 msgstr "忽略意外唤醒并保持待机状态"
@@ -11996,6 +12008,9 @@ msgstr "录制时绝不解密内容。这将全局覆盖各个定时器设置。
 msgid "Never decrypt while recording"
 msgstr "录制时从不解密"
 
+msgid "Never in Standby"
+msgstr ""
+
 msgid "New"
 msgstr "新近"
 
@@ -12547,12 +12562,18 @@ msgstr "已禁用 OSCam 网页接口"
 msgid "OSCamInfo Actions"
 msgstr "OSCam信息操作"
 
+msgid "OSCamInfo Capability Actions"
+msgstr ""
+
 msgid "OSCamInfo Log Actions"
 msgstr "OSCam信息日志操作"
 
 #, python-format
 msgid "OSCamInfo: %s Entitlements for '%s'"
 msgstr "OSCam 信息：“%s”的 %s 权利"
+
+msgid "OSCamInfo: Capabilities"
+msgstr ""
 
 #, python-format
 msgid "OSCamInfo: Entitlements for '%s'"
@@ -12695,6 +12716,9 @@ msgstr "打开频道分组列表"
 
 msgid "Open Box Portal"
 msgstr "显示机顶盒门户"
+
+msgid "Open Capability"
+msgstr ""
 
 msgid "Open EPG"
 msgstr "打开 EPG"
@@ -15999,6 +16023,9 @@ msgstr "选择“是”以删除皮肤数据的所有用户自定义设置。选
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
 msgstr "选择“是”删除所有用户界面数据。选择此选项将删除所有按键映射、菜单和设置覆盖数据，并恢复默认定义。"
 
+msgid "Select 'Yes' to reschedule the task to when the receiver goes in to/out of Standby mode. The state change must happen within the task schedule window or else the task will not be run."
+msgstr ""
+
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "选择“是”将网络配置重置为默认值。这将启用以太网端口（如果存在），并将接收机设置为使用 DHCP。 所有其他网络接口都将被删除。"
 
@@ -16328,6 +16355,9 @@ msgstr "设置数字键在跳转操作时的行为。"
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "选择卫星天线的设置方式。 即固定天线、单高频头、DiSEqC 开关、极轴等。"
 
+msgid "Select how the schedule is handled with respect to Standby mode."
+msgstr ""
+
 msgid "Select how to activate the Quick EPG mode."
 msgstr "选择如何激活快速 EPG 模式。"
 
@@ -16478,6 +16508,9 @@ msgstr "选择“%s”的操作"
 msgid "Select the action to perform when the timer ends."
 msgstr "选择定时器结束时要执行的操作。"
 
+msgid "Select the amount of time to wait, after a task error, before trying to run the task again."
+msgstr ""
+
 msgid "Select the animation speed of the button indicators in the help screens. 'Disabled' turns off animation so that indicators jump between buttons."
 msgstr "在帮助屏幕中选择按钮指示器的动画速度。 “禁用”关闭动画，以便指示器在按钮之间跳转。"
 
@@ -16574,6 +16607,9 @@ msgstr "选择以前访问过频道的显示顺序。"
 msgid "Select the duration of inactivity before the screen saver will be displayed."
 msgstr "配置屏幕保护程序显示前的持续时间（分钟）。"
 
+msgid "Select the end time before which this timer can be activated.  After this time the timer won't be activated even if other conditions are met."
+msgstr ""
+
 #, python-format
 msgid "Select the file sort order for the %s column:"
 msgstr "选择第 %s 列的文件排序顺序："
@@ -16669,6 +16705,9 @@ msgstr "选择列表中的下一项或向右移动光标"
 msgid "Select the next item in the list"
 msgstr "选择列表中的下一项"
 
+msgid "Select the number of times to retry a task if an error occurs when running the task."
+msgstr ""
+
 msgid "Select the preferred service information to display, in addition to the service number, for the service selection pop up screen."
 msgstr "选择频道选择弹窗中，除频道号外还需显示的信息内容。"
 
@@ -16743,6 +16782,9 @@ msgstr "选择获取升级文件的源位置。"
 
 msgid "Select the source of the default DNS settings."
 msgstr "选择默认 DNS 设置的来源。"
+
+msgid "Select the start time after which this timer can be activated.  Before this time the timer won't be activated even if other conditions are met."
+msgstr ""
 
 msgid "Select the starting/initial column to be activated on File Commander start up."
 msgstr "选择要在文件指挥官启动时激活的起始/初始列。"
@@ -17631,6 +17673,9 @@ msgstr "显示 CCcam 信息"
 
 msgid "Show CI messages"
 msgstr "显示 CI 消息"
+
+msgid "Show Capabilities"
+msgstr ""
 
 msgid "Show Default Backup Files"
 msgstr "显示默认备份文件"
@@ -18951,6 +18996,9 @@ msgstr "待机"
 msgid "Standby / Restart"
 msgstr "待机 / 重启"
 
+msgid "Standby execution"
+msgstr ""
+
 msgid "Standby without TV shut down"
 msgstr "待机而不关闭电视"
 
@@ -19001,6 +19049,9 @@ msgstr "启动或停止服务"
 
 msgid "Start recording current event"
 msgstr "开始录制当前事件"
+
+msgid "Start retry"
+msgstr ""
 
 msgid "Start teletext"
 msgstr "启动图文电视"
@@ -20779,6 +20830,9 @@ msgstr "编辑定时器"
 msgid "Timer editor"
 msgstr "定时器编辑器"
 
+msgid "Timer end window"
+msgstr ""
+
 msgid "Timer entry"
 msgstr "定时器条目"
 
@@ -20802,6 +20856,9 @@ msgstr "定时器录制位置"
 
 msgid "Timer selection"
 msgstr "定时器选择"
+
+msgid "Timer start window"
+msgstr ""
 
 msgid "Timer type"
 msgstr "定时器类型"
