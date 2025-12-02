@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-27 17:41+0000\n"
-"PO-Revision-Date: 2025-11-28 22:28+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"POT-Creation-Date: 2025-11-28 22:18+0000\n"
+"PO-Revision-Date: 2025-12-02 11:00+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1370,12 +1370,6 @@ msgstr "/s"
 msgid "/sec]"
 msgstr "/Sek]"
 
-msgid "/usr/share/enigma2 directory"
-msgstr "Verzeichnis '/usr/share/enigma2'"
-
-msgid "/var directory"
-msgstr "Verzeichnis '/var'"
-
 #
 msgid "0"
 msgstr "0"
@@ -1436,7 +1430,7 @@ msgstr "16:9"
 
 #
 msgid "16:9 Always"
-msgstr "immer 16:9"
+msgstr "Immer 16:9"
 
 msgid "16:9 Combined"
 msgstr "16:9 Kombiniert"
@@ -3071,17 +3065,11 @@ msgstr "Hintergrund ausgewählt:"
 msgid "Background:"
 msgstr "Hintergrund:"
 
-msgid "Backup"
-msgstr "Sicherung"
-
 msgid "Backup Location"
 msgstr "Speicherort für die Sicherung"
 
 msgid "Backup Log"
 msgstr "Sicherungslog"
-
-msgid "Backup Mode"
-msgstr "Sicherungsmodus"
 
 msgid "Backup Mode: Flash Online"
 msgstr "Sicherungsmodus: Flash Online"
@@ -3592,9 +3580,6 @@ msgstr "Einfacher 'CCcam.cfg'-Line-Editor"
 
 msgid "CCcamInfo Mainmenu"
 msgstr "CCcam-Info – Hauptmenü"
-
-msgid "CF Drive"
-msgstr "CF-Laufwerk"
 
 msgid "CH"
 msgstr "CH"
@@ -6503,6 +6488,7 @@ msgstr "Umfang des GStreamer-Logs."
 msgid "Details"
 msgstr "Details"
 
+#, fuzzy
 msgid "Detective"
 msgstr "Krimi"
 
@@ -6945,13 +6931,6 @@ msgstr "Den Zugriffsmodus '%s' ändern?"
 
 msgid "Do you want the upgrade guide?"
 msgstr "Wird eine Hilfe zum Update benötigt?"
-
-msgid ""
-"Do you want to backup now?\n"
-"After pressing OK, please wait!"
-msgstr ""
-"Die Sicherung jetzt starten?\n"
-"Nach dem Drücken von OK bitte warten!"
 
 msgid "Do you want to backup settings?"
 msgstr "Die Einstellungen sichern?"
@@ -7545,7 +7524,7 @@ msgid "Enable Swap at startup"
 msgstr "Swap beim Hochfahren aktivieren"
 
 msgid "Enable Up/Down buttons for the 'all up/down' functions (at the beginning/end of the column)?"
-msgstr "Die Tasten Hoch/Runter für die Funktion 'Alle Hoch/Runter' aktivieren (am Anfang/Ende der Spalte)."
+msgstr "Die Tasten Hoch/Runter für die Funktion 'Alle Hoch/Runter' am Anfang/Ende der Spalte aktivieren."
 
 msgid "Enable VPS"
 msgstr "VPS aktivieren"
@@ -10715,7 +10694,7 @@ msgid "Invalid"
 msgstr "Ungültig"
 
 msgid "Invalid Help Page"
-msgstr "Hilfeseite ungültig"
+msgstr "Ungültige Hilfeseite"
 
 #
 msgid "Invalid location!"
@@ -15041,7 +15020,7 @@ msgstr ""
 #, python-format
 msgid "Press OK to install and use this locale.  [%s]"
 msgstr ""
-"OK drücken, um die Sprachregion zu installieren und zu verwenden:\n"
+"OK drücken, um diese Sprachregion zu installieren und zu verwenden:\n"
 "[%s]"
 
 msgid "Press OK to open module info"
@@ -15105,7 +15084,7 @@ msgstr ""
 #, python-format
 msgid "Press OK to use this locale.  [%s]"
 msgstr ""
-"OK drücken, um die Sprachregion zu verwenden:\n"
+"OK drücken, um diese Sprachregion zu verwenden:\n"
 "[%s]"
 
 msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that image. If available, YELLOW will either delete or wipe the image. A deleted image can be restored with the BLUE button. A wiped image is completely removed and cannot be restored!"
@@ -20229,15 +20208,6 @@ msgstr "Keine Sicherungen gefunden!"
 msgid "Sorry uShare Config is Missing"
 msgstr "Es fehlt die uShare-Konfiguration!"
 
-msgid ""
-"Sorry your Backup destination does not exist\n"
-"\n"
-"Please choose an other one."
-msgstr ""
-"Dieses Sicherungsziel existiert nicht!\n"
-"\n"
-"Bitte ein anderes Ziel auswählen."
-
 #, python-format
 msgid "Sorry, %s has not been installed!"
 msgstr "%s wurde nicht installiert!"
@@ -22495,9 +22465,8 @@ msgstr "Zwischen verfügbaren TV- und Radiosendern wechseln"
 msgid "Toggle display of image information"
 msgstr "Anzeige der Bildinformationen umschalten"
 
-#, fuzzy
 msgid "Toggle display of the image status overlay"
-msgstr "Die Anzeige des Bildstatus-Overlays umschalten"
+msgstr "Anzeige des Bildstatus umschalten"
 
 msgid "Toggle enable/disable of the currently selected timer"
 msgstr "Ein- bzw. Ausschalten des aktuell ausgewählten Timers"
@@ -22935,10 +22904,6 @@ msgstr "USB 2.0 hinten innen"
 msgid "USB 3.0 (Back, outer)"
 msgstr "USB 3.0 hinten außen"
 
-#
-msgid "USB Stick"
-msgstr "USB-Stick"
-
 #, python-format
 msgid "USB reader %d"
 msgstr "USB-Kartenleser %d"
@@ -23135,7 +23100,7 @@ msgid "Up/Down button mode"
 msgstr "Tasten Hoch/Runter"
 
 msgid "Up/Down buttons also for 'all up/down'."
-msgstr "Tasten Hoch/Runter für 'Alle Hoch/Runter'."
+msgstr "Tasten Hoch/Runter für 'Alle Hoch/Runter'"
 
 #
 msgid "Update"
@@ -23491,7 +23456,6 @@ msgstr "Zeitsprünge für schnellen Vorlauf/Rücklauf ('>>'/'<<') benutzen"
 msgid "Use time shift SeekBar while time shifting"
 msgstr "Timeshift-Suchleiste bei Timeshift verwenden *"
 
-#, fuzzy
 msgid "Use viewer for unknown files"
 msgstr "Unbekannte Dateien bearbeiten"
 
@@ -24940,9 +24904,7 @@ msgstr "Der Receiver hat keine Internetverbindung!"
 
 #, python-format
 msgid "Your receiver might be now be unstable. Please consult the manual for further assistance before rebooting your %s %s."
-msgstr ""
-"Der Receiver könnte jetzt unbenutzbar sein!\n"
-"Vor einem Neustart der %s %s bitte zuerst in das Handbuch des Receivers schauen."
+msgstr "Der Receiver ist jetzt möglicherweise instabil. Vor einem Neustart von %s %s bitte zuerst in das Handbuch des Receivers schauen."
 
 #
 msgid "Youth"
@@ -25116,12 +25078,6 @@ msgstr "am"
 
 msgid "aqua"
 msgstr "Aqua"
-
-#, fuzzy
-msgid ""
-"are you sure you want to restore\n"
-"following backup:\n"
-msgstr "Folgende Sicherung wiederherstellen:\n"
 
 #
 msgid "arts/culture (general)"
@@ -25309,9 +25265,6 @@ msgstr "Aktiviert"
 #
 msgid "end cut here"
 msgstr "Schnitt endet hier"
-
-msgid "enigma2 and network"
-msgstr "Enigma2 und Netzwerk"
 
 msgid "entertainment (10-16 year old)"
 msgstr "Unterhaltung (10-16 Jahre)"
@@ -25908,6 +25861,50 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "/usr/share/enigma2 directory"
+#~ msgstr "Verzeichnis '/usr/share/enigma2'"
+
+#~ msgid "/var directory"
+#~ msgstr "Verzeichnis '/var'"
+
+#~ msgid "Backup"
+#~ msgstr "Sicherung"
+
+#~ msgid "Backup Mode"
+#~ msgstr "Sicherungsmodus"
+
+#~ msgid "CF Drive"
+#~ msgstr "CF-Laufwerk"
+
+#~ msgid ""
+#~ "Do you want to backup now?\n"
+#~ "After pressing OK, please wait!"
+#~ msgstr ""
+#~ "Die Sicherung jetzt starten?\n"
+#~ "Nach dem Drücken von OK bitte warten!"
+
+#~ msgid ""
+#~ "Sorry your Backup destination does not exist\n"
+#~ "\n"
+#~ "Please choose an other one."
+#~ msgstr ""
+#~ "Dieses Sicherungsziel existiert nicht!\n"
+#~ "\n"
+#~ "Bitte ein anderes Ziel auswählen."
+
+#
+#~ msgid "USB Stick"
+#~ msgstr "USB-Stick"
+
+#, fuzzy
+#~ msgid ""
+#~ "are you sure you want to restore\n"
+#~ "following backup:\n"
+#~ msgstr "Folgende Sicherung wiederherstellen:\n"
+
+#~ msgid "enigma2 and network"
+#~ msgstr "Enigma2 und Netzwerk"
 
 #
 #~ msgid "Motor Sport"

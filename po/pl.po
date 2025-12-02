@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-27 17:41+0000\n"
-"PO-Revision-Date: 2025-11-28 05:51+0000\n"
+"POT-Creation-Date: 2025-11-28 22:18+0000\n"
+"PO-Revision-Date: 2025-12-02 11:00+0000\n"
 "Last-Translator: pololoko111 <peciek83@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -1392,12 +1392,6 @@ msgstr "/s"
 
 msgid "/sec]"
 msgstr "/sek]"
-
-msgid "/usr/share/enigma2 directory"
-msgstr "katalog /usr/share/enigma2"
-
-msgid "/var directory"
-msgstr "katalog /var"
 
 msgid "0"
 msgstr "0"
@@ -2955,17 +2949,11 @@ msgstr "Wybrane w tle:"
 msgid "Background:"
 msgstr "Tło:"
 
-msgid "Backup"
-msgstr "Kopia zapasowa"
-
 msgid "Backup Location"
 msgstr "Lokalizacja kopii zapasowej"
 
 msgid "Backup Log"
 msgstr "Log kopii zapasowych"
-
-msgid "Backup Mode"
-msgstr "Tryb kopii zapasowej"
 
 msgid "Backup Mode: Flash Online"
 msgstr "Tryb kopii zapasowej: Flash Online"
@@ -3455,9 +3443,6 @@ msgstr "Podstawowy edytor linii CCcam.cfg"
 
 msgid "CCcamInfo Mainmenu"
 msgstr "CCcamInfo Menu główne"
-
-msgid "CF Drive"
-msgstr "Dysk CF"
 
 msgid "CH"
 msgstr "CH"
@@ -4774,7 +4759,7 @@ msgid "Configure the netmask."
 msgstr "Skonfiguruj maskę sieci."
 
 msgid "Configure the network again"
-msgstr "Skonfiguruj sieć ponownie"
+msgstr "Skonfiguruj ponownie sieć"
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr "Skonfiguruj liczbę dni, po upływie których elementy zostaną automatycznie usunięte z kosza."
@@ -4912,7 +4897,7 @@ msgid "Configure your NTP server."
 msgstr "Tutaj możesz zmienić synchronizację serwera NTP."
 
 msgid "Configure your Network"
-msgstr "Skonfiguruj sieć"
+msgstr "Skonfiguruj swoją sieć"
 
 msgid "Configure your internal LAN"
 msgstr "Ustawienia sieci LAN"
@@ -4921,7 +4906,7 @@ msgid "Configure your network settings, and press OK to start the scan"
 msgstr "Skonfiguruj ustawienia sieci i wciśnij 'OK' aby rozpocząć skanowanie"
 
 msgid "Configure your wireless LAN again"
-msgstr "Skonfiguruj ponownie sieć bezprzewodową"
+msgstr "Skonfiguruj ponownie sieć WiFi"
 
 msgid "Configures which video output connector will be used."
 msgstr "Skonfiguruj które wyście wideo ma być użyte."
@@ -6649,13 +6634,6 @@ msgstr "Czy chcesz zmienić tryb dostępu '%s'?"
 
 msgid "Do you want the upgrade guide?"
 msgstr "Czy chcesz ulepszyć przewodnik?"
-
-msgid ""
-"Do you want to backup now?\n"
-"After pressing OK, please wait!"
-msgstr ""
-"Chcesz teraz utworzyć kopię zapasową?\n"
-"Po naciśnięciu 'OK', proszę czekać!"
 
 msgid "Do you want to backup settings?"
 msgstr "Czy chcesz wykonać kopię zapasową ustawień?"
@@ -17862,7 +17840,7 @@ msgid "Setup your local network"
 msgstr "Ustawienia sieci"
 
 msgid "Setup your local network. For Wlan you need to boot with a USB-Wlan stick"
-msgstr "Skonfiguruj swoją sieć lokalną. W przypadku Wlan musisz uruchomić się za pomocą pamięci USB-Wlan"
+msgstr "Skonfiguruj sieć lokalną. W przypadku sieci WiFi konieczne jest ponowne uruchomienie dekodera z USB-WLAN"
 
 msgid "Setup your mounts for network"
 msgstr "Ustawienia montowania w sieci"
@@ -19157,15 +19135,6 @@ msgstr "Nie znaleziono kopii zapasowej!"
 
 msgid "Sorry uShare Config is Missing"
 msgstr "Niestety brakuje Konfig. uShare"
-
-msgid ""
-"Sorry your Backup destination does not exist\n"
-"\n"
-"Please choose an other one."
-msgstr ""
-"Przepraszamy, miejsce docelowe kopii zapasowej nie istnieje\n"
-"\n"
-"Wybierz inne."
 
 #, python-format
 msgid "Sorry, %s has not been installed!"
@@ -21709,9 +21678,6 @@ msgstr "USB 2.0 (tył, wewnętrzny)"
 msgid "USB 3.0 (Back, outer)"
 msgstr "USB 3.0 (tył, zewnętrzny)"
 
-msgid "USB Stick"
-msgstr "Pamięć USB"
-
 #, python-format
 msgid "USB reader %d"
 msgstr "Czytnik USB %d"
@@ -23754,13 +23720,6 @@ msgstr "am"
 msgid "aqua"
 msgstr "aqua"
 
-msgid ""
-"are you sure you want to restore\n"
-"following backup:\n"
-msgstr ""
-"jesteś pewien, że chcesz przywrócić\n"
-"tą kopie zapasową:\n"
-
 msgid "arts/culture (general)"
 msgstr "kultura/sztuka (ogólna)"
 
@@ -23918,9 +23877,6 @@ msgstr "włączony"
 
 msgid "end cut here"
 msgstr "koniec cięcia tutaj"
-
-msgid "enigma2 and network"
-msgstr "enigma2 i sieć"
 
 msgid "entertainment (10-16 year old)"
 msgstr "Rozrywka (10-16 lat)"
@@ -24452,6 +24408,50 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "/usr/share/enigma2 directory"
+#~ msgstr "katalog /usr/share/enigma2"
+
+#~ msgid "/var directory"
+#~ msgstr "katalog /var"
+
+#~ msgid "Backup"
+#~ msgstr "Kopia zapasowa"
+
+#~ msgid "Backup Mode"
+#~ msgstr "Tryb kopii zapasowej"
+
+#~ msgid "CF Drive"
+#~ msgstr "Dysk CF"
+
+#~ msgid ""
+#~ "Do you want to backup now?\n"
+#~ "After pressing OK, please wait!"
+#~ msgstr ""
+#~ "Chcesz teraz utworzyć kopię zapasową?\n"
+#~ "Po naciśnięciu 'OK', proszę czekać!"
+
+#~ msgid ""
+#~ "Sorry your Backup destination does not exist\n"
+#~ "\n"
+#~ "Please choose an other one."
+#~ msgstr ""
+#~ "Przepraszamy, miejsce docelowe kopii zapasowej nie istnieje\n"
+#~ "\n"
+#~ "Wybierz inne."
+
+#~ msgid "USB Stick"
+#~ msgstr "Pamięć USB"
+
+#~ msgid ""
+#~ "are you sure you want to restore\n"
+#~ "following backup:\n"
+#~ msgstr ""
+#~ "jesteś pewien, że chcesz przywrócić\n"
+#~ "tą kopie zapasową:\n"
+
+#~ msgid "enigma2 and network"
+#~ msgstr "enigma2 i sieć"
 
 #~ msgid "Motor Sport"
 #~ msgstr "Sporty motorowe"
