@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 15:40+0000\n"
+"POT-Creation-Date: 2025-12-06 11:36+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -799,10 +799,6 @@ msgstr[0] "%d tund"
 msgstr[1] "%d tundi"
 
 #, python-format
-msgid "%d Hours"
-msgstr "%d tundi"
-
-#, python-format
 msgid "%d MB"
 msgstr "%d MB"
 
@@ -842,10 +838,6 @@ msgid "%d Minute"
 msgid_plural "%d Minutes"
 msgstr[0] "%d Minut"
 msgstr[1] "%d Minutit"
-
-#, python-format
-msgid "%d Minutes"
-msgstr "%d minutit"
 
 #, python-format
 msgid "%d Month"
@@ -1824,6 +1816,9 @@ msgstr "Jõusta MAC-aadressi seadistused"
 
 msgid "Activate Picture in Picture"
 msgstr "Ava PiP"
+
+msgid "Activate UP/DOWN buttons for the 'all up/down' functions at the beginning/end of the column."
+msgstr "Anna Üles/Alla nuppudele 'Kõik üles/alla' toiming. (tulba alguses/lõpus)"
 
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
@@ -3121,6 +3116,9 @@ msgstr ""
 
 msgid "Bitrate"
 msgstr "Bitikiirus"
+
+msgid "Bitrate of the video encoder. Larger values improves quality and increases file size."
+msgstr "Videokooderi bitikiirus. Suurema väärtusega tuleb parema kvaliteediga suurem fail."
 
 msgid "Black"
 msgstr "Must"
@@ -4635,11 +4633,20 @@ msgstr "Määra selle LNB DiSEqC režiim."
 msgid "Configure the IP address."
 msgstr "Määra IP aadress."
 
+msgid "Configure the IP of the fallback remote receiver."
+msgstr "Kaugvastuvõtja IP"
+
 msgid ""
 "Configure the Internet connection by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
+
+msgid "Configure the Port of the fallback remote receiver."
+msgstr "Kaugvastuvõtja Port"
+
+msgid "Configure the URL of the fallback remote receiver."
+msgstr "Kaugvastuvõtja URL"
 
 msgid "Configure the alignment of events."
 msgstr "Määra saate nime asukoht."
@@ -4803,9 +4810,6 @@ msgstr "Määra saatekava keele esimene eelistus."
 msgid "Configure the refresh rate of the screen."
 msgstr "Määra ekraani värskendussagedus."
 
-msgid "Configure the teletext screen resolution. Note: Full-HD teletext is not supported by all skins."
-msgstr "Kohanda teleteksti ekraanilahutust. (Kõik kujundused ei toeta FHD teleteksti.)"
-
 msgid "Configure the second audio language."
 msgstr "Määra heli keele teine eelistus."
 
@@ -4841,6 +4845,9 @@ msgstr "Määra y-koordinaadi algus teleteksti kuvaalas."
 
 msgid "Configure the subtitle delay when timing information is not available."
 msgstr "Määra subtiitrite ajastuse puudumisel viiteaeg."
+
+msgid "Configure the teletext screen resolution. Note: Full-HD teletext is not supported by all skins."
+msgstr "Kohanda teleteksti ekraanilahutust. (Kõik kujundused ei toeta FHD teleteksti.)"
 
 msgid "Configure the third audio language."
 msgstr "Määra heli keele kolmas eelistus."
@@ -5542,9 +5549,6 @@ msgstr ""
 msgid "DNS mode"
 msgstr ""
 
-msgid "Set the hostname or IP address."
-msgstr ""
-
 msgid "DNS suffix"
 msgstr ""
 
@@ -5913,6 +5917,9 @@ msgstr ""
 msgid "Default volume offset"
 msgstr ""
 
+msgid "Default wake-up is 5 minutes before deep standby. Adjust if the wake-up is too early or late, e.g., for network drives."
+msgstr "Vaikeväärtuseks on äratada puhkeseisundist 5 minutit varem. Võimalik, et seda tuleb muuta. (Nt. tegelik äratamise aeg on vale või liiga hiline, oodatakse võrgukettaid jne.)"
+
 #, python-format
 msgid "Default: '%s'."
 msgstr ""
@@ -6253,9 +6260,6 @@ msgstr ""
 msgid "Deselected packages usually occur because those packaged are incompatible with existing packages. While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr ""
 
-msgid "Destination of fallback remote receiver."
-msgstr "Kaugvastuvõtja sihtkoht"
-
 msgid "Destination of fallback remote receiver for ATSC"
 msgstr "Kaugvastuvõtja sihtkoht"
 
@@ -6263,6 +6267,9 @@ msgid "Destination of fallback remote receiver for DVB-C"
 msgstr "Kaugvastuvõtja sihtkoht"
 
 msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Kaugvastuvõtja sihtkoht"
+
+msgid "Destination of fallback remote receiver."
 msgstr "Kaugvastuvõtja sihtkoht"
 
 msgid "Detail of GStreamer log."
@@ -6464,6 +6471,9 @@ msgstr "PIP lülitati välja.\n"
 
 msgid "Disabled or WPA/WPA2"
 msgstr ""
+
+msgid "Disables timeshift during recording (advisable for USB sticks)."
+msgstr "Peatab ajanihke salvestamise ajaks. (Soovitatav, kui kasutatakse usb pulka)."
 
 msgid "Disabling Chkroot failed!"
 msgstr ""
@@ -7203,6 +7213,9 @@ msgstr "Muuda lemmikuid"
 msgid "Enable Focus Animation"
 msgstr "Luba fookuse animatsioonid"
 
+msgid "Enable FreeSat EPG"
+msgstr "FreeSat EPG lubatud"
+
 msgid "Enable GStreamer debug log *"
 msgstr ""
 
@@ -7251,9 +7264,6 @@ msgstr "Luba Quad PiP"
 #
 msgid "Enable Swap at startup"
 msgstr "Alglaadimisel saale lubatud"
-
-msgid "Activate UP/DOWN buttons for the 'all up/down' functions at the beginning/end of the column."
-msgstr "Anna Üles/Alla nuppudele 'Kõik üles/alla' toiming. (tulba alguses/lõpus)"
 
 msgid "Enable VPS"
 msgstr ""
@@ -7335,9 +7345,6 @@ msgstr "DD / DTS > stereo sees"
 
 msgid "Enable fallback remote receiver"
 msgstr "Kaugvastuvõtja kasutamine asendustuunerina"
-
-msgid "Enable FreeSat EPG"
-msgstr "FreeSat EPG lubatud"
 
 msgid "Enable import timer from fallback tuner"
 msgstr ""
@@ -7433,6 +7440,9 @@ msgstr ""
 msgid "Enable to add some extra spacing to the Information screens. This can improve readability."
 msgstr ""
 
+msgid "Enable to always unscramble received HTTP streams. Uses more resources due to demuxers. Streams with 0x100 in the service type are always unscrambled, regardless of this setting."
+msgstr "Kui lubatud, dekodeeritakse sisenevad http vood alati. See võtab rohkem ressursse, luba ainult vajadusel. Konkreetne voog dekodeeritakse hoolimata seadistustes määratust alati, kui kanalitüübile lisatakse 0x100."
+
 msgid "Enable to display all True/False, Yes/No, On/Off and Enable/Disable setup options as a graphical switch."
 msgstr "Kuva valikud 'jah/ei', 'tõene/väär', 'sees/väljas' ja 'luba/keela' graafilise lülitina."
 
@@ -7450,6 +7460,12 @@ msgstr "Kasutusel"
 
 msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
 msgstr "Nii saab vastuvõtja voo dekodeerida (kui ECM andmed on kaasatud ja olemas on kehtiv kaart)."
+
+msgid "Enables sending the same TV commands for deep standby as for regular standby."
+msgstr ""
+
+msgid "Enables timeshift to use alternative audio plugins."
+msgstr ""
 
 msgid "Encrypted: "
 msgstr "Kodeeritud: "
@@ -9719,9 +9735,6 @@ msgstr ""
 msgid "IP address of the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
 
-msgid "Configure the IP of the fallback remote receiver."
-msgstr "Kaugvastuvõtja IP"
-
 msgid "IPK Installer"
 msgstr "IPK paigaldamine"
 
@@ -9853,22 +9866,16 @@ msgstr "Kui lubatud, kaasatakse salvestistesse AIT andmed."
 msgid "If enabled, a log will be kept of CEC protocol traffic. The log files are located with the other log files but named 'Enigma2-hdmicec-[date].log'."
 msgstr ""
 
-msgid "If enabled, the new GStreamer playback engine will be used."
-msgstr ""
-
 msgid "If enabled, a time window is used to detect wake-ups from deep standby triggered by a timer. The default setting is disabled, which uses a special signal from the receiver. However, some devices send an incorrect or no signal, causing wake-up detection to fail."
 msgstr "Kui lubatud, kasutatakse ajaakent tuvastamaks puhkeseisundist äratamist taimeri poolt. Vaikimisi on see keelatud ja kasutatakse signaali vastuvõtjast. Kuid mõned vastuvõtjad saadavad vale signaali või ei saada mingit signaali. Siis äratuse tuvastus nurjub."
+
+msgid "If enabled, the new GStreamer playback engine will be used."
+msgstr ""
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Kui logidele määratud kettaruumi ülempiir on saavutatud, siis vanimad kustutatakse."
 
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
-msgstr ""
-
-msgid "Enables sending the same TV commands for deep standby as for regular standby."
-msgstr ""
-
-msgid "Enables timeshift to use alternative audio plugins."
 msgstr ""
 
 msgid "If the deep standby workaround is enabled wait until the system time is synchronized. Depending on the requirement the device wake up will continuing after a maximum of 2 minutes."
@@ -9966,13 +9973,13 @@ msgstr ""
 msgid "Immediately restart selected devices."
 msgstr ""
 
-msgid "Import channels and/or EPG from the remote receiver URL, even when the receiver is coming out of standby."
-msgstr ""
-
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted."
 msgstr "Impordi kaugvastuvõtja URL-ist"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or GUI is restarted."
+msgstr ""
+
+msgid "Import channels and/or EPG from the remote receiver URL, even when the receiver is coming out of standby."
 msgstr ""
 
 msgid "Import from remote receiver URL"
@@ -13751,9 +13758,6 @@ msgstr ""
 msgid "Password"
 msgstr "Parool"
 
-msgid "Password (httpuser)"
-msgstr ""
-
 msgid "Password (httpwd)"
 msgstr "Parool (httpwd)"
 
@@ -14375,9 +14379,6 @@ msgstr "Port D"
 
 msgid "Port number for the Stream Relay server used to descramble services that can only be decrypted via Stream Relay."
 msgstr ""
-
-msgid "Configure the Port of the fallback remote receiver."
-msgstr "Kaugvastuvõtja Port"
 
 msgid "Portugal"
 msgstr "Portugal"
@@ -15640,6 +15641,9 @@ msgstr "Nõutav meedia tüüp:"
 msgid "Rereading partition table"
 msgstr "Partitsioonitabeli värskendamine"
 
+msgid "Reschedule the task to run when the receiver enters or exits standby. The state change must occur within the task’s scheduled window, or the task will not run."
+msgstr ""
+
 msgid "Reserved"
 msgstr "Varutud"
 
@@ -16675,9 +16679,6 @@ msgid "Select 'Yes' to remove all user customizations of skin data. Selecting th
 msgstr ""
 
 msgid "Select 'Yes' to remove all user interface data. Selecting this option will remove all key map, menu and setup override data and restore the default definitions."
-msgstr ""
-
-msgid "Reschedule the task to run when the receiver enters or exits standby. The state change must occur within the task’s scheduled window, or the task will not run."
 msgstr ""
 
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
@@ -17889,6 +17890,9 @@ msgstr "Määra püsiaadress"
 msgid "Set fps for external subtitles"
 msgstr "Väliste subtiitrite kaadrisagedus"
 
+msgid "Set how long the second InfoBar stays visible. It also disappears when you press ‘OK’."
+msgstr "Määra teise inforiba kestus. Riba kaob ka vajutades 'OK'."
+
 # HelpMenu
 msgid "Set interface as the default Interface"
 msgstr "Määra vaikimisi võrguliideseks"
@@ -17949,6 +17953,9 @@ msgstr "Määra järjestusviis."
 msgid "Set the delay time between repeated loops, this is used by software renderer in some skins."
 msgstr "Määra kordustele viiteaeg. Mõni kujundus kasutab selleks tarkvaralist renderdamist."
 
+msgid "Set the hostname or IP address."
+msgstr ""
+
 msgid "Set the jump-size of the SeekBar."
 msgstr "Määra otsiriba hüppe pikkus."
 
@@ -17991,9 +17998,6 @@ msgstr ""
 
 msgid "Set the time to hide the InfoBar."
 msgstr "Määra aeg inforiba peitmiseks."
-
-msgid "Set how long the second InfoBar stays visible. It also disappears when you press ‘OK’."
-msgstr "Määra teise inforiba kestus. Riba kaob ka vajutades 'OK'."
 
 msgid "Set the time to wait for execute the default action in shutdown, standby or restart messages, e.g. used in RecordTimer, Scheduler, SleepTimer etc."
 msgstr ""
@@ -18369,6 +18373,9 @@ msgstr ""
 
 msgid "Show Driver packages"
 msgstr ""
+
+msgid "Show EIT Now/Next event data in the InfoBar"
+msgstr "Kuva EIT nüüd/järgmine inforibal"
 
 msgid "Show EPG"
 msgstr "Kuva EPG"
@@ -18942,9 +18949,6 @@ msgstr ""
 
 msgid "Show the CCcam Info Screen"
 msgstr ""
-
-msgid "Show EIT Now/Next event data in the InfoBar"
-msgstr "Kuva EIT nüüd/järgmine inforibal"
 
 msgid "Show the Logs Settings screen"
 msgstr ""
@@ -19957,9 +19961,6 @@ msgstr "Peatatud"
 msgid "Stopping Softcam"
 msgstr "EMU peatamine"
 
-msgid "Disables timeshift during recording (advisable for USB sticks)."
-msgstr "Peatab ajanihke salvestamise ajaks. (Soovitatav, kui kasutatakse usb pulka)."
-
 msgid "Storage / Disk Information"
 msgstr ""
 
@@ -20825,9 +20826,6 @@ msgstr ""
 msgid "The backup succeeded. We will now continue to explain the upgrade process."
 msgstr ""
 
-msgid "Bitrate of the video encoder. Larger values improves quality and increases file size."
-msgstr "Videokooderi bitikiirus. Suurema väärtusega tuleb parema kvaliteediga suurem fail."
-
 msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
@@ -20842,9 +20840,6 @@ msgid ""
 msgstr ""
 "Seda valikut ei saa muuta.\n"
 "Kasuta lisafailide ja välja jäetud failide menüüsi."
-
-msgid "Default wake-up is 5 minutes before deep standby. Adjust if the wake-up is too early or late, e.g., for network drives."
-msgstr "Vaikeväärtuseks on äratada puhkeseisundist 5 minutit varem. Võimalik, et seda tuleb muuta. (Nt. tegelik äratamise aeg on vale või liiga hiline, oodatakse võrgukettaid jne.)"
 
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Vaikeväärtused on: äratusaeg '- 5 minutit' ja taimeri algusaeg '+ 5 minutit'. See säte muudab ajaakent enne äratusaega. Nii tuvastatakse taimeriga äratamine ka väga vara käivituvatel vastuvõtjatel."
@@ -21138,27 +21133,6 @@ msgstr "See valik võimaldab HDR10 režiimide jõuga kasutamise UHD jaoks"
 msgid "This option allows you can force the HLG Modes for UHD"
 msgstr "See valik võimaldab HLG režiimide jõuga kasutamise UHD jaoks"
 
-msgid "This option allows you to choose how to display remaining time, or elapsed time, or both."
-msgstr "See valik määrab, kuidas näidatakse kulunud või järelejäänud aega."
-
-msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
-msgstr "See valik määrab, kuidas näidatakse kulunud ja allesolevat aega telesaadete esitusel."
-
-msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
-msgstr "See valik määrab, kuidas näidatakse kulunud ja allesolevat aega meediafailide esitusel."
-
-msgid "This option allows you to choose if the display shows the time or nothing in Standby."
-msgstr "See valik määrab, kas ooteseisundis kuvada kellaaega või mitte midagi"
-
-msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
-msgstr ""
-
-msgid "This option allows you to choose the background color of transparent picons."
-msgstr "See valik määrab läbipaistvate pikonite taustavärvi."
-
-msgid "This option allows you to choose the option for Subservice indicator or selection."
-msgstr ""
-
 # VideoEnhancement
 msgid "This option allows you enable smoothing filter to control the dithering process."
 msgstr "See valik võtab kasutusse pehmendusfiltri värvitoonide segamisel."
@@ -21166,9 +21140,6 @@ msgstr "See valik võtab kasutusse pehmendusfiltri värvitoonide segamisel."
 # VideoEnhancement
 msgid "This option allows you enable the vertical scaler dejagging."
 msgstr "See valik võtab kasutusse skaleerija püstloodse sakiservade eemaldamise."
-
-msgid "This option allows you to set the layout view (Text or Graphics)."
-msgstr "See valik määrab saatekava kujunduse (tekst või graafiline)."
 
 # Box Display
 msgid "This option allows you to Power Off the display."
@@ -21220,8 +21191,29 @@ msgstr "See valik määrab, kuidas kuvatakse täiskaadrilaotusega 24Hz SD sisu t
 msgid "This option allows you to choose how to display elapsed time, as + or -."
 msgstr "See valik määrab, kas kulunud aega kuvatakse '+' või '-'"
 
+msgid "This option allows you to choose how to display remaining time, or elapsed time, or both."
+msgstr "See valik määrab, kuidas näidatakse kulunud või järelejäänud aega."
+
 msgid "This option allows you to choose how to display standard definition video on your TV."
 msgstr "See valik määrab, kuidas kuvada SD sisu teleekraanil."
+
+msgid "This option allows you to choose how to display the remaining/elapsed time for live TV."
+msgstr "See valik määrab, kuidas näidatakse kulunud ja allesolevat aega telesaadete esitusel."
+
+msgid "This option allows you to choose how to display the remaining/elapsed time for media playback."
+msgstr "See valik määrab, kuidas näidatakse kulunud ja allesolevat aega meediafailide esitusel."
+
+msgid "This option allows you to choose if the display shows the time or nothing in Standby."
+msgstr "See valik määrab, kas ooteseisundis kuvada kellaaega või mitte midagi"
+
+msgid "This option allows you to choose if the display shows the time, channel number or nothing during operation."
+msgstr ""
+
+msgid "This option allows you to choose the background color of transparent picons."
+msgstr "See valik määrab läbipaistvate pikonite taustavärvi."
+
+msgid "This option allows you to choose the option for Subservice indicator or selection."
+msgstr ""
 
 msgid "This option allows you to choose what the first button press jumps to in channel list screen (pressing '2' jumps to 'A' or '2' first) when 'Quick Actions' preset actions are performed."
 msgstr "See valik määrab, kuhu kursor esimesel nupuvajutusel liigub 'Kiirtegevustes' määratud juhtudel (vajutades '2' liigub kõigepealt 'A' või '2' peale). "
@@ -21236,6 +21228,9 @@ msgstr "Selles valikus saad lubada väljundile 3D ruumheli."
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr ""
+
+msgid "This option allows you to set the layout view (Text or Graphics)."
+msgstr "See valik määrab saatekava kujunduse (tekst või graafiline)."
 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "See valik võimaldab näidata SNR protsentides (kõik vastuvõtjad seda ei toeta)."
@@ -21337,6 +21332,9 @@ msgstr ""
 
 msgid "This setting allows the tuner configuration to be a duplication of another configured tuner."
 msgstr "See säte võimaldab kasutada juba seadistatud teise tuuneri seadistusi."
+
+msgid "This setting can help improve signal quality or prevent issues with longer HDMI cables."
+msgstr "Selle sättega saab tõenäoliselt parandada signaali kvaliteeti või kõrvaldada probleeme, mis võivad tekkida pikemate HDMI-kaablite korral."
 
 msgid "This setting depends on your cable provider and location. If you don't know the correct setting refer to the menu in the official cable receiver, or get it from your cable provider, or seek help via Internet forum."
 msgstr "See säte sõltub kaabel-tv operaatorist ja levitajast. Õigete seadete leidmiseks uuri ametliku vastuvõtja käsiraamatut, võta ühendust oma operaatoriga või otsi abi foorumist digi-tv.ee."
@@ -22115,14 +22113,17 @@ msgstr ""
 msgid "UHD Test"
 msgstr "FullHD test"
 
+msgid "UP/DOWN button mode"
+msgstr "ÜLES/ALLA nuppude vajutus"
+
+msgid "UP/DOWN buttons also for 'all up/down'"
+msgstr "Üles/Alla nupud on ka 'Kõik üles/alla'"
+
 msgid "UP80  (keymap.u80)"
 msgstr "UP80  (keymap.u80)"
 
 msgid "URL"
 msgstr ""
-
-msgid "Configure the URL of the fallback remote receiver."
-msgstr "Kaugvastuvõtja URL"
 
 msgid "USALS"
 msgstr "USALS"
@@ -22323,12 +22324,6 @@ msgstr ""
 
 msgid "Up to 50 Mbps"
 msgstr ""
-
-msgid "UP/DOWN button mode"
-msgstr "ÜLES/ALLA nuppude vajutus"
-
-msgid "UP/DOWN buttons also for 'all up/down'"
-msgstr "Üles/Alla nupud on ka 'Kõik üles/alla'"
 
 msgid "Update"
 msgstr "Uuendus"
@@ -23346,31 +23341,6 @@ msgstr ""
 msgid "When 'Enabled', the timer view will show the free space on the target device. This will wake the device from sleep mode."
 msgstr ""
 
-# /data/setup.xml
-msgid "When enabled, the PiP can be closed using the EXIT button."
-msgstr "Kui lubatud, saab PiP sulgeda EXIT nupuga."
-
-msgid "When enabled, the receiver will automatically be switched off."
-msgstr ""
-
-msgid "When enabled, the receiver will automatically be switched on."
-msgstr ""
-
-msgid "When enabled, the receiver will automatically return to standby when the TV is turned off."
-msgstr ""
-
-msgid "When enabled, the receiver will automatically wake from standby when the TV is turned on."
-msgstr ""
-
-msgid "When enabled, the timer from the fallback tuner is imported."
-msgstr ""
-
-msgid "When enabled, the timer from the fallback tuner is the default timer."
-msgstr ""
-
-msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
-msgstr ""
-
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Kui lubatud, kaasatakse AIT andmed http voogudesse. See võimaldab vastuvõtjal HbbTV kasutamise."
 
@@ -23400,11 +23370,11 @@ msgstr "Kui lubatud, katkestab algav salvestus voogesituse juhul, kui ei leidu v
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
 msgstr "Kui lubatud, võivad salvestused vaba tuuneri puudumisel saate vaatamise katkestada."
 
+msgid "When enabled, a specific Softcam can be assigned to each encrypted service."
+msgstr ""
+
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the time shift."
 msgstr "Kui lubatud, kuvatakse hoiatus ja kasutajal on võimalus ajanihe peatada või jätkata."
-
-msgid "Enable to always unscramble received HTTP streams. Uses more resources due to demuxers. Streams with 0x100 in the service type are always unscrambled, regardless of this setting."
-msgstr "Kui lubatud, dekodeeritakse sisenevad http vood alati. See võtab rohkem ressursse, luba ainult vajadusel. Konkreetne voog dekodeeritakse hoolimata seadistustes määratust alati, kui kanalitüübile lisatakse 0x100."
 
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Kui lubatud, on http voogude vaatamiseks vajalik autentimine."
@@ -23465,11 +23435,24 @@ msgstr "Kui lubatud, puhverdatakse teleteksti lehed, võimaldamaks kiiremat ligi
 msgid "When enabled, teletext subtitles will be displayed at their original position."
 msgstr "Kui lubatud, kuvatakse teleteksti subtiitrid nende algsel asukohal."
 
+# /data/setup.xml
+msgid "When enabled, the PiP can be closed using the EXIT button."
+msgstr "Kui lubatud, saab PiP sulgeda EXIT nupuga."
+
 msgid "When enabled, the VCR SCART option will be shown on the main menu."
 msgstr "Kui lubatud, kuvatakse VCR-SCART valik peamenüüs"
 
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
 msgstr "Kui lubatud, näidatakse filmilistis salvestiste kestust (laadimine võib kesta veidi kauem)."
+
+msgid "When enabled, the receiver will automatically be switched off."
+msgstr ""
+
+msgid "When enabled, the receiver will automatically be switched on."
+msgstr ""
+
+msgid "When enabled, the receiver will automatically return to standby when the TV is turned off."
+msgstr ""
 
 msgid "When enabled, the receiver will automatically use the audio track which you selected before."
 msgstr "Kui lubatud, kasutab vastuvõtja automaatselt varem valitud heliriba."
@@ -23477,11 +23460,20 @@ msgstr "Kui lubatud, kasutab vastuvõtja automaatselt varem valitud heliriba."
 msgid "When enabled, the receiver will automatically use the subtitles which you selected before."
 msgstr "Kui lubatud, kasutab vastuvõtja automaatselt varem valitud subtiitreid."
 
+msgid "When enabled, the receiver will automatically wake from standby when the TV is turned on."
+msgstr ""
+
 msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr "Kui lubatud, kasutab vastuvõtja (võimaluse korral) AC3 heli."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "Kui lubatud, kasutab vastuvõtja (võimaluse korral) AC3+ heli."
+
+msgid "When enabled, the timer from the fallback tuner is imported."
+msgstr ""
+
+msgid "When enabled, the timer from the fallback tuner is the default timer."
+msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Määrates 'jah' on see seadistus eelistatum kui 'Eelistatud tuuner salvestamiseks'."
@@ -23494,6 +23486,9 @@ msgstr "Kui lubatud, algab ajanihe taustal automaatselt pärast määratud aega.
 
 msgid "When enabled, use DHCP for the IP configuration."
 msgstr "Kui lubatud, määratakse IP aadress DHCP abil."
+
+msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
+msgstr ""
 
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
 msgstr "Kui lubatud, tuvastab vastuvõtja VCR SCART sisendi kasutuse."
@@ -23510,17 +23505,11 @@ msgstr ""
 msgid "When nonzero, a zap timer will stop the nominated period after the ending time indicated in the EPG."
 msgstr ""
 
-msgid "When the receiver wakes from standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr ""
-
 msgid "When set each folder will show the previous state used, when off the default values will be shown."
 msgstr "Määrates 'jah', peetakse iga kausta seadistused meeles, määrates 'ei', kasutatakse vaikeväärtusi."
 
 msgid "When set the PIG will return to live after a movie has stopped playing."
 msgstr "Määrates 'jah', aktiveerub PIG taasesituse lõppedes."
-
-msgid "When enabled, a specific Softcam can be assigned to each encrypted service."
-msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
 msgstr "Määra, kas 16:9 sisuga pilti tuleb skaleerida/venitada."
@@ -23532,6 +23521,9 @@ msgid "When the input cursor reaches this point (percentage of the width, from e
 msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby it will send a command to the TV to bring it out of standby."
+msgstr ""
+
+msgid "When the receiver wakes from standby, it will switch the TV to the HDMI input connected to the receiver."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -23632,9 +23624,6 @@ msgstr ""
 
 msgid "With this option you can switch the LED color or deactivate the LED."
 msgstr ""
-
-msgid "This setting can help improve signal quality or prevent issues with longer HDMI cables."
-msgstr "Selle sättega saab tõenäoliselt parandada signaali kvaliteeti või kõrvaldada probleeme, mis võivad tekkida pikemate HDMI-kaablite korral."
 
 msgid "Without pop up"
 msgstr "Hüpikaknata"
@@ -24822,6 +24811,14 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#, python-format
+#~ msgid "%d Hours"
+#~ msgstr "%d tundi"
+
+#, python-format
+#~ msgid "%d Minutes"
+#~ msgstr "%d minutit"
 
 #, fuzzy
 #~ msgid "arts/culture (general)"
