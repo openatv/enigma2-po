@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 15:40+0000\n"
-"PO-Revision-Date: 2025-12-04 11:00+0000\n"
-"Last-Translator: Masowick <Demian@gmx.co.uk>\n"
+"PO-Revision-Date: 2025-12-06 10:48+0000\n"
+"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2404,7 +2404,7 @@ msgid "Alphanumeric"
 msgstr "Alphanumerisch"
 
 msgid "Also import at reboot/restart"
-msgstr "Auch bei Neustart von Enigma2 importieren"
+msgstr "Auch beim Neustart importieren"
 
 msgid "Also import from the extension menu"
 msgstr "Auch aus dem Erweiterungsmenü importieren"
@@ -2479,7 +2479,7 @@ msgid "Amount %d / Success %d / Failed %d"
 msgstr "Anzahl %d / %d Erfolgreich / %d Fehlgeschlagen"
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
-msgstr "Es wird versucht, den aktuellen TV-Betriebszustand zu erfassen. Ist dies aufgrund falscher oder fehlender Statusmeldungen nicht möglich, kann der Receiver unerwartet reagieren. Andererseits wird versucht, auf verschiedene Betriebszustände besser zu reagieren."
+msgstr "Es wird versucht, den aktuellen TV-Status zu erfassen. Sollten Statusmeldungen falsch sein oder fehlen, kann der Receiver unerwartet reagieren. Andererseits wird versucht, auf verschiedene Betriebszustände besser zu reagieren."
 
 msgid "An unknown error occurred!"
 msgstr "Ein unbekannter Fehler ist aufgetreten!"
@@ -4757,14 +4757,7 @@ msgid "Configure front panel LEDs"
 msgstr "LEDs der Vorderseite einstellen"
 
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info."
-msgstr ""
-"Zusammensetzung des Dateinamens:\n"
-"Standard: Datum Zeit – Sender – Titel\n"
-"Extrem kurz: Titel\n"
-"Sehr kurz: Titel – Datum Zeit\n"
-"Kurz mit Zeit: Datum Zeit – Titel\n"
-"Kurz: Datum – Titel\n"
-"Lang: Datum Zeit – Sender – Titel – Info"
+msgstr "Zusammensetzung des Dateinamens: Standard: Datum Zeit – Sender – Titel, Extrem kurz: Titel, Sehr kurz: Titel – Datum Zeit, Kurz mit Zeit: Datum Zeit – Titel, Kurz: Datum – Titel, Lang: Datum Zeit – Sender – Titel – Info."
 
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Die Anzeige des Verschlüsselungssymbols in der Senderliste einstellen."
@@ -5678,7 +5671,7 @@ msgid "Customize"
 msgstr "Extras"
 
 msgid "Customize OpenWebIF settings for fallback tuner"
-msgstr "Reservetuner in den OpenWebif-Einstellungen konfigurieren"
+msgstr "Reservetuner OpenWebif-Einstellungen konfigurieren"
 
 msgid "Customize System Settings"
 msgstr "Systemeinstellungen"
@@ -5760,7 +5753,7 @@ msgid "DNS mode"
 msgstr "DNS-Modus"
 
 msgid "Set the hostname or IP address."
-msgstr "Hostname oder IP-Adresse"
+msgstr "Den Hostnamen oder die IP-Adresse einstellen."
 
 msgid "DNS suffix"
 msgstr "DNS-Suffix"
@@ -6477,7 +6470,7 @@ msgstr ""
 "Dies ist meist harmlos, aber es kann sein, dass die %s %s Probleme bekommt."
 
 msgid "Destination of fallback remote receiver."
-msgstr "Reservereceiver auswählen"
+msgstr "Den Reservereceiver auswählen."
 
 msgid "Destination of fallback remote receiver for ATSC"
 msgstr "Bestimmungsort vom Reservereceiver für ATSC"
@@ -10049,7 +10042,7 @@ msgid "IP address of the Stream Relay server used to descramble services that ca
 msgstr "IP-Adresse des Stream Relay-Servers, um Sender zu entschlüsseln, die nur über Stream Relay entschlüsselt werden können."
 
 msgid "Configure the IP of the fallback remote receiver."
-msgstr "IP des Reservereceivers"
+msgstr "Die IP des Reservereceivers einstellen."
 
 msgid "IPK Installer"
 msgstr "IPK-Installer"
@@ -10184,8 +10177,8 @@ msgstr "Wenn aktiviert, wird die neue GStreamer-Wiedergabe verwendet."
 
 msgid "If enabled, a time window is used to detect wake-ups from deep standby triggered by a timer. The default setting is disabled, which uses a special signal from the receiver. However, some devices send an incorrect or no signal, causing wake-up detection to fail."
 msgstr ""
-"Bei 'Ja' kann ein Zeitfenster eingestellt werden, um ein Aufwachen aus dem Deep-Standby durch einen Timer zu erkennen.\n"
-"Bei 'Nein' wird ein spezielles Signal von dem Receiver verwendet. Manche Geräte setzen aber ein falsches oder kein Signal und die Erkennung kann fehlschlagen."
+"Wenn aktiviert, kann ein Zeitfenster eingestellt werden, um ein Aufwachen aus dem Deep-Standby durch einen Timer zu erkennen.\n"
+"Andernfalls wird ein spezielles Signal von dem Receiver verwendet. Manche Geräte setzen aber ein falsches oder kein Signal und die Erkennung kann fehlschlagen."
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Wenn die Logdateien zu viel Speicher belegen, werden die ältesten Dateien gelöscht."
@@ -14848,7 +14841,7 @@ msgid "Port number for the Stream Relay server used to descramble services that 
 msgstr "Port-Nummer des Stream-Relay-Servers, um Dienste zu entschlüsseln, die nur über Stream Relay entschlüsselt werden können."
 
 msgid "Configure the Port of the fallback remote receiver."
-msgstr "Port des Reservereceivers"
+msgstr "Den Port des Reservereceivers einstellen."
 
 msgid "Portugal"
 msgstr "Portugal"
@@ -18545,7 +18538,7 @@ msgid "Set the UP/DOWN button skip percentage for the SeekBar."
 msgstr "Den Prozentsatz für das Überspringen in der Suchleiste für die Tasten Hoch/Runter festlegen."
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner."
-msgstr "Die Benutzer-ID vom OpenWebif des Reservetuners eintragen"
+msgstr "Die Benutzer-ID vom OpenWebif des Reservetuners eintragen."
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "Das Seitenverhältnis der Picons einstellen."
@@ -18593,10 +18586,10 @@ msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scr
 msgstr "Anzahl der Zeilen für 'stout' und 'sterr' in Skript Ausgaben festlegen."
 
 msgid "Set the password of the OpenWebif from your fallback tuner."
-msgstr "Das Passwort vom OpenWebif des Reservetuners eintragen"
+msgstr "Das Passwort vom OpenWebif des Reservetuners eintragen."
 
 msgid "Set the port of the OpenWebif from your fallback tuner."
-msgstr "Den Port vom OpenWebif des Reservetuners eintragen"
+msgstr "Den Port vom OpenWebif des Reservetuners eintragen."
 
 msgid "Set the position of the recording icons."
 msgstr "Die Position der Aufnahmesymbole einstellen."
@@ -20198,9 +20191,7 @@ msgid "Somalia"
 msgstr "Somalia"
 
 msgid "Some TVs cannot switch to the correct input if another HDMI port is active. This setting puts the TV into standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
-msgstr ""
-"Einige TV-Geräte wechseln nicht den Eingang wenn ein anderer HDMI-Port aktiv ist. Diese Einstellung schaltet den TV zuvor in den Standby.\n"
-"(Wenn sich der TV nicht wieder einschaltet, ist möglicherweise ein langsameres Sendeintervall oder die Wiederholung von Aufwachbefehlen erforderlich.)"
+msgstr "Einige TV-Geräte wechseln nicht den Eingang wenn ein anderer HDMI-Port aktiv ist. Diese Einstellung schaltet den TV zuvor in den Standby. Wenn sich der TV nicht wieder einschaltet, ist möglicherweise ein langsameres Sendeintervall oder die Wiederholung von Aufwachbefehlen erforderlich."
 
 msgid "Sorbian"
 msgstr "Sorbisch"
@@ -22918,7 +22909,7 @@ msgid "URL"
 msgstr "URL"
 
 msgid "Configure the URL of the fallback remote receiver."
-msgstr "URL des Reservereceivers"
+msgstr "Die URL des Reservereceivers einstellen."
 
 #
 msgid "USALS"
@@ -24219,7 +24210,7 @@ msgstr ""
 
 # /data/setup.xml
 msgid "When enabled, the PiP can be closed using the EXIT button."
-msgstr "Bei 'Ja' kann der Bild-im-Bild-Modus mit EXIT beendet werden."
+msgstr "Wenn aktiviert, kann der Bild-im-Bild-Modus mit EXIT beendet werden."
 
 msgid "When enabled, the receiver will automatically be switched off."
 msgstr "Wenn aktiviert, wird der Receiver automatisch ausgeschaltet."
@@ -24234,13 +24225,13 @@ msgid "When enabled, the receiver will automatically wake from standby when the 
 msgstr "Wenn aktiviert, wird der Receiver automatisch aus dem Standby aufwachen, wenn der Fernseher eingeschaltet wird."
 
 msgid "When enabled, the timer from the fallback tuner is imported."
-msgstr "Wenn aktiviert, wird der Timer vom Reservetuner importiert"
+msgstr "Wenn aktiviert, wird der Timer vom Reservetuner importiert."
 
 msgid "When enabled, the timer from the fallback tuner is the default timer."
 msgstr "Wenn aktiviert, wird der Timer vom Reservetuner als Timer benutzt."
 
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
-msgstr "Wenn aktiviert, kann der Reservetuner im OpenWebif konfiguriert werden."
+msgstr "Wenn aktiviert, sind die OpenWebif Einstellungen für den Reservetuner einstellbar."
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "Bei 'Ja' werden AIT-Daten in HTTP-Streams eingefügt. Dies ermöglicht einem Client-Receiver HbbTV zu nutzen."
@@ -24392,7 +24383,7 @@ msgid "When set the PIG will return to live after a movie has stopped playing."
 msgstr "Bei 'Ja' wird, nachdem der Film beendet wurde, Live-TV angezeigt."
 
 msgid "When enabled, a specific Softcam can be assigned to each encrypted service."
-msgstr "Bei 'Ja' kann jedem verschlüsselten Sender eine bestimmte Softcam zugeordnet werden."
+msgstr "Wenn aktiviert, kann jedem verschlüsselten Sender eine bestimmte Softcam zugeordnet werden."
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
 msgstr ""
