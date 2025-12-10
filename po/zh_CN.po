@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-06 12:58+0000\n"
-"PO-Revision-Date: 2025-12-06 10:48+0000\n"
+"PO-Revision-Date: 2025-12-09 11:14+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -1797,7 +1797,7 @@ msgid "Activate Picture in Picture"
 msgstr "激活画中画"
 
 msgid "Activate UP/DOWN buttons for the 'all up/down' functions at the beginning/end of the column."
-msgstr "启用“所有向上/向下”功能的向上/向下按钮（在列的开头/末尾）？"
+msgstr "在列的开头/结尾处激活“全部向上/向下”功能的UP/DOWN按钮。"
 
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr "激活从命令行发送单个或特定内部 HDMI-CEC 命令的方式。"
@@ -2940,7 +2940,7 @@ msgid "Backup your current image"
 msgstr "备份当前镜像"
 
 msgid "Backup your current image to HDD or USB. This will make a 1:1 copy of your receiver."
-msgstr "备份当前镜像到硬盘或 U 盘。这个会1:1复制你的机顶盒"
+msgstr "备份当前镜像到硬盘或 U 盘。这将生成接收机的1:1副本。"
 
 msgid "Backup your current settings"
 msgstr "备份当前设置"
@@ -4507,7 +4507,7 @@ msgid "Configure front panel LEDs"
 msgstr "配置前面板指示灯"
 
 msgid "Configure how recording filenames are constructed. Standard: Date Time - Channel - Title Very very short: Title Very short: Title - Date Time Short with time: Date Time - Title Short: Date - Title Long: Date Time - Channel - Title - Info."
-msgstr "配置如何构造录制文件名。标准：日期时间 - 频道 - 标题非常非常短：标题非常短：标题 - 日期时间短，带时间：日期-时间-标题短：日期-标题长：日期时间-频道-标题-信息"
+msgstr "配置录像文件名的生成规则。标准：日期时间 - 频道 - 标题  极简格式：仅标题  短格式（带时间）：标题 - 日期 时间  带时间的短格式：日期 时间 - 标题  短格式：日期 - 标题  完整格式：日期 时间 - 频道 - 标题 - 附加信息。"
 
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "配置在频道选择列表中是否及如何显示加密方式图标。"
@@ -4567,7 +4567,7 @@ msgid "Configure the IP address."
 msgstr "配置 IP 地址。"
 
 msgid "Configure the IP of the fallback remote receiver."
-msgstr "备用远程接收机 IP"
+msgstr "配置备用远程接收机 IP 地址。"
 
 msgid ""
 "Configure the Internet connection by adjusting the values shown.\n"
@@ -4579,10 +4579,10 @@ msgstr ""
 "设置正确后，按“确定”继续。"
 
 msgid "Configure the Port of the fallback remote receiver."
-msgstr "备用远程接收机的端口"
+msgstr "配置备用远程接收机的端口。"
 
 msgid "Configure the URL of the fallback remote receiver."
-msgstr "备用远程接收机 URL"
+msgstr "配置备用远程接收机的 URL 地址。"
 
 msgid "Configure the alignment of events."
 msgstr "配置事件的对齐方式。"
@@ -5829,7 +5829,7 @@ msgid "Default volume offset"
 msgstr "默认音量偏移"
 
 msgid "Default wake-up is 5 minutes before deep standby. Adjust if the wake-up is too early or late, e.g., for network drives."
-msgstr "默认设置是提前 5 分钟从深度待机中唤醒。可能有必要对此进行更改。（例如：实际唤醒时间不准确或太晚，等待网络驱动器等）"
+msgstr "默认唤醒时间设置在深度待机前 5 分钟。如果唤醒过早或过晚（例如针对网络驱动器），请进行相应调整。"
 
 #, python-format
 msgid "Default: '%s'."
@@ -6000,7 +6000,7 @@ msgid "Delete all the text"
 msgstr "删除所有文本"
 
 msgid "Delete and uninstall Plugins. This will remove the Plugin from your receiver."
-msgstr "删除并卸载插件。这将从机顶盒移除插件"
+msgstr "删除并卸载插件。这将从机顶盒移除插件。"
 
 msgid "Delete character to left of cursor or select AM times"
 msgstr "删除光标左侧的字符或选择 AM 时间"
@@ -6176,7 +6176,7 @@ msgid "Destination of fallback remote receiver for DVB-T"
 msgstr "DVB-T 备用远程接收机的目的地"
 
 msgid "Destination of fallback remote receiver."
-msgstr "备用远程接收机的目标"
+msgstr "备用远程接收机的目标地址。"
 
 msgid "Detail of GStreamer log."
 msgstr "GStreamer 日志的详细信息。"
@@ -6372,7 +6372,7 @@ msgid "Disabled or WPA/WPA2"
 msgstr "禁用或 WPA/WPA2"
 
 msgid "Disables timeshift during recording (advisable for USB sticks)."
-msgstr "如果正在进行录制，则停止使用时移。 （建议使用 U 盘。）"
+msgstr "录制期间禁用时光移功能（建议用于 U 盘设备）。"
 
 msgid "Disabling Chkroot failed!"
 msgstr "禁用 Chkroot 失败！"
@@ -8960,7 +8960,7 @@ msgid "Go to the first page of documentation"
 msgstr "转到文档首页"
 
 msgid "Go to the last page of documentation"
-msgstr "转到文档尾页"
+msgstr "转到文档末页"
 
 msgid "Go to the next page of documentation"
 msgstr "转到文档的下一页"
@@ -9691,7 +9691,7 @@ msgid "If enabled and necessary, the plugin will wake up the receiver from deep 
 msgstr "如果启用且有必要，插件将在定义的启动时间内从深度待机中唤醒接收机，以控制程序是否更早开始。"
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
-msgstr "如果启用机顶盒的输出分辨率，将尝试匹配初步内容的分辨率"
+msgstr "若启用此选项，接收机的输出分辨率将尝试与视频内容的分辨率保持一致。"
 
 msgid "If enabled the video will always be de-interlaced."
 msgstr "如果启用，视频将始终隔行扫描。"
@@ -9809,13 +9809,13 @@ msgid "Immediately restart selected devices."
 msgstr "立即重新启动所选设备。"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted."
-msgstr "接收机启动时从远程接收机 URL 导入频道和/或 EPG"
+msgstr "接收机启动时，从远程接收机 URL 导入频道和/或 EPG。"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or GUI is restarted."
-msgstr "当接收机或 enigma2 重新启动时，从远程接收机 URL 导入频道和/或 EPG"
+msgstr "当接收机或图形界面重启时，从远程接收机 URL 导入频道和/或 EPG。"
 
 msgid "Import channels and/or EPG from the remote receiver URL, even when the receiver is coming out of standby."
-msgstr "当接收机退出待机状态时，也可以从远程接收机 URL 导入频道和/或 EPG"
+msgstr "即使接收机从待机状态唤醒时，也会从远程接收机 URL 导入频道和/或 EPG。"
 
 msgid "Import from remote receiver URL"
 msgstr "从远程接收机 URL 导入"
@@ -11098,7 +11098,7 @@ msgid "Make"
 msgstr "制作"
 
 msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu."
-msgstr "可以通过扩展菜单手动启动频道导入和/或 EPG"
+msgstr "使通过扩展菜单手动启动频道导入和/或 EPG 成为可能。"
 
 msgid "Make this mark an 'in' point"
 msgstr "使此标记为“入”点"
@@ -11147,7 +11147,7 @@ msgid "Manage Plugins"
 msgstr "插件管理"
 
 msgid "Manage Plugins. This will remove/install Plugins on your receiver."
-msgstr "管理插件。 这将删除/安装您机子上的插件"
+msgstr "管理插件。此功能将移除或安装接收机上的插件。"
 
 msgid "Manage and explore directories and files."
 msgstr "管理和浏览目录和文件。"
@@ -15413,7 +15413,7 @@ msgid "Restore your backups by date."
 msgstr "按日期恢复备份。"
 
 msgid "Restore your settings back from a backup. After restore the receiver will restart to activated the new settings."
-msgstr "从备份恢复设置。恢复后机顶盒将重启以激活新的设置"
+msgstr "从备份恢复设置。恢复后，接收机将重启以激活新设置。"
 
 msgid "Restoring..."
 msgstr "正在还原..."
@@ -17508,7 +17508,7 @@ msgid "Set the UP/DOWN button skip percentage for the SeekBar."
 msgstr "设置进度条的上/下按键跳过百分比。"
 
 msgid "Set the User ID of the OpenWebif from your fallback tuner."
-msgstr "从备用调谐器设置 OpenWebif 的用户 ID"
+msgstr "设置备用调谐器的 OpenWebif 用户 ID。"
 
 msgid "Set the aspect ratio of the service picons."
 msgstr "设置频道图标的宽高比。"
@@ -17535,7 +17535,7 @@ msgid "Set the delay time between repeated loops, this is used by software rende
 msgstr "设置重复循环之间的延迟时间，用于某些皮肤中的软件渲染器。"
 
 msgid "Set the hostname or IP address."
-msgstr "DNS 名称或 IP 地址"
+msgstr "设置主机名或 IP 地址。"
 
 msgid "Set the jump-size of the SeekBar."
 msgstr "设置进度条的跳跃大小。"
@@ -17544,10 +17544,10 @@ msgid "Set the number of lines to be saved for 'stout' and 'sterr' output in scr
 msgstr "设置要为脚本中的“stout”和“sterr”输出保存的行数。"
 
 msgid "Set the password of the OpenWebif from your fallback tuner."
-msgstr "从备用调谐器设置 OpenWebif 的密码"
+msgstr "设置备用调谐器的 OpenWebif 密码。"
 
 msgid "Set the port of the OpenWebif from your fallback tuner."
-msgstr "从备用调谐器设置 OpenWebif 的端口"
+msgstr "设置备用调谐器的 OpenWebif 端口。"
 
 msgid "Set the position of the recording icons."
 msgstr "设置录制图标的位置。"
@@ -17950,7 +17950,7 @@ msgid "Show Driver packages"
 msgstr "显示驱动程序包"
 
 msgid "Show EIT Now/Next event data in the InfoBar"
-msgstr "在信息栏显示 当前/下一个 EIT（事件信息表）数据。"
+msgstr "在信息栏显示 当前/下一个 EIT（事件信息表）数据"
 
 msgid "Show EPG"
 msgstr "显示 EPG"
@@ -18173,7 +18173,7 @@ msgid "Show channel selection"
 msgstr "显示频道选择"
 
 msgid "Show chapter positions for supported video files."
-msgstr "显示支持的视频文件的章节位置。（gstreamer版本必须大于1）"
+msgstr "显示支持视频文件的章节位置。"
 
 msgid "Show columns"
 msgstr "显示列"
@@ -18351,10 +18351,10 @@ msgid "Show next system information screen"
 msgstr "显示下一个系统信息屏幕"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete."
-msgstr "从远程接收机 URL 导入频道和/或 EPG 未完成时显示通知"
+msgstr "从远程接收机 URL 导入频道和/或 EPG 未完成时显示通知。"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL is completed."
-msgstr "当从远程接收机 URL 导入频道和/或 EPG 完成时显示通知"
+msgstr "当从远程接收机 URL 导入频道和/或 EPG 完成时显示通知。"
 
 msgid "Show notification when import channels was not successful"
 msgstr "导入频道不成功时显示通知"
@@ -19070,7 +19070,7 @@ msgid "Somalia"
 msgstr "索马里"
 
 msgid "Some TVs can't switch to the correct input if another HDMI port is active. This setting puts the TV into standby before switching. If the TV does not turn back on, a slower transmission interval or repeating the wake-up command may be required."
-msgstr "如果另一个 HDMI 端口处于活动状态，某些电视无法切换到正确的输入。此设置可在切换前将电视设置为待机状态。（如果电视未重新打开，则可能需要较慢的传输间隔或重复唤醒命令。）"
+msgstr "部分电视在另一个 HDMI 端口处于活动状态时可能无法切换到正确输入。此设置会在切换前将电视置于待机状态。若电视未能重新启动，可能需要调整更慢的传输间隔或重复发送唤醒命令。"
 
 msgid "Sorbian"
 msgstr "索布人"
@@ -20753,7 +20753,7 @@ msgid "This option allows you to choose the option for Subservice indicator or s
 msgstr "此选项允许您选择子频道指示器或选择选项。"
 
 msgid "This option allows you to choose what the first button press jumps to in channel list screen (pressing '2' jumps to 'A' or '2' first) when 'Quick Actions' preset actions are performed."
-msgstr "此选项允许您选择在执行“快速操作”预设操作时，第一次按下按钮会跳转到频道列表屏幕中的哪个位置（因此按下“2”会首先跳转到“A”或“2”）。 "
+msgstr "此选项允许您选择在执行“快捷操作”预设动作时，频道列表界面中首次按键的跳转目标（例如：按下“2”时优先跳转至“A”还是“2”）。"
 
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "此选项允许您选择是否显示事件的流派信息。"
@@ -21620,7 +21620,7 @@ msgid "UP/DOWN button mode"
 msgstr "向上/向下 键模式"
 
 msgid "UP/DOWN buttons also for 'all up/down'"
-msgstr "向上/向下按钮也用于“全部向上/向下”。"
+msgstr "UP/DOWN 按钮同样用于“全部向上/向下”功能"
 
 msgid "UP80  (keymap.u80)"
 msgstr "UP80  (keymap.u80)"
@@ -22964,10 +22964,10 @@ msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "启用时，接收机将选择一条AC3 +音轨（如果可用）。"
 
 msgid "When enabled, the timer from the fallback tuner is imported."
-msgstr "启用后，将导入备用调谐器中的定时器"
+msgstr "启用时，将导入备用调谐器的定时器。"
 
 msgid "When enabled, the timer from the fallback tuner is the default timer."
-msgstr "启用时，默认使用备用调谐器的定时器"
+msgstr "启用时，默认使用备用调谐器的定时器。"
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "启用时，此设置的权重大于“录制首选调谐器”。"
@@ -22982,7 +22982,7 @@ msgid "When enabled, use DHCP for the IP configuration."
 msgstr "启用时，使用 DHCP 配置 IP。"
 
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
-msgstr "启用后，您可以自定义备用调谐器的 OpenWebIf 设置"
+msgstr "启用后，您可以自定义备用调谐器的 OpenWebIf 设置。"
 
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
 msgstr "启用时，接收机将检测VCR SCART输入活动。"
