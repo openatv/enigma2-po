@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-06 12:58+0000\n"
-"PO-Revision-Date: 2025-12-11 12:21+0000\n"
+"PO-Revision-Date: 2025-12-13 13:01+0000\n"
 "Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -2935,7 +2935,7 @@ msgid "Automatically start time shift after"
 msgstr "Automatisch Timeshift starten nach"
 
 msgid "Automatically turn on external subtitles"
-msgstr "Externe Untertitel automatisch einschalten"
+msgstr "Externe Untertitel automatisch aktivieren"
 
 msgid "Automatically update Client/Server View"
 msgstr "Client-/Server-Ansicht automatisch aktualisieren."
@@ -6048,7 +6048,7 @@ msgstr "Entschlüsselung / Jugendschutz"
 
 #
 msgid "Deep Standby"
-msgstr "Ausschalten"
+msgstr "Deep-Standby"
 
 msgid "Deep standby"
 msgstr "Deep-Standby"
@@ -9464,7 +9464,7 @@ msgstr "Zum aktuellen Sender wechseln"
 
 # Powerlost usage.config
 msgid "Goto deep standby"
-msgstr "Ausschalten"
+msgstr "In Deep-Standby wechseln"
 
 msgid "Goto first channel"
 msgstr "Zum ersten Sender wechseln"
@@ -17193,7 +17193,7 @@ msgid "Select 'Yes' to enable the loading of unlinked user bouquets. That is, us
 msgstr "Bei 'Ja' werden alle vorhandenen Favoritenlisten geladen, auch wenn sie nicht in 'bouquets.tv' oder 'bouquets.radio' enthalten sind. Dies ermöglicht zum Beispiel die eigenen Favoritenlisten zu erhalten, während die Einstellungen aktualisiert werden."
 
 msgid "Select 'Yes' to enable use of the LEFT/RIGHT buttons to move PageUp/PageDown when the LEFT/RIGHT buttons are otherwise undefined. This provides legacy navigation for users who prefer it."
-msgstr "'Ja' auswählen, um mit LINKS/RECHTS eine Seite Auf/Ab zu schalten, allerdings nur, solange LINKS/RECHTS nicht auf andere Weise verwendet werden. Das ermöglicht herkömmliche Navigation, falls es so gewohnt ist."
+msgstr "'Ja' auswählen, um mit LINKS/RECHTS eine Seite Auf/Ab zu blättern, allerdings nur, solange LINKS/RECHTS nicht auf andere Weise verwendet werden. Das ermöglicht herkömmliche Navigation, falls es so gewohnt ist."
 
 msgid "Select 'Yes' to hide channels without EPG data."
 msgstr "Bei 'Ja' werden Sender ohne EPG nicht angezeigt."
@@ -18670,10 +18670,10 @@ msgid "Set to 'Disabled' to replace underscore characters '_' in file and direct
 msgstr "Bei 'Nein' werden Unterstriche in Dateien und Verzeichnissen durch Leerzeichen ersetzt."
 
 msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby before shutting down."
-msgstr "Aktivieren, um verschlüsselte Aufnahmen in der Warteschleife vor dem Herunterfahren im Standby zu entschlüsseln."
+msgstr "Aktivieren, um verschlüsselte Aufnahmen in der Warteschlange im Standby vor dem Herunterfahren zu entschlüsseln."
 
 msgid "Set to 'Enabled' to descramble queued scrambled recordings in Standby."
-msgstr "Aktivieren, um verschlüsselte Aufnahmen in der Warteschleife im Standby zu entschlüsseln."
+msgstr "Aktivieren, um verschlüsselte Aufnahmen in der Warteschlange im Standby zu entschlüsseln."
 
 msgid "Set to 'Yes', to enable automatic recording of the background time shift buffer."
 msgstr "'Ja' aktiviert die automatische Aufnahme für Timeshift im Hintergrund."
@@ -21953,9 +21953,7 @@ msgid "This option allows you to choose the option for Subservice indicator or s
 msgstr "Die Unterkanäle anzeigen oder auswählen."
 
 msgid "This option allows you to choose what the first button press jumps to in channel list screen, (so pressing '2' jumps to 'A' or '2' first), when 'Quick Actions' preset actions are performed."
-msgstr ""
-"Einstellen, was der erste Tastendruck in der Senderliste bewirken soll.\n"
-"'2' zum Beispiel springt zu '2' wenn es Sendernummern gibt, oder, wenn nicht, zum ersten Sender der mit 'A' anfängt (wie beim Handy)."
+msgstr "Einstellen, was der erste Tastendruck in der Senderliste bewirken soll. Bei '2' zum Beispiel wird zu '2' gesprungen, wenn Sendernummern sichtbar sind, ansonsten zum ersten Sender der mit 'A' anfängt."
 
 #
 msgid "This option allows you to choose whether or not to display genre information for the event."
@@ -24239,7 +24237,7 @@ msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fi
 msgstr "Wenn aktiviert, werden Videoinhalte mit einem Seitenverhältnis von 4:3 gestreckt dargestellt, um den Bildschirm zu füllen."
 
 msgid "When enabled, continue to the next bouquet when the last channel of the current bouquet is reached while changing channels."
-msgstr "Mit 'Ja' wird beim Senderweiterschalten, wenn der letzte Sender einer Favoritenliste erreicht ist, in die nächste gewechselt."
+msgstr "Mit 'Ja' wird beim Umschalten des Senders zur nächsten Favoritenliste gewechselt, sobald der letzte Sender der aktuellen Liste erreicht ist."
 
 msgid "When enabled, deleted recordings are moved to the trashcan, instead of being deleted immediately."
 msgstr "Bei 'Ja' werden gelöschte Aufnahmen in den Papierkorb verschoben, bei 'Nein' sofort und unwiderruflich gelöscht."
@@ -24384,7 +24382,7 @@ msgid "When the receiver wakes from Standby or Deep Standby it will send a comma
 msgstr "Wenn der Receiver aus dem Standby oder Deep-Standby aufwacht, wird auch dem Fernseher ein Signal geschickt, um ihn einzuschalten."
 
 msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Wenn der Receiver aus dem Standby aufwacht, wird am Fernseher auf den mit dem Receiver verbundenen HDMI-Eingang umgeschaltet."
+msgstr "Wenn der Receiver aus dem Standby erwacht, schaltet er den Fernseher auf den mit dem Receiver verbundenen HDMI-Eingang um."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Wird der rote Rahmen korrekt angezeigt, die Einstellungen mit GRÜN speichern und beenden."
@@ -24731,9 +24729,9 @@ msgid ""
 "You need a PC connected to your %s %s. Visit the website https://www.opena.tv/ for further instructions.\n"
 "The %s %s will now be halted. After you have performed the update instructions from the website, the new firmware will ask you to restore the settings."
 msgstr ""
-"Ein PC muss mit der %s %s verbunden sein.\n"
+"Ein PC muss mit %s %s verbunden sein.\n"
 "Für weiterführende Informationen 'https://www.opena.tv' besuchen.\n"
-"Die %s %s wird nun angehalten.\n"
+"%s %s wird nun angehalten.\n"
 "Nachdem das Update wie auf der Website beschrieben durchgeführt wurde, werden nach Bestätigung die Einstellungen wiederhergestellt."
 
 msgid "You seem to be in time shift!"
