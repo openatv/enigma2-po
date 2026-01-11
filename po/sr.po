@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV 7.6.1 Devel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-01-08 16:51+0000\n"
 "PO-Revision-Date: 2025-12-28 02:56+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
@@ -7155,15 +7155,6 @@ msgstr "Omogući zamenu pri pokretanju"
 msgid "Enable VPS"
 msgstr "Omogući VPS"
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr "Omogući VPS po defaultu (novi tajmeri)"
-
-msgid "VPS on instant recordings"
-msgstr "Omogući VPS za trenutne zapise"
-
-msgid "Enable VPS-Plugin"
-msgstr "Omogući VPS-Plugin"
-
 msgid "Enable ViaSat EPG"
 msgstr "Omogući ViaSat EPG"
 
@@ -8506,6 +8497,9 @@ msgstr "Biznis"
 msgid "Find Currently Playing Service"
 msgstr "Pronađi servis koji se Trenutno Reprodukuje"
 
+msgid "Find connected events"
+msgstr "Traženje povezanih događaja"
+
 #, python-format
 msgid "Find out more at %s"
 msgstr "Saznajte više na %s"
@@ -9668,14 +9662,11 @@ msgstr "Ako 'nikad', pisaće evidenciju pada za prvi red."
 msgid "If EPG available"
 msgstr "Ako je EPG dostupan"
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr "Ako je program prekinut i podeljen na zasebne događaje, plugin će potražiti povezane događaje."
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr "Ako je radnja korisnički konfigurisana, stavka pomoći će biti označena sufiksom '(C)'."
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr ""
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
+msgstr "Ako je program prekinut i podeljen na zasebne događaje, plugin će potražiti povezane događaje."
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
 msgstr ""
@@ -9697,9 +9688,6 @@ msgstr "Ako je omogućen, koristi će se nova GStreamer mašina za reprodukciju.
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Ako evidencije koriste postavljeni maksimalni prostor koji je najstariji bi će izbrisani."
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr "Ako je moguće, x minuta pre nego što tajmer pokrene VPS-Plugin kontročisati će da li program počinje ranije. (0 onemogućeno)"
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr ""
@@ -16100,9 +16088,6 @@ msgstr "Aktivacija trake za traženja"
 msgid "SeekBar sensibility"
 msgstr ""
 
-msgid "Find connected events"
-msgstr "Traženje povezanih događaja"
-
 msgid "Select"
 msgstr "Izaberi"
 
@@ -16168,6 +16153,9 @@ msgstr "Izaberi 'Da' zadržite prikazanu info traku bez vremenskog razmaka, dok 
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
 msgstr "Izaberite 'Da' da omogućite da svaki otkriveni uređaj za skladištenje bude automatski izvezen kao samba deljenje."
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
+msgstr "Ovaj plugin može da utvrdi da li program počinje ranije ili duže traje. Kanal mora da obezbedi pouzdane podatke."
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
 msgstr ""
@@ -16286,6 +16274,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Izaberite 'Da' da resetujete mrežnu konfiguraciju na podrazumevane postavke. Ovo će omogućiti Ethernet port ako postoji i postaviti prijemnik da koristi DHCP. Sve druge mrežne interfejse će biti obrisane."
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr "Omogući VPS po defaultu (novi tajmeri)"
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr "Izaberi 'Da' da bi postavili poziciju kursora na kraj reda prilikom uređivanja tekstualnog fajla. Izaberite 'Ne' da bi postavili kursor na početak reda."
 
@@ -16376,6 +16367,9 @@ msgstr "Izaberite 'Da' da se odmah isključi umesto da se započne dešifrovanje
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Izaberite 'Da' da podelite zadatke na odvojene akcije."
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr "Kada je da, VPS će biti omogućen u trenutnim zapisima (zaustavi se posle aktuelnog događaja), ako kanal podržava VPS."
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Izaberite 'Da' da biste koristili alternativne IP adrese GitHub feed-a. Ovo može biti korisno ako koristite VPN i obični feed-ovi nisu dostupni preko objavljenih DNS imena."
 
@@ -16387,6 +16381,9 @@ msgstr "Izaberi 'Da' da bi koristili vrednosti signala (SNR, itd.) izračunate i
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
 msgstr "Izaberi 'Da' da bi koristili tastere sa brojem za brzi izbor fajla / direktorijuma, izaberite 'Ne' da bi koristili tastere sa brojem za prečice opcije MENI."
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgstr ""
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Izaberi 'Da' da bi prikazali info traku prilikom premotavanja napred ili nazad tokom reprodukcije medija."
@@ -17505,6 +17502,9 @@ msgstr "Podesi skaliranje regulatora"
 
 msgid "Set Time"
 msgstr "Podesi Vreme"
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
+msgstr "Ako je moguće, x minuta pre nego što tajmer pokrene VPS-Plugin kontročisati će da li program počinje ranije. (0 onemogućeno)"
 
 msgid "Set action for 'Info' key"
 msgstr "Podešavanje radnje za 'Info' taster"
@@ -20917,9 +20917,6 @@ msgstr "Ova opcija postavlja video kontrast slike."
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Оva opcija podešava oštrinu slike koja se koristi prilikom upscaled slike."
 
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr "Ovaj plugin može da utvrdi da li program počinje ranije ili duže traje. Kanal mora da obezbedi pouzdane podatke."
-
 msgid "This service is protected by a parental control PIN!"
 msgstr "Ovaj kanal je zaštićen pinom roditeljske kontrole!"
 
@@ -22358,6 +22355,9 @@ msgstr "VPS Podešavanje"
 msgid "VPS enabled by default"
 msgstr "VPS je omogućen po defaultu"
 
+msgid "VPS on instant recordings"
+msgstr "Omogući VPS za trenutne zapise"
+
 msgid "VPS-Plugin Information"
 msgstr "VPS-Plugin info"
 
@@ -22761,14 +22761,14 @@ msgstr "Čekanje"
 msgid "Waiting for partition"
 msgstr "Čekanje na particiju"
 
+msgid "Wake from Shutdown allowed"
+msgstr "Buđenje iz duboke pripravnosti je dozvoljeno"
+
 msgid "Wake up"
 msgstr "Probudi se"
 
 msgid "Wake up TV from Standby"
 msgstr ""
-
-msgid "Wake from Shutdown allowed"
-msgstr "Buđenje iz duboke pripravnosti je dozvoljeno"
 
 msgid "Wake up time before a timer begins"
 msgstr "Vreme buđenja pre početka tajmera[min]"
@@ -23127,9 +23127,6 @@ msgstr "Kada je crven box pravilno vidljiv, pritisnite ZELENU dugmad da sačuvat
 
 msgid "When tuned to a service, the system normally scans the transponder for changes and saves them. Enable only if you know what you're doing."
 msgstr ""
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr "Kada je da, VPS će biti omogućen u trenutnim zapisima (zaustavi se posle aktuelnog događaja), ako kanal podržava VPS."
 
 msgid "Where do you want to backup your settings?"
 msgstr "Gde želite da napravite rezervnu kopiju postavki?"
@@ -24373,6 +24370,9 @@ msgstr "da (zadrži fidove)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enable VPS-Plugin"
+#~ msgstr "Omogući VPS-Plugin"
 
 #~ msgid "Configure whether multichannel audio tracks should be downmixed to stereo."
 #~ msgstr "Podesite zvuk sa više kanala da bude downmixed u stereo."
