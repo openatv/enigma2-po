@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Apachi70 (OpenATV),(Teamblue)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-17 09:22+0000\n"
-"PO-Revision-Date: 2026-01-21 13:01+0000\n"
+"PO-Revision-Date: 2026-01-24 22:37+0000\n"
 "Last-Translator: Mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -44,10 +44,10 @@ msgid " "
 msgstr " "
 
 msgid "  Menu key : Select quad channel"
-msgstr "  Menü tuşu: dörtlü kanal seç"
+msgstr "  Menü tuşu: quad kanal seç"
 
 msgid "  REC  "
-msgstr "  KAYIT "
+msgstr "  REC "
 
 msgid "  Red key : Show/Hide channel name"
 msgstr "  Kırmızı tuş: Kanal ismini göster/gizle"
@@ -61,19 +61,19 @@ msgid " (Partition %d)"
 msgstr " (Bölüm %d)"
 
 msgid " (current channel)"
-msgstr " (Geçerli Kanal)"
+msgstr " (geçerli kanal)"
 
 msgid " (disabled)"
 msgstr " (devre dışı)"
 
 msgid " (higher than any auto)"
-msgstr " (herhangi bir otomatikten daha yüksek)"
+msgstr " (daha yüksek herhangi bir otomatik)"
 
 msgid " (higher than rotor any auto)"
-msgstr " (herhangi bir rotordan daha yüksek otomatik)"
+msgstr " (rotordan daha yüksek herhangi bir otomatik)"
 
 msgid " (lower than any auto)"
-msgstr " (herhangi bir otomatikten daha düşük)"
+msgstr " (daha düşük herhangi bir otomatik)"
 
 #
 msgid " <No Channel>"
@@ -923,7 +923,7 @@ msgstr[0] "%d paket bulundu."
 #, python-format
 msgid "%d package has an update"
 msgid_plural "%d packages have updates."
-msgstr[0] "%d paketinde bir güncelleme var"
+msgstr[0] "%d pakette güncelleme var"
 
 #, python-format
 msgid "%d package installable."
@@ -1150,7 +1150,7 @@ msgstr "%s Bilgisi"
 
 #, python-format
 msgid "%s Information Actions"
-msgstr "%s Bilgi İşlemleri"
+msgstr "%s Bilgisi İşlemleri"
 
 #
 #, python-format
@@ -1181,7 +1181,7 @@ msgstr "%s uzak alıcıdan aktarıldı."
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
 msgid "%s is no longer used. Should it be deleted?"
-msgstr "%s artık kullanılmıyor. Silinmeli mi?"
+msgstr "%s isimli uydu, yapılandırma değişikliğinden sonra artık kullanılmıyor. Silinmeli mi?"
 
 #, python-format
 msgid "%s long"
@@ -1249,7 +1249,7 @@ msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr "'%s' %d dosya ve %d alt-klasör içeriyor.\n"
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
-msgstr "'Saat cinsinden tampon süre' veya 'son etkinlik sayısı'. Daha eski zaman kaydırma dosyalarını silmek için, ilk gerçekleşen koşul önceliklidir."
+msgstr "'Saat cinsinden arabellek süresi' veya 'son etkinlik sayısı'. Daha eski zaman kaydırma dosyalarını silmek için, ilk gerçekleşen koşul önceliklidir."
 
 msgid "'Handle Standby from TV' has a higher priority than 'Handle input from TV'."
 msgstr "'TV'den Beklemeyi Yönet' seçeneği, 'TV'den Gelen Girişi Yönet' seçeneğinden daha yüksek önceliğe sahiptir."
@@ -1420,7 +1420,7 @@ msgid "2nd InfoBar"
 msgstr "2. Bilgi Çubuğu"
 
 msgid "2nd InfoBar Actions"
-msgstr "2.Bilgi Çubuğu İşlemleri"
+msgstr "2. Bilgi Çubuğu İşlemleri"
 
 msgid "2nd InfoBar ECM"
 msgstr "2. Bilgi Çubuğu ECM"
@@ -1508,7 +1508,7 @@ msgid "< Alternate Skin >"
 msgstr "< Alternatif Arayüz >"
 
 msgid "< Default >"
-msgstr "<Varsayılan>"
+msgstr "< Varsayılan >"
 
 msgid "< Default with Picon >"
 msgstr "< Varsayılan Pikon ile >"
@@ -1570,7 +1570,7 @@ msgid ""
 "A finished record timer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"Biten bir kayıt zamanlayıcısı %s %s cihazınızı\n"
+"Biten bir kayıt zamanlayıcısı %s %s alıcınızı\n"
 "bekleme moduna almak istiyor. Şimdi bunu yapmak ister misiniz?"
 
 #
@@ -1744,7 +1744,7 @@ msgid "ATSC provider"
 msgstr "ATSC sağlayıcısı"
 
 msgid "AV Setup"
-msgstr "AV Kurulumu"
+msgstr "Görüntü / Ses Kurulumu"
 
 msgid "Abkhazian"
 msgstr "Abhazca"
@@ -1821,7 +1821,7 @@ msgstr "HbbTV'yi etkinleştirin (KIRMIZI tuş)"
 
 #
 msgid "Activate Picture in Picture"
-msgstr "Resim içinde resim (PIP) etkinleştir"
+msgstr "Resim içinde Resim (PiP) özelliğini etkinleştir"
 
 msgid "Activate UP/DOWN buttons for the 'all up/down' functions at the beginning/end of the column."
 msgstr "Sütunun başında/sonunda bulunan 'tüm yukarı/aşağı' işlevleri için YUKARI/AŞAĞI tuşlarını etkinleştirin."
@@ -2810,7 +2810,7 @@ msgstr "Otomatik kapanma"
 
 #
 msgid "Auto standby"
-msgstr "Otomatik Bekleme"
+msgstr "Otomatik bekleme modu"
 
 msgid "Auto video mode selected"
 msgstr "Otomatik görüntü modu seçildi"
@@ -2941,7 +2941,7 @@ msgid "BLUE long"
 msgstr "MAVİ uzun"
 
 msgid "BLUE switch: BLUE/BLUE long"
-msgstr "MAVİ anahtar: MAVİ/MAVİ uzun"
+msgstr "MAVİ tuş: MAVİ/MAVİ uzun"
 
 #
 msgid "Back"
@@ -3332,7 +3332,7 @@ msgid "Brightness (Normal)"
 msgstr "Parlaklık (Normal)"
 
 msgid "Brightness (Standby)"
-msgstr "Parlaklık (Beklemede)"
+msgstr "Parlaklık (Bekleme modunda)"
 
 msgid "Brightness Video"
 msgstr "Görüntü Parlaklığı"
@@ -5261,7 +5261,7 @@ msgstr "Dosya yüklenemedi! Disk takılı değil mi?"
 
 #
 msgid "Could not open Picture in Picture"
-msgstr "Resim İçinde Resim açılamadı"
+msgstr "Resim içinde Resim açılamadı"
 
 #, python-format
 msgid "Could not open the file %s!"
@@ -6529,11 +6529,11 @@ msgstr "MiniTV'yi devre dışı bırak"
 
 #
 msgid "Disable Move Mode"
-msgstr "Kanal Taşıma Modunu devre dışı bırak"
+msgstr "Taşıma Modunu Devre Dışı Bırak"
 
 #
 msgid "Disable Picture in Picture"
-msgstr "Resim İçinde Resim (PIP) özelliğini devre dışı bırak"
+msgstr "Resim içinde Resim (PiP) özelliğini devre dışı bırak"
 
 msgid "Disable ServiceHiSilicon"
 msgstr "HiSilicon Hizmetini Devre Dışı Bırak"
@@ -6551,7 +6551,7 @@ msgid "Disable operator profiles"
 msgstr "Operatör profillerini devre dışı bırak"
 
 msgid "Disable the HDD Process on VFD."
-msgstr "VFD'de HDD İşlemini devre dışı bırak"
+msgstr "VFD'de HDD İşlemini devre dışı bırak."
 
 msgid "Disable the MultiBoot option"
 msgstr "Çoklu Önyükleme seçeneğini devre dışı bırak"
@@ -7131,7 +7131,7 @@ msgid ""
 msgstr ""
 "EPG tuşu: Kanal listesine geç\n"
 "OK tuşu: Seçili kanalı kaldır\n"
-"PVR tuşu: Kanal adı girişi\n"
+"PVR tuşu: Kanal isimi girişi\n"
 "EXIT tuşu: Kanal düzenlemeyi bitir"
 
 msgid ""
@@ -7377,7 +7377,7 @@ msgstr "MiniTV etkinleştir"
 
 #
 msgid "Enable Move Mode"
-msgstr "Kanal Taşıma Modunu Etkinleştir"
+msgstr "Taşıma Modunu Etkinleştir"
 
 msgid "Enable Netmed EPG"
 msgstr "Netmed EPG etkinleştir"
@@ -7408,7 +7408,7 @@ msgid "Enable Virgin EPG"
 msgstr "Virgin EPG etkinleştir"
 
 msgid "Enable Wake On LAN"
-msgstr "LAN Uyandırmayı Etkinleştir"
+msgstr "Ağdan Uyandırmayı Etkinleştir"
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Ek bilgiler içerebilecek ikinci Bilgi Çubuğunu etkinleştirin ve süresini ayarlayın ('OK' tuşuna iki kez basın)."
@@ -8158,16 +8158,16 @@ msgid "Ethiopia"
 msgstr "Etiyopya"
 
 msgid "Even if TV has another input active?"
-msgstr "TV'de başka bir giriş aktif olsa bile mi?"
+msgstr "TV'de başka bir giriş aktif olsa bile TV'yi kapat?"
 
 msgid "Even if a 'Wakeup' scheduled task starting?"
-msgstr "Planlanmış bir 'Uyandırma' görevi başlatılsa bile mi?"
+msgstr "Planlanmış bir 'Uyandırma' görevi başlatıldığında Tv açılsın mı?"
 
 msgid "Even if a 'Zap and Record' recording timer starting?"
-msgstr "'Kanal Değiştir ve Kayıt' kayıt zamanlayıcısı başlasa bile mi?"
+msgstr "'Kanal Değiştir ve Kayıt' kayıt zamanlayıcısı başlatıldığında Tv açılsın mı?"
 
 msgid "Even if a 'Zap' recording timer starting?"
-msgstr "'Kanal Değiştir' kayıt zamanlayıcısı başlasa bile mi?"
+msgstr "'Kanal Değiştir' kayıt zamanlayıcısı başlatıldığında Tv açılsın mı?"
 
 msgid "Event Info"
 msgstr "Etkinlik Bilgileri"
@@ -8755,7 +8755,7 @@ msgid "Filename"
 msgstr "Dosya adı"
 
 msgid "Files/folders to exclude from backup"
-msgstr "Yedeklemeden hariç tutulacak dosyalar / klasörler"
+msgstr "Yedeklemeden çıkarılacak dosyalar / klasörler"
 
 msgid "Fill in channel EPGs from the broadcast EPG where there is no IceTV EPG for the channel"
 msgstr "IceTV de EPG'si bulunmayan kanallar için yayın EPG'sinden kanal EPG'lerini doldurun"
@@ -9001,7 +9001,7 @@ msgid "Forward Error Correction (FEC)"
 msgstr "İleri Hata Düzeltme (FEC)"
 
 msgid "Forward volume keys"
-msgstr "İleri ses seviyesi tuşları"
+msgstr "Alıcı ses seviyesi tuşları Tv sesini kontrol etsin"
 
 msgid "Frame rate"
 msgstr "Kare hızı"
@@ -9344,7 +9344,7 @@ msgid "Goto specific date/time"
 msgstr "Belirli bir tarih/zamana git"
 
 msgid "Goto standby"
-msgstr "Beklemeye geç"
+msgstr "Bekleme moduna geç"
 
 #
 msgid "GotoX calibration"
@@ -9643,7 +9643,7 @@ msgid "Hide VBI Line For This Service"
 msgstr "Bu kanal için VBI satırını gizle"
 
 msgid "Hide any zap error messages."
-msgstr "Kanal Değiştirme hata mesajlarını gizle."
+msgstr "Kanal değiştirme hata mesajlarını gizle."
 
 msgid "Hide error messages from the Common Interface module."
 msgstr "Ortak Arayüz modülünden gelen hata mesajlarını gizleyin."
@@ -9670,7 +9670,7 @@ msgid "Hide the InfoBar"
 msgstr "Bilgi çubuğunu gizle"
 
 msgid "Hide zap errors"
-msgstr "Kanal Değiştirme hatalarını gizle"
+msgstr "Kanal değiştirme hatalarını gizle"
 
 msgid "Hide/Show the console screen"
 msgstr "Konsol ekranını gizle/göster"
@@ -10153,7 +10153,7 @@ msgid "Import remote receiver URL"
 msgstr "Uzak alıcı URL'sini içe aktarın"
 
 msgid "In addition to the check at an event start, a repetitive check can be used, so that the conditions 'buffer limit in hours' or 'check free space' are detected earlier."
-msgstr "Bir etkinliğin başlangıcındaki kontrole ek olarak, 'tampon limiti saat cinsinden' veya 'boş alan kontrolü' koşullarının daha erken tespit edilmesi için tekrarlayan bir kontrol kullanılabilir."
+msgstr "Bir etkinliğin başlangıcındaki kontrole ek olarak, 'arabellek limiti saat cinsinden' veya 'boş alan kontrolü' koşullarının daha erken tespit edilmesi için tekrarlayan bir kontrol kullanılabilir."
 
 msgid "In expert mode, configure which tuners will be preferred for recordings, when more than one tuner is available."
 msgstr "Uzman modunda, birden fazla tuner mevcut olduğunda, kayıtlar için hangi tunerlerin tercih edileceğini yapılandırın."
@@ -10857,14 +10857,14 @@ msgstr "Kırgızistan"
 
 #
 msgid "LAN"
-msgstr "Yerel Ağ"
+msgstr "Kablolu Ağ"
 
 #
 msgid "LAN adapter"
-msgstr "Yerel Ağ adaptörü"
+msgstr "Kablolu Ağ adaptörü"
 
 msgid "LAN connection"
-msgstr "Yerel Ağ bağlantısı"
+msgstr "Kablolu Ağ Bağlantısı"
 
 msgid "LCD scroll speed"
 msgstr "LCD kaydırma hızı"
@@ -10900,7 +10900,7 @@ msgid "LED Color"
 msgstr "LED Renk"
 
 msgid "LED Deep Standby"
-msgstr "LED Derin Bekleme"
+msgstr "Derin Bekleme modunda LED"
 
 msgid "LED Idle Brightness"
 msgstr "LED Bekleme Parlaklığı"
@@ -10918,7 +10918,7 @@ msgid "LED Shutdown Color"
 msgstr "LED Kapatma Rengi"
 
 msgid "LED Standby"
-msgstr "LED Bekleme"
+msgstr "Bekleme modunda LED"
 
 msgid "LED brightness during Deep Standby."
 msgstr "Derin bekleme sırasında LED parlaklığı."
@@ -11625,14 +11625,14 @@ msgid "Margin after recording"
 msgstr "Kayıt sonuna boşluk süresi ekle (dk.)"
 
 msgid "Margin after zap"
-msgstr "Kanal Değiştirme sonrası boşluk süresi ekle"
+msgstr "Kanal değiştirme sonrası boşluk süresi ekle"
 
 #
 msgid "Margin before recording"
 msgstr "Kayıt öncesinde boşluk süresi ekle (dk.)"
 
 msgid "Margin before zap"
-msgstr "Kanal Değiştirme öncesi boşluk süresi ekle"
+msgstr "Kanal değiştirme öncesi boşluk süresi ekle"
 
 msgid "Mark As Dedicated 3D Service"
 msgstr "Özel 3D Kanalı Olarak İşaretle"
@@ -12466,18 +12466,18 @@ msgstr "İsim azalan"
 
 #, python-format
 msgid "Name server %d"
-msgstr "İsim sunucusu %d"
+msgstr "Ad Sunucusu %d"
 
 #
 msgid "Nameserver"
-msgstr "İsim sunucusu"
+msgstr "Ad Sunucusu"
 
 #
 msgid "Nameserver settings"
-msgstr "İsim sunucusu ayarları"
+msgstr "Ad Sunucusu Ayarları"
 
 msgid "Nameserver setup"
-msgstr "İsim sunucusu kurulumu"
+msgstr "Ad Sunucusu Kurulumu"
 
 msgid "Namespace & Orbital position"
 msgstr "Ad alanı ve Yörünge konumu"
@@ -12788,7 +12788,7 @@ msgstr "Niue"
 
 #
 msgid "No"
-msgstr "Yok"
+msgstr "Hayır"
 
 msgid "No 'epg.dat' file found on the remote receiver!"
 msgstr "Uzak alıcıda ‘epg.dat’ dosyası bulunamadı!"
@@ -13038,7 +13038,7 @@ msgid ""
 "Please verify that you have attached a compatible WLAN device and your network is configured correctly."
 msgstr ""
 "Çalışır durumda bir kablosuz ağ adaptörü bulunamadı.\n"
-"Lütfen uyumlu bir WLAN cihazı bağladığınızdan ve ağınızın doğru yapılandırıldığından emin olun."
+"Lütfen uyumlu bir Kablosuz Ağ cihazı bağladığınızdan ve ağınızın doğru yapılandırıldığından emin olun."
 
 #
 msgid ""
@@ -13046,7 +13046,7 @@ msgid ""
 " Please verify that you have attached a compatible WLAN device or enable your local network interface."
 msgstr ""
 "Çalışır durumda bir kablosuz ağ arayüzü bulunamadı.\n"
-" Lütfen uyumlu bir WLAN cihazı bağladığınızdan emin olun veya yerel ağ arayüzünü etkinleştirin."
+" Lütfen uyumlu bir Kablosuz Ağ cihazı bağladığınızdan emin olun veya yerel ağ arayüzünü etkinleştirin."
 
 #
 msgid "No, but restart from begin"
@@ -13647,10 +13647,10 @@ msgid "Opera"
 msgstr "Opera"
 
 msgid "Operating LED status in Deep Standby"
-msgstr "Alıcının Derin Bekleme modunda LED rengi"
+msgstr "Alıcı Derin Bekleme modundayken LED rengi"
 
 msgid "Operating LED status in Standby"
-msgstr "Alıcının Bekleme modunda LED rengi"
+msgstr "Alıcı Bekleme modundayken LED rengi"
 
 msgid "Operating LED status while running"
 msgstr "Alıcı çalışırken LED rengi"
@@ -14715,7 +14715,7 @@ msgid "Prefer IPv6"
 msgstr "IPv6 tercih et"
 
 msgid "Prefer audio track stored by service"
-msgstr "Kanal tarafından kayıtlı ses kaydını tercih et"
+msgstr "Kanal tarafından kayıtlı sesi tercih et"
 
 msgid "Prefer graphical DVB subtitles"
 msgstr "Grafik DVB altyazıyı tercih et"
@@ -15125,7 +15125,7 @@ msgid "Put TV in Standby"
 msgstr "TV'yi bekleme moduna al"
 
 msgid "Put your AV Receiver in Standby"
-msgstr "AV Alıcınızı beklemeye alın"
+msgstr "AV Alıcınızı bekleme moduna alın"
 
 msgid "Python"
 msgstr "Python"
@@ -15504,17 +15504,17 @@ msgid "Recordings"
 msgstr "Kayıtlar"
 
 msgid "Recordings abort PiP"
-msgstr "Kayıtlar PiP'i iptal etti"
+msgstr "Kayıtlar PiP'i iptal etsin"
 
 msgid "Recordings abort pseudo recordings"
-msgstr "Kayıtlar sahte kayıtları iptal eder"
+msgstr "Kayıtlar sahte kayıtları iptal etsin"
 
 msgid "Recordings abort streaming"
-msgstr "Kayıtlar akışı durdurur"
+msgstr "Kayıtlar akışı durdursun"
 
 #
 msgid "Recordings always have priority"
-msgstr "Kayıt işlemi önceliklidir"
+msgstr "Kayıt işlemi öncelikli olsun"
 
 msgid "Recordings may not work correctly without an acceptable directory."
 msgstr "Uygun bir dizin olmadan kayıtlar doğru şekilde çalışmayabilir."
@@ -15561,7 +15561,7 @@ msgid "Refresh ZeroTier status information"
 msgstr "ZeroTier durum bilgilerini yenile"
 
 msgid "Refresh every"
-msgstr "Her yenileme"
+msgstr "Yenileme zamanı"
 
 msgid "Refresh rate"
 msgstr "Yenileme hızı"
@@ -15701,7 +15701,7 @@ msgstr "Kaldırma Onayı"
 
 #
 msgid "Remove Entry"
-msgstr "Kanalı Kaldır"
+msgstr "Kanal Listesinden Kaldır"
 
 msgid "Remove Files"
 msgstr "Dosyaları Kaldır"
@@ -15830,7 +15830,7 @@ msgstr "Dizini Yeniden İsimlendir"
 
 #
 msgid "Rename Entry"
-msgstr "Kanalı Yeniden İsimlendir"
+msgstr "Yeniden İsimlendir"
 
 msgid "Rename all related files"
 msgstr "İlgili tüm dosyaları yeniden isimlendir"
@@ -16000,7 +16000,7 @@ msgid "Restart GUI"
 msgstr "Kullanıcı Arayüzünü Yeniden Başlat"
 
 msgid "Restart GUI after x crashes"
-msgstr "x çökmeden sonra Kullanıcı Arayüzünü yeniden başlat"
+msgstr "Kullanıcı Arayüzünü x çökmeden sonra yeniden başlat"
 
 msgid "Restart GUI now to start using the new locale/language?"
 msgstr "Yeni yerel ayarı/dili kullanmaya başlamak için Kullanıcı Arayüzü şimdi yeniden başlasın mı?"
@@ -16019,7 +16019,7 @@ msgid "Restart OSCam"
 msgstr "OSCam'i Yeniden Başlat"
 
 msgid "Restart enigma"
-msgstr "Enigma'yı Yeniden Başlat"
+msgstr "Enigmayı Yeniden Başlat"
 
 #
 msgid "Restart necessary, restart GUI now?"
@@ -16525,7 +16525,7 @@ msgid "Save directory on EXIT"
 msgstr "Çıkışta dizini kaydet"
 
 msgid "Save every"
-msgstr "Her şeyi kaydet"
+msgstr "Kaydetme zamanı"
 
 #, python-format
 msgid "Save image as '%s'"
@@ -16570,7 +16570,7 @@ msgid "Save time shift as movie and stop recording"
 msgstr "Zaman-kaydırmayı film olarak sakla ve kaydı durdur"
 
 msgid "Save time shift buffer now and continue recording"
-msgstr "Şimdi zaman kaydırma tamponundan tasarruf et ve kayda devam et"
+msgstr "Şimdi zaman kaydırma arabelleğinden tasarruf et ve kayda devam et"
 
 msgid "Saved lines in script messages"
 msgstr "Komut dosyası mesajlarında kaydedilen satırlar"
@@ -16579,7 +16579,7 @@ msgid "Saving EPG Cache..."
 msgstr "EPG Önbelleği kaydediliyor..."
 
 msgid "Saving time shift buffer, this might take a while."
-msgstr "Zaman kaydırma tamponundan tasarruf ediliyor, bu biraz zaman alabilir."
+msgstr "Zaman kaydırma arabelleğinden tasarruf ediliyor, bu biraz zaman alabilir."
 
 msgid "Saving time shift files"
 msgstr "Zaman kaydırma dosyalarını kaydet"
@@ -16676,22 +16676,22 @@ msgid "Scheduled save of 'epg.dat'"
 msgstr "'epg.dat' dosyasının planlı kaydedilmesi"
 
 msgid "Scheduler"
-msgstr "Planlayıcı"
+msgstr "Zamanlayıcı"
 
 msgid "Scheduler Actions"
-msgstr "Planlayıcı İşlemleri"
+msgstr "Zamanlayıcı İşlemleri"
 
 msgid "Scheduler Overview"
-msgstr "Planlayıcıya Genel Bakış"
+msgstr "Zamanlayıcıya Genel Bakış"
 
 msgid "Scheduler Settings"
-msgstr "Planlayıcı Ayarları"
+msgstr "Zamanlayıcı Ayarları"
 
 msgid "Scheduler deep standby"
 msgstr "Derin Beklemeyi planla"
 
 msgid "Scheduler log"
-msgstr "Planlayıcı günlüğü"
+msgstr "Zamanlayıcı günlüğü"
 
 msgid "Scheduler standby"
 msgstr "Beklemeyi planla"
@@ -17143,7 +17143,7 @@ msgid "Select Enigma2 Skin"
 msgstr "Enigma2 Arayüzü Seç"
 
 msgid "Select Excluded Backup Files"
-msgstr "Hariç Tutulacak Yedekleme Dosyalarını Seç"
+msgstr "Çıkarılacak Yedekleme Dosyalarını Seç"
 
 msgid "Select Fast DiSEqC if your aerial system supports it. If you are unsure select 'No'."
 msgstr "Anten sisteminiz destekliyorsa Hızlı DiSEqC'yi seçin. Emin değilseniz 'Hayır'ı seçin."
@@ -17152,7 +17152,7 @@ msgid "Select Folders"
 msgstr "Klasör Seç"
 
 msgid "Select Lan/Wlan"
-msgstr "Lan / Wlan Seç"
+msgstr "Kablolu Ağ / Kablosuz Ağ Seçin"
 
 msgid "Select Location"
 msgstr "Konum Seç"
@@ -17312,7 +17312,7 @@ msgid "Select destination for:"
 msgstr "Hedefi seçin:"
 
 msgid "Select files to exclude from backup"
-msgstr "Yedeklemeden hariç tutulacak dosyaları seçin"
+msgstr "Yedeklemeden çıkarılacak dosyaları seçin"
 
 #
 msgid "Select files/folders to backup"
@@ -18291,7 +18291,7 @@ msgid "Set fixed"
 msgstr "Sabiti ayarla"
 
 msgid "Set fps for external subtitles"
-msgstr "Harici altyazılar için fps ayarlayın"
+msgstr "Harici altyazılar için fps ayarla"
 
 msgid "Set how long the second InfoBar stays visible. The second InfoBar also disappears when you press 'OK'."
 msgstr "İkinci bilgi çubuğunun ne kadar süreyle görünür kalacağını ayarlayın. İkinci Bilgi çubuğu ayrıca 'OK' tuşuna basıldığında da kaybolur."
@@ -18414,7 +18414,7 @@ msgid "Set the top left location of the busy spinner. The coordinates are scaled
 msgstr "Spinner'in sol üst köşesinin konumunu ayarlayın. Koordinatlar, sol üst köşenin (0,0) ve sağ alt köşenin (1260,700) konumunda olacak şekilde ölçeklendirilmiştir. Konumun, spinner'in merkezi değil, sol üst köşesi olduğunu unutmayın."
 
 msgid "Set the type of the progress indication in the channel selection screen."
-msgstr "Kanal seçim ekranında ilerleme göstergesinin türünü ayarlayın."
+msgstr "Kanal seçim ekranında etkinlik ilerleme göstergesinin türünü ayarlayın."
 
 msgid "Set the username for the monitoring UI web interface."
 msgstr "Kullanıcı Arayüzü web arayüzü izleme için kullanıcı ismini ayarlayın."
@@ -18637,13 +18637,13 @@ msgid "Setup your local network"
 msgstr "Yerel ağınızı kurun"
 
 msgid "Setup your local network. For Wlan you need to boot with a USB-Wlan stick"
-msgstr "Yerel ağınızı kurun. WLAN için USB WLAN adaptörü ile önyükleme yapmanız gerekir"
+msgstr "Yerel ağınızı kurun. Kablosuz ağ için USB Kablosuz Ağ adaptörü ile önyükleme yapmanız gerekir"
 
 msgid "Setup your mounts for network"
 msgstr "Ağ için bağlantı noktalarınızı ayarlayın"
 
 msgid "Setup your network interface. If no Wlan stick is used, you only can select Lan"
-msgstr "Ağ arayüzünüzü ayarlayın. Eğer WLAN adaptörü kullanılmıyorsa, yalnızca LAN seçeneğini seçebilirsiniz"
+msgstr "Ağ arayüzünüzü ayarlayın. Eğer Kablosuz Ağ adaptörü kullanılmıyorsa, yalnızca Kablolu Ağ seçeneğini seçebilirsiniz"
 
 msgid "Setup your network mounts"
 msgstr "Ağ bağlantılarınızı kurun"
@@ -18797,7 +18797,7 @@ msgid "Show EventView"
 msgstr "Etkinlik Görünümü Göster"
 
 msgid "Show Extension packages"
-msgstr "Uzantı paketlerini göster"
+msgstr "Eklenti paketlerini göster"
 
 msgid "Show Graphical EPG"
 msgstr "Grafiksel EPG'yi Göster"
@@ -18806,7 +18806,7 @@ msgid "Show HDD progress"
 msgstr "HDD ilerlemesini göster"
 
 msgid "Show HDMI Output Resolution."
-msgstr "HDMI Çıkış Çözünürlüğünü Göster"
+msgstr "HDMI Çıkış Çözünürlüğünü Göster."
 
 msgid "Show HDMI-Output Res"
 msgstr "HDMI Çıkış Çözünürlüğünü Göster"
@@ -18815,7 +18815,7 @@ msgid "Show InfoBar"
 msgstr "Bilgi Çubuğunu göster"
 
 msgid "Show InfoBar lite"
-msgstr "Bilgi Çubuğunu göster (lite)"
+msgstr "Bilgi Çubuğunu (lite) göster"
 
 #
 msgid "Show InfoBar on channel change"
@@ -18964,7 +18964,7 @@ msgstr "Dikey EPG Göster"
 
 #
 msgid "Show WLAN status"
-msgstr "WLAN durumunu göster"
+msgstr "Kablosuz Ağ bağlantı durumunu göster"
 
 msgid "Show Web Link packages"
 msgstr "Web Bağlantı paketlerini göster"
@@ -19013,7 +19013,7 @@ msgid "Show channel number in InfoBar"
 msgstr "Bilgi Çubuğunda kanal numaralarını göster"
 
 msgid "Show channel numbers in channel selection"
-msgstr "Kanal seçiminde kanal numaralarını göster"
+msgstr "Kanal listesinde kanal numaralarını göster"
 
 #
 msgid "Show channel selection"
@@ -19079,7 +19079,7 @@ msgid "Show event genre information"
 msgstr "Etkinlik türü bilgilerini göster"
 
 msgid "Show event-progress in channel selection"
-msgstr "Kanal seçim ekranında etkinlik işleyişini göster"
+msgstr "Kanal listesinde etkinlik ilerleme çubuğu gösterimi"
 
 msgid "Show eventinfo plugins"
 msgstr "Eventinfo eklentilerini göster"
@@ -19140,7 +19140,7 @@ msgid "Show info line"
 msgstr "Bilgi satırını göster"
 
 msgid "Show job tasks in Extension Menu"
-msgstr "Uzantı Menüsünde iş görevlerini göster"
+msgstr "Uzantı Menüsünde görevleri göster"
 
 msgid "Show last image"
 msgstr "Son resmi göster"
@@ -20165,7 +20165,7 @@ msgstr "Bekleme"
 
 #
 msgid "Standby / Restart"
-msgstr "Kapatma Menüsü"
+msgstr "Bekleme / Yeniden Başlat"
 
 msgid "Standby execution"
 msgstr "Bekleme modunda çalıştırma"
@@ -21838,7 +21838,7 @@ msgstr ""
 "Bu test yapılandırılmış DNS ayarlarını kontrol eder.\n"
 "Eğer \"onaylanmamış\" mesajı alırsanız:\n"
 "- Lütfen DHCP, kablolama ve adaptör ayarlarınızı kontrol edin.\n"
-"- Eğer isim sunucularınızı manuel olarak yapılandırdıysanız, lütfen \"İsim Sunucusu\" yapılandırmasındaki girişlerinizi doğrulayın"
+"- Eğer ad sunucularınızı manuel olarak yapılandırdıysanız, lütfen \"Ad Sunucusu\" yapılandırmasındaki girişlerinizi doğrulayın"
 
 #
 msgid ""
@@ -21847,7 +21847,7 @@ msgid ""
 "- verify that a network cable is attached\n"
 "- verify that the cable is not broken"
 msgstr ""
-"Bu test, ağ kablosunun LAN adaptörünüze bağlı olup olmadığını kontrol eder.\n"
+"Bu test, ağ kablosunun Kablolu Ağ adaptörünüze bağlı olup olmadığını kontrol eder.\n"
 "Eğer \"Bağlı değil\" mesajı alırsanız:\n"
 "- Ağ kablosunun takılı olduğundan emin olun\n"
 "- Kablonun hasarlı olmadığından emin olun"
@@ -21859,7 +21859,7 @@ msgid ""
 "- no valid IP address was found\n"
 "- please check your DHCP, cabling and adapter setup"
 msgstr ""
-"Bu test LAN adaptörünüz için geçerli bir IP adresi bulunup bulunmadığını kontrol eder.\n"
+"Bu test Kablolu Ağ adaptörünüz için geçerli bir IP adresi bulunup bulunmadığını kontrol eder.\n"
 "Eğer \"Onaylanmamış\" mesajı alırsanız:\n"
 "- Geçerli bir IP adresi bulunamamıştır\n"
 "- Lütfen DHCP, kablolama ve adaptör kurulumunuzu kontrol edin"
@@ -21872,16 +21872,16 @@ msgid ""
 "If you get an \"enabled\" message:\n"
 "-verify that you have a configured and working DHCP server in your network."
 msgstr ""
-"Bu test, LAN adaptörünüzün DHCP ile otomatik IP adresi yapılandırması için ayarlanıp ayarlanmadığını kontrol eder.\n"
+"Bu test, Kablolu Ağ adaptörünüzün DHCP ile otomatik IP adresi yapılandırması için ayarlanıp ayarlanmadığını kontrol eder.\n"
 "Eğer \"Devre dışı\" mesajı alırsanız:\n"
-" - LAN adaptörünüz manuel IP kurulumu için yapılandırılmıştır\n"
+" - Kablolu Ağ adaptörünüz manuel IP kurulumu için yapılandırılmıştır\n"
 "- Adaptör kurulum iletişim kutusunda doğru IP bilgilerini girdiğinizden emin olun.\n"
 "Eğer \"Etkin\" mesajı alırsanız:\n"
 "- Ağınızda yapılandırılmış ve çalışan bir DHCP sunucunuz olduğundan emin olun."
 
 #
 msgid "This test detects your configured LAN adapter."
-msgstr "Bu test yapılandırdığınız LAN adaptörünüzü algılar."
+msgstr "Bu test yapılandırdığınız Kablolu Ağ adaptörünüzü algılar."
 
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
@@ -21940,16 +21940,16 @@ msgid "Time"
 msgstr "Zaman"
 
 msgid "Time Settings"
-msgstr "Saat ve Tarih Ayarları"
+msgstr "Zaman Ayarları"
 
 msgid "Time Setup Actions"
-msgstr "Zaman Ayar İşlemleri"
+msgstr "Zaman Ayarı İşlemleri"
 
 msgid "Time Shift Settings"
 msgstr "Zaman Kaydırma Ayarları"
 
 msgid "Time between slides in image viewer slide show."
-msgstr "Resim görüntüleyici slayt gösterisinde slaytlar arasındaki süre."
+msgstr "Resim görüntüleyici slayt gösterisinde, slaytlar arasındaki süre."
 
 msgid "Time delay for the repeated transmission"
 msgstr "Tekrarlanan iletim için zaman gecikmesi"
@@ -21982,10 +21982,10 @@ msgid "Time shift buffer delete after zap"
 msgstr "Zaman kaydırma arabelleğini silme işlemi, kanal değiştirme işleminden sonra gerçekleşir"
 
 msgid "Time shift buffer limit"
-msgstr "Zaman kaydırma tamponu sınırı"
+msgstr "Zaman kaydırma arabellek sınırı"
 
 msgid "Time shift buffer location"
-msgstr "Zaman kaydırma tamponunun konumu"
+msgstr "Zaman kaydırma arabellek konumu"
 
 msgid "Time shift checking for free space"
 msgstr "Boş alan için zaman kaydırma kontrolü"
@@ -22823,7 +22823,7 @@ msgid "Unscramble receiving http streams"
 msgstr "Alınan HTTP akışlarını çöz"
 
 msgid "Unset As Startup Service"
-msgstr "Başlangıç Kanalı Olarak Ayarlanmadı"
+msgstr "Başlangıç Kanalı Olarak Ayarlamayı Kaldır"
 
 #
 msgid "Unsupported"
@@ -23038,7 +23038,7 @@ msgid "Use Virgin EPG information when it is available."
 msgstr "Varsa Virgin EPG bilgisini kullanın."
 
 msgid "Use Zap timer end times"
-msgstr "Kanal Değiştirme zamanlayıcısının bitiş zamanlarını kullanın"
+msgstr "Kanal değiştirme zamanlayıcısının bitiş zamanlarını kullanın"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Performansı artırmak, gecikmeyi azaltmak ve giden trafiği düşürmek için son DNS sorgularını yerel olarak depolamak üzere bir DNS önbelleği kullanın."
@@ -23130,7 +23130,7 @@ msgid "Use original DVB subtitle position"
 msgstr "Orijinal DVB altyazı konumunu kullan"
 
 msgid "Use original teletext position"
-msgstr "Orijinal teletext konumu kullanın"
+msgstr "Orijinal teletext konumu kullan"
 
 msgid "Use per directory settings"
 msgstr "Bu ayarları her dizinde kullan"
@@ -23822,7 +23822,7 @@ msgid "Watersports"
 msgstr "Su sporları"
 
 msgid "Weather"
-msgstr "Hava"
+msgstr "Hava Durumu"
 
 msgid "Web Interface"
 msgstr "Web Arayüzü"
