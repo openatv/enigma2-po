@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 09:22+0000\n"
+"POT-Creation-Date: 2026-01-27 16:53+0000\n"
 "PO-Revision-Date: 2026-01-19 21:10+0000\n"
 "Last-Translator: Libor Rejč <lir@mail.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
@@ -7723,9 +7723,6 @@ msgstr "Chyba načtení webu!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Chyba při načítání 'epg.dat' ze vzdáleného přijímače!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Chyba při načítání umístění 'epg.dat' na vzdáleném přijímači!"
-
 msgid "Error text:"
 msgstr "Text chyby:"
 
@@ -8010,9 +8007,6 @@ msgstr "Ukončit editor a zrušit všechny změny"
 msgid "Exit editor and save any changes"
 msgstr "Ukončit editor a uložit všechny změny"
 
-msgid "Exit picture viewer"
-msgstr "Ukončit prohlížeč obrázků"
-
 msgid "Exit input device selection."
 msgstr "Zavřít výběr vstupních zařízení."
 
@@ -8039,6 +8033,9 @@ msgstr "Zavřít seznam síťových rozhraní"
 
 msgid "Exit network wizard"
 msgstr "Zavřít síťového průvodce"
+
+msgid "Exit picture viewer"
+msgstr "Ukončit prohlížeč obrázků"
 
 msgid "Exit quad PiP"
 msgstr "Ukončit quad PiP"
@@ -8406,12 +8403,6 @@ msgstr "File Commander akce hash / kontrolní součet"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander hashe / kontrolní součty"
 
-msgid "File Commander Picture Viewer"
-msgstr "File Commander Prohlížeč obrázků"
-
-msgid "File Commander Picture Viewer Actions"
-msgstr "File Commander Akce prohlížeče obrázků"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander akce s informacemi"
 
@@ -8426,6 +8417,12 @@ msgstr "File Commander přesunout"
 
 msgid "File Commander Navigation Actions"
 msgstr "Akce navigace File Commander"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander Prohlížeč obrázků"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander Akce prohlížeče obrázků"
 
 msgid "File Commander Selection Actions"
 msgstr "Akce výběru File Commander"
@@ -16875,9 +16872,10 @@ msgstr "Nastavení doby v minutách pro spořič obrazovky."
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "Vyberte čas ukončení, před kterým lze tento časovač aktivovat. Po uplynutí této doby se časovač neaktivuje, i když jsou splněny ostatní podmínky."
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Vyberte pořadí řazení souborů pro sloupec %s:"
+msgid "Select the file sort order for the %s:"
+msgstr ""
 
 msgid "Select the file system for the device."
 msgstr "Vyberte systém souborů pro zařízení."
@@ -24050,6 +24048,9 @@ msgstr "skok na kapitolu podle čísla"
 msgid "left"
 msgstr "vlevo"
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr "délka"
 
@@ -24190,6 +24191,9 @@ msgstr "vrátit na předchozí kapitolu"
 
 msgid "right"
 msgstr "vpravo"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24382,6 +24386,13 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Chyba při načítání umístění 'epg.dat' na vzdáleném přijímači!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Vyberte pořadí řazení souborů pro sloupec %s:"
 
 #~ msgid ""
 #~ "File oscam.conf not found.\n"
