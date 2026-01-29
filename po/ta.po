@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 09:22+0000\n"
+"POT-Creation-Date: 2026-01-27 16:53+0000\n"
 "PO-Revision-Date: 2025-06-17 15:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ta/>\n"
@@ -7681,9 +7681,6 @@ msgstr "வலைப்பக்கத்தைப் படிப்பதி�
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "தொலைநிலை பெறுநரிடமிருந்து 'epg.dat' ஐ மீட்டெடுப்பதில் பிழை!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "தொலைநிலை ரிசீவரில் 'epg.dat' இருப்பிடத்தை மீட்டெடுப்பதில் பிழை!"
-
 msgid "Error text:"
 msgstr "பிழை உரை:"
 
@@ -7968,9 +7965,6 @@ msgstr "எடிட்டரை விட்டு வெளியேறி எ
 msgid "Exit editor and save any changes"
 msgstr "எடிட்டரை விட்டு வெளியேறி எந்த மாற்றங்களையும் சேமிக்கவும்"
 
-msgid "Exit picture viewer"
-msgstr "பட பார்வையாளரை விட்டு வெளியேறவும்"
-
 msgid "Exit input device selection."
 msgstr "உள்ளீட்டு சாதனத் தேர்விலிருந்து வெளியேறவும்."
 
@@ -7997,6 +7991,9 @@ msgstr "பிணைய இடைமுக பட்டியலிலிரு�
 
 msgid "Exit network wizard"
 msgstr "பிணையம் வழிகாட்டி வெளியேறவும்"
+
+msgid "Exit picture viewer"
+msgstr "பட பார்வையாளரை விட்டு வெளியேறவும்"
 
 msgid "Exit quad PiP"
 msgstr "வெளியேறும் குவாட் பிப்"
@@ -8364,12 +8361,6 @@ msgstr "கோப்பு தளபதி ஆச் / செக்சம் ச
 msgid "File Commander Hashes / Checksums"
 msgstr "கோப்பு தளபதி ஆச்கள் / செக்சம்ச்"
 
-msgid "File Commander Picture Viewer"
-msgstr "கோப்பு தளபதி பட பார்வையாளர்"
-
-msgid "File Commander Picture Viewer Actions"
-msgstr "கோப்பு தளபதி பட பார்வையாளர் செயல்கள்"
-
 msgid "File Commander Information Actions"
 msgstr "கோப்பு தளபதி செய்தி செயல்கள்"
 
@@ -8384,6 +8375,12 @@ msgstr "கோப்பு தளபதி நகர்வு"
 
 msgid "File Commander Navigation Actions"
 msgstr "கோப்பு தளபதி வழிசெலுத்தல் செயல்கள்"
+
+msgid "File Commander Picture Viewer"
+msgstr "கோப்பு தளபதி பட பார்வையாளர்"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "கோப்பு தளபதி பட பார்வையாளர் செயல்கள்"
 
 msgid "File Commander Selection Actions"
 msgstr "கோப்பு தளபதி தேர்வு செயல்கள்"
@@ -16826,9 +16823,10 @@ msgstr "திரை சேவர் காண்பிக்கப்படு�
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "%s நெடுவரிசைக்கு கோப்பு வரிசை வரிசையைத் தேர்ந்தெடுக்கவும்:"
+msgid "Select the file sort order for the %s:"
+msgstr ""
 
 msgid "Select the file system for the device."
 msgstr "சாதனத்திற்கான கோப்பு முறைமையைத் தேர்ந்தெடுக்கவும்."
@@ -18359,11 +18357,11 @@ msgstr "அடுத்த பிழைத்திருத்த பதிவ�
 msgid "Show next event"
 msgstr "அடுத்த நிகழ்வைக் காட்டு"
 
-msgid "Show next picture"
-msgstr "அடுத்த படத்தைக் காட்டு"
-
 msgid "Show next page"
 msgstr "அடுத்த பக்கத்தைக் காட்டு"
+
+msgid "Show next picture"
+msgstr "அடுத்த படத்தைக் காட்டு"
 
 msgid "Show next service information screen"
 msgstr "அடுத்த பணி செய்தி திரையைக் காட்டு"
@@ -23996,6 +23994,9 @@ msgstr "எண் மூலம் அத்தியாயத்திற்க�
 msgid "left"
 msgstr "இடது"
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr "நீளம்"
 
@@ -24136,6 +24137,9 @@ msgstr "முந்தைய அத்தியாயத்திற்கு �
 
 msgid "right"
 msgstr "வலது"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24327,6 +24331,13 @@ msgstr "ஆம் (ஊட்டங்களை வைத்திருங்க
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "தொலைநிலை ரிசீவரில் 'epg.dat' இருப்பிடத்தை மீட்டெடுப்பதில் பிழை!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "%s நெடுவரிசைக்கு கோப்பு வரிசை வரிசையைத் தேர்ந்தெடுக்கவும்:"
 
 #~ msgid ""
 #~ "File oscam.conf not found.\n"

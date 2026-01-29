@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 09:22+0000\n"
-"PO-Revision-Date: 2026-01-27 03:17+0000\n"
+"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"PO-Revision-Date: 2026-01-27 18:50+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -7734,9 +7734,6 @@ msgstr "Błąd odczytu strony!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Błąd podczas pobierania pliku „epg.dat” ze zdalnego odbiornika!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Błąd podczas pobierania lokalizacji „epg.dat” na zdalnym odbiorniku!"
-
 msgid "Error text:"
 msgstr "Tekst błędu:"
 
@@ -8021,9 +8018,6 @@ msgstr "Zamknij edytor i odrzuć wszelkie zmiany"
 msgid "Exit editor and save any changes"
 msgstr "Zamknij edytor i zapisz wszystkie zmiany"
 
-msgid "Exit picture viewer"
-msgstr "Zamknij przeglądarkę obrazów"
-
 msgid "Exit input device selection."
 msgstr "Wyjdź z wyboru urządzenia wejściowego."
 
@@ -8050,6 +8044,9 @@ msgstr "Opuść listę interfejsów sieciowych"
 
 msgid "Exit network wizard"
 msgstr "Wyjdź z konfiguracji sieci"
+
+msgid "Exit picture viewer"
+msgstr "Zamknij przeglądarkę zdjęć"
 
 msgid "Exit quad PiP"
 msgstr "Wyjdź z quad PiP"
@@ -8417,12 +8414,6 @@ msgstr "File Commander: Akcje hasz/suma kontrolna"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander: Hasz/suma kontrolna"
 
-msgid "File Commander Picture Viewer"
-msgstr "File Commander: Podgląd obrazu"
-
-msgid "File Commander Picture Viewer Actions"
-msgstr "File Commander: Akcje podglądu obrazu"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander: Akcje informacji"
 
@@ -8437,6 +8428,12 @@ msgstr "File Commander: Przenieś"
 
 msgid "File Commander Navigation Actions"
 msgstr "Akcje nawigacji w pluginie File Commander"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander: Podgląd zdjęć"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander: Akcje podglądu zdjęć"
 
 msgid "File Commander Selection Actions"
 msgstr "Akcje selekcji File Commander"
@@ -13940,7 +13937,7 @@ msgid "Please wait, flash memory is being copied to this flash expander. This co
 msgstr "Proszę czekać, kopiowanie pamięci flash do tego ekspandera pamięci flash. Może to potrwać kilka minut."
 
 msgid "Please wait, loading picture..."
-msgstr "Proszę czekać, trwa ładowanie systemu..."
+msgstr "Proszę czekać, trwa ładowanie zdjęcia..."
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
 msgstr "Proszę czekać, trwa tworzenie swapu. Może to potrwać kilka minut."
@@ -16887,9 +16884,10 @@ msgstr "Wybierz czas bezczynności, po którym zostanie wyświetlony wygaszacz e
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "Wybierz godzinę zakończenia, przed którą ten timer może zostać aktywowany. Po tym czasie timer nie zostanie aktywowany, nawet jeśli zostaną spełnione inne warunki."
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Wybierz kolejność sortowania plików dla kolumny %s:"
+msgid "Select the file sort order for the %s:"
+msgstr "Wybierz kolejność sortowania plików dla %s:"
 
 msgid "Select the file system for the device."
 msgstr "Wybierz system plików dla urządzenia."
@@ -18336,7 +18334,7 @@ msgid "Show files backed up by default"
 msgstr "Domyślne pliki kopii zapasowej"
 
 msgid "Show first picture"
-msgstr "Wyświetl pierwszy obraz"
+msgstr "Pokaż pierwsze zdjęcie"
 
 msgid "Show free space in timer view"
 msgstr "Pokaż wolne miejsce w widoku timera"
@@ -18376,7 +18374,7 @@ msgid "Show job tasks in Extension Menu"
 msgstr "Pokaż zadania w Menu rozszerzenia"
 
 msgid "Show last picture"
-msgstr "Wyświetl ostatni obraz"
+msgstr "Pokaż ostatnie zdjęcie"
 
 msgid "Show list of bouquets"
 msgstr "Pokaż wszystkie listy kanałów"
@@ -21315,10 +21313,10 @@ msgid "Toggle between the available TV and RADIO services"
 msgstr "Przełączaj się między dostępnymi kanałami TV i RADIO"
 
 msgid "Toggle display of picture information"
-msgstr "Przełącz wyświetlanie informacji o systemie"
+msgstr "Przełącz wyświetlanie informacji o zdjęciu"
 
 msgid "Toggle display of the picture status overlay"
-msgstr "Przełączanie wyświetlania nakładki stanu obrazu"
+msgstr "Przełączanie wyświetlania nakładki stanu zdjęcia"
 
 msgid "Toggle enable/disable of the currently selected timer"
 msgstr "Włącz/wyłącz aktualnie wybrany timer"
@@ -24063,6 +24061,9 @@ msgstr "przejdź do rozdziału według numeru"
 msgid "left"
 msgstr "Lewo"
 
+msgid "left column"
+msgstr "lewa kolumna"
+
 msgid "length"
 msgstr "długość"
 
@@ -24203,6 +24204,9 @@ msgstr "cofnij do poprzedniego rozdziału"
 
 msgid "right"
 msgstr "Prawo"
+
+msgid "right column"
+msgstr "prawa kolumna"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24395,6 +24399,13 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Błąd podczas pobierania lokalizacji pliku 'epg.dat' na zdalnym odbiorniku!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Wybierz kolejność sortowania plików dla kolumny %s:"
 
 #~ msgid ""
 #~ "File oscam.conf not found.\n"
