@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 09:22+0000\n"
-"PO-Revision-Date: 2026-01-18 14:48+0000\n"
+"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"PO-Revision-Date: 2026-01-28 10:58+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid ""
@@ -7683,9 +7683,6 @@ msgstr "Errore di lettura pagina web!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Errore nel recupero di 'epg.dat' dal ricevitore remoto!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Errore nel recupero della posizione di 'epg.dat' sul ricevitore remoto!"
-
 msgid "Error text:"
 msgstr "Testo dell'errore:"
 
@@ -7970,9 +7967,6 @@ msgstr "Esci dall'editor e scarta tutte le modifiche"
 msgid "Exit editor and save any changes"
 msgstr "Esci dall'editor e salva le modifiche"
 
-msgid "Exit picture viewer"
-msgstr "Esci dal visualizzatore di immagini"
-
 msgid "Exit input device selection."
 msgstr "Esci dalla selezione del dispositivo di input."
 
@@ -7999,6 +7993,9 @@ msgstr "Esci dall'elenco interfacce di rete"
 
 msgid "Exit network wizard"
 msgstr "Esci dalla procedura guidata di rete"
+
+msgid "Exit picture viewer"
+msgstr "Esci dal visualizzatore di immagini"
 
 msgid "Exit quad PiP"
 msgstr "Esci dal PiP quad"
@@ -8366,12 +8363,6 @@ msgstr "File Commander Azioni Hash/checksum"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander Hash/checksum"
 
-msgid "File Commander Picture Viewer"
-msgstr "File Commander Visualizzatore di immagini"
-
-msgid "File Commander Picture Viewer Actions"
-msgstr "File Commander Azioni del Visualizzatore di immagini"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander Informazioni azioni"
 
@@ -8386,6 +8377,12 @@ msgstr "File Commander Sposta"
 
 msgid "File Commander Navigation Actions"
 msgstr "File Commander Azioni di Navigazione"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander Visualizzatore di immagini"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander Azioni del Visualizzatore di immagini"
 
 msgid "File Commander Selection Actions"
 msgstr "File Commander Azioni di Selezione"
@@ -16828,9 +16825,10 @@ msgstr "Configura durata in minuti prima che venga visualizzato lo screen saver.
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "Seleziona l'ora di fine prima della quale il timer può essere attivato. Dopo tale ora il timer non verrà attivato, anche se vengono soddisfatte altre condizioni."
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Seleziona ordinamento dei file per la colonna %s:"
+msgid "Select the file sort order for the %s:"
+msgstr "Seleziona ordinamento dei file per %s:"
 
 msgid "Select the file system for the device."
 msgstr "Seleziona file system per il dispositivo."
@@ -23998,6 +23996,9 @@ msgstr "vai al capitolo per numerazione"
 msgid "left"
 msgstr "sinistro"
 
+msgid "left column"
+msgstr "colonna sinistra"
+
 msgid "length"
 msgstr "durata"
 
@@ -24138,6 +24139,9 @@ msgstr "torna al capitolo precedente"
 
 msgid "right"
 msgstr "destro"
+
+msgid "right column"
+msgstr "colonna destra"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24329,6 +24333,13 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Errore nel recupero della posizione di 'epg.dat' sul ricevitore remoto!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Seleziona ordinamento dei file per la colonna %s:"
 
 #~ msgid ""
 #~ "File oscam.conf not found.\n"
