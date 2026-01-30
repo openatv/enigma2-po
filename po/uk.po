@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-17 09:22+0000\n"
-"PO-Revision-Date: 2026-01-19 18:44+0000\n"
+"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"PO-Revision-Date: 2026-01-30 11:01+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -7725,9 +7725,6 @@ msgstr "Помилка читання веб-сторінки!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Помилка під час отримання 'epg.dat' із резервного приймача!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Помилка під час отримання розташування 'epg.dat' на резервному приймачі!"
-
 msgid "Error text:"
 msgstr "Текст помилки:"
 
@@ -8012,9 +8009,6 @@ msgstr "Вийти із редактора та скасувати всі змі
 msgid "Exit editor and save any changes"
 msgstr "Вийти із редактора та зберегти усі зміни"
 
-msgid "Exit picture viewer"
-msgstr "Вийти з програми перегляду зображень"
-
 msgid "Exit input device selection."
 msgstr "Вийти з вибору пристрою введення."
 
@@ -8041,6 +8035,9 @@ msgstr "Вийти з списку мережевих інтерфейсів"
 
 msgid "Exit network wizard"
 msgstr "Вийти з майстра мережі"
+
+msgid "Exit picture viewer"
+msgstr "Вийти з програми перегляду зображень"
 
 msgid "Exit quad PiP"
 msgstr "Вийти з чотирьохекранного ПІП"
@@ -8408,12 +8405,6 @@ msgstr "File Commander Дії хешу/Контрольної суми"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander Хеші/Контрольні суми"
 
-msgid "File Commander Picture Viewer"
-msgstr "File Commander Переглядач зображень"
-
-msgid "File Commander Picture Viewer Actions"
-msgstr "File Commander Дії засобу перегляду зображень"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander Дії з Інформацією"
 
@@ -8428,6 +8419,12 @@ msgstr "File Commander Переміщення"
 
 msgid "File Commander Navigation Actions"
 msgstr "Дії навігації File Commander"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander Переглядач зображень"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander Дії засобу перегляду зображень"
 
 msgid "File Commander Selection Actions"
 msgstr "File Commander Дії вибору"
@@ -16877,9 +16874,10 @@ msgstr "Через якийсь час показати заставку."
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "Виберіть час завершення, до якого цей таймер можна активувати. Після цього часу таймер не буде активовано, навіть якщо будуть виконані інші умови."
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Виберіть порядок сортування файлів для стовпця %s:"
+msgid "Select the file sort order for the %s:"
+msgstr "Виберіть порядок сортування файлів для %s:"
 
 msgid "Select the file system for the device."
 msgstr "Виберіть файлову систему для пристрою."
@@ -18410,11 +18408,11 @@ msgstr "Показати наступний файл журналу налаго
 msgid "Show next event"
 msgstr "Показати наступну передачу"
 
-msgid "Show next picture"
-msgstr "Показати наступний імідж"
-
 msgid "Show next page"
 msgstr "Показати наступну сторінку"
+
+msgid "Show next picture"
+msgstr "Показати наступний імідж"
 
 msgid "Show next service information screen"
 msgstr "Показати наступну інформацію про канал"
@@ -24052,6 +24050,9 @@ msgstr "перейти до розділу по номеру"
 msgid "left"
 msgstr "лівий"
 
+msgid "left column"
+msgstr "ліва колонка"
+
 msgid "length"
 msgstr "тривалість"
 
@@ -24192,6 +24193,9 @@ msgstr "перейти до попереднього фрагменту"
 
 msgid "right"
 msgstr "правий"
+
+msgid "right column"
+msgstr "права колонка"
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24384,6 +24388,13 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Помилка під час отримання розташування 'epg.dat' на резервному приймачі!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Виберіть порядок сортування файлів для стовпця %s:"
 
 #~ msgid ""
 #~ "File oscam.conf not found.\n"
