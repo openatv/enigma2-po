@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
-"PO-Revision-Date: 2026-01-28 01:58+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
+"PO-Revision-Date: 2026-01-31 09:47+0000\n"
 "Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -6017,6 +6017,12 @@ msgstr "Debug-Logs"
 msgid "Debug log time format *"
 msgstr "Debug-Log-Zeitformat *"
 
+msgid "Decoder release strategy"
+msgstr "Strategie zur Freigabe des Decoders"
+
+msgid "Decoder start timeout"
+msgstr "Decoder-Start-Timeout"
+
 msgid "Decryption & Parental Control"
 msgstr "Entschlüsselung / Jugendschutz"
 
@@ -9917,6 +9923,9 @@ msgstr "Stunden Minuten"
 msgid "Hours Minutes Seconds"
 msgstr "Stunden Minuten Sekunden"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr "Den Hardware-Decoder freigeben, wenn zur Software-Entschlüsselung gewechselt wird. 'Schnell' gibt ihn sofort frei (schnelleres Zappen). 'Normal' führt zuerst ein sauberes Herunterfahren durch (bei einigen Receivern stabiler)."
+
 msgid "Http(s) stream start delay"
 msgstr "Startverzögerung für http(s)-Streams"
 
@@ -11802,6 +11811,9 @@ msgstr "Maximale Anzahl von Tagen im EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Maximale Speicherplatznutzung (MB):"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr "Maximale Wartezeit für eingehende Daten und Entschlüsselungsschlüssel (CW) vor dem Start des Decoders. In der Regel treffen beide viel schneller ein, so dass dies nur für Sonderfälle gilt."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -17546,6 +17558,9 @@ msgstr "Auswählen, wie schnell sich die Antenne zwischen den Satelliten bewegen
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Das Verhalten der Tasten 'Hoch', 'Runter, 'Links' und 'Rechts' für die Sprungaktionen auswählen."
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr "Auswählen, wie der entschlüsselte Datenstrom verarbeitet werden soll. 'Automatisch' verwendet asynchrone Schreibvorgänge (geringere CPU-Auslastung) mit automatischer Umschaltung auf synchron, wenn Kernel-AIO nicht unterstützt wird. 'Synchron' erzwingt blockierende Schreibvorgänge (stabil und am kompatibelsten)."
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Das Verhalten der Nummerntasten für die Sprungaktionen auswählen."
 
@@ -20139,6 +20154,9 @@ msgstr "Gesellschaft / Kultur"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "SoftCSA Settings"
+msgstr "SoftCSA-Einstellungen"
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -20183,6 +20201,9 @@ msgstr "Software aktualisieren"
 
 msgid "Software Update Actions"
 msgstr "Softwareupdate-Aktionen"
+
+msgid "Software descrambling"
+msgstr "Software-Entschlüsselung"
 
 msgid "Software information"
 msgstr "Softwareinformationen"
@@ -21055,6 +21076,9 @@ msgstr "Zeitsynchronisierung mit"
 # Zeitenstellung
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Auswählen, ob die Zeitsynchronisierung über die Transponderzeit oder über einen NTP-Server erfolgen soll."
+
+msgid "Synchronous"
+msgstr "Synchron"
 
 msgid "Syrian Arab Republic"
 msgstr "Syrien"
@@ -25163,6 +25187,9 @@ msgstr "Tonspuren"
 #
 msgid "automatic"
 msgstr "Automatisch"
+
+msgid "available"
+msgstr "verfügbar"
 
 #
 msgid "back"
