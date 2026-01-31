@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV-Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -5806,6 +5806,12 @@ msgstr "Silumislogid"
 msgid "Debug log time format *"
 msgstr ""
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Dekrüptimine ja lapselukk"
 
@@ -9594,6 +9600,9 @@ msgstr "Tundi minutit"
 msgid "Hours Minutes Seconds"
 msgstr "Tundi minutit sekundit"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr ""
 
@@ -11440,6 +11449,9 @@ msgstr "Suurim EPG kuvatav päevade arv"
 
 msgid "Maximum space used (MB)"
 msgstr "Suurim lubatud kettaruum (MB)"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -16965,6 +16977,9 @@ msgstr "Vali antenni satelliitide vahel liikumise kiirus."
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr ""
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr ""
 
@@ -19458,6 +19473,9 @@ msgstr ""
 msgid "Socket"
 msgstr "Pesa"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Emulaator"
 
@@ -19498,6 +19516,9 @@ msgid "Software Update"
 msgstr "Tarkvara uuendamine"
 
 msgid "Software Update Actions"
+msgstr ""
+
+msgid "Software descrambling"
 msgstr ""
 
 msgid "Software information"
@@ -20352,6 +20373,9 @@ msgstr "Aja sünkroonimiseks"
 # Zeitenstellung
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Sünkrooni süsteemi aeg kasutades transponderit või internetti."
+
+msgid "Synchronous"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "Süüria"
@@ -24258,6 +24282,9 @@ msgstr "Heliribad"
 
 msgid "automatic"
 msgstr "Automaatne"
+
+msgid "available"
+msgstr ""
 
 msgid "back"
 msgstr "tagasi"
