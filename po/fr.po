@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
 "PO-Revision-Date: 2025-06-16 09:06+0000\n"
 "Last-Translator: ikvat <ikvat@hotmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fr/>\n"
@@ -5725,6 +5725,12 @@ msgstr "Logs debug"
 msgid "Debug log time format *"
 msgstr "Format de l'heure du journal de débogage *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Décryptage et contrôle parental"
 
@@ -9439,6 +9445,9 @@ msgstr "Heures Mins"
 msgid "Hours Minutes Seconds"
 msgstr "Heures Mins Secs"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Délai de démarrage du flux Http(s)"
 
@@ -11223,6 +11232,9 @@ msgstr "Nombre de jours maximal dans l'EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Espace maximum utilisé (Mo) :"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -16560,6 +16572,9 @@ msgstr "Sélectionnez à quelle vitesse l’antenne doit se déplacer entre les 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr ""
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr ""
 
@@ -19008,6 +19023,9 @@ msgstr "Société & Culture"
 msgid "Socket"
 msgstr "Prise"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19049,6 +19067,9 @@ msgstr "Mise à jour logiciel"
 
 msgid "Software Update Actions"
 msgstr "Actions de mise à jour du logiciel"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr ""
@@ -19882,6 +19903,9 @@ msgstr "Synchroniser l'heure en utilisant"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Synchroniser l'heure du système en utilisant le transpondeur ou Internet."
+
+msgid "Synchronous"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "Syrie (République Arabe de )"
@@ -23684,6 +23708,9 @@ msgstr "pistes audio"
 
 msgid "automatic"
 msgstr "automatique"
+
+msgid "available"
+msgstr ""
 
 msgid "back"
 msgstr "retour"
