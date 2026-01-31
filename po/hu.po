@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_po v3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
 "PO-Revision-Date: 2025-05-05 05:50+0000\n"
 "Last-Translator: Balázs Sólyom <balazs@solyom.online>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -5773,6 +5773,12 @@ msgstr "Hibakeresési naplók"
 msgid "Debug log time format *"
 msgstr ""
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Dekódolás és szülői felügyelet"
 
@@ -9496,6 +9502,9 @@ msgstr "Óra Perc"
 msgid "Hours Minutes Seconds"
 msgstr "Óra Perc Másodperc"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Http(s) stream indítás késleltetése"
 
@@ -11311,6 +11320,9 @@ msgstr "Maximális napok száma az EPG-ben"
 
 msgid "Maximum space used (MB)"
 msgstr "Maximális hely használata (MB):"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -16701,6 +16713,9 @@ msgstr "Válassza ki, hogy milyen gyorsan mozogjon az 'dish' a műholdak közöt
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr ""
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr ""
 
@@ -19157,6 +19172,9 @@ msgstr "Társadalom és Kultúra"
 msgid "Socket"
 msgstr "Aljzat"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19197,6 +19215,9 @@ msgid "Software Update"
 msgstr "Szoftverfrissítés"
 
 msgid "Software Update Actions"
+msgstr ""
+
+msgid "Software descrambling"
 msgstr ""
 
 msgid "Software information"
@@ -20034,6 +20055,9 @@ msgstr "Az idő szinkronizálás módja"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "A rendszer idő szinkronizálása a Transzponder ideje alapján vagy az internetről (NTP szerver) történjen."
+
+msgid "Synchronous"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "Szíriai Arab Köztársaság"
@@ -23852,6 +23876,9 @@ msgstr "hangsávok"
 
 msgid "automatic"
 msgstr "automatikus"
+
+msgid "available"
+msgstr ""
 
 msgid "back"
 msgstr "vissza"
