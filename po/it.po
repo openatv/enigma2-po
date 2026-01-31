@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
-"PO-Revision-Date: 2026-01-28 10:58+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
+"PO-Revision-Date: 2026-01-31 05:02+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -5723,6 +5723,12 @@ msgstr "Registro di debug"
 msgid "Debug log time format *"
 msgstr "Formato dell'ora del registro debug *"
 
+msgid "Decoder release strategy"
+msgstr "Strategia di rilascio del decoder"
+
+msgid "Decoder start timeout"
+msgstr "Timeout di avvio del decoder"
+
 msgid "Decryption & Parental Control"
 msgstr "Decrittografia e controllo genitori"
 
@@ -9442,6 +9448,9 @@ msgstr "Ore Minuti"
 msgid "Hours Minutes Seconds"
 msgstr "Ore Minuti Secondi"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr "Come sbloccare il decoder hardware quando si passa alla decriptazione software. L'opzione 'Veloce' sblocca immediatamente (zapping più rapido). L'opzione 'Normale' esegue prima uno spegnimento pulito (più stabile su alcuni box)."
+
 msgid "Http(s) stream start delay"
 msgstr "Ritardo di avvio del flusso HTTP(s)"
 
@@ -11226,6 +11235,9 @@ msgstr "Numero massimo di giorni in EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Spazio massimo usato (MB)"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr "Tempo massimo di attesa per i dati in arrivo e le chiavi di decriptazione (CW) prima di avviare il decoder. Di solito entrambi arrivano molto più velocemente e questo vale solo per casi speciali."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -16561,6 +16573,9 @@ msgstr "Seleziona velocità con cui la parabola deve spostarsi tra i satelliti."
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Seleziona comportamento dei tasti freccia ('SU', 'GIÙ', 'SINISTRA' e 'DESTRA') durante le azioni di ricerca."
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr "Seleziona modalità di elaborazione del flusso di dati decodificato. 'Automatico' usa scritture asincrone (minore utilizzo della CPU) con fallback automatico alla scrittura sincrona se l'AIO del kernel non è supportato. 'Sincrono' forza scritture bloccanti (stabile, massima compatibilità)."
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Seleziona comportamento dei pulsanti numerici durante le azioni di ricerca."
 
@@ -19020,6 +19035,9 @@ msgstr "Società e cultura"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "SoftCSA Settings"
+msgstr "Impostazioni SoftCSA"
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19061,6 +19079,9 @@ msgstr "Aggiornamento software"
 
 msgid "Software Update Actions"
 msgstr "Azioni di aggiornamento software"
+
+msgid "Software descrambling"
+msgstr "Decrittografia software"
 
 msgid "Software information"
 msgstr "Informazioni sul software"
@@ -19889,6 +19910,9 @@ msgstr "Sincronizzazione orario"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Sincronizza ora di sistema usando il transponder o Internet."
+
+msgid "Synchronous"
+msgstr "Sincrono"
 
 msgid "Syrian Arab Republic"
 msgstr "Siria (Repubblica Araba)"
@@ -23749,6 +23773,9 @@ msgstr "tracce audio"
 
 msgid "automatic"
 msgstr "automatico"
+
+msgid "available"
+msgstr "disponibile"
 
 msgid "back"
 msgstr "indietro"
