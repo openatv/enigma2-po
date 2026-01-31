@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
 "PO-Revision-Date: 2026-01-28 10:57+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -5722,6 +5722,12 @@ msgstr "调试日志"
 msgid "Debug log time format *"
 msgstr "调试日志时间格式 *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "解密 / 家长控制"
 
@@ -9441,6 +9447,9 @@ msgstr "小时 分钟"
 msgid "Hours Minutes Seconds"
 msgstr "小时 分钟 秒"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Http(s)串流启动延迟"
 
@@ -11225,6 +11234,9 @@ msgstr "EPG 最大天数"
 
 msgid "Maximum space used (MB)"
 msgstr "使用的最大空间（MB）"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "马约特岛"
@@ -16560,6 +16572,9 @@ msgstr "选择天线在卫星之间移动的速度。"
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "设置方向键（‘上’、‘下’、‘左’、‘右’）在跳转操作时的行为。"
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr "设置数字键在跳转操作时的行为。"
 
@@ -19019,6 +19034,9 @@ msgstr "社会与文化"
 msgid "Socket"
 msgstr "插口"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19060,6 +19078,9 @@ msgstr "软件更新"
 
 msgid "Software Update Actions"
 msgstr "软件更新操作"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr "软件信息"
@@ -19888,6 +19909,9 @@ msgstr "时间同步方式"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "使用转发器或互联网同步系统时间。"
+
+msgid "Synchronous"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "阿拉伯叙利亚共和国"
@@ -23748,6 +23772,9 @@ msgstr "音轨"
 
 msgid "automatic"
 msgstr "自动"
+
+msgid "available"
+msgstr ""
 
 msgid "back"
 msgstr "返回"
