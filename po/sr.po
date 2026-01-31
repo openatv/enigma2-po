@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV 7.6.1 Devel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
-"PO-Revision-Date: 2026-01-28 10:58+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
+"PO-Revision-Date: 2026-01-31 06:03+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
 "Language: sr\n"
@@ -5759,6 +5759,12 @@ msgstr "Evidencija otklanjanja grešaka"
 msgid "Debug log time format *"
 msgstr "Format vremena otklanjanja grešaka *"
 
+msgid "Decoder release strategy"
+msgstr "Strategija puštanja dekodera"
+
+msgid "Decoder start timeout"
+msgstr "Vreme čekanja za pokretanje dekodera"
+
 msgid "Decryption & Parental Control"
 msgstr "Emu & Roditeljska Kontrola"
 
@@ -9481,6 +9487,9 @@ msgstr "Sat Minute"
 msgid "Hours Minutes Seconds"
 msgstr "Čas Minute Sekunde"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr "Kako osloboditi hardverski dekoder prilikom prelaska na softversko dešifrovanje. 'Brzo' ga odmah oslobađa (brže prebacivanje kanala). 'Normalno' prvo vrši pravilno gašenje (stabilnije na nekim uređajima)."
+
 msgid "Http(s) stream start delay"
 msgstr "Kašnjenje početka http strima"
 
@@ -11267,6 +11276,9 @@ msgstr "Maksimalni broj dana u EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Maksimalno iskorišćen prostor (MB)"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr "Maksimalno vreme čekanja na dolazne podatke i ključeve za dešifrovanje (CW) pre pokretanja dekodera. Obično oba stignu mnogo brže i ovo je samo za posebne slučajeve."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -16607,6 +16619,9 @@ msgstr "Izaberi koliko brzo bi antena trebala da se kreće između satelita."
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Izaberite kako će strelice 'GORE', 'DOLE', 'LEVO' ili 'DESNO' funkcionisati tokom akcija pretraživanja."
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr "Izaberite kako se obrađuje dešifrovani strim podataka. 'Automatski' koristi asinhrone zapise (manja upotreba CPU-a) sa automatskim prelaskom na sinhrone zapise ako kernel AIO nije podržan. 'Sinhroni' forsira blokirajuće zapise (stabilno, najkompatibilnije)."
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Izaberite kako će dugmad za brojeve delovati tokom traženja."
 
@@ -19070,6 +19085,9 @@ msgstr "Society & Culture"
 msgid "Socket"
 msgstr "Priključak"
 
+msgid "SoftCSA Settings"
+msgstr "SoftCSA Podešavanja"
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19111,6 +19129,9 @@ msgstr "Ažuriranje Softvera"
 
 msgid "Software Update Actions"
 msgstr "Radnje Ažuriranja Softvera"
+
+msgid "Software descrambling"
+msgstr "Softversko dešifrovanje"
 
 msgid "Software information"
 msgstr "Softver info"
@@ -19940,6 +19961,9 @@ msgstr "Vreme sinhronizacije koristi se"
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Sinhronizujte sistemsko vreme koristeći transponder ili Internet."
 
+msgid "Synchronous"
+msgstr "Sinhronizovano"
+
 msgid "Syrian Arab Republic"
 msgstr "Syrian Arab Republic"
 
@@ -19995,7 +20019,7 @@ msgid "TMDB Search"
 msgstr "TMDB Traži"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Lično preveo milan58 15.01.2026"
+msgstr "Lično preveo Milan Koljanin milan58 15.01.2026"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS fajl je prevelik za ISO9660 nivo 1!"
@@ -23800,6 +23824,9 @@ msgstr "audio numera"
 
 msgid "automatic"
 msgstr "automatski"
+
+msgid "available"
+msgstr "dostupno"
 
 msgid "back"
 msgstr "natrag"
