@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enigma2 OpenXXX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
 "PO-Revision-Date: 2025-08-18 16:27+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -5761,6 +5761,12 @@ msgstr "Отладочные логи"
 msgid "Debug log time format *"
 msgstr "Формат времени лога отладки *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "ЭМУ и родительский контроль"
 
@@ -9483,6 +9489,9 @@ msgstr "Часы Минуты"
 msgid "Hours Minutes Seconds"
 msgstr "Часы Минуты Секунды"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Задержка начала потока http (с)"
 
@@ -11269,6 +11278,9 @@ msgstr "Максимальное количество дней в ТВ-гиде"
 
 msgid "Maximum space used (MB)"
 msgstr "Максимальное использование пространства диска (Mб)"
+
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Майотта"
@@ -16609,6 +16621,9 @@ msgstr "Выберите, как быстро тарелка должна пер
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Выберите, как будут действовать кнопки со стрелками («ВВЕРХ», «ВНИЗ», «ВЛЕВО» и «ВПРАВО») во время поиска."
 
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
+
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Выберите, как будут действовать цифровые кнопки во время поиска."
 
@@ -19072,6 +19087,9 @@ msgstr "Общество и культура"
 msgid "Socket"
 msgstr "Разъем"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Панель эмуляторов"
 
@@ -19113,6 +19131,9 @@ msgstr "Обновление ПО"
 
 msgid "Software Update Actions"
 msgstr "Действия при обновлении ПО"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr "Информация о программном обеспечении"
@@ -19941,6 +19962,9 @@ msgstr "Синхронизировать время используя"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Синхронизация времени с транспондера или с Интернета."
+
+msgid "Synchronous"
+msgstr ""
 
 msgid "Syrian Arab Republic"
 msgstr "Сирийская Арабская Республика"
@@ -23802,6 +23826,9 @@ msgstr "Звуковые дорожки"
 
 msgid "automatic"
 msgstr "Автоматически"
+
+msgid "available"
+msgstr ""
 
 msgid "back"
 msgstr "Назад"
