@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 16:53+0000\n"
-"PO-Revision-Date: 2026-01-27 18:50+0000\n"
+"POT-Creation-Date: 2026-01-30 19:51+0100\n"
+"PO-Revision-Date: 2026-01-31 05:02+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -1840,7 +1840,7 @@ msgid "Activate UP/DOWN buttons for the 'all up/down' functions at the beginning
 msgstr "Aktywuj przyciski GÓRA/DÓŁ, aby skorzystać z funkcji 'wszystko w górę/w dół' na początku/końcu kolumny."
 
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
-msgstr "Aktywuj sposób wysyłania pojedynczych lub określonych wewnętrznych poleceń HDMI-CEC z wiersza poleceń."
+msgstr "Aktywuj sposób wysyłania pojedynczych lub określonych wewnętrznych poleceń HDMI CEC z wiersza poleceń."
 
 msgid "Activate network adapter configuration"
 msgstr "Aktywuj konfigurację karty sieciowej"
@@ -3990,7 +3990,7 @@ msgid "Channel up"
 msgstr "Kanał wyżej"
 
 msgid "ChannelEPG Settings"
-msgstr "Ustawienia EPG kanału"
+msgstr "Ustawienia kanału EPG"
 
 msgid "Channels"
 msgstr "Kanały"
@@ -5771,6 +5771,12 @@ msgstr "Logi Diagnostyczne"
 msgid "Debug log time format *"
 msgstr "Format czasu w logu debugowania *"
 
+msgid "Decoder release strategy"
+msgstr "Strategia wydawania dekodera"
+
+msgid "Decoder start timeout"
+msgstr "Limit czasu uruchamiania dekodera"
+
 msgid "Decryption & Parental Control"
 msgstr "Moduł CI i kontrola rodzicielska"
 
@@ -7261,7 +7267,7 @@ msgid "Enable new GStreamer playback"
 msgstr "Włącz nowe odtwarzanie GStreamer"
 
 msgid "Enable or disable using HDMI-CEC."
-msgstr "Włącz lub wyłącz obsługę HDMI-CEC."
+msgstr "Włącz lub wyłącz obsługę HDMI CEC."
 
 msgid "Enable panic button"
 msgstr "Włącz przycisk paniki"
@@ -7276,7 +7282,7 @@ msgid "Enable teletext caching"
 msgstr "Włącz pamięć telegazety"
 
 msgid "Enable the advanced HDMI-CEC setting options."
-msgstr "Włącz zaawansowane opcje HDMI-CEC."
+msgstr "Włącz zaawansowane opcje HDMI CEC."
 
 msgid "Enable this option to add MultiBoot information detected during system boot to the debug log file."
 msgstr "Włącz tę opcję, aby dodać informacje MultiBoot wykryte podczas uruchamiania systemu do pliku dziennika debugowania."
@@ -9047,7 +9053,7 @@ msgid "Graphical EPG"
 msgstr "Graficzny EPG"
 
 msgid "Graphical InfoBar EPG Settings"
-msgstr "Ustawienia graficznego EPG infobara"
+msgstr "Ustawienia graficznego infobara EPG"
 
 msgid "GraphicalEPG Settings"
 msgstr "Ustawienia graficznego EPG"
@@ -9149,13 +9155,13 @@ msgid "HDMI color space"
 msgstr "Przestrzeń kolorów"
 
 msgid "HDMI-CEC Settings"
-msgstr "HDMI-CEC"
+msgstr "Ustawienia HDMI CEC"
 
 msgid "HDMI-CEC Setup Actions"
-msgstr "Ustawienia akcji HDMI-CEC"
+msgstr "Ustawienia akcji HDMI CEC"
 
 msgid "HDMI-CEC address"
-msgstr "Adres HDMI-CEC"
+msgstr "Adres HDMI CEC"
 
 msgid "HDMI-IN Actions"
 msgstr "Akcje HDMI-IN"
@@ -9492,6 +9498,9 @@ msgstr "Godziny Minuty"
 
 msgid "Hours Minutes Seconds"
 msgstr "Godziny Minuty Sekundy"
+
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr "Jak zwolnić dekoder sprzętowy podczas przełączania na odszyfrowanie programowe. 'Szybki' zwalnia natychmiast (szybsze przeskakiwanie). 'Normalny' najpierw wykonuje czyste wyłączenie (bardziej stabilne na niektórych urządzeniach)."
 
 msgid "Http(s) stream start delay"
 msgstr "Opóźnienie startu strumieniowania Http(s)"
@@ -9969,7 +9978,7 @@ msgid "InfoBar EPG"
 msgstr "Pasek informacyjny (EPG)"
 
 msgid "InfoBar EPG Settings"
-msgstr "Ustawienia EPG infobara"
+msgstr "Ustawienia infobara EPG"
 
 msgid "InfoBar EPG mode"
 msgstr "Tryb EPG Infobar'a"
@@ -11281,6 +11290,9 @@ msgstr "Maksymalna liczba dni w EPG"
 msgid "Maximum space used (MB)"
 msgstr "Maksymalna powierzchnia używana (MB):"
 
+msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+msgstr "Maksymalny czas oczekiwania na dane przychodzące i klucze deszyfrujące (CW) przed uruchomieniem dekodera. Zwykle oba docierają znacznie szybciej i dotyczy to tylko szczególnych przypadków."
+
 msgid "Mayotte"
 msgstr "Majotta"
 
@@ -11899,7 +11911,7 @@ msgid "MultiBoot startup file"
 msgstr "Plik startowy MultiBoot"
 
 msgid "MultiEPG Settings"
-msgstr "Ustawienia EPG wielu kanałów"
+msgstr "Ustawienia multi EPG"
 
 msgid "MultiLib"
 msgstr "MultiLib"
@@ -15274,7 +15286,7 @@ msgid "Reset Feeds"
 msgstr "Zresetuj feed'y"
 
 msgid "Reset HDMI-CEC settings to default"
-msgstr "Przywróć ustawienia domyślne HDMI-CEC"
+msgstr "Przywróć ustawienia domyślne HDMI CEC"
 
 msgid "Reset Order"
 msgstr "Resetuj kolejność"
@@ -16619,6 +16631,9 @@ msgstr "Wybierz, jak szybko antena ma poruszać się między satelitami."
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Wybierz, w jaki sposób przyciski strzałek („GÓRA”, „DÓŁ”, „LEWO” i „PRAWO”) będą działać podczas wyszukiwania."
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr "Wybierz sposób przetwarzania odszyfrowanego strumienia danych. Opcja 'Automatyczny' używa zapisu asynchronicznego (mniejsze obciążenie procesora) z automatycznym powrotem do zapisu synchronicznego, jeśli jądro nie obsługuje AIO. Opcja 'Synchroniczny' wymusza zapisy blokowe (stabilne, najbardziej kompatybilne)."
 
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Wybierz sposób działania przycisków numerycznych podczas akcji wyszukiwania."
@@ -19084,6 +19099,9 @@ msgstr "Społeczeństwo i Kultura"
 msgid "Socket"
 msgstr "Gniazdo"
 
+msgid "SoftCSA Settings"
+msgstr "Ustawienia SoftCSA"
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19125,6 +19143,9 @@ msgstr "Aktualizacja oprogramowania"
 
 msgid "Software Update Actions"
 msgstr "Akcje aktualizacji oprogramowania"
+
+msgid "Software descrambling"
+msgstr "Odszyfrowywanie programowe"
 
 msgid "Software information"
 msgstr "Informacje o oprogramowaniu"
@@ -19953,6 +19974,9 @@ msgstr "Synchronizuj czas za pomocą"
 
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Synchronizacja czasu systemowego za pomocą internet lub transpondera."
+
+msgid "Synchronous"
+msgstr "Synchroniczny"
 
 msgid "Syrian Arab Republic"
 msgstr "Syria"
@@ -23814,6 +23838,9 @@ msgstr "ścieżki audio"
 
 msgid "automatic"
 msgstr "automatyczny"
+
+msgid "available"
+msgstr "Dostępne"
 
 msgid "back"
 msgstr "wróć"
