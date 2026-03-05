@@ -19,16 +19,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 10:12+0000\n"
-"PO-Revision-Date: 2026-03-01 05:04+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
+"PO-Revision-Date: 2026-03-05 11:32+0000\n"
+"Last-Translator: Masowick <Demian@gmx.co.uk>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -2830,6 +2830,10 @@ msgid "Auto"
 msgstr "Auto"
 
 #
+msgid "Auto (not available)"
+msgstr "Automatisch (nicht verfügbar)"
+
+#
 msgid "Auto Language"
 msgstr "Automatische Sprachauswahl"
 
@@ -2888,10 +2892,6 @@ msgstr "Automatischer Videomodus ausgewählt"
 
 msgid "Auto video mode selected for the TV."
 msgstr "Automatischer Videomodus für den Fernseher ausgewählt."
-
-#
-msgid "Auto (not available)"
-msgstr "Automatisch (nicht verfügbar)"
 
 msgid "AutoCam Settings"
 msgstr "AutoCam-Einstellungen"
@@ -6027,6 +6027,9 @@ msgstr "Debug-Log-Zeitformat *"
 msgid "Decoder release strategy"
 msgstr "Strategie zur Freigabe des Decoders"
 
+msgid "Decoder start delay"
+msgstr "Decoderstartverzögerung"
+
 msgid "Decoder start timeout"
 msgstr "Decoderstart-Timeout"
 
@@ -6097,10 +6100,10 @@ msgid "Default sort order for files in the right column."
 msgstr "Die Standardsortierung für Dateien in der rechten Spalte."
 
 msgid "Default video mode selected"
-msgstr "Standard-Videomodus ausgewählt"
+msgstr "Standardvideomodus ausgewählt"
 
 msgid "Default video mode selected for the TV."
-msgstr "Der für den Fernseher ausgewählte Standard-Videomodus."
+msgstr "Der für den Fernseher ausgewählte Standardvideomodus."
 
 msgid "Default volume offset"
 msgstr "Standardlautstärkeoffset"
@@ -11822,8 +11825,8 @@ msgstr "Maximale Anzahl von Tagen im EPG"
 msgid "Maximum space used (MB)"
 msgstr "Maximale Speicherplatznutzung (MB):"
 
-msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
-msgstr "Maximale Wartezeit für eingehende Daten und Entschlüsselungsschlüssel (CW) vor dem Start des Decoders. In der Regel treffen beide viel schneller ein, so dass dies nur für Sonderfälle gilt."
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
+msgstr "Maximale Wartezeit für den ersten Entschlüsselungsschlüssel (CW) vor dem Start des Decoders. Bei „Deaktiviert” startet der Decoder sofort ohne Wartezeit."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -17814,6 +17817,9 @@ msgstr "Standardverzeichnis für die rechte Spalte auswählen, wenn kein Verzeic
 msgid "Select the delay before the timer activates."
 msgstr "Die Verzögerung auswählen, bevor der Timer aktiviert wird."
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr "Die Verzögerung auswählen, mit der die entschlüsselten Daten vor Beginn der Wiedergabe gepuffert werden. Damit können AC3-Tonunterbrechungen reduziert werden, da sichergestellt wird, dass beim Start des Decoders genügend Daten verfügbar sind. Höhere Werte sind stabiler, verlängern jedoch die Senderumschaltzeit."
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr "Die Verzögerung auswählen, die beim Wechsel von einem Stream-Relay-Sender verwendet wird, bevor der Tuner auf einen anderen Sender wechselt. Die Verwendung von '0' wird nur für Receiver mit mehreren Satelliten-Tunern empfohlen."
 
@@ -21899,30 +21905,6 @@ msgstr "Das Blockrauschen im Bild kann reduziert werden – dies geht jedoch zul
 msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr "Den dynamischen Kontrast des Bildes einstellen."
 
-msgid "This option allows you to config the Colordepth for UHD."
-msgstr "Die Farbtiefe im UHD-Modus einstellen."
-
-msgid "This option allows you to config the Colorimetry for HDR."
-msgstr "Die Farbprofilsteuerung für den HDR-Modus einstellen."
-
-msgid "This option allows you to config the Colorspace from Auto to RGB."
-msgstr "Den Farbraum einstellen."
-
-msgid "This option allows you to enable or disable the 10 Bit Color Mode."
-msgstr "Den 10-Bit-Farbmodus aktivieren oder deaktivieren."
-
-msgid "This option allows you to enable or disable the 12 Bit Color Mode."
-msgstr "Den 12-Bit-Farbmodus aktivieren oder deaktivieren."
-
-msgid "This option allows you to force the HDR Modes for UHD."
-msgstr "Die HDR-Modi für UHD erzwingen."
-
-msgid "This option allows you to force the HDR10 Modes for UHD."
-msgstr "Die HDR10-Modi für UHD erzwingen."
-
-msgid "This option allows you to force the HLG Modes for UHD."
-msgstr "Die HLG-Modi für UHD erzwingen."
-
 # VideoEnhancement
 msgid "This option allows you enable smoothing filter to control the dithering process."
 msgstr "Den Glättungsfilter für das Dithering-Verfahren aktivieren."
@@ -22012,9 +21994,33 @@ msgstr "Einstellen, was der erste Tastendruck in der Senderliste bewirken soll. 
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Bei 'Ja' werden Genre-Informationen für die Sendung angezeigt."
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "Die Farbtiefe im UHD-Modus einstellen."
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "Die Farbprofilsteuerung für den HDR-Modus einstellen."
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr "Den Farbraum einstellen."
+
 # A/V Settings
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Die Ausgabe von 3D-Surround-Sound aktivieren."
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "Den 10-Bit-Farbmodus aktivieren oder deaktivieren."
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "Den 12-Bit-Farbmodus aktivieren oder deaktivieren."
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr "Die HDR-Modi für UHD erzwingen."
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr "Die HDR10-Modi für UHD erzwingen."
+
+msgid "This option allows you to force the HLG Modes for UHD."
+msgstr "Die HLG-Modi für UHD erzwingen."
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Die Offsetwerte für verschiedene Letterboxauflösungen einstellen."
@@ -25858,6 +25864,9 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Maximum time to wait for the incoming data and descrambling keys (CW) before starting decoder. Usually both arrive much faster and this is only for special cases."
+#~ msgstr "Maximale Wartezeit für eingehende Daten und Entschlüsselungsschlüssel (CW) vor dem Start des Decoders. In der Regel treffen beide viel schneller ein, so dass dies nur für Sonderfälle gilt."
 
 #~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
 #~ msgstr "Fehler beim Abrufen des Speicherorts der Datei 'epg.dat' des Reservereceivers!"
