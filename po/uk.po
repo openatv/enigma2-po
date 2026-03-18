@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-02 11:34+0000\n"
-"PO-Revision-Date: 2026-03-05 14:10+0000\n"
+"PO-Revision-Date: 2026-03-10 21:09+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -1679,7 +1679,7 @@ msgid ""
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
 msgstr ""
 "Таймер запису не запущений!\n"
-"Перервати псевдозаписи (наприклад, оновити EPG) і спробувати ще раз?\n"
+"Перервати псевдозаписи (наприклад, оновити ЕПГ) і спробувати ще раз?\n"
 
 msgid ""
 "A timer failed to record!\n"
@@ -2255,10 +2255,10 @@ msgid "Allow unsupported modes"
 msgstr "Дозволити режими, що не підтримуються"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
-msgstr "Дозволити %s %s для регулярного читання даних EPG."
+msgstr "Дозволити %s %s для регулярного читання даних ЕПГ."
 
 msgid "Allows the %s %s to store the EPG data regularly."
-msgstr "Дозволити %s %s для регулярного запису даних EPG."
+msgstr "Дозволити %s %s для регулярного запису даних ЕПГ."
 
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Дозволяє використовувати пульт дистанційного керування телевізора для керування приймачем."
@@ -2555,7 +2555,7 @@ msgstr ""
 "Приймач буде перезавантажений після відновлення"
 
 msgid "Are you sure you want to save the EPG Cache to:\n"
-msgstr "Ви дійсно бажаєте зберегти кеш EPG до:\n"
+msgstr "Ви дійсно бажаєте зберегти кеш ЕПГ до:\n"
 
 msgid "Argentina"
 msgstr "Аргентина"
@@ -6872,7 +6872,7 @@ msgid "EJECTCD"
 msgstr "Видалити CD"
 
 msgid "EPG"
-msgstr "Телегід (EPG)"
+msgstr "Телегід (ЕПГ)"
 
 msgid "EPG Actions"
 msgstr "Дія EPG"
@@ -9053,7 +9053,7 @@ msgid "Graphical EPG"
 msgstr "Графічний EPG"
 
 msgid "Graphical InfoBar EPG Settings"
-msgstr "Налаштування граф. інфобару EPG"
+msgstr "Налаштування граф. інфобару ЕПГ"
 
 msgid "GraphicalEPG Settings"
 msgstr "Налаштування графічного ЕПГ"
@@ -10846,7 +10846,7 @@ msgid "Load"
 msgstr "Завантажити"
 
 msgid "Load EPG Cache"
-msgstr "Завантажити кеш EPG"
+msgstr "Завантажити кеш ЕПГ"
 
 msgid "Load play list"
 msgstr "Завантаження списку відтворення"
@@ -11293,7 +11293,7 @@ msgid "Maximum space used (MB)"
 msgstr "Максимальне використання простору диска (MБ):"
 
 msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
-msgstr ""
+msgstr "Максимальний час очікування першого ключа дескремблування (CW) перед запуском декодера. 'Вимкнено' запускає декодер негайно без очікування."
 
 msgid "Mayotte"
 msgstr "Майотта"
@@ -14993,7 +14993,7 @@ msgid "Reload blacklists"
 msgstr "Перезавантажити чорні списки"
 
 msgid "Reloading EPG Cache..."
-msgstr "Перезавантажити кеш телегіду..."
+msgstr "Перезавантаження кешу ЕПГ..."
 
 msgid "Reloading bouquets and services."
 msgstr "Перезавантаження фаворитів і каналів."
@@ -15811,7 +15811,7 @@ msgid "Save / Enter text and exit"
 msgstr "Зберегти/Ввести текст і вийти"
 
 msgid "Save EPG Cache"
-msgstr "Зберегти кеш EPG"
+msgstr "Зберегти кеш ЕПГ"
 
 msgid "Save EPG data"
 msgstr "Зберегти дані ЕПГ"
@@ -16207,7 +16207,7 @@ msgid "Select 'Yes' to disable the ServiceHiSilicon plugin to allow use of the d
 msgstr "Виберіть 'Так', щоб вимкнути плагін ServiceHiSilicon та дозволити використання вбудованого коду медіаплеєра за замовчуванням."
 
 msgid "Select 'Yes' to display a small TV image (PiG - Picture in Graphic) within the EPG screen."
-msgstr "Якщо вибрано 'так', в телегіді буде показуватися маленьке ТБ-вікно."
+msgstr "Виберіть 'Так', щоб відобразити невелике телевізійне зображення (PiG – зображення в графіці) на екрані (EPG)."
 
 msgid "Select 'Yes' to display the InfoBar when a new event starts."
 msgstr "Якщо вибрано 'так', при зміні передач буде показаний інфобар."
@@ -16869,7 +16869,7 @@ msgid "Select the delay before the timer activates."
 msgstr "Виберіть затримку перед активацією таймера."
 
 msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
-msgstr ""
+msgstr "Виберіть затримку для буферизації дескремблованих даних перед початком відтворення. Це може зменшити випадання аудіо AC3, забезпечуючи достатню кількість даних під час запуску декодера. Вищі значення стабільніші, але збільшують час перемикання каналів."
 
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr "Виберіть затримку для використання під час закриття послуги Stream Relay перед зміною завдання для тюнера. Використання '0' рекомендовано лише для декодера із кількома супутниковими тюнерами."
@@ -18218,7 +18218,7 @@ msgid "Show VCR SCART on main menu"
 msgstr "Показати Scart в головному меню"
 
 msgid "Show Vertical EPG"
-msgstr "Показати Вертикальний телегід"
+msgstr "Показати вертикальний телегід"
 
 msgid "Show WLAN status"
 msgstr "Показати статус Wi-Fi мережі"
@@ -20037,7 +20037,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - Monja 16.02.2026"
+msgstr "Переклад: kvinto - Monja 10.03.2026"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
@@ -22997,7 +22997,7 @@ msgid "When enabled, AIT data will be included in http streams. This allows a cl
 msgstr "Якщо задіяно, AIT дані будуть включені в HTTP-потоки. Це дозволить клієнтам приймача використовувати HbbTV."
 
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
-msgstr "Якщо увімкнено то дані EIT будуть включені в http потоки. Це дозволить клієнтам приймача показувати телегід."
+msgstr "Якщо цю функцію ввімкнено, дані EIT будуть включені до http-потоків. Це дозволяє клієнтському приймачу відображати EPG."
 
 msgid "When enabled, SDT and BAT data will be included in http streams."
 msgstr "Якщо ввімкнено, дані SDT, BAT будуть долучені у потоки HTTP."
