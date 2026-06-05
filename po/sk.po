@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 05:50+0000\n"
+"POT-Creation-Date: 2026-06-04 07:32+0000\n"
 "PO-Revision-Date: 2026-05-18 09:13+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -3270,6 +3270,12 @@ msgstr "Jas videa"
 msgid "Brightness Video & OSD"
 msgstr "Jas videa a OSD"
 
+msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "British Indian Ocean Territory"
 msgstr "Britské indickooceánske územie"
 
@@ -3797,6 +3803,12 @@ msgstr "rozprávka/bábky"
 
 msgid "Cascade PiP"
 msgstr "Kaskádový PiP"
+
+msgid "Case insensitive"
+msgstr ""
+
+msgid "Case sensitive"
+msgstr ""
 
 msgid "Catalan / Valencian"
 msgstr "katalánčina/valencijčina"
@@ -4376,12 +4388,6 @@ msgstr "Kolumbia"
 
 msgid "Color"
 msgstr "Farba"
-
-msgid "Color Bottom"
-msgstr "Farba dolu"
-
-msgid "Color Top"
-msgstr "Farba hore"
 
 msgid "Color format"
 msgstr "Formát farby"
@@ -5025,11 +5031,20 @@ msgstr "Kontrast videa"
 msgid "Contrast Video & OSD"
 msgstr "Kontrast videa a OSD"
 
+msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "Control LED can be turned on or off here."
 msgstr "Tu je možné zapnúť alebo vypnúť kontrolku LED."
 
 msgid "Control files:"
 msgstr "Kontrolné súbory:"
+
+msgid "Control how files will be sorted in screens that show a file list. Case sensitive will group uppercase files first followed by lowercase files. Case insensitive will sort files alphabetically, ignoring case."
+msgstr ""
 
 msgid "Control of the position how finished timer are shown in the Timer List."
 msgstr "Nastavenie pozície zobrazovania dokončených časovačov v zozname časovačov."
@@ -5205,9 +5220,6 @@ msgstr "Vytvoriť výpis zavádzača aplikácie."
 
 msgid "Create backup image zip file."
 msgstr "Vytvoriť súbor ZIP so zálohou image."
-
-msgid "Create boot dump."
-msgstr "Vytvoriť výpis procesu spúšťania."
 
 msgid "Create boot image dump."
 msgstr "Vytvoriť výpis spúšťania image."
@@ -7348,6 +7360,9 @@ msgstr "Aktiváciou tejto možnosti pridáte do súboru denníka ladenia názvy 
 msgid "Enable this option to add storage device information detected during system boot and hot plug events to the debug log file."
 msgstr "Aktiváciou tejto možnosti pridáte informáciu o úložnom zariadení, zistené počas načítavania systému a udalosti typu hot plug do súboru denníka ladenia."
 
+msgid "Enable this option to add text encoding information to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Aktiváciou tejto možnosti pridáte do súboru denníka ladenia údaje ladenia časovača."
 
@@ -8490,6 +8505,9 @@ msgstr "Súbor sa zdá byť zaneprázdnený.\n"
 msgid "File compression"
 msgstr "Kompresia súboru"
 
+msgid "File sorting mode"
+msgstr ""
+
 msgid "File system"
 msgstr "Systém súborov"
 
@@ -8829,6 +8847,9 @@ msgstr "Úplné roztiahnutie"
 
 msgid "Full factory reset"
 msgstr "Obnovenie továrenského nastavenia"
+
+msgid "Full range (no clipping)"
+msgstr ""
 
 msgid "Full screen"
 msgstr "Celá obrazovka"
@@ -9262,6 +9283,9 @@ msgstr "Informácie o hardvéri"
 
 msgid "Hardware latency correction"
 msgstr "Korekcia latencie hardvéru"
+
+msgid "Hardware revision"
+msgstr ""
 
 msgid "Hardware serial"
 msgstr "Sériové číslo hardvéru"
@@ -9947,6 +9971,9 @@ msgstr "Zahrnúť údaje o úložnom zariadení"
 
 msgid "Include teletext details"
 msgstr "Zahrnúť teletextové podrobnosti"
+
+msgid "Include text encoding data"
+msgstr ""
 
 msgid "Include timer data"
 msgstr "Zahrnúť údaje časovača"
@@ -10781,6 +10808,9 @@ msgstr "Limit – západ"
 msgid "Limited memory size, swap file required"
 msgstr "Obmedzená veľkosť pamäte, vyžaduje sa odkladací (swap) súbor"
 
+msgid "Limited range (64..940)"
+msgstr ""
+
 msgid "Limits cancelled"
 msgstr "Limity zrušené"
 
@@ -11035,6 +11065,9 @@ msgstr "Prepojiť slučkou na"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Nižšia snímková frekvencia šetrí procesorový čas."
+
+msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
+msgstr ""
 
 msgid "Lower USB"
 msgstr "Spodné USB"
@@ -14667,6 +14700,12 @@ msgstr "Červené – dlho"
 
 msgid "RF Output Settings"
 msgstr "RF výstup"
+
+msgid "RGB clamp (lower)"
+msgstr ""
+
+msgid "RGB clamp (upper)"
+msgstr ""
 
 msgid "Racing"
 msgstr "Jazdenie"
@@ -20969,18 +21008,6 @@ msgstr "Nastavenie ostrosti pri zmene mierky použitej na roztiahnutie obrazu z 
 msgid "This option sets the suppression of false digital contours, that are the result of a limited number of discrete values."
 msgstr "Nastavenie potlačenia falošných digitálnych obrysov, ktoré vznikajú v dôsledku príliš malých diskrétnych hodnôt."
 
-msgid "This option sets the video & osd picture brightness."
-msgstr "Nastavenie jasu videa a obrazovky s OSD."
-
-msgid "This option sets the video & osd picture contrast."
-msgstr "Nastavenie kontrastu videa a obrazovky s OSD."
-
-msgid "This option sets the video picture brightness."
-msgstr "Nastavenie jasu obrazu videa."
-
-msgid "This option sets the video picture contrast."
-msgstr "Nastavenie kontrastu obrazu videa."
-
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Nastavenie ostrosti obrazu pri použití upscalingu."
 
@@ -22042,6 +22069,9 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
+msgstr ""
 
 msgid "Upper USB"
 msgstr "Horný USB"
@@ -24443,6 +24473,27 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Color Bottom"
+#~ msgstr "Farba dolu"
+
+#~ msgid "Color Top"
+#~ msgstr "Farba hore"
+
+#~ msgid "Create boot dump."
+#~ msgstr "Vytvoriť výpis procesu spúšťania."
+
+#~ msgid "This option sets the video & osd picture brightness."
+#~ msgstr "Nastavenie jasu videa a obrazovky s OSD."
+
+#~ msgid "This option sets the video & osd picture contrast."
+#~ msgstr "Nastavenie kontrastu videa a obrazovky s OSD."
+
+#~ msgid "This option sets the video picture brightness."
+#~ msgstr "Nastavenie jasu obrazu videa."
+
+#~ msgid "This option sets the video picture contrast."
+#~ msgstr "Nastavenie kontrastu obrazu videa."
 
 #~ msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
 #~ msgstr "Spôsob uvoľnenia HW dekodéra pri prepnutí na SW dekódovanie. Voľba 'Rýchlo' uvoľňuje okamžite (rýchle prepnutie). Voľba 'Normal' vykoná najskôr čisté vypnutie (pri niektorých prijímačoch stabilnejšie)."
