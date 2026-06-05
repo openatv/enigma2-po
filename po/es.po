@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 05:50+0000\n"
+"POT-Creation-Date: 2026-06-04 07:32+0000\n"
 "PO-Revision-Date: 2024-10-02 07:35+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/es/>\n"
@@ -3397,6 +3397,12 @@ msgstr ""
 msgid "Brightness Video & OSD"
 msgstr ""
 
+msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "British Indian Ocean Territory"
 msgstr "Territorio Británico del Océano Índico"
 
@@ -3933,6 +3939,12 @@ msgstr "dibujos animados/marionetas"
 
 msgid "Cascade PiP"
 msgstr "PiP en cascada"
+
+msgid "Case insensitive"
+msgstr ""
+
+msgid "Case sensitive"
+msgstr ""
 
 msgid "Catalan / Valencian"
 msgstr "Catalán / Valenciano"
@@ -4536,12 +4548,6 @@ msgstr "Colombia"
 
 msgid "Color"
 msgstr "Color"
-
-msgid "Color Bottom"
-msgstr ""
-
-msgid "Color Top"
-msgstr ""
 
 msgid "Color format"
 msgstr "Formato de color"
@@ -5209,10 +5215,19 @@ msgstr ""
 msgid "Contrast Video & OSD"
 msgstr ""
 
+msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "Control LED can be turned on or off here."
 msgstr "El LED de control se puede encender o apagar aquí."
 
 msgid "Control files:"
+msgstr ""
+
+msgid "Control how files will be sorted in screens that show a file list. Case sensitive will group uppercase files first followed by lowercase files. Case insensitive will sort files alphabetically, ignoring case."
 msgstr ""
 
 msgid "Control of the position how finished timer are shown in the Timer List."
@@ -5393,9 +5408,6 @@ msgid "Create application loader dump."
 msgstr ""
 
 msgid "Create backup image zip file."
-msgstr ""
-
-msgid "Create boot dump."
 msgstr ""
 
 msgid "Create boot image dump."
@@ -7635,6 +7647,9 @@ msgstr "Habilita esta opción para añadir los nombres de las pantallas y los da
 msgid "Enable this option to add storage device information detected during system boot and hot plug events to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add text encoding information to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Activa esta opción para añadir los datos de depuración del temporizador al archivo de registro de depuración."
 
@@ -8824,6 +8839,9 @@ msgstr "El archivo parece estar ocupado.\n"
 msgid "File compression"
 msgstr ""
 
+msgid "File sorting mode"
+msgstr ""
+
 msgid "File system"
 msgstr ""
 
@@ -9191,6 +9209,9 @@ msgstr ""
 
 msgid "Full factory reset"
 msgstr "Restablecimiento de fábrica completo"
+
+msgid "Full range (no clipping)"
+msgstr ""
 
 #
 msgid "Full screen"
@@ -9648,6 +9669,9 @@ msgid "Hardware information"
 msgstr "Información sobre el hardware"
 
 msgid "Hardware latency correction"
+msgstr ""
+
+msgid "Hardware revision"
 msgstr ""
 
 msgid "Hardware serial"
@@ -10361,6 +10385,9 @@ msgid "Include storage device data"
 msgstr ""
 
 msgid "Include teletext details"
+msgstr ""
+
+msgid "Include text encoding data"
 msgstr ""
 
 msgid "Include timer data"
@@ -11251,6 +11278,9 @@ msgstr "Límite oeste"
 msgid "Limited memory size, swap file required"
 msgstr ""
 
+msgid "Limited range (64..940)"
+msgstr ""
+
 msgid "Limits cancelled"
 msgstr "Límites cancelados"
 
@@ -11527,6 +11557,9 @@ msgstr "Bucle a"
 #
 msgid "Lower Framerate saves CPU Time."
 msgstr "Menor velocidad de fotogramas ahorra tiempo de CPU"
+
+msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
+msgstr ""
 
 msgid "Lower USB"
 msgstr "USB inferior"
@@ -15420,6 +15453,12 @@ msgstr "Rojo largo"
 #
 msgid "RF Output Settings"
 msgstr "Salida de antena"
+
+msgid "RGB clamp (lower)"
+msgstr ""
+
+msgid "RGB clamp (upper)"
+msgstr ""
 
 msgid "Racing"
 msgstr ""
@@ -22086,18 +22125,6 @@ msgstr "Esta opción configura la nitidez del escalamiento al estirar la imagen 
 msgid "This option sets the suppression of false digital contours, that are the result of a limited number of discrete values."
 msgstr "Esta opción configura la supresión de bordes digitales falsos, resultado de un número limitado de valores discretos."
 
-msgid "This option sets the video & osd picture brightness."
-msgstr ""
-
-msgid "This option sets the video & osd picture contrast."
-msgstr ""
-
-msgid "This option sets the video picture brightness."
-msgstr ""
-
-msgid "This option sets the video picture contrast."
-msgstr ""
-
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Esta opción configura la nitidez de la imagen cuando se está ampliando."
 
@@ -23269,6 +23296,9 @@ msgstr "Saltos superiores -"
 
 msgid "Uphops: "
 msgstr "Saltos superiores: "
+
+msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
+msgstr ""
 
 msgid "Upper USB"
 msgstr "USB superior"
