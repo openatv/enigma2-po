@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 05:50+0000\n"
+"POT-Creation-Date: 2026-06-04 07:32+0000\n"
 "PO-Revision-Date: 2025-08-18 16:27+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -3269,6 +3269,12 @@ msgstr "Яркость видео"
 msgid "Brightness Video & OSD"
 msgstr "Яркость видео и экранного меню"
 
+msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "British Indian Ocean Territory"
 msgstr "Британская территория Индийского океана"
 
@@ -3796,6 +3802,12 @@ msgstr "Мультфильм/Марионетки"
 
 msgid "Cascade PiP"
 msgstr "Каскад PiP"
+
+msgid "Case insensitive"
+msgstr ""
+
+msgid "Case sensitive"
+msgstr ""
 
 msgid "Catalan / Valencian"
 msgstr "Каталанский / Валенсийский"
@@ -4375,12 +4387,6 @@ msgstr "Колумбия"
 
 msgid "Color"
 msgstr "Цвет"
-
-msgid "Color Bottom"
-msgstr "Цвет снизу"
-
-msgid "Color Top"
-msgstr "Цвет сверху"
 
 msgid "Color format"
 msgstr "Формат цвета"
@@ -5024,11 +5030,20 @@ msgstr "Контрастное видео"
 msgid "Contrast Video & OSD"
 msgstr "Контрастное видео и экранного меню"
 
+msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "Control LED can be turned on or off here."
 msgstr "Здесь можно включить или выключить светодиод управления."
 
 msgid "Control files:"
 msgstr "Контрольные файлы:"
+
+msgid "Control how files will be sorted in screens that show a file list. Case sensitive will group uppercase files first followed by lowercase files. Case insensitive will sort files alphabetically, ignoring case."
+msgstr ""
 
 msgid "Control of the position how finished timer are shown in the Timer List."
 msgstr "Настройте местоположение завершённых таймеров в списке таймеров."
@@ -5204,9 +5219,6 @@ msgstr "Создать дамп загрузчика приложения."
 
 msgid "Create backup image zip file."
 msgstr "Создайте резервную копию образа в формате zip."
-
-msgid "Create boot dump."
-msgstr "Создать загрузочный дамп."
 
 msgid "Create boot image dump."
 msgstr "Создать дамп загрузочного образа."
@@ -7344,6 +7356,9 @@ msgstr "Включите эту опцию, чтобы добавить имен
 msgid "Enable this option to add storage device information detected during system boot and hot plug events to the debug log file."
 msgstr "Включите эту опцию, чтобы добавить в файл журнала отладки информацию об устройствах хранения, обнаруженных во время загрузки системы и событий горячего подключения."
 
+msgid "Enable this option to add text encoding information to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Включите этот параметр, чтобы добавить данные отладки таймера в файл лога отладки."
 
@@ -8486,6 +8501,9 @@ msgstr "Файл занят\n"
 msgid "File compression"
 msgstr "Сжатие файлов"
 
+msgid "File sorting mode"
+msgstr ""
+
 msgid "File system"
 msgstr "Файловая система"
 
@@ -8825,6 +8843,9 @@ msgstr "Максимальное растяжение"
 
 msgid "Full factory reset"
 msgstr "Полный сброс до заводских настроек"
+
+msgid "Full range (no clipping)"
+msgstr ""
 
 msgid "Full screen"
 msgstr "Полноэкранный"
@@ -9257,6 +9278,9 @@ msgid "Hardware information"
 msgstr "Устройство"
 
 msgid "Hardware latency correction"
+msgstr ""
+
+msgid "Hardware revision"
 msgstr ""
 
 msgid "Hardware serial"
@@ -9943,6 +9967,9 @@ msgstr "Включить данные устройства хранения"
 
 msgid "Include teletext details"
 msgstr "Включать подробности о телетексте"
+
+msgid "Include text encoding data"
+msgstr ""
 
 msgid "Include timer data"
 msgstr "Включить данные таймера"
@@ -10777,6 +10804,9 @@ msgstr "Ограничение на запад"
 msgid "Limited memory size, swap file required"
 msgstr "Ограниченный объём памяти, требуется файл подкачки"
 
+msgid "Limited range (64..940)"
+msgstr ""
+
 msgid "Limits cancelled"
 msgstr "Ограничения отменены"
 
@@ -11031,6 +11061,9 @@ msgstr "Настроить как петлю к"
 
 msgid "Lower Framerate saves CPU Time."
 msgstr "Низкая частота кадров снижает нагрузку на процессор"
+
+msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
+msgstr ""
 
 msgid "Lower USB"
 msgstr "Нижний USB"
@@ -14663,6 +14696,12 @@ msgstr "Красная, долгая"
 
 msgid "RF Output Settings"
 msgstr "ВЧ выход"
+
+msgid "RGB clamp (lower)"
+msgstr ""
+
+msgid "RGB clamp (upper)"
+msgstr ""
 
 msgid "Racing"
 msgstr ""
@@ -20965,18 +21004,6 @@ msgstr "Эта опция управляетрезкостью при растя
 msgid "This option sets the suppression of false digital contours, that are the result of a limited number of discrete values."
 msgstr "Эта опция включает подавление ложных цифровых контуров, которые являются результатом ограниченного количества дискретных значений."
 
-msgid "This option sets the video & osd picture brightness."
-msgstr "Этот параметр устанавливает яркость изображения видео и экранного меню."
-
-msgid "This option sets the video & osd picture contrast."
-msgstr "Этот параметр устанавливает контраст видео и экранного изображения."
-
-msgid "This option sets the video picture brightness."
-msgstr "Этот параметр устанавливает яркость видеоизображения."
-
-msgid "This option sets the video picture contrast."
-msgstr "Этот параметр устанавливает контрастность видеоизображения."
-
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Этот параметр влияет на резкость изображения при увеличении картинки."
 
@@ -22038,6 +22065,9 @@ msgstr "Uphops -"
 
 msgid "Uphops: "
 msgstr "Uphops: "
+
+msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
+msgstr ""
 
 msgid "Upper USB"
 msgstr "USB сверху"
@@ -24439,6 +24469,27 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Color Bottom"
+#~ msgstr "Цвет снизу"
+
+#~ msgid "Color Top"
+#~ msgstr "Цвет сверху"
+
+#~ msgid "Create boot dump."
+#~ msgstr "Создать загрузочный дамп."
+
+#~ msgid "This option sets the video & osd picture brightness."
+#~ msgstr "Этот параметр устанавливает яркость изображения видео и экранного меню."
+
+#~ msgid "This option sets the video & osd picture contrast."
+#~ msgstr "Этот параметр устанавливает контраст видео и экранного изображения."
+
+#~ msgid "This option sets the video picture brightness."
+#~ msgstr "Этот параметр устанавливает яркость видеоизображения."
+
+#~ msgid "This option sets the video picture contrast."
+#~ msgstr "Этот параметр устанавливает контрастность видеоизображения."
 
 #~ msgid "I55SE/H7/H17/H9/H9SE/H9COMBO/H9COMBOSE/H10/H11 new Model"
 #~ msgstr "I55SE/H7/H9/H9SE/H9COMBO/H9COMBOSE/H10/H11 новая модель"

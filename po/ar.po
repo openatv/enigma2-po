@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-16 05:50+0000\n"
+"POT-Creation-Date: 2026-06-04 07:32+0000\n"
 "PO-Revision-Date: 2026-03-18 21:46+0000\n"
 "Last-Translator: Abdulelah Aqeil <dr.romantic@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ar/>\n"
@@ -3528,6 +3528,12 @@ msgstr "الإضاءه"
 msgid "Brightness Video & OSD"
 msgstr "السطوع (معتم)"
 
+msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Brightness applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "British Indian Ocean Territory"
 msgstr "إقليم المحيط الهندي البريطاني"
 
@@ -4095,6 +4101,12 @@ msgstr "الرسوم المتحركة/الدمى"
 #, fuzzy
 msgid "Cascade PiP"
 msgstr "تنظيم خاصية قناة داخل قناة"
+
+msgid "Case insensitive"
+msgstr ""
+
+msgid "Case sensitive"
+msgstr ""
 
 msgid "Catalan / Valencian"
 msgstr "الكتالونية / الفالنسيانية"
@@ -4699,12 +4711,6 @@ msgstr "كولومبيا"
 
 msgid "Color"
 msgstr "اللون"
-
-msgid "Color Bottom"
-msgstr ""
-
-msgid "Color Top"
-msgstr ""
 
 msgid "Color format"
 msgstr "تهئية الألوان"
@@ -5350,10 +5356,19 @@ msgstr ""
 msgid "Contrast Video & OSD"
 msgstr ""
 
+msgid "Contrast applied to the combined video + OSD output. Affects everything on screen including this menu."
+msgstr ""
+
+msgid "Contrast applied to the video layer only. Does not affect enigma2 menus or OSD."
+msgstr ""
+
 msgid "Control LED can be turned on or off here."
 msgstr ""
 
 msgid "Control files:"
+msgstr ""
+
+msgid "Control how files will be sorted in screens that show a file list. Case sensitive will group uppercase files first followed by lowercase files. Case insensitive will sort files alphabetically, ignoring case."
 msgstr ""
 
 msgid "Control of the position how finished timer are shown in the Timer List."
@@ -5534,9 +5549,6 @@ msgid "Create application loader dump."
 msgstr ""
 
 msgid "Create backup image zip file."
-msgstr ""
-
-msgid "Create boot dump."
 msgstr ""
 
 msgid "Create boot image dump."
@@ -7725,6 +7737,9 @@ msgstr ""
 msgid "Enable this option to add storage device information detected during system boot and hot plug events to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add text encoding information to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr ""
 
@@ -8884,6 +8899,9 @@ msgstr "يبدو ان الملف مشغول.\n"
 msgid "File compression"
 msgstr "ضغط الملفات"
 
+msgid "File sorting mode"
+msgstr ""
+
 msgid "File system"
 msgstr ""
 
@@ -9246,6 +9264,9 @@ msgstr ""
 
 msgid "Full factory reset"
 msgstr "إعادة ضبط المصنع بالكامل"
+
+msgid "Full range (no clipping)"
+msgstr ""
 
 msgid "Full screen"
 msgstr "ملئ الشاشة"
@@ -9693,6 +9714,9 @@ msgid "Hardware information"
 msgstr ""
 
 msgid "Hardware latency correction"
+msgstr ""
+
+msgid "Hardware revision"
 msgstr ""
 
 msgid "Hardware serial"
@@ -10399,6 +10423,9 @@ msgstr "تضمين بيانات أجهزة التخزين"
 
 msgid "Include teletext details"
 msgstr "تضمين تفاصيل التليتكست"
+
+msgid "Include text encoding data"
+msgstr ""
 
 msgid "Include timer data"
 msgstr "تضمين بيانات المؤقت"
@@ -11282,6 +11309,9 @@ msgstr "الحد الغربى"
 msgid "Limited memory size, swap file required"
 msgstr ""
 
+msgid "Limited range (64..940)"
+msgstr ""
+
 msgid "Limits cancelled"
 msgstr "الحدود الملغية"
 
@@ -11553,6 +11583,9 @@ msgid "Loop through to"
 msgstr ""
 
 msgid "Lower Framerate saves CPU Time."
+msgstr ""
+
+msgid "Lower RGB output clipping limit. 'Full range' = no lower clipping, 'Limited range' clips RGB outputs to 64 (broadcast safe)."
 msgstr ""
 
 msgid "Lower USB"
@@ -15385,6 +15418,12 @@ msgstr ""
 
 msgid "RF Output Settings"
 msgstr "مخرج RF"
+
+msgid "RGB clamp (lower)"
+msgstr ""
+
+msgid "RGB clamp (upper)"
+msgstr ""
 
 msgid "Racing"
 msgstr ""
@@ -21885,18 +21924,6 @@ msgstr "هذا الخيار يحدد أبعاد الصورة، ويستخدم ع
 msgid "This option sets the suppression of false digital contours, that are the result of a limited number of discrete values."
 msgstr "يحدد هذا الخيار قمع القيم الرقمية الخاطئة، وهي نتيجة لعدد محدود من القيم المنفصلة."
 
-msgid "This option sets the video & osd picture brightness."
-msgstr ""
-
-msgid "This option sets the video & osd picture contrast."
-msgstr ""
-
-msgid "This option sets the video picture brightness."
-msgstr ""
-
-msgid "This option sets the video picture contrast."
-msgstr ""
-
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "هذا الخيار لتوضيح وضوح الصورة، وتستخدم عندما يتم نشرا الصورة."
 
@@ -23032,6 +23059,9 @@ msgstr "رفع الهوب -"
 
 msgid "Uphops: "
 msgstr "رفع الهوب: "
+
+msgid "Upper RGB output clipping limit. 'Full range' = no upper clipping, 'Limited range' clips RGB outputs to 940 (broadcast safe)."
+msgstr ""
 
 msgid "Upper USB"
 msgstr ""
