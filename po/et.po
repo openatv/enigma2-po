@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 05:46+0000\n"
+"POT-Creation-Date: 2026-06-19 12:25+0000\n"
 "PO-Revision-Date: 2022-12-04 20:43+0000\n"
 "Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
@@ -1732,6 +1732,9 @@ msgstr "ATSC levitaja"
 
 msgid "AV Setup"
 msgstr "Heli ja pildi seaded"
+
+msgid "AV receiver, soundbar and remote"
+msgstr ""
 
 msgid "Abkhazian"
 msgstr "Abhaasia"
@@ -5586,11 +5589,17 @@ msgstr ""
 msgid "DVB-C"
 msgstr "DVB-C"
 
+msgid "DVB-C / Cable only"
+msgstr ""
+
 msgid "DVB-C ANNEX B"
 msgstr "DVB-C ANNEX B"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANNEX C"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5600,6 +5609,9 @@ msgstr "DVB-S2"
 
 msgid "DVB-T"
 msgstr "DVB-T"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr ""
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -6788,6 +6800,9 @@ msgstr "dokumentaal"
 
 msgid "Dolby Digital downmix is now"
 msgstr "DD / DTS > stereo on"
+
+msgid "Dolby TrueHD"
+msgstr ""
 
 msgid "Domain"
 msgstr ""
@@ -8808,6 +8823,9 @@ msgstr "Sunnitud LNB toonimpulsi seaded."
 msgid "Force Legacy Signal stats"
 msgstr "Kasuta aegunud signaalistatistikat"
 
+msgid "Force TV input to this receiver"
+msgstr ""
+
 msgid "Force ToneBurst"
 msgstr "Sunnitud toonimpulss"
 
@@ -9676,6 +9694,9 @@ msgid "Hungary"
 msgstr "Ungari"
 
 msgid "Hybrid Tuner"
+msgstr ""
+
+msgid "Hybrid tuner mode"
 msgstr ""
 
 msgid "Hz"
@@ -14884,8 +14905,8 @@ msgstr ""
 msgid "Put TV in Standby"
 msgstr "Lülita teler välja"
 
-msgid "Put your AV Receiver in Standby"
-msgstr "AV ressiiver ooteseisundisse"
+msgid "Put your AV Receiver or Soundbar in Standby"
+msgstr ""
 
 msgid "Python"
 msgstr ""
@@ -17059,6 +17080,9 @@ msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiS
 msgstr "Vali antenni seadistus, nt. üksik LNB, DiSEqC lüliti, ajam jne."
 
 msgid "Select how the schedule is handled with respect to Standby."
+msgstr ""
+
+msgid "Select how this DVB-C/T tuner is connected. Use the external coax switch option only with a 5V controlled coax switch."
 msgstr ""
 
 msgid "Select how to activate the Quick EPG mode."
@@ -20527,8 +20551,14 @@ msgstr "TV"
 msgid "TV button mode"
 msgstr "TV nupu vajutus"
 
+msgid "TV input and receiver wakeup"
+msgstr ""
+
 msgid "TV physical address report"
 msgstr "TV füüsilise aadressi raport"
+
+msgid "TV power"
+msgstr ""
 
 msgid "TXT PID"
 msgstr "TXT PID"
@@ -21733,6 +21763,9 @@ msgid "Timeshift"
 msgstr "Ajanihe"
 
 msgid "Timezone"
+msgstr ""
+
+msgid "Timing and diagnostics"
 msgstr ""
 
 #, fuzzy
@@ -23221,7 +23254,7 @@ msgstr ""
 msgid "Volume down"
 msgstr "Heli maha"
 
-msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
+msgid "Volume keys on the receiver remote will control the TV, AV receiver or soundbar volume over HDMI-CEC. If this feature is not supported the volume keys have no function!"
 msgstr ""
 
 msgid "Volume steps"
@@ -23306,8 +23339,8 @@ msgstr "Käivitus enne taimeri algust (min)"
 msgid "Wake up to standby"
 msgstr "Ärata ooteseisundisse"
 
-msgid "Wake up your AV Receiver from Standby"
-msgstr "AV ressiiveri äratus ooteseisundist"
+msgid "Wake up your AV Receiver or Soundbar from Standby"
+msgstr ""
 
 msgid "Wallis and Futuna"
 msgstr "Wallis ja Futuna"
@@ -23575,14 +23608,14 @@ msgstr "Kui lubatud, saab PiP sulgeda EXIT nupuga."
 msgid "When enabled, the VCR SCART option will be shown on the main menu."
 msgstr "Kui lubatud, kuvatakse VCR-SCART valik peamenüüs"
 
+msgid "When enabled, the connected AV receiver or soundbar will automatically be switched off."
+msgstr ""
+
+msgid "When enabled, the connected AV receiver or soundbar will automatically be switched on."
+msgstr ""
+
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
 msgstr "Kui lubatud, näidatakse filmilistis salvestiste kestust (laadimine võib kesta veidi kauem)."
-
-msgid "When enabled, the receiver will automatically be switched off."
-msgstr ""
-
-msgid "When enabled, the receiver will automatically be switched on."
-msgstr ""
 
 msgid "When enabled, the receiver will automatically return to Standby when the TV is turned off."
 msgstr ""
@@ -23660,6 +23693,9 @@ msgid "When the receiver wakes from Standby or Deep Standby it will send a comma
 msgstr ""
 
 msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+msgstr ""
+
+msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -24935,6 +24971,12 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "Put your AV Receiver in Standby"
+#~ msgstr "AV ressiiver ooteseisundisse"
+
+#~ msgid "Wake up your AV Receiver from Standby"
+#~ msgstr "AV ressiiveri äratus ooteseisundist"
 
 #~ msgid " "
 #~ msgstr " "
