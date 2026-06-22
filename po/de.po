@@ -19,16 +19,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-05 05:46+0000\n"
-"PO-Revision-Date: 2026-06-06 12:12+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2026-06-19 12:25+0000\n"
+"PO-Revision-Date: 2026-06-20 21:30+0000\n"
+"Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -1809,6 +1809,9 @@ msgstr "ATSC-Anbieter"
 
 msgid "AV Setup"
 msgstr "Audio/Video"
+
+msgid "AV receiver, soundbar and remote"
+msgstr "AV-Receiver, Soundbar und Fernbedienung"
 
 msgid "Abkhazian"
 msgstr "Abchasisch"
@@ -5021,7 +5024,7 @@ msgid "Configure the start coordinate in y of the teletext display area."
 msgstr "Bestimmt die Y-Startkoordinate des Anzeigebereichs für Videotext."
 
 msgid "Configure the subtitle delay when timing information is not available."
-msgstr "Die Verzögerung für Untertitel einstellen, wenn keine Informationen vorhanden sind."
+msgstr "Die Untertitelverzögerung einstellen, wenn keine Timing-Informationen verfügbar sind."
 
 msgid "Configure the teletext screen resolution. Note: Full-HD teletext is not supported by all skins."
 msgstr "Bestimmt die Videotextbildschirmauflösung (nicht alle Skins unterstützen Full-HD-Videotext)."
@@ -5805,11 +5808,17 @@ msgstr "DVB-Untertitelfarbe"
 msgid "DVB-C"
 msgstr "DVB-C"
 
+msgid "DVB-C / Cable only"
+msgstr "DVB-C / nur Kabel"
+
 msgid "DVB-C ANNEX B"
 msgstr "DVB-C Annex B"
 
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C Annex-C"
+
+msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
+msgstr "DVB-C und DVB-T/T2 über einen externen, 5-V-gesteuerten Koaxialschalter"
 
 #
 msgid "DVB-S"
@@ -5821,6 +5830,9 @@ msgstr "DVB-S2"
 
 msgid "DVB-T"
 msgstr "DVB-T"
+
+msgid "DVB-T/T2 / Terrestrial only"
+msgstr "DVB-T/T2 / nur terrestrisch"
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -7052,6 +7064,9 @@ msgstr "Dokumentarfilm"
 
 msgid "Dolby Digital downmix is now"
 msgstr "Dolby-Digital-Downmix ist jetzt"
+
+msgid "Dolby TrueHD"
+msgstr "Dolby TrueHD"
 
 msgid "Domain"
 msgstr "Bereich"
@@ -9111,7 +9126,7 @@ msgid "For how many minutes do you want to record?"
 msgstr "Wie viele Minuten sollen aufgenommen werden?"
 
 msgid "Force AC3plus"
-msgstr "Erzwinge AC3+"
+msgstr "AC3+ erzwingen"
 
 # satconfig.py
 msgid "Force LNB Power"
@@ -9128,6 +9143,9 @@ msgstr "Einstellung für Toneburst."
 msgid "Force Legacy Signal stats"
 msgstr "Ursprünglichen Signalstatus erzwingen"
 
+msgid "Force TV input to this receiver"
+msgstr "TV-Eingang für diesen Receiver erzwingen"
+
 # satconfig.py
 msgid "Force ToneBurst"
 msgstr "Toneburst erzwingen"
@@ -9136,7 +9154,7 @@ msgid "Force de-interlace"
 msgstr "Immer Deinterlacer erzwingen"
 
 msgid "Force disabled"
-msgstr "Erzwinge deaktiviert"
+msgstr "Erzwingen deaktiviert"
 
 msgid "Force enabled"
 msgstr "Erzwingen aktiviert"
@@ -10005,6 +10023,9 @@ msgstr "Ungarn"
 
 msgid "Hybrid Tuner"
 msgstr "Hybridtuner"
+
+msgid "Hybrid tuner mode"
+msgstr "Hybridtunermodus"
 
 msgid "Hz"
 msgstr "Hz"
@@ -15369,7 +15390,7 @@ msgid "Purge all but the current and permanent locales/languages. Add the curren
 msgstr "Alle Sprachen mit Ausnahme der aktuellen und permanenten Sprachregionen löschen. Die aktuelle Sprachregion hinzufügen, wenn sie nicht installiert ist. Die aktuelle Sprachregion löschen, wenn sie installiert ist."
 
 msgid "Purging all unused locales/languages..."
-msgstr "Löschen aller nicht verwendeten Sprachregionen …"
+msgstr "Alle nicht verwendeten Sprachregionen werden gelöscht …"
 
 msgid "Purple"
 msgstr "Lila"
@@ -15380,8 +15401,8 @@ msgstr "Pushto / Paschtu"
 msgid "Put TV in Standby"
 msgstr "TV in Standby versetzen"
 
-msgid "Put your AV Receiver in Standby"
-msgstr "AV-Receiver in Standby versetzen"
+msgid "Put your AV Receiver or Soundbar in Standby"
+msgstr "AV-Receiver oder Soundbar in Standby versetzen"
 
 msgid "Python"
 msgstr "Python"
@@ -17645,6 +17666,9 @@ msgstr "Auswählen, wie die Satellitenschüssel eingerichtet ist (feste Schüsse
 
 msgid "Select how the schedule is handled with respect to Standby."
 msgstr "Auswählen, wie der Zeitplan im Standby behandelt werden soll."
+
+msgid "Select how this DVB-C/T tuner is connected. Use the external coax switch option only with a 5V controlled coax switch."
+msgstr "Auswählen, wie dieser DVB-C/T-Tuner angeschlossen ist. Die Option für externen Koaxialschalter nur mit einem 5-V-gesteuerten Koaxialschalter verwenden."
 
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Auswählen, wie der grafische Infoleisten-EPG aufgerufen werden soll."
@@ -20912,10 +20936,10 @@ msgid "Subtitle border width"
 msgstr "Untertitelrahmenbreite"
 
 msgid "Subtitle delay when timing is bad"
-msgstr "Verzögerung der Untertitel bei schlechter Synchronität"
+msgstr "Untertitelverzögerung bei schlechtem Timing"
 
 msgid "Subtitle delay when timing lacks"
-msgstr "Verzögerung der Untertitel, wenn das Timing fehlt"
+msgstr "Untertitelverzögerung bei fehlendem Timing"
 
 msgid "Subtitle font size"
 msgstr "Untertitelschriftgröße"
@@ -21147,7 +21171,7 @@ msgid "Sync NTP every"
 msgstr "Synchronisierungsintervall mit NTP-Server"
 
 msgid "Sync failure moving back to origin!"
-msgstr "Synchronisationsfehler beim Zurückgehen zum Ursprung!"
+msgstr "Synchronisierungsfehler beim Zurückgehen zum Ursprung!"
 
 msgid "Sync mode"
 msgstr "Synchronisierungsmodus"
@@ -21235,8 +21259,14 @@ msgstr "TV"
 msgid "TV button mode"
 msgstr "Taste TV"
 
+msgid "TV input and receiver wakeup"
+msgstr "TV-Eingang und Receiver-Wakeup"
+
 msgid "TV physical address report"
 msgstr "TV-Adressbericht"
+
+msgid "TV power"
+msgstr "TV-Netzschalter"
 
 msgid "TXT PID"
 msgstr "TXT-PID"
@@ -22501,6 +22531,9 @@ msgstr "Timeshift"
 
 msgid "Timezone"
 msgstr "Zeitzone"
+
+msgid "Timing and diagnostics"
+msgstr "Timing und Diagnose"
 
 msgid "Timor-Leste / East Timor"
 msgstr "Timor-Leste / Osttimor"
@@ -24069,10 +24102,8 @@ msgstr "Lautstärkeanpassung-Modus"
 msgid "Volume down"
 msgstr "Lautstärke -"
 
-msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
-msgstr ""
-"Die Lautstärketasten der Receiver-Fernbedienung ändern die Lautstärke des Fernsehers.\n"
-"Wird die Funktion nicht unterstützt, haben die Tasten keine Funktion."
+msgid "Volume keys on the receiver remote will control the TV, AV receiver or soundbar volume over HDMI-CEC. If this feature is not supported the volume keys have no function!"
+msgstr "Mit den Lautstärketasten auf der Receiver-Fernbedienung lässt sich die Lautstärke des Fernsehers, des AV-Receivers oder der Soundbar über HDMI-CEC regeln. Wird diese Funktion nicht unterstützt, haben die Lautstärketasten keine Funktion!"
 
 msgid "Volume steps"
 msgstr "Lautstärkeschritte bei Taste VOL +/-"
@@ -24132,7 +24163,7 @@ msgid "WSS on 4:3"
 msgstr "WSS bei 4:3"
 
 msgid "Wait for timesync at startup"
-msgstr "Warte beim Systemstart auf Zeitsynchronisation"
+msgstr "Beim Systemstart auf die Zeitsynchronisierung warten"
 
 #
 msgid "Wait please while creating swap file..."
@@ -24163,8 +24194,8 @@ msgstr "Aufwachzeit bevor ein Timer beginnt"
 msgid "Wake up to standby"
 msgstr "In Standby aufwachen"
 
-msgid "Wake up your AV Receiver from Standby"
-msgstr "AV-Receiver aus Standby aufwecken"
+msgid "Wake up your AV Receiver or Soundbar from Standby"
+msgstr "AV-Receiver oder Soundbar aus Standby aufwecken"
 
 msgid "Wallis and Futuna"
 msgstr "Wallis und Futuna"
@@ -24443,14 +24474,14 @@ msgstr "Wenn aktiviert, kann der Bild-im-Bild-Modus mit EXIT beendet werden."
 msgid "When enabled, the VCR SCART option will be shown on the main menu."
 msgstr "Wenn aktiviert, wird die Option Scart-Videorekorder im Hauptmenü angezeigt."
 
+msgid "When enabled, the connected AV receiver or soundbar will automatically be switched off."
+msgstr "Wenn aktiviert, wird der angeschlossene AV-Receiver oder die Soundbar automatisch ausgeschaltet."
+
+msgid "When enabled, the connected AV receiver or soundbar will automatically be switched on."
+msgstr "Wenn aktiviert, wird der angeschlossene AV-Receiver oder die Soundbar automatisch eingeschaltet."
+
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
 msgstr "Wenn aktiviert, wird die Länge jeder Aufnahme in der Filmauswahl angezeigt (dies kann zu einer etwas längeren Ladezeit führen)."
-
-msgid "When enabled, the receiver will automatically be switched off."
-msgstr "Wenn aktiviert, wird der Receiver automatisch ausgeschaltet."
-
-msgid "When enabled, the receiver will automatically be switched on."
-msgstr "Wenn aktiviert, wird der Receiver automatisch eingeschaltet."
 
 msgid "When enabled, the receiver will automatically return to Standby when the TV is turned off."
 msgstr "Wenn aktiviert, wird der Receiver automatisch in Standby versetzt, wenn der Fernseher ausgeschaltet wird."
@@ -24533,6 +24564,9 @@ msgstr "Wenn der Receiver aus Standby oder Deep-Standby aufwacht, wird auch dem 
 
 msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
 msgstr "Wenn der Receiver aus Standby erwacht, schaltet er den Fernseher auf den mit dem Receiver verbundenen HDMI-Eingang um."
+
+msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+msgstr "Wenn der Receiver aus Standby erwacht, werden Stream-Pfad- und Routing-Befehle gesendet, damit der Fernseher von einem anderen HDMI-Eingang zurück zu diesem Receiver schaltet."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Wird der rote Rahmen korrekt angezeigt, die Einstellungen mit GRÜN speichern und beenden."
@@ -25913,6 +25947,23 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Put your AV Receiver in Standby"
+#~ msgstr "AV-Receiver in Standby versetzen"
+
+#~ msgid "Volume keys on the receiver remote will control the TV volume. If this feature is not supported the volume keys have no function!"
+#~ msgstr ""
+#~ "Die Lautstärketasten der Receiver-Fernbedienung ändern die Lautstärke des Fernsehers.\n"
+#~ "Wird die Funktion nicht unterstützt, haben die Tasten keine Funktion."
+
+#~ msgid "Wake up your AV Receiver from Standby"
+#~ msgstr "AV-Receiver aus Standby aufwecken"
+
+#~ msgid "When enabled, the receiver will automatically be switched off."
+#~ msgstr "Wenn aktiviert, wird der Receiver automatisch ausgeschaltet."
+
+#~ msgid "When enabled, the receiver will automatically be switched on."
+#~ msgstr "Wenn aktiviert, wird der Receiver automatisch eingeschaltet."
 
 #~ msgid "Color Bottom"
 #~ msgstr "Farbe unten"
