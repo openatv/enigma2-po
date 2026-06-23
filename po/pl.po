@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-22 05:01+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-22 23:42+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -8748,9 +8748,6 @@ msgstr "Wymuś ustawienia ToneBurst dla tunera LNB."
 msgid "Force Legacy Signal stats"
 msgstr "Wymuś statystyki starszych sygnałów"
 
-msgid "Force TV input to this receiver"
-msgstr "Wymuś przełączenie TV na wejście tego odbiornika"
-
 msgid "Force ToneBurst"
 msgstr "Wymuś ToneBurst"
 
@@ -14368,7 +14365,7 @@ msgid "Press OK to use this locale.  [%s]"
 msgstr "Naciśnij OK aby użyć tego regionu. [%s]"
 
 msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that image. If available, YELLOW will either delete or wipe the image. A deleted image can be restored with the BLUE button. A wiped image is completely removed and cannot be restored!"
-msgstr "Użyj GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY aby uruchomić wybrany system. ŻÓŁTY spowoduje 'Usunięcie' lub 'Wymazanie' systemu. Usunięty system można przywrócić za pomocą NIEBIESKIEGO przycisku. Wymazany system jest całkowicie usunięty co znaczy, że nie może zostać przywrócony!"
+msgstr "Użyj GÓRA/DÓŁ, aby wybrać slot, a następnie OK lub ZIELONY aby uruchomić wybrany system. Przycisk ŻÓŁTY, usuwa system. Usunięty system można przywrócić za pomocą NIEBIESKIEGO przycisku. Przyciskiem TEXT zmieniasz nazwę slotu!"
 
 msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that image. If available, YELLOW will disable Multiboot, delete, or wipe the selected image. Press BLUE to add more slots."
 msgstr "Naciskaj przyciski GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY, aby ponownie uruchomić ten system. Jeśli dostępny, ŻÓŁTY wyłączy funkcję Multiboot, usunie lub wyczyści wybrany system. Naciśnij NIEBIESKI, aby dodać więcej slotów."
@@ -15294,11 +15291,18 @@ msgstr "Zmień nazwę i opis nowych zdarzeń"
 msgid "Rename only highlighted file"
 msgstr "Zmień nazwę tylko wybranego pliku"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "Zmień nazwę slotu '%s' (pozostaw puste, aby zresetować):"
+
 msgid "Rename the proposed file to be created"
 msgstr "Zmień nazwę proponowanego pliku, który ma zostać utworzony"
 
 msgid "Rename the selected service"
 msgstr "Zmień nazwę wybranej usługi"
+
+msgid "Rename the selected slot"
+msgstr "Zmień nazwę wybranego slotu"
 
 msgid "Rename this tag"
 msgstr "Zmień nazwę tego znacznika"
@@ -23262,11 +23266,8 @@ msgstr "Gdy kursor wejściowy osiągnie ten punkt (procent szerokości, z obu st
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Gdy odbiornik wybudza się ze stanu czuwania lub trybu wyłączenia, wysyła do telewizora polecenie wyprowadzenia go ze stanu czuwania."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Gdy odbiornik wybudzi się ze stanu czuwania, telewizor nakaże mu przełączenie się na wejście HDMI, do którego podłączony jest odbiornik."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "Gdy odbiornik wybudzi się z trybu czuwania, wyśle polecenia dotyczące ścieżki sygnału i trasowania, aby telewizor automatycznie przełączył się z innego wejścia HDMI z powrotem na ten odbiornik."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Gdy odbiornik wybudzi się z trybu czuwania, telewizor automatycznie przełączy się na wejście HDMI, do którego podłączony jest odbiornik."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Gdy czerwone pole będzie już prawidłowo widoczne, naciśnij ZIELONY przycisk, aby zapisać ustawienia i wyjść."
@@ -24522,6 +24523,15 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "Wymuś przełączenie TV na wejście tego odbiornika"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Gdy odbiornik wybudzi się ze stanu czuwania, telewizor nakaże mu przełączenie się na wejście HDMI, do którego podłączony jest odbiornik."
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "Gdy odbiornik wybudzi się z trybu czuwania, wyśle polecenia dotyczące ścieżki sygnału i trasowania, aby telewizor automatycznie przełączył się z innego wejścia HDMI z powrotem na ten odbiornik."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Przełącz amplituner AV w tryb czuwania"
