@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-22 05:01+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-22 23:42+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
 "Language: sr\n"
@@ -8737,9 +8737,6 @@ msgstr "Forsiraj postavke LNB Tjuner ToneBurst."
 msgid "Force Legacy Signal stats"
 msgstr "Forsiraj statistiku Zaostalog Signala"
 
-msgid "Force TV input to this receiver"
-msgstr "Primoraj ovaj prijemnik da koristi TV ulaz"
-
 msgid "Force ToneBurst"
 msgstr "Forsiraj ToneBurst"
 
@@ -15282,11 +15279,18 @@ msgstr "Preimenovanje imena i opisa za nove događaje"
 msgid "Rename only highlighted file"
 msgstr "Preimenuj samo istaknuti fajl"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "Preimenuj slot '%s' (ostavi prazno da resetuješ):"
+
 msgid "Rename the proposed file to be created"
 msgstr "Preimenuj predloženi fajl za kreiranje"
 
 msgid "Rename the selected service"
 msgstr "Preimenujte izabrani servis"
+
+msgid "Rename the selected slot"
+msgstr "Preimenuj izabrani slot"
 
 msgid "Rename this tag"
 msgstr "Preimenuj ovu oznaku"
@@ -23249,11 +23253,8 @@ msgstr "Kada kursor unosa dostigne ovu tačku (procenat širine, sa obe strane) 
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Kada prijemnik izađe iz režima čekanja ili dubokog čekanja, poslaće komandu televizoru da ga izvuče iz režima čekanja."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Kada prijemnik izađe iz režima čekanja, preći će TV na HDMI ulaz koji je povezan sa prijemnikom."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "Kada risiver izađe iz režima čekanja, pošalji putanju strima i komande za rutiranje da TV prebaci sa drugog HDMI ulaza nazad na ovaj risiver."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Kada se risiver probudi iz Pripravnog režima, pošalji aktivan izvor, putanju strima i komande za usmeravanje kako bi TV prešao na HDMI ulaz povezan sa risiverom."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Kada je crven box pravilno vidljiv, pritisnite ZELENU dugmad da sačuvate podešavanja i izađete."
@@ -24509,6 +24510,15 @@ msgstr "da (zadrži fidove)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "Primoraj ovaj prijemnik da koristi TV ulaz"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Kada prijemnik izađe iz režima čekanja, preći će TV na HDMI ulaz koji je povezan sa prijemnikom."
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "Kada risiver izađe iz režima čekanja, pošalji putanju strima i komande za rutiranje da TV prebaci sa drugog HDMI ulaza nazad na ovaj risiver."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Stavite svoj AV prijemnik u režim čekanja"
