@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-11 12:01+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-22 23:42+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.6\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 msgid ""
 "\n"
@@ -1755,7 +1755,7 @@ msgid "AV Setup"
 msgstr "Nastavení videa"
 
 msgid "AV receiver, soundbar and remote"
-msgstr ""
+msgstr "AV přijímač, soundbar a dálkové ovládání"
 
 msgid "Abkhazian"
 msgstr "Abcházský"
@@ -5553,7 +5553,7 @@ msgid "DVB-C"
 msgstr "DVB-C"
 
 msgid "DVB-C / Cable only"
-msgstr ""
+msgstr "Pouze DVB-C / kabelová televize"
 
 msgid "DVB-C ANNEX B"
 msgstr "DVB-C ANNEX B"
@@ -5562,7 +5562,7 @@ msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANNEX C"
 
 msgid "DVB-C and DVB-T/T2 via external 5V controlled coax switch"
-msgstr ""
+msgstr "DVB-C a DVB-T/T2 přes externí 5V řízený koaxiální přepínač"
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5574,7 +5574,7 @@ msgid "DVB-T"
 msgstr "DVB-T"
 
 msgid "DVB-T/T2 / Terrestrial only"
-msgstr ""
+msgstr "Pouze DVB-T/T2 / pozemní vysílání"
 
 msgid "DVB-T2"
 msgstr "DVB-T2"
@@ -6751,7 +6751,7 @@ msgid "Dolby Digital downmix is now"
 msgstr "Dolby Digital downmix je nyní"
 
 msgid "Dolby TrueHD"
-msgstr ""
+msgstr "Dolby TrueHD"
 
 msgid "Domain"
 msgstr "Doména"
@@ -8738,9 +8738,6 @@ msgstr "Vynutit nastavení ToneBurst tuneru LNB."
 msgid "Force Legacy Signal stats"
 msgstr "Vynucené statistiky signálu Legacy"
 
-msgid "Force TV input to this receiver"
-msgstr ""
-
 msgid "Force ToneBurst"
 msgstr "Vynutit toneburst"
 
@@ -9586,7 +9583,7 @@ msgid "Hybrid Tuner"
 msgstr "Hybridní tuner"
 
 msgid "Hybrid tuner mode"
-msgstr ""
+msgstr "Hybridní režim tuneru"
 
 msgid "Hz"
 msgstr "Hz"
@@ -14598,7 +14595,7 @@ msgid "Put TV in Standby"
 msgstr "Uspat TV"
 
 msgid "Put your AV Receiver or Soundbar in Standby"
-msgstr ""
+msgstr "Přepněte AV receiver nebo soundbar do pohotovostního režimu"
 
 msgid "Python"
 msgstr "Python"
@@ -15283,11 +15280,18 @@ msgstr "Přejmenovat název a popis pro nové události"
 msgid "Rename only highlighted file"
 msgstr "Přejmenovat pouze zvýrazněný soubor"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "Přejmenovat slot '%s' (pro resetování ponechte prázdné):"
+
 msgid "Rename the proposed file to be created"
 msgstr "Přejmenujte navrhovaný soubor, který má být vytvořen"
 
 msgid "Rename the selected service"
 msgstr "Přejmenovat vybranou službu"
+
+msgid "Rename the selected slot"
+msgstr "Přejmenovat vybraný slot"
 
 msgid "Rename this tag"
 msgstr "Přejmenovat tuto značku"
@@ -16727,7 +16731,7 @@ msgid "Select how the schedule is handled with respect to Standby."
 msgstr "Vyberte, jak se má s plánem zacházet s ohledem na pohotovostní režim."
 
 msgid "Select how this DVB-C/T tuner is connected. Use the external coax switch option only with a 5V controlled coax switch."
-msgstr ""
+msgstr "Vyberte způsob připojení tohoto tuneru DVB-C/T. Externí koaxiální přepínač používejte pouze s koaxiálním přepínačem ovládaným 5V."
 
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Vyberte způsob aktivace režimu Quick EPG."
@@ -20138,13 +20142,13 @@ msgid "TV button mode"
 msgstr "Režim tlačítka TV"
 
 msgid "TV input and receiver wakeup"
-msgstr ""
+msgstr "Probuzení televizního vstupu a přijímače"
 
 msgid "TV physical address report"
 msgstr "Ohlášení fyzické adresy TV"
 
 msgid "TV power"
-msgstr ""
+msgstr "Zapnutí TV"
 
 msgid "TXT PID"
 msgstr "Txt Pid"
@@ -21348,7 +21352,7 @@ msgid "Timezone"
 msgstr "Časové pásmo"
 
 msgid "Timing and diagnostics"
-msgstr ""
+msgstr "Časování a diagnostika"
 
 msgid "Timor-Leste / East Timor"
 msgstr "Východní Timor / Východní Timor"
@@ -22824,7 +22828,7 @@ msgid "Volume down"
 msgstr "Hlasitost -"
 
 msgid "Volume keys on the receiver remote will control the TV, AV receiver or soundbar volume over HDMI-CEC. If this feature is not supported the volume keys have no function!"
-msgstr ""
+msgstr "Tlačítka hlasitosti na dálkovém ovladači přijímače ovládají hlasitost televizoru, AV přijímače nebo soundbaru přes HDMI-CEC. Pokud tato funkce není podporována, tlačítka hlasitosti nemají žádnou funkci!"
 
 msgid "Volume steps"
 msgstr "Kroky hlasitosti"
@@ -22908,7 +22912,7 @@ msgid "Wake up to standby"
 msgstr "Probuzení do pohotovostního režimu"
 
 msgid "Wake up your AV Receiver or Soundbar from Standby"
-msgstr ""
+msgstr "Probuďte AV receiver nebo soundbar z pohotovostního režimu"
 
 msgid "Wallis and Futuna"
 msgstr "Wallis a Futuna"
@@ -23167,10 +23171,10 @@ msgid "When enabled, the VCR SCART option will be shown on the main menu."
 msgstr "Pokud je povoleno, zobrazí se v hlavní nabídce možnost VCR SCART."
 
 msgid "When enabled, the connected AV receiver or soundbar will automatically be switched off."
-msgstr ""
+msgstr "Po aktivaci se připojený AV receiver nebo soundbar automaticky vypne."
 
 msgid "When enabled, the connected AV receiver or soundbar will automatically be switched on."
-msgstr ""
+msgstr "Po aktivaci se připojený AV receiver nebo soundbar automaticky zapne."
 
 msgid "When enabled, the length of each recording will be shown in the movie list (this might cause some additional loading time)."
 msgstr "Jestliže je povoleno, délka každého záznamu bude zobrazená v seznamu souborů (to může prodloužit dobu načítání)."
@@ -23250,11 +23254,8 @@ msgstr "Když vstupní kurzor dosáhne tohoto bodu (procento šířky z obou str
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Když se přijímač probudí z pohotovostního režimu nebo hlubokého spánku, odešle do televizoru příkaz, aby jej z pohotovostního režimu probudil."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Když se přijímač probudí z pohotovostního režimu, dá televizoru příkaz k přepnutí na vstup HDMI, ke kterému je přijímač připojen."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr ""
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Když se přijímač probudí z pohotovostního režimu, odešle příkazy pro aktivní zdroj, cestu streamu a směrování, aby se televizor přepnul na vstup HDMI připojený k přijímači."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Když je červený rámeček správně zobrazen, stiskněte ZELENÉ tlačítko pro uložení nastavení a ukončení."
@@ -24510,6 +24511,9 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Když se přijímač probudí z pohotovostního režimu, dá televizoru příkaz k přepnutí na vstup HDMI, ke kterému je přijímač připojen."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Přepněte AV přijímač do pohotovostního režimu"
