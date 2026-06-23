@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-20 21:30+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-23 09:04+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -8740,9 +8740,6 @@ msgstr "Nastavenia vynúteného tónového impulzu pre LNB tuner."
 msgid "Force Legacy Signal stats"
 msgstr "Vynútiť pôvodné stavy signálu"
 
-msgid "Force TV input to this receiver"
-msgstr "Vynútiť TV vstup pre tento prijímač"
-
 msgid "Force ToneBurst"
 msgstr "Vynútiť tónový impulz"
 
@@ -15285,11 +15282,18 @@ msgstr "Premenovať názov a popis pre nové udalosti"
 msgid "Rename only highlighted file"
 msgstr "Premenovať len zvýraznený súbor"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "Premenovať slot '%s' (pre resetovanie ponechajte prázdne)"
+
 msgid "Rename the proposed file to be created"
 msgstr "Premenovať navrhovaný vytváraný súbor"
 
 msgid "Rename the selected service"
 msgstr "Premenovať vybranú stanicu/službu"
+
+msgid "Rename the selected slot"
+msgstr "Premenovať vybraný slot"
 
 msgid "Rename this tag"
 msgstr "Premenovať tento tag"
@@ -23252,11 +23256,8 @@ msgstr "Keď vstupný kurzor dosiahne tento bod (percento šírky, z ktorejkoľv
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Keď sa prijímač prebudí z pohotovostného režimu alebo sa zapne, odošle do TV príkaz na prebudenie z pohotovostného režimu."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Po prebudení prijímača z pohotovostného režimu sa televízor prepne na HDMI vstup pripojený k prijímaču."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "Pri prebudení prijímača z pohotovostného režimu odoslať cestu k streamu a príkazy na presmerovanie, aby sa TV prepla z iného vstupu HDMI späť na prijímač."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Keď sa prijímač prebudí z pohotovostného režimu, odoslať aktívny zdroj, cestu k streamu a príkazy na smerovanie, aby sa TV prepol na vstup HDMI pripojený k prijímaču."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Keď bude viditeľný červený rámik, uložte nastavenia ZELENÝM tlačidlom a dokončite proces."
@@ -24512,6 +24513,15 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "Vynútiť TV vstup pre tento prijímač"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Po prebudení prijímača z pohotovostného režimu sa televízor prepne na HDMI vstup pripojený k prijímaču."
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "Pri prebudení prijímača z pohotovostného režimu odoslať cestu k streamu a príkazy na presmerovanie, aby sa TV prepla z iného vstupu HDMI späť na prijímač."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Prepnúť AV receiver do pohotovostného režimu"
