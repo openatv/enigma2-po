@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
 "PO-Revision-Date: 2026-04-20 04:59+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -9112,9 +9112,6 @@ msgstr "Forcera LNB Tuner ToneBurst-inställningar."
 msgid "Force Legacy Signal stats"
 msgstr "Force Legacy Signal statistik"
 
-msgid "Force TV input to this receiver"
-msgstr ""
-
 #
 msgid "Force ToneBurst"
 msgstr "Force ToneBurst"
@@ -16089,11 +16086,18 @@ msgstr "Byt namn och beskrivning för nya evenemang"
 msgid "Rename only highlighted file"
 msgstr "Byt namn på endast markerad fil"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr ""
+
 msgid "Rename the proposed file to be created"
 msgstr "Byt namn på den föreslagna filen som ska skapas"
 
 msgid "Rename the selected service"
 msgstr "Byt namn på den valda tjänsten"
+
+msgid "Rename the selected slot"
+msgstr ""
 
 msgid "Rename this tag"
 msgstr "Byt namn på denna tagg"
@@ -24447,10 +24451,7 @@ msgstr "När inmatningsmarkören når denna punkt (procent av bredden, från bå
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "När mottagaren vaknar från standby eller djup standby skickar den ett kommando till TV:n för att få den att gå ur standby."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "När mottagaren vaknar från standby kommer den att beordra TV:n att växla till den HDMI-ingång som mottagaren är ansluten till."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -25831,6 +25832,9 @@ msgstr "ja (behåller flöden)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "När mottagaren vaknar från standby kommer den att beordra TV:n att växla till den HDMI-ingång som mottagaren är ansluten till."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Sätt din AV-receiver i standby-läge"
