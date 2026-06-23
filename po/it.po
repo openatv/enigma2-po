@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-20 21:30+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-23 09:04+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -8698,9 +8698,6 @@ msgstr "Forza impostazioni ToneBurst LNB tuner."
 msgid "Force Legacy Signal stats"
 msgstr "Forza statistiche compatibili del segnale"
 
-msgid "Force TV input to this receiver"
-msgstr "Forza ingresso TV su questo ricevitore"
-
 msgid "Force ToneBurst"
 msgstr "Forza ToneBurst"
 
@@ -15239,11 +15236,18 @@ msgstr "Rinomina nome e descrizione per i nuovi eventi"
 msgid "Rename only highlighted file"
 msgstr "Rinomina solo il file evidenziato"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "Rinomina slot '%s' (lascia vuoto per reimpostare):"
+
 msgid "Rename the proposed file to be created"
 msgstr "Rinomina il file in fase di creazione"
 
 msgid "Rename the selected service"
 msgstr "Rinomina servizio selezionato"
+
+msgid "Rename the selected slot"
+msgstr "Rinomina slot selezionato"
 
 msgid "Rename this tag"
 msgstr "Rinomina questo tag"
@@ -23198,11 +23202,8 @@ msgstr "Se il cursore di input raggiunge questo punto (percentuale della larghez
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Se il ricevitore si riattiva dallo standby o dallo spegnimento, invierà un comando alla TV per portarla fuori dallo standby."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Se il ricevitore si riattiva dalla modalità standby, ordinerà alla TV di passare all'ingresso HDMI a cui è collegato il ricevitore."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "Se il ricevitore si riattiva dallo standby, invia i comandi HDMI per far commutare automaticamente la TV su questo ricevitore."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Quando il ricevitore si riattiva dalla modalità Standby, invia i comandi di sorgente attiva, percorso di streaming e routing per sintonizzare la TV sull'ingresso HDMI collegato al ricevitore."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Quando il riquadro rosso è visibile correttamente premi il tasto VERDE per salvare le impostazioni ed uscire."
@@ -24457,6 +24458,15 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "Forza ingresso TV su questo ricevitore"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Se il ricevitore si riattiva dalla modalità standby, ordinerà alla TV di passare all'ingresso HDMI a cui è collegato il ricevitore."
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "Se il ricevitore si riattiva dallo standby, invia i comandi HDMI per far commutare automaticamente la TV su questo ricevitore."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "Metti il ricevitore AV in standby"

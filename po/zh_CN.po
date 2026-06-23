@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
 "PO-Revision-Date: 2026-06-20 21:30+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -8697,9 +8697,6 @@ msgstr "强制高频头调谐器 22K 开关设置。"
 msgid "Force Legacy Signal stats"
 msgstr "强制使用传统信号统计"
 
-msgid "Force TV input to this receiver"
-msgstr "强制电视信号输入本接收机"
-
 msgid "Force ToneBurst"
 msgstr "强制 22K 开关"
 
@@ -15242,11 +15239,18 @@ msgstr "重命名新事件的名称和描述"
 msgid "Rename only highlighted file"
 msgstr "仅重命名高亮显示的文件"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr ""
+
 msgid "Rename the proposed file to be created"
 msgstr "重命名要创建的建议文件"
 
 msgid "Rename the selected service"
 msgstr "重命名所选频道"
+
+msgid "Rename the selected slot"
+msgstr ""
 
 msgid "Rename this tag"
 msgstr "重命名此标签"
@@ -23201,11 +23205,8 @@ msgstr "当输入光标到达该点（宽度的百分比，从任意一侧）时
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "当接收机从待机或深度待机中唤醒时，它将向电视发送命令以使其脱离待机状态。"
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "当接收机从待机状态唤醒时，它将命令电视切换到接收机所连接的 HDMI 输入。"
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "当接收机从待机状态唤醒时，发送流路径和路由指令，使电视从其他 HDMI 输入源切换回本接收机。"
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "当红色框正确可见时，按绿色按钮保存设置并退出。"
@@ -24460,6 +24461,15 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "强制电视信号输入本接收机"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "当接收机从待机状态唤醒时，它将命令电视切换到接收机所连接的 HDMI 输入。"
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "当接收机从待机状态唤醒时，发送流路径和路由指令，使电视从其他 HDMI 输入源切换回本接收机。"
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "将 AV 接收机置入待机状态"

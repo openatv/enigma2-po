@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-19 12:25+0000\n"
-"PO-Revision-Date: 2026-06-22 05:01+0000\n"
+"POT-Creation-Date: 2026-06-22 11:12+0000\n"
+"PO-Revision-Date: 2026-06-22 23:42+0000\n"
 "Last-Translator: Mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -9033,9 +9033,6 @@ msgstr "LNB Tuner ToneBurst ayarlarını zorla."
 msgid "Force Legacy Signal stats"
 msgstr "Legacy Signal istatistiklerini zorla"
 
-msgid "Force TV input to this receiver"
-msgstr "TV girişini bu alıcıya etkinleştir"
-
 #
 msgid "Force ToneBurst"
 msgstr "ToneBurst Zorla"
@@ -15951,11 +15948,18 @@ msgstr "Yeni etkinlikler için isim ve açıklamayı yeniden isimlendir"
 msgid "Rename only highlighted file"
 msgstr "Yalnızca vurgulanan dosyayı yeniden isimlendir"
 
+#, python-format
+msgid "Rename slot '%s' (leave empty to reset):"
+msgstr "'%s' yuvasını yeniden adlandırın (sıfırlamak için boş bırakın):"
+
 msgid "Rename the proposed file to be created"
 msgstr "Oluşturulması önerilen dosyayı yeniden isimlendir"
 
 msgid "Rename the selected service"
 msgstr "Seçili kanalı yeniden isimlendir"
+
+msgid "Rename the selected slot"
+msgstr "Seçilen yuvayı yeniden adlandırın"
 
 msgid "Rename this tag"
 msgstr "Bu etiketi yeniden isimlendir"
@@ -24234,11 +24238,8 @@ msgstr "Giriş imleci bu noktaya (genişliğin yüzdesi, her iki taraftan) ulaş
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Alıcı bekleme modundan veya derin bekleme modundan çıktığında, TV'ye bekleme modundan çıkması için bir komut gönderir."
 
-msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
-msgstr "Alıcı bekleme modundan çıktığında TV'ye alıcının bağlı olduğu HDMI girişine geçmesi için bir komut gönderir."
-
-msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
-msgstr "Alıcı bekleme modundan çıktığında, TV'nin başka bir HDMI girişinden bu alıcıya geçmesini sağlayacak akış yolu ve yönlendirme komutlarını gönderin."
+msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgstr "Alıcınız Bekleme Modundan uyandığında, TV'nin alıcınıza bağlı HDMI girişine geçmesi için aktif kaynak, akış yolu ve yönlendirme komutlarını gönderin."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Kırmızı kutu doğru şekilde göründüğünde, ayarları kaydetmek ve çıkmak için YEŞİL tuşa basın."
@@ -25607,6 +25608,15 @@ msgstr "evet (beslemeleri tut)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Force TV input to this receiver"
+#~ msgstr "TV girişini bu alıcıya etkinleştir"
+
+#~ msgid "When the receiver wakes from Standby, it will switch the TV to the HDMI input connected to the receiver."
+#~ msgstr "Alıcı bekleme modundan çıktığında TV'ye alıcının bağlı olduğu HDMI girişine geçmesi için bir komut gönderir."
+
+#~ msgid "When the receiver wakes from Standby, send stream path and routing commands so the TV switches from another HDMI input back to this receiver."
+#~ msgstr "Alıcı bekleme modundan çıktığında, TV'nin başka bir HDMI girişinden bu alıcıya geçmesini sağlayacak akış yolu ve yönlendirme komutlarını gönderin."
 
 #~ msgid "Put your AV Receiver in Standby"
 #~ msgstr "AV Alıcınızı bekleme moduna alın"
