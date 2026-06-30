@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-22 11:12+0000\n"
-"PO-Revision-Date: 2026-06-28 09:01+0000\n"
+"PO-Revision-Date: 2026-06-30 17:14+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -4148,7 +4148,7 @@ msgid "Choose the display formatting style for times. 'H'/'HH' is the hour for a
 msgstr "Wybierz styl formatowania wyświetlania dla czasów. „H” / „HH” to godzina dla zegara 24-godzinnego, „h” / „hh” to godzina dla zegara 12-godzinnego, „mm” to minuty, a „ss” to sekundy. („HH” i „hh” mają zera wiodące dla wartości jednocyfrowych.) Obraz na ekranie będzie zależał od twojego wyboru, ale skóra może na niego wpływać."
 
 msgid "Choose the fallback font."
-msgstr "Wybierz czcionkę zastępczą."
+msgstr "Wybierz czcionkę zapasową."
 
 msgid "Choose the front panel display formatting style for dates. 'D'/'DD' is the date and 'M'/'MM' is the month in digits. ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
 msgstr "Wybierz styl formatowania wyświetlania na wyświetlaczu przednim dla dat. „D” / „DD” to data, a „M” / „MM” to miesiąc cyframi. („DD” i „MM” mają zera wiodące dla wartości jednocyfrowych.) Obraz na ekranie będzie zależał od twojego wyboru, ale skóra może na niego wpływać."
@@ -4160,7 +4160,7 @@ msgid "Choose the location for crash and debug logs."
 msgstr "Wybierz lokalizacje crash loga."
 
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
-msgstr "Wybierz lokalizację, w której dane EPG zostaną zapisane gdy %s %s jest wyłączony. Lokalizacja musi być dostępny w czasie rozruchu."
+msgstr "Wybierz lokalizację, w której będą przechowywane dane EPG po wyłączeniu %s %s. Lokalizacja musi być dostępna w momencie uruchomienia."
 
 msgid "Choose the name of the file that holds the EPG data when the %s %s is shut down. This can be handy to differentiate between several receivers."
 msgstr "Wybierz nazwę pliku, który przechowuje EPG gdy %s %s jest wyłączony. Może to być przydatne do rozróżniania kilku plików EPG."
@@ -4169,7 +4169,7 @@ msgid "Choose the option to correct invalid EPG data."
 msgstr "Wybierz opcje, aby poprawić nieprawidłowe dane EPG."
 
 msgid "Choose the skin to be used for the graphical user interface (GUI). Press 'GREEN' to activate the skin."
-msgstr "Wybierz skórkę, która będzie używana dla interfejsu GUI. Naciśnij „ZIELONY”, aby aktywować skórkę."
+msgstr "Wybierz skórkę, która będzie używana w graficznym interfejsie użytkownika (GUI). Naciśnij 'ZIELONY', aby aktywować skórkę."
 
 msgid "Choose the skin to be used for the LCD/front panel interface. Press 'GREEN' to activate the skin."
 msgstr "Wybierz skórkę, która będzie używana dla interfejsu LCD/panelu przedniego. Naciśnij „ZIELONY”, aby aktywować skórkę."
@@ -8308,7 +8308,7 @@ msgid "Fallback API did not return a valid result."
 msgstr "Zastępczy interfejs API nie zwrócił prawidłowego wyniku."
 
 msgid "Fallback Font"
-msgstr "Czcionka zastępcza"
+msgstr "Czcionka zapasowa"
 
 msgid "Fallback Remote Receiver Settings"
 msgstr "Konfiguracja zdalnego odbiornika"
@@ -16278,7 +16278,7 @@ msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media
 msgstr "Jeśli jest ustawione na 'tak' pasek informacyjny pozostanie wyświetlany na stałe w stanie 'pauzy' (bez timeoutu)."
 
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
-msgstr "Wybierz „Tak”, aby zezwolić na automatyczny eksport każdego wykrytego urządzenia pamięci masowej jako udziału Samba."
+msgstr "Po włączeniu tej opcji każde wykryte urządzenie pamięci masowej będzie automatycznie eksportowane jako udział Samba."
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "Wybierz 'Tak', aby umożliwić serwerowi VPS dostosowywanie timerów nagrywania na podstawie danych z kontroli dostarczania programów (PDC) transmisji. Aby to działało, usługa musi dostarczać wiarygodne dane PDC zdarzeń."
@@ -16888,7 +16888,7 @@ msgid "Select the Yes / True response"
 msgstr "Wybierz odpowiedź jako Tak/Prawda"
 
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
-msgstr "Wybierz tryb dostępu dla automatycznie eksportowanych udziałów Samba."
+msgstr "Wybierz tryb dostępu (Odczyt/Zapis) lub (Tylko do odczytu) stosowany do wszystkich automatycznie eksportowanych udziałów Samba."
 
 #, python-format
 msgid "Select the action for '%s'"
@@ -19774,7 +19774,7 @@ msgid "Stream-tv"
 msgstr "Stream-tv"
 
 msgid "Streaming"
-msgstr "Streaming"
+msgstr "Strumieniowanie"
 
 msgid "Streaming Information Actions"
 msgstr "Działania dotyczące przesyłania strumieniowego"
