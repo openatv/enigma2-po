@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 09:48+0000\n"
+"POT-Creation-Date: 2026-07-12 11:12+0000\n"
 "PO-Revision-Date: 2026-07-03 02:01+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -770,10 +770,6 @@ msgstr[1] "%d + %d + %d minúty"
 msgstr[2] "%d + %d + %d minút"
 
 #, python-format
-msgid "%d DMIPS per core"
-msgstr "%d DMIPS na jadro"
-
-#, python-format
 msgid "%d DMIPS with %d cores"
 msgstr "%d DMIPS s %d jadrami"
 
@@ -808,6 +804,10 @@ msgid_plural "%d Hours"
 msgstr[0] "%d hodina"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodín"
+
+#, python-format
+msgid "%d Hz"
+msgstr ""
 
 #, python-format
 msgid "%d MB"
@@ -1187,6 +1187,10 @@ msgstr "%s – Nastavenie"
 #, python-format
 msgid "%s Browser Manage Actions"
 msgstr "%s Prehliadač spravovania aktivít"
+
+#, python-format
+msgid "%s DMIPS per core"
+msgstr ""
 
 #, python-format
 msgid "%s GHz"
@@ -1716,6 +1720,9 @@ msgstr "Transkódovanie AC3 plus"
 
 msgid "AC3plus transcoding"
 msgstr "Transkódovanie AC3 plus"
+
+msgid "AC4"
+msgstr ""
 
 msgid "AFL"
 msgstr "AFL"
@@ -3089,6 +3096,9 @@ msgstr "Informácie o benchmarku"
 msgid "Benchmark information for %s %s"
 msgstr "Informácie o benchmarku pre %s %s"
 
+msgid "Benchmarks"
+msgstr ""
+
 msgid "Bengali"
 msgstr "bengálčina"
 
@@ -3499,6 +3509,9 @@ msgstr "Benchmark procesora"
 msgid "CPU brand"
 msgstr "Značka CPU"
 
+msgid "CPU memory clock"
+msgstr ""
+
 msgid "CPU priority for scripts"
 msgstr "Priorita CPU pre skripty"
 
@@ -3534,6 +3547,9 @@ msgstr "Vypočítať hash/kontrolné súčty"
 
 msgid "Calculating benchmark..."
 msgstr "Výpočet benchmarku..."
+
+msgid "Calculating clock..."
+msgstr ""
 
 msgid "Calculating rating..."
 msgstr "Výpočet hodnotenia..."
@@ -4488,9 +4504,6 @@ msgstr "Komprimovať súbor TAR koreňového systému súborov. (Toto zaberie na
 
 msgid "Compressed bits/pixel"
 msgstr "Komprimované bity/pixely"
-
-msgid "Config"
-msgstr "Konfig"
 
 #, python-format
 msgid "Config file %s saved."
@@ -8372,6 +8385,9 @@ msgstr "Rýchly DiSEqC"
 msgid "Fast Scan"
 msgstr "Fast Scan"
 
+msgid "Fast Skin Reload"
+msgstr ""
+
 msgid "Fast epoch"
 msgstr "Rýchla doba"
 
@@ -9520,9 +9536,6 @@ msgstr "Hopy:"
 
 msgid "Horizontal"
 msgstr "Horizontálne"
-
-msgid "Horizontal icons"
-msgstr "Horizontálne ikony"
 
 msgid "Horizontal menu"
 msgstr "Horizontálne menu"
@@ -10927,6 +10940,9 @@ msgstr "Načítať neprepojené používateľské prehľady"
 msgid "Loading information, please wait..."
 msgstr "Informácie sa načítavavajú, čakajte, prosím…"
 
+msgid "Loading skin..."
+msgstr ""
+
 msgid "Loading slot information, please wait..."
 msgstr "Načítavanie informácií o slote, čakajte, prosím…"
 
@@ -11735,8 +11751,14 @@ msgstr "Presúvania bolo neúspešné!"
 msgid "Move job queued."
 msgstr "Úloha presúvania bola zaradená do fronty."
 
+msgid "Move left a item"
+msgstr ""
+
 msgid "Move only highlighted file"
 msgstr "Presunúť len zvýraznený súbor"
+
+msgid "Move right a item"
+msgstr ""
 
 msgid "Move the current bookmark down"
 msgstr "Presunúť aktuálnu záložku nadol"
@@ -11787,6 +11809,9 @@ msgstr "Presunúť textový kurzor na posledný znak"
 msgid "Move these directories/files?"
 msgstr "Chcete presunúť tieto priečinky/súbory?"
 
+msgid "Move to first item / screen"
+msgstr ""
+
 msgid "Move to first line"
 msgstr "Presunúť na prvý riadok"
 
@@ -11798,6 +11823,9 @@ msgstr "Presunúť na prvý riadok/obrazovku v paneli"
 
 msgid "Move to home of list"
 msgstr "Presunúť začiatok zoznamu"
+
+msgid "Move to last item / screen"
+msgstr ""
 
 msgid "Move to last line"
 msgstr "Presunúť na posledný riadok"
@@ -15071,6 +15099,9 @@ msgstr "Znovu načítať všetky stanice/služby z disku"
 msgid "Reload blacklists"
 msgstr "Znovu načítať čierne listiny"
 
+msgid "Reload the skin without restarting the GUI when switching skins."
+msgstr ""
+
 msgid "Reloading EPG Cache..."
 msgstr "Znovu načítať EPG Cache..."
 
@@ -17307,6 +17338,9 @@ msgstr "Vyberte, či sa majú zvukové stopy AC3 Plus prekódovať na AC3."
 
 msgid "Select whether AC3 audio tracks should be downmixed to stereo."
 msgstr "Vyberte, či sa majú zvukové stopy AC3 zlúčiť do režimu stereo."
+
+msgid "Select whether AC4 (Dolby Atmos) audio tracks should be passed through to the AVR, downmixed to stereo, or auto-routed based on HDMI sink capability."
+msgstr ""
 
 msgid "Select whether DTS channel audio tracks should be downmixed or transcoded."
 msgstr "Vyberte, či sa majú zvukové stopy kanála DTS zlúčiť alebo transkódovať."
@@ -24396,9 +24430,6 @@ msgstr "softcam"
 msgid "softcams"
 msgstr "softcamy"
 
-msgid "standard"
-msgstr "štandard"
-
 msgid "start cut here"
 msgstr "začiatok strihu tu"
 
@@ -24528,6 +24559,19 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d DMIPS per core"
+#~ msgstr "%d DMIPS na jadro"
+
+#~ msgid "Config"
+#~ msgstr "Konfig"
+
+#~ msgid "Horizontal icons"
+#~ msgstr "Horizontálne ikony"
+
+#~ msgid "standard"
+#~ msgstr "štandard"
 
 #~ msgid "Are you sure you want to delete this image?"
 #~ msgstr "Naozaj chcete vymazať tento image?"
