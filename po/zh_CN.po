@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-14 13:39+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -1665,6 +1665,11 @@ msgstr ""
 "定时器录制失败！\n"
 "禁用电视并再试一次?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC 缩混"
 
@@ -1880,6 +1885,9 @@ msgstr "添加标记到频道分组"
 
 msgid "Add New Quad Channel Entry"
 msgstr "添加新的四画面频道条目"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "添加录制定时器"
@@ -2115,11 +2123,11 @@ msgstr "南非荷兰语"
 msgid "After Event"
 msgstr "事件后"
 
-msgid "After power loss"
-msgstr "断电后"
-
 msgid "After event"
 msgstr "事件后"
+
+msgid "After power loss"
+msgstr "断电后"
 
 msgid "After recording"
 msgstr "录制后"
@@ -4879,6 +4887,9 @@ msgstr "正在配置"
 msgid "Configuring Service"
 msgstr "配置频道"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "冲突定时器操作"
 
@@ -5884,6 +5895,9 @@ msgstr "为该频道定义 Softcam"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "定义http(s)串流启动前的附加延迟（以毫秒为单位）。"
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "定义设备的自定义挂载点。"
@@ -10765,9 +10779,6 @@ msgstr "左侧，前置 USB"
 msgid "Left, wrapped"
 msgstr "左，覆盖"
 
-msgid "Legacy"
-msgstr "传统"
-
 msgid "Legacy mode"
 msgstr "传统模式"
 
@@ -11986,6 +11997,9 @@ msgstr "多"
 
 msgid "Multi EPG"
 msgstr "多路 EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "多系统启动"
@@ -13563,9 +13577,6 @@ msgstr "路径"
 msgid "Path '%s' missing!"
 msgstr "路径“%s”丢失！"
 
-msgid "Path to picon set %s."
-msgstr ""
-
 msgid "Pause"
 msgstr "暂停"
 
@@ -13675,15 +13686,16 @@ msgstr "频道图标和频道名"
 msgid "Picon install location"
 msgstr "频道图标安装位置"
 
-msgid "Picon mode"
-msgstr "频道图标模式"
-
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s"
 msgstr ""
 
-msgid "Picon set mode"
-msgstr "频道图标集模式"
+#, python-format
+msgid "Picon path %s is in use and cannot be removed!"
+msgstr ""
+
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "频道图标宽度"
@@ -15208,6 +15220,9 @@ msgstr "从家长保护中删除"
 msgid "Remove New Found Flag"
 msgstr "删除 新发现 标志"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "删除插件"
 
@@ -16675,6 +16690,9 @@ msgstr "选择要查看的存储库提交日志："
 msgid "Select a script to run:"
 msgstr "选择要运行的脚本："
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "选择待机模式下可开始解扰的延迟时间。"
 
@@ -17131,9 +17149,6 @@ msgstr "选择 SCR 设备的制造商。 如果制造商未列出，请将“SCR
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "选择退出图文电视时恢复屏幕分辨率和帧缓冲的处理方法。"
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "选择频道图标路径选择及分辨率模式。“传统”即先前的运行模式。"
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "为自动导出的 samba 共享选择访问模式。"
 
@@ -17221,6 +17236,9 @@ msgstr "选择要配置的卫星。配置后，您可以选择并配置将使用
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "从外观提供的选项中选择要用于频道选择屏幕的屏幕布局。"
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "使用'shift'键选择字符集"
@@ -17711,10 +17729,6 @@ msgstr "设置核心 0 和 1 的最低 CPU 频率"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "设置核心 2、3、4 和 5 的最低 CPU 频率"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "设置路径 %s"
 
 msgid "Set Scaling governor"
 msgstr "设置调速器"
@@ -18963,6 +18977,9 @@ msgstr "单卫星"
 
 msgid "Single step (GOP)"
 msgstr "单步 （GOP）"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "单个 EPG 设置"
@@ -24608,6 +24625,22 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Legacy"
+#~ msgstr "传统"
+
+#~ msgid "Picon mode"
+#~ msgstr "频道图标模式"
+
+#~ msgid "Picon set mode"
+#~ msgstr "频道图标集模式"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "选择频道图标路径选择及分辨率模式。“传统”即先前的运行模式。"
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "设置路径 %s"
 
 #, python-format
 #~ msgid "%d DMIPS per core"
