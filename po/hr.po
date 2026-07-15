@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-13 14:11+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hr/>\n"
@@ -1700,6 +1700,11 @@ msgstr ""
 "Snimanje timerom nije uspjelo!\n"
 "Isključite TV i pokušajte ponovno?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC downmix"
 
@@ -1915,6 +1920,9 @@ msgstr "Dodaj Oznaku u Buket"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Dodaj Novu Stavku za 4Х Kanal"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Dodaj TajmerSnimanja"
@@ -2150,11 +2158,11 @@ msgstr "Afrikaans"
 msgid "After Event"
 msgstr "Nakon događaja"
 
-msgid "After power loss"
-msgstr "Nakon nestanka Struje"
-
 msgid "After event"
 msgstr "Nakon događaja"
+
+msgid "After power loss"
+msgstr "Nakon nestanka Struje"
 
 msgid "After recording"
 msgstr "Nakon snimanja"
@@ -4916,6 +4924,9 @@ msgstr "Podešavam"
 msgid "Configuring Service"
 msgstr "Podešavanje Servisa"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Radnje neusaglašenosti Tajmera"
 
@@ -5921,6 +5932,9 @@ msgstr "Definiši Softcam za ovu Uslugu"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Definirajte dodatno kašnjenje u milisekundama prije početka http(s) streamova."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Definišite prilagođenu točku montiranja za uređaj."
@@ -10802,9 +10816,6 @@ msgstr "Lijevi, prednji USB"
 msgid "Left, wrapped"
 msgstr "Lijevo, zamotano"
 
-msgid "Legacy"
-msgstr "Naslijeđeno"
-
 msgid "Legacy mode"
 msgstr "Nasleđeni režim"
 
@@ -12024,6 +12035,9 @@ msgstr "Više"
 
 msgid "Multi EPG"
 msgstr "Multi EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -13601,9 +13615,6 @@ msgstr "Putanja"
 msgid "Path '%s' missing!"
 msgstr "Putanja '%s' nedostaje!"
 
-msgid "Path to picon set %s."
-msgstr "Putanja za pikon postavke %s."
-
 msgid "Pause"
 msgstr "Pauza"
 
@@ -13713,15 +13724,16 @@ msgstr "Pikon i ime servisa"
 msgid "Picon install location"
 msgstr "Lokacija instalacije pikona"
 
-msgid "Picon mode"
-msgstr "Pikon način"
+#, python-format
+msgid "Picon path %s"
+msgstr "Pikon putanja %s"
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
-msgstr "Način postavke pikona"
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "Pikon širina"
@@ -15248,6 +15260,9 @@ msgstr "Uklanjanje iz roditeljske kontrole"
 msgid "Remove New Found Flag"
 msgstr "Uklanjanje nove pronađene zastavice"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Uklanjanje dodatka"
 
@@ -16718,6 +16733,9 @@ msgstr "Odaberi evidenciju obaveznog log za prikaz:"
 msgid "Select a script to run:"
 msgstr "Odaberi skriptu za pokretanje:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Odaberite vrijeme tijekom čekanja nakon kojeg može početi dešifriranje."
 
@@ -17174,9 +17192,6 @@ msgstr "Odaberi SCR uređaj. Ako proizvođač nije naveden, postavite 'SCR' na '
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Odaberi metod vraćanja rezolucije zaslona i buffera frejma prilikom napuštanja teleteksta."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Odaberi način za odabir pikon puta i rezoluciju. 'Naslijeđe' predstavlja prethodni način rada."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Odaberi režim pristupa za automatski izvezene samba akcije."
 
@@ -17264,6 +17279,9 @@ msgstr "Odaberi satelit koji želite konfigurisati. Kada konfigurišete, možete
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Odaberi izgled zaslona , među opcijama koje pruža skin, koji će se koristiti za zaslon za odabir kanala."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Odaberi skupa preseljenih znakova"
@@ -17754,10 +17772,6 @@ msgstr "Postavi MIN CPU frekvenciju za jezgre 0 i 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Postavi MIN CPU frekvenciju za jezgra 2, 3, 4 i 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "Postavke Putanje %s"
 
 msgid "Set Scaling governor"
 msgstr "Podesi skaliranje regulatora"
@@ -19006,6 +19020,9 @@ msgstr "Jedan Satelit"
 
 msgid "Single step (GOP)"
 msgstr "Jedan korak (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Postavke Jednog EPG"
@@ -24658,8 +24675,24 @@ msgstr "da (zadrži fidove)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Picon path %s"
-#~ msgstr "Pikon putanja %s"
+#~ msgid "Legacy"
+#~ msgstr "Naslijeđeno"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "Putanja za pikon postavke %s."
+
+#~ msgid "Picon mode"
+#~ msgstr "Pikon način"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Način postavke pikona"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Odaberi način za odabir pikon puta i rezoluciju. 'Naslijeđe' predstavlja prethodni način rada."
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "Postavke Putanje %s"
 
 #~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
 #~ msgstr "Odaberite putanju Pikon-a, s gore navedenog, koja će se koristiti za pikone pri odabiru kanala."
