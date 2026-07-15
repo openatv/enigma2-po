@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-12 13:00+0000\n"
-"PO-Revision-Date: 2026-07-13 14:11+0000\n"
+"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"PO-Revision-Date: 2026-07-14 13:39+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgid ""
 "\n"
@@ -1799,6 +1799,9 @@ msgstr "sa čoskoro začne"
 msgid "Above 200 Mbps"
 msgstr "Viac ako 200 Mbps"
 
+msgid "Access mode"
+msgstr "Režim prístupu"
+
 msgid "Access point"
 msgstr "Prístupový bod"
 
@@ -2266,6 +2269,9 @@ msgstr "Povoliť titulky pre sluchovo postihnutých"
 
 msgid "Allow unsupported modes"
 msgstr "Povoliť nepodporované režimy"
+
+msgid "Allowed clients"
+msgstr "Povolení klienti"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "Umožňuje prijímaču %s %s pravidelne čítať uložené dáta EPG."
@@ -7219,6 +7225,12 @@ msgstr "Povoliť MiniTV"
 msgid "Enable Move Mode"
 msgstr "Zapnúť režim presunu"
 
+msgid "Enable NFSv3"
+msgstr "Zapnúť NFSv3"
+
+msgid "Enable NFSv4"
+msgstr "Zapnúť NFSv4"
+
 msgid "Enable Netmed EPG"
 msgstr "Povoliť Netmed EPG"
 
@@ -7378,6 +7390,9 @@ msgstr "Aktiváciou tejto možnosti pridáte načítané informácie o jazyku a 
 
 msgid "Enable this option to add keyboard key map data to the debug log file."
 msgstr "Aktiváciou tejto možnosti pridáte údaje mapy klávesov klávesnice do súboru denníka ladenia."
+
+msgid "Enable this option to add network information to the debug log file."
+msgstr "Aktiváciou tejto možnosti sa pridá informácia o sieti do súboru so záznamom pre ladenie."
 
 msgid "Enable this option to add opkg output data to the debug log file."
 msgstr "Aktiváciou tejto možnosti pridáte výstupné údaje opkg do súboru denníka ladenia."
@@ -7574,6 +7589,9 @@ msgstr "Zadajte PIN kód"
 msgid "Enter text via an attached keyboard"
 msgstr "Zadajte text pomocou pripojenej klávesnice"
 
+msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr "Zadajte IP adresu alebo podsieť (napr. 192.168.1.0/24), pre ktorú má byť udelená možnosť prístupu na NFS hostiteľa. Pre prístup všetkých hostiteľov zadajte '*' (štandardná hodnota)."
+
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
 msgstr "Zadajte ID siete ZeroTier. ID by malo mať dĺžku presne 16 znakov."
 
@@ -7585,6 +7603,9 @@ msgstr "Zadajte frekvenciu, pri ktorej sa LNB prepína medzi nízkym a vysokým 
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Zadajte frekvenčný krok tunera pre vyhľadávanie v káblových multiplexoch. Viac informácií získate v dokumentácii od operátora káblovej televízie."
+
+msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
+msgstr "Zadajte počet vlákien NFS servera, ktoré sa majú alokovať/použiť. Vyššie hodnoty zlepšujú výkon s viacerými klientmi, ale vyžadujú viac pamäte."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Zadajte číslo uložené v pozicionéri, ktoré prináleží tomuto satelitu."
@@ -9994,6 +10015,9 @@ msgstr "Zahrnúť medzinárodné údaje *"
 msgid "Include keyboard data"
 msgstr "Zahrnúť údaje z klávesnice"
 
+msgid "Include network data"
+msgstr "Zahrnúť sieťové údaje"
+
 msgid "Include opkg output data"
 msgstr "Zahrnúť výstupné dáta opkg"
 
@@ -12085,6 +12109,12 @@ msgstr "ĎALEJ"
 msgid "NFS"
 msgstr "NFS"
 
+msgid "NFS Settings"
+msgstr "Nastavenie NFS"
+
+msgid "NFS threads"
+msgstr "Vlákna NFS"
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -13689,8 +13719,9 @@ msgstr "Cieľové umiestnenie balíčka pikon"
 msgid "Picon mode"
 msgstr "Režim pikony"
 
-msgid "Picon path %s"
-msgstr "Cesta k pikone %s"
+#, python-format
+msgid "Picon set %s"
+msgstr "Sada pikon %s"
 
 msgid "Picon set mode"
 msgstr "Režim nastavenia pikony"
@@ -15705,6 +15736,9 @@ msgstr "Koreňový priečinok"
 msgid "Root file"
 msgstr "Koreňový súbor"
 
+msgid "Root squash"
+msgstr "Obmedzenie práv vzdialeného správcu"
+
 msgid "Rose"
 msgstr "ružová"
 
@@ -16908,17 +16942,17 @@ msgstr "Vyberte zdroj predvolených nastavení DNS."
 msgid "Select the No / False response"
 msgstr "Vyberte odozvu Nie/Nesprávne"
 
-msgid "Select the Picon path, from above, to be used for Channel Selection picons."
-msgstr "Vyberte cestu k pikone, zhora, ktorá sa použije aj pri pikonách pre výber kanálov."
+msgid "Select the Picon set path, from the option(s) above, to be used for Channel Selection picons."
+msgstr "Vyberte cestu k sade pikon, z možností uvedených hore, ktorá sa použije pre pikony pri výbere kanála."
 
-msgid "Select the Picon path, from above, to be used for Front panel/Display picons."
-msgstr "Vyberte cestu k pikone, zhora, ktorá sa použije aj pre predný panel/displej."
+msgid "Select the Picon set path, from the option(s) above, to be used for Front panel/Display picons."
+msgstr "Vyberte cestu k sade pikon, z možností uvedených hore, ktorá sa použije pre pikony predného panela/displeja."
 
-msgid "Select the Picon path, from above, to be used for InfoBar picons."
-msgstr "Vyberte cestu k pikone, zhora, ktorá sa bude používať pre pikony informačného panela."
+msgid "Select the Picon set path, from the option(s) above, to be used for InfoBar picons."
+msgstr "Vyberte cestu k sade pikon, z možností uvedených hore, ktorá sa použije pre pikony informačného panela."
 
-msgid "Select the Picon path, from above, to be used for OpenWebif picons."
-msgstr "Vyberte cestu k pikone, zhora, ktoré sa majú používať pre pikony OpenWebif."
+msgid "Select the Picon set path, from the option(s) above, to be used for OpenWebif picons."
+msgstr "Vyberte cestu k sade pikon, z možností uvedených hore, ktorá sa použije pre pikony OpenWebif."
 
 #, python-format
 msgid "Select the Softcam for '%s'"
@@ -17148,6 +17182,9 @@ msgstr "Nastavte režim pre výber cesty a rozlíšenia pikony. 'Starší' ozna�
 
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Vyberte režim prístupu, čítanie/zápis alebo len čítanie, ktorý sa použije pre všetky automaticky exportované zdieľania Samba."
+
+msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+msgstr "Vyberte režim prístupu, čítanie/zápis alebo Len čítanie, ktorý sa použije pri všetkých exportovaných priečinkoch."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Vyberte číslo modelu vášho zariadenia Unicable. Ak nie je číslo modelu uvedené v zozname, nastavte 'SCR' na voľbu 'definované používateľom' a zadajte parametre zariadenia manuálne podľa jeho špecifikácií."
@@ -23213,6 +23250,12 @@ msgstr "Ak je povolené, zobrazí sa výstraha a používateľ bude mať možnos
 msgid "When enabled, allow each storage device detected to be automatically exported as a Samba share."
 msgstr "Ak je zapnuté, povoliť automatické exportovanie každého zisteného úložného zariadenia ako zdieľania Samba."
 
+msgid "When enabled, allow usage of the NFS version 3 protocols."
+msgstr "Ak je povolené, povoliť používanie protokolov NFS verzie 3."
+
+msgid "When enabled, allow usage of the NFS version 4 protocols."
+msgstr "Ak je povolené, povoliť používanie protokolov NFS verzie 4."
+
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Ak je povolené, na sledovanie http streamov sa vyžaduje prihlásenie."
 
@@ -23236,6 +23279,9 @@ msgstr "Ak je povolené, grafické DVB titulky sa zobrazia na ich pôvodnej poz�
 
 msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "Ak je povolené, prehrávač médií sa dá ukončiť tlačidlom EXIT."
+
+msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
+msgstr "Ak je povolené, mapovať správcu (root) na používateľa nobody (bezpečnejšie). Ak je zakázané, je možný úplný prístup správcu."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Ak je povolené, prijímač sa bude meraním spotreby energie snažiť rozpoznať, kedy sa zastaví otáčanie motora (ak je podporované tunerom)."
@@ -24614,6 +24660,21 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Picon path %s"
+#~ msgstr "Cesta k pikone %s"
+
+#~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
+#~ msgstr "Vyberte cestu k pikone, zhora, ktorá sa použije aj pri pikonách pre výber kanálov."
+
+#~ msgid "Select the Picon path, from above, to be used for Front panel/Display picons."
+#~ msgstr "Vyberte cestu k pikone, zhora, ktorá sa použije aj pre predný panel/displej."
+
+#~ msgid "Select the Picon path, from above, to be used for InfoBar picons."
+#~ msgstr "Vyberte cestu k pikone, zhora, ktorá sa bude používať pre pikony informačného panela."
+
+#~ msgid "Select the Picon path, from above, to be used for OpenWebif picons."
+#~ msgstr "Vyberte cestu k pikone, zhora, ktoré sa majú používať pre pikony OpenWebif."
 
 #, python-format
 #~ msgid "%d DMIPS per core"
@@ -26130,9 +26191,6 @@ msgstr "®"
 
 #~ msgid "MiniDLNA Log"
 #~ msgstr "Denník MiniDLNA"
-
-#~ msgid "NFS Settings"
-#~ msgstr "Nastavenie NFS"
 
 #~ msgid "OpenVPN Actions"
 #~ msgstr "Akcie OpenVPN"
