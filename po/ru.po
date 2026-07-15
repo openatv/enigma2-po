@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2025-08-18 16:27+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -1702,6 +1702,11 @@ msgstr ""
 "Запись по таймеру не удалась!\n"
 "Отключить ТВ и попробовать вновь?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "Микшировать AAC в стерео"
 
@@ -1917,6 +1922,9 @@ msgstr "Добавить маркер в букет"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Добавить новый 4Х канал"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Добавить таймер записи"
@@ -2152,11 +2160,11 @@ msgstr "Африкаанс"
 msgid "After Event"
 msgstr "После события"
 
-msgid "After power loss"
-msgstr "После сбоя питания"
-
 msgid "After event"
 msgstr "После события"
+
+msgid "After power loss"
+msgstr "После сбоя питания"
 
 msgid "After recording"
 msgstr "После записи"
@@ -4918,6 +4926,9 @@ msgstr "Настройка"
 msgid "Configuring Service"
 msgstr "Настройка канала"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Действия таймера конфликта"
 
@@ -5920,6 +5931,9 @@ msgstr "Указать Softcam для этого канала"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Задайте дополнительную задержку в миллисекундах перед запуском потоков http (s)."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Определите пользовательскую точку монтирования для устройства."
@@ -10801,9 +10815,6 @@ msgstr "Левый, передний разъём USB"
 msgid "Left, wrapped"
 msgstr "Cлева, свёрнуто"
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr "Устаревший режим"
 
@@ -12023,6 +12034,9 @@ msgstr "Мульти"
 
 msgid "Multi EPG"
 msgstr "Мульти ТВ-гид"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -13600,9 +13614,6 @@ msgstr "Путь"
 msgid "Path '%s' missing!"
 msgstr "Путь '%s' отсутствует!"
 
-msgid "Path to picon set %s."
-msgstr ""
-
 msgid "Pause"
 msgstr "Пауза"
 
@@ -13712,14 +13723,15 @@ msgstr "Пикон и название канала"
 msgid "Picon install location"
 msgstr "Место установки пиконов"
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -15247,6 +15259,9 @@ msgstr "Удалить из родительского контроля"
 msgid "Remove New Found Flag"
 msgstr "Удалить найденный новый флаг"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Удалить плагин"
 
@@ -16717,6 +16732,9 @@ msgstr "Выберите журнал изменений в репозитори
 msgid "Select a script to run:"
 msgstr "Выбор скрипта для запуска"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Выберите время в режиме ожидания, после которого можно будет продолжить декодирование."
 
@@ -17173,9 +17191,6 @@ msgstr "Выберите производителя вашего SCR-устро�
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Выберите способ восстановления разрешения экрана и видеобуфера (framebuffer) после выхода из телетекста."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Выберите режим доступа для автоматически экспортируемых общих ресурсов Samba."
 
@@ -17263,6 +17278,9 @@ msgstr "Выберите спутник, который хотите настр�
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Выберите стиль отображения списка каналов из вариантов предоставляемых скином."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Выберите действие таймера сна"
@@ -17753,10 +17771,6 @@ msgstr "Установите минимальную частоту процес�
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Установите МИНИМАЛЬНУЮ частоту процессора для ядер 2, 3, 4 и 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr ""
 
 msgid "Set Scaling governor"
 msgstr "Установите регулятор масштабирования"
@@ -19005,6 +19019,9 @@ msgstr "Один спутник"
 
 msgid "Single step (GOP)"
 msgstr "Покадрово"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Настройки одиночного ТВ-гида"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-14 13:39+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
@@ -1666,6 +1666,11 @@ msgstr ""
 "Un timer non è riuscito a registrare!\n"
 "Disattivare la TV e riprovare?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "Downmix AAC"
 
@@ -1881,6 +1886,9 @@ msgstr "Aggiungi marcatore"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Aggiungi nuova voce Quad Channel"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Aggiungi timer registrazione"
@@ -2116,11 +2124,11 @@ msgstr "Afrikaans"
 msgid "After Event"
 msgstr "Dopo l'evento"
 
-msgid "After power loss"
-msgstr "Dopo l'assenza di elettricità"
-
 msgid "After event"
 msgstr "Dopo l'evento"
+
+msgid "After power loss"
+msgstr "Dopo l'assenza di elettricità"
 
 msgid "After recording"
 msgstr "Dopo la registrazione"
@@ -4880,6 +4888,9 @@ msgstr "Configurazione"
 msgid "Configuring Service"
 msgstr "Configurazione servizio"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Azioni timer in conflitto"
 
@@ -5885,6 +5896,9 @@ msgstr "Definisci softcam per questo servizio"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Definisci un ritardo aggiuntivo in millisecondi prima dell'inizio dei flussi http."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Definisci punto di montaggio personalizzato per il dispositivo."
@@ -10762,9 +10776,6 @@ msgstr "USB anteriore sinistra"
 msgid "Left, wrapped"
 msgstr "Sinistra, avvolto"
 
-msgid "Legacy"
-msgstr "Obsoleto"
-
 msgid "Legacy mode"
 msgstr "Modalità compatibile"
 
@@ -11983,6 +11994,9 @@ msgstr "Multi"
 
 msgid "Multi EPG"
 msgstr "EPG multiplo"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "Multiboot"
@@ -13560,9 +13574,6 @@ msgstr "Percorso"
 msgid "Path '%s' missing!"
 msgstr "Percorso '%s' mancante!"
 
-msgid "Path to picon set %s."
-msgstr "Percorso del set di picon %s."
-
 msgid "Pause"
 msgstr "Pausa"
 
@@ -13672,15 +13683,16 @@ msgstr "Picon e nome del servizio"
 msgid "Picon install location"
 msgstr "Posizione di installazione dei picon"
 
-msgid "Picon mode"
-msgstr "Modalità picon"
+#, python-format
+msgid "Picon path %s"
+msgstr ""
 
 #, python-format
-msgid "Picon set %s"
-msgstr "Set di picon %s"
+msgid "Picon path %s is in use and cannot be removed!"
+msgstr ""
 
-msgid "Picon set mode"
-msgstr "Modalità set picon"
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "Larghezza picon"
@@ -15205,6 +15217,9 @@ msgstr "Rimuovi dal controllo genitori"
 msgid "Remove New Found Flag"
 msgstr "Rimuovi nuovo flag trovato"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Rimuovi plugin"
 
@@ -16672,6 +16687,9 @@ msgstr "Seleziona un registro di commit del repository da visualizzare:"
 msgid "Select a script to run:"
 msgstr "Seleziona uno script da avviare:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Seleziona un orario, in modalità standby, dopo il quale procedi alla decodifica."
 
@@ -17128,9 +17146,6 @@ msgstr "Seleziona produttore del dispositivo SCR. Se il produttore non è elenca
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Seleziona metodo di ripristino della risoluzione dello schermo e del framebuffer quando esci dal televideo."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Seleziona modalità per la selezione del percorso dei picon e la risoluzione. 'Obsoleto' rappresenta la modalità operativa precedente."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Seleziona modalità di accesso per le condivisioni samba esportate automaticamente."
 
@@ -17218,6 +17233,9 @@ msgstr "Seleziona satellite che desideri configurare. Una volta configurato quel
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Seleziona disposizione dello schermo, dalle opzioni fornite dalla skin, da usare per la schermata Selezione canali."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Seleziona set di caratteri maiuscoli"
@@ -17708,10 +17726,6 @@ msgstr "Imposta frequenza MIN CPU per i core 0 e 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Imposta frequenza MIN CPU per i core 2, 3, 4 e 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "Imposta percorso %s"
 
 msgid "Set Scaling governor"
 msgstr "Imposta regolatore di ridimensionamento"
@@ -18960,6 +18974,9 @@ msgstr "Satellite singolo"
 
 msgid "Single step (GOP)"
 msgstr "Passo-Passo (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Configurazione EPG singolo"
@@ -24605,6 +24622,29 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Legacy"
+#~ msgstr "Obsoleto"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "Percorso del set di picon %s."
+
+#~ msgid "Picon mode"
+#~ msgstr "Modalità picon"
+
+#, python-format
+#~ msgid "Picon set %s"
+#~ msgstr "Set di picon %s"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Modalità set picon"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Seleziona modalità per la selezione del percorso dei picon e la risoluzione. 'Obsoleto' rappresenta la modalità operativa precedente."
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "Imposta percorso %s"
 
 #, python-format
 #~ msgid "%d DMIPS per core"

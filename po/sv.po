@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-04-20 04:59+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -1713,6 +1713,11 @@ msgstr ""
 "En timer misslyckades med att spela in!\n"
 "Avaktivera TV och försök igen?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC nedmixning"
 
@@ -1949,6 +1954,9 @@ msgstr "Lägg till markör till bukett"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Lägg till nytt Quad Channel-inträde"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Lägg till RecordTimer"
@@ -2203,12 +2211,12 @@ msgstr "Afrikaans"
 msgid "After Event"
 msgstr "Efter evenemanget"
 
-msgid "After power loss"
-msgstr "Efter strömavbrott"
-
 #
 msgid "After event"
 msgstr "Efter evenemanget"
+
+msgid "After power loss"
+msgstr "Efter strömavbrott"
 
 #
 msgid "After recording"
@@ -5096,6 +5104,9 @@ msgstr "Konfigurerar"
 msgid "Configuring Service"
 msgstr "Konfigurera service"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "ConflictTimer Åtgärder"
 
@@ -6145,6 +6156,9 @@ msgstr "Definiera softcam för denna tjänst"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Definiera ytterligare fördröjning i millisekunder före start av http(s)-strömmar."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Definiera den anpassade monteringspunkten för enheten."
@@ -11293,9 +11307,6 @@ msgstr "Vänster, fram USB"
 msgid "Left, wrapped"
 msgstr "Vänster, lindad"
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr "Legacy mode"
 
@@ -12597,6 +12608,9 @@ msgstr "Multi"
 #
 msgid "Multi EPG"
 msgstr "Multi EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -14270,9 +14284,6 @@ msgstr "Sökväg"
 msgid "Path '%s' missing!"
 msgstr "Sökväg '%s' saknas!"
 
-msgid "Path to picon set %s."
-msgstr ""
-
 #
 msgid "Pause"
 msgstr "Pausa"
@@ -14385,14 +14396,15 @@ msgstr "Picon och servicenamn"
 msgid "Picon install location"
 msgstr "Picon installationsplats"
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -16042,6 +16054,9 @@ msgstr "Ta bort från Föräldraskydd"
 msgid "Remove New Found Flag"
 msgstr "Ta bort New Found Flag"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Ta bort plugin"
 
@@ -17601,6 +17616,9 @@ msgstr "Välj en logg från en förvarslösning för att visa den:"
 msgid "Select a script to run:"
 msgstr "Välj ett skript som ska köras:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Välj en tid, i standbyläge, efter vilken avtrappningen kan fortsätta."
 
@@ -18069,9 +18087,6 @@ msgstr "Välj tillverkare av din SCR-enhet. Om tillverkaren inte finns med i lis
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Välj metoden för att återställa skärmupplösningen och bildbuffer när du lämnar text-tv."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Välj åtkomstläge för de automatiskt exporterade samba-aktierna."
 
@@ -18160,6 +18175,9 @@ msgstr "Välj den satellit som du vill konfigurera. När du har konfigurerat sat
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Välj den skärmlayout som ska användas för ChannelSelection-skärmen från de alternativ som tillhandahålls av skinnet."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 #
 msgid "Select the shifted character set"
@@ -18673,10 +18691,6 @@ msgstr "Ställ in MIN CPU-frekvens för kärnorna 0 och 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Ställ in MIN CPU-frekvens för kärnorna 2, 3, 4 och 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr ""
 
 msgid "Set Scaling governor"
 msgstr "Ställ in skalning av guvernör"
@@ -19986,6 +20000,9 @@ msgstr "Enkel satellit"
 #
 msgid "Single step (GOP)"
 msgstr "Ett steg (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 #
 msgid "SingleEPG Settings"

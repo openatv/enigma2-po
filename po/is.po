@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2021-08-15 18:50+0000\n"
 "Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/is/>\n"
@@ -1805,6 +1805,11 @@ msgstr ""
 "Tímastillt upptaka mistókst!\n"
 "Hætta og reyna aftur?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr ""
 
@@ -2038,6 +2043,9 @@ msgid "Add Marker To Bouquet"
 msgstr "bæta við merki"
 
 msgid "Add New Quad Channel Entry"
+msgstr ""
+
+msgid "Add Path"
 msgstr ""
 
 #, fuzzy
@@ -2301,11 +2309,11 @@ msgstr ""
 msgid "After Event"
 msgstr ""
 
-msgid "After power loss"
-msgstr ""
-
 msgid "After event"
 msgstr "Eftir atriði"
+
+msgid "After power loss"
+msgstr ""
 
 #
 #, fuzzy
@@ -5147,6 +5155,9 @@ msgstr "Stilli"
 msgid "Configuring Service"
 msgstr ""
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr ""
 
@@ -6191,6 +6202,9 @@ msgid "Define Softcam For This Service"
 msgstr ""
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
+msgstr ""
+
+msgid "Define path %s for picons."
 msgstr ""
 
 msgid "Define the custom mountpoint for the device."
@@ -11376,9 +11390,6 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr ""
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr ""
 
@@ -12739,6 +12750,9 @@ msgstr ""
 #
 msgid "Multi EPG"
 msgstr "Mörg EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr ""
@@ -14462,9 +14476,6 @@ msgstr ""
 msgid "Path '%s' missing!"
 msgstr ""
 
-msgid "Path to picon set %s."
-msgstr ""
-
 #
 #, fuzzy
 msgid "Pause"
@@ -14581,14 +14592,15 @@ msgstr ""
 msgid "Picon install location"
 msgstr ""
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -16276,6 +16288,9 @@ msgstr "taka foreldralæsingu af"
 msgid "Remove New Found Flag"
 msgstr "eyða merkingu um nýfundna rás"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr ""
 
@@ -17853,6 +17868,9 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr ""
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr ""
 
@@ -18324,9 +18342,6 @@ msgstr ""
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr ""
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr ""
 
@@ -18412,6 +18427,9 @@ msgid "Select the satellite you want to configure. Once configured you can selec
 msgstr ""
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
+msgstr ""
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
 msgstr ""
 
 #
@@ -18915,10 +18933,6 @@ msgid "Set MIN CPU frequency for cores 0 and 1"
 msgstr ""
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
-msgstr ""
-
-#, python-format
-msgid "Set Path %s"
 msgstr ""
 
 msgid "Set Scaling governor"
@@ -20262,6 +20276,9 @@ msgstr "Einn gervihnöttur"
 #, fuzzy
 msgid "Single step (GOP)"
 msgstr "Eitt skref (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 #
 #, fuzzy

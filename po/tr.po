@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-15 09:22+0000\n"
 "Last-Translator: mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -1690,6 +1690,11 @@ msgstr ""
 "Zamanlayıcı kaydı tamamlayamadı!\n"
 "Televizyonu kapatıp tekrar denemek ister misiniz?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC downmix"
 
@@ -1920,6 +1925,9 @@ msgstr "Bukete İşaretleyici Ekle"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Yeni Dört Kanallı Giriş Ekle"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Kayıt Zamanlayıcı Ekle"
@@ -2173,12 +2181,12 @@ msgstr "Afrikanca"
 msgid "After Event"
 msgstr "Etkinlikten sonra"
 
-msgid "After power loss"
-msgstr "Elektrik kesintisinden sonra"
-
 #
 msgid "After event"
 msgstr "Etkinlikten sonra"
+
+msgid "After power loss"
+msgstr "Elektrik kesintisinden sonra"
 
 #
 msgid "After recording"
@@ -5047,6 +5055,9 @@ msgstr "Yapılandırılıyor"
 msgid "Configuring Service"
 msgstr "Kanalı Yapılandır"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Zamanlayıcı Çakışması İşlemleri"
 
@@ -6094,6 +6105,9 @@ msgstr "Bu Kanal İçin Softcam Tanımlayın"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Http(s) akışlarının başlamasından önce milisaniye cinsinden ek bir gecikme tanımlayın."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Cihaz için özel bağlama noktasını tanımlayın."
@@ -11198,9 +11212,6 @@ msgstr "Sol, öndeki USB"
 msgid "Left, wrapped"
 msgstr "Sol, sarılı"
 
-msgid "Legacy"
-msgstr "Eski"
-
 msgid "Legacy mode"
 msgstr "Eski mod"
 
@@ -12491,6 +12502,9 @@ msgstr "Çoklu"
 #
 msgid "Multi EPG"
 msgstr "Çoklu EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "Çoklu Önyükleme"
@@ -14155,9 +14169,6 @@ msgstr "Yol"
 msgid "Path '%s' missing!"
 msgstr "'%s' yolu eksik!"
 
-msgid "Path to picon set %s."
-msgstr "%s pikon seti için yol."
-
 #
 msgid "Pause"
 msgstr "Duraklat"
@@ -14269,15 +14280,16 @@ msgstr "Pikon ve kanal ismi"
 msgid "Picon install location"
 msgstr "Pikon yükleme konumu"
 
-msgid "Picon mode"
-msgstr "Pikon modu"
+#, python-format
+msgid "Picon path %s"
+msgstr "Pikon yolu %s"
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
-msgstr "Pikon ayar modu"
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "Pikon genişliği"
@@ -15905,6 +15917,9 @@ msgstr "Ebeveyn Korumasından Kaldır"
 msgid "Remove New Found Flag"
 msgstr "Yeni Bulunan Bayrağı Kaldır"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Eklentiyi Kaldır"
 
@@ -17448,6 +17463,9 @@ msgstr "Görüntülemek istediğiniz depo taahhüt günlüğünü seçin:"
 msgid "Select a script to run:"
 msgstr "Çalıştırılacak bir komut dosyası seçin:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Bekleme modundayken, şifre çözme işleminin başlamasından sonra bir süre seçin."
 
@@ -17913,9 +17931,6 @@ msgstr "SCR cihazınızın üreticisini seçin. Üretici listede yoksa, 'SCR' se
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Teletext uygulamasından çıkarken ekran çözünürlüğünü ve çerçeve arabelleğini geri yükleme yöntemini seçin."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Pikon yolu seçimi ve çözünürlüğü için modu seçin. 'Eski' modu önceki çalışma modunu temsil eder."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Otomatik olarak dışa aktarılan Samba paylaşımları için erişim modunu seçin."
 
@@ -18004,6 +18019,9 @@ msgstr "Yapılandırmak istediğiniz uyduyu seçin. Yapılandırma tamamlandıkt
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Arayüz tarafından sağlanan seçenekler arasından, Kanal Seçimi ekranı için kullanılacak ekran düzenini seçin."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Kaydırılmış karakter kümesini seçin"
@@ -18511,10 +18529,6 @@ msgstr "Çekirdek 0 ve 1 için MIN CPU frekansını ayarlayın"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Çekirdek 2, 3, 4 ve 5 için MIN CPU frekansını ayarlayın"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "%s yolunu ayarla"
 
 msgid "Set Scaling governor"
 msgstr "Ölçeklendirme denetleyicisini ayarlayın"
@@ -19810,6 +19824,9 @@ msgstr "Tek uydu"
 #
 msgid "Single step (GOP)"
 msgstr "Tek adım (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Tekli EPG Ayarları"
@@ -25753,8 +25770,24 @@ msgstr "evet (kaynakları tut)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Picon path %s"
-#~ msgstr "Pikon yolu %s"
+#~ msgid "Legacy"
+#~ msgstr "Eski"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "%s pikon seti için yol."
+
+#~ msgid "Picon mode"
+#~ msgstr "Pikon modu"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Pikon ayar modu"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Pikon yolu seçimi ve çözünürlüğü için modu seçin. 'Eski' modu önceki çalışma modunu temsil eder."
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "%s yolunu ayarla"
 
 #~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
 #~ msgstr "Kanal Seçimi pikonları için kullanılacak Pikon yolunu yukarıdan seçin."
