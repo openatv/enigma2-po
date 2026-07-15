@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
-"PO-Revision-Date: 2026-07-14 13:39+0000\n"
-"Last-Translator: Masowick <Demian@gmx.co.uk>\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
+"PO-Revision-Date: 2026-07-15 19:54+0000\n"
+"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1750,6 +1750,13 @@ msgstr ""
 "Eine Timeraufnahme konnte nicht gestartet werden!\n"
 "TV-Sender umschalten und erneut versuchen?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+"Ein Umschalttimer möchte den Kanal umschalten.\n"
+"Jetzt umschalten?\n"
+
 #
 msgid "AAC downmix"
 msgstr "AAC-Downmix"
@@ -1990,6 +1997,9 @@ msgstr "Marker einfügen"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Neue Sendergruppe hinzufügen"
+
+msgid "Add Path"
+msgstr "Pfad hinzufügen"
 
 msgid "Add RecordTimer"
 msgstr "'Aufnehmen'-Timer hinzufügen"
@@ -2242,13 +2252,13 @@ msgstr "Afrikaans"
 msgid "After Event"
 msgstr "Nach dem Ereignis"
 
-# Powerlost setup.xml
-msgid "After power loss"
-msgstr "Nach Stromausfall"
-
 # PowerTimer
 msgid "After event"
 msgstr "Nach dem Ereignis"
+
+# Powerlost setup.xml
+msgid "After power loss"
+msgstr "Nach Stromausfall"
 
 msgid "After recording"
 msgstr "Nach der Aufnahme"
@@ -5145,6 +5155,9 @@ msgstr "Konfiguration"
 msgid "Configuring Service"
 msgstr "Dienst konfigurieren"
 
+msgid "Confirm Zap"
+msgstr "Umschalten bestätigen"
+
 msgid "ConflictTimer Actions"
 msgstr "Timerkonflikt-Aktionen"
 
@@ -6184,6 +6197,9 @@ msgstr "Softcam für diesen Sender festlegen"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Legt die zusätzliche Verzögerung in Millisekunden vor dem Start von http(s)-Streams fest."
+
+msgid "Define path %s for picons."
+msgstr "Pfad %s für Picons festlegen."
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Den benutzerdefinierten Einhängepunkt für das Gerät festlegen."
@@ -10464,13 +10480,13 @@ msgid "Include keyboard data"
 msgstr "Inklusive Tastaturdaten"
 
 msgid "Include network data"
-msgstr "Inklusive Netzwerkdaten"
+msgstr "Netzwerkdaten einschließen"
 
 msgid "Include opkg output data"
-msgstr "Inklusive Opkg-Ausgabedaten"
+msgstr "Opkg-Ausgabedaten einschließen"
 
 msgid "Include remote control data"
-msgstr "Inklusive Fernbedienungsdaten"
+msgstr "Fernbedienungsdaten einschließen"
 
 msgid "Include screen load data"
 msgstr "Inklusive Screendaten"
@@ -10482,10 +10498,10 @@ msgid "Include teletext details"
 msgstr "Inklusive Videotextdetails"
 
 msgid "Include text encoding data"
-msgstr "Inklusive Textkodierungsdaten"
+msgstr "Textkodierungsdaten einschließen"
 
 msgid "Include timer data"
-msgstr "Inklusive Timerdaten"
+msgstr "Timerdaten einschließen"
 
 msgid "Incorrect type service for PiP!"
 msgstr "Falscher Diensttyp für Bild-im-Bild!"
@@ -11298,9 +11314,6 @@ msgstr "USB vorne links"
 
 msgid "Left, wrapped"
 msgstr "Links, umgebrochen"
-
-msgid "Legacy"
-msgstr "Legacy"
 
 msgid "Legacy mode"
 msgstr "Alter Modus"
@@ -12419,7 +12432,7 @@ msgid "Move these directories/files?"
 msgstr "Diese Verzeichnisse/Dateien verschieben?"
 
 msgid "Move to first item / screen"
-msgstr "Zum ersten Eintrag / Bildschirm gehen"
+msgstr "Zum ersten Eintrag / Bildschirm wechseln"
 
 msgid "Move to first line"
 msgstr "Zur ersten Zeile wechseln"
@@ -12434,7 +12447,7 @@ msgid "Move to home of list"
 msgstr "Zum Anfang der Liste wechseln"
 
 msgid "Move to last item / screen"
-msgstr "Zum letzten Eintrag / Bildschirm gehen"
+msgstr "Zum letzten Eintrag / Bildschirm wechseln"
 
 msgid "Move to last line"
 msgstr "Zur letzten Zeile wechseln"
@@ -12606,6 +12619,9 @@ msgstr "Multi"
 
 msgid "Multi EPG"
 msgstr "Multi-EPG"
+
+msgid "Multi-path mode"
+msgstr "Multipfadmodus"
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -14314,9 +14330,6 @@ msgstr "Pfad"
 msgid "Path '%s' missing!"
 msgstr "Pfad '%s' nicht vorhanden!"
 
-msgid "Path to picon set %s."
-msgstr "Pfad für Piconsatz %s."
-
 msgid "Pause"
 msgstr "Pause"
 
@@ -14423,7 +14436,7 @@ msgid "Picon Packages"
 msgstr "Picons"
 
 msgid "Picon Settings"
-msgstr "Picons Einstellungen"
+msgstr "Piconeinstellungen"
 
 #
 msgid "Picon and service name"
@@ -14432,15 +14445,16 @@ msgstr "Picon und Sendername"
 msgid "Picon install location"
 msgstr "Zielordner für Picons"
 
-msgid "Picon mode"
-msgstr "Picons Modus"
+#, python-format
+msgid "Picon path %s"
+msgstr "Piconpfad %s"
 
 #, python-format
-msgid "Picon set %s"
-msgstr "Picon Satz %s"
+msgid "Picon path %s is in use and cannot be removed!"
+msgstr "Piconpfad %s wird gerade verwendet und kann nicht entfernt werden!"
 
-msgid "Picon set mode"
-msgstr "Picons Einstellungsmodus"
+msgid "Picon search mode"
+msgstr "Picon-Suchmodus"
 
 #
 msgid "Picon width"
@@ -16087,6 +16101,9 @@ msgstr "Aus Jugendschutz entfernen"
 msgid "Remove New Found Flag"
 msgstr "'neu gefunden'-Kennzeichnung entfernen"
 
+msgid "Remove Path"
+msgstr "Pfad entfernen"
+
 msgid "Remove Plugin"
 msgstr "Plugin entfernen"
 
@@ -17658,6 +17675,9 @@ msgstr "Ein Repository-Commit-Log zur Ansicht auswählen:"
 msgid "Select a script to run:"
 msgstr "Zu startendes Skript auswählen:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr "Einen Zeitraum auswählen, nach dessen Ablauf eine Bestätigungsaufforderung angezeigt wird, bevor ein Umschalttimer den aktuellen Sender wechselt. So kann der Benutzer das Umschalten abbrechen. 'Deaktiviert' auswählen, damit das Umschalten ohne Bestätigung fortgesetzt wird."
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Die Zeit auswählen, nach der die Entschlüsselung im Standby fortgesetzt werden soll."
 
@@ -18133,9 +18153,6 @@ msgstr "Den Hersteller des Unicable/SCR-Gerätes auswählen. Wenn der Hersteller
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Bestimmt die Methode, wie die Bildschirmauflösung und der Bildspeicher beim Verlassen des Videotexts zurückgesetzt werden."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Den Modus für den Pfad und die Auflösung der Picons auswählen. 'Legacy' steht für den bisherigen Modus."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Den Zugriffsmodus für die automatisch exportierten Samba-Freigaben auswählen."
 
@@ -18224,6 +18241,9 @@ msgstr "Den Satelliten auswählen, der konfiguriert werden soll. Sobald dieser k
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Die Darstellung der Senderliste anhand der Skinoptionen auswählen."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr "Den Suchmodus auswählen, um Picon-Dateien zu finden. Im 'Einzelpfadmodus' wird für alle Picon-Dateien ein einziger Pfad verwendet. Im 'Multipfadmodus' können für verschiedene Anwendungsfälle mehrere Piconpfade verwendet werden."
 
 #
 msgid "Select the shifted character set"
@@ -18740,10 +18760,6 @@ msgstr "Minimale CPU-Frequenz für die Kerne 0 und 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Minimale CPU-Frequenz für die Kerne 2, 3, 4 und 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "Satzpfad %s"
 
 msgid "Set Scaling governor"
 msgstr "Scaling Governor auswählen"
@@ -20073,6 +20089,9 @@ msgstr "Einzelnen Satelliten"
 #
 msgid "Single step (GOP)"
 msgstr "Einzelschritte (GOP)"
+
+msgid "Single-path mode"
+msgstr "Einzelpfadmodus"
 
 msgid "SingleEPG Settings"
 msgstr "Einzel-EPG"
@@ -26095,8 +26114,28 @@ msgstr "Ja (Feeds beibehalten)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Picon path %s"
-#~ msgstr "Picons Pfad %s"
+#~ msgid "Legacy"
+#~ msgstr "Legacy"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "Pfad für Piconsatz %s."
+
+#~ msgid "Picon mode"
+#~ msgstr "Picons Modus"
+
+#, python-format
+#~ msgid "Picon set %s"
+#~ msgstr "Picon Satz %s"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Picons Einstellungsmodus"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Den Modus für den Pfad und die Auflösung der Picons auswählen. 'Legacy' steht für den bisherigen Modus."
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "Satzpfad %s"
 
 #~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
 #~ msgstr "Den Pfad von oben für die Senderlisten Picons auswählen."
