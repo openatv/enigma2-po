@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2023-08-06 06:22+0000\n"
 "Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/bg/>\n"
@@ -1666,6 +1666,11 @@ msgstr ""
 "Таймер не успя да запише!\n"
 "Деактивиране на телевизора и опит отново?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr ""
 
@@ -1881,6 +1886,9 @@ msgstr "добави маркер"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Добавяне на нов вход за четири канала"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Добавяне на таймер за запис"
@@ -2116,11 +2124,11 @@ msgstr ""
 msgid "After Event"
 msgstr ""
 
-msgid "After power loss"
-msgstr "След загуба на захранване"
-
 msgid "After event"
 msgstr "След събитието"
+
+msgid "After power loss"
+msgstr "След загуба на захранване"
 
 msgid "After recording"
 msgstr "След записа"
@@ -4872,6 +4880,9 @@ msgstr "Конфигуриране"
 msgid "Configuring Service"
 msgstr ""
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr ""
 
@@ -5872,6 +5883,9 @@ msgstr ""
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Определете допълнително забавяне в милисекунди преди началото на http(s) потоци."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr ""
@@ -10736,9 +10750,6 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr "наляво, увито"
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr ""
 
@@ -11957,6 +11968,9 @@ msgstr ""
 
 msgid "Multi EPG"
 msgstr "Мулти EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr ""
@@ -13531,9 +13545,6 @@ msgstr ""
 msgid "Path '%s' missing!"
 msgstr ""
 
-msgid "Path to picon set %s."
-msgstr ""
-
 msgid "Pause"
 msgstr "Пауза"
 
@@ -13643,14 +13654,15 @@ msgstr "Пикон и име на сервиза"
 msgid "Picon install location"
 msgstr ""
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -15173,6 +15185,9 @@ msgstr "премахнете от родителския контрол"
 msgid "Remove New Found Flag"
 msgstr "премахнете нов намерен флаг"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr ""
 
@@ -16641,6 +16656,9 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Изберете скрипт за стартиране:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr ""
 
@@ -17097,9 +17115,6 @@ msgstr "Изберете производителя на вашето SCR уст
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Изберете метода за възстановяване на разделителната способност на екрана и буфера на рамката, когато напускате телетекста."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr ""
 
@@ -17183,6 +17198,9 @@ msgid "Select the satellite you want to configure. Once configured you can selec
 msgstr "Изберете сателита, който искате да конфигурирате. След като този сателит е конфигуриран, можете да изберете и конфигурирате други сателити, до които ще се осъществява достъп чрез същия тунер."
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
+msgstr ""
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
 msgstr ""
 
 msgid "Select the shifted character set"
@@ -17670,10 +17688,6 @@ msgid "Set MIN CPU frequency for cores 0 and 1"
 msgstr ""
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
-msgstr ""
-
-#, python-format
-msgid "Set Path %s"
 msgstr ""
 
 msgid "Set Scaling governor"
@@ -18917,6 +18931,9 @@ msgstr "Един сателит"
 
 msgid "Single step (GOP)"
 msgstr "Единична стъпка (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Единични EPG настройки"
