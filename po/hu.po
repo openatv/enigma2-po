@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2025-05-05 05:50+0000\n"
 "Last-Translator: Balázs Sólyom <balazs@solyom.online>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -1705,6 +1705,11 @@ msgstr ""
 "Az időzítő nem tud felvenni!\n"
 "Próbálja újra TV megjelenítés nélkül?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC lekeverése"
 
@@ -1922,6 +1927,9 @@ msgstr "jelölő hozzáadása"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Új négy csatornás bejegyzés hozzáadása"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Felvétel időzítő hozzáadása"
@@ -2157,11 +2165,11 @@ msgstr ""
 msgid "After Event"
 msgstr ""
 
-msgid "After power loss"
-msgstr "Áramszünet után"
-
 msgid "After event"
 msgstr "Esemény után"
+
+msgid "After power loss"
+msgstr "Áramszünet után"
 
 msgid "After recording"
 msgstr "Felvétel után"
@@ -4920,6 +4928,9 @@ msgstr "Konfigurálás"
 msgid "Configuring Service"
 msgstr ""
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr ""
 
@@ -5932,6 +5943,9 @@ msgstr ""
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Egy extra késkeltetés megadása (milliszekundumban) a http(s) stream-ek indítása előtt."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr ""
@@ -10830,9 +10844,6 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr "bal oldalon sortöréssel"
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr ""
 
@@ -12088,6 +12099,9 @@ msgstr ""
 
 msgid "Multi EPG"
 msgstr "Multi EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr ""
@@ -13689,9 +13703,6 @@ msgstr ""
 msgid "Path '%s' missing!"
 msgstr ""
 
-msgid "Path to picon set %s."
-msgstr ""
-
 msgid "Pause"
 msgstr "Szünet"
 
@@ -13801,14 +13812,15 @@ msgstr "Pikon és csatornanév"
 msgid "Picon install location"
 msgstr ""
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -15336,6 +15348,9 @@ msgstr "eltávolítás a gyermekzár védelem alól"
 msgid "Remove New Found Flag"
 msgstr "az új talált zászló eltávolítása"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr ""
 
@@ -16809,6 +16824,9 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Válasszon egy scriptet a futtatáshoz:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr ""
 
@@ -17267,9 +17285,6 @@ msgstr "Válassza ki az SCR eszköz gyártóját. Ha a gyártó nincs felsorolva
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "A teletext elhagyásakor válassza ki a képernyőfelbontás és a framebuffer helyreállításának módját."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr ""
 
@@ -17353,6 +17368,9 @@ msgid "Select the satellite you want to configure. Once configured you can selec
 msgstr "Válassza ki a konfigurálni kívánt műholdat. Miután a műholdat konfigurálta, kiválaszthatja és konfigurálhatja azokat a többi műholdakat is, amelyek ugyanazzal a tunerrel lesznek elérhetők."
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
+msgstr ""
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
 msgstr ""
 
 #, fuzzy
@@ -17842,10 +17860,6 @@ msgid "Set MIN CPU frequency for cores 0 and 1"
 msgstr ""
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
-msgstr ""
-
-#, python-format
-msgid "Set Path %s"
 msgstr ""
 
 msgid "Set Scaling governor"
@@ -19092,6 +19106,9 @@ msgstr "Egyetlen műhold"
 
 msgid "Single step (GOP)"
 msgstr "Lépés (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "SimpleEPG beállítása"
