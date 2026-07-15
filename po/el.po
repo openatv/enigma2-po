@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-06-15 03:01+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -1666,6 +1666,11 @@ msgstr ""
 "Ένας χρονοδιακόπτης απέτυχε να ξεκινήσει.\n"
 "Να απενεργοποιηθεί η TV και να ξαναπροσπαθήσει;\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "Αποκωδικοποίηση και μίξη AAC"
 
@@ -1881,6 +1886,9 @@ msgstr "Προσθήκη σημειωτή σε μπουκέτο"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Προσθήκη νέου στοιχείου τετραπλού καναλιού"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Προσθήκη χρονοδιακόπτη εγγραφής"
@@ -2116,11 +2124,11 @@ msgstr "Αφρικάνς"
 msgid "After Event"
 msgstr "Μετά το πρόγραμμα"
 
-msgid "After power loss"
-msgstr "Μετά τη διακοπή τροφοδοσίας"
-
 msgid "After event"
 msgstr "Μετά το πρόγραμμα"
+
+msgid "After power loss"
+msgstr "Μετά τη διακοπή τροφοδοσίας"
 
 msgid "After recording"
 msgstr "Μετά την εγγραφή"
@@ -4880,6 +4888,9 @@ msgstr "Παραμετροποίηση"
 msgid "Configuring Service"
 msgstr "Παραμετροποίηση υπηρεσίας"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Ενέργειες διένεξης χρονοδιακόπτη"
 
@@ -5885,6 +5896,9 @@ msgstr "Ορισμός softcam για αυτή την υπηρεσία"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Καθορισμός πρόσθετης καθυστέρησης σε χιλιοστά του δευτερολέπτου πριν από την έναρξη των ροών http(s)."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Ορισμός προσαρμοσμένου σημείου πρόσβασης για αυτή τη συσκευή."
@@ -10762,9 +10776,6 @@ msgstr "Αριστερό, μπροστά USB"
 msgid "Left, wrapped"
 msgstr "Αριστερά, σε αναδίπλωση"
 
-msgid "Legacy"
-msgstr ""
-
 msgid "Legacy mode"
 msgstr "Λειτουργία παλαιού τύπου"
 
@@ -11983,6 +11994,9 @@ msgstr "Πολλαπλό"
 
 msgid "Multi EPG"
 msgstr "Πολλαπλός EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "Πολλαπλή εκκίνηση"
@@ -13560,9 +13574,6 @@ msgstr "Διαδρομή"
 msgid "Path '%s' missing!"
 msgstr "Η διαδρομή '%s' λείπει!"
 
-msgid "Path to picon set %s."
-msgstr ""
-
 msgid "Pause"
 msgstr "Παύση"
 
@@ -13672,14 +13683,15 @@ msgstr "Λογότυπο και όνομα υπηρεσίας"
 msgid "Picon install location"
 msgstr "Φάκελος προορισμού πακέτου λογότυπων"
 
-msgid "Picon mode"
+#, python-format
+msgid "Picon path %s"
 msgstr ""
 
 #, python-format
-msgid "Picon set %s"
+msgid "Picon path %s is in use and cannot be removed!"
 msgstr ""
 
-msgid "Picon set mode"
+msgid "Picon search mode"
 msgstr ""
 
 msgid "Picon width"
@@ -15205,6 +15217,9 @@ msgstr "Αφαίρεση από τον γονικό έλεγχο"
 msgid "Remove New Found Flag"
 msgstr "Διαγραφή σημαίας \"νέο\""
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Αφαίρεση πρόσθετου"
 
@@ -16672,6 +16687,9 @@ msgstr "Επιλογή ενός αρχείου καταγραφής αποσφα
 msgid "Select a script to run:"
 msgstr "Επιλογή ενός σεναρίου προς εκτέλεση:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Επιλογή χρόνου κατά την αναμονή, μετά τον οποίο θα συνεχίζεται η αποκρυπτογράφηση."
 
@@ -17128,9 +17146,6 @@ msgstr "Επιλέξτε τον κατασκευαστή της SCR συσκευ
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Επιλογή της μεθόδου επαναφοράς της ανάλυσης της οθόνης και της μνήμης καρέ κατά την έξοδο από το τηλεκείμενο."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr ""
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Επιλογή λειτουργίας πρόσβασης για τα κοινόχρηστα στοιχεία samba που εξάγονται αυτόματα."
 
@@ -17218,6 +17233,9 @@ msgstr "Επιλέξτε τον δορυφόρο που θέλετε να ρυθ
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Επιλέξτε τη διάταξη της οθόνης από τις επιλογές που παρέχονται από το θέμα και που χρησιμοποιούνται στην οθόνη επιλογής καναλιών."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Επιλογή του σετ χαρακτήρων με shift"
@@ -17708,10 +17726,6 @@ msgstr "Ρύθμιση της ελάχιστης συχνότητας CPU για
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Ρύθμιση της ελάχιστης συχνότητας CPU για τους πυρήνες 2, 3, 4 και 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr ""
 
 msgid "Set Scaling governor"
 msgstr "Ορισμός ρυθμιστή κλιμάκωσης"
@@ -18960,6 +18974,9 @@ msgstr "Ένας δορυφόρος"
 
 msgid "Single step (GOP)"
 msgstr "Μονό βήμα (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Ρυθμίσεις μονού EPG"
