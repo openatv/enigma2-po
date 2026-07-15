@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-14 13:39+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -1703,6 +1703,11 @@ msgstr ""
 "Časovač nespustil nahrávanie!\n"
 "Vypnúť TV a skúsiť znovu?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC downmix"
 
@@ -1918,6 +1923,9 @@ msgstr "Pridať značku k prehľadu"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Pridať nový záznam pre Quad kanál"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Pridať časovač nahrávania"
@@ -2153,11 +2161,11 @@ msgstr "afrikánčina"
 msgid "After Event"
 msgstr "Po udalosti"
 
-msgid "After power loss"
-msgstr "Po výpadku napájania"
-
 msgid "After event"
 msgstr "Po udalosti"
+
+msgid "After power loss"
+msgstr "Po výpadku napájania"
 
 msgid "After recording"
 msgstr "Po nahrávaní"
@@ -4919,6 +4927,9 @@ msgstr "Konfiguruje sa"
 msgid "Configuring Service"
 msgstr "Konfigurácia služby"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Akcie pri konflikte časovačov"
 
@@ -5924,6 +5935,9 @@ msgstr "Definovať softcam pre túto stanicu"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Zadajte dodatočné oneskorenie (v milisekundách) pred spustením streamov http(s)."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Definovať používateľský bod pripojenia pre toto zariadenie."
@@ -10805,9 +10819,6 @@ msgstr "USB vľavo, vpredu"
 msgid "Left, wrapped"
 msgstr "Doľava, zalomené"
 
-msgid "Legacy"
-msgstr "Starší"
-
 msgid "Legacy mode"
 msgstr "Starší režim"
 
@@ -12027,6 +12038,9 @@ msgstr "Viacnásobné"
 
 msgid "Multi EPG"
 msgstr "Multi EPG"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -13604,9 +13618,6 @@ msgstr "Cesta"
 msgid "Path '%s' missing!"
 msgstr "Cesta '%s' nie je dostupná!"
 
-msgid "Path to picon set %s."
-msgstr "Cesta pre sadu pikon %s."
-
 msgid "Pause"
 msgstr "Pozastavenie"
 
@@ -13716,15 +13727,16 @@ msgstr "Pikona a názov stanice"
 msgid "Picon install location"
 msgstr "Cieľové umiestnenie balíčka pikon"
 
-msgid "Picon mode"
-msgstr "Režim pikony"
+#, python-format
+msgid "Picon path %s"
+msgstr "Cesta k pikone %s"
 
 #, python-format
-msgid "Picon set %s"
-msgstr "Sada pikon %s"
+msgid "Picon path %s is in use and cannot be removed!"
+msgstr ""
 
-msgid "Picon set mode"
-msgstr "Režim nastavenia pikony"
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "Pikony – šírka"
@@ -15251,6 +15263,9 @@ msgstr "Odstrániť z rodičovskej kontroly"
 msgid "Remove New Found Flag"
 msgstr "Odstrániť značku novonájdenej stanice"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Odstrániť plugin"
 
@@ -16721,6 +16736,9 @@ msgstr "Vyberte denník o odovzdaní do repozitára, ktorý sa má zobraziť:"
 msgid "Select a script to run:"
 msgstr "Vyberte skript na spustenie:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Vyberte čas, v pohotovostnom režime, po ktorom môže dekódovanie pokračovať."
 
@@ -17177,9 +17195,6 @@ msgstr "Vyberte výrobcu vášho zariadenia SCR. Ak nie je výrobca uvedený v z
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Vyberte metódu obnovenia rozlíšenia obrazovky a vyrovávacej pamäte pri vypnutí teletextu."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Nastavte režim pre výber cesty a rozlíšenia pikony. 'Starší' označuje predchádzajúci režim fungovania."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Vyberte režim prístupu, čítanie/zápis alebo len čítanie, ktorý sa použije pre všetky automaticky exportované zdieľania Samba."
 
@@ -17267,6 +17282,9 @@ msgstr "Vyberte družicu, ktorú chcete konfigurovať. Po nakonfigurovaní druž
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Vyberte si rozloženie obrazovky, z možností daných vzhľadom, ktorý sa používa pre obrazovku na výber kanála."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Vyberte znakovú sadu pre veľké písmená"
@@ -17757,10 +17775,6 @@ msgstr "Nastaviť MIN frekvenciu CPU pre jadrá 0 a 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Nastaviť MIN frekvenciu CPU pre jadrá 2, 3, 4 a 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "Nastaviť cestu %s"
 
 msgid "Set Scaling governor"
 msgstr "Nastaviť regulátor škálovania"
@@ -19009,6 +19023,9 @@ msgstr "Jedna družica"
 
 msgid "Single step (GOP)"
 msgstr "Jeden krok (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Nastavenia SingleEPG"
@@ -24661,8 +24678,28 @@ msgstr "áno (zachovať zdroje)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Picon path %s"
-#~ msgstr "Cesta k pikone %s"
+#~ msgid "Legacy"
+#~ msgstr "Starší"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "Cesta pre sadu pikon %s."
+
+#~ msgid "Picon mode"
+#~ msgstr "Režim pikony"
+
+#, python-format
+#~ msgid "Picon set %s"
+#~ msgstr "Sada pikon %s"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Režim nastavenia pikony"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Nastavte režim pre výber cesty a rozlíšenia pikony. 'Starší' označuje predchádzajúci režim fungovania."
+
+#, python-format
+#~ msgid "Set Path %s"
+#~ msgstr "Nastaviť cestu %s"
 
 #~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
 #~ msgstr "Vyberte cestu k pikone, zhora, ktorá sa použije aj pri pikonách pre výber kanálov."
