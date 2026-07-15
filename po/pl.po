@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 14:22+0000\n"
+"POT-Creation-Date: 2026-07-15 09:29+0000\n"
 "PO-Revision-Date: 2026-07-15 09:22+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
@@ -1710,6 +1710,11 @@ msgstr ""
 "Nagrywanie z timera nie powiodło się!\n"
 "Wyłączyć odbiornik i spróbować ponownie?\n"
 
+msgid ""
+"A zap timer wants to switch the channel.\n"
+"Do you want to zap now?\n"
+msgstr ""
+
 msgid "AAC downmix"
 msgstr "AAC downmix"
 
@@ -1925,6 +1930,9 @@ msgstr "Dodaj znacznik do listy"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Dodaj nowy wpis czterokanałowy"
+
+msgid "Add Path"
+msgstr ""
 
 msgid "Add RecordTimer"
 msgstr "Dodaj timer nagrywania"
@@ -2160,11 +2168,11 @@ msgstr "Afrykański"
 msgid "After Event"
 msgstr "Po wydarzeniu"
 
-msgid "After power loss"
-msgstr "Po utracie zasilania"
-
 msgid "After event"
 msgstr "Po wydarzeniu"
+
+msgid "After power loss"
+msgstr "Po utracie zasilania"
 
 msgid "After recording"
 msgstr "Po nagrywaniu"
@@ -4927,6 +4935,9 @@ msgstr "Konfigurowanie"
 msgid "Configuring Service"
 msgstr "Konfiguracja usługi"
 
+msgid "Confirm Zap"
+msgstr ""
+
 msgid "ConflictTimer Actions"
 msgstr "Akcje ConflictTimer"
 
@@ -5932,6 +5943,9 @@ msgstr "Zdefiniuj Softcam dla tej usługi"
 
 msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Zdefiniuj dodatkowy czas w (ms) przed startem strumieniowania http(s)."
+
+msgid "Define path %s for picons."
+msgstr ""
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Zdefiniuj niestandardowy punkt montowania dla urządzenia."
@@ -10814,9 +10828,6 @@ msgstr "Lewy, przedni port USB"
 msgid "Left, wrapped"
 msgstr "Lewo, owinięty"
 
-msgid "Legacy"
-msgstr "Starszy tryb"
-
 msgid "Legacy mode"
 msgstr "Starszy tryb"
 
@@ -12036,6 +12047,9 @@ msgstr "Multi"
 
 msgid "Multi EPG"
 msgstr "EPG wielu kanałów"
+
+msgid "Multi-path mode"
+msgstr ""
 
 msgid "MultiBoot"
 msgstr "MultiBoot"
@@ -13613,9 +13627,6 @@ msgstr "Ścieżka"
 msgid "Path '%s' missing!"
 msgstr "Brak ścieżki '%s'!"
 
-msgid "Path to picon set %s."
-msgstr "Ścieżka do zestawu pikon %s."
-
 msgid "Pause"
 msgstr "Pauza"
 
@@ -13725,15 +13736,16 @@ msgstr "Pikony i nazwa kanału"
 msgid "Picon install location"
 msgstr "Miejsce instalacji pikon"
 
-msgid "Picon mode"
-msgstr "Tryb pikon"
+#, python-format
+msgid "Picon path %s"
+msgstr "Ścieżka pikon %s"
 
 #, python-format
-msgid "Picon set %s"
-msgstr "Zestaw pikon %s"
+msgid "Picon path %s is in use and cannot be removed!"
+msgstr ""
 
-msgid "Picon set mode"
-msgstr "Tryb zestawów pikon"
+msgid "Picon search mode"
+msgstr ""
 
 msgid "Picon width"
 msgstr "Szerokość pikon"
@@ -15260,6 +15272,9 @@ msgstr "Usuń z kontroli rodzicielskiej"
 msgid "Remove New Found Flag"
 msgstr "Usuń nowo znalezioną flagę"
 
+msgid "Remove Path"
+msgstr ""
+
 msgid "Remove Plugin"
 msgstr "Usuń wtyczki"
 
@@ -16730,6 +16745,9 @@ msgstr "Wybierz log z repozytorium, który chcesz zobaczyć:"
 msgid "Select a script to run:"
 msgstr "Wybierz skrypt do uruchomienia:"
 
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr ""
+
 msgid "Select a time, when in Standby, after which the descramble can proceed."
 msgstr "Wybierz czas, po którym w trybie czuwania będzie można kontynuować deszyfrowanie."
 
@@ -17186,9 +17204,6 @@ msgstr "Wybierz producenta swojego urządzenia SCR. Jeśli producenta nie ma na 
 msgid "Select the method of restoring screen resolution and framebuffer when leaving teletext."
 msgstr "Wybierz metodę przywracania rozdzielczości ekranu i bufora ramki po opuszczeniu telegazety."
 
-msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
-msgstr "Wybierz tryb wyboru ścieżek i wyszukiwania pikon. 'Starszy tryb' oznacza dotychczasowy sposób działania."
-
 msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
 msgstr "Wybierz tryb dostępu (Odczyt/Zapis) lub (Tylko do odczytu) stosowany do wszystkich automatycznie eksportowanych udziałów Samba."
 
@@ -17276,6 +17291,9 @@ msgstr "Wybierz satelitę, którą chcesz skonfigurować. Po skonfigurowaniu teg
 
 msgid "Select the screen layout, from the options provided by the skin, to be used for the ChannelSelection screen."
 msgstr "Wybierz układ ekranu z opcji udostępnionych przez skórkę, który będzie używany na ekranie wyboru kanału."
+
+msgid "Select the search mode to find picons. 'Single-path mode' uses one path for all picons. 'Multi-path mode' allows multiple picon paths to be used for different use cases."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Wybierz przesunięty zestaw znaków"
@@ -17766,10 +17784,6 @@ msgstr "Ustaw Minimalną częstotliwość CPU dla rdzeni 0 oraz 1"
 
 msgid "Set MIN CPU frequency for cores 2, 3, 4 and 5"
 msgstr "Ustaw Minimalną częstotliwość CPU dla rdzeni 2, 3, 4 oraz 5"
-
-#, python-format
-msgid "Set Path %s"
-msgstr "Ścieżka pikon %s"
 
 msgid "Set Scaling governor"
 msgstr "Ustaw regulator skalowania"
@@ -19018,6 +19032,9 @@ msgstr "Jeden satelita"
 
 msgid "Single step (GOP)"
 msgstr "Pojedynczy krok (GOP)"
+
+msgid "Single-path mode"
+msgstr ""
 
 msgid "SingleEPG Settings"
 msgstr "Ustawienia pojedynczego EPG"
@@ -24671,7 +24688,27 @@ msgstr "tak (zachować feed'y)"
 msgid "®"
 msgstr "®"
 
-#~ msgid "Picon path %s"
+#~ msgid "Legacy"
+#~ msgstr "Starszy tryb"
+
+#~ msgid "Path to picon set %s."
+#~ msgstr "Ścieżka do zestawu pikon %s."
+
+#~ msgid "Picon mode"
+#~ msgstr "Tryb pikon"
+
+#, python-format
+#~ msgid "Picon set %s"
+#~ msgstr "Zestaw pikon %s"
+
+#~ msgid "Picon set mode"
+#~ msgstr "Tryb zestawów pikon"
+
+#~ msgid "Select the mode for picon path selection and resolution. 'Legacy' represents the previous mode of operation."
+#~ msgstr "Wybierz tryb wyboru ścieżek i wyszukiwania pikon. 'Starszy tryb' oznacza dotychczasowy sposób działania."
+
+#, python-format
+#~ msgid "Set Path %s"
 #~ msgstr "Ścieżka pikon %s"
 
 #~ msgid "Select the Picon path, from above, to be used for Channel Selection picons."
