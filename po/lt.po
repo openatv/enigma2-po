@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 09:29+0000\n"
+"POT-Creation-Date: 2026-07-15 19:52+0000\n"
 "PO-Revision-Date: 2025-06-11 19:04+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -41,6 +41,9 @@ msgstr "  ĮRAŠ.  "
 
 msgid "  Red key : Show/Hide channel name"
 msgstr "  Raudonas mygtukas: rodyti/slėpti kanalo pavadinimą"
+
+msgid " (+5 volt terrestrial)"
+msgstr ""
 
 #, python-format
 msgid " (Channel %s)"
@@ -1650,14 +1653,17 @@ msgstr ""
 "Dabar vyksta įrašymas.\n"
 "Ką norite daryti?"
 
-msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
-msgstr "Dabar vyksta įrašymas. Prieš konfigūruodami pozicionierių išjunkite įrašymą."
-
 msgid "A recording is currently running. Please stop the recording before trying to scan."
 msgstr "Dabar vyksta įrašymas. Prieš skenuodami, nutraukite įrašymą."
 
 msgid "A recording is currently running. Please stop the recording before trying to start the satellite finder."
 msgstr "Dabar vyksta įrašymas. Prieš pradėdami palydovų paiešką, išjunkite įrašymą."
+
+msgid "A recording is running or will start within six minutes. Changing the tuner configuration can interrupt it. Save anyway?"
+msgstr ""
+
+msgid "A recording is running or will start within six minutes. Please try the positioner setup later."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2099,6 +2105,9 @@ msgstr ""
 msgid "Adding schedule..."
 msgstr "Pridedamas tvarkaraštis..."
 
+msgid "Additional cable of motorized LNB"
+msgstr ""
+
 msgid "Additional files/folders to backup"
 msgstr "Papildomi failai/katalogai į atsarginę kopiją"
 
@@ -2107,6 +2116,10 @@ msgstr "Papildomos variklio galimybės leidžia įvesti duomenis iš jūsų vari
 
 msgid "Additional motor options allow you to enter details from your motor's specifications so Enigma can work out how long it will take to move to another satellite."
 msgstr "Papildomos variklio galimybės leidžia įvesti duomenis iš jūsų variklio specifikacijų lapo, taigi \"enigma\" gali išsiaiškinti, kiek laiko reikės perkelti į kitą palydovą."
+
+#, python-format
+msgid "Additional rotor cable from %s"
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Koreguokite spalvas taip, kad visos spalvos ir atspalviai būtų atskiriami, bet atrodytų taip prisotinti, kiek galima. Jei jūs esate patenkinti rezultatu, spauskite OK, kad užvertumėte vaizdo tikslų suderinimą, ar pasinaudokite skaičių mygtukais, kad išrinktumėte kitus bandomuosius ekranus."
@@ -2745,6 +2758,9 @@ msgstr "Auto"
 
 msgid "Auto (not available)"
 msgstr "Automatinis (negalimas)"
+
+msgid "Auto DiSEqC search order"
+msgstr ""
 
 msgid "Auto Language"
 msgstr "Automatinė kalba"
@@ -3879,6 +3895,9 @@ msgstr "centre, suvyniota"
 msgid "Central African Republic"
 msgstr "Centrinė Afrikos Respublika"
 
+msgid "Central Europe"
+msgstr ""
+
 msgid "Central Khmer"
 msgstr "Centrinis khmeras"
 
@@ -4068,6 +4087,9 @@ msgstr ""
 msgid "Chechen"
 msgstr "Čečėnijos"
 
+msgid "Check ONID/TSID"
+msgstr ""
+
 msgid "Check for PDC"
 msgstr "Patikrinkite, ar nėra PDC"
 
@@ -4088,6 +4110,9 @@ msgstr "Tikrinami šaltiniai"
 
 msgid "Checking Logs..."
 msgstr "Tikrinami žurnalai..."
+
+msgid "Checking ONID/TSID ..."
+msgstr ""
 
 msgid "Checking file system..."
 msgstr "Failų sistemos tikrinimas..."
@@ -5016,12 +5041,6 @@ msgstr "Dėl šios informacijos kreipkitės į savo SCR įrenginio specifikacij�
 msgid "Consult your motor's specifications for this information, or leave the default setting."
 msgstr "Šios informacijos ieškokite savo variklio techninių duomenų lape, arba palikite pagal nutylėjimą."
 
-msgid "Consult your receiver's manual for more information on power management."
-msgstr "Maitinimo valdymas. Daugiau informacijos ieškokite savo imtuvo naudojimo instrukcijoje."
-
-msgid "Consult your receiver's manual for more information on power threshold."
-msgstr "Galios ribos. Daugiau informacijos ieškokite savo imtuvo naudojimo instrukcijoje."
-
 #, python-format
 msgid "Contacting IceTV server and setting up your %s %s."
 msgstr "Susisiekimas su IceTV serveriu ir %s %s nustatymas."
@@ -5423,8 +5442,17 @@ msgstr "Dabartinė vieta yra '%s'."
 msgid "Current mode: %s \n"
 msgstr "Dabartinis režimas: %s \n"
 
+msgid "Current rotor position:"
+msgstr ""
+
+msgid "Current rotor position: unknown"
+msgstr ""
+
 msgid "Current settings:"
 msgstr "Dabartiniai nustatymai:"
+
+msgid "Current supplied to the LNB and positioner."
+msgstr ""
 
 msgid "Current time"
 msgstr "Dabartinis laikas"
@@ -6280,6 +6308,9 @@ msgstr "Išsami GStreamer žurnalo informacija"
 msgid "Details"
 msgstr "Išsamiau"
 
+msgid "Detect positioner movement by its current consumption."
+msgstr ""
+
 msgid "Detective"
 msgstr ""
 
@@ -7040,6 +7071,9 @@ msgstr "Rytai"
 msgid "East limit set"
 msgstr "Rytinė kraštutinė riba"
 
+msgid "Eastern satellites"
+msgstr ""
+
 msgid "Easy listening"
 msgstr ""
 
@@ -7434,6 +7468,12 @@ msgstr ""
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Įjunkite šį nustatymą, jei jūsų antenos sistemai reikia galios"
 
+msgid "Enable this when a power inserter or external supply powers the Unicable device."
+msgstr ""
+
+msgid "Enable this when the User Band is protected by a PIN in a multi-dwelling Unicable installation."
+msgstr ""
+
 msgid "Enable timer"
 msgstr ""
 
@@ -7581,6 +7621,9 @@ msgstr "Įveskite šio laikmačio pavadinimą."
 msgid "Enter a new name for this device."
 msgstr "Įveskite naują šio įrenginio pavadinimą."
 
+msgid "Enter expected ONID/TSID"
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Įrašykite, jei esate į šiaurę arba į pietus nuo pusiaujo."
 
@@ -7603,6 +7646,9 @@ msgid "Enter text via an attached keyboard"
 msgstr ""
 
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr ""
+
+msgid "Enter the PIN from 0 to 255 assigned to this User Band by the installer or building operator."
 msgstr ""
 
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
@@ -8246,6 +8292,9 @@ msgstr "Išorinių subtitrų dialogų spalvinimas"
 msgid "External subtitle switch fonts"
 msgstr "Išorinių subtitrų perjungimo šriftai"
 
+msgid "Externally powered"
+msgstr ""
+
 msgid "Extra High"
 msgstr ""
 
@@ -8286,6 +8335,13 @@ msgid "FBC SCR (Unicable/JESS)"
 msgstr ""
 
 msgid "FBC automatic"
+msgstr ""
+
+#, python-format
+msgid "FBC automatic: connected to %s"
+msgstr ""
+
+msgid "FBC automatic: inactive"
 msgstr ""
 
 msgid "FCC enabled"
@@ -9474,6 +9530,9 @@ msgstr "Paslėpti grotuvą"
 msgid "Hide softcam servername"
 msgstr ""
 
+msgid "Hide sub-menu"
+msgstr ""
+
 msgid "Hide the InfoBar"
 msgstr "Nustatykite laiką, kad paslėpti info juostą."
 
@@ -10129,6 +10188,9 @@ msgstr "informacija/edukacija/mokyklinė programa"
 msgid "Infotainment"
 msgstr "Informacijos ir pramogų"
 
+msgid "Inherited channel / frequency"
+msgstr ""
+
 msgid "Init"
 msgstr "Inicializacija"
 
@@ -10700,6 +10762,18 @@ msgstr "LIRC nuotolinis"
 msgid "LNB"
 msgstr "Universali LNB"
 
+msgid "LNB 1"
+msgstr ""
+
+msgid "LNB 1 and the target LNB use different Unicable protocols"
+msgstr ""
+
+msgid "LNB current:"
+msgstr ""
+
+msgid "LNB current: not available"
+msgstr ""
+
 msgid "LNB/Switch Bootup time [ms]"
 msgstr "LNB/Perjungimo pasikrovimo laikas [msek.]"
 
@@ -10786,6 +10860,9 @@ msgstr "Užverti DVD grotuvą?"
 
 msgid "Leave movie player"
 msgstr "užverti filmų grotuvą"
+
+msgid "Leave this at 0 to derive the position from the LNB number and device profile. Enter 1 to 64 only for a reprogrammed Unicable device."
+msgstr ""
 
 msgid "Leave this set to 'Yes' unless you fully understand why you are adjusting it."
 msgstr "Palikite šį parametrą \"taip\", nebent jūs visiškai suprantate, kodėl jį koreguojate."
@@ -10877,6 +10954,9 @@ msgstr "Rytų riba"
 
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Apriboti simbolius, kurie gali būti naudojami failų pavadinimuose į (7 bitų) ASCII. Tai užtikrina suderinamumą su operacinėmis sistemomis arba failų sistemomis su ribotų simbolių grupėmis."
+
+msgid "Limit the search to the satellite group normally used by this installation."
+msgstr ""
 
 msgid "Limit west"
 msgstr "Vakarų riba"
@@ -11432,6 +11512,9 @@ msgstr ""
 msgid "Mayotte"
 msgstr "Majotas"
 
+msgid "Measured current"
+msgstr ""
+
 msgid "Media"
 msgstr "Medija"
 
@@ -11574,6 +11657,9 @@ msgstr "MiniTV su OSD"
 #, python-format
 msgid "Minimum age %d years"
 msgstr "Minimalus amžius %d metai"
+
+msgid "Minimum difference between idle and moving current."
+msgstr ""
 
 msgid "Minimum send interval"
 msgstr "Minimalus siuntimo intervalas"
@@ -12800,8 +12886,14 @@ msgstr "Neįdiegta"
 msgid "Not Shown"
 msgstr "Nerodyti"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "Nesusietas"
+
+msgid "Not available"
+msgstr ""
 
 msgid "Not configured"
 msgstr "nekonfigūruota"
@@ -12922,8 +13014,23 @@ msgstr "OK mygtuką (trumpai)"
 msgid "OK button mode"
 msgstr "OK mygtuko režimas"
 
+msgid "OK checks the currently tuned transponder."
+msgstr ""
+
 msgid "OK, guide me through the upgrade process"
 msgstr "Gerai, informuoti mane apie atnaujinimo eigą"
+
+msgid "ONID"
+msgstr "ONID"
+
+msgid "ONID/TSID check timed out"
+msgstr ""
+
+msgid "ONID/TSID does not match"
+msgstr ""
+
+msgid "ONID/TSID valid"
+msgstr ""
 
 msgid "OSCam Info"
 msgstr "OScam informacija"
@@ -13263,6 +13370,9 @@ msgstr "Atidaryti kelių kanalų EPG rodinį"
 msgid "Open the single service EPG view"
 msgstr "Atidaryti vienos kanalo EPG rodinį"
 
+msgid "Open tuner setup"
+msgstr ""
+
 msgid "Open with File Commander"
 msgstr "Atverti su Failų valdytoju"
 
@@ -13443,6 +13553,9 @@ msgstr ""
 
 msgid "PGS file"
 msgstr "PGS failas"
+
+msgid "PIN"
+msgstr ""
 
 msgid "PIN code needed"
 msgstr "Reikia pin kodo"
@@ -14253,6 +14366,9 @@ msgstr "Pozicionieriaus nustatymas"
 
 msgid "Positioner Setup Log"
 msgstr "Pozicionieriaus nustatymo žurnalas"
+
+msgid "Positioner actions"
+msgstr ""
 
 msgid "Positioner setup"
 msgstr "Pozicionieriaus nustatymas"
@@ -15755,8 +15871,15 @@ msgstr ""
 msgid "Rose"
 msgstr "rožinė"
 
+msgid "Rotor is not configured"
+msgstr ""
+
 msgid "Rotor turning speed"
 msgstr "Rotoriaus sukimosi greitis"
+
+#, python-format
+msgid "Rotor: %d satellites"
+msgstr ""
 
 msgid "Router / Gateway"
 msgstr "Maršrutizatorius / šliuzas"
@@ -16603,6 +16726,9 @@ msgstr "Jei nustatyta \"taip\", signalo reikšmės (SNR ir t.t.) bus apskaičiuo
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
 msgstr "Pasirinkite \"Taip\", jei norite naudoti skaičių klavišus greitam failų / katalogų pasirinkimui, pasirinkite \"Ne\", jei norite naudoti skaičių klavišus MENU parinkčių spartiesiems klavišams."
+
+msgid "Select 'Yes' to use the same User Band channel and frequency as LNB 1. This is intended for multiple satellite positions delivered by the same Unicable system."
+msgstr ""
 
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
 msgstr "Jei įjungta ir būtina, papildinys pažadins imtuvą iš gilaus budėjimo režimo nustatytam paleidimo laikui, kad būtų galima valdyti, ar programa paleidžiama anksčiau."
@@ -18803,6 +18929,9 @@ msgstr "Rodyti vieno kanalo EPG"
 msgid "Show status messages on switch to live TV"
 msgstr "Perjungiant į tiesioginę TV transliaciją, rodyti žinutę"
 
+msgid "Show sub-menu"
+msgstr ""
+
 msgid "Show subservice selection"
 msgstr "Rodyti subkanalų pasirinkimą"
 
@@ -20272,6 +20401,9 @@ msgstr "2023-06-04 adga45@gmail.com"
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS failas yra per didelis ISO9660 lygmeniui 1!"
 
+msgid "TSID"
+msgstr "TSID"
+
 msgid "TUNER:"
 msgstr "IMTUVAS:"
 
@@ -20651,6 +20783,9 @@ msgstr ""
 msgid "The TV was switched to the recording service!\n"
 msgstr "TV buvo perjungtas į įrašomą kanalą!\n"
 
+msgid "The User Band channel, frequency and optional PIN are inherited from LNB 1 and cannot be changed here."
+msgstr ""
+
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -20768,6 +20903,9 @@ msgstr ""
 "Prašome įdiegti."
 
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+msgstr ""
+
+msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr ""
 
 #, python-format
@@ -21990,11 +22128,26 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukrainiečių"
 
+#, python-format
+msgid "Unable to inherit the User Band for LNB %d: %s."
+msgstr ""
+
+#, python-format
+msgid "Unable to inherit the User Band for LNB %d: LNB 1 %s."
+msgstr ""
+
 msgid "Unable to initialize Kexec MultiBoot!"
+msgstr ""
+
+#, python-format
+msgid "Unable to validate the Unicable position for LNB %d: %s."
 msgstr ""
 
 msgid "Unattended upgrade without GUI"
 msgstr "Automatinis atnaujinimas be grafinės aplinkos"
+
+msgid "Unavailable"
+msgstr ""
 
 msgid "Undefined"
 msgstr "Neapibrėžta"
@@ -22032,6 +22185,13 @@ msgstr "Kelių kabelių LNB"
 
 msgid "Unicable Matrix"
 msgstr "Kelių kabelių Matrix"
+
+msgid "Unicable position"
+msgstr ""
+
+#, python-format
+msgid "Unicable position %d is not supported by the selected device for LNB %d. Valid positions are %d to %d; use 'User defined' for a reprogrammed device."
+msgstr ""
 
 msgid "Uninstall"
 msgstr ""
@@ -22297,6 +22457,9 @@ msgstr ""
 msgid "Use Harddisk Hardware Standby Timer"
 msgstr "Naudokite kieto disko įrangos budėjimo laikmatį"
 
+msgid "Use LNB 1 User Band"
+msgstr ""
+
 msgid "Use MHW EPG information when it is available."
 msgstr "Naudokite MHW EPG informaciją, jei ji yra prieinama."
 
@@ -22307,6 +22470,9 @@ msgid "Use ODoH servers"
 msgstr ""
 
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
+msgstr ""
+
+msgid "Use PIN"
 msgstr ""
 
 msgid "Use QuickSelect"
@@ -23048,12 +23214,18 @@ msgstr "Įspėjimas: nepaisymas šiuo metu aktyvus!"
 msgid "Warning: Recordings should not be stored on the Flash disk!"
 msgstr ""
 
+msgid "Warning: The second input of this dual tuner may not support Unicable devices. "
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr "Įspėjimas: yra %d atnaujinimo paketų!"
 
 msgid "Warning: There is only a network drive to store the backup. This means the auto restore will not work after the flash. Alternatively, mount the network drive after the flash and perform a manufacturer reset to auto restore."
 msgstr "Įspėjimas: atsarginei kopijai saugoti yra tik tinklo diskas. Tai reiškia, kad automatinis atkūrimas neveiks po įdiegimo. Arba sumontuokite tinklo diską po įdiegimo ir atlikite gamintojo atstatymą iš naujo, kad atkurtumėte automatinį atkūrimą."
+
+msgid "Warning: This FBC-C V1 tuner should be installed in the first slot. In the second slot only 2 of 8 demodulators may be available. "
+msgstr ""
 
 msgid "Warning: This is the last crash before an automatic restart is performed.\n"
 msgstr "Įspėjimas: tai paskutinis gedimas prieš atliekant naują automatinį paleidimą.\n"
@@ -23149,6 +23321,9 @@ msgstr "Vakarų fryzų"
 
 msgid "Western Sahara"
 msgstr "Vakarinė Sahara"
+
+msgid "Western satellites"
+msgstr ""
 
 msgid "What day of month?"
 msgstr "Kurią mėnesio dieną?"
@@ -24229,6 +24404,18 @@ msgstr "h:mmam/pm"
 msgid "handled"
 msgstr "tvarkoma"
 
+msgid "has incomplete Unicable settings"
+msgstr ""
+
+msgid "has no supported Unicable device type"
+msgstr ""
+
+msgid "has no valid Unicable product"
+msgstr ""
+
+msgid "has no valid User Band channel"
+msgstr ""
+
 msgid "height"
 msgstr "aukštis"
 
@@ -24276,6 +24463,12 @@ msgstr "momentinis įrašymas"
 
 msgid "internally loopthrough to"
 msgstr "vidinis ciklas į"
+
+msgid "is not configured"
+msgstr ""
+
+msgid "is not configured for Unicable"
+msgstr ""
 
 msgid "jump back to the previous title"
 msgstr "šuolis atgal į ankstesnį pavadinimą"
@@ -24534,6 +24727,18 @@ msgstr "šablono failas"
 msgid "text"
 msgstr "tekstas"
 
+msgid "the User Band channel from LNB 1 is not available"
+msgstr ""
+
+msgid "the selected device does not use the LNB 1 frequency on this User Band channel"
+msgstr ""
+
+msgid "the target LNB"
+msgstr ""
+
+msgid "the target LNB is not configured"
+msgstr ""
+
 msgid "this recording"
 msgstr "šis įrašas"
 
@@ -24582,6 +24787,9 @@ msgstr "neišbandytas"
 msgid "update"
 msgstr "atnaujinimas"
 
+msgid "uses an unavailable User Band frequency"
+msgstr ""
+
 msgid "using:"
 msgstr "naudojamas:"
 
@@ -24624,6 +24832,15 @@ msgstr "taip (išsaugoti šaltinius)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
+#~ msgstr "Dabar vyksta įrašymas. Prieš konfigūruodami pozicionierių išjunkite įrašymą."
+
+#~ msgid "Consult your receiver's manual for more information on power management."
+#~ msgstr "Maitinimo valdymas. Daugiau informacijos ieškokite savo imtuvo naudojimo instrukcijoje."
+
+#~ msgid "Consult your receiver's manual for more information on power threshold."
+#~ msgstr "Galios ribos. Daugiau informacijos ieškokite savo imtuvo naudojimo instrukcijoje."
 
 #, python-format
 #~ msgid "%d DMIPS per core"
@@ -26332,9 +26549,6 @@ msgstr "®"
 #~ msgid "Next Picture"
 #~ msgstr "Kitas paveikslėlis"
 
-#~ msgid "ONID"
-#~ msgstr "ONID"
-
 #~ msgid "Previous Log"
 #~ msgstr "Ankstesnis žurnalas"
 
@@ -26367,9 +26581,6 @@ msgstr "®"
 
 #~ msgid "System & Modulation"
 #~ msgstr "Sistema ir moduliacija"
-
-#~ msgid "TSID"
-#~ msgstr "TSID"
 
 #~ msgid "Tuner live values"
 #~ msgstr "Imtuvo tiesioginės reikšmės"
