@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 09:29+0000\n"
+"POT-Creation-Date: 2026-07-15 19:52+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -40,6 +40,9 @@ msgstr ""
 
 msgid "  Red key : Show/Hide channel name"
 msgstr "  Phím đỏ: Hiển thị / Ẩn tên kênh"
+
+msgid " (+5 volt terrestrial)"
+msgstr ""
 
 #, python-format
 msgid " (Channel %s)"
@@ -1615,14 +1618,17 @@ msgstr ""
 "Một bản ghi hiện đang chạy.\n"
 "Bạn muốn làm gì?"
 
-msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
-msgstr "Một bản ghi hiện đang chạy. Vui lòng dừng ghi âm trước khi thử cấu hình bộ định vị."
-
 msgid "A recording is currently running. Please stop the recording before trying to scan."
 msgstr "Một bản ghi hiện đang chạy. Hãy dừng ghi âm trước khi thử quét."
 
 msgid "A recording is currently running. Please stop the recording before trying to start the satellite finder."
 msgstr "Một bản ghi hiện đang chạy. Vui lòng dừng ghi âm trước khi thử khởi động satfinder."
+
+msgid "A recording is running or will start within six minutes. Changing the tuner configuration can interrupt it. Save anyway?"
+msgstr ""
+
+msgid "A recording is running or will start within six minutes. Please try the positioner setup later."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -2063,6 +2069,9 @@ msgstr ""
 msgid "Adding schedule..."
 msgstr "Thêm lịch trình ..."
 
+msgid "Additional cable of motorized LNB"
+msgstr ""
+
 msgid "Additional files/folders to backup"
 msgstr "Chọn tập tin / thư mục để sao lưu"
 
@@ -2071,6 +2080,10 @@ msgstr "Tùy chọn động cơ bổ sung cho phép bạn nhập chi tiết từ
 
 msgid "Additional motor options allow you to enter details from your motor's specifications so Enigma can work out how long it will take to move to another satellite."
 msgstr "Các tùy chọn động cơ bổ sung cho phép bạn nhập thông tin chi tiết từ bảng thông số kỹ thuật của động cơ để enigma có thể biết được sẽ mất bao lâu để di chuyển đến vệ tinh khác."
+
+#, python-format
+msgid "Additional rotor cable from %s"
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Điều chỉnh cài đặt màu sao cho tất cả các sắc thái màu có thể phân biệt được, nhưng xuất hiện càng bão hòa càng tốt. Nếu bạn hài lòng với kết quả này, nhấn OK để đóng tinh chỉnh video hoặc sử dụng các phím số để chọn các màn hình kiểm tra khác."
@@ -2717,6 +2730,9 @@ msgstr "Tự động"
 
 msgid "Auto (not available)"
 msgstr "Tự động (không khả dụng)"
+
+msgid "Auto DiSEqC search order"
+msgstr ""
 
 msgid "Auto Language"
 msgstr "Chọn ngôn ngữ tự động"
@@ -3855,6 +3871,9 @@ msgstr "trung tâm, bao bọc"
 msgid "Central African Republic"
 msgstr "Cộng hòa trung phi"
 
+msgid "Central Europe"
+msgstr ""
+
 msgid "Central Khmer"
 msgstr ""
 
@@ -4046,6 +4065,9 @@ msgstr ""
 msgid "Chechen"
 msgstr "Kiểm tra"
 
+msgid "Check ONID/TSID"
+msgstr ""
+
 msgid "Check for PDC"
 msgstr ""
 
@@ -4066,6 +4088,9 @@ msgstr "Kiểm tra chương trình"
 
 msgid "Checking Logs..."
 msgstr "Kiểm tra nhật ký ..."
+
+msgid "Checking ONID/TSID ..."
+msgstr ""
 
 msgid "Checking file system..."
 msgstr "Kiểm tra hệ thống tập tin ..."
@@ -4992,12 +5017,6 @@ msgstr "Tham khảo bảng thông số thiết bị SCR của bạn để biết
 msgid "Consult your motor's specifications for this information, or leave the default setting."
 msgstr "Tham khảo bảng thông số kỹ thuật của động cơ của bạn để biết thông tin này hoặc để lại cài đặt mặc định."
 
-msgid "Consult your receiver's manual for more information on power management."
-msgstr "Quản lý năng lượng. Tham khảo hướng dẫn sử dụng của người nhận để biết thêm thông tin."
-
-msgid "Consult your receiver's manual for more information on power threshold."
-msgstr "Ngưỡng công suất. Tham khảo hướng dẫn sử dụng của người nhận để biết thêm thông tin."
-
 #, python-format
 msgid "Contacting IceTV server and setting up your %s %s."
 msgstr ""
@@ -5407,8 +5426,17 @@ msgstr ""
 msgid "Current mode: %s \n"
 msgstr "Chế độ hiện tại:%s\n"
 
+msgid "Current rotor position:"
+msgstr ""
+
+msgid "Current rotor position: unknown"
+msgstr ""
+
 msgid "Current settings:"
 msgstr "Cài đặt hiện tại:"
+
+msgid "Current supplied to the LNB and positioner."
+msgstr ""
 
 msgid "Current time"
 msgstr "Thời điểm hiện tại"
@@ -6275,6 +6303,9 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
+msgid "Detect positioner movement by its current consumption."
+msgstr ""
+
 msgid "Detective"
 msgstr ""
 
@@ -7037,6 +7068,9 @@ msgstr "Đông"
 msgid "East limit set"
 msgstr "Giới hạn đông"
 
+msgid "Eastern satellites"
+msgstr ""
+
 msgid "Easy listening"
 msgstr ""
 
@@ -7442,6 +7476,12 @@ msgstr ""
 msgid "Enable this setting if your aerial system needs power."
 msgstr "Kích hoạt cài đặt này nếu hệ thống trên không của bạn cần nguồn điện"
 
+msgid "Enable this when a power inserter or external supply powers the Unicable device."
+msgstr ""
+
+msgid "Enable this when the User Band is protected by a PIN in a multi-dwelling Unicable installation."
+msgstr ""
+
 msgid "Enable timer"
 msgstr ""
 
@@ -7586,6 +7626,9 @@ msgstr ""
 msgid "Enter a new name for this device."
 msgstr ""
 
+msgid "Enter expected ONID/TSID"
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Nhập nếu bạn ở phía bắc hoặc phía nam của đường xích đạo."
 
@@ -7608,6 +7651,9 @@ msgid "Enter text via an attached keyboard"
 msgstr ""
 
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
+msgstr ""
+
+msgid "Enter the PIN from 0 to 255 assigned to this User Band by the installer or building operator."
 msgstr ""
 
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
@@ -8249,6 +8295,9 @@ msgstr "Màu sắc hộp thoại phụ đề bên ngoài"
 msgid "External subtitle switch fonts"
 msgstr "Phông chữ chuyển đổi phụ đề bên ngoài"
 
+msgid "Externally powered"
+msgstr ""
+
 msgid "Extra High"
 msgstr ""
 
@@ -8290,6 +8339,13 @@ msgid "FBC SCR (Unicable/JESS)"
 msgstr ""
 
 msgid "FBC automatic"
+msgstr ""
+
+#, python-format
+msgid "FBC automatic: connected to %s"
+msgstr ""
+
+msgid "FBC automatic: inactive"
 msgstr ""
 
 msgid "FCC enabled"
@@ -9499,6 +9555,9 @@ msgstr "Ẩn người chơi"
 msgid "Hide softcam servername"
 msgstr ""
 
+msgid "Hide sub-menu"
+msgstr ""
+
 #, fuzzy
 msgid "Hide the InfoBar"
 msgstr "Làm mờ Infobar trên ẩn"
@@ -10164,6 +10223,9 @@ msgstr "thông tin / giáo dục / chương trình học"
 msgid "Infotainment"
 msgstr "CCcam Thông tin Menu chính"
 
+msgid "Inherited channel / frequency"
+msgstr ""
+
 msgid "Init"
 msgstr "Trong đó"
 
@@ -10741,6 +10803,18 @@ msgstr ""
 msgid "LNB"
 msgstr "LNB"
 
+msgid "LNB 1"
+msgstr ""
+
+msgid "LNB 1 and the target LNB use different Unicable protocols"
+msgstr ""
+
+msgid "LNB current:"
+msgstr ""
+
+msgid "LNB current: not available"
+msgstr ""
+
 msgid "LNB/Switch Bootup time [ms]"
 msgstr "LNB / Chuyển thời gian khởi động [ms]"
 
@@ -10831,6 +10905,9 @@ msgstr "Rời khỏi đầu DVD?"
 #, fuzzy
 msgid "Leave movie player"
 msgstr "rời khỏi máy nghe nhạc ..."
+
+msgid "Leave this at 0 to derive the position from the LNB number and device profile. Enter 1 to 64 only for a reprogrammed Unicable device."
+msgstr ""
 
 msgid "Leave this set to 'Yes' unless you fully understand why you are adjusting it."
 msgstr "Đặt bộ này thành 'có' trừ khi bạn hoàn toàn hiểu lý do tại sao bạn điều chỉnh nó."
@@ -10923,6 +11000,9 @@ msgstr "Giới hạn phía đông"
 
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Giới hạn các ký tự có thể được sử dụng trong việc ghi tên tệp thành (7 bit) ascii. Điều này đảm bảo khả năng tương thích với các hệ điều hành hoặc hệ thống tệp với các bộ ký tự giới hạn."
+
+msgid "Limit the search to the satellite group normally used by this installation."
+msgstr ""
 
 msgid "Limit west"
 msgstr "Giới hạn phía tây"
@@ -11492,6 +11572,9 @@ msgstr ""
 msgid "Mayotte"
 msgstr "Mayotte"
 
+msgid "Measured current"
+msgstr ""
+
 msgid "Media"
 msgstr "Phương tiện truyền thông"
 
@@ -11639,6 +11722,9 @@ msgstr "MiniTV với OSD"
 #, python-format
 msgid "Minimum age %d years"
 msgstr "Tuổi tối thiểu%d năm"
+
+msgid "Minimum difference between idle and moving current."
+msgstr ""
 
 msgid "Minimum send interval"
 msgstr "Khoảng thời gian gửi tối thiểu"
@@ -12908,8 +12994,14 @@ msgstr "Kodi đã cài đặt:"
 msgid "Not Shown"
 msgstr "Không được hiển thị"
 
+msgid "Not a valid tuner"
+msgstr ""
+
 msgid "Not associated"
 msgstr "Không liên quan"
+
+msgid "Not available"
+msgstr ""
 
 msgid "Not configured"
 msgstr "không được cấu hình"
@@ -13030,8 +13122,23 @@ msgstr "Nút OK (ngắn)"
 msgid "OK button mode"
 msgstr "Chế độ nút OK"
 
+msgid "OK checks the currently tuned transponder."
+msgstr ""
+
 msgid "OK, guide me through the upgrade process"
 msgstr "OK, hướng dẫn tôi qua quá trình nâng cấp"
+
+msgid "ONID"
+msgstr "ONID"
+
+msgid "ONID/TSID check timed out"
+msgstr ""
+
+msgid "ONID/TSID does not match"
+msgstr ""
+
+msgid "ONID/TSID valid"
+msgstr ""
 
 msgid "OSCam Info"
 msgstr "Thông tin OScam"
@@ -13387,6 +13494,9 @@ msgstr ""
 msgid "Open the single service EPG view"
 msgstr ""
 
+msgid "Open tuner setup"
+msgstr ""
+
 msgid "Open with File Commander"
 msgstr "Mở bằng File Commander"
 
@@ -13571,6 +13681,9 @@ msgstr ""
 #, fuzzy
 msgid "PGS file"
 msgstr "Tên tệp EPG"
+
+msgid "PIN"
+msgstr ""
 
 msgid "PIN code needed"
 msgstr "Mã PIN cần thiết"
@@ -14378,6 +14491,9 @@ msgstr "Thiết lập định vị"
 
 msgid "Positioner Setup Log"
 msgstr "Nhật ký cài đặt định vị"
+
+msgid "Positioner actions"
+msgstr ""
 
 msgid "Positioner setup"
 msgstr "Thiết lập định vị"
@@ -15903,8 +16019,15 @@ msgstr ""
 msgid "Rose"
 msgstr ""
 
+msgid "Rotor is not configured"
+msgstr ""
+
 msgid "Rotor turning speed"
 msgstr "Tốc độ quay của rôto"
+
+#, python-format
+msgid "Rotor: %d satellites"
+msgstr ""
 
 msgid "Router / Gateway"
 msgstr ""
@@ -16752,6 +16875,9 @@ msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older AP
 msgstr "Nếu được đặt thành giá trị tín hiệu 'có' (SNR, v.v.) sẽ được tính từ API V3. Đây là một phiên bản API cũ đã được thay thế."
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
+msgstr ""
+
+msgid "Select 'Yes' to use the same User Band channel and frequency as LNB 1. This is intended for multiple satellite positions delivered by the same Unicable system."
 msgstr ""
 
 msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
@@ -18967,6 +19093,9 @@ msgstr "Hiển thị EPG dịch vụ duy nhất"
 msgid "Show status messages on switch to live TV"
 msgstr "Hiển thị thông báo trạng thái khi chuyển sang truyền hình trực tiếp"
 
+msgid "Show sub-menu"
+msgstr ""
+
 msgid "Show subservice selection"
 msgstr "Hiển thị lựa chọn dịch vụ phụ"
 
@@ -20448,6 +20577,9 @@ msgstr "THÔNG TIN TRUYỀN THÔNG"
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Tệp TS quá lớn so với ISO9660 cấp 1!"
 
+msgid "TSID"
+msgstr "TSID"
+
 msgid "TUNER:"
 msgstr ""
 
@@ -20832,6 +20964,9 @@ msgstr ""
 msgid "The TV was switched to the recording service!\n"
 msgstr "TV đã được chuyển sang dịch vụ ghi âm!\n"
 
+msgid "The User Band channel, frequency and optional PIN are inherited from LNB 1 and cannot be changed here."
+msgstr ""
+
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -20942,6 +21077,9 @@ msgstr ""
 "Vui lòng cài đặt nó."
 
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+msgstr ""
+
+msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr ""
 
 #, python-format
@@ -22176,11 +22314,26 @@ msgstr "Ukraine"
 msgid "Ukrainian"
 msgstr "Tiếng Ukraina"
 
+#, python-format
+msgid "Unable to inherit the User Band for LNB %d: %s."
+msgstr ""
+
+#, python-format
+msgid "Unable to inherit the User Band for LNB %d: LNB 1 %s."
+msgstr ""
+
 msgid "Unable to initialize Kexec MultiBoot!"
+msgstr ""
+
+#, python-format
+msgid "Unable to validate the Unicable position for LNB %d: %s."
 msgstr ""
 
 msgid "Unattended upgrade without GUI"
 msgstr "Nâng cấp không giám sát mà không cần GUI"
+
+msgid "Unavailable"
+msgstr ""
 
 #, fuzzy
 msgid "Undefined"
@@ -22219,6 +22372,13 @@ msgstr "Uni cápLNB"
 
 msgid "Unicable Matrix"
 msgstr "Uni cáp Matrix"
+
+msgid "Unicable position"
+msgstr ""
+
+#, python-format
+msgid "Unicable position %d is not supported by the selected device for LNB %d. Valid positions are %d to %d; use 'User defined' for a reprogrammed device."
+msgstr ""
 
 msgid "Uninstall"
 msgstr ""
@@ -22487,6 +22647,9 @@ msgstr ""
 msgid "Use Harddisk Hardware Standby Timer"
 msgstr "Sử dụng Hẹn giờ chờ phần cứng Harddisk"
 
+msgid "Use LNB 1 User Band"
+msgstr ""
+
 msgid "Use MHW EPG information when it is available."
 msgstr "Sử dụng thông tin MHW EPG khi có sẵn."
 
@@ -22497,6 +22660,9 @@ msgid "Use ODoH servers"
 msgstr ""
 
 msgid "Use OpenTV EPG. Requires tuning to specific transponder to absorb EPG."
+msgstr ""
+
+msgid "Use PIN"
 msgstr ""
 
 msgid "Use QuickSelect"
@@ -23223,12 +23389,18 @@ msgstr ""
 msgid "Warning: Recordings should not be stored on the Flash disk!"
 msgstr ""
 
+msgid "Warning: The second input of this dual tuner may not support Unicable devices. "
+msgstr ""
+
 #, python-format
 msgid "Warning: There are %d update packages!"
 msgstr ""
 
 msgid "Warning: There is only a network drive to store the backup. This means the auto restore will not work after the flash. Alternatively, mount the network drive after the flash and perform a manufacturer reset to auto restore."
 msgstr "Chỉ có thể tìm một ổ đĩa mạng để lưu trữ bản sao lưu này có nghĩa là sau khi đèn flash tự động không hoạt động. Alternatively bạn có thể gắn ổ đĩa mạng sau đèn flash và thực hiện thiết lập lại manufacker thành autorestore"
+
+msgid "Warning: This FBC-C V1 tuner should be installed in the first slot. In the second slot only 2 of 8 demodulators may be available. "
+msgstr ""
 
 msgid "Warning: This is the last crash before an automatic restart is performed.\n"
 msgstr "Cảnh báo: Đây là sự cố cuối cùng trước khi thực hiện khởi động lại tự động.\n"
@@ -23327,6 +23499,9 @@ msgstr "Phía tây Sahara"
 
 msgid "Western Sahara"
 msgstr "Phía tây Sahara"
+
+msgid "Western satellites"
+msgstr ""
 
 msgid "What day of month?"
 msgstr ""
@@ -24413,6 +24588,18 @@ msgstr "h:mmam/pm"
 msgid "handled"
 msgstr "xử lý"
 
+msgid "has incomplete Unicable settings"
+msgstr ""
+
+msgid "has no supported Unicable device type"
+msgstr ""
+
+msgid "has no valid Unicable product"
+msgstr ""
+
+msgid "has no valid User Band channel"
+msgstr ""
+
 msgid "height"
 msgstr "chiều cao"
 
@@ -24461,6 +24648,12 @@ msgstr "Ghi lại ngay lập tức"
 
 msgid "internally loopthrough to"
 msgstr "vòng lặp nội bộ để"
+
+msgid "is not configured"
+msgstr ""
+
+msgid "is not configured for Unicable"
+msgstr ""
 
 msgid "jump back to the previous title"
 msgstr "nhảy trở lại tiêu đề trước"
@@ -24721,6 +24914,18 @@ msgstr "tệp mẫu"
 msgid "text"
 msgstr ""
 
+msgid "the User Band channel from LNB 1 is not available"
+msgstr ""
+
+msgid "the selected device does not use the LNB 1 frequency on this User Band channel"
+msgstr ""
+
+msgid "the target LNB"
+msgstr ""
+
+msgid "the target LNB is not configured"
+msgstr ""
+
 msgid "this recording"
 msgstr "bản ghi âm này"
 
@@ -24769,6 +24974,9 @@ msgstr "không thể kiểm chứng"
 msgid "update"
 msgstr "cập nhật"
 
+msgid "uses an unavailable User Band frequency"
+msgstr ""
+
 msgid "using:"
 msgstr "sử dụng:"
 
@@ -24809,6 +25017,15 @@ msgstr "có (giữ thức ăn)"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
+#~ msgstr "Một bản ghi hiện đang chạy. Vui lòng dừng ghi âm trước khi thử cấu hình bộ định vị."
+
+#~ msgid "Consult your receiver's manual for more information on power management."
+#~ msgstr "Quản lý năng lượng. Tham khảo hướng dẫn sử dụng của người nhận để biết thêm thông tin."
+
+#~ msgid "Consult your receiver's manual for more information on power threshold."
+#~ msgstr "Ngưỡng công suất. Tham khảo hướng dẫn sử dụng của người nhận để biết thêm thông tin."
 
 #, fuzzy
 #~ msgid "Config"
@@ -26264,9 +26481,6 @@ msgstr ""
 #~ msgid "NIM & Type"
 #~ msgstr "Loại HDMI HDR"
 
-#~ msgid "ONID"
-#~ msgstr "ONID"
-
 #, fuzzy
 #~ msgid "Service ID"
 #~ msgstr "Dịch vụ"
@@ -26294,9 +26508,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "System & Modulation"
 #~ msgstr "Điều chế"
-
-#~ msgid "TSID"
-#~ msgstr "TSID"
 
 #, fuzzy
 #~ msgid "Tuner live values"
