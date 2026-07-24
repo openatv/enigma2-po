@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-20 21:06+0000\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-07-23 09:01+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -1678,6 +1678,8 @@ msgid ""
 "A zap timer wants to switch the channel.\n"
 "Do you want to zap now?\n"
 msgstr ""
+"换台定时器要切换频道。\n"
+"是否立即切换？"
 
 msgid "AAC downmix"
 msgstr "AAC 缩混"
@@ -1776,7 +1778,7 @@ msgid "Above 200 Mbps"
 msgstr "200Mbps以上"
 
 msgid "Access mode"
-msgstr ""
+msgstr "访问模式"
 
 msgid "Access point"
 msgstr "接入点"
@@ -2077,7 +2079,7 @@ msgstr "其他电机选项允许您输入电机规格的详细信息，以便 En
 
 #, python-format
 msgid "Additional rotor cable from %s"
-msgstr ""
+msgstr "%s 附加极轴电机线缆"
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "调整颜色设置以使所有的颜色深浅可以辨识出来，使之看起来尽可能饱和。如果满意当前设置，按 OK 键关闭视频微调，或者用数字键选择画面上的其他测试。"
@@ -3855,7 +3857,7 @@ msgid "Central African Republic"
 msgstr "中非共和国"
 
 msgid "Central Europe"
-msgstr ""
+msgstr "中欧"
 
 msgid "Central Khmer"
 msgstr "高棉语"
@@ -4919,7 +4921,7 @@ msgid "Configuring Service"
 msgstr "配置频道"
 
 msgid "Confirm Zap"
-msgstr ""
+msgstr "确认切换"
 
 msgid "ConflictTimer Actions"
 msgstr "冲突定时器操作"
@@ -5533,7 +5535,7 @@ msgid "DNS data source"
 msgstr "DNS 数据源"
 
 msgid "DNS override"
-msgstr ""
+msgstr "DNS 覆盖"
 
 msgid "DNS protocol mode"
 msgstr "DNS 模式"
@@ -5937,7 +5939,7 @@ msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "定义http(s)串流启动前的附加延迟（以毫秒为单位）。"
 
 msgid "Define path %s for picons."
-msgstr ""
+msgstr "为频道图标指定路径 %s。"
 
 msgid "Define the custom mountpoint for the device."
 msgstr "定义设备的自定义挂载点。"
@@ -7638,9 +7640,6 @@ msgstr "输入高频头在低频段和高频段之间切换的频率。有关更
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "输入搜索有线电视多路复用时调谐器要使用的频率步长。有关更多信息，请咨询有线电视供应商的文档。"
-
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr ""
@@ -17771,9 +17770,6 @@ msgstr "服务器不得记录用户查询（声明性要求）。这可以通过
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "服务器必须支持DNS安全扩展（DNSSEC）。这是一项数据签名功能，可保护 DNS 数据的完整性，防止缓存中毒等威胁。"
 
-msgid "Server name"
-msgstr ""
-
 msgid "Servers"
 msgstr "频道"
 
@@ -23514,6 +23510,9 @@ msgstr ""
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "启用时，需要进行身份验证才能观看http流。"
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr ""
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "启用时，画面比例为 4:3 的内容将被拉伸以适合屏幕。"
 
@@ -23622,10 +23621,7 @@ msgstr "启用时，默认使用备用调谐器的定时器。"
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr ""
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr ""
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
 msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
@@ -24883,7 +24879,7 @@ msgid "the target LNB"
 msgstr ""
 
 msgid "the target LNB is not configured"
-msgstr ""
+msgstr "目标高频头尚未设置"
 
 msgid "this recording"
 msgstr "这段录像"
@@ -24934,7 +24930,7 @@ msgid "update"
 msgstr "更新"
 
 msgid "uses an unavailable User Band frequency"
-msgstr ""
+msgstr "使用的用户频段频率不可用"
 
 msgid "using:"
 msgstr "使用："
