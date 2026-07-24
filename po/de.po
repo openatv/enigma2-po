@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-20 21:06+0000\n"
-"Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-07-24 15:51+0000\n"
+"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1713,7 +1713,7 @@ msgstr ""
 #
 #, python-format
 msgid "A required tool (%s) was not found."
-msgstr "Ein erforderliches Hilfsprogramm (%s) wurde nicht gefunden!"
+msgstr "Ein erforderliches Hilfsprogramm (%s) wurde nicht gefunden."
 
 #
 msgid ""
@@ -1760,7 +1760,7 @@ msgid ""
 "A zap timer wants to switch the channel.\n"
 "Do you want to zap now?\n"
 msgstr ""
-"Ein Umschalttimer möchte den Kanal umschalten.\n"
+"Ein Umschalttimer möchte den Sender wechseln.\n"
 "Jetzt umschalten?\n"
 
 #
@@ -8031,9 +8031,6 @@ msgstr "Die Frequenz eingeben, mit welcher der LNB zwischen Low- und High-Band w
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Die Frequenzschrittgröße eingeben, die der Tuner bei der Suche nach Kabelmultiplexen verwenden soll. Weitere Informationen befinden sich in der Dokumentation des Kabelanbieters."
 
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr "Den Namen eingeben, den dieser Receiver verwenden soll, wenn er in Samba-Netzwerkscans oder -listen erscheint."
-
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr "Die Anzahl der NFS-Server-Threads auswählen, die zugewiesen/verwendet werden sollen. Höhere Werte verbessern die Leistung bei mehreren Clients, verbrauchen jedoch mehr Arbeitsspeicher."
 
@@ -9583,7 +9580,7 @@ msgstr "Die Liste nach unten gehen"
 
 #
 msgid "Go to deep standby"
-msgstr "In den Deep-Standby"
+msgstr "Herunterfahren"
 
 msgid "Go to first movie or last item"
 msgstr "Zum letzten Film oder Eintrag springen"
@@ -18784,9 +18781,6 @@ msgstr "Der Server darf keine Benutzeranfragen protokollieren (deklarativ). Dies
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Der Server muss DNS Security Extensions (DNSSEC) unterstützen. Hierbei handelt es sich um eine Option zur Datensignierung, die die Integrität der DNS-Daten vor Kompromittierungen wie Cache-Poisoning schützt."
 
-msgid "Server name"
-msgstr "Servername"
-
 msgid "Servers"
 msgstr "Server"
 
@@ -24869,6 +24863,9 @@ msgstr "Mit 'Ja' wird die Verwendung der NFS Version 4 Protokolle zugelassen."
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Bei 'Ja' ist eine Authentifizierung erforderlich, um HTTP-Streams anzusehen."
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr "Wenn aktiviert, wird beim Verbinden des WLAN-Adapters versucht, eine Verbindung über das gespeicherte Netzwerk herzustellen."
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Wenn aktiviert, werden Videoinhalte mit einem Seitenverhältnis von 4:3 gestreckt dargestellt, um den Bildschirm zu füllen."
 
@@ -24892,7 +24889,7 @@ msgid "When enabled, it is possible to leave the movie player with exit."
 msgstr "Wenn aktiviert, kann der Movieplayer mit EXIT beendet werden."
 
 msgid "When enabled, keep the Wi-Fi adapter in low-power scan mode during Standby to allow the receiver to be powered on by a remote network signal (Magic Packet)."
-msgstr "Wenn aktiviert, bleibt der Wi-Fi-Adapter im Standby-Modus im energiesparenden Scan-Modus, damit der Receiver durch ein Netzwerksignal (Magic Packet) eingeschaltet werden kann."
+msgstr "Wenn aktiviert, bleibt der WLAN-Adapter während des Standby im energiesparenden Suchmodus, damit der Receiver durch ein Netzwerksignal (Magic Packet) eingeschaltet werden kann."
 
 msgid "When enabled, map root to nobody (more secure). When disabled, full root access is available."
 msgstr "Wenn aktiviert, wird 'root' auf 'nobody' abgebildet (sicherer). Wenn nicht, steht der volle Root-Zugriff zur Verfügung."
@@ -24907,7 +24904,7 @@ msgid "When enabled, number markers will be hidden."
 msgstr "Bei 'Ja' werden nummerierte Marker ausgeblendet."
 
 msgid "When enabled, obtain the IP address, subnet mask, gateway, and DNS settings automatically via DHCP."
-msgstr "Wenn aktiviert, werden die IP-Adresse, die Subnetzmaske, das Gateway und die DNS-Einstellungen automatisch per DHCP bezogen."
+msgstr "Wenn aktiviert, werden IP-Adresse, Subnetzmaske, Gateway und DNS-Einstellungen automatisch per DHCP bezogen."
 
 msgid "When enabled, pressing '0' will zap you to the first channel in your first bouquet and delete your zap-history."
 msgstr "Bei 'Ja' wird mit '0' zum ersten Sender der ersten Favoritenliste umgeschaltet und der Umschaltverlauf gelöscht."
@@ -24978,13 +24975,10 @@ msgid "When enabled, the timer from the fallback tuner is the default timer."
 msgstr "Wenn aktiviert, wird der Timer vom Reservetuner als Timer verwendet."
 
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
-msgstr "Wenn aktiviert, bleibt dieser Wi-Fi-Adapter ausschließlich im Wake-on-Wi-Fi-Modus und wird nicht für die Verbindung mit einem Netzwerk verwendet."
+msgstr "Wenn aktiviert, bleibt dieser WLAN-Adapter ausschließlich im Wake-on-WLAN-Modus und wird nicht für die Verbindung mit einem Netzwerk verwendet."
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr "Wenn aktiviert, wird dieser Adapter beim Systemstart aktiviert und initialisiert. (Fügt 'auto' zur Datei '/etc/network/interfaces' hinzu und ruft 'ifup/ifdown' auf.)"
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
-msgstr "Wenn dieses Profil aktiviert ist, wird versucht, es beim Verbinden des Adapters zu verwenden. (Deaktiviert = in der 'wpa_supplicant.conf'.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr "Wenn aktiviert, wird dieser Adapter beim Systemstart aktiviert und initialisiert."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Wenn diese Einstellung aktiviert ist, hat sie mehr Gewicht als “Bevorzugter Tuner für Aufnahmen”."
@@ -25604,6 +25598,7 @@ msgstr "Umschalten"
 msgid "Zap + Exit"
 msgstr "Umschalten und verlassen"
 
+#, fuzzy
 msgid "Zap Up/Down"
 msgstr "Umschalten Hoch/Runter"
 
@@ -25626,7 +25621,7 @@ msgid "Zap condition"
 msgstr "Umschaltbedingung"
 
 msgid "Zap down"
-msgstr "Runterzappen"
+msgstr "Hinunterzappen"
 
 msgid "Zap focus to Picture in Picture"
 msgstr "Fokus umschalten zu Bild-im-Bild"
@@ -26464,6 +26459,18 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
+#~ msgstr "Den Namen eingeben, den dieser Receiver verwenden soll, wenn er in Samba-Netzwerkscans oder -listen erscheint."
+
+#~ msgid "Server name"
+#~ msgstr "Servername"
+
+#~ msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
+#~ msgstr "Wenn aktiviert, wird dieser Adapter beim Systemstart aktiviert und initialisiert. (Fügt 'auto' zur Datei '/etc/network/interfaces' hinzu und ruft 'ifup/ifdown' auf.)"
+
+#~ msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+#~ msgstr "Wenn dieses Profil aktiviert ist, wird versucht, es beim Verbinden des Adapters zu verwenden. (Deaktiviert = in der 'wpa_supplicant.conf'.)"
 
 #
 #~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
