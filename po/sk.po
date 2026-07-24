@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-20 21:06+0000\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-07-22 04:03+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -7683,9 +7683,6 @@ msgstr "Zadajte frekvenciu, pri ktorej sa LNB prepína medzi nízkym a vysokým 
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Zadajte frekvenčný krok tunera pre vyhľadávanie v káblových multiplexoch. Viac informácií získate v dokumentácii od operátora káblovej televízie."
-
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr "Zadajte názov, ktorý sa má používať pre tento prijímač, keď sa objaví v skenoch/zoznamoch siete Samba."
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr "Zadajte počet vlákien NFS servera, ktoré sa majú alokovať/použiť. Vyššie hodnoty zlepšujú výkon s viacerými klientmi, ale vyžadujú viac pamäte."
@@ -17819,9 +17816,6 @@ msgstr "Server nesmie (deklaratívne) zaznamenávať dopyty používateľov. Tý
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Server musí podporovať rozšírenia pre zabezpečenie DNS (DNSSEC). Ide o možnosť podpisovania údajov, ktorá chráni integritu údajov DNS napr. pred ohrozeniami typu cache poisoning."
 
-msgid "Server name"
-msgstr "Názov servera"
-
 msgid "Servers"
 msgstr "Servery"
 
@@ -23567,6 +23561,9 @@ msgstr "Ak je povolené, povoliť používanie protokolov NFS verzie 4."
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Ak je povolené, na sledovanie http streamov sa vyžaduje prihlásenie."
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr "Ak je povolené, tak pri pripájaní Wi-Fi adaptéra prebehne pokus o pripojenie cez uloženú sieť."
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Ak je povolené, tak obsah s pomerom strán 4:3 sa roztiahne na celú obrazovku."
 
@@ -23675,11 +23672,8 @@ msgstr "Ak je povolené, časovač zo záložného tunera je predvoleným časov
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr "Ak je povolené, tento Wi-Fi adaptér sa bude udržiavať v režime len Wake-on-WiFi a nebude sa používať na pripájanie k sieti."
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr "Ak je povolené, tento adaptér bude aktívny a inicializovaný pri spúšťaní softvéru. (pridá sa voľba 'auto' k /etc/network/interfaces, zavolá funkciu ifup/ifdown.)"
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
-msgstr "Ak je povolené, tak sa pri pripájaní adaptéra skúsi použiť tento profil. (vypnuté = v súbore wpa_supplicant.conf.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr "Ak je povolené, tento adaptér sa inicializuje a aktivuje počas spúšťania prijímača."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Ak povolené, toto nastavenie má väčšiu váhu ako 'Preferovaný tuner pre nahrávky'."
@@ -25031,6 +25025,18 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
+#~ msgstr "Zadajte názov, ktorý sa má používať pre tento prijímač, keď sa objaví v skenoch/zoznamoch siete Samba."
+
+#~ msgid "Server name"
+#~ msgstr "Názov servera"
+
+#~ msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
+#~ msgstr "Ak je povolené, tento adaptér bude aktívny a inicializovaný pri spúšťaní softvéru. (pridá sa voľba 'auto' k /etc/network/interfaces, zavolá funkciu ifup/ifdown.)"
+
+#~ msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+#~ msgstr "Ak je povolené, tak sa pri pripájaní adaptéra skúsi použiť tento profil. (vypnuté = v súbore wpa_supplicant.conf.)"
 
 #~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
 #~ msgstr "Práve prebieha nahrávanie. Pred nastavovaním pozicionéra nahrávanie zastavte."
