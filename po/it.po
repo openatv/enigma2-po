@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-20 21:06+0000\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-07-21 02:15+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -7641,9 +7641,6 @@ msgstr "Inserisci la frequenza alla quale l'LNB commuta tra banda bassa e banda 
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Inserisci dimensione del passo di frequenza per il tuner da usare durante la ricerca di multiplex via cavo. Per ulteriori informazioni, consulta la documentazione del provider di servizi via cavo."
-
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr "Inserisci nome che questo ricevitore userà quando apparirà nelle scansioni/liste della rete Samba."
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr "Inserisci numero di thread del server NFS da allocare/usare. Valori più elevati migliorano le prestazioni con più client, ma consumano più memoria."
@@ -17770,9 +17767,6 @@ msgstr "Il server non deve registrare le query degli utenti (dichiarativo). Ques
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Il server deve supportare DNS Security Extensions (DNSSEC). Si tratta di un'opzione di firma dei dati che protegge l'integrità dei dati DNS da compromissioni come l'avvelenamento della cache."
 
-msgid "Server name"
-msgstr "Nome server"
-
 msgid "Servers"
 msgstr "Server"
 
@@ -23513,6 +23507,9 @@ msgstr "Se abilitato, consente l'utilizzo dei protocolli NFS versione 4."
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Se abilitato, verrà richiesta l'autenticazione per guardare i canali in stream http."
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr "Se abilitato, al momento della connessione dell'adattatore Wi-Fi viene tentata la connessione tramite la rete salvata."
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Se abilitato, il contenuto con un aspect ratio di 4:3 verrà ampliato per adattarsi allo schermo."
 
@@ -23621,11 +23618,8 @@ msgstr "Se abilitato, il timer del sintonizzatore di fallback è il timer predef
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr "Se abilitato, questo adattatore Wi-Fi è mantenuto esclusivamente in modalità Wake-on-Wi-Fi e non verrà usato per connettersi ad alcuna rete."
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr "Se abilitato, questo adattatore è attivo e viene inizializzato all'avvio del sistema. (Aggiunge 'auto' a /etc/network/interfaces e chiama ifup/ifdown.)"
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
-msgstr "Se abilitato, questo profilo viene tentato quando l'adattatore si connette. (disabilitato= in wpa_supplicant.conf.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr "Se abilitato, questo adattatore viene inizializzato e attivato all'avvio del sistema."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Se abilitata, questa impostazione ha più importanza rispetto a 'Tuner preferito per le registrazioni'."
@@ -24976,6 +24970,18 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
+#~ msgstr "Inserisci nome che questo ricevitore userà quando apparirà nelle scansioni/liste della rete Samba."
+
+#~ msgid "Server name"
+#~ msgstr "Nome server"
+
+#~ msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
+#~ msgstr "Se abilitato, questo adattatore è attivo e viene inizializzato all'avvio del sistema. (Aggiunge 'auto' a /etc/network/interfaces e chiama ifup/ifdown.)"
+
+#~ msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+#~ msgstr "Se abilitato, questo profilo viene tentato quando l'adattatore si connette. (disabilitato= in wpa_supplicant.conf.)"
 
 #~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
 #~ msgstr "È attualmente in corso una registrazione. Interrompi la registrazione prima di provare a configurare il posizionatore."
