@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-14 13:39+0000\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-08-04 13:56+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.8.dev0\n"
+"X-Generator: Weblate 2026.8.1.dev0\n"
 
 msgid ""
 "\n"
@@ -39,7 +39,7 @@ msgid "  Red key : Show/Hide channel name"
 msgstr "  Punainen näppäin : Näytä tai piilota kanavan nimi"
 
 msgid " (+5 volt terrestrial)"
-msgstr ""
+msgstr " (5V antennivastaanotto)"
 
 #, python-format
 msgid " (Channel %s)"
@@ -1279,7 +1279,7 @@ msgid "(Attention: There will be a restart after %d crashes.)"
 msgstr "(HUOMIO: Uudelleenkäynnistys tulee %d kaatumisen jälkeen.)"
 
 msgid "(Deep) Standby only"
-msgstr ""
+msgstr "(Syvä) Valmiustila vain"
 
 msgid "(PiP)"
 msgstr "(PiP)"
@@ -1620,10 +1620,10 @@ msgid "A recording is currently running. Please stop the recording before trying
 msgstr "Tallennus on käynnissä. Lopeta se ennen kanavahakua."
 
 msgid "A recording is running or will start within six minutes. Changing the tuner configuration can interrupt it. Save anyway?"
-msgstr ""
+msgstr "Tallennus on käynnissä tai se alkaa kuuden minuutin kuluttua. Viritin konfiguraatio muuttaminen voi keskeyttää sen. Tallennetaanko muutokset kuitenkin?"
 
 msgid "A recording is running or will start within six minutes. Please try the positioner setup later."
-msgstr ""
+msgstr "Tallennus on käynnissä tai se alkaa kuuden minuutin kuluttua. kokeile myöhemmin uudestaan muuttaa kääntömoottorin asetuksia."
 
 #, python-format
 msgid ""
@@ -1682,6 +1682,8 @@ msgid ""
 "A zap timer wants to switch the channel.\n"
 "Do you want to zap now?\n"
 msgstr ""
+"Kanavanvaihto ajastus haluaa vaihtaa kanavaa.\n"
+"Haluatko vaihtaa nytten?\n"
 
 msgid "AAC downmix"
 msgstr "AAC muunto stereoksi"
@@ -1900,7 +1902,7 @@ msgid "Add New Quad Channel Entry"
 msgstr "Lisää uusi lähetin ryhmä"
 
 msgid "Add Path"
-msgstr ""
+msgstr "Lisää Polku"
 
 msgid "Add RecordTimer"
 msgstr "Lisää ajastus"
@@ -2068,7 +2070,7 @@ msgid "Adding schedule..."
 msgstr "Lisätään aikataulu..."
 
 msgid "Additional cable of motorized LNB"
-msgstr ""
+msgstr "Kääntyvän antennin LNB:n toinen kaapeli"
 
 msgid "Additional files/folders to backup"
 msgstr "Lisää varmuuskopioon"
@@ -2081,7 +2083,7 @@ msgstr "Syöttämällä moottorin tekniset tiedot, vastaanotin voi selvittää, 
 
 #, python-format
 msgid "Additional rotor cable from %s"
-msgstr ""
+msgstr "Kääntyvän antennin kaapeli%s"
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr ""
@@ -2253,7 +2255,7 @@ msgid "Allow 12bit"
 msgstr "Salli 12bit"
 
 msgid "Allow guest access"
-msgstr ""
+msgstr "Salli vieras käyttö"
 
 msgid "Allow quit movie player with exit"
 msgstr "Lopeta tallenteen katselu exit näppäimellä"
@@ -2727,7 +2729,7 @@ msgid "Auto (not available)"
 msgstr "Auto (ei käytettävissä)"
 
 msgid "Auto DiSEqC search order"
-msgstr ""
+msgstr "Automaattinen DiSEqC etsi järjestys"
 
 msgid "Auto Language"
 msgstr "Automaattinen kieli"
@@ -3864,7 +3866,7 @@ msgid "Central African Republic"
 msgstr "Keski Afrikka"
 
 msgid "Central Europe"
-msgstr ""
+msgstr "Keski-Eurooppa"
 
 msgid "Central Khmer"
 msgstr "Keski Khmer"
@@ -4056,7 +4058,7 @@ msgid "Chechen"
 msgstr "Tšetšenia"
 
 msgid "Check ONID/TSID"
-msgstr ""
+msgstr "Tarkista ONID/TSID"
 
 msgid "Check for PDC"
 msgstr "Tarkista PDC"
@@ -4080,7 +4082,7 @@ msgid "Checking Logs..."
 msgstr "Tarkistetaan lokeja..."
 
 msgid "Checking ONID/TSID ..."
-msgstr ""
+msgstr "Tarkistaa ONID/TSID ..."
 
 msgid "Checking file system..."
 msgstr "Tarkistetaan tiedostojärjestelmää..."
@@ -4928,7 +4930,7 @@ msgid "Configuring Service"
 msgstr "Määritä palvelu"
 
 msgid "Confirm Zap"
-msgstr ""
+msgstr "Vahvista Kanavanvaihto"
 
 msgid "ConflictTimer Actions"
 msgstr "Ristiriita-Ajastukset Toiminnot"
@@ -5411,16 +5413,16 @@ msgid "Current mode: %s \n"
 msgstr "Nykyinen tila: %s \n"
 
 msgid "Current rotor position:"
-msgstr ""
+msgstr "Moottorin suuntaus:"
 
 msgid "Current rotor position: unknown"
-msgstr ""
+msgstr "Moottorin suuntaus: Tuntematon"
 
 msgid "Current settings:"
 msgstr "Käytetyt asetukset:"
 
 msgid "Current supplied to the LNB and positioner."
-msgstr ""
+msgstr "Nykyisen asento LNB:lle ja kääntömoottori."
 
 msgid "Current time"
 msgstr "Aika"
@@ -5542,7 +5544,7 @@ msgid "DNS data source"
 msgstr "DNS data lähde"
 
 msgid "DNS override"
-msgstr ""
+msgstr "DNS ohitusta"
 
 msgid "DNS protocol mode"
 msgstr "DNS tila"
@@ -5890,7 +5892,7 @@ msgid "Default files/folders to backup"
 msgstr "Varmuuskopion oletussisältö"
 
 msgid "Default gateway"
-msgstr ""
+msgstr "Oletusyhdyskäytävä"
 
 msgid "Default left column directory"
 msgstr "Vasemman sarakkeen oletus hakemisto"
@@ -5946,7 +5948,7 @@ msgid "Define additional delay in milliseconds before start of http(s) streams."
 msgstr "Määritä vaihtoehtoinen viive millisekunneissa ennen http(s) suora toiston alkamista."
 
 msgid "Define path %s for picons."
-msgstr ""
+msgstr "Määritä polku %s kanavalogoille."
 
 msgid "Define the custom mountpoint for the device."
 msgstr "Määritä laitteen mukautettu liitos."
@@ -6283,7 +6285,7 @@ msgid "Details"
 msgstr "Yksityiskohtaiset tiedot"
 
 msgid "Detect positioner movement by its current consumption."
-msgstr ""
+msgstr "Tunnista asento sen virrankulutuksen perusteella."
 
 msgid "Detective"
 msgstr "Etsivä"
@@ -7053,7 +7055,7 @@ msgid "East limit set"
 msgstr "Itäinen raja-arvo asetettu"
 
 msgid "Eastern satellites"
-msgstr ""
+msgstr "Itäiset satelliitit"
 
 msgid "Easy listening"
 msgstr "Helppo kuuntelu"
@@ -7450,10 +7452,10 @@ msgid "Enable this setting if your aerial system needs power."
 msgstr "Ota tämä asetus käyttöön, jos antennijärjestelmäsi tarvitsee virtaa."
 
 msgid "Enable this when a power inserter or external supply powers the Unicable device."
-msgstr ""
+msgstr "Ota tämä käyttöön, kun virransyöttö tai ulkoinen virtalähde tehostaa Unicable laitetta."
 
 msgid "Enable this when the User Band is protected by a PIN in a multi-dwelling Unicable installation."
-msgstr ""
+msgstr "Ota tämä käyttöön, Jos asetettu käyttäjä on suojattu PIN-koodilla usean asunnon Unicable-asennuksessa."
 
 msgid "Enable timer"
 msgstr "Ota ajastus käyttöön"
@@ -7601,7 +7603,7 @@ msgid "Enter a new name for this device."
 msgstr "Anna tälle laitteelle uusi nimi."
 
 msgid "Enter expected ONID/TSID"
-msgstr ""
+msgstr "Anna oletettu ONID/TSID"
 
 msgid "Enter if you are North or South of the equator."
 msgstr "Syötä, jos olet päiväntasaajan etelä,- tai pohjoispuolella."
@@ -7624,15 +7626,14 @@ msgstr "Syötä pin koodi"
 msgid "Enter text via an attached keyboard"
 msgstr "Kirjoita teksti liitetyn näppäimistön kautta"
 
-#, fuzzy
 msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host access is granted. Enter '*', the default, for all host access."
-msgstr "Anna IP-osoite tai aliverkko (esim. 192.168.1.0/24), jolle myönnetään NFS oikeudet. Anna oletusarvoinen '*' salliaksesi pääsyn kaikilta isänniltä"
+msgstr "Anna IP osoite tai aliverkko (esim. 192.168.1.0/24), jolle myönnetään NFS oikeudet. Anna oletusarvoinen '*' salliaksesi pääsyn kaikilta isänniltä"
 
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr ""
+msgstr "Anna IP osoite, jota käytetään tämän verkkosovittimen yhdyskäytävänä muihin verkkoihin. Yleensä tämä on reitittimesi IP osoite."
 
 msgid "Enter the PIN from 0 to 255 assigned to this User Band by the installer or building operator."
-msgstr ""
+msgstr "Anna asentajan tai rakennuksen ylläpitäjän tälle käyttäjä määrittämä PIN-koodi väliltä 0–255."
 
 msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in length."
 msgstr "Kirjoita ZeroTier Network ID. ID:n pitäisi olla 16 merkkiä pitkä."
@@ -7641,7 +7642,7 @@ msgid "Enter the duration to be added to the streaming buffer after a streaming 
 msgstr "Anna aikapuskuri, joka lisätään suoratoistopuskuriin suoratoistovirheen jälkeen. Tämä lisäpuskuri voi auttaa välttämään uusia suoratoisto ongelmia puskuritilan puutteen vuoksi."
 
 msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
-msgstr ""
+msgstr "Syötä kiinteä/staattinen IPv4 osoite, jota käytetään tähän verkkosovittimeen."
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
 msgstr "Syötä taajuus, jolla LNB vaihtaa matalan ja korkean taajuuden välillä. Lisätietoja löytyy LNB: n tieto lomakkeesta."
@@ -7649,11 +7650,8 @@ msgstr "Syötä taajuus, jolla LNB vaihtaa matalan ja korkean taajuuden välill�
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Syötä taajuus askel koko, jota virittimen tulee käyttää kaapeli multiplien etsinnässä. Lisätietoja tietoa saat kaapelioperaattorin ohjeista."
 
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr ""
-
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
-msgstr ""
+msgstr "Syötä NFS palvelin määrä jaettavaksi/käytettäväksi. Korkeammat arvot parantavat suorituskykyä useilla asiakkailla, mutta lisää muistia."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Syötä tallennettu numero paikantajalle, joka vastaa tätä satelliittia."
@@ -17802,9 +17800,6 @@ msgstr "Palvelin ei saa kirjata käyttäjän DNS-kyselyitä (deklaratiivinen). T
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Palvelimen on tuettava DNS Security Extensions (DNSSEC). Se on tietojen allekirjoitusmenetelmä, joka suojaa DNS tietojen eheyttä esimerkiksi välimuistin myrkyttämisen kaltaisilta hyökkäyksiltä."
 
-msgid "Server name"
-msgstr ""
-
 msgid "Servers"
 msgstr "Palvelimet"
 
@@ -23554,6 +23549,9 @@ msgstr "Kun tämä otetaan käyttöön, sallitaan NFS-version 4 protokollien kä
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Kun päällä, hyväksyntä vaaditaan katsottaessa http palveluita."
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr ""
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Kun päällä, 4:3 kuvasuhteen kuva venytetään koko näytölle."
 
@@ -23662,10 +23660,7 @@ msgstr "Kun käytössä, ajastukset etävastaanottimelta ovat oletuksia"
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr ""
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr ""
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
 msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
