@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 15:32+0000\n"
-"PO-Revision-Date: 2026-07-19 21:52+0000\n"
+"POT-Creation-Date: 2026-07-20 10:29+0000\n"
+"PO-Revision-Date: 2026-07-22 04:03+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
 "Language: sr\n"
@@ -7680,9 +7680,6 @@ msgstr "Unesite frekvenciju na kojoj se LNB prebacuje između niskog banda i vis
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Unesite veličinu koraka učestalosti koju tjuner koristi prilikom traženja multipleksa kabla. Za više info pogledajte list specifikacije kabel provajdera."
-
-msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
-msgstr "Unesi ime koje će koristiti ovaj uređaj kada se pojavljuje u Samba mrežnim skeniranjima/listama."
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but use more memory."
 msgstr "Unesite broj NFS server niti koje će biti dodeljene/korištene. Veće vrednosti poboljšavaju performanse sa više klijenata, ali koriste više memorije."
@@ -17816,9 +17813,6 @@ msgstr "Server ne sme da zapisuje korisnička upite (deklarativno). Ovo može po
 msgid "Server must support DNS Security Extensions (DNSSEC). This is a data signing option that protects the integrity of the DNS data against compromises like cache poisoning."
 msgstr "Server mora da podržava DNS Security Extensions (DNSSEC). Ovo je opcija potpisivanja podataka koja štiti integritet DNS podataka od kompromitovanja, poput trovanja keša."
 
-msgid "Server name"
-msgstr "Ime servera"
-
 msgid "Servers"
 msgstr "Serveri"
 
@@ -23564,6 +23558,9 @@ msgstr "Kada je omogućeno, dozvoli korišćenje NFS verzije 4 protokola."
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Kada je omogućeno, potrebna je potvrda identiteta za gledanje http strima."
 
+msgid "When enabled, connection via saved network is attempted when the Wi-Fi adapter connects."
+msgstr "Kada je omogućeno, pokušava se povezivanje preko sačuvane mreže kada Wi-Fi adapter uspostavi vezu."
+
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Kada je omogućeno, sadržaj sa odnosom širina/visina 4:3 biće razvučen tako da odgovara ekranu."
 
@@ -23672,11 +23669,8 @@ msgstr "Kada je omogućeno, tajmer sa rezervnog tunera je podrazumevani tajmer."
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr "Kada je omogućeno, ovaj Wi-Fi adapter se održava samo u Buđenje-preko-WiFi režima i neće se koristiti za povezivanje na bilo koju mrežu."
 
-msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
-msgstr "Kada je omogućeno, ovaj adapter je aktivan i inicijalizovan pri pokretanju računara. (Dodaje 'auto' u /etc/network/interfaces, poziva ifup/ifdown.)"
-
-msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
-msgstr "Kada je omogućeno, ovaj profil se pokušava kada se adapter poveže. (isključeno = u wpa_supplicant.conf.)"
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr "Kada je uključen, ovaj adapter se pokreće i aktivira pri pokretanju sistema."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Kada je omogućeno, ova postavka ima veću težinu od 'Preferirani tjuner za snimanje'."
@@ -25028,6 +25022,18 @@ msgstr "da (zadrži fidove)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enter the name to be used by this receiver when it appears in Samba network scans/lists."
+#~ msgstr "Unesi ime koje će koristiti ovaj uređaj kada se pojavljuje u Samba mrežnim skeniranjima/listama."
+
+#~ msgid "Server name"
+#~ msgstr "Ime servera"
+
+#~ msgid "When enabled, this adapter is active and initialized at boot time. (Adds 'auto' to /etc/network/interfaces, calls ifup/ifdown.)"
+#~ msgstr "Kada je omogućeno, ovaj adapter je aktivan i inicijalizovan pri pokretanju računara. (Dodaje 'auto' u /etc/network/interfaces, poziva ifup/ifdown.)"
+
+#~ msgid "When enabled, this profile is tried when the adapter connects. (disabled= in wpa_supplicant.conf.)"
+#~ msgstr "Kada je omogućeno, ovaj profil se pokušava kada se adapter poveže. (isključeno = u wpa_supplicant.conf.)"
 
 #~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
 #~ msgstr "Snimak je trenutno u toku. Molimo Vas da zaustavite snimanje pre nego što pokušate da podesite pozicije."
