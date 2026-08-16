@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -4079,6 +4079,9 @@ msgstr "Chương"
 msgid "Character device"
 msgstr "Thiêt bị hiện tại"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr ""
 
@@ -7428,6 +7431,9 @@ msgstr "Cho phép kiểm tra lưu lượng mạng"
 msgid "Enable new GStreamer playback"
 msgstr ""
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr ""
 
@@ -7659,6 +7665,9 @@ msgstr ""
 msgid "Enter expected ONID/TSID"
 msgstr ""
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Nhập nếu bạn ở phía bắc hoặc phía nam của đường xích đạo."
 
@@ -7670,6 +7679,9 @@ msgstr ""
 
 msgid "Enter number to jump to channel"
 msgstr "nhập số để nhảy đến kênh."
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "Nhập mã PIN liên tục"
@@ -7704,11 +7716,26 @@ msgstr "Nhập tần số mà LNB của bạn chuyển đổi giữa băng tần
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Nhập kích thước bước tần số cho bộ chỉnh tần số để sử dụng khi tìm kiếm ghép kênh cáp. Để biết thêm thông tin tham khảo tài liệu của nhà cung cấp cáp của bạn."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Nhập số được lưu trong bộ định vị tương ứng với vệ tinh này."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
@@ -7717,6 +7744,9 @@ msgid "Enter the primary IPv4 DNS server for this adapter."
 msgstr ""
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
 msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
@@ -7732,6 +7762,12 @@ msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.
 msgstr ""
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
 msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
@@ -11206,6 +11242,9 @@ msgstr ""
 msgid "Local receiver"
 msgstr "Hộp nội bộ"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr ""
 
@@ -11935,6 +11974,9 @@ msgstr "Cài đặt"
 msgid "Mount failed"
 msgstr "Núi thất bại"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr ""
 
@@ -12378,6 +12420,9 @@ msgstr "Thiết lập NFS"
 msgid "NFS threads"
 msgstr ""
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr ""
 
@@ -12511,6 +12556,9 @@ msgstr ""
 msgid "Network Browser"
 msgstr "Trình duyệt mạng"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "ID mạng"
 
@@ -12527,6 +12575,9 @@ msgid "Network Log"
 msgstr ""
 
 msgid "Network Log Actions"
+msgstr ""
+
+msgid "Network Mount Settings"
 msgstr ""
 
 msgid "Network Neighbourhood"
@@ -13619,6 +13670,9 @@ msgstr "Tùy chọn tắt picons trên Infobar"
 
 msgid "Option to enable the hardware Standby timer."
 msgstr "Tùy chọn để bật Hẹn giờ chờ phần cứng"
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr ""
@@ -15197,11 +15251,14 @@ msgstr "Xếp hạng không xác định"
 msgid "Re-enter new PIN"
 msgstr "Nhập lại mã PIN mới"
 
-msgid "Read-Only"
-msgstr ""
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Đọc Userdata từ oscam.conf"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr ""
 
 msgid "Read/Write"
 msgstr ""
@@ -15576,6 +15633,9 @@ msgstr ""
 
 msgid "Remote control type"
 msgstr "Loại điều khiển từ xa"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Hộp từ xa"
@@ -16241,6 +16301,9 @@ msgstr "Chuyển đổi thẻ SD LRI! - đã có trên mmc"
 msgid "SINGLE LAYER DVD"
 msgstr "Đĩa đơn"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr ""
 
@@ -16727,6 +16790,9 @@ msgstr "Chọn 'phân cực' nếu sử dụng LNB 'phổ quát', nếu không h
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Chọn 'nhà cung cấp' để quét từ danh sách ghép kênh cáp được xác định trước. Chọn 'dải' để chỉ quét một số phần nhất định của phổ. Chọn 'bước' để quét theo các bước của băng thông tần số cụ thể."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr ""
 
@@ -17118,6 +17184,12 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Chọn một tập lệnh để chạy:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr ""
 
@@ -17238,6 +17310,9 @@ msgstr ""
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr "Cài đặt chế độ trễ để zap cho các kênh."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr ""
@@ -17423,6 +17498,9 @@ msgstr ""
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Chọn nhân vật hoặc hành động dưới con trỏ bàn phím ảo"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr ""
 
@@ -17585,6 +17663,9 @@ msgstr ""
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr ""
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Chọn số kiểu máy của thiết bị Unicable của bạn. Nếu số kiểu máy không được liệt kê, hãy đặt 'SCR' thành 'người dùng xác định' và nhập thủ công các thông số thiết bị theo bảng thông số kỹ thuật của nó."
 
@@ -17643,6 +17724,9 @@ msgstr ""
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Chọn giao thức được sử dụng bởi thiết bị SCR của bạn. Các lựa chọn là 'SCR Unicable' (Unicable) hoặc 'SCR JESS' (JESS, còn được gọi là Unicable II)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr ""
 
@@ -17674,6 +17758,9 @@ msgid "Select the search mode to find picons. 'Single-path mode' uses one path f
 msgstr ""
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
 msgstr ""
 
 #, fuzzy
@@ -17778,6 +17865,9 @@ msgid ""
 "Press OK to continue."
 msgstr ""
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr ""
 
@@ -17819,6 +17909,9 @@ msgstr "Chọn những gì bạn muốn nút TV để kích hoạt:"
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Chọn những gì bạn muốn nút Lên / Xuống để kích hoạt:"
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr ""
@@ -17977,6 +18070,9 @@ msgstr "nhạc nghiêm túc / nhạc cổ điển"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "nghiêm túc / cổ điển / tôn giáo / lịch sử phim / kịch"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Máy chủ ngừng hoạt động"
@@ -19745,6 +19841,9 @@ msgstr ""
 msgid "Socket"
 msgstr "Ổ cắm"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr ""
 
@@ -19976,9 +20075,6 @@ msgid "Special events (Olympic games, World cup, etc.)"
 msgstr "sự kiện đặc biệt"
 
 msgid "Specify the directory to use when starting Media Player."
-msgstr ""
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr ""
 
 msgid "Speed"
@@ -21849,6 +21945,9 @@ msgstr "Lịch sử thời gian"
 msgid "Timeline scale"
 msgstr "Quy mô thời gian"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr ""
 
@@ -22788,6 +22887,9 @@ msgstr ""
 msgid "Use MHW EPG information when it is available."
 msgstr "Sử dụng thông tin MHW EPG khi có sẵn."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Sử dụng thông tin EPG Netmed khi có sẵn."
 
@@ -22833,6 +22935,9 @@ msgstr ""
 msgid "Use an alternative smaller screen."
 msgstr "Sử dụng màn hình thay thế"
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr ""
 
@@ -22873,6 +22978,9 @@ msgid "Use geolocation to get WAN information"
 msgstr ""
 
 msgid "Use geolocation to set the current time zone location"
+msgstr ""
+
+msgid "Use guest login"
 msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
@@ -23845,11 +23953,17 @@ msgstr ""
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr ""
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Khi được bật, cài đặt này có trọng lượng lớn hơn 'Bộ điều chỉnh ưu tiên cho bản ghi'."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Khi được bật, cài đặt này có trọng lượng lớn hơn 'Bộ điều chỉnh ưu tiên'."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Khi được bật, timeshift bắt đầu tự động trong nền sau thời gian được chỉ định."
@@ -24032,6 +24146,9 @@ msgstr "Bạn có lưu mã PIN%s đã nhập không?"
 #, fuzzy
 msgid "Wrestling"
 msgstr "Đang Cài đặt"
+
+msgid "Write block size"
+msgstr ""
 
 #, fuzzy, python-format
 msgid ""
