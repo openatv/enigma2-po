@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2026-04-20 04:59+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -4238,6 +4238,9 @@ msgstr "Kapitel"
 msgid "Character device"
 msgstr "Karaktär enhet"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr ""
 
@@ -7731,6 +7734,9 @@ msgstr "Aktivera kontroll av nätverkstrafik"
 msgid "Enable new GStreamer playback"
 msgstr "Aktivera ny GStreamer-uppspelning"
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Aktivera eller inaktivera användning av HDMI-CEC."
 
@@ -7974,6 +7980,9 @@ msgstr "Ange ett nytt namn för den här enheten."
 msgid "Enter expected ONID/TSID"
 msgstr ""
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Ange om du befinner dig norr eller söder om ekvatorn."
 
@@ -7985,6 +7994,9 @@ msgstr "Ange nytt katalognamn:"
 
 msgid "Enter number to jump to channel"
 msgstr "Ange nummer för att hoppa till kanal"
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "Ange PIN-kod för långvarig användning"
@@ -8020,11 +8032,26 @@ msgstr "Ange den frekvens vid vilken LNB:n växlar mellan lågband och högband.
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Ange den frekvensstegstorlek som tunern ska använda när den söker efter kabelmultiplexer. Mer information finns i dokumentationen från din kabeloperatör."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr "Definiera DNS-suffixet."
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Ange det nummer som är lagrat i positioneringsenheten och som motsvarar denna satellit."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
@@ -8033,6 +8060,9 @@ msgid "Enter the primary IPv4 DNS server for this adapter."
 msgstr ""
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
 msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
@@ -8049,6 +8079,12 @@ msgstr ""
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Ange prenumerationskoden för att fullt ut aktivera plugin-programmet AI-Powered Translation, den enhetliga koden för test är 15."
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr ""
@@ -11664,6 +11700,9 @@ msgstr ""
 msgid "Local receiver"
 msgstr "Lokal box"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "Lokal tid"
 
@@ -12412,6 +12451,9 @@ msgstr "Montering av fäste"
 msgid "Mount failed"
 msgstr "Montering misslyckades"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
@@ -12861,6 +12903,9 @@ msgstr "NFS-Konfiguration"
 msgid "NFS threads"
 msgstr ""
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -12997,6 +13042,9 @@ msgstr "Nätverksadapter Textåtgärder"
 msgid "Network Browser"
 msgstr "Nätverkswebbläsare"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "Nätverks-ID"
 
@@ -13014,6 +13062,9 @@ msgstr "Nätverkslogg"
 
 msgid "Network Log Actions"
 msgstr "Åtgärder för nätverkslogg"
+
+msgid "Network Mount Settings"
+msgstr ""
 
 msgid "Network Neighbourhood"
 msgstr "Nätverk Grannskap"
@@ -14151,6 +14202,9 @@ msgstr "Möjlighet att inaktivera picons på Infobar."
 
 msgid "Option to enable the hardware Standby timer."
 msgstr "Alternativ för att aktivera standby-timern för maskinvara."
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr ""
@@ -15824,11 +15878,14 @@ msgstr "Betyg odefinierat"
 msgid "Re-enter new PIN"
 msgstr "Ange ny PIN-kod igen"
 
-msgid "Read-Only"
-msgstr "Skrivskyddad"
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Läs användardata från oscam.conf"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr "Skrivskyddad"
 
 msgid "Read/Write"
 msgstr "Läsa/Skriva"
@@ -16213,6 +16270,9 @@ msgstr "Information om fjärrkontrollen"
 
 msgid "Remote control type"
 msgstr "Typ av fjärrkontroll"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Fjärrkontroll"
@@ -16934,6 +16994,9 @@ msgstr "SD-kort switch FEL! - redan på mmc"
 msgid "SINGLE LAYER DVD"
 msgstr "DVD MED ETT LAGER"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr "SMS-stil QuickSelect val av post"
 
@@ -17453,6 +17516,9 @@ msgstr "Välj \"Polarization\" om du använder en \"Universal\" LNB, annars kan 
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Välj \"Provider\" för att söka från den fördefinierade listan med kabelmultiplexer. Välj \"Bands\" för att bara skanna vissa delar av spektrumet. Välj \"Steps\" för att skanna i steg av en viss frekvensbandbredd."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "Välj \"Unik numrering\" för att tilldela unika nummer för varje tjänst i varje bukett. Använd \"Bouquets start at 1\" för att börja numrera varje bukett från 1. Använd \"LCN numbering\" för att använda konsekventa LCN-nummer för tjänsterna oavsett var de används."
 
@@ -17849,6 +17915,12 @@ msgstr "Välj en logg från en förvarslösning för att visa den:"
 msgid "Select a script to run:"
 msgstr "Välj ett skript som ska köras:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr ""
 
@@ -17974,6 +18046,9 @@ msgstr "Välj om en sluttid krävs."
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr "Välj om tidsgränser för datainmatning ska tillämpas när siffror matas in i popup-fönstret för val av tjänst. När en timeout överskrids kommer det aktuella numret att användas för att välja tjänst. Standardtidsgränserna är första siffran 3 sekunder och övriga siffror 1 sekund."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Välj om standardvärdet för en inställningspost ska visas och, om så är fallet, var det ska visas i förhållande till beskrivningen."
@@ -18164,6 +18239,9 @@ msgstr "Välj den kanal eller tjänst som ska användas för denna timer."
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Välj tecken eller handling under tangentbordsmarkören"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr ""
 
@@ -18326,6 +18404,9 @@ msgstr "Välj åtkomstläge för de automatiskt exporterade samba-aktierna."
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr ""
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Välj modellnummer för din Unicable-enhet. Om modellnumret inte finns med i listan, ställ in \"SCR\" på \"User defined\" och ange enhetens parametrar manuellt enligt specifikationerna."
 
@@ -18388,6 +18469,9 @@ msgstr "Välj föregående tjänst och stäng scannern och avsluta alla menyer"
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Välj det protokoll som används av din SCR-enhet. Alternativen är \"SCR Unicable\" (Unicable) eller \"SCR JESS\" (JESS, även känt som Unicable II)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr ""
 
@@ -18419,6 +18503,9 @@ msgid "Select the search mode to find picons. 'Single-path mode' uses one path f
 msgstr ""
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
 msgstr ""
 
 #
@@ -18524,6 +18611,9 @@ msgstr ""
 "\n"
 "Tryck på OK för att fortsätta."
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr "Välj plats för uppdateringskälla"
 
@@ -18566,6 +18656,9 @@ msgstr "Välj vad du vill att TV-knappen ska aktivera."
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Välj vad du vill att upp-/nedknappen ska aktivera."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr "Välj var inspelningen ska sparas."
@@ -18736,6 +18829,9 @@ msgstr "seriös musik/klassisk musik"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "seriös/klassisk/religiös/historisk film/drama"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Server nere"
@@ -20584,6 +20680,9 @@ msgstr "Samhälle & kultur"
 msgid "Socket"
 msgstr "Uttag"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr ""
 
@@ -20822,9 +20921,6 @@ msgstr "särskilda evenemang"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Ange den katalog som ska användas när Media Player startas."
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
-msgstr "Definiera DNS-suffixet."
 
 msgid "Speed"
 msgstr "Hastighet"
@@ -22793,6 +22889,9 @@ msgstr "Tidslinjemarkör"
 msgid "Timeline scale"
 msgstr "Tidslinje skala"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr "Timerlogg Åtgärder"
 
@@ -23781,6 +23880,9 @@ msgstr ""
 msgid "Use MHW EPG information when it is available."
 msgstr "Använd MHW EPG-information när den är tillgänglig."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Använd Netmed EPG-information när den finns tillgänglig."
 
@@ -23827,6 +23929,9 @@ msgstr "Använd alternativ GitHub DNS"
 msgid "Use an alternative smaller screen."
 msgstr "Använd en alternativ mindre skärm."
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr "Använd automatisk lägesdetektering"
 
@@ -23872,6 +23977,9 @@ msgstr "Använd geolokalisering för att få WAN-information"
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Använd geolokalisering för att ange aktuell plats i tidszonen"
+
+msgid "Use guest login"
+msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Använd den högre spänningen \"14/18V\" om det uppstår problem vid omkoppling av LNB."
@@ -24904,11 +25012,17 @@ msgstr ""
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr ""
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "När den här inställningen är aktiverad har den större betydelse än \"Preferred tuner for recordings\"."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "När den här inställningen är aktiverad har den större betydelse än \"Preferred tuner\"."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "När den är aktiverad startar tidsomställningen automatiskt i bakgrunden efter angiven tid."
@@ -25099,6 +25213,9 @@ msgstr "Vill du spara den inmatade PIN-koden %s permanent?"
 #
 msgid "Wrestling"
 msgstr "Brottning"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
