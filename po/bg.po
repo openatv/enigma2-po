@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2023-08-06 06:22+0000\n"
 "Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/bg/>\n"
@@ -4052,6 +4052,9 @@ msgstr "Глава"
 msgid "Character device"
 msgstr "Характерно устройство"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr ""
 
@@ -7360,6 +7363,9 @@ msgstr "Разрешаване на проверка на трафика в мр
 msgid "Enable new GStreamer playback"
 msgstr ""
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Разрешете или деактивирайте с помощта на HDMI-CEC."
 
@@ -7592,6 +7598,9 @@ msgstr "Въведете ново име за това устройство."
 msgid "Enter expected ONID/TSID"
 msgstr ""
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Въведете, ако се намирате на север или юг от екватора."
 
@@ -7603,6 +7612,9 @@ msgstr ""
 
 msgid "Enter number to jump to channel"
 msgstr "Въведете номер, за да преминете към канала"
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "Въведете устойчив ПИН-код"
@@ -7637,11 +7649,26 @@ msgstr "Въведете честотата, на която вашият LNB п
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Въведете размера на честотната стъпка, която тунерът да използва при търсене на кабелни мултиплекси. За повече информация направете справка с документацията на вашия кабелен доставчик."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Въведете номера, съхранен в позиционера, който отговаря на този спътник."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
@@ -7650,6 +7677,9 @@ msgid "Enter the primary IPv4 DNS server for this adapter."
 msgstr ""
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
 msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
@@ -7665,6 +7695,12 @@ msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.
 msgstr ""
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
 msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
@@ -11090,6 +11126,9 @@ msgstr ""
 msgid "Local receiver"
 msgstr "Местен приемник"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "Местно време"
 
@@ -11796,6 +11835,9 @@ msgstr "Настройка на монтажа"
 msgid "Mount failed"
 msgstr "Монтирането се провали"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "Точка на монтиране"
 
@@ -12217,6 +12259,9 @@ msgstr "NFS настройка"
 msgid "NFS threads"
 msgstr ""
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr ""
 
@@ -12346,6 +12391,9 @@ msgstr ""
 msgid "Network Browser"
 msgstr "Мрежов браузър"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "Мрежово ID"
 
@@ -12362,6 +12410,9 @@ msgid "Network Log"
 msgstr ""
 
 msgid "Network Log Actions"
+msgstr ""
+
+msgid "Network Mount Settings"
 msgstr ""
 
 msgid "Network Neighbourhood"
@@ -13424,6 +13475,9 @@ msgstr "Опция за забраняване на пикони в инфоба
 
 msgid "Option to enable the hardware Standby timer."
 msgstr "Опция за разрешаване на Hardware Standby Timer"
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr ""
@@ -14985,11 +15039,14 @@ msgstr "Рейтинг неопределен"
 msgid "Re-enter new PIN"
 msgstr "Въведете отново новия PIN"
 
-msgid "Read-Only"
-msgstr ""
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Прочетете потребителските данни от oscam.conf"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr ""
 
 msgid "Read/Write"
 msgstr ""
@@ -15353,6 +15410,9 @@ msgstr "Информация за дистанционно управление"
 
 msgid "Remote control type"
 msgstr "Тип дистанционно управление"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Дистанционна кутия"
@@ -16015,6 +16075,9 @@ msgstr "ГРЕШКА за превключване на SD карта! - веч�
 msgid "SINGLE LAYER DVD"
 msgstr "ЕДНОСЛОЙНО DVD"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr ""
 
@@ -16498,6 +16561,9 @@ msgstr "Изберете „поляризация“, ако използват
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Изберете „доставчик“, за да сканирате от предварително дефинирания списък с кабелни мултиплекси. Изберете „ленти“, за да сканирате само определени части от спектъра. Изберете „стъпки“, за да сканирате на стъпки от определена честотна лента."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr ""
 
@@ -16890,6 +16956,12 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr "Изберете скрипт за стартиране:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr ""
 
@@ -17010,6 +17082,9 @@ msgstr ""
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr "Настрйка за режим за забавяне на zap и канали."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Тази опция ви позволява да изберете дали стойността по подразбиране за даден елемент от настройката да се показва и, ако е така, къде да се показва във връзка с описанието."
@@ -17194,6 +17269,9 @@ msgstr ""
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Изберете знака или действието под курсора на клавиатурата"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr ""
 
@@ -17355,6 +17433,9 @@ msgstr ""
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr ""
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Изберете номера на модела на вашето Unicable устройство. Ако номерът на модела не е в списъка, задайте „SCR“ на „defined от потребителя“ и въведете параметрите на устройството ръчно в съответствие със спецификациите му."
 
@@ -17413,6 +17494,9 @@ msgstr ""
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Изберете протокола, използван от вашето SCR устройство. Възможностите за избор са „SCR Unicable“ (Unicable) или „SCR JESS“ (JESS, известен също като Unicable II)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr ""
 
@@ -17444,6 +17528,9 @@ msgid "Select the search mode to find picons. 'Single-path mode' uses one path f
 msgstr ""
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
 msgstr ""
 
 msgid "Select the shifted character set"
@@ -17545,6 +17632,9 @@ msgid ""
 "Press OK to continue."
 msgstr ""
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr ""
 
@@ -17586,6 +17676,9 @@ msgstr "Изберете какво искате с бутон TV да акти�
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Изберете какво искате да активирате с бутона нагоре/надолу."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr ""
@@ -17745,6 +17838,9 @@ msgstr "сериозна музика/класическа музика"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "сериозен/класически/религиозен/исторически филм/драма"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Сървърът не работи"
@@ -19503,6 +19599,9 @@ msgstr ""
 msgid "Socket"
 msgstr "Сокет"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr ""
 
@@ -19731,9 +19830,6 @@ msgid "Special events (Olympic games, World cup, etc.)"
 msgstr "специални събития"
 
 msgid "Specify the directory to use when starting Media Player."
-msgstr ""
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr ""
 
 msgid "Speed"
@@ -21579,6 +21675,9 @@ msgstr "История на времето"
 msgid "Timeline scale"
 msgstr "Времева скала"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr ""
 
@@ -22503,6 +22602,9 @@ msgstr ""
 msgid "Use MHW EPG information when it is available."
 msgstr "Използване на MHW EPG информация когато е на разположение."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Използване на Netmed EPG информация когато е на разположение."
 
@@ -22548,6 +22650,9 @@ msgstr ""
 msgid "Use an alternative smaller screen."
 msgstr "Използване на алтернативен екран"
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr ""
 
@@ -22589,6 +22694,9 @@ msgstr ""
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Използвайте геолокация, за да зададете текущото местоположение на часовата зона"
+
+msgid "Use guest login"
+msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "използвайте повишено напрежение '14/18V', ако има проблеми при превключване на lnb"
@@ -23546,11 +23654,17 @@ msgstr ""
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr ""
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Ако е включен, този параметър има по-голяма тежест от 'Приоритетен тунер за записи'."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Ако е включен, този параметър има по-голяма тежест от 'Приоритетен тунер'."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Когато е разрешено, TimeShift започва автоматично във фонов режим след определено време."
@@ -23732,6 +23846,9 @@ msgstr "Бихте ли запазили вписания PIN %s за посто
 
 msgid "Wrestling"
 msgstr "Борба"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
