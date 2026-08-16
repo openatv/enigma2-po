@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2026-03-18 21:46+0000\n"
 "Last-Translator: Abdulelah Aqeil <dr.romantic@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ar/>\n"
@@ -4410,6 +4410,9 @@ msgstr "فصل"
 msgid "Character device"
 msgstr "قائمة أجهزة التخزين"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr "برنامج حواري"
 
@@ -7795,6 +7798,9 @@ msgstr ""
 msgid "Enable new GStreamer playback"
 msgstr "تفعيل تشغيل GStreamer الجديد"
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "تمكين او تعطيل إستخدام خاصية HDMI-CEC."
 
@@ -8045,6 +8051,9 @@ msgstr ""
 msgid "Enter expected ONID/TSID"
 msgstr ""
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "ادخل إذا كنت في الشمال أو الجنوب من خط الاستواء."
 
@@ -8055,6 +8064,9 @@ msgid "Enter new directory name:"
 msgstr ""
 
 msgid "Enter number to jump to channel"
+msgstr ""
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
 msgstr ""
 
 msgid "Enter persistent PIN code"
@@ -8090,11 +8102,26 @@ msgstr "ادخل التردد الذي تنتقل فيه اللاقط بين ا�
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "ادخل حجم الخطوة الترددية لاستخدام الموالف عند البحث عن الكبلات المضاعفة. لمزيد من المعلومات استشر وثائق موفر الكبل."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "ادخل الرقم المخزن في موقع النظام المتحرك الذي يتوافق مع هذا القمر الصناعي."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
@@ -8103,6 +8130,9 @@ msgid "Enter the primary IPv4 DNS server for this adapter."
 msgstr ""
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
 msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
@@ -8118,6 +8148,12 @@ msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.
 msgstr ""
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
 msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
@@ -11671,6 +11707,9 @@ msgstr ""
 msgid "Local receiver"
 msgstr ""
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "الوقت المحلي"
 
@@ -12413,6 +12452,9 @@ msgstr "إعداد الربط"
 msgid "Mount failed"
 msgstr ""
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "نقطة التثبيت"
 
@@ -12853,6 +12895,9 @@ msgstr ""
 msgid "NFS threads"
 msgstr ""
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr ""
 
@@ -12986,6 +13031,9 @@ msgstr ""
 msgid "Network Browser"
 msgstr "متصفح الشبكة"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "معرف شبكه الاتصال"
 
@@ -13002,6 +13050,9 @@ msgid "Network Log"
 msgstr ""
 
 msgid "Network Log Actions"
+msgstr ""
+
+msgid "Network Mount Settings"
 msgstr ""
 
 msgid "Network Neighbourhood"
@@ -14136,6 +14187,9 @@ msgid "Option to disable picons on the InfoBar."
 msgstr ""
 
 msgid "Option to enable the hardware Standby timer."
+msgstr ""
+
+msgid "Optional arguments"
 msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
@@ -15782,10 +15836,13 @@ msgstr "تصنيف غير معروف"
 msgid "Re-enter new PIN"
 msgstr ""
 
-msgid "Read-Only"
+msgid "Read Userdata from 'oscam.conf'"
 msgstr ""
 
-msgid "Read Userdata from 'oscam.conf'"
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
 msgstr ""
 
 msgid "Read/Write"
@@ -16170,6 +16227,9 @@ msgstr ""
 
 msgid "Remote control type"
 msgstr "نوع جهاز التحكم عن بعد"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr ""
@@ -16857,6 +16917,9 @@ msgstr ""
 msgid "SINGLE LAYER DVD"
 msgstr "ديفيدي أحادي الشاشة"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr ""
 
@@ -17373,6 +17436,9 @@ msgstr "حدد 'الاستقطاب' في حالة استخدام لاقط 'عا�
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "حدد 'مزود الخدمة' للبحث من القائمة المحددة مسبقًا للكيابل المتعددة. حدد 'النطاقات' لفحص أجزاء معينة فقط من الطيف. حدد 'خطوات' للبحث في خطوط عرض النطاق الترددي المحدد."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr ""
 
@@ -17764,6 +17830,12 @@ msgstr ""
 msgid "Select a script to run:"
 msgstr ""
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr ""
 
@@ -17885,6 +17957,9 @@ msgid "Select if an end time is required."
 msgstr ""
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
+msgstr ""
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
 msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
@@ -18071,6 +18146,9 @@ msgstr ""
 msgid "Select the character or action under the keyboard cursor"
 msgstr "حدد الحرف أو الإجراء أسفل مؤشر لوحة المفاتيح"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr ""
 
@@ -18233,6 +18311,9 @@ msgstr ""
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr ""
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr ""
 
@@ -18291,6 +18372,9 @@ msgstr ""
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr ""
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr ""
 
@@ -18322,6 +18406,9 @@ msgid "Select the search mode to find picons. 'Single-path mode' uses one path f
 msgstr ""
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
 msgstr ""
 
 #, fuzzy
@@ -18424,6 +18511,9 @@ msgid ""
 "Press OK to continue."
 msgstr ""
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr ""
 
@@ -18470,6 +18560,9 @@ msgstr "حدد ما تريد. زر التلفزيون للتنشيط."
 #, fuzzy
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "حدد ما تريد. زر أعلى/أسفل للتنشيط."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr "حدد المكان الذي يجب حفظ التسجيل فيه."
@@ -18635,6 +18728,9 @@ msgstr "موسيقى هادئه/موسيقى كلاسيكية"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "هادئه/الكلاسيكية/الدينية/التاريخية الفيلم/الدراما"
+
+msgid "Server"
+msgstr ""
 
 #
 msgid "Server down"
@@ -20491,6 +20587,9 @@ msgstr ""
 msgid "Socket"
 msgstr "مغلق"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr ""
 
@@ -20730,9 +20829,6 @@ msgid "Special events (Olympic games, World cup, etc.)"
 msgstr "الأحداث الخاصة"
 
 msgid "Specify the directory to use when starting Media Player."
-msgstr ""
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr ""
 
 msgid "Speed"
@@ -22640,6 +22736,9 @@ msgstr "إدخال المؤقت"
 msgid "Timeline scale"
 msgstr "النطاق الزمني"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr ""
 
@@ -23625,6 +23724,9 @@ msgstr ""
 msgid "Use MHW EPG information when it is available."
 msgstr "إستخدام معلومات دليل البرامج الإلكترونية للوسائط السريعة عندما تكون متوفرة."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "إستخدام جداول معلومات الأحداث لمعلومات دليل البرامج الإلكترونية عندما تكون متوفرة."
 
@@ -23671,6 +23773,9 @@ msgstr ""
 msgid "Use an alternative smaller screen."
 msgstr ""
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr ""
 
@@ -23711,6 +23816,9 @@ msgid "Use geolocation to get WAN information"
 msgstr ""
 
 msgid "Use geolocation to set the current time zone location"
+msgstr ""
+
+msgid "Use guest login"
 msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
@@ -24709,11 +24817,17 @@ msgstr ""
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr ""
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "عند التمكين، يكون هذا الاعداد أكثر وزنا و اولوية من 'المؤالف المفضل للتسجيلات'."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "عند التمكين، يكون هذا الاعداد أكثر وزنا و افضلية من 'المؤالف المفضل'."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr ""
@@ -24901,6 +25015,9 @@ msgstr "هل ستقوم بحفظ كلمة السر %s التي تم إدخاله
 #, fuzzy
 msgid "Wrestling"
 msgstr "المصارعة"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
