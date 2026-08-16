@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2026-08-15 21:38+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
@@ -4095,6 +4095,9 @@ msgstr "Kapitola"
 msgid "Character device"
 msgstr "Znakové zariadenie"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr "Talkshow"
 
@@ -7423,6 +7426,9 @@ msgstr "Povoliť kontrolu sieťového prenosu"
 msgid "Enable new GStreamer playback"
 msgstr "Povoliť nové prehrávanie GStreamer"
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Povoliť alebo zakázať pomocou HDMI-CEC."
 
@@ -7657,6 +7663,9 @@ msgstr "Zadajte nové meno pre toto zariadenie."
 msgid "Enter expected ONID/TSID"
 msgstr "Zadajte očakávané ONID/TSID"
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Zadajte, či ste severne alebo južne od rovníka."
 
@@ -7668,6 +7677,9 @@ msgstr "Zadajte nový názov priečinku:"
 
 msgid "Enter number to jump to channel"
 msgstr "Zadajte číslo kanála, na ktorý sa má preskočiť"
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "Zadajte trvalý kód PIN"
@@ -7702,11 +7714,26 @@ msgstr "Zadajte frekvenciu, pri ktorej sa LNB prepína medzi nízkym a vysokým 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Zadajte frekvenčný krok tunera pre vyhľadávanie v káblových multiplexoch. Viac informácií získate v dokumentácii od operátora káblovej televízie."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr "Definujte príponu DNS, ktorá sa použije vtedy, keď bol poskytnutý iba názov hostiteľa. Pomôžete tak rozlišovaču DNS nájsť požadovaného hostiteľa."
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr "Zadajte počet vlákien NFS servera, ktoré sa majú alokovať/použiť. Vyššie hodnoty zlepšujú výkon s viacerými klientmi, ale vyžadujú viac pamäte."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Zadajte číslo uložené v pozicionéri, ktoré prináleží tomuto satelitu."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr "Zadajte heslo, frázu alebo predzdieľaný kľúč pre vybranú bezdrôtovú sieť."
@@ -7716,6 +7743,9 @@ msgstr "Zadajte primárne DNS nastavenie IPv4 pre tento adaptér."
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
 msgstr "Zadajte primárne DNS nastavenie IPv6 pre tento adaptér. (Voliteľne)"
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
+msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
 msgstr "Zadajte sekundárne DNS nastavenie IPv4 pre tento adaptér. (Voliteľne)"
@@ -7731,6 +7761,12 @@ msgstr "Zadajte masku podsiete, ktorá sa má použiť pre sieťový adaptér (n
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Na zapnutie prekladania pomocou umelej inteligencie, zadajte kód predplatného. Jednotný kód pre skúšobnú verziu je 15."
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr "Zadajte názov pracovnej skupiny, ktorý má používať tento prijímač pre pripojenia založené na Sambe. (Predvolená je 'WORKGROUP'.)"
@@ -11162,6 +11198,9 @@ msgstr "Lokálne alebo regionálne"
 msgid "Local receiver"
 msgstr "Lokálny prijímač"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "Miestny čas"
 
@@ -11868,6 +11907,9 @@ msgstr "Nastavenie pripojení"
 msgid "Mount failed"
 msgstr "Pripojenie neúspešné"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "Bod pripojenia"
 
@@ -12289,6 +12331,9 @@ msgstr "Nastavenie NFS"
 msgid "NFS threads"
 msgstr "Vlákna NFS"
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -12418,6 +12463,9 @@ msgstr "Textové akcie sieťového adaptéra"
 msgid "Network Browser"
 msgstr "Prehliadač siete"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "ID siete"
 
@@ -12435,6 +12483,9 @@ msgstr "Denník pre sieť"
 
 msgid "Network Log Actions"
 msgstr "Akcie denníka siete"
+
+msgid "Network Mount Settings"
+msgstr ""
 
 msgid "Network Neighbourhood"
 msgstr "Domáca skupina"
@@ -13499,6 +13550,9 @@ msgstr "Povolenie/zakázanie zobrazenia pikon v infolište."
 
 msgid "Option to enable the hardware Standby timer."
 msgstr "Možnosť povoliť hardvérový časovač pre pohotovostný režim."
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr "Voliteľné oneskorenie medzi príkazmi CEC pri odosielaní sérií príkazov. Ak zariadenie nevyžaduje pomalší prenos, ponechajte túto voľbu vypnutú."
@@ -15065,11 +15119,14 @@ msgstr "Hodnotenie neurčené"
 msgid "Re-enter new PIN"
 msgstr "Znovu zadajte nový kód PIN"
 
-msgid "Read-Only"
-msgstr "Len na čítanie"
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Načítať používateľské dáta z oscam.conf"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr "Len na čítanie"
 
 msgid "Read/Write"
 msgstr "Čítanie/zápis"
@@ -15433,6 +15490,9 @@ msgstr "Informácie o diaľkovom ovládaní"
 
 msgid "Remote control type"
 msgstr "Typ diaľkového ovládania"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Vzdialený prijímač"
@@ -16095,6 +16155,9 @@ msgstr "CHYBA pri prepnutí SD karty! Už je na MMC"
 msgid "SINGLE LAYER DVD"
 msgstr "JEDNOVRSTVOVÉ DVD"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr "Výber vstupu v SMS štýle QuickSelect"
 
@@ -16581,6 +16644,9 @@ msgstr "Ak sa používa 'univerzálny' LNB, vyberte možnosť 'polarizácia', v 
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Možnosť 'poskytovateľ' (provider) umožní skenovať preddefinovaný zoznam káblových multiplexov. Možnosť 'pásma' umožní prehľadávať len určité časti spektra. Na prehľadávanie po jednotlivých krokoch určitej šírky frekvenčného pásma, vyberte možnosť 'kroky'."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "Ak sa má každej stanici alebo službe vo všetkých prehľadoch priradiť jedinečné číslo, vyberte možnosť 'Jedinečné číslovanie'. Ak sa má číslovanie začínať v každom prehľade od 1, použite 'Prehľady začínajú od 1. 'LCN číslovanie použite vtedy, ak sa majú používať konzistentné LCN staníc alebo služieb bez ohľadu na výskyt."
 
@@ -16972,6 +17038,12 @@ msgstr "Vyberte denník o odovzdaní do repozitára, ktorý sa má zobraziť:"
 msgid "Select a script to run:"
 msgstr "Vyberte skript na spustenie:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr "Vyberte časový limit pre zobrazenie potvrdenia predtým než časovač prepnutia zmení aktuálnu stanicu. Používateľ tak môže zrušiť činnosť časovača. Výberom možnosti 'Vypnuté' umožníte prepnutie bez potvrdzovania."
 
@@ -17092,6 +17164,9 @@ msgstr "Vyberte, či je potrebný aj čas ukončenia."
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr "Nastaviť režim oneskorenia pre prepínanie kanálov."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Vyberte, či sa zobrazí predvolená hodnota položky nastavenia, a ak áno, kde sa zobrazí vo vzťahu k popisu."
@@ -17276,6 +17351,9 @@ msgstr "Vyberte kanál alebo službu pre tento časovač."
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Vyberte znak alebo akciu pod kurzorom klávesnice"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr "Vyberte farbu LED pre napájanie na prednom paneli, keď je prijímač v činnosti. Touto voľbou môžete LED aj deaktivovať/vypnúť."
 
@@ -17437,6 +17515,9 @@ msgstr "Vyberte režim prístupu, čítanie/zápis alebo len čítanie, ktorý s
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr "Vyberte režim prístupu, čítanie/zápis alebo Len čítanie, ktorý sa použije pri všetkých exportovaných priečinkoch."
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Vyberte číslo modelu vášho zariadenia Unicable. Ak nie je číslo modelu uvedené v zozname, nastavte 'SCR' na voľbu 'definované používateľom' a zadajte parametre zariadenia manuálne podľa jeho špecifikácií."
 
@@ -17498,6 +17579,9 @@ msgstr "Vybrať predchádzajúcu stanicu alebo službu, zatvoriť skener a opust
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Vyberte protokol používaný SCR zariadením. Možnosti sú 'SCR Unicable' (Unicable), alebo 'SCR JESS' (JESS, známe aj ako Unicable II)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr "Vyberte akciu prijímača v prípade, že sa TV odpojí od vstupu prijímača."
 
@@ -17530,6 +17614,9 @@ msgstr "Vyberte režim vyhľadávania pre nájdenie pikon. 'Režim jednej cesty'
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
 msgstr "Vyberte protokol zabezpečenia, ktorá sa použije pri prístupe k vybranej bezdrôtovej sieti."
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
+msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "Vyberte znakovú sadu pre veľké písmená"
@@ -17633,6 +17720,9 @@ msgstr ""
 "\n"
 "Pokračujte stlačením OK."
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr "Vyberte umiestnenie zdroja aktualizácie"
 
@@ -17674,6 +17764,9 @@ msgstr "Vyberte, čo sa má aktivovať tlačidlom TV."
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Vyberte, čo sa má aktivovať tlačidlami HORE/DOLU."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr "Vyberte, kam sa má nahrávka uložiť."
@@ -17833,6 +17926,9 @@ msgstr "vážna hudba/klasická hudba"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "závažný/klasický/náboženský/historický film/dráma"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Server mimo prevádzky"
@@ -19601,6 +19697,9 @@ msgstr "Spoločnosť a kultúra"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr "Nastavenia SoftCSA"
 
@@ -19830,9 +19929,6 @@ msgstr "Osobitné udalosti"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Zadajte priečinok, ktorý sa použije pri spustení prehrávača médií."
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
-msgstr "Definujte príponu DNS, ktorá sa použije vtedy, keď bol poskytnutý iba názov hostiteľa. Pomôžete tak rozlišovaču DNS nájsť požadovaného hostiteľa."
 
 msgid "Speed"
 msgstr "Rýchlosť"
@@ -21711,6 +21807,9 @@ msgstr "Časová história"
 msgid "Timeline scale"
 msgstr "Časová mierka"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr "Akcie denníka časovača"
 
@@ -22637,6 +22736,9 @@ msgstr "Použiť používateľské pásmo LNB 1"
 msgid "Use MHW EPG information when it is available."
 msgstr "Používať MHW EPG informácie, ak sú dostupné."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Používať Netmed EPG informácie, ak sú dostupné."
 
@@ -22682,6 +22784,9 @@ msgstr "Použiť alternatívne DNS GitHub"
 msgid "Use an alternative smaller screen."
 msgstr "Použiť alternatívne, menšie zobrazenie."
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr "Použiť automatickú detekciu režimu"
 
@@ -22726,6 +22831,9 @@ msgstr "Na získanie informácií o WAN použiť geolokalizáciu"
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Použiť geolokáciu na nastavenie aktuálnej časovej zóny"
+
+msgid "Use guest login"
+msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Pri problémoch s prepínaním LNB použite zvýšené napätie '14/18 V'."
@@ -23717,11 +23825,17 @@ msgstr "Ak je povolené, tento Wi-Fi adaptér sa bude udržiavať v režime len 
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr "Ak je povolené, tento adaptér sa inicializuje a aktivuje počas spúšťania prijímača."
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Ak povolené, toto nastavenie má väčšiu váhu ako 'Preferovaný tuner pre nahrávky'."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Ak povolené, toto nastavenie má väčšiu váhu ako 'Preferovaný tuner'."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Ak je povolené, po uplynutí stanoveného čase sa na pozadí automaticky spustí timeshift."
@@ -23906,6 +24020,9 @@ msgstr "Chcete uložiť zadaný PIN %s ako trvalý?"
 
 msgid "Wrestling"
 msgstr "Wrestling"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
