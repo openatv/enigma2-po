@@ -7695,19 +7695,16 @@ msgstr ""
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr "输入所选无线网络的密码、密钥短语或预共享密钥。"
 
-msgid "Enter the primary IPv4 DNS server for this adapter."
+msgid "Enter the primary IPv4 DNS setting for this adapter."
 msgstr "输入此网卡的主 IPv4 DNS 服务器地址。"
 
-msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
 msgstr "输入此网卡的主 IPv6 DNS 服务器地址。（选填）"
 
-msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
-msgstr ""
-
-msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
+msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
 msgstr "输入此网卡的备用 IPv4 DNS 服务器地址。（选填）"
 
-msgid "Enter the secondary IPv6 DNS server for this adapter. (Optional)"
+msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
 msgstr "输入此网卡的备用 IPv6 DNS 服务器地址。（选填）"
 
 msgid "Enter the service pin"
@@ -7719,13 +7716,7 @@ msgstr "输入此网卡使用的子网掩码（例如 255.255.255.0）"
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "输入订阅码即可全面启用人工智能翻译插件，试用统一码为15。"
 
-msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
-msgstr ""
-
-msgid "Enter the username to be used to access this host's shares."
-msgstr ""
-
-msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
+msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr "输入本机接收机 Samba 连接所用的工作组名称。(默认值为 `WORKGROUP`)"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
@@ -8905,7 +8896,7 @@ msgstr "强制使用传统信号统计"
 msgid "Force ToneBurst"
 msgstr "强制 22K 开关"
 
-msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason for the change as an incorrect setting can break network connectivity."
+msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
 msgstr "强制指定网卡速率 / 双工模式，关闭自动协商。仅在有明确需求时修改，设置错误会直接造成网络断开。"
 
 msgid "Force de-interlace"
@@ -16992,11 +16983,8 @@ msgstr "选择要查看的存储库提交日志："
 msgid "Select a script to run:"
 msgstr "选择要运行的脚本："
 
-msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
-msgstr ""
-
-msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
-msgstr ""
+msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
+msgstr "设置在换台定时器切换频道前弹出确认提示的时间。用户可在期间取消切换。选‘禁用’则不提示直接换台。"
 
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr "设置在换台定时器切换频道前弹出确认提示的时间。用户可在期间取消切换。选‘禁用’则不提示直接换台。"
@@ -17466,8 +17454,8 @@ msgstr "选择退出图文电视时恢复屏幕分辨率和帧缓冲的处理方
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all automatically exported Samba shares."
 msgstr "为自动导出的 samba 共享选择访问模式。"
 
-msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
-msgstr ""
+msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+msgstr "选择应用于所有导出目录的访问模式：读/写或只读。"
 
 msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
 msgstr ""
@@ -17568,9 +17556,6 @@ msgstr "选择频道图标的搜索模式。‘单路径模式’对所有频道
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
 msgstr "选择用于访问所选无线网络的安全协议。"
-
-msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
-msgstr ""
 
 msgid "Select the shifted character set"
 msgstr "使用'shift'键选择字符集"
@@ -23714,8 +23699,8 @@ msgstr "启用时，在频道选择屏幕中显示频道号。"
 msgid "When enabled, show status or error messages."
 msgstr "启用时，显示状态或错误消息。"
 
-msgid "When enabled, specify custom DNS settings for this adapter instead of using the global DNS settings."
-msgstr ""
+msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
+msgstr "启用后，为此适配器指定自定义 DNS 设置，而非使用全局 DNS 设置。"
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "启用时，可以使用听力受损者的字幕。"
@@ -23771,8 +23756,8 @@ msgstr "启用时，默认使用备用调谐器的定时器。"
 msgid "When enabled, this Wi-Fi adapter is kept in Wake-on-WiFi mode only and will not be used to connect to any network."
 msgstr "启用后，此 WiFi 适配器仅维持 WiFi 网络唤醒模式，不会连接任何无线网络。"
 
-msgid "When enabled, this adapter will be initialized and activated at boot time."
-msgstr ""
+msgid "When enabled, this adapter is initialized and activated at boot time."
+msgstr "启用后，此适配器将在系统启动时被初始化并激活。"
 
 msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
 msgstr ""
