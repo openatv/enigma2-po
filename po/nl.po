@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
 "PO-Revision-Date: 2025-05-09 04:42+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -4065,6 +4065,9 @@ msgstr "Hoofdstuk"
 msgid "Character device"
 msgstr "Karakter apparaat"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr ""
 
@@ -7513,6 +7516,9 @@ msgstr "Activeer Netwerkverkeer controle"
 msgid "Enable new GStreamer playback"
 msgstr "Nieuwe GStreamer-weergave inschakelen"
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Activeer of Deactiveer HDMI-CEC."
 
@@ -7755,6 +7761,9 @@ msgstr "Geef een nieuwe naam op voor dit apparaat."
 msgid "Enter expected ONID/TSID"
 msgstr ""
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Geef aan of u op het noordelijke of het zuidelijke halfrond bent."
 
@@ -7766,6 +7775,9 @@ msgstr "Een nieuwe mapnaam invoeren:"
 
 msgid "Enter number to jump to channel"
 msgstr "Geef een zendernummer op om er naar toe te zappen."
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "Voer definitieve pincode in"
@@ -7800,11 +7812,26 @@ msgstr "Geef de frequentie op waarbij uw LNB schakelt tussen de hoge en de lage 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Geef de frequentie stapgrootte op waarmee de tuner kabel-multiplexen moet scannen. Voor meer informatie raadpleegt de documentatie of uw provider."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr "Het DNS-achtervoegsel invullen."
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Voor het in de positioner opgeslagen nummer in dat overeen komt met deze satelliet."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr ""
@@ -7813,6 +7840,9 @@ msgid "Enter the primary IPv4 DNS server for this adapter."
 msgstr ""
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
+msgstr ""
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
 msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
@@ -7829,6 +7859,12 @@ msgstr ""
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Abonnement-code voor AI vertaling invoeren, de code voor de testperiode is 15."
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr ""
@@ -11268,6 +11304,9 @@ msgstr ""
 msgid "Local receiver"
 msgstr "Lokale box"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "Lokale tijd"
 
@@ -11974,6 +12013,9 @@ msgstr "Mount instellingen"
 msgid "Mount failed"
 msgstr "Mount mislukt"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "Mountpunt"
 
@@ -12395,6 +12437,9 @@ msgstr "NFS-Bestandsserver"
 msgid "NFS threads"
 msgstr ""
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -12524,6 +12569,9 @@ msgstr "Netwerk adapter tekst Acties"
 msgid "Network Browser"
 msgstr "Netwerk verkenner"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "Netwerk ID"
 
@@ -12541,6 +12589,9 @@ msgstr "Netwerk Log"
 
 msgid "Network Log Actions"
 msgstr "Netwerk log Acties"
+
+msgid "Network Mount Settings"
+msgstr ""
 
 msgid "Network Neighbourhood"
 msgstr "Netwerk omgeving"
@@ -13608,6 +13659,9 @@ msgstr "Optie om picons uit te schakelen op de informatiebalk"
 
 msgid "Option to enable the hardware Standby timer."
 msgstr "Optie voor inschakelen Hardware stand-by Timer"
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr ""
@@ -15177,11 +15231,14 @@ msgstr "Beoordeling niet gedefinieerd"
 msgid "Re-enter new PIN"
 msgstr "Voer de pincode opnieuw in"
 
-msgid "Read-Only"
-msgstr "Alleen lezen"
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Lees gebruikers informatie uit oscam.conf"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr "Alleen lezen"
 
 msgid "Read/Write"
 msgstr "Lezen/schrijven"
@@ -15545,6 +15602,9 @@ msgstr "Informatie over de afstandsbediening"
 
 msgid "Remote control type"
 msgstr "Type afstandsbediening"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Externe box"
@@ -16207,6 +16267,9 @@ msgstr "SD kaart switch FOUT! - reeds op mmc"
 msgid "SINGLE LAYER DVD"
 msgstr "SINGLE LAYER DVD"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr "QuickSelect in SMS-stijl"
 
@@ -16694,6 +16757,9 @@ msgstr "Selecteer 'polarisatie als u een universele LNB gebruikt. Consulteer de 
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Selecteer 'provider' om te scannen vanuit de voor gedefinieerde lijst van kabel multiplexen. Kies 'band' om alleen een deel van het spectrum te scannen. Kies 'stappen' om in stappen een bepaald deel van het spectrum te scannen."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "Kies 'Unieke nummering' om een uniek nummer aan elke zender in elke favorietenlijst toe te kennen. Gebruik 'Favorieten beginnen bij 1' om in elke favorietenlijst te beginnen bij 1. Gebruik 'LCN nummering' om een logische zender volgorde toe te passen waar deze LCN-service wordt aangeboden."
 
@@ -17091,6 +17157,12 @@ msgstr "Selecteer een repository commit-log:"
 msgid "Select a script to run:"
 msgstr "Selecteer script om uit te voeren:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr ""
 
@@ -17211,6 +17283,9 @@ msgstr "Opgeven of een Eindtijd noodzakelijk is."
 
 msgid "Select if data entry timeouts are to be applied when entering digits into the service selection pop up screen. When a timeout is exceeded the currently entered number will be used for the service selection. The default timeouts are first digit 3 seconds, other digits 1 second."
 msgstr "Stel een vertraging in voor het zappen naar een andere zender."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Met deze optie kunt u selecteren of de standaardwaarde voor een instellingsitem wordt weergegeven en, wanneer ja, waar deze wordt weergegeven t.o.v. de beschrijving."
@@ -17395,6 +17470,9 @@ msgstr "Kies de zender die voor deze timer gebruikt moet worden."
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Selecteer het karakter of de actie onder de cursor van het virtuele toetsenbord"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr ""
 
@@ -17562,6 +17640,9 @@ msgstr "De toegangsmodus voor de automatisch geëxporteerde Samba shares selecte
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr ""
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Selecteer het modelnummer van uw Unicable-apparaat. Wanneer deze niet in de lijst voorkomt, stelt u 'SCR' in op 'door gebruiker gedefinieerd' en geeft u vervolgens de parameters handmatig in volgens de specs van het apparaat."
 
@@ -17623,6 +17704,9 @@ msgstr "De vorige zender kiezen, de scan beëindigen en alle menu's afsluiten"
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Selecteer het format van uw SCR-apparaat. keuzes zijn 'SCR Unicable' (Unicable) en 'SCR JESS' (JESS, ook bekend als Unicable 2)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr ""
 
@@ -17654,6 +17738,9 @@ msgid "Select the search mode to find picons. 'Single-path mode' uses one path f
 msgstr ""
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
+msgstr ""
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
 msgstr ""
 
 msgid "Select the shifted character set"
@@ -17758,6 +17845,9 @@ msgstr ""
 "\n"
 "Druk op OK om verder te gaan."
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr "Selecteer de locatie waar de updates zijn opgeslagen"
 
@@ -17801,6 +17891,9 @@ msgstr "Selecteer wat de TV-knop moet doen."
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Selecteer welke functie de OMHOOG/OMLAAG knoppen moeten krijgen."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr "Selecteer waar de opname opgeslagen moet worden."
@@ -17960,6 +18053,9 @@ msgstr "serieuze/klassieke muziek"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "serieuze/klassieke/religieuze/Historische film/drama"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Server niet beschikbaar"
@@ -19744,6 +19840,9 @@ msgstr "Maatschappij & Cultuur"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr ""
 
@@ -19973,9 +20072,6 @@ msgstr "Speciale gebeurtenissen"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Selecteer de map die bij het starten van de Mediaspeler geopend moet worden."
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
-msgstr "Het DNS-achtervoegsel invullen."
 
 msgid "Speed"
 msgstr "Snelheid"
@@ -21895,6 +21991,9 @@ msgstr "Tijdlijn historie"
 msgid "Timeline scale"
 msgstr "Tijdlijn schaal"
 
+msgid "Timeout"
+msgstr ""
+
 msgid "Timer Log Actions"
 msgstr "Timer-Log Acties"
 
@@ -22821,6 +22920,9 @@ msgstr ""
 msgid "Use MHW EPG information when it is available."
 msgstr "Indien geactiveerd kunt u, indien deze beschikbaar is, de MHW EPG informatie inschakelen."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Indien geactiveerd kunt u, indien deze beschikbaar is, de Netmed EPG informatie inschakelen."
 
@@ -22866,6 +22968,9 @@ msgstr "Een alternatief GitHub-DNS instellen"
 msgid "Use an alternative smaller screen."
 msgstr "Gebruik een ander scherm."
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr "Automatische beeldresolutie gebruiken"
 
@@ -22910,6 +23015,9 @@ msgstr "Geolocatie gebruiken voor het verkrijgen van WAN informatie"
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Gebruik geolocatie om de huidige tijdzone locatie in te stellen"
+
+msgid "Use guest login"
+msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Gebruik verhoogd voltage '14/18V' als er problemen zijn met schakelen van de LNB."
@@ -23908,11 +24016,17 @@ msgstr ""
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr ""
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Indien geactiveerd, dan wordt de voorkeur gegeven aan deze optie boven de optie 'Voorkeurstuner voor opname's'."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Indien geactiveerd, dan wordt er voorkeur gegeven aan deze optie boven de optie 'Voorkeurstuner'."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr ""
@@ -24111,6 +24225,9 @@ msgstr "Wilt u de ingevoerde pincode %s opslaan?"
 
 msgid "Wrestling"
 msgstr "Worstelen"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
