@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 19:37+0000\n"
-"PO-Revision-Date: 2026-08-15 21:38+0000\n"
-"Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
+"POT-Creation-Date: 2026-08-16 07:09+0000\n"
+"PO-Revision-Date: 2026-08-16 05:46+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -4272,6 +4272,9 @@ msgstr "Kapitel"
 msgid "Character device"
 msgstr "Zeichengerät"
 
+msgid "Character set"
+msgstr ""
+
 msgid "Chat show"
 msgstr "Talkshow"
 
@@ -7761,6 +7764,9 @@ msgstr "Überprüfung der Netzwerkdatenübertragung aktivieren"
 msgid "Enable new GStreamer playback"
 msgstr "Neue GStreamer-Wiedergabe aktivieren"
 
+msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
+msgstr ""
+
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Verwendung von HDMI-CEC ein-/ausschalten."
 
@@ -8001,6 +8007,9 @@ msgstr "Einen neuen Namen für dieses Gerät eingeben."
 msgid "Enter expected ONID/TSID"
 msgstr "Erwartete ONID/TSID eingeben"
 
+msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
+msgstr ""
+
 msgid "Enter if you are North or South of the equator."
 msgstr "Eingeben, ob sich der Receiver nördlich oder südlich des Äquators befindet."
 
@@ -8012,6 +8021,9 @@ msgstr "Neuen Verzeichnisnamen eingeben:"
 
 msgid "Enter number to jump to channel"
 msgstr "Nummer, um zum Sender zu wechseln"
+
+msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
+msgstr ""
 
 msgid "Enter persistent PIN code"
 msgstr "PIN eingeben"
@@ -8047,11 +8059,26 @@ msgstr "Die Frequenz eingeben, mit welcher der LNB zwischen Low- und High-Band w
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Die Frequenzschrittgröße eingeben, die der Tuner bei der Suche nach Kabelmultiplexen verwenden soll. Weitere Informationen befinden sich in der Dokumentation des Kabelanbieters."
 
+msgid "Enter the hostname or IP address of the network share's server."
+msgstr ""
+
+msgid "Enter the local directory name to be used as the local mount for the remote share."
+msgstr ""
+
+msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr "Das Netzwerk-DNS-Suffix angeben, das verwendet werden soll, wenn nur der Hostname angegeben ist. Dies hilft dem DNS-Resolver, den angeforderten Host zu finden."
+
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr "Die Anzahl der NFS-Server-Threads auswählen, die zugewiesen/verwendet werden sollen. Höhere Werte verbessern die Leistung bei mehreren Clients, verbrauchen jedoch mehr Arbeitsspeicher."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Die Nummer eingeben, die im Stellungsregler für diesen Satelliten gespeichert ist."
+
+msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the password to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr "Das Passwort, die Passphrase oder den vorinstallierten Schlüssel (PSK) für das ausgewählte Drahtlosnetzwerk eingeben."
@@ -8061,6 +8088,9 @@ msgstr "Die primäre IPv4-DNS-Einstellung für diesen Adapter eingeben."
 
 msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
 msgstr "Die primäre IPv6-DNS-Einstellung für diesen Adapter eingeben. (Optional)"
+
+msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
+msgstr ""
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
 msgstr "Die sekundäre IPv4-DNS-Einstellung für diesen Adapter eingeben. (Optional)"
@@ -8077,6 +8107,12 @@ msgstr "Die für diesen Netzwerkadapter zu verwendende Subnetzmaske eingeben, zu
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
 msgstr "Abo-Code der KI-gestützten Übersetzung eingeben. Code '15' ist für den Testmodus."
+
+msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
+msgstr ""
+
+msgid "Enter the username to be used to access this host's shares."
+msgstr ""
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr "Den Namen der Arbeitsgruppe eingeben, die dieser Receiver für Samba-basierte Verbindungen verwenden soll. (Standard ist 'WORKGROUP'.)"
@@ -11665,6 +11701,9 @@ msgstr "Lokal oder Regional"
 msgid "Local receiver"
 msgstr "Lokaler Receiver"
 
+msgid "Local share"
+msgstr ""
+
 msgid "Local time"
 msgstr "Lokale Uhrzeit"
 
@@ -12420,6 +12459,9 @@ msgstr "Mounteinstellungen"
 msgid "Mount failed"
 msgstr "Einhängen fehlgeschlagen!"
 
+msgid "Mount mode"
+msgstr ""
+
 msgid "Mount point"
 msgstr "Einhängepunkt"
 
@@ -12871,6 +12913,9 @@ msgstr "NFS-Dateiserver"
 msgid "NFS threads"
 msgstr "NFS-Threads"
 
+msgid "NFS version"
+msgstr ""
+
 msgid "NIM"
 msgstr "NIM"
 
@@ -13011,6 +13056,9 @@ msgstr "Netzwerkadapter-Textaktionen"
 msgid "Network Browser"
 msgstr "Netzwerkmanager"
 
+msgid "Network Credentials"
+msgstr ""
+
 msgid "Network ID"
 msgstr "Netzwerk-ID (0 – alle Netzwerke)"
 
@@ -13030,6 +13078,9 @@ msgstr "Netzwerkprotokoll"
 
 msgid "Network Log Actions"
 msgstr "Netzwerkprotokoll-Aktionen"
+
+msgid "Network Mount Settings"
+msgstr ""
 
 #
 msgid "Network Neighbourhood"
@@ -14185,6 +14236,9 @@ msgstr "Bei 'Ja' werden Picons in der Infoleiste angezeigt."
 # HDD Standby
 msgid "Option to enable the hardware Standby timer."
 msgstr "Bei 'Ja' wird der interne Standbytimer der Festplatte verwendet."
+
+msgid "Optional arguments"
+msgstr ""
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr "Verzögerung zwischen CEC-Befehlen, wenn mehrere Befehle hintereinander gesendet werden. Deaktiviert lassen, es sei denn, ein Gerät erfordert eine langsamere Übertragung."
@@ -15869,11 +15923,14 @@ msgstr "Bewertung undefiniert"
 msgid "Re-enter new PIN"
 msgstr "Neue PIN wiederholen"
 
-msgid "Read-Only"
-msgstr "Nur Lesen"
-
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Benutzerdaten von 'oscam.conf' auslesen"
+
+msgid "Read block size"
+msgstr ""
+
+msgid "Read-Only"
+msgstr "Nur Lesen"
 
 msgid "Read/Write"
 msgstr "Lesen/Schreiben"
@@ -16257,6 +16314,9 @@ msgstr "Informationen zur Fernbedienung"
 
 msgid "Remote control type"
 msgstr "Fernbedienungstyp"
+
+msgid "Remote path"
+msgstr ""
 
 msgid "Remote receiver"
 msgstr "Reservereceiver"
@@ -16980,6 +17040,9 @@ msgstr "Fehler beim Wechseln auf SD-Karte! Bereits auf MMC."
 msgid "SINGLE LAYER DVD"
 msgstr "Single-Layer-DVD"
 
+msgid "SMB version"
+msgstr ""
+
 msgid "SMS style QuickSelect entry selection"
 msgstr "Schnellauswahl im SMS-Stil"
 
@@ -17502,6 +17565,9 @@ msgstr "'Polarisation' auswählen, wenn ein 'Universal LNB' verwendet wird, ande
 msgid "Select 'Provider' to scan from the predefined list of cable multiplexes. Select 'Bands' to only scan certain parts of the spectrum. Select 'Steps' to scan in steps of a particular frequency bandwidth."
 msgstr "'Anbieter' auswählen, um aus der vordefinierten Liste von Kabelmultiplexen zu scannen, 'Bänder', um nur bestimmte Teile des Spektrums zu scannen, oder 'Schritte', um in Schritten einer bestimmten Frequenzbandbreite zu scannen."
 
+msgid "Select 'Soft mount' to make file access return an error once the server stops responding instead of retrying forever. The 'Hard mount' option, the default, protects against silent data loss but can hang programs accessing this share while the server is unreachable."
+msgstr ""
+
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "'Eindeutige Nummerierung' auswählen, um allen Sendern in allen Bouquets eine eindeutige Nummer zuzuweisen. Bei 'Favoriten beginnen bei 1' beginnen die Sendernummern in jedem Bouquet mit der Nummer 1. 'LCN-Nummerierung' auswählen, um konsistente Sender-LCNs zu verwenden, wo immer dieser Dienst verwendet wird."
 
@@ -17904,6 +17970,12 @@ msgstr "Ein Repository-Commit-Log zur Ansicht auswählen:"
 msgid "Select a script to run:"
 msgstr "Zu startendes Skript auswählen:"
 
+msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
+msgstr ""
+
+msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
+msgstr ""
+
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr "Einen Zeitraum auswählen, nach dessen Ablauf eine Bestätigungsaufforderung angezeigt wird, bevor ein Umschalttimer den aktuellen Sender wechselt. So kann man das Umschalten abbrechen. 'Deaktiviert' auswählen, damit das Umschalten ohne Bestätigung fortgesetzt wird."
 
@@ -18029,6 +18101,9 @@ msgid "Select if data entry timeouts are to be applied when entering digits into
 msgstr ""
 "Einstellen, ob es bei der Eingabe von Ziffern in das Popup-Fenster für die Sendernummer ein Zeitlimit geben soll. Wenn dieses überschritten wird, wird die aktuell eingegebene Zahl als Sendernummer verwendet.\n"
 "Das Zeitlimit beträgt für die erste Ziffer 3 Sekunden und für die anderen Ziffern je 1 Sekunde."
+
+msgid "Select if file locking is available. Select 'No' to add 'nolock' to the settings which is most compatible with older/simple NFS servers."
+msgstr ""
 
 msgid "Select if the default value for a setup entry is shown and, if so, where it is displayed in relation to the description."
 msgstr "Einstellen, ob der Standardwert angezeigt wird, und wenn ja, wo er im Verhältnis zur Beschreibung angezeigt wird."
@@ -18222,6 +18297,9 @@ msgstr "Den Sender auswählen, der für diesen Timer verwendet werden soll."
 msgid "Select the character or action under the keyboard cursor"
 msgstr "Das Zeichen oder die Aktion beim Cursor der Tastatur auswählen"
 
+msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
+msgstr ""
+
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr "Die Farbe der Power-LED für den Normalbetrieb auswählen. Die LED kann aber auch deaktiviert oder ausgeschaltet werden."
 
@@ -18388,6 +18466,9 @@ msgstr "Den Zugriffsmodus für die automatisch exportierten Samba-Freigaben ausw
 msgid "Select the mode of access, Read/Write or Read-Only, applied to all exported directories."
 msgstr "Den Zugriffsmodus auswählen, der für alle exportierten Verzeichnisse gilt."
 
+msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
+msgstr ""
+
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Das Modell des Unicable/SCR-Gerätes auswählen. Wenn der Hersteller nicht aufgeführt ist, 'SCR' auf 'Benutzerdefiniert' setzen und die Geräteparameter gemäß dem zugehörigen Datenblatt manuell eingeben."
 
@@ -18450,6 +18531,9 @@ msgstr "Vorherigen Sender auswählen, Suchlauf beenden und alle Menüs schließe
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Das Protokoll des Unicable/SCR-Gerätes auswählen. 'SCR Unicable' (Unicable I-Format) oder 'SCR JESS' (Unicable II-Format)."
 
+msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr "Die Aktion auswählen, wenn der Fernseher vom Receivereingang wegschaltet."
 
@@ -18482,6 +18566,9 @@ msgstr "Den Suchmodus auswählen, um Picon-Dateien zu finden. Im 'Einzelpfadmodu
 
 msgid "Select the security protocol that will be used to access the selected wireless network."
 msgstr "Das Sicherheitsprotokoll auswählen, welches für den Zugriff auf das ausgewählte WLAN-Netzwerk verwendet werden soll."
+
+msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
+msgstr ""
 
 #
 msgid "Select the shifted character set"
@@ -18589,6 +18676,9 @@ msgstr ""
 "\n"
 "OK drücken, um fortzufahren."
 
+msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
+msgstr ""
+
 msgid "Select update source location"
 msgstr "Updatequelle auswählen"
 
@@ -18632,6 +18722,9 @@ msgstr "Auswählen, was die Taste TV bewirken soll."
 
 msgid "Select what you want the UP/DOWN button to activate."
 msgstr "Auswählen, was die Tasten Hoch/Runter bewirken sollen."
+
+msgid "Select when, and how, the remote share will be mounted. For most purposes autofs is recommended."
+msgstr ""
 
 msgid "Select where the recording should be saved."
 msgstr "Auswählen, wohin die Aufnahme gespeichert werden soll."
@@ -18796,6 +18889,9 @@ msgstr "Ernste Musik/Klassische Musik"
 
 msgid "Serious/Classical/Religious/Historical/Drama"
 msgstr "Ernsthafter/klassischer/religiöser/historischer Film/Drama"
+
+msgid "Server"
+msgstr ""
 
 msgid "Server down"
 msgstr "Server ist Offline!"
@@ -20665,6 +20761,9 @@ msgstr "Gesellschaft / Kultur"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "Soft mount"
+msgstr ""
+
 msgid "SoftCSA Settings"
 msgstr "SoftCSA-Einstellungen"
 
@@ -20906,9 +21005,6 @@ msgstr "Großereignisse"
 
 msgid "Specify the directory to use when starting Media Player."
 msgstr "Das Verzeichnis auswählen, welches beim Starten des Mediaplayers verwendet werden soll."
-
-msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
-msgstr "Das Netzwerk-DNS-Suffix angeben, das verwendet werden soll, wenn nur der Hostname angegeben ist. Dies hilft dem DNS-Resolver, den angeforderten Host zu finden."
 
 msgid "Speed"
 msgstr "Geschwindigkeit"
@@ -22194,7 +22290,7 @@ msgstr "Der Picon-Ordner existiert bereits! Er muss entfernt werden. Fortfahren?
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr ""
-"Der Positionierer-Tuner ist zurzeit nicht verfügbar!\n"
+"Der Rotortuner ist zurzeit nicht verfügbar!\n"
 "Aufnahmen oder andere Dienste beenden, die diesen Tuner nutzen, und dann erneut versuchen."
 
 #, python-format
@@ -22882,6 +22978,9 @@ msgstr "Zeitleistenmarkierung"
 
 msgid "Timeline scale"
 msgstr "Zeitskala"
+
+msgid "Timeout"
+msgstr ""
 
 msgid "Timer Log Actions"
 msgstr "Timer-Log-Aktionen"
@@ -23877,6 +23976,9 @@ msgstr "User-Band für LNB 1 verwenden"
 msgid "Use MHW EPG information when it is available."
 msgstr "Bei 'Ja' werden MHW-EPG-Informationen verwendet, wenn sie verfügbar sind."
 
+msgid "Use NFS file locking"
+msgstr ""
+
 msgid "Use Netmed EPG information when it is available."
 msgstr "Bei 'Ja' werden Netmed-EPG-Informationen verwendet, wenn sie verfügbar sind."
 
@@ -23926,6 +24028,9 @@ msgstr "Alternativen GitHub-DNS verwenden"
 msgid "Use an alternative smaller screen."
 msgstr "Legt fest, ob eine alternative Anzeige verwendet werden soll."
 
+msgid "Use as HDD replacement"
+msgstr ""
+
 msgid "Use automatic mode detection"
 msgstr "Automatische Moduserkennung verwenden"
 
@@ -23971,6 +24076,9 @@ msgstr "Geolokalisierung zum Abrufen von WAN-Informationen verwenden"
 
 msgid "Use geolocation to set the current time zone location"
 msgstr "Standortbestimmung verwenden, um die aktuelle Zeitzone festzulegen"
+
+msgid "Use guest login"
+msgstr ""
 
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Bei Umschaltproblemen des LNBs (vertikal/horizontal), sehr langen Antennenkabeln oder Kabeln mit sehr dünnem Innenleiter die Voltzahl, normalerweise 14/18 Volt, erhöhen."
@@ -25019,11 +25127,17 @@ msgstr "Wenn aktiviert, bleibt dieser WLAN-Adapter ausschließlich im Wake-on-WL
 msgid "When enabled, this adapter will be initialized and activated at boot time."
 msgstr "Wenn aktiviert, wird dieser Adapter beim Systemstart aktiviert und initialisiert."
 
+msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
+msgstr ""
+
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Wenn diese Einstellung aktiviert ist, hat sie mehr Gewicht als “Bevorzugter Tuner für Aufnahmen”."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Wenn diese Einstellung aktiviert ist, hat sie mehr Gewicht als “Bevorzugter Tuner”."
+
+msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
+msgstr ""
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Wenn aktiviert, startet Timeshift automatisch nach der vorgegebenen Zeit."
@@ -25219,6 +25333,9 @@ msgstr "Die PIN %s dauerhaft speichern?"
 #
 msgid "Wrestling"
 msgstr "Wrestling"
+
+msgid "Write block size"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -26489,6 +26606,57 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Enter the primary IPv4 DNS setting for this adapter."
+#~ msgstr "Die primäre IPv4-DNS-Einstellung für diesen Adapter eingeben."
+
+#~ msgid "Enter the primary IPv6 DNS setting for this adapter. (Optional)"
+#~ msgstr "Die primäre IPv6-DNS-Einstellung für diesen Adapter eingeben. (Optional)"
+
+#~ msgid "Enter the secondary IPv4 DNS setting for this adapter. (Optional)"
+#~ msgstr "Die sekundäre IPv4-DNS-Einstellung für diesen Adapter eingeben. (Optional)"
+
+#~ msgid "Enter the secondary IPv6 DNS setting for this adapter. (Optional)"
+#~ msgstr "Die sekundäre IPv6-DNS-Einstellung für diesen Adapter eingeben. (Optional)"
+
+#~ msgid "Enter the workgroup name to be used by this receiver for Samba based connections. (Default is 'WORKGROUP'.)"
+#~ msgstr "Den Namen der Arbeitsgruppe eingeben, die dieser Receiver für Samba-basierte Verbindungen verwenden soll. (Standard ist 'WORKGROUP'.)"
+
+#~ msgid "Force a specific network link speed/duplex mode instead of auto-negotiation. Only change this if you have a specific reason as an incorrect setting can break network connectivity."
+#~ msgstr "Eine bestimmte Netzwerkverbindungsgeschwindigkeit bzw. einen Duplex-Modus anstelle der automatischen Aushandlung erzwingen. Diese Einstellung nur ändern, wenn es einen konkreten Grund dafür gibt, da eine falsche Einstellung die Netzwerkverbindung unterbrechen kann."
+
+#~ msgid "NFS Settings"
+#~ msgstr "NFS-Dateiserver"
+
+#~ msgid "Read Only"
+#~ msgstr "Nur Lesen"
+
+#~ msgid "Samba Settings"
+#~ msgstr "Samba"
+
+#~ msgid "Select the DNS server(s) that will be used to lookup the host name to resolve the IP address."
+#~ msgstr "DNS-Server zum Nachschlagen des Hostnamens auswählen, um die IP-Adresse zu ermitteln."
+
+#~ msgid "Select the mode of access, Read/Write or Read Only, applied to all automatically exported Samba shares."
+#~ msgstr "Den Zugriffsmodus für die automatisch exportierten Samba-Freigaben auswählen."
+
+#~ msgid "Select the mode of access, Read/Write or Read Only, applied to all exported directories."
+#~ msgstr "Den Zugriffsmodus auswählen, der für alle exportierten Verzeichnisse gilt."
+
+#~ msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then which should be preferred."
+#~ msgstr "Auswählen, ob IPv4, IPv6 oder beide Protokolle verwendet werden sollen. Wenn beide aktiviert sind, welches soll bevorzugt werden?"
+
+#~ msgid "Server must not enforce its own blocklist. Some servers may implement their own blacklists to block sites for parental control, ad blocking, etc. reasons."
+#~ msgstr "Der Server darf keine eigene Sperrliste durchsetzen. Einige Server implementieren sie aber möglicherweise, um Websites aus Gründen der Kindersicherung, der Werbeblockierung usw. zu sperren."
+
+#~ msgid "Specify the network domain name suffix to be applied when only the host name is provided. This helps the DNS resolver find the requested host."
+#~ msgstr "Das Netzwerk-DNS-Suffix angeben, das verwendet werden soll, wenn nur der Hostname angegeben ist. Dies hilft dem DNS-Resolver, den angeforderten Host zu finden."
+
+#~ msgid "When enabled, specify custom DNS settings for this adapter instead of the global DNS settings."
+#~ msgstr "Wenn aktiviert, benutzerdefinierte DNS-Einstellungen für diesen Adapter anstelle der globalen DNS-Einstellungen eingeben."
+
+#~ msgid "When enabled, this adapter is initialized and activated at boot time."
+#~ msgstr "Wenn aktiviert, wird dieser Adapter beim Systemstart aktiviert und initialisiert."
 
 #~ msgid "Automatic shares access"
 #~ msgstr "Auto-Share-Zugriff"
