@@ -1,23 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# jbleyel <jbleyel@gmx.net>, 2022.
+# jbleyel <jbleyel@gmx.net>, 2022, 2026.
 # MCelliotG <mcelliotg@gmail.com>, 2022, 2023, 2024, 2025, 2026.
 # GiannosOB <giannos2105@gmail.com>, 2025.
+# Deleted User <noreply+34829@weblate.org>, 2026.
+# Deleted User <noreply+110771@weblate.org>, 2026.
+# Massimo Pissarello <mapi68@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 07:09+0000\n"
-"PO-Revision-Date: 2026-06-15 03:01+0000\n"
-"Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
+"POT-Creation-Date: 2026-08-16 15:24+0000\n"
+"PO-Revision-Date: 2026-08-16 16:00+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -897,6 +900,12 @@ msgstr[0] "Αναβαθμίστηκε %d πακέτο από τον κατάλο
 msgstr[1] "Αναβαθμίστηκαν %d πακέτα από τον κατάλογο των πηγών."
 
 #, python-format
+msgid "%d host found."
+msgid_plural "%d hosts found."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d jobs are running in the background!"
 msgstr "%d εργασίες εκτελούνται στο παρασκήνιο!"
 
@@ -915,6 +924,12 @@ msgstr "%d λεπτά"
 #, python-format
 msgid "%d ms"
 msgstr "%d ms"
+
+#, python-format
+msgid "%d network found."
+msgid_plural "%d networks found."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%d package found."
@@ -1029,12 +1044,6 @@ msgstr "%d θέσεις έχουν δημιουργηθεί στη συσκευ�
 #, python-format
 msgid "%d times"
 msgstr "%d φορές"
-
-#, python-format
-msgid "%d wireless network found!"
-msgid_plural "%d wireless networks found!"
-msgstr[0] "Βρέθηκε %d ασύρματο δίκτυο!"
-msgstr[1] "Βρέθηκαν %d ασύρματα δίκτυα!"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -1263,6 +1272,22 @@ msgstr "%sΕμφάνιση 1080i ως 1080p"
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr "Το '%s' περιέχει %d αρχείο(α) και %d υπό-φακέλους.\n"
 
+#, python-format
+msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' is listed more than once in 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' mounted."
+msgstr ""
+
+#, python-format
+msgid "'%s' unmounted."
+msgstr ""
+
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Προφόρτωση σε ώρες' ή 'αριθμός τελευταίων προγραμμάτων'. Για τη διαγραφή των παλαιότερων χρονομετατοπίσεων, η συνθήκη που προέκυψε πρώτη έχει προτεραιότητα."
 
@@ -1359,6 +1384,9 @@ msgstr "1.2"
 msgid "10bit"
 msgstr "10bit"
 
+msgid "10th (Lowest)"
+msgstr ""
+
 msgid "12 character"
 msgstr "12 χαρακτήρες"
 
@@ -1410,6 +1438,9 @@ msgstr "16/9 επαναφορά στο κανονικό"
 msgid "18 V"
 msgstr "18 V"
 
+msgid "1st (Highest)"
+msgstr ""
+
 msgid "1st InfoBar timeout"
 msgstr "Χρόνος λήξης 1ης μπάρας πληροφοριών"
 
@@ -1418,6 +1449,9 @@ msgstr "1x"
 
 msgid "2"
 msgstr "2"
+
+msgid "2nd"
+msgstr ""
 
 msgid "2nd InfoBar"
 msgstr "Χρόνος λήξης 2ης μπάρας πληροφοριών"
@@ -1458,6 +1492,9 @@ msgstr "3D Surround"
 msgid "3D Surround Speaker Position"
 msgstr "Θέση ηχείου 3D surround"
 
+msgid "3rd"
+msgstr ""
+
 msgid "3x"
 msgstr "3x"
 
@@ -1476,6 +1513,9 @@ msgstr "4:3 μπάρες πάνω - κάτω"
 msgid "4:3 PanScan"
 msgstr "4:3 Παν-σάρωση"
 
+msgid "4th"
+msgstr ""
+
 msgid "4x"
 msgstr "4x"
 
@@ -1485,11 +1525,20 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
 
+msgid "5th"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
+msgid "6th"
+msgstr ""
+
 msgid "7"
 msgstr "7"
+
+msgid "7th"
+msgstr ""
 
 msgid "8"
 msgstr "8"
@@ -1500,8 +1549,14 @@ msgstr "8 χαρακτήρες"
 msgid "8bit"
 msgstr "8bit"
 
+msgid "8th"
+msgstr ""
+
 msgid "9"
 msgstr "9"
+
+msgid "9th"
+msgstr ""
 
 msgid "< Alternate Skin >"
 msgstr "< Εναλλακτικό θέμα >"
@@ -1639,15 +1694,6 @@ msgid "A required tool (%s) was not found."
 msgstr "Ένα απαιτούμενο εργαλείο (%s) δεν βρέθηκε."
 
 msgid ""
-"A second configured interface has been found.\n"
-"\n"
-"Do you want to disable the second network interface?"
-msgstr ""
-"Βρέθηκε ένα δεύτερο ρυθμισμένο δίκτυο.\n"
-"\n"
-"Θέλετε να απενεργοποιήσετε τον δεύτερο προσαρμογέα δικτύου;"
-
-msgid ""
 "A timer failed to record!\n"
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
 msgstr ""
@@ -1782,6 +1828,11 @@ msgstr ""
 msgid "Access point"
 msgstr "Σημείο πρόσβασης"
 
+msgid ""
+"Access point not found.\n"
+"Check it is in range and the SSID is correct."
+msgstr ""
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Η πρόσβαση στις πληροφορίες τοποθεσίας απαιτεί σύνδεση στο διαδίκτυο."
 
@@ -1821,14 +1872,8 @@ msgstr "Ενεργοποίηση των πλήκτρων επάνω/κάτω γ�
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr "Ενεργοποίηση ενός τρόπου αποστολής μεμονομένων ή συγκεκριμένων εσωτερικών εντολών HDMI-CEC μέσω της γραμμής εντολών."
 
-msgid "Activate network adapter configuration"
-msgstr "Ενεργοποίηση ρυθμίσεων προσαρμογέα δικτύου"
-
-msgid "Activate network settings"
-msgstr "Ενεργοποίηση ρυθμίσεων δικτύου"
-
-msgid "Activate the configured network settings."
-msgstr "Ενεργοποίηση των παραμετροποιημένων ρυθμίσεων δικτύου."
+msgid "Activate network adapter"
+msgstr ""
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr "Ενεργοποίηση επέκτασης μνήμης flash, αποθήκευση όλων των αλλαγών ρυθμίσεων και έξοδος"
@@ -1850,6 +1895,13 @@ msgstr "Ενεργοί πελάτες"
 
 msgid "Active only"
 msgstr "Μόνο τα ενεργά"
+
+msgid "Adapter"
+msgstr ""
+
+#, python-format
+msgid "Adapter '%s' Context Menu"
+msgstr ""
 
 msgid "Adapter Settings"
 msgstr "Ρυθμίσεις προσαρμογέα δικτύου"
@@ -1893,6 +1945,9 @@ msgstr "Προσθήκη HDMI IN στο μπουκέτο"
 msgid "Add Marker To Bouquet"
 msgstr "Προσθήκη σημειωτή σε μπουκέτο"
 
+msgid "Add Mount Manually"
+msgstr ""
+
 msgid "Add New Quad Channel Entry"
 msgstr "Προσθήκη νέου στοιχείου τετραπλού καναλιού"
 
@@ -1916,6 +1971,12 @@ msgstr "Προσθήκη χρονοδιακόπτη"
 
 msgid "Add To Parental Protection"
 msgstr "Προσθήκη στον γονικό έλεγχο"
+
+msgid "Add Wi-Fi"
+msgstr ""
+
+msgid "Add Wi-Fi Manually"
+msgstr ""
 
 msgid "Add Zap+RecordTimer"
 msgstr "Προσθήκη χρονοδιακόπτη μετάβασης+εγγραφής"
@@ -1943,6 +2004,9 @@ msgstr "Προσθήκη χρονοδιακόπτη μετάβασης για τ
 
 msgid "Add a mark"
 msgstr "Προσθήκη σημειωτή"
+
+msgid "Add a new Saved Wi-Fi Network"
+msgstr ""
 
 msgid "Add a new bouquet"
 msgstr "Προσθήκη νέου μπουκέτου"
@@ -2499,9 +2563,6 @@ msgstr "Θέλετε σίγουρα να αφαιρεθούν όλες οι επ
 msgid "Are you sure to remove this entry?"
 msgstr "Θέλετε σίγουρα να αφαιρεθεί αυτό το στοιχείο;"
 
-msgid "Are you sure you want to activate this network configuration?"
-msgstr "Θέλετε σίγουρα να ενεργοποιηθεί αυτή η ρύθμιση δικτύου;"
-
 msgid ""
 "Are you sure you want to delete\n"
 "the following backup:\n"
@@ -2526,9 +2587,6 @@ msgstr "Θέλετε σίγουρα να γίνει έξοδος από αυτό
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "Θέλετε σίγουρα να φορτωθούν τα δεδομένα EPG από το:\n"
-
-msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Θέλετε σίγουρα να γίνει επανεκκίνηση των διεπαφών δικτύου;"
 
 #, python-format
 msgid ""
@@ -2638,6 +2696,9 @@ msgstr "Ορισμένα CAIds:"
 
 msgid "Assigned services/provider:"
 msgstr "Ορισμένες υπηρεσίες/πάροχοι:"
+
+msgid "Associated"
+msgstr ""
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19.2e"
@@ -2900,8 +2961,8 @@ msgstr "Μπλε παρατεταμένο"
 msgid "BLUE switch: BLUE/BLUE long"
 msgstr "Εναλλαγή Μπλε: Μπλε σύντομο/Μπλε παρατεταμένο"
 
-msgid "Back"
-msgstr "Πίσω"
+msgid "BSSID"
+msgstr ""
 
 msgid "Back USB"
 msgstr "Πίσω USB"
@@ -3303,6 +3364,9 @@ msgstr "Broadcom"
 msgid "Broadcom default"
 msgstr ""
 
+msgid "Browse"
+msgstr ""
+
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Περιήγηση, εγκατάσταση ή αφαίρεση προσθέτων ένα προς ένα."
 
@@ -3361,6 +3425,9 @@ msgstr "Εγγραφή σε μέσο"
 
 msgid "Burundi"
 msgstr "Μπουρουντί"
+
+msgid "Bus"
+msgstr ""
 
 msgid "Business"
 msgstr "Επιχειρήσεις"
@@ -3543,6 +3610,9 @@ msgstr "Καλωδιακό"
 
 msgid "Cable Scan"
 msgstr "Καλωδιακή ανίχνευση"
+
+msgid "Cable Unplugged"
+msgstr ""
 
 msgid "Cable input"
 msgstr ""
@@ -4293,6 +4363,9 @@ msgstr "Εκκαθάριση"
 msgid "Clear Log"
 msgstr "Εκκαθάριση καταγραφολογίου"
 
+msgid "Clear Stored Credentials"
+msgstr ""
+
 msgid "Clear before scan"
 msgstr "Εκκαθάριση πριν την ανίχνευση"
 
@@ -4357,6 +4430,9 @@ msgstr "Κλείσιμο λίστας μπουκέτων."
 
 msgid "Close dialog"
 msgstr "Κλείσιμο διαλόγου"
+
+msgid "Close network test"
+msgstr ""
 
 msgid "Close screen"
 msgstr "Κλείσιμο οθόνης"
@@ -4550,14 +4626,17 @@ msgstr "Τύπος ρύθμισης"
 msgid "Configuration options for the HELP screen can be found in 'MENU > Setup > Usage & User Interface > Settings'."
 msgstr "Οι επιλογές ρυθμίσεων για την οθόνη βοήθειας βρίσκονται στη διαδρομή 'MENU > Ρυθμίσεις > Χρήση και διεπαφή χρήστη > Ρυθμίσεις'."
 
-msgid "Configure DNS (name servers)"
-msgstr "Ρύθμιση διακομιστών ονομάτων (DNS)"
+msgid "Configure DNS (Dynamic Name Server)"
+msgstr ""
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Ρύθμιση πρόσθετης καθυστέρησης για βελτίωση του συγχρονισμού των εξωτερικών υποτίτλων."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Ρύθμιση πρόσθετης καθυστέρησης για βελτίωση του συγχρονισμού των υποτίτλων."
+
+msgid "Configure another network adapter"
+msgstr ""
 
 msgid "Configure cable reception on this input."
 msgstr ""
@@ -4607,20 +4686,17 @@ msgstr "Ρυθμίστε αν θα εμφανίζονται τα εικονίδ�
 msgid "Configure if the subtitle should switch between normal, italic, bold and bold italic."
 msgstr "Ρυθμίστε αν ο υπότιτλος θα πρέπει να αλλάζει μεταξύ του κανονικού, πλάγιου, έντονου ή έντονου πλάγιου."
 
-msgid "Configure interface"
-msgstr "Ρύθμιση διεπαφής"
+msgid "Configure network adapter"
+msgstr ""
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr "Ρυθμίστε σε ποιες συσκευές η δυνατότητα διαγραφής παρασκήνιου θα πρέπει να χρησιμοποιείται."
 
 msgid ""
-"Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+"Configure or verify your DNS (Dynamic Name Server) settings by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
-"Ρυθμίστε ή επαληθεύστε τους διακομιστές ονομάτων DNS, προσαρμόζοντας τις τιμές που εμφανίζονται. \n"
-"\n"
-"Όταν οι ρυθμίσεις είναι σωστές, πιέστε OK για να συνεχίσετε."
 
 msgid "Configure remote control type"
 msgstr "Ρύθμιση τύπου τηλεχειριστηρίου"
@@ -4634,20 +4710,8 @@ msgstr ""
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Ρύθμιση λειτουργίας DiSEqC για αυτό το LNB."
 
-msgid "Configure the IP address."
-msgstr "Ρύθμιση της διεύθυνσης IP."
-
 msgid "Configure the IP of the fallback remote receiver."
 msgstr "IP του εφεδρικού απομακρυσμένου δέκτη."
-
-msgid ""
-"Configure the Internet connection by adjusting the values shown.\n"
-"\n"
-"When the settings are correct press OK to continue."
-msgstr ""
-"Ρυθμίστε τη σύνδεση στο διαδίκτυο προσαρμόζοντας τις τιμές που εμφανίζονται.\n"
-"\n"
-"Όταν οι ρυθμίσεις είναι σωστές, πιέστε OK για να συνεχίσετε."
 
 msgid "Configure the Port of the fallback remote receiver."
 msgstr "Θύρα του εφεδρικού απομακρυσμένου δέκτη."
@@ -4751,9 +4815,6 @@ msgstr "Ρύθμιση λειτουργίας στιγμιαίας πίεσης 
 msgid "Configure the function of the < and > buttons."
 msgstr "Ρύθμιση της λειτουργίας των πλήκτρων < και >."
 
-msgid "Configure the gateway."
-msgstr "Ρύθμιση πύλης δικτύου."
-
 msgid "Configure the hard disk drive to go to Standby after the specified idle time when the receiver is in Standby."
 msgstr "Ρύθμιση μετάβασης του σκληρού δίσκου σε αναμονή μετά τον ορισμένο χρόνο αδράνειας κατά την αναμονή του δέκτη."
 
@@ -4783,15 +4844,6 @@ msgstr "Ρύθμιση της ελάχιστης διαθέσιμης χωρητ
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
 msgstr "Ρύθμιση του ελάχιστου πλάτους πριν την εμφάνιση του εικονιδίου 'i', το '0' σημαίνει απόκρυψη του εικονιδίου."
-
-msgid "Configure the name server (DNS)."
-msgstr "Ρύθμιση του διακομιστή ονομάτων (DNS)."
-
-msgid "Configure the netmask."
-msgstr "Ρύθμιση μάσκας δικτύου."
-
-msgid "Configure the network again"
-msgstr "Ρύθμιση του δικτύου εκ νέου"
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr "Ρύθμιση του αριθμού ημερών μετά τις οποίες τα περιεχόμενα του κάδου αχρήστου θα αφαιρούνται αυτόματα."
@@ -4825,6 +4877,9 @@ msgstr "Ρύθμιση της δεύτερης γλώσσας υποτίτλων
 
 msgid "Configure the secondary EPG language."
 msgstr "Ρύθμιση της δευτερεύουσας γλώσσας του EPG."
+
+msgid "Configure the selected Wi-Fi network"
+msgstr ""
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
 msgstr "Ρύθμιση του μεσοδιαστήματος υπερπήδησης για τα πλήκτρα '1'/'3'."
@@ -4925,17 +4980,8 @@ msgstr "Ρυθμίστε ποιο tuner θα προτιμάται, όταν πε
 msgid "Configure your NTP server."
 msgstr "Ρύθμιση του διακομιστή NTP."
 
-msgid "Configure your Network"
-msgstr "Ρυθμίσεις του δικτύου σας"
-
-msgid "Configure your internal LAN"
-msgstr "Ρυθμίσεις εσωτερικού δικτύου"
-
 msgid "Configure your network settings, and press OK to start the scan"
 msgstr "Ρυθμίστε το δίκτυο και πιέστε ΟΚ για ξεκινήσει η ανίχνευση"
-
-msgid "Configure your wireless LAN again"
-msgstr "Ρύθμιση του ασύρματου δικτύου εκ νέου"
 
 msgid "Configures which video output connector will be used."
 msgstr "Ρυθμίζει ποιος τύπος σύνδεσης εξόδου εικόνας θα χρησιμοποιηθεί."
@@ -4947,6 +4993,10 @@ msgid "Configuring Service"
 msgstr "Παραμετροποίηση υπηρεσίας"
 
 msgid "Confirm Zap"
+msgstr ""
+
+#, python-format
+msgid "Confirm the deletion of '%s'?"
 msgstr ""
 
 msgid "ConflictTimer Actions"
@@ -4968,11 +5018,14 @@ msgstr "Σύνδεση"
 msgid "Connect to IceTV server every"
 msgstr "Σύνδεση στον διακομιστή IceTV κάθε"
 
-msgid "Connect to a wireless network"
-msgstr "Σύνδεση σε ασύρματο δίκτυο"
-
 msgid "Connect to the Internet"
 msgstr "Σύνδεση στο διαδίκτυο"
+
+msgid "Connect to the selected Saved Wi-Fi Network"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
 
 msgid "Connected clients"
 msgstr "Συνδεδεμένοι πελάτες"
@@ -4989,8 +5042,26 @@ msgstr "Συνδέθηκε με"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr "Συνδεδεμένο transcoding, όριο - όχι PiP!"
 
+msgid ""
+"Connected, but no IP address was received.\n"
+"Check the router's DHCP settings."
+msgstr ""
+
+#, python-format
+msgid ""
+"Connected.\n"
+"IP address is '%s'."
+msgstr ""
+
 msgid "Connected: "
 msgstr "Σύνδεση: "
+
+#, python-format
+msgid "Connecting To '%s'"
+msgstr ""
+
+msgid "Connecting..."
+msgstr ""
 
 msgid "Connection information"
 msgstr "Πληροφορίες σύνδεσης"
@@ -5040,6 +5111,9 @@ msgstr "Περιεχόμενα"
 
 msgid "Continent"
 msgstr "Ήπειρος"
+
+msgid "Continue"
+msgstr ""
 
 msgid "Continue in background"
 msgstr "Συνέχεια στο παρασκήνιο"
@@ -5187,8 +5261,22 @@ msgstr "Κόστα Ρίκα"
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Ακτή Ελεφαντοστού"
 
+#, python-format
+msgid "Could not connect (status '%s')."
+msgstr ""
+
 msgid "Could not connect to server"
 msgstr "Αδυναμία σύνδεσης στον διακομιστή"
+
+msgid ""
+"Could not connect.\n"
+"Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
+msgstr ""
+
+msgid ""
+"Could not connect.\n"
+"Wrong Wi-Fi password?"
+msgstr ""
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr "Το μέσο δεν φορτώθηκε! Δεν έγινε εισαγωγή δίσκου;"
@@ -5211,6 +5299,12 @@ msgstr "Αδυναμία εγγραφής λόγω μη έγκυρης υπηρ�
 #, python-format
 msgid "Could not save configuration file %s!"
 msgstr "Αδυναμία αποθήκευσης του αρχείου ρυθμίσεων %s!"
+
+msgid ""
+"Could not verify the saved Wi-Fi network.\n"
+"\n"
+"Do you want to change the settings again?"
+msgstr ""
 
 msgid "Country"
 msgstr "Χώρα"
@@ -5335,6 +5429,13 @@ msgstr ""
 msgid "Creating partition"
 msgstr "Δημιουργία κατάτμησης"
 
+msgid "Credentials"
+msgstr ""
+
+#, python-format
+msgid "Credentials for '%s'"
+msgstr ""
+
 msgid "Cree"
 msgstr "Κρι"
 
@@ -5434,9 +5535,6 @@ msgstr ""
 
 msgid "Current rotor position: unknown"
 msgstr ""
-
-msgid "Current settings:"
-msgstr "Τρέχουσες ρυθμίσεις:"
 
 msgid "Current supplied to the LNB and positioner."
 msgstr ""
@@ -5542,9 +5640,6 @@ msgstr "D"
 msgid "DAC"
 msgstr "DAC"
 
-msgid "DHCP"
-msgstr "DHCP"
-
 msgid "DLNA support"
 msgstr "Υποστήριξη DLNA"
 
@@ -5556,6 +5651,9 @@ msgstr "DMM κανονικό"
 
 msgid "DNS Settings"
 msgstr "Ρυθμίσεις DNS"
+
+msgid "DNS Settings Actions"
+msgstr ""
 
 msgid "DNS data source"
 msgstr "Πηγή δεδομένων DNS"
@@ -5829,8 +5927,14 @@ msgstr "Απενεργοποίηση"
 msgid "Deactivate Expander"
 msgstr "Απενεργοποίηση επέκτασης"
 
+msgid "Deactivate network adapter"
+msgstr ""
+
 msgid "Deactivate the flash expander in the selected device"
 msgstr "Απενεργοποίηση της επέκτασης flash στην τρέχουσα συσκευή"
+
+msgid "Deactivated"
+msgstr ""
 
 msgid "Debug"
 msgstr "Αποσφαλμάτωση"
@@ -6083,6 +6187,12 @@ msgstr "Διαγραφή image"
 msgid "Delete Line"
 msgstr "Διαγραφή γραμμής"
 
+msgid "Delete Mount"
+msgstr ""
+
+msgid "Delete Network"
+msgstr ""
+
 msgid "Delete Plugins"
 msgstr "Διαγραφή προσθέτων"
 
@@ -6313,9 +6423,6 @@ msgstr "Διαχείριση συσκευών"
 msgid "Device Manager Actions"
 msgstr "Ενέργειες διαχείρισης συσκευών"
 
-msgid "Device Settings"
-msgstr "Ρυθμίσεις συσκευών"
-
 msgid "Device id"
 msgstr "Id συσκευής"
 
@@ -6425,6 +6532,9 @@ msgstr "Πληροφορίες κατάστασης φακέλου/αρχείο�
 msgid "Disable"
 msgstr "Απενεργοποίηση"
 
+msgid "Disable Adapter"
+msgstr ""
+
 msgid "Disable Animations"
 msgstr "Απενεργοποίηση κινούμενων γραφικών"
 
@@ -6449,6 +6559,9 @@ msgstr "Απενεργοποίηση MiniTV"
 msgid "Disable Move Mode"
 msgstr "Απενεργοποίηση λειτουργίας μετακίνησης"
 
+msgid "Disable Network"
+msgstr ""
+
 msgid "Disable Picture in Picture"
 msgstr "Απενεργοποίηση Εικόνας σε Εικόνα"
 
@@ -6467,6 +6580,9 @@ msgstr "Απενεργοποίηση οθόνης υποδοχής"
 msgid "Disable operator profiles"
 msgstr "Απενεργοποίηση προφίλ παρόχου"
 
+msgid "Disable saved Wi-Fi network"
+msgstr ""
+
 msgid "Disable the HDD Process on VFD."
 msgstr "Απενεργοποίηση ενεργειών HDD στην οθόνη VFD."
 
@@ -6482,11 +6598,11 @@ msgstr "Ανενεργό"
 msgid "Disabled PiP.\n"
 msgstr "Το PiP απενεργοποιήθηκε.\n"
 
-msgid "Disabled or WPA/WPA2"
-msgstr "Ανενεργό ή WPA/WPA2"
-
 msgid "Disabling Chkroot failed!"
 msgstr "Η απενεργοποίηση του Chkroot απέτυχε!"
+
+msgid "Disconnected"
+msgstr ""
 
 msgid "Discussion"
 msgstr "Συζητήσεις"
@@ -6922,6 +7038,9 @@ msgstr "Φορμά δεδομένων DVD Dreambox (HDTV συμβατό)"
 msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr "Φορμά δεδομένων DVD Dreambox (μη συμβατό με άλλες συσκευές DVD)"
 
+msgid "Driver"
+msgstr ""
+
 msgid "Driver Packages"
 msgstr "Πακέτα προγραμμάτων οδήγησης"
 
@@ -7086,6 +7205,9 @@ msgstr "Επεξεργασία"
 msgid "Edit Alternatives"
 msgstr "Επεξεργασία εναλλακτικών"
 
+msgid "Edit Credentials"
+msgstr ""
+
 msgid "Edit Mode Off"
 msgstr "Επεξεργασία ανενεργή"
 
@@ -7107,6 +7229,9 @@ msgstr "Επεξεργασία τίτλου"
 msgid "Edit Upgrade Source URL"
 msgstr "Επεξεργασία της διεύθυνσης της πηγής αναβαθμίσεων"
 
+msgid "Edit Username/Password Credentials"
+msgstr ""
+
 msgid "Edit chapters of current title"
 msgstr "Επεξεργασία κεφαλαίων του τρέχοντα τίτλου"
 
@@ -7116,25 +7241,20 @@ msgstr "Επεξεργασία τρέχουσας γραμμής"
 msgid "Edit settings"
 msgstr "Επεξεργασία ρυθμίσεων"
 
+msgid "Edit stored username/password credentials for the selected host"
+msgstr ""
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "Επεξεργασία ονόματος διακομιστή CCcam/NewCamd."
 
 msgid "Edit the CCcam/NewCamd server port."
 msgstr "Επεξεργασία θύρας διακομιστή CCcam/NewCamd."
 
-#, python-format
-msgid "Edit the DNS configuration of your %s %s."
-msgstr "Επεξεργασία της ρύθμισης διακομιστή ονομάτων του %s %s σας."
-
 msgid "Edit the NewCamd DES Key."
 msgstr "Επεξεργασία κλειδιού NewCamd DES."
 
 msgid "Edit the currently selected timer"
 msgstr "Επεξεργασία του τρέχοντος επιλεγμένου χρονοδιακόπτη"
-
-#, python-format
-msgid "Edit the network configuration of your %s %s."
-msgstr "Επεξεργασία των ρυθμίσεων δικτύου του %s %s σας."
 
 msgid "Edit the password."
 msgstr "Επεξεργασία κωδικού πρόσβασης."
@@ -7147,6 +7267,9 @@ msgstr "Επεξεργασία απομακρυσμένης θύρας CCcam."
 
 msgid "Edit the remote IP address."
 msgstr "Επεξεργασία απομακρυσμένης διεύθυνσης IP."
+
+msgid "Edit the selected network mount"
+msgstr ""
 
 msgid "Edit the upgrade source address."
 msgstr "Επεξεργασία διεύθυνσης πηγής αναβαθμίσεων."
@@ -7245,9 +7368,6 @@ msgstr "Ενεργοποίηση των καταγραφών αποσφαλμά�
 msgid "Enable GStreamer pipeline graphs *"
 msgstr "Ενεργοποίηση των γραφικών παραστάσεων του GStreamer *"
 
-msgid "Enable IPv6"
-msgstr "Ενεργοποίηση IPv6"
-
 msgid "Enable IceTV"
 msgstr "Ενεργοποίηση IceTV"
 
@@ -7299,8 +7419,8 @@ msgstr "Ενεργοποίηση ViaSat EPG"
 msgid "Enable Virgin EPG"
 msgstr "Ενεργοποίηση Virgin EPG"
 
-msgid "Enable Wake On LAN"
-msgstr "Ενεργοποίηση αφύπνισης σε δίκτυο"
+msgid "Enable adapter"
+msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Ενεργοποίηση και ορισμός της διάρκειας της δεύτερης μπάρας πληροφοριών (πιέστε 'ΟΚ' δύο φορές) που μπορεί να περιλαμβάνει πρόσθετες πληροφορίες για την τρέχουσα υπηρεσία."
@@ -7378,6 +7498,9 @@ msgstr "Ενεργοποίηση παρακολούθησης UI"
 msgid "Enable multiple bouquets"
 msgstr "Ενεργοποίηση πολλαπλών μπουκέτων"
 
+msgid "Enable network"
+msgstr ""
+
 msgid "Enable network traffic check"
 msgstr "Ενεργοποίηση ελέγχου κίνησης δικτύου"
 
@@ -7398,6 +7521,9 @@ msgstr "Ενεργοποίηση προεπισκόπησης"
 
 msgid "Enable remote receiver to be tried to tune into services that can't be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner). Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_receiver:8001."
 msgstr "Χρήση απομακρυσμένου enigma2 δέκτη για υπηρεσίες που δεν δύναται να συντονιστούν τοπικά (π.χ. το tuner είναι απασχολημένο ή ο τύπος της υπηρεσίας δεν είναι διαθέσιμος στο τοπικό tuner). Πρέπει να οριστεί μία διεύθυνση URL που να συμπεριλαμβάνει το http:// και τον αριθμό θύρας (συνήθως ...:8001), π.χ. http://δεύτερος_δέκτης:8001."
+
+msgid "Enable saved Wi-Fi network"
+msgstr ""
 
 msgid "Enable teletext caching"
 msgstr "Ενεργοποίηση αποθήκευσης τηλεκειμένου"
@@ -7498,20 +7624,8 @@ msgstr "Ενεργό"
 msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
 msgstr "Ενεργοποιεί μια λειτουργία ώστε ο δέκτης να αποκωδικοποιεί τις ροές (αν τα δεδομένα ECM συμπεριλαμβάνονται στη ροή και υπάρχει ενεργή κάρτα διαθέσιμη)."
 
-msgid "Encrypted: "
-msgstr "Ασφάλεια: "
-
 msgid "Encryption"
 msgstr "Κωδικοποίηση"
-
-msgid "Encryption Type:"
-msgstr "Τύπος κρυπτοποίησης:"
-
-msgid "Encryption key"
-msgstr "Κλειδί ασφαλείας"
-
-msgid "Encryption key type"
-msgstr "Τύπος κλειδιού ασφαλείας"
 
 msgid "End"
 msgstr "Τέλος"
@@ -7678,6 +7792,9 @@ msgstr ""
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr "Ορισμός επιθήματος DNS."
+
+msgid "Enter the network hostname to be used to identify this receiver."
+msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr ""
@@ -7875,44 +7992,6 @@ msgstr "Καθυστέρηση προσπάθειας σφάλματος"
 msgid "Error code"
 msgstr "Κωδικός σφάλματος"
 
-msgid ""
-"Error creating EHD-Skin.\n"
-"Using HD-Skin!"
-msgstr ""
-"Σφάλμα δημιουργίας θέματος EHD.\n"
-"Χρήση θέματος HD!"
-
-msgid ""
-"Error creating EHD-Skin. Icon package download not available.\n"
-"Using HD-Skin!"
-msgstr ""
-"Σφάλμα δημιουργίας θέματος EHD. Μη διαθέσιμη λήψη πακέτου εικονιδίων.\n"
-"Χρήση θέματος HD!"
-
-msgid ""
-"Error creating EHD-Skin. Not enough flash memory free.\n"
-"Using HD-Skin!"
-msgstr ""
-"Σφάλμα δημιουργίας θέματος EHD. Ανεπαρκής ελεύθερη μνήμη flash.\n"
-"Χρήση θέματος HD!"
-
-msgid ""
-"Error creating EHD-Skin. Some EHD-Icons are missing.\n"
-"Using HD-Skin!"
-msgstr ""
-"Σφάλμα δημιουργίας θέματος EHD. Λείπουν κάποια εικονίδια EHD.\n"
-"Χρήση θέματος HD!"
-
-msgid "Error creating HD-Skin. Not enough flash memory free."
-msgstr "Σφάλμα δημιουργίας θέματος FullHD. Ανεπαρκής ελεύθερη μνήμη flash."
-
-msgid ""
-"Error creating MetrixHD-Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Σφάλμα δημιουργίας θέματος MetrixHD.\n"
-"Ελέγξτε μετά την επανεκκίνηση το πρόσθετο MyMetrixLite και εφαρμόστε τις ρυθμίσεις σας."
-
 #, python-format
 msgid "Error downloading image '%s'!"
 msgstr "Σφάλμα λήψης του image '%s'!"
@@ -7961,9 +8040,6 @@ msgstr "Σφάλμα εγγραφής του '/etc/enigma2/epg.dat' στον α�
 msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr "Σφάλμα κατά την αποθήκευση του epg.dat στον εφεδρικό δέκτη!"
 
-msgid "Error, unknown Result!"
-msgstr "Σφάλμα, άγνωστο αποτέλεσμα!"
-
 #, python-format
 msgid ""
 "Error: %s\n"
@@ -7974,6 +8050,9 @@ msgstr ""
 
 msgid "Error: An empty filename is illegal!"
 msgstr "Σφάλμα: Ένα κενό όνομα αρχείου δεν είναι έγκυρο!"
+
+msgid "Error: Both 'server' and 'remote path' are required!"
+msgstr ""
 
 msgid "Error: Cannot find any images!"
 msgstr "Σφάλμα: αδυναμία εύρεσης για images!"
@@ -8027,12 +8106,19 @@ msgid "Error: It is not possible to run '%s' on '%s'!"
 msgstr "Σφάλμα: Δεν είναι δυνατή η εκτέλεση του '%s' στο '%s'!"
 
 #, python-format
+msgid "Error: Mounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
 msgstr "Σφάλμα: Το πρόγραμμα '%s' δεν είναι εγκατεστημένο και το πακέτο που το περιέχει είναι άγνωστο!"
 
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Σφάλμα: Η διαγραφή του φακέλου '%s' απέτυχε! (Ίσως δεν είναι κενός.)"
+
+msgid "Error: Rescan failed!"
+msgstr ""
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8083,6 +8169,10 @@ msgid "Error: Unable to write log file '%s'!"
 msgstr "Σφάλμα: Αδυναμία εγγραφής αρχείου καταγραφής '%s'!"
 
 #, python-format
+msgid "Error: Unmounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Σφάλμα: Δεν μπορείτε να εκτελέσετε το '%s' στο '%s'!"
 
@@ -8104,6 +8194,9 @@ msgstr "Εσθονικά"
 
 msgid "EtPortal"
 msgstr "EtPortal"
+
+msgid "Ethernet Adapter"
+msgstr ""
 
 msgid "Ethernet network interface"
 msgstr "Διεπαφή ενσύρματου δικτύου"
@@ -8239,18 +8332,6 @@ msgstr "Μενού εξόδου"
 msgid "Exit movie player?"
 msgstr "Έξοδος από την αναπαραγωγή ταινιών;"
 
-msgid "Exit network adapter configuration"
-msgstr "Έξοδος από ρύθμιση προσαρμογέα δικτύου"
-
-msgid "Exit network adapter setup menu"
-msgstr "Έξοδος από τη ρύθμιση προσαρμογέα δικτύου"
-
-msgid "Exit network interface list"
-msgstr "Έξοδος από τη λίστα διεπαφών δικτύου"
-
-msgid "Exit network wizard"
-msgstr "Έξοδος από τον οδηγό δικτύου"
-
 msgid "Exit picture viewer"
 msgstr "Έξοδος από την προβολή εικόνων"
 
@@ -8269,6 +8350,9 @@ msgstr "Έξοδος χωρίς να γίνει εφεδρεία"
 msgid "Expand"
 msgstr "Επέκταση"
 
+msgid "Expand/collapse the selected host, or use the selected share"
+msgstr ""
+
 msgid "Experimental film/video"
 msgstr "πειραματικές ταινίες/βίντεο"
 
@@ -8283,6 +8367,9 @@ msgstr "Εξειδικευμένο"
 
 msgid "Expert mode"
 msgstr "Προχωρημένη λειτουργία"
+
+msgid "Exports"
+msgstr ""
 
 msgid "Exposure bias"
 msgstr "Απόκλιση έκθεσης"
@@ -8301,12 +8388,6 @@ msgstr "Επέκταση"
 
 msgid "Extended"
 msgstr "Εκτεταμένο"
-
-msgid "Extended Networksetup Plugin..."
-msgstr "Πρόσθετο προχωρημένων ρυθμίσεων δικτύου..."
-
-msgid "Extended Setup..."
-msgstr "Προχωρημένες ρυθμίσεις..."
 
 msgid "Extended Shares"
 msgstr "Επιπρόσθετα κοινόχρηστα στοιχεία"
@@ -8757,9 +8838,6 @@ msgstr "Μικρορύθμιση"
 msgid "Finished"
 msgstr "Ολοκληρώθηκε"
 
-msgid "Finished configuring your network"
-msgstr "Ολοκλήρωση ρύθμισης δικτύου"
-
 msgid "Finland"
 msgstr "Φινλανδία"
 
@@ -8859,14 +8937,14 @@ msgstr "Επιπεδοποίηση μέσω ομάδας πλήκτρων στο
 msgid "Flat by position on remote"
 msgstr "Επιπεδοποίηση μέσω θέσης στο τηλεχειριστήριο"
 
+msgid "Flush Cache and Rescan"
+msgstr ""
+
 msgid "Folk and Country"
 msgstr "Παραδοσιακή και Κάντρι"
 
 msgid "Folk/Traditional music"
 msgstr "λαϊκή/παραδοσιακή μουσική"
-
-msgid "Follow instructions on TV"
-msgstr "Ακολουθήστε τις οδηγίες στην TV"
 
 msgid "Font size"
 msgstr "Μέγεθος γραμματοσειράς"
@@ -8975,9 +9053,6 @@ msgstr "Νότιες Γαλλικές Περιοχές"
 
 msgid "Frequency"
 msgstr "Συχνότητα"
-
-msgid "Frequency Norm:"
-msgstr "Νόρμα συχνότητας:"
 
 msgid "Frequency bands"
 msgstr "Μπάντες συχνοτήτων"
@@ -9787,6 +9862,9 @@ msgstr "INS"
 msgid "IP"
 msgstr "IP"
 
+msgid "IP Address"
+msgstr ""
+
 msgid "IP Address 1"
 msgstr "Διεύθυνση IP 1"
 
@@ -9819,6 +9897,9 @@ msgstr ""
 
 msgid "IPK Installer"
 msgstr "Εγκατάσταση IPK"
+
+msgid "IPv4 and IPv6"
+msgstr ""
 
 msgid "IPv4 only"
 msgstr "Μόνο IPv4"
@@ -10389,9 +10470,6 @@ msgstr "Διεπαφή"
 msgid "Interface '%s'"
 msgstr "Διεπαφή '%s'"
 
-msgid "Interface: "
-msgstr "Διεπαφή: "
-
 msgid "Interlaced"
 msgstr "Πεπλεγμένο"
 
@@ -10748,11 +10826,11 @@ msgstr "Κιργιζία"
 msgid "LAN"
 msgstr "Δίκτυο"
 
-msgid "LAN adapter"
-msgstr "Προσαρμογέας LAN"
-
 msgid "LAN connection"
 msgstr "Σύνδεση δικτύου"
+
+msgid "LAN link"
+msgstr ""
 
 msgid "LCD scroll speed"
 msgstr "Ταχύτητα κύλισης LCD"
@@ -10958,6 +11036,9 @@ msgstr "Αριστερό, μπροστά USB"
 msgid "Left, wrapped"
 msgstr "Αριστερά, σε αναδίπλωση"
 
+msgid "Legacy (SMB1)"
+msgstr ""
+
 msgid "Legacy mode"
 msgstr "Λειτουργία παλαιού τύπου"
 
@@ -11050,17 +11131,11 @@ msgstr "Λιγκάλα"
 msgid "Link detected"
 msgstr "Σύνδεση που εντοπίστηκε"
 
-msgid "Link quality:"
-msgstr "Ποιότητα σύνδεσης:"
-
 msgid "Link speed"
 msgstr ""
 
 msgid "Link target"
 msgstr "Προορισμός συνδέσμου"
-
-msgid "Link:"
-msgstr "Σύνδεση:"
 
 msgid "Linked titles with a DVD menu"
 msgstr "Τίτλοι συνδεδεμένοι με μενού DVD"
@@ -11073,9 +11148,6 @@ msgstr "Ενέργειες πλοήγησης λίστας"
 
 msgid "List available EPG functions"
 msgstr "Λίστα διαθέσιμων λειτουργιών EPG"
-
-msgid "List available networks"
-msgstr "Λίστα διαθέσιμων δικτύων"
 
 msgid "List of Storage Devices"
 msgstr "Λίστα συσκευών αποθήκευσης"
@@ -11142,9 +11214,6 @@ msgstr "Τοπική ημερομηνία/ώρα"
 
 msgid "Local information"
 msgstr "Τοπικές πληροφορίες"
-
-msgid "Local network"
-msgstr "Τοπικό δίκτυο"
 
 msgid "Local or Regional"
 msgstr "Τοπικό η περιφερειακό"
@@ -11324,10 +11393,10 @@ msgstr "Λουξεμβουργιανά"
 msgid "M2k Packages"
 msgstr "Πακέτα M2k"
 
-msgid "MAC address"
-msgstr "Διεύθυνση MAC"
+msgid "MAC Address"
+msgstr ""
 
-msgid "MAC-address"
+msgid "MAC address"
 msgstr "Διεύθυνση MAC"
 
 msgid "MENU"
@@ -11472,9 +11541,6 @@ msgstr "Χειροκίνητη ανίχνευση"
 msgid "Manual Service Searching"
 msgstr "Χειροκίνητη ανίχνευση υπηρεσιών"
 
-msgid "Manual configuration"
-msgstr "Χειροκίνητη ρύθμιση"
-
 msgid "Manual scan for services"
 msgstr "Χειροκίνητη ανίχνευση υπηρεσιών"
 
@@ -11546,9 +11612,6 @@ msgstr "Μέγιστος αριθμός καναλιών"
 
 msgid "Max memory positions"
 msgstr "Μέγιστος αριθμός θέσεων"
-
-msgid "Max. bitrate: "
-msgstr "Μεγ. ρυθμός bit: "
 
 msgid "Maxdown +"
 msgstr "Maxdown +"
@@ -11849,6 +11912,9 @@ msgstr "Μηχανές"
 msgid "Mount"
 msgstr "Προσάρτηση"
 
+msgid "Mount Context Menu"
+msgstr ""
+
 msgid "Mount Manager"
 msgstr "Διαχείριση προσαρτήσεων"
 
@@ -11858,10 +11924,19 @@ msgstr "Σημείο προσάρτησης"
 msgid "Mount Setup"
 msgstr "Ρυθμίσεις προσάρτησης"
 
+msgid "Mount at boot time (fstab)"
+msgstr ""
+
 msgid "Mount failed"
 msgstr "Αποτυχία προσάρτησης"
 
 msgid "Mount mode"
+msgstr ""
+
+msgid "Mount on first access (autofs)"
+msgstr ""
+
+msgid "Mount or unmount the selected share"
 msgstr ""
 
 msgid "Mount point"
@@ -11870,11 +11945,17 @@ msgstr "Σημείο προσάρτησης"
 msgid "Mount root file system."
 msgstr "Μοντάρισμα συστήματος αρχείων ρίζας."
 
+msgid "Mounted"
+msgstr ""
+
 msgid "Mounts"
 msgstr "Σημεία προσάρτησης"
 
 msgid "Move"
 msgstr "Μετακίνηση"
+
+msgid "Move Down"
+msgstr ""
 
 msgid "Move Left/Right"
 msgstr "Μετακίνηση Αριστερά/Δεξιά"
@@ -11893,6 +11974,9 @@ msgstr "Μετακίνηση PiP"
 
 msgid "Move PiP to main picture"
 msgstr "Μετακίνηση PiP στην κύρια εικόνα"
+
+msgid "Move Up"
+msgstr ""
 
 msgid "Move Up/Down"
 msgstr "Μετακίνηση επάνω/κάτω"
@@ -11944,6 +12028,12 @@ msgstr "Μετακίνηση στην τελευταία γραμμή της λ�
 
 msgid "Move east"
 msgstr "Κίνηση ανατολικά"
+
+msgid "Move item down"
+msgstr ""
+
+msgid "Move item up"
+msgstr ""
 
 msgid "Move job completed."
 msgstr "Η μετακίνηση ολοκληρώθηκε."
@@ -12050,6 +12140,12 @@ msgstr "Μετακίνηση στο προηγούμενο μπουκέτο"
 
 msgid "Move to previous marker"
 msgstr "Μετακίνηση στον προηγούμενο δείκτη"
+
+msgid "Move to the Adapter list"
+msgstr ""
+
+msgid "Move to the Saved Wi-Fi Networks list"
+msgstr ""
 
 msgid "Move to the first item on the current line"
 msgstr "Μετάβαση στο πρώτο στοιχείο της τρέχουσας γραμμής"
@@ -12282,6 +12378,9 @@ msgstr "NFS"
 msgid "NFS Server Settings"
 msgstr "Ρυθμίσεις NFS"
 
+msgid "NFS Setup Actions"
+msgstr ""
+
 msgid "NFS threads"
 msgstr ""
 
@@ -12329,12 +12428,6 @@ msgstr "Φθίνουσα ονομασία"
 #, python-format
 msgid "Name server %d"
 msgstr "Όνομα διακομιστή %d"
-
-msgid "Nameserver"
-msgstr "Διακομιστής ονομάτων"
-
-msgid "Nameserver settings"
-msgstr "Ρυθμίσεις διακομιστών ονομάτων"
 
 msgid "Nameserver setup"
 msgstr "Ρύθμιση διακομιστών ονομάτων"
@@ -12399,20 +12492,15 @@ msgstr "Μάσκα δικτύου"
 msgid "Network"
 msgstr "Δίκτυο"
 
-msgid "Network Adapter Actions"
-msgstr "Ενέργειες προσαρμογέα δικτύου"
+#, python-format
+msgid "Network Adapter '%s' Settings"
+msgstr ""
 
 msgid "Network Adapter Selection"
 msgstr "Επιλογή προσαρμογέα δικτύου"
 
-msgid "Network Adapter Setting Actions"
-msgstr "Ενέργειες ρύθμισης προσαρμογέα δικτύου"
-
 msgid "Network Adapter Settings"
 msgstr ""
-
-msgid "Network Adapter Text Actions"
-msgstr "Ενέργειες κειμένου προσαρμογέα δικτύου"
 
 msgid "Network Browser"
 msgstr "Πλοηγός δικτύου"
@@ -12438,11 +12526,23 @@ msgstr "Καταγραφή δικτύου"
 msgid "Network Log Actions"
 msgstr "Ενέργειες καταγραφής δικτύου"
 
+msgid "Network Mount Manager Actions"
+msgstr ""
+
 msgid "Network Mount Settings"
+msgstr ""
+
+msgid "Network Mounts Overview"
 msgstr ""
 
 msgid "Network Neighbourhood"
 msgstr "Οικείο δίκτυο"
+
+msgid "Network Overview"
+msgstr ""
+
+msgid "Network Overview Actions"
+msgstr ""
 
 msgid "Network Packages"
 msgstr "Πακέτα δικτύου"
@@ -12459,26 +12559,64 @@ msgstr "Ρυθμίσεις δικτύου"
 msgid "Network Setup Actions"
 msgstr "Ενέργειες ρυθμίσεων δικτύου"
 
+msgid "Network Share Actions"
+msgstr ""
+
+msgid "Network Shares Browser"
+msgstr ""
+
+msgid "Network Shares Context Menu"
+msgstr ""
+
 msgid "Network Test"
 msgstr "Δοκιμή δικτύου"
 
-msgid "Network Test:"
-msgstr "Έλεγχος δικτύου:"
+msgid "Network Test Actions"
+msgstr ""
+
+#, python-format
+msgid "Network Test For '%s'"
+msgstr ""
 
 msgid "Network Wi-Fi Settings"
 msgstr ""
 
-msgid "Network Wizard"
-msgstr "Οδηγός δικτύου"
+msgid "Network adapter disabled."
+msgstr ""
+
+msgid "Network adapter enabled."
+msgstr ""
 
 msgid "Network adapter not connected to a network!"
 msgstr "Ο προσαρμογέας δικτύου δεν είναι συνδεδεμένος σε δίκτυο!"
 
+msgid "Network adapter setup result:"
+msgstr ""
+
+msgid "Network adapter status"
+msgstr ""
+
 msgid "Network address"
 msgstr "Διεύθυνση δικτύου"
 
+#, python-format
+msgid "Network cable connected (%s)"
+msgstr ""
+
+#, python-format
+msgid "Network cable disconnected (%s)"
+msgstr ""
+
 msgid "Network configuration..."
 msgstr "Διαμόρφωση δικτύου..."
+
+#, python-format
+msgid ""
+"Network connected successfully.\n"
+"\n"
+"Interface: %s\n"
+"IP address: %s"
+msgstr ""
 
 msgid "Network information"
 msgstr "Πληροφορίες δικτύου"
@@ -12505,29 +12643,11 @@ msgstr "Ανίχνευση δικτύου"
 msgid "Network storage on"
 msgstr "Αποθήκευση δικτύου ενεργή"
 
-msgid "Network test"
-msgstr "Έλεγχος δικτύου"
-
 msgid "Network test..."
 msgstr "Έλεγχος δικτύου..."
 
-msgid ""
-"Network wizard completed.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Ο οδηγός δικτύου ολοκληρώθηκε.\n"
-"\n"
-"Πιέστε OK για να συνεχίσετε."
-
 msgid "Network-ID"
 msgstr "ID δικτύου"
-
-msgid "Network:"
-msgstr "Δίκτυο:"
-
-msgid "NetworkWizard"
-msgstr "Οδηγός δικτύου"
 
 msgid "Neutrino  (keymap.ntr)"
 msgstr "Neutrino  (keymap.ntr)"
@@ -12561,6 +12681,9 @@ msgstr "Νέα ρύθμιση DXAndy "
 
 msgid "New Storage Device"
 msgstr "Νέα συσκευή αποθήκευσης"
+
+msgid "New Wi-Fi"
+msgstr ""
 
 msgid "New Zealand"
 msgstr "Νέα Ζηλανδία"
@@ -12659,14 +12782,20 @@ msgstr "Δεν βρέθηκε το αρχείο epg.dat στον εφεδρικ�
 msgid "No (supported) DVDROM found!"
 msgstr "Δεν βρέθηκε (υποστηριζόμενο) DVD-ROM!"
 
-msgid "No Connection"
-msgstr "Δεν υπάρχει σύνδεση"
-
 msgid "No ECM PIDs available"
 msgstr "Μη διαθέσιμα ECMPids"
 
 msgid "No HDD found or HDD not initialized!"
 msgstr "Δεν βρέθηκε σκληρός δίσκος ή δεν έχει γίνει αρχικοποίηση!"
+
+msgid "No IP address"
+msgstr ""
+
+msgid ""
+"No IP address was received.\n"
+"\n"
+"The network connection could not be established."
+msgstr ""
 
 msgid "No Internet connection"
 msgstr "Χωρίς σύνδεση στο διαδίκτυο"
@@ -12741,8 +12870,14 @@ msgstr "Μη διαθέσιμη ελεύθερη θέση"
 msgid "No free tuner!"
 msgstr "Δεν υπάρχει ελεύθερο tuner!"
 
+msgid "No gateway"
+msgstr ""
+
 msgid "No hard disks detected."
 msgstr "Δεν εντοπίστηκαν σκληροί δίσκοι."
+
+msgid "No hosts found yet - still scanning..."
+msgstr ""
 
 msgid "No log files found so debug logs are unavailable!"
 msgstr "Δεν βρέθηκαν αρχεία αποσφαλμάτωσης και έτσι οι καταγραφές δεν είναι διαθέσιμες!"
@@ -12756,8 +12891,8 @@ msgstr "Μη ενεργοί/διαθέσιμοι προσαρμογείς δικ
 msgid "No network storage detected."
 msgstr "Δεν εντοπίστηκε χώρος αποθήκευσης στο δίκτυο."
 
-msgid "No networks found"
-msgstr "Δεν βρέθηκαν δίκτυα"
+msgid "No networks found."
+msgstr ""
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Αριθμός αλλαγής στοιχείων (αύξηση ή μείωση)"
@@ -12782,6 +12917,9 @@ msgstr "Καμία υπηρεσία"
 
 msgid "No services/providers selected"
 msgstr "Δεν έχουν επιλεγεί υπηρεσίες/πάροχοι"
+
+msgid "No shares found."
+msgstr ""
 
 msgid "No slot images found"
 msgstr "Δεν βρέθηκαν images στις θέσεις"
@@ -12858,30 +12996,6 @@ msgstr "Δεν βρέθηκε έγκυρη προσάρτηση για το '%s'
 
 msgid "No valid region details were found"
 msgstr "Δεν βρέθηκαν έγκυρες πληροφορίες περιοχής"
-
-msgid "No wireless networks found! Searching..."
-msgstr "Δεν βρέθηκαν ασύρματα δίκτυα! Αναζήτηση..."
-
-msgid ""
-"No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
-msgstr ""
-"Δεν βρέθηκε ενεργός προσαρμογέας δικτύου.\n"
-"Επιβεβαιώστε ότι έχει συνδεθεί καλώδιο δικτύου και έχει ρυθμιστεί σωστά το δίκτυο."
-
-msgid ""
-"No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
-msgstr ""
-"Δεν βρέθηκε ενεργός προσαρμογέας ασύρματου δικτύου.\n"
-"Επιβεβαιώστε ότι έχει συνδεθεί συμβατή συσκευή WLAN και έχει ρυθμιστεί σωστά το δίκτυο."
-
-msgid ""
-"No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
-msgstr ""
-"Δεν βρέθηκε ενεργή διεπαφή ασύρματου δικτύου.\n"
-"Επιβεβαιώστε ότι έχει συνδεθεί συμβατή συσκευή WLAN ή ενεργοποιήστε τη διεπαφή δικτύου."
 
 msgid "No, but restart from begin"
 msgstr "Όχι, επανεκκίνηση από την αρχή"
@@ -12967,6 +13081,9 @@ msgstr "Νορβηγική Νινόρσκ"
 msgid "Not Classified"
 msgstr "Χωρίς χαρακτηρισμό"
 
+msgid "Not Connected"
+msgstr ""
+
 msgid "Not Defined"
 msgstr "Απροσδιόριστο"
 
@@ -13012,8 +13129,14 @@ msgstr ""
 "Ελεύθερος χώρος: %sMB\n"
 "Διαδρομή: %s"
 
+msgid "Not found"
+msgstr ""
+
 msgid "Not joined. Press Yellow to join."
 msgstr "Δεν έγινε σύνδεση. Πιέστε το κίτρινο για σύνδεση."
+
+msgid "Not mounted"
+msgstr ""
 
 msgid "Not required"
 msgstr "Δεν απαιτείται"
@@ -13436,8 +13559,23 @@ msgstr "Άνοιγμα λίστας υπηρεσιών και επιλογή τ�
 msgid "Open the Channel Selection Settings screen"
 msgstr "Άνοιγμα της οθόνης ρυθμίσεων επιλογής καναλιών"
 
+msgid "Open the Context Menu for the selected item"
+msgstr ""
+
 msgid "Open the Image information"
 msgstr "Άνοιγμα πληροφοριών image"
+
+msgid "Open the Mount Context Menu"
+msgstr ""
+
+msgid "Open the Network Adapter Settings for the selected item"
+msgstr ""
+
+msgid "Open the Network Shares Browser"
+msgstr ""
+
+msgid "Open the Network Shares Context Menu"
+msgstr ""
 
 msgid "Open the Plugin Browser"
 msgstr "Άνοιγμα του πλοηγού προσθέτων"
@@ -13476,6 +13614,9 @@ msgid "OpenViX Packages"
 msgstr "Πακέτα OpenViX"
 
 msgid "OpenWebif picon path"
+msgstr ""
+
+msgid "Opening network adapter configuration..."
 msgstr ""
 
 msgid "Opera"
@@ -13979,6 +14120,9 @@ msgstr "Μπάρες εκατέρωθεν"
 msgid "Pilot"
 msgstr "Πιλότος"
 
+msgid "Pinging..."
+msgstr ""
+
 msgid "Pink"
 msgstr "ροζ"
 
@@ -14163,17 +14307,11 @@ msgstr ""
 "Εισάγετε τη διεύθυνση email σας, για να εισέρχεστε με αυτήν.\n"
 "Μέσα από τον λογαριασμό σας στο IceTV, μπορείτε να επιλέξετε να λαμβάνετε ανακοινώσεις για την υπηρεσία, υπενθυμίσεις για τον λογαριασμό και διαφημιστικές προσφορές."
 
-msgid "Please follow the instructions on the TV"
-msgstr "Ακολουθήστε τις οδηγίες στην οθόνη"
-
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
 msgstr "Σημειώστε ότι η πρόσβαση στο προηγουμένως επιλεγμένο μέσο δεν είναι δυνατή και έτσι θα χρησιμοποιηθεί ο προεπιλεγμένος φάκελος."
 
 msgid "Please open Picture in Picture first"
 msgstr "Παρακαλώ ανοίξτε το PiP πρώτα"
-
-msgid "Please press OK to continue."
-msgstr "Πιέστε ΟΚ για να συνεχίσετε."
 
 msgid "Please press OK when ready"
 msgstr "Πιέστε ΟΚ όταν είστε έτοιμοι"
@@ -14253,9 +14391,6 @@ msgstr ""
 msgid "Please wait"
 msgstr "Παρακαλώ περιμένετε"
 
-msgid "Please wait for activation of your network configuration..."
-msgstr "Παρακαλώ περιμένετε, ενεργοποίηση ρύθμισης δικτύου..."
-
 msgid "Please wait while LCN bouquets are created/updated..."
 msgstr "Περιμένετε όσο δημιουργούνται/ενημερώνονται τα μπουκέτα LCN..."
 
@@ -14308,17 +14443,8 @@ msgstr "Περιμένετε μέχρι να ενημερωθεί το πρόσ�
 msgid "Please wait while we check your installed plugins..."
 msgstr "Παρακαλώ περιμένετε όσο εκτελείται ο έλεγχος των εγκατεστημένων προσθέτων..."
 
-msgid "Please wait while we prepare your network interfaces..."
-msgstr "Παρακαλώ περιμένετε, προετοιμασία διεπαφών δικτύου..."
-
-msgid "Please wait while we test your network..."
-msgstr "Παρακαλώ περιμένετε, έλεγχος δικτύου..."
-
 msgid "Please wait while your network is restarting..."
 msgstr "Παρακαλώ περιμένετε, επανεκκίνηση δικτύου..."
-
-msgid "Please wait while your skin setting is restoring..."
-msgstr "Παρακαλώ περιμένετε για την επαναφορά των ρυθμίσεων του θέματος..."
 
 msgid "Please wait whilst feeds state is checked."
 msgstr "Παρακαλώ περιμένετε καθώς ελέγχεται η κατάσταση των πηγών."
@@ -14590,9 +14716,6 @@ msgstr "Πιέστε ΟΚ για επιλογή πολλαπλής εκκίνη�
 msgid "Press OK on your remote control to continue."
 msgstr "Πιέστε ΟΚ για να συνεχίσετε."
 
-msgid "Press OK to activate the settings."
-msgstr "Πιέστε ΟΚ για να ενεργοποιηθούν οι ρυθμίσεις."
-
 msgid "Press OK to continue."
 msgstr "Πιέστε ΟΚ για να συνεχίσετε."
 
@@ -14708,9 +14831,6 @@ msgstr "Προηγούμενη/επόμενη σελίδα"
 
 msgid "Prevsong"
 msgstr "Προηγούμενο τραγούδι"
-
-msgid "Primary DNS"
-msgstr "Πρωτεύον DNS"
 
 msgid "Primary DNS (IPv4)"
 msgstr ""
@@ -15071,6 +15191,12 @@ msgstr "Μη καθορισμένη βαθμολογία"
 msgid "Re-enter new PIN"
 msgstr "Επανεισαγωγή του νέου PIN"
 
+msgid "Reachable"
+msgstr ""
+
+msgid "Read Only"
+msgstr ""
+
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Ανάγνωση δεδομένων χρήστη από το oscam.conf"
 
@@ -15133,6 +15259,9 @@ msgstr "Θέλετε να γίνει τερματισμός τώρα;"
 
 msgid "Really start Kodi and stop user interface now?"
 msgstr "Να ξεκινήσει σίγουρα το Kodi και να σταματήσει η επιφάνεια χρήστη τώρα;"
+
+msgid "Really start RetroGaming and stop the user interface now?"
+msgstr ""
 
 msgid "Really upgrade the front panel and reboot now?"
 msgstr "Να γίνει σίγουρα αναβάθμιση του εμπρόσθιου πίνακα και επανεκκίνηση τώρα;"
@@ -15474,6 +15603,9 @@ msgstr "Αφαίρεση καλωδιακών υπηρεσιών"
 msgid "Remove Confirmation"
 msgstr "Επιβεβαίωση αφαίρεσης"
 
+msgid "Remove Credentials"
+msgstr ""
+
 msgid "Remove Entry"
 msgstr "Διαγραφή στοιχείου"
 
@@ -15688,6 +15820,15 @@ msgstr "Απαιτούμενος τύπος μέσου:"
 msgid "Rereading partition table"
 msgstr "Επανάγνωση πίνακα κατατμήσεων"
 
+msgid "Rescan"
+msgstr ""
+
+msgid "Rescan for available Wi-Fi networks"
+msgstr ""
+
+msgid "Rescan for available network shares"
+msgstr ""
+
 msgid "Reserved"
 msgstr "Ρεζερβέ"
 
@@ -15751,8 +15892,14 @@ msgstr "Ανάλυση"
 msgid "Resolution unit"
 msgstr "Μονάδα ανάλυσης"
 
+msgid "Resolving..."
+msgstr ""
+
 msgid "Restart"
 msgstr "Επανεκκίνηση"
+
+msgid "Restart Adapter"
+msgstr ""
 
 msgid "Restart GUI"
 msgstr "Επανεκκίνηση διεπαφής χρήστη"
@@ -15768,9 +15915,6 @@ msgstr "Επανεκκίνηση της διεπαφής χρήστη τώρα;"
 
 msgid "Restart Network"
 msgstr "Επανεκκίνηση δικτύου"
-
-msgid "Restart Network Adapter"
-msgstr "Επανεκκίνηση προσαρμογέα δικτύου"
 
 msgid "Restart OSCam"
 msgstr "Επανεκκίνηση OSCam"
@@ -15793,8 +15937,11 @@ msgstr "Επανεκκίνηση δικτύου με τις τρέχουσες �
 msgid "Restart test"
 msgstr "Eπανεκκίνηση ελέγχου"
 
-msgid "Restart your network connection and interfaces."
-msgstr "Επανεκκίνηση σύνδεσης δικτύου και διεπαφών."
+msgid "Restarting adapter..."
+msgstr ""
+
+msgid "Restarting saved Wi-Fi network..."
+msgstr ""
 
 msgid "Restarting..."
 msgstr "Επανεκκίνηση..."
@@ -15804,9 +15951,6 @@ msgstr "Επαναφορά"
 
 msgid "Restore Deleted User Bouquets"
 msgstr "Επαναφορά διαγραμμένων μπουκέτων χρήστη"
-
-msgid "Restore MetrixHD Settings"
-msgstr "Επαναφορά ρυθμίσεων του MetrixHD"
 
 msgid "Restore Plugins"
 msgstr "Επαναφορά προσθέτων"
@@ -15862,6 +16006,9 @@ msgstr "Συνέχιση από το %s"
 
 msgid "Resuming playback"
 msgstr "Επανασυνέχιση αναπαραγωγής"
+
+msgid "Retest"
+msgstr ""
 
 #, python-format
 msgid "Retrieving '%s' commit log, please wait..."
@@ -16061,9 +16208,6 @@ msgstr "Ρεϋνιόν"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
-msgid "SABnzbd Settings"
-msgstr "Ρυθμίσεις SABnzbd"
-
 msgid "SAT"
 msgstr "SAT"
 
@@ -16108,6 +16252,12 @@ msgid "SINGLE LAYER DVD"
 msgstr "DVD ΜΟΝΗΣ ΣΤΡΩΣΗΣ"
 
 msgid "SMB version"
+msgstr ""
+
+msgid "SMB2"
+msgstr ""
+
+msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -16315,6 +16465,26 @@ msgstr "Αποθήκευση χρονομετατόπισης ως ταινία 
 msgid "Save time shift buffer now and continue recording"
 msgstr "Αποθήκευση τώρα της χρονομετατόπισης ως ταινία και συνέχιση της εγγραφής"
 
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Context Menu"
+msgstr ""
+
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Settings"
+msgstr ""
+
+msgid "Saved Wi-Fi Networks"
+msgstr ""
+
+msgid "Saved Wi-Fi network connection disabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network connection enabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network will be retried automatically at next boot."
+msgstr ""
+
 msgid "Saved lines in script messages"
 msgstr "Αποθηκευμένες γραμμές στα μηνύματα δέσμης ενεργειών"
 
@@ -16351,6 +16521,9 @@ msgstr "Ανίχνευση %s"
 msgid "Scan %s band"
 msgstr "Ανίχνευση μπάντας %s"
 
+msgid "Scan Wi-Fi Networks"
+msgstr ""
+
 msgid "Scan additional SR"
 msgstr "Ανίχνευση πρόσθετου SR"
 
@@ -16365,12 +16538,6 @@ msgstr "Αναζήτηση και εγκατάσταση επεκτάσεων τ
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Ανίχνευση για επίγεια LCNs και δημιουργία μπουκέτων LCN"
-
-msgid "Scan wireless networks"
-msgstr "Ανίχνευση ασύρματων δικτύων"
-
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Ανίχνευση του δικτύου για ασύρματα σημεία σύνδεσης και σύνδεση σε αυτά με την επιλεγμένη ασύρματη συσκευή."
 
 msgid "Scanning"
 msgstr "Ανίχνευση"
@@ -16396,6 +16563,12 @@ msgstr[1] "Η ανίχνευση ολοκληρώθηκε, βρέθηκαν %d �
 
 msgid "Scanning failed!"
 msgstr "Η ανίχνευση απέτυχε!"
+
+msgid "Scanning for shares..."
+msgstr ""
+
+msgid "Scanning..."
+msgstr "Ανίχνευση..."
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
 #, python-format
@@ -16508,9 +16681,6 @@ msgstr "Αναζήτηση δυτικά..."
 
 msgid "Second cable of motorized LNB"
 msgstr "Δεύτερο καλώδιο από LNB σε μοτέρ"
-
-msgid "Secondary DNS"
-msgstr "Δευτερεύων DNS"
 
 msgid "Secondary DNS (IPv4)"
 msgstr ""
@@ -16932,6 +17102,9 @@ msgstr "Επιλογή πηγής αναβαθμίσεων"
 msgid "Select Upgrade Source To Edit"
 msgstr "Επιλογή πηγής αναβάθμισης για επεξεργασία"
 
+msgid "Select Wi-Fi adapter"
+msgstr ""
+
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr "Επιλογή ενός softcam από τη διαθέσιμη λίστα ως προεπιλεγμένο αυτόματο."
 
@@ -16975,6 +17148,9 @@ msgstr "Επιλογή ταινίας"
 msgid "Select a network adapter"
 msgstr "Επιλογή προσαρμογέα δικτύου"
 
+msgid "Select a network interface to configure, or skip to configure the network later in system settings."
+msgstr ""
+
 msgid "Select a permanent mount point for all devices"
 msgstr "Επιλογή μόνιμου σημείου προσάρτησης για όλες τις συσκευές"
 
@@ -17004,9 +17180,6 @@ msgstr "Επιλογή χρόνου κατά την αναμονή πριν τη
 
 msgid "Select a tuner"
 msgstr "Επιλογή tuner"
-
-msgid "Select a wireless network"
-msgstr "Επιλογή ασύρματου δίκτυου"
 
 msgid "Select action"
 msgstr "Επιλογή ενέργειας"
@@ -17056,6 +17229,9 @@ msgstr "Επιλογή προεπιλεγμένου φακέλου του File C
 
 msgid "Select destination for:"
 msgstr "Επιλογή προορισμού για το:"
+
+msgid "Select exported directories"
+msgstr ""
 
 msgid "Select files to exclude from backup"
 msgstr "Επιλογή αρχείων για εξαίρεση από την εφεδρεία"
@@ -17164,12 +17340,6 @@ msgstr "Επιλογή συσκευής εισόδου"
 
 msgid "Select input device."
 msgstr "Επιλογή συσκευής εισόδου."
-
-msgid "Select interface"
-msgstr "Επιλογή διεπαφής"
-
-msgid "Select menu entry"
-msgstr "Επιλογή στοιχείου μενού"
 
 msgid "Select movie"
 msgstr "Επιλογή ταινίας"
@@ -17482,15 +17652,6 @@ msgstr "Επιλογή διαδρομής ταινίας"
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr "Επιλέξτε τον ρυθμό δεδομένων δικτύου κάτω από τον οποίο θα ενεργοποιείται ο χρονοδιακόπτης όπως ορίστηκε. Η κίνηση πάνω από αυτό το όριο θα απενεργοποιεί τον χρονοδιακόπτη."
 
-msgid ""
-"Select the network interface to be used for the Internet connection.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Επιλέξτε τη διεπαφή δικτύου που θα χρησιμοποιηθεί για τη σύνδεση στο διαδίκτυο.\n"
-"\n"
-"Πιέστε OK για να συνεχίσετε."
-
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr ""
 
@@ -17660,15 +17821,6 @@ msgstr "Επιλέξτε τον τύπο αυτού του χρονοδιακό�
 msgid "Select the video mode to be used on the TV."
 msgstr "Επιλέξτε τη λειτουργία βίντεο που θα χρησιμοποιηθεί στην TV."
 
-msgid ""
-"Select the wireless network to which you want to connect.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Επιλέξτε το ασύρματο δίκτυο στο οποίο θέλετε να συνδεθείτε.\n"
-"\n"
-"Πιέστε ΟΚ για να συνεχίσετε."
-
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
 msgstr ""
 
@@ -17761,9 +17913,6 @@ msgstr "Επιλέξτε αν ή όχι θα εμφανίζεται ένα ει�
 
 msgid "Select which IP protocols can be used with this adapter."
 msgstr ""
-
-msgid "Select wireless network"
-msgstr "Επιλογή ασύρματου δικτύου"
 
 msgid "Select your ATSC provider."
 msgstr "Επιλογή παρόχου ATSC."
@@ -18281,6 +18430,9 @@ msgstr "Ορισμός ενέργειας του πλήκτρου."
 msgid "Set to yes for debugging the root cause of a spinner."
 msgstr "Θέστε την επιλογή σε ναι για αποσφαλμάτωση της αιτίας πρόκλησης ενός spinner."
 
+msgid "Set up network"
+msgstr ""
+
 msgid "Set up tuner [TUNER]"
 msgstr "Ρύθμιση του tuner [TUNER]"
 
@@ -18754,9 +18906,6 @@ msgstr "Εμφάνιση του VCR SCART στο κύριο μενού"
 msgid "Show Vertical EPG"
 msgstr "Εμφάνιση κάθετου EPG"
 
-msgid "Show WLAN status"
-msgstr "Εμφάνιση κατάστασης ασύρματου δικτύου"
-
 msgid "Show Web Link packages"
 msgstr "Εμφάνιση πακέτων διαδικτυακών συνδέσμων"
 
@@ -18918,9 +19067,6 @@ msgstr "Εμφάνιση στον πλοηγό προσθέτων"
 msgid "Show in Standby"
 msgstr "Εμφάνιση κατά την αναμονή"
 
-msgid "Show info"
-msgstr "Εμφάνιση πληροφοριών"
-
 msgid "Show info line"
 msgstr "Εμφάνιση γραμμής πληροφοριών"
 
@@ -18962,6 +19108,9 @@ msgstr "Εμφάνιση ταινιών"
 
 msgid "Show multi channel EPG"
 msgstr "Εμφάνιση EPG πολλαπλών καναλιών"
+
+msgid "Show network adapter connection information"
+msgstr ""
 
 msgid "Show next commit log"
 msgstr "Εμφάνιση επόμενης καταγραφής υποβολής"
@@ -19146,6 +19295,9 @@ msgstr "Εμφάνιση οθόνης πληροφοριών CCcam"
 msgid "Show the Logs Settings screen"
 msgstr "Εμφάνιση οθόνης ρυθμίσεων καταγραφολογίου"
 
+msgid "Show the Network Information for the selected adapter"
+msgstr ""
+
 msgid "Show the OSCam information screen"
 msgstr "Εμφάνιση της οθόνης πληροφοριών OSCam"
 
@@ -19227,9 +19379,6 @@ msgstr "Εμφανίζει την εικόνα της TV ή πληροφορίε
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Εμφανίζει τα εικονίδια όταν είναι νέα/αθέατα, αλλιώς δεν θα εμφανίζονται."
 
-msgid "Shows the state of your wireless LAN connection."
-msgstr "Εμφάνιση της κατάστασης του ασύρματου δικτύου."
-
 msgid "Shows the watched status of the media."
 msgstr "Εμφάνιση της κατάστασης παρακολούθησης ενός πολυμέσου."
 
@@ -19263,14 +19412,8 @@ msgstr "Sigma Designs"
 msgid "Signal Finder"
 msgstr "Εύρεση σήματος"
 
-msgid "Signal quality"
-msgstr "Ποιότητα σήματος"
-
 msgid "Signal strength"
 msgstr "Ισχύς σήματος"
-
-msgid "Signal: "
-msgstr "Σήμα: "
 
 msgid "Signed by"
 msgstr "Υπογραφή από"
@@ -19406,6 +19549,9 @@ msgstr "υπερπήδηση προς τα πίσω (εισαγωγή χρόνο
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Παράκαμψη μετάβασης σε ζωντανή tv κατά την χρονομετατόπιση με πρόσθετα"
+
+msgid "Skip network setup"
+msgstr ""
 
 msgid "Skip package installation, only core packages will be available"
 msgstr "Παράβλεψη εγκατάστασης πακέτων, θα είναι διαθέσιμα μόνο τα βασικά πακέτα"
@@ -19780,6 +19926,18 @@ msgstr "Ταξινόμηση των στοιχείων του πλοηγού π�
 msgid "Sort by"
 msgstr "Ταξινόμηση ανά"
 
+msgid "Sort by Hostname/IP Address"
+msgstr ""
+
+msgid "Sort by IP Address"
+msgstr ""
+
+msgid "Sort by Mount Name"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
 msgid "Sort by default"
 msgstr "Ταξινόμηση από προεπιλογή"
 
@@ -19974,9 +20132,6 @@ msgstr "Εκκίνηση επαναπροσπάθειας"
 msgid "Start teletext"
 msgstr "Εκκίνηση τηλεκειμένου"
 
-msgid "Start test"
-msgstr "Έναρξη ελέγχου"
-
 msgid "Start the Chkroot initialization"
 msgstr "Εκκίνηση της αρχικοποίησης Chkroot "
 
@@ -20028,6 +20183,9 @@ msgstr "Δεν βρέθηκε η συσκευή εκκίνησης!"
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
 msgstr "Κατάσταση"
+
+msgid "Static"
+msgstr ""
 
 msgid "Static IP / Custom"
 msgstr "Στατική IP / προσαρμοσμένη"
@@ -20113,9 +20271,6 @@ msgstr "Σταμάτημα υπηρεσίας κατά την επιστροφή
 msgid "Stop streams"
 msgstr "Διακοπή ροών"
 
-msgid "Stop test"
-msgstr "Τερματισμός ελέγχου"
-
 msgid "Stop testing plane after # failed transponders"
 msgstr "Ολοκλήρωση ελέγχου κάθε επιπέδου μετά από # αποτυχημένους αναμεταδότες"
 
@@ -20176,6 +20331,12 @@ msgstr "Ο δίσκος δεν είναι εγγράψιμος!"
 
 msgid "Store position"
 msgstr "Αποθήκευση θέσης"
+
+msgid "Stored credentials deleted for this server."
+msgstr ""
+
+msgid "Stored credentials for this server have been deleted."
+msgstr ""
 
 msgid "Stored position"
 msgstr "Αποθηκευμένη θέση"
@@ -20781,10 +20942,6 @@ msgstr "Η εργασία δοκιμής απέτυχε!"
 msgid "Test mode"
 msgstr "Κατάσταση ελέγχου"
 
-#, python-format
-msgid "Test the network configuration of your %s %s."
-msgstr "Έλεγχος των ρυθμίσεων δικτύου του %s %s σας."
-
 msgid "Test type"
 msgstr "Τύπος ελέγχου"
 
@@ -20903,24 +21060,6 @@ msgstr ""
 #, python-format
 msgid "The IceTV server has requested password for %s."
 msgstr "Ο διακομιστής IceTV ζητάει κωδικό για το %s."
-
-msgid ""
-"The Internet connection appears to be working.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Η σύνδεση στο διαδίκτυο φαίνεται να λειτουργεί.\n"
-"\n"
-"Πιέστε OK για να συνεχίσετε."
-
-msgid ""
-"The Internet connection appears to not be working!\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"Η σύνδεση στο διαδίκτυο φαίνεται να μη λειτουργεί!\n"
-"\n"
-"Επιλέξτε τι θα γίνει στη συνέχεια."
 
 msgid ""
 "The MediaCenter plugin is not installed!\n"
@@ -21091,13 +21230,6 @@ msgstr "Το ύψος της εικόνας. Η είσοδος θα κλιμακ
 msgid "The loopthrough setting is wrong."
 msgstr "Λανθασμένη ρύθμιση loopthrough."
 
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Το πρόσθετο οδηγού δικτύου δεν είναι εγκατεστημένο!\n"
-"Παρακαλώ εγκαταστήστε το."
-
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Ο φάκελος λογότυπων υπάρχει ήδη και πρέπει να αφαιρεθεί. Θέλετε να συνεχίσετε;"
 
@@ -21175,35 +21307,12 @@ msgstr ""
 msgid "The user interface of your %s %s will be stopped to run Kodi"
 msgstr "Η επιφάνεια χρήστη του %s %s σας θα σταματήσει για να τρέξει το Kodi"
 
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run RetroGaming"
+msgstr ""
+
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr "Το πλάτος της εικόνας. Η είσοδος θα κλιμακωθεί για να ταιριάξει με αυτή την τιμή."
-
-msgid ""
-"The wireless LAN Internet connection could not be started!\n"
-"Is the wireless LAN device connected?\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"Η σύνδεση στο ασύρματο δίκτυο δεν ήταν εφικτή!\n"
-"Έχει συνδεθεί η ασύρματη συσκευή;\n"
-"\n"
-"Επιλέξτε τι θα γίνει στη συνέχεια."
-
-msgid ""
-"The wireless LAN plugin code is not installed!\n"
-"\n"
-"Install it and choose what to do next."
-msgstr ""
-"Ο κώδικας του πρόσθετου του ασύρματου δικτύου δεν έχει εγκατασταθεί!\n"
-"\n"
-"Εγκαταστήστε τον και επιλέξτε τι θα γίνει στη συνέχεια."
-
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"Το πρόσθετο ασύρματου δικτύου δεν είναι εγκατεστημένο!\n"
-"Παρακαλώ εγκαταστήστε το."
 
 msgid "The wizard can backup your current settings. Do you want to start a backup now?"
 msgstr "Ο οδηγός μπορεί να δημιουργήσει αντίγραφο ασφαλείας για τις τρέχουσες ρυθμίσεις σας. Θέλετε να δημιουργηθεί ένα αντίγραφο ασφαλείας τώρα;"
@@ -21526,57 +21635,6 @@ msgstr "Αυτή η ρύθμιση εξαρτάται από τον καλωδι
 
 msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
 msgstr "Αυτή η ρύθμιση αφορά ειδικές περιπτώσεις μόνο. Δίνει σε αυτό το LNB μεγαλύτερη προτεραιότητα σε σχέση με άλλα LNB με χαμηλότερες τιμές. Το ελεύθερο LNB με την ύψιστη προτεραιότητα θα είναι και το πρώτο που θα επιλέγεται για τον συντονισμό σε υπηρεσίες."
-
-msgid ""
-"This test checks for configured DNS.\n"
-"If you get an \"unconfirmed\" message:\n"
-"- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
-msgstr ""
-"Αυτό το τεστ ελέγχει για ρυθμισμένους διακομιστές ονομάτων.\n"
-"Αν λάβετε το μήνυμα \"μη επιβεβαιωμένο\":\n"
-"- ελέγξτε τον διακομιστή DHCP, την καλωδίωση και την εγκατάσταση του προσαρμογέα\n"
-"- αν έχετε ρυθμίσει τους διακομιστές ονομάτων χειροκίνητα, επιβεβαιώστε τα στοιχεία στις \"Ρυθμίσεις διακομιστών ονομάτων\""
-
-msgid ""
-"This test checks whether a network cable is connected to your LAN adapter.\n"
-"If you get a \"disconnected\" message:\n"
-"- verify that a network cable is attached\n"
-"- verify that the cable is not broken"
-msgstr ""
-"Αυτό το τεστ ελέγχει αν το καλώδιο δικτύου είναι συνδεδεμένο στον προσαρμογέα LAN.\n"
-"Αν λάβετε το μήνυμα \"αποσυνδεδεμένο\":\n"
-"- βεβαιωθείτε ότι συνδέσατε το καλώδιο\n"
-"- βεβαιωθείτε ότι το καλώδιο δεν είναι χαλασμένο"
-
-msgid ""
-"This test checks whether a valid IP address is found for your LAN adapter.\n"
-"If you get a \"unconfirmed\" message:\n"
-"- no valid IP address was found\n"
-"- please check your DHCP, cabling and adapter setup"
-msgstr ""
-"Αυτό το τεστ ελέγχει αν υπάρχει έγκυρη IP Address στον προσαρμογέα LAN.\n"
-"Αν λάβετε το μήνυμα \"μη επιβεβαιωμένο\":\n"
-"- δεν βρέθηκε έγκυρη διεύθυνση IP\n"
-"- ελέγξτε τον διακομιστή DHCP, την καλωδίωση και τη ρύθμιση του προσαρμογέα"
-
-msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
-"If you get a \"disabled\" message:\n"
-" - then your LAN adapter is configured for manual IP setup\n"
-"- verify that you have entered correct IP information in the adapter setup dialog.\n"
-"If you get an \"enabled\" message:\n"
-"-verify that you have a configured and working DHCP server in your network."
-msgstr ""
-"Αυτό το τεστ ελέγχει αν ο προσαρμογέας δικτύου έχει ρυθμιστεί για αυτόματη απόδοση διευθύνσεων IP μέσω DHCP.\n"
-"Αν δείτε το μήνυμα \"ανενεργό\" :\n"
-" - τότε ο προσαρμογέας LAN έχει ρυθμιστεί να αποδίδει χειροκίνητα διευθύνσεις IP\n"
-"- σιγουρευτείτε ότι έχετε εισάγει τις σωστές πληροφορίες IP στον διάλογο ρυθμίσεων.\n"
-"Αν δείτε το μήνυμα \"ενεργό\" :\n"
-"-σιγουρευτείτε ότι έχετε ένα σωστά ρυθμισμένο και λειτουργικό διακομιστή DHCP στο δίκτυό σας."
-
-msgid "This test detects your configured LAN adapter."
-msgstr "Αυτό το τεστ εντοπίζει τη ρυθμισμένη κάρτα δικτύου."
 
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
@@ -21917,6 +21975,9 @@ msgstr "Εναλλαγή λειτουργίας πολλαπλής επιλογ�
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Εναλλαγή νέων εισαγωγών κειμένου πριν ή αντικατάσταση υπάρχοντος κειμένου"
 
+msgid "Toggle picking a share by IP address or by DNS name"
+msgstr ""
+
 msgid "Toggle selection of the current tag"
 msgstr "Εναλλαγή επιλογής τρέχουσας ετικέτας"
 
@@ -21998,6 +22059,9 @@ msgstr "Παραδοσιακό"
 
 msgid "Traditional Chinese"
 msgstr "Παραδοσιακά Κινεζικά"
+
+msgid "Transceiver"
+msgstr ""
 
 msgid "Transcode"
 msgstr "Διακωδικοποίηση"
@@ -22372,9 +22436,6 @@ msgstr "Κάτω των 5"
 msgid "Undetermined"
 msgstr "Μη καθορισμένο"
 
-msgid "Unencrypted"
-msgstr "Χωρίς κωδικοποίηση"
-
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Μη αναμενόμενο σφάλμα κατά την πρόσβαση WebIF: %s"
@@ -22434,13 +22495,6 @@ msgstr "Άγνωστο"
 msgid "Unknown Devices"
 msgstr "Άγνωστες συσκευές"
 
-msgid ""
-"Unknown Error creating Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Σφάλμα δημιουργίας θέματος.\n"
-"Ελέγξτε μετά την επανεκκίνηση το πρόσθετο MyMetrixLite και εφαρμόστε τις ρυθμίσεις σας."
-
 msgid "Unknown Packages"
 msgstr "Άγνωστα πακέτα"
 
@@ -22482,6 +22536,9 @@ msgstr "Αποσυμπίεση του αρχείου"
 msgid "Unpublished"
 msgstr "ανέκδοτο"
 
+msgid "Unreachable"
+msgstr ""
+
 msgid "Unscramble and record ECM"
 msgstr "Αποκωδικοποίηση και εγγραφή ECM"
 
@@ -22493,9 +22550,6 @@ msgstr "Αποκρυπτογράφηση των λαμβανομένων ροώ�
 
 msgid "Unset As Startup Service"
 msgstr "Τέλος χρήσης ως υπηρεσία εκκίνησης"
-
-msgid "Unsupported"
-msgstr "Δεν υποστηρίζεται"
 
 msgid "Until standby/restart"
 msgstr "Μέχρι την αναμονή/επανεκκίνηση"
@@ -22716,9 +22770,6 @@ msgstr "Χρήση χρόνων λήξης χρονοδιακόπτη μετάβ
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Χρήση προσωρινής μνήμης DNS για τοπική αποθήκευση των πρόσφατων αναζητήσεων DNS για βελτίωση της απόδοσης, μείωση της καθυστέρησης και εξερχόμενη κίνηση."
 
-msgid "Use a gateway"
-msgstr "Χρήση πύλης"
-
 msgid "Use alternate GitHub DNS"
 msgstr "Χρήση εναλλακτικού DNS GitHub"
 
@@ -22779,9 +22830,6 @@ msgstr ""
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Χρήση αυξημένης τάσης '14/18V' αν υπάρχουν προβλήματα στην εναλλαγή του LNB."
 
-msgid "Use interface"
-msgstr "Χρήση διεπαφής"
-
 msgid "Use key map *"
 msgstr "Χρήση διάταξης πληκτρολογίου *"
 
@@ -22793,9 +22841,6 @@ msgstr "Χρήση της επίσημης αρίθμησης των καναλ�
 
 msgid "Use only DNSSEC servers"
 msgstr "Χρήση μόνο των διακομιστών DNSSEC"
-
-msgid "Use only for Wake on WLan (WoW)"
-msgstr "Χρήση μόνο για αφύπνιση στο ασύρματο δίκτυο (WoW)"
 
 msgid "Use only no-filter servers"
 msgstr "Χρήση μόνο των διακομιστών χωρίς φίλτρο"
@@ -22848,9 +22893,6 @@ msgstr "Χρήση των πλήκτρων αριστερά/δεξιά για μ
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
 msgstr "Χρήση των πλήκτρων αριστερά/δεξιά για μετακίνηση της διεπαφής χρήστη επάνω/κάτω."
 
-msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
-msgstr "Χρήση του οδηγού δικτύου για ρύθμιση του δικτύου. Ο οδηγός θα σας βοηθήσει με τις ρυθμίσεις του δικτύου σας"
-
 msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select a cam"
 msgstr "Χρήση του πίνακα softcam για έλεγχο του Cam. Αυτό επιτρέπει την εκκίνηση/σταμάτημα/επιλογή ενός cam"
 
@@ -22868,12 +22910,6 @@ msgstr "Χρήση της τρέχουσας επιλογής και έξοδο�
 
 msgid "Use the extended List"
 msgstr "Χρήση της εκτεταμένης λίστας"
-
-msgid "Use the network wizard to configure selected network adapter"
-msgstr "Χρήση του οδηγού δικτύου για τη ρύθμιση του επιλεγμένου προσαρμογέα δικτύου"
-
-msgid "Use the network wizard to configure your Network."
-msgstr "Χρήση του οδηγού για ρύθμιση του δικτύου σας."
 
 msgid "Use the wizard to set up basic features"
 msgstr "Χρήση οδηγού για τις απλές ρυθμίσεις"
@@ -22951,6 +22987,12 @@ msgstr "Όνομα χρήστη"
 msgid "Username (httpuser)"
 msgstr "Όνομα χρήστη (httpuser)"
 
+msgid "Using DNS"
+msgstr ""
+
+msgid "Using IP"
+msgstr ""
+
 msgid "Using automatic address"
 msgstr "Χρήση αυτόματης διεύθυνσης"
 
@@ -22975,9 +23017,6 @@ msgstr "Ουζμπεκιστάν"
 msgid "VCR Scart Settings"
 msgstr "Ρυθμίσεις VCR scart"
 
-msgid "VLAN connection"
-msgstr "Σύνδεση VLAN"
-
 msgid "VMC"
 msgstr "VMC"
 
@@ -22989,6 +23028,9 @@ msgstr "αρχείο VOB"
 
 msgid "VOD"
 msgstr "VOD"
+
+msgid "VPN"
+msgstr "VPN"
 
 msgid "VPS Settings"
 msgstr "Ρυθμίσεις VPS"
@@ -23360,12 +23402,6 @@ msgstr "Πληροφορίες σύνδεσης WAN"
 msgid "WARNING:"
 msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ:"
 
-msgid "WEP"
-msgstr "WEP"
-
-msgid "WLAN connection"
-msgstr "Σύνδεση WLAN"
-
 msgid "WMA Pro"
 msgstr "WMA Pro"
 
@@ -23374,15 +23410,6 @@ msgstr "Αποκωδικοποίηση και μίξη WMA Pro"
 
 msgid "WOL Standby"
 msgstr "ΑΣΔ Αναμονή"
-
-msgid "WPA"
-msgstr "WPA"
-
-msgid "WPA or WPA2"
-msgstr "WPA ή WPA2"
-
-msgid "WPA2"
-msgstr "WPA2"
 
 msgid "WSS on 4:3"
 msgstr "WSS σε 4:3"
@@ -23398,6 +23425,9 @@ msgstr "Παρακαλώ περιμένετε καθώς γίνεται ανίχ
 
 msgid "Waiting"
 msgstr "Αναμονή"
+
+msgid "Waiting for IP address..."
+msgstr ""
 
 msgid "Waiting for partition"
 msgstr "Αναμονή για κατάτμηση"
@@ -23444,6 +23474,9 @@ msgstr "Προειδοποίηση: αδύνατη η επαναφόρτωση %
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
 msgstr "Προειδοποίηση: Η ματαίωση της διαδικασίας θα αφήσει τις πηγές σε ημιτελή και μη χρηστική κατάσταση!"
+
+msgid "Warning: No Wi-Fi adapter found!"
+msgstr ""
 
 msgid "Warning: Overrides are currently active!"
 msgstr "Προειδοποίηση: Οι παρακάμψεις είναι ενεργές!"
@@ -23781,9 +23814,6 @@ msgstr ""
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Όταν είναι ενεργό, η χρονομετατόπιση θα ξεκινά αυτόματα στο παρασκήνιο μετά από ορισμένο χρόνο."
 
-msgid "When enabled, use DHCP for the IP configuration."
-msgstr "Όταν είναι ενεργό, θα γίνεται χρήση του διακομιστή DHCP για τη ρύθμιση IP."
-
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
 msgstr "Όταν είναι ενεργό, μπορείτε να παραμετροποιήσετε τις ρυθμίσεις OpenWebIf για το εφεδρικό tuner."
 
@@ -23847,6 +23877,28 @@ msgstr "Όταν είναι διαθέσιμο"
 msgid "White"
 msgstr "Λευκό"
 
+msgid "Wi-Fi"
+msgstr ""
+
+msgid "Wi-Fi Activation Actions"
+msgstr ""
+
+msgid "Wi-Fi Adapter"
+msgstr ""
+
+msgid "Wi-Fi Scan Actions"
+msgstr ""
+
+#, python-format
+msgid "Wi-Fi Scan On '%s'"
+msgstr ""
+
+msgid "Wi-Fi connection"
+msgstr ""
+
+msgid "Wi-Fi link"
+msgstr ""
+
 msgid "Wide"
 msgstr "Πλατιά"
 
@@ -23870,30 +23922,6 @@ msgstr "Καθαρισμός συσκευής αποθήκευσης"
 
 msgid "Wiping storage device..."
 msgstr "Καθαρισμός συσκευής αποθήκευσης..."
-
-msgid "Wireless LAN"
-msgstr "Ασύρματο δίκτυο"
-
-msgid "Wireless network"
-msgstr "Ασύρματο δίκτυο"
-
-msgid "Wireless network configuration..."
-msgstr "Ρύθμιση σύνδεσης ασύρματου δικτύου..."
-
-msgid ""
-"Wireless network connection setup.\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"Ρύθμιση της ασύρματης σύνδεσης δικτύου.\n"
-"\n"
-"Επιλέξτε τι θα γίνει στη συνέχεια."
-
-msgid "Wireless network setup"
-msgstr "Ρύθμιση ασύρματου δικτύου"
-
-msgid "Wireless network state"
-msgstr "Κατάσταση ασύρματου δικτύου"
 
 msgid "With EXIT button"
 msgstr "Με το πλήκτρο εξόδου"
@@ -24179,18 +24207,6 @@ msgid "Your %s %s is not connected to the Internet, please check your network se
 msgstr "Ο %s %s σας δεν είναι συνδεδεμένος στο διαδίκτυο, ελέγξτε τις ρυθμίσεις δικτύου και προσπαθήστε ξανά."
 
 #, python-format
-msgid ""
-"Your %s %s is now ready to be used.\n"
-"\n"
-"Your Internet connection is working now.\n"
-"\n"
-msgstr ""
-"Ο %s %s σας είναι τώρα έτοιμος για χρήση.\n"
-"\n"
-"Η σύνδεση στο διαδίκτυο είναι τώρα ενεργή.\n"
-"\n"
-
-#, python-format
 msgid "Your %s %s is rebooting"
 msgstr "Γίνεται επανεκκίνηση του %s %s σας"
 
@@ -24221,40 +24237,12 @@ msgid "Your %s %s will Restart..."
 msgstr "Θα γίνει επανεκκίνηση του %s %s σας..."
 
 #, python-format
-msgid ""
-"Your %s %s will be restarted after the installation of service.\n"
-"\n"
-"Do you want to install now ?"
-msgstr ""
-"Θα γίνει επανεκκίνηση του %s %s σας μετά την εγκατάσταση της υπηρεσίας.\n"
-"\n"
-"Είστε έτοιμοι για εγκατάσταση τώρα ;"
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-"Θα γίνει επανεκκίνηση του %s %s σας μετά την αφαίρεση της υπηρεσίας\n"
-"Είστε έτοιμοι για αφαίρεση τώρα ;"
-
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"Η σύνδεση στο διαδίκτυο δεν λειτουργεί!\n"
-"Επιλέξτε τι θέλετε να ακολουθήσει."
-
-#, python-format
 msgid "Your Internet connection is working (IP: %s)"
 msgstr "Η σύνδεσή σας στο διαδίκτυο λειτουργεί (ip: %s)"
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
 msgstr "Έχει εντοπιστεί ένα πρόβλημα λογισμικού στον δέκτη σας. Από την τελευταία επανεκκίνηση έχει προκύψει %d φορές.\n"
-
-msgid "Your STB will restart after pressing OK on your remote control."
-msgstr "Θα γίνει επανεκκίνηση του δέκτη σας αφού πιέσετε το ΟΚ στο τηλεχειριστήριο."
 
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "Η συλλογή σας υπερβαίνει το μέγεθος ενός DVD μονής στρώσης. Θα χρειαστείτε ένα κενό DVD διπλής στρώσης!"
@@ -24299,9 +24287,6 @@ msgid ""
 msgstr ""
 "Θα γίνει αναβάθμιση του υλικού\n"
 "Αυτό μπορεί να διαρκέσει μερικά λεπτά"
-
-msgid "Your network configuration has been activated."
-msgstr "Η ρύθμιση του δικτύου σας ενεργοποιήθηκε."
 
 msgid "Your password must have at least 5 characters."
 msgstr "Ο κωδικός σας πρέπει να περιέχει τουλάχιστον 5 χαρακτήρες."
@@ -24554,12 +24539,6 @@ msgstr "κλείσιμο επισκόπησης κοινόχρηστων στο�
 msgid "config menu"
 msgstr "μενού ρύθμισης"
 
-msgid "confirmed"
-msgstr "επιβεβαιωμένο"
-
-msgid "connected"
-msgstr "συνδεδεμένο"
-
 msgid "copy"
 msgstr "αντιγραφή"
 
@@ -24583,9 +24562,6 @@ msgstr "διαγραφή αποκοπής"
 
 msgid "disabled"
 msgstr "ανενεργό"
-
-msgid "disconnected"
-msgstr "αποσυνδεδεμένο"
 
 msgid "eMMC"
 msgstr "eMMC"
@@ -24846,9 +24822,6 @@ msgstr "ενός μέσου ΔΙΠΛΗΣ στρώσης σε χρήση."
 msgid "of a SINGLE layer medium used."
 msgstr "ενός μέσου ΜΟΝΗΣ στρώσης σε χρήση."
 
-msgid "off or wpa2 on"
-msgstr "κλειστό ή wpa2 ανοικτό"
-
 msgid "offset is"
 msgstr "το offset είναι"
 
@@ -25058,9 +25031,6 @@ msgstr "Ρυθμίσεις uShare"
 msgid "unavailable"
 msgstr "μη διαθέσιμο"
 
-msgid "unconfirmed"
-msgstr "μη επιβεβαιωμένο"
-
 msgid "unknown"
 msgstr "άγνωστο"
 
@@ -25117,6 +25087,629 @@ msgstr "ναι (διατήρηση των feeds)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d wireless network found!"
+#~ msgid_plural "%d wireless networks found!"
+#~ msgstr[0] "Βρέθηκε %d ασύρματο δίκτυο!"
+#~ msgstr[1] "Βρέθηκαν %d ασύρματα δίκτυα!"
+
+#~ msgid ""
+#~ "A second configured interface has been found.\n"
+#~ "\n"
+#~ "Do you want to disable the second network interface?"
+#~ msgstr ""
+#~ "Βρέθηκε ένα δεύτερο ρυθμισμένο δίκτυο.\n"
+#~ "\n"
+#~ "Θέλετε να απενεργοποιήσετε τον δεύτερο προσαρμογέα δικτύου;"
+
+#~ msgid "Activate network adapter configuration"
+#~ msgstr "Ενεργοποίηση ρυθμίσεων προσαρμογέα δικτύου"
+
+#~ msgid "Activate network settings"
+#~ msgstr "Ενεργοποίηση ρυθμίσεων δικτύου"
+
+#~ msgid "Activate the configured network settings."
+#~ msgstr "Ενεργοποίηση των παραμετροποιημένων ρυθμίσεων δικτύου."
+
+#~ msgid "Are you sure you want to activate this network configuration?"
+#~ msgstr "Θέλετε σίγουρα να ενεργοποιηθεί αυτή η ρύθμιση δικτύου;"
+
+#~ msgid "Are you sure you want to restart your network interfaces?"
+#~ msgstr "Θέλετε σίγουρα να γίνει επανεκκίνηση των διεπαφών δικτύου;"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Configure DNS (name servers)"
+#~ msgstr "Ρύθμιση διακομιστών ονομάτων (DNS)"
+
+#~ msgid "Configure interface"
+#~ msgstr "Ρύθμιση διεπαφής"
+
+#~ msgid ""
+#~ "Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+#~ "\n"
+#~ "When the settings are correct press OK to continue."
+#~ msgstr ""
+#~ "Ρυθμίστε ή επαληθεύστε τους διακομιστές ονομάτων DNS, προσαρμόζοντας τις τιμές που εμφανίζονται. \n"
+#~ "\n"
+#~ "Όταν οι ρυθμίσεις είναι σωστές, πιέστε OK για να συνεχίσετε."
+
+#~ msgid "Configure the IP address."
+#~ msgstr "Ρύθμιση της διεύθυνσης IP."
+
+#~ msgid ""
+#~ "Configure the Internet connection by adjusting the values shown.\n"
+#~ "\n"
+#~ "When the settings are correct press OK to continue."
+#~ msgstr ""
+#~ "Ρυθμίστε τη σύνδεση στο διαδίκτυο προσαρμόζοντας τις τιμές που εμφανίζονται.\n"
+#~ "\n"
+#~ "Όταν οι ρυθμίσεις είναι σωστές, πιέστε OK για να συνεχίσετε."
+
+#~ msgid "Configure the gateway."
+#~ msgstr "Ρύθμιση πύλης δικτύου."
+
+#~ msgid "Configure the name server (DNS)."
+#~ msgstr "Ρύθμιση του διακομιστή ονομάτων (DNS)."
+
+#~ msgid "Configure the netmask."
+#~ msgstr "Ρύθμιση μάσκας δικτύου."
+
+#~ msgid "Configure the network again"
+#~ msgstr "Ρύθμιση του δικτύου εκ νέου"
+
+#~ msgid "Configure your Network"
+#~ msgstr "Ρυθμίσεις του δικτύου σας"
+
+#~ msgid "Configure your internal LAN"
+#~ msgstr "Ρυθμίσεις εσωτερικού δικτύου"
+
+#~ msgid "Configure your wireless LAN again"
+#~ msgstr "Ρύθμιση του ασύρματου δικτύου εκ νέου"
+
+#~ msgid "Connect to a wireless network"
+#~ msgstr "Σύνδεση σε ασύρματο δίκτυο"
+
+#~ msgid "Current settings:"
+#~ msgstr "Τρέχουσες ρυθμίσεις:"
+
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#~ msgid "Device Settings"
+#~ msgstr "Ρυθμίσεις συσκευών"
+
+#~ msgid "Disabled or WPA/WPA2"
+#~ msgstr "Ανενεργό ή WPA/WPA2"
+
+#, python-format
+#~ msgid "Edit the DNS configuration of your %s %s."
+#~ msgstr "Επεξεργασία της ρύθμισης διακομιστή ονομάτων του %s %s σας."
+
+#, python-format
+#~ msgid "Edit the network configuration of your %s %s."
+#~ msgstr "Επεξεργασία των ρυθμίσεων δικτύου του %s %s σας."
+
+#~ msgid "Enable IPv6"
+#~ msgstr "Ενεργοποίηση IPv6"
+
+#~ msgid "Enable Wake On LAN"
+#~ msgstr "Ενεργοποίηση αφύπνισης σε δίκτυο"
+
+#~ msgid "Encrypted: "
+#~ msgstr "Ασφάλεια: "
+
+#~ msgid "Encryption Type:"
+#~ msgstr "Τύπος κρυπτοποίησης:"
+
+#~ msgid "Encryption key"
+#~ msgstr "Κλειδί ασφαλείας"
+
+#~ msgid "Encryption key type"
+#~ msgstr "Τύπος κλειδιού ασφαλείας"
+
+#~ msgid ""
+#~ "Error creating EHD-Skin.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος EHD.\n"
+#~ "Χρήση θέματος HD!"
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Icon package download not available.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος EHD. Μη διαθέσιμη λήψη πακέτου εικονιδίων.\n"
+#~ "Χρήση θέματος HD!"
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Not enough flash memory free.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος EHD. Ανεπαρκής ελεύθερη μνήμη flash.\n"
+#~ "Χρήση θέματος HD!"
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Some EHD-Icons are missing.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος EHD. Λείπουν κάποια εικονίδια EHD.\n"
+#~ "Χρήση θέματος HD!"
+
+#~ msgid "Error creating HD-Skin. Not enough flash memory free."
+#~ msgstr "Σφάλμα δημιουργίας θέματος FullHD. Ανεπαρκής ελεύθερη μνήμη flash."
+
+#~ msgid ""
+#~ "Error creating MetrixHD-Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος MetrixHD.\n"
+#~ "Ελέγξτε μετά την επανεκκίνηση το πρόσθετο MyMetrixLite και εφαρμόστε τις ρυθμίσεις σας."
+
+#~ msgid "Error, unknown Result!"
+#~ msgstr "Σφάλμα, άγνωστο αποτέλεσμα!"
+
+#~ msgid "Exit network adapter configuration"
+#~ msgstr "Έξοδος από ρύθμιση προσαρμογέα δικτύου"
+
+#~ msgid "Exit network adapter setup menu"
+#~ msgstr "Έξοδος από τη ρύθμιση προσαρμογέα δικτύου"
+
+#~ msgid "Exit network interface list"
+#~ msgstr "Έξοδος από τη λίστα διεπαφών δικτύου"
+
+#~ msgid "Exit network wizard"
+#~ msgstr "Έξοδος από τον οδηγό δικτύου"
+
+#~ msgid "Extended Networksetup Plugin..."
+#~ msgstr "Πρόσθετο προχωρημένων ρυθμίσεων δικτύου..."
+
+#~ msgid "Extended Setup..."
+#~ msgstr "Προχωρημένες ρυθμίσεις..."
+
+#~ msgid "Finished configuring your network"
+#~ msgstr "Ολοκλήρωση ρύθμισης δικτύου"
+
+#~ msgid "Follow instructions on TV"
+#~ msgstr "Ακολουθήστε τις οδηγίες στην TV"
+
+#~ msgid "Frequency Norm:"
+#~ msgstr "Νόρμα συχνότητας:"
+
+#~ msgid "Interface: "
+#~ msgstr "Διεπαφή: "
+
+#~ msgid "LAN adapter"
+#~ msgstr "Προσαρμογέας LAN"
+
+#~ msgid "Link quality:"
+#~ msgstr "Ποιότητα σύνδεσης:"
+
+#~ msgid "Link:"
+#~ msgstr "Σύνδεση:"
+
+#~ msgid "List available networks"
+#~ msgstr "Λίστα διαθέσιμων δικτύων"
+
+#~ msgid "Local network"
+#~ msgstr "Τοπικό δίκτυο"
+
+#~ msgid "MAC-address"
+#~ msgstr "Διεύθυνση MAC"
+
+#~ msgid "Manual configuration"
+#~ msgstr "Χειροκίνητη ρύθμιση"
+
+#~ msgid "Max. bitrate: "
+#~ msgstr "Μεγ. ρυθμός bit: "
+
+#~ msgid "Nameserver"
+#~ msgstr "Διακομιστής ονομάτων"
+
+#~ msgid "Nameserver settings"
+#~ msgstr "Ρυθμίσεις διακομιστών ονομάτων"
+
+#~ msgid "Network Adapter Actions"
+#~ msgstr "Ενέργειες προσαρμογέα δικτύου"
+
+#~ msgid "Network Adapter Setting Actions"
+#~ msgstr "Ενέργειες ρύθμισης προσαρμογέα δικτύου"
+
+#~ msgid "Network Adapter Text Actions"
+#~ msgstr "Ενέργειες κειμένου προσαρμογέα δικτύου"
+
+#~ msgid "Network Test:"
+#~ msgstr "Έλεγχος δικτύου:"
+
+#~ msgid "Network Wizard"
+#~ msgstr "Οδηγός δικτύου"
+
+#~ msgid "Network test"
+#~ msgstr "Έλεγχος δικτύου"
+
+#~ msgid ""
+#~ "Network wizard completed.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Ο οδηγός δικτύου ολοκληρώθηκε.\n"
+#~ "\n"
+#~ "Πιέστε OK για να συνεχίσετε."
+
+#~ msgid "Network:"
+#~ msgstr "Δίκτυο:"
+
+#~ msgid "NetworkWizard"
+#~ msgstr "Οδηγός δικτύου"
+
+#~ msgid "No Connection"
+#~ msgstr "Δεν υπάρχει σύνδεση"
+
+#~ msgid "No networks found"
+#~ msgstr "Δεν βρέθηκαν δίκτυα"
+
+#~ msgid "No wireless networks found! Searching..."
+#~ msgstr "Δεν βρέθηκαν ασύρματα δίκτυα! Αναζήτηση..."
+
+#~ msgid ""
+#~ "No working local network adapter found.\n"
+#~ "Please verify that you have attached a network cable and your network is configured correctly."
+#~ msgstr ""
+#~ "Δεν βρέθηκε ενεργός προσαρμογέας δικτύου.\n"
+#~ "Επιβεβαιώστε ότι έχει συνδεθεί καλώδιο δικτύου και έχει ρυθμιστεί σωστά το δίκτυο."
+
+#~ msgid ""
+#~ "No working wireless network adapter found.\n"
+#~ "Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+#~ msgstr ""
+#~ "Δεν βρέθηκε ενεργός προσαρμογέας ασύρματου δικτύου.\n"
+#~ "Επιβεβαιώστε ότι έχει συνδεθεί συμβατή συσκευή WLAN και έχει ρυθμιστεί σωστά το δίκτυο."
+
+#~ msgid ""
+#~ "No working wireless network interface found.\n"
+#~ " Please verify that you have attached a compatible WLAN device or enable your local network interface."
+#~ msgstr ""
+#~ "Δεν βρέθηκε ενεργή διεπαφή ασύρματου δικτύου.\n"
+#~ "Επιβεβαιώστε ότι έχει συνδεθεί συμβατή συσκευή WLAN ή ενεργοποιήστε τη διεπαφή δικτύου."
+
+#~ msgid "Please follow the instructions on the TV"
+#~ msgstr "Ακολουθήστε τις οδηγίες στην οθόνη"
+
+#~ msgid "Please press OK to continue."
+#~ msgstr "Πιέστε ΟΚ για να συνεχίσετε."
+
+#~ msgid "Please wait for activation of your network configuration..."
+#~ msgstr "Παρακαλώ περιμένετε, ενεργοποίηση ρύθμισης δικτύου..."
+
+#~ msgid "Please wait while we prepare your network interfaces..."
+#~ msgstr "Παρακαλώ περιμένετε, προετοιμασία διεπαφών δικτύου..."
+
+#~ msgid "Please wait while we test your network..."
+#~ msgstr "Παρακαλώ περιμένετε, έλεγχος δικτύου..."
+
+#~ msgid "Please wait while your skin setting is restoring..."
+#~ msgstr "Παρακαλώ περιμένετε για την επαναφορά των ρυθμίσεων του θέματος..."
+
+#~ msgid "Press OK to activate the settings."
+#~ msgstr "Πιέστε ΟΚ για να ενεργοποιηθούν οι ρυθμίσεις."
+
+#~ msgid "Primary DNS"
+#~ msgstr "Πρωτεύον DNS"
+
+#~ msgid "Restart Network Adapter"
+#~ msgstr "Επανεκκίνηση προσαρμογέα δικτύου"
+
+#~ msgid "Restart your network connection and interfaces."
+#~ msgstr "Επανεκκίνηση σύνδεσης δικτύου και διεπαφών."
+
+#~ msgid "Restore MetrixHD Settings"
+#~ msgstr "Επαναφορά ρυθμίσεων του MetrixHD"
+
+#~ msgid "SABnzbd Settings"
+#~ msgstr "Ρυθμίσεις SABnzbd"
+
+#~ msgid "Scan wireless networks"
+#~ msgstr "Ανίχνευση ασύρματων δικτύων"
+
+#~ msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
+#~ msgstr "Ανίχνευση του δικτύου για ασύρματα σημεία σύνδεσης και σύνδεση σε αυτά με την επιλεγμένη ασύρματη συσκευή."
+
+#~ msgid "Secondary DNS"
+#~ msgstr "Δευτερεύων DNS"
+
+#~ msgid "Select a wireless network"
+#~ msgstr "Επιλογή ασύρματου δίκτυου"
+
+#~ msgid "Select interface"
+#~ msgstr "Επιλογή διεπαφής"
+
+#~ msgid "Select menu entry"
+#~ msgstr "Επιλογή στοιχείου μενού"
+
+#~ msgid ""
+#~ "Select the network interface to be used for the Internet connection.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Επιλέξτε τη διεπαφή δικτύου που θα χρησιμοποιηθεί για τη σύνδεση στο διαδίκτυο.\n"
+#~ "\n"
+#~ "Πιέστε OK για να συνεχίσετε."
+
+#~ msgid ""
+#~ "Select the wireless network to which you want to connect.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Επιλέξτε το ασύρματο δίκτυο στο οποίο θέλετε να συνδεθείτε.\n"
+#~ "\n"
+#~ "Πιέστε ΟΚ για να συνεχίσετε."
+
+#~ msgid "Select wireless network"
+#~ msgstr "Επιλογή ασύρματου δικτύου"
+
+#~ msgid "Show WLAN status"
+#~ msgstr "Εμφάνιση κατάστασης ασύρματου δικτύου"
+
+#~ msgid "Show info"
+#~ msgstr "Εμφάνιση πληροφοριών"
+
+#~ msgid "Shows the state of your wireless LAN connection."
+#~ msgstr "Εμφάνιση της κατάστασης του ασύρματου δικτύου."
+
+#~ msgid "Signal quality"
+#~ msgstr "Ποιότητα σήματος"
+
+#~ msgid "Signal: "
+#~ msgstr "Σήμα: "
+
+#~ msgid "Start test"
+#~ msgstr "Έναρξη ελέγχου"
+
+#~ msgid "Stop test"
+#~ msgstr "Τερματισμός ελέγχου"
+
+#, python-format
+#~ msgid "Test the network configuration of your %s %s."
+#~ msgstr "Έλεγχος των ρυθμίσεων δικτύου του %s %s σας."
+
+#~ msgid ""
+#~ "The Internet connection appears to be working.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Η σύνδεση στο διαδίκτυο φαίνεται να λειτουργεί.\n"
+#~ "\n"
+#~ "Πιέστε OK για να συνεχίσετε."
+
+#~ msgid ""
+#~ "The Internet connection appears to not be working!\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "Η σύνδεση στο διαδίκτυο φαίνεται να μη λειτουργεί!\n"
+#~ "\n"
+#~ "Επιλέξτε τι θα γίνει στη συνέχεια."
+
+#~ msgid ""
+#~ "The network wizard extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Το πρόσθετο οδηγού δικτύου δεν είναι εγκατεστημένο!\n"
+#~ "Παρακαλώ εγκαταστήστε το."
+
+#~ msgid ""
+#~ "The wireless LAN Internet connection could not be started!\n"
+#~ "Is the wireless LAN device connected?\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "Η σύνδεση στο ασύρματο δίκτυο δεν ήταν εφικτή!\n"
+#~ "Έχει συνδεθεί η ασύρματη συσκευή;\n"
+#~ "\n"
+#~ "Επιλέξτε τι θα γίνει στη συνέχεια."
+
+#~ msgid ""
+#~ "The wireless LAN plugin code is not installed!\n"
+#~ "\n"
+#~ "Install it and choose what to do next."
+#~ msgstr ""
+#~ "Ο κώδικας του πρόσθετου του ασύρματου δικτύου δεν έχει εγκατασταθεί!\n"
+#~ "\n"
+#~ "Εγκαταστήστε τον και επιλέξτε τι θα γίνει στη συνέχεια."
+
+#~ msgid ""
+#~ "The wireless LAN plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Το πρόσθετο ασύρματου δικτύου δεν είναι εγκατεστημένο!\n"
+#~ "Παρακαλώ εγκαταστήστε το."
+
+#~ msgid ""
+#~ "This test checks for configured DNS.\n"
+#~ "If you get an \"unconfirmed\" message:\n"
+#~ "- please check your DHCP, cabling and adapter setup\n"
+#~ "- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+#~ msgstr ""
+#~ "Αυτό το τεστ ελέγχει για ρυθμισμένους διακομιστές ονομάτων.\n"
+#~ "Αν λάβετε το μήνυμα \"μη επιβεβαιωμένο\":\n"
+#~ "- ελέγξτε τον διακομιστή DHCP, την καλωδίωση και την εγκατάσταση του προσαρμογέα\n"
+#~ "- αν έχετε ρυθμίσει τους διακομιστές ονομάτων χειροκίνητα, επιβεβαιώστε τα στοιχεία στις \"Ρυθμίσεις διακομιστών ονομάτων\""
+
+#~ msgid ""
+#~ "This test checks whether a network cable is connected to your LAN adapter.\n"
+#~ "If you get a \"disconnected\" message:\n"
+#~ "- verify that a network cable is attached\n"
+#~ "- verify that the cable is not broken"
+#~ msgstr ""
+#~ "Αυτό το τεστ ελέγχει αν το καλώδιο δικτύου είναι συνδεδεμένο στον προσαρμογέα LAN.\n"
+#~ "Αν λάβετε το μήνυμα \"αποσυνδεδεμένο\":\n"
+#~ "- βεβαιωθείτε ότι συνδέσατε το καλώδιο\n"
+#~ "- βεβαιωθείτε ότι το καλώδιο δεν είναι χαλασμένο"
+
+#~ msgid ""
+#~ "This test checks whether a valid IP address is found for your LAN adapter.\n"
+#~ "If you get a \"unconfirmed\" message:\n"
+#~ "- no valid IP address was found\n"
+#~ "- please check your DHCP, cabling and adapter setup"
+#~ msgstr ""
+#~ "Αυτό το τεστ ελέγχει αν υπάρχει έγκυρη IP Address στον προσαρμογέα LAN.\n"
+#~ "Αν λάβετε το μήνυμα \"μη επιβεβαιωμένο\":\n"
+#~ "- δεν βρέθηκε έγκυρη διεύθυνση IP\n"
+#~ "- ελέγξτε τον διακομιστή DHCP, την καλωδίωση και τη ρύθμιση του προσαρμογέα"
+
+#~ msgid ""
+#~ "This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
+#~ "If you get a \"disabled\" message:\n"
+#~ " - then your LAN adapter is configured for manual IP setup\n"
+#~ "- verify that you have entered correct IP information in the adapter setup dialog.\n"
+#~ "If you get an \"enabled\" message:\n"
+#~ "-verify that you have a configured and working DHCP server in your network."
+#~ msgstr ""
+#~ "Αυτό το τεστ ελέγχει αν ο προσαρμογέας δικτύου έχει ρυθμιστεί για αυτόματη απόδοση διευθύνσεων IP μέσω DHCP.\n"
+#~ "Αν δείτε το μήνυμα \"ανενεργό\" :\n"
+#~ " - τότε ο προσαρμογέας LAN έχει ρυθμιστεί να αποδίδει χειροκίνητα διευθύνσεις IP\n"
+#~ "- σιγουρευτείτε ότι έχετε εισάγει τις σωστές πληροφορίες IP στον διάλογο ρυθμίσεων.\n"
+#~ "Αν δείτε το μήνυμα \"ενεργό\" :\n"
+#~ "-σιγουρευτείτε ότι έχετε ένα σωστά ρυθμισμένο και λειτουργικό διακομιστή DHCP στο δίκτυό σας."
+
+#~ msgid "This test detects your configured LAN adapter."
+#~ msgstr "Αυτό το τεστ εντοπίζει τη ρυθμισμένη κάρτα δικτύου."
+
+#~ msgid "Unencrypted"
+#~ msgstr "Χωρίς κωδικοποίηση"
+
+#~ msgid ""
+#~ "Unknown Error creating Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Σφάλμα δημιουργίας θέματος.\n"
+#~ "Ελέγξτε μετά την επανεκκίνηση το πρόσθετο MyMetrixLite και εφαρμόστε τις ρυθμίσεις σας."
+
+#~ msgid "Unsupported"
+#~ msgstr "Δεν υποστηρίζεται"
+
+#~ msgid "Use a gateway"
+#~ msgstr "Χρήση πύλης"
+
+#~ msgid "Use interface"
+#~ msgstr "Χρήση διεπαφής"
+
+#~ msgid "Use only for Wake on WLan (WoW)"
+#~ msgstr "Χρήση μόνο για αφύπνιση στο ασύρματο δίκτυο (WoW)"
+
+#~ msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
+#~ msgstr "Χρήση του οδηγού δικτύου για ρύθμιση του δικτύου. Ο οδηγός θα σας βοηθήσει με τις ρυθμίσεις του δικτύου σας"
+
+#~ msgid "Use the network wizard to configure selected network adapter"
+#~ msgstr "Χρήση του οδηγού δικτύου για τη ρύθμιση του επιλεγμένου προσαρμογέα δικτύου"
+
+#~ msgid "Use the network wizard to configure your Network."
+#~ msgstr "Χρήση του οδηγού για ρύθμιση του δικτύου σας."
+
+#~ msgid "VLAN connection"
+#~ msgstr "Σύνδεση VLAN"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WLAN connection"
+#~ msgstr "Σύνδεση WLAN"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA or WPA2"
+#~ msgstr "WPA ή WPA2"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "When enabled, use DHCP for the IP configuration."
+#~ msgstr "Όταν είναι ενεργό, θα γίνεται χρήση του διακομιστή DHCP για τη ρύθμιση IP."
+
+#~ msgid "Wireless LAN"
+#~ msgstr "Ασύρματο δίκτυο"
+
+#~ msgid "Wireless network"
+#~ msgstr "Ασύρματο δίκτυο"
+
+#~ msgid "Wireless network configuration..."
+#~ msgstr "Ρύθμιση σύνδεσης ασύρματου δικτύου..."
+
+#~ msgid ""
+#~ "Wireless network connection setup.\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "Ρύθμιση της ασύρματης σύνδεσης δικτύου.\n"
+#~ "\n"
+#~ "Επιλέξτε τι θα γίνει στη συνέχεια."
+
+#~ msgid "Wireless network setup"
+#~ msgstr "Ρύθμιση ασύρματου δικτύου"
+
+#~ msgid "Wireless network state"
+#~ msgstr "Κατάσταση ασύρματου δικτύου"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s is now ready to be used.\n"
+#~ "\n"
+#~ "Your Internet connection is working now.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ο %s %s σας είναι τώρα έτοιμος για χρήση.\n"
+#~ "\n"
+#~ "Η σύνδεση στο διαδίκτυο είναι τώρα ενεργή.\n"
+#~ "\n"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the installation of service.\n"
+#~ "\n"
+#~ "Do you want to install now ?"
+#~ msgstr ""
+#~ "Θα γίνει επανεκκίνηση του %s %s σας μετά την εγκατάσταση της υπηρεσίας.\n"
+#~ "\n"
+#~ "Είστε έτοιμοι για εγκατάσταση τώρα ;"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the removal of service\n"
+#~ "Do you want to remove now?"
+#~ msgstr ""
+#~ "Θα γίνει επανεκκίνηση του %s %s σας μετά την αφαίρεση της υπηρεσίας\n"
+#~ "Είστε έτοιμοι για αφαίρεση τώρα ;"
+
+#~ msgid ""
+#~ "Your Internet connection is not working!\n"
+#~ "Please choose what you want to do next."
+#~ msgstr ""
+#~ "Η σύνδεση στο διαδίκτυο δεν λειτουργεί!\n"
+#~ "Επιλέξτε τι θέλετε να ακολουθήσει."
+
+#~ msgid "Your STB will restart after pressing OK on your remote control."
+#~ msgstr "Θα γίνει επανεκκίνηση του δέκτη σας αφού πιέσετε το ΟΚ στο τηλεχειριστήριο."
+
+#~ msgid "Your network configuration has been activated."
+#~ msgstr "Η ρύθμιση του δικτύου σας ενεργοποιήθηκε."
+
+#~ msgid "confirmed"
+#~ msgstr "επιβεβαιωμένο"
+
+#~ msgid "connected"
+#~ msgstr "συνδεδεμένο"
+
+#~ msgid "disconnected"
+#~ msgstr "αποσυνδεδεμένο"
+
+#~ msgid "off or wpa2 on"
+#~ msgstr "κλειστό ή wpa2 ανοικτό"
+
+#~ msgid "unconfirmed"
+#~ msgstr "μη επιβεβαιωμένο"
 
 #~ msgid "Automatic shares access"
 #~ msgstr "Αυτόματη πρόσβαση στα κοινόχρηστα αρχεία"
@@ -25680,9 +26273,6 @@ msgstr "®"
 
 #~ msgid "SSID:"
 #~ msgstr "SSID:"
-
-#~ msgid "Scanning..."
-#~ msgstr "Ανίχνευση..."
 
 #~ msgid "Servers:"
 #~ msgstr "Διακομιστές:"
@@ -26612,9 +27202,6 @@ msgstr "®"
 
 #~ msgid "Time Update in Minutes:"
 #~ msgstr "Ενημέρωση ώρας σε λεπτά:"
-
-#~ msgid "VPN"
-#~ msgstr "VPN"
 
 #, python-format
 #~ msgid ""
