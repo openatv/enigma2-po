@@ -1,27 +1,29 @@
 # German translations for Enigma2.
 #
 # jbleyel <jbleyel@gmx.net>, 2021, 2022, 2023, 2024, 2025, 2026.
-# hd75hd <hd75hd.hd75hd@gmail.com>, 2021, 2022.
-# openATV <openatv@gmail.com>, 2021, 2023.
+# hd75hd <hd75hd.hd75hd@gmail.com>, 2021, 2022, 2026.
+# openATV <openatv@gmail.com>, 2021, 2023, 2026.
 # Holger <mrservo@gmx.de>, 2021.
 # Makumbo <tokioplo@web.de>, 2021, 2022, 2023, 2024, 2025, 2026.
 # Mr.Servo <mrservo@gmx.de>, 2021, 2022.
 # VfBFan <drop0815@posteo.de>, 2021, 2022, 2023, 2024, 2025, 2026.
 # Gunnar Koser <info@e2world.de>, 2022.
-# Mike <mike99@gmx.net>, 2022.
+# Mike <mike99@gmx.net>, 2022, 2026.
 # tomppaa <tomzza89@gmail.com>, 2022.
-# "Mr.Servo" <mrservo@gmx.de>, 2023.
+# "Mr.Servo" <mrservo@gmx.de>, 2023, 2026.
 # VfBFan <VfBFan@users.noreply.hosted.weblate.org>, 2023, 2024.
 # Masowick <Demian@gmx.co.uk>, 2025, 2026.
 # Pimmelmann <d.a.isy.mo.k.on.i@gmail.com>, 2025.
 # VfBFan <vfbfan@users.noreply.hosted.weblate.org>, 2026.
+# Massimo Pissarello <mapi68@gmail.com>, 2026.
+# tomppaa <tomzza@users.noreply.hosted.weblate.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 07:09+0000\n"
-"PO-Revision-Date: 2026-08-16 05:46+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2026-08-16 15:24+0000\n"
+"PO-Revision-Date: 2026-08-16 16:23+0000\n"
+"Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -911,6 +913,12 @@ msgstr[0] "%d Feed-Paket aktualisiert."
 msgstr[1] "%d Feed-Pakete aktualisiert."
 
 #, python-format
+msgid "%d host found."
+msgid_plural "%d hosts found."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d jobs are running in the background!"
 msgstr "Im Hintergrund laufen %d Aktionen (Jobs)!"
 
@@ -931,6 +939,12 @@ msgstr "%d Minuten"
 #, python-format
 msgid "%d ms"
 msgstr "%d ms"
+
+#, python-format
+msgid "%d network found."
+msgid_plural "%d networks found."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%d package found."
@@ -1045,13 +1059,6 @@ msgstr "%d Slots wurden auf dem ausgewählten Gerät erstellt.\n"
 #, python-format
 msgid "%d times"
 msgstr "%d Mal"
-
-#
-#, python-format
-msgid "%d wireless network found!"
-msgid_plural "%d wireless networks found!"
-msgstr[0] "%d WLAN-Netzwerk gefunden!"
-msgstr[1] "%d WLAN-Netzwerke gefunden!"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -1283,6 +1290,22 @@ msgstr "%sZeige 1080i als 1080p"
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr "'%s' enthält %d Datei(en) und %d Verzeichnis(se).\n"
 
+#, python-format
+msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' is listed more than once in 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' mounted."
+msgstr ""
+
+#, python-format
+msgid "'%s' unmounted."
+msgstr ""
+
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Puffer in Stunden' oder 'Anzahl der letzten Ereignisse'. Priorität beim Löschen älterer Timeshiftdateien hat die zuerst eingetretene Bedingung."
 
@@ -1386,6 +1409,9 @@ msgstr "1.2"
 msgid "10bit"
 msgstr "10 Bit"
 
+msgid "10th (Lowest)"
+msgstr ""
+
 msgid "12 character"
 msgstr "12 Zeichen"
 
@@ -1445,6 +1471,9 @@ msgstr "16:9 zurücksetzen"
 msgid "18 V"
 msgstr "18V"
 
+msgid "1st (Highest)"
+msgstr ""
+
 msgid "1st InfoBar timeout"
 msgstr "Erste Infoleiste Anzeigedauer"
 
@@ -1454,6 +1483,9 @@ msgstr "1x"
 #
 msgid "2"
 msgstr "2"
+
+msgid "2nd"
+msgstr ""
 
 msgid "2nd InfoBar"
 msgstr "Zweite Infoleiste"
@@ -1496,6 +1528,9 @@ msgstr "3D-Surround"
 msgid "3D Surround Speaker Position"
 msgstr "3D-Surround-Lautsprecherposition"
 
+msgid "3rd"
+msgstr ""
+
 msgid "3x"
 msgstr "3x"
 
@@ -1517,6 +1552,9 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 Pan & Scan"
 
+msgid "4th"
+msgstr ""
+
 msgid "4x"
 msgstr "4x"
 
@@ -1527,13 +1565,22 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr "50–200 Mbps"
 
+msgid "5th"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
 
+msgid "6th"
+msgstr ""
+
 #
 msgid "7"
 msgstr "7"
+
+msgid "7th"
+msgstr ""
 
 #
 msgid "8"
@@ -1545,9 +1592,15 @@ msgstr "8 Zeichen"
 msgid "8bit"
 msgstr "8 Bit"
 
+msgid "8th"
+msgstr ""
+
 #
 msgid "9"
 msgstr "9"
+
+msgid "9th"
+msgstr ""
 
 msgid "< Alternate Skin >"
 msgstr "< Alternativer Skin >"
@@ -1715,16 +1768,6 @@ msgstr ""
 msgid "A required tool (%s) was not found."
 msgstr "Ein erforderliches Hilfsprogramm (%s) wurde nicht gefunden."
 
-#
-msgid ""
-"A second configured interface has been found.\n"
-"\n"
-"Do you want to disable the second network interface?"
-msgstr ""
-"Eine zweite konfigurierte Netzwerkschnittstelle wurde gefunden.\n"
-"\n"
-"Diese Netzwerkschnittstelle deaktivieren?"
-
 # RecordTimer.py
 msgid ""
 "A timer failed to record!\n"
@@ -1879,6 +1922,11 @@ msgstr "Zugriffsmodus"
 msgid "Access point"
 msgstr "Access Point"
 
+msgid ""
+"Access point not found.\n"
+"Check it is in range and the SSID is correct."
+msgstr ""
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Die Standortbestimmung benötigt eine Internetverbindung."
 
@@ -1921,16 +1969,8 @@ msgstr "Die Tasten Hoch/Runter für die Funktion 'Alle Hoch/Runter' am Anfang/En
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr "Die Möglichkeit aktivieren, individuelle oder festgelegte interne HDMI-CEC-Befehle von der Befehlszeile zu senden."
 
-#
-msgid "Activate network adapter configuration"
-msgstr "Einstellungen des Netzwerkadapters aktivieren"
-
-#
-msgid "Activate network settings"
-msgstr "Netzwerkeinstellungen aktivieren"
-
-msgid "Activate the configured network settings."
-msgstr "Netzwerkeinstellungen übernehmen."
+msgid "Activate network adapter"
+msgstr ""
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr "Flash-Expander aktivieren, alle geänderten Einstellungen speichern, dann beenden"
@@ -1952,6 +1992,13 @@ msgstr "Aktive Clients"
 
 msgid "Active only"
 msgstr "Nur aktive"
+
+msgid "Adapter"
+msgstr ""
+
+#, python-format
+msgid "Adapter '%s' Context Menu"
+msgstr ""
 
 #
 msgid "Adapter Settings"
@@ -2001,6 +2048,9 @@ msgstr "HDMI-IN zu Bouquet hinzufügen"
 msgid "Add Marker To Bouquet"
 msgstr "Marker einfügen"
 
+msgid "Add Mount Manually"
+msgstr ""
+
 msgid "Add New Quad Channel Entry"
 msgstr "Neue Sendergruppe hinzufügen"
 
@@ -2027,6 +2077,12 @@ msgstr "Timer hinzufügen"
 #
 msgid "Add To Parental Protection"
 msgstr "Zum Jugendschutz hinzufügen"
+
+msgid "Add Wi-Fi"
+msgstr ""
+
+msgid "Add Wi-Fi Manually"
+msgstr ""
 
 msgid "Add Zap+RecordTimer"
 msgstr "'Umschalten und aufnehmen'-Timer hinzufügen"
@@ -2055,6 +2111,9 @@ msgstr "Neuen Umschalttimer für nächste Sendung hinzufügen"
 #
 msgid "Add a mark"
 msgstr "Marker hinzufügen"
+
+msgid "Add a new Saved Wi-Fi Network"
+msgstr ""
 
 msgid "Add a new bouquet"
 msgstr "Bouquet hinzufügen"
@@ -2635,10 +2694,6 @@ msgid "Are you sure to remove this entry?"
 msgstr "Diesen Eintrag wirklich löschen?"
 
 #
-msgid "Are you sure you want to activate this network configuration?"
-msgstr "Diese Netzwerkkonfiguration wirklich aktivieren?"
-
-#
 msgid ""
 "Are you sure you want to delete\n"
 "the following backup:\n"
@@ -2664,10 +2719,6 @@ msgstr "Diesen Assistenten verlassen?"
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "Die EPG-Daten von hier neu laden:\n"
-
-#
-msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Die Netzwerkschnittstelle neu starten?"
 
 #
 #, python-format
@@ -2785,6 +2836,9 @@ msgstr "Zugewiesene CAIDs:"
 #
 msgid "Assigned services/provider:"
 msgstr "Zugewiesene Sender/Anbieter:"
+
+msgid "Associated"
+msgstr ""
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19,2° Ost"
@@ -3061,9 +3115,8 @@ msgstr "BLAU lang"
 msgid "BLUE switch: BLUE/BLUE long"
 msgstr "Taste BLAU kurz/lang"
 
-#
-msgid "Back"
-msgstr "Zurück"
+msgid "BSSID"
+msgstr ""
 
 msgid "Back USB"
 msgstr "USB hinten"
@@ -3485,6 +3538,9 @@ msgstr "Broadcom"
 msgid "Broadcom default"
 msgstr "Broadcom-Standard"
 
+msgid "Browse"
+msgstr ""
+
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Erweiterungen durchsuchen, installieren oder entfernen."
 
@@ -3544,6 +3600,9 @@ msgstr "Brennen"
 
 msgid "Burundi"
 msgstr "Burundi"
+
+msgid "Bus"
+msgstr ""
 
 msgid "Business"
 msgstr "Unternehmen"
@@ -3731,6 +3790,9 @@ msgstr "Kabel"
 
 msgid "Cable Scan"
 msgstr "Kabelsuchlauf"
+
+msgid "Cable Unplugged"
+msgstr ""
 
 msgid "Cable input"
 msgstr "Kabeleingang"
@@ -4521,6 +4583,9 @@ msgstr "Löschen"
 msgid "Clear Log"
 msgstr "Log löschen"
 
+msgid "Clear Stored Credentials"
+msgstr ""
+
 msgid "Clear before scan"
 msgstr "Vor dem Suchlauf löschen"
 
@@ -4588,6 +4653,9 @@ msgstr "Favoritenliste schließen."
 
 msgid "Close dialog"
 msgstr "Dialog schließen"
+
+msgid "Close network test"
+msgstr ""
 
 msgid "Close screen"
 msgstr "Bildschirm schließen"
@@ -4794,14 +4862,17 @@ msgstr "Konfiguration"
 msgid "Configuration options for the HELP screen can be found in 'MENU > Setup > Usage & User Interface > Settings'."
 msgstr "Konfigurationsoptionen für den HILFE-Bildschirm befinden sich unter 'MENU > Einstellungen > Bedienung / Oberfläche > OSD'."
 
-msgid "Configure DNS (name servers)"
-msgstr "DNS (Nameserver) konfigurieren"
+msgid "Configure DNS (Dynamic Name Server)"
+msgstr ""
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der externen Untertitel zu verbessern."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Eine zusätzliche Verzögerung einstellen, um die Synchronität der Untertitel zu verbessern."
+
+msgid "Configure another network adapter"
+msgstr ""
 
 msgid "Configure cable reception on this input."
 msgstr "Den Kabelempfang an diesem Eingang konfigurieren."
@@ -4854,20 +4925,17 @@ msgstr "Auswählen, ob Sendertyp-Symbole angezeigt werden sollen."
 msgid "Configure if the subtitle should switch between normal, italic, bold and bold italic."
 msgstr "Einstellen, ob die Schriftart der externen Untertitel zwischen Normal, Kursiv, Fett oder Fettkursiv wechseln soll."
 
-msgid "Configure interface"
-msgstr "Netzwerkkarte konfigurieren"
+msgid "Configure network adapter"
+msgstr ""
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr "Die Geräte einstellen, auf denen die Hintergrund-Löschoption verwendet werden darf."
 
 msgid ""
-"Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+"Configure or verify your DNS (Dynamic Name Server) settings by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
-"Den DNS (Nameserver) konfigurieren oder überprüfen, indem die angezeigten Werte angepasst werden.\n"
-"\n"
-"Wenn die Einstellungen korrekt sind, OK drücken, um fortzufahren."
 
 msgid "Configure remote control type"
 msgstr "Fernbedienungstyp einstellen"
@@ -4881,20 +4949,8 @@ msgstr "Den terrestrischen Empfang an diesem Eingang konfigurieren."
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Den DiSEqC-Modus für diesen LNB einstellen."
 
-msgid "Configure the IP address."
-msgstr "Die IP-Adresse konfigurieren."
-
 msgid "Configure the IP of the fallback remote receiver."
 msgstr "Die IP des Reservereceivers einstellen."
-
-msgid ""
-"Configure the Internet connection by adjusting the values shown.\n"
-"\n"
-"When the settings are correct press OK to continue."
-msgstr ""
-"Die Internetverbindung konfigurieren, indem die angezeigten Werte angepasst werden.\n"
-"\n"
-"Wenn die Einstellungen korrekt sind, OK drücken, um fortzufahren."
 
 msgid "Configure the Port of the fallback remote receiver."
 msgstr "Den Port des Reservereceivers einstellen."
@@ -5004,9 +5060,6 @@ msgstr "Auswählen, was kurzes Drücken der Ausschalttaste bewirken soll."
 msgid "Configure the function of the < and > buttons."
 msgstr "Auswählen, was die Tasten < und > bewirken sollen."
 
-msgid "Configure the gateway."
-msgstr "Das Gateway einstellen."
-
 msgid "Configure the hard disk drive to go to Standby after the specified idle time when the receiver is in Standby."
 msgstr "Die Leerlaufzeit einstellen, nach welcher die Festplatte in den Ruhezustand wechseln soll, wenn sich der Receiver im Standby befindet."
 
@@ -5036,16 +5089,6 @@ msgstr "Den erforderlichen Speicherplatz einstellen, der für Aufnahmen verfügb
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
 msgstr "Die Minimumbreite einstellen, bevor das 'I'-Symbol gezeigt wird. Bei '0' wird das Symbol gar nicht gezeigt."
-
-msgid "Configure the name server (DNS)."
-msgstr "Den Nameserver (DNS) einstellen."
-
-msgid "Configure the netmask."
-msgstr "Die Netzwerkmaske einstellen."
-
-#
-msgid "Configure the network again"
-msgstr "Das Netzwerk erneut konfigurieren"
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr "Legt fest, wie viele Tage der Inhalt vom Papierkorb erhalten bleiben soll, bevor er automatisch gelöscht wird."
@@ -5080,6 +5123,9 @@ msgstr "Den Untertitel für die Sprachauswahl 2 einstellen."
 
 msgid "Configure the secondary EPG language."
 msgstr "Die sekundäre EPG-Sprache einstellen."
+
+msgid "Configure the selected Wi-Fi network"
+msgstr ""
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
 msgstr "Das Zeitintervall (in Sekunden) für das Springen mit den Tasten '1' und '3' einstellen."
@@ -5185,18 +5231,8 @@ msgstr "Den bevorzugten Tuner einstellen, wenn mehr als ein Tuner verfügbar ist
 msgid "Configure your NTP server."
 msgstr "Den NTP-Server zur Zeitsynchronisierung auswählen."
 
-msgid "Configure your Network"
-msgstr "Das Netzwerk konfigurieren"
-
-msgid "Configure your internal LAN"
-msgstr "Internes Netzwerk konfigurieren"
-
 msgid "Configure your network settings, and press OK to start the scan"
 msgstr "Netzwerkeinstellungen konfigurieren und dann OK drücken, um den Suchlauf zu starten."
-
-#
-msgid "Configure your wireless LAN again"
-msgstr "WLAN-Netzwerk erneut konfigurieren"
 
 msgid "Configures which video output connector will be used."
 msgstr "Den zu verwendenden Videoausgang einstellen."
@@ -5210,6 +5246,10 @@ msgstr "Dienst konfigurieren"
 
 msgid "Confirm Zap"
 msgstr "Umschalten bestätigen"
+
+#, python-format
+msgid "Confirm the deletion of '%s'?"
+msgstr ""
 
 msgid "ConflictTimer Actions"
 msgstr "Timerkonflikt-Aktionen"
@@ -5232,11 +5272,14 @@ msgstr "Verbinden"
 msgid "Connect to IceTV server every"
 msgstr "Mit dem IceTV-Server verbinden"
 
-msgid "Connect to a wireless network"
-msgstr "Mit einem Drahtlosnetzwerk verbinden"
-
 msgid "Connect to the Internet"
 msgstr "Mit dem Internet verbinden"
+
+msgid "Connect to the selected Saved Wi-Fi Network"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
 
 msgid "Connected clients"
 msgstr "Verbundene Clients"
@@ -5254,8 +5297,26 @@ msgstr "Verbunden mit"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr "Transkodierung verbunden. Beschränkung: Kein Bild-im-Bild!"
 
+msgid ""
+"Connected, but no IP address was received.\n"
+"Check the router's DHCP settings."
+msgstr ""
+
+#, python-format
+msgid ""
+"Connected.\n"
+"IP address is '%s'."
+msgstr ""
+
 msgid "Connected: "
 msgstr "Verbunden: "
+
+#, python-format
+msgid "Connecting To '%s'"
+msgstr ""
+
+msgid "Connecting..."
+msgstr ""
 
 msgid "Connection information"
 msgstr "Verbindungsinformationen"
@@ -5306,6 +5367,9 @@ msgstr "Kontext"
 
 msgid "Continent"
 msgstr "Kontinent"
+
+msgid "Continue"
+msgstr ""
 
 #
 msgid "Continue in background"
@@ -5459,8 +5523,22 @@ msgstr "Costa Rica"
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Côte d'Ivoire / Elfenbeinküste"
 
+#, python-format
+msgid "Could not connect (status '%s')."
+msgstr ""
+
 msgid "Could not connect to server"
 msgstr "Keine Verbindung zum Server möglich!"
+
+msgid ""
+"Could not connect.\n"
+"Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
+msgstr ""
+
+msgid ""
+"Could not connect.\n"
+"Wrong Wi-Fi password?"
+msgstr ""
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr "Das Medium konnte nicht geladen werden! Disc eingelegt?"
@@ -5484,6 +5562,12 @@ msgstr "Ungültiger Dienst '%s' konnte nicht aufgezeichnet werden!"
 #, python-format
 msgid "Could not save configuration file %s!"
 msgstr "Konfigurationsdatei '%s' konnte nicht gespeichert werden!"
+
+msgid ""
+"Could not verify the saved Wi-Fi network.\n"
+"\n"
+"Do you want to change the settings again?"
+msgstr ""
 
 msgid "Country"
 msgstr "Land"
@@ -5611,6 +5695,13 @@ msgstr ""
 msgid "Creating partition"
 msgstr "Partition wird erstellt"
 
+msgid "Credentials"
+msgstr ""
+
+#, python-format
+msgid "Credentials for '%s'"
+msgstr ""
+
 msgid "Cree"
 msgstr "Cree"
 
@@ -5711,10 +5802,6 @@ msgstr "Aktuelle Rotorposition:"
 
 msgid "Current rotor position: unknown"
 msgstr "Aktuelle Rotorposition: unbekannt"
-
-#
-msgid "Current settings:"
-msgstr "Einstellungen:"
 
 msgid "Current supplied to the LNB and positioner."
 msgstr "Stromversorgung für den LNB und Rotor."
@@ -5829,10 +5916,6 @@ msgstr "D"
 msgid "DAC"
 msgstr "DAC"
 
-#
-msgid "DHCP"
-msgstr "DHCP"
-
 msgid "DLNA support"
 msgstr "DLNA"
 
@@ -5844,6 +5927,9 @@ msgstr "DMM normal"
 
 msgid "DNS Settings"
 msgstr "DNS-Einstellungen"
+
+msgid "DNS Settings Actions"
+msgstr ""
 
 msgid "DNS data source"
 msgstr "DNS-Datenquelle"
@@ -6123,8 +6209,14 @@ msgstr "Deaktivieren"
 msgid "Deactivate Expander"
 msgstr "Expander deaktivieren"
 
+msgid "Deactivate network adapter"
+msgstr ""
+
 msgid "Deactivate the flash expander in the selected device"
 msgstr "Flash-Expander im ausgewählten Gerät deaktivieren"
+
+msgid "Deactivated"
+msgstr ""
 
 msgid "Debug"
 msgstr "Debug"
@@ -6382,6 +6474,12 @@ msgstr "Image löschen"
 msgid "Delete Line"
 msgstr "Zeile löschen"
 
+msgid "Delete Mount"
+msgstr ""
+
+msgid "Delete Network"
+msgstr ""
+
 msgid "Delete Plugins"
 msgstr "Plugins löschen"
 
@@ -6623,9 +6721,6 @@ msgstr "Geräteverwaltung"
 msgid "Device Manager Actions"
 msgstr "Geräteverwaltungsaktionen"
 
-msgid "Device Settings"
-msgstr "Netzwerkadaptereinstellungen"
-
 msgid "Device id"
 msgstr "Geräte-ID"
 
@@ -6745,6 +6840,9 @@ msgstr "Informationen zum Verzeichnis-/Dateistatus"
 msgid "Disable"
 msgstr "Deaktivieren"
 
+msgid "Disable Adapter"
+msgstr ""
+
 msgid "Disable Animations"
 msgstr "Animation deaktivieren"
 
@@ -6770,6 +6868,9 @@ msgstr "MiniTV im Display deaktivieren"
 msgid "Disable Move Mode"
 msgstr "Verschiebemodus ausschalten"
 
+msgid "Disable Network"
+msgstr ""
+
 #
 msgid "Disable Picture in Picture"
 msgstr "Bild-im-Bild deaktivieren"
@@ -6788,6 +6889,9 @@ msgstr "Begrüßungsbildschirm ausschalten"
 
 msgid "Disable operator profiles"
 msgstr "Operator-Profile deaktivieren"
+
+msgid "Disable saved Wi-Fi network"
+msgstr ""
 
 # Box Display
 msgid "Disable the HDD Process on VFD."
@@ -6808,11 +6912,11 @@ msgstr "Deaktiviert"
 msgid "Disabled PiP.\n"
 msgstr "Bild-im-Bild wurde deaktiviert.\n"
 
-msgid "Disabled or WPA/WPA2"
-msgstr "Deaktiviert oder WPA/WPA2"
-
 msgid "Disabling Chkroot failed!"
 msgstr "Deaktivieren von Chkroot fehlgeschlagen!"
+
+msgid "Disconnected"
+msgstr ""
 
 msgid "Discussion"
 msgstr "Diskussion"
@@ -7277,6 +7381,9 @@ msgstr "Daten-DVD im Dreamboxformat (HDTV-kompatibel)"
 msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr "Daten-DVD im Dreamboxformat (funktioniert nicht in anderen DVD-Playern)"
 
+msgid "Driver"
+msgstr ""
+
 msgid "Driver Packages"
 msgstr "Treiber"
 
@@ -7448,6 +7555,9 @@ msgstr "Bearbeiten"
 msgid "Edit Alternatives"
 msgstr "Alternativen bearbeiten"
 
+msgid "Edit Credentials"
+msgstr ""
+
 msgid "Edit Mode Off"
 msgstr "Bearbeitungsmodus Aus"
 
@@ -7471,6 +7581,9 @@ msgstr "Titel bearbeiten"
 msgid "Edit Upgrade Source URL"
 msgstr "Die Adresse der Upgradequelle bearbeiten."
 
+msgid "Edit Username/Password Credentials"
+msgstr ""
+
 #
 msgid "Edit chapters of current title"
 msgstr "Kapitel des ausgewählten Titels bearbeiten"
@@ -7482,27 +7595,20 @@ msgstr "Aktuelle Zeile bearbeiten"
 msgid "Edit settings"
 msgstr "Einstellungen bearbeiten"
 
+msgid "Edit stored username/password credentials for the selected host"
+msgstr ""
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "Den Hostnamen des CCcam/NewCamd-Servers bearbeiten."
 
 msgid "Edit the CCcam/NewCamd server port."
 msgstr "Den CCcam/NewCamd-Serverport bearbeiten."
 
-#
-#, python-format
-msgid "Edit the DNS configuration of your %s %s."
-msgstr "Die DNS-Einstellungen von %s %s bearbeiten."
-
 msgid "Edit the NewCamd DES Key."
 msgstr "Den NewCamd-DES-Schlüssel bearbeiten."
 
 msgid "Edit the currently selected timer"
 msgstr "Den aktuell ausgewählten Timer bearbeiten"
-
-#
-#, python-format
-msgid "Edit the network configuration of your %s %s."
-msgstr "Die Netzwerkkonfiguration von %s %s bearbeiten."
 
 msgid "Edit the password."
 msgstr "Das Passwort bearbeiten."
@@ -7515,6 +7621,9 @@ msgstr "Den Remote-CCcam-Port bearbeiten."
 
 msgid "Edit the remote IP address."
 msgstr "Die Remote-IP-Adresse bearbeiten."
+
+msgid "Edit the selected network mount"
+msgstr ""
 
 #
 msgid "Edit the upgrade source address."
@@ -7620,9 +7729,6 @@ msgstr "GStreamer Debug-Log aktivieren *"
 msgid "Enable GStreamer pipeline graphs *"
 msgstr "GStreamer Pipeline Graphs aktivieren *"
 
-msgid "Enable IPv6"
-msgstr "IPv6 aktivieren"
-
 msgid "Enable IceTV"
 msgstr "IceTV aktivieren"
 
@@ -7677,8 +7783,8 @@ msgstr "ViaSat-EPG aktivieren"
 msgid "Enable Virgin EPG"
 msgstr "Virgin-EPG aktivieren"
 
-msgid "Enable Wake On LAN"
-msgstr "Wake On LAN aktivieren"
+msgid "Enable adapter"
+msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Die Anzeigedauer und Zusatzinformationen für die zweite Infoleiste einstellen (OK zweimal drücken – Die Bedienoberfläche muss dies unterstützen)."
@@ -7757,6 +7863,9 @@ msgstr "Überwachungs-UI aktivieren"
 msgid "Enable multiple bouquets"
 msgstr "Mehrere Favoritenlisten erlauben"
 
+msgid "Enable network"
+msgstr ""
+
 # PowerTimerEntry.py
 msgid "Enable network traffic check"
 msgstr "Überprüfung der Netzwerkdatenübertragung aktivieren"
@@ -7778,6 +7887,9 @@ msgstr "Vorschau aktivieren"
 
 msgid "Enable remote receiver to be tried to tune into services that can't be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner). Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_receiver:8001."
 msgstr "Mit 'Ja' den Reservereceiver aktivieren, der versucht wird, wenn ein Sender lokal nicht empfangen werden kann (z. B. wenn der Tuner belegt oder der Sender lokal nicht verfügbar ist). Die komplette URL inklusive 'http://' und Portnummer (normalerweise '8001') angeben, also z. B. 'http://zweiter_receiver:8001'."
+
+msgid "Enable saved Wi-Fi network"
+msgstr ""
 
 msgid "Enable teletext caching"
 msgstr "Videotext-Zwischenspeicher aktivieren"
@@ -7879,22 +7991,9 @@ msgstr "Aktiviert"
 msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
 msgstr "Bei 'Ja' wird das Entschlüsseln eines Streams aktiviert (wenn ECM-Daten im Stream enthalten sind und eine Karte vorhanden ist)."
 
-msgid "Encrypted: "
-msgstr "Verschlüsselt: "
-
 #
 msgid "Encryption"
 msgstr "Verschlüsselung"
-
-msgid "Encryption Type:"
-msgstr "Verschlüsselungstyp:"
-
-#
-msgid "Encryption key"
-msgstr "WLAN-Sicherheitsschlüssel"
-
-msgid "Encryption key type"
-msgstr "Verschlüsselungstyp"
 
 msgid "End"
 msgstr "Ende"
@@ -8067,6 +8166,9 @@ msgstr ""
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr "Das Netzwerk-DNS-Suffix angeben, das verwendet werden soll, wenn nur der Hostname angegeben ist. Dies hilft dem DNS-Resolver, den angeforderten Host zu finden."
+
+msgid "Enter the network hostname to be used to identify this receiver."
+msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr "Die Anzahl der NFS-Server-Threads auswählen, die zugewiesen/verwendet werden sollen. Höhere Werte verbessern die Leistung bei mehreren Clients, verbrauchen jedoch mehr Arbeitsspeicher."
@@ -8268,44 +8370,6 @@ msgstr "Wartezeit bei Fehlerwiederholung"
 msgid "Error code"
 msgstr "Fehlercode"
 
-msgid ""
-"Error creating EHD-Skin.\n"
-"Using HD-Skin!"
-msgstr ""
-"Fehler beim Erstellen des EHD-Skins!\n"
-"Es wird der HD-Skin verwendet."
-
-msgid ""
-"Error creating EHD-Skin. Icon package download not available.\n"
-"Using HD-Skin!"
-msgstr ""
-"Fehler beim Erstellen des EHD-Skins: Der Download des Symbolpakets ist nicht verfügbar!\n"
-"Es wird der HD-Skin verwendet."
-
-msgid ""
-"Error creating EHD-Skin. Not enough flash memory free.\n"
-"Using HD-Skin!"
-msgstr ""
-"Fehler beim Erstellen des EHD-Skins! Nicht genügend Flashspeicher frei.\n"
-"Es wird der HD-Skin verwendet."
-
-msgid ""
-"Error creating EHD-Skin. Some EHD-Icons are missing.\n"
-"Using HD-Skin!"
-msgstr ""
-"Fehler beim Erstellen des EHD-Skins! Einige EHD-Symbole fehlen.\n"
-"Es wird der HD-Skin verwendet."
-
-msgid "Error creating HD-Skin. Not enough flash memory free."
-msgstr "Fehler beim Erstellen des HD-Skins! Nicht genügend Flashspeicher frei."
-
-msgid ""
-"Error creating MetrixHD-Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Fehler beim Erstellen des MetrixHD-Skins!\n"
-"Die Einstellungen überprüfen und nach einem Neustart im MyMetrixLite-Plugin übernehmen."
-
 #, python-format
 msgid "Error downloading image '%s'!"
 msgstr "Fehler beim Herunterladen des Images '%s'!"
@@ -8355,9 +8419,6 @@ msgstr "Fehler beim Schreiben der Datei '/etc/enigma2/epg.dat' auf den Reservere
 msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr "Fehler beim Schreiben der Datei 'epg.dat' auf den Reservereceiver!"
 
-msgid "Error, unknown Result!"
-msgstr "Fehler: Unbekanntes Ergebnis!"
-
 #
 #, python-format
 msgid ""
@@ -8370,6 +8431,9 @@ msgstr ""
 #
 msgid "Error: An empty filename is illegal!"
 msgstr "Fehler: Leere Dateinamen sind unzulässig!"
+
+msgid "Error: Both 'server' and 'remote path' are required!"
+msgstr ""
 
 msgid "Error: Cannot find any images!"
 msgstr "Fehler: Es können keine Images gefunden werden!"
@@ -8427,6 +8491,10 @@ msgid "Error: It is not possible to run '%s' on '%s'!"
 msgstr "Fehler: Es ist nicht möglich, '%s' auf '%s' auszuführen!"
 
 #, python-format
+msgid "Error: Mounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
 msgstr "Fehler: Das Programm '%s' ist nicht installiert, und das Paket, in dem es enthalten sein soll, ist unbekannt!"
 
@@ -8434,6 +8502,9 @@ msgstr "Fehler: Das Programm '%s' ist nicht installiert, und das Paket, in dem e
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Fehler: Entfernen des Verzeichnisses '%s' fehlgeschlagen! (Möglicherweise ist es nicht leer.)"
+
+msgid "Error: Rescan failed!"
+msgstr ""
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8489,6 +8560,10 @@ msgid "Error: Unable to write log file '%s'!"
 msgstr "Fehler beim Schreiben der Datei '%s'!"
 
 #, python-format
+msgid "Error: Unmounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr "Fehler: '%s' auf '%s' anwenden ist nicht erlaubt!"
 
@@ -8510,6 +8585,9 @@ msgstr "Estnisch"
 
 msgid "EtPortal"
 msgstr "EtPortal"
+
+msgid "Ethernet Adapter"
+msgstr ""
 
 msgid "Ethernet network interface"
 msgstr "Ethernet-Netzwerkschnittstelle"
@@ -8648,21 +8726,6 @@ msgstr "Menü verlassen"
 msgid "Exit movie player?"
 msgstr "Movieplayer verlassen?"
 
-#
-msgid "Exit network adapter configuration"
-msgstr "Netzwerkadapterkonfiguration verlassen"
-
-msgid "Exit network adapter setup menu"
-msgstr "Netzwerkadapter-Einstellungsmenü verlassen"
-
-# HelpMenu
-msgid "Exit network interface list"
-msgstr "Netzwerkadapterübersicht verlassen"
-
-#
-msgid "Exit network wizard"
-msgstr "Netzwerkassistent verlassen"
-
 msgid "Exit picture viewer"
 msgstr "Bildbetrachter verlassen"
 
@@ -8682,6 +8745,9 @@ msgstr "Beenden, ohne eine Sicherung auszuführen"
 msgid "Expand"
 msgstr "Erweitern"
 
+msgid "Expand/collapse the selected host, or use the selected share"
+msgstr ""
+
 msgid "Experimental film/video"
 msgstr "Experimenteller Film/Video"
 
@@ -8697,6 +8763,9 @@ msgstr "Experte"
 
 msgid "Expert mode"
 msgstr "Expertenmodus"
+
+msgid "Exports"
+msgstr ""
 
 msgid "Exposure bias"
 msgstr "Belichtungskorrektur"
@@ -8716,14 +8785,6 @@ msgstr "Verlängern"
 
 msgid "Extended"
 msgstr "Erweitert"
-
-#
-msgid "Extended Networksetup Plugin..."
-msgstr "Plugin für erweiterte Netzwerkeinstellungen …"
-
-#
-msgid "Extended Setup..."
-msgstr "Erweiterte Einstellungen …"
 
 msgid "Extended Shares"
 msgstr "Erweiterte Netzwerkfreigaben"
@@ -9193,10 +9254,6 @@ msgstr "Feineinstellung"
 msgid "Finished"
 msgstr "Beendet"
 
-#
-msgid "Finished configuring your network"
-msgstr "Netzwerkkonfiguration abgeschlossen"
-
 msgid "Finland"
 msgstr "Finnland"
 
@@ -9298,14 +9355,14 @@ msgstr "Nach Anordnung auf der Fernbedienung"
 msgid "Flat by position on remote"
 msgstr "Nach Position auf der Fernbedienung"
 
+msgid "Flush Cache and Rescan"
+msgstr ""
+
 msgid "Folk and Country"
 msgstr "Folk und Country"
 
 msgid "Folk/Traditional music"
 msgstr "Volksmusik/Traditionelle Musik"
-
-msgid "Follow instructions on TV"
-msgstr "Die Anweisungen auf dem Fernseher befolgen"
 
 msgid "Font size"
 msgstr "Schriftgröße"
@@ -9421,10 +9478,6 @@ msgstr "Französische Süd- und Antarktisgebiete"
 #
 msgid "Frequency"
 msgstr "Frequenz"
-
-#
-msgid "Frequency Norm:"
-msgstr "Frequenznorm:"
 
 #
 msgid "Frequency bands"
@@ -10264,6 +10317,9 @@ msgstr "Einfügen"
 msgid "IP"
 msgstr "IP"
 
+msgid "IP Address"
+msgstr ""
+
 msgid "IP Address 1"
 msgstr "IP-Adresse 1"
 
@@ -10297,6 +10353,9 @@ msgstr "IP-Protokoll"
 
 msgid "IPK Installer"
 msgstr "IPK-Installer"
+
+msgid "IPv4 and IPv6"
+msgstr ""
 
 msgid "IPv4 only"
 msgstr "Nur IPv4"
@@ -10894,10 +10953,6 @@ msgstr "Schnittstelle"
 msgid "Interface '%s'"
 msgstr "Schnittstelle '%s'"
 
-#
-msgid "Interface: "
-msgstr "Schnittstelle: "
-
 msgid "Interlaced"
 msgstr "Zeilensprungverfahren"
 
@@ -11271,11 +11326,11 @@ msgstr "Kirgisistan"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "LAN adapter"
-msgstr "LAN-Adapter"
-
 msgid "LAN connection"
 msgstr "LAN-Verbindung"
+
+msgid "LAN link"
+msgstr ""
 
 msgid "LCD scroll speed"
 msgstr "Displayscrollgeschwindigkeit"
@@ -11492,6 +11547,9 @@ msgstr "USB vorne links"
 msgid "Left, wrapped"
 msgstr "Links, umgebrochen"
 
+msgid "Legacy (SMB1)"
+msgstr ""
+
 msgid "Legacy mode"
 msgstr "Alter Modus"
 
@@ -11590,19 +11648,11 @@ msgstr "Lingala"
 msgid "Link detected"
 msgstr "Link erkannt"
 
-#
-msgid "Link quality:"
-msgstr "Verbindungsqualität:"
-
 msgid "Link speed"
 msgstr "Verbindungsgeschwindigkeit"
 
 msgid "Link target"
 msgstr "Linkziel"
-
-#
-msgid "Link:"
-msgstr "Verbindung:"
 
 #
 msgid "Linked titles with a DVD menu"
@@ -11617,9 +11667,6 @@ msgstr "Navigationsaktionen"
 #
 msgid "List available EPG functions"
 msgstr "EPG-Funktionen anzeigen"
-
-msgid "List available networks"
-msgstr "Verfügbare Netzwerke anzeigen"
 
 msgid "List of Storage Devices"
 msgstr "Liste der Datenträger"
@@ -11691,9 +11738,6 @@ msgstr "Lokales Datum und Uhrzeit"
 
 msgid "Local information"
 msgstr "Lokale Informationen"
-
-msgid "Local network"
-msgstr "Lokales Netzwerk"
 
 msgid "Local or Regional"
 msgstr "Lokal oder Regional"
@@ -11887,11 +11931,10 @@ msgstr "Luxemburgisch"
 msgid "M2k Packages"
 msgstr "M2k"
 
-msgid "MAC address"
-msgstr "MAC-Adresse"
+msgid "MAC Address"
+msgstr ""
 
-# NetworkSetup.py
-msgid "MAC-address"
+msgid "MAC address"
 msgstr "MAC-Adresse"
 
 msgid "MENU"
@@ -12041,9 +12084,6 @@ msgstr "Manueller Suchlauf"
 msgid "Manual Service Searching"
 msgstr "Manueller Suchlauf"
 
-msgid "Manual configuration"
-msgstr "Manuelle Konfiguration"
-
 msgid "Manual scan for services"
 msgstr "Manueller Suchlauf nach Sendern"
 
@@ -12122,9 +12162,6 @@ msgstr "Max. Sender"
 # satconfig.py
 msgid "Max memory positions"
 msgstr "Max. Speicherpositionen"
-
-msgid "Max. bitrate: "
-msgstr "Max. Bitrate: "
 
 msgid "Maxdown +"
 msgstr "Maxdown +"
@@ -12445,6 +12482,9 @@ msgstr "Motoren"
 msgid "Mount"
 msgstr "Einhängen"
 
+msgid "Mount Context Menu"
+msgstr ""
+
 #
 msgid "Mount Manager"
 msgstr "Mountverwaltung"
@@ -12455,11 +12495,20 @@ msgstr "Einhängepunkt"
 msgid "Mount Setup"
 msgstr "Mounteinstellungen"
 
+msgid "Mount at boot time (fstab)"
+msgstr ""
+
 #
 msgid "Mount failed"
 msgstr "Einhängen fehlgeschlagen!"
 
 msgid "Mount mode"
+msgstr ""
+
+msgid "Mount on first access (autofs)"
+msgstr ""
+
+msgid "Mount or unmount the selected share"
 msgstr ""
 
 msgid "Mount point"
@@ -12468,11 +12517,17 @@ msgstr "Einhängepunkt"
 msgid "Mount root file system."
 msgstr "Root-Dateisystem einhängen."
 
+msgid "Mounted"
+msgstr ""
+
 msgid "Mounts"
 msgstr "Mounts"
 
 msgid "Move"
 msgstr "Verschieben"
+
+msgid "Move Down"
+msgstr ""
 
 msgid "Move Left/Right"
 msgstr "Links/Rechts"
@@ -12493,6 +12548,9 @@ msgstr "Bild-im-Bild verschieben"
 #
 msgid "Move PiP to main picture"
 msgstr "Bild-im-Bild tauschen und beenden"
+
+msgid "Move Up"
+msgstr ""
 
 msgid "Move Up/Down"
 msgstr "Hoch/Runter"
@@ -12550,6 +12608,12 @@ msgstr "Nach unten zur letzten Zeile in der Liste gehen."
 #
 msgid "Move east"
 msgstr "Drehen nach Osten"
+
+msgid "Move item down"
+msgstr ""
+
+msgid "Move item up"
+msgstr ""
 
 msgid "Move job completed."
 msgstr "Verschieben abgeschlossen."
@@ -12664,6 +12728,12 @@ msgstr "Zum vorherigen Bouquet springen"
 
 msgid "Move to previous marker"
 msgstr "Zum vorherigen Marker springen"
+
+msgid "Move to the Adapter list"
+msgstr ""
+
+msgid "Move to the Saved Wi-Fi Networks list"
+msgstr ""
 
 msgid "Move to the first item on the current line"
 msgstr "Zum ersten Eintrag der aktuellen Zeile gehen"
@@ -12910,6 +12980,9 @@ msgstr "NFS"
 msgid "NFS Server Settings"
 msgstr "NFS-Dateiserver"
 
+msgid "NFS Setup Actions"
+msgstr ""
+
 msgid "NFS threads"
 msgstr "NFS-Threads"
 
@@ -12961,14 +13034,6 @@ msgstr "Name absteigend"
 #, python-format
 msgid "Name server %d"
 msgstr "Nameserver %d"
-
-#
-msgid "Nameserver"
-msgstr "Nameserver"
-
-#
-msgid "Nameserver settings"
-msgstr "DNS-Einstellungen"
 
 msgid "Nameserver setup"
 msgstr "Nameservereinstellung"
@@ -13037,20 +13102,15 @@ msgstr "Netzmaske"
 msgid "Network"
 msgstr "Netzwerk"
 
-msgid "Network Adapter Actions"
-msgstr "Netzwerkadapteraktionen"
+#, python-format
+msgid "Network Adapter '%s' Settings"
+msgstr ""
 
 msgid "Network Adapter Selection"
 msgstr "Netzwerkadapterauswahl"
 
-msgid "Network Adapter Setting Actions"
-msgstr "Netzwerkadapter-Einstellungsaktionen"
-
 msgid "Network Adapter Settings"
 msgstr "Netzwerkadaptereinstellungen"
-
-msgid "Network Adapter Text Actions"
-msgstr "Netzwerkadapter-Textaktionen"
 
 # Quick Menue
 msgid "Network Browser"
@@ -13079,12 +13139,24 @@ msgstr "Netzwerkprotokoll"
 msgid "Network Log Actions"
 msgstr "Netzwerkprotokoll-Aktionen"
 
+msgid "Network Mount Manager Actions"
+msgstr ""
+
 msgid "Network Mount Settings"
+msgstr ""
+
+msgid "Network Mounts Overview"
 msgstr ""
 
 #
 msgid "Network Neighbourhood"
 msgstr "Heimnetzgruppe"
+
+msgid "Network Overview"
+msgstr ""
+
+msgid "Network Overview Actions"
+msgstr ""
 
 msgid "Network Packages"
 msgstr "Netzwerkpakete"
@@ -13103,27 +13175,64 @@ msgstr "Netzwerkeinrichtung"
 msgid "Network Setup Actions"
 msgstr "Netzwerkeinrichtung"
 
+msgid "Network Share Actions"
+msgstr ""
+
+msgid "Network Shares Browser"
+msgstr ""
+
+msgid "Network Shares Context Menu"
+msgstr ""
+
 msgid "Network Test"
 msgstr "Netzwerktest"
 
-msgid "Network Test:"
-msgstr "Netzwerktest: "
+msgid "Network Test Actions"
+msgstr ""
+
+#, python-format
+msgid "Network Test For '%s'"
+msgstr ""
 
 msgid "Network Wi-Fi Settings"
 msgstr "WLAN-Einstellungen"
 
-#
-msgid "Network Wizard"
-msgstr "Netzwerkassistent"
+msgid "Network adapter disabled."
+msgstr ""
+
+msgid "Network adapter enabled."
+msgstr ""
 
 msgid "Network adapter not connected to a network!"
 msgstr "Netzwerkadapter mit keinem Netzwerk verbunden!"
 
+msgid "Network adapter setup result:"
+msgstr ""
+
+msgid "Network adapter status"
+msgstr ""
+
 msgid "Network address"
 msgstr "Netzwerkadresse"
 
+#, python-format
+msgid "Network cable connected (%s)"
+msgstr ""
+
+#, python-format
+msgid "Network cable disconnected (%s)"
+msgstr ""
+
 msgid "Network configuration..."
 msgstr "Netzwerkkonfiguration …"
+
+#, python-format
+msgid ""
+"Network connected successfully.\n"
+"\n"
+"Interface: %s\n"
+"IP address: %s"
+msgstr ""
 
 msgid "Network information"
 msgstr "Netzwerkinformationen"
@@ -13153,31 +13262,11 @@ msgid "Network storage on"
 msgstr "Netzwerkspeicher auf"
 
 #
-msgid "Network test"
-msgstr "Netzwerktest"
-
-#
 msgid "Network test..."
 msgstr "Netzwerktest …"
 
-msgid ""
-"Network wizard completed.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Netzwerkassistent abgeschlossen.\n"
-"\n"
-"OK drücken, um fortzufahren."
-
 msgid "Network-ID"
 msgstr "Netzwerk-ID"
-
-msgid "Network:"
-msgstr "Netzwerk:"
-
-#
-msgid "NetworkWizard"
-msgstr "Netzwerkassistent"
 
 #
 msgid "Neutrino  (keymap.ntr)"
@@ -13214,6 +13303,9 @@ msgstr "Neue DXAndy-Programmliste "
 
 msgid "New Storage Device"
 msgstr "Neuer Datenträger"
+
+msgid "New Wi-Fi"
+msgstr ""
 
 msgid "New Zealand"
 msgstr "Neuseeland"
@@ -13319,16 +13411,21 @@ msgstr "Die Datei 'epg.dat' wurde auf dem Reservereceiver nicht gefunden!"
 msgid "No (supported) DVDROM found!"
 msgstr "Kein (unterstütztes) DVD-Laufwerk gefunden!"
 
-#
-msgid "No Connection"
-msgstr "Keine Verbindung"
-
 msgid "No ECM PIDs available"
 msgstr "Keine ECM-PIDs verfügbar!"
 
 #
 msgid "No HDD found or HDD not initialized!"
 msgstr "Keine Festplatte gefunden oder Festplatte nicht initialisiert!"
+
+msgid "No IP address"
+msgstr ""
+
+msgid ""
+"No IP address was received.\n"
+"\n"
+"The network connection could not be established."
+msgstr ""
 
 msgid "No Internet connection"
 msgstr "Keine Internetverbindung"
@@ -13409,8 +13506,14 @@ msgstr "Kein freier Index verfügbar"
 msgid "No free tuner!"
 msgstr "Kein freier Tuner!"
 
+msgid "No gateway"
+msgstr ""
+
 msgid "No hard disks detected."
 msgstr "Keine Festplatten gefunden!"
+
+msgid "No hosts found yet - still scanning..."
+msgstr ""
 
 msgid "No log files found so debug logs are unavailable!"
 msgstr "Keine Logdateien gefunden, daher sind keine Debug-Logs verfügbar!"
@@ -13424,9 +13527,8 @@ msgstr "Kein Netzwerkadapter vorhanden oder aktiviert!"
 msgid "No network storage detected."
 msgstr "Keine Netzwerkspeicher gefunden!"
 
-#
-msgid "No networks found"
-msgstr "Keine Netzwerke gefunden"
+msgid "No networks found."
+msgstr ""
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Zeilenanzahl-Schalter (erhöhen/reduzieren)"
@@ -13456,6 +13558,9 @@ msgstr "Kein Dienst"
 #
 msgid "No services/providers selected"
 msgstr "Keine Sender/Anbieter ausgewählt"
+
+msgid "No shares found."
+msgstr ""
 
 msgid "No slot images found"
 msgstr "Keine Slot-Images gefunden!"
@@ -13538,33 +13643,6 @@ msgstr "Keinen gültigen Einhängepunkt für '%s' gefunden!"
 
 msgid "No valid region details were found"
 msgstr "Es wurden keine gültigen Regionsangaben gefunden!"
-
-msgid "No wireless networks found! Searching..."
-msgstr "Keine WLAN-Netzwerke gefunden! Suche läuft …"
-
-#
-msgid ""
-"No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
-msgstr ""
-"Keinen funktionierenden Netzwerkadapter gefunden!\n"
-"Überprüfen, ob ein Netzwerkkabel angeschlossen und das Netzwerk richtig konfiguriert ist."
-
-#
-msgid ""
-"No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
-msgstr ""
-"Keinen funktionierenden WLAN-Adapter gefunden!\n"
-"Bitte überprüfen, ob ein kompatibler Adapter angeschlossen und das Netzwerk richtig konfiguriert ist."
-
-#
-msgid ""
-"No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
-msgstr ""
-"Keine funktionierende WLAN-Verbindung gefunden!\n"
-"Bitte überprüfen, ob ein kompatibler Adapter angeschlossen und das Netzwerk richtig konfiguriert ist."
 
 #
 msgid "No, but restart from begin"
@@ -13657,6 +13735,9 @@ msgstr "Norwegisch Nynorsk"
 msgid "Not Classified"
 msgstr "Nicht klassifiziert"
 
+msgid "Not Connected"
+msgstr ""
+
 msgid "Not Defined"
 msgstr "Nicht definiert"
 
@@ -13706,8 +13787,14 @@ msgstr ""
 "Freier Speicher: %sMB\n"
 "Pfad: %s"
 
+msgid "Not found"
+msgstr ""
+
 msgid "Not joined. Press Yellow to join."
 msgstr "Nicht verbunden, Taste GELB zum Verbinden drücken."
+
+msgid "Not mounted"
+msgstr ""
 
 msgid "Not required"
 msgstr "Nicht erforderlich"
@@ -14166,8 +14253,23 @@ msgstr "Senderliste öffnen und vorherigen Sender für Bild-im-Bild auswählen"
 msgid "Open the Channel Selection Settings screen"
 msgstr "Einstellungen der Senderliste öffnen"
 
+msgid "Open the Context Menu for the selected item"
+msgstr ""
+
 msgid "Open the Image information"
 msgstr "Imageinformationen öffnen"
+
+msgid "Open the Mount Context Menu"
+msgstr ""
+
+msgid "Open the Network Adapter Settings for the selected item"
+msgstr ""
+
+msgid "Open the Network Shares Browser"
+msgstr ""
+
+msgid "Open the Network Shares Context Menu"
+msgstr ""
 
 msgid "Open the Plugin Browser"
 msgstr "Plugin-Manager öffnen"
@@ -14207,6 +14309,9 @@ msgstr "OpenViX"
 
 msgid "OpenWebif picon path"
 msgstr "Picons für OpenWebif"
+
+msgid "Opening network adapter configuration..."
+msgstr ""
 
 msgid "Opera"
 msgstr "Oper"
@@ -14742,6 +14847,9 @@ msgstr "Pillarbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pinging..."
+msgstr ""
+
 msgid "Pink"
 msgstr "Rosa"
 
@@ -14942,20 +15050,12 @@ msgstr ""
 "Diese Adresse wird für Statusmeldungen, Programminformationen, Werbeangebote und eine Willkommensmail verwendet."
 
 #
-msgid "Please follow the instructions on the TV"
-msgstr "Den Anweisungen auf dem Bildschirm folgen"
-
-#
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
 msgstr "Auf das zuletzt ausgewählte Medium konnte nicht zugegriffen werden, daher wird stattdessen das Standardverzeichnis verwendet."
 
 #
 msgid "Please open Picture in Picture first"
 msgstr "Bitte zuerst Bild-im-Bild aktivieren"
-
-#
-msgid "Please press OK to continue."
-msgstr "OK drücken, um fortzufahren."
 
 msgid "Please press OK when ready"
 msgstr "OK drücken, wenn bereit"
@@ -15046,10 +15146,6 @@ msgstr ""
 msgid "Please wait"
 msgstr "Bitte warten"
 
-#
-msgid "Please wait for activation of your network configuration..."
-msgstr "Die Netzwerkkonfiguration wird aktiviert. Bitte warten …"
-
 msgid "Please wait while LCN bouquets are created/updated..."
 msgstr "Bitte warten, während LCN-Bouquets erstellt/aktualisiert werden …"
 
@@ -15105,19 +15201,8 @@ msgid "Please wait while we check your installed plugins..."
 msgstr "Die installierten Plugins werden geprüft. Bitte warten …"
 
 #
-msgid "Please wait while we prepare your network interfaces..."
-msgstr "Die Netzwerkschnittstellen werden vorbereitet. Bitte warten …"
-
-#
-msgid "Please wait while we test your network..."
-msgstr "Das Netzwerk wird überprüft. Bitte warten …"
-
-#
 msgid "Please wait while your network is restarting..."
 msgstr "Das Netzwerk wird neu gestartet. Bitte warten …"
-
-msgid "Please wait while your skin setting is restoring..."
-msgstr "Die Skineinstellungen werden wiederhergestellt. Bitte warten …"
 
 msgid "Please wait whilst feeds state is checked."
 msgstr "Der Feedstatus wird überprüft. Bitte warten …"
@@ -15406,10 +15491,6 @@ msgstr "OK drücken für die MultiBoot-Auswahl."
 msgid "Press OK on your remote control to continue."
 msgstr "OK drücken, um fortzufahren."
 
-#
-msgid "Press OK to activate the settings."
-msgstr "OK drücken, um die Einstellungen zu aktivieren."
-
 msgid "Press OK to continue."
 msgstr "OK drücken, um fortzufahren."
 
@@ -15545,10 +15626,6 @@ msgstr "Vorherige/Nächste Seite"
 
 msgid "Prevsong"
 msgstr "Vorheriges Lied"
-
-#
-msgid "Primary DNS"
-msgstr "Primärer DNS"
 
 msgid "Primary DNS (IPv4)"
 msgstr "Primärer DNS (IPv4)"
@@ -15923,6 +16000,12 @@ msgstr "Bewertung undefiniert"
 msgid "Re-enter new PIN"
 msgstr "Neue PIN wiederholen"
 
+msgid "Reachable"
+msgstr ""
+
+msgid "Read Only"
+msgstr "Nur Lesen"
+
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Benutzerdaten von 'oscam.conf' auslesen"
 
@@ -15992,6 +16075,9 @@ msgstr "Wirklich herunterfahren?"
 
 msgid "Really start Kodi and stop user interface now?"
 msgstr "Kodi wirklich starten und die Bedienoberfläche jetzt beenden?"
+
+msgid "Really start RetroGaming and stop the user interface now?"
+msgstr ""
 
 msgid "Really upgrade the front panel and reboot now?"
 msgstr "Das Display wirklich aktualisieren und jetzt neu starten?"
@@ -16350,6 +16436,9 @@ msgstr "Kabelsender entfernen"
 msgid "Remove Confirmation"
 msgstr "Löschen bestätigen"
 
+msgid "Remove Credentials"
+msgstr ""
+
 # /lib/python/Screens/ChannelSelection.py
 msgid "Remove Entry"
 msgstr "Eintrag entfernen"
@@ -16587,6 +16676,15 @@ msgstr "Erforderlicher Medientyp:"
 msgid "Rereading partition table"
 msgstr "Partitionstabelle erneut lesen"
 
+msgid "Rescan"
+msgstr ""
+
+msgid "Rescan for available Wi-Fi networks"
+msgstr ""
+
+msgid "Rescan for available network shares"
+msgstr ""
+
 msgid "Reserved"
 msgstr "Reserviert"
 
@@ -16655,8 +16753,14 @@ msgstr "Auflösung"
 msgid "Resolution unit"
 msgstr "Auflösungseinheit"
 
+msgid "Resolving..."
+msgstr ""
+
 msgid "Restart"
 msgstr "Neu starten"
+
+msgid "Restart Adapter"
+msgstr ""
 
 msgid "Restart GUI"
 msgstr "Bedienoberfläche neu starten"
@@ -16674,9 +16778,6 @@ msgstr "Bedienoberfläche jetzt neu starten?"
 #
 msgid "Restart Network"
 msgstr "Netzwerk neu starten"
-
-msgid "Restart Network Adapter"
-msgstr "Netzwerkadapter neu starten"
 
 msgid "Restart OSCam"
 msgstr "OSCam neu starten"
@@ -16702,9 +16803,11 @@ msgstr "Netzwerk neu starten"
 msgid "Restart test"
 msgstr "Test wiederholen"
 
-#
-msgid "Restart your network connection and interfaces."
-msgstr "Netzwerkverbindung und Schnittstellen neu starten."
+msgid "Restarting adapter..."
+msgstr ""
+
+msgid "Restarting saved Wi-Fi network..."
+msgstr ""
 
 msgid "Restarting..."
 msgstr "Neustart …"
@@ -16716,9 +16819,6 @@ msgstr "Wiederherstellen"
 # ChannelSelection.py
 msgid "Restore Deleted User Bouquets"
 msgstr "Gelöschte Benutzerfavoriten wiederherstellen"
-
-msgid "Restore MetrixHD Settings"
-msgstr "Wiederherstellen MetrixHD-Skin"
 
 msgid "Restore Plugins"
 msgstr "Wiederherstellen der Plugins"
@@ -16783,6 +16883,9 @@ msgstr "Wiedergabestart ab %s"
 #
 msgid "Resuming playback"
 msgstr "Setze Wiedergabe fort"
+
+msgid "Retest"
+msgstr ""
 
 #, python-format
 msgid "Retrieving '%s' commit log, please wait..."
@@ -16993,9 +17096,6 @@ msgstr "Réunion"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
-msgid "SABnzbd Settings"
-msgstr "SABnzbd (Binary News)"
-
 msgid "SAT"
 msgstr "SAT"
 
@@ -17041,6 +17141,12 @@ msgid "SINGLE LAYER DVD"
 msgstr "Single-Layer-DVD"
 
 msgid "SMB version"
+msgstr ""
+
+msgid "SMB2"
+msgstr ""
+
+msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -17262,6 +17368,26 @@ msgstr "Timeshift als Film speichern und Aufnahme beenden"
 msgid "Save time shift buffer now and continue recording"
 msgstr "Jetzt Timeshift als Film speichern und die Aufnahme fortsetzen"
 
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Context Menu"
+msgstr ""
+
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Settings"
+msgstr ""
+
+msgid "Saved Wi-Fi Networks"
+msgstr ""
+
+msgid "Saved Wi-Fi network connection disabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network connection enabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network will be retried automatically at next boot."
+msgstr ""
+
 msgid "Saved lines in script messages"
 msgstr "Gespeicherte Zeilen in Skriptmeldungen"
 
@@ -17303,6 +17429,9 @@ msgstr "%s durchsuchen"
 msgid "Scan %s band"
 msgstr "Band %s wird durchsucht"
 
+msgid "Scan Wi-Fi Networks"
+msgstr ""
+
 #
 msgid "Scan additional SR"
 msgstr "Weitere SR durchsuchen"
@@ -17320,13 +17449,6 @@ msgstr "Nach lokalen Erweiterungen suchen, die installiert werden können."
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Nach terrestrischen LCNs suchen und LCN-Bouquets erstellen"
-
-#
-msgid "Scan wireless networks"
-msgstr "WLAN-Netzwerke suchen"
-
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Durchsucht das Netzwerk nach WLAN-Zugangspunkten und stellt eine Verbindung mit Hilfe des ausgewählten WLAN-Gerätes her."
 
 msgid "Scanning"
 msgstr "Suchlauf"
@@ -17352,6 +17474,12 @@ msgstr[1] "Suchlauf beendet, %d Sender gefunden."
 
 msgid "Scanning failed!"
 msgstr "Suchlauf fehlgeschlagen!"
+
+msgid "Scanning for shares..."
+msgstr ""
+
+msgid "Scanning..."
+msgstr "Suchlauf..."
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
 #, python-format
@@ -17470,10 +17598,6 @@ msgstr "Westen wird gesucht …"
 #
 msgid "Second cable of motorized LNB"
 msgstr "Zweites Kabel vom Rotor"
-
-#
-msgid "Secondary DNS"
-msgstr "Sekundärer DNS"
 
 msgid "Secondary DNS (IPv4)"
 msgstr "Sekundärer DNS (IPv4)"
@@ -17913,6 +18037,9 @@ msgstr "Upgradequelle auswählen"
 msgid "Select Upgrade Source To Edit"
 msgstr "Eine Upgradequelle zum Bearbeiten auswählen."
 
+msgid "Select Wi-Fi adapter"
+msgstr ""
+
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr "Eine Softcam aus der verfügbaren Liste als Standard für AutoCam festlegen."
 
@@ -17957,6 +18084,9 @@ msgstr "Filmauswahl"
 msgid "Select a network adapter"
 msgstr "Netzwerkschnittstelle auswählen"
 
+msgid "Select a network interface to configure, or skip to configure the network later in system settings."
+msgstr ""
+
 msgid "Select a permanent mount point for all devices"
 msgstr "Einen dauerhaften Einhängepunkt für alle Geräte festlegen"
 
@@ -17987,9 +18117,6 @@ msgstr "Die Zeit auswählen, bevor die Entschlüsselung im Standby fortgesetzt w
 
 msgid "Select a tuner"
 msgstr "Tuner auswählen"
-
-msgid "Select a wireless network"
-msgstr "Ein drahtloses Netzwerk auswählen"
 
 msgid "Select action"
 msgstr "Aktion auswählen"
@@ -18040,6 +18167,9 @@ msgstr "File-Commander-Standardverzeichnis auswählen:"
 
 msgid "Select destination for:"
 msgstr "Speicherort auswählen:"
+
+msgid "Select exported directories"
+msgstr ""
 
 msgid "Select files to exclude from backup"
 msgstr "Dateien auswählen, die nicht gesichert werden"
@@ -18152,13 +18282,6 @@ msgstr "Eingabegerät auswählen"
 
 msgid "Select input device."
 msgstr "Das Eingabegerät auswählen."
-
-#
-msgid "Select interface"
-msgstr "Netzwerkkarte auswählen"
-
-msgid "Select menu entry"
-msgstr "Menüeintrag auswählen"
 
 #
 msgid "Select movie"
@@ -18485,15 +18608,6 @@ msgstr "Den Filmpfad auswählen"
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr "Die Netzwerkdatenrate auswählen, unterhalb derer der Timer wie angegeben aktiviert werden soll. Bei Datenverkehr über dieser Rate wird der Timer deaktiviert."
 
-msgid ""
-"Select the network interface to be used for the Internet connection.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Die Netzwerkschnittstelle auswählen, die für die Internetverbindung verwendet werden soll.\n"
-"\n"
-"OK drücken, um fortzufahren."
-
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr "Die Netzwerkmetrik für diesen Adapter auswählen. Wenn mehrere Adapter aktiv sind, wird derjenige mit der niedrigsten Netzwerkmetrik als Standardroute für den Netzwerkverkehr verwendet."
 
@@ -18667,15 +18781,6 @@ msgstr ""
 "Den Videomodus auswählen, der auf dem Fernseher verwendet werden soll.\n"
 "Sollte der Bildschirm danach dunkel bleiben, die Taste TXT (Videotext) etwas länger drücken."
 
-msgid ""
-"Select the wireless network to which you want to connect.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Das drahtlose Netzwerk auswählen, mit dem eine Verbindung herstellt werden soll.\n"
-"\n"
-"OK drücken, um fortzufahren."
-
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
 msgstr ""
 
@@ -18770,9 +18875,6 @@ msgstr "Auswählen, ob ein Symbol bei einer Rotorbewegung angezeigt wird."
 
 msgid "Select which IP protocols can be used with this adapter."
 msgstr "Auswählen, welche IP-Protokolle mit diesem Adapter verwendet werden können."
-
-msgid "Select wireless network"
-msgstr "Das WLAN-Netzwerk auswählen"
 
 msgid "Select your ATSC provider."
 msgstr "Den ATSC-Anbieter auswählen."
@@ -19329,6 +19431,9 @@ msgstr "Auswählen, was die Taste bewirken soll."
 msgid "Set to yes for debugging the root cause of a spinner."
 msgstr "Aktivieren, um die Ursache eines Spinners (Beschäftigungsanzeige) zu ermitteln."
 
+msgid "Set up network"
+msgstr ""
+
 msgid "Set up tuner [TUNER]"
 msgstr "Tuner [TUNER] einrichten"
 
@@ -19834,10 +19939,6 @@ msgstr "Scart-Videorekorder im Hauptmenü anzeigen"
 msgid "Show Vertical EPG"
 msgstr "Vertikalen EPG anzeigen"
 
-#
-msgid "Show WLAN status"
-msgstr "WLAN-Status anzeigen"
-
 msgid "Show Web Link packages"
 msgstr "Weblink-Pakete anzeigen"
 
@@ -20005,9 +20106,6 @@ msgstr "Im Plugin-Manager anzeigen"
 msgid "Show in Standby"
 msgstr "Im Standby anzeigen"
 
-msgid "Show info"
-msgstr "Infos anzeigen"
-
 # 5.1 /Plugins\Extensions\PicturePlayer
 msgid "Show info line"
 msgstr "Infozeile anzeigen"
@@ -20053,6 +20151,9 @@ msgstr "Filmauswahl"
 
 msgid "Show multi channel EPG"
 msgstr "Multi-EPG anzeigen"
+
+msgid "Show network adapter connection information"
+msgstr ""
 
 msgid "Show next commit log"
 msgstr "Nächstes Commit-Log anzeigen"
@@ -20244,6 +20345,9 @@ msgstr "CCcam-Infobildschirm anzeigen"
 msgid "Show the Logs Settings screen"
 msgstr "Logeinstellung anzeigen"
 
+msgid "Show the Network Information for the selected adapter"
+msgstr ""
+
 msgid "Show the OSCam information screen"
 msgstr "OSCam-Informationen anzeigen"
 
@@ -20327,10 +20431,6 @@ msgstr "Live-TV oder Informationen auf dem Display anzeigen."
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Bei 'Ja' werden in der Anzeige von neuen/ungesehenen Filmen Symbole angezeigt."
 
-#
-msgid "Shows the state of your wireless LAN connection."
-msgstr "Zeigt den Status der WLAN-Verbindung an."
-
 msgid "Shows the watched status of the media."
 msgstr "Die Anzeige des Filmfortschritts in der Filmauswahl einstellen."
 
@@ -20367,15 +20467,8 @@ msgstr "Sigma Designs"
 msgid "Signal Finder"
 msgstr "Signalfinder"
 
-msgid "Signal quality"
-msgstr "Signalqualität"
-
 msgid "Signal strength"
 msgstr "Signalstärke"
-
-#
-msgid "Signal: "
-msgstr "Signal: "
 
 msgid "Signed by"
 msgstr "Signiert von"
@@ -20522,6 +20615,9 @@ msgstr "Vorwärts springen (Zeit eingeben)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Bei Timeshift mittels Plugins nicht zur Liveübertragung springen"
+
+msgid "Skip network setup"
+msgstr ""
 
 msgid "Skip package installation, only core packages will be available"
 msgstr "Die Paketinstallation überspringen. Nur die Kernpakete werden verfügbar sein."
@@ -20909,6 +21005,18 @@ msgstr "Plugin-Manager-Einträge sortieren"
 msgid "Sort by"
 msgstr "Sortieren nach"
 
+msgid "Sort by Hostname/IP Address"
+msgstr ""
+
+msgid "Sort by IP Address"
+msgstr ""
+
+msgid "Sort by Mount Name"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
 msgid "Sort by default"
 msgstr "Nach Standard sortieren"
 
@@ -21112,10 +21220,6 @@ msgstr "Wiederholung starten"
 msgid "Start teletext"
 msgstr "Videotext"
 
-#
-msgid "Start test"
-msgstr "Test starten"
-
 msgid "Start the Chkroot initialization"
 msgstr "Chkroot-Initialisierung starten"
 
@@ -21168,6 +21272,9 @@ msgstr "Startgerät nicht gefunden!"
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
 msgstr "Staat"
+
+msgid "Static"
+msgstr ""
 
 msgid "Static IP / Custom"
 msgstr "Statische IP / Benutzerdefiniert"
@@ -21259,10 +21366,6 @@ msgstr "Bei Stopp zurück zur Filmauswahl"
 msgid "Stop streams"
 msgstr "Streams stoppen"
 
-#
-msgid "Stop test"
-msgstr "Test stoppen"
-
 msgid "Stop testing plane after # failed transponders"
 msgstr "Test nach # fehlgeschlagenen Transpondern stoppen"
 
@@ -21325,6 +21428,12 @@ msgstr "Datenträger nicht beschreibbar!"
 #
 msgid "Store position"
 msgstr "Position speichern"
+
+msgid "Stored credentials deleted for this server."
+msgstr ""
+
+msgid "Stored credentials for this server have been deleted."
+msgstr ""
 
 #
 msgid "Stored position"
@@ -21961,11 +22070,6 @@ msgstr "Testaufgabe gescheitert!"
 msgid "Test mode"
 msgstr "Testmodus"
 
-#
-#, python-format
-msgid "Test the network configuration of your %s %s."
-msgstr "Die Netzwerkkonfiguration von %s %s überprüfen."
-
 msgid "Test type"
 msgstr "Testtyp"
 
@@ -22087,24 +22191,6 @@ msgstr ""
 #, python-format
 msgid "The IceTV server has requested password for %s."
 msgstr "Der IceTV-Server hat ein Passwort für %s angefordert."
-
-msgid ""
-"The Internet connection appears to be working.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-"Die Internetverbindung scheint zu funktionieren.\n"
-"\n"
-"OK drücken, um fortzufahren."
-
-msgid ""
-"The Internet connection appears to not be working!\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"Die Internetverbindung scheint nicht zu funktionieren!\n"
-"\n"
-"Auswählen, was als Nächstes geschehen soll."
 
 msgid ""
 "The MediaCenter plugin is not installed!\n"
@@ -22278,13 +22364,6 @@ msgstr "Die Höhe des Bildes. Die Eingabe wird skaliert, um mit diesem Wert übe
 msgid "The loopthrough setting is wrong."
 msgstr "Die Durchschleifeinstellung ist falsch!"
 
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Die Netzwerkassistent-Erweiterung ist nicht installiert!\n"
-"Bitte installieren."
-
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Der Picon-Ordner existiert bereits! Er muss entfernt werden. Fortfahren?"
 
@@ -22364,36 +22443,12 @@ msgstr "Die Bedienoberfläche von %s %s wird aufgrund eines Fehlers in 'StartEni
 msgid "The user interface of your %s %s will be stopped to run Kodi"
 msgstr "Die Bedienoberfläche von %s %s wird beendet, um Kodi auszuführen."
 
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run RetroGaming"
+msgstr ""
+
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr "Die Breite des Bildes. Die Eingabe wird skaliert, um mit diesem Wert übereinzustimmen."
-
-msgid ""
-"The wireless LAN Internet connection could not be started!\n"
-"Is the wireless LAN device connected?\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"Die WLAN-Internetverbindung konnte nicht gestartet werden!\n"
-"Ist das WLAN-Gerät verbunden?\n"
-"\n"
-"Auswählen, was als Nächstes geschehen soll."
-
-msgid ""
-"The wireless LAN plugin code is not installed!\n"
-"\n"
-"Install it and choose what to do next."
-msgstr ""
-"Der WLAN-Plugin ist nicht installiert!\n"
-"\n"
-"Dies installieren und auswählen, was als Nächstes geschehen soll."
-
-#
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"Das WLAN-Plugin ist nicht installiert!\n"
-"Bitte installieren."
 
 msgid "The wizard can backup your current settings. Do you want to start a backup now?"
 msgstr "Der Assistent kann die aktuellen Einstellungen sichern. Jetzt eine Sicherung starten?"
@@ -22737,62 +22792,6 @@ msgstr "Diese Einstellung hängt vom Kabelanbieter und Standort ab. Wenn die ric
 
 msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
 msgstr "Diese Einstellung ist nur für spezielle Konfigurationen vorgesehen. Sie weist diesem LNB eine höhere Priorität zu als anderen LNBs mit niedrigeren Werten. Der verfügbare LNB mit der höchsten Priorität wird zuerst für das Tuning von Sendern verwendet."
-
-#
-msgid ""
-"This test checks for configured DNS.\n"
-"If you get an \"unconfirmed\" message:\n"
-"- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
-msgstr ""
-"Dieser Test sucht nach konfigurierten Nameservern.\n"
-"Wenn eine 'Unbestätigt'-Meldung erscheint:\n"
-"- DHCP, Verkabelung und Adapterkonfiguration überprüfen.\n"
-"- Wenn die Nameserver manuell konfiguriert wurden, die Konfiguration in den DNS-Einstellungen überprüfen."
-
-#
-msgid ""
-"This test checks whether a network cable is connected to your LAN adapter.\n"
-"If you get a \"disconnected\" message:\n"
-"- verify that a network cable is attached\n"
-"- verify that the cable is not broken"
-msgstr ""
-"Dieser Test überprüft, ob ein Netzwerkkabel angeschlossen ist.\n"
-"Bei einer 'Nicht verbunden'-Meldung:\n"
-"- Überprüfen, ob ein Netzwerkkabel angeschlossen ist.\n"
-"- Sicherstellen, dass das Netzwerkkabel nicht defekt ist."
-
-#
-msgid ""
-"This test checks whether a valid IP address is found for your LAN adapter.\n"
-"If you get a \"unconfirmed\" message:\n"
-"- no valid IP address was found\n"
-"- please check your DHCP, cabling and adapter setup"
-msgstr ""
-"Dieser Test überprüft, ob eine gültige IP-Adresse gefunden wurde.\n"
-"Wenn eine 'Unbestätigt'-Meldung erscheint:\n"
-"- Wurde keine gültige IP-Adresse gefunden.\n"
-"- DHCP, Verkabelung und Adapterkonfiguration überprüfen."
-
-#
-msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
-"If you get a \"disabled\" message:\n"
-" - then your LAN adapter is configured for manual IP setup\n"
-"- verify that you have entered correct IP information in the adapter setup dialog.\n"
-"If you get an \"enabled\" message:\n"
-"-verify that you have a configured and working DHCP server in your network."
-msgstr ""
-"Dieser Test überprüft, ob der Netzwerkadapter für automatische IP-Adressenkonfiguration über DHCP eingerichtet ist.\n"
-"Wenn eine 'Deaktiviert'-Meldung erscheint:\n"
-"- Dann ist der Netzwerkadapter für manuelle IP-Adressenkonfiguration eingerichtet.\n"
-"- Überprüfen, ob die Einstellungen der Adapterkonfiguration korrekt sind.\n"
-"Wenn eine 'Aktiviert'-Meldung erscheint:\n"
-"- Überprüfen, ob sich ein funktionierender DHCP-Server im Netzwerk befindet."
-
-#
-msgid "This test detects your configured LAN adapter."
-msgstr "Dieser Test stellt den konfigurierten Netzwerkadapter fest."
 
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
@@ -23163,6 +23162,9 @@ msgstr "Mehrfachauswahlmodus umschalten"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Zwischen Einfüge- und Überschreibungsmodus umschalten"
 
+msgid "Toggle picking a share by IP address or by DNS name"
+msgstr ""
+
 msgid "Toggle selection of the current tag"
 msgstr "Aktuelle Tagauswahl umschalten"
 
@@ -23248,6 +23250,9 @@ msgstr "Traditional"
 
 msgid "Traditional Chinese"
 msgstr "Traditionelles Chinesisch"
+
+msgid "Transceiver"
+msgstr ""
 
 msgid "Transcode"
 msgstr "Transkodiert"
@@ -23653,9 +23658,6 @@ msgstr "Unter 5"
 msgid "Undetermined"
 msgstr "Unbestimmt"
 
-msgid "Unencrypted"
-msgstr "Unverschlüsselt"
-
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr "Unerwarteter Fehler beim Zugriff auf WebIF: %s"
@@ -23718,13 +23720,6 @@ msgstr "Unbekannt"
 msgid "Unknown Devices"
 msgstr "Unbekannte Geräte"
 
-msgid ""
-"Unknown Error creating Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Unbekannter Fehler beim Erstellen des Skins!\n"
-"Die Einstellungen überprüfen und nach einem Neustart im MyMetrixLite-Plugin übernehmen."
-
 msgid "Unknown Packages"
 msgstr "Unbekannte Pakete"
 
@@ -23770,6 +23765,9 @@ msgstr "Datei entpacken"
 msgid "Unpublished"
 msgstr "Unveröffentlicht"
 
+msgid "Unreachable"
+msgstr ""
+
 msgid "Unscramble and record ECM"
 msgstr "Entschlüsseln und ECM aufnehmen"
 
@@ -23781,10 +23779,6 @@ msgstr "Empfangene HTTP-Streams entschlüsseln"
 
 msgid "Unset As Startup Service"
 msgstr "Als Startsender entfernen"
-
-#
-msgid "Unsupported"
-msgstr "Nicht unterstützt"
 
 #
 msgid "Until standby/restart"
@@ -24018,10 +24012,6 @@ msgstr "Endzeiten der Umschalttimer verwenden"
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Einen DNS-Cache verwenden, um die letzten DNS-Lookups lokal zu speichern, die Leistung zu verbessern, die Latenz zu reduzieren und den ausgehenden Datenverkehr zu verringern."
 
-#
-msgid "Use a gateway"
-msgstr "Ein Gateway verwenden"
-
 msgid "Use alternate GitHub DNS"
 msgstr "Alternativen GitHub-DNS verwenden"
 
@@ -24084,10 +24074,6 @@ msgid "Use increased voltage '14/18V' if there are problems when switching the L
 msgstr "Bei Umschaltproblemen des LNBs (vertikal/horizontal), sehr langen Antennenkabeln oder Kabeln mit sehr dünnem Innenleiter die Voltzahl, normalerweise 14/18 Volt, erhöhen."
 
 #
-msgid "Use interface"
-msgstr "Netzwerkadapter aktivieren"
-
-#
 msgid "Use key map *"
 msgstr "Tastaturbelegung *"
 
@@ -24099,9 +24085,6 @@ msgstr "Offizielle Sendernummerierung verwenden"
 
 msgid "Use only DNSSEC servers"
 msgstr "Nur DNSSEC-Server verwenden"
-
-msgid "Use only for Wake on WLan (WoW)"
-msgstr "Nur für Wake on WLAN (WoW) aktivieren"
 
 msgid "Use only no-filter servers"
 msgstr "Nur Server ohne Filter verwenden"
@@ -24156,9 +24139,6 @@ msgstr "Die Tasten Links/Rechts benutzen, um den oberen Rand der Bedienoberfläc
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
 msgstr "Die Tasten Links/Rechts benutzen, um die Bedienoberfläche nach oben oder unten zu verschieben."
 
-msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
-msgstr "Den Netzwerkassistenten verwenden, um das Netzwerk zu konfigurieren."
-
 msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select a cam"
 msgstr "Softcam-Panel für die Cameinstellungen, Start/Stop/Auswählen des Cams."
 
@@ -24179,13 +24159,6 @@ msgstr "Die aktuelle Auswahl verwenden und beenden"
 
 msgid "Use the extended List"
 msgstr "Die erweiterte Liste verwenden."
-
-# HelpMenu
-msgid "Use the network wizard to configure selected network adapter"
-msgstr "Den Netzwerkassistenten zur Konfiguration des ausgewählten Netzwerkadapters verwenden"
-
-msgid "Use the network wizard to configure your Network."
-msgstr "Den Netzwerkassistenten verwenden, um das Netzwerk zu konfigurieren."
 
 # Erstassi
 msgid "Use the wizard to set up basic features"
@@ -24272,6 +24245,12 @@ msgstr "Benutzername"
 msgid "Username (httpuser)"
 msgstr "Benutzername (httpuser)"
 
+msgid "Using DNS"
+msgstr ""
+
+msgid "Using IP"
+msgstr ""
+
 msgid "Using automatic address"
 msgstr "Automatische Adresse verwenden"
 
@@ -24299,9 +24278,6 @@ msgstr "Usbekistan"
 msgid "VCR Scart Settings"
 msgstr "VCR-Scartbuchse"
 
-msgid "VLAN connection"
-msgstr "VLAN-Verbindung"
-
 msgid "VMC"
 msgstr "VMC"
 
@@ -24314,6 +24290,9 @@ msgstr "VOB-Datei"
 
 msgid "VOD"
 msgstr "VOD"
+
+msgid "VPN"
+msgstr "VPN"
 
 msgid "VPS Settings"
 msgstr "VPS-Einstellungen"
@@ -24693,13 +24672,6 @@ msgstr "WAN-Verbindungsinformationen"
 msgid "WARNING:"
 msgstr "WARNUNG:"
 
-#
-msgid "WEP"
-msgstr "WEP"
-
-msgid "WLAN connection"
-msgstr "WLAN-Verbindung"
-
 msgid "WMA Pro"
 msgstr "WMA Pro"
 
@@ -24708,18 +24680,6 @@ msgstr "WMA-Pro-Downmix"
 
 msgid "WOL Standby"
 msgstr "WOL-Standby"
-
-#
-msgid "WPA"
-msgstr "WPA"
-
-#
-msgid "WPA or WPA2"
-msgstr "WPA oder WPA2"
-
-#
-msgid "WPA2"
-msgstr "WPA2"
 
 #
 msgid "WSS on 4:3"
@@ -24738,6 +24698,9 @@ msgstr "Suchlauf wird durchgeführt. Bitte warten …"
 #
 msgid "Waiting"
 msgstr "Wartet"
+
+msgid "Waiting for IP address..."
+msgstr ""
 
 msgid "Waiting for partition"
 msgstr "Auf Partition warten"
@@ -24785,6 +24748,9 @@ msgstr "Warnung: %d Feeds konnten nicht nachgeladen werden!"
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
 msgstr "Warnung: Der Abbruch dieses Prozesses lässt die Feeds in einem unvollständigen und unbrauchbaren Zustand!"
+
+msgid "Warning: No Wi-Fi adapter found!"
+msgstr ""
 
 msgid "Warning: Overrides are currently active!"
 msgstr "Warnung: Überschreibungen sind zurzeit aktiv!"
@@ -25142,9 +25108,6 @@ msgstr ""
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Wenn aktiviert, startet Timeshift automatisch nach der vorgegebenen Zeit."
 
-msgid "When enabled, use DHCP for the IP configuration."
-msgstr "Wenn aktiviert, wird DHCP für die IPv4-Konfiguration verwendet."
-
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
 msgstr "Wenn aktiviert, lassen sich die OpenWebif-Einstellungen für den Reservetuner einstellen."
 
@@ -25214,6 +25177,28 @@ msgstr "Solange verfügbar"
 msgid "White"
 msgstr "Weiß"
 
+msgid "Wi-Fi"
+msgstr ""
+
+msgid "Wi-Fi Activation Actions"
+msgstr ""
+
+msgid "Wi-Fi Adapter"
+msgstr ""
+
+msgid "Wi-Fi Scan Actions"
+msgstr ""
+
+#, python-format
+msgid "Wi-Fi Scan On '%s'"
+msgstr ""
+
+msgid "Wi-Fi connection"
+msgstr ""
+
+msgid "Wi-Fi link"
+msgstr ""
+
 msgid "Wide"
 msgstr "Breit"
 
@@ -25237,31 +25222,6 @@ msgstr "Datenträger löschen"
 
 msgid "Wiping storage device..."
 msgstr "Datenträger wird gelöscht …"
-
-#
-msgid "Wireless LAN"
-msgstr "Wireless-LAN"
-
-msgid "Wireless network"
-msgstr "Drahtloses Netzwerk"
-
-msgid "Wireless network configuration..."
-msgstr "Konfiguration drahtloses Netzwerk …"
-
-msgid ""
-"Wireless network connection setup.\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-"WLAN-Netzwerkverbindung einstellen.\n"
-"\n"
-"Auswählen, was als Nächstes geschehen soll."
-
-msgid "Wireless network setup"
-msgstr "WLAN-Netzwerkverbindung einstellen"
-
-msgid "Wireless network state"
-msgstr "WLAN-Netzwerkstatus"
 
 msgid "With EXIT button"
 msgstr "Taste EXIT"
@@ -25574,18 +25534,6 @@ msgstr ""
 "%s %s ist nicht mit dem Internet verbunden!\n"
 "Bitte die Netzwerkeinstellungen überprüfen und es dann erneut versuchen."
 
-#
-#, python-format
-msgid ""
-"Your %s %s is now ready to be used.\n"
-"\n"
-"Your Internet connection is working now.\n"
-"\n"
-msgstr ""
-"%s %s ist nun konfiguriert.\n"
-"\n"
-"Die Internetverbindung funktioniert.\n"
-
 #, python-format
 msgid "Your %s %s is rebooting"
 msgstr "%s %s startet neu …"
@@ -25618,39 +25566,12 @@ msgid "Your %s %s will Restart..."
 msgstr "%s %s startet neu …"
 
 #, python-format
-msgid ""
-"Your %s %s will be restarted after the installation of service.\n"
-"\n"
-"Do you want to install now ?"
-msgstr ""
-"%s %s wird nach Installation des Dienstes neu gestartet.\n"
-"Soll der Dienst jetzt installiert werden?"
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-"%s %s wird nach Entfernen des Dienstes neu gestartet.\n"
-"Soll der Dienst jetzt entfernt werden?"
-
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"Die Internetverbindung funktioniert nicht!\n"
-"Bitte auswählen, was als Nächstes geschehen soll."
-
-#, python-format
 msgid "Your Internet connection is working (IP: %s)"
 msgstr "Die Internetverbindung funktioniert. IP: %s"
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
 msgstr "Der Receiver hat ein Softwareproblem erkannt! Seit dem letzten Neustart ist es %d Mal aufgetreten.\n"
-
-msgid "Your STB will restart after pressing OK on your remote control."
-msgstr "Der Receiver wird nach dem Drücken von OK neu starten."
 
 #
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
@@ -25696,10 +25617,6 @@ msgid ""
 "Your front panel will be upgraded\n"
 "This may take a few minutes"
 msgstr "Das Display wird aktualisiert. Dies kann einige Minuten dauern …"
-
-#
-msgid "Your network configuration has been activated."
-msgstr "Die Netzwerkkonfiguration wurde aktiviert."
 
 msgid "Your password must have at least 5 characters."
 msgstr "Das Passwort muss aus mindestens 5 Zeichen bestehen!"
@@ -25975,14 +25892,6 @@ msgstr "Netzwerkfreigabenansicht schließen"
 msgid "config menu"
 msgstr "Konfigurationsmenü"
 
-#
-msgid "confirmed"
-msgstr "Bestätigt"
-
-#
-msgid "connected"
-msgstr "Verbunden"
-
 msgid "copy"
 msgstr "Kopiere"
 
@@ -26010,10 +25919,6 @@ msgstr "Schnitt löschen"
 #
 msgid "disabled"
 msgstr "Deaktiviert"
-
-#
-msgid "disconnected"
-msgstr "Getrennt"
 
 msgid "eMMC"
 msgstr "eMMC"
@@ -26307,9 +26212,6 @@ msgstr "eines Dual-Layer-Mediums genutzt."
 msgid "of a SINGLE layer medium used."
 msgstr "eines Single-Layer-Mediums genutzt."
 
-msgid "off or wpa2 on"
-msgstr "aus oder WPA2 an"
-
 msgid "offset is"
 msgstr "Versatz ist"
 
@@ -26541,10 +26443,6 @@ msgid "unavailable"
 msgstr "Nicht verfügbar"
 
 #
-msgid "unconfirmed"
-msgstr "Nicht bestätigt"
-
-#
 msgid "unknown"
 msgstr "Unbekannt"
 
@@ -26607,6 +26505,700 @@ msgstr "Ja (Feeds beibehalten)"
 msgid "®"
 msgstr "®"
 
+#
+#, python-format
+#~ msgid "%d wireless network found!"
+#~ msgid_plural "%d wireless networks found!"
+#~ msgstr[0] "%d WLAN-Netzwerk gefunden!"
+#~ msgstr[1] "%d WLAN-Netzwerke gefunden!"
+
+#
+#~ msgid ""
+#~ "A second configured interface has been found.\n"
+#~ "\n"
+#~ "Do you want to disable the second network interface?"
+#~ msgstr ""
+#~ "Eine zweite konfigurierte Netzwerkschnittstelle wurde gefunden.\n"
+#~ "\n"
+#~ "Diese Netzwerkschnittstelle deaktivieren?"
+
+#
+#~ msgid "Activate network adapter configuration"
+#~ msgstr "Einstellungen des Netzwerkadapters aktivieren"
+
+#
+#~ msgid "Activate network settings"
+#~ msgstr "Netzwerkeinstellungen aktivieren"
+
+#~ msgid "Activate the configured network settings."
+#~ msgstr "Netzwerkeinstellungen übernehmen."
+
+#
+#~ msgid "Are you sure you want to activate this network configuration?"
+#~ msgstr "Diese Netzwerkkonfiguration wirklich aktivieren?"
+
+#
+#~ msgid "Are you sure you want to restart your network interfaces?"
+#~ msgstr "Die Netzwerkschnittstelle neu starten?"
+
+#
+#~ msgid "Back"
+#~ msgstr "Zurück"
+
+#~ msgid "Configure DNS (name servers)"
+#~ msgstr "DNS (Nameserver) konfigurieren"
+
+#~ msgid "Configure interface"
+#~ msgstr "Netzwerkkarte konfigurieren"
+
+#~ msgid ""
+#~ "Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+#~ "\n"
+#~ "When the settings are correct press OK to continue."
+#~ msgstr ""
+#~ "Den DNS (Nameserver) konfigurieren oder überprüfen, indem die angezeigten Werte angepasst werden.\n"
+#~ "\n"
+#~ "Wenn die Einstellungen korrekt sind, OK drücken, um fortzufahren."
+
+#~ msgid "Configure the IP address."
+#~ msgstr "Die IP-Adresse konfigurieren."
+
+#~ msgid ""
+#~ "Configure the Internet connection by adjusting the values shown.\n"
+#~ "\n"
+#~ "When the settings are correct press OK to continue."
+#~ msgstr ""
+#~ "Die Internetverbindung konfigurieren, indem die angezeigten Werte angepasst werden.\n"
+#~ "\n"
+#~ "Wenn die Einstellungen korrekt sind, OK drücken, um fortzufahren."
+
+#~ msgid "Configure the gateway."
+#~ msgstr "Das Gateway einstellen."
+
+#~ msgid "Configure the name server (DNS)."
+#~ msgstr "Den Nameserver (DNS) einstellen."
+
+#~ msgid "Configure the netmask."
+#~ msgstr "Die Netzwerkmaske einstellen."
+
+#
+#~ msgid "Configure the network again"
+#~ msgstr "Das Netzwerk erneut konfigurieren"
+
+#~ msgid "Configure your Network"
+#~ msgstr "Das Netzwerk konfigurieren"
+
+#~ msgid "Configure your internal LAN"
+#~ msgstr "Internes Netzwerk konfigurieren"
+
+#
+#~ msgid "Configure your wireless LAN again"
+#~ msgstr "WLAN-Netzwerk erneut konfigurieren"
+
+#~ msgid "Connect to a wireless network"
+#~ msgstr "Mit einem Drahtlosnetzwerk verbinden"
+
+#
+#~ msgid "Current settings:"
+#~ msgstr "Einstellungen:"
+
+#
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#~ msgid "Device Settings"
+#~ msgstr "Netzwerkadaptereinstellungen"
+
+#~ msgid "Disabled or WPA/WPA2"
+#~ msgstr "Deaktiviert oder WPA/WPA2"
+
+#
+#, python-format
+#~ msgid "Edit the DNS configuration of your %s %s."
+#~ msgstr "Die DNS-Einstellungen von %s %s bearbeiten."
+
+#
+#, python-format
+#~ msgid "Edit the network configuration of your %s %s."
+#~ msgstr "Die Netzwerkkonfiguration von %s %s bearbeiten."
+
+#~ msgid "Enable IPv6"
+#~ msgstr "IPv6 aktivieren"
+
+#~ msgid "Enable Wake On LAN"
+#~ msgstr "Wake On LAN aktivieren"
+
+#~ msgid "Encrypted: "
+#~ msgstr "Verschlüsselt: "
+
+#~ msgid "Encryption Type:"
+#~ msgstr "Verschlüsselungstyp:"
+
+#
+#~ msgid "Encryption key"
+#~ msgstr "WLAN-Sicherheitsschlüssel"
+
+#~ msgid "Encryption key type"
+#~ msgstr "Verschlüsselungstyp"
+
+#~ msgid ""
+#~ "Error creating EHD-Skin.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Fehler beim Erstellen des EHD-Skins!\n"
+#~ "Es wird der HD-Skin verwendet."
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Icon package download not available.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Fehler beim Erstellen des EHD-Skins: Der Download des Symbolpakets ist nicht verfügbar!\n"
+#~ "Es wird der HD-Skin verwendet."
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Not enough flash memory free.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Fehler beim Erstellen des EHD-Skins! Nicht genügend Flashspeicher frei.\n"
+#~ "Es wird der HD-Skin verwendet."
+
+#~ msgid ""
+#~ "Error creating EHD-Skin. Some EHD-Icons are missing.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Fehler beim Erstellen des EHD-Skins! Einige EHD-Symbole fehlen.\n"
+#~ "Es wird der HD-Skin verwendet."
+
+#~ msgid "Error creating HD-Skin. Not enough flash memory free."
+#~ msgstr "Fehler beim Erstellen des HD-Skins! Nicht genügend Flashspeicher frei."
+
+#~ msgid ""
+#~ "Error creating MetrixHD-Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Fehler beim Erstellen des MetrixHD-Skins!\n"
+#~ "Die Einstellungen überprüfen und nach einem Neustart im MyMetrixLite-Plugin übernehmen."
+
+#~ msgid "Error, unknown Result!"
+#~ msgstr "Fehler: Unbekanntes Ergebnis!"
+
+#
+#~ msgid "Exit network adapter configuration"
+#~ msgstr "Netzwerkadapterkonfiguration verlassen"
+
+#~ msgid "Exit network adapter setup menu"
+#~ msgstr "Netzwerkadapter-Einstellungsmenü verlassen"
+
+# HelpMenu
+#~ msgid "Exit network interface list"
+#~ msgstr "Netzwerkadapterübersicht verlassen"
+
+#
+#~ msgid "Exit network wizard"
+#~ msgstr "Netzwerkassistent verlassen"
+
+#
+#~ msgid "Extended Networksetup Plugin..."
+#~ msgstr "Plugin für erweiterte Netzwerkeinstellungen …"
+
+#
+#~ msgid "Extended Setup..."
+#~ msgstr "Erweiterte Einstellungen …"
+
+#
+#~ msgid "Finished configuring your network"
+#~ msgstr "Netzwerkkonfiguration abgeschlossen"
+
+#~ msgid "Follow instructions on TV"
+#~ msgstr "Die Anweisungen auf dem Fernseher befolgen"
+
+#
+#~ msgid "Frequency Norm:"
+#~ msgstr "Frequenznorm:"
+
+#
+#~ msgid "Interface: "
+#~ msgstr "Schnittstelle: "
+
+#~ msgid "LAN adapter"
+#~ msgstr "LAN-Adapter"
+
+#
+#~ msgid "Link quality:"
+#~ msgstr "Verbindungsqualität:"
+
+#
+#~ msgid "Link:"
+#~ msgstr "Verbindung:"
+
+#~ msgid "List available networks"
+#~ msgstr "Verfügbare Netzwerke anzeigen"
+
+#~ msgid "Local network"
+#~ msgstr "Lokales Netzwerk"
+
+# NetworkSetup.py
+#~ msgid "MAC-address"
+#~ msgstr "MAC-Adresse"
+
+#~ msgid "Manual configuration"
+#~ msgstr "Manuelle Konfiguration"
+
+#~ msgid "Max. bitrate: "
+#~ msgstr "Max. Bitrate: "
+
+#
+#~ msgid "Nameserver"
+#~ msgstr "Nameserver"
+
+#
+#~ msgid "Nameserver settings"
+#~ msgstr "DNS-Einstellungen"
+
+#~ msgid "Network Adapter Actions"
+#~ msgstr "Netzwerkadapteraktionen"
+
+#~ msgid "Network Adapter Setting Actions"
+#~ msgstr "Netzwerkadapter-Einstellungsaktionen"
+
+#~ msgid "Network Adapter Text Actions"
+#~ msgstr "Netzwerkadapter-Textaktionen"
+
+#~ msgid "Network Test:"
+#~ msgstr "Netzwerktest: "
+
+#
+#~ msgid "Network Wizard"
+#~ msgstr "Netzwerkassistent"
+
+#
+#~ msgid "Network test"
+#~ msgstr "Netzwerktest"
+
+#~ msgid ""
+#~ "Network wizard completed.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Netzwerkassistent abgeschlossen.\n"
+#~ "\n"
+#~ "OK drücken, um fortzufahren."
+
+#~ msgid "Network:"
+#~ msgstr "Netzwerk:"
+
+#
+#~ msgid "NetworkWizard"
+#~ msgstr "Netzwerkassistent"
+
+#
+#~ msgid "No Connection"
+#~ msgstr "Keine Verbindung"
+
+#
+#~ msgid "No networks found"
+#~ msgstr "Keine Netzwerke gefunden"
+
+#~ msgid "No wireless networks found! Searching..."
+#~ msgstr "Keine WLAN-Netzwerke gefunden! Suche läuft …"
+
+#
+#~ msgid ""
+#~ "No working local network adapter found.\n"
+#~ "Please verify that you have attached a network cable and your network is configured correctly."
+#~ msgstr ""
+#~ "Keinen funktionierenden Netzwerkadapter gefunden!\n"
+#~ "Überprüfen, ob ein Netzwerkkabel angeschlossen und das Netzwerk richtig konfiguriert ist."
+
+#
+#~ msgid ""
+#~ "No working wireless network adapter found.\n"
+#~ "Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+#~ msgstr ""
+#~ "Keinen funktionierenden WLAN-Adapter gefunden!\n"
+#~ "Bitte überprüfen, ob ein kompatibler Adapter angeschlossen und das Netzwerk richtig konfiguriert ist."
+
+#
+#~ msgid ""
+#~ "No working wireless network interface found.\n"
+#~ " Please verify that you have attached a compatible WLAN device or enable your local network interface."
+#~ msgstr ""
+#~ "Keine funktionierende WLAN-Verbindung gefunden!\n"
+#~ "Bitte überprüfen, ob ein kompatibler Adapter angeschlossen und das Netzwerk richtig konfiguriert ist."
+
+#
+#~ msgid "Please follow the instructions on the TV"
+#~ msgstr "Den Anweisungen auf dem Bildschirm folgen"
+
+#
+#~ msgid "Please press OK to continue."
+#~ msgstr "OK drücken, um fortzufahren."
+
+#
+#~ msgid "Please wait for activation of your network configuration..."
+#~ msgstr "Die Netzwerkkonfiguration wird aktiviert. Bitte warten …"
+
+#
+#~ msgid "Please wait while we prepare your network interfaces..."
+#~ msgstr "Die Netzwerkschnittstellen werden vorbereitet. Bitte warten …"
+
+#
+#~ msgid "Please wait while we test your network..."
+#~ msgstr "Das Netzwerk wird überprüft. Bitte warten …"
+
+#~ msgid "Please wait while your skin setting is restoring..."
+#~ msgstr "Die Skineinstellungen werden wiederhergestellt. Bitte warten …"
+
+#
+#~ msgid "Press OK to activate the settings."
+#~ msgstr "OK drücken, um die Einstellungen zu aktivieren."
+
+#
+#~ msgid "Primary DNS"
+#~ msgstr "Primärer DNS"
+
+#~ msgid "Restart Network Adapter"
+#~ msgstr "Netzwerkadapter neu starten"
+
+#
+#~ msgid "Restart your network connection and interfaces."
+#~ msgstr "Netzwerkverbindung und Schnittstellen neu starten."
+
+#~ msgid "Restore MetrixHD Settings"
+#~ msgstr "Wiederherstellen MetrixHD-Skin"
+
+#~ msgid "SABnzbd Settings"
+#~ msgstr "SABnzbd (Binary News)"
+
+#
+#~ msgid "Scan wireless networks"
+#~ msgstr "WLAN-Netzwerke suchen"
+
+#~ msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
+#~ msgstr "Durchsucht das Netzwerk nach WLAN-Zugangspunkten und stellt eine Verbindung mit Hilfe des ausgewählten WLAN-Gerätes her."
+
+#
+#~ msgid "Secondary DNS"
+#~ msgstr "Sekundärer DNS"
+
+#~ msgid "Select a wireless network"
+#~ msgstr "Ein drahtloses Netzwerk auswählen"
+
+#
+#~ msgid "Select interface"
+#~ msgstr "Netzwerkkarte auswählen"
+
+#~ msgid "Select menu entry"
+#~ msgstr "Menüeintrag auswählen"
+
+#~ msgid ""
+#~ "Select the network interface to be used for the Internet connection.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Die Netzwerkschnittstelle auswählen, die für die Internetverbindung verwendet werden soll.\n"
+#~ "\n"
+#~ "OK drücken, um fortzufahren."
+
+#~ msgid ""
+#~ "Select the wireless network to which you want to connect.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Das drahtlose Netzwerk auswählen, mit dem eine Verbindung herstellt werden soll.\n"
+#~ "\n"
+#~ "OK drücken, um fortzufahren."
+
+#~ msgid "Select wireless network"
+#~ msgstr "Das WLAN-Netzwerk auswählen"
+
+#
+#~ msgid "Show WLAN status"
+#~ msgstr "WLAN-Status anzeigen"
+
+#~ msgid "Show info"
+#~ msgstr "Infos anzeigen"
+
+#
+#~ msgid "Shows the state of your wireless LAN connection."
+#~ msgstr "Zeigt den Status der WLAN-Verbindung an."
+
+#~ msgid "Signal quality"
+#~ msgstr "Signalqualität"
+
+#
+#~ msgid "Signal: "
+#~ msgstr "Signal: "
+
+#
+#~ msgid "Start test"
+#~ msgstr "Test starten"
+
+#
+#~ msgid "Stop test"
+#~ msgstr "Test stoppen"
+
+#
+#, python-format
+#~ msgid "Test the network configuration of your %s %s."
+#~ msgstr "Die Netzwerkkonfiguration von %s %s überprüfen."
+
+#~ msgid ""
+#~ "The Internet connection appears to be working.\n"
+#~ "\n"
+#~ "Press OK to continue."
+#~ msgstr ""
+#~ "Die Internetverbindung scheint zu funktionieren.\n"
+#~ "\n"
+#~ "OK drücken, um fortzufahren."
+
+#~ msgid ""
+#~ "The Internet connection appears to not be working!\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "Die Internetverbindung scheint nicht zu funktionieren!\n"
+#~ "\n"
+#~ "Auswählen, was als Nächstes geschehen soll."
+
+#~ msgid ""
+#~ "The network wizard extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Die Netzwerkassistent-Erweiterung ist nicht installiert!\n"
+#~ "Bitte installieren."
+
+#~ msgid ""
+#~ "The wireless LAN Internet connection could not be started!\n"
+#~ "Is the wireless LAN device connected?\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "Die WLAN-Internetverbindung konnte nicht gestartet werden!\n"
+#~ "Ist das WLAN-Gerät verbunden?\n"
+#~ "\n"
+#~ "Auswählen, was als Nächstes geschehen soll."
+
+#~ msgid ""
+#~ "The wireless LAN plugin code is not installed!\n"
+#~ "\n"
+#~ "Install it and choose what to do next."
+#~ msgstr ""
+#~ "Der WLAN-Plugin ist nicht installiert!\n"
+#~ "\n"
+#~ "Dies installieren und auswählen, was als Nächstes geschehen soll."
+
+#
+#~ msgid ""
+#~ "The wireless LAN plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Das WLAN-Plugin ist nicht installiert!\n"
+#~ "Bitte installieren."
+
+#
+#~ msgid ""
+#~ "This test checks for configured DNS.\n"
+#~ "If you get an \"unconfirmed\" message:\n"
+#~ "- please check your DHCP, cabling and adapter setup\n"
+#~ "- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+#~ msgstr ""
+#~ "Dieser Test sucht nach konfigurierten Nameservern.\n"
+#~ "Wenn eine 'Unbestätigt'-Meldung erscheint:\n"
+#~ "- DHCP, Verkabelung und Adapterkonfiguration überprüfen.\n"
+#~ "- Wenn die Nameserver manuell konfiguriert wurden, die Konfiguration in den DNS-Einstellungen überprüfen."
+
+#
+#~ msgid ""
+#~ "This test checks whether a network cable is connected to your LAN adapter.\n"
+#~ "If you get a \"disconnected\" message:\n"
+#~ "- verify that a network cable is attached\n"
+#~ "- verify that the cable is not broken"
+#~ msgstr ""
+#~ "Dieser Test überprüft, ob ein Netzwerkkabel angeschlossen ist.\n"
+#~ "Bei einer 'Nicht verbunden'-Meldung:\n"
+#~ "- Überprüfen, ob ein Netzwerkkabel angeschlossen ist.\n"
+#~ "- Sicherstellen, dass das Netzwerkkabel nicht defekt ist."
+
+#
+#~ msgid ""
+#~ "This test checks whether a valid IP address is found for your LAN adapter.\n"
+#~ "If you get a \"unconfirmed\" message:\n"
+#~ "- no valid IP address was found\n"
+#~ "- please check your DHCP, cabling and adapter setup"
+#~ msgstr ""
+#~ "Dieser Test überprüft, ob eine gültige IP-Adresse gefunden wurde.\n"
+#~ "Wenn eine 'Unbestätigt'-Meldung erscheint:\n"
+#~ "- Wurde keine gültige IP-Adresse gefunden.\n"
+#~ "- DHCP, Verkabelung und Adapterkonfiguration überprüfen."
+
+#
+#~ msgid ""
+#~ "This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
+#~ "If you get a \"disabled\" message:\n"
+#~ " - then your LAN adapter is configured for manual IP setup\n"
+#~ "- verify that you have entered correct IP information in the adapter setup dialog.\n"
+#~ "If you get an \"enabled\" message:\n"
+#~ "-verify that you have a configured and working DHCP server in your network."
+#~ msgstr ""
+#~ "Dieser Test überprüft, ob der Netzwerkadapter für automatische IP-Adressenkonfiguration über DHCP eingerichtet ist.\n"
+#~ "Wenn eine 'Deaktiviert'-Meldung erscheint:\n"
+#~ "- Dann ist der Netzwerkadapter für manuelle IP-Adressenkonfiguration eingerichtet.\n"
+#~ "- Überprüfen, ob die Einstellungen der Adapterkonfiguration korrekt sind.\n"
+#~ "Wenn eine 'Aktiviert'-Meldung erscheint:\n"
+#~ "- Überprüfen, ob sich ein funktionierender DHCP-Server im Netzwerk befindet."
+
+#
+#~ msgid "This test detects your configured LAN adapter."
+#~ msgstr "Dieser Test stellt den konfigurierten Netzwerkadapter fest."
+
+#~ msgid "Unencrypted"
+#~ msgstr "Unverschlüsselt"
+
+#~ msgid ""
+#~ "Unknown Error creating Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Unbekannter Fehler beim Erstellen des Skins!\n"
+#~ "Die Einstellungen überprüfen und nach einem Neustart im MyMetrixLite-Plugin übernehmen."
+
+#
+#~ msgid "Unsupported"
+#~ msgstr "Nicht unterstützt"
+
+#
+#~ msgid "Use a gateway"
+#~ msgstr "Ein Gateway verwenden"
+
+#
+#~ msgid "Use interface"
+#~ msgstr "Netzwerkadapter aktivieren"
+
+#~ msgid "Use only for Wake on WLan (WoW)"
+#~ msgstr "Nur für Wake on WLAN (WoW) aktivieren"
+
+#~ msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
+#~ msgstr "Den Netzwerkassistenten verwenden, um das Netzwerk zu konfigurieren."
+
+# HelpMenu
+#~ msgid "Use the network wizard to configure selected network adapter"
+#~ msgstr "Den Netzwerkassistenten zur Konfiguration des ausgewählten Netzwerkadapters verwenden"
+
+#~ msgid "Use the network wizard to configure your Network."
+#~ msgstr "Den Netzwerkassistenten verwenden, um das Netzwerk zu konfigurieren."
+
+#~ msgid "VLAN connection"
+#~ msgstr "VLAN-Verbindung"
+
+#
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WLAN connection"
+#~ msgstr "WLAN-Verbindung"
+
+#
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#
+#~ msgid "WPA or WPA2"
+#~ msgstr "WPA oder WPA2"
+
+#
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "When enabled, use DHCP for the IP configuration."
+#~ msgstr "Wenn aktiviert, wird DHCP für die IPv4-Konfiguration verwendet."
+
+#
+#~ msgid "Wireless LAN"
+#~ msgstr "Wireless-LAN"
+
+#~ msgid "Wireless network"
+#~ msgstr "Drahtloses Netzwerk"
+
+#~ msgid "Wireless network configuration..."
+#~ msgstr "Konfiguration drahtloses Netzwerk …"
+
+#~ msgid ""
+#~ "Wireless network connection setup.\n"
+#~ "\n"
+#~ "Choose what to do next."
+#~ msgstr ""
+#~ "WLAN-Netzwerkverbindung einstellen.\n"
+#~ "\n"
+#~ "Auswählen, was als Nächstes geschehen soll."
+
+#~ msgid "Wireless network setup"
+#~ msgstr "WLAN-Netzwerkverbindung einstellen"
+
+#~ msgid "Wireless network state"
+#~ msgstr "WLAN-Netzwerkstatus"
+
+#
+#, python-format
+#~ msgid ""
+#~ "Your %s %s is now ready to be used.\n"
+#~ "\n"
+#~ "Your Internet connection is working now.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "%s %s ist nun konfiguriert.\n"
+#~ "\n"
+#~ "Die Internetverbindung funktioniert.\n"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the installation of service.\n"
+#~ "\n"
+#~ "Do you want to install now ?"
+#~ msgstr ""
+#~ "%s %s wird nach Installation des Dienstes neu gestartet.\n"
+#~ "Soll der Dienst jetzt installiert werden?"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the removal of service\n"
+#~ "Do you want to remove now?"
+#~ msgstr ""
+#~ "%s %s wird nach Entfernen des Dienstes neu gestartet.\n"
+#~ "Soll der Dienst jetzt entfernt werden?"
+
+#~ msgid ""
+#~ "Your Internet connection is not working!\n"
+#~ "Please choose what you want to do next."
+#~ msgstr ""
+#~ "Die Internetverbindung funktioniert nicht!\n"
+#~ "Bitte auswählen, was als Nächstes geschehen soll."
+
+#~ msgid "Your STB will restart after pressing OK on your remote control."
+#~ msgstr "Der Receiver wird nach dem Drücken von OK neu starten."
+
+#
+#~ msgid "Your network configuration has been activated."
+#~ msgstr "Die Netzwerkkonfiguration wurde aktiviert."
+
+#
+#~ msgid "confirmed"
+#~ msgstr "Bestätigt"
+
+#
+#~ msgid "connected"
+#~ msgstr "Verbunden"
+
+#
+#~ msgid "disconnected"
+#~ msgstr "Getrennt"
+
+#~ msgid "off or wpa2 on"
+#~ msgstr "aus oder WPA2 an"
+
+#
+#~ msgid "unconfirmed"
+#~ msgstr "Nicht bestätigt"
+
 #~ msgid "Enter the primary IPv4 DNS setting for this adapter."
 #~ msgstr "Die primäre IPv4-DNS-Einstellung für diesen Adapter eingeben."
 
@@ -26627,9 +27219,6 @@ msgstr "®"
 
 #~ msgid "NFS Settings"
 #~ msgstr "NFS-Dateiserver"
-
-#~ msgid "Read Only"
-#~ msgstr "Nur Lesen"
 
 #~ msgid "Samba Settings"
 #~ msgstr "Samba"
@@ -27454,9 +28043,6 @@ msgstr "®"
 #
 #~ msgid "SSID:"
 #~ msgstr "SSID:\t"
-
-#~ msgid "Scanning..."
-#~ msgstr "Suchlauf..."
 
 #~ msgid "Servers:"
 #~ msgstr "Server:"
@@ -28494,9 +29080,6 @@ msgstr "®"
 
 #~ msgid "Time Update in Minutes:"
 #~ msgstr "Updatezeit in Minuten:"
-
-#~ msgid "VPN"
-#~ msgstr "VPN"
 
 #, python-format
 #~ msgid ""
