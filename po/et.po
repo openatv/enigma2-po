@@ -1,19 +1,21 @@
-# rimasx <riks_12@hot.ee>, 2021, 2022.
-# openATV <openatv@gmail.com>, 2021.
+# rimasx <riks_12@hot.ee>, 2021, 2022, 2026.
+# openATV <openatv@gmail.com>, 2021, 2026.
+# jbleyel <jbleyel@gmx.net>, 2026.
+# Massimo Pissarello <mapi68@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 07:09+0000\n"
-"PO-Revision-Date: 2022-12-04 20:43+0000\n"
-"Last-Translator: rimasx <riks_12@hot.ee>\n"
+"POT-Creation-Date: 2026-08-16 15:24+0000\n"
+"PO-Revision-Date: 2026-08-16 15:55+0000\n"
+"Last-Translator: openATV <openatv@gmail.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 msgid ""
 "\n"
@@ -892,6 +894,12 @@ msgstr[0] "%d kataloogi pakett värskendati."
 msgstr[1] "%d kataloogi paketti värskendati."
 
 #, python-format
+msgid "%d host found."
+msgid_plural "%d hosts found."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d jobs are running in the background!"
 msgstr ""
 
@@ -910,6 +918,12 @@ msgstr "%d minutit"
 #, python-format
 msgid "%d ms"
 msgstr "%d ms"
+
+#, python-format
+msgid "%d network found."
+msgid_plural "%d networks found."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%d package found."
@@ -1024,12 +1038,6 @@ msgstr ""
 #, python-format
 msgid "%d times"
 msgstr "%d korda"
-
-#, python-format
-msgid "%d wireless network found!"
-msgid_plural "%d wireless networks found!"
-msgstr[0] "Leiti %d traadita võrk!"
-msgstr[1] "Leiti %d traadita võrku!"
 
 msgid "%d+%b_"
 msgstr "%d+%b_"
@@ -1258,6 +1266,22 @@ msgstr "%s1080i kuvatakse 1080p"
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr "'%s' sisaldab %d faili ja %d alamkataloogi.\n"
 
+#, python-format
+msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' is listed more than once in 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' mounted."
+msgstr ""
+
+#, python-format
+msgid "'%s' unmounted."
+msgstr ""
+
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Ajavaru tundides' või 'viimaste saadete arv'. Vanemate ajanihke failide kustutamisel saab eelise esimesena täidetud tingimus."
 
@@ -1356,6 +1380,9 @@ msgstr "1.2"
 msgid "10bit"
 msgstr "10bit"
 
+msgid "10th (Lowest)"
+msgstr ""
+
 msgid "12 character"
 msgstr "12 tähemärki"
 
@@ -1407,6 +1434,9 @@ msgstr ""
 msgid "18 V"
 msgstr "18 V"
 
+msgid "1st (Highest)"
+msgstr ""
+
 msgid "1st InfoBar timeout"
 msgstr "Inforiba kestus"
 
@@ -1416,6 +1446,9 @@ msgstr ""
 #
 msgid "2"
 msgstr "2"
+
+msgid "2nd"
+msgstr ""
 
 msgid "2nd InfoBar"
 msgstr "Teine inforiba"
@@ -1458,6 +1491,9 @@ msgstr "3D ruumheli"
 msgid "3D Surround Speaker Position"
 msgstr "3D ruumheli kõlari asukoht"
 
+msgid "3rd"
+msgstr ""
+
 msgid "3x"
 msgstr ""
 
@@ -1477,6 +1513,9 @@ msgstr "4:3 letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 panscan"
 
+msgid "4th"
+msgstr ""
+
 msgid "4x"
 msgstr ""
 
@@ -1487,13 +1526,22 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr ""
 
+msgid "5th"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
 
+msgid "6th"
+msgstr ""
+
 #
 msgid "7"
 msgstr "7"
+
+msgid "7th"
+msgstr ""
 
 #
 msgid "8"
@@ -1505,9 +1553,15 @@ msgstr "8 tähemärki"
 msgid "8bit"
 msgstr "8bit"
 
+msgid "8th"
+msgstr ""
+
 #
 msgid "9"
 msgstr "9"
+
+msgid "9th"
+msgstr ""
 
 msgid "< Alternate Skin >"
 msgstr "< Asendus kujundus >"
@@ -1650,15 +1704,6 @@ msgstr ""
 msgid "A required tool (%s) was not found."
 msgstr "Vajaliku tööriista (%s) ei leitud."
 
-msgid ""
-"A second configured interface has been found.\n"
-"\n"
-"Do you want to disable the second network interface?"
-msgstr ""
-"Leiti teine võrguliides.\n"
-"\n"
-"Kas see tuleks keelata?"
-
 # RecordTimer.py
 msgid ""
 "A timer failed to record!\n"
@@ -1797,6 +1842,11 @@ msgstr ""
 msgid "Access point"
 msgstr ""
 
+msgid ""
+"Access point not found.\n"
+"Check it is in range and the SSID is correct."
+msgstr ""
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr ""
 
@@ -1837,14 +1887,8 @@ msgstr "Anna Üles/Alla nuppudele 'Kõik üles/alla' toiming. (tulba alguses/lõ
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
-msgid "Activate network adapter configuration"
-msgstr "aktiveeri võrgukaardi seaded"
-
-msgid "Activate network settings"
-msgstr "Aktiveeri võrguseaded"
-
-msgid "Activate the configured network settings."
-msgstr "Jõusta määratud võrguseaded."
+msgid "Activate network adapter"
+msgstr ""
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr ""
@@ -1865,6 +1909,13 @@ msgid "Active clients"
 msgstr "Aktiivsed kliendid"
 
 msgid "Active only"
+msgstr ""
+
+msgid "Adapter"
+msgstr ""
+
+#, python-format
+msgid "Adapter '%s' Context Menu"
 msgstr ""
 
 msgid "Adapter Settings"
@@ -1909,6 +1960,9 @@ msgstr ""
 msgid "Add Marker To Bouquet"
 msgstr "Lisa märgis"
 
+msgid "Add Mount Manually"
+msgstr ""
+
 msgid "Add New Quad Channel Entry"
 msgstr "Lisa uus Quad PiP kanal"
 
@@ -1932,6 +1986,12 @@ msgstr "Lisa taimer"
 
 msgid "Add To Parental Protection"
 msgstr "Lisa lapselukk"
+
+msgid "Add Wi-Fi"
+msgstr ""
+
+msgid "Add Wi-Fi Manually"
+msgstr ""
 
 msgid "Add Zap+RecordTimer"
 msgstr "Lisa kanalivahetus- ja salvestustaimer"
@@ -1959,6 +2019,9 @@ msgstr "Lisa järgmisele saatele kanalivahetustaimer"
 
 msgid "Add a mark"
 msgstr "Lisa tähis"
+
+msgid "Add a new Saved Wi-Fi Network"
+msgstr ""
 
 msgid "Add a new bouquet"
 msgstr ""
@@ -2525,9 +2588,6 @@ msgstr "Kas eemaldada kõik maapealse võrgu kanalid?"
 msgid "Are you sure to remove this entry?"
 msgstr "Kas eemaldada see kirje?"
 
-msgid "Are you sure you want to activate this network configuration?"
-msgstr "Kas jõustada see võrguseadistus?"
-
 msgid ""
 "Are you sure you want to delete\n"
 "the following backup:\n"
@@ -2550,9 +2610,6 @@ msgstr "Kas väljuda seadistusabilisest?"
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "Kas värskendada EPG andmed asukohast:\n"
-
-msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Kas taaskäivitada võrguliidesed?"
 
 #, python-format
 msgid ""
@@ -2666,6 +2723,9 @@ msgstr "Määratud CAIdid:"
 #
 msgid "Assigned services/provider:"
 msgstr "Määratud kanalid/levitajad:"
+
+msgid "Associated"
+msgstr ""
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19.2e"
@@ -2936,8 +2996,8 @@ msgstr "Sinine - pikk"
 msgid "BLUE switch: BLUE/BLUE long"
 msgstr "Lühike SININE/pikk SININE vahetus"
 
-msgid "Back"
-msgstr "Tagasi"
+msgid "BSSID"
+msgstr ""
 
 msgid "Back USB"
 msgstr "Tagakülje USB pesa"
@@ -3348,6 +3408,9 @@ msgstr ""
 msgid "Broadcom default"
 msgstr ""
 
+msgid "Browse"
+msgstr ""
+
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr ""
 
@@ -3406,6 +3469,9 @@ msgstr "Kirjuta andmekandjale"
 
 msgid "Burundi"
 msgstr "Burundi"
+
+msgid "Bus"
+msgstr ""
 
 msgid "Business"
 msgstr ""
@@ -3587,6 +3653,9 @@ msgstr "Kaabel TV (DVB-C)"
 
 msgid "Cable Scan"
 msgstr "Kaabel TV otsing"
+
+msgid "Cable Unplugged"
+msgstr ""
 
 msgid "Cable input"
 msgstr ""
@@ -4346,6 +4415,9 @@ msgstr "Tühjenda"
 msgid "Clear Log"
 msgstr "Kustuta logi"
 
+msgid "Clear Stored Credentials"
+msgstr ""
+
 msgid "Clear before scan"
 msgstr "Kustuta kanalid enne otsingut"
 
@@ -4411,6 +4483,9 @@ msgstr "Sulge lemmiknimekirjad."
 
 msgid "Close dialog"
 msgstr "Sulge aken"
+
+msgid "Close network test"
+msgstr ""
 
 msgid "Close screen"
 msgstr ""
@@ -4611,7 +4686,7 @@ msgstr "Häälestamine"
 msgid "Configuration options for the HELP screen can be found in 'MENU > Setup > Usage & User Interface > Settings'."
 msgstr ""
 
-msgid "Configure DNS (name servers)"
+msgid "Configure DNS (Dynamic Name Server)"
 msgstr ""
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
@@ -4619,6 +4694,9 @@ msgstr "Määra väliste subtiitrite täpsemaks ajastamiseks viiteaeg."
 
 msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Määra subtiitrite täpsemaks ajastamiseks viiteaeg."
+
+msgid "Configure another network adapter"
+msgstr ""
 
 msgid "Configure cable reception on this input."
 msgstr ""
@@ -4671,14 +4749,14 @@ msgstr ""
 msgid "Configure if the subtitle should switch between normal, italic, bold and bold italic."
 msgstr "Määra, kas subtiitrite kirjapilti vahetatakse tavalise, kaldkirja, rasvase ja rasvase kaldkirja vahel"
 
-msgid "Configure interface"
-msgstr "Seadista võrguliides"
+msgid "Configure network adapter"
+msgstr ""
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr "Määra, millisel andmekandjal taustal kustutamise võimalust kasutatakse."
 
 msgid ""
-"Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+"Configure or verify your DNS (Dynamic Name Server) settings by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
@@ -4695,17 +4773,8 @@ msgstr ""
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Määra selle LNB DiSEqC režiim."
 
-msgid "Configure the IP address."
-msgstr "Määra IP aadress."
-
 msgid "Configure the IP of the fallback remote receiver."
 msgstr "Kaugvastuvõtja IP"
-
-msgid ""
-"Configure the Internet connection by adjusting the values shown.\n"
-"\n"
-"When the settings are correct press OK to continue."
-msgstr ""
 
 msgid "Configure the Port of the fallback remote receiver."
 msgstr "Kaugvastuvõtja Port"
@@ -4809,9 +4878,6 @@ msgstr "Määra, mida toitenupu lühike vajutus teeb."
 msgid "Configure the function of the < and > buttons."
 msgstr ""
 
-msgid "Configure the gateway."
-msgstr "Seadista lüüs."
-
 msgid "Configure the hard disk drive to go to Standby after the specified idle time when the receiver is in Standby."
 msgstr "Määra kõvaketta seiskamise aeg pärast määratud jõudeolekut, kui vastuvõtja on ooteseisundis."
 
@@ -4841,15 +4907,6 @@ msgstr "Määra väikseim kettaruum (GB), mis peab olema vaba enne salvestuse al
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
 msgstr "Määra vähim laius enne 'i' ikooni kuvamist. Määrates '0', ikooni ei kuvata."
-
-msgid "Configure the name server (DNS)."
-msgstr "Seadista nimeserver (DNS)."
-
-msgid "Configure the netmask."
-msgstr "Seadista võrgumask."
-
-msgid "Configure the network again"
-msgstr "Seadista võrk uuesti"
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr "Määra päevade arv, pärast mida salvestised kustutatakse automaatselt prügikastist."
@@ -4883,6 +4940,9 @@ msgstr "Määra subtiitrite keele teine eelistus."
 
 msgid "Configure the secondary EPG language."
 msgstr "Määra saatekava keele teine eelistus."
+
+msgid "Configure the selected Wi-Fi network"
+msgstr ""
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
 msgstr "Määra '1'/'3'-nuppude hüppe pikkus."
@@ -4985,17 +5045,8 @@ msgstr "Määra, millist tuunerit eelistatakse mitme tuuneriga vastuvõtjas. Val
 msgid "Configure your NTP server."
 msgstr "Seadista NTP server."
 
-msgid "Configure your Network"
-msgstr "Seadista oma võrk"
-
-msgid "Configure your internal LAN"
-msgstr "Seadista sisemine LAN võrk"
-
 msgid "Configure your network settings, and press OK to start the scan"
 msgstr "Seadista võrk ja vajuta otsingu alustamiseks OK"
-
-msgid "Configure your wireless LAN again"
-msgstr "Seadista WiFi võrk uuesti"
 
 msgid "Configures which video output connector will be used."
 msgstr "See valik määrab, millist ühenduspesa videoväljund kasutab."
@@ -5007,6 +5058,10 @@ msgid "Configuring Service"
 msgstr ""
 
 msgid "Confirm Zap"
+msgstr ""
+
+#, python-format
+msgid "Confirm the deletion of '%s'?"
 msgstr ""
 
 msgid "ConflictTimer Actions"
@@ -5029,10 +5084,13 @@ msgstr "Ühenda"
 msgid "Connect to IceTV server every"
 msgstr "Ühenduse loomine serveriga nurjus"
 
-msgid "Connect to a wireless network"
-msgstr "Ühenda traadita võrguga"
-
 msgid "Connect to the Internet"
+msgstr ""
+
+msgid "Connect to the selected Saved Wi-Fi Network"
+msgstr ""
+
+msgid "Connected"
 msgstr ""
 
 msgid "Connected clients"
@@ -5050,8 +5108,26 @@ msgstr "Ühendatud"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr ""
 
+msgid ""
+"Connected, but no IP address was received.\n"
+"Check the router's DHCP settings."
+msgstr ""
+
+#, python-format
+msgid ""
+"Connected.\n"
+"IP address is '%s'."
+msgstr ""
+
 msgid "Connected: "
 msgstr "Ühendatud: "
+
+#, python-format
+msgid "Connecting To '%s'"
+msgstr ""
+
+msgid "Connecting..."
+msgstr ""
 
 msgid "Connection information"
 msgstr ""
@@ -5100,6 +5176,9 @@ msgid "Context"
 msgstr "Kontekst"
 
 msgid "Continent"
+msgstr ""
+
+msgid "Continue"
 msgstr ""
 
 #
@@ -5255,8 +5334,22 @@ msgstr "Costa Rica"
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Elevandiluurannik"
 
+#, python-format
+msgid "Could not connect (status '%s')."
+msgstr ""
+
 msgid "Could not connect to server"
 msgstr "Ühenduse loomine serveriga nurjus"
+
+msgid ""
+"Could not connect.\n"
+"Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
+msgstr ""
+
+msgid ""
+"Could not connect.\n"
+"Wrong Wi-Fi password?"
+msgstr ""
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr "Plaati ei õnnestu laadida! Kas plaat on sisestatud?"
@@ -5279,6 +5372,12 @@ msgstr "Salvestamine nurjus. Kehtetu kanal %s"
 #, python-format
 msgid "Could not save configuration file %s!"
 msgstr "Seadistusfaili %s talletamine nurjus!"
+
+msgid ""
+"Could not verify the saved Wi-Fi network.\n"
+"\n"
+"Do you want to change the settings again?"
+msgstr ""
 
 msgid "Country"
 msgstr "Riik"
@@ -5403,6 +5502,13 @@ msgstr ""
 msgid "Creating partition"
 msgstr "Partitsiooni loomine"
 
+msgid "Credentials"
+msgstr ""
+
+#, python-format
+msgid "Credentials for '%s'"
+msgstr ""
+
 msgid "Cree"
 msgstr ""
 
@@ -5504,9 +5610,6 @@ msgstr ""
 
 msgid "Current rotor position: unknown"
 msgstr ""
-
-msgid "Current settings:"
-msgstr "Hetke seaded:"
 
 msgid "Current supplied to the LNB and positioner."
 msgstr ""
@@ -5614,9 +5717,6 @@ msgstr "SD"
 msgid "DAC"
 msgstr "DAC"
 
-msgid "DHCP"
-msgstr "DHCP"
-
 msgid "DLNA support"
 msgstr "DLNA tugi"
 
@@ -5627,6 +5727,9 @@ msgid "DMM normal"
 msgstr "DMM tavaline"
 
 msgid "DNS Settings"
+msgstr ""
+
+msgid "DNS Settings Actions"
 msgstr ""
 
 msgid "DNS data source"
@@ -5910,7 +6013,13 @@ msgstr "Lülita välja"
 msgid "Deactivate Expander"
 msgstr ""
 
+msgid "Deactivate network adapter"
+msgstr ""
+
 msgid "Deactivate the flash expander in the selected device"
+msgstr ""
+
+msgid "Deactivated"
 msgstr ""
 
 msgid "Debug"
@@ -6167,6 +6276,12 @@ msgstr "Kustuta püsivara"
 msgid "Delete Line"
 msgstr ""
 
+msgid "Delete Mount"
+msgstr ""
+
+msgid "Delete Network"
+msgstr ""
+
 msgid "Delete Plugins"
 msgstr "Kustuta pluginaid"
 
@@ -6401,9 +6516,6 @@ msgstr "Seadmehaldur"
 msgid "Device Manager Actions"
 msgstr ""
 
-msgid "Device Settings"
-msgstr "Võrgukaardi seaded"
-
 msgid "Device id"
 msgstr ""
 
@@ -6516,6 +6628,9 @@ msgstr ""
 msgid "Disable"
 msgstr "Keela"
 
+msgid "Disable Adapter"
+msgstr ""
+
 msgid "Disable Animations"
 msgstr "Keela animatsioonid"
 
@@ -6541,6 +6656,9 @@ msgstr "Keela MiniTV"
 msgid "Disable Move Mode"
 msgstr "Lõpeta liigutamine"
 
+msgid "Disable Network"
+msgstr ""
+
 msgid "Disable Picture in Picture"
 msgstr "Sulge pilt-pildis"
 
@@ -6557,6 +6675,9 @@ msgid "Disable intro screen"
 msgstr "Keela tervitusaken"
 
 msgid "Disable operator profiles"
+msgstr ""
+
+msgid "Disable saved Wi-Fi network"
 msgstr ""
 
 # Box Display
@@ -6576,10 +6697,10 @@ msgstr "Keelatud"
 msgid "Disabled PiP.\n"
 msgstr "PIP lülitati välja.\n"
 
-msgid "Disabled or WPA/WPA2"
+msgid "Disabling Chkroot failed!"
 msgstr ""
 
-msgid "Disabling Chkroot failed!"
+msgid "Disconnected"
 msgstr ""
 
 msgid "Discussion"
@@ -7014,6 +7135,9 @@ msgstr "Vastuvõtja vormingus andme DVD (sobiv HDTV jaoks)"
 msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr "Vastuvõtja vormingus andme DVD (ei tööta muudes DVD-mängijates)"
 
+msgid "Driver"
+msgstr ""
+
 msgid "Driver Packages"
 msgstr ""
 
@@ -7180,6 +7304,9 @@ msgstr "Muuda"
 msgid "Edit Alternatives"
 msgstr "asenduskanalite muutmine"
 
+msgid "Edit Credentials"
+msgstr ""
+
 msgid "Edit Mode Off"
 msgstr "Keela muutmine"
 
@@ -7202,6 +7329,9 @@ msgstr "Muuda pealkirja"
 msgid "Edit Upgrade Source URL"
 msgstr ""
 
+msgid "Edit Username/Password Credentials"
+msgstr ""
+
 msgid "Edit chapters of current title"
 msgstr "Muuda peatükke"
 
@@ -7211,25 +7341,20 @@ msgstr "Muuda käesolev rida"
 msgid "Edit settings"
 msgstr "Muuda seadeid"
 
+msgid "Edit stored username/password credentials for the selected host"
+msgstr ""
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
 msgid "Edit the CCcam/NewCamd server port."
 msgstr ""
 
-#, python-format
-msgid "Edit the DNS configuration of your %s %s."
-msgstr "Muuda %s %s nimeserveri seadeid."
-
 msgid "Edit the NewCamd DES Key."
 msgstr ""
 
 msgid "Edit the currently selected timer"
 msgstr ""
-
-#, python-format
-msgid "Edit the network configuration of your %s %s."
-msgstr "Muuda %s %s võrguseadeid."
 
 msgid "Edit the password."
 msgstr ""
@@ -7241,6 +7366,9 @@ msgid "Edit the remote CCCam port."
 msgstr ""
 
 msgid "Edit the remote IP address."
+msgstr ""
+
+msgid "Edit the selected network mount"
 msgstr ""
 
 msgid "Edit the upgrade source address."
@@ -7344,9 +7472,6 @@ msgstr ""
 msgid "Enable GStreamer pipeline graphs *"
 msgstr ""
 
-msgid "Enable IPv6"
-msgstr ""
-
 #, fuzzy
 msgid "Enable IceTV"
 msgstr "MiniTV lubatud"
@@ -7402,8 +7527,8 @@ msgstr "Viasat EPG lubatud"
 msgid "Enable Virgin EPG"
 msgstr "Virgin EPG lubatud"
 
-msgid "Enable Wake On LAN"
-msgstr "WOL lubatud"
+msgid "Enable adapter"
+msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Luba teine inforiba (2xOK). Sealt võib leida mitmesugust lisainfot antud kanali kohta."
@@ -7483,6 +7608,9 @@ msgstr ""
 msgid "Enable multiple bouquets"
 msgstr "Lemmiknimekirjad lubatud"
 
+msgid "Enable network"
+msgstr ""
+
 # PowerTimerEntry.py
 msgid "Enable network traffic check"
 msgstr "Võrguliikluse kontroll lubatud"
@@ -7504,6 +7632,9 @@ msgstr "Eelvaatlus lubatud"
 
 msgid "Enable remote receiver to be tried to tune into services that can't be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner). Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_receiver:8001."
 msgstr "Luba kasutada enigma2 kaugvastuvõtjat häälestumiseks kanalitele, mida kohalik vastuvõtja ei ole võimeline vastu võtma (nt. tuuner on hõivatud või kanalitüüp on kohalikule tuunerile sobimatu). Vajalik on täielik URL k.a. http:/ ja pordi number (tavaliselt ...:8001). Näiteks http://teine_tuuner:8001."
+
+msgid "Enable saved Wi-Fi network"
+msgstr ""
 
 msgid "Enable teletext caching"
 msgstr "Teleteksti puhverdamine"
@@ -7604,21 +7735,8 @@ msgstr "Kasutusel"
 msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
 msgstr "Nii saab vastuvõtja voo dekodeerida (kui ECM andmed on kaasatud ja olemas on kehtiv kaart)."
 
-msgid "Encrypted: "
-msgstr "Kodeeritud: "
-
 msgid "Encryption"
 msgstr "Kodeering"
-
-#, fuzzy
-msgid "Encryption Type:"
-msgstr "Kodeering:"
-
-msgid "Encryption key"
-msgstr "Kodeeringu võti"
-
-msgid "Encryption key type"
-msgstr "Kodeeringu võtme tüüp"
 
 msgid "End"
 msgstr "Lõpp"
@@ -7784,6 +7902,9 @@ msgid "Enter the local directory name to be used as the local mount for the remo
 msgstr ""
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
+msgid "Enter the network hostname to be used to identify this receiver."
 msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
@@ -7983,48 +8104,6 @@ msgstr ""
 msgid "Error code"
 msgstr "Veakood"
 
-#, fuzzy
-msgid ""
-"Error creating EHD-Skin.\n"
-"Using HD-Skin!"
-msgstr ""
-"Viga FHD kujunduse loomisel.\n"
-"Kasutatakse HD kujundust!"
-
-#, fuzzy
-msgid ""
-"Error creating EHD-Skin. Icon package download not available.\n"
-"Using HD-Skin!"
-msgstr ""
-"Viga FHD kujunduse loomisel. Ikoonide pakett ei ole saadaval.\n"
-"Kasutatakse HD kujundust!"
-
-#, fuzzy
-msgid ""
-"Error creating EHD-Skin. Not enough flash memory free.\n"
-"Using HD-Skin!"
-msgstr ""
-"Viga FHD kujunduse loomisel. Vaba sisemälu napib.\n"
-"Kasutatakse HD kujundust!"
-
-#, fuzzy
-msgid ""
-"Error creating EHD-Skin. Some EHD-Icons are missing.\n"
-"Using HD-Skin!"
-msgstr ""
-"Viga FHD kujunduse loomisel.\n"
-"Kasutatakse HD kujundust!"
-
-msgid "Error creating HD-Skin. Not enough flash memory free."
-msgstr "Viga HD kujunduse loomisel. Vaba sisemälu napib."
-
-msgid ""
-"Error creating MetrixHD-Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Viga MetrixHD loomisel.\n"
-"Ava pärast taaskäivitust MyMetrixLite ja jõusta oma sätted."
-
 #, python-format
 msgid "Error downloading image '%s'!"
 msgstr ""
@@ -8071,9 +8150,6 @@ msgstr ""
 msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr ""
 
-msgid "Error, unknown Result!"
-msgstr "Viga, tundmatu tulemus!"
-
 #, python-format
 msgid ""
 "Error: %s\n"
@@ -8084,6 +8160,9 @@ msgstr ""
 
 msgid "Error: An empty filename is illegal!"
 msgstr "Tühi failinimi ei ole lubatud."
+
+msgid "Error: Both 'server' and 'remote path' are required!"
+msgstr ""
 
 msgid "Error: Cannot find any images!"
 msgstr ""
@@ -8137,12 +8216,19 @@ msgid "Error: It is not possible to run '%s' on '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Mounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
 msgstr ""
 
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Kataloogi eemaldamine %s nurjus. (Ehk ei ole tühi?)"
+
+msgid "Error: Rescan failed!"
+msgstr ""
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8193,6 +8279,10 @@ msgid "Error: Unable to write log file '%s'!"
 msgstr "Faili kirjutamise viga: '%s'"
 
 #, python-format
+msgid "Error: Unmounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -8215,6 +8305,9 @@ msgstr "Eesti"
 #, fuzzy
 msgid "EtPortal"
 msgstr "Portugal"
+
+msgid "Ethernet Adapter"
+msgstr ""
 
 msgid "Ethernet network interface"
 msgstr "Etherneti võrguliides"
@@ -8344,19 +8437,6 @@ msgstr ""
 msgid "Exit movie player?"
 msgstr "Kas lõpetada taasesitus?"
 
-msgid "Exit network adapter configuration"
-msgstr "Lõpeta võrgukaardi seadistamine"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
-
-# HelpMenu
-msgid "Exit network interface list"
-msgstr "Välju võrguliideste nimekirjast"
-
-msgid "Exit network wizard"
-msgstr "Välju võrgu häälestusest"
-
 msgid "Exit picture viewer"
 msgstr ""
 
@@ -8375,6 +8455,9 @@ msgstr ""
 msgid "Expand"
 msgstr "Keri lahti"
 
+msgid "Expand/collapse the selected host, or use the selected share"
+msgstr ""
+
 msgid "Experimental film/video"
 msgstr "eksperimentaalne film/video"
 
@@ -8389,6 +8472,9 @@ msgstr "Ekspert"
 
 msgid "Expert mode"
 msgstr "Eksperdi režiim"
+
+msgid "Exports"
+msgstr ""
 
 msgid "Exposure bias"
 msgstr ""
@@ -8409,12 +8495,6 @@ msgstr "Pikenda"
 
 msgid "Extended"
 msgstr "Laiendatud"
-
-msgid "Extended Networksetup Plugin..."
-msgstr "Täpsemad võrguseaded."
-
-msgid "Extended Setup..."
-msgstr "Täpsemad seaded."
 
 msgid "Extended Shares"
 msgstr "Täpsemad jaod"
@@ -8876,9 +8956,6 @@ msgstr "Täppishäälestus"
 msgid "Finished"
 msgstr "Lõppenud"
 
-msgid "Finished configuring your network"
-msgstr "Võrgu seadistamine lõpetatud"
-
 msgid "Finland"
 msgstr "Soome"
 
@@ -8982,14 +9059,14 @@ msgstr ""
 msgid "Flat by position on remote"
 msgstr "Lõplik asukoht"
 
+msgid "Flush Cache and Rescan"
+msgstr ""
+
 msgid "Folk and Country"
 msgstr ""
 
 msgid "Folk/Traditional music"
 msgstr "folk/rahvamuusika"
-
-msgid "Follow instructions on TV"
-msgstr ""
 
 msgid "Font size"
 msgstr "Tähesuurus"
@@ -9098,10 +9175,6 @@ msgid "French Southern Territories"
 msgstr "Prantsuse Lõunaalad"
 
 msgid "Frequency"
-msgstr "Sagedus"
-
-#, fuzzy
-msgid "Frequency Norm:"
 msgstr "Sagedus"
 
 msgid "Frequency bands"
@@ -9937,6 +10010,9 @@ msgstr "INS"
 msgid "IP"
 msgstr "IP"
 
+msgid "IP Address"
+msgstr ""
+
 msgid "IP Address 1"
 msgstr ""
 
@@ -9969,6 +10045,9 @@ msgstr ""
 
 msgid "IPK Installer"
 msgstr "IPK paigaldamine"
+
+msgid "IPv4 and IPv6"
+msgstr ""
 
 msgid "IPv4 only"
 msgstr ""
@@ -10553,9 +10632,6 @@ msgstr "Liides"
 msgid "Interface '%s'"
 msgstr ""
 
-msgid "Interface: "
-msgstr "Liides: "
-
 msgid "Interlaced"
 msgstr "Ülerealaotusega"
 
@@ -10924,11 +11000,11 @@ msgstr "Kõrgõstan"
 msgid "LAN"
 msgstr "LAN"
 
-msgid "LAN adapter"
-msgstr "Võrgukaart"
-
 msgid "LAN connection"
 msgstr "LAN ühendus"
+
+msgid "LAN link"
+msgstr ""
 
 msgid "LCD scroll speed"
 msgstr "Näidiku kerimise kiirus"
@@ -11138,6 +11214,9 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr "Vasakul, reamurdmisega"
 
+msgid "Legacy (SMB1)"
+msgstr ""
+
 msgid "Legacy mode"
 msgstr ""
 
@@ -11231,17 +11310,11 @@ msgstr ""
 msgid "Link detected"
 msgstr ""
 
-msgid "Link quality:"
-msgstr "Lingi kvaliteet:"
-
 msgid "Link speed"
 msgstr ""
 
 msgid "Link target"
 msgstr ""
-
-msgid "Link:"
-msgstr "Link:"
 
 msgid "Linked titles with a DVD menu"
 msgstr "DVD menüüga seotud pealkirjad"
@@ -11254,9 +11327,6 @@ msgstr ""
 
 msgid "List available EPG functions"
 msgstr "Loetle EPG valikud."
-
-msgid "List available networks"
-msgstr "Loetle saadaolevad võrgud"
 
 msgid "List of Storage Devices"
 msgstr ""
@@ -11326,9 +11396,6 @@ msgstr ""
 
 msgid "Local information"
 msgstr ""
-
-msgid "Local network"
-msgstr "Kohalik võrk"
 
 msgid "Local or Regional"
 msgstr ""
@@ -11520,12 +11587,11 @@ msgstr "Luksemburgi"
 msgid "M2k Packages"
 msgstr ""
 
-msgid "MAC address"
+msgid "MAC Address"
 msgstr ""
 
-# NetworkSetup.py
-msgid "MAC-address"
-msgstr "MAC-aadress"
+msgid "MAC address"
+msgstr ""
 
 msgid "MENU"
 msgstr ""
@@ -11677,9 +11743,6 @@ msgstr "Käsiotsing"
 msgid "Manual Service Searching"
 msgstr "Käsitsi kanaliotsing"
 
-msgid "Manual configuration"
-msgstr "Käsitsi seadistamine"
-
 msgid "Manual scan for services"
 msgstr "Kanalite käsiotsing"
 
@@ -11757,9 +11820,6 @@ msgstr ""
 # satconfig.py
 msgid "Max memory positions"
 msgstr "Mälukohtade suurim arv"
-
-msgid "Max. bitrate: "
-msgstr "Max. bitikiirus: "
 
 msgid "Maxdown +"
 msgstr "Maks.alla +"
@@ -12073,6 +12133,9 @@ msgstr ""
 msgid "Mount"
 msgstr "Haagi"
 
+msgid "Mount Context Menu"
+msgstr ""
+
 msgid "Mount Manager"
 msgstr "Haakepunktid"
 
@@ -12082,11 +12145,20 @@ msgstr ""
 msgid "Mount Setup"
 msgstr "Haakepunktide seadistused"
 
+msgid "Mount at boot time (fstab)"
+msgstr ""
+
 #
 msgid "Mount failed"
 msgstr "Haakimine nurjus"
 
 msgid "Mount mode"
+msgstr ""
+
+msgid "Mount on first access (autofs)"
+msgstr ""
+
+msgid "Mount or unmount the selected share"
 msgstr ""
 
 msgid "Mount point"
@@ -12095,11 +12167,17 @@ msgstr ""
 msgid "Mount root file system."
 msgstr ""
 
+msgid "Mounted"
+msgstr ""
+
 msgid "Mounts"
 msgstr "Haakepunktid"
 
 msgid "Move"
 msgstr "Liiguta"
+
+msgid "Move Down"
+msgstr ""
 
 msgid "Move Left/Right"
 msgstr "Liiguta vasakule/paremale"
@@ -12118,6 +12196,9 @@ msgstr "Liiguta PiP-akent"
 
 msgid "Move PiP to main picture"
 msgstr "Liiguta PiP põhipildile"
+
+msgid "Move Up"
+msgstr ""
 
 msgid "Move Up/Down"
 msgstr "Liiguta üles/alla"
@@ -12174,6 +12255,12 @@ msgstr "Liigu viimasele reale"
 
 msgid "Move east"
 msgstr "Liiguta itta"
+
+msgid "Move item down"
+msgstr ""
+
+msgid "Move item up"
+msgstr ""
 
 msgid "Move job completed."
 msgstr ""
@@ -12287,6 +12374,12 @@ msgid "Move to previous bouquet"
 msgstr ""
 
 msgid "Move to previous marker"
+msgstr ""
+
+msgid "Move to the Adapter list"
+msgstr ""
+
+msgid "Move to the Saved Wi-Fi Networks list"
 msgstr ""
 
 msgid "Move to the first item on the current line"
@@ -12532,6 +12625,9 @@ msgstr "NFS"
 msgid "NFS Server Settings"
 msgstr "NFS seaded"
 
+msgid "NFS Setup Actions"
+msgstr ""
+
 msgid "NFS threads"
 msgstr ""
 
@@ -12580,12 +12676,6 @@ msgstr ""
 #, python-format
 msgid "Name server %d"
 msgstr ""
-
-msgid "Nameserver"
-msgstr "Nimeserver"
-
-msgid "Nameserver settings"
-msgstr "Nimeserveri seaded"
 
 msgid "Nameserver setup"
 msgstr "Nimeserveri seaded"
@@ -12654,19 +12744,14 @@ msgstr "Võrgumask"
 msgid "Network"
 msgstr "Võrk"
 
-msgid "Network Adapter Actions"
+#, python-format
+msgid "Network Adapter '%s' Settings"
 msgstr ""
 
 msgid "Network Adapter Selection"
 msgstr "Võrgukaardi valik"
 
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
 msgid "Network Adapter Settings"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
 msgstr ""
 
 # Quick Menue
@@ -12695,12 +12780,24 @@ msgstr ""
 msgid "Network Log Actions"
 msgstr ""
 
+msgid "Network Mount Manager Actions"
+msgstr ""
+
 msgid "Network Mount Settings"
+msgstr ""
+
+msgid "Network Mounts Overview"
 msgstr ""
 
 #
 msgid "Network Neighbourhood"
 msgstr "Võrgunaabrus"
+
+msgid "Network Overview"
+msgstr ""
+
+msgid "Network Overview Actions"
+msgstr ""
 
 msgid "Network Packages"
 msgstr ""
@@ -12719,27 +12816,64 @@ msgstr "Võrgu häälestamine"
 msgid "Network Setup Actions"
 msgstr ""
 
+msgid "Network Share Actions"
+msgstr ""
+
+msgid "Network Shares Browser"
+msgstr ""
+
+msgid "Network Shares Context Menu"
+msgstr ""
+
 msgid "Network Test"
 msgstr "Võrguühenduse test"
 
-msgid "Network Test:"
-msgstr "Võrgu test: "
+msgid "Network Test Actions"
+msgstr ""
+
+#, python-format
+msgid "Network Test For '%s'"
+msgstr ""
 
 msgid "Network Wi-Fi Settings"
 msgstr ""
 
-#
-msgid "Network Wizard"
-msgstr "Võrguabiline"
+msgid "Network adapter disabled."
+msgstr ""
+
+msgid "Network adapter enabled."
+msgstr ""
 
 msgid "Network adapter not connected to a network!"
+msgstr ""
+
+msgid "Network adapter setup result:"
+msgstr ""
+
+msgid "Network adapter status"
 msgstr ""
 
 msgid "Network address"
 msgstr ""
 
+#, python-format
+msgid "Network cable connected (%s)"
+msgstr ""
+
+#, python-format
+msgid "Network cable disconnected (%s)"
+msgstr ""
+
 msgid "Network configuration..."
 msgstr "Võrgu seadistamine."
+
+#, python-format
+msgid ""
+"Network connected successfully.\n"
+"\n"
+"Interface: %s\n"
+"IP address: %s"
+msgstr ""
 
 msgid "Network information"
 msgstr ""
@@ -12766,28 +12900,12 @@ msgstr "Võrguotsing"
 msgid "Network storage on"
 msgstr ""
 
-msgid "Network test"
-msgstr "Võrgu testimine"
-
 #
 msgid "Network test..."
 msgstr "Võrgu testimine."
 
-msgid ""
-"Network wizard completed.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Network-ID"
 msgstr ""
-
-msgid "Network:"
-msgstr "Võrk:"
-
-#
-msgid "NetworkWizard"
-msgstr "Võrguabiline"
 
 #
 msgid "Neutrino  (keymap.ntr)"
@@ -12822,6 +12940,9 @@ msgid "New Setting DXAndy "
 msgstr "DXAndy uus kanalinimekiri "
 
 msgid "New Storage Device"
+msgstr ""
+
+msgid "New Wi-Fi"
 msgstr ""
 
 msgid "New Zealand"
@@ -12927,15 +13048,21 @@ msgstr ""
 msgid "No (supported) DVDROM found!"
 msgstr "Toetatud DVDROM puudub!"
 
-msgid "No Connection"
-msgstr "Ühendus puudub"
-
 #, fuzzy
 msgid "No ECM PIDs available"
 msgstr "Vaba indeks puudub"
 
 msgid "No HDD found or HDD not initialized!"
 msgstr "Kõvaketas puudub või on vormindamata!"
+
+msgid "No IP address"
+msgstr ""
+
+msgid ""
+"No IP address was received.\n"
+"\n"
+"The network connection could not be established."
+msgstr ""
 
 msgid "No Internet connection"
 msgstr ""
@@ -13013,7 +13140,13 @@ msgstr "Vaba indeks puudub"
 msgid "No free tuner!"
 msgstr "Vaba tuuner puudub!"
 
+msgid "No gateway"
+msgstr ""
+
 msgid "No hard disks detected."
+msgstr ""
+
+msgid "No hosts found yet - still scanning..."
 msgstr ""
 
 msgid "No log files found so debug logs are unavailable!"
@@ -13028,8 +13161,8 @@ msgstr ""
 msgid "No network storage detected."
 msgstr ""
 
-msgid "No networks found"
-msgstr "Võrke ei leitud"
+msgid "No networks found."
+msgstr ""
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Ridade arvu muutmine (suurenda või vähenda)"
@@ -13056,6 +13189,9 @@ msgstr "Kanal puudub"
 #
 msgid "No services/providers selected"
 msgstr "Kanalit/levitajat pole valitud"
+
+msgid "No shares found."
+msgstr ""
 
 msgid "No slot images found"
 msgstr ""
@@ -13134,30 +13270,6 @@ msgstr ""
 
 msgid "No valid region details were found"
 msgstr ""
-
-msgid "No wireless networks found! Searching..."
-msgstr "Traadita võrke ei leitud! Otsitakse..."
-
-msgid ""
-"No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
-msgstr ""
-"Töötavat võrgukaarti ei leitud.\n"
-"Kontrolli, kas võrgukaabel on ühendatud ja kas võrk on õigesti seadistatud."
-
-msgid ""
-"No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
-msgstr ""
-"Töötavat traadita võrgukaarti ei leitud.\n"
-"Kontrolli, kas tuuneriga ühilduv WLAN seade on ühendatud ja kas võrk on õigesti seadistatud."
-
-msgid ""
-"No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
-msgstr ""
-"Töötavat traadita võrguliidest ei leitud.\n"
-" Kontrolli, kas tuuneriga ühilduv WLAN seade on ühendatud ja kas võrguliides on lubatud."
 
 msgid "No, but restart from begin"
 msgstr "Ei, alusta uuesti algusest"
@@ -13247,6 +13359,9 @@ msgstr "Norra"
 msgid "Not Classified"
 msgstr "Sidumata"
 
+msgid "Not Connected"
+msgstr ""
+
 msgid "Not Defined"
 msgstr "Määratlemata"
 
@@ -13293,7 +13408,13 @@ msgstr ""
 "Vaba ruumi: %sMB\n"
 "Asukoht: %s"
 
+msgid "Not found"
+msgstr ""
+
 msgid "Not joined. Press Yellow to join."
+msgstr ""
+
+msgid "Not mounted"
 msgstr ""
 
 msgid "Not required"
@@ -13741,7 +13862,22 @@ msgstr "Ava kanalinimekiri ja vali PiP-akna jaoks eelmine kanal"
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Context Menu for the selected item"
+msgstr ""
+
 msgid "Open the Image information"
+msgstr ""
+
+msgid "Open the Mount Context Menu"
+msgstr ""
+
+msgid "Open the Network Adapter Settings for the selected item"
+msgstr ""
+
+msgid "Open the Network Shares Browser"
+msgstr ""
+
+msgid "Open the Network Shares Context Menu"
 msgstr ""
 
 msgid "Open the Plugin Browser"
@@ -13781,6 +13917,9 @@ msgid "OpenViX Packages"
 msgstr ""
 
 msgid "OpenWebif picon path"
+msgstr ""
+
+msgid "Opening network adapter configuration..."
 msgstr ""
 
 msgid "Opera"
@@ -14312,6 +14451,9 @@ msgstr "Pillarbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pinging..."
+msgstr ""
+
 msgid "Pink"
 msgstr ""
 
@@ -14497,17 +14639,11 @@ msgid ""
 "Via your account on the IceTV website you can choose to receive service announcements, account reminders and promotional offers."
 msgstr ""
 
-msgid "Please follow the instructions on the TV"
-msgstr "Jälgi ekraanil olevaid juhiseid"
-
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
 msgstr "Eelnevalt valitud andmekandja ei ole kättesaadav ja selle asemel kasutatakse vaikimisi määratud kataloogi."
 
 msgid "Please open Picture in Picture first"
 msgstr "Ava esmalt PiP-aken"
-
-msgid "Please press OK to continue."
-msgstr "Jätkamiseks vajuta OK."
 
 msgid "Please press OK when ready"
 msgstr ""
@@ -14587,9 +14723,6 @@ msgstr ""
 msgid "Please wait"
 msgstr "Palun oota"
 
-msgid "Please wait for activation of your network configuration..."
-msgstr "Võrguseaded aktiveeritakse..."
-
 msgid "Please wait while LCN bouquets are created/updated..."
 msgstr ""
 
@@ -14645,17 +14778,8 @@ msgstr ""
 msgid "Please wait while we check your installed plugins..."
 msgstr "Paigaldatud pluginate uurimine."
 
-msgid "Please wait while we prepare your network interfaces..."
-msgstr "Toimub võrguliideste seadistamine."
-
-msgid "Please wait while we test your network..."
-msgstr "Toimub võrgu testimine."
-
 msgid "Please wait while your network is restarting..."
 msgstr "Oota, kuni võrk taaskäivitub."
-
-msgid "Please wait while your skin setting is restoring..."
-msgstr "Kujunduse sätete taastamine."
 
 msgid "Please wait whilst feeds state is checked."
 msgstr "Hoidlate oleku kontrollimine."
@@ -14929,9 +15053,6 @@ msgstr ""
 msgid "Press OK on your remote control to continue."
 msgstr "Jätkamiseks vajuta OK."
 
-msgid "Press OK to activate the settings."
-msgstr "Seadistuste jõustamiseks vajuta OK."
-
 msgid "Press OK to continue."
 msgstr ""
 
@@ -15052,9 +15173,6 @@ msgstr "Eelmine/järgmine lehekülg"
 
 msgid "Prevsong"
 msgstr "Prevsong"
-
-msgid "Primary DNS"
-msgstr "Esmane nimeserver"
 
 msgid "Primary DNS (IPv4)"
 msgstr ""
@@ -15424,6 +15542,12 @@ msgstr "Vanusepiirang määramata"
 msgid "Re-enter new PIN"
 msgstr "Sisesta veel kord uus PIN kood"
 
+msgid "Reachable"
+msgstr ""
+
+msgid "Read Only"
+msgstr ""
+
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Loe kasutaja andmeid oscam.conf failist"
 
@@ -15488,6 +15612,9 @@ msgid "Really shutdown now?"
 msgstr "Kas lülitada vastuvõtja välja?"
 
 msgid "Really start Kodi and stop user interface now?"
+msgstr ""
+
+msgid "Really start RetroGaming and stop the user interface now?"
 msgstr ""
 
 msgid "Really upgrade the front panel and reboot now?"
@@ -15844,6 +15971,9 @@ msgstr "Eemalda kaabelvõrgu kanalid"
 msgid "Remove Confirmation"
 msgstr "Eemaldamise kinnitamine"
 
+msgid "Remove Credentials"
+msgstr ""
+
 msgid "Remove Entry"
 msgstr "Eemalda"
 
@@ -16059,6 +16189,15 @@ msgstr "Nõutav meedia tüüp:"
 msgid "Rereading partition table"
 msgstr "Partitsioonitabeli värskendamine"
 
+msgid "Rescan"
+msgstr ""
+
+msgid "Rescan for available Wi-Fi networks"
+msgstr ""
+
+msgid "Rescan for available network shares"
+msgstr ""
+
 msgid "Reserved"
 msgstr "Varutud"
 
@@ -16122,8 +16261,14 @@ msgstr "Lahutus"
 msgid "Resolution unit"
 msgstr ""
 
+msgid "Resolving..."
+msgstr ""
+
 msgid "Restart"
 msgstr "Taaskäivitus"
+
+msgid "Restart Adapter"
+msgstr ""
 
 msgid "Restart GUI"
 msgstr "Enigma2 taaskäivitus"
@@ -16140,9 +16285,6 @@ msgstr "Kas taaskäivitada kasutajaliides?"
 #
 msgid "Restart Network"
 msgstr "Võrgu taaskäivitus"
-
-msgid "Restart Network Adapter"
-msgstr "Taaskäivita võrgukaart"
 
 msgid "Restart OSCam"
 msgstr ""
@@ -16165,8 +16307,11 @@ msgstr "Taaskäivita võrk kasutades aktiivseid seadeid"
 msgid "Restart test"
 msgstr "Taaskäivita test"
 
-msgid "Restart your network connection and interfaces."
-msgstr "Võrguühenduse ja võrgukaartide taaskäivitus."
+msgid "Restarting adapter..."
+msgstr ""
+
+msgid "Restarting saved Wi-Fi network..."
+msgstr ""
 
 msgid "Restarting..."
 msgstr ""
@@ -16177,9 +16322,6 @@ msgstr "Taasta"
 # ChannelSelection.py
 msgid "Restore Deleted User Bouquets"
 msgstr "Taasta kustutatud lemmiknimekirjad"
-
-msgid "Restore MetrixHD Settings"
-msgstr "Taasta MetrixHD sätted"
 
 msgid "Restore Plugins"
 msgstr "Taasta pluginad"
@@ -16237,6 +16379,9 @@ msgstr "Jätka alates %s"
 
 msgid "Resuming playback"
 msgstr "Taasesituse jätkamine"
+
+msgid "Retest"
+msgstr ""
 
 #, python-format
 msgid "Retrieving '%s' commit log, please wait..."
@@ -16443,9 +16588,6 @@ msgstr "Réunion"
 msgid "SABnzbd"
 msgstr "SABnzbd"
 
-msgid "SABnzbd Settings"
-msgstr "SABnzbd seaded"
-
 msgid "SAT"
 msgstr "SAT"
 
@@ -16490,6 +16632,12 @@ msgid "SINGLE LAYER DVD"
 msgstr "ÜHEKIHILINE DVD"
 
 msgid "SMB version"
+msgstr ""
+
+msgid "SMB2"
+msgstr ""
+
+msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -16705,6 +16853,26 @@ msgstr "Talleta ajanihe ja lõpeta salvestamine"
 msgid "Save time shift buffer now and continue recording"
 msgstr "Talleta ajanihe ja jätka salvestamist"
 
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Context Menu"
+msgstr ""
+
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Settings"
+msgstr ""
+
+msgid "Saved Wi-Fi Networks"
+msgstr ""
+
+msgid "Saved Wi-Fi network connection disabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network connection enabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network will be retried automatically at next boot."
+msgstr ""
+
 msgid "Saved lines in script messages"
 msgstr ""
 
@@ -16743,6 +16911,9 @@ msgstr "Otsi  %s"
 msgid "Scan %s band"
 msgstr "Otsi %s sagedusalas"
 
+msgid "Scan Wi-Fi Networks"
+msgstr ""
+
 msgid "Scan additional SR"
 msgstr "Täiendav SR otsing"
 
@@ -16758,12 +16929,6 @@ msgstr "Otsi ja paigalda IPK faile."
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr ""
-
-msgid "Scan wireless networks"
-msgstr "Traadita võrkude otsing"
-
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "Otsi oma võrgus traadita pääsupunkte ja ühendu nendega, kasutades valitud traadita seadet."
 
 msgid "Scanning"
 msgstr ""
@@ -16789,6 +16954,12 @@ msgstr[1] ""
 
 msgid "Scanning failed!"
 msgstr "Otsing nurjus!"
+
+msgid "Scanning for shares..."
+msgstr ""
+
+msgid "Scanning..."
+msgstr "Otsing"
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
 #, python-format
@@ -16901,9 +17072,6 @@ msgstr "Otsing läänest"
 
 msgid "Second cable of motorized LNB"
 msgstr "Ajamiga LNB teine kaabel"
-
-msgid "Secondary DNS"
-msgstr "Teine nimeserver"
 
 msgid "Secondary DNS (IPv4)"
 msgstr ""
@@ -17331,6 +17499,9 @@ msgstr "Vali uuenduste allikas"
 msgid "Select Upgrade Source To Edit"
 msgstr "Vali muudetav uuenduste allikas."
 
+msgid "Select Wi-Fi adapter"
+msgstr ""
+
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr ""
 
@@ -17375,6 +17546,9 @@ msgstr "Vali film"
 msgid "Select a network adapter"
 msgstr "Vali võrgukaart"
 
+msgid "Select a network interface to configure, or skip to configure the network later in system settings."
+msgstr ""
+
 msgid "Select a permanent mount point for all devices"
 msgstr ""
 
@@ -17405,9 +17579,6 @@ msgstr ""
 
 msgid "Select a tuner"
 msgstr "Vali tuuner"
-
-msgid "Select a wireless network"
-msgstr "Vali traadita võrk"
 
 msgid "Select action"
 msgstr "Vali tegevus"
@@ -17457,6 +17628,9 @@ msgstr ""
 
 msgid "Select destination for:"
 msgstr "Vali asukoht:"
+
+msgid "Select exported directories"
+msgstr ""
 
 msgid "Select files to exclude from backup"
 msgstr "Vali varukoopiast välja jäetavad failid"
@@ -17566,12 +17740,6 @@ msgstr "Vali sisendseade"
 
 msgid "Select input device."
 msgstr "Vali sisendseade."
-
-msgid "Select interface"
-msgstr "Vali liides"
-
-msgid "Select menu entry"
-msgstr ""
 
 msgid "Select movie"
 msgstr "Vali film"
@@ -17887,12 +18055,6 @@ msgstr "Vali salvestuskataloog"
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr ""
 
-msgid ""
-"Select the network interface to be used for the Internet connection.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr ""
 
@@ -18065,12 +18227,6 @@ msgstr ""
 msgid "Select the video mode to be used on the TV."
 msgstr ""
 
-msgid ""
-"Select the wireless network to which you want to connect.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
 msgstr ""
 
@@ -18164,9 +18320,6 @@ msgstr "Määra, kas ajami liikumisel näidatakse ikooni."
 
 msgid "Select which IP protocols can be used with this adapter."
 msgstr ""
-
-msgid "Select wireless network"
-msgstr "Vali traadita võrk"
 
 msgid "Select your ATSC provider."
 msgstr "Vali ATSC levitaja."
@@ -18686,6 +18839,9 @@ msgstr "Määra nupu toiming."
 msgid "Set to yes for debugging the root cause of a spinner."
 msgstr "Määra 'jah' silumiseks, et leida hangumise animatsiooni algpõhjus."
 
+msgid "Set up network"
+msgstr ""
+
 msgid "Set up tuner [TUNER]"
 msgstr ""
 
@@ -19175,9 +19331,6 @@ msgstr "Kuva VCR-SCART valik peamenüüs"
 msgid "Show Vertical EPG"
 msgstr "Vertikaalne EPG"
 
-msgid "Show WLAN status"
-msgstr "WLAN oleku näitamine"
-
 msgid "Show Web Link packages"
 msgstr ""
 
@@ -19344,9 +19497,6 @@ msgstr ""
 msgid "Show in Standby"
 msgstr "Kuva ooteseisundis"
 
-msgid "Show info"
-msgstr "Näita andmeid"
-
 # 5.1 /Plugins\Extensions\PicturePlayer
 msgid "Show info line"
 msgstr "Näita inforida"
@@ -19389,6 +19539,9 @@ msgstr "Kuva salvestised"
 
 msgid "Show multi channel EPG"
 msgstr "MultiEPG"
+
+msgid "Show network adapter connection information"
+msgstr ""
 
 msgid "Show next commit log"
 msgstr ""
@@ -19575,6 +19728,9 @@ msgstr ""
 msgid "Show the Logs Settings screen"
 msgstr ""
 
+msgid "Show the Network Information for the selected adapter"
+msgstr ""
+
 msgid "Show the OSCam information screen"
 msgstr ""
 
@@ -19658,9 +19814,6 @@ msgstr "Kuvab telepilti või infot esipaneelil."
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr "Tähista uued/vaatamata ikooniga, muidu ikooni ei näita."
 
-msgid "Shows the state of your wireless LAN connection."
-msgstr "Näitab WiFi olekut."
-
 msgid "Shows the watched status of the media."
 msgstr "Tähista vaadatud salvestised."
 
@@ -19694,14 +19847,8 @@ msgstr ""
 msgid "Signal Finder"
 msgstr "Signaalimõõdik"
 
-msgid "Signal quality"
-msgstr "Signaali kvaliteet"
-
 msgid "Signal strength"
 msgstr ""
-
-msgid "Signal: "
-msgstr "Signaal: "
 
 msgid "Signed by"
 msgstr ""
@@ -19837,6 +19984,9 @@ msgid "Skip forward (enter time)"
 msgstr "Hüppa edasi (sisesta aeg)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
+msgstr ""
+
+msgid "Skip network setup"
 msgstr ""
 
 msgid "Skip package installation, only core packages will be available"
@@ -20221,6 +20371,18 @@ msgstr ""
 msgid "Sort by"
 msgstr "Järjestamine"
 
+msgid "Sort by Hostname/IP Address"
+msgstr ""
+
+msgid "Sort by IP Address"
+msgstr ""
+
+msgid "Sort by Mount Name"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
 msgid "Sort by default"
 msgstr "Vaikejärjestus"
 
@@ -20421,9 +20583,6 @@ msgstr ""
 msgid "Start teletext"
 msgstr "Käivita teletekst"
 
-msgid "Start test"
-msgstr "Käivita test"
-
 msgid "Start the Chkroot initialization"
 msgstr ""
 
@@ -20475,6 +20634,9 @@ msgstr ""
 
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
+msgstr ""
+
+msgid "Static"
 msgstr ""
 
 msgid "Static IP / Custom"
@@ -20562,9 +20724,6 @@ msgstr "Lõpeta kanali edastus filmilisti naasmisel"
 msgid "Stop streams"
 msgstr ""
 
-msgid "Stop test"
-msgstr "Peata test"
-
 msgid "Stop testing plane after # failed transponders"
 msgstr "Peata testimine pärast # ebaõnnestunud transponderit"
 
@@ -20627,6 +20786,12 @@ msgstr "pole kirjutatav!"
 
 msgid "Store position"
 msgstr "Salvesta asukoht"
+
+msgid "Stored credentials deleted for this server."
+msgstr ""
+
+msgid "Stored credentials for this server have been deleted."
+msgstr ""
 
 msgid "Stored position"
 msgstr "Salvestatud asukoht"
@@ -21256,10 +21421,6 @@ msgstr ""
 msgid "Test mode"
 msgstr "Testpilt"
 
-#, python-format
-msgid "Test the network configuration of your %s %s."
-msgstr "Testi %s %s võrguseadeid."
-
 msgid "Test type"
 msgstr "Testi tüüp"
 
@@ -21370,18 +21531,6 @@ msgstr ""
 
 #, python-format
 msgid "The IceTV server has requested password for %s."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to be working.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to not be working!\n"
-"\n"
-"Choose what to do next."
 msgstr ""
 
 msgid ""
@@ -21543,13 +21692,6 @@ msgstr "Pildi kõrgus. Sisend skaleeritakse selle väärtuse järgi."
 msgid "The loopthrough setting is wrong."
 msgstr "Läbiviigu seadistus on vale."
 
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Võrguabiline ei ole paigaldatud! \n"
-"Paigalda see."
-
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -21623,28 +21765,12 @@ msgstr ""
 msgid "The user interface of your %s %s will be stopped to run Kodi"
 msgstr ""
 
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run RetroGaming"
+msgstr ""
+
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr "Pildi laius. Sisend skaleeritakse selle väärtuse järgi."
-
-msgid ""
-"The wireless LAN Internet connection could not be started!\n"
-"Is the wireless LAN device connected?\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid ""
-"The wireless LAN plugin code is not installed!\n"
-"\n"
-"Install it and choose what to do next."
-msgstr ""
-
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"WLAN plugin ei ole paigaldatud!\n"
-"Paigalda see."
 
 msgid "The wizard can backup your current settings. Do you want to start a backup now?"
 msgstr ""
@@ -21982,62 +22108,6 @@ msgstr "See säte sõltub kaabel-tv operaatorist ja levitajast. Õigete seadete 
 
 msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
 msgstr "See säte on ainult erandliku süsteemi jaoks. See LNB saab kõrgema prioriteedi madalama väärtusega LNB-de ees. Kõrgeima väärtusega vaba LNB on esimene valik kanalite vastuvõtuks."
-
-#
-msgid ""
-"This test checks for configured DNS.\n"
-"If you get an \"unconfirmed\" message:\n"
-"- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
-msgstr ""
-"Test kontrollib nimeserveri seadeid.\n"
-"Kui näed teadet \"kinnitamata\":\n"
-"- kontrolli üle DHCP, kaabeldus ja võrgukaardi seaded \n"
-"- kui seadistasid oma nimeserverid käsitsi, siis kontrolli üle nimeserveri seaded"
-
-#
-msgid ""
-"This test checks whether a network cable is connected to your LAN adapter.\n"
-"If you get a \"disconnected\" message:\n"
-"- verify that a network cable is attached\n"
-"- verify that the cable is not broken"
-msgstr ""
-"See test kontrollib, kas võrgukaabel on ühendatud võrgukaardiga.\n"
-"Kui näed teadet \"ühendamata\":\n"
-"- veendu, et võrgukaabel on ühendatud\n"
-"- veendu, et kaabel on terve"
-
-#
-msgid ""
-"This test checks whether a valid IP address is found for your LAN adapter.\n"
-"If you get a \"unconfirmed\" message:\n"
-"- no valid IP address was found\n"
-"- please check your DHCP, cabling and adapter setup"
-msgstr ""
-"See test kontrollib, kas võrgukaardile leiti kehtiv IP aadress.\n"
-"Kui näed teadet \"kinnitamata\":\n"
-"- kehtivat IP aadressi ei leitud\n"
-"- kontrolli DHCP ja võrgukaardi seadeid ning kaabeldust"
-
-#
-msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
-"If you get a \"disabled\" message:\n"
-" - then your LAN adapter is configured for manual IP setup\n"
-"- verify that you have entered correct IP information in the adapter setup dialog.\n"
-"If you get an \"enabled\" message:\n"
-"-verify that you have a configured and working DHCP server in your network."
-msgstr ""
-"See test kontrollib, kas võrgukaart on seatud IP aadressi määrama automaatselt DHCP abil.\n"
-"Kui näed teadet \"keelatud\":\n"
-"- siis võrgukaart on seadistatud IP käsitsi määramiseks\n"
-"- veendu, et menüüs 'Võrgukaardi seaded'. on IP andmed sisestatud korrektselt.\n"
-"Kui näed teadet \"lubatud\":\n"
-"- veendu, et võrgus on seadistatud ja töötav DHCP server."
-
-#
-msgid "This test detects your configured LAN adapter."
-msgstr "See test tuvastab seadistatud võrgukaardi."
 
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
@@ -22389,6 +22459,9 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Vaheta uue teksti sisestamine või olemasoleva teksti ülekirjutamine"
 
+msgid "Toggle picking a share by IP address or by DNS name"
+msgstr ""
+
 msgid "Toggle selection of the current tag"
 msgstr ""
 
@@ -22472,6 +22545,9 @@ msgstr ""
 
 msgid "Traditional Chinese"
 msgstr "Traditsiooniline Hiina"
+
+msgid "Transceiver"
+msgstr ""
 
 msgid "Transcode"
 msgstr "Transkodeeri"
@@ -22860,9 +22936,6 @@ msgstr ""
 msgid "Undetermined"
 msgstr "Määratlemata"
 
-msgid "Unencrypted"
-msgstr "Koodivaba"
-
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
@@ -22923,13 +22996,6 @@ msgstr "Tundmatu"
 msgid "Unknown Devices"
 msgstr ""
 
-msgid ""
-"Unknown Error creating Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-"Tundmatu viga MetrixHD loomisel.\n"
-"Ava pärast taaskäivitust laiendus MyMetrixLite ja jõusta oma sätted."
-
 msgid "Unknown Packages"
 msgstr ""
 
@@ -22975,6 +23041,9 @@ msgstr ""
 msgid "Unpublished"
 msgstr "avaldamata"
 
+msgid "Unreachable"
+msgstr ""
+
 msgid "Unscramble and record ECM"
 msgstr "Dekodeeri ja salvesta ecm"
 
@@ -22986,9 +23055,6 @@ msgstr "Dekodeeri sisenevad http vood"
 
 msgid "Unset As Startup Service"
 msgstr "Ära kasuta käivituskanalina"
-
-msgid "Unsupported"
-msgstr "Pole toetatud"
 
 msgid "Until standby/restart"
 msgstr "Ooteseisundini/taaskäivitamiseni"
@@ -23213,9 +23279,6 @@ msgstr ""
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr ""
 
-msgid "Use a gateway"
-msgstr "Lüüs lubatud"
-
 msgid "Use alternate GitHub DNS"
 msgstr ""
 
@@ -23273,9 +23336,6 @@ msgstr ""
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr "Kasuta tõstetud pinget '14 / 18V ', kui LNB lülitamisel on probleeme"
 
-msgid "Use interface"
-msgstr "Luba võrguliides"
-
 #
 msgid "Use key map *"
 msgstr "Kasuta nupuasetust *"
@@ -23288,9 +23348,6 @@ msgstr "Kasuta ametlikku kanalinumeratsiooni"
 
 msgid "Use only DNSSEC servers"
 msgstr ""
-
-msgid "Use only for Wake on WLan (WoW)"
-msgstr "Ainult Wake on WLan (WoW) tarbeks"
 
 msgid "Use only no-filter servers"
 msgstr ""
@@ -23344,9 +23401,6 @@ msgstr ""
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
 msgstr "Kasuta ekraanigraafika üles/alla liigutamiseks VASAK/PAREM nuppe"
 
-msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
-msgstr "Kasuta võrgu seadistamiseks võrguabilist. See hõlbustab võrguseadete määramist"
-
 msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select a cam"
 msgstr "Kasuta EMU paneeli emulaatori juhtimiseks. Siin saab emulaatori käivitada, peatada ja valida"
 
@@ -23364,13 +23418,6 @@ msgstr ""
 
 msgid "Use the extended List"
 msgstr "Kasuta laiendatud nimekirja"
-
-# HelpMenu
-msgid "Use the network wizard to configure selected network adapter"
-msgstr "Kasuta võrguabilist valitud võrguliidese seadistamiseks"
-
-msgid "Use the network wizard to configure your Network."
-msgstr ""
 
 msgid "Use the wizard to set up basic features"
 msgstr "Kasuta abilist põhiomaduste seadmiseks"
@@ -23449,6 +23496,12 @@ msgstr "Kasutajanimi"
 msgid "Username (httpuser)"
 msgstr "Kasutajanimi (httpuser)"
 
+msgid "Using DNS"
+msgstr ""
+
+msgid "Using IP"
+msgstr ""
+
 msgid "Using automatic address"
 msgstr ""
 
@@ -23474,9 +23527,6 @@ msgstr "Usbekistan"
 msgid "VCR Scart Settings"
 msgstr "VCR scart"
 
-msgid "VLAN connection"
-msgstr "VLAN ühendus"
-
 #, fuzzy
 msgid "VMC"
 msgstr "MAC"
@@ -23489,6 +23539,9 @@ msgstr ""
 
 msgid "VOD"
 msgstr "VOD"
+
+msgid "VPN"
+msgstr "VPN"
 
 msgid "VPS Settings"
 msgstr ""
@@ -23844,12 +23897,6 @@ msgstr ""
 msgid "WARNING:"
 msgstr ""
 
-msgid "WEP"
-msgstr "WEP"
-
-msgid "WLAN connection"
-msgstr "WLAN ühendus"
-
 msgid "WMA Pro"
 msgstr "WMA Pro"
 
@@ -23858,15 +23905,6 @@ msgstr "WMA Pro > stereo"
 
 msgid "WOL Standby"
 msgstr "WOL ooteseisundis"
-
-msgid "WPA"
-msgstr "WPA"
-
-msgid "WPA or WPA2"
-msgstr "WPA või WPA2"
-
-msgid "WPA2"
-msgstr "WPA2"
 
 msgid "WSS on 4:3"
 msgstr "WSS  4:3"
@@ -23883,6 +23921,9 @@ msgstr "Oota otsingu lõppemist..."
 
 msgid "Waiting"
 msgstr "Ootel"
+
+msgid "Waiting for IP address..."
+msgstr ""
 
 msgid "Waiting for partition"
 msgstr "Partitsiooni ootel"
@@ -23929,6 +23970,9 @@ msgid "Warning: %d feeds were unable to be reloaded!"
 msgstr ""
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
+msgstr ""
+
+msgid "Warning: No Wi-Fi adapter found!"
 msgstr ""
 
 msgid "Warning: Overrides are currently active!"
@@ -24276,9 +24320,6 @@ msgstr ""
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Kui lubatud, algab ajanihe taustal automaatselt pärast määratud aega."
 
-msgid "When enabled, use DHCP for the IP configuration."
-msgstr "Kui lubatud, määratakse IP aadress DHCP abil."
-
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
 msgstr ""
 
@@ -24342,6 +24383,28 @@ msgstr "Saadavusel"
 msgid "White"
 msgstr "Valge"
 
+msgid "Wi-Fi"
+msgstr ""
+
+msgid "Wi-Fi Activation Actions"
+msgstr ""
+
+msgid "Wi-Fi Adapter"
+msgstr ""
+
+msgid "Wi-Fi Scan Actions"
+msgstr ""
+
+#, python-format
+msgid "Wi-Fi Scan On '%s'"
+msgstr ""
+
+msgid "Wi-Fi connection"
+msgstr ""
+
+msgid "Wi-Fi link"
+msgstr ""
+
 msgid "Wide"
 msgstr "Lai"
 
@@ -24365,27 +24428,6 @@ msgstr ""
 
 msgid "Wiping storage device..."
 msgstr ""
-
-msgid "Wireless LAN"
-msgstr "Traadita kohtvõrk"
-
-msgid "Wireless network"
-msgstr "Traadita võrk"
-
-msgid "Wireless network configuration..."
-msgstr "Traadita võrgu seadistus."
-
-msgid ""
-"Wireless network connection setup.\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid "Wireless network setup"
-msgstr ""
-
-msgid "Wireless network state"
-msgstr "Traadita võrgu olek"
 
 msgid "With EXIT button"
 msgstr "EXIT nupuga"
@@ -24672,19 +24714,6 @@ msgstr "%s %s läheb WOL"
 msgid "Your %s %s is not connected to the Internet, please check your network settings and try again."
 msgstr "%s %s ei ole internetti ühendatud. Kontrolli võrgu seadeid ja ürita uuesti."
 
-#
-#, python-format
-msgid ""
-"Your %s %s is now ready to be used.\n"
-"\n"
-"Your Internet connection is working now.\n"
-"\n"
-msgstr ""
-"%s %s on kasutamiseks valmis.\n"
-"\n"
-"Internetiühendus töötab.\n"
-"\n"
-
 #, python-format
 msgid "Your %s %s is rebooting"
 msgstr "%s %s taaskäivitub"
@@ -24717,40 +24746,12 @@ msgid "Your %s %s will Restart..."
 msgstr "%s %s taaskäivitub"
 
 #, python-format
-msgid ""
-"Your %s %s will be restarted after the installation of service.\n"
-"\n"
-"Do you want to install now ?"
-msgstr ""
-"Pärast teenuse paigaldamist %s %s taaskäivitub.\n"
-"\n"
-"Kas paigaldada kohe?"
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-"%s %s taaskäivitub pärast teenuse eemaldamist\n"
-"Kas eemaldada kohe?"
-
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"Internetiühendus ei tööta!\n"
-"Otsusta, mida soovid teha edasi."
-
-#, python-format
 msgid "Your Internet connection is working (IP: %s)"
 msgstr ""
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
 msgstr "Vastuvõtjal tuvastati tarkvaraline probleem. Pärast taaskäivitust on see juhtunud %d korda.\n"
-
-msgid "Your STB will restart after pressing OK on your remote control."
-msgstr "Vastuvõtja taaskäivitub pärast puldil OK vajutamist."
 
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "See valimik ei mahu ühekihilisele plaadile, vajalik on tühi kahekihiline DVD plaat!"
@@ -24795,9 +24796,6 @@ msgid ""
 msgstr ""
 "Esipaneeli uuendamine\n"
 "See võib kesta mõne minuti"
-
-msgid "Your network configuration has been activated."
-msgstr "Võrguseadistus on aktiveeritud."
 
 msgid "Your password must have at least 5 characters."
 msgstr ""
@@ -25062,12 +25060,6 @@ msgstr "sulge jaovaade"
 msgid "config menu"
 msgstr "Seadistusmenüü"
 
-msgid "confirmed"
-msgstr "kinnitatud"
-
-msgid "connected"
-msgstr "ühendatud"
-
 msgid "copy"
 msgstr "Kopeeri "
 
@@ -25091,9 +25083,6 @@ msgstr "Kustuta lõige"
 
 msgid "disabled"
 msgstr "Keelatud"
-
-msgid "disconnected"
-msgstr "ühendamata"
 
 msgid "eMMC"
 msgstr "eMMC"
@@ -25359,9 +25348,6 @@ msgstr "kasutatud kahekihilisest kettast."
 msgid "of a SINGLE layer medium used."
 msgstr "kasutatud ühekihilisest kettast."
 
-msgid "off or wpa2 on"
-msgstr "väljas või wpa2 "
-
 msgid "offset is"
 msgstr "nihe on"
 
@@ -25572,9 +25558,6 @@ msgstr "uShare seaded"
 msgid "unavailable"
 msgstr "kättesaamatu"
 
-msgid "unconfirmed"
-msgstr "kinnitamata"
-
 msgid "unknown"
 msgstr "tundmatu"
 
@@ -25631,6 +25614,521 @@ msgstr "Jah (säilita fiidid)"
 
 msgid "®"
 msgstr ""
+
+#, python-format
+#~ msgid "%d wireless network found!"
+#~ msgid_plural "%d wireless networks found!"
+#~ msgstr[0] "Leiti %d traadita võrk!"
+#~ msgstr[1] "Leiti %d traadita võrku!"
+
+#~ msgid ""
+#~ "A second configured interface has been found.\n"
+#~ "\n"
+#~ "Do you want to disable the second network interface?"
+#~ msgstr ""
+#~ "Leiti teine võrguliides.\n"
+#~ "\n"
+#~ "Kas see tuleks keelata?"
+
+#~ msgid "Activate network adapter configuration"
+#~ msgstr "aktiveeri võrgukaardi seaded"
+
+#~ msgid "Activate network settings"
+#~ msgstr "Aktiveeri võrguseaded"
+
+#~ msgid "Activate the configured network settings."
+#~ msgstr "Jõusta määratud võrguseaded."
+
+#~ msgid "Are you sure you want to activate this network configuration?"
+#~ msgstr "Kas jõustada see võrguseadistus?"
+
+#~ msgid "Are you sure you want to restart your network interfaces?"
+#~ msgstr "Kas taaskäivitada võrguliidesed?"
+
+#~ msgid "Back"
+#~ msgstr "Tagasi"
+
+#~ msgid "Configure interface"
+#~ msgstr "Seadista võrguliides"
+
+#~ msgid "Configure the IP address."
+#~ msgstr "Määra IP aadress."
+
+#~ msgid "Configure the gateway."
+#~ msgstr "Seadista lüüs."
+
+#~ msgid "Configure the name server (DNS)."
+#~ msgstr "Seadista nimeserver (DNS)."
+
+#~ msgid "Configure the netmask."
+#~ msgstr "Seadista võrgumask."
+
+#~ msgid "Configure the network again"
+#~ msgstr "Seadista võrk uuesti"
+
+#~ msgid "Configure your Network"
+#~ msgstr "Seadista oma võrk"
+
+#~ msgid "Configure your internal LAN"
+#~ msgstr "Seadista sisemine LAN võrk"
+
+#~ msgid "Configure your wireless LAN again"
+#~ msgstr "Seadista WiFi võrk uuesti"
+
+#~ msgid "Connect to a wireless network"
+#~ msgstr "Ühenda traadita võrguga"
+
+#~ msgid "Current settings:"
+#~ msgstr "Hetke seaded:"
+
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#~ msgid "Device Settings"
+#~ msgstr "Võrgukaardi seaded"
+
+#, python-format
+#~ msgid "Edit the DNS configuration of your %s %s."
+#~ msgstr "Muuda %s %s nimeserveri seadeid."
+
+#, python-format
+#~ msgid "Edit the network configuration of your %s %s."
+#~ msgstr "Muuda %s %s võrguseadeid."
+
+#~ msgid "Enable Wake On LAN"
+#~ msgstr "WOL lubatud"
+
+#~ msgid "Encrypted: "
+#~ msgstr "Kodeeritud: "
+
+#, fuzzy
+#~ msgid "Encryption Type:"
+#~ msgstr "Kodeering:"
+
+#~ msgid "Encryption key"
+#~ msgstr "Kodeeringu võti"
+
+#~ msgid "Encryption key type"
+#~ msgstr "Kodeeringu võtme tüüp"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error creating EHD-Skin.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Viga FHD kujunduse loomisel.\n"
+#~ "Kasutatakse HD kujundust!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error creating EHD-Skin. Icon package download not available.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Viga FHD kujunduse loomisel. Ikoonide pakett ei ole saadaval.\n"
+#~ "Kasutatakse HD kujundust!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error creating EHD-Skin. Not enough flash memory free.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Viga FHD kujunduse loomisel. Vaba sisemälu napib.\n"
+#~ "Kasutatakse HD kujundust!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error creating EHD-Skin. Some EHD-Icons are missing.\n"
+#~ "Using HD-Skin!"
+#~ msgstr ""
+#~ "Viga FHD kujunduse loomisel.\n"
+#~ "Kasutatakse HD kujundust!"
+
+#~ msgid "Error creating HD-Skin. Not enough flash memory free."
+#~ msgstr "Viga HD kujunduse loomisel. Vaba sisemälu napib."
+
+#~ msgid ""
+#~ "Error creating MetrixHD-Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Viga MetrixHD loomisel.\n"
+#~ "Ava pärast taaskäivitust MyMetrixLite ja jõusta oma sätted."
+
+#~ msgid "Error, unknown Result!"
+#~ msgstr "Viga, tundmatu tulemus!"
+
+#~ msgid "Exit network adapter configuration"
+#~ msgstr "Lõpeta võrgukaardi seadistamine"
+
+# HelpMenu
+#~ msgid "Exit network interface list"
+#~ msgstr "Välju võrguliideste nimekirjast"
+
+#~ msgid "Exit network wizard"
+#~ msgstr "Välju võrgu häälestusest"
+
+#~ msgid "Extended Networksetup Plugin..."
+#~ msgstr "Täpsemad võrguseaded."
+
+#~ msgid "Extended Setup..."
+#~ msgstr "Täpsemad seaded."
+
+#~ msgid "Finished configuring your network"
+#~ msgstr "Võrgu seadistamine lõpetatud"
+
+#, fuzzy
+#~ msgid "Frequency Norm:"
+#~ msgstr "Sagedus"
+
+#~ msgid "Interface: "
+#~ msgstr "Liides: "
+
+#~ msgid "LAN adapter"
+#~ msgstr "Võrgukaart"
+
+#~ msgid "Link quality:"
+#~ msgstr "Lingi kvaliteet:"
+
+#~ msgid "Link:"
+#~ msgstr "Link:"
+
+#~ msgid "List available networks"
+#~ msgstr "Loetle saadaolevad võrgud"
+
+#~ msgid "Local network"
+#~ msgstr "Kohalik võrk"
+
+# NetworkSetup.py
+#~ msgid "MAC-address"
+#~ msgstr "MAC-aadress"
+
+#~ msgid "Manual configuration"
+#~ msgstr "Käsitsi seadistamine"
+
+#~ msgid "Max. bitrate: "
+#~ msgstr "Max. bitikiirus: "
+
+#~ msgid "Nameserver"
+#~ msgstr "Nimeserver"
+
+#~ msgid "Nameserver settings"
+#~ msgstr "Nimeserveri seaded"
+
+#~ msgid "Network Test:"
+#~ msgstr "Võrgu test: "
+
+#
+#~ msgid "Network Wizard"
+#~ msgstr "Võrguabiline"
+
+#~ msgid "Network test"
+#~ msgstr "Võrgu testimine"
+
+#~ msgid "Network:"
+#~ msgstr "Võrk:"
+
+#
+#~ msgid "NetworkWizard"
+#~ msgstr "Võrguabiline"
+
+#~ msgid "No Connection"
+#~ msgstr "Ühendus puudub"
+
+#~ msgid "No networks found"
+#~ msgstr "Võrke ei leitud"
+
+#~ msgid "No wireless networks found! Searching..."
+#~ msgstr "Traadita võrke ei leitud! Otsitakse..."
+
+#~ msgid ""
+#~ "No working local network adapter found.\n"
+#~ "Please verify that you have attached a network cable and your network is configured correctly."
+#~ msgstr ""
+#~ "Töötavat võrgukaarti ei leitud.\n"
+#~ "Kontrolli, kas võrgukaabel on ühendatud ja kas võrk on õigesti seadistatud."
+
+#~ msgid ""
+#~ "No working wireless network adapter found.\n"
+#~ "Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+#~ msgstr ""
+#~ "Töötavat traadita võrgukaarti ei leitud.\n"
+#~ "Kontrolli, kas tuuneriga ühilduv WLAN seade on ühendatud ja kas võrk on õigesti seadistatud."
+
+#~ msgid ""
+#~ "No working wireless network interface found.\n"
+#~ " Please verify that you have attached a compatible WLAN device or enable your local network interface."
+#~ msgstr ""
+#~ "Töötavat traadita võrguliidest ei leitud.\n"
+#~ " Kontrolli, kas tuuneriga ühilduv WLAN seade on ühendatud ja kas võrguliides on lubatud."
+
+#~ msgid "Please follow the instructions on the TV"
+#~ msgstr "Jälgi ekraanil olevaid juhiseid"
+
+#~ msgid "Please press OK to continue."
+#~ msgstr "Jätkamiseks vajuta OK."
+
+#~ msgid "Please wait for activation of your network configuration..."
+#~ msgstr "Võrguseaded aktiveeritakse..."
+
+#~ msgid "Please wait while we prepare your network interfaces..."
+#~ msgstr "Toimub võrguliideste seadistamine."
+
+#~ msgid "Please wait while we test your network..."
+#~ msgstr "Toimub võrgu testimine."
+
+#~ msgid "Please wait while your skin setting is restoring..."
+#~ msgstr "Kujunduse sätete taastamine."
+
+#~ msgid "Press OK to activate the settings."
+#~ msgstr "Seadistuste jõustamiseks vajuta OK."
+
+#~ msgid "Primary DNS"
+#~ msgstr "Esmane nimeserver"
+
+#~ msgid "Restart Network Adapter"
+#~ msgstr "Taaskäivita võrgukaart"
+
+#~ msgid "Restart your network connection and interfaces."
+#~ msgstr "Võrguühenduse ja võrgukaartide taaskäivitus."
+
+#~ msgid "Restore MetrixHD Settings"
+#~ msgstr "Taasta MetrixHD sätted"
+
+#~ msgid "SABnzbd Settings"
+#~ msgstr "SABnzbd seaded"
+
+#~ msgid "Scan wireless networks"
+#~ msgstr "Traadita võrkude otsing"
+
+#~ msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
+#~ msgstr "Otsi oma võrgus traadita pääsupunkte ja ühendu nendega, kasutades valitud traadita seadet."
+
+#~ msgid "Secondary DNS"
+#~ msgstr "Teine nimeserver"
+
+#~ msgid "Select a wireless network"
+#~ msgstr "Vali traadita võrk"
+
+#~ msgid "Select interface"
+#~ msgstr "Vali liides"
+
+#~ msgid "Select wireless network"
+#~ msgstr "Vali traadita võrk"
+
+#~ msgid "Show WLAN status"
+#~ msgstr "WLAN oleku näitamine"
+
+#~ msgid "Show info"
+#~ msgstr "Näita andmeid"
+
+#~ msgid "Shows the state of your wireless LAN connection."
+#~ msgstr "Näitab WiFi olekut."
+
+#~ msgid "Signal quality"
+#~ msgstr "Signaali kvaliteet"
+
+#~ msgid "Signal: "
+#~ msgstr "Signaal: "
+
+#~ msgid "Start test"
+#~ msgstr "Käivita test"
+
+#~ msgid "Stop test"
+#~ msgstr "Peata test"
+
+#, python-format
+#~ msgid "Test the network configuration of your %s %s."
+#~ msgstr "Testi %s %s võrguseadeid."
+
+#~ msgid ""
+#~ "The network wizard extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Võrguabiline ei ole paigaldatud! \n"
+#~ "Paigalda see."
+
+#~ msgid ""
+#~ "The wireless LAN plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "WLAN plugin ei ole paigaldatud!\n"
+#~ "Paigalda see."
+
+#
+#~ msgid ""
+#~ "This test checks for configured DNS.\n"
+#~ "If you get an \"unconfirmed\" message:\n"
+#~ "- please check your DHCP, cabling and adapter setup\n"
+#~ "- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+#~ msgstr ""
+#~ "Test kontrollib nimeserveri seadeid.\n"
+#~ "Kui näed teadet \"kinnitamata\":\n"
+#~ "- kontrolli üle DHCP, kaabeldus ja võrgukaardi seaded \n"
+#~ "- kui seadistasid oma nimeserverid käsitsi, siis kontrolli üle nimeserveri seaded"
+
+#
+#~ msgid ""
+#~ "This test checks whether a network cable is connected to your LAN adapter.\n"
+#~ "If you get a \"disconnected\" message:\n"
+#~ "- verify that a network cable is attached\n"
+#~ "- verify that the cable is not broken"
+#~ msgstr ""
+#~ "See test kontrollib, kas võrgukaabel on ühendatud võrgukaardiga.\n"
+#~ "Kui näed teadet \"ühendamata\":\n"
+#~ "- veendu, et võrgukaabel on ühendatud\n"
+#~ "- veendu, et kaabel on terve"
+
+#
+#~ msgid ""
+#~ "This test checks whether a valid IP address is found for your LAN adapter.\n"
+#~ "If you get a \"unconfirmed\" message:\n"
+#~ "- no valid IP address was found\n"
+#~ "- please check your DHCP, cabling and adapter setup"
+#~ msgstr ""
+#~ "See test kontrollib, kas võrgukaardile leiti kehtiv IP aadress.\n"
+#~ "Kui näed teadet \"kinnitamata\":\n"
+#~ "- kehtivat IP aadressi ei leitud\n"
+#~ "- kontrolli DHCP ja võrgukaardi seadeid ning kaabeldust"
+
+#
+#~ msgid ""
+#~ "This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
+#~ "If you get a \"disabled\" message:\n"
+#~ " - then your LAN adapter is configured for manual IP setup\n"
+#~ "- verify that you have entered correct IP information in the adapter setup dialog.\n"
+#~ "If you get an \"enabled\" message:\n"
+#~ "-verify that you have a configured and working DHCP server in your network."
+#~ msgstr ""
+#~ "See test kontrollib, kas võrgukaart on seatud IP aadressi määrama automaatselt DHCP abil.\n"
+#~ "Kui näed teadet \"keelatud\":\n"
+#~ "- siis võrgukaart on seadistatud IP käsitsi määramiseks\n"
+#~ "- veendu, et menüüs 'Võrgukaardi seaded'. on IP andmed sisestatud korrektselt.\n"
+#~ "Kui näed teadet \"lubatud\":\n"
+#~ "- veendu, et võrgus on seadistatud ja töötav DHCP server."
+
+#
+#~ msgid "This test detects your configured LAN adapter."
+#~ msgstr "See test tuvastab seadistatud võrgukaardi."
+
+#~ msgid "Unencrypted"
+#~ msgstr "Koodivaba"
+
+#~ msgid ""
+#~ "Unknown Error creating Skin.\n"
+#~ "Please check after reboot MyMetrixLite-Plugin and apply your settings."
+#~ msgstr ""
+#~ "Tundmatu viga MetrixHD loomisel.\n"
+#~ "Ava pärast taaskäivitust laiendus MyMetrixLite ja jõusta oma sätted."
+
+#~ msgid "Unsupported"
+#~ msgstr "Pole toetatud"
+
+#~ msgid "Use a gateway"
+#~ msgstr "Lüüs lubatud"
+
+#~ msgid "Use interface"
+#~ msgstr "Luba võrguliides"
+
+#~ msgid "Use only for Wake on WLan (WoW)"
+#~ msgstr "Ainult Wake on WLan (WoW) tarbeks"
+
+#~ msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
+#~ msgstr "Kasuta võrgu seadistamiseks võrguabilist. See hõlbustab võrguseadete määramist"
+
+# HelpMenu
+#~ msgid "Use the network wizard to configure selected network adapter"
+#~ msgstr "Kasuta võrguabilist valitud võrguliidese seadistamiseks"
+
+#~ msgid "VLAN connection"
+#~ msgstr "VLAN ühendus"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WLAN connection"
+#~ msgstr "WLAN ühendus"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA or WPA2"
+#~ msgstr "WPA või WPA2"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "When enabled, use DHCP for the IP configuration."
+#~ msgstr "Kui lubatud, määratakse IP aadress DHCP abil."
+
+#~ msgid "Wireless LAN"
+#~ msgstr "Traadita kohtvõrk"
+
+#~ msgid "Wireless network"
+#~ msgstr "Traadita võrk"
+
+#~ msgid "Wireless network configuration..."
+#~ msgstr "Traadita võrgu seadistus."
+
+#~ msgid "Wireless network state"
+#~ msgstr "Traadita võrgu olek"
+
+#
+#, python-format
+#~ msgid ""
+#~ "Your %s %s is now ready to be used.\n"
+#~ "\n"
+#~ "Your Internet connection is working now.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "%s %s on kasutamiseks valmis.\n"
+#~ "\n"
+#~ "Internetiühendus töötab.\n"
+#~ "\n"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the installation of service.\n"
+#~ "\n"
+#~ "Do you want to install now ?"
+#~ msgstr ""
+#~ "Pärast teenuse paigaldamist %s %s taaskäivitub.\n"
+#~ "\n"
+#~ "Kas paigaldada kohe?"
+
+#, python-format
+#~ msgid ""
+#~ "Your %s %s will be restarted after the removal of service\n"
+#~ "Do you want to remove now?"
+#~ msgstr ""
+#~ "%s %s taaskäivitub pärast teenuse eemaldamist\n"
+#~ "Kas eemaldada kohe?"
+
+#~ msgid ""
+#~ "Your Internet connection is not working!\n"
+#~ "Please choose what you want to do next."
+#~ msgstr ""
+#~ "Internetiühendus ei tööta!\n"
+#~ "Otsusta, mida soovid teha edasi."
+
+#~ msgid "Your STB will restart after pressing OK on your remote control."
+#~ msgstr "Vastuvõtja taaskäivitub pärast puldil OK vajutamist."
+
+#~ msgid "Your network configuration has been activated."
+#~ msgstr "Võrguseadistus on aktiveeritud."
+
+#~ msgid "confirmed"
+#~ msgstr "kinnitatud"
+
+#~ msgid "connected"
+#~ msgstr "ühendatud"
+
+#~ msgid "disconnected"
+#~ msgstr "ühendamata"
+
+#~ msgid "off or wpa2 on"
+#~ msgstr "väljas või wpa2 "
+
+#~ msgid "unconfirmed"
+#~ msgstr "kinnitamata"
 
 #~ msgid "Switchable tuner types:"
 #~ msgstr "Hübriidtuuneri tüübid:"
@@ -26050,9 +26548,6 @@ msgstr ""
 
 #~ msgid "SSID:"
 #~ msgstr "SSID:"
-
-#~ msgid "Scanning..."
-#~ msgstr "Otsing"
 
 #~ msgid "Servers:"
 #~ msgstr "Serverid:"
@@ -26829,9 +27324,6 @@ msgstr ""
 
 #~ msgid "Time Update in Minutes:"
 #~ msgstr "Kellaaja uuendamine (min):"
-
-#~ msgid "VPN"
-#~ msgstr "VPN"
 
 #, python-format
 #~ msgid ""

@@ -1,20 +1,23 @@
 # Persian translations for Enigma2.
 #
 # Hamed Beyrami <h.beyrami@outlook.com>, 2021.
+# openATV <openatv@gmail.com>, 2026.
+# jbleyel <jbleyel@gmx.net>, 2026.
+# Massimo Pissarello <mapi68@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 07:09+0000\n"
-"PO-Revision-Date: 2021-09-15 14:20+0000\n"
-"Last-Translator: Hamed Beyrami <h.beyrami@outlook.com>\n"
+"POT-Creation-Date: 2026-08-16 15:24+0000\n"
+"PO-Revision-Date: 2026-08-16 18:21+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 msgid ""
 "\n"
@@ -967,6 +970,11 @@ msgid_plural "%d feed catalog packages were updated."
 msgstr[0] ""
 
 #, python-format
+msgid "%d host found."
+msgid_plural "%d hosts found."
+msgstr[0] ""
+
+#, python-format
 msgid "%d jobs are running in the background!"
 msgstr ""
 
@@ -985,6 +993,11 @@ msgstr "%d دقیقه"
 #, python-format
 msgid "%d ms"
 msgstr "%d میلی ثانیه"
+
+#, python-format
+msgid "%d network found."
+msgid_plural "%d networks found."
+msgstr[0] ""
 
 #, python-format
 msgid "%d package found."
@@ -1082,11 +1095,6 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%d times"
 msgstr "زمان پایان"
-
-#, fuzzy, python-format
-msgid "%d wireless network found!"
-msgid_plural "%d wireless networks found!"
-msgstr[0] "1 شبکه بدون سیم یافت شد"
 
 msgid "%d+%b_"
 msgstr ""
@@ -1323,6 +1331,22 @@ msgstr ""
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr ""
 
+#, python-format
+msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' is listed more than once in 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' mounted."
+msgstr ""
+
+#, python-format
+msgid "'%s' unmounted."
+msgstr ""
+
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr ""
 
@@ -1421,6 +1445,9 @@ msgstr "1.2"
 msgid "10bit"
 msgstr ""
 
+msgid "10th (Lowest)"
+msgstr ""
+
 #
 #, fuzzy
 msgid "12 character"
@@ -1475,6 +1502,9 @@ msgstr ""
 msgid "18 V"
 msgstr "18 ولت"
 
+msgid "1st (Highest)"
+msgstr ""
+
 msgid "1st InfoBar timeout"
 msgstr ""
 
@@ -1483,6 +1513,9 @@ msgstr ""
 
 msgid "2"
 msgstr "2"
+
+msgid "2nd"
+msgstr ""
 
 msgid "2nd InfoBar"
 msgstr ""
@@ -1525,6 +1558,9 @@ msgstr "صدا"
 msgid "3D Surround Speaker Position"
 msgstr ""
 
+msgid "3rd"
+msgstr ""
+
 msgid "3x"
 msgstr ""
 
@@ -1543,6 +1579,9 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
+msgid "4th"
+msgstr ""
+
 msgid "4x"
 msgstr ""
 
@@ -1552,11 +1591,20 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr ""
 
+msgid "5th"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
+msgid "6th"
+msgstr ""
+
 msgid "7"
 msgstr "7"
+
+msgid "7th"
+msgstr ""
 
 msgid "8"
 msgstr "8"
@@ -1569,8 +1617,14 @@ msgstr "کاراکتر های خاص"
 msgid "8bit"
 msgstr ""
 
+msgid "8th"
+msgstr ""
+
 msgid "9"
 msgstr "9"
+
+msgid "9th"
+msgstr ""
 
 #, fuzzy
 msgid "< Alternate Skin >"
@@ -1715,15 +1769,6 @@ msgid "A required tool (%s) was not found."
 msgstr "ابزار (%s) مورد نیاز یافت نشد"
 
 msgid ""
-"A second configured interface has been found.\n"
-"\n"
-"Do you want to disable the second network interface?"
-msgstr ""
-"پیکربندی دوم برای رابط یافت شده است\n"
-"\n"
-"آیا میخواهید رابط دوم شبکه غیر فعال شود ؟"
-
-msgid ""
 "A timer failed to record!\n"
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
 msgstr ""
@@ -1854,6 +1899,11 @@ msgstr ""
 msgid "Access point"
 msgstr ""
 
+msgid ""
+"Access point not found.\n"
+"Check it is in range and the SSID is correct."
+msgstr ""
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr ""
 
@@ -1894,14 +1944,8 @@ msgstr ""
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
-msgid "Activate network adapter configuration"
-msgstr "فعال کردن پیکربندی آداپتور شبکه"
-
-msgid "Activate network settings"
-msgstr "فعال کردن تنظیمات شبکه"
-
-msgid "Activate the configured network settings."
-msgstr "فعال کردن تنظیمات شبکه پیکربندی شده."
+msgid "Activate network adapter"
+msgstr ""
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr ""
@@ -1922,6 +1966,13 @@ msgid "Active clients"
 msgstr ""
 
 msgid "Active only"
+msgstr ""
+
+msgid "Adapter"
+msgstr ""
+
+#, python-format
+msgid "Adapter '%s' Context Menu"
 msgstr ""
 
 msgid "Adapter Settings"
@@ -1967,6 +2018,9 @@ msgstr ""
 msgid "Add Marker To Bouquet"
 msgstr "اضافه کردن علامت"
 
+msgid "Add Mount Manually"
+msgstr ""
+
 msgid "Add New Quad Channel Entry"
 msgstr ""
 
@@ -1991,6 +2045,12 @@ msgstr ""
 
 msgid "Add To Parental Protection"
 msgstr "اضافه کردن به حفاظت کنترل والدین"
+
+msgid "Add Wi-Fi"
+msgstr ""
+
+msgid "Add Wi-Fi Manually"
+msgstr ""
 
 #, fuzzy
 msgid "Add Zap+RecordTimer"
@@ -2022,6 +2082,9 @@ msgstr "مراجعه به رخداد بعدی"
 
 msgid "Add a mark"
 msgstr "اضافه کردن علامت"
+
+msgid "Add a new Saved Wi-Fi Network"
+msgstr ""
 
 msgid "Add a new bouquet"
 msgstr ""
@@ -2607,10 +2670,6 @@ msgstr ""
 msgid "Are you sure to remove this entry?"
 msgstr "آیا مطمئن هستید که میخواهید از این هدایتگر خارج شوید ؟"
 
-#
-msgid "Are you sure you want to activate this network configuration?"
-msgstr "آیا مطمئن هستید که میخواهید این پیکربندی شبکه را فعال کنید ؟"
-
 msgid ""
 "Are you sure you want to delete\n"
 "the following backup:\n"
@@ -2633,9 +2692,6 @@ msgstr "آیا مطمئن هستید که میخواهید از این هدای�
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr ""
-
-msgid "Are you sure you want to restart your network interfaces?"
-msgstr "آیا مطمئن هستید که میخواهید رابط های شبکه خود را دوباره راه اندازی کنید ؟"
 
 #, python-format
 msgid ""
@@ -2743,6 +2799,9 @@ msgstr "CAIds معین"
 #, fuzzy
 msgid "Assigned services/provider:"
 msgstr "کانال ها و ارائه کننده های معین"
+
+msgid "Associated"
+msgstr ""
 
 msgid "Astra 1 19.2e"
 msgstr ""
@@ -3021,8 +3080,8 @@ msgstr ""
 msgid "BLUE switch: BLUE/BLUE long"
 msgstr ""
 
-msgid "Back"
-msgstr "بازگشت"
+msgid "BSSID"
+msgstr ""
 
 #, fuzzy
 msgid "Back USB"
@@ -3435,6 +3494,9 @@ msgstr ""
 msgid "Broadcom default"
 msgstr ""
 
+msgid "Browse"
+msgstr ""
+
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr ""
 
@@ -3493,6 +3555,9 @@ msgid "Burn to medium"
 msgstr ""
 
 msgid "Burundi"
+msgstr ""
+
+msgid "Bus"
 msgstr ""
 
 msgid "Business"
@@ -3674,6 +3739,9 @@ msgstr "کابل"
 
 msgid "Cable Scan"
 msgstr "اسکن کابلی"
+
+msgid "Cable Unplugged"
+msgstr ""
 
 msgid "Cable input"
 msgstr ""
@@ -4433,6 +4501,9 @@ msgstr "پاک سازی"
 msgid "Clear Log"
 msgstr "پاک سازی گزارش"
 
+msgid "Clear Stored Credentials"
+msgstr ""
+
 msgid "Clear before scan"
 msgstr "پاک سازی قبل از اسکن"
 
@@ -4499,6 +4570,9 @@ msgid "Close bouquet list."
 msgstr "ویرایش لیست های کانال"
 
 msgid "Close dialog"
+msgstr ""
+
+msgid "Close network test"
 msgstr ""
 
 msgid "Close screen"
@@ -4699,13 +4773,16 @@ msgstr ""
 msgid "Configuration options for the HELP screen can be found in 'MENU > Setup > Usage & User Interface > Settings'."
 msgstr ""
 
-msgid "Configure DNS (name servers)"
+msgid "Configure DNS (Dynamic Name Server)"
 msgstr ""
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr ""
 
 msgid "Configure an additional delay to improve subtitle synchronization."
+msgstr ""
+
+msgid "Configure another network adapter"
 msgstr ""
 
 msgid "Configure cable reception on this input."
@@ -4756,14 +4833,14 @@ msgstr ""
 msgid "Configure if the subtitle should switch between normal, italic, bold and bold italic."
 msgstr ""
 
-msgid "Configure interface"
-msgstr "رابط مشترک"
+msgid "Configure network adapter"
+msgstr ""
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr ""
 
 msgid ""
-"Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+"Configure or verify your DNS (Dynamic Name Server) settings by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
@@ -4780,16 +4857,7 @@ msgstr ""
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr ""
 
-msgid "Configure the IP address."
-msgstr "پیکربندی آدرس IP."
-
 msgid "Configure the IP of the fallback remote receiver."
-msgstr ""
-
-msgid ""
-"Configure the Internet connection by adjusting the values shown.\n"
-"\n"
-"When the settings are correct press OK to continue."
 msgstr ""
 
 msgid "Configure the Port of the fallback remote receiver."
@@ -4898,9 +4966,6 @@ msgstr ""
 msgid "Configure the function of the < and > buttons."
 msgstr ""
 
-msgid "Configure the gateway."
-msgstr "پیکربندی دروازه."
-
 msgid "Configure the hard disk drive to go to Standby after the specified idle time when the receiver is in Standby."
 msgstr ""
 
@@ -4930,16 +4995,6 @@ msgstr ""
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
 msgstr ""
-
-msgid "Configure the name server (DNS)."
-msgstr "پیکربندی nameserver (DNS)."
-
-msgid "Configure the netmask."
-msgstr ""
-
-#
-msgid "Configure the network again"
-msgstr "شبکه خود را دوباره پیکربندی کنید"
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr ""
@@ -4972,6 +5027,9 @@ msgid "Configure the second subtitle language."
 msgstr ""
 
 msgid "Configure the secondary EPG language."
+msgstr ""
+
+msgid "Configure the selected Wi-Fi network"
 msgstr ""
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
@@ -5075,19 +5133,8 @@ msgstr ""
 msgid "Configure your NTP server."
 msgstr "پیکربندی nameservers"
 
-msgid "Configure your Network"
-msgstr ""
-
-#
-msgid "Configure your internal LAN"
-msgstr "شبکه سیمی داخلی خود را دوباره پیکربندی کنید"
-
 msgid "Configure your network settings, and press OK to start the scan"
 msgstr "تنظیمات شبکه را پیکربندی کنید ، دکمه OK را برای شروع اسکن فشار دهید"
-
-#
-msgid "Configure your wireless LAN again"
-msgstr "شبکه بدون سیم خود را دوباره پیکربندی کنید"
 
 msgid "Configures which video output connector will be used."
 msgstr ""
@@ -5099,6 +5146,10 @@ msgid "Configuring Service"
 msgstr ""
 
 msgid "Confirm Zap"
+msgstr ""
+
+#, python-format
+msgid "Confirm the deletion of '%s'?"
 msgstr ""
 
 msgid "ConflictTimer Actions"
@@ -5121,11 +5172,13 @@ msgstr "وصل کردن"
 msgid "Connect to IceTV server every"
 msgstr "ارتباط با سرور ایمیج NFI دستگاه میسر نیست"
 
-#, fuzzy
-msgid "Connect to a wireless network"
-msgstr "وصل شدن به شبکه بدون سیم"
-
 msgid "Connect to the Internet"
+msgstr ""
+
+msgid "Connect to the selected Saved Wi-Fi Network"
+msgstr ""
+
+msgid "Connected"
 msgstr ""
 
 msgid "Connected clients"
@@ -5143,7 +5196,25 @@ msgstr "وصل شده به"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr ""
 
+msgid ""
+"Connected, but no IP address was received.\n"
+"Check the router's DHCP settings."
+msgstr ""
+
+#, python-format
+msgid ""
+"Connected.\n"
+"IP address is '%s'."
+msgstr ""
+
 msgid "Connected: "
+msgstr ""
+
+#, python-format
+msgid "Connecting To '%s'"
+msgstr ""
+
+msgid "Connecting..."
 msgstr ""
 
 msgid "Connection information"
@@ -5193,6 +5264,9 @@ msgid "Context"
 msgstr ""
 
 msgid "Continent"
+msgstr ""
+
+msgid "Continue"
 msgstr ""
 
 msgid "Continue in background"
@@ -5345,9 +5419,23 @@ msgstr ""
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr ""
 
+#, python-format
+msgid "Could not connect (status '%s')."
+msgstr ""
+
 #, fuzzy
 msgid "Could not connect to server"
 msgstr "ارتباط با سرور ایمیج NFI دستگاه میسر نیست"
+
+msgid ""
+"Could not connect.\n"
+"Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
+msgstr ""
+
+msgid ""
+"Could not connect.\n"
+"Wrong Wi-Fi password?"
+msgstr ""
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr ""
@@ -5369,6 +5457,12 @@ msgstr ""
 
 #, python-format
 msgid "Could not save configuration file %s!"
+msgstr ""
+
+msgid ""
+"Could not verify the saved Wi-Fi network.\n"
+"\n"
+"Do you want to change the settings again?"
 msgstr ""
 
 msgid "Country"
@@ -5495,6 +5589,13 @@ msgstr ""
 msgid "Creating partition"
 msgstr "ایجاد پارتیشن"
 
+msgid "Credentials"
+msgstr ""
+
+#, python-format
+msgid "Credentials for '%s'"
+msgstr ""
+
 msgid "Cree"
 msgstr ""
 
@@ -5598,9 +5699,6 @@ msgstr ""
 
 msgid "Current rotor position: unknown"
 msgstr ""
-
-msgid "Current settings:"
-msgstr "تنظیمات فعلی:"
 
 msgid "Current supplied to the LNB and positioner."
 msgstr ""
@@ -5707,9 +5805,6 @@ msgstr "D"
 msgid "DAC"
 msgstr ""
 
-msgid "DHCP"
-msgstr "DHCP"
-
 msgid "DLNA support"
 msgstr ""
 
@@ -5720,6 +5815,9 @@ msgid "DMM normal"
 msgstr ""
 
 msgid "DNS Settings"
+msgstr ""
+
+msgid "DNS Settings Actions"
 msgstr ""
 
 msgid "DNS data source"
@@ -6000,7 +6098,13 @@ msgstr ""
 msgid "Deactivate Expander"
 msgstr ""
 
+msgid "Deactivate network adapter"
+msgstr ""
+
 msgid "Deactivate the flash expander in the selected device"
+msgstr ""
+
+msgid "Deactivated"
 msgstr ""
 
 msgid "Debug"
@@ -6260,6 +6364,12 @@ msgstr ""
 msgid "Delete Line"
 msgstr ""
 
+msgid "Delete Mount"
+msgstr ""
+
+msgid "Delete Network"
+msgstr ""
+
 msgid "Delete Plugins"
 msgstr ""
 
@@ -6496,9 +6606,6 @@ msgstr ""
 msgid "Device Manager Actions"
 msgstr ""
 
-msgid "Device Settings"
-msgstr ""
-
 msgid "Device id"
 msgstr ""
 
@@ -6609,6 +6716,9 @@ msgstr ""
 msgid "Disable"
 msgstr "غیر فعال"
 
+msgid "Disable Adapter"
+msgstr ""
+
 msgid "Disable Animations"
 msgstr ""
 
@@ -6634,6 +6744,9 @@ msgstr ""
 msgid "Disable Move Mode"
 msgstr "غیر فعال کردن حالت حرکت"
 
+msgid "Disable Network"
+msgstr ""
+
 msgid "Disable Picture in Picture"
 msgstr "غیر فعال کردن تصویر در تصویر"
 
@@ -6652,6 +6765,9 @@ msgstr ""
 msgid "Disable operator profiles"
 msgstr ""
 
+msgid "Disable saved Wi-Fi network"
+msgstr ""
+
 msgid "Disable the HDD Process on VFD."
 msgstr ""
 
@@ -6668,10 +6784,10 @@ msgstr "غیر فعال شد"
 msgid "Disabled PiP.\n"
 msgstr ""
 
-msgid "Disabled or WPA/WPA2"
+msgid "Disabling Chkroot failed!"
 msgstr ""
 
-msgid "Disabling Chkroot failed!"
+msgid "Disconnected"
 msgstr ""
 
 msgid "Discussion"
@@ -7096,6 +7212,9 @@ msgstr ""
 msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr ""
 
+msgid "Driver"
+msgstr ""
+
 msgid "Driver Packages"
 msgstr ""
 
@@ -7254,6 +7373,9 @@ msgstr "ویرایش"
 msgid "Edit Alternatives"
 msgstr ""
 
+msgid "Edit Credentials"
+msgstr ""
+
 #, fuzzy
 msgid "Edit Mode Off"
 msgstr "ویرایش عنوان"
@@ -7278,6 +7400,9 @@ msgstr ""
 msgid "Edit Upgrade Source URL"
 msgstr ""
 
+msgid "Edit Username/Password Credentials"
+msgstr ""
+
 msgid "Edit chapters of current title"
 msgstr "ویرایش فصل های عنوان فعلی"
 
@@ -7288,25 +7413,20 @@ msgstr "ویرایش فصل های عنوان فعلی"
 msgid "Edit settings"
 msgstr "ویرایش تنظیمات"
 
+msgid "Edit stored username/password credentials for the selected host"
+msgstr ""
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
 msgid "Edit the CCcam/NewCamd server port."
 msgstr ""
 
-#, fuzzy, python-format
-msgid "Edit the DNS configuration of your %s %s."
-msgstr "ویرایش پیکربندی نام سرور دستگاه شما"
-
 msgid "Edit the NewCamd DES Key."
 msgstr ""
 
 msgid "Edit the currently selected timer"
 msgstr ""
-
-#, fuzzy, python-format
-msgid "Edit the network configuration of your %s %s."
-msgstr "ویرایش پیکربندی شبکه دستگاه شما"
 
 msgid "Edit the password."
 msgstr ""
@@ -7318,6 +7438,9 @@ msgid "Edit the remote CCCam port."
 msgstr ""
 
 msgid "Edit the remote IP address."
+msgstr ""
+
+msgid "Edit the selected network mount"
 msgstr ""
 
 #
@@ -7421,9 +7544,6 @@ msgstr ""
 msgid "Enable GStreamer pipeline graphs *"
 msgstr ""
 
-msgid "Enable IPv6"
-msgstr ""
-
 #, fuzzy
 msgid "Enable IceTV"
 msgstr "فعال کردن EIT EPG"
@@ -7478,7 +7598,7 @@ msgstr "فعال کردن ViaSat EPG"
 msgid "Enable Virgin EPG"
 msgstr ""
 
-msgid "Enable Wake On LAN"
+msgid "Enable adapter"
 msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
@@ -7557,6 +7677,9 @@ msgstr ""
 msgid "Enable multiple bouquets"
 msgstr "فعال کردن چندین لیست"
 
+msgid "Enable network"
+msgstr ""
+
 msgid "Enable network traffic check"
 msgstr ""
 
@@ -7577,6 +7700,9 @@ msgid "Enable preview"
 msgstr "فعال کردن freesat EPG"
 
 msgid "Enable remote receiver to be tried to tune into services that can't be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner). Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_receiver:8001."
+msgstr ""
+
+msgid "Enable saved Wi-Fi network"
 msgstr ""
 
 msgid "Enable teletext caching"
@@ -7678,21 +7804,8 @@ msgstr "فعال شد"
 msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
 msgstr ""
 
-msgid "Encrypted: "
-msgstr "رمزگذاری شده:"
-
 msgid "Encryption"
 msgstr "رمزگذاری"
-
-#, fuzzy
-msgid "Encryption Type:"
-msgstr "رمزگذاری"
-
-msgid "Encryption key"
-msgstr "کلید رمزگذاری"
-
-msgid "Encryption key type"
-msgstr "نوع کد رمزگذاری"
 
 msgid "End"
 msgstr ""
@@ -7857,6 +7970,9 @@ msgid "Enter the local directory name to be used as the local mount for the remo
 msgstr ""
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
+msgid "Enter the network hostname to be used to identify this receiver."
 msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
@@ -8057,34 +8173,6 @@ msgstr ""
 msgid "Error code"
 msgstr "کد خطا"
 
-msgid ""
-"Error creating EHD-Skin.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Icon package download not available.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Not enough flash memory free.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Some EHD-Icons are missing.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid "Error creating HD-Skin. Not enough flash memory free."
-msgstr ""
-
-msgid ""
-"Error creating MetrixHD-Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-
 #, python-format
 msgid "Error downloading image '%s'!"
 msgstr ""
@@ -8129,9 +8217,6 @@ msgstr ""
 msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr ""
 
-msgid "Error, unknown Result!"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error: %s\n"
@@ -8142,6 +8227,9 @@ msgstr ""
 
 msgid "Error: An empty filename is illegal!"
 msgstr "بدون نام بودن برای یک فایل غیر مجاز است"
+
+msgid "Error: Both 'server' and 'remote path' are required!"
+msgstr ""
 
 msgid "Error: Cannot find any images!"
 msgstr ""
@@ -8195,12 +8283,19 @@ msgid "Error: It is not possible to run '%s' on '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Mounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
 msgstr ""
 
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "حذف پوشه %s ناموفق بود (شاید پوشه خالی نیست)"
+
+msgid "Error: Rescan failed!"
+msgstr ""
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8251,6 +8346,10 @@ msgid "Error: Unable to write log file '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unmounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -8275,6 +8374,9 @@ msgstr "استونیایی"
 #, fuzzy
 msgid "EtPortal"
 msgstr "پرتغالی"
+
+msgid "Ethernet Adapter"
+msgstr ""
 
 msgid "Ethernet network interface"
 msgstr "رابط شبکه Ethernet"
@@ -8408,20 +8510,6 @@ msgstr ""
 msgid "Exit movie player?"
 msgstr "خروج از پخش کننده"
 
-msgid "Exit network adapter configuration"
-msgstr "خروج از پیکربندی آداپتور شبکه"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Exit network interface list"
-msgstr "خروج از لیست رابط شبکه "
-
-msgid "Exit network wizard"
-msgstr "خروج از هدایتگر شبکه"
-
 msgid "Exit picture viewer"
 msgstr ""
 
@@ -8438,6 +8526,9 @@ msgid "Exit without performing a backup"
 msgstr ""
 
 msgid "Expand"
+msgstr ""
+
+msgid "Expand/collapse the selected host, or use the selected share"
 msgstr ""
 
 msgid "Experimental film/video"
@@ -8457,6 +8548,9 @@ msgstr "تخصصی"
 msgid "Expert mode"
 msgstr "تخصصی"
 
+msgid "Exports"
+msgstr ""
+
 msgid "Exposure bias"
 msgstr ""
 
@@ -8474,12 +8568,6 @@ msgstr ""
 
 msgid "Extended"
 msgstr ""
-
-msgid "Extended Networksetup Plugin..."
-msgstr "پلاگین تنظیمات شبکه تمدید شده"
-
-msgid "Extended Setup..."
-msgstr "تنظیمات تمدید شده"
 
 msgid "Extended Shares"
 msgstr ""
@@ -8939,9 +9027,6 @@ msgstr "تیون خوب"
 msgid "Finished"
 msgstr "پایان یافت"
 
-msgid "Finished configuring your network"
-msgstr "پیکربندی شبکه شما پایان یافت"
-
 msgid "Finland"
 msgstr ""
 
@@ -9045,13 +9130,13 @@ msgstr ""
 msgid "Flat by position on remote"
 msgstr "موقعیت مداری"
 
+msgid "Flush Cache and Rescan"
+msgstr ""
+
 msgid "Folk and Country"
 msgstr ""
 
 msgid "Folk/Traditional music"
-msgstr ""
-
-msgid "Follow instructions on TV"
 msgstr ""
 
 #, fuzzy
@@ -9166,10 +9251,6 @@ msgid "French Southern Territories"
 msgstr ""
 
 msgid "Frequency"
-msgstr "فرکانس"
-
-#, fuzzy
-msgid "Frequency Norm:"
 msgstr "فرکانس"
 
 msgid "Frequency bands"
@@ -10004,6 +10085,9 @@ msgstr ""
 msgid "IP"
 msgstr ""
 
+msgid "IP Address"
+msgstr ""
+
 msgid "IP Address 1"
 msgstr ""
 
@@ -10036,6 +10120,9 @@ msgid "IP protocol"
 msgstr ""
 
 msgid "IPK Installer"
+msgstr ""
+
+msgid "IPv4 and IPv6"
 msgstr ""
 
 msgid "IPv4 only"
@@ -10616,9 +10703,6 @@ msgstr ""
 msgid "Interface '%s'"
 msgstr ""
 
-msgid "Interface: "
-msgstr "رابط:"
-
 #, fuzzy
 msgid "Interlaced"
 msgstr "رابط:"
@@ -10990,11 +11074,11 @@ msgstr ""
 msgid "LAN"
 msgstr "LNB"
 
-msgid "LAN adapter"
-msgstr "LAN آداپتور"
-
 msgid "LAN connection"
 msgstr "ارتباط LAN"
+
+msgid "LAN link"
+msgstr ""
 
 msgid "LCD scroll speed"
 msgstr ""
@@ -11205,6 +11289,9 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr ""
 
+msgid "Legacy (SMB1)"
+msgstr ""
+
 msgid "Legacy mode"
 msgstr ""
 
@@ -11299,18 +11386,11 @@ msgstr ""
 msgid "Link detected"
 msgstr ""
 
-#
-msgid "Link quality:"
-msgstr "کیفیت لینک:"
-
 msgid "Link speed"
 msgstr ""
 
 msgid "Link target"
 msgstr ""
-
-msgid "Link:"
-msgstr "لینک"
 
 msgid "Linked titles with a DVD menu"
 msgstr "عناوین لینک شده همراه یک منوی DVD"
@@ -11323,9 +11403,6 @@ msgstr ""
 
 msgid "List available EPG functions"
 msgstr ""
-
-msgid "List available networks"
-msgstr "لیست شبکه های در دسترس"
 
 msgid "List of Storage Devices"
 msgstr ""
@@ -11392,10 +11469,6 @@ msgstr ""
 
 msgid "Local information"
 msgstr ""
-
-#, fuzzy
-msgid "Local network"
-msgstr "شبکه محلی"
 
 msgid "Local or Regional"
 msgstr ""
@@ -11581,12 +11654,11 @@ msgstr ""
 msgid "M2k Packages"
 msgstr ""
 
-msgid "MAC address"
+msgid "MAC Address"
 msgstr ""
 
-#, fuzzy
-msgid "MAC-address"
-msgstr "IP آدرس"
+msgid "MAC address"
+msgstr ""
 
 msgid "MENU"
 msgstr ""
@@ -11732,9 +11804,6 @@ msgstr "اسکن دستی"
 msgid "Manual Service Searching"
 msgstr "اسکن دستی"
 
-msgid "Manual configuration"
-msgstr "پیکربندی دستی"
-
 msgid "Manual scan for services"
 msgstr ""
 
@@ -11810,10 +11879,6 @@ msgstr ""
 
 msgid "Max memory positions"
 msgstr ""
-
-#, fuzzy
-msgid "Max. bitrate: "
-msgstr "میزان ارسال"
 
 msgid "Maxdown +"
 msgstr ""
@@ -12123,6 +12188,9 @@ msgstr ""
 msgid "Mount"
 msgstr ""
 
+msgid "Mount Context Menu"
+msgstr ""
+
 msgid "Mount Manager"
 msgstr ""
 
@@ -12132,10 +12200,19 @@ msgstr ""
 msgid "Mount Setup"
 msgstr ""
 
+msgid "Mount at boot time (fstab)"
+msgstr ""
+
 msgid "Mount failed"
 msgstr ""
 
 msgid "Mount mode"
+msgstr ""
+
+msgid "Mount on first access (autofs)"
+msgstr ""
+
+msgid "Mount or unmount the selected share"
 msgstr ""
 
 msgid "Mount point"
@@ -12144,11 +12221,17 @@ msgstr ""
 msgid "Mount root file system."
 msgstr ""
 
+msgid "Mounted"
+msgstr ""
+
 msgid "Mounts"
 msgstr ""
 
 msgid "Move"
 msgstr "جابجایی"
+
+msgid "Move Down"
+msgstr ""
 
 msgid "Move Left/Right"
 msgstr ""
@@ -12170,6 +12253,9 @@ msgstr ""
 #, fuzzy
 msgid "Move PiP to main picture"
 msgstr "انتقال تصویر در تصویر به تصویر اصلی"
+
+msgid "Move Up"
+msgstr ""
 
 msgid "Move Up/Down"
 msgstr ""
@@ -12228,6 +12314,12 @@ msgstr "حرکت به پایین تا آخرین مورد"
 
 msgid "Move east"
 msgstr "جابجایی به شرق"
+
+msgid "Move item down"
+msgstr ""
+
+msgid "Move item up"
+msgstr ""
 
 msgid "Move job completed."
 msgstr ""
@@ -12333,6 +12425,12 @@ msgid "Move to previous bouquet"
 msgstr ""
 
 msgid "Move to previous marker"
+msgstr ""
+
+msgid "Move to the Adapter list"
+msgstr ""
+
+msgid "Move to the Saved Wi-Fi Networks list"
 msgstr ""
 
 msgid "Move to the first item on the current line"
@@ -12583,6 +12681,9 @@ msgstr ""
 msgid "NFS Server Settings"
 msgstr ""
 
+msgid "NFS Setup Actions"
+msgstr ""
+
 msgid "NFS threads"
 msgstr ""
 
@@ -12631,12 +12732,6 @@ msgstr ""
 #, python-format
 msgid "Name server %d"
 msgstr ""
-
-msgid "Nameserver"
-msgstr "Nameserver"
-
-msgid "Nameserver settings"
-msgstr "Nameserver تنظیمات"
 
 msgid "Nameserver setup"
 msgstr "Nameserver تنظیمات"
@@ -12702,19 +12797,14 @@ msgstr "Netmask"
 msgid "Network"
 msgstr "شبکه"
 
-msgid "Network Adapter Actions"
+#, python-format
+msgid "Network Adapter '%s' Settings"
 msgstr ""
 
 msgid "Network Adapter Selection"
 msgstr ""
 
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
 msgid "Network Adapter Settings"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
 msgstr ""
 
 msgid "Network Browser"
@@ -12741,10 +12831,22 @@ msgstr ""
 msgid "Network Log Actions"
 msgstr ""
 
+msgid "Network Mount Manager Actions"
+msgstr ""
+
 msgid "Network Mount Settings"
 msgstr ""
 
+msgid "Network Mounts Overview"
+msgstr ""
+
 msgid "Network Neighbourhood"
+msgstr ""
+
+msgid "Network Overview"
+msgstr ""
+
+msgid "Network Overview Actions"
 msgstr ""
 
 msgid "Network Packages"
@@ -12762,26 +12864,64 @@ msgstr "تنظیمات شبکه"
 msgid "Network Setup Actions"
 msgstr ""
 
+msgid "Network Share Actions"
+msgstr ""
+
+msgid "Network Shares Browser"
+msgstr ""
+
+msgid "Network Shares Context Menu"
+msgstr ""
+
 msgid "Network Test"
 msgstr ""
 
-msgid "Network Test:"
-msgstr "تست شبکه:"
+msgid "Network Test Actions"
+msgstr ""
+
+#, python-format
+msgid "Network Test For '%s'"
+msgstr ""
 
 msgid "Network Wi-Fi Settings"
 msgstr ""
 
-msgid "Network Wizard"
+msgid "Network adapter disabled."
+msgstr ""
+
+msgid "Network adapter enabled."
 msgstr ""
 
 msgid "Network adapter not connected to a network!"
 msgstr ""
 
+msgid "Network adapter setup result:"
+msgstr ""
+
+msgid "Network adapter status"
+msgstr ""
+
 msgid "Network address"
+msgstr ""
+
+#, python-format
+msgid "Network cable connected (%s)"
+msgstr ""
+
+#, python-format
+msgid "Network cable disconnected (%s)"
 msgstr ""
 
 msgid "Network configuration..."
 msgstr "پیکربندی شبکه..."
+
+#, python-format
+msgid ""
+"Network connected successfully.\n"
+"\n"
+"Interface: %s\n"
+"IP address: %s"
+msgstr ""
 
 msgid "Network information"
 msgstr ""
@@ -12810,25 +12950,10 @@ msgstr "اسکن شبکه"
 msgid "Network storage on"
 msgstr ""
 
-msgid "Network test"
-msgstr "تست شبکه"
-
 msgid "Network test..."
 msgstr "تست شبکه..."
 
-msgid ""
-"Network wizard completed.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Network-ID"
-msgstr ""
-
-msgid "Network:"
-msgstr "شبکه:"
-
-msgid "NetworkWizard"
 msgstr ""
 
 msgid "Neutrino  (keymap.ntr)"
@@ -12863,6 +12988,9 @@ msgid "New Setting DXAndy "
 msgstr ""
 
 msgid "New Storage Device"
+msgstr ""
+
+msgid "New Wi-Fi"
 msgstr ""
 
 msgid "New Zealand"
@@ -12970,9 +13098,6 @@ msgstr ""
 msgid "No (supported) DVDROM found!"
 msgstr "هیچ DVDROM قابل پشتیبانی یافت نشد"
 
-msgid "No Connection"
-msgstr "ارتباطی وجود ندارد"
-
 #
 #, fuzzy
 msgid "No ECM PIDs available"
@@ -12980,6 +13105,15 @@ msgstr "هیچ توضیحی در دسترس نیست"
 
 msgid "No HDD found or HDD not initialized!"
 msgstr "هارد پیدا نشد و یا هارد مقدار دهی اولیه نشده است"
+
+msgid "No IP address"
+msgstr ""
+
+msgid ""
+"No IP address was received.\n"
+"\n"
+"The network connection could not be established."
+msgstr ""
 
 msgid "No Internet connection"
 msgstr ""
@@ -13060,7 +13194,13 @@ msgstr "هیچ توضیحی در دسترس نیست"
 msgid "No free tuner!"
 msgstr "تیونر آزاد وجود ندارد"
 
+msgid "No gateway"
+msgstr ""
+
 msgid "No hard disks detected."
+msgstr ""
+
+msgid "No hosts found yet - still scanning..."
 msgstr ""
 
 msgid "No log files found so debug logs are unavailable!"
@@ -13076,8 +13216,8 @@ msgstr ""
 msgid "No network storage detected."
 msgstr ""
 
-msgid "No networks found"
-msgstr "هیچ شبکه ای یافت نشد"
+msgid "No networks found."
+msgstr ""
 
 msgid "No of items switch (increase or reduced)"
 msgstr ""
@@ -13105,6 +13245,9 @@ msgstr "اضافه کردن کانال"
 #, fuzzy
 msgid "No services/providers selected"
 msgstr "هیچ کانال و یا ارائه کننده ای انتخاب نشده است"
+
+msgid "No shares found."
+msgstr ""
 
 msgid "No slot images found"
 msgstr ""
@@ -13181,27 +13324,6 @@ msgid "No valid mount for '%s' found!"
 msgstr ""
 
 msgid "No valid region details were found"
-msgstr ""
-
-msgid "No wireless networks found! Searching..."
-msgstr "هیچ شبکه بدون سیمی یافت نشد ، در حال جستجو"
-
-#
-msgid ""
-"No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
-msgstr ""
-
-#
-msgid ""
-"No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
-msgstr ""
-
-#
-msgid ""
-"No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
 msgstr ""
 
 msgid "No, but restart from begin"
@@ -13292,6 +13414,9 @@ msgstr "نروژی"
 msgid "Not Classified"
 msgstr ""
 
+msgid "Not Connected"
+msgstr ""
+
 msgid "Not Defined"
 msgstr ""
 
@@ -13334,7 +13459,13 @@ msgid ""
 "Path: %s"
 msgstr ""
 
+msgid "Not found"
+msgstr ""
+
 msgid "Not joined. Press Yellow to join."
+msgstr ""
+
+msgid "Not mounted"
 msgstr ""
 
 msgid "Not required"
@@ -13779,7 +13910,22 @@ msgstr ""
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Context Menu for the selected item"
+msgstr ""
+
 msgid "Open the Image information"
+msgstr ""
+
+msgid "Open the Mount Context Menu"
+msgstr ""
+
+msgid "Open the Network Adapter Settings for the selected item"
+msgstr ""
+
+msgid "Open the Network Shares Browser"
+msgstr ""
+
+msgid "Open the Network Shares Context Menu"
 msgstr ""
 
 msgid "Open the Plugin Browser"
@@ -13819,6 +13965,9 @@ msgid "OpenViX Packages"
 msgstr ""
 
 msgid "OpenWebif picon path"
+msgstr ""
+
+msgid "Opening network adapter configuration..."
 msgstr ""
 
 msgid "Opera"
@@ -14344,6 +14493,9 @@ msgstr "Pillarbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pinging..."
+msgstr ""
+
 msgid "Pink"
 msgstr ""
 
@@ -14533,17 +14685,11 @@ msgid ""
 "Via your account on the IceTV website you can choose to receive service announcements, account reminders and promotional offers."
 msgstr ""
 
-msgid "Please follow the instructions on the TV"
-msgstr "لطفا دستورالعمل هایی که در تلوزیون مشاهده میکنید را دنبال کنید"
-
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
 msgstr ""
 
 msgid "Please open Picture in Picture first"
 msgstr ""
-
-msgid "Please press OK to continue."
-msgstr "لطفا دکمه OK را برای ادامه دادن فشار دهید"
 
 msgid "Please press OK when ready"
 msgstr ""
@@ -14619,10 +14765,6 @@ msgstr ""
 msgid "Please wait"
 msgstr "لطفا صبر کنید"
 
-#
-msgid "Please wait for activation of your network configuration..."
-msgstr "لطفا صبر کنید تا پیکربندی شبکه شما فعال شود"
-
 msgid "Please wait while LCN bouquets are created/updated..."
 msgstr ""
 
@@ -14677,19 +14819,8 @@ msgstr ""
 msgid "Please wait while we check your installed plugins..."
 msgstr ""
 
-#
-msgid "Please wait while we prepare your network interfaces..."
-msgstr "لطفا صبر کنید تا رابط های شبکه شما آماده شوند"
-
-#
-msgid "Please wait while we test your network..."
-msgstr "لطفا صبر کنید تا شبکه شما تست شود"
-
 msgid "Please wait while your network is restarting..."
 msgstr "راه اندازی دوباره شبکه شما ، لطفا صبر کنید"
-
-msgid "Please wait while your skin setting is restoring..."
-msgstr ""
 
 msgid "Please wait whilst feeds state is checked."
 msgstr ""
@@ -14968,9 +15099,6 @@ msgstr ""
 msgid "Press OK on your remote control to continue."
 msgstr "دکمه OK را برای ادامه دادن فشار دهید"
 
-msgid "Press OK to activate the settings."
-msgstr "دکمه OK را برای فعال کردن تنظیمات فشار دهید"
-
 msgid "Press OK to continue."
 msgstr ""
 
@@ -15090,9 +15218,6 @@ msgstr ""
 
 msgid "Prevsong"
 msgstr ""
-
-msgid "Primary DNS"
-msgstr "DNS اول"
 
 msgid "Primary DNS (IPv4)"
 msgstr ""
@@ -15470,6 +15595,12 @@ msgstr ""
 msgid "Re-enter new PIN"
 msgstr ""
 
+msgid "Reachable"
+msgstr ""
+
+msgid "Read Only"
+msgstr ""
+
 msgid "Read Userdata from 'oscam.conf'"
 msgstr ""
 
@@ -15533,6 +15664,9 @@ msgid "Really shutdown now?"
 msgstr "خاموش کردن هم اکنون؟"
 
 msgid "Really start Kodi and stop user interface now?"
+msgstr ""
+
+msgid "Really start RetroGaming and stop the user interface now?"
 msgstr ""
 
 msgid "Really upgrade the front panel and reboot now?"
@@ -15887,6 +16021,9 @@ msgstr ""
 msgid "Remove Confirmation"
 msgstr "پیکربندی تیونر"
 
+msgid "Remove Credentials"
+msgstr ""
+
 msgid "Remove Entry"
 msgstr "حذف مورد"
 
@@ -16107,6 +16244,15 @@ msgstr "نوع رسانه مورد نیاز:"
 msgid "Rereading partition table"
 msgstr ""
 
+msgid "Rescan"
+msgstr ""
+
+msgid "Rescan for available Wi-Fi networks"
+msgstr ""
+
+msgid "Rescan for available network shares"
+msgstr ""
+
 msgid "Reserved"
 msgstr ""
 
@@ -16172,8 +16318,14 @@ msgstr "تفکیک پذیری و دقت"
 msgid "Resolution unit"
 msgstr ""
 
+msgid "Resolving..."
+msgstr ""
+
 msgid "Restart"
 msgstr "راه اندازی دوباره"
+
+msgid "Restart Adapter"
+msgstr ""
 
 #, fuzzy
 msgid "Restart GUI"
@@ -16189,9 +16341,6 @@ msgid "Restart GUI now?"
 msgstr "راه اندازی مجدد رابط گرافیک کاربری؟"
 
 msgid "Restart Network"
-msgstr ""
-
-msgid "Restart Network Adapter"
 msgstr ""
 
 msgid "Restart OSCam"
@@ -16216,8 +16365,11 @@ msgstr ""
 msgid "Restart test"
 msgstr "راه اندازی دوباره تست"
 
-msgid "Restart your network connection and interfaces."
-msgstr "راه اندازی دوباره ارتباط شبکه شما و رابط های آن"
+msgid "Restarting adapter..."
+msgstr ""
+
+msgid "Restarting saved Wi-Fi network..."
+msgstr ""
 
 msgid "Restarting..."
 msgstr ""
@@ -16226,9 +16378,6 @@ msgid "Restore"
 msgstr "بازگردانی"
 
 msgid "Restore Deleted User Bouquets"
-msgstr ""
-
-msgid "Restore MetrixHD Settings"
 msgstr ""
 
 msgid "Restore Plugins"
@@ -16288,6 +16437,9 @@ msgstr "ادامه دادن مکان در %s"
 
 msgid "Resuming playback"
 msgstr "ادامه پخش"
+
+msgid "Retest"
+msgstr ""
 
 #, python-format
 msgid "Retrieving '%s' commit log, please wait..."
@@ -16493,9 +16645,6 @@ msgstr ""
 msgid "SABnzbd"
 msgstr ""
 
-msgid "SABnzbd Settings"
-msgstr ""
-
 msgid "SAT"
 msgstr ""
 
@@ -16541,6 +16690,12 @@ msgid "SINGLE LAYER DVD"
 msgstr "DVD یک لایه ای"
 
 msgid "SMB version"
+msgstr ""
+
+msgid "SMB2"
+msgstr ""
+
+msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -16757,6 +16912,26 @@ msgstr ""
 msgid "Save time shift buffer now and continue recording"
 msgstr ""
 
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Context Menu"
+msgstr ""
+
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Settings"
+msgstr ""
+
+msgid "Saved Wi-Fi Networks"
+msgstr ""
+
+msgid "Saved Wi-Fi network connection disabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network connection enabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network will be retried automatically at next boot."
+msgstr ""
+
 msgid "Saved lines in script messages"
 msgstr ""
 
@@ -16795,6 +16970,9 @@ msgstr ""
 msgid "Scan %s band"
 msgstr ""
 
+msgid "Scan Wi-Fi Networks"
+msgstr ""
+
 msgid "Scan additional SR"
 msgstr ""
 
@@ -16811,13 +16989,6 @@ msgstr "اسکن برای بسته های محلی و نصب آنها"
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr ""
-
-#, fuzzy
-msgid "Scan wireless networks"
-msgstr "اسکن شبکه های بدون سیم"
-
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
-msgstr "اسکن شبکه شما برای نقاط دسترسی بدون سیم و اتصال به آنها با استفاده از وسیله بدون سیم انتخاب شده توسط شما"
 
 msgid "Scanning"
 msgstr ""
@@ -16841,6 +17012,12 @@ msgstr[0] ""
 
 msgid "Scanning failed!"
 msgstr "اسکن ناموفق"
+
+msgid "Scanning for shares..."
+msgstr ""
+
+msgid "Scanning..."
+msgstr "در حال اسکن"
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
 #, python-format
@@ -16953,9 +17130,6 @@ msgstr "جستجوی غرب"
 
 msgid "Second cable of motorized LNB"
 msgstr ""
-
-msgid "Secondary DNS"
-msgstr "DNS دوم"
 
 msgid "Secondary DNS (IPv4)"
 msgstr ""
@@ -17380,6 +17554,9 @@ msgstr "انتخاب منبع به روز رسانی برای ویرایش"
 msgid "Select Upgrade Source To Edit"
 msgstr "انتخاب منبع به روز رسانی برای ویرایش"
 
+msgid "Select Wi-Fi adapter"
+msgstr ""
+
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr ""
 
@@ -17423,6 +17600,9 @@ msgstr "انتخاب فیلم"
 msgid "Select a network adapter"
 msgstr "انتخاب آداپتور شبکه"
 
+msgid "Select a network interface to configure, or skip to configure the network later in system settings."
+msgstr ""
+
 msgid "Select a permanent mount point for all devices"
 msgstr ""
 
@@ -17452,10 +17632,6 @@ msgstr ""
 
 msgid "Select a tuner"
 msgstr "انتخاب تیونر"
-
-#, fuzzy
-msgid "Select a wireless network"
-msgstr "انتخاب شبکه بدون سیم"
 
 #, fuzzy
 msgid "Select action"
@@ -17507,6 +17683,9 @@ msgstr ""
 
 msgid "Select destination for:"
 msgstr "انتخاب مقصد برای:"
+
+msgid "Select exported directories"
+msgstr ""
 
 msgid "Select files to exclude from backup"
 msgstr ""
@@ -17616,12 +17795,6 @@ msgstr "انتخاب وسیله ورودی"
 
 msgid "Select input device."
 msgstr "انتخاب وسیله ورودی"
-
-msgid "Select interface"
-msgstr "انتخاب رابط"
-
-msgid "Select menu entry"
-msgstr ""
 
 #, fuzzy
 msgid "Select movie"
@@ -17937,12 +18110,6 @@ msgstr "انتخاب مسیر فیلم"
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr ""
 
-msgid ""
-"Select the network interface to be used for the Internet connection.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr ""
 
@@ -18114,12 +18281,6 @@ msgstr ""
 msgid "Select the video mode to be used on the TV."
 msgstr ""
 
-msgid ""
-"Select the wireless network to which you want to connect.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
 msgstr ""
 
@@ -18212,9 +18373,6 @@ msgstr ""
 
 msgid "Select which IP protocols can be used with this adapter."
 msgstr ""
-
-msgid "Select wireless network"
-msgstr "انتخاب شبکه بدون سیم"
 
 #, fuzzy
 msgid "Select your ATSC provider."
@@ -18729,6 +18887,9 @@ msgstr ""
 msgid "Set to yes for debugging the root cause of a spinner."
 msgstr ""
 
+msgid "Set up network"
+msgstr ""
+
 msgid "Set up tuner [TUNER]"
 msgstr ""
 
@@ -19215,10 +19376,6 @@ msgstr "نمایش VCR scart در منوی اصلی"
 msgid "Show Vertical EPG"
 msgstr "عمودی"
 
-#, fuzzy
-msgid "Show WLAN status"
-msgstr "نمایش وضعیت شبکه بدون سیم"
-
 msgid "Show Web Link packages"
 msgstr ""
 
@@ -19390,10 +19547,6 @@ msgid "Show in Standby"
 msgstr "خاموشی موقت"
 
 #, fuzzy
-msgid "Show info"
-msgstr "نمایش اطلاعات"
-
-#, fuzzy
 msgid "Show info line"
 msgstr "نمایش خط اطلاعات"
 
@@ -19436,6 +19589,9 @@ msgid "Show movies"
 msgstr ""
 
 msgid "Show multi channel EPG"
+msgstr ""
+
+msgid "Show network adapter connection information"
 msgstr ""
 
 msgid "Show next commit log"
@@ -19631,6 +19787,9 @@ msgstr ""
 msgid "Show the Logs Settings screen"
 msgstr ""
 
+msgid "Show the Network Information for the selected adapter"
+msgstr ""
+
 msgid "Show the OSCam information screen"
 msgstr ""
 
@@ -19714,9 +19873,6 @@ msgstr ""
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr ""
 
-msgid "Shows the state of your wireless LAN connection."
-msgstr "نمایش وضعیت اتصال شبکه بدون سیم شما"
-
 msgid "Shows the watched status of the media."
 msgstr ""
 
@@ -19751,16 +19907,8 @@ msgstr ""
 msgid "Signal Finder"
 msgstr ""
 
-#
-msgid "Signal quality"
-msgstr "کیفیت سیگنال"
-
 msgid "Signal strength"
 msgstr ""
-
-#
-msgid "Signal: "
-msgstr "سیگنال:"
 
 msgid "Signed by"
 msgstr ""
@@ -19898,6 +20046,9 @@ msgid "Skip forward (enter time)"
 msgstr "پرش به جلو - با وارد کردن مدت زمان"
 
 msgid "Skip jumping to live while timeshifting with plugins"
+msgstr ""
+
+msgid "Skip network setup"
 msgstr ""
 
 msgid "Skip package installation, only core packages will be available"
@@ -20274,6 +20425,18 @@ msgstr ""
 msgid "Sort by"
 msgstr ""
 
+msgid "Sort by Hostname/IP Address"
+msgstr ""
+
+msgid "Sort by IP Address"
+msgstr ""
+
+msgid "Sort by Mount Name"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
 msgid "Sort by default"
 msgstr ""
 
@@ -20473,9 +20636,6 @@ msgstr ""
 msgid "Start teletext"
 msgstr ""
 
-msgid "Start test"
-msgstr "شروع تست"
-
 msgid "Start the Chkroot initialization"
 msgstr ""
 
@@ -20527,6 +20687,9 @@ msgstr ""
 
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
+msgstr ""
+
+msgid "Static"
 msgstr ""
 
 msgid "Static IP / Custom"
@@ -20617,9 +20780,6 @@ msgstr ""
 msgid "Stop streams"
 msgstr ""
 
-msgid "Stop test"
-msgstr "توقف تست"
-
 #
 msgid "Stop testing plane after # failed transponders"
 msgstr ""
@@ -20686,6 +20846,12 @@ msgstr "DVD قابل رایت نیست"
 
 msgid "Store position"
 msgstr "ذخیره مکان"
+
+msgid "Stored credentials deleted for this server."
+msgstr ""
+
+msgid "Stored credentials for this server have been deleted."
+msgstr ""
 
 msgid "Stored position"
 msgstr "مکان ذخیره شد"
@@ -21312,10 +21478,6 @@ msgstr ""
 msgid "Test mode"
 msgstr "حالت تست"
 
-#, fuzzy, python-format
-msgid "Test the network configuration of your %s %s."
-msgstr "تست کردن پیکربندی شبکه دستگاه شما"
-
 #, fuzzy
 msgid "Test type"
 msgstr "نوع تست"
@@ -21422,18 +21584,6 @@ msgstr ""
 
 #, python-format
 msgid "The IceTV server has requested password for %s."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to be working.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to not be working!\n"
-"\n"
-"Choose what to do next."
 msgstr ""
 
 msgid ""
@@ -21583,14 +21733,6 @@ msgstr ""
 msgid "The loopthrough setting is wrong."
 msgstr ""
 
-#, fuzzy
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"پلاگین شبکه بدون سیم نصب نشده است\n"
-"لطفا آن را نصب کنید"
-
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -21661,28 +21803,12 @@ msgstr ""
 msgid "The user interface of your %s %s will be stopped to run Kodi"
 msgstr ""
 
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run RetroGaming"
+msgstr ""
+
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr ""
-
-msgid ""
-"The wireless LAN Internet connection could not be started!\n"
-"Is the wireless LAN device connected?\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid ""
-"The wireless LAN plugin code is not installed!\n"
-"\n"
-"Install it and choose what to do next."
-msgstr ""
-
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"پلاگین شبکه بدون سیم نصب نشده است\n"
-"لطفا آن را نصب کنید"
 
 msgid "The wizard can backup your current settings. Do you want to start a backup now?"
 msgstr ""
@@ -22005,39 +22131,6 @@ msgid "This setting depends on your cable provider and location. If you don't kn
 msgstr ""
 
 msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
-msgstr ""
-
-msgid ""
-"This test checks for configured DNS.\n"
-"If you get an \"unconfirmed\" message:\n"
-"- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
-msgstr ""
-
-msgid ""
-"This test checks whether a network cable is connected to your LAN adapter.\n"
-"If you get a \"disconnected\" message:\n"
-"- verify that a network cable is attached\n"
-"- verify that the cable is not broken"
-msgstr ""
-
-msgid ""
-"This test checks whether a valid IP address is found for your LAN adapter.\n"
-"If you get a \"unconfirmed\" message:\n"
-"- no valid IP address was found\n"
-"- please check your DHCP, cabling and adapter setup"
-msgstr ""
-
-msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
-"If you get a \"disabled\" message:\n"
-" - then your LAN adapter is configured for manual IP setup\n"
-"- verify that you have entered correct IP information in the adapter setup dialog.\n"
-"If you get an \"enabled\" message:\n"
-"-verify that you have a configured and working DHCP server in your network."
-msgstr ""
-
-msgid "This test detects your configured LAN adapter."
 msgstr ""
 
 msgid ""
@@ -22386,6 +22479,9 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+msgid "Toggle picking a share by IP address or by DNS name"
+msgstr ""
+
 msgid "Toggle selection of the current tag"
 msgstr ""
 
@@ -22467,6 +22563,9 @@ msgid "Traditional"
 msgstr ""
 
 msgid "Traditional Chinese"
+msgstr ""
+
+msgid "Transceiver"
 msgstr ""
 
 #, fuzzy
@@ -22861,9 +22960,6 @@ msgstr ""
 msgid "Undetermined"
 msgstr ""
 
-msgid "Unencrypted"
-msgstr "رمزگذاری نشده"
-
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
@@ -22924,11 +23020,6 @@ msgstr "نامشخص"
 msgid "Unknown Devices"
 msgstr ""
 
-msgid ""
-"Unknown Error creating Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-
 msgid "Unknown Packages"
 msgstr ""
 
@@ -22972,6 +23063,9 @@ msgstr ""
 msgid "Unpublished"
 msgstr ""
 
+msgid "Unreachable"
+msgstr ""
+
 msgid "Unscramble and record ECM"
 msgstr ""
 
@@ -22983,10 +23077,6 @@ msgstr ""
 
 msgid "Unset As Startup Service"
 msgstr ""
-
-#
-msgid "Unsupported"
-msgstr "پشتیبانی نشده"
 
 msgid "Until standby/restart"
 msgstr "تا خاموشی موقت یا راه اندازی مجدد"
@@ -23205,9 +23295,6 @@ msgstr ""
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr ""
 
-msgid "Use a gateway"
-msgstr "استفاده از دروازه"
-
 msgid "Use alternate GitHub DNS"
 msgstr ""
 
@@ -23265,9 +23352,6 @@ msgstr ""
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr ""
 
-msgid "Use interface"
-msgstr "رابط کاربری"
-
 msgid "Use key map *"
 msgstr ""
 
@@ -23278,9 +23362,6 @@ msgid "Use official channel numbering"
 msgstr ""
 
 msgid "Use only DNSSEC servers"
-msgstr ""
-
-msgid "Use only for Wake on WLan (WoW)"
 msgstr ""
 
 msgid "Use only no-filter servers"
@@ -23334,9 +23415,6 @@ msgstr ""
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
 msgstr ""
 
-msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
-msgstr ""
-
 msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select a cam"
 msgstr ""
 
@@ -23353,13 +23431,6 @@ msgid "Use the current selection and exit"
 msgstr ""
 
 msgid "Use the extended List"
-msgstr ""
-
-#, fuzzy
-msgid "Use the network wizard to configure selected network adapter"
-msgstr "استفاده از هدایتگر شبکه برای پیکربندی آداپتور شبکه انتخاب شده"
-
-msgid "Use the network wizard to configure your Network."
 msgstr ""
 
 msgid "Use the wizard to set up basic features"
@@ -23440,6 +23511,12 @@ msgstr "نام کاربری"
 msgid "Username (httpuser)"
 msgstr ""
 
+msgid "Using DNS"
+msgstr ""
+
+msgid "Using IP"
+msgstr ""
+
 msgid "Using automatic address"
 msgstr ""
 
@@ -23464,9 +23541,6 @@ msgstr "ازبکستان"
 msgid "VCR Scart Settings"
 msgstr "VCR scart"
 
-msgid "VLAN connection"
-msgstr "ارتباط VLAN"
-
 msgid "VMC"
 msgstr ""
 
@@ -23477,6 +23551,9 @@ msgid "VOB file"
 msgstr ""
 
 msgid "VOD"
+msgstr ""
+
+msgid "VPN"
 msgstr ""
 
 msgid "VPS Settings"
@@ -23832,12 +23909,6 @@ msgstr ""
 msgid "WARNING:"
 msgstr ""
 
-msgid "WEP"
-msgstr "WEP"
-
-msgid "WLAN connection"
-msgstr "ارتباط بدون سیم"
-
 msgid "WMA Pro"
 msgstr ""
 
@@ -23846,16 +23917,6 @@ msgstr ""
 
 msgid "WOL Standby"
 msgstr ""
-
-msgid "WPA"
-msgstr "WPA"
-
-#
-msgid "WPA or WPA2"
-msgstr "WPA یا WPA2"
-
-msgid "WPA2"
-msgstr "WPA2"
 
 msgid "WSS on 4:3"
 msgstr "WSS روی 4:3"
@@ -23871,6 +23932,9 @@ msgstr ""
 
 msgid "Waiting"
 msgstr "صبر کردن"
+
+msgid "Waiting for IP address..."
+msgstr ""
 
 msgid "Waiting for partition"
 msgstr ""
@@ -23917,6 +23981,9 @@ msgid "Warning: %d feeds were unable to be reloaded!"
 msgstr ""
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
+msgstr ""
+
+msgid "Warning: No Wi-Fi adapter found!"
 msgstr ""
 
 msgid "Warning: Overrides are currently active!"
@@ -24252,9 +24319,6 @@ msgstr ""
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr ""
 
-msgid "When enabled, use DHCP for the IP configuration."
-msgstr ""
-
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
 msgstr ""
 
@@ -24321,6 +24385,28 @@ msgstr "هیچ توضیحی در دسترس نیست"
 msgid "White"
 msgstr ""
 
+msgid "Wi-Fi"
+msgstr ""
+
+msgid "Wi-Fi Activation Actions"
+msgstr ""
+
+msgid "Wi-Fi Adapter"
+msgstr ""
+
+msgid "Wi-Fi Scan Actions"
+msgstr ""
+
+#, python-format
+msgid "Wi-Fi Scan On '%s'"
+msgstr ""
+
+msgid "Wi-Fi connection"
+msgstr ""
+
+msgid "Wi-Fi link"
+msgstr ""
+
 msgid "Wide"
 msgstr "عریض"
 
@@ -24344,27 +24430,6 @@ msgstr ""
 
 msgid "Wiping storage device..."
 msgstr ""
-
-msgid "Wireless LAN"
-msgstr "LAN بدون سیم"
-
-msgid "Wireless network"
-msgstr "شبکه بدون سیم"
-
-msgid "Wireless network configuration..."
-msgstr "پیکربندی شبکه بدون سیم."
-
-msgid ""
-"Wireless network connection setup.\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid "Wireless network setup"
-msgstr ""
-
-msgid "Wireless network state"
-msgstr "کیفیت شبکه بدون سیم"
 
 msgid "With EXIT button"
 msgstr ""
@@ -24646,18 +24711,6 @@ msgstr ""
 msgid "Your %s %s is not connected to the Internet, please check your network settings and try again."
 msgstr ""
 
-#, fuzzy, python-format
-msgid ""
-"Your %s %s is now ready to be used.\n"
-"\n"
-"Your Internet connection is working now.\n"
-"\n"
-msgstr ""
-"دستگاه شما اکنون آماده برای استفاده است\n"
-"\n"
-"ارتباط اینترنتی شما کار میکند\n"
-"\n"
-
 #, python-format
 msgid "Your %s %s is rebooting"
 msgstr ""
@@ -24686,35 +24739,11 @@ msgid "Your %s %s will Restart..."
 msgstr ""
 
 #, python-format
-msgid ""
-"Your %s %s will be restarted after the installation of service.\n"
-"\n"
-"Do you want to install now ?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-"ارتباط اینترنتی شما کار نمیکند\n"
-"لطفا آنچه را میخواهید بعد از این انجام دهید انتخاب کنید"
-
-#, python-format
 msgid "Your Internet connection is working (IP: %s)"
 msgstr ""
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
-msgstr ""
-
-msgid "Your STB will restart after pressing OK on your remote control."
 msgstr ""
 
 #
@@ -24753,9 +24782,6 @@ msgid ""
 "Your front panel will be upgraded\n"
 "This may take a few minutes"
 msgstr ""
-
-msgid "Your network configuration has been activated."
-msgstr "پیکربندی شبکه شما فعال شد"
 
 msgid "Your password must have at least 5 characters."
 msgstr ""
@@ -25015,12 +25041,6 @@ msgstr ""
 msgid "config menu"
 msgstr "منوی پیکربندی"
 
-msgid "confirmed"
-msgstr "تایید شد"
-
-msgid "connected"
-msgstr "وصل شد"
-
 msgid "copy"
 msgstr ""
 
@@ -25044,9 +25064,6 @@ msgstr "حذف برش"
 
 msgid "disabled"
 msgstr "غیر فعال شد"
-
-msgid "disconnected"
-msgstr "قطع شد"
 
 msgid "eMMC"
 msgstr ""
@@ -25316,9 +25333,6 @@ msgstr ""
 msgid "of a SINGLE layer medium used."
 msgstr ""
 
-msgid "off or wpa2 on"
-msgstr ""
-
 msgid "offset is"
 msgstr ""
 
@@ -25526,9 +25540,6 @@ msgstr ""
 msgid "unavailable"
 msgstr ""
 
-msgid "unconfirmed"
-msgstr "تایید نشده"
-
 msgid "unknown"
 msgstr "نامشخص"
 
@@ -25586,6 +25597,347 @@ msgstr "بله نگه داشتن feeds"
 
 msgid "®"
 msgstr ""
+
+#, fuzzy, python-format
+#~ msgid "%d wireless network found!"
+#~ msgid_plural "%d wireless networks found!"
+#~ msgstr[0] "1 شبکه بدون سیم یافت شد"
+
+#~ msgid ""
+#~ "A second configured interface has been found.\n"
+#~ "\n"
+#~ "Do you want to disable the second network interface?"
+#~ msgstr ""
+#~ "پیکربندی دوم برای رابط یافت شده است\n"
+#~ "\n"
+#~ "آیا میخواهید رابط دوم شبکه غیر فعال شود ؟"
+
+#~ msgid "Activate network adapter configuration"
+#~ msgstr "فعال کردن پیکربندی آداپتور شبکه"
+
+#~ msgid "Activate network settings"
+#~ msgstr "فعال کردن تنظیمات شبکه"
+
+#~ msgid "Activate the configured network settings."
+#~ msgstr "فعال کردن تنظیمات شبکه پیکربندی شده."
+
+#
+#~ msgid "Are you sure you want to activate this network configuration?"
+#~ msgstr "آیا مطمئن هستید که میخواهید این پیکربندی شبکه را فعال کنید ؟"
+
+#~ msgid "Are you sure you want to restart your network interfaces?"
+#~ msgstr "آیا مطمئن هستید که میخواهید رابط های شبکه خود را دوباره راه اندازی کنید ؟"
+
+#~ msgid "Back"
+#~ msgstr "بازگشت"
+
+#~ msgid "Configure interface"
+#~ msgstr "رابط مشترک"
+
+#~ msgid "Configure the IP address."
+#~ msgstr "پیکربندی آدرس IP."
+
+#~ msgid "Configure the gateway."
+#~ msgstr "پیکربندی دروازه."
+
+#~ msgid "Configure the name server (DNS)."
+#~ msgstr "پیکربندی nameserver (DNS)."
+
+#
+#~ msgid "Configure the network again"
+#~ msgstr "شبکه خود را دوباره پیکربندی کنید"
+
+#
+#~ msgid "Configure your internal LAN"
+#~ msgstr "شبکه سیمی داخلی خود را دوباره پیکربندی کنید"
+
+#
+#~ msgid "Configure your wireless LAN again"
+#~ msgstr "شبکه بدون سیم خود را دوباره پیکربندی کنید"
+
+#, fuzzy
+#~ msgid "Connect to a wireless network"
+#~ msgstr "وصل شدن به شبکه بدون سیم"
+
+#~ msgid "Current settings:"
+#~ msgstr "تنظیمات فعلی:"
+
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#, fuzzy, python-format
+#~ msgid "Edit the DNS configuration of your %s %s."
+#~ msgstr "ویرایش پیکربندی نام سرور دستگاه شما"
+
+#, fuzzy, python-format
+#~ msgid "Edit the network configuration of your %s %s."
+#~ msgstr "ویرایش پیکربندی شبکه دستگاه شما"
+
+#~ msgid "Encrypted: "
+#~ msgstr "رمزگذاری شده:"
+
+#, fuzzy
+#~ msgid "Encryption Type:"
+#~ msgstr "رمزگذاری"
+
+#~ msgid "Encryption key"
+#~ msgstr "کلید رمزگذاری"
+
+#~ msgid "Encryption key type"
+#~ msgstr "نوع کد رمزگذاری"
+
+#~ msgid "Exit network adapter configuration"
+#~ msgstr "خروج از پیکربندی آداپتور شبکه"
+
+#
+#, fuzzy
+#~ msgid "Exit network interface list"
+#~ msgstr "خروج از لیست رابط شبکه "
+
+#~ msgid "Exit network wizard"
+#~ msgstr "خروج از هدایتگر شبکه"
+
+#~ msgid "Extended Networksetup Plugin..."
+#~ msgstr "پلاگین تنظیمات شبکه تمدید شده"
+
+#~ msgid "Extended Setup..."
+#~ msgstr "تنظیمات تمدید شده"
+
+#~ msgid "Finished configuring your network"
+#~ msgstr "پیکربندی شبکه شما پایان یافت"
+
+#, fuzzy
+#~ msgid "Frequency Norm:"
+#~ msgstr "فرکانس"
+
+#~ msgid "Interface: "
+#~ msgstr "رابط:"
+
+#~ msgid "LAN adapter"
+#~ msgstr "LAN آداپتور"
+
+#
+#~ msgid "Link quality:"
+#~ msgstr "کیفیت لینک:"
+
+#~ msgid "Link:"
+#~ msgstr "لینک"
+
+#~ msgid "List available networks"
+#~ msgstr "لیست شبکه های در دسترس"
+
+#, fuzzy
+#~ msgid "Local network"
+#~ msgstr "شبکه محلی"
+
+#, fuzzy
+#~ msgid "MAC-address"
+#~ msgstr "IP آدرس"
+
+#~ msgid "Manual configuration"
+#~ msgstr "پیکربندی دستی"
+
+#, fuzzy
+#~ msgid "Max. bitrate: "
+#~ msgstr "میزان ارسال"
+
+#~ msgid "Nameserver"
+#~ msgstr "Nameserver"
+
+#~ msgid "Nameserver settings"
+#~ msgstr "Nameserver تنظیمات"
+
+#~ msgid "Network Test:"
+#~ msgstr "تست شبکه:"
+
+#~ msgid "Network test"
+#~ msgstr "تست شبکه"
+
+#~ msgid "Network:"
+#~ msgstr "شبکه:"
+
+#~ msgid "No Connection"
+#~ msgstr "ارتباطی وجود ندارد"
+
+#~ msgid "No networks found"
+#~ msgstr "هیچ شبکه ای یافت نشد"
+
+#~ msgid "No wireless networks found! Searching..."
+#~ msgstr "هیچ شبکه بدون سیمی یافت نشد ، در حال جستجو"
+
+#~ msgid "Please follow the instructions on the TV"
+#~ msgstr "لطفا دستورالعمل هایی که در تلوزیون مشاهده میکنید را دنبال کنید"
+
+#~ msgid "Please press OK to continue."
+#~ msgstr "لطفا دکمه OK را برای ادامه دادن فشار دهید"
+
+#
+#~ msgid "Please wait for activation of your network configuration..."
+#~ msgstr "لطفا صبر کنید تا پیکربندی شبکه شما فعال شود"
+
+#
+#~ msgid "Please wait while we prepare your network interfaces..."
+#~ msgstr "لطفا صبر کنید تا رابط های شبکه شما آماده شوند"
+
+#
+#~ msgid "Please wait while we test your network..."
+#~ msgstr "لطفا صبر کنید تا شبکه شما تست شود"
+
+#~ msgid "Press OK to activate the settings."
+#~ msgstr "دکمه OK را برای فعال کردن تنظیمات فشار دهید"
+
+#~ msgid "Primary DNS"
+#~ msgstr "DNS اول"
+
+#~ msgid "Restart your network connection and interfaces."
+#~ msgstr "راه اندازی دوباره ارتباط شبکه شما و رابط های آن"
+
+#, fuzzy
+#~ msgid "Scan wireless networks"
+#~ msgstr "اسکن شبکه های بدون سیم"
+
+#~ msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
+#~ msgstr "اسکن شبکه شما برای نقاط دسترسی بدون سیم و اتصال به آنها با استفاده از وسیله بدون سیم انتخاب شده توسط شما"
+
+#~ msgid "Secondary DNS"
+#~ msgstr "DNS دوم"
+
+#, fuzzy
+#~ msgid "Select a wireless network"
+#~ msgstr "انتخاب شبکه بدون سیم"
+
+#~ msgid "Select interface"
+#~ msgstr "انتخاب رابط"
+
+#~ msgid "Select wireless network"
+#~ msgstr "انتخاب شبکه بدون سیم"
+
+#, fuzzy
+#~ msgid "Show WLAN status"
+#~ msgstr "نمایش وضعیت شبکه بدون سیم"
+
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "نمایش اطلاعات"
+
+#~ msgid "Shows the state of your wireless LAN connection."
+#~ msgstr "نمایش وضعیت اتصال شبکه بدون سیم شما"
+
+#
+#~ msgid "Signal quality"
+#~ msgstr "کیفیت سیگنال"
+
+#
+#~ msgid "Signal: "
+#~ msgstr "سیگنال:"
+
+#~ msgid "Start test"
+#~ msgstr "شروع تست"
+
+#~ msgid "Stop test"
+#~ msgstr "توقف تست"
+
+#, fuzzy, python-format
+#~ msgid "Test the network configuration of your %s %s."
+#~ msgstr "تست کردن پیکربندی شبکه دستگاه شما"
+
+#, fuzzy
+#~ msgid ""
+#~ "The network wizard extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "پلاگین شبکه بدون سیم نصب نشده است\n"
+#~ "لطفا آن را نصب کنید"
+
+#~ msgid ""
+#~ "The wireless LAN plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "پلاگین شبکه بدون سیم نصب نشده است\n"
+#~ "لطفا آن را نصب کنید"
+
+#~ msgid "Unencrypted"
+#~ msgstr "رمزگذاری نشده"
+
+#
+#~ msgid "Unsupported"
+#~ msgstr "پشتیبانی نشده"
+
+#~ msgid "Use a gateway"
+#~ msgstr "استفاده از دروازه"
+
+#~ msgid "Use interface"
+#~ msgstr "رابط کاربری"
+
+#, fuzzy
+#~ msgid "Use the network wizard to configure selected network adapter"
+#~ msgstr "استفاده از هدایتگر شبکه برای پیکربندی آداپتور شبکه انتخاب شده"
+
+#~ msgid "VLAN connection"
+#~ msgstr "ارتباط VLAN"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WLAN connection"
+#~ msgstr "ارتباط بدون سیم"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#
+#~ msgid "WPA or WPA2"
+#~ msgstr "WPA یا WPA2"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Wireless LAN"
+#~ msgstr "LAN بدون سیم"
+
+#~ msgid "Wireless network"
+#~ msgstr "شبکه بدون سیم"
+
+#~ msgid "Wireless network configuration..."
+#~ msgstr "پیکربندی شبکه بدون سیم."
+
+#~ msgid "Wireless network state"
+#~ msgstr "کیفیت شبکه بدون سیم"
+
+#, fuzzy, python-format
+#~ msgid ""
+#~ "Your %s %s is now ready to be used.\n"
+#~ "\n"
+#~ "Your Internet connection is working now.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "دستگاه شما اکنون آماده برای استفاده است\n"
+#~ "\n"
+#~ "ارتباط اینترنتی شما کار میکند\n"
+#~ "\n"
+
+#
+#~ msgid ""
+#~ "Your Internet connection is not working!\n"
+#~ "Please choose what you want to do next."
+#~ msgstr ""
+#~ "ارتباط اینترنتی شما کار نمیکند\n"
+#~ "لطفا آنچه را میخواهید بعد از این انجام دهید انتخاب کنید"
+
+#~ msgid "Your network configuration has been activated."
+#~ msgstr "پیکربندی شبکه شما فعال شد"
+
+#~ msgid "confirmed"
+#~ msgstr "تایید شد"
+
+#~ msgid "connected"
+#~ msgstr "وصل شد"
+
+#~ msgid "disconnected"
+#~ msgstr "قطع شد"
+
+#~ msgid "unconfirmed"
+#~ msgstr "تایید نشده"
 
 #
 #~ msgid "Switchable tuner types:"
@@ -25722,9 +26074,6 @@ msgstr ""
 #
 #~ msgid "SSID:"
 #~ msgstr "SSID:"
-
-#~ msgid "Scanning..."
-#~ msgstr "در حال اسکن"
 
 #
 #~ msgid "Signal strength:"

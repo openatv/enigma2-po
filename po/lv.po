@@ -1,20 +1,22 @@
 # Latvian translations for Enigma2.
 #
+# jbleyel <jbleyel@gmx.net>, 2026.
+# Massimo Pissarello <mapi68@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 07:09+0000\n"
-"PO-Revision-Date: 2016-04-02 23:17+0200\n"
-"Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
-"Language-Team: Ivo / enigma2 (c) <ivog@apolllo.lv>\n"
-"Language: lv_LV\n"
+"POT-Creation-Date: 2026-08-16 15:24+0000\n"
+"PO-Revision-Date: 2026-08-17 05:10+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
+"Language-Team: Latvian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lv/>\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 msgid ""
 "\n"
@@ -979,6 +981,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
+msgid "%d host found."
+msgid_plural "%d hosts found."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d jobs are running in the background!"
 msgstr ""
 
@@ -999,6 +1007,12 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%d ms"
 msgstr "%d min"
+
+#, python-format
+msgid "%d network found."
+msgid_plural "%d networks found."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%d package found."
@@ -1114,13 +1128,6 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%d times"
 msgstr "Beigu laiks"
-
-#
-#, fuzzy, python-format
-msgid "%d wireless network found!"
-msgid_plural "%d wireless networks found!"
-msgstr[0] "Bezvadu tīkls"
-msgstr[1] "Bezvadu tīkls"
 
 msgid "%d+%b_"
 msgstr ""
@@ -1370,6 +1377,22 @@ msgstr ""
 msgid "'%s' contains %d file(s) and %d sub-directories.\n"
 msgstr ""
 
+#, python-format
+msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' is listed more than once in 'Mount options'."
+msgstr ""
+
+#, python-format
+msgid "'%s' mounted."
+msgstr ""
+
+#, python-format
+msgid "'%s' unmounted."
+msgstr ""
+
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr ""
 
@@ -1471,6 +1494,9 @@ msgstr "1.2"
 msgid "10bit"
 msgstr ""
 
+msgid "10th (Lowest)"
+msgstr ""
+
 msgid "12 character"
 msgstr ""
 
@@ -1532,6 +1558,9 @@ msgstr ""
 msgid "18 V"
 msgstr "18 V"
 
+msgid "1st (Highest)"
+msgstr ""
+
 msgid "1st InfoBar timeout"
 msgstr ""
 
@@ -1539,6 +1568,9 @@ msgid "1x"
 msgstr ""
 
 msgid "2"
+msgstr ""
+
+msgid "2nd"
 msgstr ""
 
 msgid "2nd InfoBar"
@@ -1584,6 +1616,9 @@ msgstr "Skaņa"
 msgid "3D Surround Speaker Position"
 msgstr ""
 
+msgid "3rd"
+msgstr ""
+
 msgid "3x"
 msgstr ""
 
@@ -1604,6 +1639,9 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
+msgid "4th"
+msgstr ""
+
 msgid "4x"
 msgstr ""
 
@@ -1613,10 +1651,19 @@ msgstr ""
 msgid "50-200 Mbps"
 msgstr ""
 
+msgid "5th"
+msgstr ""
+
 msgid "6"
 msgstr ""
 
+msgid "6th"
+msgstr ""
+
 msgid "7"
+msgstr ""
+
+msgid "7th"
 msgstr ""
 
 msgid "8"
@@ -1628,7 +1675,13 @@ msgstr ""
 msgid "8bit"
 msgstr ""
 
+msgid "8th"
+msgstr ""
+
 msgid "9"
+msgstr ""
+
+msgid "9th"
 msgstr ""
 
 #
@@ -1785,13 +1838,6 @@ msgstr ""
 msgid "A required tool (%s) was not found."
 msgstr "Vajadzīgais rīks (%s) netika atrasts."
 
-#
-msgid ""
-"A second configured interface has been found.\n"
-"\n"
-"Do you want to disable the second network interface?"
-msgstr ""
-
 msgid ""
 "A timer failed to record!\n"
 "Abort pseudo recordings (e.g. EPG refresh) and try again?\n"
@@ -1933,6 +1979,11 @@ msgstr ""
 msgid "Access point"
 msgstr ""
 
+msgid ""
+"Access point not found.\n"
+"Check it is in range and the SSID is correct."
+msgstr ""
+
 msgid "Access to geolocation information requires an Internet connection."
 msgstr ""
 
@@ -1976,15 +2027,7 @@ msgstr ""
 msgid "Activate a way to send individual or specific internal HDMI-CEC commands from the command line."
 msgstr ""
 
-#
-msgid "Activate network adapter configuration"
-msgstr ""
-
-#
-msgid "Activate network settings"
-msgstr "Aktivizēt tīkla iestatījumus"
-
-msgid "Activate the configured network settings."
+msgid "Activate network adapter"
 msgstr ""
 
 msgid "Activate the flash expander, save all changed settings and exit"
@@ -2006,6 +2049,13 @@ msgid "Active clients"
 msgstr "Aktīvie klienti"
 
 msgid "Active only"
+msgstr ""
+
+msgid "Adapter"
+msgstr ""
+
+#, python-format
+msgid "Adapter '%s' Context Menu"
 msgstr ""
 
 #
@@ -2057,6 +2107,9 @@ msgstr ""
 msgid "Add Marker To Bouquet"
 msgstr "pievienot marķieri"
 
+msgid "Add Mount Manually"
+msgstr ""
+
 msgid "Add New Quad Channel Entry"
 msgstr ""
 
@@ -2085,6 +2138,12 @@ msgstr "Pievienot taimeri"
 #
 msgid "Add To Parental Protection"
 msgstr "pievienot vecāku kontrolei"
+
+msgid "Add Wi-Fi"
+msgstr ""
+
+msgid "Add Wi-Fi Manually"
+msgstr ""
 
 #
 #, fuzzy
@@ -2121,6 +2180,9 @@ msgstr "pārvietot lejup uz nākamo ierakstu"
 #
 msgid "Add a mark"
 msgstr "Pievienot iezīmi"
+
+msgid "Add a new Saved Wi-Fi Network"
+msgstr ""
 
 msgid "Add a new bouquet"
 msgstr ""
@@ -2735,10 +2797,6 @@ msgstr ""
 msgid "Are you sure to remove this entry?"
 msgstr "Vai tiešām vēlaties dzēst %s?"
 
-#
-msgid "Are you sure you want to activate this network configuration?"
-msgstr "Vai tiešām vēlaties aktivizēt šo tīkla konfigurāciju?"
-
 msgid ""
 "Are you sure you want to delete\n"
 "the following backup:\n"
@@ -2762,10 +2820,6 @@ msgstr ""
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr ""
-
-#
-msgid "Are you sure you want to restart your network interfaces?"
-msgstr "Vai tiešām vēlaties restartēt tīkla interfeisus?"
 
 #, python-format
 msgid ""
@@ -2871,6 +2925,9 @@ msgid "Assigned CAIds:"
 msgstr ""
 
 msgid "Assigned services/provider:"
+msgstr ""
+
+msgid "Associated"
 msgstr ""
 
 msgid "Astra 1 19.2e"
@@ -3168,9 +3225,8 @@ msgstr ""
 msgid "BLUE switch: BLUE/BLUE long"
 msgstr ""
 
-#
-msgid "Back"
-msgstr "Atpakaļ"
+msgid "BSSID"
+msgstr ""
 
 #
 #, fuzzy
@@ -3600,6 +3656,9 @@ msgstr ""
 msgid "Broadcom default"
 msgstr ""
 
+msgid "Browse"
+msgstr ""
+
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr ""
 
@@ -3660,6 +3719,9 @@ msgid "Burn to medium"
 msgstr ""
 
 msgid "Burundi"
+msgstr ""
+
+msgid "Bus"
 msgstr ""
 
 msgid "Business"
@@ -3843,6 +3905,9 @@ msgid "Cable"
 msgstr "Kabeļu"
 
 msgid "Cable Scan"
+msgstr ""
+
+msgid "Cable Unplugged"
 msgstr ""
 
 msgid "Cable input"
@@ -4650,6 +4715,9 @@ msgstr "Notīrīt žurnālu"
 msgid "Clear Log"
 msgstr "Notīrīt žurnālu"
 
+msgid "Clear Stored Credentials"
+msgstr ""
+
 #
 msgid "Clear before scan"
 msgstr "Notīrīt pirms meklēšanas"
@@ -4723,6 +4791,9 @@ msgid "Close bouquet list."
 msgstr "beigt buķešu rediģēšanu"
 
 msgid "Close dialog"
+msgstr ""
+
+msgid "Close network test"
 msgstr ""
 
 msgid "Close screen"
@@ -4938,13 +5009,16 @@ msgstr ""
 msgid "Configuration options for the HELP screen can be found in 'MENU > Setup > Usage & User Interface > Settings'."
 msgstr ""
 
-msgid "Configure DNS (name servers)"
+msgid "Configure DNS (Dynamic Name Server)"
 msgstr ""
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr ""
 
 msgid "Configure an additional delay to improve subtitle synchronization."
+msgstr ""
+
+msgid "Configure another network adapter"
 msgstr ""
 
 msgid "Configure cable reception on this input."
@@ -4995,15 +5069,14 @@ msgstr ""
 msgid "Configure if the subtitle should switch between normal, italic, bold and bold italic."
 msgstr ""
 
-#
-msgid "Configure interface"
+msgid "Configure network adapter"
 msgstr ""
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr ""
 
 msgid ""
-"Configure or verify your DNS (name servers) by adjusting the values shown.\n"
+"Configure or verify your DNS (Dynamic Name Server) settings by adjusting the values shown.\n"
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
@@ -5020,17 +5093,8 @@ msgstr ""
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr ""
 
-msgid "Configure the IP address."
-msgstr ""
-
 msgid "Configure the IP of the fallback remote receiver."
 msgstr "Attālinātā rezerves uztvērēja IP adrese"
-
-msgid ""
-"Configure the Internet connection by adjusting the values shown.\n"
-"\n"
-"When the settings are correct press OK to continue."
-msgstr ""
 
 msgid "Configure the Port of the fallback remote receiver."
 msgstr "Rezerves uztvērēja ports"
@@ -5134,9 +5198,6 @@ msgstr ""
 msgid "Configure the function of the < and > buttons."
 msgstr ""
 
-msgid "Configure the gateway."
-msgstr ""
-
 msgid "Configure the hard disk drive to go to Standby after the specified idle time when the receiver is in Standby."
 msgstr ""
 
@@ -5165,16 +5226,6 @@ msgid "Configure the minimum amount of disk space to be available for recordings
 msgstr ""
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
-msgstr ""
-
-msgid "Configure the name server (DNS)."
-msgstr ""
-
-msgid "Configure the netmask."
-msgstr ""
-
-#
-msgid "Configure the network again"
 msgstr ""
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
@@ -5208,6 +5259,9 @@ msgid "Configure the second subtitle language."
 msgstr ""
 
 msgid "Configure the secondary EPG language."
+msgstr ""
+
+msgid "Configure the selected Wi-Fi network"
 msgstr ""
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
@@ -5309,18 +5363,7 @@ msgstr ""
 msgid "Configure your NTP server."
 msgstr ""
 
-msgid "Configure your Network"
-msgstr ""
-
-#
-msgid "Configure your internal LAN"
-msgstr ""
-
 msgid "Configure your network settings, and press OK to start the scan"
-msgstr ""
-
-#
-msgid "Configure your wireless LAN again"
 msgstr ""
 
 msgid "Configures which video output connector will be used."
@@ -5334,6 +5377,10 @@ msgid "Configuring Service"
 msgstr ""
 
 msgid "Confirm Zap"
+msgstr ""
+
+#, python-format
+msgid "Confirm the deletion of '%s'?"
 msgstr ""
 
 msgid "ConflictTimer Actions"
@@ -5359,12 +5406,13 @@ msgstr ""
 msgid "Connect to IceTV server every"
 msgstr "Nevar savienoties ar %s %s .NFI imidža barotnes serveris:"
 
-#
-#, fuzzy
-msgid "Connect to a wireless network"
-msgstr "Meklēt bezvadu tīklus"
-
 msgid "Connect to the Internet"
+msgstr ""
+
+msgid "Connect to the selected Saved Wi-Fi Network"
+msgstr ""
+
+msgid "Connected"
 msgstr ""
 
 msgid "Connected clients"
@@ -5383,7 +5431,25 @@ msgstr "Pieslēgts"
 msgid "Connected transcoding, limit - no PiP!"
 msgstr ""
 
+msgid ""
+"Connected, but no IP address was received.\n"
+"Check the router's DHCP settings."
+msgstr ""
+
+#, python-format
+msgid ""
+"Connected.\n"
+"IP address is '%s'."
+msgstr ""
+
 msgid "Connected: "
+msgstr ""
+
+#, python-format
+msgid "Connecting To '%s'"
+msgstr ""
+
+msgid "Connecting..."
 msgstr ""
 
 msgid "Connection information"
@@ -5434,6 +5500,9 @@ msgid "Context"
 msgstr ""
 
 msgid "Continent"
+msgstr ""
+
+msgid "Continue"
 msgstr ""
 
 msgid "Continue in background"
@@ -5591,10 +5660,24 @@ msgstr ""
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr ""
 
+#, python-format
+msgid "Could not connect (status '%s')."
+msgstr ""
+
 #
 #, fuzzy
 msgid "Could not connect to server"
 msgstr "Nevar savienoties ar %s %s .NFI imidža barotnes serveris:"
+
+msgid ""
+"Could not connect.\n"
+"Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
+msgstr ""
+
+msgid ""
+"Could not connect.\n"
+"Wrong Wi-Fi password?"
+msgstr ""
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr ""
@@ -5617,6 +5700,12 @@ msgstr ""
 
 #, python-format
 msgid "Could not save configuration file %s!"
+msgstr ""
+
+msgid ""
+"Could not verify the saved Wi-Fi network.\n"
+"\n"
+"Do you want to change the settings again?"
 msgstr ""
 
 msgid "Country"
@@ -5742,6 +5831,13 @@ msgstr ""
 msgid "Creating partition"
 msgstr ""
 
+msgid "Credentials"
+msgstr ""
+
+#, python-format
+msgid "Credentials for '%s'"
+msgstr ""
+
 msgid "Cree"
 msgstr ""
 
@@ -5850,10 +5946,6 @@ msgstr ""
 
 msgid "Current rotor position: unknown"
 msgstr ""
-
-#
-msgid "Current settings:"
-msgstr "Pašreizējie iestatījumi:"
 
 msgid "Current supplied to the LNB and positioner."
 msgstr ""
@@ -5973,10 +6065,6 @@ msgstr ""
 msgid "DAC"
 msgstr ""
 
-#
-msgid "DHCP"
-msgstr "DHCP"
-
 msgid "DLNA support"
 msgstr ""
 
@@ -5987,6 +6075,9 @@ msgid "DMM normal"
 msgstr ""
 
 msgid "DNS Settings"
+msgstr ""
+
+msgid "DNS Settings Actions"
 msgstr ""
 
 msgid "DNS data source"
@@ -6276,7 +6367,13 @@ msgstr ""
 msgid "Deactivate Expander"
 msgstr ""
 
+msgid "Deactivate network adapter"
+msgstr ""
+
 msgid "Deactivate the flash expander in the selected device"
+msgstr ""
+
+msgid "Deactivated"
 msgstr ""
 
 msgid "Debug"
@@ -6546,6 +6643,12 @@ msgstr ""
 msgid "Delete Line"
 msgstr ""
 
+msgid "Delete Mount"
+msgstr ""
+
+msgid "Delete Network"
+msgstr ""
+
 msgid "Delete Plugins"
 msgstr ""
 
@@ -6794,9 +6897,6 @@ msgstr ""
 msgid "Device Manager Actions"
 msgstr ""
 
-msgid "Device Settings"
-msgstr ""
-
 msgid "Device id"
 msgstr ""
 
@@ -6919,6 +7019,9 @@ msgstr ""
 msgid "Disable"
 msgstr "Izslēgt"
 
+msgid "Disable Adapter"
+msgstr ""
+
 msgid "Disable Animations"
 msgstr ""
 
@@ -6946,6 +7049,9 @@ msgstr ""
 msgid "Disable Move Mode"
 msgstr "izslēgt pārvietošanas režīmu"
 
+msgid "Disable Network"
+msgstr ""
+
 #
 msgid "Disable Picture in Picture"
 msgstr "Izslēgt Picture in Picture"
@@ -6963,6 +7069,9 @@ msgid "Disable intro screen"
 msgstr ""
 
 msgid "Disable operator profiles"
+msgstr ""
+
+msgid "Disable saved Wi-Fi network"
 msgstr ""
 
 msgid "Disable the HDD Process on VFD."
@@ -6983,10 +7092,10 @@ msgstr "Izslēgts"
 msgid "Disabled PiP.\n"
 msgstr ""
 
-msgid "Disabled or WPA/WPA2"
+msgid "Disabling Chkroot failed!"
 msgstr ""
 
-msgid "Disabling Chkroot failed!"
+msgid "Disconnected"
 msgstr ""
 
 msgid "Discussion"
@@ -7441,6 +7550,9 @@ msgstr ""
 msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr ""
 
+msgid "Driver"
+msgstr ""
+
 msgid "Driver Packages"
 msgstr ""
 
@@ -7605,6 +7717,9 @@ msgstr "Rediģēt"
 msgid "Edit Alternatives"
 msgstr "rediģēt alternatīvas"
 
+msgid "Edit Credentials"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Edit Mode Off"
@@ -7632,6 +7747,9 @@ msgstr ""
 msgid "Edit Upgrade Source URL"
 msgstr ""
 
+msgid "Edit Username/Password Credentials"
+msgstr ""
+
 #
 # ???
 msgid "Edit chapters of current title"
@@ -7647,27 +7765,20 @@ msgstr "Rediģēt pašreizējā nosaukuma nodaļas"
 msgid "Edit settings"
 msgstr "Rediģēt iestatījumus"
 
+msgid "Edit stored username/password credentials for the selected host"
+msgstr ""
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
 msgid "Edit the CCcam/NewCamd server port."
 msgstr ""
 
-#
-#, fuzzy, python-format
-msgid "Edit the DNS configuration of your %s %s."
-msgstr "Rediģēt %s %s domēna vārdu servera konfigurāciju."
-
 msgid "Edit the NewCamd DES Key."
 msgstr ""
 
 msgid "Edit the currently selected timer"
 msgstr ""
-
-#
-#, fuzzy, python-format
-msgid "Edit the network configuration of your %s %s."
-msgstr "Rediģēt %s %s tīkla konfigurāciju."
 
 msgid "Edit the password."
 msgstr ""
@@ -7679,6 +7790,9 @@ msgid "Edit the remote CCCam port."
 msgstr ""
 
 msgid "Edit the remote IP address."
+msgstr ""
+
+msgid "Edit the selected network mount"
 msgstr ""
 
 #
@@ -7791,9 +7905,6 @@ msgstr ""
 msgid "Enable GStreamer pipeline graphs *"
 msgstr ""
 
-msgid "Enable IPv6"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Enable IceTV"
@@ -7850,7 +7961,7 @@ msgstr ""
 msgid "Enable Virgin EPG"
 msgstr ""
 
-msgid "Enable Wake On LAN"
+msgid "Enable adapter"
 msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
@@ -7930,6 +8041,9 @@ msgstr ""
 msgid "Enable multiple bouquets"
 msgstr "Aktivizēt vairāk-buķešu režīmu"
 
+msgid "Enable network"
+msgstr ""
+
 msgid "Enable network traffic check"
 msgstr ""
 
@@ -7951,6 +8065,9 @@ msgid "Enable preview"
 msgstr "Aktivizēt"
 
 msgid "Enable remote receiver to be tried to tune into services that can't be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner). Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_receiver:8001."
+msgstr ""
+
+msgid "Enable saved Wi-Fi network"
 msgstr ""
 
 msgid "Enable teletext caching"
@@ -8054,27 +8171,8 @@ msgid "Enables a feature so that the receiver can decrypt streams (if the ECM da
 msgstr ""
 
 #
-msgid "Encrypted: "
-msgstr ""
-
-#
 msgid "Encryption"
 msgstr "Šifrēšana"
-
-#
-#, fuzzy
-msgid "Encryption Type:"
-msgstr "Šifrēšanas atslēga"
-
-#
-#, fuzzy
-msgid "Encryption key"
-msgstr "Šifrēšanas atslēga"
-
-#
-#, fuzzy
-msgid "Encryption key type"
-msgstr "Šifrēšanas atslēgas veids"
 
 msgid "End"
 msgstr ""
@@ -8248,6 +8346,9 @@ msgid "Enter the local directory name to be used as the local mount for the remo
 msgstr ""
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
+msgstr ""
+
+msgid "Enter the network hostname to be used to identify this receiver."
 msgstr ""
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
@@ -8452,34 +8553,6 @@ msgstr ""
 msgid "Error code"
 msgstr ""
 
-msgid ""
-"Error creating EHD-Skin.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Icon package download not available.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Not enough flash memory free.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid ""
-"Error creating EHD-Skin. Some EHD-Icons are missing.\n"
-"Using HD-Skin!"
-msgstr ""
-
-msgid "Error creating HD-Skin. Not enough flash memory free."
-msgstr ""
-
-msgid ""
-"Error creating MetrixHD-Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-
 #, python-format
 msgid "Error downloading image '%s'!"
 msgstr ""
@@ -8527,9 +8600,6 @@ msgstr ""
 msgid "Error writing 'epg.dat' on the remote receiver!"
 msgstr ""
 
-msgid "Error, unknown Result!"
-msgstr ""
-
 #
 #, python-format
 msgid ""
@@ -8542,6 +8612,9 @@ msgstr ""
 #
 msgid "Error: An empty filename is illegal!"
 msgstr "Datnes nosaukums nevar būt tukšs"
+
+msgid "Error: Both 'server' and 'remote path' are required!"
+msgstr ""
 
 msgid "Error: Cannot find any images!"
 msgstr ""
@@ -8598,6 +8671,10 @@ msgid "Error: It is not possible to run '%s' on '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Mounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
 msgstr ""
 
@@ -8605,6 +8682,9 @@ msgstr ""
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
 msgstr "Neizdevās dzēst mapi %s. (Varbūt nav tukša.)"
+
+msgid "Error: Rescan failed!"
+msgstr ""
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8656,6 +8736,10 @@ msgid "Error: Unable to write log file '%s'!"
 msgstr ""
 
 #, python-format
+msgid "Error: Unmounting '%s' failed!"
+msgstr ""
+
+#, python-format
 msgid "Error: You can't run '%s' on '%s'!"
 msgstr ""
 
@@ -8680,6 +8764,9 @@ msgstr ""
 #, fuzzy
 msgid "EtPortal"
 msgstr "Portugāļu"
+
+msgid "Ethernet Adapter"
+msgstr ""
 
 msgid "Ethernet network interface"
 msgstr ""
@@ -8823,22 +8910,6 @@ msgstr ""
 msgid "Exit movie player?"
 msgstr "iziet no mediju atskaņotāja"
 
-#
-msgid "Exit network adapter configuration"
-msgstr "iziet no tīkla adaptera konfigurācijas"
-
-msgid "Exit network adapter setup menu"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Exit network interface list"
-msgstr "iziet no tīkla saskarņu saraksta"
-
-#
-msgid "Exit network wizard"
-msgstr "Iziet no tīkla iestatīšanas vedņa"
-
 msgid "Exit picture viewer"
 msgstr ""
 
@@ -8856,6 +8927,9 @@ msgid "Exit without performing a backup"
 msgstr ""
 
 msgid "Expand"
+msgstr ""
+
+msgid "Expand/collapse the selected host, or use the selected share"
 msgstr ""
 
 msgid "Experimental film/video"
@@ -8876,6 +8950,9 @@ msgstr "Lietpratēja"
 msgid "Expert mode"
 msgstr "Lietpratēja"
 
+msgid "Exports"
+msgstr ""
+
 msgid "Exposure bias"
 msgstr ""
 
@@ -8893,14 +8970,6 @@ msgstr ""
 
 msgid "Extended"
 msgstr ""
-
-#
-msgid "Extended Networksetup Plugin..."
-msgstr "Paplašinātās tīkla iestatnes spraudnis..."
-
-#
-msgid "Extended Setup..."
-msgstr "Paplašinātā iestatne..."
 
 msgid "Extended Shares"
 msgstr ""
@@ -9376,10 +9445,6 @@ msgstr "Precīzā regulēšana"
 msgid "Finished"
 msgstr "Pabeigts"
 
-#
-msgid "Finished configuring your network"
-msgstr "Tīkla konfigurēšana pabeigta"
-
 msgid "Finland"
 msgstr ""
 
@@ -9488,13 +9553,13 @@ msgstr ""
 msgid "Flat by position on remote"
 msgstr "Iet uz pozīciju"
 
+msgid "Flush Cache and Rescan"
+msgstr ""
+
 msgid "Folk and Country"
 msgstr ""
 
 msgid "Folk/Traditional music"
-msgstr ""
-
-msgid "Follow instructions on TV"
 msgstr ""
 
 #
@@ -9623,11 +9688,6 @@ msgstr ""
 
 #
 msgid "Frequency"
-msgstr "Frekvence"
-
-#
-#, fuzzy
-msgid "Frequency Norm:"
 msgstr "Frekvence"
 
 #
@@ -10500,6 +10560,9 @@ msgstr ""
 msgid "IP"
 msgstr ""
 
+msgid "IP Address"
+msgstr ""
+
 msgid "IP Address 1"
 msgstr ""
 
@@ -10533,6 +10596,9 @@ msgid "IP protocol"
 msgstr ""
 
 msgid "IPK Installer"
+msgstr ""
+
+msgid "IPv4 and IPv6"
 msgstr ""
 
 msgid "IPv4 only"
@@ -11149,10 +11215,6 @@ msgid "Interface '%s'"
 msgstr ""
 
 #
-msgid "Interface: "
-msgstr ""
-
-#
 #, fuzzy
 msgid "Interlaced"
 msgstr "Iekšējā atmiņa"
@@ -11545,12 +11607,10 @@ msgstr ""
 msgid "LAN"
 msgstr "LNB konvertors"
 
-#
-#, fuzzy
-msgid "LAN adapter"
-msgstr "Tīkla adapteris"
-
 msgid "LAN connection"
+msgstr ""
+
+msgid "LAN link"
 msgstr ""
 
 msgid "LCD scroll speed"
@@ -11777,6 +11837,9 @@ msgstr ""
 msgid "Left, wrapped"
 msgstr ""
 
+msgid "Legacy (SMB1)"
+msgstr ""
+
 msgid "Legacy mode"
 msgstr ""
 
@@ -11882,18 +11945,11 @@ msgstr ""
 msgid "Link detected"
 msgstr ""
 
-msgid "Link quality:"
-msgstr ""
-
 msgid "Link speed"
 msgstr ""
 
 msgid "Link target"
 msgstr ""
-
-#
-msgid "Link:"
-msgstr "Saite:"
 
 #
 msgid "Linked titles with a DVD menu"
@@ -11906,9 +11962,6 @@ msgid "List Navigation Actions"
 msgstr ""
 
 msgid "List available EPG functions"
-msgstr ""
-
-msgid "List available networks"
 msgstr ""
 
 msgid "List of Storage Devices"
@@ -11984,11 +12037,6 @@ msgstr ""
 
 msgid "Local information"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Local network"
-msgstr "Lokālais tīkls"
 
 msgid "Local or Regional"
 msgstr ""
@@ -12184,13 +12232,11 @@ msgstr ""
 msgid "M2k Packages"
 msgstr ""
 
-msgid "MAC address"
+msgid "MAC Address"
 msgstr ""
 
-#
-#, fuzzy
-msgid "MAC-address"
-msgstr "IP adrese"
+msgid "MAC address"
+msgstr ""
 
 msgid "MENU"
 msgstr ""
@@ -12344,9 +12390,6 @@ msgstr "Manuālā meklēšana"
 msgid "Manual Service Searching"
 msgstr "Manuālā meklēšana"
 
-msgid "Manual configuration"
-msgstr ""
-
 msgid "Manual scan for services"
 msgstr ""
 
@@ -12429,9 +12472,6 @@ msgid "Max channels"
 msgstr ""
 
 msgid "Max memory positions"
-msgstr ""
-
-msgid "Max. bitrate: "
 msgstr ""
 
 msgid "Maxdown +"
@@ -12760,6 +12800,9 @@ msgstr ""
 msgid "Mount"
 msgstr ""
 
+msgid "Mount Context Menu"
+msgstr ""
+
 msgid "Mount Manager"
 msgstr ""
 
@@ -12769,10 +12812,19 @@ msgstr ""
 msgid "Mount Setup"
 msgstr ""
 
+msgid "Mount at boot time (fstab)"
+msgstr ""
+
 msgid "Mount failed"
 msgstr ""
 
 msgid "Mount mode"
+msgstr ""
+
+msgid "Mount on first access (autofs)"
+msgstr ""
+
+msgid "Mount or unmount the selected share"
 msgstr ""
 
 msgid "Mount point"
@@ -12781,10 +12833,16 @@ msgstr ""
 msgid "Mount root file system."
 msgstr ""
 
+msgid "Mounted"
+msgstr ""
+
 msgid "Mounts"
 msgstr ""
 
 msgid "Move"
+msgstr ""
+
+msgid "Move Down"
 msgstr ""
 
 msgid "Move Left/Right"
@@ -12811,6 +12869,9 @@ msgstr ""
 #, fuzzy
 msgid "Move PiP to main picture"
 msgstr "pārvietot PiP uz galveno attēlu"
+
+msgid "Move Up"
+msgstr ""
 
 msgid "Move Up/Down"
 msgstr ""
@@ -12873,6 +12934,12 @@ msgstr "pārvietot lejup uz pēdējo ierakstu"
 #
 msgid "Move east"
 msgstr "Griezt uz austrumiem"
+
+msgid "Move item down"
+msgstr ""
+
+msgid "Move item up"
+msgstr ""
 
 msgid "Move job completed."
 msgstr ""
@@ -12978,6 +13045,12 @@ msgid "Move to previous bouquet"
 msgstr ""
 
 msgid "Move to previous marker"
+msgstr ""
+
+msgid "Move to the Adapter list"
+msgstr ""
+
+msgid "Move to the Saved Wi-Fi Networks list"
 msgstr ""
 
 msgid "Move to the first item on the current line"
@@ -13256,6 +13329,9 @@ msgstr ""
 msgid "NFS Server Settings"
 msgstr ""
 
+msgid "NFS Setup Actions"
+msgstr ""
+
 msgid "NFS threads"
 msgstr ""
 
@@ -13307,14 +13383,6 @@ msgstr ""
 #, python-format
 msgid "Name server %d"
 msgstr ""
-
-#
-msgid "Nameserver"
-msgstr "Domēna vārdu serveris"
-
-#
-msgid "Nameserver settings"
-msgstr "Domēna vārdu servera iestatījumi"
 
 msgid "Nameserver setup"
 msgstr ""
@@ -13381,19 +13449,14 @@ msgstr "Tīkla maska"
 msgid "Network"
 msgstr ""
 
-msgid "Network Adapter Actions"
+#, python-format
+msgid "Network Adapter '%s' Settings"
 msgstr ""
 
 msgid "Network Adapter Selection"
 msgstr ""
 
-msgid "Network Adapter Setting Actions"
-msgstr ""
-
 msgid "Network Adapter Settings"
-msgstr ""
-
-msgid "Network Adapter Text Actions"
 msgstr ""
 
 msgid "Network Browser"
@@ -13420,10 +13483,22 @@ msgstr ""
 msgid "Network Log Actions"
 msgstr ""
 
+msgid "Network Mount Manager Actions"
+msgstr ""
+
 msgid "Network Mount Settings"
 msgstr ""
 
+msgid "Network Mounts Overview"
+msgstr ""
+
 msgid "Network Neighbourhood"
+msgstr ""
+
+msgid "Network Overview"
+msgstr ""
+
+msgid "Network Overview Actions"
 msgstr ""
 
 msgid "Network Packages"
@@ -13442,25 +13517,63 @@ msgstr "Tīkla iestatne"
 msgid "Network Setup Actions"
 msgstr ""
 
+msgid "Network Share Actions"
+msgstr ""
+
+msgid "Network Shares Browser"
+msgstr ""
+
+msgid "Network Shares Context Menu"
+msgstr ""
+
 msgid "Network Test"
 msgstr ""
 
-msgid "Network Test:"
+msgid "Network Test Actions"
+msgstr ""
+
+#, python-format
+msgid "Network Test For '%s'"
 msgstr ""
 
 msgid "Network Wi-Fi Settings"
 msgstr ""
 
-msgid "Network Wizard"
+msgid "Network adapter disabled."
+msgstr ""
+
+msgid "Network adapter enabled."
 msgstr ""
 
 msgid "Network adapter not connected to a network!"
 msgstr ""
 
+msgid "Network adapter setup result:"
+msgstr ""
+
+msgid "Network adapter status"
+msgstr ""
+
 msgid "Network address"
 msgstr ""
 
+#, python-format
+msgid "Network cable connected (%s)"
+msgstr ""
+
+#, python-format
+msgid "Network cable disconnected (%s)"
+msgstr ""
+
 msgid "Network configuration..."
+msgstr ""
+
+#, python-format
+msgid ""
+"Network connected successfully.\n"
+"\n"
+"Interface: %s\n"
+"IP address: %s"
 msgstr ""
 
 msgid "Network information"
@@ -13491,27 +13604,10 @@ msgstr "Tīkla meklēšana"
 msgid "Network storage on"
 msgstr ""
 
-#
-msgid "Network test"
-msgstr "Tīkla pārbaude"
-
 msgid "Network test..."
 msgstr ""
 
-msgid ""
-"Network wizard completed.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Network-ID"
-msgstr ""
-
-#
-msgid "Network:"
-msgstr "Tīkls:"
-
-msgid "NetworkWizard"
 msgstr ""
 
 msgid "Neutrino  (keymap.ntr)"
@@ -13549,6 +13645,9 @@ msgid "New Setting DXAndy "
 msgstr ""
 
 msgid "New Storage Device"
+msgstr ""
+
+msgid "New Wi-Fi"
 msgstr ""
 
 msgid "New Zealand"
@@ -13666,10 +13765,6 @@ msgid "No (supported) DVDROM found!"
 msgstr "DVDROM ieriice netika atrasta (atbalstīta)!"
 
 #
-msgid "No Connection"
-msgstr ""
-
-#
 #, fuzzy
 msgid "No ECM PIDs available"
 msgstr "Daži spraudņi nav pieejami:\n"
@@ -13677,6 +13772,15 @@ msgstr "Daži spraudņi nav pieejami:\n"
 #
 msgid "No HDD found or HDD not initialized!"
 msgstr "Nav atrasts vai nav inicializēts cietais disks!"
+
+msgid "No IP address"
+msgstr ""
+
+msgid ""
+"No IP address was received.\n"
+"\n"
+"The network connection could not be established."
+msgstr ""
 
 msgid "No Internet connection"
 msgstr ""
@@ -13760,7 +13864,13 @@ msgstr ""
 msgid "No free tuner!"
 msgstr "Nav brīva uztvērēja!"
 
+msgid "No gateway"
+msgstr ""
+
 msgid "No hard disks detected."
+msgstr ""
+
+msgid "No hosts found yet - still scanning..."
 msgstr ""
 
 msgid "No log files found so debug logs are unavailable!"
@@ -13775,8 +13885,7 @@ msgstr ""
 msgid "No network storage detected."
 msgstr ""
 
-#
-msgid "No networks found"
+msgid "No networks found."
 msgstr ""
 
 msgid "No of items switch (increase or reduced)"
@@ -13804,6 +13913,9 @@ msgid "No service"
 msgstr "Kanāls"
 
 msgid "No services/providers selected"
+msgstr ""
+
+msgid "No shares found."
 msgstr ""
 
 msgid "No slot images found"
@@ -13886,33 +13998,6 @@ msgstr ""
 
 msgid "No valid region details were found"
 msgstr ""
-
-msgid "No wireless networks found! Searching..."
-msgstr ""
-
-#
-msgid ""
-"No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
-msgstr ""
-"Netika atrasts strādājošs lokālā tīkla adapteris.\n"
-"Lūdzu pārliecinieties, ka ir pievienots tīkla kabelis un tīkls ir pareizi konfigurēts."
-
-#
-msgid ""
-"No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
-msgstr ""
-"Netika atrasts strādājošs bezvadu tīkla adapteris.\n"
-"Lūdzu pārliecinieties, ka ir pievienota saderīga bezvadu tīkla ierīce un tīkls ir pareizi konfigurēts."
-
-#
-msgid ""
-"No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
-msgstr ""
-"Netika atrasts strādājošs bezvadu tīkla interfeiss.\n"
-" Lūdzu pārliecinieties, ka ir pievienota saderīga bezvadu tīkla ierīce vai aktivizējiet lokālā tīkla interfeisu."
 
 #
 msgid "No, but restart from begin"
@@ -14013,6 +14098,9 @@ msgstr "Norvēģu"
 msgid "Not Classified"
 msgstr ""
 
+msgid "Not Connected"
+msgstr ""
+
 msgid "Not Defined"
 msgstr ""
 
@@ -14057,7 +14145,13 @@ msgid ""
 "Path: %s"
 msgstr ""
 
+msgid "Not found"
+msgstr ""
+
 msgid "Not joined. Press Yellow to join."
+msgstr ""
+
+msgid "Not mounted"
 msgstr ""
 
 msgid "Not required"
@@ -14533,7 +14627,22 @@ msgstr ""
 msgid "Open the Channel Selection Settings screen"
 msgstr ""
 
+msgid "Open the Context Menu for the selected item"
+msgstr ""
+
 msgid "Open the Image information"
+msgstr ""
+
+msgid "Open the Mount Context Menu"
+msgstr ""
+
+msgid "Open the Network Adapter Settings for the selected item"
+msgstr ""
+
+msgid "Open the Network Shares Browser"
+msgstr ""
+
+msgid "Open the Network Shares Context Menu"
 msgstr ""
 
 msgid "Open the Plugin Browser"
@@ -14573,6 +14682,9 @@ msgid "OpenViX Packages"
 msgstr ""
 
 msgid "OpenWebif picon path"
+msgstr ""
+
+msgid "Opening network adapter configuration..."
 msgstr ""
 
 msgid "Opera"
@@ -15117,6 +15229,9 @@ msgstr "Pillarbox"
 msgid "Pilot"
 msgstr "Pilot"
 
+msgid "Pinging..."
+msgstr ""
+
 msgid "Pink"
 msgstr ""
 
@@ -15324,19 +15439,11 @@ msgid ""
 msgstr ""
 
 #
-msgid "Please follow the instructions on the TV"
-msgstr "Lūdzu sekojiet instrukcijām TV ekrānā"
-
-#
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
 msgstr "Lūdzu ievērojiet, ka iepriekš izvēlētais datu nesējs nebija pieejams, tādēļ tā vietā tika lietota noklusētā mape."
 
 msgid "Please open Picture in Picture first"
 msgstr ""
-
-#
-msgid "Please press OK to continue."
-msgstr "Lūdzu spiediet OK, lai turpinātu."
 
 msgid "Please press OK when ready"
 msgstr ""
@@ -15424,10 +15531,6 @@ msgstr ""
 msgid "Please wait"
 msgstr "Lūdzu gaidiet..."
 
-#
-msgid "Please wait for activation of your network configuration..."
-msgstr "Lūdzu gaidiet, kamēr tīkla konfigurācija tiek aktivizēta..."
-
 msgid "Please wait while LCN bouquets are created/updated..."
 msgstr ""
 
@@ -15486,19 +15589,8 @@ msgid "Please wait while we check your installed plugins..."
 msgstr ""
 
 #
-msgid "Please wait while we prepare your network interfaces..."
-msgstr ""
-
-#
-msgid "Please wait while we test your network..."
-msgstr ""
-
-#
 msgid "Please wait while your network is restarting..."
 msgstr "Lūdzu gaidiet kamēr tīkls tiek restartēts..."
-
-msgid "Please wait while your skin setting is restoring..."
-msgstr ""
 
 msgid "Please wait whilst feeds state is checked."
 msgstr ""
@@ -15800,10 +15892,6 @@ msgstr ""
 msgid "Press OK on your remote control to continue."
 msgstr "Spiediet OK uz tālvadības pults, lai turpinātu."
 
-#
-msgid "Press OK to activate the settings."
-msgstr "Spiediet OK, lai aktivizētu iestatījumus."
-
 msgid "Press OK to continue."
 msgstr ""
 
@@ -15931,10 +16019,6 @@ msgstr ""
 
 msgid "Prevsong"
 msgstr ""
-
-#
-msgid "Primary DNS"
-msgstr "Primārā DNS"
 
 msgid "Primary DNS (IPv4)"
 msgstr ""
@@ -16320,6 +16404,12 @@ msgstr ""
 msgid "Re-enter new PIN"
 msgstr ""
 
+msgid "Reachable"
+msgstr ""
+
+msgid "Read Only"
+msgstr ""
+
 msgid "Read Userdata from 'oscam.conf'"
 msgstr ""
 
@@ -16390,6 +16480,9 @@ msgid "Really shutdown now?"
 msgstr "Vai tiešām izslēgt tagad?"
 
 msgid "Really start Kodi and stop user interface now?"
+msgstr ""
+
+msgid "Really start RetroGaming and stop the user interface now?"
 msgstr ""
 
 msgid "Really upgrade the front panel and reboot now?"
@@ -16766,6 +16859,9 @@ msgstr ""
 msgid "Remove Confirmation"
 msgstr "Uztvērēja konfigurācija"
 
+msgid "Remove Credentials"
+msgstr ""
+
 #
 msgid "Remove Entry"
 msgstr "dzēst ierakstu"
@@ -17007,6 +17103,15 @@ msgstr ""
 msgid "Rereading partition table"
 msgstr ""
 
+msgid "Rescan"
+msgstr ""
+
+msgid "Rescan for available Wi-Fi networks"
+msgstr ""
+
+msgid "Rescan for available network shares"
+msgstr ""
+
 msgid "Reserved"
 msgstr ""
 
@@ -17075,9 +17180,15 @@ msgstr "Izšķirtspēja"
 msgid "Resolution unit"
 msgstr ""
 
+msgid "Resolving..."
+msgstr ""
+
 #
 msgid "Restart"
 msgstr "Restartēt"
+
+msgid "Restart Adapter"
+msgstr ""
 
 #
 #, fuzzy
@@ -17095,9 +17206,6 @@ msgid "Restart GUI now?"
 msgstr "Restartēt GUI tagad?"
 
 msgid "Restart Network"
-msgstr ""
-
-msgid "Restart Network Adapter"
 msgstr ""
 
 msgid "Restart OSCam"
@@ -17124,9 +17232,11 @@ msgstr ""
 msgid "Restart test"
 msgstr "Atkārtot testu"
 
-#
-msgid "Restart your network connection and interfaces."
-msgstr "Restartēt tīkla konfigurāciju un interfeisus."
+msgid "Restarting adapter..."
+msgstr ""
+
+msgid "Restarting saved Wi-Fi network..."
+msgstr ""
 
 msgid "Restarting..."
 msgstr ""
@@ -17136,9 +17246,6 @@ msgid "Restore"
 msgstr "Atjaunot"
 
 msgid "Restore Deleted User Bouquets"
-msgstr ""
-
-msgid "Restore MetrixHD Settings"
 msgstr ""
 
 msgid "Restore Plugins"
@@ -17203,6 +17310,9 @@ msgstr ""
 #
 msgid "Resuming playback"
 msgstr "Atsāk atskaņošanu"
+
+msgid "Retest"
+msgstr ""
 
 #, python-format
 msgid "Retrieving '%s' commit log, please wait..."
@@ -17418,9 +17528,6 @@ msgstr ""
 msgid "SABnzbd"
 msgstr ""
 
-msgid "SABnzbd Settings"
-msgstr ""
-
 msgid "SAT"
 msgstr ""
 
@@ -17466,6 +17573,12 @@ msgid "SINGLE LAYER DVD"
 msgstr ""
 
 msgid "SMB version"
+msgstr ""
+
+msgid "SMB2"
+msgstr ""
+
+msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -17699,6 +17812,26 @@ msgstr ""
 msgid "Save time shift buffer now and continue recording"
 msgstr ""
 
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Context Menu"
+msgstr ""
+
+#, python-format
+msgid "Saved Wi-Fi Network '%s' Settings"
+msgstr ""
+
+msgid "Saved Wi-Fi Networks"
+msgstr ""
+
+msgid "Saved Wi-Fi network connection disabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network connection enabled."
+msgstr ""
+
+msgid "Saved Wi-Fi network will be retried automatically at next boot."
+msgstr ""
+
 msgid "Saved lines in script messages"
 msgstr ""
 
@@ -17739,6 +17872,9 @@ msgstr ""
 msgid "Scan %s band"
 msgstr ""
 
+msgid "Scan Wi-Fi Networks"
+msgstr ""
+
 #
 msgid "Scan additional SR"
 msgstr "Meklēt papildu SR"
@@ -17753,14 +17889,6 @@ msgid "Scan for local extensions and install them."
 msgstr ""
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Scan wireless networks"
-msgstr "Meklēt bezvadu tīklus"
-
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device."
 msgstr ""
 
 msgid "Scanning"
@@ -17786,6 +17914,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "Scanning failed!"
+msgstr ""
+
+msgid "Scanning for shares..."
+msgstr ""
+
+msgid "Scanning..."
 msgstr ""
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
@@ -17910,10 +18044,6 @@ msgstr "Meklēt rietumos"
 
 msgid "Second cable of motorized LNB"
 msgstr ""
-
-#
-msgid "Secondary DNS"
-msgstr "Sekundārā DNS"
 
 msgid "Secondary DNS (IPv4)"
 msgstr ""
@@ -18347,6 +18477,9 @@ msgstr "Izvēlieties atjaunināšanas avotu"
 msgid "Select Upgrade Source To Edit"
 msgstr ""
 
+msgid "Select Wi-Fi adapter"
+msgstr ""
+
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr ""
 
@@ -18390,6 +18523,9 @@ msgstr ""
 msgid "Select a network adapter"
 msgstr ""
 
+msgid "Select a network interface to configure, or skip to configure the network later in system settings."
+msgstr ""
+
 msgid "Select a permanent mount point for all devices"
 msgstr ""
 
@@ -18419,11 +18555,6 @@ msgstr ""
 
 msgid "Select a tuner"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Select a wireless network"
-msgstr "Meklēt bezvadu tīklus"
 
 #
 #, fuzzy
@@ -18478,6 +18609,9 @@ msgid "Select default File Commander directory:"
 msgstr ""
 
 msgid "Select destination for:"
+msgstr ""
+
+msgid "Select exported directories"
 msgstr ""
 
 msgid "Select files to exclude from backup"
@@ -18587,13 +18721,6 @@ msgid "Select input device"
 msgstr ""
 
 msgid "Select input device."
-msgstr ""
-
-#
-msgid "Select interface"
-msgstr ""
-
-msgid "Select menu entry"
 msgstr ""
 
 #
@@ -18916,12 +19043,6 @@ msgstr "izvēlēties filmas ceļu"
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr ""
 
-msgid ""
-"Select the network interface to be used for the Internet connection.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the network metric for this adapter. When multiple adapters are active, the one with the lowest network metric is used as the default route for network traffic."
 msgstr ""
 
@@ -19093,12 +19214,6 @@ msgstr ""
 msgid "Select the video mode to be used on the TV."
 msgstr ""
 
-msgid ""
-"Select the wireless network to which you want to connect.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
 msgstr ""
 
@@ -19191,10 +19306,6 @@ msgid "Select whether or not to show an icon when a motorized dish is moving."
 msgstr ""
 
 msgid "Select which IP protocols can be used with this adapter."
-msgstr ""
-
-#
-msgid "Select wireless network"
 msgstr ""
 
 msgid "Select your ATSC provider."
@@ -19726,6 +19837,9 @@ msgstr ""
 msgid "Set to yes for debugging the root cause of a spinner."
 msgstr ""
 
+msgid "Set up network"
+msgstr ""
+
 msgid "Set up tuner [TUNER]"
 msgstr ""
 
@@ -20231,11 +20345,6 @@ msgstr "rādīt galveno DVD izvēlni"
 msgid "Show Vertical EPG"
 msgstr "Vertikālā"
 
-#
-#, fuzzy
-msgid "Show WLAN status"
-msgstr "Rādīt bezvadu tīkla statusu"
-
 msgid "Show Web Link packages"
 msgstr ""
 
@@ -20416,11 +20525,6 @@ msgstr "Gaidstāve"
 
 #
 #, fuzzy
-msgid "Show info"
-msgstr "Rādīt informāciju"
-
-#
-#, fuzzy
 msgid "Show info line"
 msgstr "rādīt infojoslu"
 
@@ -20465,6 +20569,9 @@ msgid "Show movies"
 msgstr ""
 
 msgid "Show multi channel EPG"
+msgstr ""
+
+msgid "Show network adapter connection information"
 msgstr ""
 
 msgid "Show next commit log"
@@ -20671,6 +20778,9 @@ msgstr ""
 msgid "Show the Logs Settings screen"
 msgstr ""
 
+msgid "Show the Network Information for the selected adapter"
+msgstr ""
+
 msgid "Show the OSCam information screen"
 msgstr ""
 
@@ -20756,10 +20866,6 @@ msgstr ""
 msgid "Shows the icons when new/unseen, else will not show an icon."
 msgstr ""
 
-#
-msgid "Shows the state of your wireless LAN connection."
-msgstr "Rādīt bezvadu tīkla savienojuma statusu."
-
 msgid "Shows the watched status of the media."
 msgstr ""
 
@@ -20797,14 +20903,7 @@ msgstr ""
 msgid "Signal Finder"
 msgstr ""
 
-msgid "Signal quality"
-msgstr ""
-
 msgid "Signal strength"
-msgstr ""
-
-#
-msgid "Signal: "
 msgstr ""
 
 msgid "Signed by"
@@ -20960,6 +21059,9 @@ msgid "Skip forward (enter time)"
 msgstr "pārlēkt uz priekšu (ievadīt laiku)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
+msgstr ""
+
+msgid "Skip network setup"
 msgstr ""
 
 msgid "Skip package installation, only core packages will be available"
@@ -21346,6 +21448,18 @@ msgstr ""
 msgid "Sort by"
 msgstr ""
 
+msgid "Sort by Hostname/IP Address"
+msgstr ""
+
+msgid "Sort by IP Address"
+msgstr ""
+
+msgid "Sort by Mount Name"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
 msgid "Sort by default"
 msgstr ""
 
@@ -21558,10 +21672,6 @@ msgstr ""
 msgid "Start teletext"
 msgstr ""
 
-#
-msgid "Start test"
-msgstr "Sākt pārbaudi"
-
 msgid "Start the Chkroot initialization"
 msgstr ""
 
@@ -21615,6 +21725,9 @@ msgstr ""
 
 #. TRANSLATORS: "State" is location information and not condition based information.
 msgid "State"
+msgstr ""
+
+msgid "Static"
 msgstr ""
 
 msgid "Static IP / Custom"
@@ -21720,10 +21833,6 @@ msgid "Stop streams"
 msgstr ""
 
 #
-msgid "Stop test"
-msgstr "Apturēt testu"
-
-#
 msgid "Stop testing plane after # failed transponders"
 msgstr "Apturēt testēšanu pēc # neatrastiem transponderiem"
 
@@ -21794,6 +21903,12 @@ msgstr "Datu nesējs nav ierakstāms DVD!"
 #
 msgid "Store position"
 msgstr "Saglabāt pozīciju"
+
+msgid "Stored credentials deleted for this server."
+msgstr ""
+
+msgid "Stored credentials for this server have been deleted."
+msgstr ""
 
 #
 msgid "Stored position"
@@ -22444,11 +22559,6 @@ msgid "Test mode"
 msgstr "Testa režīms"
 
 #
-#, fuzzy, python-format
-msgid "Test the network configuration of your %s %s."
-msgstr "Pārbaudīt tīkla %s %s konfigurāciju."
-
-#
 #, fuzzy
 msgid "Test type"
 msgstr "Pārbaudes veids"
@@ -22555,18 +22665,6 @@ msgstr ""
 
 #, python-format
 msgid "The IceTV server has requested password for %s."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to be working.\n"
-"\n"
-"Press OK to continue."
-msgstr ""
-
-msgid ""
-"The Internet connection appears to not be working!\n"
-"\n"
-"Choose what to do next."
 msgstr ""
 
 msgid ""
@@ -22717,15 +22815,6 @@ msgstr ""
 msgid "The loopthrough setting is wrong."
 msgstr ""
 
-#
-#, fuzzy
-msgid ""
-"The network wizard extension is not installed!\n"
-"Please install it."
-msgstr ""
-"Bezvadu tīkla spraudnis nav uzstādīts!\n"
-"Lūdzu uzstādiet to."
-
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -22799,29 +22888,12 @@ msgstr ""
 msgid "The user interface of your %s %s will be stopped to run Kodi"
 msgstr ""
 
+#, python-format
+msgid "The user interface of your %s %s will be stopped to run RetroGaming"
+msgstr ""
+
 msgid "The width of the picture. The input will be scaled to match this value."
 msgstr ""
-
-msgid ""
-"The wireless LAN Internet connection could not be started!\n"
-"Is the wireless LAN device connected?\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid ""
-"The wireless LAN plugin code is not installed!\n"
-"\n"
-"Install it and choose what to do next."
-msgstr ""
-
-#
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it."
-msgstr ""
-"Bezvadu tīkla spraudnis nav uzstādīts!\n"
-"Lūdzu uzstādiet to."
 
 msgid "The wizard can backup your current settings. Do you want to start a backup now?"
 msgstr ""
@@ -23150,59 +23222,6 @@ msgstr ""
 
 msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
 msgstr ""
-
-#
-#, fuzzy
-msgid ""
-"This test checks for configured DNS.\n"
-"If you get an \"unconfirmed\" message:\n"
-"- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
-msgstr ""
-"Šis tests pārbauda domēna vārdu serveru konfigurāciju.\n"
-"Ja Jūs saņemat \"neapstiprināts \" paziņojumu:\n"
-"- lūdzu pārbaudiet DHCP, kabeļus un adaptera iestatni\n"
-"- ja konfigurējāt domēna vārdu serverus manuāli, pārbaudiet savus ierakstus \"Domēna vārdu serveris \" Konfigurācija"
-
-#
-#, fuzzy
-msgid ""
-"This test checks whether a network cable is connected to your LAN adapter.\n"
-"If you get a \"disconnected\" message:\n"
-"- verify that a network cable is attached\n"
-"- verify that the cable is not broken"
-msgstr ""
-"Šis tests pārbauda vai tīkla kabelis ir savienots ar tīkla adapteri.\n"
-"Ja Jūs saņemat \"atvienots \" paziņojumu:\n"
-"- pārliecinieties, ka tīkla kabelis ir pievienots\n"
-" - pārliecinieties, ka kabelis nav bojāts"
-
-#
-#, fuzzy
-msgid ""
-"This test checks whether a valid IP address is found for your LAN adapter.\n"
-"If you get a \"unconfirmed\" message:\n"
-"- no valid IP address was found\n"
-"- please check your DHCP, cabling and adapter setup"
-msgstr ""
-"Šis tests pārbauda vai tīkla adapterim ir atrasta derīga IP adrese. \n"
-"Ja Jūs saņemat \"neapstiprināts \" paziņojumu:\n"
-" - nav atrsta derīga IP adrese\n"
-" - lūdzu pārbaudiet DHCP, kabeļus un adaptera iestatni"
-
-msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
-"If you get a \"disabled\" message:\n"
-" - then your LAN adapter is configured for manual IP setup\n"
-"- verify that you have entered correct IP information in the adapter setup dialog.\n"
-"If you get an \"enabled\" message:\n"
-"-verify that you have a configured and working DHCP server in your network."
-msgstr ""
-
-#
-#, fuzzy
-msgid "This test detects your configured LAN adapter."
-msgstr "Šis tests atrod konfigurēto tīkla adapteri."
 
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
@@ -23574,6 +23593,9 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+msgid "Toggle picking a share by IP address or by DNS name"
+msgstr ""
+
 msgid "Toggle selection of the current tag"
 msgstr ""
 
@@ -23660,6 +23682,9 @@ msgid "Traditional"
 msgstr ""
 
 msgid "Traditional Chinese"
+msgstr ""
+
+msgid "Transceiver"
 msgstr ""
 
 #
@@ -24088,9 +24113,6 @@ msgstr ""
 msgid "Undetermined"
 msgstr ""
 
-msgid "Unencrypted"
-msgstr ""
-
 #, python-format
 msgid "Unexpected error accessing WebIF: %s"
 msgstr ""
@@ -24154,11 +24176,6 @@ msgstr ""
 msgid "Unknown Devices"
 msgstr ""
 
-msgid ""
-"Unknown Error creating Skin.\n"
-"Please check after reboot MyMetrixLite-Plugin and apply your settings."
-msgstr ""
-
 msgid "Unknown Packages"
 msgstr ""
 
@@ -24206,6 +24223,9 @@ msgstr ""
 msgid "Unpublished"
 msgstr ""
 
+msgid "Unreachable"
+msgstr ""
+
 msgid "Unscramble and record ECM"
 msgstr ""
 
@@ -24216,10 +24236,6 @@ msgid "Unscramble receiving http streams"
 msgstr ""
 
 msgid "Unset As Startup Service"
-msgstr ""
-
-#
-msgid "Unsupported"
 msgstr ""
 
 #
@@ -24446,10 +24462,6 @@ msgstr ""
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr ""
 
-#
-msgid "Use a gateway"
-msgstr "Lietot vārteju"
-
 msgid "Use alternate GitHub DNS"
 msgstr ""
 
@@ -24507,11 +24519,6 @@ msgstr ""
 msgid "Use increased voltage '14/18V' if there are problems when switching the LNB."
 msgstr ""
 
-#
-#, fuzzy
-msgid "Use interface"
-msgstr "Lietot interfeisu"
-
 msgid "Use key map *"
 msgstr ""
 
@@ -24522,9 +24529,6 @@ msgid "Use official channel numbering"
 msgstr ""
 
 msgid "Use only DNSSEC servers"
-msgstr ""
-
-msgid "Use only for Wake on WLan (WoW)"
 msgstr ""
 
 msgid "Use only no-filter servers"
@@ -24579,9 +24583,6 @@ msgstr ""
 msgid "Use the LEFT/RIGHT buttons on your remote to move the OSD up/down."
 msgstr ""
 
-msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
-msgstr ""
-
 msgid "Use the Softcam Panel to control your Cam. This let you start/stop/select a cam"
 msgstr ""
 
@@ -24598,14 +24599,6 @@ msgid "Use the current selection and exit"
 msgstr ""
 
 msgid "Use the extended List"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Use the network wizard to configure selected network adapter"
-msgstr "Lietot vedni tīkla konfigurēšanai\n"
-
-msgid "Use the network wizard to configure your Network."
 msgstr ""
 
 msgid "Use the wizard to set up basic features"
@@ -24691,6 +24684,12 @@ msgstr ""
 msgid "Username (httpuser)"
 msgstr ""
 
+msgid "Using DNS"
+msgstr ""
+
+msgid "Using IP"
+msgstr ""
+
 msgid "Using automatic address"
 msgstr ""
 
@@ -24716,9 +24715,6 @@ msgstr ""
 msgid "VCR Scart Settings"
 msgstr "VCR scart savienojums"
 
-msgid "VLAN connection"
-msgstr ""
-
 msgid "VMC"
 msgstr ""
 
@@ -24730,6 +24726,9 @@ msgid "VOB file"
 msgstr ""
 
 msgid "VOD"
+msgstr ""
+
+msgid "VPN"
 msgstr ""
 
 msgid "VPS Settings"
@@ -25099,13 +25098,6 @@ msgstr ""
 msgid "WARNING:"
 msgstr ""
 
-#
-msgid "WEP"
-msgstr "WEP"
-
-msgid "WLAN connection"
-msgstr ""
-
 msgid "WMA Pro"
 msgstr ""
 
@@ -25114,18 +25106,6 @@ msgstr ""
 
 msgid "WOL Standby"
 msgstr ""
-
-#
-msgid "WPA"
-msgstr "WPA"
-
-#
-msgid "WPA or WPA2"
-msgstr "WPA vai WPA2"
-
-#
-msgid "WPA2"
-msgstr "WPA2"
 
 #
 msgid "WSS on 4:3"
@@ -25143,6 +25123,9 @@ msgstr ""
 #
 msgid "Waiting"
 msgstr "Gaida"
+
+msgid "Waiting for IP address..."
+msgstr ""
 
 msgid "Waiting for partition"
 msgstr ""
@@ -25190,6 +25173,9 @@ msgid "Warning: %d feeds were unable to be reloaded!"
 msgstr ""
 
 msgid "Warning: Canceling this process will leave the feeds in an incomplete and unusable state!"
+msgstr ""
+
+msgid "Warning: No Wi-Fi adapter found!"
 msgstr ""
 
 msgid "Warning: Overrides are currently active!"
@@ -25532,9 +25518,6 @@ msgstr ""
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr ""
 
-msgid "When enabled, use DHCP for the IP configuration."
-msgstr ""
-
 msgid "When enabled, you can customize the OpenWebIf settings for the fallback tuner."
 msgstr "Ja ieslēgts, jūs varat pielāgot OpenWebIf iestatījumus attālinātam uztvērējam"
 
@@ -25600,6 +25583,28 @@ msgstr ""
 msgid "White"
 msgstr ""
 
+msgid "Wi-Fi"
+msgstr ""
+
+msgid "Wi-Fi Activation Actions"
+msgstr ""
+
+msgid "Wi-Fi Adapter"
+msgstr ""
+
+msgid "Wi-Fi Scan Actions"
+msgstr ""
+
+#, python-format
+msgid "Wi-Fi Scan On '%s'"
+msgstr ""
+
+msgid "Wi-Fi connection"
+msgstr ""
+
+msgid "Wi-Fi link"
+msgstr ""
+
 msgid "Wide"
 msgstr ""
 
@@ -25622,32 +25627,6 @@ msgid "Wipe Storage Device"
 msgstr ""
 
 msgid "Wiping storage device..."
-msgstr ""
-
-#
-msgid "Wireless LAN"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Wireless network"
-msgstr "Bezvadu tīkls"
-
-#
-#, fuzzy
-msgid "Wireless network configuration..."
-msgstr "Tīkla konfigurācija..."
-
-msgid ""
-"Wireless network connection setup.\n"
-"\n"
-"Choose what to do next."
-msgstr ""
-
-msgid "Wireless network setup"
-msgstr ""
-
-msgid "Wireless network state"
 msgstr ""
 
 msgid "With EXIT button"
@@ -25950,14 +25929,6 @@ msgid "Your %s %s is not connected to the Internet, please check your network se
 msgstr ""
 
 #, python-format
-msgid ""
-"Your %s %s is now ready to be used.\n"
-"\n"
-"Your Internet connection is working now.\n"
-"\n"
-msgstr ""
-
-#, python-format
 msgid "Your %s %s is rebooting"
 msgstr ""
 
@@ -25985,33 +25956,11 @@ msgid "Your %s %s will Restart..."
 msgstr ""
 
 #, python-format
-msgid ""
-"Your %s %s will be restarted after the installation of service.\n"
-"\n"
-"Do you want to install now ?"
-msgstr ""
-
-#, python-format
-msgid ""
-"Your %s %s will be restarted after the removal of service\n"
-"Do you want to remove now?"
-msgstr ""
-
-#
-msgid ""
-"Your Internet connection is not working!\n"
-"Please choose what you want to do next."
-msgstr ""
-
-#, python-format
 msgid "Your Internet connection is working (IP: %s)"
 msgstr ""
 
 #, python-format
 msgid "Your Receiver has a Software problem detected. Since the last reboot it has occurred %d times.\n"
-msgstr ""
-
-msgid "Your STB will restart after pressing OK on your remote control."
 msgstr ""
 
 #
@@ -26053,10 +26002,6 @@ msgid ""
 "Your front panel will be upgraded\n"
 "This may take a few minutes"
 msgstr ""
-
-#
-msgid "Your network configuration has been activated."
-msgstr "Tīkla konfigurācija aktivizēta."
 
 msgid "Your password must have at least 5 characters."
 msgstr ""
@@ -26330,14 +26275,6 @@ msgstr ""
 msgid "config menu"
 msgstr ""
 
-#
-msgid "confirmed"
-msgstr "apstiprināts(a)"
-
-#
-msgid "connected"
-msgstr "pievienots"
-
 msgid "copy"
 msgstr ""
 
@@ -26364,10 +26301,6 @@ msgstr "dzēst griešanu"
 #
 msgid "disabled"
 msgstr "izslēgts"
-
-#
-msgid "disconnected"
-msgstr "atvienots"
 
 msgid "eMMC"
 msgstr ""
@@ -26672,9 +26605,6 @@ msgstr "no lietotā DIVSLĀŅU datu nesēja."
 msgid "of a SINGLE layer medium used."
 msgstr "no lietotā VIENSLĀŅA datu nesēja."
 
-msgid "off or wpa2 on"
-msgstr ""
-
 msgid "offset is"
 msgstr ""
 
@@ -26907,10 +26837,6 @@ msgid "unavailable"
 msgstr ""
 
 #
-msgid "unconfirmed"
-msgstr "neapstiprināts"
-
-#
 msgid "unknown"
 msgstr ""
 
@@ -26979,6 +26905,342 @@ msgstr "jā (paturēt barotnes)"
 
 msgid "®"
 msgstr ""
+
+#
+#, fuzzy, python-format
+#~ msgid "%d wireless network found!"
+#~ msgid_plural "%d wireless networks found!"
+#~ msgstr[0] "Bezvadu tīkls"
+#~ msgstr[1] "Bezvadu tīkls"
+
+#
+#~ msgid "Activate network settings"
+#~ msgstr "Aktivizēt tīkla iestatījumus"
+
+#
+#~ msgid "Are you sure you want to activate this network configuration?"
+#~ msgstr "Vai tiešām vēlaties aktivizēt šo tīkla konfigurāciju?"
+
+#
+#~ msgid "Are you sure you want to restart your network interfaces?"
+#~ msgstr "Vai tiešām vēlaties restartēt tīkla interfeisus?"
+
+#
+#~ msgid "Back"
+#~ msgstr "Atpakaļ"
+
+#
+#, fuzzy
+#~ msgid "Connect to a wireless network"
+#~ msgstr "Meklēt bezvadu tīklus"
+
+#
+#~ msgid "Current settings:"
+#~ msgstr "Pašreizējie iestatījumi:"
+
+#
+#~ msgid "DHCP"
+#~ msgstr "DHCP"
+
+#
+#, fuzzy, python-format
+#~ msgid "Edit the DNS configuration of your %s %s."
+#~ msgstr "Rediģēt %s %s domēna vārdu servera konfigurāciju."
+
+#
+#, fuzzy, python-format
+#~ msgid "Edit the network configuration of your %s %s."
+#~ msgstr "Rediģēt %s %s tīkla konfigurāciju."
+
+#
+#, fuzzy
+#~ msgid "Encryption Type:"
+#~ msgstr "Šifrēšanas atslēga"
+
+#
+#, fuzzy
+#~ msgid "Encryption key"
+#~ msgstr "Šifrēšanas atslēga"
+
+#
+#, fuzzy
+#~ msgid "Encryption key type"
+#~ msgstr "Šifrēšanas atslēgas veids"
+
+#
+#~ msgid "Exit network adapter configuration"
+#~ msgstr "iziet no tīkla adaptera konfigurācijas"
+
+#
+#, fuzzy
+#~ msgid "Exit network interface list"
+#~ msgstr "iziet no tīkla saskarņu saraksta"
+
+#
+#~ msgid "Exit network wizard"
+#~ msgstr "Iziet no tīkla iestatīšanas vedņa"
+
+#
+#~ msgid "Extended Networksetup Plugin..."
+#~ msgstr "Paplašinātās tīkla iestatnes spraudnis..."
+
+#
+#~ msgid "Extended Setup..."
+#~ msgstr "Paplašinātā iestatne..."
+
+#
+#~ msgid "Finished configuring your network"
+#~ msgstr "Tīkla konfigurēšana pabeigta"
+
+#
+#, fuzzy
+#~ msgid "Frequency Norm:"
+#~ msgstr "Frekvence"
+
+#
+#, fuzzy
+#~ msgid "LAN adapter"
+#~ msgstr "Tīkla adapteris"
+
+#
+#~ msgid "Link:"
+#~ msgstr "Saite:"
+
+#
+#, fuzzy
+#~ msgid "Local network"
+#~ msgstr "Lokālais tīkls"
+
+#
+#, fuzzy
+#~ msgid "MAC-address"
+#~ msgstr "IP adrese"
+
+#
+#~ msgid "Nameserver"
+#~ msgstr "Domēna vārdu serveris"
+
+#
+#~ msgid "Nameserver settings"
+#~ msgstr "Domēna vārdu servera iestatījumi"
+
+#
+#~ msgid "Network test"
+#~ msgstr "Tīkla pārbaude"
+
+#
+#~ msgid "Network:"
+#~ msgstr "Tīkls:"
+
+#
+#~ msgid ""
+#~ "No working local network adapter found.\n"
+#~ "Please verify that you have attached a network cable and your network is configured correctly."
+#~ msgstr ""
+#~ "Netika atrasts strādājošs lokālā tīkla adapteris.\n"
+#~ "Lūdzu pārliecinieties, ka ir pievienots tīkla kabelis un tīkls ir pareizi konfigurēts."
+
+#
+#~ msgid ""
+#~ "No working wireless network adapter found.\n"
+#~ "Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+#~ msgstr ""
+#~ "Netika atrasts strādājošs bezvadu tīkla adapteris.\n"
+#~ "Lūdzu pārliecinieties, ka ir pievienota saderīga bezvadu tīkla ierīce un tīkls ir pareizi konfigurēts."
+
+#
+#~ msgid ""
+#~ "No working wireless network interface found.\n"
+#~ " Please verify that you have attached a compatible WLAN device or enable your local network interface."
+#~ msgstr ""
+#~ "Netika atrasts strādājošs bezvadu tīkla interfeiss.\n"
+#~ " Lūdzu pārliecinieties, ka ir pievienota saderīga bezvadu tīkla ierīce vai aktivizējiet lokālā tīkla interfeisu."
+
+#
+#~ msgid "Please follow the instructions on the TV"
+#~ msgstr "Lūdzu sekojiet instrukcijām TV ekrānā"
+
+#
+#~ msgid "Please press OK to continue."
+#~ msgstr "Lūdzu spiediet OK, lai turpinātu."
+
+#
+#~ msgid "Please wait for activation of your network configuration..."
+#~ msgstr "Lūdzu gaidiet, kamēr tīkla konfigurācija tiek aktivizēta..."
+
+#
+#~ msgid "Press OK to activate the settings."
+#~ msgstr "Spiediet OK, lai aktivizētu iestatījumus."
+
+#
+#~ msgid "Primary DNS"
+#~ msgstr "Primārā DNS"
+
+#
+#~ msgid "Restart your network connection and interfaces."
+#~ msgstr "Restartēt tīkla konfigurāciju un interfeisus."
+
+#
+#, fuzzy
+#~ msgid "Scan wireless networks"
+#~ msgstr "Meklēt bezvadu tīklus"
+
+#
+#~ msgid "Secondary DNS"
+#~ msgstr "Sekundārā DNS"
+
+#
+#, fuzzy
+#~ msgid "Select a wireless network"
+#~ msgstr "Meklēt bezvadu tīklus"
+
+#
+#, fuzzy
+#~ msgid "Show WLAN status"
+#~ msgstr "Rādīt bezvadu tīkla statusu"
+
+#
+#, fuzzy
+#~ msgid "Show info"
+#~ msgstr "Rādīt informāciju"
+
+#
+#~ msgid "Shows the state of your wireless LAN connection."
+#~ msgstr "Rādīt bezvadu tīkla savienojuma statusu."
+
+#
+#~ msgid "Start test"
+#~ msgstr "Sākt pārbaudi"
+
+#
+#~ msgid "Stop test"
+#~ msgstr "Apturēt testu"
+
+#
+#, fuzzy, python-format
+#~ msgid "Test the network configuration of your %s %s."
+#~ msgstr "Pārbaudīt tīkla %s %s konfigurāciju."
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "The network wizard extension is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Bezvadu tīkla spraudnis nav uzstādīts!\n"
+#~ "Lūdzu uzstādiet to."
+
+#
+#~ msgid ""
+#~ "The wireless LAN plugin is not installed!\n"
+#~ "Please install it."
+#~ msgstr ""
+#~ "Bezvadu tīkla spraudnis nav uzstādīts!\n"
+#~ "Lūdzu uzstādiet to."
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "This test checks for configured DNS.\n"
+#~ "If you get an \"unconfirmed\" message:\n"
+#~ "- please check your DHCP, cabling and adapter setup\n"
+#~ "- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+#~ msgstr ""
+#~ "Šis tests pārbauda domēna vārdu serveru konfigurāciju.\n"
+#~ "Ja Jūs saņemat \"neapstiprināts \" paziņojumu:\n"
+#~ "- lūdzu pārbaudiet DHCP, kabeļus un adaptera iestatni\n"
+#~ "- ja konfigurējāt domēna vārdu serverus manuāli, pārbaudiet savus ierakstus \"Domēna vārdu serveris \" Konfigurācija"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "This test checks whether a network cable is connected to your LAN adapter.\n"
+#~ "If you get a \"disconnected\" message:\n"
+#~ "- verify that a network cable is attached\n"
+#~ "- verify that the cable is not broken"
+#~ msgstr ""
+#~ "Šis tests pārbauda vai tīkla kabelis ir savienots ar tīkla adapteri.\n"
+#~ "Ja Jūs saņemat \"atvienots \" paziņojumu:\n"
+#~ "- pārliecinieties, ka tīkla kabelis ir pievienots\n"
+#~ " - pārliecinieties, ka kabelis nav bojāts"
+
+#
+#, fuzzy
+#~ msgid ""
+#~ "This test checks whether a valid IP address is found for your LAN adapter.\n"
+#~ "If you get a \"unconfirmed\" message:\n"
+#~ "- no valid IP address was found\n"
+#~ "- please check your DHCP, cabling and adapter setup"
+#~ msgstr ""
+#~ "Šis tests pārbauda vai tīkla adapterim ir atrasta derīga IP adrese. \n"
+#~ "Ja Jūs saņemat \"neapstiprināts \" paziņojumu:\n"
+#~ " - nav atrsta derīga IP adrese\n"
+#~ " - lūdzu pārbaudiet DHCP, kabeļus un adaptera iestatni"
+
+#
+#, fuzzy
+#~ msgid "This test detects your configured LAN adapter."
+#~ msgstr "Šis tests atrod konfigurēto tīkla adapteri."
+
+#
+#~ msgid "Use a gateway"
+#~ msgstr "Lietot vārteju"
+
+#
+#, fuzzy
+#~ msgid "Use interface"
+#~ msgstr "Lietot interfeisu"
+
+#
+#, fuzzy
+#~ msgid "Use the network wizard to configure selected network adapter"
+#~ msgstr "Lietot vedni tīkla konfigurēšanai\n"
+
+#
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#
+#~ msgid "WPA or WPA2"
+#~ msgstr "WPA vai WPA2"
+
+#
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#
+#, fuzzy
+#~ msgid "Wireless network"
+#~ msgstr "Bezvadu tīkls"
+
+#
+#, fuzzy
+#~ msgid "Wireless network configuration..."
+#~ msgstr "Tīkla konfigurācija..."
+
+#
+#~ msgid "Your network configuration has been activated."
+#~ msgstr "Tīkla konfigurācija aktivizēta."
+
+#
+#~ msgid "confirmed"
+#~ msgstr "apstiprināts(a)"
+
+#
+#~ msgid "connected"
+#~ msgstr "pievienots"
+
+#
+#~ msgid "disconnected"
+#~ msgstr "atvienots"
+
+#
+#~ msgid "unconfirmed"
+#~ msgstr "neapstiprināts"
 
 #
 #~ msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
