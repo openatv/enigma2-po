@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-16 15:24+0000\n"
-"PO-Revision-Date: 2026-08-17 05:03+0000\n"
+"PO-Revision-Date: 2026-08-17 18:33+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
 "Language: fi\n"
@@ -894,8 +894,8 @@ msgstr[1] "%d Ohjelmisto valmistaja listat on päivitetty."
 #, python-format
 msgid "%d host found."
 msgid_plural "%d hosts found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Isäntä löytyi."
+msgstr[1] "%d Isännät löytyivät."
 
 #, python-format
 msgid "%d jobs are running in the background!"
@@ -920,8 +920,8 @@ msgstr "%d ms"
 #, python-format
 msgid "%d network found."
 msgid_plural "%d networks found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d verkko löytyi."
+msgstr[1] "%d verkkoa löytyi."
 
 #, python-format
 msgid "%d package found."
@@ -1266,19 +1266,19 @@ msgstr "'%s' sisältää %d tiedosto(a) ja %d alikansiota.\n"
 
 #, python-format
 msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
-msgstr ""
+msgstr "'%s' on jo määritetty erillisessä yllä olevassa asetuksessa, poista se ”Liitosasetukset” kentästä."
 
 #, python-format
 msgid "'%s' is listed more than once in 'Mount options'."
-msgstr ""
+msgstr "'%s' on määritetty useammin kuin kerran ”Liitosasetukset”kentässä."
 
 #, python-format
 msgid "'%s' mounted."
-msgstr ""
+msgstr "'%s' liitetty."
 
 #, python-format
 msgid "'%s' unmounted."
-msgstr ""
+msgstr "'%s' irrotettu."
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "Puskuri tunteina tai viimeaikaisten tapahtumien määrä. Etusijalla poistaa vanhemmat aikasiirtotiedostot."
@@ -1377,7 +1377,7 @@ msgid "10bit"
 msgstr "10bit"
 
 msgid "10th (Lowest)"
-msgstr ""
+msgstr "10th (Alin)"
 
 msgid "12 character"
 msgstr "12 merkki"
@@ -1431,7 +1431,7 @@ msgid "18 V"
 msgstr "18 V"
 
 msgid "1st (Highest)"
-msgstr ""
+msgstr "1st (korkein)"
 
 msgid "1st InfoBar timeout"
 msgstr "1. tietopalkin näyttöaika"
@@ -1443,7 +1443,7 @@ msgid "2"
 msgstr "2"
 
 msgid "2nd"
-msgstr ""
+msgstr "2nd"
 
 msgid "2nd InfoBar"
 msgstr "2. tietopalkki"
@@ -1485,7 +1485,7 @@ msgid "3D Surround Speaker Position"
 msgstr "3D Kotiteatteri kaiuttimen tila"
 
 msgid "3rd"
-msgstr ""
+msgstr "3rd"
 
 msgid "3x"
 msgstr "3x"
@@ -1506,7 +1506,7 @@ msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
 msgid "4th"
-msgstr ""
+msgstr "4th"
 
 msgid "4x"
 msgstr "4x"
@@ -1518,19 +1518,19 @@ msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
 
 msgid "5th"
-msgstr ""
+msgstr "5th"
 
 msgid "6"
 msgstr "6"
 
 msgid "6th"
-msgstr ""
+msgstr "6th"
 
 msgid "7"
 msgstr "7"
 
 msgid "7th"
-msgstr ""
+msgstr "7th"
 
 msgid "8"
 msgstr "8"
@@ -1542,13 +1542,13 @@ msgid "8bit"
 msgstr "8bit"
 
 msgid "8th"
-msgstr ""
+msgstr "8th"
 
 msgid "9"
 msgstr "9"
 
 msgid "9th"
-msgstr ""
+msgstr "9th"
 
 msgid "< Alternate Skin >"
 msgstr "Vaihtoehtoinen Teema"
@@ -1834,6 +1834,8 @@ msgid ""
 "Access point not found.\n"
 "Check it is in range and the SSID is correct."
 msgstr ""
+"Tukiasemaa ei löytynyt.\n"
+"Tarkista, että se on kantaman sisällä ja SSID-tunnus on oikein."
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Paikannustietojen käyttö edellyttää internet yhteyttä."
@@ -1875,7 +1877,7 @@ msgid "Activate a way to send individual or specific internal HDMI-CEC commands 
 msgstr "Aktivoi tapa lähettää yksittäisiä tai tiettyjä sisäisiä HDMI-CEC-komentoja komentoriviltä."
 
 msgid "Activate network adapter"
-msgstr ""
+msgstr "Aktivoi verkkoadapteri"
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr "Aktivoi muistin laajennus, tallenna kaikki muutetut asetukset ja poistu"
@@ -1899,11 +1901,11 @@ msgid "Active only"
 msgstr "Vain aktiivinen"
 
 msgid "Adapter"
-msgstr ""
+msgstr "Sovitin"
 
 #, python-format
 msgid "Adapter '%s' Context Menu"
-msgstr ""
+msgstr "Sovittimen ”%s” Konteksti Valikko"
 
 msgid "Adapter Settings"
 msgstr "Sovittimen asetukset"
@@ -1948,7 +1950,7 @@ msgid "Add Marker To Bouquet"
 msgstr "Lisää väliotsikko"
 
 msgid "Add Mount Manually"
-msgstr ""
+msgstr "Lisää liitos manuaalisesti"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Lisää uusi lähetin ryhmä"
@@ -1975,10 +1977,10 @@ msgid "Add To Parental Protection"
 msgstr "Suojaa kanava lapsilukolla"
 
 msgid "Add Wi-Fi"
-msgstr ""
+msgstr "Lisää Wi-Fi"
 
 msgid "Add Wi-Fi Manually"
-msgstr ""
+msgstr "Lisää Wi-Fi manuaalisesti"
 
 msgid "Add Zap+RecordTimer"
 msgstr "Lisää vaihda ja tallenna ajastus"
@@ -2008,7 +2010,7 @@ msgid "Add a mark"
 msgstr "Lisää merkki"
 
 msgid "Add a new Saved Wi-Fi Network"
-msgstr ""
+msgstr "Lisää uusi Wi-Fi-verkko"
 
 msgid "Add a new bouquet"
 msgstr "Lisää uusi suosikkilista"
