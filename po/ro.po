@@ -4,13 +4,14 @@
 # Automatically generated, 2005.
 #
 # openATV <openatv@gmail.com>, 2026.
+# jbleyel <jbleyel@gmx.net>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 15:24+0000\n"
-"PO-Revision-Date: 2026-08-16 18:19+0000\n"
-"Last-Translator: openATV <openatv@gmail.com>\n"
+"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"PO-Revision-Date: 2026-08-17 22:31+0000\n"
+"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -50,13 +51,13 @@ msgid " (Partition %d)"
 msgstr ""
 
 msgid " (current channel)"
-msgstr ""
+msgstr " (canal curent)"
 
 msgid " (disabled)"
-msgstr ""
+msgstr " (dezactivat)"
 
 msgid " (higher than any auto)"
-msgstr ""
+msgstr " (mai mare ca orice auto)"
 
 msgid " (higher than rotor any auto)"
 msgstr ""
@@ -64,9 +65,8 @@ msgstr ""
 msgid " (lower than any auto)"
 msgstr ""
 
-#, fuzzy
 msgid " <No Channel>"
-msgstr "Canal"
+msgstr " <Niciun Canal>"
 
 #, fuzzy
 msgid " <empty>"
@@ -76,7 +76,7 @@ msgid " HI "
 msgstr ""
 
 msgid " and"
-msgstr ""
+msgstr " si"
 
 #, fuzzy
 msgid ""
@@ -90,7 +90,7 @@ msgstr ""
 
 #, fuzzy
 msgid " updated"
-msgstr "Updateza"
+msgstr " Updateza"
 
 msgid "!! Boot loader Upgrade !!"
 msgstr ""
@@ -1222,6 +1222,10 @@ msgid "%s%s(Default: %s)"
 msgstr ""
 
 #, python-format
+msgid "%s. (Lowest)"
+msgstr ""
+
+#, python-format
 msgid "%s/%s: %s"
 msgstr ""
 
@@ -1365,19 +1369,10 @@ msgstr ""
 msgid "1"
 msgstr ""
 
-msgid "1.0"
-msgstr ""
-
-msgid "1.1"
-msgstr ""
-
-msgid "1.2"
+msgid "1. (Highest)"
 msgstr ""
 
 msgid "10bit"
-msgstr ""
-
-msgid "10th (Lowest)"
 msgstr ""
 
 msgid "12 character"
@@ -1399,16 +1394,10 @@ msgstr ""
 msgid "12bit 4:2:0/4:2:2 no PiP"
 msgstr ""
 
-msgid "13 V"
-msgstr ""
-
 msgid "16:10 Letterbox"
 msgstr ""
 
 msgid "16:10 PanScan"
-msgstr ""
-
-msgid "16:9"
 msgstr ""
 
 msgid "16:9 Always"
@@ -1429,12 +1418,6 @@ msgstr ""
 msgid "16:9 reset to normal"
 msgstr ""
 
-msgid "18 V"
-msgstr ""
-
-msgid "1st (Highest)"
-msgstr ""
-
 msgid "1st InfoBar timeout"
 msgstr ""
 
@@ -1442,9 +1425,6 @@ msgid "1x"
 msgstr ""
 
 msgid "2"
-msgstr ""
-
-msgid "2nd"
 msgstr ""
 
 msgid "2nd InfoBar"
@@ -1488,9 +1468,6 @@ msgstr "Sunet"
 msgid "3D Surround Speaker Position"
 msgstr ""
 
-msgid "3rd"
-msgstr ""
-
 msgid "3x"
 msgstr ""
 
@@ -1509,9 +1486,6 @@ msgstr ""
 msgid "4:3 PanScan"
 msgstr ""
 
-msgid "4th"
-msgstr ""
-
 msgid "4x"
 msgstr ""
 
@@ -1521,19 +1495,10 @@ msgstr ""
 msgid "50-200 Mbps"
 msgstr ""
 
-msgid "5th"
-msgstr ""
-
 msgid "6"
 msgstr ""
 
-msgid "6th"
-msgstr ""
-
 msgid "7"
-msgstr ""
-
-msgid "7th"
 msgstr ""
 
 msgid "8"
@@ -1545,13 +1510,7 @@ msgstr ""
 msgid "8bit"
 msgstr ""
 
-msgid "8th"
-msgstr ""
-
 msgid "9"
-msgstr ""
-
-msgid "9th"
 msgstr ""
 
 #, fuzzy
@@ -13571,9 +13530,6 @@ msgstr ""
 msgid "Once"
 msgstr "odata"
 
-msgid "One"
-msgstr "Unu"
-
 msgid "One line"
 msgstr ""
 
@@ -16542,12 +16498,6 @@ msgid "SINGLE LAYER DVD"
 msgstr ""
 
 msgid "SMB version"
-msgstr ""
-
-msgid "SMB2"
-msgstr ""
-
-msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -21992,9 +21942,6 @@ msgstr ""
 msgid "This wizard has finished."
 msgstr ""
 
-msgid "Three"
-msgstr "Trei"
-
 msgid "Threshold"
 msgstr "Prag"
 
@@ -22679,9 +22626,6 @@ msgstr ""
 
 msgid "Twin Tuner"
 msgstr ""
-
-msgid "Two"
-msgstr "Doi"
 
 msgid "Two lines"
 msgstr ""
@@ -25424,6 +25368,15 @@ msgstr "da (pastreaza feed-uri)"
 
 msgid "®"
 msgstr ""
+
+#~ msgid "One"
+#~ msgstr "Unu"
+
+#~ msgid "Three"
+#~ msgstr "Trei"
+
+#~ msgid "Two"
+#~ msgstr "Doi"
 
 #, fuzzy, python-format
 #~ msgid "%d wireless network found!"

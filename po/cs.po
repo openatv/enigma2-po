@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 15:24+0000\n"
-"PO-Revision-Date: 2026-08-17 05:01+0000\n"
+"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"PO-Revision-Date: 2026-08-21 14:51+0000\n"
 "Last-Translator: Petr Turek <turekdesign99@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
@@ -916,9 +916,9 @@ msgstr[2] "%d balíčků katalogu zdrojů bylo aktualizováno."
 #, python-format
 msgid "%d host found."
 msgid_plural "%d hosts found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nalezen %d hostitel."
+msgstr[1] "Nalezeni %d hostitelé."
+msgstr[2] "Nalezeno %d hostitelů."
 
 #, python-format
 msgid "%d jobs are running in the background!"
@@ -943,9 +943,9 @@ msgstr "%d ms"
 #, python-format
 msgid "%d network found."
 msgid_plural "%d networks found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nalezena %d síť."
+msgstr[1] "Nalezeny %d sítě."
+msgstr[2] "Nalezeno %d sítí."
 
 #, python-format
 msgid "%d package found."
@@ -1262,6 +1262,10 @@ msgid "%s%s(Default: %s)"
 msgstr "%s%s(Výchozí: %s)"
 
 #, python-format
+msgid "%s. (Lowest)"
+msgstr "%s. (Nejnižší)"
+
+#, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
@@ -1307,19 +1311,19 @@ msgstr "'%s' obsahuje %d soubor(ů) a %d podadresářů.\n"
 
 #, python-format
 msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
-msgstr ""
+msgstr "'%s' je již nastaveno výše uvedeným vyhrazeným nastavením, odeberte ho z 'Možností připojení'."
 
 #, python-format
 msgid "'%s' is listed more than once in 'Mount options'."
-msgstr ""
+msgstr "'%s' je v 'Možnosti připojení' uvedeno vícekrát."
 
 #, python-format
 msgid "'%s' mounted."
-msgstr ""
+msgstr "'%s' připojen."
 
 #, python-format
 msgid "'%s' unmounted."
-msgstr ""
+msgstr "'%s' odpojeno."
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Buffer v hodinách' nebo 'počet posledních událostí'. Pro smazání starších Timeshift souborů. Stav, který nastal dčíve má prioritu."
@@ -1405,20 +1409,11 @@ msgstr "0"
 msgid "1"
 msgstr "1"
 
-msgid "1.0"
-msgstr "1.0"
-
-msgid "1.1"
-msgstr "1.1"
-
-msgid "1.2"
-msgstr "1.2"
+msgid "1. (Highest)"
+msgstr "1. (Nejvyšší)"
 
 msgid "10bit"
 msgstr "10bit"
-
-msgid "10th (Lowest)"
-msgstr ""
 
 msgid "12 character"
 msgstr "12 znaků"
@@ -1438,17 +1433,11 @@ msgstr "12bit"
 msgid "12bit 4:2:0/4:2:2 no PiP"
 msgstr "12bit 4:2:0/4:2:2 bez PiP"
 
-msgid "13 V"
-msgstr "13 V"
-
 msgid "16:10 Letterbox"
 msgstr "16:10 Letterbox"
 
 msgid "16:10 PanScan"
 msgstr "16:10 PanScan"
-
-msgid "16:9"
-msgstr "16:9"
 
 msgid "16:9 Always"
 msgstr "Vždy 16:9"
@@ -1468,12 +1457,6 @@ msgstr "16:9 PanScan"
 msgid "16:9 reset to normal"
 msgstr "16/9 reset do normálu"
 
-msgid "18 V"
-msgstr "18 V"
-
-msgid "1st (Highest)"
-msgstr ""
-
 msgid "1st InfoBar timeout"
 msgstr "První Infobar skrýt"
 
@@ -1482,9 +1465,6 @@ msgstr "1x"
 
 msgid "2"
 msgstr "2"
-
-msgid "2nd"
-msgstr ""
 
 msgid "2nd InfoBar"
 msgstr "Druhý Infobar"
@@ -1525,9 +1505,6 @@ msgstr "3D Surround (prostorový zvuk)"
 msgid "3D Surround Speaker Position"
 msgstr "3D Surround (prostorový zvuk) umístění reproduktoru"
 
-msgid "3rd"
-msgstr ""
-
 msgid "3x"
 msgstr "3x"
 
@@ -1546,9 +1523,6 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
-msgid "4th"
-msgstr ""
-
 msgid "4x"
 msgstr "4x"
 
@@ -1558,20 +1532,11 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
 
-msgid "5th"
-msgstr ""
-
 msgid "6"
 msgstr "6"
 
-msgid "6th"
-msgstr ""
-
 msgid "7"
 msgstr "7"
-
-msgid "7th"
-msgstr ""
 
 msgid "8"
 msgstr "8"
@@ -1582,14 +1547,8 @@ msgstr "8 znaků"
 msgid "8bit"
 msgstr "8bit"
 
-msgid "8th"
-msgstr ""
-
 msgid "9"
 msgstr "9"
-
-msgid "9th"
-msgstr ""
 
 msgid "< Alternate Skin >"
 msgstr "< Alternativní vzhled >"
@@ -1867,6 +1826,8 @@ msgid ""
 "Access point not found.\n"
 "Check it is in range and the SSID is correct."
 msgstr ""
+"Přístupový bod nenalezen.\n"
+"Zkontrolujte, zda je v dosahu a zda je SSID správné."
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Přístup ke geolokačním informacím vyžaduje připojení k internetu."
@@ -1908,7 +1869,7 @@ msgid "Activate a way to send individual or specific internal HDMI-CEC commands 
 msgstr "Aktivuje způsob odesílání jednotlivých nebo specifických interních příkazů HDMI-CEC z příkazového řádku."
 
 msgid "Activate network adapter"
-msgstr ""
+msgstr "Aktivace síťového adaptéru"
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr "Aktivovat flash expandér, uložit všechna změněná nastavení a ukončit"
@@ -1932,11 +1893,11 @@ msgid "Active only"
 msgstr "Pouze aktivní"
 
 msgid "Adapter"
-msgstr ""
+msgstr "Adaptér"
 
 #, python-format
 msgid "Adapter '%s' Context Menu"
-msgstr ""
+msgstr "Kontextová nabídka adaptéru '%s'"
 
 msgid "Adapter Settings"
 msgstr "Nastavení adaptéru"
@@ -1981,7 +1942,7 @@ msgid "Add Marker To Bouquet"
 msgstr "Přidat značku"
 
 msgid "Add Mount Manually"
-msgstr ""
+msgstr "Ruční přidání připojení"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Přidat nový čtyřkanálový záznam"
@@ -2008,10 +1969,10 @@ msgid "Add To Parental Protection"
 msgstr "Přidat do rodičovské ochrany"
 
 msgid "Add Wi-Fi"
-msgstr ""
+msgstr "Přidat Wi-Fi"
 
 msgid "Add Wi-Fi Manually"
-msgstr ""
+msgstr "Ruční přidání Wi-Fi"
 
 msgid "Add Zap+RecordTimer"
 msgstr "Přidat Zap+ časovač nahrávání"
@@ -2041,7 +2002,7 @@ msgid "Add a mark"
 msgstr "Přidat značku"
 
 msgid "Add a new Saved Wi-Fi Network"
-msgstr ""
+msgstr "Přidat novou uloženou síť Wi-Fi"
 
 msgid "Add a new bouquet"
 msgstr "Přidat přehled"
@@ -2733,7 +2694,7 @@ msgid "Assigned services/provider:"
 msgstr "Přiřazení programů/poskytovatelů:"
 
 msgid "Associated"
-msgstr ""
+msgstr "Související"
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19.2e"
@@ -2945,7 +2906,7 @@ msgid "Available shares:"
 msgstr "Dostupná sdílení:"
 
 msgid "Available tuner types"
-msgstr ""
+msgstr "Dostupné typy tunerů"
 
 msgid "Avaric"
 msgstr "Avarský"
@@ -2997,7 +2958,7 @@ msgid "BLUE switch: BLUE/BLUE long"
 msgstr "Modré tlačítko - stisk: Krátký/Dlouhý"
 
 msgid "BSSID"
-msgstr ""
+msgstr "BSSID"
 
 msgid "Back USB"
 msgstr "Zadní USB port"
@@ -3397,10 +3358,10 @@ msgid "Broadcom"
 msgstr "Broadcom"
 
 msgid "Broadcom default"
-msgstr ""
+msgstr "Výchozí Broadcom"
 
 msgid "Browse"
-msgstr ""
+msgstr "Procházet"
 
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Procházejte, instalujte nebo odeberte pluginy jeden po druhém."
@@ -3462,7 +3423,7 @@ msgid "Burundi"
 msgstr "Burundi"
 
 msgid "Bus"
-msgstr ""
+msgstr "Sběrnice"
 
 msgid "Business"
 msgstr "Obchodování"
@@ -3495,13 +3456,13 @@ msgid "C-Band"
 msgstr "C-pásmo"
 
 msgid "C/T input"
-msgstr ""
+msgstr "Vstup C/T"
 
 msgid "C/T input switching"
-msgstr ""
+msgstr "Přepínání vstupů C/T"
 
 msgid "C/T input switching: external 5V coax switch"
-msgstr ""
+msgstr "Přepínání vstupů C/T: externí 5V koaxiální přepínač"
 
 msgid "CCD-Width"
 msgstr "Šířka CCD"
@@ -3647,10 +3608,10 @@ msgid "Cable Scan"
 msgstr "Prohledání kabelovky"
 
 msgid "Cable Unplugged"
-msgstr ""
+msgstr "Kabel odpojen"
 
 msgid "Cable input"
-msgstr ""
+msgstr "Kabelový vstup"
 
 msgid "Cache thumbnails"
 msgstr "Uchovat náhledy ve vyrovnávací paměti"
@@ -4162,7 +4123,7 @@ msgid "Character device"
 msgstr "Charakter zařízení"
 
 msgid "Character set"
-msgstr ""
+msgstr "Znaková sada"
 
 msgid "Chat show"
 msgstr "Talk show"
@@ -4399,7 +4360,7 @@ msgid "Clear Log"
 msgstr "Smazat log"
 
 msgid "Clear Stored Credentials"
-msgstr ""
+msgstr "Vymazat uložené přihlašovací údaje"
 
 msgid "Clear before scan"
 msgstr "Před hledáním smazat"
@@ -4468,7 +4429,7 @@ msgid "Close dialog"
 msgstr "Zavřít dialog"
 
 msgid "Close network test"
-msgstr ""
+msgstr "Zavřít test sítě"
 
 msgid "Close screen"
 msgstr "Zavřít obrazovku"
@@ -4664,7 +4625,7 @@ msgid "Configuration options for the HELP screen can be found in 'MENU > Setup >
 msgstr "Možnosti konfigurace pro obrazovku NÁPOVĚDA lze nalézt v 'MENU > Nastavení > Použití a uživatelské rozhraní > Nastavení'."
 
 msgid "Configure DNS (Dynamic Name Server)"
-msgstr ""
+msgstr "Konfigurace DNS (serveru dynamických názvů)"
 
 msgid "Configure an additional delay to improve external subtitle synchronization."
 msgstr "Nastavení zpoždění pro lepší synchronizaci externích titulků."
@@ -4673,10 +4634,10 @@ msgid "Configure an additional delay to improve subtitle synchronization."
 msgstr "Nastavení zpoždění pro lepší synchronizaci titulků."
 
 msgid "Configure another network adapter"
-msgstr ""
+msgstr "Konfigurace dalšího síťového adaptéru"
 
 msgid "Configure cable reception on this input."
-msgstr ""
+msgstr "Nakonfigurujte kabelový příjem na tomto vstupu."
 
 msgid "Configure default setting for new timers. Need a restart after changing."
 msgstr "Konfigurace výchozího nastavení pro nové časovače. Po změně je potřeba restart."
@@ -4724,7 +4685,7 @@ msgid "Configure if the subtitle should switch between normal, italic, bold and 
 msgstr "Nastavit možnost přepínání titulků mezi normální, kurzíva, tučné a tučná kurzíva."
 
 msgid "Configure network adapter"
-msgstr ""
+msgstr "Konfigurace síťového adaptéru"
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr "Nastavuje, na kterých zařízeních může být nastaveno mazání na pozadí."
@@ -4734,15 +4695,18 @@ msgid ""
 "\n"
 "When the settings are correct press OK to continue."
 msgstr ""
+"Nakonfigurujte nebo ověřte nastavení DNS (Dynamic Name Server) úpravou zobrazených hodnot.\n"
+"\n"
+"Pokud jsou nastavení správná, stiskněte OK pro pokračování."
 
 msgid "Configure remote control type"
 msgstr "Nastavit typ dálkového ovládání"
 
 msgid "Configure satellite reception on the separate SAT input."
-msgstr ""
+msgstr "Nakonfigurujte satelitní příjem na samostatném SAT vstupu."
 
 msgid "Configure terrestrial reception on this input."
-msgstr ""
+msgstr "Nakonfigurujte pozemní příjem na tomto vstupu."
 
 msgid "Configure the DiSEqC mode for this LNB."
 msgstr "Nastavuje DiSEqC mód pro tento LNB."
@@ -4916,7 +4880,7 @@ msgid "Configure the secondary EPG language."
 msgstr "Nastavuje sekundárního jazyka EPG."
 
 msgid "Configure the selected Wi-Fi network"
-msgstr ""
+msgstr "Konfigurace vybrané sítě Wi-Fi"
 
 msgid "Configure the skip time interval for the '1'/'3' buttons."
 msgstr "Nastavuje čas přeskočení pro tlačítka '1'/'3'."
@@ -5034,7 +4998,7 @@ msgstr "Potvrdit přepnutí"
 
 #, python-format
 msgid "Confirm the deletion of '%s'?"
-msgstr ""
+msgstr "Potvrdit smazání '%s'?"
 
 msgid "ConflictTimer Actions"
 msgstr "Akce časovače konfliktu"
@@ -5059,10 +5023,10 @@ msgid "Connect to the Internet"
 msgstr "Připojit k internetu"
 
 msgid "Connect to the selected Saved Wi-Fi Network"
-msgstr ""
+msgstr "Připojení k vybrané uložené síti Wi-Fi"
 
 msgid "Connected"
-msgstr ""
+msgstr "Připojeno"
 
 msgid "Connected clients"
 msgstr "Připojení klienti"
@@ -5083,22 +5047,26 @@ msgid ""
 "Connected, but no IP address was received.\n"
 "Check the router's DHCP settings."
 msgstr ""
+"Připojeno, ale nebyla přijata žádná IP adresa.\n"
+"Zkontrolujte nastavení DHCP routeru."
 
 #, python-format
 msgid ""
 "Connected.\n"
 "IP address is '%s'."
 msgstr ""
+"Připojeno.\n"
+"IP adresa je '%s'."
 
 msgid "Connected: "
 msgstr "Připojeno: "
 
 #, python-format
 msgid "Connecting To '%s'"
-msgstr ""
+msgstr "Připojování k '%s'"
 
 msgid "Connecting..."
-msgstr ""
+msgstr "Připojování..."
 
 msgid "Connection information"
 msgstr "Informace o připojení"
@@ -5150,7 +5118,7 @@ msgid "Continent"
 msgstr "Kontinent"
 
 msgid "Continue"
-msgstr ""
+msgstr "Pokračovat"
 
 msgid "Continue in background"
 msgstr "Pokračovat na pozadí"
@@ -5300,7 +5268,7 @@ msgstr "Pobřeží slonoviny"
 
 #, python-format
 msgid "Could not connect (status '%s')."
-msgstr ""
+msgstr "Nepodařilo se připojit (stav '%s')."
 
 msgid "Could not connect to server"
 msgstr "Nelze se připojit k serveru"
@@ -5309,11 +5277,15 @@ msgid ""
 "Could not connect.\n"
 "Wi-Fi driver (wpa_supplicant) did not start, check the Wi-Fi settings."
 msgstr ""
+"Nepodařilo se připojit.\n"
+"Ovladač Wi-Fi (wpa_supplicant) se nespustil, zkontrolujte nastavení Wi-Fi."
 
 msgid ""
 "Could not connect.\n"
 "Wrong Wi-Fi password?"
 msgstr ""
+"Nepodařilo se připojit.\n"
+"Špatné heslo k Wi-Fi?"
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr "Nelze načíst médium! Není vložen disk?"
@@ -5342,6 +5314,9 @@ msgid ""
 "\n"
 "Do you want to change the settings again?"
 msgstr ""
+"Nepodařilo se ověřit uloženou síť Wi-Fi.\n"
+"\n"
+"Chcete nastavení znovu změnit?"
 
 msgid "Country"
 msgstr "Země"
@@ -5467,11 +5442,11 @@ msgid "Creating partition"
 msgstr "Zakládá se tabulka rozdělení disku"
 
 msgid "Credentials"
-msgstr ""
+msgstr "Přihlašovací údaje"
 
 #, python-format
 msgid "Credentials for '%s'"
-msgstr ""
+msgstr "Přihlašovací údaje pro '%s'"
 
 msgid "Cree"
 msgstr "Cree"
@@ -5690,7 +5665,7 @@ msgid "DNS Settings"
 msgstr "Nastavení DNS"
 
 msgid "DNS Settings Actions"
-msgstr ""
+msgstr "Akce nastavení DNS"
 
 msgid "DNS data source"
 msgstr "Zdroj DNS"
@@ -5748,7 +5723,7 @@ msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANNEX C"
 
 msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
-msgstr ""
+msgstr "DVB-C a DVB-T/T2 sdílejí tento vstup. Pokud jsou oba povoleny, Enigma2 používá 5V k ovládání externího koaxiálního přepínače."
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5965,13 +5940,13 @@ msgid "Deactivate Expander"
 msgstr "Deaktivovat expandér"
 
 msgid "Deactivate network adapter"
-msgstr ""
+msgstr "Deaktivace síťového adaptéru"
 
 msgid "Deactivate the flash expander in the selected device"
 msgstr "Deaktivovat flash expandér ve vybraném zařízení"
 
 msgid "Deactivated"
-msgstr ""
+msgstr "Deaktivováno"
 
 msgid "Debug"
 msgstr "Ladit"
@@ -6225,10 +6200,10 @@ msgid "Delete Line"
 msgstr "Smazat řádek"
 
 msgid "Delete Mount"
-msgstr ""
+msgstr "Smazat připojení"
 
 msgid "Delete Network"
-msgstr ""
+msgstr "Smazat síť"
 
 msgid "Delete Plugins"
 msgstr "Smaže vybrané pluginy"
@@ -6570,7 +6545,7 @@ msgid "Disable"
 msgstr "Zakázat"
 
 msgid "Disable Adapter"
-msgstr ""
+msgstr "Zakázat adaptér"
 
 msgid "Disable Animations"
 msgstr "Animace vypnuté"
@@ -6597,7 +6572,7 @@ msgid "Disable Move Mode"
 msgstr "zakázat přesun"
 
 msgid "Disable Network"
-msgstr ""
+msgstr "Zakázat síť"
 
 msgid "Disable Picture in Picture"
 msgstr "Vypnout obraz v obraze"
@@ -6618,7 +6593,7 @@ msgid "Disable operator profiles"
 msgstr "Zakázat profily operátora"
 
 msgid "Disable saved Wi-Fi network"
-msgstr ""
+msgstr "Zakázat uloženou síť Wi-Fi"
 
 msgid "Disable the HDD Process on VFD."
 msgstr "Vypnout ikonu HDD na VFD."
@@ -6639,7 +6614,7 @@ msgid "Disabling Chkroot failed!"
 msgstr "Zakázání Chkrootu se nezdařilo!"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Odpojeno"
 
 msgid "Discussion"
 msgstr "Diskuzní"
@@ -6967,7 +6942,7 @@ msgid "Domain"
 msgstr "Doména"
 
 msgid "Domain name"
-msgstr ""
+msgstr "Název domény"
 
 msgid "Dominica"
 msgstr "Dominika"
@@ -7077,7 +7052,7 @@ msgid "Dreambox format data DVD (won't work in other DVD players)"
 msgstr "Datové DVD ve formátu Dreambox (nebude fungovat v jiných přehrávačích DVD)"
 
 msgid "Driver"
-msgstr ""
+msgstr "Ovladač"
 
 msgid "Driver Packages"
 msgstr "Balíčky ovladačů"
@@ -7244,7 +7219,7 @@ msgid "Edit Alternatives"
 msgstr "upravit alternativy"
 
 msgid "Edit Credentials"
-msgstr ""
+msgstr "Upravit přihlašovací údaje"
 
 msgid "Edit Mode Off"
 msgstr "Režim úprav Vypnutý"
@@ -7268,7 +7243,7 @@ msgid "Edit Upgrade Source URL"
 msgstr "Upravit URL zdroje upgradu"
 
 msgid "Edit Username/Password Credentials"
-msgstr ""
+msgstr "Upravit uživatelské jméno/heslo"
 
 msgid "Edit chapters of current title"
 msgstr "Upravit kapitoly zvoleného titulu"
@@ -7280,7 +7255,7 @@ msgid "Edit settings"
 msgstr "Upravit nastavení"
 
 msgid "Edit stored username/password credentials for the selected host"
-msgstr ""
+msgstr "Upravit uložené uživatelské jméno/heslo pro vybraného hostitele"
 
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "Upravit název hostitele serveru CCcam/NewCamd."
@@ -7307,7 +7282,7 @@ msgid "Edit the remote IP address."
 msgstr "Upravit vzdálenou IP adresu."
 
 msgid "Edit the selected network mount"
-msgstr ""
+msgstr "Upravit vybraný síťový modem"
 
 msgid "Edit the upgrade source address."
 msgstr "Upravit adresy aktualizačních zdrojů."
@@ -7458,7 +7433,7 @@ msgid "Enable Virgin EPG"
 msgstr "Povolit Virgin EPG"
 
 msgid "Enable adapter"
-msgstr ""
+msgstr "Povolit adaptér"
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Povolit a nastavit čas trvání druhého informačním panelu (tlačítko OK dvakrát), který může obsahovat další informace o aktuálním provozu."
@@ -7537,7 +7512,7 @@ msgid "Enable multiple bouquets"
 msgstr "Povolit vícenásobné přehledy"
 
 msgid "Enable network"
-msgstr ""
+msgstr "Povolit síť"
 
 msgid "Enable network traffic check"
 msgstr "Povolit kontrolu síťového provozu"
@@ -7546,7 +7521,7 @@ msgid "Enable new GStreamer playback"
 msgstr "Povolit nové přehrávání GStreamer"
 
 msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
-msgstr ""
+msgstr "Povolí nebo zakáže toto připojení sítě. Zakázáním připojení se jeho definice neodstraní."
 
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Povolit nebo zakázat použití HDMI-CEC."
@@ -7561,7 +7536,7 @@ msgid "Enable remote receiver to be tried to tune into services that can't be tu
 msgstr "K naladění služeb, které nemohou být naladěny místně povolte vzdálený přijímač s Enigmou2 (např. Je-li tuner je obsazen, nebo typ služby je nedostupný na místním tuneru. Zadejte úplnou adresu URL, včetně http:// číslo portu (obvykle ...: 8001 ), např. http://second_box:8001."
 
 msgid "Enable saved Wi-Fi network"
-msgstr ""
+msgstr "Povolit uloženou síť Wi-Fi"
 
 msgid "Enable teletext caching"
 msgstr "Povolit vyrovnávací paměť teletextu"
@@ -7774,7 +7749,7 @@ msgid "Enter expected ONID/TSID"
 msgstr "Zadejte očekávaný ONID/TSID"
 
 msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
-msgstr ""
+msgstr "Zadejte, jak dlouho se má čekat na odpověď před opětovným pokusem (nebo neúspěchem, s níže uvedenou možností „Vzdát se, pokud je nedostupný“). Zadejte „0“ pro použití interní výchozí hodnoty jádra namísto pevné hodnoty."
 
 msgid "Enter if you are North or South of the equator."
 msgstr "Zadejte, pokud jste na sever nebo na jih od rovníku."
@@ -7789,7 +7764,7 @@ msgid "Enter number to jump to channel"
 msgstr "Vložte číslo programu na které chcete skočit"
 
 msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
-msgstr ""
+msgstr "Zadejte volitelné argumenty připojení, které nejsou uvedeny v nastavení konfigurace výše. Více argumentů by mělo být odděleno čárkami. Neplatné/nevhodné položky mohou způsobit selhání připojení!"
 
 msgid "Enter persistent PIN code"
 msgstr "Zadejte trvalý PIN kód"
@@ -7825,16 +7800,16 @@ msgid "Enter the frequency step size for the tuner to use when searching for cab
 msgstr "Zadejte velikost frekvenčního kroku tuneru, který má použít při vyhledávání kabelových multiplexů. Další informace naleznete v dokumentaci poskytovatele kabelové televize."
 
 msgid "Enter the hostname or IP address of the network share's server."
-msgstr ""
+msgstr "Zadejte název hostitele nebo IP adresu serveru síťové sdílené složky."
 
 msgid "Enter the local directory name to be used as the local mount for the remote share."
-msgstr ""
+msgstr "Zadejte název lokálního adresáře, který se má použít jako lokální připojení pro vzdálenou sdílenou složku."
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr "Určete příponu DNS."
 
 msgid "Enter the network hostname to be used to identify this receiver."
-msgstr ""
+msgstr "Zadejte název síťového hostitele, který se má použít k identifikaci tohoto přijímače."
 
 msgid "Enter the number of NFS server threads to be allocated/used. Higher values improve performance with multiple clients but uses more memory."
 msgstr "Zadejte počet vláken NFS serveru, která mají být alokována/použita. Vyšší hodnoty zlepšují výkon s více klienty, ale spotřebovávají více paměti."
@@ -7843,10 +7818,10 @@ msgid "Enter the number stored in the positioner that corresponds to this satell
 msgstr "Zadejte číslo uložené v pozicionéru, které odpovídá tomuto satelitu."
 
 msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
-msgstr ""
+msgstr "Zadejte heslo, které se má použít pro přístup ke sdíleným složkám tohoto hostitele, pokud vyžadují ověřovací údaje."
 
 msgid "Enter the password to be used to access this host's shares."
-msgstr ""
+msgstr "Zadejte heslo, které se má použít pro přístup ke sdíleným složkám tohoto hostitele."
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr "Zadejte heslo, přístupovou frázi nebo předsdílený klíč pro vybranou bezdrátovou síť."
@@ -7858,7 +7833,7 @@ msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
 msgstr "Zadejte primární nastavení DNS pro IPv6 pro tento adaptér. (Volitelné)"
 
 msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
-msgstr ""
+msgstr "Zadejte název vzdálené sdílené složky (SMB) nebo exportovanou cestu (NFS) na serveru."
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
 msgstr "Zadejte sekundární nastavení DNS IPv4 pro tento adaptér. (Volitelný)"
@@ -7876,10 +7851,10 @@ msgid "Enter the subscription code to fully enable the AI-Powered Translation pl
 msgstr "Zadejte svůj předplatitelský kód, jednotný zkušební kód je 15."
 
 msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
-msgstr ""
+msgstr "Zadejte uživatelské jméno, které se má použít pro přístup ke sdíleným složkám tohoto hostitele, pokud vyžadují ověřovací údaje."
 
 msgid "Enter the username to be used to access this host's shares."
-msgstr ""
+msgstr "Zadejte uživatelské jméno, které se má použít pro přístup ke sdíleným složkám tohoto hostitele."
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
 msgstr "Zadejte název pracovní skupiny, který bude tento příjemce používat pro připojení založená na Sambě. (Výchozí je „WORKGROUP“.)"
@@ -8092,7 +8067,7 @@ msgid "Error: An empty filename is illegal!"
 msgstr "Chyba: Prázdný název souboru není povolen!"
 
 msgid "Error: Both 'server' and 'remote path' are required!"
-msgstr ""
+msgstr "Chyba: Jsou povinné oba údaje: „server“ i „vzdálená cesta“!"
 
 msgid "Error: Cannot find any images!"
 msgstr "Chyba: Nelze najít žádné obrazy!"
@@ -8147,7 +8122,7 @@ msgstr "Chyba: Není možné spustit '%s' na '%s'!"
 
 #, python-format
 msgid "Error: Mounting '%s' failed!"
-msgstr ""
+msgstr "Chyba: Připojení '%s' se nezdařilo!"
 
 #, python-format
 msgid "Error: Program '%s' not installed and the package containing this program is unknown!"
@@ -8158,7 +8133,7 @@ msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.
 msgstr "Chyba: Odebrání adresáře '%s' se nezdařilo! (Možná, že adresář není prázdný.)"
 
 msgid "Error: Rescan failed!"
-msgstr ""
+msgstr "Chyba: Opakované skenování se nezdařilo!"
 
 #, python-format
 msgid "Error: Script '%s' must have read permission to be able to run!"
@@ -8210,7 +8185,7 @@ msgstr "Chyba zápisu do souboru: '%s'!"
 
 #, python-format
 msgid "Error: Unmounting '%s' failed!"
-msgstr ""
+msgstr "Chyba: Odpojení '%s' se nezdařilo!"
 
 #, python-format
 msgid "Error: You can't run '%s' on '%s'!"
@@ -8236,7 +8211,7 @@ msgid "EtPortal"
 msgstr "EtPortal"
 
 msgid "Ethernet Adapter"
-msgstr ""
+msgstr "Ethernetový adaptér"
 
 msgid "Ethernet network interface"
 msgstr "Ethernetové síťové rozhraní"
@@ -8391,7 +8366,7 @@ msgid "Expand"
 msgstr "Rozbalit"
 
 msgid "Expand/collapse the selected host, or use the selected share"
-msgstr ""
+msgstr "Rozbalit/sbalit vybraného hostitele nebo použít vybranou sdílenou složku"
 
 msgid "Experimental film/video"
 msgstr "experimentální film/video"
@@ -8409,7 +8384,7 @@ msgid "Expert mode"
 msgstr "Expertní režim"
 
 msgid "Exports"
-msgstr ""
+msgstr "Exporty"
 
 msgid "Exposure bias"
 msgstr "Expoziční zkreslení"
@@ -8978,7 +8953,7 @@ msgid "Flat by position on remote"
 msgstr "Pozice podle polohy na dálkovém ovladači"
 
 msgid "Flush Cache and Rescan"
-msgstr ""
+msgstr "Vyprázdnit mezipaměť a znovu prohledat"
 
 msgid "Folk and Country"
 msgstr "Folk a country"
@@ -9276,7 +9251,7 @@ msgid "Gibraltar"
 msgstr "Gibraltar"
 
 msgid "GigaBlue optimized"
-msgstr ""
+msgstr "Optimalizováno pro GigaBlue"
 
 msgid "Given device id"
 msgstr "Zadané id zařízení"
@@ -9519,7 +9494,7 @@ msgid "HDMIin"
 msgstr "HDMIin"
 
 msgid "HDR OSD adjustment"
-msgstr ""
+msgstr "Nastavení HDR OSD"
 
 msgid "HDR10 Support"
 msgstr "Podpora HDR10"
@@ -9903,7 +9878,7 @@ msgid "IP"
 msgstr "IP"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresa"
 
 msgid "IP Address 1"
 msgstr "IP adresa 1"
@@ -9939,7 +9914,7 @@ msgid "IPK Installer"
 msgstr "IPK instalátor"
 
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 a IPv6"
 
 msgid "IPv4 only"
 msgstr "Pouze IPv4"
@@ -10829,7 +10804,7 @@ msgid "Kodi"
 msgstr "Kodi"
 
 msgid "Kodi Add-on Packages"
-msgstr ""
+msgstr "Doplňkové balíčky Kodi"
 
 msgid "Kodi MediaCenter"
 msgstr "Kodi Mediální přehrávač"
@@ -10871,7 +10846,7 @@ msgid "LAN connection"
 msgstr "LAN připojení"
 
 msgid "LAN link"
-msgstr ""
+msgstr "LAN připojení"
 
 msgid "LCD scroll speed"
 msgstr "Rychlost rolování LCD"
@@ -11078,7 +11053,7 @@ msgid "Left, wrapped"
 msgstr "vlevo, zalomený"
 
 msgid "Legacy (SMB1)"
-msgstr ""
+msgstr "Starší verze (SMB1)"
 
 msgid "Legacy mode"
 msgstr "Původní režim"
@@ -11264,7 +11239,7 @@ msgid "Local receiver"
 msgstr "Lokální box"
 
 msgid "Local share"
-msgstr ""
+msgstr "Místní sdílení"
 
 msgid "Local time"
 msgstr "Místní čas"
@@ -11436,7 +11411,7 @@ msgid "M2k Packages"
 msgstr "M2k balíčky"
 
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC adresa"
 
 msgid "MAC address"
 msgstr "MAC adresa"
@@ -11955,7 +11930,7 @@ msgid "Mount"
 msgstr "Připojit"
 
 msgid "Mount Context Menu"
-msgstr ""
+msgstr "Kontextová nabídka pro připojení"
 
 msgid "Mount Manager"
 msgstr "Správce připojení"
@@ -13402,9 +13377,6 @@ msgstr "U platných ONID ignorujte část frekvenční podsítě."
 
 msgid "Once"
 msgstr "Jednou"
-
-msgid "One"
-msgstr "Jeden"
 
 msgid "One line"
 msgstr "Jeden řádek"
@@ -16296,12 +16268,6 @@ msgid "SINGLE LAYER DVD"
 msgstr "JEDNOVRSTVÉ DVD"
 
 msgid "SMB version"
-msgstr ""
-
-msgid "SMB2"
-msgstr ""
-
-msgid "SMB3"
 msgstr ""
 
 msgid "SMS style QuickSelect entry selection"
@@ -21708,9 +21674,6 @@ msgstr "Tento průvodce byl dokončen"
 msgid "This wizard has finished."
 msgstr "Tento průvodce byl dokončen."
 
-msgid "Three"
-msgstr "Tři"
-
 msgid "Threshold"
 msgstr "Práh"
 
@@ -22370,9 +22333,6 @@ msgstr "Dvojitý hybrid"
 
 msgid "Twin Tuner"
 msgstr "Dvojitý tuner"
-
-msgid "Two"
-msgstr "Dva"
 
 msgid "Two lines"
 msgstr "Dva řádky"
@@ -25140,6 +25100,33 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "1.0"
+#~ msgstr "1.0"
+
+#~ msgid "1.1"
+#~ msgstr "1.1"
+
+#~ msgid "1.2"
+#~ msgstr "1.2"
+
+#~ msgid "13 V"
+#~ msgstr "13 V"
+
+#~ msgid "16:9"
+#~ msgstr "16:9"
+
+#~ msgid "18 V"
+#~ msgstr "18 V"
+
+#~ msgid "One"
+#~ msgstr "Jeden"
+
+#~ msgid "Three"
+#~ msgstr "Tři"
+
+#~ msgid "Two"
+#~ msgstr "Dva"
 
 #, python-format
 #~ msgid "%d wireless network found!"
