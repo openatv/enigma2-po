@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-16 15:24+0000\n"
-"PO-Revision-Date: 2026-08-17 18:33+0000\n"
+"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"PO-Revision-Date: 2026-08-18 02:02+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -97,10 +97,10 @@ msgid " updated"
 msgstr " aggiornato"
 
 msgid "!! Boot loader Upgrade !!"
-msgstr "!Aggiornamento Bootloader!"
+msgstr "!! Aggiornamento Bootloader !!"
 
 msgid "# = Reboot required if this item is changed."
-msgstr "# = Riavvio completo se questo elemento viene modificato."
+msgstr "# = È necessario riavviare il sistema se questo elemento viene modificato."
 
 msgid "%-H:%M"
 msgstr "%-H:%M"
@@ -226,8 +226,8 @@ msgstr "%.2f GB"
 #, python-format
 msgid "%.2f Second"
 msgid_plural "%.2f Seconds"
-msgstr[0] "%.2f Second"
-msgstr[1] "%.2f Secondi"
+msgstr[0] "%.2f sec"
+msgstr[1] "%.2f sec"
 
 #, python-format
 msgid "%02d.%02d."
@@ -764,8 +764,8 @@ msgstr "%d %b %Y"
 #, python-format
 msgid "%d + %d + %d Minute"
 msgid_plural "%d + %d + %d Minutes"
-msgstr[0] "%d + %d + %d Minuto"
-msgstr[1] "%d + %d + %d Minuti"
+msgstr[0] "%d + %d + %d minuto"
+msgstr[1] "%d + %d + %d minuti"
 
 #, python-format
 msgid "%d DMIPS with %d cores"
@@ -774,8 +774,8 @@ msgstr "%d DMIPS con %d core"
 #, python-format
 msgid "%d Day"
 msgid_plural "%d Days"
-msgstr[0] "%d Giorno"
-msgstr[1] "%d Giorni"
+msgstr[0] "%d giorno"
+msgstr[1] "%d giorni"
 
 #, python-format
 msgid "%d Digit"
@@ -841,8 +841,8 @@ msgstr[1] "%d Minuti"
 #, python-format
 msgid "%d Minute"
 msgid_plural "%d Minutes"
-msgstr[0] "%d Minuto"
-msgstr[1] "%d Minuti"
+msgstr[0] "%d Min"
+msgstr[1] "%d Min"
 
 #, python-format
 msgid "%d Month"
@@ -888,7 +888,7 @@ msgstr[1] "%d anni"
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d core"
-msgstr[1] "%d cores"
+msgstr[1] "%d core"
 
 #, python-format
 msgid "%d feed catalog package was updated."
@@ -1226,6 +1226,10 @@ msgid "%s%s(Default: %s)"
 msgstr "%s%s (predefinito: %s)"
 
 #, python-format
+msgid "%s. (Lowest)"
+msgstr "%s. (più basso)"
+
+#, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
@@ -1369,20 +1373,11 @@ msgstr "0"
 msgid "1"
 msgstr "1"
 
-msgid "1.0"
-msgstr "1.0"
-
-msgid "1.1"
-msgstr "1.1"
-
-msgid "1.2"
-msgstr "1.2"
+msgid "1. (Highest)"
+msgstr "1. (più alto)"
 
 msgid "10bit"
 msgstr "10bit"
-
-msgid "10th (Lowest)"
-msgstr "10° (Minima)"
 
 msgid "12 character"
 msgstr "carattere 12"
@@ -1402,17 +1397,11 @@ msgstr "12bit"
 msgid "12bit 4:2:0/4:2:2 no PiP"
 msgstr "12bit 4:2:0/4:2:2 no PiP"
 
-msgid "13 V"
-msgstr "13 V"
-
 msgid "16:10 Letterbox"
 msgstr "16:10 Letterbox"
 
 msgid "16:10 PanScan"
 msgstr "16:10 PanScan"
-
-msgid "16:9"
-msgstr "16:9"
 
 msgid "16:9 Always"
 msgstr "16:9 sempre"
@@ -1432,12 +1421,6 @@ msgstr "16:9 PanScan"
 msgid "16:9 reset to normal"
 msgstr "16:9 reimpostato a normale"
 
-msgid "18 V"
-msgstr "18 V"
-
-msgid "1st (Highest)"
-msgstr "1° (Massima)"
-
 msgid "1st InfoBar timeout"
 msgstr "Timeout barra informazioni 1"
 
@@ -1446,9 +1429,6 @@ msgstr "1x"
 
 msgid "2"
 msgstr "2"
-
-msgid "2nd"
-msgstr "2°"
 
 msgid "2nd InfoBar"
 msgstr "Barra informazioni 2"
@@ -1489,9 +1469,6 @@ msgstr "3D Surround"
 msgid "3D Surround Speaker Position"
 msgstr "Posizione altoparlanti 3D surround"
 
-msgid "3rd"
-msgstr "3°"
-
 msgid "3x"
 msgstr "3x"
 
@@ -1510,9 +1487,6 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
-msgid "4th"
-msgstr "4°"
-
 msgid "4x"
 msgstr "4x"
 
@@ -1522,20 +1496,11 @@ msgstr "5"
 msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
 
-msgid "5th"
-msgstr "5°"
-
 msgid "6"
 msgstr "6"
 
-msgid "6th"
-msgstr "6°"
-
 msgid "7"
 msgstr "7"
-
-msgid "7th"
-msgstr "7°"
 
 msgid "8"
 msgstr "8"
@@ -1546,14 +1511,8 @@ msgstr "carattere 8"
 msgid "8bit"
 msgstr "8bit"
 
-msgid "8th"
-msgstr "8°"
-
 msgid "9"
 msgstr "9"
-
-msgid "9th"
-msgstr "9°"
 
 msgid "< Alternate Skin >"
 msgstr "< Skin alternativa >"
@@ -7523,7 +7482,7 @@ msgid "Enable new GStreamer playback"
 msgstr "Abilita nuova riproduzione con GStreamer"
 
 msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
-msgstr "Abilita o disabilita questo montaggio di rete. Disabilitarlo non ne elimina la definizione."
+msgstr "Abilita o disabilita questo punto di montaggio di rete. Disabilitare il punto di montaggio non ne eliminerà la definizione."
 
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Abilita o disabilita l'uso di HDMI-CEC."
@@ -7749,7 +7708,7 @@ msgid "Enter expected ONID/TSID"
 msgstr "Inserisci ONID/TSID previsto"
 
 msgid "Enter how long to wait for a response before retrying (or failing, with 'Give up if unreachable' below). Enter '0' to use the kernel's internal default instead of a fixed value."
-msgstr "Inserisci quanto attendere una risposta prima di riprovare (o fallire, con 'Rinuncia se non raggiungibile' sotto). Inserisci '0' per usare il valore predefinito del kernel."
+msgstr "Inserisci per quanto tempo attendere una risposta prima di riprovare (o di considerare fallita l'operazione, con l'opzione 'Rinuncia se non raggiungibile' qui sotto). Inserisci '0ì per usare il valore predefinito interno del kernel anziché un valore fisso."
 
 msgid "Enter if you are North or South of the equator."
 msgstr "Inserisci se ti trovi a nord o a sud dell'equatore."
@@ -7764,7 +7723,7 @@ msgid "Enter number to jump to channel"
 msgstr "Inserisci numero per passare al canale"
 
 msgid "Enter optional mount arguments not provided for in the configuration settings above. Multiple arguments should be comma-separated. Invalid/Inappropriate entries can cause the mount to fail!"
-msgstr "Inserisci argomenti di montaggio opzionali non previsti sopra. Più argomenti vanno separati da virgola. Valori non validi possono causare il fallimento del montaggio!"
+msgstr "Inserisci argomenti di montaggio opzionali non previsti nelle impostazioni di configurazione precedenti. Gli argomenti multipli devono essere separati da virgole. L'inserimento di dati non validi o inappropriati può causare l'errore di montaggio!"
 
 msgid "Enter persistent PIN code"
 msgstr "Inserisci codice PIN persistente"
@@ -7779,7 +7738,7 @@ msgid "Enter the IP address or subnet (e.g. 192.168.1.0/24) to which NFS host ac
 msgstr "Inserisci indirizzo IP o sottorete (ad esempio 192.168.1.0/24) a cui è concesso l'accesso host NFS. Inserisci '*', il valore predefinito, per l'accesso a tutti gli host."
 
 msgid "Enter the IP address to be used as the gateway to other networks for this adapter. Typically this is the IP address of your router."
-msgstr "Inserisci indirizzo IP da utilizzare come gateway per le altre reti per questa scheda di rete. In genere si tratta dell'indirizzo IP del tuo router."
+msgstr "Inserisci indirizzo IP da usare come gateway per le altre reti per questa scheda di rete. In genere si tratta dell'indirizzo IP del tuo router."
 
 msgid "Enter the PIN from 0 to 255 assigned to this User Band by the installer or building operator."
 msgstr "Inserisci PIN da 0 a 255 assegnato a questa User Band dall'installatore o dal gestore dell'edificio."
@@ -7788,22 +7747,22 @@ msgid "Enter the ZeroTier Network ID. The ID should be exactly 16 characters in 
 msgstr "Inserisci ID di rete ZeroTier. L'ID deve essere lungo esattamente 16 caratteri."
 
 msgid "Enter the duration to be added to the streaming buffer after a streaming error. This extra buffer can help to avoid further streaming issues due to a lack of buffer space."
-msgstr "Inserisci la durata da aggiungere al buffer di streaming dopo un errore di streaming. Questo buffer aggiuntivo può aiutare a evitare ulteriori problemi di streaming dovuti alla mancanza di spazio nel buffer."
+msgstr "Inserisci durata da aggiungere al buffer di streaming dopo un errore di streaming. Questo buffer aggiuntivo può aiutare a evitare ulteriori problemi di streaming dovuti alla mancanza di spazio nel buffer."
 
 msgid "Enter the fixed/static IPv4 address to be used for this network adapter."
 msgstr "Inserisci indirizzo IPv4 fisso/statico da usare per questa scheda di rete."
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the specifications of your LNB."
-msgstr "Inserisci la frequenza alla quale l'LNB commuta tra banda bassa e banda alta. Per maggiori informazioni consulta la scheda tecnica dell'LNB."
+msgstr "Inserisci frequenza alla quale l'LNB commuta tra banda bassa e banda alta. Per maggiori informazioni consulta la scheda tecnica dell'LNB."
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Inserisci dimensione del passo di frequenza per il tuner da usare durante la ricerca di multiplex via cavo. Per ulteriori informazioni, consulta la documentazione del provider di servizi via cavo."
 
 msgid "Enter the hostname or IP address of the network share's server."
-msgstr "Inserisci nome host o indirizzo IP del server della condivisione."
+msgstr "Inserisci nome host o indirizzo IP del server della condivisione di rete."
 
 msgid "Enter the local directory name to be used as the local mount for the remote share."
-msgstr "Inserisci nome della cartella locale da usare come punto di montaggio."
+msgstr "Inserisci nome della cartella locale da usare come punto di montaggio locale per la condivisione remota."
 
 msgid "Enter the network domain name suffix to be added to the hostname above. This helps the DNS resolver find other network devices on the network."
 msgstr "Definisci suffisso DNS."
@@ -7818,10 +7777,10 @@ msgid "Enter the number stored in the positioner that corresponds to this satell
 msgstr "Inserisci numero registrato nel posizionatore che corrisponde a questo satellite."
 
 msgid "Enter the password to be used to access this host's shares if they require authentication credentials."
-msgstr "Inserisci password per accedere alle condivisioni dell'host se richiedono autenticazione."
+msgstr "Inserisci password da usare per accedere alle condivisioni di questo host, qualora siano richieste credenziali di autenticazione."
 
 msgid "Enter the password to be used to access this host's shares."
-msgstr "Inserisci password per accedere alle condivisioni dell'host."
+msgstr "Inserisci password da usare per accedere alle condivisioni di questo host."
 
 msgid "Enter the password, pass-phrase or pre-shared key for the selected wireless network."
 msgstr "Inserisci password, frase di accesso o chiave precondivisa per la rete wireless selezionata."
@@ -7833,7 +7792,7 @@ msgid "Enter the primary IPv6 DNS server for this adapter. (Optional)"
 msgstr "Inserisci impostazione DNS IPv6 primaria per questa scheda di rete. (Facoltativo)"
 
 msgid "Enter the remote share name (SMB) or exported path (NFS) on the server."
-msgstr "Inserisci nome condivisione (SMB) o percorso esportato (NFS) sul server."
+msgstr "Inserisci nome della condivisione remota (SMB) o il percorso esportato (NFS) sul server."
 
 msgid "Enter the secondary IPv4 DNS server for this adapter. (Optional)"
 msgstr "Inserisci impostazione DNS IPv4 secondaria per questa scheda di rete. (Facoltativo)"
@@ -7848,28 +7807,28 @@ msgid "Enter the subnet mask to be used for this network adapter. (e.g. 255.255.
 msgstr "Inserisci maschera di sottorete da usare per questa scheda di rete. (es. 255.255.255.0)"
 
 msgid "Enter the subscription code to fully enable the AI-Powered Translation plugin, the unified code for trial is 15."
-msgstr "Inserisci il tuo codice di abbonamento, il codice unificato per trail è 15."
+msgstr "Inserisci tuo codice di abbonamento, il codice unificato per trail è 15."
 
 msgid "Enter the username to be used to access this host's shares if they require authentication credentials."
-msgstr "Inserisci nome utente per accedere alle condivisioni dell'host se richiedono autenticazione."
+msgstr "Inserisci nome utente da usare per accedere alle condivisioni di questo host, qualora siano richieste credenziali di autenticazione."
 
 msgid "Enter the username to be used to access this host's shares."
-msgstr "Inserisci nome utente per accedere alle condivisioni dell'host."
+msgstr "Inserisci nome utente da usare per accedere alle risorse condivise di questo host."
 
 msgid "Enter the workgroup name to be used by this server for Samba based connections. (Default is 'WORKGROUP'.)"
-msgstr "Inserisci il nome del gruppo di lavoro da usare da questo ricevitore per le connessioni basate su Samba. (Il valore predefinito è 'WORKGROUP'.)"
+msgstr "Inserisci nome del gruppo di lavoro da usare da questo ricevitore per le connessioni basate su Samba. (Il valore predefinito è 'WORKGROUP'.)"
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
-msgstr "Inserisci la latitudine attuale. Questo è il numero di gradi di distanza dall'equatore espresso come valore decimale."
+msgstr "Inserisci latitudine attuale. Questo è il numero di gradi di distanza dall'equatore espresso come valore decimale."
 
 msgid "Enter your current longitude. This is the number of degrees you are from zero meridian as a decimal."
-msgstr "Inserisci la longitudine attuale. Questo è il numero di gradi di distanza dal meridiano zero espresso come valore decimale."
+msgstr "Inserisci longitudine attuale. Questo è il numero di gradi di distanza dal meridiano zero espresso come valore decimale."
 
 msgid "Enter your high band local oscillator frequency. For more information consult the specifications of your LNB."
-msgstr "Inserisci la frequenza dell'oscillatore locale per la banda alta. Per maggiori informazioni consulta le specifiche tecniche dell'LNB."
+msgstr "Inserisci frequenza dell'oscillatore locale per la banda alta. Per maggiori informazioni consulta le specifiche tecniche dell'LNB."
 
 msgid "Enter your low band local oscillator frequency. For more information consult the specifications of your LNB."
-msgstr "Inserisci la frequenza dell'oscillatore locale per la banda bassa. Per maggiori informazioni consulta le specifiche tecniche dell'LNB."
+msgstr "Inserisci frequenza dell'oscillatore locale per la banda bassa. Per maggiori informazioni consulta le specifiche tecniche dell'LNB."
 
 msgid "Enter your personal feed URL to allow you to select packages from your personal feed."
 msgstr "Inserisci l'URL del feed personale per consentirti di selezionare i pacchetti dal feed personale."
@@ -12545,7 +12504,7 @@ msgid "Network Mount Manager Actions"
 msgstr "Azioni gestore montaggi di rete"
 
 msgid "Network Mount Settings"
-msgstr "Impostazioni montaggio di rete"
+msgstr "Impostazioni mount di rete"
 
 msgid "Network Mounts Overview"
 msgstr "Panoramica montaggi di rete"
@@ -13382,9 +13341,6 @@ msgstr "Su ONID validi, ignora la parte della sottorete di frequenza"
 
 msgid "Once"
 msgstr "Una volta"
-
-msgid "One"
-msgstr "Uno"
 
 msgid "One line"
 msgstr "Una linea"
@@ -14305,7 +14261,7 @@ msgid "Please enter search string for your location"
 msgstr "Inserisci una stringa di ricerca per la tua posizione"
 
 msgid "Please enter the correct pin code"
-msgstr "Inserisci il codice PIN corretto"
+msgstr "Inserisci codice PIN corretto"
 
 msgid "Please enter the new directory name:"
 msgstr "Inserisci un nuovo nome per la cartella:"
@@ -14314,19 +14270,19 @@ msgid "Please enter the new file name:"
 msgstr "Inserisci un nuovo nome per il file:"
 
 msgid "Please enter the new name:"
-msgstr "Inserisci il nuovo nome:"
+msgstr "Inserisci nuovo nome:"
 
 msgid "Please enter the new tag:"
-msgstr "Inserisci il nuovo tag:"
+msgstr "Inserisci nuovo tag:"
 
 msgid "Please enter the old PIN code"
-msgstr "Inserisci il vecchio codice PIN"
+msgstr "Inserisci vecchio codice PIN"
 
 msgid ""
 "Please enter your email address, which will be your login.\n"
 "Via your account on the IceTV website you can choose to receive service announcements, account reminders and promotional offers."
 msgstr ""
-"Inserisci il tuo indirizzo email, che servirà per accedere.\n"
+"Inserisci tuo indirizzo email, che servirà per accedere.\n"
 "Tramite il tuo account sul sito IceTV puoi scegliere di ricevere annunci sul servizio, promemoria e offerte promozionali."
 
 msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
@@ -16276,12 +16232,6 @@ msgstr "DVD singolo strato"
 msgid "SMB version"
 msgstr "Versione SMB"
 
-msgid "SMB2"
-msgstr "SMB2"
-
-msgid "SMB3"
-msgstr "SMB3"
-
 msgid "SMS style QuickSelect entry selection"
 msgstr "Selezione della voce QuickSelect in stile SMS"
 
@@ -17035,10 +16985,10 @@ msgid "Select 'Yes' to use PDC data, if available on the current service, to acc
 msgstr "Se sì, VPS sarà abilitato per le registrazioni rapide (interrompi dopo il programma corrente) se il canale supporta VPS."
 
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Seleziona 'Sì' per utilizzare indirizzi IP alternativi del feed GitHub. Può essere utile se usi una VPN e non è possibile accedere ai feed normali tramite i nomi DNS pubblicati."
+msgstr "Seleziona 'Sì' per usare indirizzi IP alternativi del feed GitHub. Può essere utile se usi una VPN e non è possibile accedere ai feed normali tramite i nomi DNS pubblicati."
 
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
-msgstr "Seleziona 'Sì' per utilizzare la navigazione compatibile in cui CH+/- scambia la colonna attiva. Seleziona 'No' per utilizzare la nuova opzione di navigazione unificata per una navigazione coerente con altre schermate in cui SINISTRA/DESTRA scambia la colonna attiva e le pagine CH+/- su e giù nell'elenco."
+msgstr "Seleziona 'Sì' per usare la navigazione compatibile in cui CH+/- scambia la colonna attiva. Seleziona 'No' per usare la nuova opzione di navigazione unificata per una navigazione coerente con altre schermate in cui SINISTRA/DESTRA scambia la colonna attiva e le pagine CH+/- su e giù nell'elenco."
 
 msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older API V3. This API version has now been superseded."
 msgstr "Seleziona 'Sì' per usare i valori del segnale (SNR, ecc.) calcolati dalla precedente API V3. Questa versione dell'API è stata ora sostituita."
@@ -17186,10 +17136,10 @@ msgid "Select a script to run:"
 msgstr "Seleziona uno script da avviare:"
 
 msgid "Select a specific NFS version to force a specific NFS protocol version instead of allowing an automatic negotiation."
-msgstr "Seleziona una versione NFS specifica invece di lasciare la negoziazione automatica."
+msgstr "Seleziona una versione NFS specifica invece della negoziazione automatica."
 
 msgid "Select a specific SMB protocol version to use instead of allowing an automatic negotiation. Use 'Legacy (SMB1)' only for older servers that do not support the newer and more secure SMB2/SMB3 protocols."
-msgstr "Seleziona una versione SMB specifica invece di lasciare la negoziazione automatica. Usa 'Legacy (SMB1)' solo per server datati che non supportano SMB2/SMB3."
+msgstr "Seleziona una versione SMB specifica invece della negoziazione automatica. Usa 'Legacy (SMB1)' solo per server datati che non supportano SMB2/SMB3."
 
 msgid "Select a time period to display a confirmation prompt before a Zap timer changes the current service. This allows the user to cancel the Zap. Select 'Disabled' to allow the Zap to proceed without confirmation."
 msgstr "Seleziona un intervallo di tempo per visualizzare una richiesta di conferma prima che il timer di Zap modifichi il servizio corrente. Questo permette all'utente di annullare il cambio di canale. Seleziona 'Disabilitato' per consentire al cambio di canale senza conferma."
@@ -17493,7 +17443,7 @@ msgid "Select the character or action under the keyboard cursor"
 msgstr "Seleziona carattere o azione sotto il cursore della tastiera"
 
 msgid "Select the character set (iocharset) to be used to match/translate remote filenames."
-msgstr "Seleziona il set di caratteri (iocharset) per i nomi file remoti."
+msgstr "Seleziona il set di caratteri (iocharset) per tradurre i nomi dei file remoti."
 
 msgid "Select the color of the front panel power LED when the receiver is Running. This option also allows the LED to be deactivated/turned off."
 msgstr "Seleziona colore del LED di alimentazione sul pannello frontale quando il ricevitore è in funzione. Questa opzione consente anche di disattivare/spegnere il LED."
@@ -17657,7 +17607,7 @@ msgid "Select the mode of access, Read/Write or Read-Only, applied to all export
 msgstr "Seleziona modalità di accesso, Lettura/Scrittura o Sola lettura, da applicare a tutte le cartelle esportate."
 
 msgid "Select the mode of access, Read/Write or Read-Only, for this share mount."
-msgstr "Seleziona la modalità di accesso, Lettura/Scrittura o Sola lettura, per questo montaggio."
+msgstr "Seleziona modalità di accesso, Lettura/Scrittura o Solo lettura, per questo punto di condivisione."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Seleziona numero del modello del dispositivo Unicable. Se il numero del modello non è elencato, imposta 'SCR' su \"Definito dall'utente\" e inserisci manualmente i parametri del dispositivo in base alla relativa scheda tecnica."
@@ -17712,7 +17662,7 @@ msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (
 msgstr "Seleziona protocollo usato dal dispositivo SCR. Le scelte sono 'SCR Unicable' (Unicable) o 'SCR JESS' (JESS, noto anche come Unicable II)."
 
 msgid "Select the read block buffer size (rsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
-msgstr "Seleziona la dimensione buffer di lettura (rsize). Usa 'Automatico' per lasciar negoziare la dimensione ottimale."
+msgstr "Seleziona opzione di montaggio della dimensione del buffer di lettura (rsize). Usa 'Automatico' per consentire al kernel e al server di negoziare la dimensione ottimale."
 
 msgid "Select the receiver action when the TV switches away from the receiver input."
 msgstr "Seleziona operazione che il ricevitore deve eseguire quando la TV passa a un altro ingresso."
@@ -17748,7 +17698,7 @@ msgid "Select the security protocol that will be used to access the selected wir
 msgstr "Seleziona protocollo di sicurezza che verrà usato per accedere alla rete wireless selezionata."
 
 msgid "Select the share protocol to be used, SMB (Windows-style shares) or NFS (Mac and Linux shares)."
-msgstr "Seleziona il protocollo di condivisione, SMB (stile Windows) o NFS (Mac e Linux)."
+msgstr "Seleziona protocollo di condivisione da usare: SMB (condivisioni in stile Windows) o NFS (condivisioni per Mac e Linux)."
 
 msgid "Select the shifted character set"
 msgstr "Seleziona set di caratteri maiuscoli"
@@ -17844,7 +17794,7 @@ msgid "Select the video mode to be used on the TV."
 msgstr "Seleziona modalità video da usare sulla TV."
 
 msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' to allow the kernel and server to negotiate the optimal size."
-msgstr "Seleziona la dimensione buffer di scrittura (wsize). Usa 'Automatico' per lasciar negoziare la dimensione ottimale."
+msgstr "Seleziona opzione di montaggio della dimensione del buffer di scrittura a blocchi (wsize). Usa 'Automatico' per consentire al kernel e al server di negoziare la dimensione ottimale."
 
 msgid "Select update source location"
 msgstr "Seleziona posizione di origine degli aggiornamenti"
@@ -17916,7 +17866,7 @@ msgid "Select whether Dolby TrueHD audio tracks should be passed through or deco
 msgstr "Seleziona se le tracce audio Dolby TrueHD devono essere trasmesse senza modifiche o decodificate."
 
 msgid "Select whether IPv4, IPv6, or both protocols should be used. If both are enabled then select which should be preferred."
-msgstr "Seleziona se utilizzare IPv4, IPv6 o entrambi i protocolli. Se entrambi sono abilitati, specifica quale preferire."
+msgstr "Seleziona se usare IPv4, IPv6 o entrambi i protocolli. Se entrambi sono abilitati, specifica quale preferire."
 
 msgid "Select whether WMA Pro channel audio tracks should be downmixed or transcoded."
 msgstr "Seleziona se le tracce audio del canale WMA Pro devono essere rimixate o transcodificate."
@@ -21681,9 +21631,6 @@ msgstr "La procedura guidata è terminata"
 msgid "This wizard has finished."
 msgstr "La procedura guidata è terminata."
 
-msgid "Three"
-msgstr "Tre"
-
 msgid "Threshold"
 msgstr "Soglia"
 
@@ -22344,9 +22291,6 @@ msgstr "Gemello ibrido "
 msgid "Twin Tuner"
 msgstr "Tuner doppio"
 
-msgid "Two"
-msgstr "Due"
-
 msgid "Two lines"
 msgstr "Due linee"
 
@@ -22802,7 +22746,7 @@ msgid "Use an alternative smaller screen."
 msgstr "Usa uno schermo alternativo più piccolo."
 
 msgid "Use as HDD replacement"
-msgstr "Usa come sostituto HDD"
+msgstr "Usa come sostituto dell'HDD"
 
 msgid "Use automatic mode detection"
 msgstr "Usa rilevamento automatico della modalità"
@@ -23825,7 +23769,7 @@ msgid "When enabled, this adapter will be initialized and activated at boot time
 msgstr "Se abilitato, questo adattatore viene inizializzato e attivato all'avvio del sistema."
 
 msgid "When enabled, this host's shares are listed anonymously (guest), ignoring the username/password below."
-msgstr "Se abilitato, le condivisioni dell'host sono elencate come guest, ignorando utente/password sotto."
+msgstr "Se abilitato, le condivisioni di questo host vengono visualizzate in modalità anonima (guest), ignorando nome utente e password riportati di seguito."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Se abilitata, questa impostazione ha più importanza rispetto a 'Tuner preferito per le registrazioni'."
@@ -23834,7 +23778,7 @@ msgid "When enabled, this setting has more weight than 'Preferred tuner'."
 msgstr "Se abilitata, questa impostazione ha più importanza rispetto a 'Tuner preferito'."
 
 msgid "When enabled, this share is mounted to /media/hdd instead of its own /media/net path. Only use this if the share is reliably available."
-msgstr "Se abilitato, la condivisione viene montata su /media/hdd invece di /media/net. Usa solo se la condivisione è sempre disponibile."
+msgstr "Se abilitato, questa condivisione viene montata in /media/hdd anziché nel suo percorso /media/net. Usa questa opzione solo se la condivisione è sempre disponibile."
 
 msgid "When enabled, time shift starts automatically in background after specified time."
 msgstr "Se abilitato, il timeshift si avvierà automaticamente in background dopo l'ora specificata."
@@ -25112,6 +25056,69 @@ msgstr "sì (mantieni feed)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "1.0"
+#~ msgstr "1.0"
+
+#~ msgid "1.1"
+#~ msgstr "1.1"
+
+#~ msgid "1.2"
+#~ msgstr "1.2"
+
+#~ msgid "10th (Lowest)"
+#~ msgstr "10° (Minima)"
+
+#~ msgid "13 V"
+#~ msgstr "13 V"
+
+#~ msgid "16:9"
+#~ msgstr "16:9"
+
+#~ msgid "18 V"
+#~ msgstr "18 V"
+
+#~ msgid "1st (Highest)"
+#~ msgstr "1° (Massima)"
+
+#~ msgid "2nd"
+#~ msgstr "2°"
+
+#~ msgid "3rd"
+#~ msgstr "3°"
+
+#~ msgid "4th"
+#~ msgstr "4°"
+
+#~ msgid "5th"
+#~ msgstr "5°"
+
+#~ msgid "6th"
+#~ msgstr "6°"
+
+#~ msgid "7th"
+#~ msgstr "7°"
+
+#~ msgid "8th"
+#~ msgstr "8°"
+
+#~ msgid "9th"
+#~ msgstr "9°"
+
+#~ msgid "One"
+#~ msgstr "Uno"
+
+#~ msgid "SMB2"
+#~ msgstr "SMB2"
+
+#~ msgid "SMB3"
+#~ msgstr "SMB3"
+
+#~ msgid "Three"
+#~ msgstr "Tre"
+
+#~ msgid "Two"
+#~ msgstr "Due"
 
 #, python-format
 #~ msgid "%d wireless network found!"
