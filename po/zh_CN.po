@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"POT-Creation-Date: 2026-08-23 17:42+0000\n"
 "PO-Revision-Date: 2026-08-21 14:51+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -1185,6 +1185,10 @@ msgid "%s View"
 msgstr "%s 视图"
 
 #, python-format
+msgid "%s action failed (exit code %s)"
+msgstr ""
+
+#, python-format
 msgid "%s additional screens"
 msgstr "%s 扩展屏幕"
 
@@ -1199,6 +1203,17 @@ msgstr "%s 已被禁用。"
 #, python-format
 msgid "%s imported from remote receiver."
 msgstr "已从远程接收机导入%s。"
+
+#, python-format
+msgid ""
+"%s is currently not running.\n"
+"\n"
+"Do you want to start it?"
+msgstr ""
+
+#, python-format
+msgid "%s is currently stopped or unreachable. Press GREEN to start it."
+msgstr ""
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1216,6 +1231,10 @@ msgstr "%s 不可用。"
 #, python-format
 msgid "%s version"
 msgstr "%s 版本"
+
+#, python-format
+msgid "%s webif disabled"
+msgstr ""
 
 #, python-format
 msgid "%s%d min"
@@ -1726,6 +1745,9 @@ msgstr "人工智能翻译优化"
 msgid "AI Translation subscription code"
 msgstr "人工智能翻译订阅代码"
 
+msgid "AI subtitles"
+msgstr ""
+
 msgid "ARM"
 msgstr "ARM"
 
@@ -2137,6 +2159,9 @@ msgstr "高级恢复"
 msgid "Advanced Settings"
 msgstr "高级设置"
 
+msgid "Advanced diagnostics"
+msgstr ""
+
 msgid "Advanced options and settings."
 msgstr "高级选项和设置。"
 
@@ -2370,6 +2395,9 @@ msgstr "可选广播模式"
 
 msgid "Alternative services tuner priority"
 msgstr "备选频道调谐器优先级"
+
+msgid "Alternative tuner sources"
+msgstr ""
 
 msgid "Always"
 msgstr "总是"
@@ -2713,6 +2741,12 @@ msgstr "音频源"
 msgid "Audio Sync"
 msgstr "音频同步"
 
+msgid "Audio formats and output"
+msgstr ""
+
+msgid "Audio language and track selection"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "伴音语言选择 1"
 
@@ -2724,6 +2758,9 @@ msgstr "伴音语言选择 3"
 
 msgid "Audio language selection 4"
 msgstr "伴音语言选择 4"
+
+msgid "Audio synchronization"
+msgstr ""
 
 msgid "Australia"
 msgstr "澳大利亚"
@@ -3188,6 +3225,9 @@ msgstr "蓝牙音频"
 msgid "Bluetooth Setup"
 msgstr "蓝牙设置"
 
+msgid "Bluetooth audio"
+msgstr ""
+
 msgid "Bolivia"
 msgstr "玻利维亚"
 
@@ -3300,6 +3340,9 @@ msgstr "亮度视频"
 msgid "Brightness Video & OSD"
 msgstr "亮度视频和 OSD"
 
+msgid "Brightness and contrast"
+msgstr ""
+
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr "应用于组合视频+OSD输出的亮度。会影响屏幕上的所有内容，包括此菜单。"
 
@@ -3332,6 +3375,9 @@ msgstr "逐一浏览、安装或删除插件。"
 
 msgid "Brunei Darussalam"
 msgstr "文莱达鲁萨兰国"
+
+msgid "Buffer management"
+msgstr ""
 
 #, python-format
 msgid "Buffering %d%%"
@@ -3398,6 +3444,9 @@ msgstr "商业与金融"
 msgid "Button Setup"
 msgstr "按键设置"
 
+msgid "Button assignments"
+msgstr ""
+
 msgid "Button error timeout"
 msgstr "按钮错误超时"
 
@@ -3424,9 +3473,6 @@ msgstr "有线/地面输入"
 
 msgid "C/T input switching"
 msgstr "有线 / 地面输入切换"
-
-msgid "C/T input switching: external 5V coax switch"
-msgstr "有线 / 地面输入切换：外接 5V 同轴开关"
 
 msgid "CCD-Width"
 msgstr "CCD宽度"
@@ -4017,6 +4063,9 @@ msgstr "频道选择设置"
 msgid "Channel Selection picon path"
 msgstr "频道选择界面的频道图标集"
 
+msgid "Channel and EPG import"
+msgstr ""
+
 msgid "Channel buttons"
 msgstr "频道按键"
 
@@ -4025,6 +4074,9 @@ msgstr "反转频道按键"
 
 msgid "Channel down"
 msgstr "频道 －"
+
+msgid "Channel history and messages"
+msgstr ""
 
 msgid "Channel list cursor behavior"
 msgstr "频道列表光标行为"
@@ -4064,6 +4116,9 @@ msgstr "选择频道："
 
 msgid "Channel up"
 msgstr "频道 +"
+
+msgid "Channel zapping and keys"
+msgstr ""
 
 msgid "ChannelEPG Settings"
 msgstr "频道 EPG 设置"
@@ -4469,6 +4524,9 @@ msgstr "哥伦比亚"
 msgid "Color"
 msgstr "色彩"
 
+msgid "Color button assignments"
+msgstr ""
+
 msgid "Color format"
 msgstr "色彩格式"
 
@@ -4538,14 +4596,14 @@ msgstr "通用接口（CI）分配"
 msgid "Common Interface Settings"
 msgstr "通用接口设置"
 
-msgid "Common Settings"
-msgstr "通用设置"
-
 msgid "Common Setup Actions"
 msgstr "通用设置操作"
 
 msgid "Comoros"
 msgstr "科摩罗"
+
+msgid "Compatibility and emulation"
+msgstr ""
 
 msgid "Compiled by"
 msgstr "编译"
@@ -5299,6 +5357,9 @@ msgstr "出错日志"
 msgid "Crash at skin error for debug reasons"
 msgstr "由于调试原因导致皮肤错误崩溃"
 
+msgid "Crash handling"
+msgstr ""
+
 msgid "Create"
 msgstr "创建"
 
@@ -5557,6 +5618,9 @@ msgstr "自定义 '4'/'6' 键跳跃时间"
 msgid "Custom skip time for '7'/'9' buttons"
 msgstr "自定义 '7'/'9' 键跳跃时间"
 
+msgid "Custom skip times"
+msgstr ""
+
 msgid "Customize"
 msgstr "自定义"
 
@@ -5577,6 +5641,9 @@ msgstr "“%s”按钮的剪辑列表跳过时间"
 
 msgid "CutList skip time for '%s'/'%s' buttons"
 msgstr "'%s'/'%s' 按钮的剪辑列表跳过时间"
+
+msgid "CutList skipping"
+msgstr ""
 
 msgid "Cutlist Editor"
 msgstr "剪辑列表编辑器"
@@ -5672,6 +5739,9 @@ msgstr "DVB 字幕 PID 和语言"
 msgid "DVB subtitle black transparency"
 msgstr "DVB字幕黑色透明度"
 
+msgid "DVB subtitles"
+msgstr ""
+
 msgid "DVB subtitles color"
 msgstr "DVB 字幕颜色"
 
@@ -5684,8 +5754,8 @@ msgstr "DVB-C ANNEX B"
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANNEX C"
 
-msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
-msgstr "DVB‑C 有线与 DVB‑T/T2 地面波共用此输入口。两项同时启用时，Enigma2 将输出 5V 控制外接同轴开关。"
+msgid "DVB-C and DVB-T/T2 share this input. Enable 5V only if the aerial system or an external coax switch requires power."
+msgstr ""
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5737,6 +5807,9 @@ msgstr "日期 / 时间"
 
 msgid "Date Time Input Actions"
 msgstr "日期时间输入操作"
+
+msgid "Date and time"
+msgstr ""
 
 msgid "Date ascending"
 msgstr "日期升序"
@@ -5928,6 +6001,9 @@ msgstr "调试日志信息操作"
 
 msgid "Debug Logs"
 msgstr "调试日志"
+
+msgid "Debug log content"
+msgstr ""
 
 msgid "Debug log time format *"
 msgstr "调试日志时间格式 *"
@@ -6629,6 +6705,12 @@ msgstr "显示有关此文件的更多信息"
 msgid "Display oscam information."
 msgstr "显示 oscam 信息。"
 
+msgid "Display power and content"
+msgstr ""
+
+msgid "Display scrolling"
+msgstr ""
+
 msgid "Display selection list as a selection menu"
 msgstr "将选择列表显示为选择菜单"
 
@@ -6771,23 +6853,20 @@ msgstr "真的要删除“%s”的书签吗？"
 msgid "Do you really want to remove the timer for %s?"
 msgstr "真的要删除 %s 的定时器?"
 
-msgid ""
-"Do you really want to restart OSCam?\n"
-"\n"
-"HINT: This will take about 5 seconds!"
+#, python-format
+msgid "Do you really want to restart %s?"
 msgstr ""
-"您真的要重新启动 OSCam 吗？\n"
-"\n"
-"提示：这大约需要 5 秒钟！"
 
+#, python-format
 msgid ""
-"Do you really want to shut down OSCam?\n"
+"Do you really want to shut down %s?\n"
 "\n"
-"ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
+"ATTENTION: To reactivate %s, a complete receiver restart must be carried out!"
 msgstr ""
-"您真的要关闭 OSCam 吗？\n"
-"\n"
-"注意：要重新激活 OSCam，必须完全重启接收器！"
+
+#, python-format
+msgid "Do you really want to stop %s?"
+msgstr ""
 
 #, python-format
 msgid "Do you really want to stop and delete the timer '%s'?"
@@ -7106,6 +7185,9 @@ msgstr "EPG设置"
 msgid "EPG button mode"
 msgstr "EPG 键模式"
 
+msgid "EPG data in streams"
+msgstr ""
+
 msgid "EPG filename"
 msgstr "EPG 文件名"
 
@@ -7134,6 +7216,9 @@ msgstr ""
 "PVR键：输入频道名称\n"
 "EXIT键：结束频道编辑"
 
+msgid "EPG language"
+msgstr ""
+
 msgid "EPG language selection 1"
 msgstr "EPG 语言选择 1"
 
@@ -7145,6 +7230,15 @@ msgstr "EPG 位置"
 
 msgid "EPG only"
 msgstr "仅 EPG"
+
+msgid "EPG range and history"
+msgstr ""
+
+msgid "EPG sources"
+msgstr ""
+
+msgid "EPG storage and refresh"
+msgstr ""
 
 msgid "EPGSearch"
 msgstr "搜索 EPG"
@@ -7600,6 +7694,9 @@ msgstr "启用功能，以便接收机可以解密流（如果 ECM（授权控�
 
 msgid "Encryption"
 msgstr "加密"
+
+msgid "Encryption and descrambling"
+msgstr ""
 
 msgid "End"
 msgstr "结束"
@@ -8205,6 +8302,9 @@ msgstr "事件视图上下文菜单"
 msgid "Event font size"
 msgstr "事件字体大小"
 
+msgid "Event metadata and correction"
+msgstr ""
+
 msgid "Event name only"
 msgstr "仅事件名称"
 
@@ -8396,6 +8496,9 @@ msgstr "外挂字幕对话框着色"
 
 msgid "External subtitle switch fonts"
 msgstr "外挂字幕切换字体"
+
+msgid "External subtitles"
+msgstr ""
 
 msgid "Externally powered"
 msgstr "外接供电"
@@ -8594,6 +8697,9 @@ msgstr "快时代"
 msgid "Fast forward"
 msgstr "快进"
 
+msgid "Fast forward and rewind"
+msgstr ""
+
 msgid "Fast forward speeds"
 msgstr "快进速度"
 
@@ -8626,6 +8732,9 @@ msgstr "订阅源稳定。"
 
 msgid "Feed unstable!"
 msgstr "订阅源不稳定！"
+
+msgid "Feeds and networking"
+msgstr ""
 
 msgid "Fetch EPG and update timers now"
 msgstr "立即获取 EPG 并更新定时器"
@@ -8750,6 +8859,9 @@ msgstr "文件传输已被用户取消"
 
 msgid "Filename"
 msgstr "文件名"
+
+msgid "Files and directories"
+msgstr ""
 
 msgid "Files/folders to exclude from backup"
 msgstr "要从备份中排除的文件/文件夹"
@@ -9154,8 +9266,26 @@ msgstr "常规 AC3 延迟"
 msgid "General BT audio delay"
 msgstr "常规 AC3 延迟"
 
+msgid "General OSD behavior"
+msgstr ""
+
 msgid "General PCM delay"
 msgstr "常规 PCM 延迟"
+
+msgid "General appearance"
+msgstr ""
+
+msgid "General channel selection"
+msgstr ""
+
+msgid "General setup behavior"
+msgstr ""
+
+msgid "General subtitle appearance and timing"
+msgstr ""
+
+msgid "General time shift behavior"
+msgstr ""
 
 msgid "Generic"
 msgstr "通用"
@@ -9553,6 +9683,9 @@ msgstr "帮助操作"
 
 msgid "Help Screen Information"
 msgstr "帮助屏信息"
+
+msgid "Help and visual feedback"
+msgstr ""
 
 msgid "Help animation speed"
 msgstr "帮助动画速度"
@@ -10288,6 +10421,12 @@ msgstr "信息栏 EPG 设置"
 msgid "InfoBar EPG mode"
 msgstr "信息栏 EPG 模式"
 
+msgid "InfoBar and pause"
+msgstr ""
+
+msgid "InfoBar content and time display"
+msgstr ""
+
 msgid "InfoBar fade-out speed"
 msgstr "信息栏淡入淡出速度"
 
@@ -10296,6 +10435,12 @@ msgstr "信息栏前端数据源"
 
 msgid "InfoBar picon path"
 msgstr "信息栏标频道图标集"
+
+msgid "InfoBar timing and appearance"
+msgstr ""
+
+msgid "InfoBar visibility and behavior"
+msgstr ""
 
 msgid "Information"
 msgstr "信息"
@@ -10741,6 +10886,9 @@ msgstr "Kexec 多系统启动文件丢失。"
 msgid "Key"
 msgstr "键"
 
+msgid "Key map and power buttons"
+msgstr ""
+
 msgid "Keyboard"
 msgstr "键盘"
 
@@ -10873,6 +11021,9 @@ msgstr "待机期间 LED 的亮度。"
 msgid "LED brightness during normal operations."
 msgstr "正常操作期间 LED 的亮度。"
 
+msgid "LED indicators"
+msgstr ""
+
 msgid "LIRC remote"
 msgstr "LIRC 遥控器"
 
@@ -10968,6 +11119,9 @@ msgstr "拉脱维亚"
 
 msgid "Latvian"
 msgstr "拉脱维亚语"
+
+msgid "Layout and fonts"
+msgstr ""
 
 msgid "Leave"
 msgstr "离开"
@@ -11123,6 +11277,9 @@ msgstr "链接"
 
 msgid "List Navigation Actions"
 msgstr "列出导航操作"
+
+msgid "List appearance and sorting"
+msgstr ""
 
 msgid "List available EPG functions"
 msgstr "列出可用的 EPG 功能"
@@ -11285,6 +11442,9 @@ msgstr "在微调器上记录python堆栈跟踪"
 
 msgid "Log results to harddisk"
 msgstr "日志结果写入硬盘"
+
+msgid "Log retention and access"
+msgstr ""
 
 msgid "LogManager"
 msgstr "日志管理器"
@@ -11637,6 +11797,9 @@ msgstr "媒体播放器设置"
 msgid "Media Stream"
 msgstr "媒体流"
 
+msgid "Media files and navigation"
+msgstr ""
+
 msgid "Media playback Remaining/Elapsed as"
 msgstr "媒体播放剩余/已使用"
 
@@ -11710,6 +11873,9 @@ msgstr "菜单项样式"
 msgid "Menu style"
 msgstr "菜单样式"
 
+msgid "Menus and setup"
+msgstr ""
+
 msgid "Merge broadcast EPG with IceTV"
 msgstr "将广播 EPG 与 IceTV 合并"
 
@@ -11757,6 +11923,9 @@ msgstr "MiniDLNA 设置"
 
 msgid "MiniTV"
 msgstr "MiniTV"
+
+msgid "MiniTV and PiP"
+msgstr ""
 
 msgid "MiniTV with OSD"
 msgstr "带 OSD 的MiniTV"
@@ -11892,9 +12061,6 @@ msgstr "挂载"
 
 msgid "Mount Context Menu"
 msgstr "挂载上下文菜单"
-
-msgid "Mount Manager"
-msgstr "挂载管理器"
 
 msgid "Mount Point"
 msgstr "挂载点"
@@ -12233,6 +12399,9 @@ msgstr "影片列表操作"
 msgid "Movie Selection Settings"
 msgstr "影片列表设置"
 
+msgid "Movie list and playback behavior"
+msgstr ""
+
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "电影播放不得使用无效/不适当的目录。"
 
@@ -12448,6 +12617,12 @@ msgstr "导航到所选目录"
 
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "使用向上/向下按钮向上/向下导航，使用左/右向上/向下翻页。单击确定以执行当前突出显示的帮助中描述的操作。"
+
+msgid "Navigation and button assignments"
+msgstr ""
+
+msgid "Navigation and time range"
+msgstr ""
 
 msgid "Ndonga"
 msgstr "恩东加"
@@ -13151,6 +13326,9 @@ msgstr "没有更新"
 msgid "Nothing, just leave this menu"
 msgstr "没什么，只是离开这个菜单"
 
+msgid "Notifications and display"
+msgstr ""
+
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "现在"
@@ -13238,9 +13416,6 @@ msgstr "OSCam 信息"
 
 msgid "OSCam Information Settings"
 msgstr "OSCam 信息设置"
-
-msgid "OSCam webif disabled"
-msgstr "已禁用 OSCam 网页接口"
 
 msgid "OSCamInfo Actions"
 msgstr "OSCam信息操作"
@@ -13595,6 +13770,9 @@ msgstr "OpenVPN"
 msgid "OpenViX Packages"
 msgstr "OpenViX 软件包"
 
+msgid "OpenWebif connection"
+msgstr ""
+
 msgid "OpenWebif picon path"
 msgstr "OpenWebif 频道图标集"
 
@@ -13678,6 +13856,9 @@ msgstr "其他"
 
 msgid "Other Actions"
 msgstr "其他动作"
+
+msgid "Other OSD elements"
+msgstr ""
 
 msgid "Other Packages"
 msgstr "其他软件包"
@@ -13806,6 +13987,9 @@ msgstr "软件包"
 
 msgid "Package Manager"
 msgstr "软件包管理器"
+
+msgid "Package categories"
+msgstr ""
 
 msgid "Package files:"
 msgstr "软件包文件："
@@ -14080,6 +14264,9 @@ msgstr "图片信息操作"
 msgid "Picture in EPG"
 msgstr "EPG 节目缩略图"
 
+msgid "Picture in Picture"
+msgstr ""
+
 msgid "Picture in Picture Actions"
 msgstr "画中画操作"
 
@@ -14212,6 +14399,12 @@ msgstr "播放设置"
 
 msgid "Playback Time:"
 msgstr "播放时间："
+
+msgid "Playback and saving"
+msgstr ""
+
+msgid "Playback and status"
+msgstr ""
 
 msgid "Playback, Recording & Time Shift"
 msgstr "播放 / 录制 / 时移"
@@ -14499,6 +14692,9 @@ msgstr "插件软件包"
 
 msgid "Plugin Skin Packages"
 msgstr "插件皮肤包"
+
+msgid "Plugin browser"
+msgstr ""
 
 msgid "Plugins"
 msgstr "插件"
@@ -15344,8 +15540,14 @@ msgstr "录制设置"
 msgid "Recording aborted"
 msgstr "录制已中止"
 
+msgid "Recording and status indicators"
+msgstr ""
+
 msgid "Recording failed"
 msgstr "录制失败"
+
+msgid "Recording filenames and data"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "录制完成"
@@ -15355,6 +15557,9 @@ msgstr "正在录制！"
 
 msgid "Recording location"
 msgstr "录制位置"
+
+msgid "Recording locations"
+msgstr ""
 
 msgid "Recording running"
 msgstr "正在录制"
@@ -15411,6 +15616,9 @@ msgstr "恢复"
 
 msgid "Recovery Mode"
 msgstr "恢复模式"
+
+msgid "Recovery and hardware"
+msgstr ""
 
 msgid "Red"
 msgstr "红色"
@@ -15559,6 +15767,12 @@ msgstr "远程路径"
 
 msgid "Remote receiver"
 msgstr "远程机顶盒"
+
+msgid "Remote receiver connection"
+msgstr ""
+
+msgid "Remote timers"
+msgstr ""
 
 msgid "Remove"
 msgstr "移除"
@@ -15880,6 +16094,10 @@ msgstr "正在解析..."
 msgid "Restart"
 msgstr "重启"
 
+#, python-format
+msgid "Restart %s"
+msgstr ""
+
 msgid "Restart Adapter"
 msgstr "重启适配器"
 
@@ -15898,9 +16116,6 @@ msgstr "马上重启图形界面？"
 msgid "Restart Network"
 msgstr "重启网络"
 
-msgid "Restart OSCam"
-msgstr "重启 OSCam"
-
 msgid "Restart enigma"
 msgstr "重启 Enigma"
 
@@ -15918,6 +16133,10 @@ msgstr "用当前设置重启网络"
 
 msgid "Restart test"
 msgstr "重启测试"
+
+#, python-format
+msgid "Restarting %s failed (exit code %s)"
+msgstr ""
 
 msgid "Restarting adapter..."
 msgstr "正在重启适配器..."
@@ -18081,6 +18300,9 @@ msgstr ""
 "频道无效!\n"
 "（读取 PMT 超时）"
 
+msgid "Service list appearance"
+msgstr ""
+
 msgid "Service name"
 msgstr "频道名称"
 
@@ -19370,8 +19592,9 @@ msgstr "关闭"
 msgid "Shutdown"
 msgstr "关机"
 
-msgid "Shutdown OSCam"
-msgstr "关闭 OSCam"
+#, python-format
+msgid "Shutdown %s"
+msgstr ""
 
 msgid "Shutting down. Please wait..."
 msgstr "正在关闭。 请稍等..."
@@ -19528,6 +19751,9 @@ msgstr "快进（输入时间）"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "使用插件进行时移时跳过跳转到直播"
+
+msgid "Skip modes"
+msgstr ""
 
 msgid "Skip network setup"
 msgstr ""
@@ -19815,6 +20041,9 @@ msgstr "软件更新操作"
 msgid "Software descrambling"
 msgstr "软件解扰"
 
+msgid "Software display scrolling"
+msgstr ""
+
 msgid "Software information"
 msgstr "软件信息"
 
@@ -19948,6 +20177,9 @@ msgstr "声音"
 msgid "Sound carrier"
 msgstr "伴音载波"
 
+msgid "Sound enhancements"
+msgstr ""
+
 msgid "Source Packages"
 msgstr "源软件包"
 
@@ -20060,6 +20292,10 @@ msgstr "待机而不关闭电视"
 msgid "Start"
 msgstr "开始"
 
+#, python-format
+msgid "Start %s"
+msgstr ""
+
 msgid "Start Auto Refresh"
 msgstr "启动自动刷新"
 
@@ -20138,6 +20374,10 @@ msgstr "启动/停止/选择 cam"
 msgid "Start/stop/select your cam, You need to install first a softcam"
 msgstr "启动/停止/选择 cam，需要首选安装 softcam"
 
+#, python-format
+msgid "Starting %s failed (exit code %s)"
+msgstr ""
+
 msgid "Starting Softcam"
 msgstr "正在启动 Softcam"
 
@@ -20155,6 +20395,9 @@ msgstr "开始时间"
 
 msgid "Starts in a few seconds"
 msgstr "几秒钟后开始"
+
+msgid "Startup and wakeup"
+msgstr ""
 
 msgid "Startup device not found!"
 msgstr "未找到启动设备！"
@@ -20277,6 +20520,10 @@ msgstr "停止定时录制"
 msgid "Stopped"
 msgstr "已停止"
 
+#, python-format
+msgid "Stopping %s failed (exit code %s)"
+msgstr ""
+
 msgid "Stopping Softcam"
 msgstr "正在停止 Softcam"
 
@@ -20298,6 +20545,9 @@ msgstr "存储 / 驱动器信息"
 
 msgid "Storage Devices"
 msgstr "存储设备"
+
+msgid "Storage and deletion"
+msgstr ""
 
 msgid "Storage device full!"
 msgstr "存储设备已满！"
@@ -20435,6 +20685,9 @@ msgstr "时间轴不完整或不准确时字幕延迟"
 
 msgid "Subtitle font size"
 msgstr "字幕字体大小"
+
+msgid "Subtitle language and selection"
+msgstr ""
 
 msgid "Subtitle language selection 1"
 msgstr "字幕语言选择1"
@@ -20870,6 +21123,9 @@ msgstr "图文电视字体和分辨率"
 
 msgid "Teletext subtitle color"
 msgstr "图文电视字幕颜色"
+
+msgid "Teletext subtitles"
+msgstr ""
 
 msgid "Telnet"
 msgstr "设置 Telnet"
@@ -21770,6 +22026,9 @@ msgstr "时区"
 msgid "Time zone area"
 msgstr "时区区域"
 
+msgid "Timeline"
+msgstr ""
+
 msgid "Timeline 24 Hour"
 msgstr "24小时时间线"
 
@@ -21793,6 +22052,9 @@ msgstr "定时器健全性错误"
 
 msgid "Timer Selection Actions"
 msgstr "定时器选择操作"
+
+msgid "Timer defaults and margins"
+msgstr ""
 
 msgid "Timer edit"
 msgstr "编辑定时器"
@@ -22089,6 +22351,9 @@ msgstr "传输流 ID (TSID)"
 msgid "Transport Stream Type"
 msgstr "传输流类型"
 
+msgid "Trash and deletion"
+msgstr ""
+
 msgid "Trashcan"
 msgstr "回收站"
 
@@ -22184,6 +22449,12 @@ msgstr "调谐器设置"
 
 msgid "Tuner Setup"
 msgstr "调谐器设置"
+
+msgid "Tuner allocation and conflicts"
+msgstr ""
+
+msgid "Tuner and streaming"
+msgstr ""
 
 msgid "Tuner data is not available!"
 msgstr "调谐器数据不可用！"
@@ -23344,6 +23615,9 @@ msgstr "音量调节设置"
 
 msgid "Volume adjustment mode"
 msgstr "音量调节模式"
+
+msgid "Volume control"
+msgstr ""
 
 msgid "Volume down"
 msgstr "音量减小"
@@ -25060,6 +25334,45 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "C/T input switching: external 5V coax switch"
+#~ msgstr "有线 / 地面输入切换：外接 5V 同轴开关"
+
+#~ msgid "Common Settings"
+#~ msgstr "通用设置"
+
+#~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
+#~ msgstr "DVB‑C 有线与 DVB‑T/T2 地面波共用此输入口。两项同时启用时，Enigma2 将输出 5V 控制外接同轴开关。"
+
+#~ msgid ""
+#~ "Do you really want to restart OSCam?\n"
+#~ "\n"
+#~ "HINT: This will take about 5 seconds!"
+#~ msgstr ""
+#~ "您真的要重新启动 OSCam 吗？\n"
+#~ "\n"
+#~ "提示：这大约需要 5 秒钟！"
+
+#~ msgid ""
+#~ "Do you really want to shut down OSCam?\n"
+#~ "\n"
+#~ "ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
+#~ msgstr ""
+#~ "您真的要关闭 OSCam 吗？\n"
+#~ "\n"
+#~ "注意：要重新激活 OSCam，必须完全重启接收器！"
+
+#~ msgid "Mount Manager"
+#~ msgstr "挂载管理器"
+
+#~ msgid "OSCam webif disabled"
+#~ msgstr "已禁用 OSCam 网页接口"
+
+#~ msgid "Restart OSCam"
+#~ msgstr "重启 OSCam"
+
+#~ msgid "Shutdown OSCam"
+#~ msgstr "关闭 OSCam"
 
 #~ msgid "1.0"
 #~ msgstr "1.0"
