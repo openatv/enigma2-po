@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"POT-Creation-Date: 2026-08-23 17:42+0000\n"
 "PO-Revision-Date: 2026-08-16 18:28+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -1195,6 +1195,10 @@ msgstr "%s Installation"
 msgid "%s View"
 msgstr "%s Visa"
 
+#, python-format
+msgid "%s action failed (exit code %s)"
+msgstr ""
+
 #
 #, python-format
 msgid "%s additional screens"
@@ -1211,6 +1215,17 @@ msgstr "%s har avaktiverats."
 #, python-format
 msgid "%s imported from remote receiver."
 msgstr "%s importerad från fjärrmottagaren."
+
+#, python-format
+msgid ""
+"%s is currently not running.\n"
+"\n"
+"Do you want to start it?"
+msgstr ""
+
+#, python-format
+msgid "%s is currently stopped or unreachable. Press GREEN to start it."
+msgstr ""
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1229,6 +1244,10 @@ msgstr "%s inte tillgänglig."
 #, python-format
 msgid "%s version"
 msgstr "%s version"
+
+#, python-format
+msgid "%s webif disabled"
+msgstr ""
 
 #, python-format
 msgid "%s%d min"
@@ -1763,6 +1782,9 @@ msgstr "AI Översättningsoptimering"
 msgid "AI Translation subscription code"
 msgstr "Abonnemangskod för AI Translation"
 
+msgid "AI subtitles"
+msgstr ""
+
 msgid "ARM"
 msgstr "ARM"
 
@@ -2208,6 +2230,9 @@ msgstr "Avancerad återställning"
 msgid "Advanced Settings"
 msgstr "Avancerade inställningar"
 
+msgid "Advanced diagnostics"
+msgstr ""
+
 #
 msgid "Advanced options and settings."
 msgstr "Avancerade alternativ och inställningar."
@@ -2455,6 +2480,9 @@ msgstr "Alternativt radioläge"
 #
 msgid "Alternative services tuner priority"
 msgstr "Alternativa tjänster tuner prioritet"
+
+msgid "Alternative tuner sources"
+msgstr ""
 
 msgid "Always"
 msgstr "Alltid"
@@ -2811,6 +2839,12 @@ msgstr "Ljudkälla"
 msgid "Audio Sync"
 msgstr "Synkronisering av ljud"
 
+msgid "Audio formats and output"
+msgstr ""
+
+msgid "Audio language and track selection"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Val av ljudspråk 1"
 
@@ -2822,6 +2856,9 @@ msgstr "Val av ljudspråk 3"
 
 msgid "Audio language selection 4"
 msgstr "Val av ljudspråk 4"
+
+msgid "Audio synchronization"
+msgstr ""
 
 #
 msgid "Australia"
@@ -3319,6 +3356,9 @@ msgstr "Bluetooth-ljud"
 msgid "Bluetooth Setup"
 msgstr "Bluetooth-inställning"
 
+msgid "Bluetooth audio"
+msgstr ""
+
 msgid "Bolivia"
 msgstr "Bolivia"
 
@@ -3435,6 +3475,9 @@ msgstr "Ljusstyrka Video"
 msgid "Brightness Video & OSD"
 msgstr "Ljusstyrka Video & OSD"
 
+msgid "Brightness and contrast"
+msgstr ""
+
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr ""
 
@@ -3467,6 +3510,9 @@ msgstr "Bläddra, installera eller ta bort plugins på en och samma basis."
 
 msgid "Brunei Darussalam"
 msgstr "Brunei Darussalam"
+
+msgid "Buffer management"
+msgstr ""
 
 #, python-format
 msgid "Buffering %d%%"
@@ -3533,6 +3579,9 @@ msgstr "Företag och finans"
 msgid "Button Setup"
 msgstr "Inställning av knappar"
 
+msgid "Button assignments"
+msgstr ""
+
 msgid "Button error timeout"
 msgstr "Timeout för fel på knapp"
 
@@ -3559,9 +3608,6 @@ msgid "C/T input"
 msgstr ""
 
 msgid "C/T input switching"
-msgstr ""
-
-msgid "C/T input switching: external 5V coax switch"
 msgstr ""
 
 msgid "CCD-Width"
@@ -4176,6 +4222,9 @@ msgstr "Inställningar för kanalval"
 msgid "Channel Selection picon path"
 msgstr ""
 
+msgid "Channel and EPG import"
+msgstr ""
+
 msgid "Channel buttons"
 msgstr "Kanal-knappar"
 
@@ -4184,6 +4233,9 @@ msgstr "Kanalernas knappar inverteras"
 
 msgid "Channel down"
 msgstr "Kanal ned"
+
+msgid "Channel history and messages"
+msgstr ""
 
 msgid "Channel list cursor behavior"
 msgstr "Markörens beteende i kanallistan"
@@ -4225,6 +4277,9 @@ msgstr "Val av kanal:"
 #
 msgid "Channel up"
 msgstr "Kanal upp"
+
+msgid "Channel zapping and keys"
+msgstr ""
 
 #
 msgid "ChannelEPG Settings"
@@ -4651,6 +4706,9 @@ msgstr "Colombia"
 msgid "Color"
 msgstr "Färg"
 
+msgid "Color button assignments"
+msgstr ""
+
 msgid "Color format"
 msgstr "Färgformat"
 
@@ -4725,15 +4783,15 @@ msgstr "Tilldelning av gemensamt gränssnitt"
 msgid "Common Interface Settings"
 msgstr "Gemensamma inställningar för gränssnitt"
 
-msgid "Common Settings"
-msgstr "Vanliga inställningar"
-
 #
 msgid "Common Setup Actions"
 msgstr "Vanliga installationsåtgärder"
 
 msgid "Comoros"
 msgstr "Komorerna"
+
+msgid "Compatibility and emulation"
+msgstr ""
 
 msgid "Compiled by"
 msgstr "Sammanställt av"
@@ -5490,6 +5548,9 @@ msgstr "Loggar över krascher"
 msgid "Crash at skin error for debug reasons"
 msgstr "Krasch vid hudfel av felsökningsskäl"
 
+msgid "Crash handling"
+msgstr ""
+
 msgid "Create"
 msgstr "Skapa"
 
@@ -5756,6 +5817,9 @@ msgstr "Anpassad hopptid för knapparna '4'/'6'"
 msgid "Custom skip time for '7'/'9' buttons"
 msgstr "Anpassad hopptid för knapparna '7'/'9'"
 
+msgid "Custom skip times"
+msgstr ""
+
 #
 msgid "Customize"
 msgstr "Anpassa"
@@ -5778,6 +5842,9 @@ msgstr "CutList hoppar över tiden för \"%s\"-knappen"
 
 msgid "CutList skip time for '%s'/'%s' buttons"
 msgstr "Skiptid för CutList för knapparna '%s'/'%s'"
+
+msgid "CutList skipping"
+msgstr ""
 
 msgid "Cutlist Editor"
 msgstr "Redaktör för klipplista"
@@ -5876,6 +5943,9 @@ msgstr "DVB-undertexter PID & språk"
 msgid "DVB subtitle black transparency"
 msgstr "DVB-undertext svart transparens"
 
+msgid "DVB subtitles"
+msgstr ""
+
 msgid "DVB subtitles color"
 msgstr "DVB-undertexter färg"
 
@@ -5888,7 +5958,7 @@ msgstr "DVB-C BILAGA B"
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C BILAGA C"
 
-msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
+msgid "DVB-C and DVB-T/T2 share this input. Enable 5V only if the aerial system or an external coax switch requires power."
 msgstr ""
 
 #
@@ -5951,6 +6021,9 @@ msgstr "Datum / Tid"
 
 msgid "Date Time Input Actions"
 msgstr "Datum Tid Inmatning Åtgärder"
+
+msgid "Date and time"
+msgstr ""
 
 msgid "Date ascending"
 msgstr "Datum i stigande ordning"
@@ -6143,6 +6216,9 @@ msgstr "Åtgärder för information om debuggloggen"
 
 msgid "Debug Logs"
 msgstr "Felsökningsloggar"
+
+msgid "Debug log content"
+msgstr ""
 
 msgid "Debug log time format *"
 msgstr "Tidsformat för debugglogg *"
@@ -6885,6 +6961,12 @@ msgstr "Visa mer information om den här filen"
 msgid "Display oscam information."
 msgstr "Visa oscam-information."
 
+msgid "Display power and content"
+msgstr ""
+
+msgid "Display scrolling"
+msgstr ""
+
 msgid "Display selection list as a selection menu"
 msgstr "Visa urvalslistan som en urvalsmeny"
 
@@ -7037,23 +7119,20 @@ msgstr "Vill du verkligen ta bort bokmärket för '%s'?"
 msgid "Do you really want to remove the timer for %s?"
 msgstr "Vill du verkligen ta bort timern för %s?"
 
-msgid ""
-"Do you really want to restart OSCam?\n"
-"\n"
-"HINT: This will take about 5 seconds!"
+#, python-format
+msgid "Do you really want to restart %s?"
 msgstr ""
-"Vill du verkligen starta om OSCam?\n"
-"\n"
-"TIPS: Detta tar cirka 5 sekunder!"
 
+#, python-format
 msgid ""
-"Do you really want to shut down OSCam?\n"
+"Do you really want to shut down %s?\n"
 "\n"
-"ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
+"ATTENTION: To reactivate %s, a complete receiver restart must be carried out!"
 msgstr ""
-"Vill du verkligen stänga av OSCam?\n"
-"\n"
-"OBSERVERA: För att återaktivera OSCam måste en fullständig omstart av mottagaren utföras!"
+
+#, python-format
+msgid "Do you really want to stop %s?"
+msgstr ""
 
 #, python-format
 msgid "Do you really want to stop and delete the timer '%s'?"
@@ -7392,6 +7471,9 @@ msgstr "EPG-inställning"
 msgid "EPG button mode"
 msgstr "EPG-knappens läge"
 
+msgid "EPG data in streams"
+msgstr ""
+
 msgid "EPG filename"
 msgstr "EPG-filnamn"
 
@@ -7420,6 +7502,9 @@ msgstr ""
 "PVR-tangent : Ange kanalnamn\n"
 "Avsluta tangent : Avsluta kanalredigering"
 
+msgid "EPG language"
+msgstr ""
+
 msgid "EPG language selection 1"
 msgstr "EPG-språkval 1"
 
@@ -7431,6 +7516,15 @@ msgstr "EPG-plats"
 
 msgid "EPG only"
 msgstr "Endast EPG"
+
+msgid "EPG range and history"
+msgstr ""
+
+msgid "EPG sources"
+msgstr ""
+
+msgid "EPG storage and refresh"
+msgstr ""
 
 msgid "EPGSearch"
 msgstr "EPGSök"
@@ -7912,6 +8006,9 @@ msgstr "Aktiverar en funktion så att mottagaren kan dekryptera flöden (om ECM-
 #
 msgid "Encryption"
 msgstr "Kryptering"
+
+msgid "Encryption and descrambling"
+msgstr ""
 
 msgid "End"
 msgstr "Slut"
@@ -8538,6 +8635,9 @@ msgstr "Kontextmeny för händelsevy"
 msgid "Event font size"
 msgstr "Händelsens teckenstorlek"
 
+msgid "Event metadata and correction"
+msgstr ""
+
 msgid "Event name only"
 msgstr "Endast evenemangets namn"
 
@@ -8743,6 +8843,9 @@ msgstr "Färgläggning av dialogrutan för extern undertext"
 msgid "External subtitle switch fonts"
 msgstr "Teckensnitt för omkoppling av extern undertext"
 
+msgid "External subtitles"
+msgstr ""
+
 msgid "Externally powered"
 msgstr ""
 
@@ -8947,6 +9050,9 @@ msgstr "Snabb epok"
 msgid "Fast forward"
 msgstr "Snabbspola"
 
+msgid "Fast forward and rewind"
+msgstr ""
+
 msgid "Fast forward speeds"
 msgstr "Snabbspolningshastigheter"
 
@@ -8980,6 +9086,9 @@ msgstr "Foder stabilt."
 
 msgid "Feed unstable!"
 msgstr "Mata instabilt!"
+
+msgid "Feeds and networking"
+msgstr ""
 
 msgid "Fetch EPG and update timers now"
 msgstr "Hämta EPG och uppdatera timers nu"
@@ -9107,6 +9216,9 @@ msgstr "Filöverföringen avbröts av användaren"
 #
 msgid "Filename"
 msgstr "Filnamn"
+
+msgid "Files and directories"
+msgstr ""
 
 msgid "Files/folders to exclude from backup"
 msgstr "Filer/mappar som ska uteslutas från säkerhetskopiering"
@@ -9533,8 +9645,26 @@ msgstr "Allmän AC3-fördröjning"
 msgid "General BT audio delay"
 msgstr "Allmänt BT Ljudfördröjning"
 
+msgid "General OSD behavior"
+msgstr ""
+
 msgid "General PCM delay"
 msgstr "Allmän PCM-fördröjning"
+
+msgid "General appearance"
+msgstr ""
+
+msgid "General channel selection"
+msgstr ""
+
+msgid "General setup behavior"
+msgstr ""
+
+msgid "General subtitle appearance and timing"
+msgstr ""
+
+msgid "General time shift behavior"
+msgstr ""
 
 msgid "Generic"
 msgstr "Allmän"
@@ -9952,6 +10082,9 @@ msgstr "Hjälpåtgärd"
 
 msgid "Help Screen Information"
 msgstr "Information på hjälpskärmen"
+
+msgid "Help and visual feedback"
+msgstr ""
 
 msgid "Help animation speed"
 msgstr "Hjälp animeringshastighet"
@@ -10711,6 +10844,12 @@ msgstr "Inställningar för EPG i InfoBar"
 msgid "InfoBar EPG mode"
 msgstr "InfoBar EPG-läge"
 
+msgid "InfoBar and pause"
+msgstr ""
+
+msgid "InfoBar content and time display"
+msgstr ""
+
 msgid "InfoBar fade-out speed"
 msgstr "Hastighet för uttoning av InfoBar"
 
@@ -10718,6 +10857,12 @@ msgid "InfoBar front end data source"
 msgstr "InfoBar front-end datakälla"
 
 msgid "InfoBar picon path"
+msgstr ""
+
+msgid "InfoBar timing and appearance"
+msgstr ""
+
+msgid "InfoBar visibility and behavior"
 msgstr ""
 
 #
@@ -11197,6 +11342,9 @@ msgstr "Kexec MultiBoot-filer saknas."
 msgid "Key"
 msgstr "Nyckel"
 
+msgid "Key map and power buttons"
+msgstr ""
+
 #
 msgid "Keyboard"
 msgstr "Tangentbord"
@@ -11332,6 +11480,9 @@ msgstr "LED-ljusstyrka under standby."
 msgid "LED brightness during normal operations."
 msgstr "LED-ljusstyrka under normal drift."
 
+msgid "LED indicators"
+msgstr ""
+
 msgid "LIRC remote"
 msgstr "LIRC fjärrkontroll"
 
@@ -11437,6 +11588,9 @@ msgstr "Lettland"
 #
 msgid "Latvian"
 msgstr "Lettiska"
+
+msgid "Layout and fonts"
+msgstr ""
 
 msgid "Leave"
 msgstr ""
@@ -11606,6 +11760,9 @@ msgstr "Länkar"
 
 msgid "List Navigation Actions"
 msgstr "Åtgärder för listnavigering"
+
+msgid "List appearance and sorting"
+msgstr ""
 
 msgid "List available EPG functions"
 msgstr "Lista tillgängliga EPG-funktioner"
@@ -11779,6 +11936,9 @@ msgstr "Logga python stack trace på spinner"
 #
 msgid "Log results to harddisk"
 msgstr "Logga resultat till hårddisk"
+
+msgid "Log retention and access"
+msgstr ""
 
 msgid "LogManager"
 msgstr "LogManager"
@@ -12149,6 +12309,9 @@ msgstr "Inställningar för mediaspelare"
 msgid "Media Stream"
 msgstr "Media Stream"
 
+msgid "Media files and navigation"
+msgstr ""
+
 msgid "Media playback Remaining/Elapsed as"
 msgstr "Mediauppspelning Kvarstår/förfaller som"
 
@@ -12227,6 +12390,9 @@ msgstr "Stil för menyinmatning"
 msgid "Menu style"
 msgstr "Menytyp"
 
+msgid "Menus and setup"
+msgstr ""
+
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Sammanfoga EPG för sändningar med IceTV"
 
@@ -12275,6 +12441,9 @@ msgstr "Inställningar för MiniDLNA"
 
 msgid "MiniTV"
 msgstr "MiniTV"
+
+msgid "MiniTV and PiP"
+msgstr ""
 
 msgid "MiniTV with OSD"
 msgstr "MiniTV med OSD"
@@ -12421,9 +12590,6 @@ msgstr "Montera"
 
 msgid "Mount Context Menu"
 msgstr ""
-
-msgid "Mount Manager"
-msgstr "Mount Manager"
 
 msgid "Mount Point"
 msgstr "Monteringspunkt"
@@ -12779,6 +12945,9 @@ msgstr "Åtgärder för val av film"
 msgid "Movie Selection Settings"
 msgstr "Inställningar för filmval"
 
+msgid "Movie list and playback behavior"
+msgstr ""
+
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "Filmuppspelning får inte använda en ogiltig/olämplig katalog."
 
@@ -13008,6 +13177,12 @@ msgstr "Navigera till den valda katalogen"
 
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "Navigera uppåt/nedåt med UP/DOWN-knapparna och bläddra uppåt/nedåt med LEFT/RIGHT. OK för att utföra den åtgärd som beskrivs i den aktuella markerade hjälpen."
+
+msgid "Navigation and button assignments"
+msgstr ""
+
+msgid "Navigation and time range"
+msgstr ""
 
 msgid "Ndonga"
 msgstr "Ndonga"
@@ -13755,6 +13930,9 @@ msgstr "Inget att uppgradera"
 msgid "Nothing, just leave this menu"
 msgstr "Ingenting, lämna bara denna meny"
 
+msgid "Notifications and display"
+msgstr ""
+
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "Nu"
@@ -13844,9 +14022,6 @@ msgstr "OSCam Information"
 
 msgid "OSCam Information Settings"
 msgstr "Inställningar för OSCam-information"
-
-msgid "OSCam webif disabled"
-msgstr "OSCam webif inaktiverad"
 
 msgid "OSCamInfo Actions"
 msgstr "OSCamInfo Åtgärder"
@@ -14214,6 +14389,9 @@ msgstr "OpenVPN"
 msgid "OpenViX Packages"
 msgstr "OpenViX-paket"
 
+msgid "OpenWebif connection"
+msgstr ""
+
 msgid "OpenWebif picon path"
 msgstr ""
 
@@ -14298,6 +14476,9 @@ msgstr "Annat"
 
 msgid "Other Actions"
 msgstr "Andra åtgärder"
+
+msgid "Other OSD elements"
+msgstr ""
 
 msgid "Other Packages"
 msgstr "Övriga paket"
@@ -14431,6 +14612,9 @@ msgstr "Paket"
 #
 msgid "Package Manager"
 msgstr "Paketansvarig"
+
+msgid "Package categories"
+msgstr ""
 
 msgid "Package files:"
 msgstr "Paketfiler:"
@@ -14715,6 +14899,9 @@ msgstr "Bild Information Åtgärder"
 msgid "Picture in EPG"
 msgstr "Bild i EPG"
 
+msgid "Picture in Picture"
+msgstr ""
+
 #
 msgid "Picture in Picture Actions"
 msgstr "Bild i bild Åtgärder"
@@ -14859,6 +15046,12 @@ msgstr "Inställningar för uppspelning"
 
 msgid "Playback Time:"
 msgstr "Uppspelningstid:"
+
+msgid "Playback and saving"
+msgstr ""
+
+msgid "Playback and status"
+msgstr ""
 
 msgid "Playback, Recording & Time Shift"
 msgstr "Uppspelning, inspelning och tidsförskjutning"
@@ -15172,6 +15365,9 @@ msgstr "Plugin-paket"
 
 msgid "Plugin Skin Packages"
 msgstr "Plugin Skin-paket"
+
+msgid "Plugin browser"
+msgstr ""
 
 #
 msgid "Plugins"
@@ -16078,8 +16274,14 @@ msgstr "Inspelningsinställningar"
 msgid "Recording aborted"
 msgstr "Inspelning avbruten"
 
+msgid "Recording and status indicators"
+msgstr ""
+
 msgid "Recording failed"
 msgstr "Inspelningen misslyckades"
+
+msgid "Recording filenames and data"
+msgstr ""
 
 #
 msgid "Recording finished"
@@ -16090,6 +16292,9 @@ msgstr "Inspelning pågår!"
 
 msgid "Recording location"
 msgstr "Inspelningsplats"
+
+msgid "Recording locations"
+msgstr ""
 
 #
 msgid "Recording running"
@@ -16151,6 +16356,9 @@ msgstr "Återhämtning"
 #
 msgid "Recovery Mode"
 msgstr "Återställningsläge"
+
+msgid "Recovery and hardware"
+msgstr ""
 
 msgid "Red"
 msgstr "Röd"
@@ -16302,6 +16510,12 @@ msgstr ""
 
 msgid "Remote receiver"
 msgstr "Fjärrkontroll"
+
+msgid "Remote receiver connection"
+msgstr ""
+
+msgid "Remote timers"
+msgstr ""
 
 #
 msgid "Remove"
@@ -16657,6 +16871,10 @@ msgstr ""
 msgid "Restart"
 msgstr "Starta om"
 
+#, python-format
+msgid "Restart %s"
+msgstr ""
+
 msgid "Restart Adapter"
 msgstr ""
 
@@ -16677,9 +16895,6 @@ msgstr "Starta om GUI nu?"
 msgid "Restart Network"
 msgstr "Starta om nätverket"
 
-msgid "Restart OSCam"
-msgstr "Starta om OSCam"
-
 msgid "Restart enigma"
 msgstr "Starta om enigma"
 
@@ -16699,6 +16914,10 @@ msgstr "Starta om nätverket med aktuell inställning"
 #
 msgid "Restart test"
 msgstr "Starta om testet"
+
+#, python-format
+msgid "Restarting %s failed (exit code %s)"
+msgstr ""
 
 msgid "Restarting adapter..."
 msgstr ""
@@ -18949,6 +19168,9 @@ msgstr ""
 "Tjänsten ogiltig!\n"
 "(Timeout vid läsning av PMT)"
 
+msgid "Service list appearance"
+msgstr ""
+
 msgid "Service name"
 msgstr "Namn på service"
 
@@ -20287,8 +20509,9 @@ msgstr "Stäng av"
 msgid "Shutdown"
 msgstr "Stäng av"
 
-msgid "Shutdown OSCam"
-msgstr "Avstängning av OSCam"
+#, python-format
+msgid "Shutdown %s"
+msgstr ""
 
 msgid "Shutting down. Please wait..."
 msgstr "Stänger av. Vänta..."
@@ -20461,6 +20684,9 @@ msgstr "Hoppa framåt (ange tid)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Hoppa till direktsändning när du tidsförskjuter med plugins"
+
+msgid "Skip modes"
+msgstr ""
 
 msgid "Skip network setup"
 msgstr ""
@@ -20760,6 +20986,9 @@ msgstr "Åtgärder för uppdatering av programvara"
 msgid "Software descrambling"
 msgstr ""
 
+msgid "Software display scrolling"
+msgstr ""
+
 msgid "Software information"
 msgstr "Programinformation"
 
@@ -20897,6 +21126,9 @@ msgstr "Ljud"
 msgid "Sound carrier"
 msgstr "Ljudbärare"
 
+msgid "Sound enhancements"
+msgstr ""
+
 msgid "Source Packages"
 msgstr "Källförpackningar"
 
@@ -21016,6 +21248,10 @@ msgstr "Standby utan avstängning av TV"
 msgid "Start"
 msgstr "Start"
 
+#, python-format
+msgid "Start %s"
+msgstr ""
+
 msgid "Start Auto Refresh"
 msgstr "Starta automatisk uppdatering"
 
@@ -21100,6 +21336,10 @@ msgstr "Starta/stoppa/välja kamera"
 msgid "Start/stop/select your cam, You need to install first a softcam"
 msgstr "Starta/stoppa/välja din kamera, Du måste först installera en softcam"
 
+#, python-format
+msgid "Starting %s failed (exit code %s)"
+msgstr ""
+
 msgid "Starting Softcam"
 msgstr "Starta Softcam"
 
@@ -21118,6 +21358,9 @@ msgstr "Starttidpunkt"
 
 msgid "Starts in a few seconds"
 msgstr "Startar på några sekunder"
+
+msgid "Startup and wakeup"
+msgstr ""
 
 msgid "Startup device not found!"
 msgstr "Uppstartsenheten hittades inte!"
@@ -21254,6 +21497,10 @@ msgstr "Stoppa timerinspelning"
 msgid "Stopped"
 msgstr "Stoppat"
 
+#, python-format
+msgid "Stopping %s failed (exit code %s)"
+msgstr ""
+
 msgid "Stopping Softcam"
 msgstr "Stoppa Softcam"
 
@@ -21276,6 +21523,9 @@ msgstr "Lagring / Information om enheten"
 #
 msgid "Storage Devices"
 msgstr "Lagringsenheter"
+
+msgid "Storage and deletion"
+msgstr ""
 
 msgid "Storage device full!"
 msgstr "Lagringsenheten full!"
@@ -21421,6 +21671,9 @@ msgstr "Fördröjning av undertexter när timing saknas"
 
 msgid "Subtitle font size"
 msgstr "Undertextens teckenstorlek"
+
+msgid "Subtitle language and selection"
+msgstr ""
 
 msgid "Subtitle language selection 1"
 msgstr "Val av språk för undertexter 1"
@@ -21877,6 +22130,9 @@ msgstr "Teckensnitt och upplösning för text-tv"
 
 msgid "Teletext subtitle color"
 msgstr "Färg för undertext till text-tv"
+
+msgid "Teletext subtitles"
+msgstr ""
 
 msgid "Telnet"
 msgstr "Telnet"
@@ -22802,6 +23058,9 @@ msgstr "Tidszon"
 msgid "Time zone area"
 msgstr "Område för tidszon"
 
+msgid "Timeline"
+msgstr ""
+
 msgid "Timeline 24 Hour"
 msgstr "Tidslinje 24 timmar"
 
@@ -22827,6 +23086,9 @@ msgstr "Timer Sanity Error"
 
 msgid "Timer Selection Actions"
 msgstr "Åtgärder för val av timer"
+
+msgid "Timer defaults and margins"
+msgstr ""
 
 msgid "Timer edit"
 msgstr "Timer redigera"
@@ -23142,6 +23404,9 @@ msgstr "ID för transportström (TSID)"
 msgid "Transport Stream Type"
 msgstr "Typ av transportström"
 
+msgid "Trash and deletion"
+msgstr ""
+
 msgid "Trashcan"
 msgstr "Papperskorg"
 
@@ -23247,6 +23512,12 @@ msgstr "Inställningar för tuner"
 
 msgid "Tuner Setup"
 msgstr "Inställning av tuner"
+
+msgid "Tuner allocation and conflicts"
+msgstr ""
+
+msgid "Tuner and streaming"
+msgstr ""
 
 msgid "Tuner data is not available!"
 msgstr "Tunerdata är inte tillgängliga!"
@@ -24460,6 +24731,9 @@ msgstr "Inställningar för volymjustering"
 
 msgid "Volume adjustment mode"
 msgstr "Läge för volymjustering"
+
+msgid "Volume control"
+msgstr ""
 
 msgid "Volume down"
 msgstr "Volym nedåt"
@@ -26303,6 +26577,39 @@ msgstr "ja (behåller flöden)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Common Settings"
+#~ msgstr "Vanliga inställningar"
+
+#~ msgid ""
+#~ "Do you really want to restart OSCam?\n"
+#~ "\n"
+#~ "HINT: This will take about 5 seconds!"
+#~ msgstr ""
+#~ "Vill du verkligen starta om OSCam?\n"
+#~ "\n"
+#~ "TIPS: Detta tar cirka 5 sekunder!"
+
+#~ msgid ""
+#~ "Do you really want to shut down OSCam?\n"
+#~ "\n"
+#~ "ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
+#~ msgstr ""
+#~ "Vill du verkligen stänga av OSCam?\n"
+#~ "\n"
+#~ "OBSERVERA: För att återaktivera OSCam måste en fullständig omstart av mottagaren utföras!"
+
+#~ msgid "Mount Manager"
+#~ msgstr "Mount Manager"
+
+#~ msgid "OSCam webif disabled"
+#~ msgstr "OSCam webif inaktiverad"
+
+#~ msgid "Restart OSCam"
+#~ msgstr "Starta om OSCam"
+
+#~ msgid "Shutdown OSCam"
+#~ msgstr "Avstängning av OSCam"
 
 #
 #~ msgid "1.0"

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-17 12:15+0000\n"
+"POT-Creation-Date: 2026-08-23 17:42+0000\n"
 "PO-Revision-Date: 2026-08-21 14:51+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/es/>\n"
@@ -1204,6 +1204,10 @@ msgstr "%s Configuración"
 msgid "%s View"
 msgstr "%s Ver"
 
+#, python-format
+msgid "%s action failed (exit code %s)"
+msgstr ""
+
 #
 #, python-format
 msgid "%s additional screens"
@@ -1221,6 +1225,17 @@ msgstr "%s ha sido deshabilitado."
 msgid "%s imported from remote receiver."
 msgstr "%s importado desde el receptor remoto."
 
+#, python-format
+msgid ""
+"%s is currently not running.\n"
+"\n"
+"Do you want to start it?"
+msgstr ""
+
+#, python-format
+msgid "%s is currently stopped or unreachable. Press GREEN to start it."
+msgstr ""
+
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
 msgid "%s is no longer used. Should it be deleted?"
@@ -1237,6 +1252,10 @@ msgstr "%s no disponible."
 #, python-format
 msgid "%s version"
 msgstr "Versión de %s"
+
+#, python-format
+msgid "%s webif disabled"
+msgstr ""
 
 #, python-format
 msgid "%s%d min"
@@ -1785,6 +1804,9 @@ msgstr "Optimización de la traducción con IA"
 msgid "AI Translation subscription code"
 msgstr "Código de suscripción para traducción por IA"
 
+msgid "AI subtitles"
+msgstr ""
+
 msgid "ARM"
 msgstr "ARM"
 
@@ -2228,6 +2250,9 @@ msgstr "Restauración avanzada"
 msgid "Advanced Settings"
 msgstr "Ajustes avanzados"
 
+msgid "Advanced diagnostics"
+msgstr ""
+
 msgid "Advanced options and settings."
 msgstr "Opciones avanzadas y configuración."
 
@@ -2470,6 +2495,9 @@ msgstr "Modo radio alternativo"
 #
 msgid "Alternative services tuner priority"
 msgstr "Prioridad de sintonizadores alternativa"
+
+msgid "Alternative tuner sources"
+msgstr ""
 
 msgid "Always"
 msgstr "Siempre"
@@ -2825,6 +2853,12 @@ msgstr "Fuente de audio"
 msgid "Audio Sync"
 msgstr "Sincronización de audio"
 
+msgid "Audio formats and output"
+msgstr ""
+
+msgid "Audio language and track selection"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Selección de idioma de audio 1"
 
@@ -2836,6 +2870,9 @@ msgstr "Selección de idioma de audio 3"
 
 msgid "Audio language selection 4"
 msgstr "Selección de idioma de audio 4"
+
+msgid "Audio synchronization"
+msgstr ""
 
 # Language
 msgid "Australia"
@@ -3329,6 +3366,9 @@ msgstr "Audio Bluetooth"
 msgid "Bluetooth Setup"
 msgstr "Ajuste de Bluetooth"
 
+msgid "Bluetooth audio"
+msgstr ""
+
 msgid "Bolivia"
 msgstr "Bolivia"
 
@@ -3447,6 +3487,9 @@ msgstr "Brillo de vídeo"
 msgid "Brightness Video & OSD"
 msgstr "Brillo de vídeo y OSD"
 
+msgid "Brightness and contrast"
+msgstr ""
+
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr "Brillo aplicado a la salida combinada de vídeo + OSD. Afecta a todo lo que aparece en pantalla, incluido este menú."
 
@@ -3479,6 +3522,9 @@ msgstr "Explorar, instalar o eliminar plugins uno a uno."
 
 msgid "Brunei Darussalam"
 msgstr "Brunéi"
+
+msgid "Buffer management"
+msgstr ""
 
 #, python-format
 msgid "Buffering %d%%"
@@ -3549,6 +3595,9 @@ msgstr "Negocios y Finanzas"
 msgid "Button Setup"
 msgstr "Configurar teclas"
 
+msgid "Button assignments"
+msgstr ""
+
 msgid "Button error timeout"
 msgstr "Error en el tiempo de espera del botón"
 
@@ -3576,9 +3625,6 @@ msgstr "Entrada C/T"
 
 msgid "C/T input switching"
 msgstr "Conmutación de entrada C/T"
-
-msgid "C/T input switching: external 5V coax switch"
-msgstr "Conmutación de entrada C/T: interruptor coaxial externo de 5 V"
 
 msgid "CCD-Width"
 msgstr "Ancho CCD"
@@ -4184,6 +4230,9 @@ msgstr "Ajustes de lista de canales"
 msgid "Channel Selection picon path"
 msgstr "Ruta del picon lista de canales"
 
+msgid "Channel and EPG import"
+msgstr ""
+
 msgid "Channel buttons"
 msgstr "Botones de canal"
 
@@ -4192,6 +4241,9 @@ msgstr "Invertir botones de canal"
 
 msgid "Channel down"
 msgstr "Bajar canal"
+
+msgid "Channel history and messages"
+msgstr ""
 
 msgid "Channel list cursor behavior"
 msgstr "Comportamiento del cursor en lista de canales"
@@ -4232,6 +4284,9 @@ msgstr "Selección del canal:"
 
 msgid "Channel up"
 msgstr "Subir canal"
+
+msgid "Channel zapping and keys"
+msgstr ""
 
 msgid "ChannelEPG Settings"
 msgstr "Ajustes de canal EPG"
@@ -4650,6 +4705,9 @@ msgstr "Colombia"
 msgid "Color"
 msgstr "Color"
 
+msgid "Color button assignments"
+msgstr ""
+
 msgid "Color format"
 msgstr "Formato de color"
 
@@ -4722,15 +4780,15 @@ msgstr "Asignación de interfaz común"
 msgid "Common Interface Settings"
 msgstr "Configuración Interfaz común"
 
-msgid "Common Settings"
-msgstr "Ajustes comunes"
-
 # boot-up action
 msgid "Common Setup Actions"
 msgstr "Acciones comunes de ajustes"
 
 msgid "Comoros"
 msgstr "Comoras"
+
+msgid "Compatibility and emulation"
+msgstr ""
 
 msgid "Compiled by"
 msgstr "Compilado por"
@@ -5507,6 +5565,9 @@ msgstr "Crash Logs"
 msgid "Crash at skin error for debug reasons"
 msgstr "Crash en skin por motivos de depuración"
 
+msgid "Crash handling"
+msgstr ""
+
 #
 msgid "Create"
 msgstr "Crear"
@@ -5774,6 +5835,9 @@ msgstr "Personalizar el intervalo de salto de las teclas ‘4’/‘6’"
 msgid "Custom skip time for '7'/'9' buttons"
 msgstr "Personalizar el intervalo de salto de las teclas ‘7’/‘9’"
 
+msgid "Custom skip times"
+msgstr ""
+
 #
 msgid "Customize"
 msgstr "Configurar"
@@ -5797,6 +5861,9 @@ msgstr "Tiempo de omisión en CutList (plugin) para el botón '%s'"
 
 msgid "CutList skip time for '%s'/'%s' buttons"
 msgstr "Tiempo de omisión en CutList (plugin) para los botones '%s'/'%s'"
+
+msgid "CutList skipping"
+msgstr ""
 
 msgid "Cutlist Editor"
 msgstr "Editor Cutlist (plugin)"
@@ -5892,6 +5959,9 @@ msgstr "PID de subtítulos DVB e idioma"
 msgid "DVB subtitle black transparency"
 msgstr "Transparencia negra de subtítulos DVB"
 
+msgid "DVB subtitles"
+msgstr ""
+
 msgid "DVB subtitles color"
 msgstr "Subtítulos DVB en color"
 
@@ -5904,8 +5974,8 @@ msgstr "DVB-C ANEXO B"
 msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANEXO C"
 
-msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
-msgstr "DVB-C y DVB-T/T2 comparten esta entrada. Cuando ambas están habilitadas, Enigma2 utiliza 5V para controlar el conmutador coaxial externo."
+msgid "DVB-C and DVB-T/T2 share this input. Enable 5V only if the aerial system or an external coax switch requires power."
+msgstr ""
 
 #
 msgid "DVB-S"
@@ -5966,6 +6036,9 @@ msgstr "Fecha/Hora"
 
 msgid "Date Time Input Actions"
 msgstr "Configuración de fecha/hora"
+
+msgid "Date and time"
+msgstr ""
 
 msgid "Date ascending"
 msgstr "Fecha ascendente"
@@ -6158,6 +6231,9 @@ msgstr "Acciones de información del registro de depuración"
 
 msgid "Debug Logs"
 msgstr "Logs de depuración"
+
+msgid "Debug log content"
+msgstr ""
 
 msgid "Debug log time format *"
 msgstr "Formato tiempo del log de depuración *"
@@ -6895,6 +6971,12 @@ msgstr "Mostrar más información sobre este archivo"
 msgid "Display oscam information."
 msgstr "Mostrar información oscam."
 
+msgid "Display power and content"
+msgstr ""
+
+msgid "Display scrolling"
+msgstr ""
+
 msgid "Display selection list as a selection menu"
 msgstr "Mostrar la lista de selección como un menú de selección"
 
@@ -7046,16 +7128,19 @@ msgstr "¿Seguro que quiere eliminar tu marcador %s?"
 msgid "Do you really want to remove the timer for %s?"
 msgstr "¿Seguro que quiere eliminar el temporizador de %s?"
 
-msgid ""
-"Do you really want to restart OSCam?\n"
-"\n"
-"HINT: This will take about 5 seconds!"
+#, python-format
+msgid "Do you really want to restart %s?"
 msgstr ""
 
+#, python-format
 msgid ""
-"Do you really want to shut down OSCam?\n"
+"Do you really want to shut down %s?\n"
 "\n"
-"ATTENTION: To reactivate OSCam, a complete receiver restart must be carried out!"
+"ATTENTION: To reactivate %s, a complete receiver restart must be carried out!"
+msgstr ""
+
+#, python-format
+msgid "Do you really want to stop %s?"
 msgstr ""
 
 #, python-format
@@ -7398,6 +7483,9 @@ msgstr "Configuración de EPG"
 msgid "EPG button mode"
 msgstr "Modo de la tecla EPG"
 
+msgid "EPG data in streams"
+msgstr ""
+
 msgid "EPG filename"
 msgstr "Nombre de archivo EPG"
 
@@ -7426,6 +7514,9 @@ msgstr ""
 "Tecla PVR : Introducir el nombre del canal\n"
 "Tecla Exit : Finalizar la edición del canal"
 
+msgid "EPG language"
+msgstr ""
+
 msgid "EPG language selection 1"
 msgstr "Idioma 1 de EPG"
 
@@ -7437,6 +7528,15 @@ msgstr "Ubicación de EPG"
 
 msgid "EPG only"
 msgstr "Solo EPG"
+
+msgid "EPG range and history"
+msgstr ""
+
+msgid "EPG sources"
+msgstr ""
+
+msgid "EPG storage and refresh"
+msgstr ""
 
 msgid "EPGSearch"
 msgstr "Búsqueda en EPG"
@@ -7913,6 +8013,9 @@ msgstr "Habilita una función para que el receptor pueda descodificar streams (s
 #
 msgid "Encryption"
 msgstr "Encriptación"
+
+msgid "Encryption and descrambling"
+msgstr ""
 
 msgid "End"
 msgstr "Final"
@@ -8540,6 +8643,9 @@ msgstr "Menú de visualización de programa"
 msgid "Event font size"
 msgstr "Tamaño de fuente del programa"
 
+msgid "Event metadata and correction"
+msgstr ""
+
 msgid "Event name only"
 msgstr "Solo nombre de canal"
 
@@ -8741,6 +8847,9 @@ msgstr "Coloreado de subtítulo externo de diálogo"
 
 msgid "External subtitle switch fonts"
 msgstr "Cambiar fuentes de subtítulo externo"
+
+msgid "External subtitles"
+msgstr ""
 
 msgid "Externally powered"
 msgstr ""
@@ -8945,6 +9054,9 @@ msgstr "Época rápida"
 msgid "Fast forward"
 msgstr "Avance rápido"
 
+msgid "Fast forward and rewind"
+msgstr ""
+
 msgid "Fast forward speeds"
 msgstr "Velocidades de avance rápido"
 
@@ -8978,6 +9090,9 @@ msgstr "Fuente estable."
 
 msgid "Feed unstable!"
 msgstr "Fuente inestable!"
+
+msgid "Feeds and networking"
+msgstr ""
 
 msgid "Fetch EPG and update timers now"
 msgstr "Obtenga EPG y actualice los temporizadores ahora"
@@ -9105,6 +9220,9 @@ msgstr "La transferencia de archivos fue cancelada por el usuario"
 #
 msgid "Filename"
 msgstr "Nombre del fichero"
+
+msgid "Files and directories"
+msgstr ""
 
 msgid "Files/folders to exclude from backup"
 msgstr "Archivos/carpetas a excluir del backup"
@@ -9537,9 +9655,27 @@ msgstr "Retraso general de AC3"
 msgid "General BT audio delay"
 msgstr "Retraso general de BT Audio"
 
+msgid "General OSD behavior"
+msgstr ""
+
 #
 msgid "General PCM delay"
 msgstr "Retraso general PCM"
+
+msgid "General appearance"
+msgstr ""
+
+msgid "General channel selection"
+msgstr ""
+
+msgid "General setup behavior"
+msgstr ""
+
+msgid "General subtitle appearance and timing"
+msgstr ""
+
+msgid "General time shift behavior"
+msgstr ""
 
 msgid "Generic"
 msgstr "Generico"
@@ -9953,6 +10089,9 @@ msgstr "Acción de Ayuda"
 
 msgid "Help Screen Information"
 msgstr "Información de la pantalla de ayuda"
+
+msgid "Help and visual feedback"
+msgstr ""
 
 msgid "Help animation speed"
 msgstr "Velocidad de animación de indicadores de ayuda"
@@ -10714,6 +10853,12 @@ msgstr "Ajustes de EPG en Infobar"
 msgid "InfoBar EPG mode"
 msgstr "Modo barra de información EPG"
 
+msgid "InfoBar and pause"
+msgstr ""
+
+msgid "InfoBar content and time display"
+msgstr ""
+
 msgid "InfoBar fade-out speed"
 msgstr "Velocidad de atenuación de la barra de información"
 
@@ -10722,6 +10867,12 @@ msgstr "Fuente de datos del ‘frontend’ de la barra de información"
 
 msgid "InfoBar picon path"
 msgstr "Ruta del picon de la InfoBar"
+
+msgid "InfoBar timing and appearance"
+msgstr ""
+
+msgid "InfoBar visibility and behavior"
+msgstr ""
 
 #
 msgid "Information"
@@ -11194,6 +11345,9 @@ msgstr "Archivos del MultiBoot Kexec no encontrados."
 msgid "Key"
 msgstr "Tecla"
 
+msgid "Key map and power buttons"
+msgstr ""
+
 #
 msgid "Keyboard"
 msgstr "Teclado"
@@ -11331,6 +11485,9 @@ msgstr "Brillo del LED en reposo."
 msgid "LED brightness during normal operations."
 msgstr "Brillo del LED en modo normal."
 
+msgid "LED indicators"
+msgstr ""
+
 msgid "LIRC remote"
 msgstr "LIRC remoto"
 
@@ -11438,6 +11595,9 @@ msgstr "Letonia"
 # Language
 msgid "Latvian"
 msgstr "Letón"
+
+msgid "Layout and fonts"
+msgstr ""
 
 msgid "Leave"
 msgstr "Salir"
@@ -11602,6 +11762,9 @@ msgstr "Enlaces"
 
 msgid "List Navigation Actions"
 msgstr "Acciones de navegación en la lista"
+
+msgid "List appearance and sorting"
+msgstr ""
 
 #
 msgid "List available EPG functions"
@@ -11776,6 +11939,9 @@ msgstr "Registrar el stack trace de python en el spinner"
 #
 msgid "Log results to harddisk"
 msgstr "Historial de resultados en disco duro"
+
+msgid "Log retention and access"
+msgstr ""
 
 msgid "LogManager"
 msgstr "Gestor de historial"
@@ -12155,6 +12321,9 @@ msgstr "Configuración del reproductor multimedia"
 msgid "Media Stream"
 msgstr "Reproductor de streams"
 
+msgid "Media files and navigation"
+msgstr ""
+
 msgid "Media playback Remaining/Elapsed as"
 msgstr "Reproducción restante/transcurrida como"
 
@@ -12233,6 +12402,9 @@ msgstr "Estilo de entrada del menú"
 msgid "Menu style"
 msgstr "Estilo del menú"
 
+msgid "Menus and setup"
+msgstr ""
+
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Combinar la EPG de emisión con IceTV"
 
@@ -12283,6 +12455,9 @@ msgstr "Configurar MiniDLNA"
 
 msgid "MiniTV"
 msgstr "MiniTV"
+
+msgid "MiniTV and PiP"
+msgstr ""
 
 msgid "MiniTV with OSD"
 msgstr "MiniTV con OSD"
@@ -12427,10 +12602,6 @@ msgstr "Montaje"
 
 msgid "Mount Context Menu"
 msgstr "Menú contextual de montaje"
-
-#
-msgid "Mount Manager"
-msgstr "Administrador de montajes"
 
 msgid "Mount Point"
 msgstr ""
@@ -12779,6 +12950,9 @@ msgstr "Lista de acciones de la película"
 msgid "Movie Selection Settings"
 msgstr "Configuración de la lista de películas"
 
+msgid "Movie list and playback behavior"
+msgstr ""
+
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "La reproducción de la película no puede utilizar un directorio inválido/inapropiado."
 
@@ -13003,6 +13177,12 @@ msgstr "Navegar al directorio seleccionado"
 
 msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. OK to perform the action described in the currently highlighted help."
 msgstr "Navegue hacia arriba/abajo con los botones ARRIBA/ABAJO y paguina arriba/abajo con IZQUIERDA/DERECHA. Pulsa OK para realizar la acción descrita en la ayuda actualmente resaltada."
+
+msgid "Navigation and button assignments"
+msgstr ""
+
+msgid "Navigation and time range"
+msgstr ""
 
 msgid "Ndonga"
 msgstr "Ndonga"
@@ -13758,6 +13938,9 @@ msgstr "Nada que actualizar"
 msgid "Nothing, just leave this menu"
 msgstr "Nada, solo salir de este menú"
 
+msgid "Notifications and display"
+msgstr ""
+
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "Ahora"
@@ -13850,9 +14033,6 @@ msgstr "Información OSCam"
 
 msgid "OSCam Information Settings"
 msgstr ""
-
-msgid "OSCam webif disabled"
-msgstr "OScam webif desactivado"
 
 msgid "OSCamInfo Actions"
 msgstr "OSCam Info Acciones"
@@ -14225,6 +14405,9 @@ msgstr "OpenVPN"
 msgid "OpenViX Packages"
 msgstr "Paquetes OpenViX"
 
+msgid "OpenWebif connection"
+msgstr ""
+
 msgid "OpenWebif picon path"
 msgstr "Ruta del picon de OpenWebif"
 
@@ -14310,6 +14493,9 @@ msgstr "Otro"
 
 msgid "Other Actions"
 msgstr "Otras acciones"
+
+msgid "Other OSD elements"
+msgstr ""
 
 msgid "Other Packages"
 msgstr "Otros paquetes"
@@ -14452,6 +14638,9 @@ msgstr "Paquete"
 #
 msgid "Package Manager"
 msgstr "Administrar paquetes"
+
+msgid "Package categories"
+msgstr ""
 
 msgid "Package files:"
 msgstr "Paquete de archivos:"
@@ -14738,6 +14927,9 @@ msgstr "Acciones de información de imágenes"
 msgid "Picture in EPG"
 msgstr "Imagen en EPG"
 
+msgid "Picture in Picture"
+msgstr ""
+
 msgid "Picture in Picture Actions"
 msgstr "Acciones PiP"
 
@@ -14880,6 +15072,12 @@ msgstr "Ajustes de reproducción"
 
 msgid "Playback Time:"
 msgstr "Tiempo de reproducción:"
+
+msgid "Playback and saving"
+msgstr ""
+
+msgid "Playback and status"
+msgstr ""
 
 msgid "Playback, Recording & Time Shift"
 msgstr "Reproducción Grabaciones & Timeshift"
@@ -15192,6 +15390,9 @@ msgstr "Paquetes de plugins"
 
 msgid "Plugin Skin Packages"
 msgstr "Paquetes de skins de plugins"
+
+msgid "Plugin browser"
+msgstr ""
 
 #
 msgid "Plugins"
@@ -16095,8 +16296,14 @@ msgstr "Configuración de grabación"
 msgid "Recording aborted"
 msgstr "Grabación cancelada"
 
+msgid "Recording and status indicators"
+msgstr ""
+
 msgid "Recording failed"
 msgstr "Grabación fallida"
+
+msgid "Recording filenames and data"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Grabación terminada"
@@ -16106,6 +16313,9 @@ msgstr "Grabación en curso!"
 
 msgid "Recording location"
 msgstr "Ubicación de la grabación"
+
+msgid "Recording locations"
+msgstr ""
 
 #
 msgid "Recording running"
@@ -16167,6 +16377,9 @@ msgstr "Recuperación"
 
 msgid "Recovery Mode"
 msgstr "Modo recuperación"
+
+msgid "Recovery and hardware"
+msgstr ""
 
 msgid "Red"
 msgstr "Rojo"
@@ -16320,6 +16533,12 @@ msgstr "Ruta remota"
 
 msgid "Remote receiver"
 msgstr "Receptor remoto"
+
+msgid "Remote receiver connection"
+msgstr ""
+
+msgid "Remote timers"
+msgstr ""
 
 #
 msgid "Remove"
@@ -16673,6 +16892,10 @@ msgstr "Resolviendo..."
 msgid "Restart"
 msgstr "Reiniciar"
 
+#, python-format
+msgid "Restart %s"
+msgstr ""
+
 msgid "Restart Adapter"
 msgstr "Reiniciar adaptador"
 
@@ -16693,9 +16916,6 @@ msgstr "¿Reiniciar la interfaz ahora?"
 msgid "Restart Network"
 msgstr "Reiniciar red"
 
-msgid "Restart OSCam"
-msgstr "Reiniciar OSCam"
-
 msgid "Restart enigma"
 msgstr "Reiniciar Enigma"
 
@@ -16715,6 +16935,10 @@ msgstr "Reiniciar red con la configuración actual"
 #
 msgid "Restart test"
 msgstr "Reiniciar prueba"
+
+#, python-format
+msgid "Restarting %s failed (exit code %s)"
+msgstr ""
 
 msgid "Restarting adapter..."
 msgstr "Reiniciando el adaptador..."
@@ -18971,6 +19195,9 @@ msgstr ""
 "Canal no válido.\n"
 "(Tiempo cumplido leyendo PMT)"
 
+msgid "Service list appearance"
+msgstr ""
+
 msgid "Service name"
 msgstr "Nombre del servicio"
 
@@ -20318,8 +20545,9 @@ msgstr "Apagar"
 msgid "Shutdown"
 msgstr "Apagar"
 
-msgid "Shutdown OSCam"
-msgstr "Parar OSCam"
+#, python-format
+msgid "Shutdown %s"
+msgstr ""
 
 msgid "Shutting down. Please wait..."
 msgstr "Apagando. Espera por favor..."
@@ -20488,6 +20716,9 @@ msgstr "Salto adelante (introducir tiempo)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "No saltar a TV en directo cuando uses plugins con timeshift"
+
+msgid "Skip modes"
+msgstr ""
 
 msgid "Skip network setup"
 msgstr "Omitir la configuración de red"
@@ -20787,6 +21018,9 @@ msgstr "Acciones de software de actualización"
 msgid "Software descrambling"
 msgstr "Descifrado de software"
 
+msgid "Software display scrolling"
+msgstr ""
+
 msgid "Software information"
 msgstr "Información de software"
 
@@ -20927,6 +21161,9 @@ msgstr "Sonido"
 msgid "Sound carrier"
 msgstr "Portadora de sonido"
 
+msgid "Sound enhancements"
+msgstr ""
+
 msgid "Source Packages"
 msgstr "Paquetes de fuente"
 
@@ -21044,6 +21281,10 @@ msgstr "Reposo sin apagar TV"
 msgid "Start"
 msgstr "Inicio"
 
+#, python-format
+msgid "Start %s"
+msgstr ""
+
 msgid "Start Auto Refresh"
 msgstr "Iniciar auto refresco"
 
@@ -21124,6 +21365,10 @@ msgstr "Iniciar/Parar/Seleccionar CAM"
 msgid "Start/stop/select your cam, You need to install first a softcam"
 msgstr "Inicia/Para/Seleccione tu CAM, necesitas instalar antes una emuladora"
 
+#, python-format
+msgid "Starting %s failed (exit code %s)"
+msgstr ""
+
 msgid "Starting Softcam"
 msgstr "Iniciando Softcam"
 
@@ -21143,6 +21388,9 @@ msgstr "Hora de inicio"
 # MovieSelection.py
 msgid "Starts in a few seconds"
 msgstr "Iniciar en pocos segundos"
+
+msgid "Startup and wakeup"
+msgstr ""
 
 msgid "Startup device not found!"
 msgstr ""
@@ -21274,6 +21522,10 @@ msgstr "Detener temporizador de grabación"
 msgid "Stopped"
 msgstr "Detenido"
 
+#, python-format
+msgid "Stopping %s failed (exit code %s)"
+msgstr ""
+
 msgid "Stopping Softcam"
 msgstr "Deteniendo Softcam"
 
@@ -21296,6 +21548,9 @@ msgstr "Almacenamiento / Información de disco"
 #
 msgid "Storage Devices"
 msgstr "Dispositivos de almacenamiento"
+
+msgid "Storage and deletion"
+msgstr ""
 
 msgid "Storage device full!"
 msgstr "Disco lleno!"
@@ -21443,6 +21698,9 @@ msgstr "Retraso de subtítulos sin temporización"
 
 msgid "Subtitle font size"
 msgstr "Tamaño de fuente de subtítulos"
+
+msgid "Subtitle language and selection"
+msgstr ""
 
 msgid "Subtitle language selection 1"
 msgstr "Selección de 1º idioma de subtítulos"
@@ -21906,6 +22164,9 @@ msgstr "Fuente y resolución del Teletexto"
 
 msgid "Teletext subtitle color"
 msgstr "Color de subtítulos del teletexto"
+
+msgid "Teletext subtitles"
+msgstr ""
 
 msgid "Telnet"
 msgstr "Telnet"
@@ -22840,6 +23101,9 @@ msgstr "Zona horaria"
 msgid "Time zone area"
 msgstr "Región"
 
+msgid "Timeline"
+msgstr ""
+
 msgid "Timeline 24 Hour"
 msgstr "Cronología 24 horas"
 
@@ -22864,6 +23128,9 @@ msgid "Timer Sanity Error"
 msgstr "Error de temporizador"
 
 msgid "Timer Selection Actions"
+msgstr ""
+
+msgid "Timer defaults and margins"
 msgstr ""
 
 msgid "Timer edit"
@@ -23183,6 +23450,9 @@ msgstr ""
 msgid "Transport Stream Type"
 msgstr "Tipo de Stream"
 
+msgid "Trash and deletion"
+msgstr ""
+
 msgid "Trashcan"
 msgstr "Papelera"
 
@@ -23289,6 +23559,12 @@ msgstr "Ajustes del sintonizador"
 #
 msgid "Tuner Setup"
 msgstr "Configuración de sintonizador"
+
+msgid "Tuner allocation and conflicts"
+msgstr ""
+
+msgid "Tuner and streaming"
+msgstr ""
 
 msgid "Tuner data is not available!"
 msgstr "¡Los datos del sintonizador no están disponibles!"
@@ -24514,6 +24790,9 @@ msgstr "Configuraciones de ajuste de volumen"
 
 msgid "Volume adjustment mode"
 msgstr "Modo de ajuste de volumen"
+
+msgid "Volume control"
+msgstr ""
 
 msgid "Volume down"
 msgstr "Bajar volumen"
@@ -26367,6 +26646,28 @@ msgstr "Sí (conservar fuentes)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "C/T input switching: external 5V coax switch"
+#~ msgstr "Conmutación de entrada C/T: interruptor coaxial externo de 5 V"
+
+#~ msgid "Common Settings"
+#~ msgstr "Ajustes comunes"
+
+#~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
+#~ msgstr "DVB-C y DVB-T/T2 comparten esta entrada. Cuando ambas están habilitadas, Enigma2 utiliza 5V para controlar el conmutador coaxial externo."
+
+#
+#~ msgid "Mount Manager"
+#~ msgstr "Administrador de montajes"
+
+#~ msgid "OSCam webif disabled"
+#~ msgstr "OScam webif desactivado"
+
+#~ msgid "Restart OSCam"
+#~ msgstr "Reiniciar OSCam"
+
+#~ msgid "Shutdown OSCam"
+#~ msgstr "Parar OSCam"
 
 #
 #~ msgid "1.0"
