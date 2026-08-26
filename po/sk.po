@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-23 17:42+0000\n"
-"PO-Revision-Date: 2026-08-23 13:51+0000\n"
+"POT-Creation-Date: 2026-08-24 08:01+0000\n"
+"PO-Revision-Date: 2026-08-24 12:20+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -1224,7 +1224,7 @@ msgstr "%s Zobraziť"
 
 #, python-format
 msgid "%s action failed (exit code %s)"
-msgstr ""
+msgstr "Akcia %s sa nepodarila (kód ukončenia: %s)"
 
 #, python-format
 msgid "%s additional screens"
@@ -1248,10 +1248,13 @@ msgid ""
 "\n"
 "Do you want to start it?"
 msgstr ""
+"%s momentálne nebeží.\n"
+"\n"
+"Má sa spustiť?"
 
 #, python-format
 msgid "%s is currently stopped or unreachable. Press GREEN to start it."
-msgstr ""
+msgstr "%s je aktuálne zastavené alebo nedostupné. Spustenie vykonáte ZELENÝM tlačidlom."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1272,7 +1275,7 @@ msgstr "Verzia %s"
 
 #, python-format
 msgid "%s webif disabled"
-msgstr ""
+msgstr "%s webif deaktivované"
 
 #, python-format
 msgid "%s%d min"
@@ -1765,6 +1768,9 @@ msgstr "AC4"
 msgid "AFL"
 msgstr "AFL"
 
+msgid "AI Subtitles"
+msgstr "Titulky pomocou AI"
+
 msgid "AI Translation color"
 msgstr "Farba prekladu vytvoreného umelou inteligenciou"
 
@@ -1783,9 +1789,6 @@ msgstr "Optimalizácia prekladania s využitím umelej inteligencie"
 msgid "AI Translation subscription code"
 msgstr "Kód predplatného pre prekladanie pomocou umelej inteligencie"
 
-msgid "AI Subtitles"
-msgstr ""
-
 msgid "ARM"
 msgstr "ARM"
 
@@ -1801,11 +1804,11 @@ msgstr "ATSC"
 msgid "ATSC provider"
 msgstr "Poskytovateľ ATSC"
 
-msgid "AV Setup"
-msgstr "Nastavenie A/V"
-
 msgid "AV Receiver, Soundbar And Remote"
 msgstr "AV prijímač, soundbar a diaľkové"
+
+msgid "AV Setup"
+msgstr "Nastavenie A/V"
 
 msgid "Abkhazian"
 msgstr "abcházština"
@@ -2188,6 +2191,9 @@ msgstr "pre dospelých/dráma"
 msgid "Advanced"
 msgstr "Pokročilé"
 
+msgid "Advanced Diagnostics"
+msgstr "Pokročilá diagnostika"
+
 msgid "Advanced Options"
 msgstr "Pokročilé možnosti"
 
@@ -2196,9 +2202,6 @@ msgstr "Pokročilé obnovenie"
 
 msgid "Advanced Settings"
 msgstr "Pokročilé nastavenia"
-
-msgid "Advanced Diagnostics"
-msgstr ""
 
 msgid "Advanced options and settings."
 msgstr "Pokročilé voľby a nastavenia."
@@ -2425,6 +2428,9 @@ msgstr "Alternatíva 2"
 msgid "Alternative Edit"
 msgstr "[úprava alternatív]"
 
+msgid "Alternative Tuner Sources"
+msgstr "Alternatívne zdroje tunera"
+
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "Alternatívne URL pre DVB-T/C alebo ATSC"
 
@@ -2433,9 +2439,6 @@ msgstr "Režim alternatívne rádio"
 
 msgid "Alternative services tuner priority"
 msgstr "Priorita tunera pri alternatívnych staniciach"
-
-msgid "Alternative Tuner Sources"
-msgstr ""
 
 msgid "Always"
 msgstr "Vždy"
@@ -2763,6 +2766,12 @@ msgstr "Automatické nastavenie hlasitosti"
 msgid "Audio Channel"
 msgstr "Zvukový kanál"
 
+msgid "Audio Formats And Output"
+msgstr "Zvukové formáty a výstup"
+
+msgid "Audio Language And Track Selection"
+msgstr "Jazyk zvuku a výber stopy"
+
 msgid "Audio PID"
 msgstr "Audio PID"
 
@@ -2779,11 +2788,8 @@ msgstr "Zdroj zvuku"
 msgid "Audio Sync"
 msgstr "Synchronizácia zvuku"
 
-msgid "Audio Formats And Output"
-msgstr ""
-
-msgid "Audio Language And Track Selection"
-msgstr ""
+msgid "Audio Synchronization"
+msgstr "Synchronizácia zvuku"
 
 msgid "Audio language selection 1"
 msgstr "Voľba jazyka zvuku 1"
@@ -2796,9 +2802,6 @@ msgstr "Voľba jazyka zvuku 3"
 
 msgid "Audio language selection 4"
 msgstr "Voľba jazyka zvuku 4"
-
-msgid "Audio Synchronization"
-msgstr ""
 
 msgid "Australia"
 msgstr "Austrália"
@@ -3263,9 +3266,6 @@ msgstr "Bluetooth audio"
 msgid "Bluetooth Setup"
 msgstr "Nastavenie Bluetooth"
 
-msgid "Bluetooth audio"
-msgstr ""
-
 msgid "Bolivia"
 msgstr "Bolívia"
 
@@ -3372,14 +3372,14 @@ msgstr "Jas (normálny)"
 msgid "Brightness (Standby)"
 msgstr "Jas (pohotovostný režim)"
 
+msgid "Brightness And Contrast"
+msgstr "Jas a kontrast"
+
 msgid "Brightness Video"
 msgstr "Jas videa"
 
 msgid "Brightness Video & OSD"
 msgstr "Jas videa a OSD"
-
-msgid "Brightness And Contrast"
-msgstr ""
 
 msgid "Brightness applied to the combined video + OSD output. Affects everything on screen including this menu."
 msgstr "Jas aplikovaný na kombinovaný výstup videa + OSD. Týka sa všetkého na obrazovke, aj tohto menu."
@@ -3415,7 +3415,7 @@ msgid "Brunei Darussalam"
 msgstr "Brunej (Brunejsko-darussalamský štát)"
 
 msgid "Buffer Management"
-msgstr ""
+msgstr "Spravovanie vyrovnávacej pamäte"
 
 #, python-format
 msgid "Buffering %d%%"
@@ -3479,11 +3479,11 @@ msgstr "Podnikanie, biznis"
 msgid "Business & Finance"
 msgstr "Biznis a financie"
 
+msgid "Button Assignments"
+msgstr "Pridelenia tlačidiel"
+
 msgid "Button Setup"
 msgstr "Nastavenie tlačidiel"
-
-msgid "Button Assignments"
-msgstr ""
 
 msgid "Button error timeout"
 msgstr "Vypršal časový limit pre chybu tlačidla"
@@ -4065,6 +4065,12 @@ msgstr "Kanál 1"
 msgid "Channel 1 with prime time"
 msgstr "Kanál 1 s časom primetime"
 
+msgid "Channel And EPG Import"
+msgstr "Import kanálov a EPG"
+
+msgid "Channel History And Messages"
+msgstr "História kanálov a správy"
+
 msgid "Channel Info"
 msgstr "Info o kanáli"
 
@@ -4101,8 +4107,8 @@ msgstr "Nastavenia výberu kanála"
 msgid "Channel Selection picon path"
 msgstr "Cesta k pikonám pre výber kanálov"
 
-msgid "Channel And EPG Import"
-msgstr ""
+msgid "Channel Zapping And Keys"
+msgstr "Prepínanie kanálov a tlačidlá"
 
 msgid "Channel buttons"
 msgstr "Tlačidlá kanála"
@@ -4112,9 +4118,6 @@ msgstr "Tlačidlá kanála obrátene"
 
 msgid "Channel down"
 msgstr "Kanál nadol"
-
-msgid "Channel History And Messages"
-msgstr ""
 
 msgid "Channel list cursor behavior"
 msgstr "Správanie kurzora v zozname kanálov"
@@ -4154,9 +4157,6 @@ msgstr "Výber kanála:"
 
 msgid "Channel up"
 msgstr "Kanál nahor"
-
-msgid "Channel Zapping And Keys"
-msgstr ""
 
 msgid "ChannelEPG Settings"
 msgstr "Nastavenia EPG kanála"
@@ -4564,7 +4564,7 @@ msgid "Color"
 msgstr "Farba"
 
 msgid "Color Button Assignments"
-msgstr ""
+msgstr "Pridelenia farebného tlačidla"
 
 msgid "Color format"
 msgstr "Formát farby"
@@ -4643,7 +4643,7 @@ msgid "Comoros"
 msgstr "Komory"
 
 msgid "Compatibility And Emulation"
-msgstr ""
+msgstr "Kompatibilita a emulácia"
 
 msgid "Compiled by"
 msgstr "Skompiloval"
@@ -5391,14 +5391,14 @@ msgstr "Krajina pre informáciu o hodnotení v EPG"
 msgid "Crash %d/%d"
 msgstr "Pád %d/%d"
 
+msgid "Crash Handling"
+msgstr "Správanie po páde"
+
 msgid "Crash Logs"
 msgstr "Denníky o páde"
 
 msgid "Crash at skin error for debug reasons"
 msgstr "Pád pri chybe vzhľadu z dôvodu ladenia"
-
-msgid "Crash Handling"
-msgstr ""
 
 msgid "Create"
 msgstr "Vytvoriť"
@@ -5646,6 +5646,9 @@ msgstr "Úrovne hlasitosti aktuálne uložené v pamäti:"
 msgid "Custom"
 msgstr "Používateľské"
 
+msgid "Custom Skip Times"
+msgstr "Používateľom určené časy preskočenia"
+
 msgid "Custom mountpoint"
 msgstr "Používateľský bod pripojenia"
 
@@ -5657,9 +5660,6 @@ msgstr "Vlastný čas skoku pre tlačidlá '4'/'6'"
 
 msgid "Custom skip time for '7'/'9' buttons"
 msgstr "Vlastný čas skoku pre tlačidlá '7'/'9'"
-
-msgid "Custom Skip Times"
-msgstr ""
 
 msgid "Customize"
 msgstr "Prispôsobiť"
@@ -5676,14 +5676,14 @@ msgstr "Prispôsobiť osobné nastavenia systému enigma2"
 msgid "Cut"
 msgstr "Strih"
 
+msgid "CutList Skipping"
+msgstr "Preskočenie zoznamu strihov"
+
 msgid "CutList skip time for '%s' button"
 msgstr "Zoznam strihov - čas preskočenia pre tlačidlo '%s'"
 
 msgid "CutList skip time for '%s'/'%s' buttons"
 msgstr "Zoznam strihov - čas preskočenia pre tlačidlá '%s'/'%s'"
-
-msgid "CutList Skipping"
-msgstr ""
 
 msgid "Cutlist Editor"
 msgstr "Editor strihov"
@@ -5773,14 +5773,14 @@ msgstr "DVOJVRSTVOVÉ DVD"
 msgid "DVB CI Delay"
 msgstr "Oneskorenie DVB CI"
 
+msgid "DVB Subtitles"
+msgstr "DVB titulky"
+
 msgid "DVB Subtitles PID & Language"
 msgstr "DVB titulky, PID a jazyk"
 
 msgid "DVB subtitle black transparency"
 msgstr "Priehľadnosť pozadia DVD titulkov"
-
-msgid "DVB Subtitles"
-msgstr ""
 
 msgid "DVB subtitles color"
 msgstr "Farba DVB titulkov"
@@ -5795,7 +5795,7 @@ msgid "DVB-C ANNEX C"
 msgstr "DVB-C ANNEX C"
 
 msgid "DVB-C and DVB-T/T2 share this input. Enable 5V only if the aerial system or an external coax switch requires power."
-msgstr ""
+msgstr "DVB-C a DVB-T/T2 zdieľa tento vstup. Voľbu 5 V zapnite len v prípade, že anténny systém alebo externý koax. prepínač vyžaduje napájanie."
 
 msgid "DVB-S"
 msgstr "DVB-S"
@@ -5845,11 +5845,11 @@ msgstr "Dátum"
 msgid "Date / Time"
 msgstr "Dátum/čas"
 
+msgid "Date And Time"
+msgstr "Dátum a čas"
+
 msgid "Date Time Input Actions"
 msgstr "Akcie pre zadanie času / dátumu"
-
-msgid "Date And Time"
-msgstr ""
 
 msgid "Date ascending"
 msgstr "Dátum vzostupne"
@@ -6033,6 +6033,9 @@ msgstr "Ladenie %d/%d"
 msgid "Debug Information"
 msgstr "Informácie o ladení"
 
+msgid "Debug Log Content"
+msgstr "Obsah denníka ladenia"
+
 msgid "Debug Log Information"
 msgstr "Informácie z denníka ladenia"
 
@@ -6041,9 +6044,6 @@ msgstr "Akcie pre informácie denníka o ladení"
 
 msgid "Debug Logs"
 msgstr "Denníky o ladení"
-
-msgid "Debug Log Content"
-msgstr ""
 
 msgid "Debug log time format *"
 msgstr "Formát času v denníku pre ladenie *"
@@ -6715,6 +6715,12 @@ msgstr "Obsah 4:3 zobraziť ako"
 msgid "Display >16:9 content as"
 msgstr "Obsah >16:9 zobraziť ako"
 
+msgid "Display Power And Content"
+msgstr "Zobraziť napájanie a obsah"
+
+msgid "Display Scrolling"
+msgstr "Rolovanie zobrazenia"
+
 msgid "Display Settings"
 msgstr "Nastavenie displeja"
 
@@ -6744,12 +6750,6 @@ msgstr "Zobraziť viac informácií o tomto súbore"
 
 msgid "Display oscam information."
 msgstr "Zobraziť informáciie o Oscam."
-
-msgid "Display Power And Content"
-msgstr ""
-
-msgid "Display Scrolling"
-msgstr ""
 
 msgid "Display selection list as a selection menu"
 msgstr "Zobraziť zoznam výberu ako ponuku výberu"
@@ -6895,7 +6895,7 @@ msgstr "Naozaj chcete odstrániť časovač pre %s?"
 
 #, python-format
 msgid "Do you really want to restart %s?"
-msgstr ""
+msgstr "Naozaj chcete reštartovať %s?"
 
 #, python-format
 msgid ""
@@ -6903,10 +6903,13 @@ msgid ""
 "\n"
 "ATTENTION: To reactivate %s, a complete receiver restart must be carried out!"
 msgstr ""
+"Naozaj chcete vypnúť %s?\n"
+"\n"
+"POZOR: pre opätovné aktivovanie %s je potrebné vykonať kompletný reštart prijímača!"
 
 #, python-format
 msgid "Do you really want to stop %s?"
-msgstr ""
+msgstr "Naozaj chcete zastaviť %s?"
 
 #, python-format
 msgid "Do you really want to stop and delete the timer '%s'?"
@@ -7199,17 +7202,26 @@ msgstr "Kontrola vyrovnávacej pamäte EPG"
 msgid "EPG Channel/Service Selection"
 msgstr "Výber EPG kanálu/služby"
 
+msgid "EPG Data In Streams"
+msgstr "Údaje EPG v streamoch"
+
 msgid "EPG Display Actions"
 msgstr "Akcie zobrazenia EPG"
 
 msgid "EPG Jump"
 msgstr "EPG skok"
 
+msgid "EPG Language"
+msgstr "Jazyk EPG"
+
 msgid "EPG Navigation Actions"
 msgstr "Akcie navigácie v EPG"
 
 msgid "EPG Other Actions"
 msgstr "Iné akcie EPG"
+
+msgid "EPG Range And History"
+msgstr "Rozsah a história EPG"
 
 msgid "EPG Search"
 msgstr "Vyhľadať v EPG"
@@ -7223,11 +7235,14 @@ msgstr "Nastavenia EPG"
 msgid "EPG Setup"
 msgstr "Nastavenie EPG"
 
+msgid "EPG Sources"
+msgstr "Zdroje EPG"
+
+msgid "EPG Storage And Refresh"
+msgstr "Uloženie a obnova EPG"
+
 msgid "EPG button mode"
 msgstr "Režim tlačidla EPG"
-
-msgid "EPG Data In Streams"
-msgstr ""
 
 msgid "EPG filename"
 msgstr "Názov súboru EPG"
@@ -7257,9 +7272,6 @@ msgstr ""
 "Tlačidlo PVR: vstup pre názov kanála\n"
 "Tlačidlo Exit: dokončiť úpravu kanála"
 
-msgid "EPG Language"
-msgstr ""
-
 msgid "EPG language selection 1"
 msgstr "EPG výber jazyka 1"
 
@@ -7271,15 +7283,6 @@ msgstr "Umiestnenie EPG"
 
 msgid "EPG only"
 msgstr "Len EPG"
-
-msgid "EPG Range And History"
-msgstr ""
-
-msgid "EPG Sources"
-msgstr ""
-
-msgid "EPG Storage And Refresh"
-msgstr ""
 
 msgid "EPGSearch"
 msgstr "Vyhľadávanie v EPG"
@@ -7737,7 +7740,7 @@ msgid "Encryption"
 msgstr "Šifrovanie"
 
 msgid "Encryption And Descrambling"
-msgstr ""
+msgstr "Kódovanie a dekódovanie"
 
 msgid "End"
 msgstr "Koniec"
@@ -8333,6 +8336,9 @@ msgstr "Aj v prípade, že sa spúšťa 'prepnutie' časovačom nahrávania?"
 msgid "Event Info"
 msgstr "Info o aktuálnej udalosti"
 
+msgid "Event Metadata And Correction"
+msgstr "Metadáta udalosti a oprava"
+
 msgid "Event View"
 msgstr "Zobrazenie udalosti"
 
@@ -8344,9 +8350,6 @@ msgstr "Menu pre zobrazenie udalosti"
 
 msgid "Event font size"
 msgstr "Veľkosť písma pre udalosť"
-
-msgid "Event Metadata And Correction"
-msgstr ""
 
 msgid "Event name only"
 msgstr "Len názov udalosti"
@@ -8531,6 +8534,9 @@ msgstr "Externé PiP"
 msgid "External Storage %s"
 msgstr "Externé úložisko %s"
 
+msgid "External Subtitles"
+msgstr "Externé titulky"
+
 msgid "External subtitle color"
 msgstr "Farba externých titulkov"
 
@@ -8539,9 +8545,6 @@ msgstr "Farebné dialógy v externých titulkoch"
 
 msgid "External subtitle switch fonts"
 msgstr "Zmena fontu externých titulkov"
-
-msgid "External Subtitles"
-msgstr ""
 
 msgid "Externally powered"
 msgstr "Externe napájané"
@@ -8728,6 +8731,9 @@ msgstr "Nastavenie rýchleho prepínania kanálov"
 msgid "Fast DiSEqC"
 msgstr "Rýchly DiSEqC"
 
+msgid "Fast Forward And Rewind"
+msgstr "Prevíjanie rýchlo dopredu a dozadu"
+
 msgid "Fast Scan"
 msgstr "Fast Scan"
 
@@ -8739,9 +8745,6 @@ msgstr "Rýchla doba"
 
 msgid "Fast forward"
 msgstr "Rýchlo dopredu"
-
-msgid "Fast Forward And Rewind"
-msgstr ""
 
 msgid "Fast forward speeds"
 msgstr "Rýchlosti pretáčania vpred"
@@ -8777,7 +8780,7 @@ msgid "Feed unstable!"
 msgstr "Zdroj nestabilný!"
 
 msgid "Feeds And Networking"
-msgstr ""
+msgstr "Zdroje a sieťové prepojenie"
 
 msgid "Fetch EPG and update timers now"
 msgstr "Ihneď prevziať EPG a aktualizovať časovače"
@@ -8904,7 +8907,7 @@ msgid "Filename"
 msgstr "Názov súboru"
 
 msgid "Files And Directories"
-msgstr ""
+msgstr "Súbory a priečinky"
 
 msgid "Files/folders to exclude from backup"
 msgstr "Súbory/priečinky vylúčené zo zálohy"
@@ -9306,29 +9309,29 @@ msgstr "Hlavné"
 msgid "General AC3 delay"
 msgstr "Základné oneskorenie AC3"
 
+msgid "General Appearance"
+msgstr "Všeobecný vzhľad"
+
 msgid "General BT audio delay"
 msgstr "Všeobecné oneskorenie pre BT audio"
 
+msgid "General Channel Selection"
+msgstr "Všeobecný výber kanálov"
+
 msgid "General OSD Behavior"
-msgstr ""
+msgstr "Všeobecné správanie OSD"
 
 msgid "General PCM delay"
 msgstr "Základné oneskorenie PCM"
 
-msgid "General Appearance"
-msgstr ""
-
-msgid "General Channel Selection"
-msgstr ""
-
 msgid "General Setup Behavior"
-msgstr ""
+msgstr "Všeobecné správanie pri nastavovaní"
 
 msgid "General Subtitle Appearance And Timing"
-msgstr ""
+msgstr "Všeobecný vzhľad titulkov a časovanie"
 
 msgid "General Time Shift Behavior"
-msgstr ""
+msgstr "Všeobecné správanie časového posunu"
 
 msgid "Generic"
 msgstr "Všeobecné"
@@ -9724,11 +9727,11 @@ msgstr "Pomoc"
 msgid "Help Action"
 msgstr "Akcia pomocníka"
 
+msgid "Help And Visual Feedback"
+msgstr "Pomoc a vizuálna odozva"
+
 msgid "Help Screen Information"
 msgstr "Informácie o Pomocníkovi"
-
-msgid "Help And Visual Feedback"
-msgstr ""
 
 msgid "Help animation speed"
 msgstr "Rýchlosť animácie pomocníka"
@@ -10451,6 +10454,12 @@ msgstr "Šírka info ikony"
 msgid "InfoBar"
 msgstr "Infolišta"
 
+msgid "InfoBar And Pause"
+msgstr "Infolišta a pauza"
+
+msgid "InfoBar Content And Time Display"
+msgstr "Obsah infolišty a zobrazenie času"
+
 msgid "InfoBar EPG"
 msgstr "Infolišta EPG"
 
@@ -10460,11 +10469,11 @@ msgstr "Nastavenia EPG v infolište"
 msgid "InfoBar EPG mode"
 msgstr "Režim EPG v infolište"
 
-msgid "InfoBar And Pause"
-msgstr ""
+msgid "InfoBar Timing And Appearance"
+msgstr "Časovanie a vzhľad infolišty"
 
-msgid "InfoBar Content And Time Display"
-msgstr ""
+msgid "InfoBar Visibility And Behavior"
+msgstr "Viditeľnosť a správanie infolišty"
 
 msgid "InfoBar fade-out speed"
 msgstr "Rýchlosť strácania infolišty"
@@ -10474,12 +10483,6 @@ msgstr "Zdroj údajov infolišty"
 
 msgid "InfoBar picon path"
 msgstr "Cesta k pikonám pre informačný panel"
-
-msgid "InfoBar Timing And Appearance"
-msgstr ""
-
-msgid "InfoBar Visibility And Behavior"
-msgstr ""
 
 msgid "Information"
 msgstr "Informácie"
@@ -10927,7 +10930,7 @@ msgid "Key"
 msgstr "Kľúč"
 
 msgid "Key Map And Power Buttons"
-msgstr ""
+msgstr "Mapovanie tlačidiel a tlačidiel napájania"
 
 msgid "Keyboard"
 msgstr "Klávesnica"
@@ -11031,6 +11034,9 @@ msgstr "LED pri vypnutí"
 msgid "LED Deep Standby color"
 msgstr "Farba LED pri vypnutí"
 
+msgid "LED Indicators"
+msgstr "LED indikátory"
+
 msgid "LED Normal"
 msgstr "LED normálne"
 
@@ -11060,9 +11066,6 @@ msgstr "Jas LED v pohotovostnom režime."
 
 msgid "LED brightness during normal operations."
 msgstr "Jas LED v normálnom pracovnom režime."
-
-msgid "LED Indicators"
-msgstr ""
 
 msgid "LIRC remote"
 msgstr "Diaľkové ovládanie LIRC"
@@ -11161,7 +11164,7 @@ msgid "Latvian"
 msgstr "lotyština"
 
 msgid "Layout And Fonts"
-msgstr ""
+msgstr "Rozloženie a písma"
 
 msgid "Leave"
 msgstr "Opustiť"
@@ -11315,11 +11318,11 @@ msgstr "Tituly prepojené s menu DVD"
 msgid "Links"
 msgstr "Odkazy"
 
+msgid "List Appearance And Sorting"
+msgstr "Vzhľad a zoraďovanie zoznamov"
+
 msgid "List Navigation Actions"
 msgstr "Zoznam akcií pre navigovanie"
-
-msgid "List Appearance And Sorting"
-msgstr ""
 
 msgid "List available EPG functions"
 msgstr "Zoznam dostupných funkcií EPG"
@@ -11470,6 +11473,9 @@ msgstr "Denník %d/%d"
 msgid "Log Manager"
 msgstr "Správca denníkov"
 
+msgid "Log Retention And Access"
+msgstr "Uchovávanie denníka a prístup k nemu"
+
 #, python-format
 msgid "Log file '%s' deleted."
 msgstr "Súbor s denníkom '%s' bol vymazaný."
@@ -11483,9 +11489,6 @@ msgstr "Ukladať do denníka trasovanie zásobníka pythonu na spinneri"
 
 msgid "Log results to harddisk"
 msgstr "Zaznamenávať výsledky do denníka na pevný disk"
-
-msgid "Log Retention And Access"
-msgstr ""
 
 msgid "LogManager"
 msgstr "Správca denníkov"
@@ -11829,6 +11832,9 @@ msgstr "Médium"
 msgid "Media Center"
 msgstr "Centrum médií"
 
+msgid "Media Files And Navigation"
+msgstr "Mediálne súbory a navigovanie"
+
 msgid "Media Player"
 msgstr "Prehrávač médií"
 
@@ -11837,9 +11843,6 @@ msgstr "Nastavenia prehrávača médií"
 
 msgid "Media Stream"
 msgstr "Stream média"
-
-msgid "Media Files And Navigation"
-msgstr ""
 
 msgid "Media playback Remaining/Elapsed as"
 msgstr "Prehrávanie médií – zostávajúce/uplynuté ako"
@@ -11915,7 +11918,7 @@ msgid "Menu style"
 msgstr "Štýl menu"
 
 msgid "Menus And Setup"
-msgstr ""
+msgstr "Menu a nastavenia"
 
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Zlúčiť vysielané EPG s IceTV"
@@ -11966,7 +11969,7 @@ msgid "MiniTV"
 msgstr "MiniTV"
 
 msgid "MiniTV And PiP"
-msgstr ""
+msgstr "MiniTV a PiP"
 
 msgid "MiniTV with OSD"
 msgstr "MiniTV s OSD"
@@ -12428,6 +12431,9 @@ msgstr "Akcie zobrazenia udalosti pri filme"
 msgid "Movie List"
 msgstr "Zoznam filmov"
 
+msgid "Movie List And Playback Behavior"
+msgstr "Zoznam filmov a správanie počas prehrávania"
+
 msgid "Movie Player Actions"
 msgstr "Akcie pre prehrávač médií"
 
@@ -12439,9 +12445,6 @@ msgstr "Akcie pre zoznam filmov"
 
 msgid "Movie Selection Settings"
 msgstr "Nastavenie zoznamu filmov"
-
-msgid "Movie List And Playback Behavior"
-msgstr ""
 
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "Prehrávanie filmov nemôže využívať neplatnú/nevhodnú zložku."
@@ -12660,10 +12663,10 @@ msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. O
 msgstr "Listujte hore/dolu pomocou tlačidiel HORE/DOLU a po celých stránkach nahor/nadol tlačidlami VĽAVO/VPRAVO. Stlačením OK sa vykoná akciu popísaná v aktuálne zvýraznenom pomocníkovi."
 
 msgid "Navigation And Button Assignments"
-msgstr ""
+msgstr "Navigovanie a pridelenia tlačidiel"
 
 msgid "Navigation And Time Range"
-msgstr ""
+msgstr "Navigovanie a časový rozsah"
 
 msgid "Ndonga"
 msgstr "ndonga"
@@ -13368,7 +13371,7 @@ msgid "Nothing, just leave this menu"
 msgstr "Nič, len opustiť toto menu"
 
 msgid "Notifications And Display"
-msgstr ""
+msgstr "Notifikácie a zobrazenie"
 
 msgctxt "now/next: 'now' event label"
 msgid "Now"
@@ -13812,7 +13815,7 @@ msgid "OpenViX Packages"
 msgstr "OpenViX balíčky"
 
 msgid "OpenWebif Connection"
-msgstr ""
+msgstr "Pripojenie OpenWebif"
 
 msgid "OpenWebif picon path"
 msgstr "Cesta k pikonám OpenWebif"
@@ -13899,7 +13902,7 @@ msgid "Other Actions"
 msgstr "Ostatné akcie"
 
 msgid "Other OSD Elements"
-msgstr ""
+msgstr "Iné prvky OSD"
 
 msgid "Other Packages"
 msgstr "Ostatné balíčky"
@@ -14026,11 +14029,11 @@ msgstr "PVR"
 msgid "Package"
 msgstr "Balíček"
 
+msgid "Package Categories"
+msgstr "Kategórie balíčka"
+
 msgid "Package Manager"
 msgstr "Správa balíčkov"
-
-msgid "Package Categories"
-msgstr ""
 
 msgid "Package files:"
 msgstr "Súbory balíčka:"
@@ -14296,6 +14299,9 @@ msgstr "Režim vyhľadávania pikony"
 msgid "Picon width"
 msgstr "Pikony – šírka"
 
+msgid "Picture In Picture"
+msgstr "Obraz v obraze"
+
 msgid "Picture Information"
 msgstr "Informácie o obrázku"
 
@@ -14304,9 +14310,6 @@ msgstr "Akcie pre informácie o obrázku"
 
 msgid "Picture in EPG"
 msgstr "Obraz v EPG"
-
-msgid "Picture In Picture"
-msgstr ""
 
 msgid "Picture in Picture Actions"
 msgstr "Akcie PiP"
@@ -14435,17 +14438,17 @@ msgstr "Prehrať zvukový súbor"
 msgid "Play the selected service"
 msgstr "Prehrať vybranú službu"
 
+msgid "Playback And Saving"
+msgstr "Prehrávanie a ukladanie"
+
+msgid "Playback And Status"
+msgstr "Prehrávanie a stav"
+
 msgid "Playback Settings"
 msgstr "Nastavenia prehrávania"
 
 msgid "Playback Time:"
 msgstr "Čas prehrávania:"
-
-msgid "Playback And Saving"
-msgstr ""
-
-msgid "Playback And Status"
-msgstr ""
 
 msgid "Playback, Recording & Time Shift"
 msgstr "Prehrávanie, nahrávanie a timeshift"
@@ -14735,9 +14738,6 @@ msgstr "Balíčky pluginov"
 
 msgid "Plugin Skin Packages"
 msgstr "Plugin Balíčky vzhľadu"
-
-msgid "Plugin browser"
-msgstr ""
 
 msgid "Plugins"
 msgstr "Pluginy"
@@ -15058,6 +15058,9 @@ msgstr "Primárne DNS (IPv4)"
 
 msgid "Primary DNS (IPv6)"
 msgstr "Primárne DNS (IPv6)"
+
+msgid "Prime Time"
+msgstr "Prime Time"
 
 msgid "Prime time"
 msgstr "Hlavný vysielací čas"
@@ -15574,6 +15577,18 @@ msgstr "Súprava nástrojov pre nahrávateľné médiá"
 msgid "Recording"
 msgstr "Nahrávanie"
 
+msgid "Recording And Status Indicators"
+msgstr "Indikátory nahrávania a stavu"
+
+msgid "Recording Filenames And Data"
+msgstr "Názov súborov nahrávok a dátumy"
+
+msgid "Recording Locations"
+msgstr "Umiestnenia nahrávok"
+
+msgid "Recording Preparation And Margins"
+msgstr "Príprava nahrávania a okraje"
+
 msgid "Recording Settings"
 msgstr "Nastavenia nahrávania"
 
@@ -15583,14 +15598,8 @@ msgstr "Nastavenie nahrávania"
 msgid "Recording aborted"
 msgstr "Nahrávanie prerušené"
 
-msgid "Recording And Status Indicators"
-msgstr ""
-
 msgid "Recording failed"
 msgstr "Nahrávanie neúspešné"
-
-msgid "Recording Filenames And Data"
-msgstr ""
 
 msgid "Recording finished"
 msgstr "Nahrávanie dokončené"
@@ -15600,9 +15609,6 @@ msgstr "Prebieha nahrávanie!"
 
 msgid "Recording location"
 msgstr "Umiestnenie nahrávky"
-
-msgid "Recording Locations"
-msgstr ""
 
 msgid "Recording running"
 msgstr "Prebieha nahrávanie"
@@ -15657,11 +15663,11 @@ msgstr "Nahrávky nemusia fungovať správne bez platného priečinku."
 msgid "Recovery"
 msgstr "Obnovenie"
 
+msgid "Recovery And Hardware"
+msgstr "Obnovovanie a hardvér"
+
 msgid "Recovery Mode"
 msgstr "Núdzový režim"
-
-msgid "Recovery And Hardware"
-msgstr ""
 
 msgid "Red"
 msgstr "Červená"
@@ -15799,6 +15805,12 @@ msgstr "Nastavenia tlačidiel diaľkového ovládania"
 msgid "Remote Control Code Settings"
 msgstr "Kód diaľkového ovládania"
 
+msgid "Remote Receiver Connection"
+msgstr "Pripojenie vzdialeného prijímača"
+
+msgid "Remote Timers"
+msgstr "Vzdialené časovače"
+
 msgid "Remote control information"
 msgstr "Informácie o diaľkovom ovládaní"
 
@@ -15810,12 +15822,6 @@ msgstr "Vzdialená cesta"
 
 msgid "Remote receiver"
 msgstr "Vzdialený prijímač"
-
-msgid "Remote Receiver Connection"
-msgstr ""
-
-msgid "Remote Timers"
-msgstr ""
 
 msgid "Remove"
 msgstr "Odstrániť"
@@ -16139,7 +16145,7 @@ msgstr "Reštartovať"
 
 #, python-format
 msgid "Restart %s"
-msgstr ""
+msgstr "Reštart %s"
 
 msgid "Restart Adapter"
 msgstr "Reštartovať adaptér"
@@ -16179,7 +16185,7 @@ msgstr "Reštartovať test"
 
 #, python-format
 msgid "Restarting %s failed (exit code %s)"
-msgstr ""
+msgstr "Reštartovanie %s bolo neúspešné (kód ukončenia %s)"
 
 msgid "Restarting adapter..."
 msgstr "Adaptér sa reštartuje..."
@@ -18311,6 +18317,9 @@ msgstr "Servisná informácia"
 msgid "Service Information Actions"
 msgstr "Akcie pre servisnú informáciu"
 
+msgid "Service List Appearance"
+msgstr "Vzhľad zoznamu staníc"
+
 msgid "Service Scan"
 msgstr "Vyhľadávanie staníc alebo služieb"
 
@@ -18345,9 +18354,6 @@ msgid ""
 msgstr ""
 "Neplatná stanica!\n"
 "(Vypršanie času pri čítaní PMT)"
-
-msgid "Service List Appearance"
-msgstr ""
 
 msgid "Service name"
 msgstr "Názov stanice"
@@ -19640,7 +19646,7 @@ msgstr "Vypnúť"
 
 #, python-format
 msgid "Shutdown %s"
-msgstr ""
+msgstr "Vypnutie %s"
 
 msgid "Shutting down. Please wait..."
 msgstr "Vypína sa. Čakajte, prosím…"
@@ -19753,6 +19759,9 @@ msgstr "Nastavenie vzhľadu"
 msgid "SkinSelection"
 msgstr "Výber vzhľadu"
 
+msgid "Skip Modes"
+msgstr "Režimy preskočenia"
+
 msgid "Skip back"
 msgstr "Preskočiť dozadu"
 
@@ -19799,9 +19808,6 @@ msgstr "Preskočiť dopredu (zadajte čas)"
 
 msgid "Skip jumping to live while timeshifting with plugins"
 msgstr "Nepreskočiť na živé vysielanie pri timeshifte so zásuvnými modulmi"
-
-msgid "Skip Modes"
-msgstr ""
 
 msgid "Skip network setup"
 msgstr "Preskočiť nastavenie siete"
@@ -20064,6 +20070,9 @@ msgstr "Nastavenie softcamu"
 msgid "Softcams"
 msgstr "Softcamy"
 
+msgid "Software Display Scrolling"
+msgstr "Rolovanie zobrazenia softvéru"
+
 msgid "Software Management"
 msgstr "Správa softvéru"
 
@@ -20090,9 +20099,6 @@ msgstr "Akcie pre aktualizáciu softvéru"
 
 msgid "Software descrambling"
 msgstr "Softvérové dekódovanie"
-
-msgid "Software Display Scrolling"
-msgstr ""
 
 msgid "Software information"
 msgstr "Informácie o softvéri"
@@ -20224,11 +20230,11 @@ msgstr "Soul/Rytmický blues"
 msgid "Sound"
 msgstr "Zvuk"
 
+msgid "Sound Enhancements"
+msgstr "Vylepšenia zvuku"
+
 msgid "Sound carrier"
 msgstr "Nosič zvuku"
-
-msgid "Sound Enhancements"
-msgstr ""
 
 msgid "Source Packages"
 msgstr "Zdrojové balíčky"
@@ -20344,7 +20350,7 @@ msgstr "Štart"
 
 #, python-format
 msgid "Start %s"
-msgstr ""
+msgstr "Spustenie %s"
 
 msgid "Start Auto Refresh"
 msgstr "Spustiť automatické obnovenie"
@@ -20426,7 +20432,7 @@ msgstr "Spustenie/zastavenie/výber softcamov. Softcam je najprv potrebné nain�
 
 #, python-format
 msgid "Starting %s failed (exit code %s)"
-msgstr ""
+msgstr "Spustenie %s bolo neúspešné (kód ukončenia %s)"
 
 msgid "Starting Softcam"
 msgstr "Spustenie softcamu"
@@ -20447,7 +20453,7 @@ msgid "Starts in a few seconds"
 msgstr "Spustí sa o niekoľko sekúnd"
 
 msgid "Startup And Wakeup"
-msgstr ""
+msgstr "Spustenie a zobudenie"
 
 msgid "Startup device not found!"
 msgstr "Nenašlo sa spúšťacie zariadenie!"
@@ -20572,7 +20578,7 @@ msgstr "Zastavené"
 
 #, python-format
 msgid "Stopping %s failed (exit code %s)"
-msgstr ""
+msgstr "Zastavenie %s sa nepodarilo (kód ukončenia %s)"
 
 msgid "Stopping Softcam"
 msgstr "Zastavuje sa softcam"
@@ -20593,11 +20599,11 @@ msgstr "Úložisko/disky"
 msgid "Storage / Drive information"
 msgstr "Informácie o úložisku/jednotke"
 
+msgid "Storage And Deletion"
+msgstr "Ukladanie a vymazávanie"
+
 msgid "Storage Devices"
 msgstr "Úložné zariadenia"
-
-msgid "Storage And Deletion"
-msgstr ""
 
 msgid "Storage device full!"
 msgstr "Úložné zariadenie je plné!"
@@ -20709,6 +20715,9 @@ msgstr "Titulky"
 msgid "Subtitle Actions"
 msgstr "Akcie pre titulky"
 
+msgid "Subtitle Language And Selection"
+msgstr "Jazyk a výber titulkov"
+
 msgid "Subtitle Quickmenu"
 msgstr "Rýchle menu titulkov"
 
@@ -20735,9 +20744,6 @@ msgstr "Oneskorenie titulkov pri chýbajúcom časovaní"
 
 msgid "Subtitle font size"
 msgstr "Veľkosť textu"
-
-msgid "Subtitle Language And Selection"
-msgstr ""
 
 msgid "Subtitle language selection 1"
 msgstr "Voľba jazyka titulkov 1"
@@ -21030,17 +21036,17 @@ msgstr "TUNER:"
 msgid "TV"
 msgstr "TV"
 
-msgid "TV button mode"
-msgstr "Režim tlačidla TV"
-
 msgid "TV Input And Receiver Wakeup"
 msgstr "TV vstup a prebudenie prijímača"
 
-msgid "TV physical address report"
-msgstr "Ohlásenie fyzickej adresy TV"
-
 msgid "TV Power"
 msgstr "Napájanie TV"
+
+msgid "TV button mode"
+msgstr "Režim tlačidla TV"
+
+msgid "TV physical address report"
+msgstr "Ohlásenie fyzickej adresy TV"
 
 msgid "TXT PID"
 msgstr "TXT PID"
@@ -21144,6 +21150,9 @@ msgstr "Teletext – začiatok X (ľavý okraj)"
 msgid "Teletext StartY (lower border)"
 msgstr "Tetelext – začiatok Y (dolný okraj)"
 
+msgid "Teletext Subtitles"
+msgstr "Teletextové titulky"
+
 msgid "Teletext TTFBold (0=normal, 1=bold)"
 msgstr "Teletext TTFBold (0=normálne, 1=tučné)"
 
@@ -21173,9 +21182,6 @@ msgstr "Písmo a rozlíšenie teletextu"
 
 msgid "Teletext subtitle color"
 msgstr "Farba teletextových titulkov"
-
-msgid "Teletext Subtitles"
-msgstr ""
 
 msgid "Telnet"
 msgstr "Telnet"
@@ -22078,7 +22084,7 @@ msgid "Time zone area"
 msgstr "Oblasť časovej zóny"
 
 msgid "Timeline"
-msgstr ""
+msgstr "Časová os"
 
 msgid "Timeline 24 Hour"
 msgstr "Časová os 24 hodín"
@@ -22095,6 +22101,9 @@ msgstr "Časová mierka"
 msgid "Timeout"
 msgstr "Časový limit"
 
+msgid "Timer Defaults And Retention"
+msgstr "Predvolené časovače a uchovávanie"
+
 msgid "Timer Log Actions"
 msgstr "Akcie denníka časovača"
 
@@ -22103,9 +22112,6 @@ msgstr "Nejasné nastavenia časovača"
 
 msgid "Timer Selection Actions"
 msgstr "Akcie výberu časovača"
-
-msgid "Timer defaults and margins"
-msgstr ""
 
 msgid "Timer edit"
 msgstr "Upraviť časovač"
@@ -22403,7 +22409,7 @@ msgid "Transport Stream Type"
 msgstr "Typ transportného streamu"
 
 msgid "Trash And Deletion"
-msgstr ""
+msgstr "Kôš a vymazávanie"
 
 msgid "Trashcan"
 msgstr "Kôš"
@@ -22489,6 +22495,12 @@ msgstr "Tuner "
 msgid "Tuner :"
 msgstr "Tuner:"
 
+msgid "Tuner Allocation And Conflicts"
+msgstr "Alokovanie tunera a konflikty"
+
+msgid "Tuner And Streaming"
+msgstr "Tuner a streamovanie"
+
 msgid "Tuner Configuration"
 msgstr "Konfigurácia tunerov"
 
@@ -22500,12 +22512,6 @@ msgstr "Nastavenia tunera"
 
 msgid "Tuner Setup"
 msgstr "Nastavenie tunera"
-
-msgid "Tuner Allocation And Conflicts"
-msgstr ""
-
-msgid "Tuner And Streaming"
-msgstr ""
 
 msgid "Tuner data is not available!"
 msgstr "Údaje tunera sú nedostupné!"
@@ -23664,11 +23670,11 @@ msgstr "Akcie výberu stanice pre úpravu hlasitosti"
 msgid "Volume Adjust Settings"
 msgstr "Nastavenia úpravy hlasitosti"
 
+msgid "Volume Control"
+msgstr "Ovládanie hlasitosti"
+
 msgid "Volume adjustment mode"
 msgstr "Režim úpravy hlasitosti"
-
-msgid "Volume Control"
-msgstr ""
 
 msgid "Volume down"
 msgstr "Zníženie hlasitosti"
@@ -24628,6 +24634,9 @@ msgstr "Prepnúť"
 
 msgid "Zap + Exit"
 msgstr "Prepnúť + ukončiť"
+
+msgid "Zap Timer Settings"
+msgstr "Nastavenia časovača prepnutia"
 
 msgid "Zap Up/Down"
 msgstr "Prepnúť hore/dolu"
