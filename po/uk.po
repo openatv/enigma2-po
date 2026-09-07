@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-28 11:30+0000\n"
-"PO-Revision-Date: 2026-08-16 16:25+0000\n"
+"POT-Creation-Date: 2026-09-01 07:06+0000\n"
+"PO-Revision-Date: 2026-09-02 10:36+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -918,9 +918,9 @@ msgstr[2] "%d пакетів каталогу каналів оновлено."
 #, python-format
 msgid "%d host found."
 msgid_plural "%d hosts found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Знайдено %d хост."
+msgstr[1] "Знайдено %d хоста."
+msgstr[2] "Знайдено %d хостів."
 
 #, python-format
 msgid "%d jobs are running in the background!"
@@ -945,13 +945,13 @@ msgstr "%d мс"
 #, python-format
 msgid "%d network found."
 msgid_plural "%d networks found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Знайдено %d мережу."
+msgstr[1] "Знайдено %d мережі."
+msgstr[2] "Знайдено %d мереж."
 
 #, python-format
 msgid "%d of %d feeds completed; failed feed bouquets were kept"
-msgstr ""
+msgstr "%d з %d фідів завершено; невдалі букети фідів збережено"
 
 #, python-format
 msgid "%d package found."
@@ -1067,7 +1067,7 @@ msgstr[2] "%d плагінів недоступний:"
 
 #, python-format
 msgid "%d radio bouquets created"
-msgstr ""
+msgstr "Створено %d радіобукетів"
 
 #, python-format
 msgid "%d sec"
@@ -1232,7 +1232,7 @@ msgstr "%s Перегляд"
 
 #, python-format
 msgid "%s action failed (exit code %s)"
-msgstr ""
+msgstr "Дія %s не вдалася (код виходу %s)"
 
 #, python-format
 msgid "%s additional screens"
@@ -1256,10 +1256,13 @@ msgid ""
 "\n"
 "Do you want to start it?"
 msgstr ""
+"%s наразі не працює.\n"
+"\n"
+"Бажаєте його запустити?"
 
 #, python-format
 msgid "%s is currently stopped or unreachable. Press GREEN to start it."
-msgstr ""
+msgstr "%s наразі зупинено або недоступно. Натисніть ЗЕЛЕНУ кнопку, щоб запустити його."
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
 #, python-format
@@ -1280,7 +1283,7 @@ msgstr "Версія %s"
 
 #, python-format
 msgid "%s webif disabled"
-msgstr ""
+msgstr "%s webif вимкнено"
 
 #, python-format
 msgid "%s%d min"
@@ -1292,7 +1295,7 @@ msgstr "%s%s(За замовчуванням: %s)"
 
 #, python-format
 msgid "%s. (Lowest)"
-msgstr ""
+msgstr "%s. (Найнижчий)"
 
 #, python-format
 msgid "%s/%s: %s"
@@ -1300,7 +1303,7 @@ msgstr "%s/%s: %s"
 
 #, python-format
 msgid "%s: bouquet could not be written"
-msgstr ""
+msgstr "%s: букет не вдалося написати"
 
 #, python-format
 msgid "%sMode for FHD (up to 1080p)"
@@ -1344,19 +1347,19 @@ msgstr "'%s' містить %d файл(ів) і %d підкаталог(ів).\
 
 #, python-format
 msgid "'%s' is already set by a dedicated setting above, remove it from 'Mount options'."
-msgstr ""
+msgstr "'%s' вже встановлено спеціальним параметром вище, видаліть його з 'Параметрів монтування'."
 
 #, python-format
 msgid "'%s' is listed more than once in 'Mount options'."
-msgstr ""
+msgstr "«%s» згадується більше одного разу в розділі 'Параметри монтування'."
 
 #, python-format
 msgid "'%s' mounted."
-msgstr ""
+msgstr "'%s' підключено."
 
 #, python-format
 msgid "'%s' unmounted."
-msgstr ""
+msgstr "'%s' відмонтовано."
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Буфер в годинах' або 'кількість останніх подій'. Яка з умов настає першою, по цій умові і видалятимуться старі файли таймшифта."
@@ -1443,7 +1446,7 @@ msgid "1"
 msgstr "1"
 
 msgid "1. (Highest)"
-msgstr ""
+msgstr "1. (Найвищий)"
 
 msgid "10bit"
 msgstr "10біт"
@@ -1620,7 +1623,7 @@ msgid "A"
 msgstr "A"
 
 msgid "A DAB+ scan cannot run while a recording is in progress."
-msgstr ""
+msgstr "Сканування DAB+ не може виконуватися під час запису."
 
 msgid "A backup is now being created."
 msgstr "Створюється резервна копія."
@@ -1781,7 +1784,7 @@ msgid "AFL"
 msgstr "AFL"
 
 msgid "AI Subtitles"
-msgstr ""
+msgstr "Субтитри штучного інтелекту"
 
 msgid "AI Translation color"
 msgstr "Колір субтитрів за допомогою AI"
@@ -1865,6 +1868,8 @@ msgid ""
 "Access point not found.\n"
 "Check it is in range and the SSID is correct."
 msgstr ""
+"Точку доступу не знайдено.\n"
+"Перевірте, чи вона знаходиться в зоні дії, а SSID правильний."
 
 msgid "Access to geolocation information requires an Internet connection."
 msgstr "Для доступу до геолокаційної інформації потрібне підключення до Інтернету."
@@ -1906,7 +1911,7 @@ msgid "Activate a way to send individual or specific internal HDMI-CEC commands 
 msgstr "Активуйте спосіб надсилання окремих, або конкретних внутрішніх команд HDMI-CEC з командного рядка."
 
 msgid "Activate network adapter"
-msgstr ""
+msgstr "Активуйте мережевий адаптер"
 
 msgid "Activate the flash expander, save all changed settings and exit"
 msgstr "Активуйте флеш-розширювач, збережіть усі змінені налаштування та вийдіть"
@@ -1930,11 +1935,11 @@ msgid "Active only"
 msgstr "Лише активні"
 
 msgid "Adapter"
-msgstr ""
+msgstr "Адаптер"
 
 #, python-format
 msgid "Adapter '%s' Context Menu"
-msgstr ""
+msgstr "Контекстне меню адаптера '%s'"
 
 msgid "Adapter Settings"
 msgstr "Налаштування адаптера"
@@ -1979,7 +1984,7 @@ msgid "Add Marker To Bouquet"
 msgstr "Додати закладку"
 
 msgid "Add Mount Manually"
-msgstr ""
+msgstr "Додати монтування вручну"
 
 msgid "Add New Quad Channel Entry"
 msgstr "Додати новий чотирьохканальний вхід"
@@ -2006,10 +2011,10 @@ msgid "Add To Parental Protection"
 msgstr "Додати в батьківський контроль"
 
 msgid "Add Wi-Fi"
-msgstr ""
+msgstr "Додати Wi-Fi"
 
 msgid "Add Wi-Fi Manually"
-msgstr ""
+msgstr "Додати Wi-Fi вручну"
 
 msgid "Add Zap+RecordTimer"
 msgstr "Додати Таймер Переключення+Запис"
@@ -2039,7 +2044,7 @@ msgid "Add a mark"
 msgstr "Додати маркер"
 
 msgid "Add a new Saved Wi-Fi Network"
-msgstr ""
+msgstr "Додати нову збережену мережу Wi-Fi"
 
 msgid "Add a new bouquet"
 msgstr "Додати фаворитний список"
@@ -2202,7 +2207,7 @@ msgid "Advanced"
 msgstr "Розширений"
 
 msgid "Advanced Diagnostics"
-msgstr ""
+msgstr "Розширена діагностика"
 
 msgid "Advanced Options"
 msgstr "Розширені параметри"
@@ -2439,7 +2444,7 @@ msgid "Alternative Edit"
 msgstr "[редагування вибраного]"
 
 msgid "Alternative Tuner Sources"
-msgstr ""
+msgstr "Альтернативні джерела тюнера"
 
 msgid "Alternative URLs for DVB-T/C or ATSC"
 msgstr "Альтернативні URL-адреси для DVB-T/C, або ATSC"
@@ -2737,7 +2742,7 @@ msgid "Assigned services/provider:"
 msgstr "Призначені Канали/Провайдери:"
 
 msgid "Associated"
-msgstr ""
+msgstr "Пов'язаний"
 
 msgid "Astra 1 19.2e"
 msgstr "Astra 1 19.2E"
@@ -2777,10 +2782,10 @@ msgid "Audio Channel"
 msgstr "Канал аудіо"
 
 msgid "Audio Formats And Output"
-msgstr ""
+msgstr "Аудіоформати та вихід"
 
 msgid "Audio Language And Track Selection"
-msgstr ""
+msgstr "Вибір мови аудіо та доріжки"
 
 msgid "Audio PID"
 msgstr "Аудіо PID"
@@ -2799,7 +2804,7 @@ msgid "Audio Sync"
 msgstr "Синхронізація аудіо"
 
 msgid "Audio Synchronization"
-msgstr ""
+msgstr "Синхронізація аудіо"
 
 msgid "Audio language selection 1"
 msgstr "Вибір мови аудіо 1"
@@ -3007,7 +3012,7 @@ msgid "BLUE switch: BLUE/BLUE long"
 msgstr "Синя-Заміна дії: Синя-коротке/Синя-довге"
 
 msgid "BSSID"
-msgstr ""
+msgstr "BSSID"
 
 msgid "Back USB"
 msgstr "USB Видалити"
@@ -3380,7 +3385,7 @@ msgid "Brightness (Standby)"
 msgstr "Яскравість (режим очікування)"
 
 msgid "Brightness And Contrast"
-msgstr ""
+msgstr "Яскравість і контрастність"
 
 msgid "Brightness Video"
 msgstr "Яскравість відео"
@@ -3413,7 +3418,7 @@ msgid "Broadcom default"
 msgstr "Broadcom за замовчуванням"
 
 msgid "Browse"
-msgstr ""
+msgstr "Переглянути"
 
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Переглядайте, встановлюйте або видаляйте плагіни по одному."
@@ -3422,7 +3427,7 @@ msgid "Brunei Darussalam"
 msgstr "Бруней-Даруссалам"
 
 msgid "Buffer Management"
-msgstr ""
+msgstr "Управління буфером"
 
 #, python-format
 msgid "Buffering %d%%"
@@ -3478,7 +3483,7 @@ msgid "Burundi"
 msgstr "Бурундія"
 
 msgid "Bus"
-msgstr ""
+msgstr "Автобус"
 
 msgid "Business"
 msgstr "Бізнес"
@@ -3487,7 +3492,7 @@ msgid "Business & Finance"
 msgstr "Бізнес і фінанси"
 
 msgid "Button Assignments"
-msgstr ""
+msgstr "Button Assignments"
 
 msgid "Button Setup"
 msgstr "Налаштування кнопок"
@@ -7669,6 +7674,9 @@ msgstr "Увімкніть цю опцію, щоб додати дані дис�
 msgid "Enable this option to add screen names and resolution data to the debug log file."
 msgstr "Увімкніть цю опцію, щоб додати до файлу журналу налагодження екранні імена та дані роздільної здатності."
 
+msgid "Enable this option to add seek/time shift debugging data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add storage device information detected during system boot and hot plug events to the debug log file."
 msgstr "Увімкніть цей параметр, щоб додати інформацію про накопичувач, виявлену під час завантаження системи та подій гарячого підключення, до файлу журналу налагодження."
 
@@ -10374,6 +10382,9 @@ msgstr "Введення даних з пульта керування"
 
 msgid "Include screen load data"
 msgstr "Включити дані завантаження екрана"
+
+msgid "Include seek data"
+msgstr ""
 
 msgid "Include storage device data"
 msgstr "Включити дані пристрою зберігання"
@@ -18225,6 +18236,9 @@ msgstr "Надіслати DiSEqC тільки при зміні супутни�
 msgid "Senegal"
 msgstr "Сенегал"
 
+msgid "Sensibility skips"
+msgstr ""
+
 msgid "Seperate titles with a main menu"
 msgstr "Окремі заголовки у головному меню"
 
@@ -18493,12 +18507,6 @@ msgstr "Налаштування Системи"
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Встановіть часовий інтервал пропуску редактора CutList для кнопок '%s'/'%s'."
 
-msgid "Set the LEFT/RIGHT button skip percentage for the SeekBar."
-msgstr "Установити відсоток пропуску кнопки ВЛІВО/ВПРАВО для панелі пошуку."
-
-msgid "Set the UP/DOWN button skip percentage for the SeekBar."
-msgstr "Установити відсоток пропуску кнопки ВГОРУ/ВНИЗ для панелі пошуку."
-
 msgid "Set the User ID of the OpenWebif from your fallback tuner."
 msgstr "Встановіть ідентифікатор користувача OpenWebif із резервного тюнера."
 
@@ -18565,8 +18573,14 @@ msgstr "Вкажіть швидкість прокрутки тексту на �
 msgid "Set the scrolling speed of text on the front display."
 msgstr "Вкажіть швидкість прокрутки тексту на дисплеї."
 
+msgid "Set the skip percentage for the '%s' button. Positive numbers skip forward, negative numbers skip backward."
+msgstr ""
+
 msgid "Set the skip time interval for the '%s' button."
 msgstr "Встановити інтервал часу пропуску для кнопки '%s'."
+
+msgid "Set the skip time interval for the '%s' button. Positive numbers skip forward, negative numbers skip backward."
+msgstr ""
 
 msgid "Set the skip time interval for the '%s'/'%s' buttons."
 msgstr "Встановити інтервал часу пропуску для кнопок '%s'/'%s'."
@@ -19656,7 +19670,7 @@ msgid "Simple fade"
 msgstr "Просте згасання"
 
 msgid "Simple titleset (compatibility for legacy players)"
-msgstr "Простий заголовок (сумісність з DVD плеєрами)"
+msgstr "Простий заголовок (сумісність зі старими плеєрами)"
 
 msgid "Simple zoom"
 msgstr "Просте збільшення"
@@ -19786,11 +19800,8 @@ msgstr ""
 msgid "Skip package installation, only core packages will be available"
 msgstr "Пропустити встановлення пакетів, будуть доступні лише базові пакети"
 
-msgid "Skip sensibility (Horizontal)"
-msgstr "Чутливість пропуску (горизонтальна)"
-
-msgid "Skip sensibility (Vertical)"
-msgstr "Чутливість пропуску (вертикальна)"
+msgid "Skip sensibility for '%s' button"
+msgstr ""
 
 msgid "Skip time for '%s' button"
 msgstr "Пропустити час для кнопки '%s'"
@@ -20045,7 +20056,7 @@ msgid "Software Display Scrolling"
 msgstr ""
 
 msgid "Software Management"
-msgstr "Управління ПЗ"
+msgstr "Управління програмним забезпеченням"
 
 msgid "Software Manager"
 msgstr "Менеджер ПЗ"
@@ -22691,6 +22702,9 @@ msgstr "Не вдалося успадкувати користувацький 
 
 msgid "Unable to initialize Kexec MultiBoot!"
 msgstr "Неможливо ініціалізувати Kexec MultiBoot!"
+
+msgid "Unable to register the DAB+ transponder"
+msgstr ""
 
 msgid "Unable to start the DAB+ feed"
 msgstr ""
@@ -25369,6 +25383,18 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Set the LEFT/RIGHT button skip percentage for the SeekBar."
+#~ msgstr "Установити відсоток пропуску кнопки ВЛІВО/ВПРАВО для панелі пошуку."
+
+#~ msgid "Set the UP/DOWN button skip percentage for the SeekBar."
+#~ msgstr "Установити відсоток пропуску кнопки ВГОРУ/ВНИЗ для панелі пошуку."
+
+#~ msgid "Skip sensibility (Horizontal)"
+#~ msgstr "Чутливість пропуску (горизонтальна)"
+
+#~ msgid "Skip sensibility (Vertical)"
+#~ msgstr "Чутливість пропуску (вертикальна)"
 
 #~ msgid "AutoFS"
 #~ msgstr "АвтоFS"
