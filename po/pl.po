@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-12 12:41+0000\n"
+"PO-Revision-Date: 2026-09-12 21:51+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -956,11 +956,11 @@ msgstr[2] "Znaleziono %d sieci."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
-msgstr ""
+msgstr "%d z %d kanałów zawierało multipleks DAB+"
 
 #, python-format
 msgid "%d of %d feeds completed"
-msgstr ""
+msgstr "%d z %d źródeł ukończono"
 
 #, python-format
 msgid "%d package found."
@@ -1209,11 +1209,11 @@ msgstr "%s %sB"
 
 #, python-format
 msgid "%s (cached)"
-msgstr ""
+msgstr "%s (w pamięci podręcznej)"
 
 #, python-format
 msgid "%s (motor)"
-msgstr ""
+msgstr "%s (silnik)"
 
 #, python-format
 msgid "%s - Setup"
@@ -1381,7 +1381,7 @@ msgstr "Odmontowano '%s'."
 
 #, python-format
 msgid "'%s' uses enterprise authentication (802.1X). Networks like this cannot be set up here, they have to be configured manually in wpa_supplicant.conf."
-msgstr ""
+msgstr "Sieć '%s' używa uwierzytelniania enterprise (802.1X). Tego rodzaju sieci nie można skonfigurować w tym miejscu — należy skonfigurować ją ręcznie w pliku wpa_supplicant.conf."
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Limit bufora w godzinach' lub 'Liczba ostatnio zarejestrowanych wydarzeń' spowoduje usunięcie najstarszego pliku timeshiftu, w zależności od tego, który warunek wystąpił jako pierwszy."
@@ -1649,7 +1649,7 @@ msgid "A backup is now being created."
 msgstr "Trwa tworzenie kopii zapasowej."
 
 msgid "A backup of your previous settings was found. Do you want to restore it before continuing with the setup?"
-msgstr ""
+msgstr "Znaleziono kopię zapasową poprzednich ustawień. Czy chcesz ją przywrócić przed kontynuowaniem konfiguracji?"
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Oddzielona przecinkami lista rozszerzeń, które mają być używane w ustawieniu „Moje rozszerzenie” w „Filtruj rozszerzenie”. Wprowadź nazwy rozszerzeń bez początkowej kropki (.)."
@@ -1962,7 +1962,7 @@ msgstr "Adapter"
 
 #, python-format
 msgid "Adapter '%s'"
-msgstr ""
+msgstr "Adapter '%s'"
 
 #, python-format
 msgid "Adapter '%s' Context Menu"
@@ -2216,7 +2216,7 @@ msgid "Adjust the horizontal position of the letters used for teletext."
 msgstr "Dostosuj poziomą pozycję liter używanych w telegazecie."
 
 msgid "Adjust the tuner oscillator offset to refine the DAB+ signal reception."
-msgstr ""
+msgstr "Dostosuj przesunięcie oscylatora tunera, aby poprawić odbiór sygnału DAB+."
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Skonfiguruj pionowe położenie liter używanych do telegazety."
@@ -2345,7 +2345,7 @@ msgid "All files"
 msgstr "Wszystkie pliki"
 
 msgid "All regions"
-msgstr ""
+msgstr "Wszystkie regiony"
 
 msgid "All resolutions"
 msgstr "Wszystkie rozdzielczości"
@@ -2526,7 +2526,7 @@ msgid "Amount %d / Success %d / Failed %d"
 msgstr "Ilość %d / Sukces %d / Niepowodzenie %d"
 
 msgid "An RTL-SDR receiver was detected. The optional DAB+ USB runtime is being installed from the feed."
-msgstr ""
+msgstr "Wykryto odbiornik RTL-SDR. Trwa instalacja opcjonalnego środowiska DAB+ USB z repozytorium."
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Podjęto próbę przechwytywania aktualnego stanu TV. Jeśli nie jest to możliwe z powodu nieprawidłowych lub brakujących komunikatów o stanie, może spowodować nieoczekiwane działanie odbiornika. Z drugiej strony stara się lepiej reagować na różne warunki pracy."
@@ -2843,7 +2843,7 @@ msgid "Audio Synchronization"
 msgstr "Synchronizacja Dźwięku"
 
 msgid "Audio bit rate"
-msgstr ""
+msgstr "Przepływność audio"
 
 msgid "Audio language selection 1"
 msgstr "Wybór języka ścieżki dźwiękowej 1"
@@ -2960,7 +2960,7 @@ msgid "Automatic Service Searching"
 msgstr "Automatyczne wyszukiwanie kanałów"
 
 msgid "Automatic gain"
-msgstr ""
+msgstr "Automatyczne wzmocnienie"
 
 msgid "Automatic resolution"
 msgstr "Automatyczna rozdzielczość"
@@ -3304,14 +3304,14 @@ msgstr "Migający symbol REC"
 
 #, python-format
 msgid "Block %s"
-msgstr ""
+msgstr "Blok %s"
 
 #, python-format
 msgid "Block %s - %.3f MHz"
-msgstr ""
+msgstr "Blok %s - %.3f MHz"
 
 msgid "Block RTL2832 DVB kernel driver"
-msgstr ""
+msgstr "Zablokuj sterownik kernel RTL2832 DVB"
 
 msgid "Block device"
 msgstr "Zablokuj urządzenie"
@@ -4552,7 +4552,7 @@ msgid "Close network test"
 msgstr "Zamknij test sieci"
 
 msgid "Close network test and exit all menus"
-msgstr ""
+msgstr "Zamknij test sieci i wyjdź ze wszystkich menu"
 
 msgid "Close screen"
 msgstr "Zamknij ekran"
@@ -4615,7 +4615,7 @@ msgid "Code rate LP"
 msgstr "Wskaźnik kodowania LP"
 
 msgid "Codec"
-msgstr ""
+msgstr "Kodek"
 
 msgid "Collapse"
 msgstr "Ukryj"
@@ -5515,7 +5515,7 @@ msgid "Create kernel dump."
 msgstr "Tworzenie zrzutu kernel."
 
 msgid "Create or remove the RTL2832 DVB module blacklist. A full receiver reboot is required; while enabled, this USB tuner is available for DAB+ but not for DVB-T/T2."
-msgstr ""
+msgstr "Utwórz lub usuń czarną listę modułu RTL2832 DVB. Wymagany jest pełny restart odbiornika. Gdy opcja jest włączona, ten tuner USB jest dostępny dla DAB+, ale nie dla DVB-T/T2."
 
 #, python-format
 msgid "Create recovery image backup '%s'."
@@ -5791,36 +5791,36 @@ msgid "DAB+ Scan"
 msgstr "Skanowanie DAB+"
 
 msgid "DAB+ Settings"
-msgstr ""
+msgstr "Ustawienia DAB+"
 
 msgid "DAB+ Settings Actions"
-msgstr ""
+msgstr "Akcje ustawień DAB+"
 
 msgid "DAB+ USB support could not be installed from the feed."
-msgstr ""
+msgstr "Nie udało się zainstalować obsługi DAB+ USB z repozytorium."
 
 msgid "DAB+ USB support was installed. You can now enable the receiver in Reception settings."
-msgstr ""
+msgstr "Zainstalowano obsługę DAB+ USB. Możesz teraz włączyć odbiornik w menu Tunery i skanowanie."
 
 msgid "DAB+ USB: bouquet could not be written"
-msgstr ""
+msgstr "DAB+ USB: nie udało się zapisać listy kanałów"
 
 msgid "DAB+ channel"
-msgstr ""
+msgstr "Kanał DAB+"
 
 #, python-format
 msgid "DAB+ channel %s"
-msgstr ""
+msgstr "Kanał DAB+ %s"
 
 msgid "DAB+ decoder back end not installed"
-msgstr ""
+msgstr "Zaplecze dekodera DAB+ nie jest zainstalowane"
 
 msgid "DAB+ scan failed; existing bouquets were kept."
-msgstr "Skanowanie DAB+ nie powiodło się; istniejące listy kanałów radiowych zostały zachowane."
+msgstr "Skanowanie DAB+ nie powiodło się: Istniejące listy kanałów radiowych zostały zachowane."
 
 #, python-format
 msgid "DAB+ service information for '%s'"
-msgstr ""
+msgstr "Informacje o kanale radiowym DAB+ '%s'"
 
 msgid "DAC"
 msgstr "DAC"
@@ -5881,10 +5881,10 @@ msgid "DVB Subtitles PID & Language"
 msgstr "Napisy DVB, PID i język"
 
 msgid "DVB frontend"
-msgstr ""
+msgstr "Moduł odbiorczy DVB"
 
 msgid "DVB payload PID"
-msgstr ""
+msgstr "PID danych DVB"
 
 msgid "DVB subtitle black transparency"
 msgstr "Przezroczystość czarnego tła napisów DVB"
@@ -6600,7 +6600,7 @@ msgid "Detect positioner movement by its current consumption."
 msgstr "Wykrywaj ruch obrotnicy na podstawie poboru prądu."
 
 msgid "Detected USB hardware"
-msgstr ""
+msgstr "Wykryty Sprzęt USB"
 
 msgid "Detective"
 msgstr "Detektywistyczny"
@@ -7267,7 +7267,7 @@ msgid "Dynamic contrast"
 msgstr "Kontrast dynamiczny"
 
 msgid "Dynamic label"
-msgstr ""
+msgstr "Etykieta dynamiczna"
 
 msgid "Dzongkha"
 msgstr "Dzongkha"
@@ -7467,13 +7467,13 @@ msgid "Edit the NewCamd DES Key."
 msgstr "Edytuj klucz DES NewCamd."
 
 msgid "Edit the currently highlighted feed"
-msgstr ""
+msgstr "Edytuj aktualnie zaznaczone repozytorium"
 
 msgid "Edit the currently selected timer"
 msgstr "Edytuj aktualnie wybrany timer"
 
 msgid "Edit the feed URL:"
-msgstr ""
+msgstr "Edytuj adres URL repozytorium:"
 
 msgid "Edit the password."
 msgstr "Edytuj hasło."
@@ -7567,7 +7567,7 @@ msgid "Enable Chkroot MultiBoot"
 msgstr "Włącz Chkroot MultiBoot"
 
 msgid "Enable DAB+ mode"
-msgstr ""
+msgstr "Włącz tryb DAB+"
 
 msgid "Enable EIT EPG"
 msgstr "Włącz EIT EPG"
@@ -7642,7 +7642,7 @@ msgid "Enable Virgin EPG"
 msgstr "Włącz Virgin EPG"
 
 msgid "Enable a selected RTL-SDR USB receiver for DAB+ reception. DVB-T and DAB+ cannot use the same receiver at the same time."
-msgstr ""
+msgstr "Włącz wybrany odbiornik USB RTL-SDR do odbioru DAB+. DVB-T i DAB+ nie mogą jednocześnie korzystać z tego samego odbiornika."
 
 msgid "Enable adapter"
 msgstr "Włącz adapter"
@@ -7766,7 +7766,7 @@ msgid "Enable this option to add bouquet database information to the debug log f
 msgstr "Włącz tę opcję, aby dodać informacje o bazie danych list kanałów do pliku dziennika debugowania."
 
 msgid "Enable this option to add detailed DAB+ receiver, packet, MOT and SPI information to the debug log file."
-msgstr ""
+msgstr "Włącz tę opcję, aby dodać szczegółowe informacje o odbiorniku DAB+, pakietach, MOT i SPI do pliku dziennika debugowania."
 
 msgid "Enable this option to add extra DVB details to the debug log file."
 msgstr "Włącz tę opcję, aby dodać dodatkowe szczegóły DVB do pliku dziennika debugowania."
@@ -7814,7 +7814,7 @@ msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Włącz tę opcję, aby dodać dane debugowania timera do pliku dziennika debugowania."
 
 msgid "Enable this option to add verbose SEC/DiSEqC debug data to the debug log file."
-msgstr ""
+msgstr "Włącz tę opcję, aby dodać szczegółowe dane debugowania SEC/DiSEqC do pliku dziennika debugowania."
 
 msgid "Enable this option to show all the available Information screens in the Information menu item list."
 msgstr "Włącz tę opcję, aby wyświetlić wszystkie dostępne ekrany informacyjne na liście pozycji menu Informacje."
@@ -7942,10 +7942,10 @@ msgid "Enigmalight"
 msgstr "Enigmalight"
 
 msgid "Ensemble"
-msgstr ""
+msgstr "Multipleks"
 
 msgid "Ensemble ID (EID)"
-msgstr ""
+msgstr "ID multipleksu (EID)"
 
 msgid "Enter"
 msgstr "Wprowadź"
@@ -8742,7 +8742,7 @@ msgid "FFmpeg is not installed so '.mvi' file actions are not available!"
 msgstr "FFmpeg nie jest zainstalowany, więc akcje dla plików '.mvi' nie są dostępne!"
 
 msgid "FIC quality"
-msgstr ""
+msgstr "Jakość FIC"
 
 msgid "FIFO"
 msgstr "FIFO"
@@ -9318,7 +9318,7 @@ msgid "Frequency bands"
 msgstr "Pasma częstotliwości"
 
 msgid "Frequency correction offset"
-msgstr ""
+msgstr "Przesunięcie korekcji częstotliwości"
 
 msgid "Frequency range"
 msgstr "Zakres częstotliwości"
@@ -9411,7 +9411,7 @@ msgid "Gaelic"
 msgstr "Gaelicki"
 
 msgid "Gain steps"
-msgstr ""
+msgstr "Kroki wzmocnienia"
 
 msgid "Galicia (Spain)"
 msgstr "Galicja (Hiszpania)"
@@ -10457,7 +10457,7 @@ msgid "In progress"
 msgstr "W toku"
 
 msgid "In use by DAB+"
-msgstr ""
+msgstr "W użyciu przez DAB+"
 
 msgid "Inaccessible"
 msgstr "Niedostępne"
@@ -10481,7 +10481,7 @@ msgid "Include CI assignment"
 msgstr "Dołącz przydział CI"
 
 msgid "Include DAB+ data"
-msgstr ""
+msgstr "Dołącz dane DAB+"
 
 msgid "Include DVB details"
 msgstr "Dołącz szczegóły DVB"
@@ -10508,7 +10508,7 @@ msgid "Include SDT and BAT in http streams"
 msgstr "Uwzględnij SDT, BAT w strumieniach http"
 
 msgid "Include SEC/DiSEqC data"
-msgstr ""
+msgstr "Uwzględnij dane SEC/DiSEqC"
 
 msgid "Include action map data"
 msgstr "Dołącz dane mapy działań"
@@ -10547,7 +10547,7 @@ msgid "Include text encoding data"
 msgstr "Dołącz dane kodowania tekstu"
 
 msgid "Include this configured satellite position in the DAB+ scan. Disable it to skip the position."
-msgstr ""
+msgstr "Uwzględnij tę skonfigurowaną pozycję satelitarną w skanowaniu DAB+. Wyłącz, aby pominąć tę pozycję."
 
 msgid "Include timer data"
 msgstr "Dołącz dane timera"
@@ -11039,7 +11039,7 @@ msgid "Kernel Packages"
 msgstr "Pakiety kernel"
 
 msgid "Kernel driver"
-msgstr ""
+msgstr "Sterownik kernel"
 
 msgid "Kernel file"
 msgstr "Plik kernel"
@@ -11365,7 +11365,7 @@ msgid "Lesotho"
 msgstr "Lesoto"
 
 msgid "Let the tuner select its RF gain automatically."
-msgstr ""
+msgstr "Pozwól tunerowi automatycznie dobrać wzmocnienie RF."
 
 msgid "LetterBox zoom"
 msgstr "Powiększenie Letterbox"
@@ -11405,7 +11405,7 @@ msgid "Lime"
 msgstr "Lime"
 
 msgid "Limit a DAB+ USB scan to the frequency blocks defined for this region in the 'dab.xml' file."
-msgstr ""
+msgstr "Ogranicz skanowanie DAB+ USB do bloków częstotliwości zdefiniowanych dla tego regionu w pliku 'dab.xml'."
 
 msgid "Limit character set for recording filenames"
 msgstr "Limit znaków w nazwie nagrania"
@@ -11611,7 +11611,7 @@ msgid "Lock:"
 msgstr "Zablokowany:"
 
 msgid "Locked"
-msgstr ""
+msgstr "Zablokowany"
 
 msgid "Log"
 msgstr "Log"
@@ -11750,7 +11750,7 @@ msgid "MOUSE"
 msgstr "MYSZ"
 
 msgid "MSC audio frame quality"
-msgstr ""
+msgstr "Jakość audio MSC"
 
 msgid "MTD boot"
 msgstr "MTD boot"
@@ -12621,7 +12621,7 @@ msgid "Moving files"
 msgstr "Przenoszenie plików"
 
 msgid "Moving rotor and tuning DAB+ satellite feed..."
-msgstr ""
+msgstr "Przesuwanie silnika i strojenie sygnału DAB+..."
 
 msgid "Moving to position"
 msgstr "Przenoszenie do pozycji"
@@ -13194,7 +13194,7 @@ msgid "No channel list"
 msgstr "Brak listy kanałów"
 
 msgid "No compatible RTL-SDR USB tuner detected"
-msgstr ""
+msgstr "Nie wykryto kompatybilnego tunera USB RTL-SDR"
 
 msgid ""
 "No data on transponder!\n"
@@ -13348,7 +13348,7 @@ msgid "No updates available."
 msgstr "Brak dostępnych aktualizacji."
 
 msgid "No usable RTL-SDR DAB+ receiver was found."
-msgstr ""
+msgstr "Nie znaleziono żadnego zdatnego do użytku odbiornika DAB+ RTL-SDR."
 
 msgid "No valid DAB+ feeds configured. Check /etc/enigma2/dab.xml."
 msgstr "Brak prawidłowo skonfigurowanych źródeł DAB+. Sprawdź /etc/enigma2/dab.xml."
@@ -13367,7 +13367,7 @@ msgid "No, but restart from begin"
 msgstr "Nie, ale rozpocznij od początku"
 
 msgid "No, continue with the setup"
-msgstr ""
+msgstr "Nie, kontynuuj konfigurację"
 
 msgid "No, don't flash this image"
 msgstr "Nie, nie instaluj systemu"
@@ -14186,10 +14186,10 @@ msgid "Package Categories"
 msgstr "Kategorie Pakietów"
 
 msgid "Package Feed Editor"
-msgstr ""
+msgstr "Edytor repozytoriów pakietów"
 
 msgid "Package Feed Editor Actions"
-msgstr ""
+msgstr "Akcje edytora repozytoriów pakietów"
 
 msgid "Package Manager"
 msgstr "Menedżer pakietów"
@@ -14948,7 +14948,7 @@ msgid "Position"
 msgstr "Pozycja"
 
 msgid "Position in the tuner's supported gain range. The back end selects the closest gain step."
-msgstr ""
+msgstr "Pozycja w obsługiwanym przez tuner zakresie wzmocnienia. Zaplecze wybiera najbliższy krok wzmocnienia."
 
 msgid "Position of finished Timers in Timerlist"
 msgstr "Pozycja ukończonych timerów na liście timerów"
@@ -15274,7 +15274,7 @@ msgid "Processor information"
 msgstr "Informacje o procesorze"
 
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 msgid "Profile"
 msgstr "Profil"
@@ -15290,7 +15290,7 @@ msgid "Program '%s' needs to be installed to perform this action. Do you want to
 msgstr "Program '%s' musi być zainstalowany, aby wykonać tę czynność. Czy chcesz zainstalować pakiet '%s', aby zainstalować program?"
 
 msgid "Program type"
-msgstr ""
+msgstr "Typ programu"
 
 msgid "Programmlisten History"
 msgstr "Historia kanałów"
@@ -15371,7 +15371,7 @@ msgid "Protect timer menu"
 msgstr "Chroń menu timera"
 
 msgid "Protection"
-msgstr ""
+msgstr "Ochrona"
 
 msgid "Protocol"
 msgstr "Protokół"
@@ -15551,10 +15551,10 @@ msgid "RF Output Settings"
 msgstr "Wyjście RF"
 
 msgid "RF SNR"
-msgstr ""
+msgstr "SNR RF"
 
 msgid "RF gain"
-msgstr ""
+msgstr "Wzmocnienie RF"
 
 msgid "RGB clamp (lower)"
 msgstr "Dolne ograniczenie RGB"
@@ -15563,10 +15563,10 @@ msgid "RGB clamp (upper)"
 msgstr "Górne ograniczenie RGB"
 
 msgid "RTL-SDR USB tuner"
-msgstr ""
+msgstr "Tuner USB RTL-SDR"
 
 msgid "RTL-SDR tuner"
-msgstr ""
+msgstr "Tuner RTL-SDR"
 
 msgid "Racing"
 msgstr "Wyścigi"
@@ -15618,7 +15618,7 @@ msgid "Reader"
 msgstr "Czytnik"
 
 msgid "Ready"
-msgstr ""
+msgstr "Gotowy"
 
 #, python-format
 msgid "Ready to install \"%s\"?"
@@ -15711,7 +15711,7 @@ msgid "Receiver information for %s %s"
 msgstr "Informacje o odbiorniku %s %s"
 
 msgid "Receiver lock"
-msgstr ""
+msgstr "Blokada odbiornika"
 
 msgid "Receiver name"
 msgstr "Nazwa odbiornika"
@@ -15723,10 +15723,10 @@ msgid "Reception Settings"
 msgstr "Ustawienia odbioru"
 
 msgid "Reception source"
-msgstr ""
+msgstr "Źródło odbioru"
 
 msgid "Reception sources to scan"
-msgstr ""
+msgstr "Źródła odbioru do przeskanowania"
 
 msgid "Record"
 msgstr "Nagraj"
@@ -15900,7 +15900,7 @@ msgid "Refresh every"
 msgstr "Odśwież co"
 
 msgid "Refresh list of RTL-SDR USB tuners"
-msgstr ""
+msgstr "Odśwież listę tunerów USB RTL-SDR"
 
 msgid "Refresh rate"
 msgstr "Częstotliwość odświeżania"
@@ -16253,7 +16253,7 @@ msgstr ""
 "(UWAGA: 'Anuluj' nie może tego cofnąć!)"
 
 msgid "Replace the static radio background with pictures transmitted by the current DAB+ station."
-msgstr ""
+msgstr "Zastąp statyczne tło radia obrazami przesyłanymi przez bieżącą stację DAB+."
 
 msgid "Require authentication for http streams"
 msgstr "Wymagaj uwierzytelniania dla strumieni http"
@@ -16390,7 +16390,7 @@ msgid "Restarting adapter..."
 msgstr "Ponowne uruchamianie adaptera sieciowego..."
 
 msgid "Restarting network..."
-msgstr ""
+msgstr "Ponowne uruchamianie sieci..."
 
 msgid "Restarting..."
 msgstr "Restartuje..."
@@ -16429,7 +16429,7 @@ msgid "Restore your backups by date."
 msgstr "Przywróć kopię według daty."
 
 msgid "Restore your previous settings?"
-msgstr ""
+msgstr "Przywrócić poprzednie ustawienia?"
 
 msgid "Restore your settings back from a backup. After restore the receiver will restart to activated the new settings."
 msgstr "Przywróć ustawienia z kopii zapasowej. Po przywróceniu odbiornik uruchomi się ponownie, aby aktywować nowe ustawienia."
@@ -16791,7 +16791,7 @@ msgid "Satellite"
 msgstr "Satelita"
 
 msgid "Satellite DAB+ feeds cannot be scanned while a recording is in progress, and no USB receiver is available."
-msgstr ""
+msgstr "Satelitarnych źródeł DAB+ nie można skanować podczas trwającego nagrywania, a żaden odbiornik USB nie jest dostępny."
 
 msgid "Satellite Dish Settings"
 msgstr "Ustawienia anteny satelitarnej"
@@ -16803,10 +16803,10 @@ msgid "Satellite equipment setup"
 msgstr "Ustawienia wyposażenia sat"
 
 msgid "Satellite feeds to scan"
-msgstr ""
+msgstr "Satelitarne źródła do przeskanowania"
 
 msgid "Satellite only"
-msgstr ""
+msgstr "Tylko satelita"
 
 msgid "Satellites"
 msgstr "Satelity"
@@ -16977,10 +16977,10 @@ msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Skanuj w poszukiwaniu naziemnych LCN i stwórz listy kanałów"
 
 msgid "Scan region"
-msgstr ""
+msgstr "Region skanowania"
 
 msgid "Scan the USB tuner, available DAB+ satellite feeds, or both."
-msgstr ""
+msgstr "Przeskanuj tuner USB, dostępne satelitarne źródła DAB+ lub oba naraz."
 
 msgid "Scanning"
 msgstr "Skanowanie"
@@ -16990,7 +16990,7 @@ msgid "Scanning %s..."
 msgstr "Skanowanie %s..."
 
 msgid "Scanning DAB+ feed; waiting for live FIC data..."
-msgstr "Skanowanie sygnału DAB+ i oczekiwanie na dane FIC na żywo..."
+msgstr "Skanowanie źródeł DAB+ i oczekiwanie na dane FIC na żywo..."
 
 msgid "Scanning can't be performed while recordings are in progress."
 msgstr "Skanowania nie można wykonać podczas nagrywania."
@@ -17024,7 +17024,7 @@ msgstr "Skanowanie..."
 
 #, python-format
 msgid "Scanning: %d services found; validating live result (%d/%d)..."
-msgstr "Skanowanie: znaleziono %d kanałów radiowych; sprawdzanie wyniku (%d/%d)..."
+msgstr "Skanowanie: znaleziono %d kanałów radiowych, sprawdzanie wyniku (%d/%d)..."
 
 #. TRANSLATORS: The receiver is performing a service scan, progress percentage is printed in '%d' (and '%%' will show a single '%' symbol).
 #, python-format
@@ -17560,7 +17560,7 @@ msgid "Select Upgrade Source To Edit"
 msgstr "Wybierz źródło aktualizacji do edycji"
 
 msgid "Select Wi-Fi adapter:"
-msgstr ""
+msgstr "Wybierz adapter Wi-Fi:"
 
 msgid "Select a Softcam from the available list as the default for AutoCam."
 msgstr "Wybierz Softcam z dostępnej listy jako domyślną AutoCam."
@@ -17857,7 +17857,7 @@ msgid "Select the Picon path, from the option(s) above, to be used for OpenWebif
 msgstr "Wybierz ścieżkę pikon z powyższych opcji, która będzie używana w OpenWebif."
 
 msgid "Select the RTL-SDR USB tuner to be used for DAB+ reception."
-msgstr ""
+msgstr "Wybierz tuner USB RTL-SDR, który ma być używany do odbioru DAB+."
 
 #, python-format
 msgid "Select the Softcam for '%s'"
@@ -18282,7 +18282,7 @@ msgid "Select the write block buffer size (wsize) mount option. Use 'Automatic' 
 msgstr "Wybierz opcję montowania bufora bloku zapisu (wsize). Użyj opcji „Automatycznie”, aby umożliwić jądru i serwerowi wynegocjowanie optymalnego rozmiaru."
 
 msgid "Select tuner"
-msgstr ""
+msgstr "Wybierz tuner"
 
 msgid "Select video mode"
 msgstr "Wybierz tryb wideo"
@@ -18369,7 +18369,7 @@ msgid "Select whether or not to show an icon when a motorized dish is moving."
 msgstr "Wybierz, czy ikona ma być wyświetlana, gdy antena satelitarna jest w ruchu."
 
 msgid "Select whether to prefill the 'Server' field below with this host's discovered DNS/mDNS name instead of its IP address."
-msgstr ""
+msgstr "Wybierz, czy pole 'Serwer' poniżej ma być wstępnie wypełnione wykrytą nazwą DNS/mDNS tego hosta zamiast jego adresem IP."
 
 msgid "Select which IP protocols can be used with this adapter."
 msgstr "Wybierz protokoły IP, które mają być używane przez ten adapter sieciowy."
@@ -18483,7 +18483,7 @@ msgid "Serial No"
 msgstr "Nr seryjny"
 
 msgid "Serial number"
-msgstr ""
+msgstr "Numer seryjny"
 
 msgid "Serious music/Classic music"
 msgstr "Muzyka poważna/Muzyka klasyczna"
@@ -19190,7 +19190,7 @@ msgid "Show Capabilities"
 msgstr "Pokaż możliwości"
 
 msgid "Show DAB+ slideshow"
-msgstr ""
+msgstr "Pokaż pokaz slajdów DAB+"
 
 msgid "Show Default Backup Files"
 msgstr "Domyślne pliki kopii zapasowej"
@@ -20683,7 +20683,7 @@ msgid "Static IP / Custom"
 msgstr "Statyczne IP / Niestandardowe"
 
 msgid "Station"
-msgstr ""
+msgstr "Stacja"
 
 msgid "Status"
 msgstr "Stan"
@@ -21608,6 +21608,8 @@ msgid ""
 "The RTL2832 kernel driver blacklist could not be updated:\n"
 "%s"
 msgstr ""
+"Nie udało się zaktualizować czarnej listy sterownika kernel RTL2832:\n"
+"%s"
 
 msgid ""
 "The SimpleUmount plugin is not installed!\n"
@@ -21741,6 +21743,9 @@ msgid ""
 "\n"
 "Please press OK to restart the %s %s."
 msgstr ""
+"Przywracanie zostało zakończone. %s %s wymaga ponownego uruchomienia.\n"
+"\n"
+"Naciśnij OK, aby ponownie uruchomić %s %s."
 
 #, python-format
 msgid "The results have been written to %s."
@@ -22307,10 +22312,10 @@ msgid "Timeout waiting for FIC service data"
 msgstr "Przekroczono czas oczekiwania na dane kanałów radiowych FIC"
 
 msgid "Timeout waiting for tuner lock"
-msgstr ""
+msgstr "Przekroczono czas oczekiwania na blokadę tunera"
 
 msgid "Timeout waiting for tuner or rotor"
-msgstr ""
+msgstr "Przekroczono czas oczekiwania na tuner lub silnik"
 
 msgid "Timer Defaults And Retention"
 msgstr "Ustawienia Domyślne Timerów i Przechowywanie"
@@ -22766,10 +22771,10 @@ msgid "Tuners, Scanning & Reception"
 msgstr "Tunery i skanowanie"
 
 msgid "Tuning"
-msgstr ""
+msgstr "Strojenie"
 
 msgid "Tuning DAB+ satellite feed..."
-msgstr ""
+msgstr "Strojenie sygnału DAB+..."
 
 msgid "Tuning algorithm"
 msgstr "Algorytm strojenia"
@@ -22893,30 +22898,30 @@ msgid "USB 3.0 (Back, outer)"
 msgstr "USB 3.0 (tył, zewnętrzny)"
 
 msgid "USB ID"
-msgstr ""
+msgstr "Identyfikator USB"
 
 msgid "USB and satellite"
-msgstr ""
+msgstr "USB i satelita"
 
 msgid "USB port"
-msgstr ""
+msgstr "Port USB"
 
 #, python-format
 msgid "USB reader %d"
 msgstr "Czytnik USB %d"
 
 msgid "USB receiver only"
-msgstr ""
+msgstr "Tylko USB"
 
 msgid "USB receiver settings"
-msgstr ""
+msgstr "Ustawienia Odbiornika USB"
 
 #, python-format
 msgid "USB slot %s%s"
 msgstr "USB slot %s%s"
 
 msgid "USB speed"
-msgstr ""
+msgstr "Prędkość USB"
 
 msgid "USB switch ERROR! - already on USB"
 msgstr "Przełącznik USB BŁĄD! - już na USB"
@@ -22952,16 +22957,16 @@ msgstr "Nie udało się zainicjować Kexec MultiBoot!"
 
 #, python-format
 msgid "Unable to open tuner (%d)"
-msgstr ""
+msgstr "Nie można otworzyć tunera (%d)"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Nie można zarejestrować transpondera DAB+"
 
 msgid "Unable to start the DAB+ feed"
-msgstr "Nie można uruchomić sygnału DAB+"
+msgstr "Nie można nastroić sygnału DAB+"
 
 msgid "Unable to tune the DAB+ satellite feed"
-msgstr ""
+msgstr "Nie można nastroić sygnału DAB+"
 
 #, python-format
 msgid "Unable to validate the Unicable position for LNB %d: %s."
@@ -23242,7 +23247,7 @@ msgid "Use DNS cache"
 msgstr "Użyj pamięci podręcznej DNS"
 
 msgid "Use DNS name"
-msgstr ""
+msgstr "Użyj nazwy DNS"
 
 msgid "Use DNS rotation"
 msgstr "Rotacja DNS"
@@ -24630,7 +24635,7 @@ msgid "Yes, don't ask again"
 msgstr "Tak, nie pytaj ponownie"
 
 msgid "Yes, restore my settings now"
-msgstr ""
+msgstr "Tak, przywróć moje ustawienia teraz"
 
 msgid "Yes, returning to movie list"
 msgstr "Tak, wróć do listy nagrań"
@@ -24672,7 +24677,7 @@ msgid "You cannot delete this!"
 msgstr "Tego nie można usunąć!"
 
 msgid "You have chosen to restore your settings. The %s %s will restart after the restore. Press OK to start the restore now."
-msgstr ""
+msgstr "Wybrano przywrócenie ustawień. %s %s zostanie ponownie uruchomiony po zakończeniu przywracania. Naciśnij OK, aby rozpocząć przywracanie teraz."
 
 msgid "You have chosen to save the current time shift buffer"
 msgstr "Wybrałeś zapisanie aktualnego timeshiftu"
@@ -25170,7 +25175,7 @@ msgid "green"
 msgstr "zielony"
 
 msgid "guest"
-msgstr ""
+msgstr "gość"
 
 msgid "h:mm"
 msgstr "h:mm"
@@ -25839,7 +25844,7 @@ msgstr "®"
 #~ msgstr "Przełączanie wejścia C/T: zewnętrzny przełącznik koncentryczny 5 V"
 
 msgid "Common Settings"
-msgstr "Ustawienia wspólne"
+msgstr "Ustawienia Wspólne"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "DVB-C i DVB-T/T2 korzystają z tego samego wejścia. Gdy oba są włączone, Enigma2 używa napięcia 5 V do sterowania zewnętrznym przełącznikiem koncentrycznym."
