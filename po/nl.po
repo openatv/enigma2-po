@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-08-16 15:58+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -885,6 +885,10 @@ msgstr[0] "%d jaar"
 msgstr[1] "%d jaren"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d core"
@@ -927,6 +931,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] ""
 msgstr[1] ""
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2071,9 +2079,6 @@ msgstr "Geselecteerde map aan bookmarks toevoegen"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Oorspronkelijke LINKS/RECHTS acties"
 
-msgid "Add more slots"
-msgstr ""
-
 msgid "Add new CCcam line"
 msgstr "Een nieuwe CCcam line toevoegen"
 
@@ -2082,6 +2087,9 @@ msgstr "Nieuwe NewCamd line toevoegen"
 
 msgid "Add new tag"
 msgstr "Nieuwe tag toevoegen"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "Provider toevoegen"
@@ -2163,6 +2171,9 @@ msgstr "Aanvullende motoropties geven de mogelijkheid de specifieke eigenschappe
 
 #, python-format
 msgid "Additional rotor cable from %s"
+msgstr ""
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2290,6 +2301,10 @@ msgstr "Alle zenders"
 
 msgid "All ages"
 msgstr "Alle leeftijden"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "Alle programma's omlaag"
@@ -4057,6 +4072,9 @@ msgstr "Verander herhalings- en vertragingsinstellingen?"
 msgid "Change skin"
 msgstr "Wijzig skin"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "Wijzig stapgrootte"
 
@@ -4666,6 +4684,9 @@ msgstr "Common Interface-instellingen"
 
 msgid "Common Setup Actions"
 msgstr "Algemene keuzes"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Comoren"
@@ -11958,6 +11979,15 @@ msgstr "Handmatige import vanaf de Fallback tuner"
 msgid "Manufacturer"
 msgstr "Fabrikant"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Manx-Gaelisch"
 
@@ -13238,6 +13268,9 @@ msgstr "Geen TS recorder beschikbaar"
 msgid "No active channel found."
 msgstr "Geen actieve zender gevonden."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Geen leeftijdsbeperking"
 
@@ -13418,6 +13451,9 @@ msgstr ""
 
 msgid "No valid device detected - Press OK"
 msgstr "Geen geschikt apparaat gevonden - Druk op OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14466,6 +14502,12 @@ msgstr "Prullenbak leegmaken"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "De MultiBoot-bestanden definitief verwijderen?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Machtigingen"
 
@@ -15150,6 +15192,12 @@ msgstr "Peuters"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Druk '0' om de PiP modus te wisselen"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Druk op EXIT om af te sluiten."
 
@@ -15238,12 +15286,10 @@ msgstr "Druk op OK om deze taal te gebruiken.  [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Druk op OK om deze locale te gebruiken.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
 msgstr ""
-"Druk op OMHOOG/OMLAAG knoppen om een slot te selecteren en druk OK of GROEN om opnieuw te starten naar dat image. Wanneer beschikbaar, kan met GEEL het image worden \"verwijderd\" of \"gewist\".\n"
-"Een \"verwijderde\" image kan hersteld worden met de BLAUWE-knop. Een \"gewiste\" image is compleet verwijderd en kan NIET hersteld worden!"
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
 msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
@@ -18486,6 +18532,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Ga naar het geselecteerde zender"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19716,6 +19766,9 @@ msgstr "Toon een melding indien de import niet geslaagd is"
 
 msgid "Show notification when import channels was successful"
 msgstr "Toon een melding indien de import geslaagd is"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Toon of verberg de uitgebreide beschrijving (skin afhankelijk)."
@@ -21770,6 +21823,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Het commando voor opstarten uit standby zal meerdere keren verstuurd worden."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21827,6 +21884,16 @@ msgstr "De hoogte van het beeld. De invoer wordt aangepast aan deze waarde."
 msgid "The loopthrough setting is wrong."
 msgstr "De loopthrough instelling is verkeerd."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "De map voor de Picons bestaat al en moet verwijderd worden. Dit nu uitvoeren?"
 
@@ -21847,6 +21914,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "De resultaten zijn bewaard op %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "De opgeslagen pincode is verwijderd."
 
@@ -21856,6 +21926,12 @@ msgid ""
 msgstr ""
 "De geselecteerde zender ondersteunt geen VPS voor handmatige timers!\n"
 "Wilt u VPS echt inschakelen?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "De zenderlijst is opnieuw geladen."
@@ -23077,6 +23153,12 @@ msgstr "Oekraïne"
 msgid "Ukrainian"
 msgstr "Oekraïens"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -23093,6 +23175,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -24551,7 +24636,7 @@ msgstr "Wanneer de invoercursor dit punt bereikt (percentage van de breedte, van
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Wanneer de ontvanger ontwaakt uit stand-by of deep standby zal die een commando sturen waardoor de TV ook ontwaakt uit stand-by."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -25775,6 +25860,11 @@ msgstr "ja (bewaar feeds)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr ""
+#~ "Druk op OMHOOG/OMLAAG knoppen om een slot te selecteren en druk OK of GROEN om opnieuw te starten naar dat image. Wanneer beschikbaar, kan met GEEL het image worden \"verwijderd\" of \"gewist\".\n"
+#~ "Een \"verwijderde\" image kan hersteld worden met de BLAUWE-knop. Een \"gewiste\" image is compleet verwijderd en kan NIET hersteld worden!"
+
 #~ msgid "Do you want the upgrade guide?"
 #~ msgstr "Wil je de upgrade-handleiding zien?"
 
@@ -25935,8 +26025,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "DVD speler"
 
-msgid "Common Settings"
-msgstr "Algemene instellingen"
+#~ msgid "Common Settings"
+#~ msgstr "Algemene instellingen"
 
 #~ msgid ""
 #~ "Do you really want to restart OSCam?\n"

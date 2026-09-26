@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-13 12:11+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"PO-Revision-Date: 2026-09-26 08:39+0000\n"
 "Last-Translator: mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -888,6 +888,10 @@ msgid_plural "%d Years"
 msgstr[0] "%d Yıl"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr "%d adet ek yuva oluşturuldu.\n"
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d çekirdek"
@@ -928,6 +932,10 @@ msgstr "%d ms"
 msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] "%d ağ (lar) bulundu."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr "%d eski üretici BAŞLATMA dosyası değiştirilecek veya kaldırılacak."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2110,9 +2118,6 @@ msgstr "Seçilen dizini yer imlerine ekle"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Eski SOL/SAĞ işlemlerini ekleyin"
 
-msgid "Add more slots"
-msgstr "Daha fazla yuva ekle"
-
 msgid "Add new CCcam line"
 msgstr "Yeni CCcam satırı ekle"
 
@@ -2121,6 +2126,9 @@ msgstr "Yeni NewCamd satırı ekle"
 
 msgid "Add new tag"
 msgstr "Yeni etiket ekle"
+
+msgid "Add or change additional slots"
+msgstr "Ek yuvalar ekleyin veya değiştirin"
 
 #
 msgid "Add provider"
@@ -2207,6 +2215,9 @@ msgstr "Ek motor seçenekleri, motorunuzun teknik özelliklerinden ayrıntılar�
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "%s'den gelen ek rotor kablosu"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr "Alıcı, ek yuvalardan biri üzerinden çalışırken bu yuvalar değiştirilemez."
 
 #
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2343,6 +2354,10 @@ msgstr "Tüm Kanallar"
 
 msgid "All ages"
 msgstr "Her yaş grubu"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr "Seçili cihazdaki tüm veriler silinecek. %d adet ek MultiBoot yuvası, 512 MiB'lık bir takas (swap) bölümü ve dahili yuva 1 çekirdeği içeren ortak bir veri bölümü oluşturulsun mu?"
 
 msgid "All events down"
 msgstr "Tüm etkinlikler aşağıda"
@@ -4175,6 +4190,9 @@ msgstr "Tekrarlama ve gecikme ayarlarını değiştirmek mi istiyorsunuz?"
 msgid "Change skin"
 msgstr "Arayüzü değiştir"
 
+msgid "Change slots"
+msgstr "Slotları değiştir"
+
 #
 msgid "Change step size"
 msgstr "Adım boyutunu değiştir"
@@ -4807,6 +4825,9 @@ msgstr "Ortak Arayüz Ayarları"
 
 msgid "Common Setup Actions"
 msgstr "Ortak Kurulum İşlemleri"
+
+msgid "Common settings"
+msgstr "Genel ayarlar"
 
 msgid "Comoros"
 msgstr "Komorlar"
@@ -12265,6 +12286,15 @@ msgstr "Yedek uzak alıcıdan manuel olarak içe aktar"
 msgid "Manufacturer"
 msgstr "Üretici"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Manx"
 
@@ -13615,6 +13645,9 @@ msgstr "TS kaydedici mevcut değil"
 msgid "No active channel found."
 msgstr "Aktif kanal bulunamadı."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Yaş engeli yok"
 
@@ -13813,6 +13846,9 @@ msgstr "Yapılandırılmış geçerli DAB+ kaynağı yok. /etc/enigma2/dab.xml d
 
 msgid "No valid device detected - Press OK"
 msgstr "Geçerli bir cihaz algılanmadı - OK tuşuna basın"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14894,6 +14930,12 @@ msgstr "Silinen tüm öğeleri kalıcı olarak kaldırın"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Çoklu Önyükleme dosyalarını kalıcı olarak silmek mi istiyorsunuz?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "İzinler"
 
@@ -15624,6 +15666,12 @@ msgstr "Okul öncesi"
 msgid "Press '0' to toggle PiP mode"
 msgstr "PiP modunu açıp kapatmak için '0' tuşuna basın"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Kapatmak için EXIT tuşuna basın."
 
@@ -15719,11 +15767,11 @@ msgstr "Bu dili kullanmak için OK tuşuna basın. [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Bu yerel ayarı kullanmak için OK tuşuna basın. [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Bir yuva seçmek için YUKARI/AŞAĞI tuşlarına basın ve o yazılımı yeniden başlatmak için OK veya YEŞİL tuşuna basın. Varsa, SARI tuş yazılımı siler veya tamamen kaldırır. Silinen bir yazılım MAVİ tuş ile geri yüklenebilir. Tamamen kaldırılan bir yazılım geri yüklenemez!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Bir yuva seçmek için YUKARI/AŞAĞI tuşlarına basın, ardından o yazılımı yeniden başlatmak için OK veya YEŞİL tuşa basın. Varsa, SARI tuş Çoklu Önyüklemeyi devre dışı bırakır, seçilen yazılımı siler veya temizler. Daha fazla yuva eklemek için MAVİ tuşa basın."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Bu tuşa basarak, sonrasında basılan bir tuşa uzun basış işlemini taklit edebilirsiniz (bu işlem, taklit tuşuna atanmış diğer tüm eylemleri de geçersiz kılar)."
@@ -19070,6 +19118,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Seçilen kanala geç/seç"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -20319,6 +20371,9 @@ msgstr "Kanalları içe aktarma başarılı olmadığında bildirim göster"
 
 msgid "Show notification when import channels was successful"
 msgstr "Kanalları içe aktarma başarılı olduğunda bildirim göster"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Genişletilmiş açıklamayı göster veya gizle. Bu işlev, arayüze bağlı olabilir."
@@ -22458,6 +22513,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Bekleme modundan uyandırma komutu birden fazla kez gönderilecektir."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -22516,6 +22575,16 @@ msgstr "Resmin yüksekliği. Girdi, bu değere uyacak şekilde ölçeklendirilec
 msgid "The loopthrough setting is wrong."
 msgstr "Döngüsel geçiş ayarı yanlış."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Pikon dizini zaten mevcut ve silinmesi gerekiyor. Devam etmek istiyor musunuz?"
 
@@ -22540,6 +22609,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Sonuçlar %s dosyasına yazıldı."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Kaydedilen PIN kodu silindi."
 
@@ -22549,6 +22621,12 @@ msgid ""
 msgstr ""
 "Seçilen kanal, manuel olarak programlanan zamanlayıcılar için VPS'yi desteklemiyor!\n"
 " VPS'yi gerçekten etkinleştirmek istiyor musunuz?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Kanal listesi yeniden yükleniyor."
@@ -23784,6 +23862,12 @@ msgstr "Ukrayna"
 msgid "Ukrainian"
 msgstr "Ukraynaca"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "%d numaralı LNB için Kullanıcı Bandı devralınamadı: %s."
@@ -23801,6 +23885,9 @@ msgstr "Tuner (%d) açılamadı"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "DAB+ aktarıcı kaydı yapılamadı"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr ""
 
 msgid "Unable to start the DAB+ feed"
 msgstr "DAB+ kaynağı başlatılamıyor"
@@ -25288,8 +25375,8 @@ msgstr "Giriş imleci bu noktaya (genişliğin yüzdesi, her iki taraftan) ulaş
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Alıcı bekleme modundan veya derin bekleme modundan çıktığında, TV'ye bekleme modundan çıkması için bir komut gönderir."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "Alıcınız Bekleme Modundan uyandığında, TV'nin alıcınıza bağlı HDMI girişine geçmesi için aktif kaynak, akış yolu ve yönlendirme komutlarını gönderin."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Kırmızı kutu doğru şekilde göründüğünde, ayarları kaydetmek ve çıkmak için YEŞİL tuşa basın."
@@ -26607,6 +26694,18 @@ msgstr "evet (kaynakları tut)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Daha fazla yuva ekle"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Bir yuva seçmek için YUKARI/AŞAĞI tuşlarına basın ve o yazılımı yeniden başlatmak için OK veya YEŞİL tuşuna basın. Varsa, SARI tuş yazılımı siler veya tamamen kaldırır. Silinen bir yazılım MAVİ tuş ile geri yüklenebilir. Tamamen kaldırılan bir yazılım geri yüklenemez!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Bir yuva seçmek için YUKARI/AŞAĞI tuşlarına basın, ardından o yazılımı yeniden başlatmak için OK veya YEŞİL tuşa basın. Varsa, SARI tuş Çoklu Önyüklemeyi devre dışı bırakır, seçilen yazılımı siler veya temizler. Daha fazla yuva eklemek için MAVİ tuşa basın."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "Alıcınız Bekleme Modundan uyandığında, TV'nin alıcınıza bağlı HDMI girişine geçmesi için aktif kaynak, akış yolu ve yönlendirme komutlarını gönderin."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "%d kaynağın %d'i tamamlandı; başarısız olan kaynak buketleri saklandı"
@@ -26842,8 +26941,8 @@ msgstr "®"
 #~ msgid "C/T input switching: external 5V coax switch"
 #~ msgstr "C/T girişi değişimi: harici 5V koaksiyel geçiş"
 
-msgid "Common Settings"
-msgstr "Ortak Ayarlar"
+#~ msgid "Common Settings"
+#~ msgstr "Ortak Ayarlar"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "DVB-C ve DVB-T/T2 bu girişi paylaşır. Her ikisi de etkinleştirildiğinde, Enigma2 harici koaksiyel geçişi kontrol etmek için 5V kullanır."

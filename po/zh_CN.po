@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-09-15 16:51+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -885,6 +885,10 @@ msgstr[0] "%d 年"
 msgstr[1] "%d 年"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d 核"
@@ -927,6 +931,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] "发现 %d 个网络。"
 msgstr[1] "发现 %d 个网络。"
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2070,9 +2078,6 @@ msgstr "将突出显示的目录添加到书签"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "添加传统 左/右键操作"
 
-msgid "Add more slots"
-msgstr "添加更多插槽"
-
 msgid "Add new CCcam line"
 msgstr "添加新 CCcam 行"
 
@@ -2081,6 +2086,9 @@ msgstr "添加新的 NewCamd 行"
 
 msgid "Add new tag"
 msgstr "添加新标签"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "添加供应商"
@@ -2163,6 +2171,9 @@ msgstr "其他电机选项允许您输入电机规格的详细信息，以便 En
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "%s 附加极轴电机线缆"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "调整颜色设置以使所有的颜色深浅可以辨识出来，使之看起来尽可能饱和。如果满意当前设置，按 OK 键关闭视频微调，或者用数字键选择画面上的其他测试。"
@@ -2289,6 +2300,10 @@ msgstr "全部频道"
 
 msgid "All ages"
 msgstr "所有年龄段"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "所有事件均已停止"
@@ -4055,6 +4070,9 @@ msgstr "更改重复和延迟的设置？"
 msgid "Change skin"
 msgstr "更改皮肤"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "更改步长"
 
@@ -4659,6 +4677,9 @@ msgstr "通用接口设置"
 
 msgid "Common Setup Actions"
 msgstr "通用设置操作"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "科摩罗"
@@ -11838,6 +11859,15 @@ msgstr "从备用调谐器手动导入"
 msgid "Manufacturer"
 msgstr "制造商"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "马恩岛"
 
@@ -13125,6 +13155,9 @@ msgstr "没有可用的 TS 记录器"
 msgid "No active channel found."
 msgstr "没有找到活动的频道。"
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "无年龄块"
 
@@ -13305,6 +13338,9 @@ msgstr "未配置有效的DAB+ 订阅源。请检查 /etc/enigma2/dab.xml。"
 
 msgid "No valid device detected - Press OK"
 msgstr "未检测到有效设备 - 按“确定”"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14350,6 +14386,12 @@ msgstr "永久删除所有已删除项目"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "是否永久删除多系统启动文件？"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "权限"
 
@@ -15033,6 +15075,12 @@ msgstr "幼儿园"
 msgid "Press '0' to toggle PiP mode"
 msgstr "按 “0” 键切换画中画模式"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "请按 EXIT 键关闭。"
 
@@ -15119,11 +15167,11 @@ msgstr "按“确定”使用此语言。[%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "按“确定”使用此区域设置。[%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "按向上/向下按钮选择一个槽位，然后按 OK 或 绿键 重新启动到该镜像。 如果可用，黄键将删除或擦除镜像。 可以使用蓝键恢复已删除的镜像。 擦除的镜像被完全删除，无法恢复！"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "使用 上/下 键选择槽位，按 OK 或绿键重启进入对应系统镜像。若可用，黄键可禁用多系统启动、删除或清除所选镜像。按蓝键可添加更多槽位。"
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "按下此按钮以模拟之后按下的按钮的长按操作（此操作还会覆盖分配给模拟按钮的任何其他功能）。"
@@ -18347,6 +18395,10 @@ msgid "Select/Zap to the selected service"
 msgstr "选择/切换到选择的频道"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19561,6 +19613,9 @@ msgstr "导入频道不成功时显示通知"
 
 msgid "Show notification when import channels was successful"
 msgstr "导入频道成功时显示通知"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "显示或隐藏扩展描述，（视皮肤而定）。"
@@ -21611,6 +21666,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "从待机状态唤醒的命令将被发送多次。"
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21668,6 +21727,16 @@ msgstr "图片的高度。 输入将被缩放以匹配此值。"
 msgid "The loopthrough setting is wrong."
 msgstr "环通设置错误。"
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "频道图标目录已存在，必须删除。是否要继续？"
 
@@ -21691,6 +21760,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "结果已写入 %s。"
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "已清除保存的 PIN 码。"
 
@@ -21700,6 +21772,12 @@ msgid ""
 msgstr ""
 "所选频道不支持手动编程定时器的VPS！\n"
 "是否确实要启用VPS？"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "频道列表被重新加载。"
@@ -22883,6 +22961,12 @@ msgstr "乌克兰"
 msgid "Ukrainian"
 msgstr "乌克兰语"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "无法继承高频头 %d 的用户频段：%s。"
@@ -22900,6 +22984,9 @@ msgstr "无法打开调谐器（%d）"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "无法注册 DAB+ 转发器"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr ""
 
 msgid "Unable to start the DAB+ feed"
 msgstr "无法启动 DAB+ 传送源"
@@ -24340,8 +24427,8 @@ msgstr "当输入光标到达该点（宽度的百分比，从任意一侧）时
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "当接收机从待机或深度待机中唤醒时，它将向电视发送命令以使其脱离待机状态。"
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "当接收机从待机状态唤醒时，发送活动信号源、串流路径和路由命令，让电视切换到与之相连的 HDMI 接口。"
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "当红色框正确可见时，按绿色按钮保存设置并退出。"
@@ -25559,6 +25646,18 @@ msgstr "是（保留订阅源）"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "添加更多插槽"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "按向上/向下按钮选择一个槽位，然后按 OK 或 绿键 重新启动到该镜像。 如果可用，黄键将删除或擦除镜像。 可以使用蓝键恢复已删除的镜像。 擦除的镜像被完全删除，无法恢复！"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "使用 上/下 键选择槽位，按 OK 或绿键重启进入对应系统镜像。若可用，黄键可禁用多系统启动、删除或清除所选镜像。按蓝键可添加更多槽位。"
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "当接收机从待机状态唤醒时，发送活动信号源、串流路径和路由命令，让电视切换到与之相连的 HDMI 接口。"
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "已完成 %d / %d 个传送源；失败的传送源分组已保留"
@@ -25750,8 +25849,8 @@ msgstr "®"
 #~ msgid "C/T input switching: external 5V coax switch"
 #~ msgstr "有线 / 地面输入切换：外接 5V 同轴开关"
 
-msgid "Common Settings"
-msgstr "通用设置"
+#~ msgid "Common Settings"
+#~ msgstr "通用设置"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "DVB‑C 有线与 DVB‑T/T2 地面波共用此输入口。两项同时启用时，Enigma2 将输出 5V 控制外接同轴开关。"
