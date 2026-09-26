@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-09-10 19:24+0000\n"
 "Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -894,6 +894,10 @@ msgstr[0] "%d år"
 msgstr[1] "%d år"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d kärna"
@@ -936,6 +940,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] "%d nätverk hittades."
 msgstr[1] "%d nätverk hittades."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2137,9 +2145,6 @@ msgstr "Lägg till markerad katalog i bokmärken"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Lägg till äldre vänster/höger-åtgärder"
 
-msgid "Add more slots"
-msgstr "Lägg till fler kortplatser"
-
 msgid "Add new CCcam line"
 msgstr "Lägg till ny CCcam-linje"
 
@@ -2148,6 +2153,9 @@ msgstr "Lägga till ny NewCamd-linje"
 
 msgid "Add new tag"
 msgstr "Lägg till ny etikett"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 #
 msgid "Add provider"
@@ -2234,6 +2242,9 @@ msgstr "Med ytterligare motoralternativ kan du ange detaljer från din motors sp
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Extra rotorkabel från %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr ""
 
 #
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2371,6 +2382,10 @@ msgstr "Alla tjänster"
 
 msgid "All ages"
 msgstr "Alla åldrar"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "Alla händelser nedlagda"
@@ -4213,6 +4228,9 @@ msgstr "Ändra inställningar för upprepning och fördröjning?"
 msgid "Change skin"
 msgstr "Byt hud"
 
+msgid "Change slots"
+msgstr ""
+
 #
 msgid "Change step size"
 msgstr "Ändra stegstorlek"
@@ -4852,6 +4870,9 @@ msgstr "Gemensamma inställningar för gränssnitt"
 #
 msgid "Common Setup Actions"
 msgstr "Vanliga installationsåtgärder"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Komorerna"
@@ -12361,6 +12382,15 @@ msgstr "Manuell import från reservtuner"
 msgid "Manufacturer"
 msgstr "Tillverkare"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Manniska"
 
@@ -13718,6 +13748,9 @@ msgstr "Ingen TS-inspelare tillgänglig"
 msgid "No active channel found."
 msgstr "Ingen aktiv kanal hittades."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Ingen åldersspärr"
 
@@ -13916,6 +13949,9 @@ msgstr "Inga giltiga DAB+-flöden är konfigurerade. Kontrollera /etc/enigma2/da
 
 msgid "No valid device detected - Press OK"
 msgstr "Ingen giltig enhet har upptäckts - Tryck på OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -15005,6 +15041,12 @@ msgstr "Ta bort alla raderade objekt permanent"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Ta bort MultiBoot-filerna permanent?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Behörigheter"
 
@@ -15746,6 +15788,12 @@ msgstr "Förskola"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Tryck på \"0\" för att växla PiP-läge"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Tryck på EXIT för att stänga."
 
@@ -15844,11 +15892,11 @@ msgstr "Tryck på OK för att använda detta språk.  [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Tryck på OK för att använda denna lokal.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Tryck på knapparna UPP/NED för att välja en plats och tryck på OK eller GRÖN för att starta om till den bilden. Om tillgängligt kommer YELLOW antingen att radera eller torka bilden. En raderad bild kan återställas med den BLÅ knappen. En raderad bild är helt borttagen och kan inte återställas!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Tryck på knapparna UP/DOWN för att välja en slot och tryck sedan på OK eller GREEN för att starta om till den image. Om tillgängligt inaktiverar GUL Multiboot, tar bort eller rensar den valda bilden. Tryck på BLÅ för att lägga till fler platser."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Tryck på denna knapp för att emulera en lång tryckning på en knapp som trycks in efteråt (detta åsidosätter även alla andra åtgärder som tilldelats emuleringsknappen)."
@@ -19221,6 +19269,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Välj/Zappa till den valda tjänsten"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -20488,6 +20540,9 @@ msgstr "Visa meddelande när importen av kanaler inte lyckades"
 
 msgid "Show notification when import channels was successful"
 msgstr "Visa meddelande när importen av kanaler lyckades"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Visa eller dölj den utökade beskrivningen, (beroende på hud)."
@@ -22644,6 +22699,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Kommandot att väcka från standby kommer att skickas flera gånger."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -22702,6 +22761,16 @@ msgstr "Bildens höjd. Inmatningen kommer att skalas för att matcha detta värd
 msgid "The loopthrough setting is wrong."
 msgstr "Inställningen för loopthrough är fel."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Katalogen picon finns redan och måste tas bort. Vill du fortsätta?"
 
@@ -22723,6 +22792,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Resultaten har skrivits till %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Den sparade PIN-koden har raderats."
 
@@ -22732,6 +22804,12 @@ msgid ""
 msgstr ""
 "Den valda kanalen har inte stöd för VPS för manuellt programmerade timers!\n"
 " Vill du verkligen aktivera VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Servicelistan laddas på nytt."
@@ -23978,6 +24056,12 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukrainska"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "Det gick inte att ärva användarbandet för LNB %d: %s."
@@ -23995,6 +24079,9 @@ msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Det gick inte att registrera DAB+-transpondern"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr ""
 
 msgid "Unable to start the DAB+ feed"
 msgstr "Det gick inte att starta DAB+-flödet"
@@ -25486,8 +25573,8 @@ msgstr "När inmatningsmarkören når denna punkt (procent av bredden, från bå
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "När mottagaren vaknar från standby eller djup standby skickar den ett kommando till TV:n för att få den att gå ur standby."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "När mottagaren vaknar från vänteläge skickas kommandon för aktiv källa, strömsökväg och dirigering så att TV:n växlar till HDMI-ingången som är ansluten till mottagaren."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "När den röda rutan är korrekt synlig trycker du på den GRÖNA knappen för att spara inställningarna och avsluta."
@@ -26815,6 +26902,18 @@ msgstr "ja (behåller flöden)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Lägg till fler kortplatser"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Tryck på knapparna UPP/NED för att välja en plats och tryck på OK eller GRÖN för att starta om till den bilden. Om tillgängligt kommer YELLOW antingen att radera eller torka bilden. En raderad bild kan återställas med den BLÅ knappen. En raderad bild är helt borttagen och kan inte återställas!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Tryck på knapparna UP/DOWN för att välja en slot och tryck sedan på OK eller GREEN för att starta om till den image. Om tillgängligt inaktiverar GUL Multiboot, tar bort eller rensar den valda bilden. Tryck på BLÅ för att lägga till fler platser."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "När mottagaren vaknar från vänteläge skickas kommandon för aktiv källa, strömsökväg och dirigering så att TV:n växlar till HDMI-ingången som är ansluten till mottagaren."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "%d av %d flöden slutfördes; misslyckade flödesbuketter behölls"
@@ -27011,8 +27110,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "DVD-spelare"
 
-msgid "Common Settings"
-msgstr "Vanliga inställningar"
+#~ msgid "Common Settings"
+#~ msgstr "Vanliga inställningar"
 
 #~ msgid ""
 #~ "Do you really want to restart OSCam?\n"
