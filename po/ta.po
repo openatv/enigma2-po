@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-08-17 05:21+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ta/>\n"
@@ -884,6 +884,10 @@ msgstr[0] "%d ஆண்டு"
 msgstr[1] "%d ஆண்டுகள்"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d கோர்"
@@ -926,6 +930,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] ""
 msgstr[1] ""
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2062,9 +2070,6 @@ msgstr "புக்மார்க்குகளுக்கு சிறப�
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "மரபு இடது/வலது செயல்களைச் சேர்க்கவும்"
 
-msgid "Add more slots"
-msgstr ""
-
 msgid "Add new CCcam line"
 msgstr "புதிய CCCAM வரியைச் சேர்க்கவும்"
 
@@ -2073,6 +2078,9 @@ msgstr "புதிய NewCamd வரியைச் சேர்க்கவ�
 
 msgid "Add new tag"
 msgstr "புதிய குறிச்சொல்லைச் சேர்க்கவும்"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "வழங்குநரைச் சேர்க்கவும்"
@@ -2154,6 +2162,9 @@ msgstr "கூடுதல் மின்னோடி விருப்பங�
 
 #, python-format
 msgid "Additional rotor cable from %s"
+msgstr ""
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2281,6 +2292,10 @@ msgstr "அனைத்து சேவைகளும்"
 
 msgid "All ages"
 msgstr "எல்லா வயதினரும்"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "அனைத்து நிகழ்வுகளும் கீழே"
@@ -4047,6 +4062,9 @@ msgstr "மீண்டும் மீண்டும் மாற்றவு�
 msgid "Change skin"
 msgstr "சருமத்தை மாற்றவும்"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "படி அளவை மாற்றவும்"
 
@@ -4651,6 +4669,9 @@ msgstr "பொதுவான இடைமுக அமைப்புகள்"
 
 msgid "Common Setup Actions"
 msgstr "பொதுவான அமைவு செயல்கள்"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "கோமரோச்"
@@ -11806,6 +11827,15 @@ msgstr "குறைவடையும் ட்யூனரிலிருந�
 msgid "Manufacturer"
 msgstr "உற்பத்தியாளர்"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "மேங்க்ச்"
 
@@ -13086,6 +13116,9 @@ msgstr "TS ரெக்கார்டர் எதுவும் கிடை�
 msgid "No active channel found."
 msgstr "செயலில் சேனல் எதுவும் கிடைக்கவில்லை."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "வயதுத் தொகுதி இல்லை"
 
@@ -13266,6 +13299,9 @@ msgstr ""
 
 msgid "No valid device detected - Press OK"
 msgstr "செல்லுபடியாகும் சாதனம் கண்டறியப்படவில்லை - சரி என்பதை அழுத்தவும்"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14311,6 +14347,12 @@ msgstr "நீக்கப்பட்ட அனைத்து பொருட�
 msgid "Permanently remove the MultiBoot files?"
 msgstr "மல்டிபூட் கோப்புகளை நிரந்தரமாக அகற்றவா?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "அனுமதிகள்"
 
@@ -14994,6 +15036,12 @@ msgstr "பாலர்"
 msgid "Press '0' to toggle PiP mode"
 msgstr "பிப் பயன்முறையை மாற்ற '0' ஐ அழுத்தவும்"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "மூடுவதற்கு வெளியேறவும்."
 
@@ -15080,11 +15128,11 @@ msgstr "இந்த மொழியைப் பயன்படுத்த ச
 msgid "Press OK to use this locale.  [%s]"
 msgstr "இந்த இடத்தைப் பயன்படுத்த சரி என்பதை அழுத்தவும். [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "ஒரு ச்லாட்டைத் தேர்ந்தெடுக்க மேல்/கீழ் பொத்தான்களை அழுத்தி, அந்த படத்திற்கு மறுதொடக்கம் செய்ய சரி அல்லது பச்சை நிறத்தை அழுத்தவும். கிடைத்தால், மஞ்சள் படத்தை நீக்குகிறது அல்லது துடைக்கும். நீக்கப்பட்ட படத்தை நீல பொத்தானைக் கொண்டு மீட்டெடுக்க முடியும். துடைக்கப்பட்ட படம் முற்றிலுமாக அகற்றப்பட்டு மீட்டமைக்க முடியாது!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "ச்லாட்டைத் தேர்ந்தெடுக்க, மேல்/கீழ் பட்டன்களை அழுத்தவும், பின்னர் அந்தப் படத்தை மறுதொடக்கம் செய்ய சரி அல்லது பச்சை ஐ அழுத்தவும். கிடைத்தால், தேர்ந்தெடுக்கப்பட்ட படத்தை மஞ்சள் மல்டிபூட்டை முடக்கும், நீக்கும் அல்லது துடைக்கும். மேலும் ச்லாட்டுகளைச் சேர்க்க நீலத்தை அழுத்தவும்."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "பின்னர் அழுத்தப்பட்ட ஒரு பொத்தானை நீண்ட நேரம் அழுத்துவதற்கு இந்த பொத்தானை அழுத்தவும் (இது எமுலேசன் பொத்தானுக்கு ஒதுக்கப்பட்ட வேறு எந்த செயலையும் மீறுகிறது)."
@@ -18308,6 +18356,10 @@ msgid "Select/Zap to the selected service"
 msgstr "தேர்ந்தெடுக்கப்பட்ட சேவைக்கு/zap ஐத் தேர்ந்தெடுக்கவும்"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19519,6 +19571,9 @@ msgstr "இறக்குமதி சேனல்கள் வெற்றி�
 
 msgid "Show notification when import channels was successful"
 msgstr "இறக்குமதி சேனல்கள் வெற்றிகரமாக இருக்கும்போது அறிவிப்பைக் காட்டு"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "நீட்டிக்கப்பட்ட விளக்கத்தைக் காட்டவும் அல்லது மறைக்கவும், (தோல் சார்ந்தது)."
@@ -21567,6 +21622,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "காத்திருப்பிலிருந்து எழுந்திருக்க கட்டளை பல முறை அனுப்பப்படும்."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21624,6 +21683,16 @@ msgstr "படத்தின் உயரம். இந்த மதிப்�
 msgid "The loopthrough setting is wrong."
 msgstr "லூப் த்ரோ அமைப்பு தவறு."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "பிகான் அடைவு ஏற்கனவே உள்ளது மற்றும் அகற்றப்பட வேண்டும். நீங்கள் தொடர விரும்புகிறீர்களா?"
 
@@ -21644,6 +21713,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "முடிவுகள் %s க்கு எழுதப்பட்டுள்ளன."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "சேமித்த முள் அழிக்கப்பட்டது."
 
@@ -21653,6 +21725,12 @@ msgid ""
 msgstr ""
 "தேர்ந்தெடுக்கப்பட்ட சேனல் கைமுறையாக திட்டமிடப்பட்ட டைமர்களுக்கு VPS ஐ ஆதரிக்காது!\n"
 " நீங்கள் உண்மையில் வி.பி.எச்சை இயக்க விரும்புகிறீர்களா?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "பணி பட்டியல் மீண்டும் ஏற்றப்பட்டுள்ளது."
@@ -22836,6 +22914,12 @@ msgstr "உக்ரெயின்"
 msgid "Ukrainian"
 msgstr "உக்ரேனிய"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -22852,6 +22936,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -24293,7 +24380,7 @@ msgstr "உள்ளீட்டு கர்சர் இந்த புள்
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "ரிசீவர் காத்திருப்பு அல்லது ஆழ்ந்த காத்திருப்பு ஆகியவற்றிலிருந்து எழுந்திருக்கும்போது, அதை காத்திருப்பிலிருந்து வெளியே கொண்டு வர டிவிக்கு ஒரு கட்டளையை அனுப்பும்."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -25512,6 +25599,12 @@ msgstr "ஆம் (ஊட்டங்களை வைத்திருங்க
 msgid "®"
 msgstr "®"
 
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "ஒரு ச்லாட்டைத் தேர்ந்தெடுக்க மேல்/கீழ் பொத்தான்களை அழுத்தி, அந்த படத்திற்கு மறுதொடக்கம் செய்ய சரி அல்லது பச்சை நிறத்தை அழுத்தவும். கிடைத்தால், மஞ்சள் படத்தை நீக்குகிறது அல்லது துடைக்கும். நீக்கப்பட்ட படத்தை நீல பொத்தானைக் கொண்டு மீட்டெடுக்க முடியும். துடைக்கப்பட்ட படம் முற்றிலுமாக அகற்றப்பட்டு மீட்டமைக்க முடியாது!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "ச்லாட்டைத் தேர்ந்தெடுக்க, மேல்/கீழ் பட்டன்களை அழுத்தவும், பின்னர் அந்தப் படத்தை மறுதொடக்கம் செய்ய சரி அல்லது பச்சை ஐ அழுத்தவும். கிடைத்தால், தேர்ந்தெடுக்கப்பட்ட படத்தை மஞ்சள் மல்டிபூட்டை முடக்கும், நீக்கும் அல்லது துடைக்கும். மேலும் ச்லாட்டுகளைச் சேர்க்க நீலத்தை அழுத்தவும்."
+
 #~ msgid "Do you want the upgrade guide?"
 #~ msgstr "மேம்படுத்தல் வழிகாட்டி வேண்டுமா?"
 
@@ -25678,8 +25771,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "டிவிடி பிளேயர்"
 
-msgid "Common Settings"
-msgstr "பொதுவான அமைப்புகள்"
+#~ msgid "Common Settings"
+#~ msgstr "பொதுவான அமைப்புகள்"
 
 #~ msgid ""
 #~ "Do you really want to restart OSCam?\n"
