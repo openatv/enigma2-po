@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-09-21 20:30+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
@@ -902,6 +902,10 @@ msgstr[1] "%d Роки"
 msgstr[2] "%d Років"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d ядро"
@@ -948,6 +952,10 @@ msgid_plural "%d networks found."
 msgstr[0] "Знайдено %d мережу."
 msgstr[1] "Знайдено %d мережі."
 msgstr[2] "Знайдено %d мереж."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2108,9 +2116,6 @@ msgstr "Додати вибрану теку у закладки"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Додати застарілі дії ВЛІВО/ВПРАВО"
 
-msgid "Add more slots"
-msgstr "Додати більше слотів"
-
 msgid "Add new CCcam line"
 msgstr "Додати новий рядок CCcam"
 
@@ -2119,6 +2124,9 @@ msgstr "Додати новий рядок NewCamd"
 
 msgid "Add new tag"
 msgstr "Додати новий тег"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "Додати провайдер"
@@ -2201,6 +2209,9 @@ msgstr "Додаткові опції двигуна дозволяють вве
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Додатковий кабель ротора від %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Налаштуйте параметри кольору так щоб всі відтінки були відображені, але щоб залишались насиченими, настільки наскільки це можливо. Якщо результат вас задовольняє, натисніть ОК, щоб вийти з налаштувань, або на цифрові кнопки від 1 до 6, щоб вибрати інший тестовий екран."
@@ -2327,6 +2338,10 @@ msgstr "Всі канали"
 
 msgid "All ages"
 msgstr "Для всіх"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "всі події вниз"
@@ -4093,6 +4108,9 @@ msgstr "Змінити налаштування повтору і затримк
 msgid "Change skin"
 msgstr "Змінити скін"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "Змінити розмір кроку"
 
@@ -4699,6 +4717,9 @@ msgstr "Загальні налаштування інтерфейсу"
 
 msgid "Common Setup Actions"
 msgstr "Загальні дії з налаштування"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Коморські острови"
@@ -11879,6 +11900,15 @@ msgstr "Імпортувати вручну з резервного тюнера
 msgid "Manufacturer"
 msgstr "Виробник"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Менська"
 
@@ -13166,6 +13196,9 @@ msgstr "Немає можливості запису TS"
 msgid "No active channel found."
 msgstr "Активного каналу не знайдено."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Вікових обмежень немає"
 
@@ -13346,6 +13379,9 @@ msgstr "Не налаштовано жодного дійсного потоку
 
 msgid "No valid device detected - Press OK"
 msgstr "Не виявлено жодного дійсного пристрою - натисніть OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14391,6 +14427,12 @@ msgstr "Назавжди видалити усі видалені елемент
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Назавжди видалити файли MultiBoot?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Дозволи"
 
@@ -15076,6 +15118,12 @@ msgstr "Дошкільні"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Натисніть '0', щоб переключитися в режим PiP"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Натисніть EXIT, щоб закрити."
 
@@ -15162,11 +15210,11 @@ msgstr "Натисніть OK, щоб використовувати цю мов
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Натисніть OK, щоб використовувати цей регіон.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Натисніть кнопки ВГОРУ/ВНИЗ, щоб вибрати слот і натисніть OK, або ЗЕЛЕНУ, щоб 'Перезавантажити' це зображення. Якщо доступний, ЖОВТА буде 'Видалити', або 'Стерти' імідж. 'Видалений' імідж можна 'відновити' за допомогою СИНЬОЇ кнопки. Повністю вилучений імідж НЕМОЖЛИВО відновити!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Кнопки ВГОРУ/ВНИЗ вибрають слот, потім натисніть OK, або ЗЕЛЕНУ кнопку, щоб перезавантажитися в цей імідж. Якщо доступно, ЖОВТА кнопка вимкне мультизавантаження, видалить, або очистить, вибраний образ. Натисніть СИНЮ кнопку, щоб додати більше слотів."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Натисніть цю кнопку, щоб емулювати тривале натискання на кнопку натиснутою після (це також скасовує будь-які інші дії, призначені для кнопки емуляції)."
@@ -18393,6 +18441,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Вибір/Перекл. на обраний канал"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19607,6 +19659,9 @@ msgstr "Показати сповіщення, коли імпорт канал�
 
 msgid "Show notification when import channels was successful"
 msgstr "Показати сповіщення, коли імпорт каналів є успішним"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Показати або сховати розширений опис, (якщо скін підтримує)."
@@ -21659,6 +21714,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Команда пробудження з режиму очікування буде надіслано кілька разів."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21716,6 +21775,16 @@ msgstr "Висота зображення. Вхід буде змінено, щ�
 msgid "The loopthrough setting is wrong."
 msgstr "Налаштування петлі неправильне."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Каталог піконів уже існує і його потрібно видалити. Ви бажаєте продовжити?"
 
@@ -21736,6 +21805,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Результати були записані до %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Збережений Пін-код очищено."
 
@@ -21745,6 +21817,12 @@ msgid ""
 msgstr ""
 "Вибраний канал не підтримує VPS для запрограмованих вручну таймерів!\n"
 " Ви дійсно хочете ввімкнути VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Список каналів перезавантажений."
@@ -22929,6 +23007,12 @@ msgstr "Україна"
 msgid "Ukrainian"
 msgstr "Українська"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "Не вдалося успадкувати користувацький діапазон для LNB %d: %s."
@@ -22945,6 +23029,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -24386,8 +24473,8 @@ msgstr "Коли курсор введення досягає цієї точк�
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Коли приймач виходить із режиму очікування, або глибокого очікування, він надсилає на телевізор команду, щоб вивести його з режиму очікування."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "Коли ресивер виходить з режиму очікування, надішліть команди активного джерела, шляху потоку та маршрутизації, щоб телевізор переключився на вхід HDMI, підключений до ресивера."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Коли червоне поле буде видно, натисніть ЗЕЛЕНУ кнопку, щоб зберегти налаштування та вийти."
@@ -25606,6 +25693,18 @@ msgstr "так (зберігати фіди)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Додати більше слотів"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Натисніть кнопки ВГОРУ/ВНИЗ, щоб вибрати слот і натисніть OK, або ЗЕЛЕНУ, щоб 'Перезавантажити' це зображення. Якщо доступний, ЖОВТА буде 'Видалити', або 'Стерти' імідж. 'Видалений' імідж можна 'відновити' за допомогою СИНЬОЇ кнопки. Повністю вилучений імідж НЕМОЖЛИВО відновити!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Кнопки ВГОРУ/ВНИЗ вибрають слот, потім натисніть OK, або ЗЕЛЕНУ кнопку, щоб перезавантажитися в цей імідж. Якщо доступно, ЖОВТА кнопка вимкне мультизавантаження, видалить, або очистить, вибраний образ. Натисніть СИНЮ кнопку, щоб додати більше слотів."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "Коли ресивер виходить з режиму очікування, надішліть команди активного джерела, шляху потоку та маршрутизації, щоб телевізор переключився на вхід HDMI, підключений до ресивера."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "%d з %d фідів завершено; невдалі букети фідів збережено"
@@ -25782,8 +25881,8 @@ msgstr "®"
 #~ msgid "C/T input switching: external 5V coax switch"
 #~ msgstr "Перемикання входу C/T: зовнішній коаксіальний перемикач 5V"
 
-msgid "Common Settings"
-msgstr "Загальні налаштування"
+#~ msgid "Common Settings"
+#~ msgstr "Загальні налаштування"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "DVB-C та DVB-T/T2 використовують цей вхід. Коли обидва ввімкнені, Enigma2 використовує 5 В для керування зовнішнім коаксіальним перемикачем."
