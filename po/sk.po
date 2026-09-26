@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-14 14:56+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"PO-Revision-Date: 2026-09-26 08:39+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -902,6 +902,10 @@ msgstr[1] "%d roky"
 msgstr[2] "%d rokov"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr "Počet vytvorených prídavných slotov: %d.\n"
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d jadro"
@@ -948,6 +952,10 @@ msgid_plural "%d networks found."
 msgstr[0] "Našla sa %d sieť."
 msgstr[1] "Našli sa %d siete."
 msgstr[2] "Našlo sa %d sietí."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr "Nahradia alebo odstránia sa nevyužívané SPÚŠŤACIE súbory výrobcu. Počet takýchto súborov: %d."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2108,9 +2116,6 @@ msgstr "Pridať zvýraznený priečinok do záložiek"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Pridať staršie akcie pre DOĽAVA/DOPRAVA"
 
-msgid "Add more slots"
-msgstr "Pridať viac slotov"
-
 msgid "Add new CCcam line"
 msgstr "Pridať nový riadok CCcam"
 
@@ -2119,6 +2124,9 @@ msgstr "Pridať nový riadok NewCamd"
 
 msgid "Add new tag"
 msgstr "Pridať nový tag"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "Pridať poskytovateľa"
@@ -2201,6 +2209,9 @@ msgstr "Doplnkové parametre motora umožňujú zadať podrobnosti zo špecifik�
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Prídavný kábel rotora z %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Upravte farby tak, aby sa dali jednotlivé odtiene dobre rozlíšiť, ale súčasne boli čo najsýtejšie. Ak ste s výsledkom spokojní, tlačidlom OK ukončite nastavovanie obrazu alebo číslicovými tlačidlami zvoľte iný testovací obrazec."
@@ -2327,6 +2338,10 @@ msgstr "Všetky stanice"
 
 msgid "All ages"
 msgstr "Všetky vekové skupiny"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "Všetky udalosti dolu"
@@ -4093,6 +4108,9 @@ msgstr "Zmeniť nastavenia opakovania a oneskorenia?"
 msgid "Change skin"
 msgstr "Zmeniť vzhľad"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "Zmeniť veľkosť kroku"
 
@@ -4699,6 +4717,9 @@ msgstr "Nastavenia CI"
 
 msgid "Common Setup Actions"
 msgstr "Akcie pre spoločné nastavenia"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Komory"
@@ -11879,6 +11900,15 @@ msgstr "Manuálny import zo záložného tunera"
 msgid "Manufacturer"
 msgstr "Výrobca"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "mančina (manx)"
 
@@ -13166,6 +13196,9 @@ msgstr "Nie je dostupný žiadny TS rekordér"
 msgid "No active channel found."
 msgstr "Nenašiel sa žiadny aktívny kanál."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Žiadne blokovanie veku"
 
@@ -13346,6 +13379,9 @@ msgstr "Nie sú nakonfigurované platné zdroje DAB+. Skontrolujte /etc/enigma2/
 
 msgid "No valid device detected - Press OK"
 msgstr "Nenašlo sa žiadne platné zariadenie – stlačte OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14391,6 +14427,12 @@ msgstr "Natrvalo odstrániť všetky vymazané položky"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Natrvalo odstrániť súbory MultiBoot?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Oprávnenia"
 
@@ -15076,6 +15118,12 @@ msgstr "Predškolské"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Na prepnutie režimu PiP stlačte '0'"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr "Prídavné sloty môžete zmeniť MODRÝM tlačidlom."
+
 msgid "Press EXIT to close."
 msgstr "Stlačením tlačidla EXIT ponuku zatvoríte."
 
@@ -15162,11 +15210,11 @@ msgstr "Stlačte OK pre použitie tohto jazyka:  [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Stlačte OK pre použitie týchto miestnych nastavení:  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Tlačidlami HORE/DOLU vyberte slot a stlačením ZELENÉHO tlačidla alebo OK spustíte reštart do tohto slotu. ŽLTÝM tlačidlom sa image vymaže alebo sa vyčistí slot. Vymazaný slot je možné obnoviť pomocou MODRÉHO tlačidla. Vyčistený slot sa kompletne odstráni a nemožno ho obnoviť!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Stlačením tlačidiel HORE/DOLU vyberte slot, potom stlačte OK alebo ZELENÉ tlačidlo pre reštartovanie do tohto slotu. Ak je k dispozícii, ŽLTÉ tlačidlo deaktivuje Multiboot, vymaže alebo vyčistí vybraný slot. Stlačením MODRÉHO tlačidla pridáte ďalšie sloty."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Stlačte toto tlačidlo na emuláciu dlhého stlačenia nasledujúceho tlačidla (táto funkcia ignoruje akékoľvek iné akcie priradené emulovaciemu tlačidlu)."
@@ -18393,6 +18441,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Vybrať/prepnúť na vybraný kanál"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19607,6 +19659,9 @@ msgstr "Zobraziť notifikáciu pri neúspešnom importovaní kanálov"
 
 msgid "Show notification when import channels was successful"
 msgstr "Zobraziť notifikáciu po úspešnom importovaní kanálov"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Zobraziť/skryť rozšírený popis. Táto funkcionalita môže byť závislá od vzhľadu."
@@ -21661,6 +21716,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Príkaz na prebudenie z pohotovostného režimu sa odošle viackrát."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21718,6 +21777,16 @@ msgstr "Výška obrazu. Mierka vstupu sa prispôsobí, aby zodpovedala tejto hod
 msgid "The loopthrough setting is wrong."
 msgstr "Nastavenie slučky (loopthrough) je nesprávne."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Priečiok pre picony už existuje a musí sa odstrániť. Má sa pokračovať?"
 
@@ -21741,6 +21810,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Výsledky boli zapísané do súboru %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Uložený PIN kód bol vymazaný."
 
@@ -21750,6 +21822,12 @@ msgid ""
 msgstr ""
 "Vybraný kanál nepodporuje VPS pre manuálne nastavené časovače!\n"
 "Má sa VPS zapnúť?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Zoznam staníc je načítaný."
@@ -22934,6 +23012,12 @@ msgstr "Ukrajina"
 msgid "Ukrainian"
 msgstr "ukrajinčina"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "Nie je možné dedenie používateľského pásma z LNB %d: %s."
@@ -22951,6 +23035,9 @@ msgstr "Nemožno otvoriť tuner (%d)"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Nemožno zaregistrovať transpondér DAB+"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr ""
 
 msgid "Unable to start the DAB+ feed"
 msgstr "Nemožno spustiť zdroj DAB+"
@@ -24391,8 +24478,8 @@ msgstr "Keď vstupný kurzor dosiahne tento bod (percento šírky, z ktorejkoľv
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Keď sa prijímač prebudí z pohotovostného režimu alebo sa zapne, odošle do TV príkaz na prebudenie z pohotovostného režimu."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "Keď sa prijímač prebudí z pohotovostného režimu, odoslať aktívny zdroj, cestu k streamu a príkazy na smerovanie, aby sa TV prepol na vstup HDMI pripojený k prijímaču."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Keď bude viditeľný červený rámik, uložte nastavenia ZELENÝM tlačidlom a dokončite proces."
@@ -25611,6 +25698,18 @@ msgstr "áno (zachovať zdroje)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Pridať viac slotov"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Tlačidlami HORE/DOLU vyberte slot a stlačením ZELENÉHO tlačidla alebo OK spustíte reštart do tohto slotu. ŽLTÝM tlačidlom sa image vymaže alebo sa vyčistí slot. Vymazaný slot je možné obnoviť pomocou MODRÉHO tlačidla. Vyčistený slot sa kompletne odstráni a nemožno ho obnoviť!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Stlačením tlačidiel HORE/DOLU vyberte slot, potom stlačte OK alebo ZELENÉ tlačidlo pre reštartovanie do tohto slotu. Ak je k dispozícii, ŽLTÉ tlačidlo deaktivuje Multiboot, vymaže alebo vyčistí vybraný slot. Stlačením MODRÉHO tlačidla pridáte ďalšie sloty."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "Keď sa prijímač prebudí z pohotovostného režimu, odoslať aktívny zdroj, cestu k streamu a príkazy na smerovanie, aby sa TV prepol na vstup HDMI pripojený k prijímaču."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "Dokončené zdroje: %d z %d; prehľady so zlyhávajúcimi zdrojmi zostali zachované"
@@ -25833,8 +25932,8 @@ msgstr "®"
 #~ msgid "C/T input switching: external 5V coax switch"
 #~ msgstr "Prepínanie C/T vstupu: externý 5 V koaxiálny prepínač"
 
-msgid "Common Settings"
-msgstr "Spoločné nastavenia"
+#~ msgid "Common Settings"
+#~ msgstr "Spoločné nastavenia"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "Tento vstup je zdieľaný medzi DVB-C a DVB-T/T2. Ak sú aktivované obidva, Enigma2 používa napätie 5 V na ovládanie externého koaxiálneho prepínača."
