@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-08-17 05:14+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -901,6 +901,10 @@ msgstr[1] "%d года"
 msgstr[2] "%d лет"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d ядро"
@@ -947,6 +951,10 @@ msgid_plural "%d networks found."
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2100,9 +2108,6 @@ msgstr "Добавить выбранную папку в закладки"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Добавить устаревшие действия ВЛЕВО/ВПРАВО"
 
-msgid "Add more slots"
-msgstr ""
-
 msgid "Add new CCcam line"
 msgstr "Добавить новую строку CCcam"
 
@@ -2111,6 +2116,9 @@ msgstr "Добавить новую строку Newcamd"
 
 msgid "Add new tag"
 msgstr "Добавить новый тег"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "Добавить оператора"
@@ -2192,6 +2200,9 @@ msgstr "Дополнительные опции мотора позволяют 
 
 #, python-format
 msgid "Additional rotor cable from %s"
+msgstr ""
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2319,6 +2330,10 @@ msgstr "Все каналы"
 
 msgid "All ages"
 msgstr "Все возрасты"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "все события закончились"
@@ -4085,6 +4100,9 @@ msgstr "Изменить настройки повтора и задержки?"
 msgid "Change skin"
 msgstr "Сменить скин"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "Изменение размера шага"
 
@@ -4691,6 +4709,9 @@ msgstr "Общие настройки интерфейса"
 
 msgid "Common Setup Actions"
 msgstr "Общие действия по установке"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Коморские острова"
@@ -11851,6 +11872,15 @@ msgstr "Импортировать вручную из резервного тю
 msgid "Manufacturer"
 msgstr "Производитель"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Манкс"
 
@@ -13131,6 +13161,9 @@ msgstr "Отсутствует регистратор TS"
 msgid "No active channel found."
 msgstr "Активного канала не найдено."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Возрастных ограничений нет"
 
@@ -13311,6 +13344,9 @@ msgstr ""
 
 msgid "No valid device detected - Press OK"
 msgstr "Действительное устройство не обнаружено - нажмите OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14356,6 +14392,12 @@ msgstr "Очистка корзины"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Навсегда удалить файлы MultiBoot?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Разрешения"
 
@@ -15041,6 +15083,12 @@ msgstr "Дошкольное учреждение"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Нажмите кнопку '0', чтобы изменить режим PiP"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Нажмите 'EXIT' для закрытия."
 
@@ -15127,11 +15175,11 @@ msgstr "Нажмите ОК, чтобы использовать этот язы
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Нажмите OK, чтобы использовать эту локаль.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Нажимайте кнопки ВВЕРХ/ВНИЗ, для выбора слота, и нажмите OK или ЗЕЛЁНУЮ кнопку для перезагрузки и запуска этого образа. ЖЁЛТАЯ кнопка, если активна, удалит или сотрёт образ. Удалённый образ можно восстановить СИНЕЙ кнопкой. Стёртый образ удаляется окончательно и восстановить его невозможно!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "С помощью кнопок ВВЕРХ/ВНИЗ выберите слот, затем нажмите кнопку OK или ЗЕЛЁНУЮ кнопку, чтобы перезагрузить устройство в этот образ. ЖЁЛТАЯ кнопка (если доступна) отключит мультизагрузку, удалит или сотрет выбранный образ. Нажмите СИНЮЮ кнопку, чтобы добавить слоты."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Нажмите эту кнопку для включения эмуляции долгого нажатия кнопки, которая будет нажата следующей (это заменяет любые другие функции назначенные на эту кнопку)."
@@ -18358,6 +18406,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Переключить на выбранный канал"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19569,6 +19621,9 @@ msgstr "Показывать уведомление, когда импорт к�
 
 msgid "Show notification when import channels was successful"
 msgstr "Показывать уведомление, когда импорт каналов удался"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Показать или скрыть расширенное описание, если скин поддерживает."
@@ -21621,6 +21676,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Команда на выход из режима ожидания будет отправлена несколько раз."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21678,6 +21737,16 @@ msgstr "Высота рисунка. Вход будет масштабиров�
 msgid "The loopthrough setting is wrong."
 msgstr "Настройки петли неверны."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Каталог пиконов уже существует и должен быть удалён. Продолжить?"
 
@@ -21698,6 +21767,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Результаты записаны в %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Сброс пин-кода сделан."
 
@@ -21707,6 +21779,12 @@ msgid ""
 msgstr ""
 "Выбранный канал не поддерживает VPS для вручную запрограммированных таймеров!\n"
 " Вы действительно хотите включить VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Список каналов перезагружен."
@@ -22891,6 +22969,12 @@ msgstr "Украина"
 msgid "Ukrainian"
 msgstr "Украинский"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -22907,6 +22991,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -24348,7 +24435,7 @@ msgstr "Когда курсор ввода достигает этой точк�
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Когда ресивер выходит из режима ожидания или глубокого ожидания, он будет отправлять телевизору команду также выйти из режима ожидания."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -25568,6 +25655,12 @@ msgstr "Да (оставить фиды)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Нажимайте кнопки ВВЕРХ/ВНИЗ, для выбора слота, и нажмите OK или ЗЕЛЁНУЮ кнопку для перезагрузки и запуска этого образа. ЖЁЛТАЯ кнопка, если активна, удалит или сотрёт образ. Удалённый образ можно восстановить СИНЕЙ кнопкой. Стёртый образ удаляется окончательно и восстановить его невозможно!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "С помощью кнопок ВВЕРХ/ВНИЗ выберите слот, затем нажмите кнопку OK или ЗЕЛЁНУЮ кнопку, чтобы перезагрузить устройство в этот образ. ЖЁЛТАЯ кнопка (если доступна) отключит мультизагрузку, удалит или сотрет выбранный образ. Нажмите СИНЮЮ кнопку, чтобы добавить слоты."
+
 #~ msgid "Do you want the upgrade guide?"
 #~ msgstr "Вам нужно руководство по обновлению?"
 
@@ -25728,8 +25821,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "Проигрыватель DVD"
 
-msgid "Common Settings"
-msgstr "Общие настройки"
+#~ msgid "Common Settings"
+#~ msgstr "Общие настройки"
 
 #~ msgid ""
 #~ "Do you really want to restart OSCam?\n"
