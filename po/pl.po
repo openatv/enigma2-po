@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-22 17:00+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"PO-Revision-Date: 2026-09-27 08:51+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -908,6 +908,10 @@ msgstr[1] "%d lata"
 msgstr[2] "%d lat"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr "Utworzono %d dodatkowych slotów.\n"
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d rdzeń"
@@ -954,6 +958,10 @@ msgid_plural "%d networks found."
 msgstr[0] "Znaleziono %d sieć."
 msgstr[1] "Znaleziono %d sieci."
 msgstr[2] "Znaleziono %d sieci."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr "%d przestarzałych plików STARTUP zostanie zastąpionych lub usuniętych."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2116,9 +2124,6 @@ msgstr "Dodaj wybrany folder do zakładek"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Dodaj starsze akcje LEWO/PRAWO"
 
-msgid "Add more slots"
-msgstr "Dodaj więcej slotów"
-
 msgid "Add new CCcam line"
 msgstr "Dodaj nową linię CCcam"
 
@@ -2127,6 +2132,9 @@ msgstr "Dodaj nową linię Newcamd"
 
 msgid "Add new tag"
 msgstr "Dodaj nowy znacznik"
+
+msgid "Add or change additional slots"
+msgstr "Dodaj lub zmień dodatkowe sloty"
 
 msgid "Add provider"
 msgstr "Dodaj dostawcę"
@@ -2209,6 +2217,9 @@ msgstr "Dodatkowe opcje silnika pozwalają wprowadzić szczegóły z arkusza spe
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Dodatkowy przewód obrotnicy z %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr "Dodatkowych slotów nie można zmienić, jeśli odbiornik korzysta z jednego z nich."
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Dostosuj ustawienia koloru, tak aby wszystkie odcienie były rozpoznawalne, ale jak najbardziej nasycone. Jeśli jesteś zadowolony z rezultatu wciśnij 'OK' aby wyjść z tego menu lub użyj przycisków numerycznych aby zobaczyć inne ekrany testowe."
@@ -2335,6 +2346,10 @@ msgstr "Wszystkie kanały"
 
 msgid "All ages"
 msgstr "Wszystkie grupy wiekowe"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr "Wszystkie dane na wybranym urządzeniu zostaną usunięte. Utworzyć jedną współdzieloną partycję danych z %d dodatkowymi slotami MultiBoot, partycją wymiany 512 MiB i wewnętrznym kernelem slotu 1?"
 
 msgid "All events down"
 msgstr "Wszystkie wydarzenia w dół"
@@ -4101,6 +4116,9 @@ msgstr "Zmienić ustawienia powtarzania i opóźnienia?"
 msgid "Change skin"
 msgstr "Zmień skórkę"
 
+msgid "Change slots"
+msgstr "Zmień sloty"
+
 msgid "Change step size"
 msgstr "Zmień rozmiar skoku"
 
@@ -4532,7 +4550,7 @@ msgid "Close CA device at programm end"
 msgstr "Zamknij urządzenie CA po zakończeniu programu"
 
 msgid "Close PiP on exit"
-msgstr "Zamknij PiP i wyjdż"
+msgstr "Zamknij PiP i wyjdź"
 
 msgid "Close Task List"
 msgstr "Zamknij listę zadań"
@@ -4878,7 +4896,7 @@ msgid "Configure the behavior when reaching the end of a movie, during movie pla
 msgstr "Skonfiguruj działanie po osiągnięciu końca nagrania podczas jego odtwarzania."
 
 msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
-msgstr "Skonfiguruj szerokość krawędzi napisów. Ciemne krawędzie sprawią, że napisy będa bardziej czytelne na jasnym tle."
+msgstr "Skonfiguruj szerokość krawędzi napisów. Ciemne krawędzie sprawią, że napisy będą bardziej czytelne na jasnym tle."
 
 msgid "Configure the brightness level of the front panel display for Standby."
 msgstr "Skonfiguruj poziom jasności wyświetlacza panelu przedniego w trybie czuwania."
@@ -4977,7 +4995,7 @@ msgid "Configure the minimum amount of disk space to be available for recordings
 msgstr "Skonfiguruj minimalną przestrzeń dysku zarezerwowaną dla nagrań. W przypadku spadku poniżej tego progu, usunięte pliki zostaną wykasowane z kosza."
 
 msgid "Configure the minimum width before showing the 'i' icon, '0' is equal to not showing the icon at all."
-msgstr "Ustawienia minimalnej szerokość przed wyświetleniem ikony \"i\", \"0\" oznacza ze ikona nie jest widoczna."
+msgstr "Ustawienia minimalnej szerokości przed wyświetleniem ikony 'i', '0' oznacza, że ikona nie jest widoczna."
 
 msgid "Configure the number of days after which items are automatically removed from the trashcan."
 msgstr "Skonfiguruj liczbę dni, po upływie których elementy zostaną automatycznie usunięte z kosza."
@@ -5064,7 +5082,7 @@ msgid "Configure the type of status indication icons shown in the movie list."
 msgstr "Skonfiguruj rodzaj statusu ikon wyświetlanych w liście nagrań."
 
 msgid "Configure the vertical position of the subtitles, measured from the bottom of the screen."
-msgstr "Skonfiguruj pionowe położenie napisów,mierzone od dołu ekranu."
+msgstr "Skonfiguruj pionowe położenie napisów, mierzone od dołu ekranu."
 
 msgid "Configure the width allocated to the picon."
 msgstr "Skonfiguruj szerokość przydzieloną do pikon."
@@ -7177,8 +7195,8 @@ msgstr "Gotowe"
 msgid "Done - Installed, upgraded or removed %d package (%s)"
 msgid_plural "Done - Installed, upgraded or removed %d packages (%s)"
 msgstr[0] "Gotowe - zainstalowano, zaktualizowano lub usunięto %d pakiet (%s)"
-msgstr[1] "Gotowe-zainstalowano,zaktualizowano lub usunięto %d pakietów (%s)"
-msgstr[2] "Gotowe-zainstalowano,zaktualizowano lub usunięto %d pakietów (%s)"
+msgstr[1] "Gotowe - zainstalowano, zaktualizowano lub usunięto %d pakiety (%s)"
+msgstr[2] "Gotowe - zainstalowano, zaktualizowano lub usunięto %d pakietów (%s)"
 
 msgid "Down"
 msgstr "W dół"
@@ -8364,7 +8382,7 @@ msgstr "Błąd: Program '%s' nie jest zainstalowany, a pakiet zawierający ten p
 
 #, python-format
 msgid "Error: Removing directory '%s' failed! (Maybe the directory is not empty.)"
-msgstr "Usuniecie katalogu %s nie powiodło się. (Być może nie jest pusty.)"
+msgstr "Usunięcie katalogu %s nie powiodło się. (Być może nie jest pusty.)"
 
 msgid "Error: Rescan failed!"
 msgstr "Błąd: Ponowne skanowanie nie powiodło się!"
@@ -10318,7 +10336,7 @@ msgid "If enabled, the new GStreamer playback engine will be used."
 msgstr "Jeśli włączone, nowy silnik odtwarzania GStreamer zostanie wykorzystany."
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
-msgstr "Jeśli zostanie przekroczona przestrzeń maksymalna,najstarsze zostaną usunięte."
+msgstr "Jeśli zostanie przekroczona przestrzeń maksymalna, najstarsze zostaną usunięte."
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr "Jeśli ustawiony jest na 'Tak', pozwala na używanie timeshift z alternatywnymi wtyczkami audio."
@@ -11892,6 +11910,15 @@ msgstr "Ręcznie zaimportuj z tunera zastępczego"
 msgid "Manufacturer"
 msgstr "Producent"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr "Slot 1 nie zapewnia odpowiednich plików STARTUP."
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr "Slot 1 nie posiada użytecznego polecenia STARTUP z urządzeniem kernel."
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr "Nie znaleziono slotu 1 i nie można go użyć jako współdzielonego szablonu kernel."
+
 msgid "Manx"
 msgstr "Manx"
 
@@ -12026,10 +12053,10 @@ msgid "Medium is not a writeable DVD!"
 msgstr "Nośnik nie jest zapisywalnym DVD!"
 
 msgid "Medium is not empty!"
-msgstr "Nosnik nie jest pusty!"
+msgstr "Nośnik nie jest pusty!"
 
 msgid "Medium toolbox"
-msgstr "Medium toolbox"
+msgstr "Narzędzia nośnika"
 
 msgid "Memory"
 msgstr "Pamięć / Ram"
@@ -13179,6 +13206,9 @@ msgstr "Brak dostępnego rejestratora TS"
 msgid "No active channel found."
 msgstr "Nie znaleziono aktywnego kanału."
 
+msgid "No additional slots have been planned."
+msgstr "Nie zaplanowano żadnych dodatkowych slotów."
+
 msgid "No age block"
 msgstr "Brak blokady wiekowej"
 
@@ -13283,7 +13313,7 @@ msgid "No shares found."
 msgstr "Nie znaleziono udziałów."
 
 msgid "No slot images found"
-msgstr "Nie znaleziono systemow w slocie"
+msgstr "Nie znaleziono systemów w slocie"
 
 msgid "No standby"
 msgstr "Brak czuwania"
@@ -13359,6 +13389,9 @@ msgstr "Brak prawidłowo skonfigurowanych źródeł DAB+. Sprawdź /etc/enigma2/
 
 msgid "No valid device detected - Press OK"
 msgstr "Nie wykryto odpowiedniego urządzenia - naciśnij OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr "Nie znaleziono prawidłowych slotów MultiBoot."
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14404,6 +14437,12 @@ msgstr "Usuń trwale wszystkie usunięte elementy"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Trwale usunąć pliki MultiBoot?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr "Trwale wyczyść podświetlony slot"
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr "Czy trwale wyczyścić ten slot? Wszystkie pliki w tym slocie zostaną usunięte i nie będzie można ich odzyskać."
+
 msgid "Permissions"
 msgstr "Uprawnienia"
 
@@ -15089,6 +15128,12 @@ msgstr "Przedszkola"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Naciśnij przycisk '0', aby zmienić tryb PiP"
 
+msgid "Press BLUE to add more slots."
+msgstr "Naciśnij NIEBIESKI, aby dodać więcej slotów."
+
+msgid "Press BLUE to change the additional slots."
+msgstr "Naciśnij NIEBIESKI, aby zmienić dodatkowe sloty."
+
 msgid "Press EXIT to close."
 msgstr "Naciśnij przycisk EXIT, aby zamknąć."
 
@@ -15175,11 +15220,11 @@ msgstr "Naciśnij OK aby użyć tego języka. [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Naciśnij OK aby użyć tego regionu. [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Użyj przycisków GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY przycisk, aby uruchomić wybrany slot. ŻÓŁTY przycisk usuwa zawartość slotu. Usunięty slot można przywrócić za pomocą NIEBIESKIEGO przycisku. Przyciskiem TEXT możesz zmienić nazwę slotu!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr "Naciśnij GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY, aby uruchomić ten slot. Naciśnij ŻÓŁTY, aby usunąć wybrany system, lub przytrzymaj ŻÓŁTY, aby trwale go wymazać. Usunięty system można przywrócić za pomocą NIEBIESKIEGO, ale wymazanego systemu nie można przywrócić. Naciśnij TEXT, aby zmienić nazwę slotu. Naciśnij INFO, aby pokazać lub ukryć puste sloty."
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Użyj przycisków GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY, aby uruchomić ten slot. Jeśli dostępny, ŻÓŁTY wyłączy funkcję MultiBoot, usunie lub wyczyści wybrany slot. Naciśnij NIEBIESKI, aby dodać więcej slotów."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr "Naciśnij GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY, aby ponownie uruchomić ten slot. Jeśli dostępny, przycisk ŻÓŁTY wyłączy funkcję MultiBoot, usunie lub wyczyści wybrany slot."
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Naciśnij ten przycisk, aby emulować długie naciśnięcie przycisku (to zastąpi wszelkie inne czynności przypisane do tego przycisku)."
@@ -16732,7 +16777,7 @@ msgid "Saint Helena, Ascension and Tristan da Cunha"
 msgstr "Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha"
 
 msgid "Saint Kitts and Nevis"
-msgstr "Saint Kitts and Nevis"
+msgstr "Saint Kitts i Nevis"
 
 msgid "Saint Lucia"
 msgstr "Saint Lucia"
@@ -17075,10 +17120,10 @@ msgid "Science & Tech"
 msgstr "Nauka i Technika"
 
 msgid "Science fiction"
-msgstr "Science fiction"
+msgstr "Fantastyka naukowa"
 
 msgid "Science fiction/Fantasy/Horror"
-msgstr "Science fiction/Fantasy/Horror"
+msgstr "Fantastyka naukowa/Fantasy/Horror"
 
 msgid "Scope"
 msgstr "Zakres"
@@ -17923,7 +17968,7 @@ msgid "Select the brightness of the front panel LED when the receiver is in Stan
 msgstr "Wybierz jasność diody LED na panelu przednim, gdy odbiornik znajduje się w trybie czuwania."
 
 msgid "Select the cardserver to be used from the list of available cardservers."
-msgstr "Z listy dostępnych cardserver wybierz , który ma być używany."
+msgstr "Wybierz z listy dostępnych serwerów kart ten, który ma być używany."
 
 msgid "Select the channel from which to record:"
 msgstr "Wybierz kanał, z którego chcesz nagrywać:"
@@ -18404,6 +18449,10 @@ msgstr "Wypierz, przełącz proces lub edytuj aktualny wpis"
 
 msgid "Select/Zap to the selected service"
 msgstr "Wybierz/Przełącz na zaznaczony kanał"
+
+#, python-format
+msgid "Selected device: %s"
+msgstr "Wybrane urządzenie: %s"
 
 #, python-format
 msgid ""
@@ -19620,6 +19669,9 @@ msgstr "Pokazuj informację gdy import kanałów się nie powiódł"
 
 msgid "Show notification when import channels was successful"
 msgstr "Pokazuj informację gdy import kanałów się powiódł"
+
+msgid "Show or hide empty slots"
+msgstr "Pokaż lub ukryj puste sloty"
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Pokaż lub ukryj rozszerzony opis. Ta funkcjonalność może być zależna od skórki."
@@ -21675,6 +21727,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Komenda wybudzania z trybu czuwania będzie wysyłana wielokrotnie."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr "Niestandardowy punkt montowania dla '%s' jest pusty!"
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21732,6 +21788,16 @@ msgstr "Wysokość zdjęcia. Dane wejściowe zostaną przeskalowane w celu dopas
 msgid "The loopthrough setting is wrong."
 msgstr "Ustawienie przelotu sygnału jest nieprawidłowe."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr "Urządzenia STARTUP nie można montować w celu przeprowadzenia inspekcji."
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr "Nie znaleziono urządzenia STARTUP."
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr "Nazwy pliku STARTUP '%s' nie można bezpiecznie rozszerzyć."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Katalog pikon już istnieje i musi zostać usunięty. Czy chcesz kontynuować?"
 
@@ -21755,6 +21821,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Wyniki zostały zapisane w %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr "Nie można bezpiecznie rozszerzyć podkatalogu głównego w pliku STARTUP."
+
 msgid "The saved PIN was cleared."
 msgstr "Zapisany PIN został wyczyszczony."
 
@@ -21764,6 +21833,12 @@ msgid ""
 msgstr ""
 "Wybrany kanał nie obsługuje VPS dla ręcznie programowanych timerów!\n"
 " Czy na pewno chcesz włączyć VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr "Wybrane urządzenie nie jest obsługiwanym wymiennym urządzeniem blokowym."
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr "Wybrane urządzenie jest za małe. Wymagane jest co najmniej 2561 MiB."
 
 msgid "The service list is reloaded."
 msgstr "Lista kanałów została przeładowana."
@@ -21879,7 +21954,7 @@ msgid "This %s %s cannot decode %s streams!"
 msgstr "Ten %s %s nie może zdekodować %s strumienia!"
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
-msgstr "Nosnik DVD RW zawiera dane- jego sformatowanie spowoduje utrate danych na nosniku."
+msgstr "Nośnik DVD RW zawiera dane – jego sformatowanie spowoduje utratę danych na nośniku."
 
 msgid "This allows you to change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size."
 msgstr "Pozwala to zmienić rozmiar czcionki w zależności od rozmiaru skóry, więc 1 zwiększa rozmiar o 1 punkt, a -1 zmniejsza rozmiar o 1 punkt."
@@ -21951,7 +22026,7 @@ msgid "This option allows you to boost the green tones in the picture."
 msgstr "Ta opcja pozwala na zwiększenie zielonego tonu w obrazie."
 
 msgid "This option allows you to bypass HDMI EDID check."
-msgstr "Opcja ta umożliwia pominięcie sprawdzania HDMI EDID ."
+msgstr "Opcja ta umożliwia pominięcie sprawdzania HDMI EDID."
 
 msgid "This option allows you to change the virtual loudspeaker position."
 msgstr "Ta opcja pozwala na zmianę położenia/obciążenia głośników."
@@ -21960,13 +22035,13 @@ msgid "This option allows you to choose from the two channel lists that are avai
 msgstr "Ta opcja pozwala wybrać jedną z dwóch list kanałów, które są dostępne."
 
 msgid "This option allows you to choose how to display 1080p 24Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 24Hz na telewizorze.(jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
+msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 24Hz na telewizorze. (jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
 
 msgid "This option allows you to choose how to display 1080p 25Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 25Hz na telewizorze.(jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
+msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 25Hz na telewizorze. (jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
 
 msgid "This option allows you to choose how to display 1080p 30Hz on your TV. (as not all TV's support these resolutions)"
-msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 30Hz na telewizorze.(jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
+msgstr "Ta opcja pozwala na wybór sposobu wyświetlania 1080p 30Hz na telewizorze. (jeżeli jest wsparcie,nie wszystkie telewizory je maja)"
 
 msgid "This option allows you to choose how to display 2160p 24Hz on your TV. (as not all TV's support these resolutions)"
 msgstr "Ta opcja pozwala wybrać sposób wyświetlania 2160p 24 Hz na ekranie telewizora. (ponieważ nie wszystkie telewizory obsługują te rozdzielczości)"
@@ -22948,6 +23023,12 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukraiński"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr "Nie można utworzyć dodatkowych plików STARTUP."
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr "Nie można utworzyć nowych plików STARTUP."
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "Nie można odziedziczyć kanału użytkownika (User Band) dla LNB %d: %s."
@@ -22965,6 +23046,9 @@ msgstr "Nie można otworzyć tunera (%d)"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Nie można zarejestrować transpondera DAB+"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr "Nie można usunąć dodatkowych, przestarzałych plików STARTUP."
 
 msgid "Unable to start the DAB+ feed"
 msgstr "Nie można nastroić sygnału DAB+"
@@ -23141,7 +23225,7 @@ msgid "Update delay for Events in List"
 msgstr "Opóźnienie aktualizacji dla wydarzenia z listy"
 
 msgid "Update delay for events in list. Scrolling in list is faster with higher delay, especially on big lists!"
-msgstr "Opóźnienie aktualizacji dla zdarzeń na liście. Przewijanie listy jest szybsze przy większym opóźnieniu, szczególnie na dużych listach !"
+msgstr "Opóźnienie aktualizacji dla zdarzeń na liście. Przewijanie listy jest szybsze przy większym opóźnieniu, szczególnie na dużych listach!"
 
 msgid "Update failed!"
 msgstr "Aktualizacja nieudana!"
@@ -24405,8 +24489,8 @@ msgstr "Gdy kursor wejściowy osiągnie ten punkt (procent szerokości, z obu st
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Gdy odbiornik wybudza się ze stanu czuwania lub trybu wyłączenia, wysyła do telewizora polecenie wyprowadzenia go ze stanu czuwania."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "Gdy odbiornik wybudzi się z trybu czuwania, telewizor automatycznie przełączy się na wejście HDMI, do którego podłączony jest odbiornik."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr "Gdy odbiornik wybudzi się ze stanu czuwania, poinformuj, że jest to aktywne źródło, tak aby telewizor przełączył się na podłączone wejście HDMI."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Gdy czerwone pole będzie już prawidłowo widoczne, naciśnij ZIELONY przycisk, aby zapisać ustawienia i wyjść."
@@ -25624,6 +25708,18 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Add more slots"
+#~ msgstr "Dodaj więcej slotów"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Użyj przycisków GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY przycisk, aby uruchomić wybrany slot. ŻÓŁTY przycisk usuwa zawartość slotu. Usunięty slot można przywrócić za pomocą NIEBIESKIEGO przycisku. Przyciskiem TEXT możesz zmienić nazwę slotu!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Użyj przycisków GÓRA/DÓŁ, aby wybrać slot, a następnie naciśnij OK lub ZIELONY, aby uruchomić ten slot. Jeśli dostępny, ŻÓŁTY wyłączy funkcję MultiBoot, usunie lub wyczyści wybrany slot. Naciśnij NIEBIESKI, aby dodać więcej slotów."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "Gdy odbiornik wybudzi się z trybu czuwania, telewizor automatycznie przełączy się na wejście HDMI, do którego podłączony jest odbiornik."
 
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
