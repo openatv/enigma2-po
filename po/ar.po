@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-08-17 04:54+0000\n"
 "Last-Translator: Abdulelah Aqeil <dr.romantic@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ar/>\n"
@@ -953,6 +953,10 @@ msgstr[4] "%d سنة"
 msgstr[5] "%d سنة"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d نواة"
@@ -1013,6 +1017,10 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2274,9 +2282,6 @@ msgstr "أختار ملفات/مجلدات النسخه الاحتياطيه"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "إضافة إجراءات اليسار/اليمين القديمة"
 
-msgid "Add more slots"
-msgstr ""
-
 msgid "Add new CCcam line"
 msgstr "إضافة سطر CCcam جديد"
 
@@ -2286,6 +2291,9 @@ msgstr "إضافة سطر NewCamd جديد"
 #, fuzzy
 msgid "Add new tag"
 msgstr "إضافة عنوان جديد"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "إضافة مزود خدمة"
@@ -2367,6 +2375,9 @@ msgstr "تتيح لك خيارات النظام المتحرك الإضافي إ
 
 #, python-format
 msgid "Additional rotor cable from %s"
+msgstr ""
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
@@ -2508,6 +2519,10 @@ msgstr "جميع الخدمات"
 
 msgid "All ages"
 msgstr "جميع الاعمار"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "جميع الأحداث للاسفل"
@@ -4388,6 +4403,9 @@ msgstr "تغيير إعدادات التكرار والتاخير ؟"
 #, fuzzy
 msgid "Change skin"
 msgstr "تغيير مقاس الخطوه"
+
+msgid "Change slots"
+msgstr ""
 
 #
 msgid "Change step size"
@@ -12396,6 +12414,15 @@ msgstr "الاستيراد يدويًا من الموالف الاحتياطي"
 msgid "Manufacturer"
 msgstr "الشركة المصنعة"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr ""
 
@@ -13732,6 +13759,9 @@ msgstr "لا يوجد وصف"
 msgid "No active channel found."
 msgstr "لم يعثر على قناة نشطة."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "لا يوجد حجب للعمر"
 
@@ -13921,6 +13951,9 @@ msgid "No valid DAB+ feeds configured. Check /etc/enigma2/dab.xml."
 msgstr ""
 
 msgid "No valid device detected - Press OK"
+msgstr ""
+
+msgid "No valid manufacturer MultiBoot slots were found."
 msgstr ""
 
 #, python-format
@@ -15023,6 +15056,12 @@ msgstr "أزاله كافة العناصر المحذوفة بشكل دائم"
 msgid "Permanently remove the MultiBoot files?"
 msgstr ""
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr ""
 
@@ -15750,6 +15789,12 @@ msgstr "مرحلة ما قبل المدرسة"
 msgid "Press '0' to toggle PiP mode"
 msgstr "اضغط علي ' 0 ' للتبديل بين وضع قناة داخل قناة"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr ""
 
@@ -15841,10 +15886,10 @@ msgstr ""
 msgid "Press OK to use this locale.  [%s]"
 msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
 msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
 msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
@@ -19177,6 +19222,10 @@ msgid "Select/Zap to the selected service"
 msgstr "حدد/انتقل إلى الخدمة المحددة"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -20428,6 +20477,9 @@ msgid "Show notification when import channels was not successful"
 msgstr ""
 
 msgid "Show notification when import channels was successful"
+msgstr ""
+
+msgid "Show or hide empty slots"
 msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
@@ -22564,6 +22616,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr ""
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -22618,6 +22674,16 @@ msgstr ""
 msgid "The loopthrough setting is wrong."
 msgstr "إعدادات ربط المؤالفات غير صحيحه."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -22639,12 +22705,21 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "تم كتابة النتائج إلى %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "تم مسح كلمة السر المحفوظة."
 
 msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
+msgstr ""
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
 msgstr ""
 
 msgid "The service list is reloaded."
@@ -23894,6 +23969,12 @@ msgstr "أوكرانيا"
 msgid "Ukrainian"
 msgstr "الأوكرانية"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -23910,6 +23991,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -25364,7 +25448,7 @@ msgstr ""
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr ""
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
