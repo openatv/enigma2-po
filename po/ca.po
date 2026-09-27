@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-08-21 14:51+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ca/>\n"
@@ -933,6 +933,10 @@ msgstr[0] "%d any"
 msgstr[1] "%d anys"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d nucli"
@@ -977,6 +981,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] ""
 msgstr[1] ""
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2186,9 +2194,6 @@ msgstr "Afegir directori destacat a favorits"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Afegir accions heredades ESQUERRA/DRETA"
 
-msgid "Add more slots"
-msgstr "Afegir més slots"
-
 msgid "Add new CCcam line"
 msgstr "Afegir nova línia CCcam"
 
@@ -2197,6 +2202,9 @@ msgstr "Afegir nova línia NewCamd"
 
 msgid "Add new tag"
 msgstr "Afegir nova etiqueta"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 #
 msgid "Add provider"
@@ -2282,6 +2290,9 @@ msgstr "Les opcions de motor addicionals permeten introduir detalls de la fitxa 
 
 #, python-format
 msgid "Additional rotor cable from %s"
+msgstr ""
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
 #
@@ -2421,6 +2432,10 @@ msgstr "Tots els canals"
 
 msgid "All ages"
 msgstr "Totes les edats"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr ""
@@ -4266,6 +4281,9 @@ msgstr "Canvieu la configuració de repetició i retard?"
 msgid "Change skin"
 msgstr "Canviar skin"
 
+msgid "Change slots"
+msgstr ""
+
 #
 msgid "Change step size"
 msgstr "Canvia la mida del pas"
@@ -4902,6 +4920,9 @@ msgstr ""
 
 msgid "Common Setup Actions"
 msgstr "Accions de configuració comú"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Comores"
@@ -12392,6 +12413,15 @@ msgstr "Importa manualment des del sintonitzador alternatiu"
 msgid "Manufacturer"
 msgstr "Fabricant"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Manx"
 
@@ -13754,6 +13784,9 @@ msgstr "No hi ha cap gravador de TS disponible"
 msgid "No active channel found."
 msgstr "No s'ha trobat cap canal actiu."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Sense bloc d’edat"
 
@@ -13949,6 +13982,9 @@ msgid "No valid DAB+ feeds configured. Check /etc/enigma2/dab.xml."
 msgstr ""
 
 msgid "No valid device detected - Press OK"
+msgstr ""
+
+msgid "No valid manufacturer MultiBoot slots were found."
 msgstr ""
 
 #, python-format
@@ -15057,6 +15093,12 @@ msgstr "Suprimeix permanentment tots els elements suprimits"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Eliminar de forma permanent els arxius multiboot?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Permisos"
 
@@ -15793,6 +15835,12 @@ msgstr "Preescolar"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Premeu “0” per canviar el mode PiP"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Prem EXIT per a tancar."
 
@@ -15889,10 +15937,10 @@ msgstr "Prem OK per utilitzar aquest idioma. [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Prem OK per utilitzar aquest idioma local. [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
 msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
 msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
@@ -19268,6 +19316,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Sisplau selecciona un subservei..."
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -20525,6 +20577,9 @@ msgstr "Mostrar notificació quan la importació de canals no hagi tingut èxit"
 
 msgid "Show notification when import channels was successful"
 msgstr "Mostrar notificació quan la importació de canals hagi tingut èxit"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr ""
@@ -22667,6 +22722,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr ""
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -22725,6 +22784,16 @@ msgstr "L'alçada de la imatge. L'entrada s'escalarà perquè coincideixi amb aq
 msgid "The loopthrough setting is wrong."
 msgstr "La configuració en bucle és incorrecta."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 #, fuzzy
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "L'arxiu '%s' ja existeix. Vols sobreescriure'l?"
@@ -22747,6 +22816,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Els resultats s'han escrit a %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "S’ha esborrat el PIN desat."
 
@@ -22756,6 +22828,12 @@ msgid ""
 msgstr ""
 "El canal seleccionat no admet VPS per als temporitzadors programats manualment.\n"
 " Realment voleu habilitar VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "La llista de serveis es torna a carregar."
@@ -24001,6 +24079,12 @@ msgstr "Ukraine"
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -24017,6 +24101,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -25477,7 +25564,7 @@ msgstr ""
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr ""
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -26801,6 +26888,9 @@ msgstr "si (mantenir feeds)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Afegir més slots"
+
 #~ msgid "Do you want to start a backup now?"
 #~ msgstr "Vols fer backup de les configuracions?"
 
@@ -26929,8 +27019,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "DVDPlayer"
 
-msgid "Common Settings"
-msgstr "Accions de configuració comú"
+#~ msgid "Common Settings"
+#~ msgstr "Accions de configuració comú"
 
 #~ msgid "Mount Manager"
 #~ msgstr "Administrador de muntatges"
