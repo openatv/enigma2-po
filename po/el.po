@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
 "PO-Revision-Date: 2026-09-01 07:02+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -885,6 +885,10 @@ msgstr[0] "%d έτος"
 msgstr[1] "%d έτη"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr ""
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d πυρήνας"
@@ -927,6 +931,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] "βρέθηκε %d δίκτυο."
 msgstr[1] "βρέθηκαν %d δίκτυα."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr ""
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2070,9 +2078,6 @@ msgstr "Προσθήκη επιλεγμένου φακέλου στους σελ
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Προσθήκη ενεργειών ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ παλαιού τύπου"
 
-msgid "Add more slots"
-msgstr "Προσθήκη περισσότερων θέσεων"
-
 msgid "Add new CCcam line"
 msgstr "Προσθήκη νέας γραμμής CCcam"
 
@@ -2081,6 +2086,9 @@ msgstr "Προσθήκη νέας γραμμής NewCamd"
 
 msgid "Add new tag"
 msgstr "Προσθήκη νέας ετικέτας"
+
+msgid "Add or change additional slots"
+msgstr ""
 
 msgid "Add provider"
 msgstr "Προσθήκη παρόχου"
@@ -2163,6 +2171,9 @@ msgstr "Οι πρόσθετες επιλογές μοτέρ σας επιτρέ�
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Πρόσθετο καλώδιο μοτέρ από το %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr ""
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Ρυθμίστε την ένταση των χρωμάτων έτσι ώστε να διαφέρουν οι χρωματισμοί με τη μέγιστη φωτεινότητα. Όταν τελειώσετε, πιέστε ΟΚ για να κλείσετε τη μικρορύθμιση ή πιέστε ένα νούμερο για να δείτε και άλλες οθόνες δοκιμών."
@@ -2289,6 +2300,10 @@ msgstr "Όλες οι υπηρεσίες"
 
 msgid "All ages"
 msgstr "Όλες οι ηλικίες"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr ""
 
 msgid "All events down"
 msgstr "Όλα τα προγράμματα κάτω"
@@ -4055,6 +4070,9 @@ msgstr "Αλλαγή ρυθμίσεων επανάληψης και καθυστ
 msgid "Change skin"
 msgstr "Αλλαγή θέματος"
 
+msgid "Change slots"
+msgstr ""
+
 msgid "Change step size"
 msgstr "Αλλαγή μεγέθους βήματος"
 
@@ -4659,6 +4677,9 @@ msgstr "Ρυθμίσεις κοινής διεπαφής"
 
 msgid "Common Setup Actions"
 msgstr "Ενέργειες κοινών ρυθμίσεων"
+
+msgid "Common settings"
+msgstr ""
 
 msgid "Comoros"
 msgstr "Κομόρες"
@@ -11817,6 +11838,15 @@ msgstr "Χειροκίνητη εισαγωγή από το εφεδρικό tun
 msgid "Manufacturer"
 msgstr "Κατασκευαστής"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr ""
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr ""
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr ""
+
 msgid "Manx"
 msgstr "Μανξ"
 
@@ -13097,6 +13127,9 @@ msgstr "Μη διαθέσιμος εγγραφέας TS"
 msgid "No active channel found."
 msgstr "Δεν βρέθηκε ενεργό κανάλι."
 
+msgid "No additional slots have been planned."
+msgstr ""
+
 msgid "No age block"
 msgstr "Χωρίς περιορισμό ηλικίας"
 
@@ -13277,6 +13310,9 @@ msgstr ""
 
 msgid "No valid device detected - Press OK"
 msgstr "Δεν εντοπίστηκε έγκυρη συσκευή - Πιέστε OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr ""
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14322,6 +14358,12 @@ msgstr "Οριστική εκκαθάριση όλων των διαγραμμέ
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Να γίνει μόνιμη κατάργηση των αρχείων πολλαπλής εκκίνησης;"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr ""
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr ""
+
 msgid "Permissions"
 msgstr "Δικαιώματα"
 
@@ -15005,6 +15047,12 @@ msgstr "Προσχολικά"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Πιέστε '0' για εναλλαγή λειτουργίας PiP"
 
+msgid "Press BLUE to add more slots."
+msgstr ""
+
+msgid "Press BLUE to change the additional slots."
+msgstr ""
+
 msgid "Press EXIT to close."
 msgstr "Πιέστε EXIT για κλείσιμο."
 
@@ -15091,11 +15139,11 @@ msgstr "Πιέστε ΟΚ για χρήση αυτής της γλώσσας.  [
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Πιέστε ΟΚ για χρήση αυτής της γλώσσας.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Πιέστε τα πλήκτρα ΕΠΑΝΩ/ΚΑΤΩ για επιλογή μίας θέσης και το ΟΚ ή το ΠΡΑΣΙΝΟ για επανεκκίνηση σε αυτό το image. Αν είναι διαθέσιμο, το ΚΙΤΡΙΝΟ θα διαγράψει ή θα κάνει εκκαθάριση του image. Ένα διαγραμμένο image μπορεί να επανέλθει με το ΜΠΛΕ πλήκτρο. Ένα εκκαθαρισμένο image αφαιρείται εντελώς και είναι αδύνατη η επαναφορά του!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr ""
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Πιέστε τα πλήκτρα ΕΠΑΝΩ/ΚΑΤΩ για επιλογή θέσης, έπειτα το ΟΚ ή το ΠΡΑΣΙΝΟ για επανεκκίνηση στο επιλεγμένο image. Εάν είναι διαθέσιμο, το ΚΙΤΡΙΝΟ θα απενεργοποιήσει την πολλαπλή εκκίνηση, θα διαγράψει ή θα εκκαθαρίσει το επιλεγμένο image. Πιέστε το ΜΠΛΕ για προσθήκη περισσότερων θέσεων."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr ""
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Πιέστε αυτό το πλήκτρο για να γίνει προσομοίωση της παρατεταμένης πίεσης σε ένα πλήκτρο που θα πιεστεί μετέπειτα (αυτό επίσης παρακάμπτει οποιαδήποτε άλλη ενέργεια έχει ανατεθεί το πλήκτρο προσομοίωσης)."
@@ -18319,6 +18367,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Επιλογή/μετάβαση στην επιλεγμένη υπηρεσία"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr ""
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19530,6 +19582,9 @@ msgstr "Εμφάνιση ειδοποίησης μετά από αποτυχία
 
 msgid "Show notification when import channels was successful"
 msgstr "Εμφάνιση ειδοποίησης μετά από επιτυχή εισαγωγή καναλιών"
+
+msgid "Show or hide empty slots"
+msgstr ""
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Εμφάνιση ή απόκρυψη της εκτεταμένης περιγραφής, (εξαρτάται από το θέμα)."
@@ -21578,6 +21633,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Η εντολή επαναφοράς από την αναμονή θα σταλεί πολλές φορές."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr ""
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21635,6 +21694,16 @@ msgstr "Το ύψος της εικόνας. Η είσοδος θα κλιμακ
 msgid "The loopthrough setting is wrong."
 msgstr "Λανθασμένη ρύθμιση loopthrough."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr ""
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr ""
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Ο φάκελος λογότυπων υπάρχει ήδη και πρέπει να αφαιρεθεί. Θέλετε να συνεχίσετε;"
 
@@ -21655,6 +21724,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Τα αποτελέσματα έχουν γραφεί στο %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr ""
+
 msgid "The saved PIN was cleared."
 msgstr "Έγινε εκκαθάριση του αποθηκευμένου PIN."
 
@@ -21664,6 +21736,12 @@ msgid ""
 msgstr ""
 "Το επιλεγμένο κανάλι δεν υποστηρίζει VPS για χειροκίνητα ρυθμισμένους χρονοδιακόπτες.\n"
 " Θέλετε σίγουρα να ενεργοποιηθεί;"
+
+msgid "The selected device is not a supported removable block device."
+msgstr ""
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr ""
 
 msgid "The service list is reloaded."
 msgstr "Η λίστα υπηρεσιών επαναφορτώθηκε."
@@ -22847,6 +22925,12 @@ msgstr "Ουκρανία"
 msgid "Ukrainian"
 msgstr "Ουκρανικά"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr ""
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr ""
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr ""
@@ -22863,6 +22947,9 @@ msgid "Unable to open tuner (%d)"
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
+msgstr ""
+
+msgid "Unable to remove the obsolete additional STARTUP files."
 msgstr ""
 
 msgid "Unable to start the DAB+ feed"
@@ -24304,7 +24391,7 @@ msgstr "Όταν ο κέρσορας εισόδου φτάνει σε αυτό �
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Όταν ο δέκτης επανέρχεται από την κοινή ή τη βαθιά αναμονή, θα σταλεί μία εντολή στην TV να επανέλθει επίσης από την αναμονή."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
 msgstr ""
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
@@ -25523,6 +25610,15 @@ msgstr "ναι (διατήρηση των feeds)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Προσθήκη περισσότερων θέσεων"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Πιέστε τα πλήκτρα ΕΠΑΝΩ/ΚΑΤΩ για επιλογή μίας θέσης και το ΟΚ ή το ΠΡΑΣΙΝΟ για επανεκκίνηση σε αυτό το image. Αν είναι διαθέσιμο, το ΚΙΤΡΙΝΟ θα διαγράψει ή θα κάνει εκκαθάριση του image. Ένα διαγραμμένο image μπορεί να επανέλθει με το ΜΠΛΕ πλήκτρο. Ένα εκκαθαρισμένο image αφαιρείται εντελώς και είναι αδύνατη η επαναφορά του!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Πιέστε τα πλήκτρα ΕΠΑΝΩ/ΚΑΤΩ για επιλογή θέσης, έπειτα το ΟΚ ή το ΠΡΑΣΙΝΟ για επανεκκίνηση στο επιλεγμένο image. Εάν είναι διαθέσιμο, το ΚΙΤΡΙΝΟ θα απενεργοποιήσει την πολλαπλή εκκίνηση, θα διαγράψει ή θα εκκαθαρίσει το επιλεγμένο image. Πιέστε το ΜΠΛΕ για προσθήκη περισσότερων θέσεων."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "Ολοκληρώθηκαν %d από %d πηγές: τα πακέτα πηγών που απέτυχαν έχουν διατηρηθεί"
@@ -25696,8 +25792,8 @@ msgstr "®"
 #~ msgid "DVDPlayer"
 #~ msgstr "Αναπαραγωγός DVD"
 
-msgid "Common Settings"
-msgstr "Κοινές ρυθμίσεις"
+#~ msgid "Common Settings"
+#~ msgstr "Κοινές ρυθμίσεις"
 
 #~ msgid ""
 #~ "Do you really want to restart OSCam?\n"
