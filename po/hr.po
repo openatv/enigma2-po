@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-12 16:19+0000\n"
+"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"PO-Revision-Date: 2026-09-26 08:39+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hr/>\n"
 "Language: hr\n"
@@ -899,6 +899,10 @@ msgstr[1] "%d Godine"
 msgstr[2] "%d Godine"
 
 #, python-format
+msgid "%d additional slots have been created.\n"
+msgstr "Kreirano je %d dodatnih mjesta.\n"
+
+#, python-format
 msgid "%d core"
 msgid_plural "%d cores"
 msgstr[0] "%d jezgra"
@@ -945,6 +949,10 @@ msgid_plural "%d networks found."
 msgstr[0] "Pronađena %d mreža."
 msgstr[1] "Pronađeno %d mreža."
 msgstr[2] "Pronađeno %d mreža."
+
+#, python-format
+msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
+msgstr "%%%d zastarjeli STARTUP datoteke proizvođača bit će zamijenjeni ili uklonjeni."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -2105,9 +2113,6 @@ msgstr "Dodavanje odabrane mape u oznaku"
 msgid "Add legacy LEFT/RIGHT actions"
 msgstr "Dodavanje akcija zaostatka LIJEVO/DESNO"
 
-msgid "Add more slots"
-msgstr "Dodaj još utora"
-
 msgid "Add new CCcam line"
 msgstr "Dodaj novi CCcam red"
 
@@ -2116,6 +2121,9 @@ msgstr "Dodaj novi Newcamd red"
 
 msgid "Add new tag"
 msgstr "Dodaj novu oznaku"
+
+msgid "Add or change additional slots"
+msgstr "Dodaj ili promijeni dodatne utore"
 
 msgid "Add provider"
 msgstr "Dodavanje davatelja usluga"
@@ -2198,6 +2206,9 @@ msgstr "Dodatne opcije motora omogućuju vam unos detalja iz specifikacija vaše
 #, python-format
 msgid "Additional rotor cable from %s"
 msgstr "Dodatni rotor kabel od %s"
+
+msgid "Additional slots cannot be changed while the receiver is running from one of them."
+msgstr "Dodatni utori se ne mogu mijenjati dok prijemnik radi iz jednog od njih."
 
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Podesite postavke boja tako da su sve sjene boja prepoznatljive, tako da izgledaju što zasićenije. Ako ste zadovoljni rezultatom, pritisnite 'OK' da zatvorite postavku finog videozapisa ili upotrijebite numeričke tipke za odabir drugih testnih zaslona."
@@ -2324,6 +2335,10 @@ msgstr "Svi Kanali"
 
 msgid "All ages"
 msgstr "Sav uzrast"
+
+#, python-format
+msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
+msgstr "Svi podaci na odabranom uređaju bit će izbrisani. Želiš li napraviti jednu zajedničku podatkovnu particiju s %d dodatnih MultiBoot mjesta, 512 MiB swap particije i kernel za unutarnji utor 1?"
 
 msgid "All events down"
 msgstr "Svi događaji nadole"
@@ -4090,6 +4105,9 @@ msgstr "Promijeni postavke ponavljanja i odlaganja?"
 msgid "Change skin"
 msgstr "Promijeni skin"
 
+msgid "Change slots"
+msgstr "Promijeni utore"
+
 msgid "Change step size"
 msgstr "Promijeni veličinu koraka"
 
@@ -4696,6 +4714,9 @@ msgstr "Zajedničke Postavke Sučelja"
 
 msgid "Common Setup Actions"
 msgstr "Opće Radnje Podešavanja"
+
+msgid "Common settings"
+msgstr "Uobičajene postavke"
 
 msgid "Comoros"
 msgstr "Comoros"
@@ -11876,6 +11897,15 @@ msgstr "Ručni uvoz iz rezervnog tunera"
 msgid "Manufacturer"
 msgstr "Proizvođač"
 
+msgid "Manufacturer slot 1 does not provide suitable STARTUP files."
+msgstr "Proizvođač utor 1 ne pruža odgovarajuće STARTUP datoteke."
+
+msgid "Manufacturer slot 1 has no usable STARTUP command with a kernel device."
+msgstr "Proizvođač utor 1 nema upotrebljivu STARTUP naredbu s kernel uređajem."
+
+msgid "Manufacturer slot 1 was not found and cannot be used as the shared kernel template."
+msgstr "Proizvođač utor 1 nije pronađen i ne može se koristiti kao predložak zajedničkog kernela."
+
 msgid "Manx"
 msgstr "Manx"
 
@@ -13163,6 +13193,9 @@ msgstr "Nijedan TS snimač nije dostupan"
 msgid "No active channel found."
 msgstr "Nije pronađen aktivni kanal."
 
+msgid "No additional slots have been planned."
+msgstr "Nisu planirani nikakvi dodatni utori."
+
 msgid "No age block"
 msgstr "Nema starosnog ograničenja"
 
@@ -13343,6 +13376,9 @@ msgstr "Nijedan valjani DAB+ feed nije konfiguriran. Provjeri /etc/enigma2/dab.x
 
 msgid "No valid device detected - Press OK"
 msgstr "Nije otkriven valjani uređaj - Pritisnite OK"
+
+msgid "No valid manufacturer MultiBoot slots were found."
+msgstr "Nije pronađen nijedan valjani MultiBoot utor proizvođača."
 
 #, python-format
 msgid "No valid mount for '%s' found!"
@@ -14388,6 +14424,12 @@ msgstr "Trajno ukloniti sve izbrisane stavke"
 msgid "Permanently remove the MultiBoot files?"
 msgstr "Trajno ukloniti MultiBoot datoteke?"
 
+msgid "Permanently wipe the highlighted slot"
+msgstr "Trajno obriši označeni utor"
+
+msgid "Permanently wipe this slot? All files in the slot will be deleted and cannot be restored."
+msgstr "Trajno obrisati ovaj utor? Sve datoteke u utoru bit će izbrisane i neće ih se moći vratiti."
+
 msgid "Permissions"
 msgstr "Dozvole"
 
@@ -15073,6 +15115,12 @@ msgstr "Predškolski"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Pritisni '0' da bi preklopili PiP režim"
 
+msgid "Press BLUE to add more slots."
+msgstr "Pritisni PLAVO za dodavanje više mjesta."
+
+msgid "Press BLUE to change the additional slots."
+msgstr "Pritisni PLAVO za promjenu dodatnih mjesta."
+
 msgid "Press EXIT to close."
 msgstr "Pritisni EXIT da bi zatvorili."
 
@@ -15159,11 +15207,11 @@ msgstr "Pritisni ОК da bi koristili ovaj jezik.  [%s]"
 msgid "Press OK to use this locale.  [%s]"
 msgstr "Pritisni OK da bi koristili ovaj lokalni standard.  [%s]"
 
-msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
-msgstr "Pritisni GORE/DOLJE da bi odabrali utor i pritisni OK ili ZELENA da bi ponovo pokrenuli sa tom slikom. ŽUTA briše odabranu sliku. Izbrisana slika se može vratiti pomoću PLAVOG dugmeta. Obrisana slika je potpuno uklonjena i nemože se vratiti u predhodno stanje!"
+msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. Press YELLOW to delete the selected image or hold YELLOW to permanently wipe it. A deleted image can be restored with BLUE, but a wiped image cannot. Press INFO to show or hide empty slots."
+msgstr "Pritisnite tipke GORE/DOLJE za odabir utora i pritisnite OK ili ZELENU da se ponovno pokrene taj utor. Pritisnite ŽUTU za brisanje odabrane slike ili držite ŽUTU za trajno brisanje. Obnoviti izbrisanu sliku možete s PLAVOM, ali obrisanu sliku ne možete. Pritisnite INFO za prikaz ili skrivanje praznih utora."
 
-msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
-msgstr "Pritisnite tipke GORE/DOLJE za odabir priključka, zatim pritisnite OK ili ZELENU tipku za ponovno pokretanje u toj slici. Ako je dostupno, ŽUTA će onemogućiti Multiboot, izbrisati ili obrisati odabranu sliku. Pritisnite PLAVU tipku za dodavanje više priključaka."
+msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot."
+msgstr "Pritisni tipke GORE/DOLJE za odabir utora, zatim pritisni OK ili ZELENO za ponovno pokretanje u tom utoru. Ako je dostupno, ŽUTO će onemogućiti MultiBoot, izbrisati ili očistiti odabrani utor."
 
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr "Pritisni ovo dugme da bi oponašali dugačko pritiskanje dugmeta pritisnutog poslije toga (ovo također zamjenjuje sve druge radnje dodjeljene dugmetu za emulaciju)."
@@ -18390,6 +18438,10 @@ msgid "Select/Zap to the selected service"
 msgstr "Odaberi/Vrati na odabranoj usluzi"
 
 #, python-format
+msgid "Selected device: %s"
+msgstr "Odabrani uređaj: %s"
+
+#, python-format
 msgid ""
 "Selected settings list:\n"
 "\n"
@@ -19604,6 +19656,9 @@ msgstr "Prikaži obaviještenja kada uvoz kanala nije bio uspješan"
 
 msgid "Show notification when import channels was successful"
 msgstr "Prikaži obaviještenja kada su kanali uvoza bili uspješni"
+
+msgid "Show or hide empty slots"
+msgstr "Prikaži ili sakrij prazna mjesta"
 
 msgid "Show or hide the extended description. This functionality may be skin dependent."
 msgstr "Prikaži ili sakrij prošireni opis. Ova funkcionalnost može ovisiti o skinu."
@@ -21658,6 +21713,10 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "Naredba za buđenje iz pripravnog načina bit će poslana više puta."
 
+#, python-format
+msgid "The custom mount point for '%s' is empty!"
+msgstr "Prilagođena točka montiranja za '%s' je prazna!"
+
 msgid ""
 "The default backup selection cannot be changed.\n"
 "Please use the 'additional' and 'excluded' backup selection."
@@ -21715,6 +21774,16 @@ msgstr "Visina slike. Ulaz će se skalirati kako bi odgovarao ovoj vrijednosti."
 msgid "The loopthrough setting is wrong."
 msgstr "Postavka petlje je pogrešna."
 
+msgid "The manufacturer STARTUP device cannot be mounted for inspection."
+msgstr "Uređaj proizvođača STARTUP ne može se montirati za pregled."
+
+msgid "The manufacturer STARTUP device was not found."
+msgstr "Uređaj proizvođača STARTUP nije pronađen."
+
+#, python-format
+msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
+msgstr "Naziv datoteke proizvođača STARTUP '%s' ne može se sigurno proširiti."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Direktorij picon već postoji i mora se ukloniti. Želite li nastaviti?"
 
@@ -21738,6 +21807,9 @@ msgstr ""
 msgid "The results have been written to %s."
 msgstr "Rezultati su zapisani na %s."
 
+msgid "The root subdirectory in the manufacturer STARTUP file cannot be safely extended."
+msgstr "Glavni poddirektorij u STARTUP datoteci proizvođača ne može se sigurno proširiti."
+
 msgid "The saved PIN was cleared."
 msgstr "Spremljeni PIN je izbrisan."
 
@@ -21747,6 +21819,12 @@ msgid ""
 msgstr ""
 "Odabrani kanal ne podržava VPS za ručno programirane mjerače vremena!\n"
 " Želite li stvarno omogućiti VPS?"
+
+msgid "The selected device is not a supported removable block device."
+msgstr "Odabrani uređaj nije podržani prijenosni blok uređaj."
+
+msgid "The selected device is too small. At least 2561 MiB is required."
+msgstr "Odabrani uređaj je premalen. Potrebno je najmanje 2561 MiB."
 
 msgid "The service list is reloaded."
 msgstr "Popis usluga se ponovno učitava."
@@ -22931,6 +23009,12 @@ msgstr "Ukraine"
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
+msgid "Unable to create the additional STARTUP files."
+msgstr "Nije moguće stvoriti dodatne STARTUP datoteke."
+
+msgid "Unable to create the new manufacturer STARTUP files."
+msgstr "Ne mogu stvoriti nove STARTUP datoteke proizvođača."
+
 #, python-format
 msgid "Unable to inherit the User Band for LNB %d: %s."
 msgstr "Nije moguće naslijediti korisnički pojas za LNB %d: %s."
@@ -22948,6 +23032,9 @@ msgstr "Ne mogu otvoriti tuner (%d)"
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Ne mogu registrirati DAB+ transponder"
+
+msgid "Unable to remove the obsolete additional STARTUP files."
+msgstr "Nije moguće ukloniti zastarjele dodatne STARTUP datoteke."
 
 msgid "Unable to start the DAB+ feed"
 msgstr "Ne mogu pokrenuti DAB+ prijenos"
@@ -24388,8 +24475,8 @@ msgstr "Kada pokazivač za unos dosegne ovu točku (postotak širine, s obje str
 msgid "When the receiver wakes from Standby or Deep Standby it will send a command to the TV to bring it out of Standby."
 msgstr "Kada prijemnik izađe iz načina mirovanja ili dubokog mirovanja, poslat će naredbu televizoru da izađe iz načina mirovanja."
 
-msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
-msgstr "Kada se prijamnik probudi iz pripravnog sranja, pošalji aktivni izvor, putanju streama i naredbe za usmjeravanje tako da TV prebaci na HDMI ulaz priključen na prijamnik."
+msgid "When the receiver wakes from Standby, announce it as the active source so the TV switches to the connected HDMI input."
+msgstr "Kad se prijemnik probudi iz stanja pripravnosti, najavi ga kao aktivni izvor kako bi TV prešao na spojeni HDMI ulaz."
 
 msgid "When the red box is correctly visible press the GREEN button to save the settings and exit."
 msgstr "Kada je crveni tuner ispravno vidljiv, pritisnite ZELENU tipku za spremanje postavki i izlaz."
@@ -25608,6 +25695,18 @@ msgstr "da (zadrži fidove)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Add more slots"
+#~ msgstr "Dodaj još utora"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
+#~ msgstr "Pritisni GORE/DOLJE da bi odabrali utor i pritisni OK ili ZELENA da bi ponovo pokrenuli sa tom slikom. ŽUTA briše odabranu sliku. Izbrisana slika se može vratiti pomoću PLAVOG dugmeta. Obrisana slika je potpuno uklonjena i nemože se vratiti u predhodno stanje!"
+
+#~ msgid "Press the UP/DOWN buttons to select a slot, then press OK or GREEN to reboot into that slot. If available, YELLOW will disable MultiBoot, delete, or wipe the selected slot. Press BLUE to add more slots."
+#~ msgstr "Pritisnite tipke GORE/DOLJE za odabir priključka, zatim pritisnite OK ili ZELENU tipku za ponovno pokretanje u toj slici. Ako je dostupno, ŽUTA će onemogućiti Multiboot, izbrisati ili obrisati odabranu sliku. Pritisnite PLAVU tipku za dodavanje više priključaka."
+
+#~ msgid "When the receiver wakes from Standby, send active source, stream path and routing commands so the TV switches to the HDMI input connected to the receiver."
+#~ msgstr "Kada se prijamnik probudi iz pripravnog sranja, pošalji aktivni izvor, putanju streama i naredbe za usmjeravanje tako da TV prebaci na HDMI ulaz priključen na prijamnik."
+
 #, python-format
 #~ msgid "%d of %d feeds completed; failed feed bouquets were kept"
 #~ msgstr "%d od %d feedova dovršeno; neuspjeli feed buketi su spremljeni"
@@ -25830,8 +25929,8 @@ msgstr "®"
 #~ msgid "C/T input switching: external 5V coax switch"
 #~ msgstr "Prebacivanje C/T ulaza: vanjski 5V koaksijalni prekidač"
 
-msgid "Common Settings"
-msgstr "Modul Podešavanja"
+#~ msgid "Common Settings"
+#~ msgstr "Modul Podešavanja"
 
 #~ msgid "DVB-C and DVB-T/T2 share this input. When both are enabled, Enigma2 uses 5V to control the external coax switch."
 #~ msgstr "DVB-C i DVB-T/T2 dijele ovaj ulaz. Kada su oba omogućena, Enigma2 koristi 5V za upravljanje vanjskim koaksijalnim prekidačem."
