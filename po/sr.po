@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-09-28 08:54+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
@@ -13199,6 +13199,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "Provera spajanja Interneta"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "Bez Imena"
 
@@ -14845,6 +14848,9 @@ msgstr "Molimo vas da sačekate dok se lokali/jezici brišu..."
 msgid "Please wait while scanning is in progress..."
 msgstr "Sačekajte dok je skeniranje u toku..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Sačekajte dok se podaci izdvoje..."
 
@@ -14874,6 +14880,9 @@ msgstr "Molimo vas da sačekate dok se dodatak menja."
 
 msgid "Please wait while the plugin is updated."
 msgstr "Molimo vas da sačekate dok se dodatak ažurira."
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Sačekajte dok proverimo vaše instalirane plugin-ove..."
@@ -15477,6 +15486,9 @@ msgstr "Očisti sve osim trenutnih i stalnih lokalnih/jezika. Dodajte trenutni l
 
 msgid "Purging all unused locales/languages..."
 msgstr "Čišćenje svih neiskorišćenih lokalnih/jezika..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "Ljubičasta"
@@ -21810,8 +21822,15 @@ msgstr "Postavka petlje je pogrešna."
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "Proizvođač STARTUP uređaj se ne može montirati za inspekciju."
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
 msgstr "Proizvođač STARTUP uređaja nije pronađen."
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
+msgstr ""
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -23071,6 +23090,13 @@ msgstr "Nije moguće inicijalizovati Kexec MultiBoot!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Ne mogu da otvorim tjuner (%d)"
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
+msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Ne mogu da registrujem DAB+ transponder"
