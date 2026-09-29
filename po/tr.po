@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
-"PO-Revision-Date: 2026-09-27 08:51+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"PO-Revision-Date: 2026-09-28 08:54+0000\n"
 "Last-Translator: mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -1273,6 +1273,10 @@ msgstr "%s. (En düşük)"
 #, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
+
+#, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr "%s: buket temizlenemedi"
 
 #, python-format
 msgid "%s: bouquet could not be written"
@@ -2562,6 +2566,12 @@ msgstr "Bir RTL-SDR alıcısı algılandı. İsteğe bağlı DAB+ USB çalışma
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Televizyonun mevcut durumunu yakalamaya çalışılır. Durum mesajları yanlış veya eksikse, alıcı beklenmedik şekilde yanıt verebilir. Aksi takdirde, alıcının farklı çalışma koşullarını daha etkili bir şekilde ele almasına yardımcı olur."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr "Mevcut bir zamanlayıcı, talep edilen süre boyunca bu kanalı halihazırda kaydetmektedir."
+
+msgid "An instant recording is already running on this service."
+msgstr "Bu kanalda halihazırda bir anlık kayıt devam ediyor."
 
 #
 msgid "An unknown error occurred!"
@@ -5565,10 +5575,6 @@ msgid "Could not open the file %s!"
 msgstr "%s dosyası açılamadı!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Çakışan zamanlayıcı: %s nedeniyle kayıt yapılamadı"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Geçersiz kanal: %s yüzünden kayıt yapılamadı"
 
@@ -5972,6 +5978,9 @@ msgstr "DAB+ taraması başarısız oldu; mevcut buketler korundu."
 #, python-format
 msgid "DAB+ service information for '%s'"
 msgstr "'%s' için DAB+ kanal bilgisi"
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
+msgstr "DAB+ sinyali algılandı; FIC hizmet verisi bekleniyor..."
 
 msgid "DAC"
 msgstr "DAC"
@@ -6977,6 +6986,14 @@ msgstr "Çoklu Önyükleme seçeneğini devre dışı bırak"
 
 msgid "Disable timer"
 msgstr "Zamanlayıcıyı devre dışı bırak"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr "'%s' zamanlayıcısı devre dışı bırakılsın mı?"
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr "Zamanlayıcıyı devre dışı bırak: '%s'"
 
 #
 msgid "Disabled"
@@ -11791,6 +11808,10 @@ msgstr "Hata ayıklama günlük boyutunu sınırla (MB)"
 msgid "Limit east"
 msgstr "Doğu limiti"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr "Anında kaydı %s'ye kadar sınırla"
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Dosya isimlerinde kullanılabilecek karakterleri (7 bit) ASCII ile sınırlandırın. Bu, sınırlı karakter setine sahip işletim sistemleri veya dosya sistemleriyle uyumluluğu sağlar."
 
@@ -12258,6 +12279,9 @@ msgstr "Vurgulananları yönet %s"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Vurgulanan %s / %s listesi yönetimi"
+
+msgid "Manage timer conflicts"
+msgstr "Zamanlayıcı çakışmalarını yönetin"
 
 msgid "Manage your online update files"
 msgstr "Çevrimiçi güncelleme dosyalarınızı yönetin"
@@ -16437,11 +16461,6 @@ msgstr "Kayıt işlemi başladı, zaman kaydırma işlemi şimdi durduruluyor."
 msgid "Recording stopped"
 msgstr "Kayıt işlemi durduruldu"
 
-#
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Çakışan zamanlayıcı nedeniyle kayıt süresi sınırlı:%s"
-
 msgid "Recording tuning failed"
 msgstr "Kayıt ayarı başarısız oldu"
 
@@ -16765,6 +16784,9 @@ msgstr "Seçilen geçerli başlığı kaldır"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Seçilen klasörü yer imlerinden kaldır"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr "Taranan DAB+ çoklu yayınlarından önceden kaydedilmiş kanalları kaldırın. Bir çoklu yayın geçici olarak kullanılamadığında kanalları korumak için bu seçeneği devre dışı bırakın."
 
 msgid "Remove service from AutoCam"
 msgstr "AutoCam içinden kanalı kaldır"
@@ -21387,6 +21409,12 @@ msgstr "Baştan başla"
 msgid "Start instant recording"
 msgstr "Anında kayıt başlat"
 
+msgid "Start instant recording and set duration"
+msgstr "Anında kaydı başlatın ve süreyi ayarlayın"
+
+msgid "Start instant recording and set end time"
+msgstr "Anında kaydı başlatın ve bitiş saatini ayarlayın"
+
 msgid "Start instant recording?"
 msgstr "Anında kayıt başlatılsın mı?"
 
@@ -21566,6 +21594,10 @@ msgstr "Kaydı durdur ve sil"
 
 msgid "Stop recording now"
 msgstr "Kaydı şimdi durdur"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr "Kaydı durdur: '%s'"
 
 msgid "Stop service on return to movie list"
 msgstr "Film listesine geri dönüldüğünde kanalı durdur"
@@ -22595,6 +22627,12 @@ msgstr "Konumlandırıcı tuner şu anda kullanılamıyor. Bu tuneri kullanan ka
 msgid "The process will take approximately %d minutes to complete."
 msgstr "İşlemin tamamlanması yaklaşık %d dakika sürecektir."
 
+msgid "The recording end time has already passed."
+msgstr "Kayıt bitiş zamanı çoktan geçti."
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr "İstenen kayıt, diğer zamanlayıcılarla çakışıyor. Ne yapmak istiyorsunuz?"
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22991,6 +23029,9 @@ msgstr "Bu seçenek sınırlı sayıda ayrık değerin sonucu olan yanlış diji
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Bu seçenek resim büyütülürken kullanılan resim keskinliğini ayarlar."
+
+msgid "This recording has already ended."
+msgstr "Bu kayıt zaten sona erdi."
 
 #
 msgid "This service is protected by a parental control PIN!"
@@ -26693,6 +26734,15 @@ msgstr "evet (kaynakları tut)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Çakışan zamanlayıcı: %s nedeniyle kayıt yapılamadı"
+
+#
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Çakışan zamanlayıcı nedeniyle kayıt süresi sınırlı:%s"
 
 #~ msgid "Add more slots"
 #~ msgstr "Daha fazla yuva ekle"
