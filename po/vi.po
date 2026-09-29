@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-16 18:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1279,6 +1279,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2504,6 +2508,12 @@ msgid "An RTL-SDR receiver was detected. The optional DAB+ USB runtime is being 
 msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
+msgstr ""
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
 msgstr ""
 
 msgid "An unknown error occurred!"
@@ -5416,10 +5426,6 @@ msgid "Could not open the file %s!"
 msgstr "Không thể mở tệp% s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Không thể ghi do bộ đếm thời gian xung đột%s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Không thể ghi do dịch vụ không hợp lệ%s"
 
@@ -5807,6 +5813,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6788,6 +6797,14 @@ msgstr ""
 
 msgid "Disable timer"
 msgstr "Tắt bộ hẹn giờ"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Cho phép/không cho phép"
@@ -11451,6 +11468,10 @@ msgstr "Giới hạn kích thước nhật ký gỡ lỗi (MB)"
 msgid "Limit east"
 msgstr "Giới hạn phía đông"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Giới hạn các ký tự có thể được sử dụng trong việc ghi tên tệp thành (7 bit) ascii. Điều này đảm bảo khả năng tương thích với các hệ điều hành hoặc hệ thống tệp với các bộ ký tự giới hạn."
 
@@ -11908,6 +11929,9 @@ msgstr ""
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
+msgstr ""
+
+msgid "Manage timer conflicts"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -15966,10 +15990,6 @@ msgstr "Ghi lại bắt đầu! Dừng timeshift ngay bây giờ ..."
 msgid "Recording stopped"
 msgstr "Kiểu ghi âm"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Ghi lại thời gian giới hạn do bộ đếm thời gian xung đột%s"
-
 #, fuzzy
 msgid "Recording tuning failed"
 msgstr "Cài đặt ghi âm"
@@ -16280,6 +16300,9 @@ msgstr "Xóa tiêu đề hiện được chọn"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Xóa thư mục đã chọn khỏi dấu trang"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr ""
@@ -20767,6 +20790,12 @@ msgstr "Bắt đầu từ đầu"
 msgid "Start instant recording"
 msgstr "Bắt đầu ghi âm ngay lập tức"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr ""
 
@@ -20934,6 +20963,10 @@ msgstr "Dừng ghi và xóa"
 
 msgid "Stop recording now"
 msgstr "Dừng ghi âm ngay"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Dừng dịch vụ khi quay lại danh sách phim"
@@ -21923,6 +21956,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr ""
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22313,6 +22352,9 @@ msgstr "Tùy chọn này đặt việc triệt tiêu các đường viền kỹ 
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Tùy chọn này thiết lập độ sắc nét của hình ảnh, được sử dụng khi hình ảnh được nâng cấp."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "dịch vụ này được bảo vệ bởi pin kiểm soát của phụ huynh"
@@ -25823,6 +25865,14 @@ msgstr "có (giữ thức ăn)"
 
 msgid "®"
 msgstr ""
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Không thể ghi do bộ đếm thời gian xung đột%s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Ghi lại thời gian giới hạn do bộ đếm thời gian xung đột%s"
 
 #~ msgid "ImageWizard"
 #~ msgstr "Hình ảnh"
