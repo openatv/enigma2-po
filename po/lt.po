@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-08-16 18:13+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -13184,6 +13184,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr ""
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr ""
 
@@ -14830,6 +14833,9 @@ msgstr ""
 msgid "Please wait while scanning is in progress..."
 msgstr "Prašome laukti kol vyksta paieška..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Palaukite, kol duomenys bus išgauti..."
 
@@ -14858,6 +14864,9 @@ msgid "Please wait while the plugin is replaced."
 msgstr ""
 
 msgid "Please wait while the plugin is updated."
+msgstr ""
+
+msgid "Please wait while unused locales/languages are purged..."
 msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
@@ -15462,6 +15471,9 @@ msgstr "Išvalo visas, išskyrus dabartines ir nuolatines lokales / kalbas.  Įt
 
 msgid "Purging all unused locales/languages..."
 msgstr "Išvalomos visos nepanaudotos lokalės / kalbos..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "violetinė"
@@ -21777,7 +21789,14 @@ msgstr "Ciklo parametras neteisingas."
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr ""
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
 msgstr ""
 
 #, python-format
@@ -23034,6 +23053,13 @@ msgstr ""
 
 #, python-format
 msgid "Unable to open tuner (%d)"
+msgstr ""
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"

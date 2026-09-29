@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-09-28 11:46+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -13161,6 +13161,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "没有互联网连接"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "无名"
 
@@ -14807,6 +14810,9 @@ msgstr "正在清除区域设置/语言，请稍候..."
 msgid "Please wait while scanning is in progress..."
 msgstr "扫描正在进行，请稍等..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "正在提取数据，请稍候..."
 
@@ -14834,6 +14840,9 @@ msgstr "正在更换插件，请稍候。"
 
 msgid "Please wait while the plugin is updated."
 msgstr "正在更新插件，请稍候。"
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "正在检测已安装的插件，请稍等..."
@@ -15437,6 +15446,9 @@ msgstr "清除除当前和永久区域设置/语言之外的所有区域设置/�
 
 msgid "Purging all unused locales/languages..."
 msgstr "正在清除所有未使用的区域设置/语言..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "紫色"
@@ -21763,8 +21775,15 @@ msgstr "环通设置错误。"
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "无法挂载厂商 STARTUP 设备以进行检查。"
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
 msgstr "未找到厂商 STARTUP 设备。"
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
+msgstr ""
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -23023,6 +23042,13 @@ msgstr "无法初始化 Kexec 多系统启动！"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "无法打开调谐器（%d）"
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
+msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "无法注册 DAB+ 转发器"

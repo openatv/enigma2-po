@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
-"PO-Revision-Date: 2026-09-28 14:37+0000\n"
-"Last-Translator: Makumbo <tokioplo@web.de>\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
+"PO-Revision-Date: 2026-09-29 21:10+0000\n"
+"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -13777,6 +13777,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "Keine Internetverbindung"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "Unbenannt"
 
@@ -15545,6 +15548,9 @@ msgstr "Sprachregion/Sprache wird bereinigt. Bitte warten …"
 msgid "Please wait while scanning is in progress..."
 msgstr "Der Suchvorgang läuft. Bitte warten …"
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Daten werden entpackt. Bitte warten …"
 
@@ -15572,6 +15578,9 @@ msgstr "Das Plugin wird ersetzt. Bitte warten …"
 
 msgid "Please wait while the plugin is updated."
 msgstr "Das Plugin wird aktualisiert. Bitte warten …"
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Die installierten Plugins werden geprüft. Bitte warten …"
@@ -16220,6 +16229,9 @@ msgstr "Alle Sprachen mit Ausnahme der aktuellen und permanenten Sprachregionen 
 
 msgid "Purging all unused locales/languages..."
 msgstr "Alle nicht verwendeten Sprachregionen werden gelöscht …"
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "Lila"
@@ -22873,8 +22885,15 @@ msgstr "Die Durchschleifeinstellung ist falsch!"
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "Das STARTUP-Gerät des Herstellers kann nicht zu Inspektionszwecken montiert werden."
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
 msgstr "Das STARTUP-Gerät des Herstellers wurde nicht gefunden."
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
+msgstr ""
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -22926,7 +22945,7 @@ msgstr ""
 "VPS trotzdem aktivieren?"
 
 msgid "The selected device is not a supported removable block device."
-msgstr ""
+msgstr "Das ausgewählte Gerät ist kein unterstützter Wechseldatenträger."
 
 msgid "The selected device is too small. At least 2561 MiB is required."
 msgstr "Das ausgewählte Gerät ist zu klein. Es werden mindestens 256 MiB benötigt."
@@ -24217,6 +24236,13 @@ msgstr "Kexec MultiBoot kann nicht initialisiert werden!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Tuner (%d) kann nicht geöffnet werden"
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
+msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Der DAB+-Transponder konnte nicht registriert werden"

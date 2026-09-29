@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-09-28 08:54+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
@@ -13157,6 +13157,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "Nessuna connessione Internet"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "Nessun nome"
 
@@ -14803,6 +14806,9 @@ msgstr "Attendi rimozione completa delle localizzazioni/lingue..."
 msgid "Please wait while scanning is in progress..."
 msgstr "Attendi mentre la scansione è in corso..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Attendi estrazione dei dati..."
 
@@ -14830,6 +14836,9 @@ msgstr "Attendi mentre il plugin viene sostituito."
 
 msgid "Please wait while the plugin is updated."
 msgstr "Attendi mentre il plugin viene aggiornato."
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Attendi mentre controllo i plugin installati..."
@@ -15433,6 +15442,9 @@ msgstr "Elimina tutte le lingue tranne le regioni linguistiche attuali e permane
 
 msgid "Purging all unused locales/languages..."
 msgstr "Eliminazione di tutte le impostazioni di localizzazione/lingua inusate..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "viola"
@@ -21759,8 +21771,15 @@ msgstr "Configurazione 'in cascata da' errata."
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "Il dispositivo STARTUP del produttore non può essere montato per l'ispezione."
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
 msgstr "Il dispositivo STARTUP del produttore non è stato trovato."
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
+msgstr ""
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -23019,6 +23038,13 @@ msgstr "Impossibile inizializzare Kexec MultiBoot!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Impossibile aprire il tuner (%d)"
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
+msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Impossibile registrare il transponder DAB+"
