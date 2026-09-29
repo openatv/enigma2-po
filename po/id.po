@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openATV / enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-17 22:31+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/id/>\n"
@@ -1418,6 +1418,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2657,6 +2661,12 @@ msgid "An RTL-SDR receiver was detected. The optional DAB+ USB runtime is being 
 msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
+msgstr ""
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
 msgstr ""
 
 msgid "An unknown error occurred!"
@@ -5590,10 +5600,6 @@ msgid "Could not open the file %s!"
 msgstr "Could not open the file %s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Could not record due to conflicting timer:%s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Could not record due to invalid service:%s"
 
@@ -5980,6 +5986,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6960,6 +6969,14 @@ msgstr ""
 
 msgid "Disable timer"
 msgstr "Matikan pewaktu"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Disabled"
@@ -11668,6 +11685,10 @@ msgstr "Limit debug log size (MB)"
 msgid "Limit east"
 msgstr "Limit east"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 
@@ -12127,6 +12148,9 @@ msgstr ""
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
+msgstr ""
+
+msgid "Manage timer conflicts"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -16217,10 +16241,6 @@ msgstr "Recording started, stopping time shift now."
 msgid "Recording stopped"
 msgstr "Recording type"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Recording time limited due to conflicting timer:%s"
-
 #, fuzzy
 msgid "Recording tuning failed"
 msgstr "Recording Settings"
@@ -16533,6 +16553,9 @@ msgid "Remove currently selected title"
 msgstr "Remove currently selected title"
 
 msgid "Remove highlighted directory from bookmarks"
+msgstr ""
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
 msgstr ""
 
 msgid "Remove service from AutoCam"
@@ -21059,6 +21082,12 @@ msgstr "Start from the beginning"
 msgid "Start instant recording"
 msgstr "Start instant recording"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr ""
 
@@ -21227,6 +21256,10 @@ msgstr "Stop recording and delete"
 
 msgid "Stop recording now"
 msgstr "Stop recording now"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Stop service on return to movie list"
@@ -22223,6 +22256,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr ""
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22625,6 +22664,9 @@ msgstr "This option sets the suppression of false digital contours, that are the
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "This option sets up the picture sharpness, used when the picture is being upscaled."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "This service is protected by a parental control PIN!"
@@ -26159,6 +26201,14 @@ msgstr "yes (keep feeds)"
 
 msgid "®"
 msgstr ""
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Could not record due to conflicting timer:%s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Recording time limited due to conflicting timer:%s"
 
 #~ msgid "ImageWizard"
 #~ msgstr "ImageWizard"
