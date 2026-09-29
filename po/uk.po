@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-09-27 08:51+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
@@ -1322,6 +1322,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr "%s: букет не вдалося написати"
 
@@ -2538,6 +2542,12 @@ msgstr "Виявлено приймач RTL-SDR. Додатковий компо
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Зроблено спробу зафіксувати поточний статус телевізора. Якщо це неможливо через неправильні, або відсутні повідомлення про статус, це може призвести до неочікуваної відповіді приймача. З іншого боку, намагається краще реагувати на різні умови експлуатації."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Виникла невідома помилка!"
@@ -5440,10 +5450,6 @@ msgid "Could not open the file %s!"
 msgstr "Не вдалося відкрити файл %s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Запис неможливий - конфлікт таймерів %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Запис неможливий, канал %s невірний"
 
@@ -5834,6 +5840,9 @@ msgstr "Сканування DAB+ не вдалося; наявні букети
 #, python-format
 msgid "DAB+ service information for '%s'"
 msgstr "Інформація про службу DAB+ для '%s'"
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
+msgstr ""
 
 msgid "DAC"
 msgstr "DAC"
@@ -6801,6 +6810,14 @@ msgstr "Вимкнути опцію MultiBoot"
 
 msgid "Disable timer"
 msgstr "Вимкнути таймер"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Вимкнуто"
@@ -11428,6 +11445,10 @@ msgstr "Обмежити розмір логу налагодження (МБ)"
 msgid "Limit east"
 msgstr "Обмеження на схід"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Обмежте знаки, які можуть використовуватися в записі імен файлів до (7 біт)ASCII. Це забезпечує сумісність з операційними системами або файловими системами з обмеженим набором символів."
 
@@ -11875,6 +11896,9 @@ msgstr "Керувати виділеним %s"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Керувати виділеним %s / списком %s"
+
+msgid "Manage timer conflicts"
+msgstr ""
 
 msgid "Manage your online update files"
 msgstr "Управління файлами онлайн оновлення"
@@ -15854,10 +15878,6 @@ msgstr "Розпочато запис! Зупинка таймшифта ..."
 msgid "Recording stopped"
 msgstr "Запис зупинено"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Час запису обмежено через конфлікт таймера %s"
-
 msgid "Recording tuning failed"
 msgstr "Налаштування запису невдале"
 
@@ -16163,6 +16183,9 @@ msgstr "Видалити вибрану назву"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Видалити вибрану теку зі закладок"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr "Видалити канал з AutoCam"
@@ -20638,6 +20661,12 @@ msgstr "Почати з початку"
 msgid "Start instant recording"
 msgstr "Включення негайного запису"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr "Розпочати негайний запис?"
 
@@ -20804,6 +20833,10 @@ msgstr "Зупинити запис і видалити"
 
 msgid "Stop recording now"
 msgstr "Зупинити запис зараз"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "При поверненні до записів не відтворювати поточний канал"
@@ -21797,6 +21830,12 @@ msgstr "Тюнер позиціонера наразі недоступний. �
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Процес триватиме приблизно %d хвилин."
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22190,6 +22229,9 @@ msgstr "Ця опція встановлює придушення фіктивн
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Ця опція налаштовує різкість зображення, має значення, якщо зображення має бути збільшено."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Цей канал захищений батьківським контролем!"
@@ -25697,6 +25739,14 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Запис неможливий - конфлікт таймерів %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Час запису обмежено через конфлікт таймера %s"
 
 #~ msgid "Add more slots"
 #~ msgstr "Додати більше слотів"
