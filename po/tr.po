@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-09-28 08:54+0000\n"
 "Last-Translator: mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -13650,6 +13650,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "Internet bağlantısı yok"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "İsim Yok"
 
@@ -15381,6 +15384,9 @@ msgstr "Yerel ayarlar/diller temizlenirken lütfen bekleyin..."
 msgid "Please wait while scanning is in progress..."
 msgstr "Tarama işlemi devam ederken lütfen bekleyin..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Veriler ayıklanırken lütfen bekleyin..."
 
@@ -15406,6 +15412,9 @@ msgstr "Lütfen eklenti değiştirilirken bekleyin."
 
 msgid "Please wait while the plugin is updated."
 msgstr "Lütfen eklenti güncellenirken bekleyin."
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Yüklediğiniz eklentileri kontrol ederken lütfen bekleyin..."
@@ -16044,6 +16053,9 @@ msgstr "Geçerli ve kalıcı yerel ayarlar/diller hariç tümünü temizleyin. K
 
 msgid "Purging all unused locales/languages..."
 msgstr "Kullanılmayan tüm yerel ayarlar/diller temizleniyor..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "Mor"
@@ -22610,8 +22622,15 @@ msgstr "Döngüsel geçiş ayarı yanlış."
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "Üreticiye ait STARTUP cihazı, inceleme amacıyla monte edilemez."
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
 msgstr "Üreticiye ait STARTUP cihazı bulunamadı."
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
+msgstr ""
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -23923,6 +23942,13 @@ msgstr "Kexec Çoklu Ön Yükleme başlatılamadı!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Tuner (%d) açılamadı"
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
+msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "DAB+ aktarıcı kaydı yapılamadı"
