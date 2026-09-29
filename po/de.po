@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
-"PO-Revision-Date: 2026-09-27 08:51+0000\n"
-"Last-Translator: Masowick <Demian@gmx.co.uk>\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"PO-Revision-Date: 2026-09-28 14:37+0000\n"
+"Last-Translator: Makumbo <tokioplo@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1301,6 +1301,10 @@ msgstr "%s. (Niedrigste)"
 #, python-format
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
+
+#, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr "%s: Bouquet konnte nicht gelöscht werden"
 
 #, python-format
 msgid "%s: bouquet could not be written"
@@ -2620,6 +2624,12 @@ msgstr "Ein RTL-SDR-Empfänger wurde erkannt. Die optionale DAB+-USB-Laufzeitumg
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Es wird versucht, den aktuellen TV-Status zu erfassen. Sollten Statusmeldungen falsch sein oder fehlen, kann der Receiver unerwartet reagieren. Andererseits wird versucht, auf verschiedene Betriebszustände besser zu reagieren."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr "Ein vorhandener Timer nimmt auf diesem Sender bereits während des gewünschten Zeitraums auf."
+
+msgid "An instant recording is already running on this service."
+msgstr "Auf diesem Sender läuft bereits eine Sofortaufnahme."
 
 msgid "An unknown error occurred!"
 msgstr "Ein unbekannter Fehler ist aufgetreten!"
@@ -5656,10 +5666,6 @@ msgid "Could not open the file %s!"
 msgstr "Die Datei '%s' konnte nicht geöffnet werden!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Aufnahme wegen eines Timerkonflikts mit Timer '%s' nicht möglich!"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Ungültiger Dienst '%s' konnte nicht aufgezeichnet werden!"
 
@@ -6063,6 +6069,9 @@ msgstr "DAB+-Scan fehlgeschlagen; vorhandene Favoriten werden beibehalten."
 #, python-format
 msgid "DAB+ service information for '%s'"
 msgstr "DAB+-Serviceinformationen für '%s'"
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
+msgstr "DAB+-Signal erkannt; Warten auf FIC-Servicedaten …"
 
 msgid "DAC"
 msgstr "DAC"
@@ -7066,6 +7075,14 @@ msgstr "MultiBoot-Option deaktivieren"
 #
 msgid "Disable timer"
 msgstr "Timer deaktivieren"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr "Timer '%s' deaktivieren?"
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr "Timer deaktivieren: '%s'"
 
 #
 msgid "Disabled"
@@ -11889,6 +11906,10 @@ msgstr "Debug-Log-Größenbegrenzung (MB)"
 msgid "Limit east"
 msgstr "Ost-Limit"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr "Sofortaufnahme bis %s begrenzen"
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Bei 'Ja' werden die Zeichen, die in Aufnahmedateinamen (7 Bit ASCII) verwendet werden können, begrenzt. Dies gewährleistet die Kompatibilität mit Betriebssystemen oder Dateisystemen mit begrenztem Zeichenvorrat."
 
@@ -12364,6 +12385,9 @@ msgstr "Markiertes %s verwalten"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Markiertes %s / Liste der %s verwalten"
+
+msgid "Manage timer conflicts"
+msgstr "Timerkonflikte verwalten"
 
 msgid "Manage your online update files"
 msgstr "Verwaltung der Onlineupdatedateien"
@@ -16611,10 +16635,6 @@ msgstr "Aufnahme gestartet! Timeshift wird jetzt gestoppt."
 msgid "Recording stopped"
 msgstr "Aufnahme gestoppt"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Aufnahmezeit wegen eines Timerkonflikts '%s' begrenzt!"
-
 msgid "Recording tuning failed"
 msgstr "Tuner für Aufnahme einstellen ist fehlgeschlagen!"
 
@@ -16942,6 +16962,9 @@ msgstr "Aktuell ausgewählten Titel entfernen"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Ausgewählten Ordner aus Lesezeichen entfernen"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr "Zuvor gespeicherte Dienste aus den gescannten DAB+-Multiplexen entfernen. Diese Option deaktivieren, um Dienste beizubehalten, wenn ein Multiplex vorübergehend nicht verfügbar ist."
 
 msgid "Remove service from AutoCam"
 msgstr "Sender von AutoCam entfernen"
@@ -21651,6 +21674,12 @@ msgstr "Am Anfang starten"
 msgid "Start instant recording"
 msgstr "Sofortaufnahme starten"
 
+msgid "Start instant recording and set duration"
+msgstr "Sofortaufnahme starten und Dauer festlegen"
+
+msgid "Start instant recording and set end time"
+msgstr "Sofortaufnahme starten und Endzeit festlegen"
+
 msgid "Start instant recording?"
 msgstr "Sofortaufnahme starten?"
 
@@ -21825,6 +21854,10 @@ msgstr "Aufnahme beenden und löschen"
 
 msgid "Stop recording now"
 msgstr "Aufnahme jetzt beenden"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr "Aufnahme '%s' beenden"
 
 msgid "Stop service on return to movie list"
 msgstr "Bei Stopp zurück zur Filmauswahl"
@@ -22859,6 +22892,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Es wird ungefähr %d Minuten bis zur Fertigstellung dauern."
 
+msgid "The recording end time has already passed."
+msgstr "Die Endzeit der Aufnahme ist bereits verstrichen."
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr "Die angeforderte Aufnahme steht in Konflikt mit anderen Timern. Was soll geschehen?"
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -23271,6 +23310,9 @@ msgstr "Die Unterdrückung falscher, digitaler Umrisse einstellen. Diese Fehler 
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Die Skalierschärfe einstellen. Dieser Punkt wirkt sich aus, wenn ein Bild vergrößert werden muss."
+
+msgid "This recording has already ended."
+msgstr "Diese Aufnahme ist bereits beendet."
 
 #
 msgid "This service is protected by a parental control PIN!"
@@ -27029,6 +27071,14 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Aufnahme wegen eines Timerkonflikts mit Timer '%s' nicht möglich!"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Aufnahmezeit wegen eines Timerkonflikts '%s' begrenzt!"
 
 #~ msgid "Add more slots"
 #~ msgstr "Weitere Slots hinzufügen"
