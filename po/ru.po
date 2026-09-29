@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-17 05:14+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/ru/>\n"
@@ -1318,6 +1318,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2530,6 +2534,12 @@ msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Предпринята попытка зафиксировать текущий статус ТВ. Если это невозможно из-за неправильных или отсутствующих сообщений о состоянии, это может привести к неожиданному ответу получателя. С другой стороны, старается лучше реагировать на разные условия эксплуатации."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Неизвестная ошибка!"
@@ -5421,10 +5431,6 @@ msgid "Could not open the file %s!"
 msgstr "Не удалось открыть файл %s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Запись невозможна - конфликт таймеров %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Запись невозможна, канал %s не существует"
 
@@ -5808,6 +5814,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6776,6 +6785,14 @@ msgstr "Отключить опцию MultiBoot"
 
 msgid "Disable timer"
 msgstr "Отключить таймер"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Отключено"
@@ -11400,6 +11417,10 @@ msgstr "Ограничить размер лога отладки (Мб)"
 msgid "Limit east"
 msgstr "Ограничение на восток"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Ограничьте символы, которые можно использовать при записи имён файлов, (7 бит) ascii. Это обеспечивает совместимость с операционными системами или файловыми системами с ограниченным набором символов."
 
@@ -11847,6 +11868,9 @@ msgstr "Управлять выделенным %s"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Управление выделенным %s / списком %s"
+
+msgid "Manage timer conflicts"
+msgstr ""
 
 msgid "Manage your online update files"
 msgstr "Управление файлами онлайн обновления"
@@ -15819,10 +15843,6 @@ msgstr "Начата запись! Остановка таймшифта..."
 msgid "Recording stopped"
 msgstr "Запись остановлена"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Время записи ограничено ввиду конфликта таймера %s"
-
 msgid "Recording tuning failed"
 msgstr "Сбой настройки записи"
 
@@ -16128,6 +16148,9 @@ msgstr "Удалить выбранный заголовок"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Удалить выбранную папку из закладок"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr "Удалить канал из AutoCam"
@@ -20600,6 +20623,12 @@ msgstr "Начать с самого начала"
 msgid "Start instant recording"
 msgstr "Запуск немедленной записи"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr "Начать мгновенную запись?"
 
@@ -20766,6 +20795,10 @@ msgstr "Остановить и удалить запись"
 
 msgid "Stop recording now"
 msgstr "Остановить запись сейчас"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "При возврате к записям не запускать текущий канал"
@@ -21757,6 +21790,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Процесс займёт приблизительно %d минут."
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22147,6 +22186,9 @@ msgstr "Эта опция включает подавление ложных ц�
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Этот параметр влияет на резкость изображения при увеличении картинки."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Этот канал защищён пин-кодом!"
@@ -25654,6 +25696,14 @@ msgstr "Да (оставить фиды)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Запись невозможна - конфликт таймеров %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Время записи ограничено ввиду конфликта таймера %s"
 
 #~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
 #~ msgstr "Нажимайте кнопки ВВЕРХ/ВНИЗ, для выбора слота, и нажмите OK или ЗЕЛЁНУЮ кнопку для перезагрузки и запуска этого образа. ЖЁЛТАЯ кнопка, если активна, удалит или сотрёт образ. Удалённый образ можно восстановить СИНЕЙ кнопкой. Стёртый образ удаляется окончательно и восстановить его невозможно!"
