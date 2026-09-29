@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-16 15:58+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -1281,6 +1281,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2501,6 +2505,12 @@ msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Er is een poging gedaan om de TV-status te lezen. Wanneer dit niet mogelijk is door ontbrekende of niet correcte status meldingen zou de ontvanger onverwacht kunnen reageren. Aan de andere kant, zou deze daar door beter kunnen reageren op diverse situaties."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Er is een onbekende fout opgetreden!"
@@ -5503,10 +5513,6 @@ msgid "Could not open the file %s!"
 msgstr "Kon het bestand %s niet openen!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Kon niet opnemen vanwege conflicterende timer %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Kon niet opnemen vanwege een ongeldige service %s"
 
@@ -5890,6 +5896,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6866,6 +6875,14 @@ msgstr "De MultBoot-optie deactiveren"
 
 msgid "Disable timer"
 msgstr "Timer uitschakelen"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Gedeactiveerd"
@@ -11508,6 +11525,10 @@ msgstr "Begrens debug logs op (MB)"
 msgid "Limit east"
 msgstr "Limiet oost"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Indien geactiveerd beperkt u het aantal karakters wat gebruikt wordt voor de namen van de opnames (7 bit ascii). Dit zorgt ervoor dat de compatibiliteit tussen besturings-systemen of bestandssystemen met een beperkte tekenset gewaarborgd is."
 
@@ -11954,6 +11975,9 @@ msgstr "De geselecteerde %s beheren"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "De geselecteerde %s / lijst van %s beheren"
+
+msgid "Manage timer conflicts"
+msgstr ""
 
 msgid "Manage your online update files"
 msgstr "Selecteer te overschrijven bestanden bij een update"
@@ -15930,10 +15954,6 @@ msgstr "Opname begonnen! Timeshift stopt nu ..."
 msgid "Recording stopped"
 msgstr "Opname is gestopt"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Opnametijd beperkt vanwege conflicterende timer %s"
-
 msgid "Recording tuning failed"
 msgstr "Opname instelling fout"
 
@@ -16239,6 +16259,9 @@ msgstr "De momenteel geselecteerde titel verwijderen"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Verwijder geselecteerde map van bookmarks"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr "Zender uit AutoCam verwijderen"
@@ -20745,6 +20768,12 @@ msgstr "Start vanaf het begin"
 msgid "Start instant recording"
 msgstr "Start een directe opname"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr "Een directe opname starten?"
 
@@ -20911,6 +20940,10 @@ msgstr "Stop opname en wis deze"
 
 msgid "Stop recording now"
 msgstr "Stop de opname nu"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Stop zender bij terugkeren naar opname lijst"
@@ -21904,6 +21937,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Dit zal ongeveer %d minuten duren."
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22331,6 +22370,9 @@ msgid "This option sets up the picture sharpness, used when the picture is being
 msgstr ""
 "Hiermee stelt u de beeldscherpte in als het beeld moet worden opgeschaald.\n"
 "(Default: 0)"
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Deze zender is beveiligd met een PIN-code (kinderslot)!"
@@ -25859,6 +25901,14 @@ msgstr "ja (bewaar feeds)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Kon niet opnemen vanwege conflicterende timer %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Opnametijd beperkt vanwege conflicterende timer %s"
 
 #~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
 #~ msgstr ""
