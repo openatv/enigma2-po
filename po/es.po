@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"POT-Creation-Date: 2026-09-29 20:19+0000\n"
 "PO-Revision-Date: 2026-08-21 14:51+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/es/>\n"
@@ -13734,6 +13734,9 @@ msgstr ""
 msgid "No Internet connection"
 msgstr "Sin conexión a internet"
 
+msgid "No Internet connection available!"
+msgstr ""
+
 msgid "No Name"
 msgstr "Sin nombre"
 
@@ -15487,6 +15490,9 @@ msgstr "Por favor, espera mientras se eliminan los idiomas..."
 msgid "Please wait while scanning is in progress..."
 msgstr "Espera mientras la búsqueda está en curso..."
 
+msgid "Please wait while the Internet connection is checked..."
+msgstr ""
+
 msgid "Please wait while the data is extracted..."
 msgstr "Por favor, espera mientras se extraen los datos..."
 
@@ -15514,6 +15520,9 @@ msgstr "Por favor, espera mientras se sustituye el plugin."
 
 msgid "Please wait while the plugin is updated."
 msgstr "Por favor, espera mientras se actualiza el plugin."
+
+msgid "Please wait while unused locales/languages are purged..."
+msgstr ""
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Espera mientras se comprueban los plugins instalados..."
@@ -16156,6 +16165,9 @@ msgstr "Limpiar todo excepto los idiomas/regiones actuales y permanentes. Añadi
 
 msgid "Purging all unused locales/languages..."
 msgstr "Limpiar todos los idiomas/regiones no utilizados..."
+
+msgid "Purging unused locales/languages..."
+msgstr ""
 
 msgid "Purple"
 msgstr "Púrpura"
@@ -22793,7 +22805,14 @@ msgstr "El ajuste de loopthrough es incorrecto."
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr ""
 
+msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
+msgstr ""
+
 msgid "The manufacturer STARTUP device was not found."
+msgstr ""
+
+#, python-format
+msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
 msgstr ""
 
 #, python-format
@@ -24132,6 +24151,13 @@ msgstr "Imposible inicializar Multiboot Kexec!"
 
 #, python-format
 msgid "Unable to open tuner (%d)"
+msgstr ""
+
+msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
+msgstr ""
+
+#, python-format
+msgid "Unable to read the manufacturer STARTUP file '%s'."
 msgstr ""
 
 msgid "Unable to register the DAB+ transponder"
