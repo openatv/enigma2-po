@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-16 18:13+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -1316,6 +1316,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2540,6 +2544,12 @@ msgid "An attempt is made to capture the current TV status. If status messages a
 msgstr ""
 "Bandoma užfiksuoti dabartinę TV būseną. Jei tai neįmanoma dėl neteisingo arba trūkstamų būsenos pranešimų, imtuvas gali netikėtai atsakyti.\n"
 "Kita vertus, bando geriau reaguoti į skirtingas eksploatavimo sąlygas."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Įvyko nežinoma klaida!"
@@ -5438,10 +5448,6 @@ msgid "Could not open the file %s!"
 msgstr "Nepavyko atverti failo %s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Nepavyko įrašyti dėl konfliktų laikmatyje %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Nepavyko įrašyti dėl neveikiančių kanalų %s"
 
@@ -5825,6 +5831,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6793,6 +6802,14 @@ msgstr ""
 
 msgid "Disable timer"
 msgstr "Išjungti laikmatį"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Išjungta"
@@ -11417,6 +11434,10 @@ msgstr "Riboti klaidų žurnalo dydį (MB)"
 msgid "Limit east"
 msgstr "Rytų riba"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Apriboti simbolius, kurie gali būti naudojami failų pavadinimuose į (7 bitų) ASCII. Tai užtikrina suderinamumą su operacinėmis sistemomis arba failų sistemomis su ribotų simbolių grupėmis."
 
@@ -11863,6 +11884,9 @@ msgstr ""
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
+msgstr ""
+
+msgid "Manage timer conflicts"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -15836,10 +15860,6 @@ msgstr "Įrašas pradėtas! Laiko poslinkis stabdomas..."
 msgid "Recording stopped"
 msgstr "Įrašymas sustabdytas"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Įrašo laikas apribotas dėl konfliktinio laikmačio %s"
-
 msgid "Recording tuning failed"
 msgstr "Nepavyko suderinti įrašymo"
 
@@ -16145,6 +16165,9 @@ msgstr "Pašalinti dabartinį pasirinktą pavadinimą"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Pašalinkite pasirinktą aplanką iš žymių"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr ""
@@ -20614,6 +20637,12 @@ msgstr "Pradėti iš pradžių"
 msgid "Start instant recording"
 msgstr "Pradėti tiesioginį įrašymą"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr ""
 
@@ -20780,6 +20809,10 @@ msgstr "Stabdyti įrašymą ir trinti"
 
 msgid "Stop recording now"
 msgstr "Stabdyti įrašymą dabar"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Stabdyti kanalą ir grįžti į filmų sąrašą"
@@ -21761,6 +21794,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr ""
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22153,6 +22192,9 @@ msgstr "Ši parinktis nustato klaidingų skaitmeninių kontūrų, kurie yra iš 
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Nustato paveikslėlių vaizdo ryškumą keičiantis masteliui."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "šis kanalas apsaugotas tėvų kontrolės pin kodu"
@@ -25647,6 +25689,14 @@ msgstr "taip (išsaugoti šaltinius)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Nepavyko įrašyti dėl konfliktų laikmatyje %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Įrašo laikas apribotas dėl konfliktinio laikmačio %s"
 
 #~ msgid "Press the UP/DOWN buttons to select a slot and press OK or GREEN to reboot to that slot. If available, YELLOW will either delete or wipe the slot. A deleted slot can be restored with the BLUE button. A wiped slot is completely removed and cannot be restored!"
 #~ msgstr "Paspauskite mygtukus AUKŠTYN / ŽEMYN, kad pasirinktumėte lizdą, ir paspauskite Gerai arba ŽALIA, kad iš naujo paleistumėte į tą vaizdą. Jei įmanoma, geltona ištrins arba nušluostys vaizdą. Panaikintą vaizdą galima atkurti mygtuku MĖLYNA. Nuvalytas vaizdas visiškai pašalinamas ir jo negalima atkurti!"
