@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-09-15 16:51+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -1279,6 +1279,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr "%s: Listaa ei voida kirjoittaa"
 
@@ -2507,6 +2511,12 @@ msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "TV:n nykyinen tila yritetään tallentaa. Jos tämä ei ole mahdollista virheellisten tai puuttuvien tilaviestien vuoksi, vastaanotin voi vastata odottamattomasti. Toisaalta yritetään reagoida paremmin erilaisiin käyttöolosuhteisiin."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Tuntematon virhe!"
@@ -5408,10 +5418,6 @@ msgid "Could not open the file %s!"
 msgstr "Tiedostoa %s ei voitu avata!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Ei voitu tallentaa ristiriitaisen ajastuksen takia: %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Ei voitu tallentaa virheellisen kanavan takia %s"
 
@@ -5801,6 +5807,9 @@ msgstr "DAB+-haku epäonnistui; olemassa olevat kanavanlistat säilytettiin."
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6769,6 +6778,14 @@ msgstr "Poista MultiBoot vaihtoehto"
 
 msgid "Disable timer"
 msgstr "Keskeytä ajastus"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Ei käytössä"
@@ -11397,6 +11414,10 @@ msgstr "Vianselvityslokin maksimikoko (MB)"
 msgid "Limit east"
 msgstr "Raja itään"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Rajoita mahdollisia tallennuksien tiedostonimissä käytettäviä merkkejä (7 bit ascii). Tämä varmistaa yhteensopivuuden rajoitetulla merkistöllä olevien käyttöjärjestelmien tai tiedostojärjestelmien kanssa."
 
@@ -11843,6 +11864,9 @@ msgstr "Hallitse korostettua %s"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Hallitse korostettua %s tai lista %s"
+
+msgid "Manage timer conflicts"
+msgstr ""
 
 msgid "Manage your online update files"
 msgstr "Hallinnoi internet päivitys päivitystiedostojasi"
@@ -15828,10 +15852,6 @@ msgstr "Tallennus alkoi! Ajansiirto pysähtyy nyt..."
 msgid "Recording stopped"
 msgstr "Tallennus keskeytetty"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Ajastusaika rajoitettu, ristiriita ajastukseen %s"
-
 msgid "Recording tuning failed"
 msgstr "Virittimen asettaminen tallennusta varten epäonnistui"
 
@@ -16137,6 +16157,9 @@ msgstr "Poista valittu otsikko"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Poista valittu kansio kirjanmerkeistä"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr "Poista kanava CI+"
@@ -20619,6 +20642,12 @@ msgstr "Aloita alusta"
 msgid "Start instant recording"
 msgstr "Aloita tallennus heti"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr "Aloita tallennus heti?"
 
@@ -20785,6 +20814,10 @@ msgstr "Pysäytä tallennus ja poista"
 
 msgid "Stop recording now"
 msgstr "Pysäytä ajastettu tallennus"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Pysäytä palvelu ja palaa tallenneluetteloon"
@@ -21778,6 +21811,12 @@ msgstr "Viritin ei ole tällä hetkellä käytettävissä. Lopeta tätä viritin
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Prosessi vie noin %d minuuttia valmistuakseen."
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22171,6 +22210,9 @@ msgstr "Tämä asetus määrittää ääriviivakorostumien vaimennuksen."
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Tämä asetus määrittää kuvan terävyyden, käytetään kun kuva skaalataan suurempaan tarkkuuteen."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Tämä kanava on suojattu lapsilukolla!"
@@ -25682,6 +25724,14 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Ei voitu tallentaa ristiriitaisen ajastuksen takia: %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Ajastusaika rajoitettu, ristiriita ajastukseen %s"
 
 #~ msgid "Add more slots"
 #~ msgstr "Lisää paikkoja"
