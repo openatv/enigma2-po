@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
-"PO-Revision-Date: 2026-09-27 08:51+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
+"PO-Revision-Date: 2026-09-28 08:54+0000\n"
 "Last-Translator: Marián Hikaník <podnety@mojepreklady.net>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sk/>\n"
 "Language: sk\n"
@@ -1322,6 +1322,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr "%s: prehľad nebolo možné vyčistiť"
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr "%s: prehľad nebolo možné zapísať"
 
@@ -2538,6 +2542,12 @@ msgstr "Našiel sa prijímač RTL-SDR. Zo zdroja sa nainštaluje voliteľná slu
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Prebehne pokus o zaznamenanie aktuálneho stavu TV. Ak to nie je možné kvôli nesprávnym alebo chýbajúcim správam o stave, môže dôjsť k neočakávanej reakcii prijímača. V opačnom prípade to však pomôže dosiahnuť lepšiu reakciu na rôzne podmienky."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr "Existujúci časovač už nahráva túto stanicu počas požadovaného času."
+
+msgid "An instant recording is already running on this service."
+msgstr "Okamžité nahrávanie už na tejto stanici prebieha."
 
 msgid "An unknown error occurred!"
 msgstr "Nastala neznáma chyba!"
@@ -5440,10 +5450,6 @@ msgid "Could not open the file %s!"
 msgstr "Nie je možné otvoriť súbor %s!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "Nahrávanie nie je možné z dôvodu konfliktu časovača %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Nie je možné nahrávať kvôli neplatnej stanici %s"
 
@@ -5834,6 +5840,9 @@ msgstr "Sken DAB+ bol neúspešný; existujúce prehľady zostali zachované."
 #, python-format
 msgid "DAB+ service information for '%s'"
 msgstr "Informácia služba DAB+ pre '%s'"
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
+msgstr "Bol zistený signál DAB+, čaká sa na FIC dáta stanice/služby..."
 
 msgid "DAC"
 msgstr "DAC"
@@ -6801,6 +6810,14 @@ msgstr "Vypnúť možnosť MultiBoot"
 
 msgid "Disable timer"
 msgstr "Vypnúť časovač"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr "Vypnúť časovač '%s'?"
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr "Vypnúť časovač: '%s'"
 
 msgid "Disabled"
 msgstr "Vypnuté"
@@ -11428,6 +11445,10 @@ msgstr "Obmedzenie veľkosti denníka ladenia (MB)"
 msgid "Limit east"
 msgstr "Limit – východ"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr "Obmedziť okamžité nahrávanie do %s"
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "Obmedzí znaky používané v názvoch súborov s nahrávkou na (7-bitové) ASCII. To zaistí kompatibilitu s operačnými systémami alebo súborovými systémmami s obmedzenými znakovými sadami."
 
@@ -11875,6 +11896,9 @@ msgstr "Spravovať vybraný %s"
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
 msgstr "Spravovať vybraný %s alebo zoznam %s"
+
+msgid "Manage timer conflicts"
+msgstr "Spravovanie konfliktov časovačov"
 
 msgid "Manage your online update files"
 msgstr "Spravovanie online aktualizačných súborov"
@@ -15854,10 +15878,6 @@ msgstr "Nahrávanie spustené, zastavuje sa timeshift."
 msgid "Recording stopped"
 msgstr "Nahrávanie zastavené"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "Čas nahrávania je obmedzený kvôli konfliktu časovačov %s"
-
 msgid "Recording tuning failed"
 msgstr "Ladenie nahrávania neúspešné"
 
@@ -16163,6 +16183,9 @@ msgstr "Odstrániť aktuálne zvolený titul"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Odstrániť vybraný priečinok zo záložiek"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr "Odstrániť stanice/služby, ktoré boli predtým uložené zo skenovaných multiplexov DAB+. Vypnutím tento voľby sa stanice zachovajú, ak je multiplex dočasne nedostupný."
 
 msgid "Remove service from AutoCam"
 msgstr "Odstrániť stanicu z AutoCamu"
@@ -20638,6 +20661,12 @@ msgstr "Spustiť od začiatku"
 msgid "Start instant recording"
 msgstr "Spustiť okamžité nahrávanie"
 
+msgid "Start instant recording and set duration"
+msgstr "Spustiť okamžité nahrávanie a nastaviť trvanie"
+
+msgid "Start instant recording and set end time"
+msgstr "Spustiť okamžité nahrávanie a nastaviť čas ukončenia"
+
 msgid "Start instant recording?"
 msgstr "Má sa spustiť okamžité nahrávanie?"
 
@@ -20804,6 +20833,10 @@ msgstr "Ukončiť nahrávanie a vymazať"
 
 msgid "Stop recording now"
 msgstr "Ihneď zastaviť nahrávanie"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr "Zastaviť nahrávanie: '%s'"
 
 msgid "Stop service on return to movie list"
 msgstr "Zastaviť stanicu po návrate do zoznamu filmov"
@@ -21797,6 +21830,12 @@ msgstr "Tuner ovládajúci pozicionér nie je práve dostupný. Zastavte nahráv
 msgid "The process will take approximately %d minutes to complete."
 msgstr "Čas potrebný na dokončenie procesu: asi %d min."
 
+msgid "The recording end time has already passed."
+msgstr "Čas ukončenia nahrávania už uplynul."
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr "Požadované nahrávanie koliduje s inými časovačmi. Čo chcete urobiť?"
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22190,6 +22229,9 @@ msgstr "Nastavenie potlačenia falošných digitálnych obrysov, ktoré vznikaj�
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Nastavenie ostrosti obrazu pri použití upscalingu."
+
+msgid "This recording has already ended."
+msgstr "Toto nahrávanie už bolo ukončené."
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Táto stanica/služba je chránená PIN rodičovskej kontroly!"
@@ -25697,6 +25739,14 @@ msgstr "áno (zachovať zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "Nahrávanie nie je možné z dôvodu konfliktu časovača %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "Čas nahrávania je obmedzený kvôli konfliktu časovačov %s"
 
 #~ msgid "Add more slots"
 #~ msgstr "Pridať viac slotov"
