@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:40+0000\n"
+"POT-Creation-Date: 2026-09-27 14:20+0000\n"
 "PO-Revision-Date: 2026-08-17 22:31+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/hu/>\n"
@@ -1313,6 +1313,10 @@ msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
 #, python-format
+msgid "%s: bouquet could not be cleared"
+msgstr ""
+
+#, python-format
 msgid "%s: bouquet could not be written"
 msgstr ""
 
@@ -2537,6 +2541,12 @@ msgstr ""
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Kísérlet történik a TV aktuális állapotának rögzítésére. Ha ez a hibás vagy hiányzó állapotüzenetek miatt nem lehetséges, a vevő váratlanul reagálhat. Másrészt igyekszik jobban reagálni a különböző működési feltételekre."
+
+msgid "An existing timer already records this service during the requested time."
+msgstr ""
+
+msgid "An instant recording is already running on this service."
+msgstr ""
 
 msgid "An unknown error occurred!"
 msgstr "Ismeretlen hiba keletkezett!"
@@ -5432,10 +5442,6 @@ msgid "Could not open the file %s!"
 msgstr "Nem sikerült megnyitni a %s fájlt!"
 
 #, python-format
-msgid "Could not record due to conflicting timer:%s"
-msgstr "A felvétel nem tud elindulni időzítés ütközés miatt: %s"
-
-#, python-format
 msgid "Could not record due to invalid service:%s"
 msgstr "Az %s érvénytelen csatorna miatt a felvétel nem lehetséges"
 
@@ -5819,6 +5825,9 @@ msgstr ""
 
 #, python-format
 msgid "DAB+ service information for '%s'"
+msgstr ""
+
+msgid "DAB+ signal detected; waiting for FIC service data..."
 msgstr ""
 
 msgid "DAC"
@@ -6798,6 +6807,14 @@ msgstr ""
 
 msgid "Disable timer"
 msgstr "Időzítő letiltása"
+
+#, python-format
+msgid "Disable timer '%s'?"
+msgstr ""
+
+#, python-format
+msgid "Disable timer: '%s'"
+msgstr ""
 
 msgid "Disabled"
 msgstr "Letiltva"
@@ -11439,6 +11456,10 @@ msgstr "Hibakeresési napló méretkorlátja (MB)"
 msgid "Limit east"
 msgstr "Keleti limit"
 
+#, python-format
+msgid "Limit instant recording until %s"
+msgstr ""
+
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ASCII. This ensures compatibility with operating systems or file systems with limited character sets."
 msgstr "A fájlnevekben használt karaktertábla (7 bites) ASCII-re legyen korlátozva. Ezáltal a kompatibilitás garantált olyan operációs rendszerekkel is, melyekben limitált a karakterkészlet."
 
@@ -11895,6 +11916,9 @@ msgstr ""
 
 #, python-format
 msgid "Manage the highlighted %s / list of %s"
+msgstr ""
+
+msgid "Manage timer conflicts"
 msgstr ""
 
 msgid "Manage your online update files"
@@ -15921,10 +15945,6 @@ msgstr "A felvétel elkezdődött! A Timeshift megállítása most ..."
 msgid "Recording stopped"
 msgstr "A felvétel leállítva"
 
-#, python-format
-msgid "Recording time limited due to conflicting timer:%s"
-msgstr "A felvételi idő rövidítve lett időzítés ütközés miatt: %s"
-
 msgid "Recording tuning failed"
 msgstr "A felvétel hangolása nem sikerült"
 
@@ -16230,6 +16250,9 @@ msgstr "Kijelölt címek eltávolítása"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Kijelölt mappa eltávolítása könyvjelzőkből"
+
+msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr ""
@@ -20710,6 +20733,12 @@ msgstr "Indítsa az elejétől"
 msgid "Start instant recording"
 msgstr "Azonalli felvétel indítása"
 
+msgid "Start instant recording and set duration"
+msgstr ""
+
+msgid "Start instant recording and set end time"
+msgstr ""
+
 msgid "Start instant recording?"
 msgstr ""
 
@@ -20876,6 +20905,10 @@ msgstr "Felvétel leállítás és törlés"
 
 msgid "Stop recording now"
 msgstr "Felvétel leállítása most"
+
+#, python-format
+msgid "Stop recording: '%s'"
+msgstr ""
 
 msgid "Stop service on return to movie list"
 msgstr "Csatorna megállítása a filmlistára váltáskor"
@@ -21867,6 +21900,12 @@ msgstr ""
 msgid "The process will take approximately %d minutes to complete."
 msgstr ""
 
+msgid "The recording end time has already passed."
+msgstr ""
+
+msgid "The requested recording conflicts with other timers. What do you want to do?"
+msgstr ""
+
 msgid ""
 "The restore has finished. The %s %s needs to restart.\n"
 "\n"
@@ -22253,6 +22292,9 @@ msgstr "Ezzel beállítja a hibás digitális körvonalak elfojtását."
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Ezzel beállítja a kép élességét, amelyet a kép felskálázásnál használ."
+
+msgid "This recording has already ended."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "ez a csatorna gyermekzárral védett"
@@ -25745,6 +25787,14 @@ msgstr "igen (állapotok megtartása)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Could not record due to conflicting timer:%s"
+#~ msgstr "A felvétel nem tud elindulni időzítés ütközés miatt: %s"
+
+#, python-format
+#~ msgid "Recording time limited due to conflicting timer:%s"
+#~ msgstr "A felvételi idő rövidítve lett időzítés ütközés miatt: %s"
 
 #~ msgid "ImageWizard"
 #~ msgstr "ImageWizard"
