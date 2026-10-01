@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-29 20:19+0000\n"
-"PO-Revision-Date: 2026-09-29 21:10+0000\n"
-"Last-Translator: jbleyel <jbleyel@gmx.net>\n"
+"PO-Revision-Date: 2026-10-01 08:54+0000\n"
+"Last-Translator: Masowick <Demian@gmx.co.uk>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -950,7 +950,7 @@ msgstr[1] "%d Netzwerke gefunden."
 
 #, python-format
 msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
-msgstr "%d veraltete STARTUP-Dateien des Herstellers werden ersetzt oder entfernt."
+msgstr "Es werden %d veraltete STARTUP-Dateien des Herstellers ersetzt oder entfernt."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
@@ -3455,7 +3455,7 @@ msgid "Block RTL2832 DVB kernel driver"
 msgstr "RTL2832-DVB-Kerneltreiber blockieren"
 
 msgid "Block device"
-msgstr "Gerät blockieren"
+msgstr "Blockgerät"
 
 #
 msgid "Block noise reduction"
@@ -8081,7 +8081,7 @@ msgid "Enable new GStreamer playback"
 msgstr "Neue GStreamer-Wiedergabe aktivieren"
 
 msgid "Enable or disable this network mount. Disabling the mount will not delete its definition."
-msgstr "Diese Netzwerkfreigabe aktivieren oder deaktivieren. Ein Deaktivieren der Freigabe löscht nicht deren Definition."
+msgstr "Diese Netzwerkfreigabe aktivieren oder deaktivieren. Ein Deaktivieren löscht nicht deren Definition."
 
 msgid "Enable or disable using HDMI-CEC."
 msgstr "Verwendung von HDMI-CEC ein-/ausschalten."
@@ -13778,7 +13778,7 @@ msgid "No Internet connection"
 msgstr "Keine Internetverbindung"
 
 msgid "No Internet connection available!"
-msgstr ""
+msgstr "Keine Internetverbindung verfügbar!"
 
 msgid "No Name"
 msgstr "Unbenannt"
@@ -13865,7 +13865,7 @@ msgid "No hard disks detected."
 msgstr "Keine Festplatten gefunden!"
 
 msgid "No hosts found yet - still scanning..."
-msgstr "Bisher keine Hosts gefunden – Scanne weiter…"
+msgstr "Bisher keine Hosts gefunden – Suche läuft noch …"
 
 msgid "No log files found so debug logs are unavailable!"
 msgstr "Keine Logdateien gefunden, daher sind keine Debug-Logs verfügbar!"
@@ -13930,7 +13930,7 @@ msgid "No suitable sat tuner found!"
 msgstr "Keinen passenden SAT-Tuner gefunden!"
 
 msgid "No supported DAB+ feeds are available for the satellite positions configured on this box."
-msgstr "Für die konfigurierten Satellitenpositionen sind keine unterstützten DAB+-Feeds verfügbar."
+msgstr "Für die konfigurierten Satellitenpositionen sind keine unterstützten DAB+-Feeds verfügbar!"
 
 msgid "No system softcam configured!"
 msgstr "Kein Softcam konfiguriert!"
@@ -14644,7 +14644,7 @@ msgid "Open the single service EPG view"
 msgstr "Ereignis-EPG-Ansicht öffnen"
 
 msgid "Open tuner setup"
-msgstr "Tuner-Einstellungen öffnen"
+msgstr "Tuner-Einstellungen"
 
 msgid "Open with File Commander"
 msgstr "Mit File Commander öffnen"
@@ -15549,7 +15549,7 @@ msgid "Please wait while scanning is in progress..."
 msgstr "Der Suchvorgang läuft. Bitte warten …"
 
 msgid "Please wait while the Internet connection is checked..."
-msgstr ""
+msgstr "Die Internetverbindung wird überprüft. Bitte warten …"
 
 msgid "Please wait while the data is extracted..."
 msgstr "Daten werden entpackt. Bitte warten …"
@@ -15580,7 +15580,7 @@ msgid "Please wait while the plugin is updated."
 msgstr "Das Plugin wird aktualisiert. Bitte warten …"
 
 msgid "Please wait while unused locales/languages are purged..."
-msgstr ""
+msgstr "Sprachregionen/Sprachen werden bereinigt. Bitte warten …"
 
 msgid "Please wait while we check your installed plugins..."
 msgstr "Die installierten Plugins werden geprüft. Bitte warten …"
@@ -16231,7 +16231,7 @@ msgid "Purging all unused locales/languages..."
 msgstr "Alle nicht verwendeten Sprachregionen werden gelöscht …"
 
 msgid "Purging unused locales/languages..."
-msgstr ""
+msgstr "Alle nicht verwendeten Sprachen werden gelöscht …"
 
 msgid "Purple"
 msgstr "Lila"
@@ -17940,7 +17940,7 @@ msgid "Scanning for shares..."
 msgstr "Nach Freigaben suchen …"
 
 msgid "Scanning..."
-msgstr "Suchlauf..."
+msgstr "Suchlauf …"
 
 #, python-format
 msgid "Scanning: %d services found; validating live result (%d/%d)..."
@@ -22886,14 +22886,14 @@ msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "Das STARTUP-Gerät des Herstellers kann nicht zu Inspektionszwecken montiert werden."
 
 msgid "The manufacturer STARTUP device is not mounted. STARTUP files have not been changed."
-msgstr ""
+msgstr "Das STARTUP-Gerät des Herstellers ist nicht eingehängt. STARTUP-Dateien wurden nicht geändert."
 
 msgid "The manufacturer STARTUP device was not found."
 msgstr "Das STARTUP-Gerät des Herstellers wurde nicht gefunden."
 
 #, python-format
 msgid "The manufacturer STARTUP file '%s' has changed. Restart the user interface and try again."
-msgstr ""
+msgstr "Die STARTUP-Datei '%s' des Herstellers hat sich geändert. Die Bedienoberfläche neu starten und erneut versuchen."
 
 #, python-format
 msgid "The manufacturer STARTUP filename '%s' cannot be safely extended."
@@ -22948,7 +22948,7 @@ msgid "The selected device is not a supported removable block device."
 msgstr "Das ausgewählte Gerät ist kein unterstützter Wechseldatenträger."
 
 msgid "The selected device is too small. At least 2561 MiB is required."
-msgstr "Das ausgewählte Gerät ist zu klein. Es werden mindestens 256 MiB benötigt."
+msgstr "Das ausgewählte Gerät ist zu klein. Es werden mindestens 2561 MiB benötigt."
 
 #
 msgid "The service list is reloaded."
@@ -24238,11 +24238,11 @@ msgid "Unable to open tuner (%d)"
 msgstr "Tuner (%d) kann nicht geöffnet werden"
 
 msgid "Unable to read the UUID of the new MultiBoot partition. STARTUP files have not been changed."
-msgstr ""
+msgstr "Die UUID der neuen MultiBoot-Partition konnte nicht gelesen werden. Die STARTUP-Dateien wurden nicht geändert."
 
 #, python-format
 msgid "Unable to read the manufacturer STARTUP file '%s'."
-msgstr ""
+msgstr "Die STARTUP-Datei '%s' des Herstellers konnte nicht gelesen werden."
 
 msgid "Unable to register the DAB+ transponder"
 msgstr "Der DAB+-Transponder konnte nicht registriert werden"
