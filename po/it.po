@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Italian translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-29 20:19+0000\n"
-"PO-Revision-Date: 2026-09-30 21:51+0000\n"
+"POT-Creation-Date: 2026-10-01 09:03+0000\n"
+"PO-Revision-Date: 2026-10-01 12:33+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/it/>\n"
 "Language: it\n"
@@ -1271,6 +1271,7 @@ msgstr "%s webif disabilitato"
 msgid "%s%d min"
 msgstr "%s%d min"
 
+#. TRANSLATORS: The second %s is a spacer.
 #, python-format
 msgid "%s%s(Default: %s)"
 msgstr "%s%s (predefinito: %s)"
@@ -5824,9 +5825,6 @@ msgstr "Azioni impostazioni DNS"
 
 msgid "DNS data source"
 msgstr "Sorgente dati DNS"
-
-msgid "Override DNS"
-msgstr "Sovrascrittura DNS"
 
 msgid "DNS protocol mode"
 msgstr "Modalità DNS"
@@ -13233,6 +13231,9 @@ msgstr "Nessun indice libero disponibile"
 msgid "No free tuner!"
 msgstr "Nessun tuner libero!"
 
+msgid "No further DVB-I alternative is available."
+msgstr "Non ci sono ulteriori alternative DVB-I disponibili."
+
 msgid "No gateway"
 msgstr "Nessun gateway"
 
@@ -14084,6 +14085,9 @@ msgstr "Testo di uscita:"
 
 msgid "Overall progress:"
 msgstr "Avanzamento totale:"
+
+msgid "Override DNS"
+msgstr "Sovrascrittura DNS"
 
 msgid "Overscan Test"
 msgstr "Test Overscan"
@@ -21859,6 +21863,13 @@ msgstr ""
 "La durata del buffer del timeshift supera il limite specificato nelle impostazioni.\n"
 "Cosa vuoi fare?"
 
+msgid ""
+"The time shift storage device is not available.\n"
+"Please check the device and the time shift path."
+msgstr ""
+"Il dispositivo di archiviazione per il timeshift non è disponibile.\n"
+"Controlla il dispositivo e il percorso del timeshift."
+
 #, python-format
 msgid "The timer file '%s' is corrupt and could not be loaded."
 msgstr "Il file del timer '%s' è danneggiato e non può essere caricato."
@@ -21959,6 +21970,9 @@ msgstr "Consente di impostare il numero massimo di cifre nel numero del servizio
 
 msgid "This bouquet is protected by a parental control PIN!"
 msgstr "Questo bouquet è protetto dal PIN del controllo genitori!"
+
+msgid "This channel is currently off air."
+msgstr "Questo canale è attualmente fuori onda."
 
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
