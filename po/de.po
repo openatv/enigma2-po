@@ -1767,7 +1767,22 @@ msgstr ""
 "Zurzeit läuft eine Aufnahme!\n"
 "Was soll geschehen?"
 
-msgid "A recording is currently running. Please stop the recording before trying to scan."
+msgid "Automatically run the fast scan 90 seconds after each entry into standby and every 24 hours while remaining in standby. If a recording is in progress, retry after one hour. Select 'Multi' to scan multiple providers."
+msgstr "Den Schnellsuchlauf automatisch 90 Sekunden nach jedem Wechsel in den Standby und danach alle 24 Stunden im Standby ausführen. Läuft gerade eine Aufnahme, wird es nach einer Stunde erneut versucht. 'Multi' auswählen, um mehrere Anbieter zu durchsuchen."
+
+msgid "Close the screen after the scan has finished"
+msgstr "Bildschirm nach Abschluss des Suchlaufs schließen"
+
+msgid "Close the screen and stop a running scan"
+msgstr "Bildschirm schließen und einen laufenden Suchlauf stoppen"
+
+msgid "Create a separate bouquet for radio services. When disabled, radio services are included in the TV bouquet."
+msgstr "Ein separates Bouquet für Radiosender erstellen. Wenn deaktiviert, werden die Radiosender in das TV-Bouquet aufgenommen."
+
+msgid "Drop unconfigured satellites"
+msgstr "Nicht konfigurierte Satelliten verwerfen"
+
+msgid "Error: A recording is currently in progress! Stop the recording or allow it to finish before trying to perform a scan."
 msgstr ""
 "Zurzeit läuft eine Aufnahme!\n"
 "Die Aufnahme beenden, bevor ein Scan gestartet wird."
@@ -8057,7 +8072,7 @@ msgid "Enable auto fast scan"
 msgstr "Automatische Schnellsuche aktivieren"
 
 #, python-format
-msgid "Enable auto fast scan for %s"
+msgid "Enable auto fast scan for '%s'"
 msgstr "Automatische Schnellsuche aktivieren für %s"
 
 msgid "Enable automatic shares"
@@ -9321,6 +9336,15 @@ msgstr "Vor- und Rücklauf"
 msgid "Fast Scan"
 msgstr "Schnellsuchlauf"
 
+msgid "Fast Scan Actions"
+msgstr "Schnellsuchlauf-Aktionen"
+
+#, python-format
+msgid "Fast Scan version %d: Found %d channel."
+msgid_plural "Fast Scan version %d: Found %d channels."
+msgstr[0] "Schnellsuchlauf Version %d: %d Sender gefunden."
+msgstr[1] "Schnellsuchlauf Version %d: %d Sender gefunden."
+
 msgid "Fast Skin Reload"
 msgstr "Schnelles Neuladen des Skins"
 
@@ -9333,6 +9357,9 @@ msgstr "Vorlauf"
 
 msgid "Fast forward speeds"
 msgstr "Vorlaufgeschwindigkeiten"
+
+msgid "Fast scan may rename existing services and prevent them from being updated by a regular scan. Fast scan updates still work. Disabling this option will not restore the original names or regular scan updates. To restore them, scan the services again with 'Clear before scan' set to 'Yes'."
+msgstr "Der Schnellsuchlauf kann vorhandene Sender umbenennen und verhindern, dass sie durch einen normalen Suchlauf aktualisiert werden. Aktualisierungen durch den Schnellsuchlauf funktionieren weiterhin. Das Deaktivieren dieser Option stellt weder die ursprünglichen Namen noch die Aktualisierung durch einen normalen Suchlauf wieder her. Um diese wiederherzustellen, die Sender erneut mit 'Vor dem Suchlauf löschen' auf 'Ja' suchen."
 
 #
 msgid "Favorite Edit"
@@ -10895,6 +10922,9 @@ msgstr "DVB-T-Subnetzwerk ignorieren"
 
 msgid "Ignore Standby"
 msgstr "Standby ignorieren"
+
+msgid "Ignore services on satellites that are not configured in the tuner settings."
+msgstr "Sender auf Satelliten ignorieren, die nicht in den Tuner-Einstellungen konfiguriert sind."
 
 msgid "Ignore unexpectedly wake up and stay in Standby"
 msgstr "Unerwartetes Aufwachen ignorieren und im Standby bleiben"
@@ -13435,6 +13465,12 @@ msgstr "NTSC"
 #
 msgid "Name"
 msgstr "Name"
+
+msgid "Name (A-Z)"
+msgstr "Name (A-Z)"
+
+msgid "Name (Z-A)"
+msgstr "Name (Z-A)"
 
 msgid "Name ascending"
 msgstr "Name aufsteigend"
@@ -18105,7 +18141,7 @@ msgid "Scanning"
 msgstr "Suchlauf"
 
 #, python-format
-msgid "Scanning %s..."
+msgid "Scanning '%s'..."
 msgstr "Suchlauf %s …"
 
 msgid "Scanning DAB+ feed; waiting for live FIC data..."
@@ -18130,7 +18166,7 @@ msgid_plural "Scanning completed, %d services found."
 msgstr[0] "Suchlauf beendet, %d Sender gefunden."
 msgstr[1] "Suchlauf beendet, %d Sender gefunden."
 
-msgid "Scanning failed!"
+msgid "Error: Scan failed!"
 msgstr "Suchlauf fehlgeschlagen!"
 
 msgid "Scanning for shares..."
@@ -18900,6 +18936,9 @@ msgstr "Auswählen, wie der Zeitplan im Standby behandelt werden soll."
 msgid "Select how to activate the Quick EPG mode."
 msgstr "Auswählen, wie der grafische Infoleisten-EPG aufgerufen werden soll."
 
+msgid "Select how to sort the timer list."
+msgstr "Auswählen, wie die Timerliste sortiert werden soll."
+
 #
 msgid "Select how your receiver will upgrade."
 msgstr "Den Aktualisierungsmodus auswählen."
@@ -19213,6 +19252,9 @@ msgstr "Die Wartezeit einstellen, bis der Bildschirmschoner bei Inaktivität ang
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "Die Endzeit auswählen, bevor dieser Timer aktiviert werden kann. Nach Ablauf dieser Zeit wird der Timer nicht mehr aktiviert, auch wenn andere Bedingungen erfüllt sind."
 
+msgid "Select the fast scan provider and press BLUE to start the scan."
+msgstr "Den Anbieter für den Schnellsuchlauf auswählen und BLAU drücken, um den Suchlauf zu starten."
+
 #. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
 msgid "Select the file sort order for the %s:"
@@ -19444,8 +19486,14 @@ msgstr "Zeitzone innerhalb der Region auswählen."
 msgid "Select the timer from the fallback tuner by default"
 msgstr "Wenn aktiviert, wird der Timer vom Reservetuner importiert"
 
+msgid "Select the timer list sort order"
+msgstr "Sortierreihenfolge der Timerliste auswählen"
+
 msgid "Select the tuner that controls the motorized dish."
 msgstr "Den Tuner auswählen, der die motorisierte Schüssel steuert."
+
+msgid "Select the tuner to use for the fast scan."
+msgstr "Den Tuner für den Schnellsuchlauf auswählen."
 
 msgid "Select the tuner to which the signal cable of the SCR device is connected."
 msgstr "Den Tuner auswählen, an dem das Signalkabel des Unicable/SCR-Gerätes angeschlossen ist."
@@ -21718,6 +21766,9 @@ msgstr "Sortierung der Einträge im Plugin-Manager"
 msgid "Sort Plugin Browser entries"
 msgstr "Plugin-Manager-Einträge sortieren"
 
+msgid "Sort Timers"
+msgstr "Timer sortieren"
+
 # MovieSelection.py
 msgid "Sort by"
 msgstr "Sortieren nach"
@@ -21900,6 +21951,12 @@ msgstr "Bootfrequenz beim Start"
 msgid "Start RDS interactive"
 msgstr "RDS interaktiv starten"
 
+msgid "Start Time (Earliest First)"
+msgstr "Startzeit (früheste zuerst)"
+
+msgid "Start Time (Latest First)"
+msgstr "Startzeit (späteste zuerst)"
+
 msgid "Start Wizard"
 msgstr "Startassistent"
 
@@ -21958,6 +22015,9 @@ msgstr "Kexec-Initialisierung starten"
 
 msgid "Start the backup of the selected image"
 msgstr "Sicherung des ausgewählten Images starten"
+
+msgid "Start the fast scan"
+msgstr "Schnellsuchlauf starten"
 
 msgid "Start the highlighted plugin"
 msgstr "Das markierte Plugin starten"
@@ -24976,10 +25036,10 @@ msgstr "Beschreibungszeilen"
 msgid "Use extended List"
 msgstr "Erweiterte Liste verwenden"
 
-msgid "Use fastscan channel names"
+msgid "Use fast scan channel names"
 msgstr "Sendernamen des Schnellsuchlaufs verwenden"
 
-msgid "Use fastscan channel numbering"
+msgid "Use fast scan channel numbering"
 msgstr "Sendernummerierung des Schnellsuchlaufs verwenden"
 
 msgid "Use for load only x days in EPG."
@@ -25042,6 +25102,9 @@ msgstr "Separatorzeilen"
 msgid "Use spacer lines to pad the bouquet to make the #SERVICE line numbers match the LCN."
 msgstr "Separatorzeilen verwenden, um Zeilennummer mit den LCN übereinstimmen zu lassen."
 
+msgid "Use the HD channel list provided by the fast scan."
+msgstr "Die vom Schnellsuchlauf bereitgestellte HD-Senderliste verwenden."
+
 msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the OSD. LEFT button decreases the height, RIGHT increases the height."
 msgstr "Die Tasten Links/Rechts verwenden, um die Höhe der Bedienoberfläche einzustellen. LINKS verringert, RECHTS erhöht sie."
 
@@ -25081,6 +25144,9 @@ msgstr "Mit den Tasten Hoch/Runter das zu sichernde installierte Image auswähle
 # Menue Anpassungen OSD
 msgid "Use the alternative or the conventional radio mode."
 msgstr "Bei 'Ja' wird der alternative Radiomodus verwendet, ansonsten der normale."
+
+msgid "Use the channel numbering provided by the fast scan, including gaps. When disabled, channels are numbered consecutively without gaps."
+msgstr "Die vom Schnellsuchlauf bereitgestellte Sendernummerierung einschließlich Lücken verwenden. Wenn deaktiviert, werden die Sender fortlaufend ohne Lücken nummeriert."
 
 msgid "Use the current selection and exit"
 msgstr "Die aktuelle Auswahl verwenden und beenden"
