@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-08-16 15:58+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -746,12 +746,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-msgstr[1] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1205,6 +1199,10 @@ msgid "%s Information Actions"
 msgstr "%s Informatie Acties"
 
 #, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
+
+#, python-format
 msgid "%s Setup"
 msgstr "%s Instellingen"
 
@@ -1645,9 +1643,6 @@ msgstr "Een afgesloten taak wil uw %s %s uitschakelen. Wilt u nu uitschakelen?"
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "Een crashlog is %s gemaakt in '%s'"
-
-msgid "A file from media is in use!"
-msgstr "Een mediabestand is in gebruik!"
 
 #, python-format
 msgid ""
@@ -2193,6 +2188,9 @@ msgstr ""
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Wijzig de kleuren zodanig dat alle tinten te onderscheiden zijn, maar wel zo verzadigd mogelijk zijn. Zodra het resultaat u bevalt, drukt u op OK om dit menu af te sluiten of selecteert u een ander testscherm d.m.v. de nummerknoppen."
 
@@ -2494,6 +2492,12 @@ msgstr "ECM altijd toevoegen aan opnames"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "Altijd ECM berichten toevoegen aan de opnames. Dit overschrijft alle individuele timer-instellingen. Hierdoor kunnen opnamen altijd achteraf worden gedecodeerd (ook wel off line decodering genoemd), indien ondersteund door uw ontvanger. Standaard: UIT."
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "Toon eerst de favorietenlijsten"
 
@@ -2593,6 +2597,9 @@ msgstr "Bewaar wijzigingen aan de ingestelde Taal en Exit "
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Gebruik de geselecteerde Taal en Exit "
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "Aqua"
@@ -2847,6 +2854,9 @@ msgstr ""
 msgid "Audio bit rate"
 msgstr ""
 
+msgid "Audio decoding"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Audio taalkeuze 1"
 
@@ -2972,6 +2982,9 @@ msgstr "Automatische resolutieinfo"
 
 msgid "Automatic scan for services"
 msgstr "Hier kunt u automatisch naar zenders zoeken"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "Automatisch de TV in Stand-by zetten wanneer de ontvanger naar Stand-by gaat of wordt uitgeschakeld."
@@ -3213,6 +3226,9 @@ msgstr "Basketbal"
 msgid "Basque"
 msgstr "Baskisch"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr ""
 "Voor deze wijzigingen a.u.b. eerst de Overscan functie van uw TV uitschakelen. \n"
@@ -3337,6 +3353,9 @@ msgstr ""
 
 msgid "Bluetooth Setup"
 msgstr "Bluetooth instellingen"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "Bolivia"
@@ -3697,6 +3716,9 @@ msgstr "CPU / Core %d type"
 
 msgid "CPU Control"
 msgstr "CPU-controle"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "CPU architectuur"
@@ -4663,6 +4685,9 @@ msgstr "Kleurruimte"
 
 msgid "Colored text"
 msgstr "Gekleurde tekst"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "Gecombineerd"
@@ -5747,9 +5772,8 @@ msgstr "Actuele CPU frequentie cores 0 en 1: %s MHz"
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "Aktuele CPU frequentie van andere cores: %s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Actuele spanning voor CPU-cores 0 en 1: %s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "Huidige map"
@@ -5757,8 +5781,20 @@ msgstr "Huidige map"
 msgid "Current Event:"
 msgstr "Huidig programma:"
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "Status:"
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -5917,9 +5953,6 @@ msgid "DAB+ USB support was installed. You can now enable the receiver in Recept
 msgstr ""
 
 msgid "DAB+ USB: bouquet could not be written"
-msgstr ""
-
-msgid "Audio decoding"
 msgstr ""
 
 msgid "DAB+ channel"
@@ -6408,6 +6441,9 @@ msgstr ""
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Welke snelheden worden gebruikt voor normaal spoelen van een film. Bij alle andere voor- of terug spoelsnelheden worden tijdsprongen gebruikt."
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "De vertraging na het diseqc 'randapparaat inschakelen' commando"
@@ -9456,6 +9492,9 @@ msgstr "Forceer uitgeschakeld"
 msgid "Force enabled"
 msgstr "Forceer ingeschakeld"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "buitenland/expedities"
 
@@ -10138,6 +10177,9 @@ msgstr "CI-berichten verbergen"
 msgid "Hide InfoBar"
 msgstr "Informatiebalk altijd verbergen"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "Verberg VBI regel voor deze zender"
 
@@ -10170,6 +10212,9 @@ msgstr ""
 
 msgid "Hide the InfoBar"
 msgstr "Informatiebalk langzaam vervagen na een time-out."
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "Verberg zap fouten"
@@ -11583,6 +11628,9 @@ msgstr "Vrijetijd hobbies"
 msgid "Lesotho"
 msgstr "Lesotho"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr ""
 
@@ -11742,6 +11790,10 @@ msgstr "Laad markeringen van Timers en opnames"
 msgid "Load unlinked user bouquets"
 msgstr "Niet gelinkte favorietenlijsten gebruiken"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "Informatie laden, een moment geduld..."
 
@@ -11815,9 +11867,6 @@ msgstr "Locatie selectie Acties"
 
 msgid "Location information"
 msgstr "Locatie informatie"
-
-msgid "Location list"
-msgstr "Locatie lijst"
 
 #, python-format
 msgid "Location: %s"
@@ -12094,6 +12143,9 @@ msgstr "Handmatig zoeken"
 
 msgid "Manual Service Searching"
 msgstr "Handmatig zenders zoeken"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "Hier kunt u handmatig naar zenders zoeken."
@@ -13909,6 +13961,12 @@ msgstr "OSD"
 msgid "OSD Setup"
 msgstr "Wijzig OSD instellingen"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "OSD naam aanvragen"
 
@@ -14199,6 +14257,9 @@ msgstr "Opslag apparaat informatie openen"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Open het Virtuele toetsenbord voor tekstinvoer"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "Open het contextmenu"
@@ -14917,9 +14978,6 @@ msgstr "Voer de naam van de nieuwe symlink in"
 
 msgid "Please enter new name:"
 msgstr "A.u.b. een nieuwe naam opgeven:"
-
-msgid "Please enter search string for your location"
-msgstr "Voer uw locatie in om naar te zoeken"
 
 msgid "Please enter the correct pin code"
 msgstr "A.u.b. de juiste pincode invoeren"
@@ -15811,6 +15869,9 @@ msgstr "RAM (Overzicht)"
 msgid "RAM benchmark"
 msgstr "RAM benchmark"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "AB custom code"
 
@@ -15891,6 +15952,15 @@ msgstr "Radio zender kiezen"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Radio zenderlijst Acties"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 msgid "Random"
 msgstr "Willekeurig"
@@ -17434,6 +17504,9 @@ msgstr "Powerbeheer log"
 msgid "Scheduler standby"
 msgstr "PowerTimer stand-by"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "Wetenschap"
 
@@ -17498,9 +17571,6 @@ msgstr ""
 
 msgid "Search packages by name or description"
 msgstr ""
-
-msgid "Search weather location ID"
-msgstr "Zoek weer locatie ID"
 
 msgid "Search west"
 msgstr "Zoek west"
@@ -17633,6 +17703,9 @@ msgstr "Kies 'Ja' wanneer de TV door een PowerTimer moet worden ingeschakeld."
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Bij 'ja' zal de informatiebalk continu worden getoond wanneer het afspelen is gepauzeerd."
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "De VPS plugin kan bepalen of een programma eerder begint of langer duurt dan in de Timer ingesteld. De zender moet dan wel betrouwbare gegevens leveren!"
@@ -17855,6 +17928,12 @@ msgstr "Selecteer 'Ja' om de ontvanger direct uit te schakelen in plaats van te 
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Kies 'Ja' om opdrachten in meerdere acties op te delen."
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Wanneer 'Ja' zal VPS worden ingeschakeld bij directe opnamen (en stoppen na het actuele programma), wanneer de zender VPS ondersteund."
@@ -18243,6 +18322,9 @@ msgstr "Taal van de AI vertaling kiezen."
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "De gegevensbron van de default DNS instellingen selecteren."
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Selecteer het onjuiste antwoord"
 
@@ -18392,6 +18474,9 @@ msgstr "Kies de datum, wanneer deze timer moet starten."
 msgid "Select the day of the week that this timer will activate."
 msgstr "Selecteer de weekdag, wanneer deze timer actief moet worden."
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "Selecteer de standaardmap die moet worden gebruikt als de map in de linkerkolom niet is opgeslagen."
 
@@ -18459,6 +18544,9 @@ msgstr "Selecteer het eerste item in de lijst"
 msgid "Select the function to be assigned to this button."
 msgstr "Wijs de gekozen functie toe aan deze knop."
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "Selecteer het gemarkeerde image en ga verder met de slot-selectie"
 
@@ -18498,6 +18586,9 @@ msgstr "Selecteer de locatie waar de opname moeten worden opgeslagen:"
 
 msgid "Select the location where the picon files will be installed."
 msgstr "De locatie voor de Picons opgeven."
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Selecteer de fabrikant van uw SCR-apparaat. Wanneer deze niet in de lijst voorkomt, stelt u 'SCR' in op 'door gebruiker gedefinieerd' en geeft u vervolgens de parameters handmatig in volgens de specs van het apparaat."
@@ -19161,6 +19252,9 @@ msgstr "Als startzender instellen"
 msgid "Set system"
 msgstr "Systeem instellingen"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "CutList-Editor-tijdsprong voor de knoppen '%s'/'%s' definiëren."
 
@@ -19566,6 +19660,9 @@ msgstr "Dient de crash teller te worden reset om een herstart te verhinderen?"
 
 msgid "Show"
 msgstr "Laten zien"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "Toon 1080p 24fps als"
@@ -20220,6 +20317,9 @@ msgstr ""
 msgid "Show the OSCam information screen"
 msgstr "Het OSCam informatiescherm tonen"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "Toon de uitvoer van het laatste opkg-commando"
 
@@ -20420,6 +20520,9 @@ msgstr "Skins"
 
 msgid "Skin Settings"
 msgstr "Skin selecteren"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "Skin instelling"
@@ -20823,9 +20926,6 @@ msgstr "Sorry, er is geen back-up gevonden!"
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Sorry, geen fysieke apparaten die SWAP ondersteuning bieden gevonden. Kan geen Swapfile op netwerk- of FAT32-bestandssystemen maken"
 
-msgid "Sorry, there was a problem:"
-msgstr "Sorry, er was een probleem:"
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -21018,9 +21118,6 @@ msgstr ""
 
 msgid "Start Auto Refresh"
 msgstr "Start Automatisch vernieuwen"
-
-msgid "Start Boot Frequency"
-msgstr "Bootfrequentie bij de start"
 
 msgid "Start RDS interactive"
 msgstr "Start RDS interactief"
@@ -21551,6 +21648,9 @@ msgstr "Ga een EPG pagina naar beneden"
 msgid "Switch EPG Page Up"
 msgstr "Ga een EPG pagina naar boven"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "Wissel modus om HDR modi of PiP functies in te schakelen"
 
@@ -21927,9 +22027,6 @@ msgstr "Test modus"
 msgid "Test type"
 msgstr "Testtype"
 
-msgid "Testing Information"
-msgstr "Testinformatie"
-
 msgid "Testscreens"
 msgstr "Testschermen"
 
@@ -21938,6 +22035,9 @@ msgstr "Testschermen waarmee u de weergave van uw scherm kunt optimaliseren"
 
 msgid "Text"
 msgstr "Tekst"
+
+msgid "Text Box"
+msgstr ""
 
 msgid "Text color"
 msgstr "Tekstkleur"
@@ -22424,6 +22524,9 @@ msgstr "Deze favorietenlijst is beschermd met een PIN-code (kinderslot)!"
 msgid "This channel is currently off air."
 msgstr ""
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Middels dit veld kunt u zoeken naar een additionele symbol rate tot %s."
@@ -22852,6 +22955,9 @@ msgstr "Update tijd in minuten"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "Tijdvenster voor detectie van ontwaken van een opname"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 msgid "Time zone"
 msgstr "Tijdzone"
@@ -23563,6 +23669,9 @@ msgstr ""
 msgid "Unable to start the DAB+ feed"
 msgstr ""
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr ""
 
@@ -24138,6 +24247,9 @@ msgstr "Gebruikers ID"
 msgid "User Manual"
 msgstr ""
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "Opmerkingen van gebruikers"
 
@@ -24687,6 +24799,9 @@ msgstr ""
 
 msgid "Weather"
 msgstr "Weer"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Webinterface"
@@ -25624,6 +25739,9 @@ msgstr "een GUI om zenders/providers/caids aan de CI modules toe te voegen"
 msgid "activatePiP"
 msgstr "activeer PiP"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "adres:"
 
@@ -26073,6 +26191,9 @@ msgstr "zoekstatus"
 msgid "search EPG..."
 msgstr "zoek in EPG..."
 
+msgid "seconds"
+msgstr ""
+
 msgid "select CAId's"
 msgstr "Selecteer CAId's"
 
@@ -26127,6 +26248,9 @@ msgstr "stereo"
 msgid "successful"
 msgstr "succesvol"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "Display van 12 naar 8 karakters wisselen"
 
@@ -26168,6 +26292,9 @@ msgstr ""
 
 msgid "this recording"
 msgstr "Deze opname"
+
+msgid "throttled"
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Tijd, hoofdstuk, audio en ondertitels instellen"
@@ -26255,6 +26382,37 @@ msgstr "ja (bewaar feeds)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+#~ msgstr[1] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "Een mediabestand is in gebruik!"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "Actuele spanning voor CPU-cores 0 en 1: %s V"
+
+#~ msgid "Location list"
+#~ msgstr "Locatie lijst"
+
+#~ msgid "Please enter search string for your location"
+#~ msgstr "Voer uw locatie in om naar te zoeken"
+
+#~ msgid "Search weather location ID"
+#~ msgstr "Zoek weer locatie ID"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "Sorry, er was een probleem:"
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "Bootfrequentie bij de start"
+
+#~ msgid "Testing Information"
+#~ msgstr "Testinformatie"
 
 #~ msgid "Close screen"
 #~ msgstr "Sluit het scherm"
@@ -29084,10 +29242,6 @@ msgstr "®"
 #, python-format
 #~ msgid "%s KSymb/s"
 #~ msgstr "%s KSymb/s"
-
-#, python-format
-#~ msgid "%s MHz"
-#~ msgstr "%s MHz"
 
 #~ msgid "(FTA Service)"
 #~ msgstr "(FTA Zender)"
