@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-10-10 11:51+0000\n"
 "Last-Translator: Mark Stone <grystyle@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -746,12 +746,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-msgstr[1] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1205,6 +1199,10 @@ msgid "%s Information Actions"
 msgstr "%s 信息操作"
 
 #, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
+
+#, python-format
 msgid "%s Setup"
 msgstr "%s  设置"
 
@@ -1648,9 +1646,6 @@ msgstr "一项已完成的任务要关闭您的 %s%s。现在关机吗？"
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "崩溃日志 %s 已创建到 '%s'"
-
-msgid "A file from media is in use!"
-msgstr "正在使用来自媒体的文件！"
 
 #, python-format
 msgid ""
@@ -2192,6 +2187,9 @@ msgstr "%s 附加极轴电机线缆"
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr "接收机从额外插槽启动时，无法修改这些插槽。"
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "调整颜色设置以使所有的颜色深浅可以辨识出来，使之看起来尽可能饱和。如果满意当前设置，按 OK 键关闭视频微调，或者用数字键选择画面上的其他测试。"
 
@@ -2493,6 +2491,12 @@ msgstr "录像中总是包含 ECM（授权控制信息）"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "录制中总是包含 ECM 消息。这将全局覆盖各个定时器设置。如果您的接收器支持，它允许录制在之后始终被解密（有时称为离线解码）。"
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "总是显示频道分组"
 
@@ -2592,6 +2596,9 @@ msgstr "对活动区域设置/语言应用任何更改并退出"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "应用当前突出显示的区域设置/语言并退出"
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "湖绿色"
@@ -2847,6 +2854,9 @@ msgstr "音频同步"
 msgid "Audio bit rate"
 msgstr "音频比特率"
 
+msgid "Audio decoding"
+msgstr "DAB+ 音频解码"
+
 msgid "Audio language selection 1"
 msgstr "伴音语言选择 1"
 
@@ -2972,6 +2982,9 @@ msgstr "自动分辨率标签"
 
 msgid "Automatic scan for services"
 msgstr "频道自动扫描"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "每当接收机进入待机或深度待机时，自动将电视置于待机状态。"
@@ -3213,6 +3226,9 @@ msgstr "篮球"
 msgid "Basque"
 msgstr "巴斯克语"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr "在更改这些设置之前，请尝试禁用电视/显示屏上的任何过扫描设置。要校准屏幕显示 (OSD)，请调整位置和大小值，直到红色框“正好”可见并触及屏幕边缘。"
 
@@ -3335,6 +3351,9 @@ msgstr "蓝牙音频"
 
 msgid "Bluetooth Setup"
 msgstr "蓝牙设置"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "玻利维亚"
@@ -3695,6 +3714,9 @@ msgstr "CPU / 核心 %d 类型"
 
 msgid "CPU Control"
 msgstr "CPU 控制"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "CPU 架构"
@@ -4656,6 +4678,9 @@ msgstr "色彩空间"
 
 msgid "Colored text"
 msgstr "彩色文字"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "混合"
@@ -5653,9 +5678,8 @@ msgstr "当前 CPU 频率 0 和 1核心：%s MHz"
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "当前 CPU 频率其他核心：%s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "当前 CPU 电压 0 和 1 核心：%s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "当前目录"
@@ -5663,8 +5687,20 @@ msgstr "当前目录"
 msgid "Current Event:"
 msgstr "当前事件："
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "当前状态："
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -5824,9 +5860,6 @@ msgstr "DAB+ USB支持组件已安装。您现在可以在接收设置中启用�
 
 msgid "DAB+ USB: bouquet could not be written"
 msgstr "DAB+ USB：无法写入频道分组"
-
-msgid "Audio decoding"
-msgstr "DAB+ 音频解码"
 
 msgid "DAB+ channel"
 msgstr "DAB+ 频道"
@@ -6308,6 +6341,9 @@ msgstr "定义快进跳转的跳跃距离。此数值乘以快进速度，如4x�
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "定义哪些快进速度使用正常提示模式，其他快进速度和所有快退速度使用时间跳跃模式。"
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "DiSEqC 外围加电指令之后延迟"
@@ -9342,6 +9378,9 @@ msgstr "强制禁用"
 msgid "Force enabled"
 msgstr "强制启用"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "外国/探险"
 
@@ -10021,6 +10060,9 @@ msgstr "隐藏 CI 消息"
 msgid "Hide InfoBar"
 msgstr "隐藏信息栏"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "隐藏此频道的 VBI 行"
 
@@ -10053,6 +10095,9 @@ msgstr "隐藏子菜单"
 
 msgid "Hide the InfoBar"
 msgstr "隐藏信息栏"
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "隐藏切换错误"
@@ -11466,6 +11511,9 @@ msgstr "休闲爱好"
 msgid "Lesotho"
 msgstr "莱索托"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr "让调谐器自动选择射频增益。"
 
@@ -11625,6 +11673,10 @@ msgstr "从定时器和录像中加载标签"
 msgid "Load unlinked user bouquets"
 msgstr "载入断开链接的用户频道分组"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "正在加载信息，请稍候..."
 
@@ -11698,9 +11750,6 @@ msgstr "位置选择操作"
 
 msgid "Location information"
 msgstr "位置信息"
-
-msgid "Location list"
-msgstr "位置列表"
 
 #, python-format
 msgid "Location: %s"
@@ -11977,6 +12026,9 @@ msgstr "手动扫描"
 
 msgid "Manual Service Searching"
 msgstr "手动搜索频道"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "手动扫描频道"
@@ -13796,6 +13848,12 @@ msgstr "OSD 设置"
 msgid "OSD Setup"
 msgstr "OSD 设置"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "OSD 名称请求"
 
@@ -14086,6 +14144,9 @@ msgstr "打开存储设备信息"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "打开虚拟键盘进行文本输入"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "打开上下文菜单"
@@ -14804,9 +14865,6 @@ msgstr "请输入新符号链接的名称："
 
 msgid "Please enter new name:"
 msgstr "请输入新名称："
-
-msgid "Please enter search string for your location"
-msgstr "请为您的位置输入搜索字符串"
 
 msgid "Please enter the correct pin code"
 msgstr "请输入正确的 PIN 码"
@@ -15695,6 +15753,9 @@ msgstr "内存（摘要）"
 msgid "RAM benchmark"
 msgstr "内存基准"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "遥控器自定义代码"
 
@@ -15775,6 +15836,15 @@ msgstr "广播频道选择"
 
 msgid "Radio Channel Selection Actions"
 msgstr "广播频道选择操作"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 msgid "Random"
 msgstr "随机"
@@ -17316,6 +17386,9 @@ msgstr "计划任务日志"
 msgid "Scheduler standby"
 msgstr "计划任务待机"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "科学"
 
@@ -17378,9 +17451,6 @@ msgstr "在当前视图中搜索"
 
 msgid "Search packages by name or description"
 msgstr "按名称或描述搜索软件包"
-
-msgid "Search weather location ID"
-msgstr "搜索天气位置 ID"
 
 msgid "Search west"
 msgstr "搜索西面"
@@ -17513,6 +17583,9 @@ msgstr "如果您想因“唤醒”电源定时器启动而唤醒电视，请选
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "选择“是”，在暂停媒体播放时，信息栏保持显示，不超时。"
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "这个插件可以确定一个节目是更早开始还是持续更长时间。 频道必须提供可靠的数据。"
@@ -17729,6 +17802,12 @@ msgstr "选择“是”将立即关机而不执行解扰操作。"
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "选择“是”将任务拆分为单独的操作。"
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "选 是 时，即时录制中 VPS 将被启用（在当前事件后停止），如果频道支持 VPS。"
@@ -18117,6 +18196,9 @@ msgstr "选择人工智能翻译目标语言。"
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "选择默认 DNS 设置的来源。"
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "选择 否/错误 响应"
 
@@ -18266,6 +18348,9 @@ msgstr "选择此定时器启动的日期。"
 msgid "Select the day of the week that this timer will activate."
 msgstr "选择星期几激活此定时器。"
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "如果未保存左列目录，请选择要使用的默认目录。"
 
@@ -18331,6 +18416,9 @@ msgstr "选择列表中的第一项"
 msgid "Select the function to be assigned to this button."
 msgstr "选择要分配给此按钮的功能。"
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "选择突出显示的镜像并继续进行槽位选择"
 
@@ -18366,6 +18454,9 @@ msgstr "选择存储录制的位置："
 
 msgid "Select the location where the picon files will be installed."
 msgstr "选择频道图标文件的安装位置。"
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "选择 SCR 设备的制造商。 如果制造商未列出，请将“SCR”设置为“用户定义”，并根据其规格手动输入设备参数。"
@@ -19027,6 +19118,9 @@ msgstr "设为开机频道"
 msgid "Set system"
 msgstr "设置系统"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "设置‘%s’/‘%s’按钮的剪辑列表跳过时间间隔。"
 
@@ -19420,6 +19514,9 @@ msgstr "是否应重置崩溃计数器以防止重启？"
 
 msgid "Show"
 msgstr "显示"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "将1080p 24fps 显示为"
@@ -20068,6 +20165,9 @@ msgstr "显示所选适配器的网络信息"
 msgid "Show the OSCam information screen"
 msgstr "显示 OSCam 信息屏幕"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "显示最后一个 opkg 命令的输出"
 
@@ -20266,6 +20366,9 @@ msgstr "皮肤包"
 
 msgid "Skin Settings"
 msgstr "皮肤设置"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "皮肤设置"
@@ -20669,9 +20772,6 @@ msgstr "抱歉，没有找到备份！"
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "抱歉，没有支持SWAP的物理设备连接。 无法在网络或 fat32 文件系统上创建交换文件"
 
-msgid "Sorry, there was a problem:"
-msgstr "抱歉，出现一个问题："
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -20864,9 +20964,6 @@ msgstr "启动 %s"
 
 msgid "Start Auto Refresh"
 msgstr "启动自动刷新"
-
-msgid "Start Boot Frequency"
-msgstr "开始引导频率"
 
 msgid "Start RDS interactive"
 msgstr "启动 RDS 交互"
@@ -21397,6 +21494,9 @@ msgstr "向下切换 EPG 页面"
 msgid "Switch EPG Page Up"
 msgstr "向上切换 EPG 页面"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "切换模式以启用 HDR 模式或画中画功能"
 
@@ -21771,9 +21871,6 @@ msgstr "测试模式"
 msgid "Test type"
 msgstr "测试类型"
 
-msgid "Testing Information"
-msgstr "测试信息"
-
 msgid "Testscreens"
 msgstr "测试屏幕"
 
@@ -21782,6 +21879,9 @@ msgstr "测试屏幕有助于微调显示器"
 
 msgid "Text"
 msgstr "文本"
+
+msgid "Text Box"
+msgstr ""
 
 msgid "Text color"
 msgstr "文本颜色"
@@ -22268,6 +22368,9 @@ msgstr "此频道分组由家长控制密码保护！"
 msgid "This channel is currently off air."
 msgstr "该频道当前停播。"
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "此字段允许您搜索高达 %s 的附加符号率。"
@@ -22665,6 +22768,9 @@ msgstr "时间更新（分钟）"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "定时器检测唤醒的时间窗口 [分钟]"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 msgid "Time zone"
 msgstr "时区"
@@ -23376,6 +23482,9 @@ msgstr ""
 msgid "Unable to start the DAB+ feed"
 msgstr "无法启动 DAB+ 传送源"
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr ""
 
@@ -23949,6 +24058,9 @@ msgstr "用户名"
 msgid "User Manual"
 msgstr "用户手册"
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "用户评论"
 
@@ -24498,6 +24610,9 @@ msgstr "水上运动"
 
 msgid "Weather"
 msgstr "天气"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Web界面"
@@ -25413,6 +25528,9 @@ msgstr "一个用于将频道/提供商/CAID分配至公共接口模块的图形
 msgid "activatePiP"
 msgstr "激活画中画"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "地址："
 
@@ -25864,6 +25982,9 @@ msgstr "扫描状态"
 msgid "search EPG..."
 msgstr "搜索 EPG ..."
 
+msgid "seconds"
+msgstr ""
+
 msgid "select CAId's"
 msgstr "选择 CAId"
 
@@ -25918,6 +26039,9 @@ msgstr "立体声"
 msgid "successful"
 msgstr "成功"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "将12字符切换为8字符显示模式"
 
@@ -25959,6 +26083,9 @@ msgstr "目标高频头尚未设置"
 
 msgid "this recording"
 msgstr "这段录像"
+
+msgid "throttled"
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "切换时间，章节，音频，字幕信息"
@@ -26046,6 +26173,37 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+#~ msgstr[1] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "正在使用来自媒体的文件！"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "当前 CPU 电压 0 和 1 核心：%s V"
+
+#~ msgid "Location list"
+#~ msgstr "位置列表"
+
+#~ msgid "Please enter search string for your location"
+#~ msgstr "请为您的位置输入搜索字符串"
+
+#~ msgid "Search weather location ID"
+#~ msgstr "搜索天气位置 ID"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "抱歉，出现一个问题："
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "开始引导频率"
+
+#~ msgid "Testing Information"
+#~ msgstr "测试信息"
 
 #~ msgid "Close screen"
 #~ msgstr "关闭屏幕"
@@ -28801,10 +28959,6 @@ msgstr "®"
 #, python-format
 #~ msgid "%s KSymb/s"
 #~ msgstr "%s KSymb/秒"
-
-#, python-format
-#~ msgid "%s MHz"
-#~ msgstr "%s MHz"
 
 #~ msgid "(FTA Service)"
 #~ msgstr "(免费频道)"
