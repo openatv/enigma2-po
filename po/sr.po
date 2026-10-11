@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-10-08 09:48+0000\n"
 "Last-Translator: Milan Koljanin <lane58@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
@@ -746,13 +746,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-msgstr[1] "%d"
-msgstr[2] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1240,6 +1233,10 @@ msgid "%s Information Actions"
 msgstr "%s Radnja sa informacijom"
 
 #, python-format
+msgid "%s MHz"
+msgstr ""
+
+#, python-format
 msgid "%s Setup"
 msgstr "%s Podešavanje"
 
@@ -1683,9 +1680,6 @@ msgstr "Završen zadatak želi da isključi vaš %s %s. Isključivanje sada?"
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "Dnevnik sudara je %s kreiran u '%s'"
-
-msgid "A file from media is in use!"
-msgstr "Fajl iz medija je u upotrebi!"
 
 #, python-format
 msgid ""
@@ -2227,6 +2221,9 @@ msgstr "Dodatni rotor kabl od %s"
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr "Dodatni slotovi se ne mogu menjati dok prijemnik radi iz jednog od njih."
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Podesi postavke boje tako da su sve senke boja raspoznatljive, da izgledaju maksimalno zasićene. Ako ste zadovoljni rezultatom pritisnite ОК, da zatvorite video fino-podešen, ili koristite numeričke tastere da izaberete drugi test ekran."
 
@@ -2528,6 +2525,12 @@ msgstr "Uvek uključi ECM u snimke"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "Uvek uključi ECM poruke u snimke. Ovo zamenjuje pojedinačne postavke tajmera na globalnom nivou. Omogućava dešifrovanje snimaka kasnije (auzo/offline dekodiranje), ako to podržava vaš resiver. Po defaultu: isklj."
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "Uvek pokaži bukete"
 
@@ -2627,6 +2630,9 @@ msgstr "Primeni sve promene na aktivni lokalni/jezik i izađi sa exit"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Primeni trenutno istaknuti lokalni/jezik i izađi sa exit"
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "Voda"
@@ -2882,6 +2888,9 @@ msgstr "Sinhronizacija Zvuka"
 msgid "Audio bit rate"
 msgstr "Bitrejt zvuka"
 
+msgid "Audio decoding"
+msgstr "Audio dekodiranje"
+
 msgid "Audio language selection 1"
 msgstr "Izbor audio jezika 1"
 
@@ -3007,6 +3016,9 @@ msgstr "Oznaka automatske rezolucije"
 
 msgid "Automatic scan for services"
 msgstr "Automatsko skeniranje kanala"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "Automatski stavite TV u režim čekanja kad god prijemnik pređe u režim čekanja ili duboko čekanje."
@@ -3248,6 +3260,9 @@ msgstr "Basketball"
 msgid "Basque"
 msgstr "Basque"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr "Pre nego što promenite ove postavke, pokušajte da onemogućite bilo kakve postavke overscan na TV / ekranu. Da biste kalibrisali ekran na ekranu (OSD), podesite vrednosti položaja i veličine sve dok crveni box ne bude * samo * vidljiv i dodirne ivice ekrana."
 
@@ -3370,6 +3385,9 @@ msgstr "Bluetooth Audio"
 
 msgid "Bluetooth Setup"
 msgstr "Bluetooth Podešavanje"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "Bolivia"
@@ -3730,6 +3748,9 @@ msgstr "CPU / Jezgra %d tip"
 
 msgid "CPU Control"
 msgstr "CPU Kontrola"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "CPU arhitektura"
@@ -4692,6 +4713,9 @@ msgstr "Prostor Boje"
 
 msgid "Colored text"
 msgstr "Obojeni tekst"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "Kombinirano"
@@ -5690,9 +5714,8 @@ msgstr "Trenutna CPU Frekvencija jezgre 0 i 1: %s MHz"
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "Trenutna CPU frekvencija ostalih jezgri: %s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Trenutna CPU jezgra 0 i 1 Napon: %s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "Trenutni Direktorij"
@@ -5700,8 +5723,20 @@ msgstr "Trenutni Direktorij"
 msgid "Current Event:"
 msgstr "Trenutni Događaj:"
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "Trenutni Status:"
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -5861,9 +5896,6 @@ msgstr "Podrška za DAB+ USB je instalirana. Sada možeš da uključiš prijemni
 
 msgid "DAB+ USB: bouquet could not be written"
 msgstr "DAB+ USB: buket nije mogao biti snimljen"
-
-msgid "Audio decoding"
-msgstr "Audio dekodiranje"
 
 msgid "DAB+ channel"
 msgstr "DAB+ kanala"
@@ -6345,6 +6377,9 @@ msgstr "Definiše rastojanje skoka za skokove unapred. Vrednost se množi brzino
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Definiše koje brzine premotavanja unapred koriste normalno premotavanje. Ostale brzine napred ili nazad koriste vremenske skokove."
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "Odlaganje nakon komande DiSEqC periferne snage"
@@ -9383,6 +9418,9 @@ msgstr "Forsiranje onemogućeno"
 msgid "Force enabled"
 msgstr "Forsiranje omogućeno"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "Strane zemlje/Ekspedicije"
 
@@ -10062,6 +10100,9 @@ msgstr "Sakrij CI poruku"
 msgid "Hide InfoBar"
 msgstr "Sakrij Info Traku"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "Sakrij VBI red za ovaj kanal"
 
@@ -10094,6 +10135,9 @@ msgstr "Sakrij podmeni"
 
 msgid "Hide the InfoBar"
 msgstr "Sakrij Info traku"
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "Sakrij zap greške"
@@ -11504,6 +11548,9 @@ msgstr "Leisure hobbies"
 msgid "Lesotho"
 msgstr "Lesotho"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr "Neka tjuner sam automatski odabere RF pojačanje."
 
@@ -11663,6 +11710,10 @@ msgstr "Učitavanje oznake iz tajmera i snimaka"
 msgid "Load unlinked user bouquets"
 msgstr "Učitavanje neizabranih korisničkih buketa"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "Učitavanje informacija, sačekajte..."
 
@@ -11736,9 +11787,6 @@ msgstr "Radnje Izbora Lokacije"
 
 msgid "Location information"
 msgstr "Info o lokaciji"
-
-msgid "Location list"
-msgstr "Lista lokacija"
 
 #, python-format
 msgid "Location: %s"
@@ -12015,6 +12063,9 @@ msgstr "Ručno Skeniranje"
 
 msgid "Manual Service Searching"
 msgstr "Ručno Pretraživanje Kanala"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "Ručno skeniranje kanala"
@@ -13834,6 +13885,12 @@ msgstr "OSD Postavke"
 msgid "OSD Setup"
 msgstr "OSD Podešavanje"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "OSD zahtev za ime"
 
@@ -14124,6 +14181,9 @@ msgstr "Otvorite informacije o skladišnom uređaju"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Otvorite virtuelnu tastaturu za unos teksta"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "Otvorite kontekstualni meni"
@@ -14842,9 +14902,6 @@ msgstr "Unesite ime nove simbolične veze:"
 
 msgid "Please enter new name:"
 msgstr "Unesite novo ime:"
-
-msgid "Please enter search string for your location"
-msgstr "Unesite string za traženje vaše lokacije"
 
 msgid "Please enter the correct pin code"
 msgstr "Unesite ispravan pin kod"
@@ -15735,6 +15792,9 @@ msgstr "RAM (Ukupno)"
 msgid "RAM benchmark"
 msgstr "RAM odrednica"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "RC prilagođeni kod"
 
@@ -15815,6 +15875,15 @@ msgstr "Izbor radio kanala"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Akcije za odabir radijskih kanala"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 msgid "Random"
 msgstr "Nasumično"
@@ -17359,6 +17428,9 @@ msgstr "Planer log"
 msgid "Scheduler standby"
 msgstr "Planer pripravnosti"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "Science"
 
@@ -17421,9 +17493,6 @@ msgstr "Pretraži u trenutnom prikazu"
 
 msgid "Search packages by name or description"
 msgstr "Pretraži pakete po imenu ili opisu"
-
-msgid "Search weather location ID"
-msgstr "Traženje ID lokacije vremenske prognoze"
 
 msgid "Search west"
 msgstr "Pretraži zapad"
@@ -17556,6 +17625,9 @@ msgstr "Izaberite 'Da' ako želite da probudite TV kada se pokrene zakazana akti
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Izaberi 'Da' zadržite prikazanu info traku bez vremenskog razmaka, dok je reprodukcija medija pauzirana."
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "Ovaj plugin može da utvrdi da li program počinje ranije ili duže traje. Kanal mora da obezbedi pouzdane podatke."
@@ -17772,6 +17844,12 @@ msgstr "Izaberite 'Da' da se odmah isključi umesto da se započne dešifrovanje
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Izaberite 'Da' da podelite zadatke na odvojene akcije."
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Kada je da, VPS će biti omogućen u trenutnim zapisima (zaustavi se posle aktuelnog događaja), ako kanal podržava VPS."
@@ -18160,6 +18238,9 @@ msgstr "Izaberite jezik ciljni prevod koji koristi veštačku inteligenciju."
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "Izaberite DNS server(e) koji će se koristiti za pronalaženje imena hosta kako bi se odredila IP adresa."
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Izaberi Ne / Lažni odgovor"
 
@@ -18309,6 +18390,9 @@ msgstr "Izaberi datum početka ovog tajmera."
 msgid "Select the day of the week that this timer will activate."
 msgstr "Izaberi danu sedmici koji će ovaj tajmer aktivirati."
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "Izaberi default direktorijum koji će se koristiti ako direktorijum leve kolone nije sačuvan."
 
@@ -18374,6 +18458,9 @@ msgstr "Izaberi prvu stavku na listi"
 msgid "Select the function to be assigned to this button."
 msgstr "Izaberi funkciju koja će biti dodeljena ovom tasteru."
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "Izaberi istaknuti imidž i pređi na izbor slota"
 
@@ -18409,6 +18496,9 @@ msgstr "Izaberi lokaciju na kojoj će biti sačuvan snimak:"
 
 msgid "Select the location where the picon files will be installed."
 msgstr "Izaberite lokaciju gde će biti instalirani pikon fajlovi."
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Izaberite proizvođača vašeg SCR uređaja. Ako proizvođač nije naveden, postavite 'SCR' na 'Korisnički definisan' i unesite parametre uređaja ručno prema njegovim specifikacijama."
@@ -19070,6 +19160,9 @@ msgstr "Podešavanje pokretanja kanala"
 msgid "Set system"
 msgstr "Podešavanje sistema"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Postavite interval preskakanja vremena za '%s'/'%s' dugmiće u CutList Editor."
 
@@ -19463,6 +19556,9 @@ msgstr "Da li treba uspostaviti početne vrednosti brojača da bi sprečili pono
 
 msgid "Show"
 msgstr "Pokaži"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "Pokaži 1080p 24fps kao"
@@ -20111,6 +20207,9 @@ msgstr "Prikaži informacije o Mreži za odabrani adapter"
 msgid "Show the OSCam information screen"
 msgstr "Pokaži OSCam info na ekranu"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "Pokaži izlaz poslednje opkg komande"
 
@@ -20309,6 +20408,9 @@ msgstr "Prikaži Skin Pakete"
 
 msgid "Skin Settings"
 msgstr "Skin Postavke"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "Skin Postavke"
@@ -20716,9 +20818,6 @@ msgstr "Izvinite, nema rezervnih kopija!"
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Žao mi je, nema fizičkih uređaja koji podržavaju SWAP povezane. Ne mogu da kreiram swap datoteku na mreži ili FAT32 fajl sistemima"
 
-msgid "Sorry, there was a problem:"
-msgstr "Izvinite, došlo je do problema:"
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -20911,9 +21010,6 @@ msgstr "Start %s"
 
 msgid "Start Auto Refresh"
 msgstr "Započni Auto Osvežavanje"
-
-msgid "Start Boot Frequency"
-msgstr "Frekvencija pokretanja sistema"
 
 msgid "Start RDS interactive"
 msgstr "Pokreni RDS interaktivno"
@@ -21444,6 +21540,9 @@ msgstr "Promeni EPG stranicu nadole"
 msgid "Switch EPG Page Up"
 msgstr "Promeni EPG stranicu nagore"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "Promena između HDR i PiP funkcije"
 
@@ -21818,9 +21917,6 @@ msgstr "Test režim"
 msgid "Test type"
 msgstr "Test tip"
 
-msgid "Testing Information"
-msgstr "Test Info"
-
 msgid "Testscreens"
 msgstr "Probni ekran"
 
@@ -21829,6 +21925,9 @@ msgstr "Probni ekrani koji su korisni za precizno podešavanje"
 
 msgid "Text"
 msgstr "Tekst"
+
+msgid "Text Box"
+msgstr ""
 
 msgid "Text color"
 msgstr "Boja teksta"
@@ -22316,6 +22415,9 @@ msgstr "Ovaj buket je zaštićen pinom roditeljske kontrole!"
 msgid "This channel is currently off air."
 msgstr "Ovaj kanal trenutno ne emituje."
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Ovo polje vam omogućava da pretražite dodatni simbol rate do %s."
@@ -22713,6 +22815,9 @@ msgstr "Ažuriranje vremena u minutima"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "Vremenski prozor za otkrivanje buđenja od strane tajmera [min]"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 msgid "Time zone"
 msgstr "Vremenska zona"
@@ -23424,6 +23529,9 @@ msgstr "Ne mogu da sačuvam konfiguraciju mrežne montaže!"
 msgid "Unable to start the DAB+ feed"
 msgstr "Ne mogu da pokrenem DAB+ strim"
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr "Ne mogu da pokrenem lokalnu pretragu slika. Pokušaj ponovo kasnije."
 
@@ -23997,6 +24105,9 @@ msgstr "Korisnički ID"
 msgid "User Manual"
 msgstr "Korisnički Priručnik"
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "Korisnički komentar"
 
@@ -24546,6 +24657,9 @@ msgstr "Vodeni sportovi"
 
 msgid "Weather"
 msgstr "Vreme"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Web Interfejs"
@@ -25461,6 +25575,9 @@ msgstr "gui za dodeljivanje kanala/provajdera/caids uobičajenim interfejs modul
 msgid "activatePiP"
 msgstr "aktivni PiP"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "adresa:"
 
@@ -25912,6 +26029,9 @@ msgstr "stanje skeniranja"
 msgid "search EPG..."
 msgstr "pretraži EPG..."
 
+msgid "seconds"
+msgstr ""
+
 msgid "select CAId's"
 msgstr "izaberi CAId"
 
@@ -25966,6 +26086,9 @@ msgstr "stereo"
 msgid "successful"
 msgstr "uspešno"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "zamena prikaza od 12 do 8 znakova"
 
@@ -26007,6 +26130,9 @@ msgstr "ciljani LNB nije podešen"
 
 msgid "this recording"
 msgstr "ovaj snimak"
+
+msgid "throttled"
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "preklopno vreme, poglavlje, audio, titl info"
@@ -26095,6 +26221,38 @@ msgstr "da (zadrži fidove)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+#~ msgstr[1] "%d"
+#~ msgstr[2] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "Fajl iz medija je u upotrebi!"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "Trenutna CPU jezgra 0 i 1 Napon: %s V"
+
+#~ msgid "Location list"
+#~ msgstr "Lista lokacija"
+
+#~ msgid "Please enter search string for your location"
+#~ msgstr "Unesite string za traženje vaše lokacije"
+
+#~ msgid "Search weather location ID"
+#~ msgstr "Traženje ID lokacije vremenske prognoze"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "Izvinite, došlo je do problema:"
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "Frekvencija pokretanja sistema"
+
+#~ msgid "Testing Information"
+#~ msgstr "Test Info"
 
 #~ msgid "Close screen"
 #~ msgstr "Zatvori ekran"
