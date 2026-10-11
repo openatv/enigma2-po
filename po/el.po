@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-10-11 14:02+0000\n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/el/>\n"
@@ -746,12 +746,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-msgstr[1] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1205,6 +1199,10 @@ msgid "%s Information Actions"
 msgstr "%s ενέργειες πληροφοριών"
 
 #, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
+
+#, python-format
 msgid "%s Setup"
 msgstr "%s Ρυθμίσεις"
 
@@ -1648,9 +1646,6 @@ msgstr "Μία ολοκληρωμένη εργασία θέλει να τερμ�
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "Ένα αρχείο καταγραφής %s δημιουργήθηκε στο '%s'"
-
-msgid "A file from media is in use!"
-msgstr "Ένα αρχείο από τα πολυμέσα είναι σε λειτουργία!"
 
 #, python-format
 msgid ""
@@ -2192,6 +2187,9 @@ msgstr "Πρόσθετο καλώδιο μοτέρ από το %s"
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr "Δεν είναι δυνατή η αλλαγή πρόσθετων θέσεων όσο ο δέκτης βρίσκεται σε λειτουργία από μία εξ αυτών."
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Ρυθμίστε την ένταση των χρωμάτων έτσι ώστε να διαφέρουν οι χρωματισμοί με τη μέγιστη φωτεινότητα. Όταν τελειώσετε, πιέστε ΟΚ για να κλείσετε τη μικρορύθμιση ή πιέστε ένα νούμερο για να δείτε και άλλες οθόνες δοκιμών."
 
@@ -2493,6 +2491,12 @@ msgstr "Συμπερίληψη πάντα του ECM στις εγγραφές"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "Να συμπεριλαμβάνονται πάντα τα μηνύματα ECM στις εγγραφές. Αυτό παρακάμπτει όλες τις ιδιαίτερες ρυθμίσεις χρονοδιακοπτών γενικά. Επιτρέπει στις εγγραφές να είναι πάντα αποκωδικοποιημένες μετέπειτα (ενίοτε ονομάζεται κωδικοποίηση εκτός σύνδεσης), αν υποστηρίζεται από τον δέκτη σας. Προεπιλογή: ανενεργό."
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "Πάντα εμφάνιση των μπουκέτων"
 
@@ -2592,6 +2596,9 @@ msgstr "Εφαρμογή αλλαγών στην ενεργή γλώσσα/δι�
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Εφαρμογή της τρέχουσας επιλεγμένης γλώσσας/διαλέκτου και έξοδος"
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "άκουα"
@@ -2847,6 +2854,9 @@ msgstr "Συγχρονισμός ήχου"
 msgid "Audio bit rate"
 msgstr "Ρυθμός δεδομένων ήχου"
 
+msgid "Audio decoding"
+msgstr "Αποκωδικοποίηση ήχου"
+
 msgid "Audio language selection 1"
 msgstr "Επιλογή γλώσσας ήχου 1"
 
@@ -2972,6 +2982,9 @@ msgstr "Ετικέτα αυτόματης ανάλυσης"
 
 msgid "Automatic scan for services"
 msgstr "Αυτόματη ανίχνευση υπηρεσιών"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "Θέστε αυτόματα την TV σε αναμονή κάθε φορά που ο δέκτης μεταβαίνει σε κατάσταση κοινής ή βαθιάς αναμονής."
@@ -3213,6 +3226,9 @@ msgstr "Μπάσκετ"
 msgid "Basque"
 msgstr "Βασκικά"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr "Πριν αλλάξετε αυτές τις ρυθμίσεις, προσπαθήστε να απενεργοποιήσετε την υπερσάρωση στην TV/οθόνη σας. Για τη βαθμονόμηση του OSD ρυθμίστε τις τιμές θέσης και μεγέθους, μέχρι το κόκκινο πλαίσιο να είναι *μόλις* ορατό και να αγγίζει τις άκρες της οθόνης."
 
@@ -3335,6 +3351,9 @@ msgstr "Ήχος bluetooth"
 
 msgid "Bluetooth Setup"
 msgstr "Ρυθμίσεις Bluetooth"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "Βολιβία"
@@ -3695,6 +3714,9 @@ msgstr "CPU / Πυρήνας %d τύπος"
 
 msgid "CPU Control"
 msgstr "Έλεγχος CPU"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "Αρχιτεκτονική CPU"
@@ -4656,6 +4678,9 @@ msgstr "Χρωματικό εύρος"
 
 msgid "Colored text"
 msgstr "Χρωματισμένο κείμενο"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "Σε συνδυασμό"
@@ -5653,9 +5678,8 @@ msgstr "Τρέχουσα συχνότητα CPU πυρήνες 0 και 1: %s MH
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "Τρέχουσα συχνότητα CPU άλλοι πυρήνες: %s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Τάση τρέχοντων πυρήνων CPU 0 και 1: %s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "Τρέχον φάκελος"
@@ -5663,8 +5687,20 @@ msgstr "Τρέχον φάκελος"
 msgid "Current Event:"
 msgstr "Τρέχον πρόγραμμα:"
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "Τρέχουσα κατάσταση:"
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -5824,9 +5860,6 @@ msgstr "Έγινε εγκατάσταση της υποστήριξης για D
 
 msgid "DAB+ USB: bouquet could not be written"
 msgstr "DAB+ USB: αδύνατη η εγγραφή του μπουκέτου"
-
-msgid "Audio decoding"
-msgstr "Αποκωδικοποίηση ήχου"
 
 msgid "DAB+ channel"
 msgstr "Κανάλι DAB+"
@@ -6308,6 +6341,9 @@ msgstr "Ορίζει την απόσταση των υπερπηδήσεων π�
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Ορίζει ποιες τιμές προώθησης προς τα εμπρός χρησιμοποιούν κανονική κίνηση. Όλες οι άλλες τιμές προώθησης εμπρός και πίσω χρησιμοποιούν υπερπηδήσεις χρόνου."
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "Καθυστέρηση μετά από την περιφερική εντολή ενεργοποίησης του DiSEqC"
@@ -9342,6 +9378,9 @@ msgstr "Αναγκαστική απενεργοποίηση"
 msgid "Force enabled"
 msgstr "Αναγκαστική ενεργοποίηση"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "ξένες χώρες/εκδρομές"
 
@@ -10021,6 +10060,9 @@ msgstr "Απόκρυψη μηνυμάτων CI"
 msgid "Hide InfoBar"
 msgstr "Απόκρυψη μπάρας πληροφοριών"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "Απόκρυψη της γραμμής VBI για αυτή την υπηρεσία"
 
@@ -10053,6 +10095,9 @@ msgstr "Απόκρυψη υπομενού"
 
 msgid "Hide the InfoBar"
 msgstr "Απόκρυψης της μπάρας πληροφοριών"
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "Απόκρυψη σφαλμάτων του ζάπινγκ"
@@ -11462,6 +11507,9 @@ msgstr "Χόμπι αναψυχής"
 msgid "Lesotho"
 msgstr "Λεσότο"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr ""
 
@@ -11621,6 +11669,10 @@ msgstr "Φόρτωση ετικετών από τους χρονοδιακόπτ
 msgid "Load unlinked user bouquets"
 msgstr "Φόρτωση ασύνδετων μπουκέτων χρήστη"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "Φόρτωση πληροφοριών, περιμένετε..."
 
@@ -11694,9 +11746,6 @@ msgstr "Ενέργειες επιλογής τοποθεσίας"
 
 msgid "Location information"
 msgstr "Πληροφορίες τοποθεσίας"
-
-msgid "Location list"
-msgstr "Λίστα τοποθεσιών"
 
 #, python-format
 msgid "Location: %s"
@@ -11973,6 +12022,9 @@ msgstr "Χειροκίνητη ανίχνευση"
 
 msgid "Manual Service Searching"
 msgstr "Χειροκίνητη ανίχνευση υπηρεσιών"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "Χειροκίνητη ανίχνευση υπηρεσιών"
@@ -13785,6 +13837,12 @@ msgstr "Ρυθμίσεις OSD"
 msgid "OSD Setup"
 msgstr "Ρυθμίσεις OSD"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "Απαίτηση ονόματος OSD"
 
@@ -14075,6 +14133,9 @@ msgstr "Άνοιγμα πληροφοριών συσκευών αποθήκευ�
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Άνοιγμα του εικονικού πληκτρολογίου για εισαγωγή κειμένου"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "Άνοιγμα μενού περιεχομένων"
@@ -14793,9 +14854,6 @@ msgstr "Παρακαλώ εισάγετε το όνομα για τη νέα σ�
 
 msgid "Please enter new name:"
 msgstr "Εισάγετε νέο όνομα:"
-
-msgid "Please enter search string for your location"
-msgstr "Εισάγετε όρο αναζήτησης για την τοποθεσία σας"
 
 msgid "Please enter the correct pin code"
 msgstr "Εισάγετε τον σωστό κωδικό pin"
@@ -15684,6 +15742,9 @@ msgstr "RAM (περίληψη)"
 msgid "RAM benchmark"
 msgstr "Σύγκριση επιδόσεων RAM"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "Προσαρμοσμένος κώδικας TX"
 
@@ -15764,6 +15825,15 @@ msgstr "Επιλογή καναλιών ραδιοφώνου"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Ενέργειες επιλογής ραδιοφωνικών καναλιών"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 msgid "Random"
 msgstr "Τυχαίος"
@@ -17305,6 +17375,9 @@ msgstr "Καταγραφή χρονοδιακόπτη λειτουργίας"
 msgid "Scheduler standby"
 msgstr "Αναμονή χρονοδιακόπτη λειτουργίας"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "Επιστήμη"
 
@@ -17367,9 +17440,6 @@ msgstr ""
 
 msgid "Search packages by name or description"
 msgstr ""
-
-msgid "Search weather location ID"
-msgstr "Αναζήτηση ID τοποθεσίας καιρού"
 
 msgid "Search west"
 msgstr "Αναζήτηση δυτικά"
@@ -17502,6 +17572,9 @@ msgstr "Αν επιλεγεί το 'ναι', θα γίνεται αφύπνισ�
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Επιλέξτε 'ναι' για να διατηρηθεί η εμφάνιση της μπάρας πληροφοριών, χωρίς χρόνο λήξης, καθώς η αναπαραγωγή πολυμέσων βρίσκεται σε παύση."
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "Αυτό το πρόγραμμα καθορίζει αν ένα πρόγραμμα ξεκινά νωρίτερα ή διαρκεί περισσότερο. Το κανάλι πρέπει να παρέχει έγκυρα δεδομένα."
@@ -17718,6 +17791,12 @@ msgstr "Επιλέξτε 'ναι' για να γίνει άμεσα τερματ
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Επιλέξτε 'ναι' για να διαχωρίσετε τις εργασίες σε χωριστές ενέργειες."
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Αν επιλεγεί το 'ναι', θα γίνει ενεργοποίηση του VPS στις άμεσες εγγραφές (σταμάτημα μετά από το τρέχον πρόγραμμα), αν το κανάλι υποστηρίζει VPS."
@@ -18106,6 +18185,9 @@ msgstr "Ρύθμιση της γλώσσας μετάφρασης μέσω AI."
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "Επιλογή της πηγής ρυθμίσεων του προεπιλεγμένου DNS."
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Επιλέξτε την απάντηση Όχι / Ψευδές"
 
@@ -18255,6 +18337,9 @@ msgstr "Επιλέξτε την ημερομηνία κατά την οποία 
 msgid "Select the day of the week that this timer will activate."
 msgstr "Επιλέξτε την ημέρα της εβδομάδας στην οποία θα ενεργοποιηθεί αυτός ο χρονοδιακόπτης."
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "Επιλέξτε τον προεπιλεγμένο φάκελο που θα χρησιμοποιηθεί αν ο κατάλογος της αριστερής στήλης δεν είναι αποθηκευμένος."
 
@@ -18320,6 +18405,9 @@ msgstr "Επιλογή του πρώτου στοιχείου της λίστα�
 msgid "Select the function to be assigned to this button."
 msgstr "Επιλογή της λειτουργίας ανάθεσης για αυτό το πλήκτρο."
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "Επιλέξτε το επισημασμένο image και προχωρήστε στην επιλογή θέσης"
 
@@ -18355,6 +18443,9 @@ msgstr "Επιλογή της τοποθεσίας αποθήκευσης της
 
 msgid "Select the location where the picon files will be installed."
 msgstr "Επιλογή φακέλου προορισμού εγκατάστασης των λογότυπων."
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Επιλέξτε τον κατασκευαστή της SCR συσκευής σας. Αν δεν βλέπετε τον κατασκευαστή στη λίστα, θέστε το 'SCR' ως 'ορισμένο από τον χρήστη' και εισάγετε τις παραμέτρους χειροκίνητα, σύμφωνα με τον πίνακα χαρακτηριστικών."
@@ -19016,6 +19107,9 @@ msgstr "Ορισμός υπηρεσίας εκκίνησης"
 msgid "Set system"
 msgstr "Ορισμός συστήματος"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Ορισμός του ενδιάμεσου χρόνου παράκαμψης της λίστας αποκοπών για τα πλήκτρα '%s'/'%s'."
 
@@ -19406,6 +19500,9 @@ msgstr "Να γίνει μηδενισμός του μετρητή κρασαρ�
 
 msgid "Show"
 msgstr "Εμφάνιση"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "Εμφάνιση 1080p 24fps ως"
@@ -20054,6 +20151,9 @@ msgstr ""
 msgid "Show the OSCam information screen"
 msgstr "Εμφάνιση της οθόνης πληροφοριών OSCam"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "Εμφάνιση της τελευταίας εξόδου εντολής opkg"
 
@@ -20252,6 +20352,9 @@ msgstr "Πακέτα θεμάτων"
 
 msgid "Skin Settings"
 msgstr "Ρυθμίσεις θεμάτων"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "Ρύθμιση θέματος"
@@ -20655,9 +20758,6 @@ msgstr "Λυπούμαστε, δεν βρέθηκαν αντίγραφα ασφ�
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Λυπούμαστε, δεν έχουν συνδεθεί συσκευές που υποστηρίζουν το SWAP. Αδυναμία δημιουργίας αρχείου swap στο δίκτυο ή σε συστήματα αρχείων fat32"
 
-msgid "Sorry, there was a problem:"
-msgstr "Λυπούμαστε, προέκυψε ένα πρόβλημα:"
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -20850,9 +20950,6 @@ msgstr ""
 
 msgid "Start Auto Refresh"
 msgstr "Εκκίνηση αυτόματης ανανέωσης"
-
-msgid "Start Boot Frequency"
-msgstr "Συχνότητα εκκίνησης"
 
 msgid "Start RDS interactive"
 msgstr "Εμφάνιση διαδραστικού RDS"
@@ -21383,6 +21480,9 @@ msgstr "Αλλαγή σελίδας EPG κάτω"
 msgid "Switch EPG Page Up"
 msgstr "Αλλαγή σελίδας EPG επάνω"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "Αλλαγή λειτουργίας για ενεργοποίηση των HDR ή PiP"
 
@@ -21757,9 +21857,6 @@ msgstr "Κατάσταση ελέγχου"
 msgid "Test type"
 msgstr "Τύπος ελέγχου"
 
-msgid "Testing Information"
-msgstr "Πληροφορίες ελέγχου"
-
 msgid "Testscreens"
 msgstr "Οθόνες δοκιμών"
 
@@ -21768,6 +21865,9 @@ msgstr "Δοκιμαστικές κάρτες που βοηθούν να μικ�
 
 msgid "Text"
 msgstr "Κείμενο"
+
+msgid "Text Box"
+msgstr ""
 
 msgid "Text color"
 msgstr "Χρώμα κειμένου"
@@ -22247,6 +22347,9 @@ msgstr "Αυτό το μπουκέτο προστατεύεται με γονι�
 msgid "This channel is currently off air."
 msgstr ""
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Αυτό το πεδίο επιτρέπει την αναζήτηση ενός πρόσθετου ρυθμού συμβόλων έως %s."
@@ -22644,6 +22747,9 @@ msgstr "Ενημέρωση ώρας σε λεπτά"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "Παράθυρο χρόνου για ανίχνευση της αφύπνισης από έναν χρονοδιακόπτη [λεπτά]"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 msgid "Time zone"
 msgstr "Χρονική ζώνη"
@@ -23355,6 +23461,9 @@ msgstr ""
 msgid "Unable to start the DAB+ feed"
 msgstr ""
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr ""
 
@@ -23928,6 +24037,9 @@ msgstr "ID χρήστη"
 msgid "User Manual"
 msgstr ""
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "Σχόλια χρηστών"
 
@@ -24477,6 +24589,9 @@ msgstr "Θαλάσσια σπορ"
 
 msgid "Weather"
 msgstr "Καιρός"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Διεπαφή δικτύου"
@@ -25392,6 +25507,9 @@ msgstr "γραφικό περιβάλλον για ανάθεση υπηρεσι
 msgid "activatePiP"
 msgstr "ενεργοποίηση PiP"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "διεύθυνση:"
 
@@ -25843,6 +25961,9 @@ msgstr "κατάσταση ανίχνευσης"
 msgid "search EPG..."
 msgstr "αναζήτηση στο EPG..."
 
+msgid "seconds"
+msgstr ""
+
 msgid "select CAId's"
 msgstr "επιλογή CAId's"
 
@@ -25897,6 +26018,9 @@ msgstr "στερεοφωνικό"
 msgid "successful"
 msgstr "επιτυχία"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "αλλαγή λειτουργίας απεικόνισης 12 σε 8 χαρακτήρες"
 
@@ -25938,6 +26062,9 @@ msgstr ""
 
 msgid "this recording"
 msgstr "αυτή η εγγραφή"
+
+msgid "throttled"
+msgstr ""
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "εναλλαγή πληροφοριών χρόνου, κεφαλαίου, ήχου, υποτίτλων"
@@ -26025,6 +26152,37 @@ msgstr "ναι (διατήρηση των feeds)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+#~ msgstr[1] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "Ένα αρχείο από τα πολυμέσα είναι σε λειτουργία!"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "Τάση τρέχοντων πυρήνων CPU 0 και 1: %s V"
+
+#~ msgid "Location list"
+#~ msgstr "Λίστα τοποθεσιών"
+
+#~ msgid "Please enter search string for your location"
+#~ msgstr "Εισάγετε όρο αναζήτησης για την τοποθεσία σας"
+
+#~ msgid "Search weather location ID"
+#~ msgstr "Αναζήτηση ID τοποθεσίας καιρού"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "Λυπούμαστε, προέκυψε ένα πρόβλημα:"
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "Συχνότητα εκκίνησης"
+
+#~ msgid "Testing Information"
+#~ msgstr "Πληροφορίες ελέγχου"
 
 #~ msgid "Close screen"
 #~ msgstr "Κλείσιμο οθόνης"
@@ -28846,10 +29004,6 @@ msgstr "®"
 #, python-format
 #~ msgid "%s KSymb/s"
 #~ msgstr "%s KSymb/s"
-
-#, python-format
-#~ msgid "%s MHz"
-#~ msgstr "%s MHz"
 
 #~ msgid "(FTA Service)"
 #~ msgstr "(FTA υπηρεσία)"
