@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-09-10 19:24+0000\n"
 "Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -755,12 +755,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-msgstr[1] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1214,6 +1208,10 @@ msgstr "%sinformation"
 #, python-format
 msgid "%s Information Actions"
 msgstr "%s Information Åtgärder"
+
+#, python-format
+msgid "%s MHz"
+msgstr ""
 
 #
 #, python-format
@@ -1677,9 +1675,6 @@ msgstr "En slutförd uppgift vill stänga av din %s %s. Stänga av nu?"
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "En kraschlogg skapades %s i '%s'"
-
-msgid "A file from media is in use!"
-msgstr "En fil från media är i bruk!"
 
 #
 #, python-format
@@ -2263,6 +2258,9 @@ msgstr "Extra rotorkabel från %s"
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr ""
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 #
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Justera färginställningarna så att alla färgnyanser är urskiljbara, men så mättade som möjligt. Om du är nöjd med resultatet trycker du på OK för att stänga finjusteringen av videon eller använder siffertangenterna för att välja andra testskärmar."
@@ -2583,6 +2581,12 @@ msgstr "Inkludera alltid ECM i inspelningar"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "Inkludera alltid ECM-meddelanden i inspelningarna. Detta åsidosätter de individuella timerinställningarna globalt. Det gör att inspelningar alltid kan dekrypteras i efterhand (kallas ibland offline-avkodning), om detta stöds av din mottagare."
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "Visa alltid buketter"
 
@@ -2684,6 +2688,9 @@ msgstr "Tillämpa eventuella ändringar i den aktiva locale/language och avsluta
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Använd det aktuella markerade språket och avsluta"
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "Aqua"
@@ -2950,6 +2957,9 @@ msgstr "Ljudsynkronisering"
 msgid "Audio bit rate"
 msgstr ""
 
+msgid "Audio decoding"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Val av ljudspråk 1"
 
@@ -3088,6 +3098,9 @@ msgstr "Etikett med automatisk upplösning"
 
 msgid "Automatic scan for services"
 msgstr "Automatisk sökning efter tjänster"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "Sätt automatiskt TV:n i standby när mottagaren går in i standby eller djup standby."
@@ -3341,6 +3354,9 @@ msgstr "Basketboll"
 msgid "Basque"
 msgstr "Baskiska"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr "Innan du ändrar dessa inställningar, försök att inaktivera eventuella overscan-inställningar på TV:n/bildskärmen. För att kalibrera On-Screen-Display (OSD) justerar du värdena för position och storlek tills den röda rutan är *just* synlig och vidrör skärmens kanter."
 
@@ -3471,6 +3487,9 @@ msgstr "Bluetooth-ljud"
 
 msgid "Bluetooth Setup"
 msgstr "Bluetooth-inställning"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "Bolivia"
@@ -3839,6 +3858,9 @@ msgstr "CPU / Core %d typ"
 
 msgid "CPU Control"
 msgstr "CPU-kontroll"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "CPU-arkitektur"
@@ -4844,6 +4866,9 @@ msgstr "Färgrymd"
 
 msgid "Colored text"
 msgstr "Färgad text"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "Kombinerad"
@@ -5868,9 +5893,8 @@ msgstr "Aktuell CPU-frekvens kärnor 0 och 1: %s MHz"
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "Aktuell CPU-frekvens andra kärnor: %s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Aktuella CPU-kärnor 0 och 1 Spänning: %s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "Nuvarande katalog"
@@ -5878,8 +5902,20 @@ msgstr "Nuvarande katalog"
 msgid "Current Event:"
 msgstr "Aktuell händelse:"
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "Nuvarande status:"
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -6048,9 +6084,6 @@ msgid "DAB+ USB support was installed. You can now enable the receiver in Recept
 msgstr ""
 
 msgid "DAB+ USB: bouquet could not be written"
-msgstr ""
-
-msgid "Audio decoding"
 msgstr ""
 
 msgid "DAB+ channel"
@@ -6550,6 +6583,9 @@ msgstr "Definierar hoppavståndet för hopp framåt. Värdet multipliceras med v
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Definierar vilka snabba framspolningshastigheter som använder normal cueing. Alla andra framspolningshastigheter och alla tillbakaspolningshastigheter använder tidshopp."
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "Fördröjning efter DiSEqC-kommando för påslagning av periferiutrustning"
@@ -9729,6 +9765,9 @@ msgstr "Force inaktiverad"
 msgid "Force enabled"
 msgstr "Kraft aktiverad"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "utländska länder/expeditioner"
 
@@ -10441,6 +10480,9 @@ msgstr "Dölj CI-meddelanden"
 msgid "Hide InfoBar"
 msgstr "Dölj InfoBar"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "Dölj VBI-linje för denna tjänst"
 
@@ -10476,6 +10518,9 @@ msgstr "Dölj undermeny"
 
 msgid "Hide the InfoBar"
 msgstr "Dölj infofältet"
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "Dölj zap-fel"
@@ -11957,6 +12002,9 @@ msgstr "Fritid och hobbyer"
 msgid "Lesotho"
 msgstr "Lesotho"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr ""
 
@@ -12131,6 +12179,10 @@ msgstr "Ladda taggar från timern och inspelningar"
 msgid "Load unlinked user bouquets"
 msgstr "Ladda olänkade användarbuketter"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "Laddar information, vänta..."
 
@@ -12208,10 +12260,6 @@ msgstr "Val av plats Åtgärder"
 
 msgid "Location information"
 msgstr "Information om platsen"
-
-#
-msgid "Location list"
-msgstr "Platslista"
 
 #, python-format
 msgid "Location: %s"
@@ -12498,6 +12546,9 @@ msgstr "Manuell skanning"
 
 msgid "Manual Service Searching"
 msgstr "Manuell service för sökning"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "Manuell scanning för tjänster"
@@ -14423,6 +14474,12 @@ msgstr "OSD-inställningar"
 msgid "OSD Setup"
 msgstr "OSD-inställning"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "Begäran om OSD-namn"
 
@@ -14726,6 +14783,9 @@ msgstr "Öppna informationen om lagringsenheten"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Öppna VirtualKeyBoard för textinmatning"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "Öppna snabbmenyn"
@@ -15482,10 +15542,6 @@ msgstr "Vänligen ange namnet på den nya symboliska länken:"
 #
 msgid "Please enter new name:"
 msgstr "Vänligen ange nytt namn:"
-
-#
-msgid "Please enter search string for your location"
-msgstr "Vänligen ange söksträng för din plats"
 
 msgid "Please enter the correct pin code"
 msgstr "Vänligen ange rätt pinkod"
@@ -16433,6 +16489,9 @@ msgstr "RAM-minne (sammanfattning)"
 msgid "RAM benchmark"
 msgstr "RAM-benchmark"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "RC anpassad kod"
 
@@ -16517,6 +16576,15 @@ msgstr "Val av radiokanal"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Åtgärder för val av radiokanal"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 #
 msgid "Random"
@@ -18159,6 +18227,9 @@ msgstr "Schemaläggarens logg"
 msgid "Scheduler standby"
 msgstr "Schemaläggare standby"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "Vetenskap"
 
@@ -18222,10 +18293,6 @@ msgstr ""
 
 msgid "Search packages by name or description"
 msgstr ""
-
-#
-msgid "Search weather location ID"
-msgstr "Sök efter ID för väderplats"
 
 #
 msgid "Search west"
@@ -18367,6 +18434,9 @@ msgstr "Välj \"Yes\" om du vill väcka TV:n när en schemalagd \"Wakeup\"-uppgi
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Välj \"Ja\" om InfoBar ska fortsätta att visas, utan tidsgräns, när mediauppspelningen är pausad."
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "Denna plugin kan avgöra om ett program börjar tidigare eller varar längre. Kanalen måste tillhandahålla tillförlitliga data."
@@ -18583,6 +18653,12 @@ msgstr "Välj \"Yes\" för att stänga av omedelbart istället för att starta a
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Välj \"Ja\" för att dela upp uppgifter i separata åtgärder."
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "När ja, kommer VPS att aktiveras på omedelbara poster (stopp efter aktuell händelse), om kanalen stöder VPS."
@@ -18985,6 +19061,9 @@ msgstr "Välj målspråket för AI-driven översättning."
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "Välj källa för standardinställningarna för DNS."
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Välj svarsalternativet Nej/Falskt"
 
@@ -19134,6 +19213,9 @@ msgstr "Välj det datum då timern ska starta."
 msgid "Select the day of the week that this timer will activate."
 msgstr "Välj den veckodag som timern ska aktiveras."
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "Välj den standardkatalog som ska användas om katalogen i den vänstra kolumnen inte sparas."
 
@@ -19199,6 +19281,9 @@ msgstr "Välj det första objektet i listan"
 msgid "Select the function to be assigned to this button."
 msgstr "Välj den funktion som ska tilldelas den här knappen."
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "Välj den markerade bilden och gå vidare till slot-valet"
 
@@ -19235,6 +19320,9 @@ msgstr "Välj den plats där inspelningen ska lagras:"
 
 msgid "Select the location where the picon files will be installed."
 msgstr "Välj den plats där picon-filerna ska installeras."
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "Välj tillverkare av din SCR-enhet. Om tillverkaren inte finns med i listan ställer du in \"SCR\" på \"User defined\" och anger enhetens parametrar manuellt enligt specifikationerna."
@@ -19921,6 +20009,9 @@ msgstr "Ställ in starttjänst"
 msgid "Set system"
 msgstr "Ställ in systemet"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Ställ in tidsintervallet för skipning i CutList Editor för knapparna '%s'/'%s'."
 
@@ -20322,6 +20413,9 @@ msgstr "Bör kraschräknaren nollställas för att förhindra en omstart?"
 
 msgid "Show"
 msgstr "Visa"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "Visa 1080p 24fps som"
@@ -21003,6 +21097,9 @@ msgstr "Visa nätverksinformationen för den valda adaptern"
 msgid "Show the OSCam information screen"
 msgstr "Visa skärmen för OSCam-information"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "Visa det senaste opkg-kommandots utdata"
 
@@ -21216,6 +21313,9 @@ msgstr "Hudförpackningar"
 
 msgid "Skin Settings"
 msgstr "Skalinställningar"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "Inställning för hud"
@@ -21636,9 +21736,6 @@ msgstr "Tyvärr, inga säkerhetskopior hittades!"
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Tyvärr finns det inga fysiska enheter som stöder SWAP anslutna. Kan inte skapa swap-fil på nätverk eller FAT32-filsystem"
 
-msgid "Sorry, there was a problem:"
-msgstr "Tyvärr, det uppstod ett problem:"
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -21841,9 +21938,6 @@ msgstr "Starta %s"
 
 msgid "Start Auto Refresh"
 msgstr "Starta automatisk uppdatering"
-
-msgid "Start Boot Frequency"
-msgstr "Start Startfrekvens"
 
 #
 msgid "Start RDS interactive"
@@ -22411,6 +22505,9 @@ msgstr "Växla EPG-sida nedåt"
 msgid "Switch EPG Page Up"
 msgstr "Växla EPG-sida uppåt"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "Växla läge för att aktivera HDR-lägen eller PiP-funktioner"
 
@@ -22804,9 +22901,6 @@ msgstr "Testläge"
 msgid "Test type"
 msgstr "Typ av test"
 
-msgid "Testing Information"
-msgstr "Information om testning"
-
 msgid "Testscreens"
 msgstr "Testskärmar"
 
@@ -22815,6 +22909,9 @@ msgstr "Testskärmar som är till hjälp för att finjustera din display"
 
 msgid "Text"
 msgstr "Text"
+
+msgid "Text Box"
+msgstr ""
 
 #
 msgid "Text color"
@@ -23303,6 +23400,9 @@ msgstr "Denna bukett är skyddad av en PIN-kod för föräldrakontroll!"
 msgid "This channel is currently off air."
 msgstr ""
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "I det här fältet kan du söka efter ytterligare en symbolfrekvens upp till %s."
@@ -23709,6 +23809,9 @@ msgstr "Tidsuppdatering i minuter"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "Tidsfönster för detektering av väckning med en timer [min]"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 #
 msgid "Time zone"
@@ -24468,6 +24571,9 @@ msgstr ""
 msgid "Unable to start the DAB+ feed"
 msgstr "Det gick inte att starta DAB+-flödet"
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr ""
 
@@ -25060,6 +25166,9 @@ msgstr "Användar-ID"
 msgid "User Manual"
 msgstr ""
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "Användarkommentarer"
 
@@ -25633,6 +25742,9 @@ msgstr "Vattensport"
 
 msgid "Weather"
 msgstr "Väder"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Webbgränssnitt"
@@ -26582,6 +26694,9 @@ msgstr "en gui för att tilldela tjänster/providers/caids till gemensamma grän
 msgid "activatePiP"
 msgstr "activatePiP"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "adress:"
 
@@ -27093,6 +27208,9 @@ msgstr "skanningstillstånd"
 msgid "search EPG..."
 msgstr "sök EPG..."
 
+msgid "seconds"
+msgstr ""
+
 #
 msgid "select CAId's"
 msgstr "välj CAId's"
@@ -27154,6 +27272,9 @@ msgstr "stereo"
 msgid "successful"
 msgstr "framgångsrik"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "växla 12 till 8 tecken displayläge"
 
@@ -27201,6 +27322,9 @@ msgstr "mål-LNB:t är inte konfigurerat"
 #
 msgid "this recording"
 msgstr "denna inspelning"
+
+msgid "throttled"
+msgstr ""
 
 #
 msgid "toggle time, chapter, audio, subtitle info"
@@ -27298,6 +27422,40 @@ msgstr "ja (behåller flöden)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+#~ msgstr[1] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "En fil från media är i bruk!"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "Aktuella CPU-kärnor 0 och 1 Spänning: %s V"
+
+#
+#~ msgid "Location list"
+#~ msgstr "Platslista"
+
+#
+#~ msgid "Please enter search string for your location"
+#~ msgstr "Vänligen ange söksträng för din plats"
+
+#
+#~ msgid "Search weather location ID"
+#~ msgstr "Sök efter ID för väderplats"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "Tyvärr, det uppstod ett problem:"
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "Start Startfrekvens"
+
+#~ msgid "Testing Information"
+#~ msgstr "Information om testning"
 
 #~ msgid "Close screen"
 #~ msgstr "Stäng skärmen"

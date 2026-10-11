@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-07 16:16+0000\n"
+"POT-Creation-Date: 2026-10-11 14:01+0000\n"
 "PO-Revision-Date: 2026-10-10 11:51+0000\n"
 "Last-Translator: mcilo <mcilo357104@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -763,11 +763,6 @@ msgstr "%b=%-d "
 msgid "%b=%d "
 msgstr "%b=%d "
 
-#, python-format
-msgid "%d"
-msgid_plural "%d"
-msgstr[0] "%d"
-
 msgid "%d %B %Y"
 msgstr "%d %B %Y"
 
@@ -1191,6 +1186,10 @@ msgstr "%s Bilgisi"
 #, python-format
 msgid "%s Information Actions"
 msgstr "%s Bilgisi İşlemleri"
+
+#, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
 
 #
 #, python-format
@@ -1655,9 +1654,6 @@ msgstr "Tamamlanmış bir görev, %s %s alıcınızı kapatmak istiyor. Şimdi k
 #, python-format
 msgid "A crash log was %s created in '%s'"
 msgstr "'%s' içinde %s hata günlüğü oluşturuldu"
-
-msgid "A file from media is in use!"
-msgstr "Medyadan bir dosya kullanılıyor!"
 
 #
 #, python-format
@@ -2236,6 +2232,9 @@ msgstr "%s'den gelen ek rotor kablosu"
 msgid "Additional slots cannot be changed while the receiver is running from one of them."
 msgstr "Alıcı, ek yuvalardan biri üzerinden çalışırken bu yuvalar değiştirilemez."
 
+msgid "Adjust the CPU frequency to the load reported by the kernel scheduler."
+msgstr ""
+
 #
 msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
 msgstr "Renk ayarlarını, tüm renk tonlarının ayırt edilebilir ancak mümkün olduğunca doygun görünecek şekilde düzenleyin. Sonuçtan memnunsanız, görüntü ince ayarını kapatmak için OK tuşuna basın veya diğer test ekranlarını seçmek için sayı tuşlarını kullanın."
@@ -2555,6 +2554,12 @@ msgstr "ECM'yi her zaman kayıtlara dahil et"
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver."
 msgstr "Kayıtlara her zaman ECM mesajlarını dahil edin. Bu, bireysel zamanlayıcı ayarlarını genel olarak geçersiz kılar. Alıcınız tarafından destekleniyorsa, kayıtların daha sonra her zaman şifresinin çözülmesine (bazen çevrimdışı kod çözme olarak da adlandırılır) olanak tanır."
 
+msgid "Always run the CPU at the maximum frequency."
+msgstr ""
+
+msgid "Always run the CPU at the minimum frequency."
+msgstr ""
+
 msgid "Always show bouquets"
 msgstr "Buketleri her zaman göster"
 
@@ -2655,6 +2660,9 @@ msgstr "Etkin yerel ayara/dile tüm değişiklikleri uygulayın ve çıkın"
 
 msgid "Apply the currently highlighted locale/language and exit"
 msgstr "Şu anda vurgulanan yerel ayarı/dili uygulayın ve çıkın"
+
+msgid "Apply the settings without saving them"
+msgstr ""
 
 msgid "Aqua"
 msgstr "Su"
@@ -2918,6 +2926,9 @@ msgstr "Ses Senkronizasyonu"
 msgid "Audio bit rate"
 msgstr "Ses bit hızı"
 
+msgid "Audio decoding"
+msgstr "Ses kod çözme"
+
 msgid "Audio language selection 1"
 msgstr "1. Ses dili seçimi"
 
@@ -3055,6 +3066,9 @@ msgstr "Otomatik çözünürlük etiketi"
 
 msgid "Automatic scan for services"
 msgstr "Kanallar için otomatik tarama"
+
+msgid "Automatically hide OSD"
+msgstr ""
 
 msgid "Automatically put the TV in Standby whenever the receiver goes into Standby or Deep Standby."
 msgstr "Alıcı bekleme veya derin bekleme moduna geçtiğinde TV'yi otomatik olarak bekleme moduna alın."
@@ -3306,6 +3320,9 @@ msgstr "Basketbol"
 msgid "Basque"
 msgstr "Baskca"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Before changing these settings try to disable any overscan settings on th TV / display screen. To calibrate the On-Screen-Display (OSD) adjust the position and size values until the red box is *just* visible and touches the edges of the screen."
 msgstr "Bu ayarları değiştirmeden önce TV / görüntü ekranındaki aşırı tarama ayarlarını devre dışı bırakmayı deneyin. Ekran Görüntüsünü (OSD) kalibre etmek için, kırmızı kutu *tam* görünür olana ve ekranın kenarlarına değene kadar konum ve boyut değerlerini ayarlayın."
 
@@ -3436,6 +3453,9 @@ msgstr "Bluetooth Ses"
 
 msgid "Bluetooth Setup"
 msgstr "Bluetooth Kurulumu"
+
+msgid "Bluetooth remote"
+msgstr ""
 
 msgid "Bolivia"
 msgstr "Bolivya"
@@ -3804,6 +3824,9 @@ msgstr "CPU / Çekirdek %d tipi"
 
 msgid "CPU Control"
 msgstr "CPU Kontrolü"
+
+msgid "CPU Control Actions"
+msgstr ""
 
 msgid "CPU architecture"
 msgstr "CPU mimarisi"
@@ -4801,6 +4824,9 @@ msgstr "Renk boşluğu"
 
 msgid "Colored text"
 msgstr "Renkli yazı"
+
+msgid "Colorimetry for HDR content"
+msgstr ""
 
 msgid "Combined"
 msgstr "Kombine"
@@ -5822,9 +5848,8 @@ msgstr "Çekirdek 0 ve 1'in geçerli CPU Frekansı: %s MHz"
 msgid "Current CPU Frequency other cores: %s MHz"
 msgstr "Diğer çekirdeklerin geçerli CPU frekansı: %s MHz"
 
-#, python-format
-msgid "Current CPU cores 0 and 1 Voltage: %s V"
-msgstr "Geçerli CPU çekirdekleri 0 ve 1 Voltajı: %s V"
+msgid "Current CPU speed"
+msgstr ""
 
 msgid "Current Directory"
 msgstr "Geçerli Dizin"
@@ -5832,8 +5857,20 @@ msgstr "Geçerli Dizin"
 msgid "Current Event:"
 msgstr "Geçerli Etkinlik:"
 
+#, python-format
+msgid "Current GPU Frequency: %s MHz"
+msgstr ""
+
+#, python-format
+msgid "Current RAM Frequency: %s MHz"
+msgstr ""
+
 msgid "Current Status:"
 msgstr "Geçerli Durum:"
+
+#, python-format
+msgid "Current Temperature (RAM): %s °C"
+msgstr ""
 
 #, python-format
 msgid "Current Temperature (SoC): %s °C"
@@ -6002,9 +6039,6 @@ msgstr "DAB+ USB desteği yüklendi. Artık alıcı ayarlarından bu özelliği 
 
 msgid "DAB+ USB: bouquet could not be written"
 msgstr "DAB+ USB: buket yazılamadı"
-
-msgid "Audio decoding"
-msgstr "Ses kod çözme"
 
 msgid "DAB+ channel"
 msgstr "DAB+ kanalı"
@@ -6501,6 +6535,9 @@ msgstr "İleri atlamalar için atlama mesafesini tanımlar. Değer rüzgar hız�
 
 msgid "Defines which fast forward speeds are using normal cueing. All other forward speeds and all rewind speeds use time jumps."
 msgstr "Hangi ileri sarma hızlarının normal zaman atlamalı oynatma kullandığını tanımlar. Diğer tüm ileri sarma hızları ve geri sarma hızları zaman atlamalı oynatma kullanır."
+
+msgid "Deinterlacer mode"
+msgstr ""
 
 msgid "Delay after DiSEqC peripheral power on command"
 msgstr "DiSEqC güç açma komutundan sonraki gecikme"
@@ -9654,6 +9691,9 @@ msgstr "Devre dışı bırakmaya zorla"
 msgid "Force enabled"
 msgstr "Etkinleştirmeye zorla"
 
+msgid "Force progressive for streams and files"
+msgstr ""
+
 msgid "Foreign countries/Expeditions"
 msgstr "Yabancı ülkeler/Seferler"
 
@@ -10362,6 +10402,9 @@ msgstr "Ortak Arayüz Modülü ( CI ) hata mesajlarını gizle"
 msgid "Hide InfoBar"
 msgstr "Bilgi çubuğunu gizle"
 
+msgid "Hide OSD after"
+msgstr ""
+
 msgid "Hide VBI Line For This Service"
 msgstr "Bu kanal için VBI satırını gizle"
 
@@ -10397,6 +10440,9 @@ msgstr "Alt menüyü gizle"
 
 msgid "Hide the InfoBar"
 msgstr "Bilgi çubuğunu gizle"
+
+msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "Kanal değiştirme hata mesajlarını gizle"
@@ -11866,6 +11912,9 @@ msgstr "Eğlence hobiler"
 msgid "Lesotho"
 msgstr "Lesotho"
 
+msgid "Let other programs set the CPU frequency."
+msgstr ""
+
 msgid "Let the tuner select its RF gain automatically."
 msgstr "Tunerin RF kazanımını otomatik olarak seçmesine izin verin."
 
@@ -12038,6 +12087,10 @@ msgstr "Zamanlayıcıdan ve kayıtlardan etiketleri yükle"
 msgid "Load unlinked user bouquets"
 msgstr "Bağlantısı olmayan kullanıcı buketlerini yükle"
 
+#, python-format
+msgid "Load: %s %%"
+msgstr ""
+
 msgid "Loading information, please wait..."
 msgstr "Bilgi yükleniyor, lütfen bekleyin..."
 
@@ -12112,10 +12165,6 @@ msgstr "Konum Seçimi İşlemleri"
 
 msgid "Location information"
 msgstr "Konum bilgisi"
-
-#
-msgid "Location list"
-msgstr "Konum listesi"
 
 #, python-format
 msgid "Location: %s"
@@ -12402,6 +12451,9 @@ msgstr "Manuel Tarama"
 
 msgid "Manual Service Searching"
 msgstr "Manuel Kanal Arama"
+
+msgid "Manual resolution"
+msgstr ""
 
 msgid "Manual scan for services"
 msgstr "Kanallar için manuel tarama"
@@ -14317,6 +14369,12 @@ msgstr "Ekranda Gösterim ( OSD ) Ayarları"
 msgid "OSD Setup"
 msgstr "Ekranda Gösterim Kurulumu"
 
+msgid "OSD auto-hide enabled."
+msgstr ""
+
+msgid "OSD auto-hide paused until the next GUI restart. Hold 0 to resume."
+msgstr ""
+
 msgid "OSD name request"
 msgstr "Ekranda Gösterim ad isteği"
 
@@ -14617,6 +14675,9 @@ msgstr "Depolama Cihazı bilgilerini aç"
 
 msgid "Open the VirtualKeyBoard for text entry"
 msgstr "Metin girişi için Sanal Klavye'yi aç"
+
+msgid "Open the additional screens"
+msgstr ""
 
 msgid "Open the context menu"
 msgstr "Bağlam menüsünü aç"
@@ -15367,9 +15428,6 @@ msgstr "Lütfen yeni sembolik bağlantının ismini girin:"
 #
 msgid "Please enter new name:"
 msgstr "Lütfen yeni bir isim girin:"
-
-msgid "Please enter search string for your location"
-msgstr "Lütfen konumunuz için arama dizesini girin"
 
 #
 msgid "Please enter the correct pin code"
@@ -16305,6 +16363,9 @@ msgstr "RAM (Özet)"
 msgid "RAM benchmark"
 msgstr "RAM kalite testi"
 
+msgid "RAM temperature"
+msgstr ""
+
 msgid "RC custom code"
 msgstr "RC özel kodu"
 
@@ -16389,6 +16450,15 @@ msgstr "Radyo Kanalı Seçimi"
 
 msgid "Radio Channel Selection Actions"
 msgstr "Radyo Kanalı Seçim İşlemleri"
+
+msgid "Raise and lower the CPU frequency gradually depending on the load."
+msgstr ""
+
+msgid "Raise the CPU frequency quickly on load and lower it when the CPU is idle."
+msgstr ""
+
+msgid "Raise the CPU frequency to the maximum on load and lower it gradually when the CPU is idle."
+msgstr ""
 
 #
 msgid "Random"
@@ -18016,6 +18086,9 @@ msgstr "Zamanlayıcı günlüğü"
 msgid "Scheduler standby"
 msgstr "Beklemeyi planla"
 
+msgid "Schedutil (recommended)"
+msgstr ""
+
 msgid "Science"
 msgstr "Bilim"
 
@@ -18079,10 +18152,6 @@ msgstr "Geçerli görünümde ara"
 
 msgid "Search packages by name or description"
 msgstr "Paketleri isme veya açıklamaya göre ara"
-
-#
-msgid "Search weather location ID"
-msgstr "Hava durumu konum kimliğini ara"
 
 #
 msgid "Search west"
@@ -18222,6 +18291,9 @@ msgstr "'Uyandırma' zamanlanmış görevi başladığında TV açılsın istiyo
 
 msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media playback is paused."
 msgstr "Medya oynatımı duraklatıldığında Bilgi Çubuğunun zaman aşımı olmaksızın görüntülenmeye devam etmesi için 'Evet'i seçin."
+
+msgid "Select 'Yes' to add an entry to the extensions menu to change the video mode for the current video."
+msgstr ""
 
 msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr "VPS'nin yayın Program Teslim Kontrolü (PDC) verilerine göre kayıt zamanlayıcılarını ayarlamasına izin vermek için 'Evet'i seçin. Bunun çalışması için kanalın güvenilir etkinlik PDC verileri sağlaması gerekir."
@@ -18438,6 +18510,12 @@ msgstr "Şifre çözme işlemine başlamak yerine hemen kapatmak için 'Evet'i s
 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Görevleri ayrı işlemlere bölmek için 'Evet' seçin."
+
+msgid "Select 'Yes' to switch the HDMI HDR type (HDR10, HLG or SDR) to match the HDR information of the current video."
+msgstr ""
+
+msgid "Select 'Yes' to treat interlaced streams and media files as progressive. DVB services and recordings are not affected. This helps with streams that are wrongly flagged as interlaced."
+msgstr ""
 
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Etkinliğin sonunda anlık kaydı doğru bir şekilde durdurmak için, mevcut kanalda PDC verileri mevcutsa, 'Evet'i seçin."
@@ -18836,6 +18914,9 @@ msgstr "Yapay zeka destekli çeviri için hedef dili seçin."
 msgid "Select the DNS server(s) that will be used to lookup hostnames to resolve IP addresses."
 msgstr "IP adresini çözümlemek için kullanılacak DNS sunucularını seçin."
 
+msgid "Select the HDMI colorimetry used while HDR content is shown. This option is only used if 'HDMI Colorimetry' is set to 'Auto'."
+msgstr ""
+
 msgid "Select the No / False response"
 msgstr "Hayır / Yanlış yanıtını seçin"
 
@@ -18985,6 +19066,9 @@ msgstr "Bu zamanlayıcının başlayacağı tarihi seçin."
 msgid "Select the day of the week that this timer will activate."
 msgstr "Bu zamanlayıcının etkinleştirileceği haftanın gününü seçin."
 
+msgid "Select the de-interlacing mode of the video decoder. 'Auto' lets the driver decide."
+msgstr ""
+
 msgid "Select the default directory to be used if the left column directory is not saved."
 msgstr "Sol sütun dizini kaydedilmemişse kullanılacak varsayılan dizini seçin."
 
@@ -19050,6 +19134,9 @@ msgstr "Listedeki ilk öğeyi seçin"
 msgid "Select the function to be assigned to this button."
 msgstr "Bu tuşa atanacak işlevi seçin."
 
+msgid "Select the highest frequency these CPU cores may run at."
+msgstr ""
+
 msgid "Select the highlighted image and proceed to the slot selection"
 msgstr "Vurgulanan yazılımı seçin ve yuva seçimine geçin"
 
@@ -19085,6 +19172,9 @@ msgstr "Kaydı saklamak istediğiniz konumu seçin:"
 
 msgid "Select the location where the picon files will be installed."
 msgstr "Pikon dosyalarının kurulacağı hedef konumu seçin."
+
+msgid "Select the lowest frequency these CPU cores may run at. This frequency is also used in standby."
+msgstr ""
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'User defined' and enter the device parameters manually according to its specifications."
 msgstr "SCR cihazınızın üreticisini seçin. Üretici listede yoksa, 'SCR' seçeneğini 'Kullanıcı tanımlı' olarak ayarlayın ve cihaz parametrelerini özelliklerine göre manuel olarak girin."
@@ -19764,6 +19854,9 @@ msgstr "Başlangıç kanalını ayarlayın"
 msgid "Set system"
 msgstr "Sistemi ayarlayın"
 
+msgid "Set the CPU frequencies and the governor"
+msgstr ""
+
 msgid "Set the CutList Editor skip time interval for the '%s'/'%s' buttons."
 msgstr "Kesim Listesi Düzenleyicisinde '%s'/'%s' tuşları için atlama zaman aralığını ayarlayın."
 
@@ -20163,6 +20256,9 @@ msgstr "Yeniden başlatmayı önlemek için çökme sayacı sıfırlansın mı?"
 
 msgid "Show"
 msgstr "Göster"
+
+msgid "Show 'Manual resolution' in extensions menu"
+msgstr ""
 
 msgid "Show 1080p 24fps as"
 msgstr "1080p 24fps olarak göster"
@@ -20832,6 +20928,9 @@ msgstr "Seçili bağdaştırıcı için Ağ Bilgilerini göster"
 msgid "Show the OSCam information screen"
 msgstr "OSCam bilgi ekranını göster"
 
+msgid "Show the about screen"
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "Son opkg komutunun çıktısını göster"
 
@@ -21045,6 +21144,9 @@ msgstr "Arayüz Paketleri"
 
 msgid "Skin Settings"
 msgstr "Arayüz Ayarları"
+
+msgid "Skin Setup Actions"
+msgstr ""
 
 msgid "Skin setting"
 msgstr "Arayüz ayarı"
@@ -21457,9 +21559,6 @@ msgstr "Üzgünüz, hiç yedek bulunamadı!"
 msgid "Sorry, no physical devices that supports SWAP attached. Can't create swap file on network or FAT32 file systems"
 msgstr "Üzgünüz, SWAP'ı destekleyen fiziksel cihaz bağlı değil. Ağda veya FAT32 dosya sistemlerinde takas dosyası oluşturulamıyor"
 
-msgid "Sorry, there was a problem:"
-msgstr "Üzgünüz, bir sorun oluştu:"
-
 msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
@@ -21661,9 +21760,6 @@ msgstr "%s'yi Başlat"
 
 msgid "Start Auto Refresh"
 msgstr "Otomatik Yenilemeyi Başlat"
-
-msgid "Start Boot Frequency"
-msgstr "Önyükleme Başlatma Sıklığı"
 
 msgid "Start RDS interactive"
 msgstr "RDS etkileşimini başlat"
@@ -22226,6 +22322,9 @@ msgstr "EPG Sayfasını Aşağı Değiştir"
 msgid "Switch EPG Page Up"
 msgstr "EPG Sayfasını Yukarı Değiştir"
 
+msgid "Switch HDR type by content"
+msgstr ""
+
 msgid "Switch Mode to enable HDR Modes or PiP Functions"
 msgstr "HDR Modları veya PIP İşlevlerini etkinleştirmek için Modu değiştir"
 
@@ -22615,9 +22714,6 @@ msgstr "Test modu"
 msgid "Test type"
 msgstr "Test tipi"
 
-msgid "Testing Information"
-msgstr "Test Bilgileri"
-
 msgid "Testscreens"
 msgstr "Test ekranları"
 
@@ -22626,6 +22722,9 @@ msgstr "Ekranınızın ince ayarını yapmaya yardımcı olan test ekranları"
 
 msgid "Text"
 msgstr "Metin"
+
+msgid "Text Box"
+msgstr ""
 
 #
 msgid "Text color"
@@ -23119,6 +23218,9 @@ msgstr "Bu buket bir ebeveyn kontrol PIN kodu ile korunmaktadır!"
 msgid "This channel is currently off air."
 msgstr "Bu kanal şu anda yayında değil."
 
+msgid "This channel requires an HbbTV plugin. Please install a compatible HbbTV plugin."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Bu alan %s değerine kadar ek bir sembol oranı aramanıza izin verir."
@@ -23522,6 +23624,9 @@ msgstr "Zaman güncellemesi (dakika cinsinden)"
 
 msgid "Time window for detection of the wake up by a timer [mins]"
 msgstr "Zamanlayıcı tarafından uyandırmanın algılanması için zaman aralığı [dakika]"
+
+msgid "Time without key presses before hiding the OSD."
+msgstr ""
 
 msgid "Time zone"
 msgstr "Saat dilimi"
@@ -24276,6 +24381,9 @@ msgstr "Ağa bağlantı yapılandırması kaydedilemiyor!"
 msgid "Unable to start the DAB+ feed"
 msgstr "DAB+ kaynağı başlatılamıyor"
 
+msgid "Unable to start the HbbTV application."
+msgstr ""
+
 msgid "Unable to start the local image search. Please try again later."
 msgstr "Yerel yazılım araması başlatılamadı. Lütfen daha sonra tekrar deneyin."
 
@@ -24866,6 +24974,9 @@ msgstr "Kullanıcı Kimliği"
 msgid "User Manual"
 msgstr "Kullanım Kılavuzu"
 
+msgid "User Manual Actions"
+msgstr ""
+
 msgid "User comments"
 msgstr "Kullanıcı yorumları"
 
@@ -25439,6 +25550,9 @@ msgstr "Su sporları"
 
 msgid "Weather"
 msgstr "Hava Durumu"
+
+msgid "Weather settings"
+msgstr ""
 
 msgid "Web Interface"
 msgstr "Web Arayüzü"
@@ -26382,6 +26496,9 @@ msgstr "Ortak arayüz modüllerine hizmet/sağlayıcı/caid atamak için kullan�
 msgid "activatePiP"
 msgstr "PiP etkinleştir"
 
+msgid "active (GLES enabled)"
+msgstr ""
+
 msgid "address:"
 msgstr "adres:"
 
@@ -26889,6 +27006,9 @@ msgstr "tarama durumu"
 msgid "search EPG..."
 msgstr "EPG ara..."
 
+msgid "seconds"
+msgstr ""
+
 #
 msgid "select CAId's"
 msgstr "CAId’leri seçin"
@@ -26950,6 +27070,9 @@ msgstr "stereo"
 msgid "successful"
 msgstr "başarılı"
 
+msgid "suspended (GLES disabled)"
+msgstr ""
+
 msgid "switch 12 to 8 character display mode"
 msgstr "12 den 8 karaktere görüntüleme moduna geç"
 
@@ -26996,6 +27119,9 @@ msgstr "Hedef LNB yapılandırılmamış"
 #
 msgid "this recording"
 msgstr "bu kaydın"
+
+msgid "throttled"
+msgstr ""
 
 #
 msgid "toggle time, chapter, audio, subtitle info"
@@ -27092,6 +27218,38 @@ msgstr "evet (kaynakları tut)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "%d"
+#~ msgid_plural "%d"
+#~ msgstr[0] "%d"
+
+#~ msgid "A file from media is in use!"
+#~ msgstr "Medyadan bir dosya kullanılıyor!"
+
+#, python-format
+#~ msgid "Current CPU cores 0 and 1 Voltage: %s V"
+#~ msgstr "Geçerli CPU çekirdekleri 0 ve 1 Voltajı: %s V"
+
+#
+#~ msgid "Location list"
+#~ msgstr "Konum listesi"
+
+#~ msgid "Please enter search string for your location"
+#~ msgstr "Lütfen konumunuz için arama dizesini girin"
+
+#
+#~ msgid "Search weather location ID"
+#~ msgstr "Hava durumu konum kimliğini ara"
+
+#~ msgid "Sorry, there was a problem:"
+#~ msgstr "Üzgünüz, bir sorun oluştu:"
+
+#~ msgid "Start Boot Frequency"
+#~ msgstr "Önyükleme Başlatma Sıklığı"
+
+#~ msgid "Testing Information"
+#~ msgstr "Test Bilgileri"
 
 #~ msgid "Close screen"
 #~ msgstr "Ekranı kapat"
@@ -30193,10 +30351,6 @@ msgstr "®"
 #, python-format
 #~ msgid "%s KSymb/s"
 #~ msgstr "%s KSymb/s"
-
-#, python-format
-#~ msgid "%s MHz"
-#~ msgstr "%s MHz"
 
 #
 #~ msgid "(FTA Service)"
