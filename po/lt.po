@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 14:01+0000\n"
+"POT-Creation-Date: 2026-10-11 14:55+0000\n"
 "PO-Revision-Date: 2026-08-16 18:13+0000\n"
 "Last-Translator: Adga56 <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/lt/>\n"
@@ -1494,6 +1494,9 @@ msgstr "12 simbolių"
 msgid "12, show Latin-1 characters except for greek and cyrillic, switch to 8 if needed."
 msgstr "12, rodyti lotyniškus-1 simbolius, išskyrus graikų ir kirilicos simbolius, jei reikia, pereikite prie 8."
 
+msgid "12-bit HDR (no PiP)"
+msgstr ""
+
 msgid "12V output"
 msgstr "12V išvestis"
 
@@ -1502,9 +1505,6 @@ msgstr "12V išvestis."
 
 msgid "12bit"
 msgstr "12 bitų"
-
-msgid "12bit 4:2:0/4:2:2 no PiP"
-msgstr "12bitų 4:2:0/4:2:2 be PIP"
 
 msgid "16:10 Letterbox"
 msgstr "16:10 įterpiant juodas juostas"
@@ -4131,9 +4131,6 @@ msgstr "Čadas"
 msgid "Chamorro"
 msgstr "Chamorro"
 
-msgid "Change Boxmode to control Hardware Chip Modes*"
-msgstr "Pakeiskite imtuvo režimą, kad kontroliuoti techninės įrangos lusto režimus*"
-
 msgid "Change Language"
 msgstr "Pakeisti kalbą"
 
@@ -6610,9 +6607,6 @@ msgstr "Naikinama %s (%s)..."
 msgid "Deleting files"
 msgstr "Trinami failai"
 
-msgid "Delivery system workaround"
-msgstr "Pristatymo sistemos problemos sprendimas"
-
 msgid "Democratic Republic of the Congo"
 msgstr "Kongo Demokratinė Respublika"
 
@@ -7727,9 +7721,6 @@ msgstr "Įjungti tinklo IP adreso tikrinimą"
 
 msgid "Enable OpenTV EPG"
 msgstr "Įjungti OpenTV EPG"
-
-msgid "Enable PiP no HDR"
-msgstr "įjungti PIP be HDR"
 
 msgid "Enable Quad PiP"
 msgstr "Įjungti Quad PIP"
@@ -10001,6 +9992,9 @@ msgstr "Aparatūros serijos nr"
 
 msgid "Hardware type"
 msgstr "Aparatūros tipas"
+
+msgid "Hardware video mode"
+msgstr ""
 
 msgid "Hausa"
 msgstr "Hausų"
@@ -14648,6 +14642,9 @@ msgstr "Filipinai"
 msgid "PiP"
 msgstr "PiP"
 
+msgid "PiP (no HDR)"
+msgstr ""
+
 msgid "PiP with OSD"
 msgstr "PiP su OSD"
 
@@ -16500,6 +16497,9 @@ msgstr "Pervadinta %s!"
 msgid "Renovation"
 msgstr "Renovacija"
 
+msgid "Reopen tuner when changing delivery system"
+msgstr ""
+
 msgid "Repeat"
 msgstr "Pakartoti"
 
@@ -17585,6 +17585,9 @@ msgid "Select 'Soft mount' to make file access return an error once the server s
 msgstr ""
 
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
+msgstr ""
+
+msgid "Select 'Yes' if a multi-standard tuner fails to tune after switching between satellite, cable and terrestrial reception. The tuner will be closed and reopened after each switch. This is only needed for some older tuner drivers."
 msgstr ""
 
 msgid "Select 'Yes' if an end time is required for this timer."
@@ -18679,6 +18682,9 @@ msgid "Select the type of keyboard connected to the %s %s."
 msgstr ""
 
 msgid "Select the type of this timer."
+msgstr ""
+
+msgid "Select the video mode of the hardware chip. PiP and 12-bit HDR output cannot be used at the same time, so choose whether to enable Picture in Picture or 12-bit HDR output."
 msgstr ""
 
 msgid "Select the video mode to be used on the TV."
@@ -21521,9 +21527,6 @@ msgstr "Perjungti EPG puslapį aukštyn"
 
 msgid "Switch HDR type by content"
 msgstr ""
-
-msgid "Switch Mode to enable HDR Modes or PiP Functions"
-msgstr "Perjungimo režimas, kad įjungti HDR režimus arba PIP funkcijas"
 
 msgid "Switch TV to correct input"
 msgstr "Perjungti TV į teisingą įvestį"
@@ -25059,9 +25062,6 @@ msgstr ""
 msgid "Wolof"
 msgstr "Volofų"
 
-msgid "Workaround for old tuner driver."
-msgstr "Problemos dėl senų imtuvo tvarkyklių"
-
 msgid "Workgroup name"
 msgstr ""
 
@@ -26172,6 +26172,24 @@ msgstr "taip (išsaugoti šaltinius)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "12bit 4:2:0/4:2:2 no PiP"
+#~ msgstr "12bitų 4:2:0/4:2:2 be PIP"
+
+#~ msgid "Change Boxmode to control Hardware Chip Modes*"
+#~ msgstr "Pakeiskite imtuvo režimą, kad kontroliuoti techninės įrangos lusto režimus*"
+
+#~ msgid "Delivery system workaround"
+#~ msgstr "Pristatymo sistemos problemos sprendimas"
+
+#~ msgid "Enable PiP no HDR"
+#~ msgstr "įjungti PIP be HDR"
+
+#~ msgid "Switch Mode to enable HDR Modes or PiP Functions"
+#~ msgstr "Perjungimo režimas, kad įjungti HDR režimus arba PIP funkcijas"
+
+#~ msgid "Workaround for old tuner driver."
+#~ msgstr "Problemos dėl senų imtuvo tvarkyklių"
 
 #, python-format
 #~ msgid "%d"
