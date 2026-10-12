@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 14:01+0000\n"
+"POT-Creation-Date: 2026-10-11 14:55+0000\n"
 "PO-Revision-Date: 2026-09-15 16:51+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -1456,6 +1456,9 @@ msgstr "12 merkki"
 msgid "12, show Latin-1 characters except for greek and cyrillic, switch to 8 if needed."
 msgstr "12, näyttää Latin-1 merkistön paitsi kreikan ja kyrillisen, vaihda tarvittaessa 8:een."
 
+msgid "12-bit HDR (no PiP)"
+msgstr ""
+
 msgid "12V output"
 msgstr "12V ulostulo"
 
@@ -1464,9 +1467,6 @@ msgstr "12V ulostulo."
 
 msgid "12bit"
 msgstr "12bit"
-
-msgid "12bit 4:2:0/4:2:2 no PiP"
-msgstr "12bit 4:2:0/4:2:2 ei PiP"
 
 msgid "16:10 Letterbox"
 msgstr "16:10 Letterbox"
@@ -4100,9 +4100,6 @@ msgstr "Chad"
 msgid "Chamorro"
 msgstr "Chamorro"
 
-msgid "Change Boxmode to control Hardware Chip Modes*"
-msgstr "Video sirun tila*"
-
 msgid "Change Language"
 msgstr "Kielivalinta"
 
@@ -6587,9 +6584,6 @@ msgstr "Poistetaan %s (%s)..."
 msgid "Deleting files"
 msgstr "Poistetaan tiedostoja"
 
-msgid "Delivery system workaround"
-msgstr "Virittimen erikoistoiminto"
-
 msgid "Democratic Republic of the Congo"
 msgstr "Kongon demokraattinen tasavalta"
 
@@ -7708,9 +7702,6 @@ msgstr "Ota käyttöön IP osoitteen tarkistus"
 
 msgid "Enable OpenTV EPG"
 msgstr "Ota käyttöön OpenTV ohjelmaopas"
-
-msgid "Enable PiP no HDR"
-msgstr "Aktivoi PIP ilman HDR:ää"
 
 msgid "Enable Quad PiP"
 msgstr "Aktivoi 4 Kanavan PIP"
@@ -9977,6 +9968,9 @@ msgstr "Laitteen sarjanumero"
 
 msgid "Hardware type"
 msgstr "Laitteen tyyppi"
+
+msgid "Hardware video mode"
+msgstr ""
 
 msgid "Hausa"
 msgstr "Hausa"
@@ -14643,6 +14637,9 @@ msgstr "Filippiinit"
 msgid "PiP"
 msgstr "PiP"
 
+msgid "PiP (no HDR)"
+msgstr ""
+
 msgid "PiP with OSD"
 msgstr "PiP ja kuvaruutu"
 
@@ -16493,6 +16490,9 @@ msgstr "Uudelleennimettiin %s!"
 msgid "Renovation"
 msgstr "Peruskorjaus"
 
+msgid "Reopen tuner when changing delivery system"
+msgstr ""
+
 msgid "Repeat"
 msgstr "Toistokerrat"
 
@@ -17580,6 +17580,9 @@ msgstr "Valitse ”Soft mount”, jos haluat virheen palvelimen lakatessa vastaa
 
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "Valitse 'Yksilöllinen numerointi' antaaksesi jokaiselle kanavalle yksilöllinen numero jokaisessa kanavalistassa. Käytä 'Kanavalistat alkavat numerosta 1 jokaisessa kanavalistassa' Käytä operaattorin tarjoavaa LCN \"Loogiset kanavanumerot\"esim Yle tv1 on kanavanumero 1 jne."
+
+msgid "Select 'Yes' if a multi-standard tuner fails to tune after switching between satellite, cable and terrestrial reception. The tuner will be closed and reopened after each switch. This is only needed for some older tuner drivers."
+msgstr ""
 
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Valitse \"Kyllä\", jos tälle ajastimelle tarvitaan päättymisaika."
@@ -18682,6 +18685,9 @@ msgstr "Valitse näppäimistön tyyppi mikä on liitetty %s %s laitteeseen."
 
 msgid "Select the type of this timer."
 msgstr "Valitse ajastimen tyyppi."
+
+msgid "Select the video mode of the hardware chip. PiP and 12-bit HDR output cannot be used at the same time, so choose whether to enable Picture in Picture or 12-bit HDR output."
+msgstr ""
 
 msgid "Select the video mode to be used on the TV."
 msgstr "Valitse videotila, jota käytetään televisiossa."
@@ -21527,9 +21533,6 @@ msgstr "Vaihda EPG Sivu Ylös"
 
 msgid "Switch HDR type by content"
 msgstr ""
-
-msgid "Switch Mode to enable HDR Modes or PiP Functions"
-msgstr "Valitse joko HDR (High Dynamic Range) tai PIP (Picture in Picture). Molemmat eivät voi olla päällä yhtaikaa. Vaatii laitteen uudelleenkäynnistyksen*"
 
 msgid "Switch TV to correct input"
 msgstr "Vaihda TV oikealle sisäänmenolle"
@@ -25092,9 +25095,6 @@ msgstr "WOW vain"
 msgid "Wolof"
 msgstr "Wolof"
 
-msgid "Workaround for old tuner driver."
-msgstr "Aseta Kyllä asetukseksi vain, jos vanhassa viritin ajurissa on ongelmia"
-
 msgid "Workgroup name"
 msgstr "Työryhmän nimi"
 
@@ -26208,6 +26208,24 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "12bit 4:2:0/4:2:2 no PiP"
+#~ msgstr "12bit 4:2:0/4:2:2 ei PiP"
+
+#~ msgid "Change Boxmode to control Hardware Chip Modes*"
+#~ msgstr "Video sirun tila*"
+
+#~ msgid "Delivery system workaround"
+#~ msgstr "Virittimen erikoistoiminto"
+
+#~ msgid "Enable PiP no HDR"
+#~ msgstr "Aktivoi PIP ilman HDR:ää"
+
+#~ msgid "Switch Mode to enable HDR Modes or PiP Functions"
+#~ msgstr "Valitse joko HDR (High Dynamic Range) tai PIP (Picture in Picture). Molemmat eivät voi olla päällä yhtaikaa. Vaatii laitteen uudelleenkäynnistyksen*"
+
+#~ msgid "Workaround for old tuner driver."
+#~ msgstr "Aseta Kyllä asetukseksi vain, jos vanhassa viritin ajurissa on ongelmia"
 
 #, python-format
 #~ msgid "%d"
