@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 14:01+0000\n"
+"POT-Creation-Date: 2026-10-11 14:55+0000\n"
 "PO-Revision-Date: 2026-10-11 14:02+0000\n"
 "Last-Translator: Mat <mathew87@poczta.fm>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
@@ -1507,6 +1507,9 @@ msgstr "12 znaków"
 msgid "12, show Latin-1 characters except for greek and cyrillic, switch to 8 if needed."
 msgstr "12, wyświetla znaki alfabetu łacińskiego-1 z wyjątkiem greckiego i cyrylicy, w razie potrzeby przełącz na 8."
 
+msgid "12-bit HDR (no PiP)"
+msgstr ""
+
 msgid "12V output"
 msgstr "Wyjście 12V"
 
@@ -1515,9 +1518,6 @@ msgstr "Wyjście 12V."
 
 msgid "12bit"
 msgstr "12bit"
-
-msgid "12bit 4:2:0/4:2:2 no PiP"
-msgstr "12-bit 4:2:0/4:2:2 bez PiP"
 
 msgid "16:10 Letterbox"
 msgstr "16:10 Letterbox"
@@ -4138,9 +4138,6 @@ msgstr "Czad"
 msgid "Chamorro"
 msgstr "Chamorro"
 
-msgid "Change Boxmode to control Hardware Chip Modes*"
-msgstr "Zmień tryb odbiornika, aby kontrolować sprzętowe tryby*"
-
 msgid "Change Language"
 msgstr "Zmień Język"
 
@@ -6628,9 +6625,6 @@ msgstr "Usuwanie %s (%s)..."
 msgid "Deleting files"
 msgstr "Usuwanie plików"
 
-msgid "Delivery system workaround"
-msgstr "Obejście systemu dostawy"
-
 msgid "Democratic Republic of the Congo"
 msgstr "Demokratyczna Republika Konga"
 
@@ -7750,9 +7744,6 @@ msgstr "Włącz sprawdzanie adresu IP sieci"
 
 msgid "Enable OpenTV EPG"
 msgstr "Włącz OpenTV EPG"
-
-msgid "Enable PiP no HDR"
-msgstr "Włącz PiP bez HDR"
 
 msgid "Enable Quad PiP"
 msgstr "Włącz Quad PiP"
@@ -10022,6 +10013,9 @@ msgstr "Numer seryjny"
 
 msgid "Hardware type"
 msgstr "Typ sprzętu"
+
+msgid "Hardware video mode"
+msgstr ""
 
 msgid "Hausa"
 msgstr "Hausa"
@@ -14677,6 +14671,9 @@ msgstr "Filipiny"
 msgid "PiP"
 msgstr "PiP"
 
+msgid "PiP (no HDR)"
+msgstr ""
+
 msgid "PiP with OSD"
 msgstr "PiP z OSD"
 
@@ -16529,6 +16526,9 @@ msgstr "Zmieniono nazwę %s!"
 msgid "Renovation"
 msgstr "Renowacja"
 
+msgid "Reopen tuner when changing delivery system"
+msgstr ""
+
 msgid "Repeat"
 msgstr "Powtórz"
 
@@ -17615,6 +17615,9 @@ msgstr "Wybierz 'Miękkie montowanie', aby dostęp do plików zwrócił błąd p
 
 msgid "Select 'Unique numbering' to assign unique numbers for every service in every bouquet. Use 'Bouquets start at 1' to start numbering each bouquet from 1. Use 'LCN numbering' to use consistent service LCNs where ever that service is used."
 msgstr "Wybierz opcję 'Unikalna numeracja', aby przypisać unikalne numery do każdego kanału w każdej liście kanałów. Użyj opcji 'Listy kanałów zaczynają się od 1', aby rozpocząć numerację każdej listy od 1. Użyj opcji 'Numerowanie LCN', aby używać spójnych numerów LCN kanałów wszędzie tam, gdzie używany jest ten kanał."
+
+msgid "Select 'Yes' if a multi-standard tuner fails to tune after switching between satellite, cable and terrestrial reception. The tuner will be closed and reopened after each switch. This is only needed for some older tuner drivers."
+msgstr ""
 
 msgid "Select 'Yes' if an end time is required for this timer."
 msgstr "Wybierz opcję 'Tak', jeśli dla tego timera wymagana jest godzina zakończenia."
@@ -18709,6 +18712,9 @@ msgstr "Wybierz typ klawiatury aktualnie podłączonej do %s %s."
 
 msgid "Select the type of this timer."
 msgstr "Wybierz typ tego timera."
+
+msgid "Select the video mode of the hardware chip. PiP and 12-bit HDR output cannot be used at the same time, so choose whether to enable Picture in Picture or 12-bit HDR output."
+msgstr ""
 
 msgid "Select the video mode to be used on the TV."
 msgstr "Wybierz tryb wideo dla TV."
@@ -21557,9 +21563,6 @@ msgstr "Przełącz stronę EPG w górę"
 
 msgid "Switch HDR type by content"
 msgstr ""
-
-msgid "Switch Mode to enable HDR Modes or PiP Functions"
-msgstr "Przełącz tryb, aby włączyć tryby HDR lub funkcje PiP"
 
 msgid "Switch TV to correct input"
 msgstr "Przełącz TV na właściwe wejście"
@@ -25123,9 +25126,6 @@ msgstr "Tylko WoW"
 msgid "Wolof"
 msgstr "Wolof"
 
-msgid "Workaround for old tuner driver."
-msgstr "Rozwiązanie dla starego sterownika tunera."
-
 msgid "Workgroup name"
 msgstr "Nazwa grupy roboczej"
 
@@ -26236,6 +26236,24 @@ msgstr "tak (zachować feed'y)"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "12bit 4:2:0/4:2:2 no PiP"
+#~ msgstr "12-bit 4:2:0/4:2:2 bez PiP"
+
+#~ msgid "Change Boxmode to control Hardware Chip Modes*"
+#~ msgstr "Zmień tryb odbiornika, aby kontrolować sprzętowe tryby*"
+
+#~ msgid "Delivery system workaround"
+#~ msgstr "Obejście systemu dostawy"
+
+#~ msgid "Enable PiP no HDR"
+#~ msgstr "Włącz PiP bez HDR"
+
+#~ msgid "Switch Mode to enable HDR Modes or PiP Functions"
+#~ msgstr "Przełącz tryb, aby włączyć tryby HDR lub funkcje PiP"
+
+#~ msgid "Workaround for old tuner driver."
+#~ msgstr "Rozwiązanie dla starego sterownika tunera."
 
 #, python-format
 #~ msgid "%d"
