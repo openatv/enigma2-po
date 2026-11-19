@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-08-17 05:10+0000\n"
 "Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
 "Language-Team: Ivo / enigma2 (c) <ivog@apolllo.lv>\n"
@@ -3561,6 +3561,12 @@ msgid "Cannot determine %s limit ..., aborting!"
 msgstr ""
 
 msgid "Cannot find any signal ..., aborting!"
+msgstr ""
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
 msgstr ""
 
 msgid "Cape Verde"
@@ -8100,10 +8106,6 @@ msgstr ""
 msgid "Error: Creating directory '%s' failed!"
 msgstr "Veido mapi %s neizdevās."
 
-#, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr ""
-
 #
 #, fuzzy, python-format
 msgid "Error: Directory '%s' does not exist!"
@@ -10830,6 +10832,9 @@ msgstr ""
 #, fuzzy
 msgid "Internal flash"
 msgstr "Iekšējā atmiņa"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -15199,6 +15204,9 @@ msgstr "Lūdzu izvēlieties repertuāru..."
 msgid "Please select a resolution..."
 msgstr ""
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr ""
 
@@ -15612,6 +15620,12 @@ msgstr ""
 #, fuzzy
 msgid "Preparation time for recording"
 msgstr "Atstarpe pirms ieraksta (minūtēs)"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr ""
@@ -16447,6 +16461,12 @@ msgstr "Ieraksta"
 #, fuzzy
 msgid "Recording failed"
 msgstr "Ieraksta"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 #
 #, fuzzy
@@ -18330,9 +18350,6 @@ msgstr ""
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr ""
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr ""
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr ""
 
@@ -18435,6 +18452,9 @@ msgid "Select a Softcam from the available list."
 msgstr ""
 
 msgid "Select a bouquet"
+msgstr ""
+
+msgid "Select a connected HDD or USB device for the picons."
 msgstr ""
 
 msgid "Select a debug log file to view:"
@@ -22191,6 +22211,9 @@ msgstr ""
 msgid "Style:"
 msgstr ""
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr ""
 
@@ -23004,6 +23027,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr ""
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -23084,7 +23111,20 @@ msgstr ""
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr ""
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
 msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
@@ -24429,10 +24469,17 @@ msgstr ""
 msgid "Ukrainian"
 msgstr ""
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
 "%s"
+msgstr ""
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
 msgstr ""
 
 #, python-format
@@ -24458,6 +24505,10 @@ msgstr ""
 
 #, python-format
 msgid "Unable to open tuner (%d)"
+msgstr ""
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
 msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
@@ -24518,6 +24569,10 @@ msgid "Unattended upgrade without GUI"
 msgstr ""
 
 msgid "Unavailable"
+msgstr ""
+
+#, python-format
+msgid "Unavailable: %s"
 msgstr ""
 
 #
@@ -24890,9 +24945,6 @@ msgid "Use Zap timer end times"
 msgstr ""
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
-msgstr ""
-
-msgid "Use alternate GitHub DNS"
 msgstr ""
 
 msgid "Use an alternative smaller screen."

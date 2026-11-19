@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-10-31 21:19+0000\n"
 "Last-Translator: Snoete <snoete@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -3509,6 +3509,12 @@ msgstr "Kan inte bestämma %s-gränsen ..., avbryter!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Kan inte hitta någon signal ..., avbryter!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Cap Verde"
@@ -8001,10 +8007,6 @@ msgstr "Felmeddelande: Det gick inte att hitta en lämplig enhet! Ta bort några
 msgid "Error: Creating directory '%s' failed!"
 msgstr "Fel vid skapande av katalog Skapandet av katalogen '%s' misslyckades!"
 
-#, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Fel vid skapande av Skapar målkatalog för picon: (%s)"
-
 #
 #, python-format
 msgid "Error: Directory '%s' does not exist!"
@@ -10660,6 +10662,9 @@ msgstr "Endast intern disk"
 #
 msgid "Internal flash"
 msgstr "Intern blixt"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14878,6 +14883,9 @@ msgstr "Vänligen välj en spellista..."
 msgid "Please select a resolution..."
 msgstr "Vänligen välj en upplösning..."
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Vänligen välj ett bildförhållande..."
 
@@ -15282,6 +15290,12 @@ msgstr "Företrädesvis tuners för inspelningar, flera val tillåtna"
 #
 msgid "Preparation time for recording"
 msgstr "Förberedelsetid för inspelning"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr ""
@@ -16098,6 +16112,12 @@ msgstr "Inspelning avbruten"
 
 msgid "Recording failed"
 msgstr "Inspelningen misslyckades"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 #
 msgid "Recording finished"
@@ -17948,9 +17968,6 @@ msgstr ""
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "När ja, kommer VPS att aktiveras på omedelbara poster (stopp efter aktuell händelse), om kanalen stöder VPS."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Välj \"Ja\" för att använda alternativa IP-adresser för GitHub-flöden. Detta kan vara till hjälp om du använder ett VPN och de normala flödena inte kan nås via de publicerade DNS-namnen."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Välj \"Ja\" för att använda äldre navigering där CH+/- byter den aktiva kolumnen. Välj \"Nej\" för att använda det nyare enhetliga navigeringsalternativet för konsekvent navigering med andra skärmar där VÄNSTER/RIGHT byter aktiv kolumn och CH+/- bläddrar upp och ner i listan."
 
@@ -18054,6 +18071,9 @@ msgstr "Välj en Softcam från den tillgängliga listan."
 
 msgid "Select a bouquet"
 msgstr "Välj en bukett"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Välj en debugloggfil som ska visas:"
@@ -21757,6 +21777,9 @@ msgstr "Ränder"
 msgid "Style:"
 msgstr "Stil:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Subnätmask"
 
@@ -22587,6 +22610,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Standardinställningarna är väckningstid - 5 minuter och timerns starttid + 5 minuter. Den här inställningen ändrade tidsfönstret före väckningstiden. På så sätt kan en timer upptäcka en väckning även vid mycket tidiga startmottagare."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Den detaljerade informationen är endast avsedd för utvecklare."
 
@@ -22670,8 +22697,21 @@ msgstr ""
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr ""
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Katalogen picon finns redan och måste tas bort. Vill du fortsätta?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Positionerarmottagaren är inte tillgänglig just nu. Stoppa inspelningar eller andra tjänster som använder mottagaren och försök igen."
@@ -23992,10 +24032,17 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukrainska"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
 "%s"
+msgstr ""
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
 msgstr ""
 
 #, python-format
@@ -24021,6 +24068,10 @@ msgstr ""
 
 #, python-format
 msgid "Unable to open tuner (%d)"
+msgstr ""
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
 msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
@@ -24082,6 +24133,10 @@ msgstr "Obevakad uppgradering utan GUI"
 
 msgid "Unavailable"
 msgstr "Otillgänglig"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 #
 msgid "Undefined"
@@ -24452,9 +24507,6 @@ msgstr "Använd Zappa timer sluttider"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Använd en DNS-cache för att lagra senaste DNS-uppslagningar lokalt och förbättra prestandan samt minska fördröjning och utgående trafik."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Använd alternativ GitHub DNS"
 
 msgid "Use an alternative smaller screen."
 msgstr "Använd en alternativ mindre skärm."
@@ -26903,6 +26955,19 @@ msgstr "ja (behåller flöden)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Fel vid skapande av Skapar målkatalog för picon: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Välj \"Ja\" för att använda alternativa IP-adresser för GitHub-flöden. Detta kan vara till hjälp om du använder ett VPN och de normala flödena inte kan nås via de publicerade DNS-namnen."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Katalogen picon finns redan och måste tas bort. Vill du fortsätta?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Använd alternativ GitHub DNS"
 
 #
 #~ msgid "%-H:%M:%S"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-10-31 21:19+0000\n"
 "Last-Translator: igorrrrr <igorrrrr@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
@@ -3395,6 +3395,12 @@ msgstr "Не вдається визначити ліміт %s ..., скасов
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Неможливо знайти будь-який сигнал ..., скасовується!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Кабо Верде"
@@ -7706,10 +7712,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Створення директорії %s невдале!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Помилка: Створення цільового каталогу піконів: (%s)"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Каталогу %s не існує!"
 
@@ -10244,6 +10246,9 @@ msgstr "Тільки внутрішній жорсткий диск"
 
 msgid "Internal flash"
 msgstr "Внутрішня пам’ять"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14247,6 +14252,9 @@ msgstr "Будь ласка, виберіть список відтворенн�
 msgid "Please select a resolution..."
 msgstr "Будь ласка, виберіть роздільчу здатність зображення..."
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Будь ласка, виберіть співвідношення сторін..."
 
@@ -14624,6 +14632,12 @@ msgstr "Пріоритетний тюнер для запису, дозволе�
 
 msgid "Preparation time for recording"
 msgstr "Час підготовки до запису (у секундах)"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr "Підготовка запису, зачекайте, будь ласка..."
@@ -15397,6 +15411,12 @@ msgstr "Записи скасовано"
 
 msgid "Recording failed"
 msgstr "Помилка запису"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Запис завершено"
@@ -17153,9 +17173,6 @@ msgstr "Виберіть 'Так', щоб обробляти черезрядк�
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Якщо так, VPS буде ввімкнено для миттєвих записів (зупиняється після поточної події), якщо канал підтримує VPS."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Виберіть 'Так', щоб використовувати альтернативні IP-адреси GitHub фіду. Це може бути корисним, якщо ви використовуєте VPN і до звичайних фідів не можна отримати доступ через опубліковані імена DNS."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Виберіть 'Так', щоб використовувати застарілу навігацію, де CH+/- змінює активний стовпець. Виберіть 'Ні', щоб використовувати нову уніфіковану опцію навігації для узгодженої навігації з іншими екранами, де ВЛІВО/ВПРАВО міняє активний стовпець і сторінки CH+/- вгору та вниз у списку."
 
@@ -17254,6 +17271,9 @@ msgstr "Виберіть softcam зі списку доступних."
 
 msgid "Select a bouquet"
 msgstr "Вибрати фаворит"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Виберіть файл журналу налагодження для перегляду:"
@@ -20819,6 +20839,9 @@ msgstr "Смуги"
 msgid "Style:"
 msgstr "Стиль:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Маска підмережі"
 
@@ -21620,6 +21643,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Налаштування за замовчуванням часу включення -5 хвилин і час старту таймера +5 хвилин. Це налаштування змінює часове вікно часу включення. Так можна виявити включення приймача за таймером."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Детальна інформація призначена лише для розробників."
 
@@ -21702,8 +21729,21 @@ msgstr "Точка монтування '%s' використовується б
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Канал паніки не знайдено. Будь ласка, виберіть його знову в налаштуваннях вибору каналів."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Каталог піконів уже існує і його потрібно видалити. Ви бажаєте продовжити?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Тюнер позиціонера наразі недоступний. Зупиніть запис або інші сервіси, що використовують цей тюнер, і спробуйте ще раз."
@@ -22966,6 +23006,9 @@ msgstr "Україна"
 msgid "Ukrainian"
 msgstr "Українська"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -22973,6 +23016,10 @@ msgid ""
 msgstr ""
 "Не вдалося змінити стан файлу підкачки для '%s'.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr ""
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -22998,6 +23045,10 @@ msgstr "Не вдалося завантажити інформацію про �
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Не вдалося відкрити тюнер (%d)"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Не вдалося підготувати оновлення букетів. Сканування триватиме без оновлення букетів."
@@ -23058,6 +23109,10 @@ msgstr "Оновлення у фоновому режимі"
 
 msgid "Unavailable"
 msgstr "Недоступно"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 msgid "Undefined"
 msgstr "Н/Д"
@@ -23413,9 +23468,6 @@ msgstr "Використовуйте час закінчення таймера 
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Використовуйте кеш DNS для локального зберігання останніх DNS-запитів, щоб покращити продуктивність, зменшити затримку та вихідний трафік."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Використати альтернативний DNS GitHub"
 
 msgid "Use an alternative smaller screen."
 msgstr "Використовувати альтернативне вікно."
@@ -25720,6 +25772,19 @@ msgstr "так (зберігати фіди)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Помилка: Створення цільового каталогу піконів: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Виберіть 'Так', щоб використовувати альтернативні IP-адреси GitHub фіду. Це може бути корисним, якщо ви використовуєте VPN і до звичайних фідів не можна отримати доступ через опубліковані імена DNS."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Каталог піконів уже існує і його потрібно видалити. Ви бажаєте продовжити?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Використати альтернативний DNS GitHub"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"

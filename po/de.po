@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
-"PO-Revision-Date: 2026-11-15 02:31+0000\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
+"PO-Revision-Date: 2026-11-19 21:29+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/de/>\n"
 "Language: de\n"
@@ -3541,6 +3541,12 @@ msgstr "… %s kann nicht ermittelt werden! Abbruch!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Kein Signal gefunden! Abbruch!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Kap Verde"
@@ -8032,10 +8038,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Fehler: Das Erstellen des Verzeichnisses '%s' ist fehlgeschlagen!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Fehler beim Erzeugen des Zielordners ('%s')!"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Fehler: Das Verzeichnis '%s' existiert nicht!"
 
@@ -10668,6 +10670,9 @@ msgstr "Nur interne Festplatte"
 #
 msgid "Internal flash"
 msgstr "Interner Flash"
+
+msgid "Internal flash only allows small picon packages."
+msgstr "Interner Flash erlaubt nur kleine Piconpakete."
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14923,6 +14928,9 @@ msgstr "Bitte eine Playlist auswählen …"
 msgid "Please select a resolution..."
 msgstr "Bitte eine Auflösung auswählen …"
 
+msgid "Please select a target directory."
+msgstr "Ein Zielverzeichnis auswählen."
+
 # ******************************************************************************
 msgid "Please select an aspect ratio..."
 msgstr "Bitte ein Bildseitenverhältnis auswählen …"
@@ -15322,6 +15330,12 @@ msgstr "Bevorzugte Tuner bei Aufnahmen"
 
 msgid "Preparation time for recording"
 msgstr "Vorbereitungszeit für die Aufnahme"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr "Picon-Speicher wird vorbereitet. Die vorhandenen Picons werden beibehalten. Bitte warten …"
+
+msgid "Preparing picon storage. Please wait..."
+msgstr "Picon-Speicher wird vorbereitet. Bitte warten …"
 
 msgid "Preparing recording, please wait..."
 msgstr "Aufnahme wird vorbereitet. Bitte warten …"
@@ -16142,6 +16156,12 @@ msgstr "Aufnahme abgebrochen"
 
 msgid "Recording failed"
 msgstr "Aufnahme fehlgeschlagen!"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Aufnahme beendet"
@@ -18003,9 +18023,6 @@ msgstr "'Ja' auswählen, um Interlaced-Streams und Mediendateien als progressive
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Bei 'Ja' wird VPS automatisch bei Sofortaufnahmen (aktuelle Sendung) aktiviert, soweit es vom Sender unterstützt wird."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "'Ja' auswählen, um eine alternative IP-Adresse für den GitHub-Feed zu verwenden. Dies kann hilfreich sein, wenn ein VPN verwendet wird, jedoch über den angegebenen DNS-Namen nicht auf die normalen Feeds zugegriffen werden kann."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "'Ja', um die alte Navigation zu verwenden, bei der CH+/- die aktive Spalte wechselt. 'Nein', um die neue einheitliche Navigation mit anderen Bildschirmen zu verwenden, bei der LINKS/RECHTS die aktive Spalte wechselt und CH+/- seitenweise durchblättert."
 
@@ -18110,6 +18127,9 @@ msgstr "Eine Softcam aus der Liste auswählen."
 
 msgid "Select a bouquet"
 msgstr "Bouquet auswählen"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr "Eine angeschlossene HDD oder einen USB-Stick für die Picons auswählen."
 
 msgid "Select a debug log file to view:"
 msgstr "Ein Debug-Log zur Ansicht auswählen:"
@@ -20099,7 +20119,7 @@ msgid "Show PiP in the Front Display"
 msgstr "Bild-im-Bild im Display anzeigen"
 
 msgid "Show Picon packages"
-msgstr "Picon-Pakete anzeigen"
+msgstr "Piconpakete anzeigen"
 
 msgid "Show Plugin Skin packages"
 msgstr "Plugin-Skin-Pakete anzeigen"
@@ -21827,6 +21847,9 @@ msgstr "Streifen"
 msgid "Style:"
 msgstr "Farbe:"
 
+msgid "Subchannel ID"
+msgstr "Unterkanal-ID"
+
 msgid "Subnet mask"
 msgstr "Subnetzmaske"
 
@@ -22660,6 +22683,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Die Standardeinstellungen sind Aufwachzeit -5 Minuten und Timerbeginn +5 Minuten. Diese Einstellung verändert das Zeitfenster vor der Aufwachzeit. So kann das Aufwachen durch einen Timer auch bei sehr früh startenden Receivern erkannt werden."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr "Das Ziel '%s' existiert bereits. Ein leeres Ziel wählen oder die Picons manuell verschieben."
+
 msgid "The detailed information is intended for developers only."
 msgstr "Die detaillierten Informationen sind nur für Entwickler bestimmt."
 
@@ -22743,8 +22770,22 @@ msgstr "Der Einhängepunkt '%s' wird von mehr als einer Freigabe verwendet."
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Der Paniksender wurde nicht gefunden. Bitte erneut in den Einstellungen der Senderliste auswählen."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Der Picon-Ordner existiert bereits! Er muss entfernt werden. Fortfahren?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr "Das Picon-Ziel muss außerhalb des vorhandenen Picon-Verzeichnisses liegen."
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr "Der Piconpfad '%s' ist kein Verzeichnis."
+
+#, fuzzy
+msgid "The picon storage device is read-only or full."
+msgstr "Das Picon-Speichergerät ist schreibgeschützt oder voll."
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr ""
@@ -24089,6 +24130,9 @@ msgstr "Ukraine"
 msgid "Ukrainian"
 msgstr "Ukrainisch"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -24096,6 +24140,10 @@ msgid ""
 msgstr ""
 "Swap-Status für '%s' konnte nicht geändert werden.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr ""
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -24121,6 +24169,10 @@ msgstr "Paketinformationen konnten nicht geladen werden!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Tuner (%d) kann nicht geöffnet werden"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Die Bouquet-Aktualisierung konnte nicht vorbereitet werden. Der Suchlauf wird ohne Aktualisierung der Bouquets fortgesetzt."
@@ -24182,6 +24234,10 @@ msgstr "Automatische Aktualisierung ohne Bedienoberfläche"
 
 msgid "Unavailable"
 msgstr "Nicht verfügbar"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr "Nicht verfügbar: %s"
 
 #
 msgid "Undefined"
@@ -24558,9 +24614,6 @@ msgstr "Endzeiten der Umschalttimer verwenden"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Einen DNS-Cache verwenden, um die letzten DNS-Lookups lokal zu speichern, die Leistung zu verbessern, die Latenz zu reduzieren und den ausgehenden Datenverkehr zu verringern."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Alternativen GitHub-DNS verwenden"
 
 msgid "Use an alternative smaller screen."
 msgstr "Legt fest, ob eine alternative Anzeige verwendet werden soll."
@@ -27027,6 +27080,19 @@ msgstr "Ja (Feeds beibehalten)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Fehler beim Erzeugen des Zielordners ('%s')!"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "'Ja' auswählen, um eine alternative IP-Adresse für den GitHub-Feed zu verwenden. Dies kann hilfreich sein, wenn ein VPN verwendet wird, jedoch über den angegebenen DNS-Namen nicht auf die normalen Feeds zugegriffen werden kann."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Der Picon-Ordner existiert bereits! Er muss entfernt werden. Fortfahren?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Alternativen GitHub-DNS verwenden"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"

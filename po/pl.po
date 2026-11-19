@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
-"PO-Revision-Date: 2026-11-18 10:51+0000\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
+"PO-Revision-Date: 2026-11-19 21:29+0000\n"
 "Last-Translator: pololoko111 <pololoko111@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/pl/>\n"
 "Language: pl\n"
@@ -3405,6 +3405,12 @@ msgstr "Nie można określić limitu %s, Przerywam!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Nie można znaleźć żadnego sygnału... anulowanie!"
+
+msgid "Capacity unit range"
+msgstr "Zakres jednostek pojemności"
+
+msgid "Capacity units (CU)"
+msgstr "Jednostki pojemności (CU)"
 
 msgid "Cape Verde"
 msgstr "Zielony Przylądek"
@@ -7717,10 +7723,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Błąd: Tworzenie katalogu '%s' nie powiodło się!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Błąd: Tworzenie katalogu docelowego pikon: (%s)"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Błąd: Katalog '%s' nie istnieje!"
 
@@ -10255,6 +10257,9 @@ msgstr "Tylko wewnętrzny hdd"
 
 msgid "Internal flash"
 msgstr "Wewnętrzny flash"
+
+msgid "Internal flash only allows small picon packages."
+msgstr "Pamięć wewnętrzna pozwala na instalację tylko małych pakietów pikon."
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14259,6 +14264,9 @@ msgstr "Wybierz listę odtwarzania..."
 msgid "Please select a resolution..."
 msgstr "Proszę wybrać rozdzielczość..."
 
+msgid "Please select a target directory."
+msgstr "Wybierz katalog docelowy."
+
 msgid "Please select an aspect ratio..."
 msgstr "Wybierz proporcje ekranu..."
 
@@ -14636,6 +14644,12 @@ msgstr "Preferowane tunery do nagrań, dozwolony wybór wielokrotny"
 
 msgid "Preparation time for recording"
 msgstr "Czas przygotowania do nagrania"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr "Przygotowywanie pamięci na pikony. Istniejące pikony zostaną zachowane. Proszę czekać..."
+
+msgid "Preparing picon storage. Please wait..."
+msgstr "Przygotowywanie pamięci na pikony. Proszę czekać..."
 
 msgid "Preparing recording, please wait..."
 msgstr "Przygotowywanie nagrywania, proszę czekać..."
@@ -15409,6 +15423,14 @@ msgstr "Nagrywanie przerwane"
 
 msgid "Recording failed"
 msgstr "Nagrywanie nie powiodło się"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
+"Nagrywanie nie powiodło się, ponieważ nie udało się pobrać informacji o programie z kanału.\n"
+"%s"
 
 msgid "Recording finished"
 msgstr "Nagrywanie zakończone"
@@ -17165,9 +17187,6 @@ msgstr "Wybierz 'Tak', aby traktować strumienie i pliki multimedialne z przeplo
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Wybierz 'Tak', aby użyć danych PDC, jeśli są dostępne w bieżącej usłudze, w celu dokładnego zatrzymania natychmiastowego nagrywania po zakończeniu zdarzenia."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Wybierz 'Tak', aby użyć alternatywnego adresu IP repozytorium GitHub. Może to być pomocne, gdy używasz VPN, a nie można uzyskać dostępu do normalnych repozytoriów za pomocą opublikowanych nazw DNS."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Wybierz 'Tak', aby użyć starszej nawigacji, w której CH+/- zamienia aktywną kolumnę. Wybierz 'Nie', aby użyć nowszej, ujednoliconej opcji nawigacji w celu spójnej nawigacji z innymi ekranami, gdzie LEWO/PRAWO zamienia aktywną kolumnę i strony CH+/- w górę i w dół listy."
 
@@ -17266,6 +17285,9 @@ msgstr "Wybierz Softcam z dostępnej listy."
 
 msgid "Select a bouquet"
 msgstr "Wybierz listę kanałów"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr "Wybierz podłączony dysk HDD lub urządzenie USB do przechowywania pikon."
 
 msgid "Select a debug log file to view:"
 msgstr "Wybierz plik loga debugowania do wyświetlenia:"
@@ -20832,6 +20854,9 @@ msgstr "Paski"
 msgid "Style:"
 msgstr "Styl:"
 
+msgid "Subchannel ID"
+msgstr "ID podkanału"
+
 msgid "Subnet mask"
 msgstr "Maska podsieci"
 
@@ -21633,6 +21658,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Domyślne ustawienia to czas budzenia - 5 minut i czas rozpoczęcia timera + 5 minut. To ustawienie zmieniło okno czasu przed czasem budzenia. Tak więc można wykryć budzenie przez zegar, nawet przy bardzo wczesnym uruchomieniu odbiorników."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr "Lokalizacja docelowa '%s' już istnieje. Wybierz pustą lokalizację docelową lub przenieś pikony ręcznie."
+
 msgid "The detailed information is intended for developers only."
 msgstr "Szczegółowe informacje przeznaczone są wyłącznie dla deweloperów."
 
@@ -21715,8 +21744,24 @@ msgstr "Punkt montowania '%s' jest używany przez więcej niż jeden udział."
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Nie znaleziono kanału awaryjnego. Wybierz go ponownie w 'Ustawieniach listy kanałów'."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Katalog pikon już istnieje i musi zostać usunięty. Czy chcesz kontynuować?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr "Katalog docelowy pikon musi znajdować się poza obecnym katalogiem pikon."
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+"Nie można zainstalować pakietu pikon. Podłącz dysk HDD lub urządzenie USB i wybierz je jako lokalizację instalacji pikon w ustawieniach przeglądarki wtyczek. Sprawdź, czy urządzenie jest zamontowane i umożliwia zapis.\n"
+"\n"
+"Pamięć wewnętrzna obsługuje tylko małe pakiety zawierające maksymalnie 1000 plików i zajmujące do 10 MiB, pod warunkiem że jest wystarczająco dużo wolnego miejsca i dostępnych wpisów w systemie plików."
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr "Ścieżka pikon '%s' nie jest katalogiem."
+
+msgid "The picon storage device is read-only or full."
+msgstr "Urządzenie do przechowywania pikon jest tylko do odczytu lub nie ma na nim wolnego miejsca."
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Tuner obsługujący obrotnicę jest obecnie niedostępny. Zatrzymaj nagrania lub inne usługi korzystające z tego tunera i spróbuj ponownie."
@@ -22979,6 +23024,9 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukraiński"
 
+msgid "Unable to access the script directory."
+msgstr "Nie można uzyskać dostępu do katalogu skryptów."
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -22986,6 +23034,10 @@ msgid ""
 msgstr ""
 "Nie można zmienić stanu swap dla ‘%s’.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr "Nie można zmienić lokalizacji przechowywania pikon: %s"
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -23011,6 +23063,10 @@ msgstr "Nie można wczytać informacji o pakietach!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Nie można otworzyć tunera (%d)"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr "Nie można przygotować pamięci na pikony: %s"
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Nie można przygotować aktualizacji list. Skanowanie będzie kontynuowane bez aktualizacji list."
@@ -23071,6 +23127,10 @@ msgstr "Nienadzorowana aktualizacja bez interfejsu graficznego"
 
 msgid "Unavailable"
 msgstr "Niedostępny"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr "Niedostępne: %s"
 
 msgid "Undefined"
 msgstr "Nieokreślony"
@@ -23426,9 +23486,6 @@ msgstr "Używaj czasu zakończenia timera przełączania"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Użyj pamięci podręcznej DNS do lokalnego przechowywania ostatnich wyszukiwań DNS, aby zwiększyć wydajność, zmniejszyć opóźnienia i ruch wychodzący."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Użyj alternatywnego DNS GitHub"
 
 msgid "Use an alternative smaller screen."
 msgstr "Użyj alternatywnego mniejszego ekranu."
@@ -25733,6 +25790,19 @@ msgstr "tak (zachować repo)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Błąd: Tworzenie katalogu docelowego pikon: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Wybierz 'Tak', aby użyć alternatywnego adresu IP repozytorium GitHub. Może to być pomocne, gdy używasz VPN, a nie można uzyskać dostępu do normalnych repozytoriów za pomocą opublikowanych nazw DNS."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Katalog pikon już istnieje i musi zostać usunięty. Czy chcesz kontynuować?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Użyj alternatywnego DNS GitHub"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"

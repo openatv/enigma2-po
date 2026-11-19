@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-11-16 15:23+0000\n"
 "Last-Translator: tomppaa <tomzza@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/fi/>\n"
@@ -3365,6 +3365,12 @@ msgstr "Ei voida määrittää %s rajaa ..., keskeytys !"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Signaalia ei löydy... keskeytetään!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Cape Verde"
@@ -7667,10 +7673,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Hakemiston %s luominen epäonnistui!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Virhe: Kanavalogojen kansion luominen epäonnistui: (%s)"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Hakemistoa %s ei löydy!"
 
@@ -10209,6 +10211,9 @@ msgstr "Vain sisäinen kiintolevy"
 
 msgid "Internal flash"
 msgstr "Sisäinen muisti"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14219,6 +14224,9 @@ msgstr "Valitse toistolista."
 msgid "Please select a resolution..."
 msgstr "Valitse kuvaruudun tarkkuus"
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Valitse kuvasuhde."
 
@@ -14594,6 +14602,12 @@ msgstr "Ensisijainen viritin tallennuksiin, monivalinta sallittu"
 
 msgid "Preparation time for recording"
 msgstr "Tallennuksen valmisteluaika (sekuntia)"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr ""
@@ -15367,6 +15381,12 @@ msgstr "Tallennus peruutettu"
 
 msgid "Recording failed"
 msgstr "Tallennus epäonnistui"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Tallennus päättyi"
@@ -17128,9 +17148,6 @@ msgstr ""
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Kun kyllä, VPS otetaan käyttöön pikatallenteissa (pysäytetään nykyisen ohjelman jälkeen), jos kanava tukee VPS:ää."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Valitse \"Kyllä\" käyttääksesi vaihtoehtoisia GitHubin IP osoitteita. Tämä voi olla hyödyllistä, jos käytät VPN:ää, eikä normaalia ip voi käyttää DNS nimien kautta."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Valitse \"Kyllä\" käyttääksesi perinteistä navigointia, jossa CH+/- vaihtaa aktiivisen sarakkeeseen. Valitse \"Ei\" käyttääksesi uudempaa yhtenäistä navigointi vaihtoehtoa johdonmukaiseen navigointiin muiden ruutujen kanssa, joissa VASEN/OIKEA vaihtaa aktiivisen sarakkeen ja CH+/- sivut ylös ja alas."
 
@@ -17231,6 +17248,9 @@ msgstr "Valitse softcam käytettävissä olevasta listasta."
 
 msgid "Select a bouquet"
 msgstr "Valitse suosikkilista"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Valitse tarkasteltava vianmäärityslokitiedosto:"
@@ -20796,6 +20816,9 @@ msgstr "Nauhat"
 msgid "Style:"
 msgstr "Tyyli:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Aliverkon peite"
 
@@ -21597,6 +21620,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Vakioasetukset ovat herätysaika - 5 minuuttia ja ajastimen käynnistys + 5 minuuttia. Tämä asetus muuttaa aikaikkunaa ennen herätysaikaa. Tällä tavalla ajastin tunnistaa heräämisen jopa sellaisten vastaanottimien kanssa, jotka käynnistyvät hyvin aikaisin."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Yksityiskohtaiset tiedot on tarkoitettu vain kehittäjille."
 
@@ -21679,8 +21706,21 @@ msgstr ""
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr ""
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Kanavalogo hakemisto on jos olemassa ja pitää poistaa ensin. Haluatko jatkaa?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Viritin ei ole tällä hetkellä käytettävissä. Lopeta tätä viritintä käyttävät tallennukset tai muut palvelut ja yritä uudelleen."
@@ -22944,10 +22984,17 @@ msgstr "Ukraina"
 msgid "Ukrainian"
 msgstr "Ukraina"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
 "%s"
+msgstr ""
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
 msgstr ""
 
 #, python-format
@@ -22973,6 +23020,10 @@ msgstr ""
 
 #, python-format
 msgid "Unable to open tuner (%d)"
+msgstr ""
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
 msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
@@ -23034,6 +23085,10 @@ msgstr "Päivitä järjestelmä taustalla ilman käyttäjän ohjausta"
 
 msgid "Unavailable"
 msgstr "ei saatavilla"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 msgid "Undefined"
 msgstr "Ei määritelty"
@@ -23389,9 +23444,6 @@ msgstr "Käytä kanavan vaihto ajastimen lopetusaikoja"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Käytä DNS välimuistia tallentaaksesi paikallisesti viimeisimmät DNS kyselyt suorituskyvyn parantamiseksi, viiveen vähentämiseksi ja lähtevän liikenteen vähentämiseksi."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Käytä vaihtoehtoista GitHub DNS"
 
 msgid "Use an alternative smaller screen."
 msgstr "Käytä vaihtoehtoista näyttöä."
@@ -25699,6 +25751,19 @@ msgstr "kyllä (pidä syötteet)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Virhe: Kanavalogojen kansion luominen epäonnistui: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Valitse \"Kyllä\" käyttääksesi vaihtoehtoisia GitHubin IP osoitteita. Tämä voi olla hyödyllistä, jos käytät VPN:ää, eikä normaalia ip voi käyttää DNS nimien kautta."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Kanavalogo hakemisto on jos olemassa ja pitää poistaa ensin. Haluatko jatkaa?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Käytä vaihtoehtoista GitHub DNS"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"
