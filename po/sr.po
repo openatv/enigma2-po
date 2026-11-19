@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-11-03 17:33+0000\n"
 "Last-Translator: Milan Koljanin <milan58@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sr/>\n"
@@ -3392,6 +3392,12 @@ msgstr "Nije moguće odrediti %s ograničenje ..., prekidam!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Nije pronađen signal ..., prekidam!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Cape Verde"
@@ -7703,10 +7709,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Greška: Pravljenje direktorijuma '%s' nije uspelo!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Greška: Kreiranje pikona ciljni direktorijum: (%s)"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Greška: Direktorijum '%s' ne postoji!"
 
@@ -10241,6 +10243,9 @@ msgstr "Samo unutrašnji disk"
 
 msgid "Internal flash"
 msgstr "Unutrašnji fleš"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14244,6 +14249,9 @@ msgstr "Izaberite listu reprodukcije..."
 msgid "Please select a resolution..."
 msgstr "Izaberite rezoluciju..."
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Izaberite odnos širina/visina..."
 
@@ -14621,6 +14629,12 @@ msgstr "Preferiraj tjuner za snimanje, više dozvoljenih selekcija"
 
 msgid "Preparation time for recording"
 msgstr "Vreme pripreme za snimanje"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr "Priprema snimka, molim te sačekaj..."
@@ -15394,6 +15408,12 @@ msgstr "Snimanje je prekinuto"
 
 msgid "Recording failed"
 msgstr "Snimanje nije uspelo"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Snimanje je završeno"
@@ -17150,9 +17170,6 @@ msgstr "Izaberi 'Da' da tretiraš interlaced tokove i medijske datoteke kao prog
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Kada je da, VPS će biti omogućen u trenutnim zapisima (zaustavi se posle aktuelnog događaja), ako kanal podržava VPS."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Izaberite 'Da' da biste koristili alternativne IP adrese GitHub feed-a. Ovo može biti korisno ako koristite VPN i obični feed-ovi nisu dostupni preko objavljenih DNS imena."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Izaberite 'Da' da koristite legatnu navigaciju gde CH+/- menja aktivnu kolonu. Izaberite 'Ne' da koristite novu ujedinjenu navigacionu opciju za doslednu navigaciju sa drugim ekranima gde LEVO/DEVO menja aktivnu kolonu i CH+/- pomera nagore i nagore na listi."
 
@@ -17251,6 +17268,9 @@ msgstr "Izaberi softcam sa dostupne liste."
 
 msgid "Select a bouquet"
 msgstr "Izaberi buket"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Izaberi fajl log otklanjanja grešaka za gledanje:"
@@ -20816,6 +20836,9 @@ msgstr "Pruge"
 msgid "Style:"
 msgstr "Stil:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Maska podmreže"
 
@@ -21617,6 +21640,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Default postavke vreme buđenja - 5 minuta i vreme početka tajmera + 5 minuta. Ova postavka je promenila vremenski prozor pre vremena buđenja. Tako da se može otkriti buđenje od strane tajmera čak i na veoma ranom uključenju resivera."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Detaljni info je namenjen samo projektantima."
 
@@ -21699,8 +21726,21 @@ msgstr "Ta tačka montiranja '%s' se koristi za više deljenja."
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Panik kanal nije pronađen. Molimo izaberite ga ponovo u podešavanjima za izbor kanala."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Direktorijum pikon već postoji i mora biti uklonjen. Da li želite da nastavite?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Taj pozicioner tjuner trenutno nije dostupan. Zaustavite snimanja ili druge usluge koje koriste ovaj tuner i pokušajte ponovo."
@@ -22963,6 +23003,9 @@ msgstr "Ukraine"
 msgid "Ukrainian"
 msgstr "Ukrainian"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -22970,6 +23013,10 @@ msgid ""
 msgstr ""
 "Nije moguće promeniti stanjezamene za '%s'.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr ""
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -22995,6 +23042,10 @@ msgstr "Ne mogu da učitam informacije o paketu!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Ne mogu da otvorim tjuner (%d)"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Nije moguće pripremiti ažuriranje buketa. Skener će nastaviti bez ažuriranja buketa."
@@ -23055,6 +23106,10 @@ msgstr "Nenadzirana nadogradnja bez GUI"
 
 msgid "Unavailable"
 msgstr "Nedostupno"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 msgid "Undefined"
 msgstr "Nedefinisan"
@@ -23410,9 +23465,6 @@ msgstr "Koristite Zap tajmer za završno vreme"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Koristite DNS keš za lokalno čuvanje nedavnih DNS pretraga kako biste poboljšali performanse, smanjili latenciju i odlazni promet."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Koristite alternativni GitHub DNS"
 
 msgid "Use an alternative smaller screen."
 msgstr "Koristi alternativni manji ekran."
@@ -25717,6 +25769,19 @@ msgstr "da (zadrži fidove)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Greška: Kreiranje pikona ciljni direktorijum: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Izaberite 'Da' da biste koristili alternativne IP adrese GitHub feed-a. Ovo može biti korisno ako koristite VPN i obični feed-ovi nisu dostupni preko objavljenih DNS imena."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Direktorijum pikon već postoji i mora biti uklonjen. Da li želite da nastavite?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Koristite alternativni GitHub DNS"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"
