@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-11-05 13:00+0000\n"
 "Last-Translator: mcilo <mcilo@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
@@ -3471,6 +3471,12 @@ msgstr "%s sınırı belirlenemiyor ..., iptal ediliyor!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Sinyal bulunamadı..., işlem iptal ediliyor!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Cape Verde"
@@ -7930,10 +7936,6 @@ msgstr "Hata: Uygun bir cihaz bulunamadı! Lütfen indirilen bazı yazılımlar�
 msgid "Error: Creating directory '%s' failed!"
 msgstr "Hata oluştu: '%s' dizini oluşturulamadı!"
 
-#, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Hata: Pikon hedef dizini oluşturulurken: (%s)"
-
 #
 #, python-format
 msgid "Error: Directory '%s' does not exist!"
@@ -10576,6 +10578,9 @@ msgstr "Yalnızca dahili disk"
 #
 msgid "Internal flash"
 msgstr "Dahili flaş"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14766,6 +14771,9 @@ msgstr "Lütfen bir oynatma listesi seçin..."
 msgid "Please select a resolution..."
 msgstr "Lütfen bir çözünürlük seçin..."
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Lütfen en boy oranı seçin..."
 
@@ -15164,6 +15172,12 @@ msgstr "Kayıtlar için tercih edilen tunerler, çoklu seçim imkanı"
 #
 msgid "Preparation time for recording"
 msgstr "Kayıt için hazırlık süresi"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr "Kayıt hazırlanıyor, lütfen bekleyin..."
@@ -15973,6 +15987,12 @@ msgstr "Kayıt işlemi iptal edildi"
 
 msgid "Recording failed"
 msgstr "Kayıt başarısız oldu"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Kayıt tamamlandı"
@@ -17807,9 +17827,6 @@ msgstr "Gecikmeli akışları ve medya dosyalarını aşamalı olarak işlemek i
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Etkinliğin sonunda anlık kaydı doğru bir şekilde durdurmak için, mevcut kanalda PDC verileri mevcutsa, 'Evet'i seçin."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Alternatif GitHub kaynağı IP adreslerini kullanmak için 'Evet'i seçin. Bu VPN kullanıyorsanız ve normal kaynaklara yayınlanan DNS adları üzerinden erişilemiyorsa faydalı olabilir."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "'Evet'i seçerek CH+/- tuşlarının etkin sütunu değiştirdiği eski navigasyonu kullanabilirsiniz. 'Hayır'ı seçerek, SOL/SAĞ tuşlarının etkin sütunu değiştirdiği ve CH+/- tuşlarının listede yukarı ve aşağı sayfaları kaydırdığı, diğer ekranlarla tutarlı navigasyon sağlayan daha yeni birleşik navigasyon seçeneğini kullanabilirsiniz."
 
@@ -17911,6 +17928,9 @@ msgstr "Geçerli listeden bir softcam seçin."
 
 msgid "Select a bouquet"
 msgstr "Bir buket seç"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Görüntülemek için bir hata ayıklama günlük dosyası seçin:"
@@ -21578,6 +21598,9 @@ msgstr "Çizgiler"
 msgid "Style:"
 msgstr "Stil:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Alt ağ maskesi"
 
@@ -22407,6 +22430,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Varsayılan ayarlar, uyandırma zamanı - 5 dakika ve zamanlayıcı başlangıç zamanı + 5 dakika şeklindedir. Bu ayar, uyandırma zamanından önceki zaman aralığını değiştirir. Bu sayede, çok erken başlayan alıcılarda bile zamanlayıcı tarafından uyandırma algılanabilir."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Detaylı bilgiler yalnızca geliştiriciler içindir."
 
@@ -22490,8 +22517,21 @@ msgstr "'%s' bağlantı noktası birden fazla paylaşım tarafından kullanılı
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Panik kanalı bulunamadı. Lütfen Kanal Seçimi Ayarlarını kullanarak kanalı yeniden seçin."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Pikon dizini zaten mevcut ve silinmesi gerekiyor. Devam etmek istiyor musunuz?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Konumlandırıcı tuner şu anda kullanılamıyor. Bu tuneri kullanan kayıtları veya diğer hizmetleri durdurun ve tekrar deneyin."
@@ -23806,6 +23846,9 @@ msgstr "Ukrayna"
 msgid "Ukrainian"
 msgstr "Ukraynaca"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -23813,6 +23856,10 @@ msgid ""
 msgstr ""
 "'%s' için takas durumu değiştirilemiyor.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr ""
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -23838,6 +23885,10 @@ msgstr "Paket bilgileri yüklenemedi!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Tuner (%d) açılamadı"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Buket güncellemesi hazırlanamadı. Tarama, buketleri güncellemeden devam edecek."
@@ -23898,6 +23949,10 @@ msgstr "Kullanıcı Arayüzü olmadan gözetimsiz yükseltme"
 
 msgid "Unavailable"
 msgstr "Mevcut değil"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 #
 msgid "Undefined"
@@ -24267,9 +24322,6 @@ msgstr "Kanal değiştirme zamanlayıcısının bitiş zamanlarını kullanın"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Performansı artırmak, gecikmeyi azaltmak ve giden trafiği düşürmek için son DNS sorgularını yerel olarak depolamak üzere bir DNS önbelleği kullanın."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Alternatif GitHub DNS kullan"
 
 msgid "Use an alternative smaller screen."
 msgstr "Alternatif daha küçük bir ekran kullanın."
@@ -26705,6 +26757,19 @@ msgstr "evet (kaynakları tut)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Hata: Pikon hedef dizini oluşturulurken: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Alternatif GitHub kaynağı IP adreslerini kullanmak için 'Evet'i seçin. Bu VPN kullanıyorsanız ve normal kaynaklara yayınlanan DNS adları üzerinden erişilemiyorsa faydalı olabilir."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Pikon dizini zaten mevcut ve silinmesi gerekiyor. Devam etmek istiyor musunuz?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Alternatif GitHub DNS kullan"
 
 #
 #~ msgid "%-H:%M:%S"
