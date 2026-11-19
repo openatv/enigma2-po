@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 13:20+0100\n"
+"POT-Creation-Date: 2026-11-17 08:53+0100\n"
 "PO-Revision-Date: 2026-11-05 13:00+0000\n"
 "Last-Translator: Jiří Engelthaler <engycz@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
@@ -3394,6 +3394,12 @@ msgstr "Nelze určit %s limit ..., ruší se!"
 
 msgid "Cannot find any signal ..., aborting!"
 msgstr "Nelze najít žádný signál ..., končím!"
+
+msgid "Capacity unit range"
+msgstr ""
+
+msgid "Capacity units (CU)"
+msgstr ""
 
 msgid "Cape Verde"
 msgstr "Kapverdy"
@@ -7705,10 +7711,6 @@ msgid "Error: Creating directory '%s' failed!"
 msgstr "Chyba: Vytvoření adresáře '%s' se nezdařilo!"
 
 #, python-format
-msgid "Error: Creating picon target directory: (%s)"
-msgstr "Chyba: Vytváření cílového adresáře picon: (%s)"
-
-#, python-format
 msgid "Error: Directory '%s' does not exist!"
 msgstr "Chyba: Adresář %s neexistuje!"
 
@@ -10243,6 +10245,9 @@ msgstr "Jen na interním disku"
 
 msgid "Internal flash"
 msgstr "Interní flash"
+
+msgid "Internal flash only allows small picon packages."
+msgstr ""
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -14246,6 +14251,9 @@ msgstr "Vyberte prosím seznam přehrávání..."
 msgid "Please select a resolution..."
 msgstr "Nastavení rozlišení obrazu..."
 
+msgid "Please select a target directory."
+msgstr ""
+
 msgid "Please select an aspect ratio..."
 msgstr "Nastavení poměru stran obrazu..."
 
@@ -14623,6 +14631,12 @@ msgstr "Preferované tunery pro nahrávání, vícenásobný výběr povolen"
 
 msgid "Preparation time for recording"
 msgstr "Doba přípravy na nahrávání (sekundy)"
+
+msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
+msgstr ""
+
+msgid "Preparing picon storage. Please wait..."
+msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr "Příprava nahrávání, čekejte prosím..."
@@ -15396,6 +15410,12 @@ msgstr "Nahrávání přerušeno"
 
 msgid "Recording failed"
 msgstr "Nahrávání se nezdařilo"
+
+#, python-format
+msgid ""
+"Recording failed because the channel's programme information could not be received.\n"
+"%s"
+msgstr ""
 
 msgid "Recording finished"
 msgstr "Nahrávání dokončeno"
@@ -17152,9 +17172,6 @@ msgstr "Vyberte „Ano“, chcete-li, aby se prokládané streamy a mediální s
 msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr "Jestliže ano, pak v případě, že kanál podporuje VPS bude VPS povolen v okamžitém nahrávání (zastavit po aktuální události)."
 
-msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
-msgstr "Chcete-li použít alternativní adresy IP zdroje GitHub, vyberte možnost „Ano“. To může být užitečné, pokud používáte VPN a k normálním zdrojům nelze přistupovat prostřednictvím zveřejněných názvů DNS."
-
 msgid "Select 'Yes' to use legacy navigation where CH+/- swaps the active column. Select 'No' to use the newer unified navigation option for consistent navigation with other screens where LEFT/RIGHT swaps the active column and CH+/- pages up and down the list."
 msgstr "Chcete-li použít starší navigaci, kde CH+/- zamění aktivní sloupec, vyberte „Ano“. Chcete-li použít novější možnost sjednocené navigace pro konzistentní navigaci s ostatními obrazovkami, kde VLEVO/VPRAVO přepíná aktivní sloupec a CH+/- stránky v seznamu nahoru a dolů, vyberte možnost „Ne“."
 
@@ -17253,6 +17270,9 @@ msgstr "Vyberte softcam z dostupného seznamu."
 
 msgid "Select a bouquet"
 msgstr "Vyberte přehled"
+
+msgid "Select a connected HDD or USB device for the picons."
+msgstr ""
 
 msgid "Select a debug log file to view:"
 msgstr "Vyberte soubor protokolu ladění, který chcete zobrazit:"
@@ -20818,6 +20838,9 @@ msgstr "Pruhy"
 msgid "Style:"
 msgstr "Styl:"
 
+msgid "Subchannel ID"
+msgstr ""
+
 msgid "Subnet mask"
 msgstr "Maska podsítě"
 
@@ -21619,6 +21642,10 @@ msgstr ""
 msgid "The default settings are wake up time - 5 minutes and timer begin time + 5 minutes. This setting changed the time window before the wake up time. So can be detected a wake up by a timer even at very early starting receivers."
 msgstr "Výchozí nastavení je čas buzení - 5 minut a čas začátku časovače + 5 minut. Toto nastavení změnilo časové okno před probuzením. Takže může být detekováno probuzení pomocí časovače i při velmi časném startu přijímače."
 
+#, python-format
+msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
 msgid "The detailed information is intended for developers only."
 msgstr "Podrobné informace jsou určeny pouze pro vývojáře."
 
@@ -21701,8 +21728,21 @@ msgstr "Přípojný bod '%s' je používán více než jednou sdílenou složkou
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "Panický kanál nebyl nalezen. Vyberte jej prosím znovu v Nastavení výběru kanálu."
 
-msgid "The picon directory already exists and must be removed. Do you want to proceed?"
-msgstr "Adresář picon již existuje a musí být odstraněn. Chcete pokračovat?"
+msgid "The picon destination must be outside the existing picon directory."
+msgstr ""
+
+msgid ""
+"The picon package could not be installed. Connect an HDD or USB device and select it as the picon install location in Plugin Browser settings. Check that the device is mounted and writable.\n"
+"\n"
+"Internal flash only allows small packages with up to 1,000 files and 10 MiB, with enough free space and file entries remaining."
+msgstr ""
+
+#, python-format
+msgid "The picon path '%s' is not a directory."
+msgstr ""
+
+msgid "The picon storage device is read-only or full."
+msgstr ""
 
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "Polohovací tuner je momentálně nedostupný. Zastavte nahrávání nebo jiné služby pomocí tohoto tuneru a zkuste to znovu."
@@ -22965,6 +23005,9 @@ msgstr "Ukrajina"
 msgid "Ukrainian"
 msgstr "Ukrajinština"
 
+msgid "Unable to access the script directory."
+msgstr ""
+
 #, python-format
 msgid ""
 "Unable to change swap state for '%s'.\n"
@@ -22972,6 +23015,10 @@ msgid ""
 msgstr ""
 "Nepodařilo se změnit stav swapu pro '%s'.\n"
 "%s"
+
+#, python-format
+msgid "Unable to change the picon storage location: %s"
+msgstr ""
 
 #, python-format
 msgid "Unable to check HDD replacement: %s"
@@ -22997,6 +23044,10 @@ msgstr "Nelze načíst informace o balíčku!"
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "Nelze otevřít tuner (%d)"
+
+#, python-format
+msgid "Unable to prepare picon storage: %s"
+msgstr ""
 
 msgid "Unable to prepare the bouquet update. The scan will continue without updating bouquets."
 msgstr "Nelze připravit aktualizaci seznamu. Skenování bude pokračovat bez aktualizace seznamů."
@@ -23057,6 +23108,10 @@ msgstr "Bezobslužná aktualizace bez GUI"
 
 msgid "Unavailable"
 msgstr "Není k dispozici"
+
+#, python-format
+msgid "Unavailable: %s"
+msgstr ""
 
 msgid "Undefined"
 msgstr "Nedefinováno"
@@ -23412,9 +23467,6 @@ msgstr "Použít časy ukončení časovače Zap"
 
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "Použít DNS cache k lokálnímu ukládání nedávných DNS vyhledávání pro zlepšení výkonu a snížení latence a odchozího provozu."
-
-msgid "Use alternate GitHub DNS"
-msgstr "Použijte alternativní GitHub DNS"
 
 msgid "Use an alternative smaller screen."
 msgstr "Použít alternativní menší obrazovku."
@@ -25719,6 +25771,19 @@ msgstr "ano (uchovat zdroje)"
 
 msgid "®"
 msgstr "®"
+
+#, python-format
+#~ msgid "Error: Creating picon target directory: (%s)"
+#~ msgstr "Chyba: Vytváření cílového adresáře picon: (%s)"
+
+#~ msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
+#~ msgstr "Chcete-li použít alternativní adresy IP zdroje GitHub, vyberte možnost „Ano“. To může být užitečné, pokud používáte VPN a k normálním zdrojům nelze přistupovat prostřednictvím zveřejněných názvů DNS."
+
+#~ msgid "The picon directory already exists and must be removed. Do you want to proceed?"
+#~ msgstr "Adresář picon již existuje a musí být odstraněn. Chcete pokračovat?"
+
+#~ msgid "Use alternate GitHub DNS"
+#~ msgstr "Použijte alternativní GitHub DNS"
 
 #~ msgid "%-H:%M:%S"
 #~ msgstr "%-H:%M:%S"
