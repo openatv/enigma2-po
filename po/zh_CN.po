@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-17 08:53+0100\n"
+"POT-Creation-Date: 2026-11-19 21:27+0000\n"
 "PO-Revision-Date: 2026-11-12 11:15+0000\n"
 "Last-Translator: Mark Stone <mstone@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/zh_Hans/>\n"
@@ -102,6 +102,10 @@ msgstr "！！ 引导加载程序升级！！"
 
 msgid "# = Reboot required if this item is changed."
 msgstr "# = 如果更改此项，则需要重新启动。"
+
+#, python-format
+msgid "%(title)s (%(count)d)"
+msgstr ""
 
 msgid "%-H:%M"
 msgstr "%-H:%M"
@@ -313,8 +317,20 @@ msgid "%d min"
 msgstr "%d 分钟"
 
 #, python-format
+msgid "%d min recorded"
+msgstr ""
+
+#, python-format
 msgid "%d minutes"
 msgstr "%d 分钟"
+
+#, python-format
+msgid "%d movies"
+msgstr ""
+
+#, python-format
+msgid "%d movies selected"
+msgstr ""
 
 #, python-format
 msgid "%d ms"
@@ -325,6 +341,10 @@ msgid "%d network found."
 msgid_plural "%d networks found."
 msgstr[0] "发现 %d 个网络。"
 msgstr[1] "发现 %d 个网络。"
+
+#, python-format
+msgid "%d new"
+msgstr ""
 
 #, python-format
 msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
@@ -777,6 +797,9 @@ msgstr "0"
 msgid "1"
 msgstr "1"
 
+msgid "1 minute"
+msgstr ""
+
 msgid "1. (Highest)"
 msgstr "1.（最高）"
 
@@ -800,6 +823,9 @@ msgstr "12V 输出。"
 
 msgid "12bit"
 msgstr "12位"
+
+msgid "15 minutes"
+msgstr "15 分钟"
 
 msgid "16:10 Letterbox"
 msgstr "16:10 信箱模式"
@@ -900,6 +926,9 @@ msgstr "4x"
 msgid "5"
 msgstr "5"
 
+msgid "5 minutes"
+msgstr "5分钟"
+
 msgid "50-200 Mbps"
 msgstr "50-200 Mbps"
 
@@ -978,6 +1007,9 @@ msgstr "一项已完成的任务要关闭您的 %s%s。现在关机吗？"
 msgid "A crash log was %s created in '%s'"
 msgstr "崩溃日志 %s 已创建到 '%s'"
 
+msgid "A destination file already exists. No files were overwritten."
+msgstr ""
+
 #, python-format
 msgid ""
 "A finished record timer wants to set your\n"
@@ -1011,6 +1043,18 @@ msgstr "一个已结束的电源定时器要将 %s %s 关闭。是否执行？"
 
 msgid "A highlight on the remote control image shows which button the help refers to. If more than one button performs the indicated function, more than one highlight will be shown. Text below the list lists the active buttons and whether the function requires a long press or SHIFT of the button(s)."
 msgstr "遥控器图像上的高亮部分显示帮助所指的按钮。如果多个按钮执行指示的功能，则将显示多个高亮部分。列表下方的文本列出了活动按钮以及该功能是否需要长按或按 SHIFT 键。"
+
+msgid "A mount point or a folder containing mounted filesystems cannot be moved to the trashcan."
+msgstr ""
+
+msgid "A movie companion file is a symbolic link."
+msgstr ""
+
+msgid "A movie filename cannot be represented in M3U format."
+msgstr ""
+
+msgid "A movie maintenance scan is already running. Its progress is shown in Tasks."
+msgstr ""
 
 msgid "A new storage device has been connected:"
 msgstr "已连接新的存储设备："
@@ -1281,6 +1325,9 @@ msgstr "活动客户端"
 msgid "Active only"
 msgstr "仅活动"
 
+msgid "Actor"
+msgstr ""
+
 msgid "Adapter"
 msgstr "适配器"
 
@@ -1463,6 +1510,12 @@ msgstr "添加录像（无限期-24小时）"
 msgid "Add recording (Stop after current event)"
 msgstr "添加录像（当前事件后停止）"
 
+msgid "Add selected movies"
+msgstr ""
+
+msgid "Add selected movies to the play queue"
+msgstr ""
+
 msgid "Add service"
 msgstr "添加频道"
 
@@ -1542,6 +1595,9 @@ msgstr "调整调谐器本振偏移，优化 DAB+ 信号接收。"
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "调整用于图文电视的文字的垂直位置。"
 
+msgid "Adjust times to EPG"
+msgstr ""
+
 msgid "Adult"
 msgstr "成人"
 
@@ -1553,6 +1609,9 @@ msgstr "成人热门金曲"
 
 msgid "Adult movie/Drama"
 msgstr "成人电影／戏剧"
+
+msgid "Advance Movie List"
+msgstr ""
 
 msgid "Advanced"
 msgstr "高级"
@@ -1611,6 +1670,9 @@ msgstr "录制后"
 msgid "After zap"
 msgstr "换台后"
 
+msgid "Age rating"
+msgstr ""
+
 msgid "Aggregate data only"
 msgstr "仅限汇总数据"
 
@@ -1663,6 +1725,12 @@ msgstr "所有年龄段"
 msgid "All data on the selected device will be erased. Create one shared data partition with %d additional MultiBoot slots, a 512 MiB swap partition and the internal slot 1 kernel?"
 msgstr "所选设备上的所有数据将被擦除。是否创建一个共享数据分区，包含 %d 个额外多系统启动槽位、一个512 MiB交换分区以及内部槽位1内核？"
 
+msgid "All dates"
+msgstr ""
+
+msgid "All episodes"
+msgstr ""
+
 msgid "All events down"
 msgstr "所有事件均已停止"
 
@@ -1671,6 +1739,15 @@ msgstr "所有事件已开始"
 
 msgid "All files"
 msgstr "所有文件"
+
+msgid "All media"
+msgstr ""
+
+msgid "All movie files"
+msgstr ""
+
+msgid "All movie folders"
+msgstr ""
 
 msgid "All packages"
 msgstr "全部软件包"
@@ -1710,6 +1787,9 @@ msgstr "为正在配置的物理高频头分配一个数字。 您可对其他�
 
 msgid "Allow %s-bit"
 msgstr "允许 %s 位"
+
+msgid "Allow duplicate recordings"
+msgstr ""
 
 msgid "Allow guest access"
 msgstr "允许访客访问"
@@ -1840,6 +1920,9 @@ msgstr "总是显示频道分组"
 msgid "Always use smart1080p mode"
 msgstr "总是使用 智能1080p 模式"
 
+msgid "Ambiguous companion file names."
+msgstr ""
+
 msgid "American Samoa"
 msgstr "美属萨摩亚"
 
@@ -1930,6 +2013,10 @@ msgstr "任何录制"
 
 msgid "Aperture F number"
 msgstr "光圈值"
+
+#, python-format
+msgid "Apply '%(action)s' to %(count)d selected movies?"
+msgstr ""
 
 msgid "Apply any changes to the active locale/language and exit"
 msgstr "对活动区域设置/语言应用任何更改并退出"
@@ -2086,6 +2173,9 @@ msgstr "升序"
 msgid "Ask for confirmation before moving individual files to the trashcan. Folder and permanent deletion confirmations remain unchanged."
 msgstr "将单个文件移入回收站前请求确认。文件夹删除和永久删除的确认设置保持不变。"
 
+msgid "Ask to switch to the recording channel"
+msgstr ""
+
 msgid "Ask user"
 msgstr "询问用户"
 
@@ -2148,6 +2238,9 @@ msgstr "当前节目结束时"
 msgid "At end: %s"
 msgstr "结束时：%s"
 
+msgid "At the end of a running recording"
+msgstr ""
+
 msgid "Athletics"
 msgstr "竞技"
 
@@ -2191,8 +2284,14 @@ msgstr "音频同步"
 msgid "Audio bit rate"
 msgstr "音频比特率"
 
+msgid "Audio channels"
+msgstr ""
+
 msgid "Audio decoding"
 msgstr "音频解码"
+
+msgid "Audio description"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "伴音语言选择 1"
@@ -2308,6 +2407,9 @@ msgstr "自动搜索频道"
 msgid "Automatic gain"
 msgstr "自动增益"
 
+msgid "Automatic preview delay (ms)"
+msgstr ""
+
 msgid "Automatic resolution"
 msgstr "自动分辨率"
 
@@ -2407,6 +2509,9 @@ msgstr "蓝键切换：蓝键/长按蓝键"
 
 msgid "BSSID"
 msgstr "BSSID"
+
+msgid "Back"
+msgstr "返回"
 
 msgid "Back USB"
 msgstr "背面 USB"
@@ -2569,6 +2674,9 @@ msgstr "在更改这些设置之前，请尝试禁用电视/显示屏上的任�
 msgid "Begin time"
 msgstr "开始时间"
 
+msgid "Beginning"
+msgstr ""
+
 msgid "Behave like STOP button"
 msgstr "如同停止键行为"
 
@@ -2704,6 +2812,10 @@ msgstr "已添加书签。"
 msgid "Bookmark removed."
 msgstr "书签已删除。"
 
+#, python-format
+msgid "Bookmark: %s"
+msgstr ""
+
 msgid "Bookmarks"
 msgstr "书签"
 
@@ -2834,6 +2946,9 @@ msgstr "博通默认"
 
 msgid "Browse"
 msgstr "浏览"
+
+msgid "Browse grouped movies and series or all indexed movie files without reading movie storage."
+msgstr ""
 
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "逐一浏览、安装或删除插件。"
@@ -3103,11 +3218,17 @@ msgstr "线缆未连接"
 msgid "Cable input"
 msgstr "有线输入"
 
+msgid "Cache file lists"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr "缓存缩略图"
 
 msgid "Cached"
 msgstr "已缓存"
+
+msgid "Cached folder · refresh from the menu"
+msgstr ""
 
 msgid "Calculate"
 msgstr "计算"
@@ -3230,9 +3351,6 @@ msgstr ""
 "无法打开电视直播！\n"
 "是否切换到电视直播并重启时移？"
 
-msgid "Can't move to trashcan!"
-msgstr "无法移动到回收站！"
-
 msgid ""
 "Can't play the next time shift buffer file!\n"
 "Switch to live TV and restart time shift?"
@@ -3348,6 +3466,9 @@ msgstr "取消更新"
 msgid "Cancelled upon user request"
 msgstr "应用户要求取消"
 
+msgid "Cannot create a trashcan on this mounted filesystem. No files were deleted."
+msgstr ""
+
 msgid "Cannot delete file"
 msgstr "无法删除文件"
 
@@ -3401,6 +3522,9 @@ msgstr "不区分大小写"
 
 msgid "Case sensitive"
 msgstr "区分大小写"
+
+msgid "Cast"
+msgstr ""
 
 msgid "Catalan / Valencian"
 msgstr "加泰罗尼亚语/瓦伦西亚语"
@@ -3567,6 +3691,9 @@ msgstr "反转频道按键"
 msgid "Channel down"
 msgstr "频道 －"
 
+msgid "Channel layout"
+msgstr ""
+
 msgid "Channel list cursor behavior"
 msgstr "频道列表光标行为"
 
@@ -3620,6 +3747,9 @@ msgstr "章节."
 
 msgid "Chapter"
 msgstr "章节"
+
+msgid "Chapter markers and playback position"
+msgstr ""
 
 msgid "Character device"
 msgstr "字符装置"
@@ -3747,11 +3877,20 @@ msgstr "选择用于解码 EPG 事件中的评级信息的国家/地区方案。
 msgid "Choose a label that will identify this device within IceTV services."
 msgstr "选择可在 IceTV 服务中识别此设备的标签。"
 
+msgid "Choose all indexed or scanned folders, the default movie location, or the current folder including subfolders. Hidden folders are excluded."
+msgstr ""
+
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "选择连接到 IceTV 服务器以检查更新的频率。"
 
+msgid "Choose season and episode order, title, recording date, release year or rating."
+msgstr ""
+
 msgid "Choose the amount of additional slots."
 msgstr "选择额外插槽的数量。"
+
+msgid "Choose the default sorting for this collection. The temporary view menu can override it."
+msgstr ""
 
 msgid "Choose the fallback font."
 msgstr "选择备用字体。"
@@ -3828,6 +3967,12 @@ msgstr "城市"
 msgid "Classic Rock"
 msgstr "经典摇滚"
 
+msgid "Classic movie list (EMC)"
+msgstr ""
+
+msgid "Classic movie list with description (EMC)"
+msgstr ""
+
 msgid "Classical"
 msgstr "古典"
 
@@ -3864,11 +4009,20 @@ msgstr "清除已保存的凭据"
 msgid "Clear before scan"
 msgstr "扫描前清理"
 
+msgid "Clear filters"
+msgstr ""
+
 msgid "Clear fixed"
 msgstr "清除固定地址"
 
+msgid "Clear movie selection"
+msgstr ""
+
 msgid "Clear play list"
 msgstr "清除播放列表"
+
+msgid "Clear play queue"
+msgstr ""
 
 msgid "Clear search"
 msgstr "清除搜索"
@@ -4025,6 +4179,9 @@ msgstr "彩色文字"
 msgid "Colorimetry for HDR content"
 msgstr "HDR 内容的色度"
 
+msgid "Combine series or matching recording titles in the view. Movie files stay in their original locations. Grouping can be disabled for individual folders from the context menu."
+msgstr ""
+
 msgid "Combined"
 msgstr "混合"
 
@@ -4100,6 +4257,12 @@ msgstr "通用设置"
 msgid "Comoros"
 msgstr "科摩罗"
 
+msgid "Compact list"
+msgstr ""
+
+msgid "Companion files are shared by multiple media files. Rename or move the variants separately after resolving their companion files."
+msgstr ""
+
 msgid "Compatibility And Emulation"
 msgstr "兼容性与模拟"
 
@@ -4111,6 +4274,10 @@ msgstr "完全"
 
 msgid "Complete Backup"
 msgstr "完整备份"
+
+#, python-format
+msgid "Completed: %(done)d of %(total)d movies"
+msgstr ""
 
 msgid "Complex (allows mixing audio tracks and aspects)"
 msgstr "复合模式（可混音音频轨道与画面比例）"
@@ -4303,6 +4470,12 @@ msgstr "配置图文电视显示区域 X 点的结束坐标。"
 
 msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "配置图文电视显示区域 Y 点的结束坐标。"
+
+msgid "Configure the existing movie player resume behavior."
+msgstr ""
+
+msgid "Configure the existing movie player stop action."
+msgstr ""
 
 msgid "Configure the first audio language (highest priority)."
 msgstr "配置第一伴音语言（最高优先级）。"
@@ -4623,6 +4796,9 @@ msgstr "有关此信息，请参阅您的电机规格，或保留默认设置。
 msgid "Contacting IceTV server and setting up your %s %s."
 msgstr "联系 IceTV 服务器并设置您的 %s %s。"
 
+msgid "Container"
+msgstr ""
+
 msgid "Content"
 msgstr "内容"
 
@@ -4638,6 +4814,9 @@ msgstr "继续"
 msgid "Continue in background"
 msgstr "在后台继续"
 
+msgid "Continue in the last direction"
+msgstr ""
+
 msgid "Continue playback"
 msgstr "继续播放"
 
@@ -4646,6 +4825,9 @@ msgstr "继续播放"
 
 msgid "Continue to run the task in the background"
 msgstr "继续在后台运行任务"
+
+msgid "Continue watching"
+msgstr ""
 
 msgid "Continue with package download and installation"
 msgstr "继续下载并安装软件包"
@@ -4829,6 +5011,9 @@ msgstr ""
 "\n"
 "是否要再次修改设置？"
 
+msgid "Countries"
+msgstr ""
+
 msgid "Country"
 msgstr "国家(地区)"
 
@@ -4911,6 +5096,12 @@ msgstr "创建设备信息转储。"
 msgid "Create kernel dump."
 msgstr "创建内核转储。"
 
+msgid "Create missing EIT file"
+msgstr ""
+
+msgid "Create missing EIT files"
+msgstr ""
+
 msgid "Create or remove the RTL2832 DVB module blacklist. A full receiver reboot is required; while enabled, this USB tuner is available for DAB+ but not for DVB-T/T2."
 msgstr "创建或移除RTL2832 DVB模块黑名单。设备需要完全重启；启用后，此USB调谐器可用于DAB+，但无法用于DVB-T/T2。"
 
@@ -4950,6 +5141,9 @@ msgstr "在所选设备上创建附加插槽"
 
 msgid "Create the flash expander in the selected device"
 msgstr "在所选设备中创建闪存扩展器"
+
+msgid "Create virtual collection"
+msgstr ""
 
 msgid "Create working directories."
 msgstr "创建工作目录。"
@@ -4993,6 +5187,9 @@ msgstr "“%s” 的凭据"
 
 msgid "Cree"
 msgstr "克里语"
+
+msgid "Crew"
+msgstr ""
 
 msgid "Cricket"
 msgstr "板球"
@@ -5088,6 +5285,9 @@ msgstr "当前目录"
 msgid "Current directory (%s)"
 msgstr "当前目录（%s）"
 
+msgid "Current folder and subfolders"
+msgstr ""
+
 msgid "Current installed"
 msgstr "当前已安装"
 
@@ -5137,6 +5337,9 @@ msgstr "当前定义的音量补偿："
 msgid "Currently Remembered Volume Levels:"
 msgstr "当前记忆的音量级别："
 
+msgid "Cursor after marking a movie"
+msgstr ""
+
 msgid "Custom"
 msgstr "自定义"
 
@@ -5169,6 +5372,10 @@ msgstr "自定义 enigma2 个人设置"
 
 msgid "Cut"
 msgstr "剪切"
+
+#, python-format
+msgid "Cut %s"
+msgstr ""
 
 msgid "CutList Skipping"
 msgstr "剪辑列表跳转"
@@ -5374,6 +5581,12 @@ msgstr "达里语"
 msgid "Darts"
 msgstr "飞镖"
 
+msgid "Database sort order"
+msgstr ""
+
+msgid "Database view"
+msgstr ""
+
 msgid "Date"
 msgstr "日期"
 
@@ -5520,9 +5733,15 @@ msgstr "默认网关"
 msgid "Default left column directory"
 msgstr "默认左列目录"
 
+msgid "Default movie location"
+msgstr ""
+
 #, python-format
 msgid "Default movie location (%s)"
 msgstr "默认电影位置（%s）"
+
+msgid "Default movie location after standby"
+msgstr ""
 
 msgid "Default movie selection location"
 msgstr "默认电影选择位置"
@@ -5532,6 +5751,9 @@ msgstr "默认录制类型"
 
 msgid "Default right column directory"
 msgstr "默认右栏目录"
+
+msgid "Default skin layout"
+msgstr ""
 
 msgid "Default sort order for directories in the left column."
 msgstr "左侧列中目录的默认排序顺序。"
@@ -5742,6 +5964,9 @@ msgstr "删除光标左侧的字符或选择 AM 时间"
 
 msgid "Delete character under cursor or select PM times"
 msgstr "删除光标下的字符或选择 PM 时间"
+
+msgid "Delete collection (keep movie files)"
+msgstr ""
 
 msgid "Delete current line"
 msgstr "删除当前行"
@@ -6117,6 +6342,9 @@ msgstr "禁用屏幕介绍"
 msgid "Disable operator profiles"
 msgstr "禁用操作员配置文件"
 
+msgid "Disable previews, start them manually, or start after resting on a movie. Automatic previews access movie storage and do not interrupt timeshift or an already playing movie."
+msgstr ""
+
 msgid "Disable saved Wi-Fi network"
 msgstr "禁用已保存的 Wi‑Fi 网络"
 
@@ -6226,6 +6454,9 @@ msgstr "显示用于数据输入的虚拟键盘"
 
 msgid "Display type"
 msgstr "显示类型"
+
+msgid "Displayed movie title"
+msgstr ""
 
 msgid "Distance"
 msgstr "距离"
@@ -6610,6 +6841,9 @@ msgstr "双工模式"
 msgid "Duplicate the current line"
 msgstr "复制当前行"
 
+msgid "Duration"
+msgstr ""
+
 msgid "During this time, the transmitter and recording destination are checked. If the destination (e.g., NAS) isn't ready in time, this time can be increased."
 msgstr "在此期间，将检查发送器和录制目标。如果录制目标(如 NAS)没有及时准备好进行录制，则可以增加此时间。"
 
@@ -6804,6 +7038,19 @@ msgstr "编辑当前标题的章节"
 msgid "Edit current line"
 msgstr "编辑当前行"
 
+msgid "Edit movie"
+msgstr ""
+
+msgid "Edit play queue"
+msgstr ""
+
+#, python-format
+msgid "Edit play queue (%d movies)"
+msgstr ""
+
+msgid "Edit recording information"
+msgstr ""
+
 msgid "Edit settings"
 msgstr "编辑设置"
 
@@ -6848,6 +7095,9 @@ msgstr "编辑升级源地址。"
 
 msgid "Edit the username."
 msgstr "编辑用户名。"
+
+msgid "Edit title and description"
+msgstr ""
 
 msgid "Education"
 msgstr "教育"
@@ -6993,6 +7243,12 @@ msgstr "启用选中的RTL-SDR USB接收器用于DAB+接收。DVB-T和DAB+不能
 
 msgid "Enable adapter"
 msgstr "启用适配器"
+
+msgid "Enable an installed movie database in Movie Selection settings to open the library."
+msgstr ""
+
+msgid "Enable an installed movie library provider for metadata, artwork and the Advance Movie List. Local folders remain available if the provider is unavailable."
+msgstr ""
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "启用并设置第二个信息栏的持续时间（按“确定”两次），其中可能包含其他信息。"
@@ -7313,6 +7569,9 @@ msgstr "输入此定时器的说明。"
 
 msgid "Enter a directory or process a file (play/view/edit/install/extract/run)"
 msgstr "输入目录或处理文件（播放/查看/编辑/安装/提取/运行）"
+
+msgid "Enter a movie title."
+msgstr ""
 
 msgid "Enter a name for this timer."
 msgstr "输入此定时器的名称。"
@@ -8405,6 +8664,15 @@ msgstr "文件似乎忙。\n"
 msgid "File compression"
 msgstr "文件压缩"
 
+msgid "File information"
+msgstr ""
+
+msgid "File name"
+msgstr ""
+
+msgid "File operations require a regular movie file."
+msgstr ""
+
 msgid "File sorting mode"
 msgstr "文件排序模式"
 
@@ -8423,6 +8691,12 @@ msgstr "文件名"
 msgid "Files And Directories"
 msgstr "文件与目录"
 
+msgid "Files and folders"
+msgstr ""
+
+msgid "Files or database"
+msgstr ""
+
 msgid "Files/folders to exclude from backup"
 msgstr "要从备份中排除的文件/文件夹"
 
@@ -8434,6 +8708,9 @@ msgstr "黑色电影"
 
 msgid "Film/Cinema"
 msgstr "电影/影院"
+
+msgid "Filter"
+msgstr ""
 
 msgid "Filter extensions"
 msgstr "筛选器扩展"
@@ -8461,6 +8738,12 @@ msgstr "查找当前正在播放的频道"
 
 msgid "Find connected events"
 msgstr "寻找关联事件"
+
+msgid "Find old watched movies"
+msgstr ""
+
+msgid "Find orphaned movie companion files"
+msgstr ""
 
 #, python-format
 msgid "Find out more at %s"
@@ -8492,6 +8775,9 @@ msgstr "芬兰"
 
 msgid "Finnish"
 msgstr "芬兰语"
+
+msgid "First chapter marker"
+msgstr ""
 
 msgid "First playable time shift file!"
 msgstr "第一个可播放的时移文件！"
@@ -8592,6 +8878,21 @@ msgstr "按遥控器上的位置排列"
 msgid "Flush Cache and Rescan"
 msgstr "刷新缓存并重新扫描"
 
+msgid "Folder movie counts and sizes updated."
+msgstr ""
+
+msgid "Folder movie information"
+msgstr ""
+
+msgid "Folder sorting"
+msgstr ""
+
+msgid "Folders"
+msgstr ""
+
+msgid "Folders first"
+msgstr ""
+
 msgid "Folk Music"
 msgstr "民谣音乐"
 
@@ -8600,6 +8901,15 @@ msgstr "民谣和乡村"
 
 msgid "Folk/Traditional music"
 msgstr "民歌/传统音乐"
+
+msgid "Follow changes to the EPG start and end times, keeping the recording margins. Missing EPG data or timer conflicts leave the times unchanged."
+msgstr ""
+
+msgid "Follow linked folders in snapshots"
+msgstr ""
+
+msgid "Follow symbolic links during the read-only movie snapshot task. Loops and duplicate directory targets are skipped. Cleanup tasks never follow symbolic links."
+msgstr ""
 
 msgid "Font size"
 msgstr "字体大小"
@@ -8651,6 +8961,9 @@ msgstr "强制启用"
 
 msgid "Force progressive for streams and files"
 msgstr "强制对串流和文件使用逐行扫描"
+
+msgid "Forced"
+msgstr ""
 
 msgid "Foreign Language"
 msgstr "外语"
@@ -8748,6 +9061,9 @@ msgstr "星期五"
 
 msgid "From :"
 msgstr "来自："
+
+msgid "From the context menu"
+msgstr ""
 
 msgid "Front"
 msgstr "前端"
@@ -9083,6 +9399,9 @@ msgstr "灰色"
 msgid "Group"
 msgstr "组"
 
+msgid "Group recordings into virtual folders"
+msgstr ""
+
 msgid "Grow drop"
 msgstr "长滴"
 
@@ -9248,6 +9567,9 @@ msgstr "夏威夷语"
 msgid "Heard Island and McDonald Islands"
 msgstr "赫德岛和麦克唐纳岛"
 
+msgid "Hearing impaired"
+msgstr ""
+
 msgid "Hebrew"
 msgstr "希伯来语"
 
@@ -9314,6 +9636,9 @@ msgstr "海思特有信息"
 msgid "HiSilicon specific information not found."
 msgstr "未找到海思的具体信息。"
 
+msgid "Hidden folders"
+msgstr ""
+
 msgid "Hidden network"
 msgstr "隐藏网络"
 
@@ -9367,6 +9692,9 @@ msgstr "隐藏信息栏"
 
 msgid "Hide the OSD after a period without key presses. Screens and background jobs keep running. The first key press only restores the OSD, and newly opened dialogs make it visible again. Hold 0 to pause until the next GUI restart, or hold 0 again to resume."
 msgstr "在无按键操作一段时间后隐藏 OSD。界面和后台任务继续运行。第一次按键仅恢复 OSD，新打开的对话框会使其再次可见。长按 0 键可暂停至下次用户界面重启，再次长按 0 键可恢复。"
+
+msgid "Hide this folder"
+msgstr ""
 
 msgid "Hide zap errors"
 msgstr "隐藏切换错误"
@@ -9791,6 +10119,9 @@ msgstr "忽略待机"
 msgid "Ignore services on satellites that are not configured in the tuner settings."
 msgstr "忽略调谐器设置中未配置的卫星上的频道。"
 
+msgid "Ignore the resume position when the configured watched percentage has been reached."
+msgstr ""
+
 msgid "Ignore unexpectedly wake up and stay in Standby"
 msgstr "忽略意外唤醒并保持待机状态"
 
@@ -9867,6 +10198,9 @@ msgstr "要录制一个定时器，电视要切换到录制频道！\n"
 
 msgid "In progress"
 msgstr "进行中"
+
+msgid "In progress from (%)"
+msgstr ""
 
 msgid "In use by DAB+"
 msgstr "DAB+ 占用中"
@@ -10035,6 +10369,9 @@ msgstr "信息栏标频道图标集"
 
 msgid "Information"
 msgstr "信息"
+
+msgid "Information list"
+msgstr ""
 
 msgid "Informational/Educational/School programs"
 msgstr "信息/教育/学校课程"
@@ -10237,8 +10574,14 @@ msgstr "无效"
 msgid "Invalid Help Page"
 msgstr "无效的帮助页面"
 
+msgid "Invalid filename."
+msgstr ""
+
 msgid "Invalid location!"
 msgstr "无效位置!"
+
+msgid "Invalid original movie location."
+msgstr ""
 
 msgid "Invalid swap file size."
 msgstr "交换文件大小无效。"
@@ -10420,8 +10763,17 @@ msgstr "哈萨克语"
 msgid "Kazakhstan"
 msgstr "哈萨克斯坦"
 
+msgid "Keep previous playback position as chapter marker"
+msgstr ""
+
 msgid "Keep service"
 msgstr "保持频道"
+
+msgid "Keep the newest recordings up to this limit before applying the selected display order."
+msgstr ""
+
+msgid "Keep the play queue across GUI restarts. The queue is stored in the receiver configuration without accessing movie storage."
+msgstr ""
 
 msgid "Keep warning"
 msgid_plural "Keep warnings"
@@ -10662,11 +11014,32 @@ msgstr "老挝人民民主共和国"
 msgid "Large"
 msgstr "大"
 
+msgid "Large tiles"
+msgstr ""
+
+msgid "Last 24 hours"
+msgstr ""
+
+msgid "Last 30 days"
+msgstr ""
+
+msgid "Last 7 days"
+msgstr ""
+
+msgid "Last 90 days"
+msgstr ""
+
 msgid "Last config"
 msgstr "最后配置"
 
 msgid "Last flash"
 msgstr "上一次刷机"
+
+msgid "Last folder"
+msgstr ""
+
+msgid "Last playback position"
+msgstr ""
 
 msgid "Last speed"
 msgstr "最后速度"
@@ -10686,6 +11059,24 @@ msgstr "最后使用/设置的音量"
 msgctxt "third event: 'third' event label"
 msgid "Later"
 msgstr "稍后"
+
+msgid "Latest recordings"
+msgstr ""
+
+msgid "Latest recordings collection"
+msgstr ""
+
+msgid "Latest recordings folders"
+msgstr ""
+
+msgid "Latest recordings maximum"
+msgstr ""
+
+msgid "Latest recordings period"
+msgstr ""
+
+msgid "Latest recordings sorting"
+msgstr ""
 
 msgid "Latin"
 msgstr "拉丁语"
@@ -10888,6 +11279,12 @@ msgstr "存贮设备列表"
 msgid "List of storage devices"
 msgstr "存贮设备列表"
 
+msgid "List or grid style"
+msgstr ""
+
+msgid "List style"
+msgstr ""
+
 msgid "Lists reloaded!"
 msgstr "列表已重新加载！"
 
@@ -10915,6 +11312,9 @@ msgstr "加载"
 msgid "Load EPG Cache"
 msgstr "加载 EPG 缓存"
 
+msgid "Load M3U playlist"
+msgstr ""
+
 msgid "Load play list"
 msgstr "载入播放列表"
 
@@ -10930,6 +11330,9 @@ msgstr "负载：%s %%"
 
 msgid "Loading information, please wait..."
 msgstr "正在加载信息，请稍候..."
+
+msgid "Loading movie library..."
+msgstr ""
 
 msgid "Loading skin..."
 msgstr "正在加载皮肤..."
@@ -11188,6 +11591,10 @@ msgstr "主菜单"
 msgid "Maintain your multi boot device."
 msgstr "维护您的多重引导设备。"
 
+#, python-format
+msgid "Maintenance scan finished: %d candidates. Review them from Movie maintenance in the context menu."
+msgstr ""
+
 msgid "Make"
 msgstr "制作"
 
@@ -11317,8 +11724,29 @@ msgstr "录制前预留时间"
 msgid "Margin before zap"
 msgstr "换台前余量"
 
+msgid "Mark / unmark movie"
+msgstr ""
+
 msgid "Mark As Dedicated 3D Service"
 msgstr "标记为专用 3D 频道"
+
+msgid "Mark as unwatched"
+msgstr ""
+
+msgid "Mark as watched"
+msgstr ""
+
+msgid "Mark new recordings"
+msgstr ""
+
+msgid "Mark selected movies as unwatched"
+msgstr ""
+
+msgid "Mark selected movies as watched"
+msgstr ""
+
+msgid "Mark unwatched recordings from the last 24 hours or since the previous visit. Returning from playback keeps the same visit."
+msgstr ""
 
 msgid "Marker Actions"
 msgstr "标签操作"
@@ -11398,6 +11826,9 @@ msgstr "媒体播放器设置"
 
 msgid "Media Stream"
 msgstr "媒体流"
+
+msgid "Media information is currently unavailable."
+msgstr ""
 
 msgid "Media playback Remaining/Elapsed as"
 msgstr "媒体播放剩余/已使用"
@@ -11539,8 +11970,20 @@ msgstr "带 OSD 的小窗电视"
 msgid "Minimum age %d years"
 msgstr "最低年龄 %d 岁"
 
+msgid "Minimum age for watched movie maintenance (days)"
+msgstr ""
+
 msgid "Minimum difference between idle and moving current."
 msgstr "静止与转动状态电流的最小差值。"
+
+msgid "Minimum playback percentage for the in-progress status. A movie without a playback position remains unwatched."
+msgstr ""
+
+msgid "Minimum playback percentage for the watched status, watched-movie restart and manual maintenance."
+msgstr ""
+
+msgid "Minimum recordings per virtual folder"
+msgstr ""
 
 msgid "Minimum send interval"
 msgstr "最小发送间隔"
@@ -11713,6 +12156,18 @@ msgstr "挂载"
 msgid "Move"
 msgstr "移动"
 
+#, python-format
+msgid "Move %d selected movies and their companion files to the trashcan?"
+msgstr ""
+
+#, python-format
+msgid "Move %d selected watched movies and their companion files to the trashcan?"
+msgstr ""
+
+#, python-format
+msgid "Move '%s' and its companion files to the trashcan?"
+msgstr ""
+
 msgid "Move Down"
 msgstr "下移"
 
@@ -11745,6 +12200,9 @@ msgstr "移动所有相关文件"
 
 msgid "Move directory/file to target directory"
 msgstr "将目录/文件移动到目标目录"
+
+msgid "Move down"
+msgstr ""
 
 msgid "Move down a line"
 msgstr "下移一行"
@@ -11803,11 +12261,17 @@ msgstr "移动作业失败！"
 msgid "Move job queued."
 msgstr "移动排队的作业。"
 
+msgid "Move left"
+msgstr ""
+
 msgid "Move left a item"
 msgstr "左移一项"
 
 msgid "Move only highlighted file"
 msgstr "仅移动突出显示的文件"
+
+msgid "Move right"
+msgstr ""
 
 msgid "Move right a item"
 msgstr "右移一项"
@@ -11933,6 +12397,9 @@ msgstr "移到上一项"
 msgid "Move to the previous item in list"
 msgstr "移至列表中的上一项"
 
+msgid "Move up"
+msgstr ""
+
 msgid "Move up a line"
 msgstr "上移一行"
 
@@ -12008,8 +12475,62 @@ msgstr "影片列表操作"
 msgid "Movie Selection Settings"
 msgstr "影片列表设置"
 
+msgid "Movie artwork"
+msgstr ""
+
+msgid "Movie count"
+msgstr ""
+
+msgid "Movie count and size"
+msgstr ""
+
+msgid "Movie count, size and new movies"
+msgstr ""
+
+msgid "Movie database"
+msgstr ""
+
+msgid "Movie database unavailable"
+msgstr ""
+
+msgid "Movie database unavailable. Select files and folders from View in the menu."
+msgstr ""
+
+msgid "Movie date format"
+msgstr ""
+
+msgid "Movie file operations"
+msgstr ""
+
+msgid "Movie front display"
+msgstr ""
+
+msgid "Movie information"
+msgstr ""
+
+msgid "Movie library"
+msgstr ""
+
+msgid "Movie maintenance"
+msgstr ""
+
+msgid "Movie play queue"
+msgstr ""
+
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "电影播放不得使用无效/不适当的目录。"
+
+msgid "Movie player style"
+msgstr ""
+
+msgid "Movie playlists support local files and mounted storage only."
+msgstr ""
+
+msgid "Movie preview"
+msgstr ""
+
+msgid "Movie size"
+msgstr ""
 
 msgid "Movie/Drama"
 msgstr "电影/戏剧"
@@ -12019,6 +12540,9 @@ msgstr "电影播放器"
 
 msgid "Movies"
 msgstr "影片"
+
+msgid "Movies and series"
+msgstr ""
 
 msgid "Moving"
 msgstr "正在移动"
@@ -12469,6 +12993,15 @@ msgstr "新事件信息"
 msgid "New media"
 msgstr "新媒体"
 
+msgid "New movie filename (without extension)"
+msgstr ""
+
+msgid "New movies"
+msgstr ""
+
+msgid "New movies: update folder statistics"
+msgstr ""
+
 msgid "New password"
 msgstr "新密码"
 
@@ -12489,6 +13022,9 @@ msgstr "NewCamd DES 密钥"
 
 msgid "NewDirectory"
 msgstr "新建目录"
+
+msgid "Newest recordings first"
+msgstr ""
 
 msgid "News"
 msgstr "新闻"
@@ -12526,6 +13062,12 @@ msgstr "下一频道页"
 
 msgid "Next higher resolution"
 msgstr "下一个更高分辨率"
+
+msgid "Next movie"
+msgstr ""
+
+msgid "Next page"
+msgstr ""
 
 msgid "Next quad PiP channel"
 msgstr "下一个四路画中画频道"
@@ -12642,6 +13184,9 @@ msgstr "无延迟"
 msgid "No demux available"
 msgstr "没有可用的解析器"
 
+msgid "No description available."
+msgstr ""
+
 msgid "No displayable files on this medium found!"
 msgstr "在此介质上没有发现可显示的文件！"
 
@@ -12669,6 +13214,9 @@ msgstr "没有网关"
 msgid "No hard disks detected."
 msgstr "未检测到硬盘。"
 
+msgid "No hidden folders"
+msgstr ""
+
 msgid "No hosts found yet - still scanning..."
 msgstr "尚未找到主机 - 仍在扫描中..."
 
@@ -12678,8 +13226,17 @@ msgstr "未找到本地镜像。"
 msgid "No log files found so debug logs are unavailable!"
 msgstr "未找到日志文件，因此调试日志不可用！"
 
+msgid "No maintenance candidates found."
+msgstr ""
+
 msgid "No matching place names found"
 msgstr "没有找到匹配的地名"
+
+msgid "No movie description is available to create an EIT file."
+msgstr ""
+
+msgid "No movies found. Select files and folders from View to see unscanned recordings."
+msgstr ""
 
 msgid "No network adapters enabled/available!"
 msgstr "没有启用/可用的网络适配器！"
@@ -12710,6 +13267,9 @@ msgstr "没有资源管理器"
 
 msgid "No satellite, terrestrial or cable tuner is configured. Please check your tuner setup."
 msgstr "未配置卫星、地面波或有线电视调谐器。请检查您的调谐器设置。"
+
+msgid "No saved playback position is available."
+msgstr ""
 
 msgid "No service"
 msgstr "没有频道"
@@ -12785,6 +13345,9 @@ msgstr ""
 
 msgid "No tuners are currently streaming."
 msgstr "目前没有调谐器在串流。"
+
+msgid "No unambiguous series filenames are available. A series name, season and episode are required."
+msgstr ""
 
 msgid "No unused swap file name is available."
 msgstr "没有可用的未使用交换文件名。"
@@ -13146,6 +13709,9 @@ msgstr "偏移并关闭 CA 设备"
 msgid "Ojibwa"
 msgstr "奥吉布瓦"
 
+msgid "Oldest recordings first"
+msgstr ""
+
 msgid "Oldies"
 msgstr "老歌"
 
@@ -13212,11 +13778,17 @@ msgstr "仅刷入备份镜像"
 msgid "Only HD"
 msgstr "仅高清"
 
+msgid "Only create a group when at least this many matching recordings are present."
+msgstr ""
+
 msgid "Only free scan"
 msgstr "仅扫描免费频道"
 
 msgid "Only in Standby"
 msgstr "只在待机"
+
+msgid "Only include recordings made during this period."
+msgstr ""
 
 msgid "Only log debug information of GStreamer category. * means all categories."
 msgstr "仅记录 GStreamer 类别的调试信息。 * 表示所有类别。"
@@ -13260,6 +13832,9 @@ msgstr "打开自动定时器"
 msgid "Open AutoTimer Overview"
 msgstr "打开自动定时器列表"
 
+msgid "Open BDMV and BRD folder structures with the native Blu-ray service."
+msgstr ""
+
 msgid "Open Bouquet selection"
 msgstr "打开频道分组列表"
 
@@ -13268,6 +13843,12 @@ msgstr "显示机顶盒门户"
 
 msgid "Open Capability"
 msgstr "开启功能"
+
+msgid "Open DVD images individually with the DVD player."
+msgstr ""
+
+msgid "Open DVD images individually with the DVD player. Play queues support video and audio files."
+msgstr ""
 
 msgid "Open EPG"
 msgstr "打开 EPG"
@@ -13365,8 +13946,17 @@ msgstr "显示电视播放器"
 msgid "Open Usage and GUI Settings"
 msgstr "打开使用偏好和图形界面设置"
 
+msgid "Open VIDEO_TS and DVD folder structures directly with the DVD player."
+msgstr ""
+
 msgid "Open VideoMode"
 msgstr "显示格式设置"
+
+msgid "Open a movie directly when its filename matches its containing folder. File operations still treat the containing folder as a folder."
+msgstr ""
+
+msgid "Open collection"
+msgstr ""
 
 msgid "Open context menu"
 msgstr "打开上下文菜单"
@@ -13382,6 +13972,9 @@ msgstr "打开外挂字幕管理屏幕"
 
 msgid "Open file sort menu"
 msgstr "打开文件排序菜单"
+
+msgid "Open selected movie or series"
+msgstr ""
 
 msgid "Open service list and select next service"
 msgstr "打开频道列表并选择下一个频道"
@@ -13434,6 +14027,9 @@ msgstr "打开附加屏幕"
 msgid "Open the context menu"
 msgstr "打开上下文菜单"
 
+msgid "Open the last folder, the default movie location, or return to the default location after standby. Returning from playback keeps the selected movie."
+msgstr ""
+
 msgid "Open the multi service EPG view"
 msgstr "打开多频道 EPG 视图"
 
@@ -13461,6 +14057,9 @@ msgstr "OpenWebif 连接"
 msgid "OpenWebif picon path"
 msgstr "OpenWebif 频道图标集"
 
+msgid "Opening movie folder"
+msgstr ""
+
 msgid "Opening network adapter configuration..."
 msgstr "正在打开网络适配器配置..."
 
@@ -13475,6 +14074,9 @@ msgstr "待机模式下 LED 的工作状态"
 
 msgid "Operating LED status while running"
 msgstr "运行时LED的工作状态"
+
+msgid "Operation cancelled."
+msgstr ""
 
 msgid "Opkg Actions"
 msgstr "Opkg 操作"
@@ -13521,11 +14123,17 @@ msgstr "原始网络ID (ONID)"
 msgid "Original language"
 msgstr "原始语言"
 
+msgid "Original title"
+msgstr ""
+
 msgid "Oriya"
 msgstr "奥里亚"
 
 msgid "Oromo"
 msgstr "奥罗莫"
+
+msgid "Orphaned companion files removed."
+msgstr ""
 
 msgid "Oscam Information"
 msgstr "Oscam 信息"
@@ -13699,6 +14307,10 @@ msgstr "软件包"
 msgid "Packages and associated locales"
 msgstr "软件包和相关区域设置"
 
+#, python-format
+msgid "Page %(page)d · %(count)d entries"
+msgstr ""
+
 msgid "Page down"
 msgstr "下一页"
 
@@ -13865,6 +14477,18 @@ msgstr "句点“。”"
 msgid "Period and space '. '"
 msgstr "句点和空格“。 ”"
 
+#, python-format
+msgid "Permanently delete %d selected movies and their companion files?"
+msgstr ""
+
+#, python-format
+msgid "Permanently delete %d selected orphaned companion files?"
+msgstr ""
+
+#, python-format
+msgid "Permanently delete '%s' and its companion files?"
+msgstr ""
+
 msgid "Permanently delete all recordings in the trashcan?"
 msgstr "永久删除所有回收站中的录制吗？"
 
@@ -14010,6 +14634,9 @@ msgstr "皮特凯恩群岛"
 msgid "Pixel Test"
 msgstr "像素测试"
 
+msgid "Pixel format"
+msgstr ""
+
 msgid "Pixels\n"
 msgstr "像素\n"
 
@@ -14058,6 +14685,9 @@ msgstr "播放追播存档节目"
 msgid "Play entry"
 msgstr "播放条目"
 
+msgid "Play from here"
+msgstr ""
+
 msgid "Play from next mark or play list entry"
 msgstr "从下一个标记或播放列表条目播放"
 
@@ -14084,6 +14714,22 @@ msgstr "播放下一个（返回到上一频道）"
 
 msgid "Play previous"
 msgstr "播放上一个"
+
+msgid "Play queue"
+msgstr ""
+
+msgid "Play queue / playlists"
+msgstr ""
+
+msgid "Play queue cleared"
+msgstr ""
+
+#, python-format
+msgid "Play queue: %d movies (maximum 1024)"
+msgstr ""
+
+msgid "Play selected movies"
+msgstr ""
 
 msgid "Play selected service in a PiP window"
 msgstr "在画中画窗口中播放所选频道"
@@ -14115,11 +14761,26 @@ msgstr "播放设置"
 msgid "Playback Time:"
 msgstr "播放时间："
 
+msgid "Playback changed. Select the movie again before deleting it."
+msgstr ""
+
 msgid "Playback, Recording & Time Shift"
 msgstr "播放 / 录制 / 时移"
 
+msgid "Playing"
+msgstr ""
+
 msgid "Playlist"
 msgstr "播放列表"
+
+msgid "Playlist filename (.m3u or .m3u8)"
+msgstr ""
+
+msgid "Playlist loaded"
+msgstr ""
+
+msgid "Playlist saved"
+msgstr ""
 
 msgid "Playpause"
 msgstr "播放暂停"
@@ -14495,6 +15156,12 @@ msgstr "极轴设置"
 msgid "Possible causes could be:"
 msgstr "可能的原因可能是："
 
+msgid "Poster grid"
+msgstr ""
+
+msgid "Poster list"
+msgstr ""
+
 msgid "Power"
 msgstr "电源"
 
@@ -14591,6 +15258,9 @@ msgstr "录制首选调谐器，允许多选"
 msgid "Preparation time for recording"
 msgstr "录制准备时间"
 
+msgid "Preparing latest recordings. Progress is shown in Tasks."
+msgstr ""
+
 msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
 msgstr ""
 
@@ -14599,6 +15269,9 @@ msgstr ""
 
 msgid "Preparing recording, please wait..."
 msgstr "正在准备录制，请稍候..."
+
+msgid "Preparing series filenames..."
+msgstr ""
 
 msgid "Preparing... Please wait"
 msgstr "正在准备，请稍等"
@@ -14731,6 +15404,15 @@ msgstr "预览"
 msgid "Preview menu"
 msgstr "预览菜单"
 
+msgid "Preview offset (seconds)"
+msgstr ""
+
+msgid "Preview series filenames from the movie database"
+msgstr ""
+
+msgid "Preview starting point"
+msgstr ""
+
 msgid "Previous"
 msgstr "上一个"
 
@@ -14742,6 +15424,9 @@ msgstr "上一页"
 
 msgid "Previous channel page"
 msgstr "上一频道页"
+
+msgid "Previous page"
+msgstr ""
 
 msgid "Previous/Next page"
 msgstr "上一/下一页"
@@ -14803,6 +15488,10 @@ msgstr "处理来自电视的输入"
 
 msgid "Processing"
 msgstr "处理中"
+
+#, python-format
+msgid "Processing %d movies in the background"
+msgstr ""
 
 msgid "Processor information"
 msgstr "处理器信息"
@@ -15168,12 +15857,19 @@ msgstr "随机"
 msgid "Random Password"
 msgstr "随机密码"
 
+msgid "Rating"
+msgstr ""
+
 #, python-format
 msgid "Rating defined by broadcaster - %d"
 msgstr "广播机构定义的分级 - %d"
 
 msgid "Rating undefined"
 msgstr "评级未定义"
+
+#, python-format
+msgid "Rating: %s"
+msgstr ""
 
 msgid "Re-enter new PIN"
 msgstr "重新输入新 PIN"
@@ -15190,6 +15886,9 @@ msgstr "从 oscam.conf 读取用户数据"
 msgid "Read block size"
 msgstr "读取块大小"
 
+msgid "Read movie folders"
+msgstr ""
+
 msgid "Read-Only"
 msgstr "只读"
 
@@ -15198,6 +15897,12 @@ msgstr "读/写"
 
 msgid "Reader"
 msgstr "读卡器"
+
+msgid "Reading media information timed out."
+msgstr ""
+
+msgid "Reading media information..."
+msgstr ""
 
 msgid "Ready"
 msgstr "就绪"
@@ -15310,6 +16015,15 @@ msgstr "接收源"
 msgid "Reception sources to scan"
 msgstr "待扫描接收信号源"
 
+msgid "Recognize Blu-ray folders"
+msgstr ""
+
+msgid "Recognize DVD folders"
+msgstr ""
+
+msgid "Recognize movie folders"
+msgstr ""
+
 msgid "Record"
 msgstr "录像"
 
@@ -15342,6 +16056,9 @@ msgstr "录制定时器"
 
 msgid "Recordable media toolbox"
 msgstr "可录制的媒体工具箱"
+
+msgid "Recorded"
+msgstr ""
 
 msgid "Recording"
 msgstr "录制"
@@ -15396,6 +16113,15 @@ msgstr "录制已开始，正在停止时移。"
 
 msgid "Recording stopped"
 msgstr "录制已停止"
+
+msgid "Recording title"
+msgstr ""
+
+msgid "Recording title and separator"
+msgstr ""
+
+msgid "Recording title separator"
+msgstr ""
 
 msgid "Recording tuning failed"
 msgstr "录制调制失败"
@@ -15477,8 +16203,14 @@ msgstr "刷新 ZeroTier 状态信息"
 msgid "Refresh every"
 msgstr "刷新每（小时）"
 
+msgid "Refresh library"
+msgstr ""
+
 msgid "Refresh list of RTL-SDR USB tuners"
 msgstr "刷新 RTL-SDR USB 调谐器列表"
+
+msgid "Refresh movie folder"
+msgstr ""
 
 msgid "Refresh rate"
 msgstr "刷新率"
@@ -15510,8 +16242,17 @@ msgstr "普通文件"
 msgid "Relative"
 msgstr "相对"
 
+msgid "Relative date"
+msgstr ""
+
 msgid "Release Notes"
 msgstr "发行说明"
+
+msgid "Release date"
+msgstr ""
+
+msgid "Release year"
+msgstr ""
 
 msgid "Relevant PIDs Routing"
 msgstr "相关 PID 路由"
@@ -15575,6 +16316,9 @@ msgstr "名人"
 
 msgid "Remember last service in PiP"
 msgstr "记住画中画中最后的频道"
+
+msgid "Remember play queue"
+msgstr ""
 
 msgid "Remember service PIN"
 msgstr "记住频道 PIN 码"
@@ -15700,6 +16444,9 @@ msgstr "删除所有定时器数据"
 msgid "Remove all user interface data"
 msgstr "删除所有用户界面数据"
 
+msgid "Remove chapter markers (keep cuts and resume position)"
+msgstr ""
+
 msgid "Remove completed timers after"
 msgstr "多久后移除已结束的定时器"
 
@@ -15709,11 +16456,20 @@ msgstr "从书签中删除当前目录"
 msgid "Remove currently selected title"
 msgstr "删除当前选中的标题"
 
+msgid "Remove from queue"
+msgstr ""
+
 msgid "Remove highlighted directory from bookmarks"
 msgstr "从书签中删除突出显示的目录"
 
+msgid "Remove orphaned movie companion files"
+msgstr ""
+
 msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
 msgstr "移除已扫描 DAB+ 复用集中先前存储的频道。禁用此选项可在复用集暂时不可用时保留频道。"
+
+msgid "Remove selected movies from collection"
+msgstr ""
 
 msgid "Remove service from AutoCam"
 msgstr "从自动Cam 删除频道"
@@ -15754,6 +16510,10 @@ msgstr "正在移除分区表"
 msgid "Rename"
 msgstr "重命名"
 
+#, python-format
+msgid "Rename %(count)d movies with their companion files? %(skipped)d unchanged or incomplete entries were skipped."
+msgstr ""
+
 msgid "Rename Directory"
 msgstr "重命名目录"
 
@@ -15763,11 +16523,17 @@ msgstr "重命名条目"
 msgid "Rename all related files"
 msgstr "重命名所有相关文件"
 
+msgid "Rename collection"
+msgstr ""
+
 msgid "Rename directory/file"
 msgstr "重命名目录/文件"
 
 msgid "Rename failed!"
 msgstr "重命名失败！"
+
+msgid "Rename movie file and companion files"
+msgstr ""
 
 msgid "Rename name and description for new events"
 msgstr "重命名新事件的名称和描述"
@@ -16060,6 +16826,9 @@ msgstr "还原“系统设置”"
 msgid "Restore backups"
 msgstr "还原备份"
 
+msgid "Restore previous playback position"
+msgstr ""
+
 msgid "Restore settings from a backup"
 msgstr "从备份还原设置"
 
@@ -16068,6 +16837,9 @@ msgstr "立即恢复设置"
 
 msgid "Restore the highlighted slot"
 msgstr "还原突出显示的槽位"
+
+msgid "Restore to original location"
+msgstr ""
 
 msgid "Restore your %s %s settings."
 msgstr "恢复 %s %s 的设置。"
@@ -16148,6 +16920,9 @@ msgstr "返回上一个频道"
 msgid "Return to previous service"
 msgstr "返回到上一频道"
 
+msgid "Reuse recently read folders for this duration. The cache is limited to 32 folders and 10000 entries. Refresh from the context menu to see external changes immediately."
+msgstr ""
+
 msgid "Reverse bouquet buttons"
 msgstr "反转频道分组按钮"
 
@@ -16156,6 +16931,9 @@ msgstr "反转列表"
 
 msgid "Review"
 msgstr "评论"
+
+msgid "Review last maintenance scan"
+msgstr ""
 
 msgid "Rewind"
 msgstr "快退"
@@ -16301,6 +17079,9 @@ msgstr "正在运行命令 %d：“%s”。"
 msgid "Running only"
 msgstr "仅正在运行"
 
+msgid "Runtime"
+msgstr ""
+
 msgid "Russian"
 msgstr "俄语"
 
@@ -16422,6 +17203,9 @@ msgstr "萨摩亚"
 msgid "Samoan"
 msgstr "萨摩亚语"
 
+msgid "Sample rate"
+msgstr ""
+
 msgid "San Marino"
 msgstr "圣马力诺"
 
@@ -16512,6 +17296,9 @@ msgstr "保存并录制"
 msgid "Save and stop"
 msgstr "保存并停止"
 
+msgid "Save available movie information beside video files, including MKV. Existing EIT files are kept. Automatic creation applies to selected files in the folder view; database browsing does not write to sleeping storage."
+msgstr ""
+
 msgid "Save directory on EXIT"
 msgstr "退出时保存目录"
 
@@ -16531,6 +17318,9 @@ msgstr "保存播放列表"
 msgid "Save play list on EXIT"
 msgstr "退出时保存播放列表"
 
+msgid "Save queue as M3U playlist"
+msgstr ""
+
 msgid "Save right directory on exit"
 msgstr "退出时保存右侧目录"
 
@@ -16548,6 +17338,9 @@ msgstr "保存日志更改并退出"
 
 msgid "Save the log of the console messages to a file"
 msgstr "将控制台消息的日志保存到文件中"
+
+msgid "Save the previous playback position and movie duration in the standard .cuts file."
+msgstr ""
 
 msgid "Save the right column directory location on exit."
 msgstr "退出时保存右列目录位置。"
@@ -16623,6 +17416,9 @@ msgstr "扫描 Wi-Fi 网络"
 msgid "Scan additional SR"
 msgstr "扫描附加符号率"
 
+msgid "Scan cancelled or folder limit reached."
+msgstr ""
+
 msgid "Scan files..."
 msgstr "扫描文件..."
 
@@ -16634,6 +17430,9 @@ msgstr "扫描本地扩展并安装。"
 
 msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "扫描地面波 LCN 并创建 LCN 频道分组"
+
+msgid "Scan movie folders"
+msgstr ""
 
 msgid "Scan region"
 msgstr "扫描区域"
@@ -16675,6 +17474,9 @@ msgstr[1] "扫描完成，找到 %d 个频道。"
 
 msgid "Scanning for shares..."
 msgstr "正在扫描共享..."
+
+msgid "Scanning movie folders in the background"
+msgstr ""
 
 msgid "Scanning swap devices..."
 msgstr "正在扫描交换设备..."
@@ -16741,17 +17543,29 @@ msgstr "科幻小说/魔幻/惊险"
 msgid "Scope"
 msgstr "作用域"
 
+msgid "Screen layout"
+msgstr ""
+
 msgid "Screen saver mode"
 msgstr "屏幕保护程序模式"
 
 msgid "Screen saver movement"
 msgstr "屏幕保护程序的移动方式"
 
+msgid "Screen style"
+msgstr ""
+
 msgid "Script Manager"
 msgstr "脚本管理器"
 
 msgid "ScriptRunner"
 msgstr "脚本运行器"
+
+msgid "Scroll down"
+msgstr ""
+
+msgid "Scroll up"
+msgstr ""
 
 msgid "Scrolling Speed"
 msgstr "滚动速度"
@@ -16783,6 +17597,9 @@ msgstr "搜索网络共享"
 msgid "Search in the current view"
 msgstr "在当前视图中搜索"
 
+msgid "Search movie library"
+msgstr ""
+
 msgid "Search packages by name or description"
 msgstr "按名称或描述搜索软件包"
 
@@ -16800,6 +17617,20 @@ msgstr "正在搜索本地镜像，请稍候..."
 
 msgid "Searching west ..."
 msgstr "正在搜索西面..."
+
+#, python-format
+msgid "Season %(season)s · Episode %(episode)s"
+msgstr ""
+
+#, python-format
+msgid "Season %d"
+msgstr ""
+
+msgid "Season and episode"
+msgstr ""
+
+msgid "Season unknown"
+msgstr ""
 
 msgid "Second cable of motorized LNB"
 msgstr "电动高频头的第二根电缆"
@@ -17257,6 +18088,12 @@ msgstr "调整 DM9x0 的硬件缓冲延迟补偿。"
 msgid "Select a duration to be added to the streaming buffer after a streaming error. This extra buffer can help to avoid further streaming issues due to a lack of buffer space."
 msgstr "输入流媒体错误后要添加到流媒体缓冲区的持续时间。这个额外的缓冲区有助于避免因缓冲区空间不足而导致的进一步流媒体问题。"
 
+msgid "Select a folder to show again. This does not change database scan paths."
+msgstr ""
+
+msgid "Select a list or grid style. Text styles also work without a movie database. Poster styles require an installed metadata provider. Select legacy mode to use the existing list settings."
+msgstr ""
+
 #, python-format
 msgid "Select a location into which to extract '%s':"
 msgstr "选择要将“%s”提取到的位置："
@@ -17269,6 +18106,12 @@ msgstr "选择最小可用空间。当可用空间低于此值时，清理功能
 
 msgid "Select a movie"
 msgstr "选择一部影片"
+
+msgid "Select a movie folder outside the trashcan."
+msgstr ""
+
+msgid "Select a movie information bar supplied by the skin."
+msgstr ""
 
 msgid "Select a network adapter"
 msgstr "选择网络适配器"
@@ -17331,8 +18174,17 @@ msgstr "全选"
 msgid "Select all lines"
 msgstr "选择所有行"
 
+msgid "Select all movies in this list"
+msgstr ""
+
+msgid "Select all movies on this page"
+msgstr ""
+
 msgid "Select all related files"
 msgstr "选择所有相关文件"
+
+msgid "Select an absolute playlist path."
+msgstr ""
 
 msgid "Select an action for the current device"
 msgstr "为当前设备选择一个操作"
@@ -17366,6 +18218,10 @@ msgstr "请选择默认的 EPG 类型..."
 
 msgid "Select default File Commander directory:"
 msgstr "选择文件指挥官默认的目录："
+
+#, python-format
+msgid "Select destination for %d movies"
+msgstr ""
 
 msgid "Select destination for:"
 msgstr "选择目的地为："
@@ -17496,8 +18352,23 @@ msgstr "选择输入设备。"
 msgid "Select last browsed service"
 msgstr "选择上次浏览的频道"
 
+msgid "Select maintenance candidates"
+msgstr ""
+
 msgid "Select movie"
 msgstr "选择影片"
+
+msgid "Select movie information or artwork for the receiver display. Small displays fall back to a text layout."
+msgstr ""
+
+msgid "Select movies inside or outside the trashcan separately."
+msgstr ""
+
+msgid "Select one movie to edit its information."
+msgstr ""
+
+msgid "Select one movie to rename its file."
+msgstr ""
 
 msgid "Select only highlighted file"
 msgstr "仅选择突出显示的文件"
@@ -17781,6 +18652,9 @@ msgstr "配置屏幕保护程序显示前的持续时间（分钟）。"
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr "选择此定时器可被激活的最晚截止时间。超过此时限后，即使满足其他所有条件，定时器也不再启动。"
 
+msgid "Select the existing movie player behavior for the EXIT button."
+msgstr ""
+
 msgid "Select the fast scan provider and press BLUE to start the scan."
 msgstr "选择快速扫描提供商，然后按蓝色键开始扫描。"
 
@@ -17812,6 +18686,9 @@ msgstr "选择突出显示的插槽并重新启动"
 
 msgid "Select the initial position of the timeline marker. The marker is the vertical line drawn on the EPG that shows the current time. The larger the value the more the marker will move to the right showing more history and less of upcoming events."
 msgstr "选择时间线标记的初始位置。 标记是在 EPG 上绘制的显示当前时间的垂直线。值越大，标记越向右移动，显示的历史记录越多，即将发生的事件越少。"
+
+msgid "Select the initial view when a movie database is enabled. The View action switches between local folders and the movie library."
+msgstr ""
 
 msgid "Select the input connector you want to use."
 msgstr "选择要使用的输入连接器。"
@@ -17870,8 +18747,14 @@ msgstr "选择挂载点"
 msgid "Select the mountpoint for the device."
 msgstr "选择设备的挂载点。"
 
+msgid "Select the movie folder to scan, including subfolders"
+msgstr ""
+
 msgid "Select the movie path"
 msgstr "选择影片路径"
+
+msgid "Select the movie selection screen layout supplied by the skin."
+msgstr ""
 
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr "选择指定网络数据速率，低于该速率时，定时器激活。流量高于此速率，则停用定时器。"
@@ -18090,6 +18973,9 @@ msgstr "选择视频模式"
 msgid "Select video output port with UP/DOWN buttons"
 msgstr "使用向上/向下按钮选择视频输出端口"
 
+msgid "Select view and sorting for this movie list"
+msgstr ""
+
 msgid "Select what action to take when reaching the end of a media file during playback."
 msgstr "选择在播放过程中到达媒体文件末尾时要执行的操作。"
 
@@ -18294,6 +19180,15 @@ msgstr "序列号"
 
 msgid "Serial number"
 msgstr "序列号"
+
+msgid "Series"
+msgstr ""
+
+msgid "Series episode sort order"
+msgstr ""
+
+msgid "Series information and episode numbers"
+msgstr ""
 
 msgid "Serious Classical"
 msgstr "严肃古典音乐"
@@ -19173,6 +20068,9 @@ msgstr "显示活动频道的子频道"
 msgid "Show System Plugin packages"
 msgstr "显示系统插件包"
 
+msgid "Show TS, MKV and other formats in the file information field. Classic layouts append this information to the title."
+msgstr ""
+
 msgid "Show Timer List"
 msgstr "显示定时器列表"
 
@@ -19193,6 +20091,9 @@ msgstr "显示纵向 EPG"
 
 msgid "Show Web Link packages"
 msgstr "显示网页链接包"
+
+msgid "Show a dynamic collection across movie folders. With a movie database it uses indexed files; otherwise a read-only background task creates a snapshot."
+msgstr ""
 
 msgid "Show a spinning logo when the system is busy."
 msgstr "系统繁忙时显示旋转徽标。"
@@ -19227,11 +20128,17 @@ msgstr "广播模式显示背景"
 msgid "Show background when tuned to a radio channel."
 msgstr "调到广播频道时显示背景。"
 
+msgid "Show bookmarks in the movie list"
+msgstr ""
+
 msgid "Show bouquet on launch"
 msgstr "启动时显示频道分组"
 
 msgid "Show build information"
 msgstr "显示构建信息"
+
+msgid "Show cached movie counts and sizes. Update the cache explicitly from Movie maintenance in the context menu. Browsing does not scan subfolders."
+msgstr ""
 
 #, python-format
 msgid "Show cards with uphop %s"
@@ -19266,6 +20173,12 @@ msgstr "在信息栏中显示加密信息"
 
 msgid "Show current directory"
 msgstr "显示当前目录"
+
+msgid "Show current recording length"
+msgstr ""
+
+msgid "Show cut copy number"
+msgstr ""
 
 msgid "Show debug log information"
 msgstr "显示调试日志信息"
@@ -19309,6 +20222,9 @@ msgstr "在频道选择中显示事件进度"
 msgid "Show eventinfo plugins"
 msgstr "显示事件信息插件"
 
+msgid "Show existing movie bookmarks as virtual folder entries. Their targets are accessed only when opened."
+msgstr ""
+
 msgid "Show extended description"
 msgstr "显示扩展描述"
 
@@ -19326,6 +20242,9 @@ msgstr "按默认显示备份文件"
 
 msgid "Show first picture"
 msgstr "显示第一个镜像"
+
+msgid "Show folders"
+msgstr ""
 
 msgid "Show free space in timer view"
 msgstr "在定时器视图中显示可用空间"
@@ -19364,6 +20283,9 @@ msgstr "在扩展菜单中显示作业任务"
 msgid "Show last picture"
 msgstr "显示最后一个镜像"
 
+msgid "Show links to files and folders. Broken links are omitted when the directory is refreshed."
+msgstr ""
+
 msgid "Show list of bouquets"
 msgstr "显示频道分组列表"
 
@@ -19387,6 +20309,12 @@ msgstr "显示菜单"
 
 msgid "Show message when recording starts"
 msgstr "录制开始时显示消息"
+
+msgid "Show movie format"
+msgstr ""
+
+msgid "Show movie information"
+msgstr ""
 
 msgid "Show movie lengths in movie list"
 msgstr "在影片列表中显示影片长度"
@@ -19447,6 +20375,9 @@ msgstr "显示事件之间的分隔线。"
 
 msgid "Show persistent InfoBar while paused"
 msgstr "暂停时永久显示信息栏"
+
+msgid "Show physical folders. Parent navigation, the trashcan, bookmarks, virtual collections and recognized movie structures remain accessible."
+msgstr ""
 
 msgid "Show picon background color"
 msgstr "显示频道图标背景颜色"
@@ -19571,6 +20502,9 @@ msgstr "显示字幕快捷菜单"
 msgid "Show subtitle selection"
 msgstr "显示字幕选择"
 
+msgid "Show symbolic links"
+msgstr ""
+
 msgid "Show system information"
 msgstr "显示系统信息"
 
@@ -19601,8 +20535,14 @@ msgstr "显示 OSCam 信息屏幕"
 msgid "Show the about screen"
 msgstr "显示关于界面"
 
+msgid "Show the cut copy suffix, such as _001, even when the recording title comes from metadata. This is not the number of chapter markers."
+msgstr ""
+
 msgid "Show the last opkg command's output"
 msgstr "显示最后一个 opkg 命令的输出"
+
+msgid "Show the measured length of active recordings in the file information field, updated once a minute in the file view. Database views use cached metadata."
+msgstr ""
 
 msgid "Show the task list"
 msgstr "显示任务列表"
@@ -19639,6 +20579,9 @@ msgstr "将未知的视频格式显示为"
 
 msgid "Show vertical Program Guide"
 msgstr "显示纵向节目指南"
+
+msgid "Show virtual folders first, or sort them among movies by the current title or recording date order."
+msgstr ""
 
 msgid "Show warning before restart"
 msgstr "重启前显示警告"
@@ -19745,6 +20688,9 @@ msgstr "简单"
 
 msgid "Simplified Chinese"
 msgstr "简体中文"
+
+msgid "Since the previous visit"
+msgstr ""
 
 msgid "Sindhi"
 msgstr "信德语"
@@ -19862,6 +20808,9 @@ msgstr "跳过软件包安装，只有核心软件包可用"
 
 msgid "Skip sensibility for '%s' button"
 msgstr "“%s”按钮的跳转灵敏度"
+
+msgid "Skip this many seconds after the chosen preview starting point."
+msgstr ""
 
 msgid "Skip time for '%s' button"
 msgstr "'%s'按钮跳过时间"
@@ -20251,6 +21200,9 @@ msgstr "按名称排序"
 msgid "Sort by default"
 msgstr "按默认排序"
 
+msgid "Sort folders with movies"
+msgstr ""
+
 msgid "Sort list by"
 msgstr "排序方式"
 
@@ -20262,6 +21214,12 @@ msgstr "语言列表的排序顺序。"
 
 msgid "Sort playlists"
 msgstr "播放列表排序"
+
+msgid "Sort the whole catalogue before pagination. Long PVR/File temporarily selects another order."
+msgstr ""
+
+msgid "Sort this movie list"
+msgstr ""
 
 #, python-format
 msgid "Sort: Directories by %s %s; Files by %s %s."
@@ -20284,6 +21242,9 @@ msgstr "伴音载波"
 
 msgid "Source Packages"
 msgstr "源软件包"
+
+msgid "Source and destination are identical."
+msgstr ""
 
 msgid "Source request"
 msgstr "来源请求"
@@ -20431,6 +21392,12 @@ msgstr "Enigma2启动时启动所有可用的交换文件和分区。 /etc/fstab
 msgid "Start an instant recording"
 msgstr "开始即时录制"
 
+msgid "Start at the first early chapter marker"
+msgstr ""
+
+msgid "Start at the resume position, the beginning or the first early chapter marker. Preview does not save playback positions or change watch status."
+msgstr ""
+
 msgid "Start date"
 msgstr "开始日期"
 
@@ -20496,6 +21463,12 @@ msgstr "开始时间"
 
 msgid "Start time shift"
 msgstr "开始时移"
+
+msgid "Start view"
+msgstr ""
+
+msgid "Start watched movies from the beginning"
+msgstr ""
 
 msgid "Start/stop slide show"
 msgstr "启动/停止/选择 cam"
@@ -20574,6 +21547,12 @@ msgstr "状态不可用！"
 msgid "Stay in time shift at buffer end (for plugins)"
 msgstr "缓冲结束时保持时移（供插件使用）"
 
+msgid "Stay on the marked movie, move to the next movie, or continue in the last navigation direction."
+msgstr ""
+
+msgid "Stay on the movie"
+msgstr ""
+
 msgid "Step"
 msgstr "步"
 
@@ -20615,6 +21594,9 @@ msgstr "停用编辑模式"
 
 msgid "Stop entry"
 msgstr "停止条目"
+
+msgid "Stop playback or preview before changing this movie."
+msgstr ""
 
 msgid "Stop playing this movie?"
 msgstr "停止播放该影片？"
@@ -20997,6 +21979,9 @@ msgstr "在文件列表/播放列表之间切换"
 msgid "Switch config"
 msgstr "切换配置"
 
+msgid "Switch movie and file information"
+msgstr ""
+
 msgid "Switch off the TV to correct input"
 msgstr "关闭电视以纠正输入"
 
@@ -21047,6 +22032,9 @@ msgstr "切换到左列"
 
 msgid "Switch to the other column"
 msgstr "切换到另一列"
+
+msgid "Switch to the recording channel"
+msgstr ""
 
 msgid "Switch to the right column"
 msgstr "切换到右列"
@@ -21107,6 +22095,12 @@ msgstr "系统插件包"
 
 msgid "System Setup"
 msgstr "系统设置"
+
+msgid "System date and time"
+msgstr ""
+
+msgid "System date format"
+msgstr ""
 
 msgid "System information"
 msgstr "系统信息"
@@ -21182,6 +22176,9 @@ msgstr "标签编辑器操作"
 
 msgid "Tagalog"
 msgstr "他加禄语"
+
+msgid "Tagline"
+msgstr ""
 
 msgid "Tags"
 msgstr "标签"
@@ -21322,6 +22319,9 @@ msgstr "临时挂载为 %s"
 
 msgid "Temporary directory"
 msgstr "临时目录"
+
+msgid "Temporary layout and sorting"
+msgstr ""
 
 msgid "Tennis"
 msgstr "网球"
@@ -21564,6 +22564,9 @@ msgstr ""
 msgid "The backup can take up to about 15 minutes to complete."
 msgstr "备份最多可能需要大约 15 分钟才能完成。"
 
+msgid "The bookmarked folder is not available."
+msgstr ""
+
 msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
@@ -21574,6 +22577,12 @@ msgstr ""
 msgid "The command to wake from Standby will be sent multiple times."
 msgstr "从待机状态唤醒的命令将被发送多次。"
 
+msgid "The companion file changed or belongs to a movie again."
+msgstr ""
+
+msgid "The complete movie is at the destination, but some source files could not be removed."
+msgstr ""
+
 msgid "The continuation recording could not be identified safely. Both recordings have been kept and will not be merged."
 msgstr "无法安全识别续录片段，两段录像均保留，不会合并。"
 
@@ -21583,6 +22592,9 @@ msgstr "当前时移缓冲已不再可用。"
 #, python-format
 msgid "The custom mount point for '%s' is empty!"
 msgstr "“%s”的自定义挂载点为空！"
+
+msgid "The cut list is damaged; it was left unchanged."
+msgstr ""
 
 msgid ""
 "The default backup selection cannot be changed.\n"
@@ -21596,6 +22608,9 @@ msgstr "默认设置为唤醒时间 - 5 分钟和定时器开始时间+ 5 分钟
 
 #, python-format
 msgid "The destination '%s' already exists. Choose an empty destination or move the picons manually."
+msgstr ""
+
+msgid "The destination changed during the operation."
 msgstr ""
 
 msgid "The detailed information is intended for developers only."
@@ -21656,6 +22671,9 @@ msgstr "本地共享名称不得包含空格、斜杠、“#”，且不能为�
 msgid "The loopthrough setting is wrong."
 msgstr "环通设置错误。"
 
+msgid "The manual maintenance scan offers watched movies only when neither the movie nor its playback position has changed within this many days. Review and select candidates in the context menu before moving them to the trashcan."
+msgstr ""
+
 msgid "The manufacturer STARTUP device cannot be mounted for inspection."
 msgstr "无法挂载厂商 STARTUP 设备以进行检查。"
 
@@ -21677,6 +22695,28 @@ msgstr "厂商 STARTUP 文件名“%s”无法安全扩展。"
 msgid "The mount point '%s' is used by more than one share."
 msgstr "挂载点“%s”被多个共享使用。"
 
+msgid "The movie duration is unknown."
+msgstr ""
+
+msgid "The movie file is still being written. Try again later."
+msgstr ""
+
+msgid "The movie folder or companion file changed."
+msgstr ""
+
+msgid "The movie is currently being recorded."
+msgstr ""
+
+msgid "The movie or its playback position changed since the maintenance scan. Scan again."
+msgstr ""
+
+#, python-format
+msgid "The operation failed. Some files remain at the destination: %s"
+msgstr ""
+
+msgid "The original location is unknown. Use Move to select a destination."
+msgstr ""
+
 msgid "The panic channel was not found. Please select it again in Channel Selection Settings."
 msgstr "未找到应急频道。请在频道选择设置中重新选择。"
 
@@ -21696,8 +22736,20 @@ msgstr ""
 msgid "The picon storage device is read-only or full."
 msgstr ""
 
+msgid "The play queue is empty"
+msgstr ""
+
+msgid "The playlist contains too many movies."
+msgstr ""
+
+msgid "The playlist is too large."
+msgstr ""
+
 msgid "The positioner tuner is currently unavailable. Stop recordings or other services using this tuner and try again."
 msgstr "极轴马达调谐器当前不可用。请停止使用该调谐器的录制或其他服务后重试。"
+
+msgid "The preview shows the first 20 filenames."
+msgstr ""
 
 msgid "The previous mount point is already in use."
 msgstr "之前的挂载点已被占用。"
@@ -21706,8 +22758,17 @@ msgstr "之前的挂载点已被占用。"
 msgid "The process will take approximately %d minutes to complete."
 msgstr "该操作预计需要约 %d 分钟完成。"
 
+msgid "The recording changed while the operation was running."
+msgstr ""
+
 msgid "The recording end time has already passed."
 msgstr "录制结束时间已过。"
+
+msgid "The recording is still running. Switch to its live channel?"
+msgstr ""
+
+msgid "The recording metadata is too large; it was left unchanged."
+msgstr ""
 
 msgid "The requested recording conflicts with other timers. What do you want to do?"
 msgstr "请求的录制与其他定时器冲突。您想如何处理？"
@@ -21809,6 +22870,21 @@ msgstr "该定时器与本地定时器冲突，未从备用调谐器移出。"
 #, python-format
 msgid "The timer file '%s' is corrupt and could not be loaded."
 msgstr "定时器文件“%s”已损坏，无法加载。"
+
+msgid "The trash index is damaged."
+msgstr ""
+
+msgid "The trash index is too large."
+msgstr ""
+
+msgid "The trash index must not be a symbolic link."
+msgstr ""
+
+msgid "The trashcan and the movie must be on the same mounted filesystem. No files were copied."
+msgstr ""
+
+msgid "The trashcan must be a directory on the movie's filesystem."
+msgstr ""
 
 msgid ""
 "The unicable connection setting is wrong.\n"
@@ -21916,6 +22992,9 @@ msgstr "此频道需要 HbbTV 插件。请安装兼容的 HbbTV 插件。"
 msgid "This device has multiple mount points. Unmount them before checking the file system."
 msgstr "此设备有多个挂载点。检查文件系统前，请先卸载这些挂载点。"
 
+msgid "This directory is locked for movie file changes."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "此字段允许您搜索高达 %s 的附加符号率。"
@@ -21951,6 +23030,9 @@ msgstr "此菜单包含显示接收机信息的选项。"
 
 msgid "This menu offers options related managing the software on the %s %s."
 msgstr "此菜单提供与管理 %s %s 上的软件相关的选项。"
+
+msgid "This movie is currently unavailable. Check its storage device or network mount."
+msgstr ""
 
 msgid "This offset will only be used if the channel does not have its own volume offset."
 msgstr "仅当频道没有自己的音量偏移时，才会使用此偏移。"
@@ -22123,8 +23205,17 @@ msgstr "此选项设置抑制虚假数字轮廓，这是有限数量的离散值
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "此选项设置图片清晰度，当图片放大时使用。"
 
+msgid "This playlist contains unsupported files. Play queues support video and audio files; open DVD images individually."
+msgstr ""
+
+msgid "This provider supplies movie information but no browsable library."
+msgstr ""
+
 msgid "This recording has already ended."
 msgstr "此录制已结束。"
+
+msgid "This service is not a local movie file."
+msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "此频道由家长控制密码保护！"
@@ -22181,6 +23272,9 @@ msgstr "藏语"
 
 msgid "Tigrinya"
 msgstr "提格里尼亚语"
+
+msgid "Tiles"
+msgstr ""
 
 msgid "Time"
 msgstr "时间"
@@ -22383,6 +23477,12 @@ msgstr "东帝汶"
 msgid "Title"
 msgstr "标题"
 
+msgid "Title (A–Z)"
+msgstr ""
+
+msgid "Title (Z–A)"
+msgstr ""
+
 msgid "Title properties"
 msgstr "标题属性"
 
@@ -22483,6 +23583,9 @@ msgstr "切换当前标签的选择"
 msgid "Toggle selections"
 msgstr "切换选择"
 
+msgid "Toggle series grouping for this folder"
+msgstr ""
+
 msgid "Toggle service name display"
 msgstr "频道名显示开关"
 
@@ -22512,6 +23615,18 @@ msgstr "Tone 模式"
 
 msgid "Tonga"
 msgstr "汤加"
+
+msgid "Too many candidates. Scan a smaller movie folder."
+msgstr ""
+
+msgid "Too many entries. Scan a smaller movie folder."
+msgstr ""
+
+msgid "Too many movies. Scan a smaller movie folder."
+msgstr ""
+
+msgid "Too many pending movie database changes. Reconnect the database first."
+msgstr ""
 
 msgid "Top"
 msgstr "头部"
@@ -22556,6 +23671,9 @@ msgstr "旅游/旅行"
 msgid "Track"
 msgstr "音轨"
 
+msgid "Track language"
+msgstr ""
+
 msgid "Traditional"
 msgstr "传统"
 
@@ -22570,6 +23688,9 @@ msgstr "转码"
 
 msgid "Transcoding"
 msgstr "转码"
+
+msgid "Transfer characteristics"
+msgstr ""
 
 msgid "Translate Subs On This Service"
 msgstr "翻译此频道上的字幕"
@@ -22992,6 +24113,9 @@ msgstr "无法初始化 Kexec 多系统启动！"
 msgid "Unable to load package information!"
 msgstr "无法加载软件包信息！"
 
+msgid "Unable to move the movie without overwriting existing files."
+msgstr ""
+
 #, python-format
 msgid "Unable to open tuner (%d)"
 msgstr "无法打开调谐器（%d）"
@@ -23053,6 +24177,9 @@ msgstr "无法验证高频头 %d的 Unicable 位置：%s！"
 
 msgid "Unable to write the time shift event information."
 msgstr "无法写入时移事件信息。"
+
+msgid "Unassigned / pending recordings"
+msgstr ""
 
 msgid "Unattended upgrade without GUI"
 msgstr "无人值守升级，没有图形界面"
@@ -23164,6 +24291,9 @@ msgstr "未知!"
 msgid "Unless set to 'disabled' you get a preview of channels inside the EPG list."
 msgstr "如果设为“是”，可在 EPG 列表中预览频道。"
 
+msgid "Unlimited"
+msgstr ""
+
 msgid "Unmark As Dedicated 3D Service"
 msgstr "取消标记为专用 3D 频道"
 
@@ -23198,6 +24328,9 @@ msgstr "直到待机/重新启动"
 msgid "Unused %s"
 msgstr "未使用 %s"
 
+msgid "Unwatched"
+msgstr ""
+
 msgid "Unzipping Image"
 msgstr "正在解压镜像"
 
@@ -23206,6 +24339,9 @@ msgstr "上"
 
 msgid "Up / Active"
 msgstr "Up / 活动"
+
+msgid "Up to 256 folders can be hidden."
+msgstr ""
 
 msgid "Up to 50 Mbps"
 msgstr "高达 50 Mbps"
@@ -23233,6 +24369,15 @@ msgstr "更新失败！"
 
 msgid "Update finished!"
 msgstr "更新完成！"
+
+msgid "Update folder movie counts and sizes"
+msgstr ""
+
+msgid "Update movie folder snapshot"
+msgstr ""
+
+msgid "Update movie folder snapshot / latest recordings"
+msgstr ""
 
 msgid "Update outdated bouquet entries"
 msgstr "更新过时的频道分组条目"
@@ -23264,6 +24409,12 @@ msgstr "可用更新："
 
 msgid "Updating"
 msgstr "正在更新"
+
+msgid "Updating library index..."
+msgstr ""
+
+msgid "Updating movie folder snapshot in Tasks"
+msgstr ""
 
 msgid "Updating package list."
 msgstr "正在更新软件包列表。"
@@ -23419,6 +24570,9 @@ msgstr "使用换台定时器结束时间"
 msgid "Use a DNS cache to locally store recent DNS lookups to improve performance, reduce latency and outgoing traffic."
 msgstr "启用 DNS 缓存以本地存储最近的 DNS 查询，从而提升性能、降低延迟并减少外发流量。"
 
+msgid "Use an absolute filename ending in .m3u or .m3u8."
+msgstr ""
+
 msgid "Use an alternative smaller screen."
 msgstr "使用一个更小的备用屏幕。"
 
@@ -23445,6 +24599,9 @@ msgstr "使用最佳/由 HDMI 控制"
 
 msgid "Use circular LNB"
 msgstr "使用圆极化高频头"
+
+msgid "Use configured defaults"
+msgstr ""
 
 msgid "Use defaults"
 msgstr "使用默认"
@@ -23485,6 +24642,9 @@ msgstr "使用按键映射 *"
 msgid "Use legacy navigation"
 msgstr "使用旧版导航"
 
+msgid "Use normal end-of-movie action"
+msgstr ""
+
 msgid "Use official channel numbering"
 msgstr "使用官方频道编号"
 
@@ -23508,6 +24668,12 @@ msgstr "使用每个目录设置"
 
 msgid "Use power measurement"
 msgstr "使用功率测量"
+
+msgid "Use relative dates or the configured system date format, with or without the time."
+msgstr ""
+
+msgid "Use selected sorting"
+msgstr ""
 
 msgid "Use skin default"
 msgstr "使用皮肤默认"
@@ -23566,8 +24732,23 @@ msgstr "使用快速扫描提供的频道编号，包括空号。禁用后，频
 msgid "Use the current selection and exit"
 msgstr "使用当前选择并退出"
 
+msgid "Use the database title when available, the original recording title, or the filename. Title cleanup applies after this choice. Grouped series keep their series title."
+msgstr ""
+
+msgid "Use the existing default playback location. Press OK to select a folder."
+msgstr ""
+
 msgid "Use the extended List"
 msgstr "使用扩展列表"
+
+msgid "Use the normal end action, ask, or switch to the recording channel when playback catches up with a local recording that is still running."
+msgstr ""
+
+msgid "Use the selected sort order, keep folders first, or sort folders together with movie files."
+msgstr ""
+
+msgid "Use the title before this separator as the virtual folder name. An empty separator groups identical titles."
+msgstr ""
 
 msgid "Use the wizard to set up basic features"
 msgstr "使用向导设置基本功能"
@@ -23949,6 +25130,9 @@ msgstr "以网格形式查看"
 msgid "View as list"
 msgstr "以列表形式查看"
 
+msgid "View for this movie list only"
+msgstr ""
+
 msgid "View mode"
 msgstr "视图模式"
 
@@ -23998,6 +25182,15 @@ msgstr "虚拟键盘操作"
 msgid "Virtual Keyboard Text:"
 msgstr "虚拟键盘文本："
 
+msgid "Virtual collections"
+msgstr ""
+
+msgid "Virtual folder — movie files stay in their original locations."
+msgstr ""
+
+msgid "Virtual folders before movies"
+msgstr ""
+
 msgid "Visual impaired commentary"
 msgstr "视障评论"
 
@@ -24046,6 +25239,9 @@ msgstr "音量增大"
 msgid "Volume/Mute display timer"
 msgstr "音量/静音显示定时器"
 
+msgid "Votes"
+msgstr ""
+
 msgid "Vu+ MultiBoot"
 msgstr "Vu+ 多系统启动"
 
@@ -24075,6 +25271,9 @@ msgstr "4:3宽高比时显示宽屏幕信号"
 
 msgid "Wait for timesync at startup"
 msgstr "启动时等待时间同步"
+
+msgid "Wait this long after moving the selection before starting a preview."
+msgstr ""
 
 msgid "Waiting"
 msgstr "正在等待"
@@ -24158,6 +25357,12 @@ msgstr "警告：没有高频头；使用工厂默认值。"
 
 msgid "Watch movies..."
 msgstr "观看影片..."
+
+msgid "Watched"
+msgstr ""
+
+msgid "Watched from (%)"
+msgstr ""
 
 msgid "Water sport"
 msgstr "水上运动"
@@ -24289,6 +25494,9 @@ msgstr "你想做什么？"
 
 msgid "When 'Enabled', the timer view will show the free space on the target device. This will wake the device from sleep mode."
 msgstr "当“启用”时，定时器视图将显示目标设备上的可用空间。 这会将设备从睡眠模式唤醒。"
+
+msgid "When disabled, skip recordings already indexed by E2MDB with the same title and descriptions. If the database is unavailable or the match is uncertain, record normally."
+msgstr ""
 
 msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
 msgstr "启用时，AIT（应用信息表）数据将包含在 http 流中。 这允许客户端接收机使用 HbbTV。"
@@ -24509,6 +25717,9 @@ msgstr "启用后，您可以自定义备用调谐器的 OpenWebIf 设置。"
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
 msgstr "启用时，接收机将检测VCR SCART输入活动。"
 
+msgid "When movie information is displayed"
+msgstr ""
+
 msgid "When nonzero, a recording will start the nominated period before the starting time indicated in the EPG."
 msgstr "当非零时，录制将在 EPG 中指示的开始时间之前的指定时段开始。"
 
@@ -24529,6 +25740,12 @@ msgstr "当设置时，PIG 将在停止播放影片后返回到直播。"
 
 msgid "When set to 'Yes' a specific Softcam can be assigned to each encrypted service."
 msgstr "当设置为“是”时，可以为每个加密频道分配一个特定的Softcam。"
+
+msgid "When starting a movie, keep its previous playback position as a chapter marker. Existing chapter markers remain available."
+msgstr ""
+
+msgid "When starting from the beginning, skip the recording lead-in using an early chapter marker. Resume positions and cut boundaries are respected."
+msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
 msgstr "当内容画面比例为 16:9 时，选择是否缩放/拉伸图片。"
@@ -25721,6 +26938,9 @@ msgstr "是（保留订阅源）"
 
 msgid "®"
 msgstr "®"
+
+#~ msgid "Can't move to trashcan!"
+#~ msgstr "无法移动到回收站！"
 
 #, python-format
 #~ msgid "Error: Creating picon target directory: (%s)"
@@ -27385,9 +28605,6 @@ msgstr "®"
 
 #~ msgid "Are you sure you want to restart your network interfaces?"
 #~ msgstr "确定要重新启动网络接口?"
-
-#~ msgid "Back"
-#~ msgstr "返回"
 
 #~ msgid "Configure DNS (name servers)"
 #~ msgstr "配置 DNS（名称服务器）"
@@ -29864,9 +31081,6 @@ msgstr "®"
 #~ msgid "128 Mb"
 #~ msgstr "128 Mb"
 
-#~ msgid "15 minutes"
-#~ msgstr "15 分钟"
-
 #~ msgid "1536 Mb"
 #~ msgstr "1536 Mb"
 
@@ -29908,9 +31122,6 @@ msgstr "®"
 
 #~ msgid "5 hours"
 #~ msgstr "5小时"
-
-#~ msgid "5 minutes"
-#~ msgstr "5分钟"
 
 #~ msgid "512 Mb"
 #~ msgstr "512 Mb"
