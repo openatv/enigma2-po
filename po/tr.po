@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 21:27+0000\n"
-"PO-Revision-Date: 2026-11-05 13:00+0000\n"
+"PO-Revision-Date: 2026-11-27 13:51+0000\n"
 "Last-Translator: mcilo <mcilo@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/tr/>\n"
 "Language: tr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.11.2.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Bookmarks: 2450,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
@@ -119,7 +119,7 @@ msgstr "# = Bu öğe değiştirilirse yeniden başlatma gerekir."
 
 #, python-format
 msgid "%(title)s (%(count)d)"
-msgstr ""
+msgstr "%(title)s (%(count)d)"
 
 #
 msgid "%-H:%M"
@@ -319,7 +319,7 @@ msgstr "%d dak"
 
 #, python-format
 msgid "%d min recorded"
-msgstr ""
+msgstr "%d dk. kaydedildi"
 
 #, python-format
 msgid "%d minutes"
@@ -327,11 +327,11 @@ msgstr "%d dakika"
 
 #, python-format
 msgid "%d movies"
-msgstr ""
+msgstr "%d film"
 
 #, python-format
 msgid "%d movies selected"
-msgstr ""
+msgstr "%d film seçildi"
 
 #
 #, python-format
@@ -345,7 +345,7 @@ msgstr[0] "%d ağ (lar) bulundu."
 
 #, python-format
 msgid "%d new"
-msgstr ""
+msgstr "%d yeni"
 
 #, python-format
 msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
@@ -790,7 +790,7 @@ msgid "1"
 msgstr "1"
 
 msgid "1 minute"
-msgstr ""
+msgstr "1 dakika"
 
 msgid "1. (Highest)"
 msgstr "1. (En yüksek)"
@@ -1013,7 +1013,7 @@ msgid "A crash log was %s created in '%s'"
 msgstr "'%s' içinde %s hata günlüğü oluşturuldu"
 
 msgid "A destination file already exists. No files were overwritten."
-msgstr ""
+msgstr "Hedef dosya zaten mevcut. Hiçbir dosyanın üzerine yazılmadı."
 
 #
 #, python-format
@@ -1056,16 +1056,16 @@ msgid "A highlight on the remote control image shows which button the help refer
 msgstr "Uzaktan kumanda görüntüsündeki vurgu, yardımın hangi düğmeye atıfta bulunduğunu gösterir. Belirtilen işlevi birden fazla düğme yerine getiriyorsa, birden fazla vurgu gösterilecektir. Listenin altındaki metin, etkin düğmeleri ve işlevin düğmeye uzun basmayı mı yoksa SHIFT tuşuna basmayı mı gerektirdiğini listeler."
 
 msgid "A mount point or a folder containing mounted filesystems cannot be moved to the trashcan."
-msgstr ""
+msgstr "Bir bağlantı noktası veya bağlantı dosya sistemlerini içeren bir klasör çöp kutusuna taşınamaz."
 
 msgid "A movie companion file is a symbolic link."
-msgstr ""
+msgstr "Film eşlik dosyası, sembolik bir bağlantıdır."
 
 msgid "A movie filename cannot be represented in M3U format."
-msgstr ""
+msgstr "Bir film dosya adı, M3U biçiminde temsil edilemez."
 
 msgid "A movie maintenance scan is already running. Its progress is shown in Tasks."
-msgstr ""
+msgstr "Bir film bakım taraması zaten çalışıyor. İlerlemesi Görevler'de gösterilir."
 
 msgid "A new storage device has been connected:"
 msgstr "Yeni bir depolama cihazı bağlandı:"
@@ -1350,7 +1350,7 @@ msgid "Active only"
 msgstr "Yalnızca etkin"
 
 msgid "Actor"
-msgstr ""
+msgstr "Aktör"
 
 msgid "Adapter"
 msgstr "Bağdaştırıcı"
@@ -1550,10 +1550,10 @@ msgid "Add recording (Stop after current event)"
 msgstr "Kayıt ekle (geçerli etkinlikten sonra dursun)"
 
 msgid "Add selected movies"
-msgstr ""
+msgstr "Seçilen filmleri ekle"
 
 msgid "Add selected movies to the play queue"
-msgstr ""
+msgstr "Seçilen filmleri oynatma sırasına ekle"
 
 #
 msgid "Add service"
@@ -1638,7 +1638,7 @@ msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Teletext için kullanılan harflerin dikey konumunu ayarlayın."
 
 msgid "Adjust times to EPG"
-msgstr ""
+msgstr "Zamanları EPG'ye göre ayarla"
 
 msgid "Adult"
 msgstr "Yetişkin"
@@ -1653,7 +1653,7 @@ msgid "Adult movie/Drama"
 msgstr "Yetişkin filmi/Dram"
 
 msgid "Advance Movie List"
-msgstr ""
+msgstr "Gelecek Film Listesi"
 
 msgid "Advanced"
 msgstr "Gelişmiş"
@@ -1719,7 +1719,7 @@ msgid "After zap"
 msgstr "Kanal değiştirmeden sonra"
 
 msgid "Age rating"
-msgstr ""
+msgstr "Yaş derecelendirmesi"
 
 msgid "Aggregate data only"
 msgstr "Yalnızca toplu veriler"
@@ -1777,10 +1777,10 @@ msgid "All data on the selected device will be erased. Create one shared data pa
 msgstr "Seçili cihazdaki tüm veriler silinecek. %d adet ek MultiBoot yuvası, 512 MiB'lık bir takas (swap) bölümü ve dahili yuva 1 çekirdeği içeren ortak bir veri bölümü oluşturulsun mu?"
 
 msgid "All dates"
-msgstr ""
+msgstr "Tüm tarihler"
 
 msgid "All episodes"
-msgstr ""
+msgstr "Tüm bölümler"
 
 msgid "All events down"
 msgstr "Tüm etkinlikler aşağıda"
@@ -1792,13 +1792,13 @@ msgid "All files"
 msgstr "Tüm dosyalar"
 
 msgid "All media"
-msgstr ""
+msgstr "Tüm medya"
 
 msgid "All movie files"
-msgstr ""
+msgstr "Tüm film dosyaları"
 
 msgid "All movie folders"
-msgstr ""
+msgstr "Tüm film klasörleri"
 
 msgid "All packages"
 msgstr "Tüm paketler"
@@ -1842,7 +1842,7 @@ msgid "Allow %s-bit"
 msgstr "%s-bite izin ver"
 
 msgid "Allow duplicate recordings"
-msgstr ""
+msgstr "Yinelenen kayıtlara izin ver"
 
 msgid "Allow guest access"
 msgstr "Konuk erişimine izin ver"
@@ -1980,7 +1980,7 @@ msgid "Always use smart1080p mode"
 msgstr "Her zaman smart1080p modunu kullan"
 
 msgid "Ambiguous companion file names."
-msgstr ""
+msgstr "Belirsiz eşlik eden dosya adları."
 
 msgid "American Samoa"
 msgstr "Amerikan Samoası"
@@ -2076,7 +2076,7 @@ msgstr "Diyafram F numarası"
 
 #, python-format
 msgid "Apply '%(action)s' to %(count)d selected movies?"
-msgstr ""
+msgstr "Seçilen %(count)d filme '%(action)s' uygulansın mı?"
 
 msgid "Apply any changes to the active locale/language and exit"
 msgstr "Etkin yerel ayara/dile tüm değişiklikleri uygulayın ve çıkın"
@@ -2238,7 +2238,7 @@ msgid "Ask for confirmation before moving individual files to the trashcan. Fold
 msgstr "Tek tek dosyaları çöp kutusuna taşımadan önce onay isteyin. Klasör ve kalıcı silme onayları değişmeden kalır."
 
 msgid "Ask to switch to the recording channel"
-msgstr ""
+msgstr "Kayıt kanalına geçmek istediğinizi belirtin"
 
 #
 msgid "Ask user"
@@ -2306,7 +2306,7 @@ msgid "At end: %s"
 msgstr "Sonunda: %s"
 
 msgid "At the end of a running recording"
-msgstr ""
+msgstr "Devam eden bir kaydın sonunda"
 
 msgid "Athletics"
 msgstr "Atletizm"
@@ -2353,13 +2353,13 @@ msgid "Audio bit rate"
 msgstr "Ses bit hızı"
 
 msgid "Audio channels"
-msgstr ""
+msgstr "Ses kanalları"
 
 msgid "Audio decoding"
 msgstr "Ses kod çözme"
 
 msgid "Audio description"
-msgstr ""
+msgstr "Sesli açıklama"
 
 msgid "Audio language selection 1"
 msgstr "1. Ses dili seçimi"
@@ -2488,7 +2488,7 @@ msgid "Automatic gain"
 msgstr "Otomatik kazanım"
 
 msgid "Automatic preview delay (ms)"
-msgstr ""
+msgstr "Otomatik önizleme gecikmesi (ms)"
 
 msgid "Automatic resolution"
 msgstr "Otomatik çözünürlük"
@@ -2767,7 +2767,7 @@ msgid "Begin time"
 msgstr "Başlangıç zamanı"
 
 msgid "Beginning"
-msgstr ""
+msgstr "Başlangıç"
 
 msgid "Behave like STOP button"
 msgstr "STOP tuşu gibi davran"
@@ -2913,7 +2913,7 @@ msgstr "Yer imi kaldırıldı."
 
 #, python-format
 msgid "Bookmark: %s"
-msgstr ""
+msgstr "Yer imi: %s"
 
 #
 msgid "Bookmarks"
@@ -3051,7 +3051,7 @@ msgid "Browse"
 msgstr "Gözat"
 
 msgid "Browse grouped movies and series or all indexed movie files without reading movie storage."
-msgstr ""
+msgstr "Gruplandırılmış filmlere ve dizilere veya dizine alınmış tüm film dosyalarına, film depolama alanını okumadan göz atın."
 
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Eklentilere tek tek göz atın, yükleyin veya kaldırın."
@@ -3326,7 +3326,7 @@ msgid "Cable input"
 msgstr "Kablo girişi"
 
 msgid "Cache file lists"
-msgstr ""
+msgstr "Önbellek dosyası listeleri"
 
 msgid "Cache thumbnails"
 msgstr "Küçük resimler ön belleği"
@@ -3335,7 +3335,7 @@ msgid "Cached"
 msgstr "Ön Bellekte"
 
 msgid "Cached folder · refresh from the menu"
-msgstr ""
+msgstr "Önbelleğe alınmış klasör · menüden yenileyin"
 
 msgid "Calculate"
 msgstr "Hesapla"
@@ -3581,7 +3581,7 @@ msgid "Cancelled upon user request"
 msgstr "Kullanıcı isteği üzerine iptal edildi"
 
 msgid "Cannot create a trashcan on this mounted filesystem. No files were deleted."
-msgstr ""
+msgstr "Bu bağlantısı yapılan dosya sisteminde çöp kutusu oluşturulamıyor. Hiçbir dosya silinmedi."
 
 msgid "Cannot delete file"
 msgstr "Dosya silinemiyor"
@@ -3595,10 +3595,10 @@ msgid "Cannot find any signal ..., aborting!"
 msgstr "Sinyal bulunamadı..., işlem iptal ediliyor!"
 
 msgid "Capacity unit range"
-msgstr ""
+msgstr "Kapasite birimi aralığı"
 
 msgid "Capacity units (CU)"
-msgstr ""
+msgstr "Kapasite birimleri (CU)"
 
 msgid "Cape Verde"
 msgstr "Cape Verde"
@@ -3638,7 +3638,7 @@ msgid "Case sensitive"
 msgstr "Büyük/küçük harfe duyarlı"
 
 msgid "Cast"
-msgstr ""
+msgstr "Oyuncular"
 
 msgid "Catalan / Valencian"
 msgstr "Katalan / Valensiya"
@@ -3814,7 +3814,7 @@ msgid "Channel down"
 msgstr "Kanal aşağı"
 
 msgid "Channel layout"
-msgstr ""
+msgstr "Kanal düzeni"
 
 msgid "Channel list cursor behavior"
 msgstr "Kanal listesinde imlecin davranışı"
@@ -3874,7 +3874,7 @@ msgid "Chapter"
 msgstr "Bölüm"
 
 msgid "Chapter markers and playback position"
-msgstr ""
+msgstr "Bölüm işaretleri ve oynatma konumu"
 
 #
 msgid "Character device"
@@ -4006,19 +4006,19 @@ msgid "Choose a label that will identify this device within IceTV services."
 msgstr "IceTV kanallarında bu cihazı tanımlayacak bir etiket seçin."
 
 msgid "Choose all indexed or scanned folders, the default movie location, or the current folder including subfolders. Hidden folders are excluded."
-msgstr ""
+msgstr "Dizine alınmış veya taranmış tüm klasörleri, varsayılan film konumunu veya alt klasörler dahil geçerli klasörü seçin. Gizli klasörler hariç tutulur."
 
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Güncellemeleri kontrol etmek için IceTV sunucusuna ne sıklıkla bağlanacağınızı seçin."
 
 msgid "Choose season and episode order, title, recording date, release year or rating."
-msgstr ""
+msgstr "Sezon ve bölüm sıralamasını, başlığı, kayıt tarihini, yayın yılını veya puanı seçin."
 
 msgid "Choose the amount of additional slots."
 msgstr "Ek yuva sayısını seçin."
 
 msgid "Choose the default sorting for this collection. The temporary view menu can override it."
-msgstr ""
+msgstr "Bu koleksiyon için varsayılan sıralamayı seçin. Geçici görünüm menüsü bunu geçersiz kılabilir."
 
 msgid "Choose the fallback font."
 msgstr "Yedek yazı tipini seçin."
@@ -4098,10 +4098,10 @@ msgid "Classic Rock"
 msgstr "Klasik Rock"
 
 msgid "Classic movie list (EMC)"
-msgstr ""
+msgstr "Klasik film listesi (EMC)"
 
 msgid "Classic movie list with description (EMC)"
-msgstr ""
+msgstr "Açıklamalı klasik film listesi (EMC)"
 
 msgid "Classical"
 msgstr "Klasik"
@@ -4144,20 +4144,20 @@ msgid "Clear before scan"
 msgstr "Tarama öncesinde kanalları temizle"
 
 msgid "Clear filters"
-msgstr ""
+msgstr "Filtreleri temizle"
 
 msgid "Clear fixed"
 msgstr "Sabiti temizle"
 
 msgid "Clear movie selection"
-msgstr ""
+msgstr "Film seçimini temizle"
 
 #
 msgid "Clear play list"
 msgstr "Oynatma listesini temizle"
 
 msgid "Clear play queue"
-msgstr ""
+msgstr "Oynatma sırasını temizle"
 
 msgid "Clear search"
 msgstr "Aramayı temizle"
@@ -4321,7 +4321,7 @@ msgid "Colorimetry for HDR content"
 msgstr "HDR içeriği için renk ölçümü"
 
 msgid "Combine series or matching recording titles in the view. Movie files stay in their original locations. Grouping can be disabled for individual folders from the context menu."
-msgstr ""
+msgstr "Görünümdeki dizi bölümlerini veya eşleşen kayıt başlıklarını birleştirin. Video dosyaları kendi özgün konumlarında kalır. Gruplama özelliği, içerik menüsü aracılığıyla belirli klasörler için devre dışı bırakılabilir."
 
 msgid "Combined"
 msgstr "Kombine"
@@ -4402,10 +4402,10 @@ msgid "Comoros"
 msgstr "Komorlar"
 
 msgid "Compact list"
-msgstr ""
+msgstr "Özet liste"
 
 msgid "Companion files are shared by multiple media files. Rename or move the variants separately after resolving their companion files."
-msgstr ""
+msgstr "Tamamlayıcı dosyalar, birden fazla medya dosyası tarafından paylaşılır. Tamamlayıcı dosyalarla ilgili durumu çözümledikten sonra, söz konusu varyantları ayrıca yeniden adlandırın veya taşıyın."
 
 msgid "Compatibility And Emulation"
 msgstr "Uyumluluk ve Emülasyon"
@@ -4422,7 +4422,7 @@ msgstr "Tam Yedekleme"
 
 #, python-format
 msgid "Completed: %(done)d of %(total)d movies"
-msgstr ""
+msgstr "Tamamlandı: %(total)d filmden %(done)d tanesi"
 
 #
 msgid "Complex (allows mixing audio tracks and aspects)"
@@ -4620,10 +4620,10 @@ msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Teletext görüntüleme alanının y eksenindeki bitiş koordinatını yapılandırın."
 
 msgid "Configure the existing movie player resume behavior."
-msgstr ""
+msgstr "Mevcut film oynatıcının kaldığı yerden devam etme davranışını yapılandırın."
 
 msgid "Configure the existing movie player stop action."
-msgstr ""
+msgstr "Mevcut film oynatıcının durdurma eylemini yapılandırın."
 
 msgid "Configure the first audio language (highest priority)."
 msgstr "Birinci ses dilini yapılandırın (en yüksek öncelik)."
@@ -4951,7 +4951,7 @@ msgid "Contacting IceTV server and setting up your %s %s."
 msgstr "IceTV sunucusuna bağlanılıyor ve %s %s cihazınızın ayarları yapılıyor."
 
 msgid "Container"
-msgstr ""
+msgstr "Konteyner"
 
 msgid "Content"
 msgstr "İçerik"
@@ -4970,7 +4970,7 @@ msgid "Continue in background"
 msgstr "Arka planda devam et"
 
 msgid "Continue in the last direction"
-msgstr ""
+msgstr "Son yönde devam edin"
 
 msgid "Continue playback"
 msgstr "Oynatmaya devam et"
@@ -4983,7 +4983,7 @@ msgid "Continue to run the task in the background"
 msgstr "Görevi arka planda çalıştırmaya devam et"
 
 msgid "Continue watching"
-msgstr ""
+msgstr "İzlemeye devam et"
 
 msgid "Continue with package download and installation"
 msgstr "Paket indirme ve yükleme işlemine devam et"
@@ -5173,7 +5173,7 @@ msgstr ""
 "Ayarları tekrar değiştirmek ister misiniz?"
 
 msgid "Countries"
-msgstr ""
+msgstr "Ülkeler"
 
 msgid "Country"
 msgstr "Ülke"
@@ -5259,10 +5259,10 @@ msgid "Create kernel dump."
 msgstr "Çekirdek dökümü oluşturuluyor."
 
 msgid "Create missing EIT file"
-msgstr ""
+msgstr "Eksik EIT dosyasını oluştur"
 
 msgid "Create missing EIT files"
-msgstr ""
+msgstr "Eksik EIT dosyalarını oluşturun"
 
 msgid "Create or remove the RTL2832 DVB module blacklist. A full receiver reboot is required; while enabled, this USB tuner is available for DAB+ but not for DVB-T/T2."
 msgstr "RTL2832 DVB modülü kara listesini oluşturun veya kaldırın. Alıcının tamamen yeniden başlatılması gerekir; bu özellik etkinleştirildiğinde, söz konusu USB tuner DAB+ için kullanılabilir ancak DVB-T/T2 için kullanılamaz."
@@ -5305,7 +5305,7 @@ msgid "Create the flash expander in the selected device"
 msgstr "Seçilen cihazda flaş genişletici oluştur"
 
 msgid "Create virtual collection"
-msgstr ""
+msgstr "Sanal koleksiyon oluştur"
 
 msgid "Create working directories."
 msgstr "Çalışma dizinleri oluşturuluyor."
@@ -5351,7 +5351,7 @@ msgid "Cree"
 msgstr "Cree"
 
 msgid "Crew"
-msgstr ""
+msgstr "Ekip"
 
 #
 msgid "Cricket"
@@ -5451,7 +5451,7 @@ msgid "Current directory (%s)"
 msgstr "Geçerli dizin (%s)"
 
 msgid "Current folder and subfolders"
-msgstr ""
+msgstr "Mevcut klasör ve alt klasörler"
 
 msgid "Current installed"
 msgstr "Geçerli kurulu"
@@ -5506,7 +5506,7 @@ msgid "Currently Remembered Volume Levels:"
 msgstr "Geçerli Hafızada Tutulan Ses Seviyeleri:"
 
 msgid "Cursor after marking a movie"
-msgstr ""
+msgstr "Bir filmi işaretledikten sonra imleç"
 
 #
 msgid "Custom"
@@ -5548,7 +5548,7 @@ msgstr "Kes"
 
 #, python-format
 msgid "Cut %s"
-msgstr ""
+msgstr "%s kes"
 
 msgid "CutList Skipping"
 msgstr "Kesim Listesi Atlama"
@@ -5763,10 +5763,10 @@ msgid "Darts"
 msgstr "Dartlar"
 
 msgid "Database sort order"
-msgstr ""
+msgstr "Veritabanı sıralama düzeni"
 
 msgid "Database view"
-msgstr ""
+msgstr "Veritabanı görünümü"
 
 #
 msgid "Date"
@@ -5921,14 +5921,14 @@ msgid "Default left column directory"
 msgstr "Varsayılan sol sütun dizini"
 
 msgid "Default movie location"
-msgstr ""
+msgstr "Varsayılan film konumu"
 
 #, python-format
 msgid "Default movie location (%s)"
 msgstr "Varsayılan film konumu (%s)"
 
 msgid "Default movie location after standby"
-msgstr ""
+msgstr "Bekleme modundan sonra varsayılan film konumu"
 
 #
 msgid "Default movie selection location"
@@ -5941,7 +5941,7 @@ msgid "Default right column directory"
 msgstr "Varsayılan sağ sütun dizini"
 
 msgid "Default skin layout"
-msgstr ""
+msgstr "Varsayılan arayüz düzeni"
 
 msgid "Default sort order for directories in the left column."
 msgstr "Sol sütundaki dizinler için varsayılan sıralama düzeni."
@@ -6155,7 +6155,7 @@ msgid "Delete character under cursor or select PM times"
 msgstr "İmlecin altındaki karakteri silin veya PM saatlerini seçin"
 
 msgid "Delete collection (keep movie files)"
-msgstr ""
+msgstr "Koleksiyonu sil (film dosyalarını tut)"
 
 #
 msgid "Delete current line"
@@ -6554,7 +6554,7 @@ msgid "Disable operator profiles"
 msgstr "Operatör profillerini devre dışı bırak"
 
 msgid "Disable previews, start them manually, or start after resting on a movie. Automatic previews access movie storage and do not interrupt timeshift or an already playing movie."
-msgstr ""
+msgstr "Önizlemeleri devre dışı bırakabilir, manuel olarak başlatabilir veya bir filmde bekledikten sonra başlatabilirsiniz. Otomatik önizlemeler film depolama alanına erişir ve zaman kaydırma özelliğini veya zaten oynatılan bir filmi kesintiye uğratmaz."
 
 msgid "Disable saved Wi-Fi network"
 msgstr "Kayıtlı Wi-Fi ağını devre dışı bırak"
@@ -6671,7 +6671,7 @@ msgid "Display type"
 msgstr "Ekran tipi"
 
 msgid "Displayed movie title"
-msgstr ""
+msgstr "Görüntülenen film başlığı"
 
 msgid "Distance"
 msgstr "Mesafe"
@@ -7077,7 +7077,7 @@ msgid "Duplicate the current line"
 msgstr "Geçerli satırı çoğalt"
 
 msgid "Duration"
-msgstr ""
+msgstr "Süre"
 
 msgid "During this time, the transmitter and recording destination are checked. If the destination (e.g., NAS) isn't ready in time, this time can be increased."
 msgstr "Bu süre zarfında, verici ve kayıt hedefi kontrol edilir. Hedef (örneğin, NAS) zamanında hazır değilse, bu süre uzatılabilir."
@@ -7281,17 +7281,17 @@ msgid "Edit current line"
 msgstr "Geçerli satırı düzenle"
 
 msgid "Edit movie"
-msgstr ""
+msgstr "Filmi düzenle"
 
 msgid "Edit play queue"
-msgstr ""
+msgstr "Çalma sırasını düzenle"
 
 #, python-format
 msgid "Edit play queue (%d movies)"
-msgstr ""
+msgstr "Oynatma sırasını düzenle (%d film)"
 
 msgid "Edit recording information"
-msgstr ""
+msgstr "Kayıt bilgilerini düzenle"
 
 #
 msgid "Edit settings"
@@ -7341,7 +7341,7 @@ msgid "Edit the username."
 msgstr "Kullanıcı adını düzenleyin."
 
 msgid "Edit title and description"
-msgstr ""
+msgstr "Başlığı ve açıklamayı düzenle"
 
 #
 msgid "Education"
@@ -7499,10 +7499,10 @@ msgid "Enable adapter"
 msgstr "Bağdaştırıcıyı etkinleştir"
 
 msgid "Enable an installed movie database in Movie Selection settings to open the library."
-msgstr ""
+msgstr "Kitaplığı açmak için, Film Seçimi ayarlarında yüklü bir film veritabanını etkinleştirin."
 
 msgid "Enable an installed movie library provider for metadata, artwork and the Advance Movie List. Local folders remain available if the provider is unavailable."
-msgstr ""
+msgstr "Meta veriler, görseller ve Gelişmiş Film Listesi (Advance Movie List) için yüklü bir film kütüphanesi sağlayıcısını etkinleştirin. Sağlayıcının kullanılamadığı durumlarda yerel klasörler erişilebilir kalmaya devam eder."
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Ek bilgiler içerebilecek ikinci Bilgi Çubuğunu etkinleştirin ve süresini ayarlayın ('OK' tuşuna iki kez basın)."
@@ -7831,7 +7831,7 @@ msgid "Enter a directory or process a file (play/view/edit/install/extract/run)"
 msgstr "Bir dizine girin veya bir dosyayı işleyin (oynat/görüntüle/düzenle/kur/çıkar/çalıştır)"
 
 msgid "Enter a movie title."
-msgstr ""
+msgstr "Bir film adı girin."
 
 msgid "Enter a name for this timer."
 msgstr "Bu zamanlayıcı için bir isim girin."
@@ -8962,13 +8962,13 @@ msgid "File compression"
 msgstr "Dosya sıkıştırma"
 
 msgid "File information"
-msgstr ""
+msgstr "Dosya bilgileri"
 
 msgid "File name"
-msgstr ""
+msgstr "Dosya adı"
 
 msgid "File operations require a regular movie file."
-msgstr ""
+msgstr "Dosya işlemleri, standart bir film dosyası gerektirir."
 
 msgid "File sorting mode"
 msgstr "Dosya sıralama modu"
@@ -8990,10 +8990,10 @@ msgid "Files And Directories"
 msgstr "Dosyalar ve Dizinler"
 
 msgid "Files and folders"
-msgstr ""
+msgstr "Dosyalar ve klasörler"
 
 msgid "Files or database"
-msgstr ""
+msgstr "Dosyalar veya veritabanı"
 
 msgid "Files/folders to exclude from backup"
 msgstr "Yedeklemeden çıkarılacak dosyalar / klasörler"
@@ -9008,7 +9008,7 @@ msgid "Film/Cinema"
 msgstr "Film/Sinema"
 
 msgid "Filter"
-msgstr ""
+msgstr "Filtre"
 
 msgid "Filter extensions"
 msgstr "Filtre uzantıları"
@@ -9038,10 +9038,10 @@ msgid "Find connected events"
 msgstr "Bağlantılı etkinlikler aranıyor"
 
 msgid "Find old watched movies"
-msgstr ""
+msgstr "Eskiden izlenmiş filmleri bul"
 
 msgid "Find orphaned movie companion files"
-msgstr ""
+msgstr "Sahipsiz film tamamlayıcı dosyalarını bul"
 
 #, python-format
 msgid "Find out more at %s"
@@ -9078,7 +9078,7 @@ msgid "Finnish"
 msgstr "Fince"
 
 msgid "First chapter marker"
-msgstr ""
+msgstr "İlk bölüm işareti"
 
 msgid "First playable time shift file!"
 msgstr "Oynanabilir ilk zaman kaydırma dosyası!"
@@ -9181,19 +9181,19 @@ msgid "Flush Cache and Rescan"
 msgstr "Önbelleği Temizle ve Yeniden Tara"
 
 msgid "Folder movie counts and sizes updated."
-msgstr ""
+msgstr "Klasördeki film sayıları ve boyutları güncellendi."
 
 msgid "Folder movie information"
-msgstr ""
+msgstr "Film klasörü bilgileri"
 
 msgid "Folder sorting"
-msgstr ""
+msgstr "Klasör sıralama"
 
 msgid "Folders"
-msgstr ""
+msgstr "Klasörler"
 
 msgid "Folders first"
-msgstr ""
+msgstr "Önce klasörler"
 
 msgid "Folk Music"
 msgstr "Halk Müziği"
@@ -9205,13 +9205,13 @@ msgid "Folk/Traditional music"
 msgstr "Halk/Geleneksel müzik"
 
 msgid "Follow changes to the EPG start and end times, keeping the recording margins. Missing EPG data or timer conflicts leave the times unchanged."
-msgstr ""
+msgstr "EPG başlangıç ve bitiş saatlerindeki değişiklikleri, kayıt paylarını koruyacak şekilde takip edin. EPG verisinin eksik olduğu veya zamanlayıcı çakışmalarının yaşandığı durumlarda saatler değiştirilmeden bırakılır."
 
 msgid "Follow linked folders in snapshots"
-msgstr ""
+msgstr "Anlık görüntülerdeki bağlantılı klasörleri takip et"
 
 msgid "Follow symbolic links during the read-only movie snapshot task. Loops and duplicate directory targets are skipped. Cleanup tasks never follow symbolic links."
-msgstr ""
+msgstr "Salt okunur film anlık görüntüsü görevi sırasında sembolik bağlantıları izleyin. Döngüler ve yinelenen dizin hedefleri atlanır. Temizleme görevleri hiçbir zaman sembolik bağlantıları takip etmez."
 
 msgid "Font size"
 msgstr "Yazı tipi boyutu"
@@ -9270,7 +9270,7 @@ msgid "Force progressive for streams and files"
 msgstr "Akışlar ve dosyalar için aşamalı zorlama"
 
 msgid "Forced"
-msgstr ""
+msgstr "Zorunlu"
 
 msgid "Foreign Language"
 msgstr "Yabancı Dil"
@@ -9381,7 +9381,7 @@ msgid "From :"
 msgstr "Kimden :"
 
 msgid "From the context menu"
-msgstr ""
+msgstr "İçerik menüsünden"
 
 msgid "Front"
 msgstr "Ön"
@@ -9732,7 +9732,7 @@ msgid "Group"
 msgstr "Grup"
 
 msgid "Group recordings into virtual folders"
-msgstr ""
+msgstr "Kayıtları sanal klasörlerde gruplandırın"
 
 msgid "Grow drop"
 msgstr "Büyüme kaybı"
@@ -9904,7 +9904,7 @@ msgid "Heard Island and McDonald Islands"
 msgstr "Heard ve McDonald Adaları"
 
 msgid "Hearing impaired"
-msgstr ""
+msgstr "İşitme engelli"
 
 msgid "Hebrew"
 msgstr "İbranice"
@@ -9973,7 +9973,7 @@ msgid "HiSilicon specific information not found."
 msgstr "HiSilicon'a özgü bilgi bulunamadı."
 
 msgid "Hidden folders"
-msgstr ""
+msgstr "Gizli klasörler"
 
 msgid "Hidden network"
 msgstr "Gizli ağ"
@@ -10033,7 +10033,7 @@ msgid "Hide the OSD after a period without key presses. Screens and background j
 msgstr "Belirli bir süre boyunca tuşa basılmadığında OSD'yi gizleyin. Ekranlar ve arka plan işlemleri çalışmaya devam eder. İlk tuş basımı yalnızca OSD'yi geri getirir; yeni açılan iletişim kutuları da onu tekrar görünür kılar. Bir sonraki GUI yeniden başlatmasına kadar duraklatmak için 0 tuşunu basılı tutun veya devam ettirmek için 0 tuşuna tekrar basılı tutun."
 
 msgid "Hide this folder"
-msgstr ""
+msgstr "Bu klasörü gizle"
 
 msgid "Hide zap errors"
 msgstr "Kanal değiştirme hata mesajlarını gizle"
@@ -10471,7 +10471,7 @@ msgid "Ignore services on satellites that are not configured in the tuner settin
 msgstr "Tuner ayarlarında yapılandırılmamış uydulardaki kanalları göz ardı edin."
 
 msgid "Ignore the resume position when the configured watched percentage has been reached."
-msgstr ""
+msgstr "Yapılandırılmış izlenme yüzdesine ulaşıldığında devam etme konumunu göz ardı edin."
 
 msgid "Ignore unexpectedly wake up and stay in Standby"
 msgstr "Beklenmedik şekilde uyanmayı yok say ve bekleme modunda kal"
@@ -10553,7 +10553,7 @@ msgid "In progress"
 msgstr "Devam ediyor"
 
 msgid "In progress from (%)"
-msgstr ""
+msgstr "Devam ediyor (%)"
 
 msgid "In use by DAB+"
 msgstr "DAB+ tarafından kullanılıyor"
@@ -10728,7 +10728,7 @@ msgid "Information"
 msgstr "Bilgi"
 
 msgid "Information list"
-msgstr ""
+msgstr "Bilgi listesi"
 
 msgid "Informational/Educational/School programs"
 msgstr "Bilgilendirme/Eğitim/Okul programları"
@@ -10918,7 +10918,7 @@ msgid "Internal flash"
 msgstr "Dahili flaş"
 
 msgid "Internal flash only allows small picon packages."
-msgstr ""
+msgstr "Dahili bellek, yalnızca küçük pikon paketlerine izin verir."
 
 #, python-format
 msgid "Internal flash:  %s %s "
@@ -10947,14 +10947,14 @@ msgid "Invalid Help Page"
 msgstr "Geçersiz Yardım Sayfası"
 
 msgid "Invalid filename."
-msgstr ""
+msgstr "Geçersiz dosya adı."
 
 #
 msgid "Invalid location!"
 msgstr "Geçersiz konum!"
 
 msgid "Invalid original movie location."
-msgstr ""
+msgstr "Geçersiz orijinal film çekim yeri."
 
 msgid "Invalid swap file size."
 msgstr "Geçersiz takas dosyası boyutu."
@@ -11143,17 +11143,17 @@ msgid "Kazakhstan"
 msgstr "Kazakistan"
 
 msgid "Keep previous playback position as chapter marker"
-msgstr ""
+msgstr "Önceki oynatma konumunu bölüm işareti olarak tut"
 
 #
 msgid "Keep service"
 msgstr "Kanalı tut"
 
 msgid "Keep the newest recordings up to this limit before applying the selected display order."
-msgstr ""
+msgstr "Seçilen görüntüleme sırasını uygulamadan önce, en yeni kayıtları bu sınıra kadar tutun."
 
 msgid "Keep the play queue across GUI restarts. The queue is stored in the receiver configuration without accessing movie storage."
-msgstr ""
+msgstr "GUI yeniden başlatmalarında oynatma sırasını koruyun. Sıra, film depolama alanına erişmeden alıcı yapılandırmasında saklanır."
 
 msgid "Keep warning"
 msgid_plural "Keep warnings"
@@ -11401,19 +11401,19 @@ msgid "Large"
 msgstr "Büyük"
 
 msgid "Large tiles"
-msgstr ""
+msgstr "Büyük karolar"
 
 msgid "Last 24 hours"
-msgstr ""
+msgstr "Son 24 saat"
 
 msgid "Last 30 days"
-msgstr ""
+msgstr "Son 30 gün"
 
 msgid "Last 7 days"
-msgstr ""
+msgstr "Son 7 gün"
 
 msgid "Last 90 days"
-msgstr ""
+msgstr "Son 90 gün"
 
 #
 msgid "Last config"
@@ -11423,10 +11423,10 @@ msgid "Last flash"
 msgstr "Son yükleme"
 
 msgid "Last folder"
-msgstr ""
+msgstr "Son klasör"
 
 msgid "Last playback position"
-msgstr ""
+msgstr "Son oynatma konumu"
 
 #
 msgid "Last speed"
@@ -11449,22 +11449,22 @@ msgid "Later"
 msgstr "Sonra"
 
 msgid "Latest recordings"
-msgstr ""
+msgstr "En son kayıtlar"
 
 msgid "Latest recordings collection"
-msgstr ""
+msgstr "En son kayıtlar koleksiyonu"
 
 msgid "Latest recordings folders"
-msgstr ""
+msgstr "En son kayıtlar klasörleri"
 
 msgid "Latest recordings maximum"
-msgstr ""
+msgstr "En son kayıtlar maksimum"
 
 msgid "Latest recordings period"
-msgstr ""
+msgstr "En son kayıtlar dönemi"
 
 msgid "Latest recordings sorting"
-msgstr ""
+msgstr "En son kayıtların sıralanması"
 
 #
 msgid "Latin"
@@ -11684,10 +11684,10 @@ msgid "List of storage devices"
 msgstr "Depolama cihazları listesi"
 
 msgid "List or grid style"
-msgstr ""
+msgstr "Liste veya ızgara stili"
 
 msgid "List style"
-msgstr ""
+msgstr "Liste stili"
 
 msgid "Lists reloaded!"
 msgstr "Listeler yeniden yüklendi!"
@@ -11720,7 +11720,7 @@ msgid "Load EPG Cache"
 msgstr "EPG Önbelleğini Yükle"
 
 msgid "Load M3U playlist"
-msgstr ""
+msgstr "M3U oynatma listesini yükle"
 
 #
 msgid "Load play list"
@@ -11740,7 +11740,7 @@ msgid "Loading information, please wait..."
 msgstr "Bilgi yükleniyor, lütfen bekleyin..."
 
 msgid "Loading movie library..."
-msgstr ""
+msgstr "Film kütüphanesi yükleniyor..."
 
 msgid "Loading skin..."
 msgstr "Arayüz yükleniyor..."
@@ -12007,7 +12007,7 @@ msgstr "Çoklu önyükleme cihazınızın bakımını yapın."
 
 #, python-format
 msgid "Maintenance scan finished: %d candidates. Review them from Movie maintenance in the context menu."
-msgstr ""
+msgstr "Bakım taraması tamamlandı: %d aday bulundu. Bunları, içerik menüsündeki \"Film bakımı\" bölümünden inceleyebilirsiniz."
 
 msgid "Make"
 msgstr "Yap"
@@ -12148,28 +12148,28 @@ msgid "Margin before zap"
 msgstr "Kanal değiştirme öncesi boşluk süresi ekle"
 
 msgid "Mark / unmark movie"
-msgstr ""
+msgstr "Filmi işaretle / işaretini kaldır"
 
 msgid "Mark As Dedicated 3D Service"
 msgstr "Özel 3D Kanalı Olarak İşaretle"
 
 msgid "Mark as unwatched"
-msgstr ""
+msgstr "İzlenmemiş olarak işaretle"
 
 msgid "Mark as watched"
-msgstr ""
+msgstr "İzlendi olarak işaretle"
 
 msgid "Mark new recordings"
-msgstr ""
+msgstr "Yeni kayıtları işaretle"
 
 msgid "Mark selected movies as unwatched"
-msgstr ""
+msgstr "Filmleri izlenmemiş olarak işaretle"
 
 msgid "Mark selected movies as watched"
-msgstr ""
+msgstr "Filmleri izlendi olarak işaretle"
 
 msgid "Mark unwatched recordings from the last 24 hours or since the previous visit. Returning from playback keeps the same visit."
-msgstr ""
+msgstr "Son 24 saat içinde veya bir önceki ziyaretten bu yana gerçekleşen, henüz izlenmemiş kayıtları işaretleyin. Kayıt oynatımından geri dönüldüğünde, aynı ziyaret süreci devam eder."
 
 msgid "Marker Actions"
 msgstr "İşaretleyici İşlemleri"
@@ -12253,7 +12253,7 @@ msgid "Media Stream"
 msgstr "Medya Akışı"
 
 msgid "Media information is currently unavailable."
-msgstr ""
+msgstr "Medya bilgileri şu anda mevcut değil."
 
 msgid "Media playback Remaining/Elapsed as"
 msgstr "Medya oynatma Kalan/Geçen süre olarak"
@@ -12401,19 +12401,19 @@ msgid "Minimum age %d years"
 msgstr "Minimum yaş %d yıl"
 
 msgid "Minimum age for watched movie maintenance (days)"
-msgstr ""
+msgstr "İzlenmiş film kaydının tutulması için gereken minimum süre (gün)"
 
 msgid "Minimum difference between idle and moving current."
 msgstr "Boşta ve hareketli akım arasındaki minimum fark."
 
 msgid "Minimum playback percentage for the in-progress status. A movie without a playback position remains unwatched."
-msgstr ""
+msgstr "\"Devam ediyor\" durumu için gereken minimum oynatma yüzdesi. Oynatma konumu bulunmayan bir film, izlenmemiş olarak kabul edilir."
 
 msgid "Minimum playback percentage for the watched status, watched-movie restart and manual maintenance."
-msgstr ""
+msgstr "İzlenme durumu, izlenen filmin yeniden başlatılması ve manuel bakım için minimum oynatma yüzdesi."
 
 msgid "Minimum recordings per virtual folder"
-msgstr ""
+msgstr "Sanal klasör başına minimum kayıt sayısı"
 
 msgid "Minimum send interval"
 msgstr "Minimum gönderim aralığı"
@@ -12598,15 +12598,15 @@ msgstr "Taşı"
 
 #, python-format
 msgid "Move %d selected movies and their companion files to the trashcan?"
-msgstr ""
+msgstr "Seçili %d film ve bunların tamamlayıcı dosyaları çöp kutusuna taşınsın mı?"
 
 #, python-format
 msgid "Move %d selected watched movies and their companion files to the trashcan?"
-msgstr ""
+msgstr "Seçilen %d adet izlenen filmi ve bunlara eşlik eden dosyaları çöp kutusuna taşınsın mı?"
 
 #, python-format
 msgid "Move '%s' and its companion files to the trashcan?"
-msgstr ""
+msgstr "'%s' öğesi ve onunla ilişkili dosyaları çöp kutusuna taşınsın mı?"
 
 msgid "Move Down"
 msgstr "Aşağı Taşı"
@@ -12646,7 +12646,7 @@ msgid "Move directory/file to target directory"
 msgstr "Dizini/dosyayı hedef dizine taşı"
 
 msgid "Move down"
-msgstr ""
+msgstr "Aşağı in"
 
 msgid "Move down a line"
 msgstr "Bir satır aşağı git"
@@ -12709,7 +12709,7 @@ msgid "Move job queued."
 msgstr "Taşıma işlemi sıraya alındı."
 
 msgid "Move left"
-msgstr ""
+msgstr "Sola hareket et"
 
 msgid "Move left a item"
 msgstr "Bir öğeyi sola kaydır"
@@ -12718,7 +12718,7 @@ msgid "Move only highlighted file"
 msgstr "Yalnızca vurgulanan dosyayı taşı"
 
 msgid "Move right"
-msgstr ""
+msgstr "Sağa hareket et"
 
 msgid "Move right a item"
 msgstr "Bir öğeyi sağa kaydır"
@@ -12845,7 +12845,7 @@ msgid "Move to the previous item in list"
 msgstr "Listede bir önceki öğeye geç"
 
 msgid "Move up"
-msgstr ""
+msgstr "Yukarı çık"
 
 msgid "Move up a line"
 msgstr "Bir satır yukarı git"
@@ -12933,61 +12933,61 @@ msgid "Movie Selection Settings"
 msgstr "Film Seçim Ayarları"
 
 msgid "Movie artwork"
-msgstr ""
+msgstr "Film görseli"
 
 msgid "Movie count"
-msgstr ""
+msgstr "Film sayısı"
 
 msgid "Movie count and size"
-msgstr ""
+msgstr "Film sayısı ve boyutu"
 
 msgid "Movie count, size and new movies"
-msgstr ""
+msgstr "Film sayısı, boyut ve yeni filmler"
 
 msgid "Movie database"
-msgstr ""
+msgstr "Film veritabanı"
 
 msgid "Movie database unavailable"
-msgstr ""
+msgstr "Film veritabanına ulaşılamıyor"
 
 msgid "Movie database unavailable. Select files and folders from View in the menu."
-msgstr ""
+msgstr "Film veritabanına ulaşılamıyor. Menüdeki Görünüm kısmından dosya ve klasörleri seçin."
 
 msgid "Movie date format"
-msgstr ""
+msgstr "Film tarihi biçimi"
 
 msgid "Movie file operations"
-msgstr ""
+msgstr "Film dosyası işlemleri"
 
 msgid "Movie front display"
-msgstr ""
+msgstr "Film ön gösterimi"
 
 msgid "Movie information"
-msgstr ""
+msgstr "Film bilgisi"
 
 msgid "Movie library"
-msgstr ""
+msgstr "Film kütüphanesi"
 
 msgid "Movie maintenance"
-msgstr ""
+msgstr "Film bakımı"
 
 msgid "Movie play queue"
-msgstr ""
+msgstr "Film oynatma sırası"
 
 msgid "Movie playback may not use an invalid/inappropriate directory."
 msgstr "Film oynatımında geçersiz/uygunsuz bir klasör kullanılmamalıdır."
 
 msgid "Movie player style"
-msgstr ""
+msgstr "Film oynatıcı stili"
 
 msgid "Movie playlists support local files and mounted storage only."
-msgstr ""
+msgstr "Film oynatma listeleri yalnızca yerel dosyaları ve bağlı depolama birimlerini destekler."
 
 msgid "Movie preview"
-msgstr ""
+msgstr "Film önizlemesi"
 
 msgid "Movie size"
-msgstr ""
+msgstr "Film boyutu"
 
 msgid "Movie/Drama"
 msgstr "Film/Dram"
@@ -13000,7 +13000,7 @@ msgid "Movies"
 msgstr "Filmler"
 
 msgid "Movies and series"
-msgstr ""
+msgstr "Filmler ve diziler"
 
 #
 msgid "Moving"
@@ -13470,13 +13470,13 @@ msgid "New media"
 msgstr "Yeni medya"
 
 msgid "New movie filename (without extension)"
-msgstr ""
+msgstr "Yeni film dosya adı (uzantı olmadan)"
 
 msgid "New movies"
-msgstr ""
+msgstr "Yeni filmler"
 
 msgid "New movies: update folder statistics"
-msgstr ""
+msgstr "Yeni filmler: klasör istatistiklerini güncelle"
 
 #
 msgid "New password"
@@ -13502,7 +13502,7 @@ msgid "NewDirectory"
 msgstr "Yeni Dizin"
 
 msgid "Newest recordings first"
-msgstr ""
+msgstr "En yeni kayıtlar önce"
 
 msgid "News"
 msgstr "Haberler"
@@ -13543,10 +13543,10 @@ msgid "Next higher resolution"
 msgstr "Sonraki daha yüksek çözünürlük"
 
 msgid "Next movie"
-msgstr ""
+msgstr "Sıradaki film"
 
 msgid "Next page"
-msgstr ""
+msgstr "Sonraki sayfa"
 
 msgid "Next quad PiP channel"
 msgstr "Sonraki dörtlü PiP kanalı"
@@ -13671,7 +13671,7 @@ msgid "No demux available"
 msgstr "Demux mevcut değil"
 
 msgid "No description available."
-msgstr ""
+msgstr "Açıklama bulunmuyor."
 
 #
 msgid "No displayable files on this medium found!"
@@ -13707,7 +13707,7 @@ msgid "No hard disks detected."
 msgstr "Hiçbir sabit disk algılanmadı."
 
 msgid "No hidden folders"
-msgstr ""
+msgstr "Gizli klasör yok"
 
 msgid "No hosts found yet - still scanning..."
 msgstr "Henüz hiçbir sunucu bulunamadı - tarama devam ediyor..."
@@ -13719,17 +13719,17 @@ msgid "No log files found so debug logs are unavailable!"
 msgstr "Hiçbir günlük dosyası bulunamadı, bu nedenle hata ayıklama günlükleri kullanılamıyor!"
 
 msgid "No maintenance candidates found."
-msgstr ""
+msgstr "Bakım adayı bulunamadı."
 
 #
 msgid "No matching place names found"
 msgstr "Eşleşen yer adı bulunamadı"
 
 msgid "No movie description is available to create an EIT file."
-msgstr ""
+msgstr "EIT dosyası oluşturmak için herhangi bir film açıklaması mevcut değil."
 
 msgid "No movies found. Select files and folders from View to see unscanned recordings."
-msgstr ""
+msgstr "Film bulunamadı. Taranmamış kayıtları görmek için Görünüm kısmından dosya ve klasörler seçin."
 
 msgid "No network adapters enabled/available!"
 msgstr "Hiçbir ağ bağdaştırıcısı etkin/kullanılabilir değil!"
@@ -13763,7 +13763,7 @@ msgid "No satellite, terrestrial or cable tuner is configured. Please check your
 msgstr "Uydu, karasal veya kablolu yayın tuneri yapılandırılmamış. Lütfen tuner ayarlarınızı kontrol edin."
 
 msgid "No saved playback position is available."
-msgstr ""
+msgstr "Kaydedilmiş bir oynatma konumu bulunmuyor."
 
 #
 msgid "No service"
@@ -13849,7 +13849,7 @@ msgid "No tuners are currently streaming."
 msgstr "Şu anda hiçbir tuner yayın yapmamaktadır."
 
 msgid "No unambiguous series filenames are available. A series name, season and episode are required."
-msgstr ""
+msgstr "Belirsizlik içermeyen dizi dosya adları mevcut değil. Dizi adı, sezon ve bölüm bilgisi gereklidir."
 
 msgid "No unused swap file name is available."
 msgstr "Kullanılmayan takas dosyası adı bulunmuyor."
@@ -14226,7 +14226,7 @@ msgid "Ojibwa"
 msgstr "Ojibwa Dili"
 
 msgid "Oldest recordings first"
-msgstr ""
+msgstr "Önce en eski kayıtlar"
 
 msgid "Oldies"
 msgstr "Eskiler"
@@ -14298,7 +14298,7 @@ msgid "Only HD"
 msgstr "Sadece HD"
 
 msgid "Only create a group when at least this many matching recordings are present."
-msgstr ""
+msgstr "Yalnızca en az bu sayıda eşleşen kayıt mevcut olduğunda grup oluşturun."
 
 #
 msgid "Only free scan"
@@ -14308,7 +14308,7 @@ msgid "Only in Standby"
 msgstr "Yalnızca Bekleme modunda"
 
 msgid "Only include recordings made during this period."
-msgstr ""
+msgstr "Yalnızca bu dönemde yapılmış kayıtları dahil edin."
 
 msgid "Only log debug information of GStreamer category. * means all categories."
 msgstr "Yalnızca GStreamer kategorisinin hata ayıklama bilgilerini günlüğe kaydedin. * tüm kategorileri ifade eder."
@@ -14353,7 +14353,7 @@ msgid "Open AutoTimer Overview"
 msgstr "AutoTimer Genel Bakışı Aç"
 
 msgid "Open BDMV and BRD folder structures with the native Blu-ray service."
-msgstr ""
+msgstr "BDMV ve BRD klasör yapılarını yerel Blu-ray hizmetiyle açın."
 
 msgid "Open Bouquet selection"
 msgstr "Buket seçimini aç"
@@ -14365,10 +14365,10 @@ msgid "Open Capability"
 msgstr "Yetenekleri Aç"
 
 msgid "Open DVD images individually with the DVD player."
-msgstr ""
+msgstr "DVD görüntülerini DVD oynatıcı ile ayrı olarak açın."
 
 msgid "Open DVD images individually with the DVD player. Play queues support video and audio files."
-msgstr ""
+msgstr "DVD görüntülerini DVD oynatıcı ile ayrı olarak açın. Oynatma kuyrukları video ve ses dosyalarını destekler."
 
 msgid "Open EPG"
 msgstr "EPG'yi Aç"
@@ -14472,16 +14472,16 @@ msgid "Open Usage and GUI Settings"
 msgstr "Kullanım ve Kullanıcı Arayüzü Ayarlarını Aç"
 
 msgid "Open VIDEO_TS and DVD folder structures directly with the DVD player."
-msgstr ""
+msgstr "VIDEO_TS ve DVD klasör yapılarını doğrudan DVD oynatıcıyla açın."
 
 msgid "Open VideoMode"
 msgstr "Görüntü modunu aç"
 
 msgid "Open a movie directly when its filename matches its containing folder. File operations still treat the containing folder as a folder."
-msgstr ""
+msgstr "Dosya adı, içinde bulunduğu klasörün adıyla eşleştiğinde filmi doğrudan açın. Dosya işlemleri, söz konusu klasörü yine bir klasör olarak ele almaya devam eder."
 
 msgid "Open collection"
-msgstr ""
+msgstr "Koleksiyonu aç"
 
 msgid "Open context menu"
 msgstr "İçerik menüsünü aç"
@@ -14499,7 +14499,7 @@ msgid "Open file sort menu"
 msgstr "Dosya sıralama menüsünü aç"
 
 msgid "Open selected movie or series"
-msgstr ""
+msgstr "Seçili film veya diziyi aç"
 
 msgid "Open service list and select next service"
 msgstr "Kanal listesini aç ve sonraki kanalı seç"
@@ -14553,7 +14553,7 @@ msgid "Open the context menu"
 msgstr "İçerik menüsünü aç"
 
 msgid "Open the last folder, the default movie location, or return to the default location after standby. Returning from playback keeps the selected movie."
-msgstr ""
+msgstr "Son açılan klasörü veya varsayılan film konumunu açın ya da bekleme modundan döndükten sonra varsayılan konuma geri dönün. Oynatmadan geri dönüldüğünde, seçili film korunur."
 
 msgid "Open the multi service EPG view"
 msgstr "Çoklu kanal EPG görünümünü aç"
@@ -14583,7 +14583,7 @@ msgid "OpenWebif picon path"
 msgstr "OpenWebif pikon ayarı"
 
 msgid "Opening movie folder"
-msgstr ""
+msgstr "Film klasörü açılıyor"
 
 msgid "Opening network adapter configuration..."
 msgstr "Ağ bağdaştırıcısı yapılandırması açılıyor..."
@@ -14601,7 +14601,7 @@ msgid "Operating LED status while running"
 msgstr "Alıcı çalışırken LED rengi"
 
 msgid "Operation cancelled."
-msgstr ""
+msgstr "İşlem iptal edildi."
 
 msgid "Opkg Actions"
 msgstr "Opkg İşlemleri"
@@ -14649,7 +14649,7 @@ msgid "Original language"
 msgstr "Orijinal dil"
 
 msgid "Original title"
-msgstr ""
+msgstr "Orijinal başlık"
 
 msgid "Oriya"
 msgstr "Oriya Dili"
@@ -14658,7 +14658,7 @@ msgid "Oromo"
 msgstr "Oromo Dili"
 
 msgid "Orphaned companion files removed."
-msgstr ""
+msgstr "Sahipsiz yardımcı dosyalar kaldırıldı."
 
 msgid "Oscam Information"
 msgstr "Oscam Bilgisi"
@@ -14839,7 +14839,7 @@ msgstr "Paketler ve ilişkili yerel ayarlar"
 
 #, python-format
 msgid "Page %(page)d · %(count)d entries"
-msgstr ""
+msgstr "Sayfa %(page)d · %(count)d kayıt"
 
 msgid "Page down"
 msgstr "Sayfa aşağı"
@@ -14982,7 +14982,7 @@ msgid "Pausing"
 msgstr "Duraklatma"
 
 msgid "Peak load (max queued requests per workerthread)"
-msgstr "En yüksek yük (işlemci başına kuyruğa alınmış maksimum istek sayısı)"
+msgstr "En yüksek yük (işlemci başına sıraya alınmış maksimum istek sayısı)"
 
 msgid "Percentage"
 msgstr "Yüzde"
@@ -15016,15 +15016,15 @@ msgstr "Nokta ve boşluk '. '"
 
 #, python-format
 msgid "Permanently delete %d selected movies and their companion files?"
-msgstr ""
+msgstr "Seçilen %d filmi ve bunlara eşlik eden dosyaları kalıcı olarak silinsin mi?"
 
 #, python-format
 msgid "Permanently delete %d selected orphaned companion files?"
-msgstr ""
+msgstr "Seçilen %d adet sahipsiz eşlik dosyası kalıcı olarak silinsin mi?"
 
 #, python-format
 msgid "Permanently delete '%s' and its companion files?"
-msgstr ""
+msgstr "'%s' öğesini ve onunla ilişkili dosyaları kalıcı olarak silmek istiyor musunuz?"
 
 msgid "Permanently delete all recordings in the trashcan?"
 msgstr "Çöp kutusundaki tüm kayıtları kalıcı olarak silmek mi istiyorsunuz?"
@@ -15175,7 +15175,7 @@ msgid "Pixel Test"
 msgstr "Piksel Testi"
 
 msgid "Pixel format"
-msgstr ""
+msgstr "Piksel biçimi"
 
 msgid "Pixels\n"
 msgstr "Piksel\n"
@@ -15231,7 +15231,7 @@ msgid "Play entry"
 msgstr "Seçimi oynat"
 
 msgid "Play from here"
-msgstr ""
+msgstr "Buradan itibaren oynat"
 
 #
 msgid "Play from next mark or play list entry"
@@ -15264,20 +15264,20 @@ msgid "Play previous"
 msgstr "Öncekini çal"
 
 msgid "Play queue"
-msgstr ""
+msgstr "Çalma sırası"
 
 msgid "Play queue / playlists"
-msgstr ""
+msgstr "Çalma sırası / çalma listeleri"
 
 msgid "Play queue cleared"
-msgstr ""
+msgstr "Çalma sırası temizlendi"
 
 #, python-format
 msgid "Play queue: %d movies (maximum 1024)"
-msgstr ""
+msgstr "Çalma sırası: %d film (en fazla 1024)"
 
 msgid "Play selected movies"
-msgstr ""
+msgstr "Seçili filmleri oynat"
 
 msgid "Play selected service in a PiP window"
 msgstr "Seçilen kanalı bir PiP penceresinde oynat"
@@ -15310,25 +15310,25 @@ msgid "Playback Time:"
 msgstr "Oynatma Süresi:"
 
 msgid "Playback changed. Select the movie again before deleting it."
-msgstr ""
+msgstr "Oynatma durumu değişti. Filmi silmeden önce yeniden seçin."
 
 msgid "Playback, Recording & Time Shift"
 msgstr "Oynatma, Kayıt & Zaman Kaydırma"
 
 msgid "Playing"
-msgstr ""
+msgstr "Oynatılıyor"
 
 msgid "Playlist"
 msgstr "Çalma Listesi"
 
 msgid "Playlist filename (.m3u or .m3u8)"
-msgstr ""
+msgstr "Çalma listesi dosya adı (.m3u veya .m3u8)"
 
 msgid "Playlist loaded"
-msgstr ""
+msgstr "Çalma listesi yüklendi"
 
 msgid "Playlist saved"
-msgstr ""
+msgstr "Çalma listesi kaydedildi"
 
 msgid "Playpause"
 msgstr "Oynatma durdur"
@@ -15434,7 +15434,7 @@ msgid "Please select a resolution..."
 msgstr "Lütfen bir çözünürlük seçin..."
 
 msgid "Please select a target directory."
-msgstr ""
+msgstr "Lütfen bir hedef dizin seçin."
 
 msgid "Please select an aspect ratio..."
 msgstr "Lütfen en boy oranı seçin..."
@@ -15736,10 +15736,10 @@ msgid "Possible causes could be:"
 msgstr "Olası nedenler şunlar olabilir:"
 
 msgid "Poster grid"
-msgstr ""
+msgstr "Poster ızgarası"
 
 msgid "Poster list"
-msgstr ""
+msgstr "Poster listesi"
 
 msgid "Power"
 msgstr "Power"
@@ -15842,19 +15842,19 @@ msgid "Preparation time for recording"
 msgstr "Kayıt için hazırlık süresi"
 
 msgid "Preparing latest recordings. Progress is shown in Tasks."
-msgstr ""
+msgstr "En son kayıtlar hazırlanıyor. İlerleme durumu Görevler kısmında gösterilmektedir."
 
 msgid "Preparing picon storage. Existing picons will be preserved. Please wait..."
-msgstr ""
+msgstr "Pikon deposu hazırlanıyor. Mevcut pikonlar korunacaktır. Lütfen bekleyin..."
 
 msgid "Preparing picon storage. Please wait..."
-msgstr ""
+msgstr "Pikon depolama alanı hazırlanıyor. Lütfen bekleyin..."
 
 msgid "Preparing recording, please wait..."
 msgstr "Kayıt hazırlanıyor, lütfen bekleyin..."
 
 msgid "Preparing series filenames..."
-msgstr ""
+msgstr "Dizi dosya adları hazırlanıyor..."
 
 #
 msgid "Preparing... Please wait"
@@ -16000,13 +16000,13 @@ msgid "Preview menu"
 msgstr "Ön izleme menüsü"
 
 msgid "Preview offset (seconds)"
-msgstr ""
+msgstr "Önizleme sapması (saniye)"
 
 msgid "Preview series filenames from the movie database"
-msgstr ""
+msgstr "Film veritabanından dizi dosya adlarını önizleyin"
 
 msgid "Preview starting point"
-msgstr ""
+msgstr "Önizleme başlangıç noktası"
 
 msgid "Previous"
 msgstr "Önceki"
@@ -16021,7 +16021,7 @@ msgid "Previous channel page"
 msgstr "Önceki kanal sayfası"
 
 msgid "Previous page"
-msgstr ""
+msgstr "Önceki sayfa"
 
 msgid "Previous/Next page"
 msgstr "Önceki/Sonraki sayfa"
@@ -16087,7 +16087,7 @@ msgstr "İşleniyor"
 
 #, python-format
 msgid "Processing %d movies in the background"
-msgstr ""
+msgstr "Arka planda %d film işleniyor"
 
 msgid "Processor information"
 msgstr "İşlemci bilgisi"
@@ -16466,7 +16466,7 @@ msgid "Random Password"
 msgstr "Rastgele Şifre"
 
 msgid "Rating"
-msgstr ""
+msgstr "Derecelendirme"
 
 #, python-format
 msgid "Rating defined by broadcaster - %d"
@@ -16477,7 +16477,7 @@ msgstr "Reyting belirtilmemiş"
 
 #, python-format
 msgid "Rating: %s"
-msgstr ""
+msgstr "Derecelendirme: %s"
 
 msgid "Re-enter new PIN"
 msgstr "Yeni PIN kodunu tekrar girin"
@@ -16495,7 +16495,7 @@ msgid "Read block size"
 msgstr "Blok boyutunu oku"
 
 msgid "Read movie folders"
-msgstr ""
+msgstr "Film klasörlerini oku"
 
 msgid "Read-Only"
 msgstr "Salt Okunur"
@@ -16507,10 +16507,10 @@ msgid "Reader"
 msgstr "Okuyucu"
 
 msgid "Reading media information timed out."
-msgstr ""
+msgstr "Medya bilgileri okunurken zaman aşımı oluştu."
 
 msgid "Reading media information..."
-msgstr ""
+msgstr "Medya bilgileri okunuyor..."
 
 msgid "Ready"
 msgstr "Hazır"
@@ -16631,13 +16631,13 @@ msgid "Reception sources to scan"
 msgstr "Taranacak alım kaynakları"
 
 msgid "Recognize Blu-ray folders"
-msgstr ""
+msgstr "Blu-ray klasörlerini algıla"
 
 msgid "Recognize DVD folders"
-msgstr ""
+msgstr "DVD klasörlerini tanı"
 
 msgid "Recognize movie folders"
-msgstr ""
+msgstr "Film klasörlerini algıla"
 
 #
 msgid "Record"
@@ -16676,7 +16676,7 @@ msgid "Recordable media toolbox"
 msgstr "Kaydedilebilir medya araç kutusu"
 
 msgid "Recorded"
-msgstr ""
+msgstr "Kaydedildi"
 
 #
 msgid "Recording"
@@ -16711,6 +16711,8 @@ msgid ""
 "Recording failed because the channel's programme information could not be received.\n"
 "%s"
 msgstr ""
+"Kanalın program bilgileri alınamadığı için kayıt başarısız oldu.\n"
+"%s"
 
 msgid "Recording finished"
 msgstr "Kayıt tamamlandı"
@@ -16734,13 +16736,13 @@ msgid "Recording stopped"
 msgstr "Kayıt işlemi durduruldu"
 
 msgid "Recording title"
-msgstr ""
+msgstr "Kayıt başlığı"
 
 msgid "Recording title and separator"
-msgstr ""
+msgstr "Kayıt başlığı ve ayırıcı"
 
 msgid "Recording title separator"
-msgstr ""
+msgstr "Kayıt başlığı ayırıcısı"
 
 msgid "Recording tuning failed"
 msgstr "Kayıt ayarı başarısız oldu"
@@ -16827,13 +16829,13 @@ msgid "Refresh every"
 msgstr "Yenileme zamanı"
 
 msgid "Refresh library"
-msgstr ""
+msgstr "Kitaplığı yenile"
 
 msgid "Refresh list of RTL-SDR USB tuners"
 msgstr "RTL-SDR USB tuner listesini yenile"
 
 msgid "Refresh movie folder"
-msgstr ""
+msgstr "Film klasörünü yenile"
 
 msgid "Refresh rate"
 msgstr "Yenileme hızı"
@@ -16868,16 +16870,16 @@ msgid "Relative"
 msgstr "Bağıl"
 
 msgid "Relative date"
-msgstr ""
+msgstr "Göreceli tarih"
 
 msgid "Release Notes"
 msgstr "Sürüm Notları"
 
 msgid "Release date"
-msgstr ""
+msgstr "Yayın tarihi"
 
 msgid "Release year"
-msgstr ""
+msgstr "Yayın yılı"
 
 msgid "Relevant PIDs Routing"
 msgstr "İlgili PID Yönlendirme"
@@ -16943,7 +16945,7 @@ msgid "Remember last service in PiP"
 msgstr "PiP'de son kanalı hatırla"
 
 msgid "Remember play queue"
-msgstr ""
+msgstr "Çalma sırasını hatırla"
 
 msgid "Remember service PIN"
 msgstr "Kanal PIN kodunu hatırla"
@@ -17081,7 +17083,7 @@ msgid "Remove all user interface data"
 msgstr "Tüm kullanıcı arayüzü verilerini kaldır"
 
 msgid "Remove chapter markers (keep cuts and resume position)"
-msgstr ""
+msgstr "Bölüm işaretlerini kaldır (kesimleri ve kaldığın yeri koru)"
 
 msgid "Remove completed timers after"
 msgstr "Biten zamanlayıcıları kaldır"
@@ -17094,19 +17096,19 @@ msgid "Remove currently selected title"
 msgstr "Seçilen geçerli başlığı kaldır"
 
 msgid "Remove from queue"
-msgstr ""
+msgstr "Sıradan kaldır"
 
 msgid "Remove highlighted directory from bookmarks"
 msgstr "Seçilen klasörü yer imlerinden kaldır"
 
 msgid "Remove orphaned movie companion files"
-msgstr ""
+msgstr "Sahipsiz film eşlik dosyalarını kaldır"
 
 msgid "Remove previously stored services from scanned DAB+ multiplexes. Disable this option to retain services when a multiplex is temporarily unavailable."
 msgstr "Taranan DAB+ çoklu yayınlarından önceden kaydedilmiş kanalları kaldırın. Bir çoklu yayın geçici olarak kullanılamadığında kanalları korumak için bu seçeneği devre dışı bırakın."
 
 msgid "Remove selected movies from collection"
-msgstr ""
+msgstr "Seçilen filmleri koleksiyondan kaldır"
 
 msgid "Remove service from AutoCam"
 msgstr "AutoCam içinden kanalı kaldır"
@@ -17153,7 +17155,7 @@ msgstr "Yeniden isimlendir"
 
 #, python-format
 msgid "Rename %(count)d movies with their companion files? %(skipped)d unchanged or incomplete entries were skipped."
-msgstr ""
+msgstr "%(count)d filmi tamamlayıcı dosyalarıyla yeniden adlandırılsın mı? %(skipped)d değiştirilmemiş veya eksik giriş atlandı."
 
 msgid "Rename Directory"
 msgstr "Dizini Yeniden İsimlendir"
@@ -17166,7 +17168,7 @@ msgid "Rename all related files"
 msgstr "İlgili tüm dosyaları yeniden isimlendir"
 
 msgid "Rename collection"
-msgstr ""
+msgstr "Koleksiyonu yeniden adlandır"
 
 msgid "Rename directory/file"
 msgstr "Dizini/dosyayı yeniden isimlendir"
@@ -17175,7 +17177,7 @@ msgid "Rename failed!"
 msgstr "Yeniden isimlendirme başarısız oldu!"
 
 msgid "Rename movie file and companion files"
-msgstr ""
+msgstr "Film dosyasını ve ilişkili dosyaları yeniden adlandır"
 
 msgid "Rename name and description for new events"
 msgstr "Yeni etkinlikler için isim ve açıklamayı yeniden isimlendir"
@@ -17489,7 +17491,7 @@ msgid "Restore backups"
 msgstr "Yedekleri Geri Yükle"
 
 msgid "Restore previous playback position"
-msgstr ""
+msgstr "Önceki oynatma konumunu geri yükle"
 
 msgid "Restore settings from a backup"
 msgstr "Ayarları bir yedeklemeden geri yükle"
@@ -17501,7 +17503,7 @@ msgid "Restore the highlighted slot"
 msgstr "Vurgulanan yuvayı geri yükle"
 
 msgid "Restore to original location"
-msgstr ""
+msgstr "Orijinal konumuna geri yükle"
 
 #
 msgid "Restore your %s %s settings."
@@ -17589,7 +17591,7 @@ msgid "Return to previous service"
 msgstr "Önceki kanala geri dön"
 
 msgid "Reuse recently read folders for this duration. The cache is limited to 32 folders and 10000 entries. Refresh from the context menu to see external changes immediately."
-msgstr ""
+msgstr "Yakın zamanda okunmuş klasörleri bu süre boyunca yeniden kullanın. Önbellek, 32 klasör ve 10.000 kayıtla sınırlıdır. Dış değişiklikleri anında görmek için içerik menüsünden yenileme yapın."
 
 msgid "Reverse bouquet buttons"
 msgstr "Buket tuşlarını tersine çevir"
@@ -17601,7 +17603,7 @@ msgid "Review"
 msgstr "Gözden geçir"
 
 msgid "Review last maintenance scan"
-msgstr ""
+msgstr "Son bakım taramasını gözden geçir"
 
 msgid "Rewind"
 msgstr "Geri sar"
@@ -17751,7 +17753,7 @@ msgid "Running only"
 msgstr "Sadece çalışıyor"
 
 msgid "Runtime"
-msgstr ""
+msgstr "Çalışma zamanı"
 
 #
 msgid "Russian"
@@ -17878,7 +17880,7 @@ msgid "Samoan"
 msgstr "Samoaca"
 
 msgid "Sample rate"
-msgstr ""
+msgstr "Örnekleme hızı"
 
 msgid "San Marino"
 msgstr "San Marino"
@@ -17983,7 +17985,7 @@ msgid "Save and stop"
 msgstr "Kaydet ve durdur"
 
 msgid "Save available movie information beside video files, including MKV. Existing EIT files are kept. Automatic creation applies to selected files in the folder view; database browsing does not write to sleeping storage."
-msgstr ""
+msgstr "Mevcut film bilgilerini MKV dosyaları da dahil olmak üzere video dosyalarının yanına kaydedin. Mevcut EIT dosyaları korunur. Otomatik oluşturma, klasör görünümünde seçili dosyalara uygulanır; veritabanı taraması uyku moduna geçmez."
 
 #
 msgid "Save directory on EXIT"
@@ -18008,7 +18010,7 @@ msgid "Save play list on EXIT"
 msgstr "Çıkışta oynatma listesini kaydet"
 
 msgid "Save queue as M3U playlist"
-msgstr ""
+msgstr "Sırayı M3U çalma listesi olarak kaydet"
 
 msgid "Save right directory on exit"
 msgstr "Çıkışta sağ dizini kaydet"
@@ -18029,7 +18031,7 @@ msgid "Save the log of the console messages to a file"
 msgstr "Konsol mesajlarının günlüğünü bir dosyaya kaydet"
 
 msgid "Save the previous playback position and movie duration in the standard .cuts file."
-msgstr ""
+msgstr "Önceki oynatma konumunu ve film süresini standart .cuts dosyasına kaydedin."
 
 msgid "Save the right column directory location on exit."
 msgstr "Çıkışta sağ sütun dizin konumunu kaydedin."
@@ -18110,7 +18112,7 @@ msgid "Scan additional SR"
 msgstr "Ek SR taraması yap"
 
 msgid "Scan cancelled or folder limit reached."
-msgstr ""
+msgstr "Tarama iptal edildi veya klasör sınırına ulaşıldı."
 
 #
 msgid "Scan files..."
@@ -18127,7 +18129,7 @@ msgid "Scan for terrestrial LCNs and create LCN bouquets"
 msgstr "Karasal LCN'leri tarayın ve LCN buketleri oluşturun"
 
 msgid "Scan movie folders"
-msgstr ""
+msgstr "Film klasörlerini tara"
 
 msgid "Scan region"
 msgstr "Tarama bölgesi"
@@ -18169,7 +18171,7 @@ msgid "Scanning for shares..."
 msgstr "Paylaşımlar taranıyor..."
 
 msgid "Scanning movie folders in the background"
-msgstr ""
+msgstr "Film klasörleri arka planda taranıyor"
 
 msgid "Scanning swap devices..."
 msgstr "Takas aygıtları taranıyor..."
@@ -18237,7 +18239,7 @@ msgid "Scope"
 msgstr "Kapsam"
 
 msgid "Screen layout"
-msgstr ""
+msgstr "Ekran düzeni"
 
 msgid "Screen saver mode"
 msgstr "Ekran koruyucu modu"
@@ -18246,7 +18248,7 @@ msgid "Screen saver movement"
 msgstr "Ekran koruyucu hareketi"
 
 msgid "Screen style"
-msgstr ""
+msgstr "Ekran stili"
 
 msgid "Script Manager"
 msgstr "Komut Dosyası Yöneticisi"
@@ -18255,10 +18257,10 @@ msgid "ScriptRunner"
 msgstr "Komut Dosyası Çalıştırıcısı"
 
 msgid "Scroll down"
-msgstr ""
+msgstr "Aşağı kaydır"
 
 msgid "Scroll up"
-msgstr ""
+msgstr "Yukarı kaydır"
 
 msgid "Scrolling Speed"
 msgstr "Kaydırma Hızı"
@@ -18292,7 +18294,7 @@ msgid "Search in the current view"
 msgstr "Geçerli görünümde ara"
 
 msgid "Search movie library"
-msgstr ""
+msgstr "Film kütüphanesinde ara"
 
 msgid "Search packages by name or description"
 msgstr "Paketleri isme veya açıklamaya göre ara"
@@ -18317,17 +18319,17 @@ msgstr "Batı aranıyor..."
 
 #, python-format
 msgid "Season %(season)s · Episode %(episode)s"
-msgstr ""
+msgstr "%(season)s. Sezon · %(episode)s. Bölüm"
 
 #, python-format
 msgid "Season %d"
-msgstr ""
+msgstr "%d. Sezon"
 
 msgid "Season and episode"
-msgstr ""
+msgstr "Sezon ve bölüm"
 
 msgid "Season unknown"
-msgstr ""
+msgstr "Sezon bilinmiyor"
 
 msgid "Second cable of motorized LNB"
 msgstr "Motorlu LNB'nin ikinci kablosu"
@@ -18762,7 +18764,7 @@ msgid "Select a bouquet"
 msgstr "Bir buket seç"
 
 msgid "Select a connected HDD or USB device for the picons."
-msgstr ""
+msgstr "Pikonlar için bağlı bir HDD veya USB aygıtı seçin."
 
 msgid "Select a debug log file to view:"
 msgstr "Görüntülemek için bir hata ayıklama günlük dosyası seçin:"
@@ -18792,10 +18794,10 @@ msgid "Select a duration to be added to the streaming buffer after a streaming e
 msgstr "Akış hatasından sonra akış arabelleğine eklenecek süreyi girin. Bu ek arabellek, arabellek alanı yetersizliğinden kaynaklanan diğer akış sorunlarının önlenmesine yardımcı olabilir."
 
 msgid "Select a folder to show again. This does not change database scan paths."
-msgstr ""
+msgstr "Yeniden görüntülemek için bir klasör seçin. Bu işlem, veritabanı tarama yollarını değiştirmez."
 
 msgid "Select a list or grid style. Text styles also work without a movie database. Poster styles require an installed metadata provider. Select legacy mode to use the existing list settings."
-msgstr ""
+msgstr "Bir liste veya ızgara stili seçin. Metin stilleri, bir film veritabanı olmadan da çalışır. Poster stilleri ise yüklü bir meta veri sağlayıcısı gerektirir. Mevcut liste ayarlarını kullanmak için eski (legacy) modu seçin."
 
 #, python-format
 msgid "Select a location into which to extract '%s':"
@@ -18811,10 +18813,10 @@ msgid "Select a movie"
 msgstr "Bir film seç"
 
 msgid "Select a movie folder outside the trashcan."
-msgstr ""
+msgstr "Çöp kutusunun dışında bir film klasörü seçin."
 
 msgid "Select a movie information bar supplied by the skin."
-msgstr ""
+msgstr "Arayüz tarafından sunulan bir film bilgi çubuğu seçin."
 
 msgid "Select a network adapter"
 msgstr "Bir ağ bağdaştırıcısı seçin"
@@ -18878,16 +18880,16 @@ msgid "Select all lines"
 msgstr "Tüm satırları seç"
 
 msgid "Select all movies in this list"
-msgstr ""
+msgstr "Bu listedeki tüm filmleri seçin"
 
 msgid "Select all movies on this page"
-msgstr ""
+msgstr "Bu sayfadaki tüm filmleri seçin"
 
 msgid "Select all related files"
 msgstr "İlgili tüm dosyaları seçin"
 
 msgid "Select an absolute playlist path."
-msgstr ""
+msgstr "Mutlak bir çalma listesi yolu seçin."
 
 msgid "Select an action for the current device"
 msgstr "Geçerli cihaz için bir işlem seçin"
@@ -18926,7 +18928,7 @@ msgstr "Varsayılan File Commander dizinini seçin:"
 
 #, python-format
 msgid "Select destination for %d movies"
-msgstr ""
+msgstr "%d film için hedef seçin"
 
 msgid "Select destination for:"
 msgstr "Hedefi seçin:"
@@ -19059,23 +19061,23 @@ msgid "Select last browsed service"
 msgstr "En son görüntülenen kanalı seç"
 
 msgid "Select maintenance candidates"
-msgstr ""
+msgstr "Bakım adaylarını seçin"
 
 #
 msgid "Select movie"
 msgstr "Bir film seçin"
 
 msgid "Select movie information or artwork for the receiver display. Small displays fall back to a text layout."
-msgstr ""
+msgstr "Alıcı ekranı için film bilgilerini veya resmi seçin. Küçük ekranlar bir metin düzenine geri döner."
 
 msgid "Select movies inside or outside the trashcan separately."
-msgstr ""
+msgstr "Çöp kutusunun içindeki veya dışındaki filmleri ayrı olarak seçin."
 
 msgid "Select one movie to edit its information."
-msgstr ""
+msgstr "Bilgilerini düzenlemek için bir film seçin."
 
 msgid "Select one movie to rename its file."
-msgstr ""
+msgstr "Dosyasını yeniden adlandırmak için bir film seçin."
 
 msgid "Select only highlighted file"
 msgstr "Yalnızca vurgulanan dosyayı seçin"
@@ -19363,7 +19365,7 @@ msgid "Select the end time before which this timer can be activated. After this 
 msgstr "Bu zamanlayıcının etkinleştirilebileceği bitiş zamanını seçin. Bu zamandan sonra, diğer koşullar sağlansa bile zamanlayıcı etkinleştirilmeyecektir."
 
 msgid "Select the existing movie player behavior for the EXIT button."
-msgstr ""
+msgstr "ÇIKIŞ tuşu için mevcut film oynatıcı davranışını seçin."
 
 msgid "Select the fast scan provider and press BLUE to start the scan."
 msgstr "Hızlı tarama sağlayıcısını seçin ve taramayı başlatmak için MAVİ tuşa basın."
@@ -19398,7 +19400,7 @@ msgid "Select the initial position of the timeline marker. The marker is the ver
 msgstr "Zaman çizelgesi işaretçisinin başlangıç konumunu seçin. İşaretçi, EPG üzerinde çizilen ve geçerli zamanı gösteren dikey çizgidir. Değer ne kadar büyük olursa, işaretçi o kadar sağa doğru hareket ederek daha fazla geçmiş etkinlik ve daha az gelecek etkinliği gösterecektir."
 
 msgid "Select the initial view when a movie database is enabled. The View action switches between local folders and the movie library."
-msgstr ""
+msgstr "Film veritabanı etkinleştirildiğinde kullanılacak başlangıç görünümünü seçin. Görünüm eylemi, yerel klasörler ile film kitaplığı arasında geçiş yapar."
 
 msgid "Select the input connector you want to use."
 msgstr "Kullanmak istediğiniz giriş konektörünü seçin."
@@ -19458,14 +19460,14 @@ msgid "Select the mountpoint for the device."
 msgstr "Cihazın bağlantı noktasını seçin."
 
 msgid "Select the movie folder to scan, including subfolders"
-msgstr ""
+msgstr "Alt klasörler dahil olmak üzere, taranacak film klasörünü seçin"
 
 #
 msgid "Select the movie path"
 msgstr "Film yolunu seçin"
 
 msgid "Select the movie selection screen layout supplied by the skin."
-msgstr ""
+msgstr "Arayüz tarafından sunulan film seçim ekranı düzenini seçin."
 
 msgid "Select the network data rate below which the timer should activate as specified. Traffic above this rate with deactivate the timer."
 msgstr "Belirtilen zamanlayıcının etkinleşmesi için gerekli ağ veri hızını seçin. Bu hızın üzerindeki trafik zamanlayıcıyı devre dışı bırakacaktır."
@@ -19686,7 +19688,7 @@ msgid "Select video output port with UP/DOWN buttons"
 msgstr "YUKARI/AŞAĞI tuşları ile görüntü çıkış portunu seçin"
 
 msgid "Select view and sorting for this movie list"
-msgstr ""
+msgstr "Bu film listesi için görünüm ve sıralama seçin"
 
 msgid "Select what action to take when reaching the end of a media file during playback."
 msgstr "Oynatma sırasında medya dosyasının sonuna ulaşıldığında hangi işlemin yapılacağını seçin."
@@ -19902,13 +19904,13 @@ msgid "Serial number"
 msgstr "Seri numarası"
 
 msgid "Series"
-msgstr ""
+msgstr "Diziler"
 
 msgid "Series episode sort order"
-msgstr ""
+msgstr "Dizi bölümü sıralama düzeni"
 
 msgid "Series information and episode numbers"
-msgstr ""
+msgstr "Dizi bilgileri ve bölüm numaraları"
 
 msgid "Serious Classical"
 msgstr "Önemli Klasikler"
