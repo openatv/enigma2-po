@@ -12,15 +12,15 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 21:27+0000\n"
-"PO-Revision-Date: 2026-11-05 13:00+0000\n"
-"Last-Translator: Jiří Engelthaler <engycz@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-11-27 13:51+0000\n"
+"Last-Translator: Petr Turek <turekdesign99@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.11.2.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 msgid ""
 "\n"
@@ -106,7 +106,7 @@ msgstr "# = Pokud se tato položka změní, je nutný restart."
 
 #, python-format
 msgid "%(title)s (%(count)d)"
-msgstr ""
+msgstr "%(titul)s (%(počet)d)"
 
 msgid "%-H:%M"
 msgstr "%-H:%M"
@@ -336,7 +336,7 @@ msgstr "%d min"
 
 #, python-format
 msgid "%d min recorded"
-msgstr ""
+msgstr "Zaznamenáno %d minut"
 
 #, python-format
 msgid "%d minutes"
@@ -344,11 +344,11 @@ msgstr "%d minut"
 
 #, python-format
 msgid "%d movies"
-msgstr ""
+msgstr "%d filmů"
 
 #, python-format
 msgid "%d movies selected"
-msgstr ""
+msgstr "Vybráno %d filmů"
 
 #, python-format
 msgid "%d ms"
@@ -363,7 +363,7 @@ msgstr[2] "Nalezeno %d sítí."
 
 #, python-format
 msgid "%d new"
-msgstr ""
+msgstr "%d nových"
 
 #, python-format
 msgid "%d obsolete manufacturer STARTUP files will be replaced or removed."
@@ -834,7 +834,7 @@ msgid "1"
 msgstr "1"
 
 msgid "1 minute"
-msgstr ""
+msgstr "1 minuta"
 
 msgid "1. (Highest)"
 msgstr "1. (Nejvyšší)"
@@ -1044,7 +1044,7 @@ msgid "A crash log was %s created in '%s'"
 msgstr "V '%s' byl vytvořen protokol o selhání %s"
 
 msgid "A destination file already exists. No files were overwritten."
-msgstr ""
+msgstr "Cílový soubor již existuje. Žádné soubory nebyly přepsány."
 
 #, python-format
 msgid ""
@@ -1081,16 +1081,16 @@ msgid "A highlight on the remote control image shows which button the help refer
 msgstr "Zvýraznění na obrázku dálkového ovladače ukazuje, kterého tlačítka se nápověda týká. Pokud uvedenou funkci vykonává více než jedno tlačítko, zobrazí se více než jedno zvýraznění. V textu pod seznamem jsou uvedena aktivní tlačítka a informace o tom, zda funkce vyžaduje dlouhé stisknutí nebo stisknutí tlačítka (tlačítek) SHIFT."
 
 msgid "A mount point or a folder containing mounted filesystems cannot be moved to the trashcan."
-msgstr ""
+msgstr "Přípojný bod nebo složku obsahující připojené souborové systémy nelze přesunout do koše."
 
 msgid "A movie companion file is a symbolic link."
-msgstr ""
+msgstr "Doprovodný soubor filmu je symbolický odkaz."
 
 msgid "A movie filename cannot be represented in M3U format."
-msgstr ""
+msgstr "Název filmového souboru nelze reprezentovat ve formátu M3U."
 
 msgid "A movie maintenance scan is already running. Its progress is shown in Tasks."
-msgstr ""
+msgstr "Probíhá údržba filmu. Její průběh je zobrazen v části Úkoly."
 
 msgid "A new storage device has been connected:"
 msgstr "Bylo připojeno nové úložné zařízení:"
@@ -1362,7 +1362,7 @@ msgid "Active only"
 msgstr "Pouze aktivní"
 
 msgid "Actor"
-msgstr ""
+msgstr "Herec"
 
 msgid "Adapter"
 msgstr "Adaptér"
@@ -1547,10 +1547,10 @@ msgid "Add recording (Stop after current event)"
 msgstr "Přidat nahrávání (ukončit po současné události)"
 
 msgid "Add selected movies"
-msgstr ""
+msgstr "Přidat vybrané filmy"
 
 msgid "Add selected movies to the play queue"
-msgstr ""
+msgstr "Přidat vybrané filmy do fronty přehrávání"
 
 msgid "Add service"
 msgstr "Přidat program"
@@ -1632,7 +1632,7 @@ msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Upravte svislou polohu písmen používaných pro teletext."
 
 msgid "Adjust times to EPG"
-msgstr ""
+msgstr "Úprava časů podle EPG"
 
 msgid "Adult"
 msgstr "Pro dospělé"
@@ -1647,7 +1647,7 @@ msgid "Adult movie/Drama"
 msgstr "pro dospělé/drama"
 
 msgid "Advance Movie List"
-msgstr ""
+msgstr "Předběžný seznam filmů"
 
 msgid "Advanced"
 msgstr "Rozšířený"
@@ -1707,7 +1707,7 @@ msgid "After zap"
 msgstr "Po přepnutí"
 
 msgid "Age rating"
-msgstr ""
+msgstr "Věkové omezení"
 
 msgid "Aggregate data only"
 msgstr "Odesílají se pouze souhrnná (anonymní) data"
@@ -1762,10 +1762,10 @@ msgid "All data on the selected device will be erased. Create one shared data pa
 msgstr "Všechna data na vybraném zařízení budou smazána. Vytvořit jeden sdílený datový oddíl s %d dalšími sloty MultiBoot, odkládacím oddílem o velikosti 512 MiB a interním jádrem ve slotu 1?"
 
 msgid "All dates"
-msgstr ""
+msgstr "Všechna data"
 
 msgid "All episodes"
-msgstr ""
+msgstr "Všechny epizody"
 
 msgid "All events down"
 msgstr "všechny události dolů"
@@ -1777,13 +1777,13 @@ msgid "All files"
 msgstr "Všechny soubory"
 
 msgid "All media"
-msgstr ""
+msgstr "Všechna média"
 
 msgid "All movie files"
-msgstr ""
+msgstr "Všechny filmové soubory"
 
 msgid "All movie folders"
-msgstr ""
+msgstr "Všechny složky s filmy"
 
 msgid "All packages"
 msgstr "Všechny balíčky"
@@ -1825,7 +1825,7 @@ msgid "Allow %s-bit"
 msgstr "Povolit %s-bit"
 
 msgid "Allow duplicate recordings"
-msgstr ""
+msgstr "Povolit duplicitní nahrávky"
 
 msgid "Allow guest access"
 msgstr "Povolit přístup hostům"
@@ -1957,7 +1957,7 @@ msgid "Always use smart1080p mode"
 msgstr "Vždy použít chytrý režim 1080p pro"
 
 msgid "Ambiguous companion file names."
-msgstr ""
+msgstr "Nejednoznačné názvy doprovodných souborů."
 
 msgid "American Samoa"
 msgstr "Americká Samoa"
@@ -2052,7 +2052,7 @@ msgstr "Clonové číslo F"
 
 #, python-format
 msgid "Apply '%(action)s' to %(count)d selected movies?"
-msgstr ""
+msgstr "Použít '%(action)s' na %(count)d vybraných filmů?"
 
 msgid "Apply any changes to the active locale/language and exit"
 msgstr "Použít změny pro aktivaci národní prostředí/jazyka a ukončit"
@@ -2210,7 +2210,7 @@ msgid "Ask for confirmation before moving individual files to the trashcan. Fold
 msgstr "Před přesunutím jednotlivých souborů do koše si vyžádejte potvrzení. Potvrzení smazání složek a trvalého smazání zůstávají nezměněna."
 
 msgid "Ask to switch to the recording channel"
-msgstr ""
+msgstr "Požádat o přepnutí na nahrávací kanál"
 
 msgid "Ask user"
 msgstr "Zeptat se"
@@ -2275,7 +2275,7 @@ msgid "At end: %s"
 msgstr "Na konci: %s"
 
 msgid "At the end of a running recording"
-msgstr ""
+msgstr "Na konci běžící nahrávky"
 
 msgid "Athletics"
 msgstr "Atletika"
@@ -2321,13 +2321,13 @@ msgid "Audio bit rate"
 msgstr "Přenosová rychlost zvuku"
 
 msgid "Audio channels"
-msgstr ""
+msgstr "Zvukové kanály"
 
 msgid "Audio decoding"
 msgstr "Dekódování zvuku"
 
 msgid "Audio description"
-msgstr ""
+msgstr "Zvukový popis"
 
 msgid "Audio language selection 1"
 msgstr "Volba jazyka zvuku 1"
@@ -2444,7 +2444,7 @@ msgid "Automatic gain"
 msgstr "Automatické zesílení"
 
 msgid "Automatic preview delay (ms)"
-msgstr ""
+msgstr "Zpoždění automatického náhledu (ms)"
 
 msgid "Automatic resolution"
 msgstr "Automatické rozlišení"
@@ -2711,7 +2711,7 @@ msgid "Begin time"
 msgstr "Čas začátku"
 
 msgid "Beginning"
-msgstr ""
+msgstr "Začátek"
 
 msgid "Behave like STOP button"
 msgstr "Chovat se jako tlačítko stop"
@@ -2850,7 +2850,7 @@ msgstr "Záložka byla odstraněna."
 
 #, python-format
 msgid "Bookmark: %s"
-msgstr ""
+msgstr "Záložka: %s"
 
 msgid "Bookmarks"
 msgstr "Záložky"
@@ -2984,7 +2984,7 @@ msgid "Browse"
 msgstr "Procházet"
 
 msgid "Browse grouped movies and series or all indexed movie files without reading movie storage."
-msgstr ""
+msgstr "Procházet seskupené filmy a seriály nebo všechny indexované filmové soubory bez nutnosti čtení filmového úložiště."
 
 msgid "Browse, install or remove plugins on a one by one basis."
 msgstr "Procházejte, instalujte nebo odeberte pluginy jeden po druhém."
@@ -3255,7 +3255,7 @@ msgid "Cable input"
 msgstr "Kabelový vstup"
 
 msgid "Cache file lists"
-msgstr ""
+msgstr "Seznamy souborů mezipaměti"
 
 msgid "Cache thumbnails"
 msgstr "Uchovat náhledy ve vyrovnávací paměti"
@@ -3264,7 +3264,7 @@ msgid "Cached"
 msgstr "Uloženo do mezipaměti"
 
 msgid "Cached folder · refresh from the menu"
-msgstr ""
+msgstr "Složka v mezipaměti · obnovit z nabídky"
 
 msgid "Calculate"
 msgstr "Výpočet"
@@ -3503,7 +3503,7 @@ msgid "Cancelled upon user request"
 msgstr "Na žádost uživatele zrušeno"
 
 msgid "Cannot create a trashcan on this mounted filesystem. No files were deleted."
-msgstr ""
+msgstr "Na tomto připojeném souborovém systému nelze vytvořit koš. Nebyly smazány žádné soubory."
 
 msgid "Cannot delete file"
 msgstr "Soubor nelze smazat"
@@ -3517,10 +3517,10 @@ msgid "Cannot find any signal ..., aborting!"
 msgstr "Nelze najít žádný signál ..., končím!"
 
 msgid "Capacity unit range"
-msgstr ""
+msgstr "Rozsah kapacity zařízení"
 
 msgid "Capacity units (CU)"
-msgstr ""
+msgstr "Kapacita zařízení (CU)"
 
 msgid "Cape Verde"
 msgstr "Kapverdy"
@@ -3560,7 +3560,7 @@ msgid "Case sensitive"
 msgstr "Rozlišuje velká a malá písmena"
 
 msgid "Cast"
-msgstr ""
+msgstr "Obsazení"
 
 msgid "Catalan / Valencian"
 msgstr "Katalánština / Valencie"
@@ -3728,7 +3728,7 @@ msgid "Channel down"
 msgstr "Kanál dolu"
 
 msgid "Channel layout"
-msgstr ""
+msgstr "Rozvržení kanálů"
 
 msgid "Channel list cursor behavior"
 msgstr "Chování kurzoru v seznamu kanálů"
@@ -3785,7 +3785,7 @@ msgid "Chapter"
 msgstr "Kapitola"
 
 msgid "Chapter markers and playback position"
-msgstr ""
+msgstr "Značky kapitol a pozice přehrávání"
 
 msgid "Character device"
 msgstr "Charakter zařízení"
@@ -3914,19 +3914,19 @@ msgid "Choose a label that will identify this device within IceTV services."
 msgstr "Vyberte štítek, který bude toto zařízení identifikovat ve službách IceTV."
 
 msgid "Choose all indexed or scanned folders, the default movie location, or the current folder including subfolders. Hidden folders are excluded."
-msgstr ""
+msgstr "Vyberte všechny indexované nebo naskenované složky, výchozí umístění filmu nebo aktuální složku včetně podsložek. Skryté složky jsou vyloučeny."
 
 msgid "Choose how often to connect to IceTV server to check for updates."
 msgstr "Zvolte, jak často se chcete připojovat k serveru IceTV pro kontrolu aktualizací."
 
 msgid "Choose season and episode order, title, recording date, release year or rating."
-msgstr ""
+msgstr "Vyberte pořadí série a epizod, název, datum nahrávání, rok vydání nebo hodnocení."
 
 msgid "Choose the amount of additional slots."
 msgstr "Zvolte počet dalších slotů."
 
 msgid "Choose the default sorting for this collection. The temporary view menu can override it."
-msgstr ""
+msgstr "Vyberte výchozí řazení pro tuto kolekci. Dočasné zobrazení v nabídce jej může přepsat."
 
 msgid "Choose the fallback font."
 msgstr "Vyberte záložní font."
@@ -4004,10 +4004,10 @@ msgid "Classic Rock"
 msgstr "Klasický rock"
 
 msgid "Classic movie list (EMC)"
-msgstr ""
+msgstr "Klasický seznam filmů (EMC)"
 
 msgid "Classic movie list with description (EMC)"
-msgstr ""
+msgstr "Klasický seznam filmů s popisem (EMC)"
 
 msgid "Classical"
 msgstr "Klasika"
@@ -4046,19 +4046,19 @@ msgid "Clear before scan"
 msgstr "Před hledáním smazat"
 
 msgid "Clear filters"
-msgstr ""
+msgstr "Vymazat filtry"
 
 msgid "Clear fixed"
 msgstr "Uvolnit adresu"
 
 msgid "Clear movie selection"
-msgstr ""
+msgstr "Vymazat výběr filmů"
 
 msgid "Clear play list"
 msgstr "Vymazat seznam přehrávání"
 
 msgid "Clear play queue"
-msgstr ""
+msgstr "Vymazat frontu přehrávání"
 
 msgid "Clear search"
 msgstr "Vymazat vyhledávání"
@@ -4217,7 +4217,7 @@ msgid "Colorimetry for HDR content"
 msgstr "Kolorimetrie pro HDR obsah"
 
 msgid "Combine series or matching recording titles in the view. Movie files stay in their original locations. Grouping can be disabled for individual folders from the context menu."
-msgstr ""
+msgstr "Sloučit v zobrazení názvy seriálů nebo odpovídajících nahrávek. Soubory filmů zůstanou v původním umístění. Seskupování lze pro jednotlivé složky zakázat v kontextové nabídce."
 
 msgid "Combined"
 msgstr "Kombinovaný"
@@ -4296,10 +4296,10 @@ msgid "Comoros"
 msgstr "Komory"
 
 msgid "Compact list"
-msgstr ""
+msgstr "Kompaktní seznam"
 
 msgid "Companion files are shared by multiple media files. Rename or move the variants separately after resolving their companion files."
-msgstr ""
+msgstr "Doprovodné soubory sdílí více mediálních souborů. Po vyřešení doprovodných souborů varianty přejmenujte nebo přesuňte samostatně."
 
 msgid "Compatibility And Emulation"
 msgstr "Kompatibilita a emulace"
@@ -4315,7 +4315,7 @@ msgstr "Zálohovat Image"
 
 #, python-format
 msgid "Completed: %(done)d of %(total)d movies"
-msgstr ""
+msgstr "Dokončeno: %(hone)d z %(celkem)d filmů"
 
 msgid "Complex (allows mixing audio tracks and aspects)"
 msgstr "Komplexní (umožňuje míchat audio stopy a zobrazení)"
@@ -4510,10 +4510,10 @@ msgid "Configure the end coordinate in y of the teletext display area."
 msgstr "Nakonfigurujte koncovou souřadnici v y oblasti zobrazení teletextu."
 
 msgid "Configure the existing movie player resume behavior."
-msgstr ""
+msgstr "Nakonfigurujte stávající chování pro obnovení přehrávače videa."
 
 msgid "Configure the existing movie player stop action."
-msgstr ""
+msgstr "Nakonfigurujte existující akci zastavení přehrávače videa."
 
 msgid "Configure the first audio language (highest priority)."
 msgstr "Nastavuje první jazyk zvuku (nejvyšší priorita)."
@@ -4835,7 +4835,7 @@ msgid "Contacting IceTV server and setting up your %s %s."
 msgstr "Kontaktování serveru IceTV a nastavení vašeho %s %s."
 
 msgid "Container"
-msgstr ""
+msgstr "Kontejner"
 
 msgid "Content"
 msgstr "Obsah"
@@ -4853,7 +4853,7 @@ msgid "Continue in background"
 msgstr "Pokračovat na pozadí"
 
 msgid "Continue in the last direction"
-msgstr ""
+msgstr "Pokračujte v posledním směru"
 
 msgid "Continue playback"
 msgstr "Pokračovat v přehrávání"
@@ -4865,7 +4865,7 @@ msgid "Continue to run the task in the background"
 msgstr "Pokračovat ve spuštění úlohy na pozadí"
 
 msgid "Continue watching"
-msgstr ""
+msgstr "Pokračovat ve sledování"
 
 msgid "Continue with package download and installation"
 msgstr "Pokračujte ve stahování a instalaci balíčku"
@@ -5050,7 +5050,7 @@ msgstr ""
 "Chcete nastavení znovu změnit?"
 
 msgid "Countries"
-msgstr ""
+msgstr "Země"
 
 msgid "Country"
 msgstr "Země"
@@ -5135,10 +5135,10 @@ msgid "Create kernel dump."
 msgstr "Vytvořit výpis jádra."
 
 msgid "Create missing EIT file"
-msgstr ""
+msgstr "Vytvořit chybějící soubor EIT"
 
 msgid "Create missing EIT files"
-msgstr ""
+msgstr "Vytvořit chybějící soubory EIT"
 
 msgid "Create or remove the RTL2832 DVB module blacklist. A full receiver reboot is required; while enabled, this USB tuner is available for DAB+ but not for DVB-T/T2."
 msgstr "Vytvořte nebo odstraňte černou listinu modulu RTL2832 DVB. Je vyžadován úplný restart přijímače; pokud je tento tuner povolen, je k dispozici pro DAB+, ale ne pro DVB-T/T2."
@@ -5181,7 +5181,7 @@ msgid "Create the flash expander in the selected device"
 msgstr "Vytvořit flash expandér ve vybraném zařízení"
 
 msgid "Create virtual collection"
-msgstr ""
+msgstr "Vytvořte virtuální sbírku"
 
 msgid "Create working directories."
 msgstr "Vytvořit pracovní adresáře."
@@ -5227,7 +5227,7 @@ msgid "Cree"
 msgstr "Cree"
 
 msgid "Crew"
-msgstr ""
+msgstr "Parta"
 
 msgid "Cricket"
 msgstr "Kriket"
@@ -5324,7 +5324,7 @@ msgid "Current directory (%s)"
 msgstr "Aktuální adresář (%s)"
 
 msgid "Current folder and subfolders"
-msgstr ""
+msgstr "Aktuální složka a podsložky"
 
 msgid "Current installed"
 msgstr "Aktuálně nainstalovaný"
@@ -5376,7 +5376,7 @@ msgid "Currently Remembered Volume Levels:"
 msgstr "Aktuálně uložené úrovně hlasitosti:"
 
 msgid "Cursor after marking a movie"
-msgstr ""
+msgstr "Kurzor po označení filmu"
 
 msgid "Custom"
 msgstr "Vlastní"
@@ -5413,7 +5413,7 @@ msgstr "Střih"
 
 #, python-format
 msgid "Cut %s"
-msgstr ""
+msgstr "Vyjmout %s"
 
 msgid "CutList Skipping"
 msgstr "Přeskakování seznamu střihů"
@@ -5620,10 +5620,10 @@ msgid "Darts"
 msgstr "Šipky"
 
 msgid "Database sort order"
-msgstr ""
+msgstr "Pořadí řazení databáze"
 
 msgid "Database view"
-msgstr ""
+msgstr "Zobrazení databáze"
 
 msgid "Date"
 msgstr "Datum"
@@ -5772,14 +5772,14 @@ msgid "Default left column directory"
 msgstr "Výchozí adresář levého sloupce"
 
 msgid "Default movie location"
-msgstr ""
+msgstr "Výchozí umístění filmu"
 
 #, python-format
 msgid "Default movie location (%s)"
 msgstr "Výchozí umístění filmu (%s)"
 
 msgid "Default movie location after standby"
-msgstr ""
+msgstr "Výchozí umístění filmu po pohotovostním režimu"
 
 msgid "Default movie selection location"
 msgstr "Výchozí umístění záznamů"
@@ -5791,7 +5791,7 @@ msgid "Default right column directory"
 msgstr "Výchozí adresář pravého sloupce"
 
 msgid "Default skin layout"
-msgstr ""
+msgstr "Výchozí rozvržení skinu"
 
 msgid "Default sort order for directories in the left column."
 msgstr "Výchozí pořadí řazení pro adresáře v levém sloupci."
@@ -6004,7 +6004,7 @@ msgid "Delete character under cursor or select PM times"
 msgstr "Smažte znak pod kurzorem nebo vyberte časy PM"
 
 msgid "Delete collection (keep movie files)"
-msgstr ""
+msgstr "Smazat kolekci (zachovat filmové soubory)"
 
 msgid "Delete current line"
 msgstr "Smazat aktuální řádek"
@@ -6381,7 +6381,7 @@ msgid "Disable operator profiles"
 msgstr "Zakázat profily operátora"
 
 msgid "Disable previews, start them manually, or start after resting on a movie. Automatic previews access movie storage and do not interrupt timeshift or an already playing movie."
-msgstr ""
+msgstr "Zakažte náhledy, spusťte je ručně nebo je spusťte po zastavení na filmu. Automatické náhledy přistupují k úložišti filmů a nepřerušují časový posun ani již přehrávaný film."
 
 msgid "Disable saved Wi-Fi network"
 msgstr "Zakázat uloženou síť Wi-Fi"
@@ -6494,7 +6494,7 @@ msgid "Display type"
 msgstr "Typ zobrazení"
 
 msgid "Displayed movie title"
-msgstr ""
+msgstr "Zobrazený název filmu"
 
 msgid "Distance"
 msgstr "Vzdálenost"
@@ -6881,7 +6881,7 @@ msgid "Duplicate the current line"
 msgstr "Zkopírovat aktuální řádek"
 
 msgid "Duration"
-msgstr ""
+msgstr "Trvání"
 
 msgid "During this time, the transmitter and recording destination are checked. If the destination (e.g., NAS) isn't ready in time, this time can be increased."
 msgstr "Během této doby se kontroluje vysílač a cíl nahrávání. Pokud cíl nahrávání (např. NAS) není včas připraven k nahrávání, lze tento čas prodloužit."
@@ -7078,17 +7078,17 @@ msgid "Edit current line"
 msgstr "Upravit aktuální řádek"
 
 msgid "Edit movie"
-msgstr ""
+msgstr "Upravit film"
 
 msgid "Edit play queue"
-msgstr ""
+msgstr "Upravit frontu přehrávání"
 
 #, python-format
 msgid "Edit play queue (%d movies)"
-msgstr ""
+msgstr "Upravit frontu přehrávání (%d filmů)"
 
 msgid "Edit recording information"
-msgstr ""
+msgstr "Upravit informace o nahrávce"
 
 msgid "Edit settings"
 msgstr "Upravit nastavení"
@@ -7136,7 +7136,7 @@ msgid "Edit the username."
 msgstr "Upravit uživatelské jméno."
 
 msgid "Edit title and description"
-msgstr ""
+msgstr "Upravit název a popis"
 
 msgid "Education"
 msgstr "Vzdělání"
@@ -7284,10 +7284,10 @@ msgid "Enable adapter"
 msgstr "Povolit adaptér"
 
 msgid "Enable an installed movie database in Movie Selection settings to open the library."
-msgstr ""
+msgstr "Povolte nainstalovanou databázi filmů v nastavení Výběr filmů, abyste otevřeli knihovnu."
 
 msgid "Enable an installed movie library provider for metadata, artwork and the Advance Movie List. Local folders remain available if the provider is unavailable."
-msgstr ""
+msgstr "Povolí nainstalovaného poskytovatele knihovny filmů pro metadata, grafiku a rozšířený seznam filmů. Pokud poskytovatel není k dispozici, zůstanou k dispozici místní složky."
 
 msgid "Enable and set the duration of the second InfoBar (press 'OK' twice) that may include additional information."
 msgstr "Povolit a nastavit čas trvání druhého informačním panelu (tlačítko OK dvakrát), který může obsahovat další informace o aktuálním provozu."
@@ -7612,7 +7612,7 @@ msgid "Enter a directory or process a file (play/view/edit/install/extract/run)"
 msgstr "Zadejte adresář nebo zpracujte soubor (přehrát/zobrazit/upravit/instalovat/rozbalit/spustit)"
 
 msgid "Enter a movie title."
-msgstr ""
+msgstr "Zadejte název filmu."
 
 msgid "Enter a name for this timer."
 msgstr "Zadejte název tohoto časovače."
@@ -8707,13 +8707,13 @@ msgid "File compression"
 msgstr "Komprese souborů"
 
 msgid "File information"
-msgstr ""
+msgstr "Informace o souboru"
 
 msgid "File name"
-msgstr ""
+msgstr "Název souboru"
 
 msgid "File operations require a regular movie file."
-msgstr ""
+msgstr "Operace se soubory vyžadují běžný filmový soubor."
 
 msgid "File sorting mode"
 msgstr "Režim třídění souborů"
